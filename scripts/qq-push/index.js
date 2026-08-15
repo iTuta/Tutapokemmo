@@ -198,6 +198,42 @@ function formatMessage(item) {
   ].join('\n');
 }
 
+function buildPushMessage(item, others) {
+  const lines = [formatMessage(item)];
+  if (others && others.length) {
+    const now = Math.floor(Date.now() / 1000);
+    const sorted = others
+      .slice()
+      .sort((a, b) => (a.despawnTimestamp || 0) - (b.despawnTimestamp || 0));
+    lines.push('');
+    lines.push('【当前其他明雷】');
+    sorted.forEach((other) => {
+      const info = nameById.get(other.monsterId) || {};
+      const name = info.name || other.pokemon || ('#' + other.monsterId);
+      const region = REGION_NAMES[other.region] || other.region || '';
+      const remain = Math.max(0, (other.despawnTimestamp || 0) - now);
+      const minutes = Math.round(remain / 60);
+      lines.push(
+        '• ' + name + ' #' + other.monsterId +
+        (region ? ' ' + region : '') +
+        (other.location ? ' ' + other.location : '') +
+        '（约 ' + minutes + ' 分钟）'
+      );
+    });
+  }
+  return lines.join('\n');
+}
+
+function otherActiveItems(item, list) {
+  return (list || []).filter(
+    (other) =>
+      other &&
+      other.sourceId != null &&
+      String(other.sourceId) !== String(item.sourceId) &&
+      passesFilter(other)
+  );
+}
+
 function passesFilter(item) {
   const onlyValuable = envOrConfig('SWARM_ONLY_VALUABLE', config.onlyValuable);
   if ((onlyValuable === true || onlyValuable === 'true') && !item.hasValuable) {
@@ -241,13 +277,13 @@ async function fetchCurrent() {
   return Array.isArray(data) ? data : [];
 }
 
-async function pushItem(item) {
-  const message = formatMessage(item);
+async function pushItem(item, others) {
+  const message = buildPushMessage(item, others || []);
   log('推送新明雷：', item.pokemon || item.monsterId, item.region, item.location);
   await sendMessage(message);
 }
 
-async function processPending() {
+async function processPending(list) {
   if (!pending.length) return;
   const now = Math.floor(Date.now() / 1000);
   const remaining = [];
@@ -257,7 +293,7 @@ async function processPending() {
       continue;
     }
     try {
-      await pushItem(item);
+      await pushItem(item, otherActiveItems(item, list));
       seen.add(String(item.sourceId));
     } catch (err) {
       entry.retries += 1;
@@ -289,7 +325,7 @@ async function pollOnce() {
   }
   saveSeen();
   savePending();
-  await processPending();
+  await processPending(list);
 }
 
 function startPoller() {
