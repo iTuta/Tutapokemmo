@@ -1,9 +1,7 @@
 name: 明雷报点推送
 
 on:
-  schedule:
-    # GitHub Actions 定时任务最短间隔为 5 分钟（UTC 时间）
-    - cron: '*/5 * * * *'
+  # 仅由外部定时服务（cron-job.org）通过 workflow_dispatch 触发，避免与 GitHub schedule 重复报点
   workflow_dispatch:
 
 permissions:

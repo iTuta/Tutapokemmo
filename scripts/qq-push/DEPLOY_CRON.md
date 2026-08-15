@@ -5,8 +5,8 @@ GitHub Actions 的 `schedule`（cron）只是「尽力而为」，`*/5` 这种�
 用外部免费 cron 服务每 5 分钟调一次 GitHub 的 `workflow_dispatch` 接口 ——
 该接口触发后**立即执行**，不排队。
 
-当前仓库已保留 `schedule` 作为兜底（外部 cron 失效时 GitHub 仍会尽力推送），
-两者偶尔撞车时可能重复收到一条消息，属预期。
+当前仓库已**移除** GitHub 自带 `schedule`，仅由外部 cron 触发，避免两条通道
+撞车导致重复报点。若外部 cron 失效则推送会中断，需自行留意 cron-job.org 的任务状态。
 
 ## 结构
 

@@ -1,15 +1,15 @@
 # GitHub Actions 云端推送（免费，无需电脑常开）
 
-> **重要**：GitHub 的 `schedule` cron 只是「尽力而为」，`*/5` 会被排队延迟（实测间隔可达
-> 13~21 分钟）。想要每 5 分钟稳定推送，请按 [DEPLOY_CRON.md](DEPLOY_CRON.md) 配置外部 cron
-> 触发 `workflow_dispatch`（立即执行、不排队），`schedule` 保留作兜底。
+> **重要**：本工作流**不使用** GitHub 自带 `schedule`（会被排队延迟、且与外部 cron 撞车导致
+> 重复报点），仅由外部 cron 服务（cron-job.org）按 [DEPLOY_CRON.md](DEPLOY_CRON.md) 配置触发
+> `workflow_dispatch`（立即执行、不排队）。
 
 把明雷推送放到 GitHub 的免费定时任务里：每 5 分钟检查一次报点，有新明雷就发到企业微信群。
 电脑关机、Codex 关闭都不影响。
 
 ## 工作方式
 
-- 工作流文件：`.github/workflows/swarm-push.yml`（定时每 5 分钟 + 可手动触发）。
+- 工作流文件：`.github/workflows/swarm-push.yml`（仅 `workflow_dispatch` 触发，由外部 cron 每 5 分钟调用，也可在 GitHub 上手动触发）。
 - 推送脚本：`scripts/qq-push/index.js --once`（定时模式：每轮推送当前活跃明雷，最新报点为主报，附其他活跃清单与头目报点，地点为中文）。
 - 已推送记录：`scripts/qq-push/seen.json` 保存在仓库里，由工作流自动提交回仓库，避免重复推送。
 - Webhook 密钥：存在 GitHub 的加密 Secret 里，不会出现在代码或仓库文件中。
