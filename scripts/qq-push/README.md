@@ -28,12 +28,13 @@
 
 ```bash
 node scripts/qq-push/index.js          # 常驻运行（推荐用开机自启或计划任务）
-node scripts/qq-push/index.js --once   # 单次检查，适合定时任务（cron / GitHub Actions）
+node scripts/qq-push/index.js --once   # 定时模式（cron / GitHub Actions / 外部调度）：新增明雷单独推一条；本轮无新增时把当前活跃明雷合并成一条汇总推
 node scripts/qq-push/index.js --test   # 发送一条测试消息验证通道
 ```
 
 ## 说明
 
 - 已推送过的报点记录在 `seen.json`，重启不会重复推送；发送失败会进入 `pending.json` 自动重试。
+- 定时模式（`--once`）：有新明雷时单独推送（附当前其他活跃明雷清单）；本轮无新增时，只发一条「明雷汇总」，避免每轮重复打扰。
 - 推送内容不含外链，避免触发 QQ 消息限制。
 - 频控：群聊主动消息每个群每天最多 1000 条，明雷推送远用不满。

@@ -1,12 +1,16 @@
 # GitHub Actions 云端推送（免费，无需电脑常开）
 
+> **重要**：GitHub 的 `schedule` cron 只是「尽力而为」，`*/5` 会被排队延迟（实测间隔可达
+> 13~21 分钟）。想要每 5 分钟稳定推送，请按 [DEPLOY_CRON.md](DEPLOY_CRON.md) 配置外部 cron
+> 触发 `workflow_dispatch`（立即执行、不排队），`schedule` 保留作兜底。
+
 把明雷推送放到 GitHub 的免费定时任务里：每 5 分钟检查一次报点，有新明雷就发到企业微信群。
 电脑关机、Codex 关闭都不影响。
 
 ## 工作方式
 
 - 工作流文件：`.github/workflows/swarm-push.yml`（定时每 5 分钟 + 可手动触发）。
-- 推送脚本：`scripts/qq-push/index.js --once`（单次模式：拉取 → 去重 → 推送）。
+- 推送脚本：`scripts/qq-push/index.js --once`（定时模式：新增单独推 + 无新增时汇总当前活跃）。
 - 已推送记录：`scripts/qq-push/seen.json` 保存在仓库里，由工作流自动提交回仓库，避免重复推送。
 - Webhook 密钥：存在 GitHub 的加密 Secret 里，不会出现在代码或仓库文件中。
 
@@ -40,5 +44,5 @@
 
 - 工作流运行失败，日志提示 `missing WECHAT_WEBHOOK`：Secret 没配置或名字拼错。
 - 日志有 `微信推送失败`：webhook 地址失效（机器人被删除），重新添加后更新 Secret。
-- 报点延迟：GitHub 定时任务最短间隔 5 分钟，明雷持续 20～25 分钟，基本不会漏。
+- 报点延迟：GitHub 定时任务会被排队延迟，明雷持续 20～25 分钟基本不会漏，但想每 5 分钟准时推送请用 [DEPLOY_CRON.md](DEPLOY_CRON.md) 的外部 cron 方案。
 - 手动触发找不到工作流：确认已经 push 到默认分支（main），且 `.github/workflows/swarm-push.yml` 在仓库里。

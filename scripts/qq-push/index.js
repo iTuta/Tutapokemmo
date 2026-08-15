@@ -212,6 +212,20 @@ function formatMessage(item) {
   ].join('\n');
 }
 
+function formatActiveLine(item, now) {
+  const info = nameById.get(item.monsterId) || {};
+  const name = info.name || item.pokemon || ('#' + item.monsterId);
+  const region = REGION_NAMES[item.region] || item.region || '';
+  const remain = Math.max(0, (item.despawnTimestamp || 0) - now);
+  const minutes = Math.round(remain / 60);
+  return (
+    '• ' + name + ' #' + item.monsterId +
+    (region ? ' ' + region : '') +
+    (item.location ? ' ' + item.location : '') +
+    '（约 ' + minutes + ' 分钟）'
+  );
+}
+
 function buildPushMessage(item, others) {
   const lines = [formatMessage(item)];
   if (others && others.length) {
@@ -221,20 +235,18 @@ function buildPushMessage(item, others) {
       .sort((a, b) => (a.despawnTimestamp || 0) - (b.despawnTimestamp || 0));
     lines.push('');
     lines.push('【当前其他明雷】');
-    sorted.forEach((other) => {
-      const info = nameById.get(other.monsterId) || {};
-      const name = info.name || other.pokemon || ('#' + other.monsterId);
-      const region = REGION_NAMES[other.region] || other.region || '';
-      const remain = Math.max(0, (other.despawnTimestamp || 0) - now);
-      const minutes = Math.round(remain / 60);
-      lines.push(
-        '• ' + name + ' #' + other.monsterId +
-        (region ? ' ' + region : '') +
-        (other.location ? ' ' + other.location : '') +
-        '（约 ' + minutes + ' 分钟）'
-      );
-    });
+    sorted.forEach((other) => lines.push(formatActiveLine(other, now)));
   }
+  return lines.join('\n');
+}
+
+function buildSummaryMessage(active) {
+  const now = Math.floor(Date.now() / 1000);
+  const sorted = active
+    .slice()
+    .sort((a, b) => (a.despawnTimestamp || 0) - (b.despawnTimestamp || 0));
+  const lines = ['【明雷汇总】当前 ' + sorted.length + ' 条活跃明雷'];
+  sorted.forEach((item) => lines.push(formatActiveLine(item, now)));
   return lines.join('\n');
 }
 
@@ -322,25 +334,54 @@ async function processPending(list) {
 async function pollOnce(pushAllActive) {
   const list = await fetchCurrent();
   const now = Math.floor(Date.now() / 1000);
-  const fresh = list.filter((item) => {
-    if (!item || item.sourceId == null || !passesFilter(item)) return false;
-    if (pushAllActive) {
-      return !item.despawnTimestamp || item.despawnTimestamp > now;
+  if (!pushAllActive) {
+    const fresh = list.filter((item) => {
+      if (!item || item.sourceId == null || !passesFilter(item)) return false;
+      return !seen.has(String(item.sourceId));
+    });
+    for (const item of fresh) {
+      try {
+        await pushItem(item, otherActiveItems(item, list));
+        seen.add(String(item.sourceId));
+      } catch (err) {
+        fail('推送失败（稍后自动重试）：', err.message);
+        pending.push({ item, retries: 1 });
+      }
     }
-    return !seen.has(String(item.sourceId));
-  });
+    saveSeen();
+    savePending();
+    await processPending(list);
+    return;
+  }
+
+  const active = list.filter(
+    (item) =>
+      item &&
+      item.sourceId != null &&
+      passesFilter(item) &&
+      (!item.despawnTimestamp || item.despawnTimestamp > now)
+  );
+  const fresh = active.filter((item) => !seen.has(String(item.sourceId)));
   for (const item of fresh) {
     try {
       await pushItem(item, otherActiveItems(item, list));
       seen.add(String(item.sourceId));
     } catch (err) {
-      fail('推送失败（稍后自动重试）：', err.message);
-      if (!pushAllActive) pending.push({ item, retries: 1 });
+      fail('推送失败（下次运行自动重试）：', err.message);
+      pending.push({ item, retries: 1 });
+    }
+  }
+  if (!fresh.length && active.length) {
+    try {
+      await sendMessage(buildSummaryMessage(active));
+      log('推送定期汇总：', active.length, '条活跃明雷');
+    } catch (err) {
+      fail('汇总推送失败：', err.message);
     }
   }
   saveSeen();
   savePending();
-  if (!pushAllActive) await processPending(list);
+  await processPending(list);
 }
 
 function startPoller() {
