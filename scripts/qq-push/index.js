@@ -10,6 +10,8 @@ const PENDING_PATH = path.join(ROOT, 'pending.json');
 const DATA_FILE = path.join(ROOT, '..', '..', 'web', 'search-data.js');
 
 const POKEMOYU_API = 'https://pokemoyu.com/api/swarm-pings/current';
+const ALPHA_API = 'https://pokemoyu.com/api/alpha-pings/current';
+const ALPHA_TODAY_API = 'https://pokemoyu.com/api/alpha-pings/today';
 const TOKEN_URL = 'https://api.bot.qq.com/app/getAppAccessToken';
 const REGION_NAMES = {
   Kanto: '关都',
@@ -102,6 +104,126 @@ function loadNames() {
     fail('加载补充图鉴数据失败（不影响推送，将显示英文名）：', err.message);
   }
   log('已加载本地图鉴数据，共', nameById.size, '种宝可梦');
+  buildLocationMap();
+}
+
+const LOCATION_DIRECTIONS = {
+  East: '东侧',
+  West: '西侧',
+  North: '北侧',
+  South: '南侧',
+};
+
+const LOCATION_SUFFIXES = {
+  '???': '未知区域',
+  'Back Room': '后室',
+  Cave: '洞窟',
+  Center: '中央区域',
+  'Center Area': '中央区',
+  'Cold Room': '寒冷房间',
+  Depths: '深处',
+  'Dining Room': '餐厅',
+  East: '东侧',
+  'East Area': '东区',
+  Entrance: '入口',
+  Entryway: '入口通道',
+  Forest: '森林',
+  Gate: '关卡',
+  'Hidden Room': '隐藏房间',
+  Inner: '内部',
+  Interior: '内部',
+  'Lower Interior': '下层内部',
+  'Lower Mountainside': '低山腰',
+  Mountainside: '山腰',
+  North: '北侧',
+  'North Area': '北区',
+  'North Mountainside': '北侧山腰',
+  'Northeast Area': '东北区',
+  'Northern Room': '北侧房间',
+  'Northwest Area': '西北区',
+  'Northwest Room': '西北侧房间',
+  Outer: '外围',
+  Outside: '外部',
+  Rooftop: '屋顶',
+  South: '南侧',
+  'South Area': '南区',
+  'South Mountainside': '南侧山腰',
+  'Southeast Area': '东南区',
+  'Southern Room': '南侧房间',
+  'Southwest Area': '西南区',
+  Summit: '山顶',
+  Tunnel: '隧道',
+  'Upper Interior': '上层内部',
+  'Upper Mountainside': '高山腰',
+  West: '西侧',
+  'West Area': '西区',
+};
+
+function normalizeLocationName(name) {
+  return String(name)
+    .trim()
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '');
+}
+
+function translateSuffix(suffix) {
+  const floor = suffix.match(/^(\d+)F(?: (East|West|North|South))?$/);
+  if (floor) {
+    return floor[1] + '楼' + (floor[2] ? LOCATION_DIRECTIONS[floor[2]] : '');
+  }
+  const basement = suffix.match(/^B(\d+)F(?: (East|West|North|South))?$/);
+  if (basement) {
+    return '地下' + basement[1] + '楼' + (basement[2] ? LOCATION_DIRECTIONS[basement[2]] : '');
+  }
+  const towerFloor = suffix.match(/^Tower (\d+)F$/);
+  if (towerFloor) return '塔' + towerFloor[1] + '楼';
+  const numberedArea = suffix.match(/^Area (\d+)$/);
+  if (numberedArea) return numberedArea[1] + '区';
+  return LOCATION_SUFFIXES[suffix] || null;
+}
+
+let locationByEnglish = new Map();
+
+function buildLocationMap() {
+  try {
+    const src = fs.readFileSync(DATA_FILE, 'utf8');
+    const start = src.indexOf('{');
+    const end = src.lastIndexOf(';');
+    const data = JSON.parse(src.slice(start, end === -1 ? undefined : end));
+    (data.r || []).forEach((record) => {
+      const raw = record && record[5];
+      if (!raw) return;
+      const m = String(raw).match(/^([^(]*)\(([^)]*)\)/);
+      if (!m) return;
+      const zh = m[1].trim();
+      const en = normalizeLocationName(m[2]);
+      if (en && zh && !locationByEnglish.has(en)) {
+        locationByEnglish.set(en, zh);
+      }
+    });
+    log('已加载地点中文名映射，共', locationByEnglish.size, '个地点');
+  } catch (err) {
+    fail('加载地点映射失败（地点将显示英文）：', err.message);
+  }
+}
+
+function translateLocation(location) {
+  if (!location) return '未知';
+  const str = String(location).trim();
+  const parts = [];
+  let rest = str;
+  for (;;) {
+    const m = rest.match(/ \(([^()]*)\)$/);
+    if (!m) break;
+    parts.unshift(m[1]);
+    rest = rest.slice(0, m.index);
+  }
+  const zh = locationByEnglish.get(normalizeLocationName(rest.trim()));
+  if (!zh) return str;
+  if (!parts.length) return zh;
+  const translated = parts.map((p) => translateSuffix(p) || p);
+  return zh + '（' + translated.join('，') + '）';
 }
 
 function validateConfig() {
@@ -188,7 +310,7 @@ async function sendMessage(content) {
   return sendGroupMessage(config.groupOpenid, content);
 }
 
-function formatMessage(item) {
+function formatMessage(item, title) {
   const info = nameById.get(item.monsterId) || {};
   const name = info.name || item.pokemon || ('#' + item.monsterId);
   const region = REGION_NAMES[item.region] || item.region || '未知地区';
@@ -204,9 +326,9 @@ function formatMessage(item) {
     : '未知';
   const valuable = item.hasValuable ? '（有价值）' : '';
   return [
-    '【明雷报点】' + name + ' #' + item.monsterId + valuable,
+    (title || '【明雷报点】') + name + ' #' + item.monsterId + valuable,
     '地区：' + region,
-    '地点：' + (item.location || '未知'),
+    '地点：' + translateLocation(item.location),
     '剩余：' + timeText + '（' + despawnText + ' 消失）',
     '报点：' + (item.publishedBy || '匿名'),
   ].join('\n');
@@ -218,11 +340,18 @@ function formatActiveLine(item, now) {
   const region = REGION_NAMES[item.region] || item.region || '';
   const remain = Math.max(0, (item.despawnTimestamp || 0) - now);
   const minutes = Math.round(remain / 60);
+  const despawnText = item.despawnTimestamp
+    ? new Date(item.despawnTimestamp * 1000).toLocaleTimeString('zh-CN', {
+        hour12: false,
+        timeZone: 'Asia/Shanghai',
+      })
+    : '';
   return (
     '• ' + name + ' #' + item.monsterId +
     (region ? ' ' + region : '') +
-    (item.location ? ' ' + item.location : '') +
-    '（约 ' + minutes + ' 分钟）'
+    (item.location ? ' ' + translateLocation(item.location) : '') +
+    '（约 ' + minutes + ' 分钟）' +
+    (despawnText ? '（' + despawnText + ' 消失）' : '')
   );
 }
 
@@ -321,6 +450,75 @@ async function processPending(list) {
   savePending();
 }
 
+async function fetchAlpha(url) {
+  const res = await fetch(url, {
+    cache: 'no-store',
+    headers: { Accept: 'application/json' },
+  });
+  if (!res.ok || res.status === 204) return [];
+  const text = await res.text();
+  if (!text) return [];
+  try {
+    const data = JSON.parse(text);
+    return Array.isArray(data) ? data : [];
+  } catch (err) {
+    return [];
+  }
+}
+
+function buildBossLastLine(item) {
+  const info = nameById.get(item.monsterId) || {};
+  const name = info.name || item.pokemon || ('#' + item.monsterId);
+  const region = REGION_NAMES[item.region] || item.region || '';
+  const loc = item.location ? translateLocation(item.location) : '';
+  const appear = new Date(item.timestampUtc || item.timestampRaw || 0);
+  const appearText = !isNaN(appear.getTime())
+    ? appear.toLocaleString('zh-CN', { hour12: false, timeZone: 'Asia/Shanghai' })
+    : '未知';
+  const end = item.despawnTimestamp
+    ? new Date(item.despawnTimestamp * 1000).toLocaleTimeString('zh-CN', {
+        hour12: false,
+        timeZone: 'Asia/Shanghai',
+      })
+    : '未知';
+  return (
+    '【头目报点】当前无活跃头目\n' +
+    '上次头目：' + name + ' #' + item.monsterId +
+    (region ? ' ' + region : '') + (loc ? ' ' + loc : '') + '\n' +
+    '上次出现：' + appearText + '\n' +
+    '结束时间：' + end
+  );
+}
+
+async function buildBossSection() {
+  const now = Math.floor(Date.now() / 1000);
+  let current = [];
+  try {
+    current = await fetchAlpha(ALPHA_API);
+  } catch (err) {
+    fail('拉取头目报点失败：', err.message);
+    return '';
+  }
+  const active = current.filter(
+    (item) => item && (!item.despawnTimestamp || item.despawnTimestamp > now)
+  );
+  if (active.length) {
+    return active.map((item) => formatMessage(item, '【头目报点】')).join('\n\n');
+  }
+  let today = [];
+  try {
+    today = await fetchAlpha(ALPHA_TODAY_API);
+  } catch (err) {
+    fail('拉取头目历史失败：', err.message);
+    return '';
+  }
+  if (!today.length) return '';
+  const latest = today
+    .slice()
+    .sort((a, b) => new Date(b.timestampUtc || 0) - new Date(a.timestampUtc || 0))[0];
+  return buildBossLastLine(latest);
+}
+
 async function pollOnce(pushAllActive) {
   const list = await fetchCurrent();
   const now = Math.floor(Date.now() / 1000);
@@ -351,19 +549,29 @@ async function pollOnce(pushAllActive) {
       passesFilter(item) &&
       (!item.despawnTimestamp || item.despawnTimestamp > now)
   );
-  const fresh = active.filter((item) => !seen.has(String(item.sourceId)));
-  for (const item of fresh) {
-    try {
-      await pushItem(item, otherActiveItems(item, list));
-      seen.add(String(item.sourceId));
-    } catch (err) {
-      fail('推送失败（下次运行自动重试）：', err.message);
-      pending.push({ item, retries: 1 });
-    }
+  if (!active.length) {
+    log('当前没有活跃明雷，本轮不推送');
+    return;
   }
-  saveSeen();
-  savePending();
-  await processPending(list);
+  const featured = active
+    .slice()
+    .sort((a, b) => (b.sourceId || 0) - (a.sourceId || 0))[0];
+  const others = active.filter(
+    (other) => String(other.sourceId) !== String(featured.sourceId)
+  );
+  let bossSection = '';
+  try {
+    bossSection = await buildBossSection();
+  } catch (err) {
+    fail('头目报点处理失败：', err.message);
+  }
+  const message = buildPushMessage(featured, others) + (bossSection ? '\n\n' + bossSection : '');
+  try {
+    await sendMessage(message);
+    log('推送当前活跃明雷：', featured.pokemon || featured.monsterId, '（共', active.length, '条）');
+  } catch (err) {
+    fail('推送失败：', err.message);
+  }
 }
 
 function startPoller() {
