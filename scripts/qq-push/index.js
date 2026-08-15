@@ -84,10 +84,24 @@ function loadNames() {
         });
       }
     });
-    log('已加载本地图鉴数据，共', nameById.size, '种宝可梦');
   } catch (err) {
     fail('加载图鉴数据失败（不影响推送，将显示英文名）：', err.message);
   }
+  try {
+    const MONSTERS_FILE = path.join(ROOT, '..', '..', 'web', 'data', 'monsters.json');
+    const monsters = JSON.parse(fs.readFileSync(MONSTERS_FILE, 'utf8'));
+    (Array.isArray(monsters) ? monsters : []).forEach((monster) => {
+      if (!monster || monster.id == null || !monster.name) return;
+      if (nameById.has(monster.id)) return;
+      nameById.set(monster.id, {
+        name: String(monster.name).split("'")[0] || String(monster.id),
+        types: [],
+      });
+    });
+  } catch (err) {
+    fail('加载补充图鉴数据失败（不影响推送，将显示英文名）：', err.message);
+  }
+  log('已加载本地图鉴数据，共', nameById.size, '种宝可梦');
 }
 
 function validateConfig() {
