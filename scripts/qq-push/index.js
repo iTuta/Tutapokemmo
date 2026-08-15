@@ -549,26 +549,29 @@ async function pollOnce(pushAllActive) {
       passesFilter(item) &&
       (!item.despawnTimestamp || item.despawnTimestamp > now)
   );
-  if (!active.length) {
-    log('当前没有活跃明雷，本轮不推送');
-    return;
-  }
-  const featured = active
-    .slice()
-    .sort((a, b) => (b.sourceId || 0) - (a.sourceId || 0))[0];
-  const others = active.filter(
-    (other) => String(other.sourceId) !== String(featured.sourceId)
-  );
   let bossSection = '';
   try {
     bossSection = await buildBossSection();
   } catch (err) {
     fail('头目报点处理失败：', err.message);
   }
-  const message = buildPushMessage(featured, others) + (bossSection ? '\n\n' + bossSection : '');
+  let message;
+  if (!active.length) {
+    message = '【明雷报点】当前无活跃明雷' + (bossSection ? '\n\n' + bossSection : '');
+    log('当前没有活跃明雷，仅推送头目信息');
+  } else {
+    const featured = active
+      .slice()
+      .sort((a, b) => (b.sourceId || 0) - (a.sourceId || 0))[0];
+    const others = active.filter(
+      (other) => String(other.sourceId) !== String(featured.sourceId)
+    );
+    message =
+      buildPushMessage(featured, others) + (bossSection ? '\n\n' + bossSection : '');
+    log('推送当前活跃明雷：', featured.pokemon || featured.monsterId, '（共', active.length, '条）');
+  }
   try {
     await sendMessage(message);
-    log('推送当前活跃明雷：', featured.pokemon || featured.monsterId, '（共', active.length, '条）');
   } catch (err) {
     fail('推送失败：', err.message);
   }
