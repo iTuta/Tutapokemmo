@@ -43,7 +43,10 @@ function formatMessage(item) {
   const seconds = remain % 60;
   const timeText = minutes > 0 ? minutes + ' 分 ' + seconds + ' 秒' : seconds + ' 秒';
   const despawnText = item.despawnTimestamp
-    ? new Date(item.despawnTimestamp * 1000).toLocaleTimeString('zh-CN', { hour12: false })
+    ? new Date(item.despawnTimestamp * 1000).toLocaleTimeString('zh-CN', {
+        hour12: false,
+        timeZone: 'Asia/Shanghai',
+      })
     : '未知';
   const valuable = item.hasValuable ? '（有价值）' : '';
   return [
