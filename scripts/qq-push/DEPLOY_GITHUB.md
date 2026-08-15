@@ -10,7 +10,7 @@
 ## 工作方式
 
 - 工作流文件：`.github/workflows/swarm-push.yml`（定时每 5 分钟 + 可手动触发）。
-- 推送脚本：`scripts/qq-push/index.js --once`（定时模式：新增单独推 + 无新增时汇总当前活跃）。
+- 推送脚本：`scripts/qq-push/index.js --once`（定时模式：只在新明雷出现时推送，消息附带当前其他活跃明雷清单）。
 - 已推送记录：`scripts/qq-push/seen.json` 保存在仓库里，由工作流自动提交回仓库，避免重复推送。
 - Webhook 密钥：存在 GitHub 的加密 Secret 里，不会出现在代码或仓库文件中。
 

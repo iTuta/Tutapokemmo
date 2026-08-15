@@ -240,16 +240,6 @@ function buildPushMessage(item, others) {
   return lines.join('\n');
 }
 
-function buildSummaryMessage(active) {
-  const now = Math.floor(Date.now() / 1000);
-  const sorted = active
-    .slice()
-    .sort((a, b) => (a.despawnTimestamp || 0) - (b.despawnTimestamp || 0));
-  const lines = ['【明雷汇总】当前 ' + sorted.length + ' 条活跃明雷'];
-  sorted.forEach((item) => lines.push(formatActiveLine(item, now)));
-  return lines.join('\n');
-}
-
 function otherActiveItems(item, list) {
   return (list || []).filter(
     (other) =>
@@ -369,14 +359,6 @@ async function pollOnce(pushAllActive) {
     } catch (err) {
       fail('推送失败（下次运行自动重试）：', err.message);
       pending.push({ item, retries: 1 });
-    }
-  }
-  if (!fresh.length && active.length) {
-    try {
-      await sendMessage(buildSummaryMessage(active));
-      log('推送定期汇总：', active.length, '条活跃明雷');
-    } catch (err) {
-      fail('汇总推送失败：', err.message);
     }
   }
   saveSeen();
