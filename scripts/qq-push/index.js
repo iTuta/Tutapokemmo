@@ -305,27 +305,28 @@ async function processPending(list) {
   savePending();
 }
 
-async function pollOnce() {
+async function pollOnce(pushAllActive) {
   const list = await fetchCurrent();
-  const fresh = list.filter(
-    (item) =>
-      item &&
-      item.sourceId != null &&
-      !seen.has(String(item.sourceId)) &&
-      passesFilter(item)
-  );
+  const now = Math.floor(Date.now() / 1000);
+  const fresh = list.filter((item) => {
+    if (!item || item.sourceId == null || !passesFilter(item)) return false;
+    if (pushAllActive) {
+      return !item.despawnTimestamp || item.despawnTimestamp > now;
+    }
+    return !seen.has(String(item.sourceId));
+  });
   for (const item of fresh) {
     try {
-      await pushItem(item);
+      await pushItem(item, otherActiveItems(item, list));
       seen.add(String(item.sourceId));
     } catch (err) {
       fail('推送失败（稍后自动重试）：', err.message);
-      pending.push({ item, retries: 1 });
+      if (!pushAllActive) pending.push({ item, retries: 1 });
     }
   }
   saveSeen();
   savePending();
-  await processPending(list);
+  if (!pushAllActive) await processPending(list);
 }
 
 function startPoller() {
@@ -334,7 +335,7 @@ function startPoller() {
   const loop = async () => {
     if (stopping) return;
     try {
-      await pollOnce();
+      await pollOnce(false);
     } catch (err) {
       fail('拉取报点失败：', err.message);
     }
@@ -472,7 +473,7 @@ async function runOnce() {
     return 1;
   }
   try {
-    await pollOnce();
+    await pollOnce(true);
     log('单次检查完成。');
     return 0;
   } catch (err) {
