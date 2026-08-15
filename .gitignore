@@ -1,0 +1,9 @@
+node_modules/
+
+# 本地推送配置与运行状态（含密钥，勿提交）
+scripts/qq-push/config.json
+scripts/qq-push/seen.json
+scripts/qq-push/pending.json
+
+.DS_Store
+Thumbs.db

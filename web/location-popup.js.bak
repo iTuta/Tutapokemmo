@@ -1,0 +1,455 @@
+﻿window.LocationPopup = (function () {
+  const TIME_LABELS = { morning: '早晨', day: '白天', night: '夜晚' };
+  const HORDE_LABELS = { 0: '普通', 3: '3群怪', 5: '5群怪' };
+
+  let F = {};
+  let locationIndex = new Map();
+  let spriteBase = null;
+  let typeColors = {};
+  let popupState = null;
+  let hordeFilter = '';
+
+  function locKey(region, loc, terrain) {
+    return region + '\0' + loc + '\0' + terrain;
+  }
+
+  function esc(s) {
+    const d = document.createElement('div');
+    d.textContent = s;
+    return d.innerHTML;
+  }
+
+  function escAttr(s) {
+    return String(s)
+      .replace(/&/g, '&amp;')
+      .replace(/"/g, '&quot;')
+      .replace(/</g, '&lt;');
+  }
+
+  function seasonMatch(a, b) {
+    if (a === '任意' || b === '任意') return true;
+    return a === b;
+  }
+
+  function hordeBadge(h) {
+    if (h === 3) return '<span class="lp-badge lp-badge-3">3群怪</span>';
+    if (h === 5) return '<span class="lp-badge lp-badge-5">5群怪</span>';
+    return '<span class="lp-badge lp-badge-none">普通</span>';
+  }
+
+  function seasonBadge(s) {
+    if (s === '任意') return '<span class="lp-badge lp-badge-any">任意</span>';
+    return '<span class="lp-badge lp-badge-season">' + esc(s) + '</span>';
+  }
+
+  function typeBadges(types) {
+    return types.map(function (t) {
+      var c = typeColors[t] || '#607d8b';
+      return '<span class="lp-type" style="background:' + c + '">' + esc(t) + '</span>';
+    }).join('');
+  }
+
+  function spriteHtml(id, form) {
+    if (!spriteBase) return '';
+    var src = spriteUrl(id, form);
+    if (!src) return '';
+    return (
+      '<img class="lp-sprite" src="' + src + '" alt="" loading="lazy"' +
+      ' data-id="' + id + '" data-form="' + form + '"' +
+      ' onerror="LocationPopup.fallbackSprite(this)">'
+    );
+  }
+
+  function ensureModal() {
+    if (document.getElementById('locationPopup')) return;
+    document.body.insertAdjacentHTML(
+      'beforeend',
+      '<div id="locationPopup" class="lp-overlay" hidden>' +
+        '<div class="lp-dialog" role="dialog" aria-modal="true">' +
+          '<div class="lp-header">' +
+            '<div class="lp-header-content">' +
+              '<button type="button" class="lp-back" aria-label="返回地点列表" title="返回地点列表" hidden>&larr;</button>' +
+              '<div class="lp-heading"><h2 class="lp-title"></h2><p class="lp-subtitle"></p></div>' +
+            '</div>' +
+            '<button type="button" class="lp-close" aria-label="关闭">&times;</button>' +
+          '</div>' +
+          '<div class="lp-time-switch" role="group" aria-label="切换时间段"></div>' +
+          '<div class="lp-summary"></div>' +
+          '<div class="lp-body"></div>' +
+        '</div>' +
+      '</div>'
+    );
+
+    var overlay = document.getElementById('locationPopup');
+    overlay.querySelector('.lp-back').addEventListener('click', goBack);
+    overlay.querySelector('.lp-close').addEventListener('click', close);
+    overlay.addEventListener('click', function (e) {
+      if (e.target === overlay) close();
+    });
+    overlay.querySelector('.lp-time-switch').addEventListener('click', function (e) {
+      var btn = e.target.closest('.lp-time-option');
+      if (!btn || btn.disabled || !popupState || btn.dataset.time === popupState.timeKey) return;
+      switchTime(btn.dataset.time, true);
+    });
+    overlay.querySelector('.lp-summary').addEventListener('click', function (e) {
+      var btn = e.target.closest('.lp-filter');
+      if (!btn || !popupState) return;
+      var filter = btn.dataset.horde;
+      if (filter === hordeFilter) return;
+      hordeFilter = filter;
+      renderPopupContent();
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && !overlay.hidden) close();
+    });
+  }
+
+  function close() {
+    var overlay = document.getElementById('locationPopup');
+    if (overlay) overlay.hidden = true;
+    popupState = null;
+    hordeFilter = '';
+  }
+
+  function spriteUrl(id, form) {
+    var inlineSprites = window.INLINE_SPRITES;
+    if (inlineSprites) {
+      return inlineSprites[id + '-' + form] || inlineSprites[id + '-0'] || '';
+    }
+    return spriteBase ? spriteBase + id + '-' + form + '.png' : '';
+  }
+
+  function goBack() {
+    if (!popupState || typeof popupState.onBack !== 'function') return;
+    var onBack = popupState.onBack;
+    close();
+    onBack();
+  }
+
+  function countByHorde(matches) {
+    return {
+      all: matches.length,
+      0: matches.filter(function (r) { return r[F.HORDE] === 0; }).length,
+      3: matches.filter(function (r) { return r[F.HORDE] === 3; }).length,
+      5: matches.filter(function (r) { return r[F.HORDE] === 5; }).length,
+    };
+  }
+
+  function renderSummary(counts) {
+    var filters = [
+      { key: '', label: '全部', count: counts.all, cls: 'lp-filter-all' },
+      { key: '0', label: '普通', count: counts[0], cls: 'lp-filter-none' },
+      { key: '3', label: '3群怪', count: counts[3], cls: 'lp-filter-3' },
+      { key: '5', label: '5群怪', count: counts[5], cls: 'lp-filter-5' },
+    ];
+    return filters.map(function (f) {
+      var active = hordeFilter === f.key ? ' lp-filter-active' : '';
+      var disabled = f.count === 0 && f.key !== '' ? ' lp-filter-disabled' : '';
+      return (
+        '<button type="button" class="lp-filter ' + f.cls + active + disabled + '"' +
+        ' data-horde="' + f.key + '"' +
+        (f.count === 0 && f.key !== '' ? ' disabled' : '') + '>' +
+        esc(f.label) + ' <span class="lp-filter-count">' + f.count + '</span>' +
+        '</button>'
+      );
+    }).join('');
+  }
+
+  function timeFields(timeKey) {
+    if (timeKey === 'morning') return { active: F.MORNING, rate: F.R_MORNING };
+    if (timeKey === 'day') return { active: F.DAY, rate: F.R_DAY };
+    return { active: F.NIGHT, rate: F.R_NIGHT };
+  }
+
+  function renderTimeSwitch() {
+    var times = [
+      { key: 'morning', label: '早晨' },
+      { key: 'day', label: '白天' },
+      { key: 'night', label: '夜晚' },
+    ];
+    return times.map(function (time) {
+      var fields = timeFields(time.key);
+      var available = popupState.candidates.some(function (r) {
+        return r[fields.active] && (!isPurePointMode(popupState) || isPurePointRate(r[fields.rate]));
+      });
+      var active = popupState.timeKey === time.key;
+      return (
+        '<button type="button" class="lp-time-option' + (active ? ' lp-time-option-active' : '') + '"' +
+        ' data-time="' + time.key + '"' +
+        ' aria-pressed="' + active + '"' +
+        (!available ? ' disabled title="该时段无遭遇"' : '') + '>' +
+        time.label +
+        '</button>'
+      );
+    }).join('');
+  }
+
+  function renderList(matches, rateField) {
+    var filtered = hordeFilter === ''
+      ? matches
+      : matches.filter(function (r) { return String(r[F.HORDE]) === hordeFilter; });
+
+    if (filtered.length === 0) {
+      return '<div class="lp-empty">该分类下没有遭遇记录</div>';
+    }
+
+    return (
+      '<div class="lp-list">' +
+      filtered.map(function (r) {
+        var form = r[F.FORM] != null ? r[F.FORM] : 0;
+        var rate = r[rateField];
+        return (
+          '<div class="lp-row' + (r[F.HORDE] ? ' lp-row-horde' : '') + '">' +
+            (spriteBase ? '<div class="lp-sprite-wrap">' + spriteHtml(r[F.ID], form) + '</div>' : '') +
+            '<div class="lp-row-main">' +
+              '<div class="lp-row-title">' +
+                '<strong>' + esc(r[F.BASE]) + '</strong>' +
+                  '<small>#' + r[F.ID] + '</small>' +
+                  (window.TierDisplay ? TierDisplay.badgeHtml(r[F.ID], 'lp-tier tier-badge') : '') +
+                  typeBadges(r[F.TYPES]) +
+              '</div>' +
+              '<div class="lp-row-meta">' +
+                '<span>Lv.' + esc(r[F.LEVEL]) + '</span>' +
+                seasonBadge(r[F.SEASON]) +
+                hordeBadge(r[F.HORDE]) +
+                '<span class="lp-rate">遭遇率 ' + esc(rate) + '</span>' +
+              '</div>' +
+              (window.HordeYield ? HordeYield.render(r, F, matches) : '') +
+            '</div>' +
+          '</div>'
+        );
+      }).join('') +
+      '</div>'
+    );
+  }
+
+  function renderPopupContent() {
+    if (!popupState) return;
+    var s = popupState;
+    var counts = countByHorde(s.matches);
+    var overlay = document.getElementById('locationPopup');
+
+    overlay.querySelector('.lp-time-switch').innerHTML = renderTimeSwitch();
+    overlay.querySelector('.lp-summary').innerHTML = renderSummary(counts);
+
+    var body = overlay.querySelector('.lp-body');
+    if (s.matches.length === 0) {
+      body.innerHTML = '<div class="lp-empty">该地点在此时间段没有其他遭遇</div>';
+    } else {
+      body.innerHTML = renderList(s.matches, s.rateField);
+    }
+  }
+
+  function buildIndex(records) {
+    locationIndex.clear();
+    records.forEach(function (r) {
+      var key = locKey(r[F.REGION], r[F.LOC], r[F.TERRAIN]);
+      if (!locationIndex.has(key)) locationIndex.set(key, []);
+      locationIndex.get(key).push(r);
+    });
+  }
+
+  function init(records, fieldMap, options) {
+    options = options || {};
+    F = fieldMap;
+    spriteBase = options.spriteBase || null;
+    typeColors = options.typeColors || {};
+    buildIndex(records);
+    ensureModal();
+  }
+  function timeTag(label, timeKey, active, rate, ctx, filterMode) {
+    if (!active) {
+      return (
+        '<span class="time-tag inactive" title="该时段无遭遇">' + esc(label) + '</span>'
+      );
+    }
+    return (
+      '<span class="time-tag active clickable" role="button" tabindex="0"' +
+      ' data-time="' + timeKey + '"' +
+      ' data-region="' + escAttr(ctx.region) + '"' +
+      ' data-loc="' + escAttr(ctx.loc) + '"' +
+      ' data-terrain="' + escAttr(ctx.terrain) + '"' +
+      ' data-season="' + escAttr(ctx.season) + '"' +
+      (ctx.id != null ? ' data-source-id="' + escAttr(ctx.id) + '"' : '') +
+      (ctx.level != null ? ' data-source-level="' + escAttr(ctx.level) + '"' : '') +
+      (ctx.horde != null ? ' data-source-horde="' + escAttr(ctx.horde) + '"' : '') +
+      (rate ? ' data-source-rate="' + escAttr(rate) + '"' : '') +
+      (filterMode ? ' data-filter-mode="' + escAttr(filterMode) + '"' : '') +
+      ' title="点击查看该地点' + esc(TIME_LABELS[timeKey] || label) + '的所有遭遇">' +
+      esc(label) + (rate ? ' ' + esc(rate) : '') +
+      '</span>'
+    );
+  }
+
+  function bindRoot(root) {
+    if (!root || root._lpBound) return;
+    root._lpBound = true;
+    root.addEventListener('click', onTagClick);
+    root.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        var tag = e.target.closest('.time-tag.clickable');
+        if (tag) {
+          e.preventDefault();
+          openFromTag(tag);
+        }
+      }
+    });
+  }
+
+  function onTagClick(e) {
+    var tag = e.target.closest('.time-tag.clickable');
+    if (tag) openFromTag(tag);
+  }
+
+  function openFromTag(tag) {
+    var opts = {};
+    if (tag.dataset.filterMode) {
+      opts.filterMode = tag.dataset.filterMode;
+    } else {
+      var purePointToggle = document.getElementById('purePointToggle');
+      if (purePointToggle && purePointToggle.checked) {
+        opts.filterMode = 'purePoint';
+      }
+    }
+    if (tag.dataset.sourceId != null) opts.sourceId = parseInt(tag.dataset.sourceId, 10);
+    if (tag.dataset.sourceLevel != null) opts.sourceLevel = tag.dataset.sourceLevel;
+    if (tag.dataset.sourceHorde != null) opts.sourceHorde = parseInt(tag.dataset.sourceHorde, 10);
+    if (tag.dataset.sourceRate != null) opts.sourceRate = tag.dataset.sourceRate;
+    open(
+      tag.dataset.region,
+      tag.dataset.loc,
+      tag.dataset.terrain,
+      tag.dataset.season,
+      tag.dataset.time,
+      opts
+    );
+  }
+
+  function selectHordeFilter(matches, preserveCurrent) {
+    if (preserveCurrent && (
+      hordeFilter === '' ||
+      matches.some(function (r) { return String(r[F.HORDE]) === hordeFilter; })
+    )) {
+      return;
+    }
+    hordeFilter = matches.some(function (r) { return r[F.HORDE] === 5; })
+      ? '5'
+      : matches.some(function (r) { return r[F.HORDE] === 3; })
+        ? '3'
+        : '';
+  }
+
+  function switchTime(timeKey, preserveFilter) {
+    if (!popupState) return;
+    var fields = timeFields(timeKey);
+    var sourceRecord = popupState.sourceId == null ? null : popupState.candidates.find(function (r) {
+      return r[F.ID] === popupState.sourceId &&
+        (!popupState.sourceLevel || r[F.LEVEL] === popupState.sourceLevel) &&
+        (!popupState.sourceHorde || r[F.HORDE] === popupState.sourceHorde);
+    });
+    var sourceRate = sourceRecord ? sourceRecord[fields.rate] : popupState.sourceRate;
+    var matches = popupState.candidates.filter(function (r) {
+      if (!r[fields.active]) return false;
+      if (!encounterGroupMatch(r, popupState, sourceRate, fields.rate)) return false;
+      if (isPurePointMode(popupState)) {
+        return (r[F.HORDE] === 3 || r[F.HORDE] === 5) && isPurePointRate(r[fields.rate]);
+      }
+      return true;
+    });
+
+    matches.sort(function (a, b) {
+      if (b[F.HORDE] !== a[F.HORDE]) return b[F.HORDE] - a[F.HORDE];
+      return a[F.BASE].localeCompare(b[F.BASE], 'zh-CN');
+    });
+
+    popupState.timeKey = timeKey;
+    popupState.matches = matches;
+    popupState.rateField = fields.rate;
+    selectHordeFilter(matches, preserveFilter);
+
+    var overlay = document.getElementById('locationPopup');
+    overlay.querySelector('.lp-subtitle').textContent =
+      popupState.region + ' · ' + popupState.terrain + ' · ' +
+      (popupState.season === '任意' ? '全季节' : popupState.season + '季') +
+      ' · ' + TIME_LABELS[timeKey];
+    renderPopupContent();
+    overlay.querySelector('.lp-body').scrollTop = 0;
+  }
+
+  function isPurePointRate(rate) {
+    return /^5(?:\.0+)?%$/.test(String(rate || '').trim());
+  }
+
+  function isPurePointRecord(r) {
+    var h = r[F.HORDE];
+    if (h !== 3 && h !== 5) return false;
+    return isPurePointRate(r[F.R_MORNING]) ||
+           isPurePointRate(r[F.R_DAY]) ||
+           isPurePointRate(r[F.R_NIGHT]);
+  }
+
+  function isPurePointMode(state) {
+    return state && state.filterMode === 'purePoint';
+  }
+
+  function numericRate(rate) {
+    var value = parseFloat(String(rate || '').replace('%', ''));
+    return Number.isFinite(value) ? value : null;
+  }
+
+  function encounterGroupMatch(record, state, sourceRate, rateField) {
+    if (state.sourceHorde !== 3 && state.sourceHorde !== 5) return true;
+    if (record[F.HORDE] !== state.sourceHorde) return false;
+    if (state.sourceLevel && record[F.LEVEL] !== state.sourceLevel) return false;
+    if (state.sourceId == null || !sourceRate) return true;
+
+    var sourceValue = numericRate(sourceRate);
+    var recordValue = numericRate(record[rateField]);
+    if (sourceValue == null || recordValue == null) return true;
+    if (sourceValue === 5) return recordValue === 5 && record[F.ID] === state.sourceId;
+    return recordValue === sourceValue || Math.abs(recordValue + sourceValue - 5) < 0.001;
+  }
+
+  function open(region, loc, terrain, season, timeKey, options) {
+    options = options || {};
+    var key = locKey(region, loc, terrain);
+    var candidates = (locationIndex.get(key) || []).filter(function (r) {
+      return seasonMatch(r[F.SEASON], season);
+    });
+    popupState = {
+      region: region,
+      loc: loc,
+      terrain: terrain,
+      season: season,
+      candidates: candidates,
+      filterMode: options.filterMode || '',
+      sourceId: Number.isFinite(options.sourceId) ? options.sourceId : null,
+      sourceLevel: options.sourceLevel || '',
+      sourceHorde: options.sourceHorde === 3 || options.sourceHorde === 5 ? options.sourceHorde : null,
+      sourceRate: options.sourceRate || '',
+      onBack: typeof options.onBack === 'function' ? options.onBack : null,
+    };
+
+    var overlay = document.getElementById('locationPopup');
+    overlay.querySelector('.lp-title').textContent = loc;
+    overlay.querySelector('.lp-back').hidden = !popupState.onBack;
+    hordeFilter = '';
+    switchTime(timeKey, false);
+    overlay.hidden = false;
+  }
+
+  function fallbackSprite(img) {
+    var id = img.dataset.id;
+    var form = parseInt(img.dataset.form, 10);
+    if (form !== 0) {
+      img.dataset.form = '0';
+      img.src = spriteUrl(id, 0);
+      img.onerror = function () { img.remove(); };
+    } else {
+      img.remove();
+    }
+  }
+
+  return { init: init, timeTag: timeTag, bindRoot: bindRoot, open: open, close: close, fallbackSprite: fallbackSprite };
+})();
+

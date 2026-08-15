@@ -1,0 +1,328 @@
+<view class="page">
+  <view class="hero">
+    <text class="hero-title">PokeMMO 宝可梦分布查询</text>
+    <text class="hero-subtitle">贴图版 · 按名称、季节、时间段、群怪筛选</text>
+  </view>
+
+  <!-- 筛选区 -->
+  <view class="filters">
+    <view class="field field-full">
+      <text class="label">宝可梦名称</text>
+      <input class="input" value="{{nameInput}}" placeholder="输入名称搜索，如：皮卡丘、顿甲..." confirm-type="search" bindinput="onNameInput" />
+    </view>
+    <view class="field field-full">
+      <text class="label">携带道具</text>
+      <input class="input" value="{{itemInput}}" placeholder="搜索携带道具，如：幸运蛋、护符金币" confirm-type="search" bindinput="onItemInput" />
+    </view>
+    <view class="field">
+      <text class="label">地区</text>
+      <picker mode="selector" range="{{regions}}" value="{{regionIndex}}" data-field="region" bindchange="onPickerChange">
+        <view class="picker">{{regions[regionIndex]}}<text class="chevron">▾</text></view>
+      </picker>
+    </view>
+    <view class="field">
+      <text class="label">季节 / 季节限定</text>
+      <picker mode="selector" range="{{seasons}}" value="{{seasonIndex}}" data-field="season" bindchange="onPickerChange">
+        <view class="picker">{{seasons[seasonIndex]}}<text class="chevron">▾</text></view>
+      </picker>
+    </view>
+    <view class="field">
+      <text class="label">时间段</text>
+      <picker mode="selector" range="{{times}}" value="{{timeIndex}}" data-field="time" bindchange="onPickerChange">
+        <view class="picker">{{times[timeIndex]}}<text class="chevron">▾</text></view>
+      </picker>
+    </view>
+    <view class="field">
+      <text class="label">群怪</text>
+      <picker mode="selector" range="{{hordes}}" value="{{hordeIndex}}" data-field="horde" bindchange="onPickerChange">
+        <view class="picker">{{hordes[hordeIndex]}}<text class="chevron">▾</text></view>
+      </picker>
+    </view>
+    <view class="field">
+      <text class="label">闪战分级</text>
+      <picker mode="selector" range="{{tiers}}" value="{{tierIndex}}" data-field="tier" bindchange="onPickerChange">
+        <view class="picker">{{tiers[tierIndex]}}<text class="chevron">▾</text></view>
+      </picker>
+    </view>
+    <view class="field">
+      <text class="label">5群怪努力值</text>
+      <picker mode="selector" range="{{evYields}}" value="{{evIndex}}" data-field="ev" bindchange="onPickerChange">
+        <view class="picker">{{evYields[evIndex]}}<text class="chevron">▾</text></view>
+      </picker>
+    </view>
+    <view class="field">
+      <text class="label">5群怪经验排序</text>
+      <picker mode="selector" range="{{expSorts}}" value="{{expIndex}}" data-field="exp" bindchange="onPickerChange">
+        <view class="picker">{{expSorts[expIndex]}}<text class="chevron">▾</text></view>
+      </picker>
+    </view>
+
+    <view class="field field-toggle">
+      <text class="label">地点后缀</text>
+      <switch checked="{{locationLanguageIndex === 1}}" bindchange="onLanguageToggle" />
+      <text class="switch-hint">{{locationLanguages[locationLanguageIndex]}}</text>
+    </view>
+    <view class="field field-toggle">
+      <text class="label">纯点</text>
+      <switch checked="{{purePoint}}" data-field="purePoint" bindchange="onToggle" />
+      <text class="switch-hint">群怪概率为 5%</text>
+    </view>
+    <view class="field field-toggle">
+      <text class="label">三时段 5%</text>
+      <switch checked="{{allTimeFive}}" data-field="allTimeFive" bindchange="onToggle" />
+      <text class="switch-hint">早、昼、夜均为 5%</text>
+    </view>
+    <view class="field field-toggle">
+      <text class="label">同地点四季纯点</text>
+      <switch checked="{{allSeasonHorde}}" data-field="allSeasonHorde" bindchange="onToggle" />
+      <text class="switch-hint">四季均为三时段 5% 的 5 群怪</text>
+    </view>
+    <view class="field field-toggle">
+      <text class="label">进化链</text>
+      <switch checked="{{evoChain}}" data-field="evoChain" bindchange="onToggle" />
+      <text class="switch-hint">{{evoHint || '含整条进化链分布'}}</text>
+    </view>
+    <view class="field field-toggle">
+      <text class="label">去重</text>
+      <switch checked="{{dedupe}}" data-field="dedupe" bindchange="onToggle" />
+      <text class="switch-hint">{{dedupe ? '已去重，点击名称查看分布' : '同宝可梦只显示一条'}}</text>
+    </view>
+    <button class="reset" size="mini" bindtap="resetFilters">↺ 重置筛选</button>
+  </view>
+
+  <!-- 进化链面板 -->
+  <view wx:if="{{evoNodes.length}}" class="evo-panel">
+    <view class="evo-head">
+      <text>进化链</text>
+      <text>{{evoNodes.length}} 种 · {{evoHint}}</text>
+    </view>
+    <scroll-view scroll-x class="evo-scroll" enhanced show-scrollbar="{{false}}">
+      <view class="evo-tree">
+        <view wx:for="{{evoNodes}}" wx:key="key" class="evo-node {{item.highlight ? 'evo-node-hl' : ''}}" style="margin-left: {{item.depth * 28}}rpx">
+          <text wx:if="{{item.method}}" class="evo-method">→ {{item.method}}</text>
+          <view class="evo-node-inner">
+            <image src="{{item.image}}" class="evo-sprite" mode="aspectFit" />
+            <text class="evo-name">{{item.name}}</text>
+            <text class="evo-dex">#{{item.id}}</text>
+            <text wx:if="{{item.tier}}" class="evo-tier" style="color:{{item.tier.color}};border-color:{{item.tier.color}}">{{item.tier.text}} · {{item.tier.score}}分</text>
+            <view class="evo-types">
+              <text wx:for="{{item.types}}" wx:for-item="tp" wx:key="name" class="type-chip" style="background:{{tp.color}}">{{tp.name}}</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+
+  <view class="stats">
+    <text>共 {{totalCount}} 条记录</text>
+    <text class="accent">显示 {{filteredCount}} 条</text>
+  </view>
+
+  <!-- 结果列表 -->
+  <view wx:if="{{loading}}" class="state">正在加载数据...</view>
+  <view wx:elif="{{!visibleRecords.length}}" class="state">没有匹配的分布记录</view>
+  <view wx:else>
+    <view class="card" wx:for="{{visibleRecords}}" wx:key="key" wx:for-item="item" wx:for-index="cardIndex" data-index="{{cardIndex}}" bindtap="openDetail">
+      <view class="sprite-wrap">
+        <image class="sprite" src="{{item.image}}" mode="aspectFit" />
+      </view>
+      <view class="card-body">
+        <view class="title-row">
+          <text class="name">{{item.name}}</text>
+          <text class="dex">#{{item.id}}</text>
+          <text wx:if="{{item.tier}}" class="tier" style="color:{{item.tier.color}};border-color:{{item.tier.color}};background:{{item.tier.color}}1a">{{item.tier.text}} · {{item.tier.score}}分</text>
+        </view>
+        <view class="types-row">
+          <text wx:for="{{item.types}}" wx:for-item="tp" wx:key="name" class="type-chip" style="background:{{tp.color}}">{{tp.name}}</text>
+        </view>
+        <text class="location">
+          <text class="region">{{item.region}}</text> · {{item.location}}
+        </text>
+        <view class="tags">
+          <text class="tag">{{item.terrain}}</text>
+          <text class="tag">Lv.{{item.level}}</text>
+          <text class="tag">{{item.season}}</text>
+          <text class="tag tag-accent">{{item.hordeText}}</text>
+        </view>
+        <view class="time-buttons">
+          <text wx:for="{{item.timeItems}}" wx:key="key" wx:for-item="timeItem" class="time-chip {{timeItem.enabled ? 'time-on' : 'time-off'}}" data-card="{{cardIndex}}" data-time="{{timeItem.key}}" catchtap="openLocation">{{timeItem.text}}</text>
+        </view>
+        <view wx:if="{{item.yieldView}}" class="yield-block">
+          <text class="yield-summary">{{item.yieldView.timeLabel ? item.yieldView.timeLabel + ' · ' : ''}}{{item.yieldView.avgLabel}} {{item.yieldView.avgText}} · {{item.yieldView.evText}}</text>
+          <view class="yield-grid">
+            <view class="yield-cell">
+              <text class="yield-key">总经验</text>
+              <text class="yield-val">{{item.yieldView.expText}}</text>
+            </view>
+            <view class="yield-cell">
+              <text class="yield-key">总努力值</text>
+              <text class="yield-val">{{item.yieldView.evText}}</text>
+            </view>
+            <view class="yield-cell">
+              <text class="yield-key">成长</text>
+              <text class="yield-val">{{item.yieldView.growth}}</text>
+            </view>
+            <view class="yield-cell">
+              <text class="yield-key">可能携带</text>
+              <text class="yield-val">{{item.yieldView.itemsText || '无已知道具'}}</text>
+            </view>
+          </view>
+          <text class="yield-note">经验按 floor(基础经验 × 等级 ÷ 7) × 5 估算；未计幸运蛋、交换、经验分享及活动修正。</text>
+        </view>
+        <text wx:if="{{item.count}}" class="count">{{item.count}} 处分布 · 点击查看详情</text>
+        <text wx:if="{{item.matchedItems}}" class="count item-match">携带道具：{{item.matchedItems}}</text>
+      </view>
+    </view>
+    <button wx:if="{{hasMore}}" class="load-more" size="mini" bindtap="loadMore">加载更多</button>
+    <view wx:else class="end">已经到底了</view>
+  </view>
+
+  <!-- 精灵详情 -->
+  <view wx:if="{{showDetail && selected}}" class="modal-mask" catchtap="closeDetail">
+    <view class="modal detail-modal" catchtap="noop">
+      <view class="modal-head">
+        <view class="modal-head-main">
+          <image class="modal-sprite" src="{{selected.image}}" mode="aspectFit" />
+          <view>
+            <text class="modal-title">{{selected.name}}</text>
+            <text class="modal-subtitle">#{{selected.id}} · {{selected.fullName}}</text>
+          </view>
+        </view>
+        <text class="close" bindtap="closeDetail">×</text>
+      </view>
+      <view class="modal-badges">
+        <text wx:if="{{selected.tier}}" class="tier" style="color:{{selected.tier.color}};border-color:{{selected.tier.color}};background:{{selected.tier.color}}1a">{{selected.tier.text}} · {{selected.tier.score}}分</text>
+        <text wx:for="{{selected.types}}" wx:for-item="tp" wx:key="name" class="type-chip" style="background:{{tp.color}}">{{tp.name}}</text>
+      </view>
+      <view class="detail-summary">
+        <text class="modal-line">共 {{detailSummary.total}} 处分布</text>
+        <text class="modal-line">普通 {{detailSummary.normal}} · 3群怪 {{detailSummary.h3}} · 5群怪 {{detailSummary.h5}}</text>
+      </view>
+      <view class="detail-list">
+        <view wx:for="{{detailRecords}}" wx:key="key" wx:for-item="item" wx:for-index="rowIdx" class="detail-row">
+          <view class="detail-row-top">
+            <text class="detail-loc">{{item.region}} · {{item.location}}</text>
+            <text class="detail-meta">{{item.hordeText}}</text>
+          </view>
+          <view class="detail-meta-line">
+            <text>{{item.terrain}} · Lv.{{item.level}} · {{item.season}}</text>
+          </view>
+          <view class="detail-times">
+            <text wx:for="{{item.timeItems}}" wx:key="key" wx:for-item="ti" class="time-chip {{ti.enabled ? 'time-on' : 'time-off'}}" data-idx="{{rowIdx}}" data-time="{{ti.key}}" catchtap="openDetailLocation">{{ti.text}}</text>
+          </view>
+          <view wx:if="{{item.yieldView}}" class="yield-block">
+            <text class="yield-summary">{{item.yieldView.avgLabel}} {{item.yieldView.avgText}} · {{item.yieldView.evText}}</text>
+            <view class="yield-grid">
+              <view class="yield-cell">
+                <text class="yield-key">总经验</text>
+                <text class="yield-val">{{item.yieldView.expText}}</text>
+              </view>
+              <view class="yield-cell">
+                <text class="yield-key">总努力值</text>
+                <text class="yield-val">{{item.yieldView.evText}}</text>
+              </view>
+              <view class="yield-cell">
+                <text class="yield-key">成长</text>
+                <text class="yield-val">{{item.yieldView.growth}}</text>
+              </view>
+              <view class="yield-cell">
+                <text class="yield-key">可能携带</text>
+                <text class="yield-val">{{item.yieldView.itemsText || '无已知道具'}}</text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view wx:if="{{detailTotal > 10}}" class="detail-pager">
+        <button size="mini" disabled="{{detailPage <= 1}}" bindtap="detailPrev">上一页</button>
+        <text class="pager-info">{{detailPage}} / {{detailMaxPage}}</text>
+        <button size="mini" disabled="{{detailPage >= detailMaxPage}}" bindtap="detailNext">下一页</button>
+      </view>
+    </view>
+  </view>
+
+  <!-- 地点弹窗 -->
+  <view wx:if="{{showLocation}}" class="modal-mask" catchtap="closeLocation">
+    <view class="modal location-modal" catchtap="noop">
+      <view class="modal-head">
+        <text class="modal-title loc-title">{{locationTitle}}</text>
+        <text class="close" bindtap="closeLocation">×</text>
+      </view>
+      <text class="modal-subtitle loc-subtitle">{{locationSubtitle}}</text>
+      <view wx:if="{{locationUnknownArea}}" class="loc-unknown-note">该地点在游戏内各区域均显示为“未知区域(???)”，无法区分具体楼层；下方按概率拆分出不同的混群组合，可凭组合成员与遭遇率对照识别。</view>
+
+      <view class="loc-time-switch">
+        <view wx:for="{{locationTimeOptions}}" wx:key="key" wx:for-item="opt"
+          class="loc-time-chip {{opt.key === locationTimeOptions[locationTimeIndex].key ? 'loc-time-active' : ''}} {{opt.available ? '' : 'loc-time-disabled'}}"
+          data-time="{{opt.key}}" bindtap="switchLocationTime">{{opt.label}}</view>
+      </view>
+
+      <view class="loc-horde-filters">
+        <view wx:for="{{locationHordeFilters}}" wx:key="key" wx:for-item="filter"
+          class="loc-filter-chip {{filter.key === locationHordeFilters[locationHordeIndex].key ? 'loc-filter-active' : ''}}"
+          data-horde="{{filter.key}}" bindtap="onLocationHordeChip">{{filter.label}} {{filter.count}}</view>
+      </view>
+
+      <scroll-view scroll-y class="location-list">
+        <view wx:if="{{locationEmpty}}" class="state">该分类下没有遭遇记录</view>
+        <block wx:else>
+          <block wx:if="{{locationGroupsData.length > 1}}">
+            <view wx:for="{{locationGroupsData}}" wx:key="label" wx:for-item="group" class="loc-horde-group">
+            <view class="loc-horde-group-head" style="color:{{group.color}};border-color:{{group.color}};background:{{group.color}}14">
+              混群{{group.label}}<text class="loc-horde-group-hint">同一组</text>
+            </view>
+            <view wx:for="{{group.records}}" wx:key="key" wx:for-item="item" class="location-row">
+              <image class="location-sprite" src="{{item.image}}" mode="aspectFit" />
+              <view class="location-main">
+                <view class="location-title-row">
+                  <text class="location-name">{{item.name}}</text>
+                  <text class="dex">#{{item.id}}</text>
+                  <text wx:if="{{item.tier}}" class="tier tier-sm" style="color:{{item.tier.color}};border-color:{{item.tier.color}};background:{{item.tier.color}}1a">{{item.tier.text}}</text>
+                </view>
+                <view class="types-row">
+                  <text wx:for="{{item.types}}" wx:for-item="tp" wx:key="name" class="type-chip type-chip-sm" style="background:{{tp.color}}">{{tp.name}}</text>
+                </view>
+                <view class="location-meta">
+                  <text>Lv.{{item.level}} · {{item.season}}</text>
+                  <text class="tag tag-accent">{{item.hordeText}}</text>
+                  <text wx:if="{{item.groupIndex != null}}" class="loc-horde-badge" style="color:{{locationGroupsData[item.groupIndex].color}};border-color:{{locationGroupsData[item.groupIndex].color}}">混群{{locationGroupsData[item.groupIndex].label}}</text>
+                  <text wx:if="{{item.rateText}}" class="rate">遭遇率 {{item.rateText}}</text>
+                </view>
+                <view wx:if="{{item.locYield}}" class="loc-yield">
+                  <text class="loc-yield-line">经验 {{item.locYield.expText}} · {{item.locYield.avgLabel}} {{item.locYield.avgText}}</text>
+                  <text class="loc-yield-line">EV {{item.locYield.evText}}</text>
+                </view>
+              </view>
+              </view>
+            </view>
+          </block>
+          <block wx:else>
+            <view wx:for="{{locationRecords}}" wx:key="key" wx:for-item="item" class="location-row">
+            <image class="location-sprite" src="{{item.image}}" mode="aspectFit" />
+            <view class="location-main">
+              <view class="location-title-row">
+                <text class="location-name">{{item.name}}</text>
+                <text class="dex">#{{item.id}}</text>
+                <text wx:if="{{item.tier}}" class="tier tier-sm" style="color:{{item.tier.color}};border-color:{{item.tier.color}};background:{{item.tier.color}}1a">{{item.tier.text}}</text>
+              </view>
+              <view class="types-row">
+                <text wx:for="{{item.types}}" wx:for-item="tp" wx:key="name" class="type-chip type-chip-sm" style="background:{{tp.color}}">{{tp.name}}</text>
+              </view>
+              <view class="location-meta">
+                <text>Lv.{{item.level}} · {{item.season}}</text>
+                <text class="tag tag-accent">{{item.hordeText}}</text>
+                <text wx:if="{{item.rateText}}" class="rate">遭遇率 {{item.rateText}}</text>
+              </view>
+              <view wx:if="{{item.locYield}}" class="loc-yield">
+                <text class="loc-yield-line">经验 {{item.locYield.expText}} · {{item.locYield.avgLabel}} {{item.locYield.avgText}}</text>
+                <text class="loc-yield-line">EV {{item.locYield.evText}}</text>
+              </view>
+              </view>
+            </view>
+          </block>
+        </block>
+      </scroll-view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,1309 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>PokeMMO 宝可梦分布查询（贴图版）</title>
+  <style>
+    :root {
+      --bg: #121820;
+      --surface: #1c2533;
+      --surface2: #263246;
+      --border: #334155;
+      --text: #eef2f7;
+      --muted: #94a3b8;
+      --accent: #fbbf24;
+      --accent-dim: #d97706;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.5;
+    }
+
+    header {
+      background: linear-gradient(135deg, #b45309 0%, #92400e 45%, #78350f 100%);
+      padding: 1.5rem 1rem 2rem;
+      text-align: center;
+      box-shadow: 0 4px 24px rgba(0,0,0,.45);
+    }
+
+    header h1 { font-size: 1.75rem; font-weight: 700; }
+    header p { margin-top: .35rem; color: rgba(255,255,255,.8); font-size: .9rem; }
+    header a { color: #fde68a; text-decoration: none; }
+    header a:hover { text-decoration: underline; }
+
+    .container {
+      max-width: 1400px;
+      margin: -1rem auto 2rem;
+      padding: 0 1rem;
+    }
+
+    .filters {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 1rem;
+      box-shadow: 0 8px 32px rgba(0,0,0,.25);
+    }
+
+    @media (max-width: 900px) { .filters { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 520px) { .filters { grid-template-columns: 1fr; } }
+
+    .field label {
+      display: block;
+      font-size: .78rem;
+      color: var(--muted);
+      margin-bottom: .35rem;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+    }
+
+    .field input, .field select {
+      width: 100%;
+      padding: .6rem .75rem;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      font-size: .95rem;
+      outline: none;
+    }
+
+    .field input:focus, .field select:focus { border-color: var(--accent); }
+    .field input::placeholder { color: var(--muted); }
+
+    .stats-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 1rem 0 .75rem;
+      font-size: .875rem;
+      color: var(--muted);
+    }
+
+    .stats-bar strong { color: var(--accent); }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: .85rem;
+    }
+
+    .card {
+      display: flex;
+      gap: .85rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: .85rem;
+      transition: border-color .15s, transform .15s;
+    }
+
+    .card:hover {
+      border-color: var(--accent-dim);
+      transform: translateY(-1px);
+    }
+
+    .sprite-wrap {
+      flex-shrink: 0;
+      width: 72px;
+      height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle at center, #2a3548 0%, #1a2230 70%);
+      border-radius: 10px;
+      border: 1px solid var(--border);
+    }
+
+    .sprite-wrap img {
+      width: 64px;
+      height: 64px;
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+    }
+
+    .card-body { flex: 1; min-width: 0; }
+
+    .card-title {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: .35rem;
+      margin-bottom: .25rem;
+    }
+
+    .card-title h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-right: .25rem;
+      display: inline;
+    }
+
+    .card-title small {
+      color: var(--muted);
+      font-size: .75rem;
+    }
+
+    .type-badge {
+      display: inline-block;
+      padding: .12rem .4rem;
+      border-radius: 4px;
+      font-size: .68rem;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .loc-line {
+      font-size: .82rem;
+      color: var(--text);
+      margin-bottom: .2rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .loc-line .region { color: var(--accent); font-weight: 600; }
+    .item-match { color: var(--accent); font-weight: 600; }
+
+    .meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .3rem;
+      margin-top: .45rem;
+      align-items: center;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: .15rem .45rem;
+      border-radius: 999px;
+      font-size: .7rem;
+      font-weight: 600;
+    }
+
+    .badge-none { background: #37474f; color: #b0bec5; }
+    .badge-3 { background: #e65100; color: #fff; }
+    .badge-5 { background: #b71c1c; color: #fff; }
+    .badge-season { background: #2e7d32; color: #c8e6c9; }
+    .badge-any { background: #455a64; color: #cfd8dc; }
+    .badge-level { background: #1e3a5f; color: #93c5fd; }
+    .badge-terrain { background: #3b2f4a; color: #d8b4fe; }
+
+    .time-tags { display: flex; flex-wrap: wrap; gap: .2rem; }
+
+    .time-tag {
+      font-size: .65rem;
+      padding: .1rem .35rem;
+      border-radius: 4px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+    }
+
+    .time-tag.active {
+      background: rgba(251,191,36,.12);
+      border-color: var(--accent-dim);
+      color: var(--accent);
+    }
+
+    .time-tag.inactive { opacity: .3; }
+
+    .loading, .empty {
+      text-align: center;
+      padding: 4rem 1rem;
+      color: var(--muted);
+    }
+
+    .loading .spinner {
+      width: 40px; height: 40px;
+      border: 3px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin .8s linear infinite;
+      margin: 0 auto 1rem;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .empty-icon { font-size: 2.5rem; margin-bottom: .5rem; }
+
+    .pagination {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: .5rem;
+      padding: 1.25rem 0;
+    }
+
+    .pagination button {
+      padding: .45rem .9rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      cursor: pointer;
+    }
+
+    .pagination button:hover:not(:disabled) {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .pagination button:disabled { opacity: .4; cursor: not-allowed; }
+    .pagination span { font-size: .85rem; color: var(--muted); }
+
+    .reset-button {
+      width: 100%;
+      height: 38px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: .4rem;
+      padding: 0 .75rem;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      font-size: .85rem;
+      cursor: pointer;
+    }
+
+    .reset-button:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .reset-button span[aria-hidden="true"] {
+      font-size: 1rem;
+      line-height: 1;
+    }
+
+    datalist { display: none; }
+
+    /* WeChat web-view/mobile layout */
+    html { overflow-x: hidden; }
+    body { -webkit-tap-highlight-color: transparent; overscroll-behavior-x: none; }
+
+    @media (max-width: 520px) {
+      body { padding-bottom: env(safe-area-inset-bottom); }
+      header {
+        padding: calc(.8rem + env(safe-area-inset-top)) .85rem .95rem;
+        text-align: left;
+        background: #9a420d;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .3);
+      }
+      header h1 { font-size: 1.25rem; line-height: 1.35; }
+      header p { margin-top: .25rem; font-size: .78rem; line-height: 1.4; }
+      header a { display: none; }
+      .container {
+        width: 100%; margin: 0;
+        padding: .65rem .7rem calc(1rem + env(safe-area-inset-bottom));
+      }
+      .filters, .filters-with-evo {
+        grid-template-columns: 1fr !important;
+        gap: .65rem; padding: .8rem; border-radius: 10px; box-shadow: none;
+      }
+      .field label { font-size: .72rem; margin-bottom: .25rem; }
+      .field input, .field select {
+        min-height: 44px; padding: .65rem .75rem; font-size: 16px; border-radius: 7px;
+      }
+      .field-toggle .switch-row { min-height: 44px; height: auto; }
+      .switch { width: 48px; height: 28px; }
+      .slider::before { width: 22px; height: 22px; }
+      .switch input:checked + .slider::before { transform: translateX(20px); }
+      .switch-hint { font-size: .78rem; line-height: 1.35; }
+      .reset-button { min-height: 44px; height: 44px; font-size: .9rem; }
+      .stats-bar { margin: .8rem .1rem .6rem; font-size: .78rem; }
+      .card-grid { grid-template-columns: minmax(0, 1fr); gap: .6rem; }
+      .card { min-width: 0; gap: .65rem; padding: .7rem; border-radius: 10px; box-shadow: none; }
+      .card:hover { transform: none; }
+      .sprite-wrap { width: 60px; height: 60px; border-radius: 8px; }
+      .sprite-wrap img { width: 54px; height: 54px; }
+      .card-title h3 { font-size: .95rem; }
+      .loc-line { font-size: .78rem; }
+      .meta-row { gap: .25rem; margin-top: .35rem; }
+      .badge { font-size: .66rem; }
+      .time-tag { font-size: .62rem; }
+      .pagination { gap: .4rem; padding: .9rem 0 calc(.9rem + env(safe-area-inset-bottom)); }
+      .pagination button { flex: 1; min-height: 44px; padding: .5rem .65rem; font-size: .9rem; }
+      .pagination span { min-width: 5.5rem; text-align: center; }
+      .ec-panel-wrap { margin: .6rem 0; overflow-x: hidden; }
+      .ec-panel { padding: .75rem; border-radius: 10px; box-shadow: none; }
+      .swarm-panel { padding: .8rem; border-radius: 10px; box-shadow: none; }
+      .swarm-head { flex-direction: column; align-items: flex-start; gap: .45rem; }
+      .swarm-title h2 { font-size: 1rem; }
+      .swarm-grid { grid-template-columns: minmax(0, 1fr); gap: .55rem; }
+      .swarm-card { padding: .6rem; gap: .6rem; }
+      .swarm-sprite-wrap { width: 50px; height: 50px; border-radius: 8px; }
+      .swarm-sprite-wrap img { width: 42px; height: 42px; }
+    }
+
+    /* 明雷报点面板 */
+    .swarm-panel {
+      margin: .85rem 0;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1rem 1.1rem;
+      box-shadow: 0 8px 32px rgba(0,0,0,.25);
+    }
+    .swarm-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: .75rem;
+      flex-wrap: wrap;
+      margin-bottom: .8rem;
+    }
+    .swarm-title { display: flex; align-items: center; gap: .55rem; flex-wrap: wrap; }
+    .swarm-title h2 { font-size: 1.05rem; color: var(--text); }
+    .swarm-dot {
+      width: 10px; height: 10px; border-radius: 50%;
+      background: var(--muted);
+      flex-shrink: 0;
+    }
+    .swarm-dot.live { background: #22c55e; box-shadow: 0 0 6px rgba(34,197,94,.7); }
+    .swarm-dot.error { background: #ef4444; }
+    .swarm-dot.loading { background: var(--accent); animation: swarm-pulse 1.2s ease-in-out infinite; }
+    @keyframes swarm-pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: .35; }
+    }
+    .swarm-badge {
+      font-size: .68rem;
+      color: var(--accent);
+      border: 1px solid var(--accent-dim);
+      border-radius: 999px;
+      padding: .12rem .5rem;
+    }
+    .swarm-meta {
+      display: flex; align-items: center; gap: .6rem;
+      font-size: .75rem; color: var(--muted); flex-wrap: wrap;
+    }
+    .swarm-meta a { color: var(--accent-dim); text-decoration: none; }
+    .swarm-meta a:hover { text-decoration: underline; }
+    .swarm-refresh {
+      border: 1px solid var(--accent-dim);
+      color: var(--accent);
+      background: transparent;
+      border-radius: 8px;
+      padding: .25rem .7rem;
+      font-size: .75rem;
+      font-family: inherit;
+      cursor: pointer;
+      line-height: 1.4;
+    }
+    .swarm-refresh:hover { background: rgba(251, 191, 36, .12); }
+    .swarm-refresh:active { transform: translateY(1px); }
+    .swarm-refresh:disabled { opacity: .55; cursor: wait; }
+    .swarm-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: .7rem;
+    }
+    .swarm-card {
+      display: flex; gap: .7rem;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: .7rem;
+      min-width: 0;
+    }
+    .swarm-sprite-wrap {
+      flex-shrink: 0; width: 56px; height: 56px;
+      display: flex; align-items: center; justify-content: center;
+      background: radial-gradient(circle at center, #2a3548 0%, #1a2230 70%);
+      border-radius: 9px; border: 1px solid var(--border);
+      overflow: hidden;
+    }
+    .swarm-sprite-wrap img { width: 48px; height: 48px; image-rendering: pixelated; }
+    .swarm-sprite-fallback { font-size: 1.4rem; font-weight: 700; color: var(--muted); }
+    .swarm-card-body { flex: 1; min-width: 0; }
+    .swarm-name-row { display: flex; align-items: center; gap: .4rem; flex-wrap: wrap; }
+    .swarm-name-row h3 { font-size: .95rem; font-weight: 700; color: var(--text); }
+    .swarm-name-row small { color: var(--muted); font-size: .72rem; }
+    .swarm-valuable {
+      font-size: .64rem; color: #fef3c7;
+      background: linear-gradient(135deg, #d97706, #b45309);
+      border-radius: 999px; padding: .1rem .45rem;
+    }
+    .swarm-loc { margin: .2rem 0 .3rem; font-size: .8rem; color: var(--text); }
+    .swarm-meta-row {
+      display: flex; justify-content: space-between; align-items: center; gap: .5rem;
+      font-size: .72rem; color: var(--muted); flex-wrap: wrap;
+    }
+    .swarm-time { color: var(--accent); }
+    .swarm-time strong { font-variant-numeric: tabular-nums; }
+    .swarm-empty {
+      padding: 1rem; text-align: center; color: var(--muted);
+      font-size: .85rem; border: 1px dashed var(--border); border-radius: 10px;
+    }
+    .swarm-error { color: #f87171; }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+    }
+  </style>
+  <link rel="stylesheet" href="location-popup.css">
+  <link rel="stylesheet" href="evolution-chain.css">
+</head>
+<body>
+  <header>
+    <h1>PokeMMO 宝可梦分布查询</h1>
+    <p>贴图版 · 按名称、季节、时间段、群怪筛选 · <a href="index.html">表格版</a></p>
+  </header>
+
+  <div class="container">
+    <div class="filters filters-with-evo">
+      <div class="field">
+        <label for="nameInput">宝可梦名称</label>
+        <input type="text" id="nameInput" list="nameList" placeholder="输入名称搜索，如：皮卡丘、妙蛙种子..." autocomplete="off">
+        <datalist id="nameList"></datalist>
+      </div>
+      <div class="field">
+        <label for="itemInput">携带道具</label>
+        <input type="text" id="itemInput" list="itemList" placeholder="搜索携带道具，如：幸运蛋、护符金币..." autocomplete="off">
+        <datalist id="itemList"></datalist>
+      </div>
+      <div class="field">
+        <label for="regionSelect">地区</label>
+        <select id="regionSelect">
+          <option value="">全部地区</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="seasonSelect">季节 / 季节限定</label>
+        <select id="seasonSelect">
+          <option value="">全部季节</option>
+          <optgroup label="包含该季节">
+            <option value="任意">任意</option>
+            <option value="春">春</option>
+            <option value="夏">夏</option>
+            <option value="秋">秋</option>
+            <option value="冬">冬</option>
+          </optgroup>
+          <optgroup label="群怪季节分布">
+            <option value="horde:all">群怪四季都有</option>
+            <option value="only:春">群怪仅春季</option>
+            <option value="only:夏">群怪仅夏季</option>
+            <option value="only:秋">群怪仅秋季</option>
+            <option value="only:冬">群怪仅冬季</option>
+          </optgroup>
+        </select>
+      </div>
+      <div class="field">
+        <label for="timeSelect">时间段</label>
+        <select id="timeSelect">
+          <option value="">全部时间</option>
+          <option value="morning">早晨</option>
+          <option value="day">白天</option>
+          <option value="night">夜晚</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="hordeSelect">群怪</label>
+        <select id="hordeSelect">
+          <option value="">全部</option>
+          <option value="0">普通（非群怪）</option>
+          <option value="3">3 群怪</option>
+          <option value="5">5 群怪</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="evYieldSelect">5群怪努力值</label>
+        <select id="evYieldSelect">
+          <option value="">全部努力值</option>
+          <option value="hp">HP</option>
+          <option value="attack">攻击</option>
+          <option value="defense">防御</option>
+          <option value="sp_attack">特攻</option>
+          <option value="sp_defense">特防</option>
+          <option value="speed">速度</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="expSortSelect">5群怪经验排序</label>
+        <select id="expSortSelect">
+          <option value="">默认顺序</option>
+          <option value="desc">经验从高到低</option>
+          <option value="asc">经验从低到高</option>
+        </select>
+      </div>
+      <div class="field field-toggle">
+        <label for="locationLanguageToggle">地点后缀</label>
+        <div class="switch-row">
+          <label class="switch">
+            <input type="checkbox" id="locationLanguageToggle">
+            <span class="slider"></span>
+          </label>
+          <span class="switch-hint" id="locationLanguageHint">中文</span>
+        </div>
+      </div>
+      <div class="field field-toggle">
+        <label for="purePointToggle">纯点</label>
+        <div class="switch-row">
+          <label class="switch">
+            <input type="checkbox" id="purePointToggle">
+            <span class="slider"></span>
+          </label>
+          <span class="switch-hint">群怪概率为 5%</span>
+        </div>
+      </div>
+      <div class="field field-toggle">
+        <label for="allTimeFiveToggle">三时段 5%</label>
+        <div class="switch-row">
+          <label class="switch">
+            <input type="checkbox" id="allTimeFiveToggle">
+            <span class="slider"></span>
+          </label>
+          <span class="switch-hint">早晨、白天、夜晚均为 5%</span>
+        </div>
+      </div>
+      <div class="field field-toggle">
+        <label for="allSeasonHordeToggle">同地点四季纯点</label>
+        <div class="switch-row">
+          <label class="switch">
+            <input type="checkbox" id="allSeasonHordeToggle">
+            <span class="slider"></span>
+          </label>
+          <span class="switch-hint">四季均为三时段 5% 的 5 群怪</span>
+        </div>
+      </div>
+      <div class="field">
+        <label for="tierSelect">闪战分级</label>
+        <select id="tierSelect">
+          <option value="">全部分级</option>
+          <option value="T0">T0（50分）</option>
+          <option value="T1">T1（45分）</option>
+          <option value="T2">T2（40分）</option>
+          <option value="T3">T3（30分）</option>
+          <option value="T4">T4（15分）</option>
+          <option value="T5">T5（10分）</option>
+          <option value="T6">T6（5分）</option>
+          <option value="T7">T7（3分）</option>
+        </select>
+      </div>
+      <div class="field field-toggle">
+        <label for="evoChainToggle">进化链</label>
+        <div class="switch-row">
+          <label class="switch">
+            <input type="checkbox" id="evoChainToggle">
+            <span class="slider"></span>
+          </label>
+          <span class="switch-hint" id="evoHint">含整条进化链分布</span>
+        </div>
+      </div>
+      <div class="field field-toggle">
+        <label for="dedupeToggle">去重</label>
+        <div class="switch-row">
+          <label class="switch">
+            <input type="checkbox" id="dedupeToggle" checked>
+            <span class="slider"></span>
+          </label>
+          <span class="switch-hint" id="dedupeHint">已去重，点击名称查看分布</span>
+        </div>
+      </div>
+      <div class="field field-action">
+        <label for="resetFiltersBtn">筛选操作</label>
+        <button type="button" id="resetFiltersBtn" class="reset-button" title="重置全部筛选项">
+          <span aria-hidden="true">↺</span>
+          <span>重置</span>
+        </button>
+      </div>
+    </div>
+
+    <section class="swarm-panel" id="swarmPanel" aria-label="明雷报点">
+      <div class="swarm-head">
+        <div class="swarm-title">
+          <span class="swarm-dot loading" id="swarmDot" aria-hidden="true"></span>
+          <h2>明雷报点</h2>
+          <span class="swarm-badge">每 15 秒刷新</span>
+        </div>
+        <div class="swarm-meta">
+          <span id="swarmStatus">连接中…</span>
+          <span id="swarmUpdated"></span>
+          <button type="button" class="swarm-refresh" id="swarmRefreshBtn">刷新</button>
+          <a href="https://pokemoyu.com/" target="_blank" rel="noopener noreferrer">数据来源：pokemoyu.com</a>
+        </div>
+      </div>
+      <div class="swarm-body" id="swarmBody">
+        <div class="swarm-empty">正在获取实时报点…</div>
+      </div>
+    </section>
+
+    <div id="evoPanelWrap" class="ec-panel-wrap" hidden></div>
+
+    <div class="stats-bar">
+      <span>共 <strong id="totalCount">-</strong> 条分布记录</span>
+      <span>显示 <strong id="filteredCount">-</strong> 条</span>
+    </div>
+
+    <div id="content">
+      <div class="loading">
+        <div class="spinner"></div>
+        <p>正在加载数据...</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="search-data.js"></script>
+  <script src="data/game-data.js"></script>
+  <script src="tier-display.js"></script>
+  <script src="horde-yield.js"></script>
+  <script src="location-name.js"></script>
+  <script src="location-popup.js"></script>
+  <script src="monster-popup.js"></script>
+  <script src="evolution-chain.js"></script>
+  <script src="swarm-live.js"></script>
+  <script>
+    const F = {
+      ID: 0, NAME: 1, BASE: 2, TYPES: 3, REGION: 4, LOC: 5,
+      TERRAIN: 6, LEVEL: 7, SEASON: 8, HORDE: 9,
+      MORNING: 10, DAY: 11, NIGHT: 12,
+      R_MORNING: 13, R_DAY: 14, R_NIGHT: 15, FORM: 16,
+    };
+
+    const SPRITE_BASE = '../sprites/monstericons/';
+    const TYPE_COLORS = {
+      '一般': '#A8A878', '火': '#F08030', '水': '#6890F0', '电': '#F8D030',
+      '草': '#78C850', '冰': '#98D8D8', '格斗': '#C03028', '毒': '#A040A0',
+      '地面': '#E0C068', '飞行': '#A890F0', '超能': '#F85888', '虫': '#A8B820',
+      '岩石': '#B8A038', '幽灵': '#705898', '龙': '#7038F8', '恶': '#705848',
+      '钢': '#B8B8D0', '妖精': '#EE99AC',
+    };
+
+    const PAGE_SIZE = 60;
+    const VIEW_STATE_KEY = 'pokemmo-spawn-query:view-state:v1';
+    const SEASONS = ['春', '夏', '秋', '冬'];
+    let allRecords = [];
+    let filtered = [];
+    let filteredById = new Map();
+    let displayItems = [];
+    let seasonsById = new Map();
+    let hordeSeasonsByLocation = new Map();
+    let currentPage = 1;
+    let suppressStateSave = false;
+    let scrollSaveTimer = null;
+
+    const els = {
+      nameInput: document.getElementById('nameInput'),
+      itemInput: document.getElementById('itemInput'),
+      itemList: document.getElementById('itemList'),
+      regionSelect: document.getElementById('regionSelect'),
+      seasonSelect: document.getElementById('seasonSelect'),
+      timeSelect: document.getElementById('timeSelect'),
+      hordeSelect: document.getElementById('hordeSelect'),
+      evYieldSelect: document.getElementById('evYieldSelect'),
+      expSortSelect: document.getElementById('expSortSelect'),
+      locationLanguageToggle: document.getElementById('locationLanguageToggle'),
+      locationLanguageHint: document.getElementById('locationLanguageHint'),
+      purePointToggle: document.getElementById('purePointToggle'),
+      allTimeFiveToggle: document.getElementById('allTimeFiveToggle'),
+      allSeasonHordeToggle: document.getElementById('allSeasonHordeToggle'),
+      tierSelect: document.getElementById('tierSelect'),
+      totalCount: document.getElementById('totalCount'),
+      filteredCount: document.getElementById('filteredCount'),
+      content: document.getElementById('content'),
+      nameList: document.getElementById('nameList'),
+      evoChainToggle: document.getElementById('evoChainToggle'),
+      evoPanelWrap: document.getElementById('evoPanelWrap'),
+      evoHint: document.getElementById('evoHint'),
+      dedupeToggle: document.getElementById('dedupeToggle'),
+      dedupeHint: document.getElementById('dedupeHint'),
+      resetFiltersBtn: document.getElementById('resetFiltersBtn'),
+    };
+
+    function spriteUrl(id, form) {
+      const inlineSprites = window.INLINE_SPRITES;
+      if (inlineSprites) {
+        return inlineSprites[`${id}-${form}`] || inlineSprites[`${id}-0`] || '';
+      }
+      return `${SPRITE_BASE}${id}-${form}.png`;
+    }
+
+    function init() {
+      if (!window.POKEMON_DATA) {
+        els.content.innerHTML = '<div class="empty"><div class="empty-icon">⚠️</div><p>数据加载失败，请确保 search-data.js 在同一目录</p></div>';
+        return;
+      }
+
+      const savedState = loadViewState();
+      const initialLocationLanguage = savedState?.locationLanguage === 'en' ? 'en' : 'zh';
+      els.locationLanguageToggle.checked = initialLocationLanguage === 'en';
+      allRecords = LocationName.applyLanguage(window.POKEMON_DATA.r, F.LOC, initialLocationLanguage);
+      updateLocationLanguageHint();
+      seasonsById = buildSeasonsById(allRecords);
+      hordeSeasonsByLocation = buildHordeSeasonsByLocation(allRecords);
+      els.totalCount.textContent = allRecords.length.toLocaleString();
+
+      HordeYield.init(window.GAME_DATA, allRecords, F);
+      LocationPopup.init(allRecords, F, { spriteBase: SPRITE_BASE, typeColors: TYPE_COLORS });
+      LocationPopup.bindRoot(document.body);
+      MonsterPopup.init(F, { spriteBase: SPRITE_BASE, typeColors: TYPE_COLORS });
+      MonsterPopup.bindRoot(document.body);
+      TierDisplay.init(window.POKEMON_DATA);
+      EvolutionChain.init(window.POKEMON_DATA, { spriteBase: SPRITE_BASE, typeColors: TYPE_COLORS });
+
+      POKEMON_DATA.n.forEach(name => {
+        const opt = document.createElement('option');
+        opt.value = name;
+        els.nameList.appendChild(opt);
+      });
+      HordeYield.allHeldItemNames().forEach(name => {
+        const opt = document.createElement('option');
+        opt.value = name;
+        els.itemList.appendChild(opt);
+      });
+
+      const regions = [...new Set(allRecords.map(r => r[F.REGION]).filter(Boolean))]
+        .sort((a, b) => a.localeCompare(b, 'zh-CN'));
+      regions.forEach(reg => {
+        const opt = document.createElement('option');
+        opt.value = reg;
+        opt.textContent = reg;
+        els.regionSelect.appendChild(opt);
+      });
+
+      restoreViewState(savedState);
+
+      ['input', 'change'].forEach(evt => {
+        els.nameInput.addEventListener(evt, onFilter);
+        els.itemInput.addEventListener(evt, onFilter);
+        els.regionSelect.addEventListener(evt, onFilter);
+        els.seasonSelect.addEventListener(evt, onFilter);
+        els.timeSelect.addEventListener(evt, onFilter);
+        els.hordeSelect.addEventListener(evt, onHordeFilterChange);
+        els.evYieldSelect.addEventListener(evt, onYieldModeChange);
+        els.expSortSelect.addEventListener(evt, onYieldModeChange);
+        els.tierSelect.addEventListener(evt, onFilter);
+        els.purePointToggle.addEventListener('change', onFilter);
+        els.allTimeFiveToggle.addEventListener('change', onFilter);
+        els.allSeasonHordeToggle.addEventListener('change', onFilter);
+        els.locationLanguageToggle.addEventListener('change', onLocationLanguageChange);
+        els.evoChainToggle.addEventListener('change', onFilter);
+        els.dedupeToggle.addEventListener('change', onFilter);
+      });
+
+      els.resetFiltersBtn.addEventListener('click', resetFilters);
+      window.addEventListener('pagehide', saveViewState);
+      window.addEventListener('beforeunload', saveViewState);
+      window.addEventListener('scroll', () => {
+        window.clearTimeout(scrollSaveTimer);
+        scrollSaveTimer = window.setTimeout(saveViewState, 150);
+      }, { passive: true });
+
+      suppressStateSave = true;
+      onFilter(savedState?.page);
+      suppressStateSave = false;
+
+      if (savedState && Number.isFinite(savedState.scrollY)) {
+        window.requestAnimationFrame(() => {
+          window.scrollTo({ top: savedState.scrollY, left: 0, behavior: 'auto' });
+        });
+      }
+    }
+
+    function loadViewState() {
+      try {
+        const saved = JSON.parse(window.localStorage.getItem(VIEW_STATE_KEY));
+        return saved && typeof saved === 'object' ? saved : null;
+      } catch (error) {
+        return null;
+      }
+    }
+
+    function setSavedSelectValue(select, value) {
+      if (typeof value !== 'string') return;
+      if ([...select.options].some(option => option.value === value)) {
+        select.value = value;
+      }
+    }
+
+    function restoreViewState(state) {
+      if (!state) return;
+      if (typeof state.name === 'string') els.nameInput.value = state.name;
+      if (typeof state.item === 'string') els.itemInput.value = state.item;
+      setSavedSelectValue(els.regionSelect, state.region);
+      setSavedSelectValue(els.seasonSelect, state.season);
+      setSavedSelectValue(els.timeSelect, state.time);
+      setSavedSelectValue(els.hordeSelect, state.horde);
+      setSavedSelectValue(els.evYieldSelect, state.evYield);
+      setSavedSelectValue(els.expSortSelect, state.expSort);
+      if (els.evYieldSelect.value || els.expSortSelect.value) els.hordeSelect.value = '5';
+      setSavedSelectValue(els.tierSelect, state.tier);
+      els.locationLanguageToggle.checked = state.locationLanguage === 'en';
+      updateLocationLanguageHint();
+      els.purePointToggle.checked = Boolean(state.purePoint);
+      els.allTimeFiveToggle.checked = Boolean(state.allTimeFive);
+      els.allSeasonHordeToggle.checked = Boolean(state.allSeasonHorde);
+      els.evoChainToggle.checked = Boolean(state.evoChain);
+      els.dedupeToggle.checked = true;
+    }
+
+    function saveViewState() {
+      if (suppressStateSave) return;
+      const state = {
+        name: els.nameInput.value,
+        item: els.itemInput.value,
+        region: els.regionSelect.value,
+        season: els.seasonSelect.value,
+        time: els.timeSelect.value,
+        horde: els.hordeSelect.value,
+        evYield: els.evYieldSelect.value,
+        expSort: els.expSortSelect.value,
+        locationLanguage: els.locationLanguageToggle.checked ? 'en' : 'zh',
+        purePoint: els.purePointToggle.checked,
+        allTimeFive: els.allTimeFiveToggle.checked,
+        allSeasonHorde: els.allSeasonHordeToggle.checked,
+        tier: els.tierSelect.value,
+        evoChain: els.evoChainToggle.checked,
+        dedupe: els.dedupeToggle.checked,
+        page: currentPage,
+        scrollY: window.scrollY || 0,
+      };
+
+      try {
+        window.localStorage.setItem(VIEW_STATE_KEY, JSON.stringify(state));
+      } catch (error) {
+        // The page remains usable when storage is unavailable.
+      }
+    }
+
+    function resetFilters() {
+      els.nameInput.value = '';
+      els.itemInput.value = '';
+      els.regionSelect.value = '';
+      els.seasonSelect.value = '';
+      els.timeSelect.value = '';
+      els.hordeSelect.value = '';
+      els.evYieldSelect.value = '';
+      els.expSortSelect.value = '';
+      els.locationLanguageToggle.checked = false;
+      applyLocationLanguage('zh');
+      els.purePointToggle.checked = false;
+      els.allTimeFiveToggle.checked = false;
+      els.allSeasonHordeToggle.checked = false;
+      els.tierSelect.value = '';
+      els.evoChainToggle.checked = false;
+      els.dedupeToggle.checked = true;
+      currentPage = 1;
+      window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+
+      try {
+        window.localStorage.removeItem(VIEW_STATE_KEY);
+      } catch (error) {
+        // Ignore storage failures and still reset the current view.
+      }
+
+      onFilter(1);
+    }
+
+    function isFivePercent(rate) {
+      return /^5(?:\.0+)?%$/.test(String(rate || '').trim());
+    }
+
+    function updateLocationLanguageHint() {
+      els.locationLanguageHint.textContent = els.locationLanguageToggle.checked ? 'English' : '中文';
+    }
+
+    function applyLocationLanguage(language) {
+      LocationName.applyLanguage(allRecords, F.LOC, language);
+      hordeSeasonsByLocation = buildHordeSeasonsByLocation(allRecords);
+      HordeYield.setRecords(allRecords, F);
+      LocationPopup.init(allRecords, F, { spriteBase: SPRITE_BASE, typeColors: TYPE_COLORS });
+      updateLocationLanguageHint();
+    }
+
+    function onLocationLanguageChange() {
+      applyLocationLanguage(els.locationLanguageToggle.checked ? 'en' : 'zh');
+      onFilter(currentPage);
+    }
+
+    function onYieldModeChange() {
+      if (els.evYieldSelect.value || els.expSortSelect.value) {
+        els.hordeSelect.value = '5';
+      }
+      onFilter();
+    }
+
+    function onHordeFilterChange() {
+      if (els.hordeSelect.value !== '5') {
+        els.evYieldSelect.value = '';
+        els.expSortSelect.value = '';
+      }
+      onFilter();
+    }
+
+    function matchesPurePoint(r, time) {
+      if (!isHordeRecord(r)) return false;
+      if (time === 'morning') return r[F.MORNING] && isFivePercent(r[F.R_MORNING]);
+      if (time === 'day') return r[F.DAY] && isFivePercent(r[F.R_DAY]);
+      if (time === 'night') return r[F.NIGHT] && isFivePercent(r[F.R_NIGHT]);
+      return (r[F.MORNING] && isFivePercent(r[F.R_MORNING])) ||
+             (r[F.DAY] && isFivePercent(r[F.R_DAY])) ||
+             (r[F.NIGHT] && isFivePercent(r[F.R_NIGHT]));
+    }
+
+    function matchesAllTimeFivePercent(r) {
+      return r[F.HORDE] === 5 &&
+        r[F.MORNING] && isFivePercent(r[F.R_MORNING]) &&
+        r[F.DAY] && isFivePercent(r[F.R_DAY]) &&
+        r[F.NIGHT] && isFivePercent(r[F.R_NIGHT]);
+    }
+
+    function isHordeRecord(r) {
+      return r[F.HORDE] === 3 || r[F.HORDE] === 5;
+    }
+
+    function buildSeasonsById(records) {
+      const result = new Map();
+      records.forEach(r => {
+        if (!isHordeRecord(r)) return;
+        const id = r[F.ID];
+        if (!result.has(id)) result.set(id, new Set());
+        result.get(id).add(r[F.SEASON]);
+      });
+      return result;
+    }
+
+    function hordeLocationSeasonKey(r) {
+      return [r[F.ID], r[F.REGION], r[F.LOC], r[F.TERRAIN]].join('\0');
+    }
+
+    function buildHordeSeasonsByLocation(records) {
+      const result = new Map();
+      records.forEach(r => {
+        if (!matchesAllTimeFivePercent(r)) return;
+        const key = hordeLocationSeasonKey(r);
+        if (!result.has(key)) result.set(key, new Set());
+        result.get(key).add(r[F.SEASON]);
+      });
+      return result;
+    }
+
+    function appearsInAllHordeSeasonsAtLocation(r) {
+      if (!matchesAllTimeFivePercent(r)) return false;
+      const seasons = hordeSeasonsByLocation.get(hordeLocationSeasonKey(r));
+      return seasons && (seasons.has('任意') || SEASONS.every(season => seasons.has(season)));
+    }
+
+    function appearsOnlyInSeason(id, season) {
+      const seasons = seasonsById.get(id);
+      return seasons && seasons.size === 1 && seasons.has(season);
+    }
+
+    function appearsInAllHordeSeasons(id) {
+      const seasons = seasonsById.get(id);
+      return seasons && (seasons.has('任意') || SEASONS.every(season => seasons.has(season)));
+    }
+
+    function compareExperienceRecords(a, b, direction) {
+      const scoreA = HordeYield.mixedExperienceScore(a, F, els.purePointToggle.checked ? [a] : undefined);
+      const scoreB = HordeYield.mixedExperienceScore(b, F, els.purePointToggle.checked ? [b] : undefined);
+      const scoreDifference = scoreA - scoreB;
+      if (scoreDifference !== 0) {
+        return direction === 'desc' ? -scoreDifference : scoreDifference;
+      }
+
+      const nameDifference = a[F.BASE].localeCompare(b[F.BASE], 'zh-CN');
+      if (nameDifference !== 0) return nameDifference;
+      return (a[F.REGION] + a[F.LOC]).localeCompare(b[F.REGION] + b[F.LOC], 'zh-CN');
+    }
+
+    function onFilter(requestedPage) {
+      const pageToShow = Number.isInteger(requestedPage) && requestedPage > 0 ? requestedPage : 1;
+      const nameQ = els.nameInput.value.trim().toLowerCase();
+      const itemQ = els.itemInput.value.trim().toLowerCase();
+      const region = els.regionSelect.value;
+      const seasonFilter = els.seasonSelect.value;
+      const exclusiveSeason = seasonFilter.startsWith('only:') ? seasonFilter.slice(5) : '';
+      const allHordeSeasons = seasonFilter === 'horde:all';
+      const season = exclusiveSeason || allHordeSeasons ? '' : seasonFilter;
+      const time = els.timeSelect.value;
+      let horde = els.hordeSelect.value;
+      const evYield = els.evYieldSelect.value;
+      const expSort = els.expSortSelect.value;
+      const purePoint = els.purePointToggle.checked;
+      const allTimeFive = els.allTimeFiveToggle.checked;
+      const allSeasonHorde = els.allSeasonHordeToggle.checked;
+      if ((allTimeFive || allSeasonHorde) && horde !== '5') {
+        els.hordeSelect.value = '5';
+        horde = '5';
+      }
+      const tier = els.tierSelect.value;
+      const evoChain = els.evoChainToggle.checked;
+
+      let chainIds = null;
+      if (evoChain && nameQ) {
+        chainIds = EvolutionChain.getFamilyIdsForQuery(nameQ);
+      }
+
+      updateEvoPanel(nameQ, evoChain);
+
+      filtered = allRecords.filter(r => {
+        if (nameQ) {
+          let match;
+          if (chainIds && chainIds.size > 1) {
+            match = chainIds.has(r[F.ID]);
+          } else {
+            match = r[F.NAME].toLowerCase().includes(nameQ) ||
+                    r[F.BASE].toLowerCase().includes(nameQ);
+          }
+          if (!match) return false;
+        }
+        if (itemQ && !HordeYield.matchesHeldItem(r[F.ID], itemQ)) return false;
+        if (region && r[F.REGION] !== region) return false;
+        if (season && r[F.SEASON] !== season && r[F.SEASON] !== '任意') return false;
+        if (exclusiveSeason && (!isHordeRecord(r) || !appearsOnlyInSeason(r[F.ID], exclusiveSeason))) return false;
+        if (allHordeSeasons && (!isHordeRecord(r) || !appearsInAllHordeSeasons(r[F.ID]))) return false;
+        if (time === 'morning' && !r[F.MORNING]) return false;
+        if (time === 'day' && !r[F.DAY]) return false;
+        if (time === 'night' && !r[F.NIGHT]) return false;
+        if (horde !== '' && r[F.HORDE] !== parseInt(horde, 10)) return false;
+        if ((evYield || expSort) && r[F.HORDE] !== 5) return false;
+        if (evYield && !HordeYield.hasEvYield(r[F.ID], evYield)) return false;
+        if (purePoint && !matchesPurePoint(r, time)) return false;
+        if (allTimeFive && !matchesAllTimeFivePercent(r)) return false;
+        if (allSeasonHorde && !appearsInAllHordeSeasonsAtLocation(r)) return false;
+        if (!TierDisplay.matchesFilter(r[F.ID], tier)) return false;
+        return true;
+      });
+
+      if (expSort) {
+        filtered.sort((a, b) => compareExperienceRecords(a, b, expSort));
+      }
+
+      // 同一地点名可能合并多个区域而产生完全相同的记录（如罗斯山隧道冬季的几何雪花），
+      // 列表只展示一条；混群分组与收益仍使用全部记录。
+      const dedupeExact = (records) => {
+        const seen = new Set();
+        return records.filter((r) => {
+          const sig = [
+            r[F.ID], r[F.LOC], r[F.TERRAIN], r[F.LEVEL], r[F.SEASON], r[F.HORDE],
+            r[F.MORNING], r[F.DAY], r[F.NIGHT],
+            r[F.R_MORNING], r[F.R_DAY], r[F.R_NIGHT], r[F.FORM],
+          ].join('\u0000');
+          if (seen.has(sig)) return false;
+          seen.add(sig);
+          return true;
+        });
+      };
+
+      const uniqueFiltered = dedupeExact(filtered);
+      filteredById = MonsterPopup.buildRecordsById(filtered);
+      MonsterPopup.setRecordsById(filteredById);
+      MonsterPopup.setExperienceSort(expSort, purePoint);
+
+      const dedupe = els.dedupeToggle.checked;
+      displayItems = dedupe
+        ? MonsterPopup.dedupeRecords(uniqueFiltered)
+        : uniqueFiltered.map(r => ({ id: r[F.ID], rep: r, count: 1 }));
+
+      if (expSort) {
+        displayItems.sort((a, b) => compareExperienceRecords(a.rep, b.rep, expSort));
+      }
+
+      const totalPages = Math.max(1, Math.ceil(displayItems.length / PAGE_SIZE));
+      currentPage = Math.min(pageToShow, totalPages);
+      if (dedupe) {
+        els.filteredCount.textContent = `${displayItems.length.toLocaleString()} 种（${uniqueFiltered.length.toLocaleString()} 条分布）`;
+        els.dedupeHint.textContent = '已去重，点击名称查看分布';
+      } else {
+        els.filteredCount.textContent = uniqueFiltered.length.toLocaleString();
+        els.dedupeHint.textContent = '同宝可梦只显示一条';
+      }
+      render();
+      saveViewState();
+    }
+
+    function updateEvoPanel(nameQ, evoChain) {
+      if (!evoChain || !nameQ) {
+        els.evoPanelWrap.hidden = true;
+        els.evoPanelWrap.innerHTML = '';
+        els.evoHint.textContent = '含整条进化链分布';
+        return;
+      }
+      els.evoPanelWrap.hidden = false;
+      els.evoPanelWrap.innerHTML = EvolutionChain.renderPanel(nameQ);
+      if (EvolutionChain.hasChain(nameQ)) {
+        els.evoHint.textContent = '已展开进化链';
+      } else {
+        els.evoHint.textContent = '无进化链，按名称搜索';
+      }
+    }
+
+    function hordeBadge(h) {
+      if (h === 3) return '<span class="badge badge-3">3群怪</span>';
+      if (h === 5) return '<span class="badge badge-5">5群怪</span>';
+      return '<span class="badge badge-none">普通</span>';
+    }
+
+    function seasonBadge(s) {
+      if (s === '任意') return '<span class="badge badge-any">任意</span>';
+      return `<span class="badge badge-season">${s}</span>`;
+    }
+
+    function typeBadges(types) {
+      return types.map(t => {
+        const c = TYPE_COLORS[t] || '#607d8b';
+        return `<span class="type-badge" style="background:${c}">${t}</span>`;
+      }).join('');
+    }
+
+    function tierBadge(id) {
+      return TierDisplay.badgeHtml(id);
+    }
+
+    function timeTags(r) {
+      const ctx = {
+        region: r[F.REGION], loc: r[F.LOC], terrain: r[F.TERRAIN], season: r[F.SEASON],
+        id: r[F.ID], level: r[F.LEVEL], horde: r[F.HORDE],
+      };
+      return [
+        LocationPopup.timeTag('晨', 'morning', r[F.MORNING], r[F.R_MORNING], ctx),
+        LocationPopup.timeTag('昼', 'day', r[F.DAY], r[F.R_DAY], ctx),
+        LocationPopup.timeTag('夜', 'night', r[F.NIGHT], r[F.R_NIGHT], ctx),
+      ].join('');
+    }
+
+    function nameLink(id, name) {
+      return `<button type="button" class="mon-name-link" data-id="${id}" title="点击查看全部分布">${esc(name)}</button>`;
+    }
+
+    function hordeYieldHtml(r) {
+      const encounterRecords = els.purePointToggle.checked ? [r] : undefined;
+      return HordeYield.render(r, F, encounterRecords);
+    }
+
+    function render() {
+      if (displayItems.length === 0) {
+        els.content.innerHTML = '<div class="empty"><div class="empty-icon">🔍</div><p>没有找到匹配的分布记录</p></div>';
+        return;
+      }
+
+      const dedupe = els.dedupeToggle.checked;
+      const totalPages = Math.ceil(displayItems.length / PAGE_SIZE);
+      const start = (currentPage - 1) * PAGE_SIZE;
+      const page = displayItems.slice(start, start + PAGE_SIZE);
+
+      const cards = page.map(item => {
+        const r = item.rep;
+        const id = r[F.ID];
+        const form = r[F.FORM] ?? 0;
+        const src = spriteUrl(id, form);
+        const itemQ = els.itemInput.value.trim().toLowerCase();
+        const matchedItemHtml = itemQ
+          ? (function () {
+              const names = HordeYield.matchedHeldItemNames(id, itemQ);
+              return names.length
+                ? `<div class="loc-line item-match">携带道具：${esc(names.join(' / '))}</div>`
+                : '';
+            })()
+          : '';
+        const locHtml = dedupe
+          ? `<div class="loc-line loc-hint">共 ${item.count} 处分布 · 点击名称查看详情</div>`
+          : `<div class="loc-line" title="${esc(r[F.LOC])}">
+               <span class="region">${esc(r[F.REGION])}</span> · ${esc(r[F.LOC])}
+             </div>
+             <div class="meta-row">
+               <span class="badge badge-terrain">${esc(r[F.TERRAIN])}</span>
+               <span class="badge badge-level">Lv.${esc(r[F.LEVEL])}</span>
+               ${seasonBadge(r[F.SEASON])}
+               ${hordeBadge(r[F.HORDE])}
+               <div class="time-tags">${timeTags(r)}</div>
+             </div>`;
+        const metaHtml = dedupe
+          ? `<div class="meta-row"><span class="badge badge-count">${item.count} 处</span></div>`
+          : '';
+        return `
+          <article class="card">
+            <div class="sprite-wrap">
+              <img src="${src}" alt="${esc(r[F.BASE])}"
+                   loading="lazy"
+                   data-id="${id}" data-form="${form}"
+                   onerror="fallbackSprite(this)">
+            </div>
+            <div class="card-body">
+              <div class="card-title">
+                <h3>${nameLink(id, r[F.BASE])}</h3>
+                <small>#${id}</small>
+                ${tierBadge(id)}
+                ${typeBadges(r[F.TYPES])}
+              </div>
+              ${locHtml}
+              ${metaHtml}
+              ${hordeYieldHtml(r)}
+              ${matchedItemHtml}
+            </div>
+          </article>
+        `;
+      }).join('');
+
+      els.content.innerHTML = `
+        <div class="card-grid">${cards}</div>
+        ${totalPages > 1 ? pagination(totalPages) : ''}
+      `;
+
+      if (totalPages > 1) bindPagination(totalPages);
+    }
+
+    function fallbackSprite(img) {
+      const id = img.dataset.id;
+      const form = parseInt(img.dataset.form, 10);
+      if (form !== 0) {
+        img.dataset.form = '0';
+        img.src = spriteUrl(id, 0);
+        img.onerror = () => { img.remove(); };
+      } else {
+        img.remove();
+      }
+    }
+    window.fallbackSprite = fallbackSprite;
+
+    function pagination(totalPages) {
+      return `
+        <div class="pagination">
+          <button id="prevBtn" ${currentPage <= 1 ? 'disabled' : ''}>上一页</button>
+          <span>第 ${currentPage} / ${totalPages} 页</span>
+          <button id="nextBtn" ${currentPage >= totalPages ? 'disabled' : ''}>下一页</button>
+        </div>
+      `;
+    }
+
+    function bindPagination(totalPages) {
+      document.getElementById('prevBtn')?.addEventListener('click', () => {
+        if (currentPage > 1) {
+          currentPage--;
+          render();
+          saveViewState();
+          window.scrollTo({ top: 180, behavior: 'smooth' });
+        }
+      });
+      document.getElementById('nextBtn')?.addEventListener('click', () => {
+        if (currentPage < totalPages) {
+          currentPage++;
+          render();
+          saveViewState();
+          window.scrollTo({ top: 180, behavior: 'smooth' });
+        }
+      });
+    }
+
+    function esc(s) {
+      const d = document.createElement('div');
+      d.textContent = s;
+      return d.innerHTML;
+    }
+
+    init();
+  </script>
+</body>
+</html>
