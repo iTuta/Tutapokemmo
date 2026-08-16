@@ -331,7 +331,6 @@ function formatMessage(item, title) {
     '地区：' + region,
     '地点：' + translateLocation(item.location),
     '剩余：' + timeText + '（' + despawnText + ' 消失）',
-    '报点：' + (item.publishedBy || '匿名'),
   ].join('\n');
 }
 
