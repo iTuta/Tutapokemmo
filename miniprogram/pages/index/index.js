@@ -715,7 +715,13 @@ const P = Page({
         if (!map.has(r[F.ID])) map.set(r[F.ID], []);
         map.get(r[F.ID]).push(r);
       });
-      display = [...map.entries()].map(([id, list]) => ({ id, rep: list[0], count: list.length, records: list }));
+      display = [...map.entries()].map(([id, list]) => {
+        // 未选经验排序时，卡片展示该精灵按闪战分级逐位比较的最高分点位
+        if (!expSort && list.length > 1) {
+          list = list.slice().sort(compareTier);
+        }
+        return { id, rep: list[0], count: list.length, records: list };
+      });
     } else {
       display = filtered.map((r) => ({ id: r[F.ID], rep: r, count: 0 }));
     }
