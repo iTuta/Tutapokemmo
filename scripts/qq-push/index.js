@@ -202,6 +202,14 @@ function buildLocationMap() {
       if (en && zh && !locationByEnglish.has(en)) {
         locationByEnglish.set(en, zh);
       }
+      // 形如 212号道路(最自豪的后院)(Route 212) (North) 的地点，括号内的道路名也映射到中文主干
+      const routeM = String(raw).match(/\((Route \d+)\)/i);
+      if (routeM) {
+        const rEn = normalizeLocationName(routeM[1]);
+        if (rEn && zh && !locationByEnglish.has(rEn)) {
+          locationByEnglish.set(rEn, zh);
+        }
+      }
     });
     log('已加载地点中文名映射，共', locationByEnglish.size, '个地点');
   } catch (err) {
@@ -521,20 +529,26 @@ function buildBossActiveSection(active) {
   const name = info.name || latest.pokemon || ('#' + latest.monsterId);
   const region = REGION_NAMES[latest.region] || latest.region || '';
   const loc = latest.location ? translateLocation(latest.location) : '';
-  const end = latest.despawnTimestamp
+  const remain = Math.max(0, (latest.despawnTimestamp || 0) - Math.floor(Date.now() / 1000));
+  const minutes = Math.floor(remain / 60);
+  const seconds = remain % 60;
+  const timeText = minutes > 0 ? minutes + ' 分 ' + seconds + ' 秒' : seconds + ' 秒';
+  const despawnText = latest.despawnTimestamp
     ? new Date(latest.despawnTimestamp * 1000).toLocaleTimeString('zh-CN', {
         hour12: false,
         timeZone: 'Asia/Shanghai',
       })
     : '未知';
   const lines = [
-    '【头目报点】当前头目为 ' + name + ' #' + latest.monsterId +
+    '【头目报点】' + name + ' #' + latest.monsterId +
       (region ? ' ' + region : '') + (loc ? ' ' + loc : ''),
-    '结束时间：' + end,
+    '地区：' + (region || '未知'),
+    '地点：' + (loc || '未知'),
+    '剩余：' + timeText + '（' + despawnText + ' 消失）',
   ];
   const saved = loadJson(BOSS_LAST_PATH, null);
   if (saved) {
-    lines.push('', '');
+    lines.push('', '', '');
     lines.push(buildBossLastBody(saved));
   }
   return lines.join('\n');
