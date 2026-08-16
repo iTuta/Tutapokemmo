@@ -468,7 +468,7 @@ async function fetchAlpha(url) {
   }
 }
 
-function buildBossLastLine(item) {
+function buildBossLastBody(item) {
   const info = nameById.get(item.monsterId) || {};
   const name = info.name || item.pokemon || ('#' + item.monsterId);
   const region = REGION_NAMES[item.region] || item.region || '';
@@ -484,12 +484,42 @@ function buildBossLastLine(item) {
       })
     : '未知';
   return (
-    '【头目报点】当前无活跃头目\n' +
     '上次头目：' + name + ' #' + item.monsterId +
     (region ? ' ' + region : '') + (loc ? ' ' + loc : '') + '\n' +
     '上次出现：' + appearText + '\n' +
     '结束时间：' + end
   );
+}
+
+function buildBossLastLine(item) {
+  return '【头目报点】当前无活跃头目\n' + buildBossLastBody(item);
+}
+
+function buildBossActiveSection(active) {
+  const latest = active
+    .slice()
+    .sort((a, b) => new Date(b.timestampUtc || 0) - new Date(a.timestampUtc || 0))[0];
+  const info = nameById.get(latest.monsterId) || {};
+  const name = info.name || latest.pokemon || ('#' + latest.monsterId);
+  const region = REGION_NAMES[latest.region] || latest.region || '';
+  const loc = latest.location ? translateLocation(latest.location) : '';
+  const end = latest.despawnTimestamp
+    ? new Date(latest.despawnTimestamp * 1000).toLocaleTimeString('zh-CN', {
+        hour12: false,
+        timeZone: 'Asia/Shanghai',
+      })
+    : '未知';
+  const lines = [
+    '【头目报点】当前头目为 ' + name + ' #' + latest.monsterId +
+      (region ? ' ' + region : '') + (loc ? ' ' + loc : ''),
+    '结束时间：' + end,
+  ];
+  const saved = loadJson(BOSS_LAST_PATH, null);
+  if (saved) {
+    lines.push('', '');
+    lines.push(buildBossLastBody(saved));
+  }
+  return lines.join('\n');
 }
 
 async function buildBossSection() {
@@ -505,11 +535,7 @@ async function buildBossSection() {
     (item) => item && (!item.despawnTimestamp || item.despawnTimestamp > now)
   );
   if (active.length) {
-    const latestActive = active
-      .slice()
-      .sort((a, b) => new Date(b.timestampUtc || 0) - new Date(a.timestampUtc || 0))[0];
-    saveJson(BOSS_LAST_PATH, latestActive);
-    return active.map((item) => formatMessage(item, '【头目报点】')).join('\n\n');
+    return buildBossActiveSection(active);
   }
   let today = [];
   try {
