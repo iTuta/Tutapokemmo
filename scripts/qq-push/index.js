@@ -416,11 +416,28 @@ function envOrConfig(name, fallback) {
   return value == null || value === '' ? fallback : value;
 }
 
+async function fetchRetry(url, retries, baseDelay) {
+  const max = retries || 3;
+  const delay = baseDelay || 2000;
+  let lastErr;
+  for (let attempt = 0; attempt < max; attempt++) {
+    try {
+      return await fetch(url, {
+        cache: 'no-store',
+        headers: { Accept: 'application/json' },
+      });
+    } catch (err) {
+      lastErr = err;
+      if (attempt < max - 1) {
+        await new Promise((resolve) => setTimeout(resolve, delay * (attempt + 1)));
+      }
+    }
+  }
+  throw lastErr;
+}
+
 async function fetchCurrent() {
-  const res = await fetch(POKEMOYU_API, {
-    cache: 'no-store',
-    headers: { Accept: 'application/json' },
-  });
+  const res = await fetchRetry(POKEMOYU_API);
   if (!res.ok) throw new Error('HTTP ' + res.status);
   const data = await res.json();
   return Array.isArray(data) ? data : [];
@@ -455,10 +472,7 @@ async function processPending(list) {
 }
 
 async function fetchAlpha(url) {
-  const res = await fetch(url, {
-    cache: 'no-store',
-    headers: { Accept: 'application/json' },
-  });
+  const res = await fetchRetry(url);
   if (!res.ok || res.status === 204) return [];
   const text = await res.text();
   if (!text) return [];
@@ -533,7 +547,6 @@ async function buildBossSection() {
     current = await fetchAlpha(ALPHA_API);
   } catch (err) {
     fail('拉取头目报点失败：', err.message);
-    return '';
   }
   const active = current.filter(
     (item) => item && (!item.despawnTimestamp || item.despawnTimestamp > now)
