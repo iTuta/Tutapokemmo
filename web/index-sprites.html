@@ -747,7 +747,7 @@
       HordeYield.init(window.GAME_DATA, allRecords, F);
       LocationPopup.init(allRecords, F, { spriteBase: SPRITE_BASE, typeColors: TYPE_COLORS });
       LocationPopup.bindRoot(document.body);
-      MonsterPopup.init(F, { spriteBase: SPRITE_BASE, typeColors: TYPE_COLORS });
+      MonsterPopup.init(F, { spriteBase: SPRITE_BASE, typeColors: TYPE_COLORS, records: allRecords });
       MonsterPopup.bindRoot(document.body);
       TierDisplay.init(window.POKEMON_DATA);
       EvolutionChain.init(window.POKEMON_DATA, { spriteBase: SPRITE_BASE, typeColors: TYPE_COLORS });

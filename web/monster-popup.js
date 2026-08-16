@@ -3,6 +3,7 @@ window.MonsterPopup = (function () {
   var spriteBase = null;
   var typeColors = {};
   var recordsById = new Map();
+  var hordeByLocation = new Map();
   var experienceSortDirection = '';
   var experienceSortSingleRecord = false;
 
@@ -110,7 +111,38 @@ window.MonsterPopup = (function () {
     F = fieldMap;
     spriteBase = options.spriteBase || null;
     typeColors = options.typeColors || {};
+    buildHordeIndex(options.records);
     ensureModal();
+  }
+
+  // 混群点索引：按 地区+地点+地形 归组 5 群怪记录，用于按闪战分级排序时取混群成员
+  function buildHordeIndex(records) {
+    hordeByLocation.clear();
+    if (!records) return;
+    records.forEach(function (r) {
+      if (r[F.HORDE] !== 5) return;
+      var key = r[F.REGION] + '\u0000' + r[F.LOC] + '\u0000' + r[F.TERRAIN];
+      if (!hordeByLocation.has(key)) hordeByLocation.set(key, []);
+      hordeByLocation.get(key).push(r);
+    });
+  }
+
+  // 点位闪战分数：混群点取组内最高分级分数，同分按成员数；非混群点用自身分数
+  function tierSortScore(record) {
+    var own = window.TierDisplay ? TierDisplay.get(record[F.ID]) : null;
+    var ownScore = own ? own[1] : -1;
+    if (record[F.HORDE] !== 5) return { score: ownScore, count: 1 };
+    var key = record[F.REGION] + '\u0000' + record[F.LOC] + '\u0000' + record[F.TERRAIN];
+    var members = (hordeByLocation.get(key) || []).filter(function (m) {
+      return m[F.SEASON] === '任意' || record[F.SEASON] === '任意' || m[F.SEASON] === record[F.SEASON];
+    });
+    if (!members.length) return { score: ownScore, count: 1 };
+    var max = ownScore;
+    members.forEach(function (m) {
+      var t = window.TierDisplay ? TierDisplay.get(m[F.ID]) : null;
+      if (t && t[1] > max) max = t[1];
+    });
+    return { score: max, count: members.length };
   }
 
   function setRecordsById(map) {
@@ -218,6 +250,11 @@ window.MonsterPopup = (function () {
         if (scoreB !== scoreA) {
           return experienceSortDirection === 'desc' ? scoreB - scoreA : scoreA - scoreB;
         }
+      } else {
+        var tierA = tierSortScore(a);
+        var tierB = tierSortScore(b);
+        if (tierB.score !== tierA.score) return tierB.score - tierA.score;
+        if (tierB.count !== tierA.count) return tierB.count - tierA.count;
       }
       var ra = a[F.REGION] + a[F.LOC];
       var rb = b[F.REGION] + b[F.LOC];

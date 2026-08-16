@@ -457,6 +457,31 @@ function compareExperience(a, b, direction, single) {
   return (a[F.REGION] + a[F.LOC]).localeCompare(b[F.REGION] + b[F.LOC], 'zh-CN');
 }
 
+// 点位闪战分数：混群点取组内最高分级分数，同分按成员数；非混群点用自身分数
+function tierSortScore(record) {
+  const own = tierOf(record[F.ID]);
+  const ownScore = own ? own.score : -1;
+  if (record[F.HORDE] !== 5) return { score: ownScore, count: 1 };
+  const key = record[F.REGION] + '\u0000' + record[F.LOC] + '\u0000' + record[F.TERRAIN];
+  const members = (locationIndex.get(key) || []).filter((m) =>
+    m[F.HORDE] === 5 &&
+    (m[F.SEASON] === '任意' || record[F.SEASON] === '任意' || m[F.SEASON] === record[F.SEASON]));
+  if (!members.length) return { score: ownScore, count: 1 };
+  let max = ownScore;
+  members.forEach((m) => {
+    const t = tierOf(m[F.ID]);
+    if (t && t.score > max) max = t.score;
+  });
+  return { score: max, count: members.length };
+}
+function compareTier(a, b) {
+  const ta = tierSortScore(a);
+  const tb = tierSortScore(b);
+  if (tb.score !== ta.score) return tb.score - ta.score;
+  if (tb.count !== ta.count) return tb.count - ta.count;
+  return (a[F.REGION] + a[F.LOC]).localeCompare(b[F.REGION] + b[F.LOC], 'zh-CN');
+}
+
 // 纯点 / 季节限定 / 群怪四季
 function matchesPurePoint(record, time) {
   if (!horde(record)) return false;
@@ -781,7 +806,7 @@ const P = Page({
       const direction = EXP_LABEL_LIST[expIndex] === '经验从高到低' ? 'desc' : 'asc';
       related.sort((a, b) => compareExperience(a, b, direction, this.data.purePoint));
     } else {
-      related.sort((a, b) => (a[F.REGION] + a[F.LOC]).localeCompare(b[F.REGION] + b[F.LOC], 'zh-CN'));
+      related.sort(compareTier);
     }
     const english = this.data.locationLanguageIndex === 1;
     const views = related.map((r) => makeView(r, english));
