@@ -7,6 +7,7 @@ const ROOT = __dirname;
 const CONFIG_PATH = path.join(ROOT, 'config.json');
 const SEEN_PATH = path.join(ROOT, 'seen.json');
 const PENDING_PATH = path.join(ROOT, 'pending.json');
+const BOSS_LAST_PATH = path.join(ROOT, 'boss-last.json');
 const DATA_FILE = path.join(ROOT, '..', '..', 'web', 'search-data.js');
 
 const POKEMOYU_API = 'https://pokemoyu.com/api/swarm-pings/current';
@@ -355,6 +356,8 @@ function formatActiveLine(item, now) {
   );
 }
 
+const BOSS_SEPARATOR = '\n\n\n\n';
+
 function buildPushMessage(item, others) {
   const lines = [formatMessage(item)];
   if (others && others.length) {
@@ -362,7 +365,7 @@ function buildPushMessage(item, others) {
     const sorted = others
       .slice()
       .sort((a, b) => (a.despawnTimestamp || 0) - (b.despawnTimestamp || 0));
-    lines.push('');
+    lines.push('', '');
     lines.push('【当前其他明雷】');
     sorted.forEach((other) => lines.push(formatActiveLine(other, now)));
   }
@@ -503,6 +506,10 @@ async function buildBossSection() {
     (item) => item && (!item.despawnTimestamp || item.despawnTimestamp > now)
   );
   if (active.length) {
+    const latestActive = active
+      .slice()
+      .sort((a, b) => new Date(b.timestampUtc || 0) - new Date(a.timestampUtc || 0))[0];
+    saveJson(BOSS_LAST_PATH, latestActive);
     return active.map((item) => formatMessage(item, '【头目报点】')).join('\n\n');
   }
   let today = [];
@@ -510,12 +517,15 @@ async function buildBossSection() {
     today = await fetchAlpha(ALPHA_TODAY_API);
   } catch (err) {
     fail('拉取头目历史失败：', err.message);
-    return '';
   }
-  if (!today.length) return '';
+  if (!today.length) {
+    const saved = loadJson(BOSS_LAST_PATH, null);
+    return saved ? buildBossLastLine(saved) : '';
+  }
   const latest = today
     .slice()
     .sort((a, b) => new Date(b.timestampUtc || 0) - new Date(a.timestampUtc || 0))[0];
+  saveJson(BOSS_LAST_PATH, latest);
   return buildBossLastLine(latest);
 }
 
@@ -557,7 +567,9 @@ async function pollOnce(pushAllActive) {
   }
   let message;
   if (!active.length) {
-    message = '【明雷报点】当前无活跃明雷' + (bossSection ? '\n\n' + bossSection : '');
+    message =
+      '【明雷报点】当前无活跃明雷' +
+      (bossSection ? BOSS_SEPARATOR + bossSection : '');
     log('当前没有活跃明雷，仅推送头目信息');
   } else {
     const featured = active
@@ -567,7 +579,8 @@ async function pollOnce(pushAllActive) {
       (other) => String(other.sourceId) !== String(featured.sourceId)
     );
     message =
-      buildPushMessage(featured, others) + (bossSection ? '\n\n' + bossSection : '');
+      buildPushMessage(featured, others) +
+      (bossSection ? BOSS_SEPARATOR + bossSection : '');
     log('推送当前活跃明雷：', featured.pokemon || featured.monsterId, '（共', active.length, '条）');
   }
   try {
