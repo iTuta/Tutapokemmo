@@ -457,28 +457,38 @@ function compareExperience(a, b, direction, single) {
   return (a[F.REGION] + a[F.LOC]).localeCompare(b[F.REGION] + b[F.LOC], 'zh-CN');
 }
 
-// 点位闪战分数：混群点取组内最高分级分数，同分按成员数；非混群点用自身分数
+// 点位闪战分数序列：混群点取组内所有成员分级分数（降序），逐位比较决定排序，
+// 高分精灵越多越靠前，序列相同时成员更多者靠前；非混群点只有自身一档分数
 function tierSortScore(record) {
   const own = tierOf(record[F.ID]);
   const ownScore = own ? own.score : -1;
-  if (record[F.HORDE] !== 5) return { score: ownScore, count: 1 };
+  if (record[F.HORDE] !== 5) return { scores: [ownScore] };
   const key = record[F.REGION] + '\u0000' + record[F.LOC] + '\u0000' + record[F.TERRAIN];
   const members = (locationIndex.get(key) || []).filter((m) =>
     m[F.HORDE] === 5 &&
     (m[F.SEASON] === '任意' || record[F.SEASON] === '任意' || m[F.SEASON] === record[F.SEASON]));
-  if (!members.length) return { score: ownScore, count: 1 };
-  let max = ownScore;
-  members.forEach((m) => {
+  if (!members.length) return { scores: [ownScore] };
+  const scores = members.map((m) => {
     const t = tierOf(m[F.ID]);
-    if (t && t.score > max) max = t.score;
+    return t ? t.score : -1;
   });
-  return { score: max, count: members.length };
+  scores.sort((a, b) => b - a);
+  return { scores };
+}
+function compareTierScores(a, b) {
+  const sa = a.scores;
+  const sb = b.scores;
+  const len = Math.max(sa.length, sb.length);
+  for (let i = 0; i < len; i++) {
+    const va = i < sa.length ? sa[i] : -Infinity;
+    const vb = i < sb.length ? sb[i] : -Infinity;
+    if (va !== vb) return vb - va;
+  }
+  return 0;
 }
 function compareTier(a, b) {
-  const ta = tierSortScore(a);
-  const tb = tierSortScore(b);
-  if (tb.score !== ta.score) return tb.score - ta.score;
-  if (tb.count !== ta.count) return tb.count - ta.count;
+  const cmp = compareTierScores(tierSortScore(a), tierSortScore(b));
+  if (cmp !== 0) return cmp;
   return (a[F.REGION] + a[F.LOC]).localeCompare(b[F.REGION] + b[F.LOC], 'zh-CN');
 }
 
