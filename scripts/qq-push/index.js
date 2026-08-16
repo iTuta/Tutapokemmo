@@ -359,14 +359,16 @@ const BOSS_SEPARATOR = '\n\n\n\n';
 
 function buildPushMessage(item, others) {
   const lines = [formatMessage(item)];
-  if (others && others.length) {
-    const now = Math.floor(Date.now() / 1000);
-    const sorted = others
-      .slice()
-      .sort((a, b) => (a.despawnTimestamp || 0) - (b.despawnTimestamp || 0));
-    lines.push('', '');
-    lines.push('【当前其他明雷】');
+  const now = Math.floor(Date.now() / 1000);
+  const sorted = (others || [])
+    .slice()
+    .sort((a, b) => (a.despawnTimestamp || 0) - (b.despawnTimestamp || 0));
+  lines.push('', '');
+  lines.push('【当前其他明雷】');
+  if (sorted.length) {
     sorted.forEach((other) => lines.push(formatActiveLine(other, now)));
+  } else {
+    lines.push('当前暂无其它明雷');
   }
   return lines.join('\n');
 }
