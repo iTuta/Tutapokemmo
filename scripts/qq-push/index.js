@@ -462,7 +462,9 @@ async function fetchAlpha(url) {
   if (!text) return [];
   try {
     const data = JSON.parse(text);
-    return Array.isArray(data) ? data : [];
+    if (Array.isArray(data)) return data;
+    if (data && typeof data === 'object') return [data];
+    return [];
   } catch (err) {
     return [];
   }
