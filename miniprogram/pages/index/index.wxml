@@ -287,6 +287,7 @@
                 </view>
                 <view class="location-meta">
                   <text>Lv.{{item.level}} · {{item.season}}</text>
+                  <text wx:if="{{item.selfHarm}}" class="selfharm-inline" title="该等级携带自伤技能 {{item.selfHarm}}：会对自己/友方造成伤害，请注意闪宠安危">⚠{{item.selfHarm}}</text>
                   <text class="tag tag-accent">{{item.hordeText}}</text>
                   <text wx:if="{{item.groupIndex != null}}" class="loc-horde-badge" style="color:{{locationGroupsData[item.groupIndex].color}};border-color:{{locationGroupsData[item.groupIndex].color}}">混群{{locationGroupsData[item.groupIndex].label}}</text>
                   <text wx:if="{{item.rateText}}" class="rate">遭遇率 {{item.rateText}}</text>
@@ -313,6 +314,7 @@
               </view>
               <view class="location-meta">
                 <text>Lv.{{item.level}} · {{item.season}}</text>
+                <text wx:if="{{item.selfHarm}}" class="selfharm-inline" title="该等级携带自伤技能 {{item.selfHarm}}：会对自己/友方造成伤害，请注意闪宠安危">⚠{{item.selfHarm}}</text>
                 <text class="tag tag-accent">{{item.hordeText}}</text>
                 <text wx:if="{{item.rateText}}" class="rate">遭遇率 {{item.rateText}}</text>
               </view>
