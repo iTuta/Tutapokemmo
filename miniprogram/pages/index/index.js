@@ -1,7 +1,7 @@
 const packed = require('../../data/spawn-data.js');
 const LEVEL_MOVES = require('../../data/level-moves.js');
 
-const SELF_HARM_MOVES = ['大爆炸', '玉石俱碎', '大闹一番', '花瓣舞', '逆鳞', '吵闹', '挣扎'];
+const SELF_HARM_MOVES = ['大爆炸', '玉石俱碎', '大闹一番', '花瓣舞', '逆鳞', '挣扎'];
 
 const F = { ID: 0, NAME: 1, BASE: 2, TYPES: 3, REGION: 4, LOC: 5, TERRAIN: 6, LEVEL: 7, SEASON: 8, HORDE: 9, MORNING: 10, DAY: 11, NIGHT: 12, R_MORNING: 13, R_DAY: 14, R_NIGHT: 15, FORM: 16 };
 const PAGE_SIZE = 30;

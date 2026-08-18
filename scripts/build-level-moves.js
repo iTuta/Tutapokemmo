@@ -3,7 +3,7 @@ const path = require('path');
 
 const root = path.resolve(__dirname, '..');
 
-const SELF_HARM_MOVES = ['大爆炸', '玉石俱碎', '大闹一番', '花瓣舞', '逆鳞', '吵闹', '挣扎'];
+const SELF_HARM_MOVES = ['大爆炸', '玉石俱碎', '大闹一番', '花瓣舞', '逆鳞', '挣扎'];
 
 const monsters = JSON.parse(fs.readFileSync(path.join(root, 'web', 'data', 'monsters.json'), 'utf8'));
 

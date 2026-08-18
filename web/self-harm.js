@@ -1,5 +1,5 @@
 window.SelfHarm = (function () {
-  const SELF_HARM_MOVES = ['大爆炸', '玉石俱碎', '大闹一番', '花瓣舞', '逆鳞', '吵闹', '挣扎'];
+  const SELF_HARM_MOVES = ['大爆炸', '玉石俱碎', '大闹一番', '花瓣舞', '逆鳞', '挣扎'];
 
   function parseMaxLevel(levelText) {
     const nums = String(levelText || '').match(/\d+/g) || [];
