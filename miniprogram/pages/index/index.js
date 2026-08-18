@@ -1,4 +1,7 @@
 const packed = require('../../data/spawn-data.js');
+const LEVEL_MOVES = require('../../data/level-moves.js');
+
+const SELF_HARM_MOVES = ['大爆炸', '玉石俱碎', '大闹一番', '花瓣舞', '逆鳞', '吵闹', '挣扎'];
 
 const F = { ID: 0, NAME: 1, BASE: 2, TYPES: 3, REGION: 4, LOC: 5, TERRAIN: 6, LEVEL: 7, SEASON: 8, HORDE: 9, MORNING: 10, DAY: 11, NIGHT: 12, R_MORNING: 13, R_DAY: 14, R_NIGHT: 15, FORM: 16 };
 const PAGE_SIZE = 30;
@@ -78,6 +81,20 @@ function unpackRecords() {
   });
 }
 function active(value) { return value !== false && value !== null && value !== undefined && value !== '--'; }
+function selfHarmMoves(id, levelText) {
+  const moves = LEVEL_MOVES[String(id)];
+  if (!moves || !moves.length) return [];
+  const nums = String(levelText || '').match(/\d+/g) || [];
+  if (!nums.length) return [];
+  const max = Number(nums[nums.length - 1]);
+  const learned = [];
+  for (const m of moves) {
+    if (m[0] > max) break;
+    learned.push(m[1]);
+  }
+  const hits = learned.slice(-4).filter((name) => SELF_HARM_MOVES.includes(name));
+  return [...new Set(hits)];
+}
 function five(value) { return /^5(?:\.0+)?%$/.test(String(value || '').trim()); }
 function horde(record) { return record[F.HORDE] === 3 || record[F.HORDE] === 5; }
 function parseLevels(value) { const n = String(value || '').match(/\d+/g) || []; return n.length ? { min: Number(n[0]), max: Number(n[n.length - 1]) } : null; }
@@ -422,6 +439,7 @@ function makeView(record, english) {
     exp: info ? formatRange(info.min, info.max) : '',
     ev: info ? evText(info.ev) : '',
     heldItems: info && info.items.length ? info.items.join(' / ') : '',
+    selfHarm: selfHarmMoves(record[F.ID], record[F.LEVEL]).join('、'),
     yieldView,
     count: 0,
   };

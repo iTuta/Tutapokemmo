@@ -142,6 +142,7 @@
         <view class="tags">
           <text class="tag">{{item.terrain}}</text>
           <text class="tag">Lv.{{item.level}}</text>
+          <text wx:if="{{item.selfHarm}}" class="tag tag-selfharm" title="该等级携带自伤技能 {{item.selfHarm}}：会对自己/友方造成伤害，请注意闪宠安危">⚠{{item.selfHarm}}</text>
           <text class="tag">{{item.season}}</text>
           <text class="tag tag-accent">{{item.hordeText}}</text>
         </view>
@@ -207,6 +208,7 @@
           </view>
           <view class="detail-meta-line">
             <text>{{item.terrain}} · Lv.{{item.level}} · {{item.season}}</text>
+            <text wx:if="{{item.selfHarm}}" class="selfharm-inline" title="该等级携带自伤技能 {{item.selfHarm}}：会对自己/友方造成伤害，请注意闪宠安危">⚠{{item.selfHarm}}</text>
           </view>
           <view class="detail-times">
             <text wx:for="{{item.timeItems}}" wx:key="key" wx:for-item="ti" class="time-chip {{ti.enabled ? 'time-on' : 'time-off'}}" data-idx="{{rowIdx}}" data-time="{{ti.key}}" catchtap="openDetailLocation">{{ti.text}}</text>

@@ -203,8 +203,9 @@
               (window.TierDisplay ? TierDisplay.badgeHtml(r[F.ID], 'lp-tier tier-badge') : '') +
               typeBadges(r[F.TYPES]) +
           '</div>' +
-          '<div class="lp-row-meta">' +
+'<div class="lp-row-meta">' +
             '<span>Lv.' + esc(r[F.LEVEL]) + '</span>' +
+            (window.SelfHarm ? SelfHarm.badgeHtml(r[F.ID], r[F.LEVEL]) : '') +
             seasonBadge(r[F.SEASON]) +
             hordeBadge(r[F.HORDE]) +
             groupHtml +

@@ -284,6 +284,7 @@ window.MonsterPopup = (function () {
             '<div class="mp-row-meta">' +
               '<span class="lp-badge mp-terrain">' + esc(r[F.TERRAIN]) + '</span>' +
               '<span class="lp-badge mp-level">Lv.' + esc(r[F.LEVEL]) + '</span>' +
+              (window.SelfHarm ? SelfHarm.badgeHtml(r[F.ID], r[F.LEVEL]) : '') +
               seasonBadge(r[F.SEASON]) +
               hordeBadge(r[F.HORDE]) +
               '<span class="mp-times">' + timeTags(r) + '</span>' +

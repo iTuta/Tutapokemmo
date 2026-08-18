@@ -198,6 +198,7 @@
     .badge-any { background: #455a64; color: #cfd8dc; }
     .badge-level { background: #1e3a5f; color: #93c5fd; }
     .badge-terrain { background: #3b2f4a; color: #d8b4fe; }
+    .badge-selfharm { background: #7f1d1d; color: #fecaca; border: 1px solid #ef4444; cursor: help; }
 
     .time-tags { display: flex; flex-wrap: wrap; gap: .2rem; }
 
@@ -656,11 +657,13 @@
 
   <script src="search-data.js"></script>
   <script src="data/game-data.js"></script>
+  <script src="data/level-moves.js"></script>
   <script src="tier-display.js"></script>
   <script src="horde-yield.js"></script>
   <script src="location-name.js"></script>
   <script src="location-popup.js"></script>
   <script src="monster-popup.js"></script>
+  <script src="self-harm.js"></script>
   <script src="evolution-chain.js"></script>
   <script src="swarm-live.js"></script>
   <script>
@@ -1216,6 +1219,7 @@
              <div class="meta-row">
                <span class="badge badge-terrain">${esc(r[F.TERRAIN])}</span>
                <span class="badge badge-level">Lv.${esc(r[F.LEVEL])}</span>
+               ${SelfHarm.badgeHtml(id, r[F.LEVEL])}
                ${seasonBadge(r[F.SEASON])}
                ${hordeBadge(r[F.HORDE])}
                <div class="time-tags">${timeTags(r)}</div>
