@@ -435,6 +435,7 @@
   // 按概率合计≈5% 把成员拆成若干组；拆不出完整组合时返回 null，由调用方按单组展示。
   function partitionHordeGroups(members, rateField) {
     if (!members || members.length < 2) return null;
+    if (members.length > 14) return null; // 成员过多时组合搜索会指数级爆炸，按单组展示
     var scored = members.map(function (m) {
       return { m: m, rate: numericRate(m[rateField]) };
     });

@@ -213,15 +213,17 @@ function candidatesFor(region, loc, terrain, season) {
 // 某条记录在指定时段的混群收益：同地点/地形/季节、同群怪槽位（等级连通分组）、该时段活跃
 function mixedYieldAtTime(record, timeKey) {
   if (record[F.HORDE] !== 5) return null;
-  const candidates = candidatesFor(record[F.REGION], record[F.LOC], record[F.TERRAIN], record[F.SEASON]);
   const fields = timeFields(timeKey);
+  const candidates = candidatesFor(record[F.REGION], record[F.LOC], record[F.TERRAIN], record[F.SEASON]);
+  const groups = cachedPartition(record[F.REGION], record[F.LOC], record[F.TERRAIN], record[F.SEASON], 5, timeKey);
   const source = {
     sourceId: record[F.ID],
     sourceLevel: record[F.LEVEL],
     sourceHorde: record[F.HORDE],
     terrain: record[F.TERRAIN],
   };
-  const members = hordeGroupMembers(candidates, source, timeKey);
+  const src = findSourceRecord(candidates, source);
+  const members = groups ? (groups.find((g) => (src ? g.indexOf(src) !== -1 : true)) || groups[0]) : null;
   const group = candidates.filter((r) =>
     r[fields.active] &&
     r[F.HORDE] === 5 &&
@@ -265,18 +267,6 @@ function findSourceRecord(records, source) {
     (!source.sourceLevel || r[F.LEVEL] === source.sourceLevel)
   ) || null;
 }
-// 群怪槽位的完整混群：取当前时段活跃的同档位成员，按概率合计≈5%拆组；
-// 只有一组（或拆不出完整组合）时不限制，直接展示该地点全部活跃成员。
-function hordeGroupMembers(records, source, timeKey) {
-  if (!source || (source.sourceHorde !== 3 && source.sourceHorde !== 5)) return null;
-  const fields = timeFields(timeKey);
-  const active = records.filter((r) => r[F.HORDE] === source.sourceHorde && r[fields.active]);
-  const groups = partitionHordeGroups(active, fields.rate);
-  if (!groups) return null;
-  const src = findSourceRecord(records, source);
-  const group = groups.find((g) => (src ? g.indexOf(src) !== -1 : true)) || groups[0];
-  return group || null;
-}
 // 只对群怪记录按档位拆分组合（5群怪与3群怪分开），普通遭遇不参与分组
 function buildHordeGroups(members, rateField) {
   const result = [];
@@ -286,10 +276,24 @@ function buildHordeGroups(members, rateField) {
   }
   return result.length >= 2 ? result : null;
 }
+// 混群分组结果按地点/季节/时段缓存：分组只依赖候选集合与该时段活跃 flag，
+// 同一地点同季节的多条记录共享同一分组，避免每条记录重复做指数级组合搜索
+const partitionCache = new Map();
+function cachedPartition(region, loc, terrain, season, hordeType, timeKey) {
+  const key = [region, loc, terrain, season, hordeType, timeKey].join('\u0000');
+  if (partitionCache.has(key)) return partitionCache.get(key);
+  const fields = timeFields(timeKey);
+  const candidates = candidatesFor(region, loc, terrain, season);
+  const act = candidates.filter((r) => r[F.HORDE] === hordeType && r[fields.active]);
+  const groups = partitionHordeGroups(act, fields.rate);
+  partitionCache.set(key, groups);
+  return groups;
+}
 // 同一档位可能包含多组混群（如不归之穴把多层“未知区域”合并成一个地点名），
 // 按概率合计≈5% 拆分；拆不出完整组合时返回 null。
 function partitionHordeGroups(members, rateField) {
   if (!members || members.length < 2) return null;
+  if (members.length > 14) return null; // 成员过多时组合搜索会指数级爆炸，按单组展示
   const scored = members.map((m) => ({ m, rate: numericRate(m[rateField]) }));
   if (scored.some((x) => x.rate == null)) return null;
   scored.sort((a, b) => b.rate - a.rate);
@@ -721,7 +725,15 @@ const P = Page({
     });
 
     if (expSort) {
-      filtered.sort((a, b) => compareExperience(a, b, expSort, this.data.purePoint));
+      // 先一次性算好每条记录的经验分，避免 sort 比较器里反复重算（混群收益较昂贵）
+      const scored = filtered.map((r) => ({ r, score: experienceScore(r, this.data.purePoint) }));
+      scored.sort((a, b) => {
+        if (b.score !== a.score) return expSort === 'desc' ? b.score - a.score : a.score - b.score;
+        const nameDifference = a.r[F.BASE].localeCompare(b.r[F.BASE], 'zh-CN');
+        if (nameDifference !== 0) return nameDifference;
+        return (a.r[F.REGION] + a.r[F.LOC]).localeCompare(b.r[F.REGION] + b.r[F.LOC], 'zh-CN');
+      });
+      filtered = scored.map((x) => x.r);
     }
 
     filtered = dedupeExactRecords(filtered);
