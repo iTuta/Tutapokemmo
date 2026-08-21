@@ -437,8 +437,10 @@ async function fetchRetry(url, retries, baseDelay) {
       // 5xx 与 429 属于上游临时故障，同样退避重试；其余状态码直接返回
       if (res.ok || (res.status < 500 && res.status !== 429)) return res;
       lastErr = new Error('HTTP ' + res.status);
+      lastErr.transient = true;
     } catch (err) {
       lastErr = err;
+      lastErr.transient = true;
     }
     if (attempt < max - 1) {
       await new Promise((resolve) => setTimeout(resolve, delay * (attempt + 1)));
@@ -448,7 +450,7 @@ async function fetchRetry(url, retries, baseDelay) {
 }
 
 async function fetchCurrent() {
-  const res = await fetchRetry(POKEMOYU_API, 4, 3000);
+  const res = await fetchRetry(POKEMOYU_API, 5, 4000);
   if (!res.ok) throw new Error('HTTP ' + res.status);
   const data = await res.json();
   return Array.isArray(data) ? data : [];
@@ -797,6 +799,11 @@ async function runOnce() {
     log('单次检查完成。');
     return 0;
   } catch (err) {
+    // 上游临时故障（重试耗尽仍 5xx/429/断网）不算失败：本轮跳过，下轮定时检查会补上
+    if (err && err.transient) {
+      log('上游暂时不可用（' + err.message + '），已重试仍未恢复，本轮跳过。');
+      return 0;
+    }
     fail('单次检查失败：', err.message);
     return 1;
   }
