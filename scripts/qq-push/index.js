@@ -430,22 +430,25 @@ async function fetchRetry(url, retries, baseDelay) {
   let lastErr;
   for (let attempt = 0; attempt < max; attempt++) {
     try {
-      return await fetch(url, {
+      const res = await fetch(url, {
         cache: 'no-store',
         headers: { Accept: 'application/json' },
       });
+      // 5xx 与 429 属于上游临时故障，同样退避重试；其余状态码直接返回
+      if (res.ok || (res.status < 500 && res.status !== 429)) return res;
+      lastErr = new Error('HTTP ' + res.status);
     } catch (err) {
       lastErr = err;
-      if (attempt < max - 1) {
-        await new Promise((resolve) => setTimeout(resolve, delay * (attempt + 1)));
-      }
+    }
+    if (attempt < max - 1) {
+      await new Promise((resolve) => setTimeout(resolve, delay * (attempt + 1)));
     }
   }
   throw lastErr;
 }
 
 async function fetchCurrent() {
-  const res = await fetchRetry(POKEMOYU_API);
+  const res = await fetchRetry(POKEMOYU_API, 4, 3000);
   if (!res.ok) throw new Error('HTTP ' + res.status);
   const data = await res.json();
   return Array.isArray(data) ? data : [];
