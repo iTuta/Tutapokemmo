@@ -45,6 +45,8 @@ let stopping = false;
 let nameById = new Map();
 let seen = new Set(loadJson(SEEN_PATH, {}).ids || []);
 let pending = loadJson(PENDING_PATH, []);
+// 故障播报标记文件必须始终存在：workflow 的 git add 列表包含它，缺失会导致整轮任务失败
+if (!fs.existsSync(OUTAGE_PATH)) saveJson(OUTAGE_PATH, { notified: false });
 
 function loadJson(file, fallback) {
   try {
