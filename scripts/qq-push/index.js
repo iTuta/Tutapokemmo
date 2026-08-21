@@ -8,6 +8,7 @@ const CONFIG_PATH = path.join(ROOT, 'config.json');
 const SEEN_PATH = path.join(ROOT, 'seen.json');
 const PENDING_PATH = path.join(ROOT, 'pending.json');
 const BOSS_LAST_PATH = path.join(ROOT, 'boss-last.json');
+const OUTAGE_PATH = path.join(ROOT, 'outage.json');
 const DATA_FILE = path.join(ROOT, '..', '..', 'web', 'search-data.js');
 
 const POKEMOYU_API = 'https://pokemoyu.com/api/swarm-pings/current';
@@ -797,11 +798,27 @@ async function runOnce() {
   try {
     await pollOnce(true);
     log('单次检查完成。');
+    if (loadJson(OUTAGE_PATH, { notified: false }).notified) {
+      saveJson(OUTAGE_PATH, { notified: false });
+      log('上游已恢复，清除故障标记。');
+    }
     return 0;
   } catch (err) {
     // 上游临时故障（重试耗尽仍 5xx/429/断网）不算失败：本轮跳过，下轮定时检查会补上
     if (err && err.transient) {
-      log('上游暂时不可用（' + err.message + '），已重试仍未恢复，本轮跳过。');
+      const state = loadJson(OUTAGE_PATH, { notified: false });
+      if (!state.notified) {
+        try {
+          await sendMessage('【明雷报点】⚠️ 本轮检查失败：上游接口持续不可用（' + err.message + '），已自动重试仍未恢复，本轮报点暂停，恢复后自动继续。');
+          state.notified = true;
+          saveJson(OUTAGE_PATH, state);
+          log('已向群内播报本轮故障。');
+        } catch (sendErr) {
+          fail('故障通知发送失败：', sendErr.message);
+        }
+      } else {
+        log('上游仍不可用（' + err.message + '），本轮跳过（故障已播报过）。');
+      }
       return 0;
     }
     fail('单次检查失败：', err.message);
