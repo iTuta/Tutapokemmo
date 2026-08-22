@@ -34,18 +34,12 @@ window.SelfHarm = (function () {
   }
 
   function badgeHtml(id, levelText) {
-    const hits = hitMoves(id, levelText);
-    const flees = fleeMoves(id, levelText);
-    let html = '';
-    if (hits.length) {
-      html += '<span class="badge badge-selfharm" title="该等级携带自伤技能 ' + hits.join('、') + '：会对自己/友方造成伤害，请注意闪宠安危">' +
-        '⚠' + hits.join('、') + '</span>';
-    }
-    if (flees.length) {
-      html += '<span class="badge badge-flee" title="该等级携带逃跑技能 ' + flees.join('、') + '：野生宝可梦使用后会立即逃离战斗，无法捕捉，请提前准备">' +
-        '逃·' + flees.join('、') + '</span>';
-    }
-    return html;
+    // 自伤与逃跑（瞬间移动类）合并为同一处危险技能警示展示
+    const hits = hitMoves(id, levelText).concat(fleeMoves(id, levelText));
+    if (!hits.length) return '';
+    const unique = [...new Set(hits)];
+    return '<span class="badge badge-selfharm" title="该等级携带自伤/逃跑技能 ' + unique.join('、') + '：会对自己/友方造成伤害或立即逃离战斗，请注意闪宠安危">' +
+      '⚠' + unique.join('、') + '</span>';
   }
 
   return { hitMoves: hitMoves, fleeMoves: fleeMoves, badgeHtml: badgeHtml };

@@ -455,8 +455,10 @@ function makeView(record, english) {
     exp: info ? formatRange(info.min, info.max) : '',
     ev: info ? evText(info.ev) : '',
     heldItems: info && info.items.length ? info.items.join(' / ') : '',
-    selfHarm: selfHarmMoves(record[F.ID], record[F.LEVEL]).join('、'),
-    flee: fleeMoves(record[F.ID], record[F.LEVEL]).join('、'),
+    // 自伤与逃跑（瞬间移动类）合并为同一处危险技能警示展示
+    selfHarm: selfHarmMoves(record[F.ID], record[F.LEVEL])
+      .concat(fleeMoves(record[F.ID], record[F.LEVEL]))
+      .join('、'),
     yieldView,
     count: 0,
   };
