@@ -199,6 +199,7 @@
     .badge-level { background: #1e3a5f; color: #93c5fd; }
     .badge-terrain { background: #3b2f4a; color: #d8b4fe; }
     .badge-selfharm { background: #7f1d1d; color: #fecaca; border: 1px solid #ef4444; cursor: help; }
+    .badge-flee { background: #1e3a8a; color: #bfdbfe; border: 1px solid #3b82f6; cursor: help; }
 
     .time-tags { display: flex; flex-wrap: wrap; gap: .2rem; }
 
@@ -516,6 +517,7 @@
           <option value="0">普通（非群怪）</option>
           <option value="3">3 群怪</option>
           <option value="5">5 群怪</option>
+          <option value="perfume">香水精灵</option>
         </select>
       </div>
       <div class="field">
@@ -1070,7 +1072,17 @@
         if (time === 'morning' && !r[F.MORNING]) return false;
         if (time === 'day' && !r[F.DAY]) return false;
         if (time === 'night' && !r[F.NIGHT]) return false;
-        if (horde !== '' && r[F.HORDE] !== parseInt(horde, 10)) return false;
+        if (horde !== '') {
+          if (horde === 'perfume') {
+            // 香水精灵：任一时段活跃且概率为「香水」的点位
+            const perfume = (r[F.MORNING] && r[F.R_MORNING] === '香水') ||
+              (r[F.DAY] && r[F.R_DAY] === '香水') ||
+              (r[F.NIGHT] && r[F.R_NIGHT] === '香水');
+            if (!perfume) return false;
+          } else if (r[F.HORDE] !== parseInt(horde, 10)) {
+            return false;
+          }
+        }
         if ((evYield || expSort) && r[F.HORDE] !== 5) return false;
         if (evYield && !HordeYield.hasEvYield(r[F.ID], evYield)) return false;
         if (purePoint && !matchesPurePoint(r, time)) return false;

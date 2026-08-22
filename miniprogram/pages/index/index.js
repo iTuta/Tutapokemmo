@@ -2,6 +2,8 @@ const packed = require('../../data/spawn-data.js');
 const LEVEL_MOVES = require('../../data/level-moves.js');
 
 const SELF_HARM_MOVES = ['大爆炸', '玉石俱碎', '大闹一番', '花瓣舞', '逆鳞', '挣扎'];
+// 野生宝可梦使用后立即逃离战斗（无法捕捉）的技能
+const FLEE_MOVES = ['瞬间移动'];
 
 const F = { ID: 0, NAME: 1, BASE: 2, TYPES: 3, REGION: 4, LOC: 5, TERRAIN: 6, LEVEL: 7, SEASON: 8, HORDE: 9, MORNING: 10, DAY: 11, NIGHT: 12, R_MORNING: 13, R_DAY: 14, R_NIGHT: 15, FORM: 16 };
 const PAGE_SIZE = 30;
@@ -32,7 +34,7 @@ const SEASON_LABELS = ['全部季节', '任意', '春', '夏', '秋', '冬', '�
 const SEASON_VALUES = ['', '任意', '春', '夏', '秋', '冬', 'horde:all', 'only:春', 'only:夏', 'only:秋', 'only:冬'];
 const TIME_LABELS = ['全部时间', '早晨', '白天', '夜晚'];
 const TIME_VALUES = ['', 'morning', 'day', 'night'];
-const HORDE_LABELS = ['全部', '普通（非群怪）', '3群怪', '5群怪'];
+const HORDE_LABELS = ['全部', '普通（非群怪）', '3群怪', '5群怪', '香水精灵'];
 const EV_LABEL_LIST = ['全部努力值', 'HP', '攻击', '防御', '速度', '特攻', '特防'];
 const EXP_LABEL_LIST = ['默认顺序', '经验从高到低', '经验从低到高'];
 const TIER_LABELS = ['全部分级'].concat(TIER_LIST.map((t) => t + '（' + TIER_SCORES[t] + '分）'));
@@ -93,6 +95,16 @@ function selfHarmMoves(id, levelText) {
     learned.push(m[1]);
   }
   const hits = learned.slice(-4).filter((name) => SELF_HARM_MOVES.includes(name));
+  return [...new Set(hits)];
+}
+// 与自伤不同：只要学会（等级≤上限）就会一直带着，逃走风险始终存在，不做“最近4个”截断
+function fleeMoves(id, levelText) {
+  const moves = LEVEL_MOVES[String(id)];
+  if (!moves || !moves.length) return [];
+  const nums = String(levelText || '').match(/\d+/g) || [];
+  if (!nums.length) return [];
+  const max = Number(nums[nums.length - 1]);
+  const hits = moves.filter((m) => m[0] <= max && FLEE_MOVES.includes(m[1])).map((m) => m[1]);
   return [...new Set(hits)];
 }
 function five(value) { return /^5(?:\.0+)?%$/.test(String(value || '').trim()); }
@@ -444,6 +456,7 @@ function makeView(record, english) {
     ev: info ? evText(info.ev) : '',
     heldItems: info && info.items.length ? info.items.join(' / ') : '',
     selfHarm: selfHarmMoves(record[F.ID], record[F.LEVEL]).join('、'),
+    flee: fleeMoves(record[F.ID], record[F.LEVEL]).join('、'),
     yieldView,
     count: 0,
   };
@@ -654,7 +667,7 @@ const P = Page({
     const allHordeSeasons = seasonValue === 'horde:all';
     const season = exclusiveSeason || allHordeSeasons ? '' : seasonValue;
     const time = TIME_VALUES[timeIndex];
-    let hordeFilter = HORDE_LABELS[hordeIndex] === '5群怪' ? 5 : HORDE_LABELS[hordeIndex] === '3群怪' ? 3 : HORDE_LABELS[hordeIndex] === '普通（非群怪）' ? 0 : '';
+    let hordeFilter = HORDE_LABELS[hordeIndex] === '5群怪' ? 5 : HORDE_LABELS[hordeIndex] === '3群怪' ? 3 : HORDE_LABELS[hordeIndex] === '普通（非群怪）' ? 0 : HORDE_LABELS[hordeIndex] === '香水精灵' ? 'perfume' : '';
     if ((this.data.allTimeFive || this.data.allSeasonHorde) && hordeFilter !== 5) hordeFilter = 5;
     const evName = EV_LABEL_LIST[evIndex];
     const expSort = EXP_LABEL_LIST[expIndex] === '默认顺序' ? '' : EXP_LABEL_LIST[expIndex] === '经验从高到低' ? 'desc' : 'asc';
@@ -711,7 +724,15 @@ const P = Page({
       if (time === 'morning' && !r[F.MORNING]) return false;
       if (time === 'day' && !r[F.DAY]) return false;
       if (time === 'night' && !r[F.NIGHT]) return false;
-      if (hordeFilter !== '' && r[F.HORDE] !== hordeFilter) return false;
+      if (hordeFilter === 'perfume') {
+        // 香水精灵：任一时段活跃且概率为「香水」的点位
+        const perfume = (r[F.MORNING] && r[F.R_MORNING] === '香水') ||
+          (r[F.DAY] && r[F.R_DAY] === '香水') ||
+          (r[F.NIGHT] && r[F.R_NIGHT] === '香水');
+        if (!perfume) return false;
+      } else if (hordeFilter !== '' && r[F.HORDE] !== hordeFilter) {
+        return false;
+      }
       if ((evIndex > 0 || expIndex > 0) && r[F.HORDE] !== 5) return false;
       if (evIndex > 0 && !hasEv(r[F.ID], evName)) return false;
       if (this.data.purePoint && !matchesPurePoint(r, time)) return false;
