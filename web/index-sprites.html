@@ -1235,8 +1235,9 @@
                ${hordeBadge(r[F.HORDE])}
                <div class="time-tags">${timeTags(r)}</div>
              </div>`;
+        const warnHtml = SelfHarm.badgeHtml(id, r[F.LEVEL]);
         const metaHtml = dedupe
-          ? `<div class="meta-row"><span class="badge badge-count">${item.count} 处</span></div>`
+          ? `<div class="meta-row"><span class="badge badge-count">${item.count} 处</span>${warnHtml}</div>`
           : '';
         return `
           <article class="card">
