@@ -199,6 +199,20 @@
     .badge-level { background: #1e3a5f; color: #93c5fd; }
     .badge-terrain { background: #3b2f4a; color: #d8b4fe; }
     .badge-selfharm { background: #7f1d1d; color: #fecaca; border: 1px solid #ef4444; cursor: help; }
+    .field-location { position: relative; }
+    .location-matches {
+      position: absolute; z-index: 30; top: calc(100% + 4px); left: 0; right: 0;
+      background: #10161f; border: 1px solid #2d3a4d; border-radius: 8px;
+      padding: 8px 10px; max-height: 320px; overflow-y: auto;
+    }
+    .loc-match-group { padding: 6px 0; }
+    .loc-match-title { font-size: 12px; color: #8899aa; }
+    .loc-match-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+    .terrain-chip {
+      padding: 4px 10px; border-radius: 999px; font-size: 12px; cursor: pointer;
+      color: #93c5fd; background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.35);
+    }
+    .loc-match-empty { font-size: 12px; color: #8899aa; padding: 4px 0; }
 
     .time-tags { display: flex; flex-wrap: wrap; gap: .2rem; }
 
@@ -474,6 +488,11 @@
         <input type="text" id="itemInput" list="itemList" placeholder="搜索携带道具，如：幸运蛋、护符金币..." autocomplete="off">
         <datalist id="itemList"></datalist>
       </div>
+      <div class="field field-location">
+        <label for="locationSearch">地点</label>
+        <input type="text" id="locationSearch" placeholder="输入地点搜索地形与分布，如：常磐森林" autocomplete="off">
+        <div id="locationMatches" class="location-matches" hidden></div>
+      </div>
       <div class="field">
         <label for="regionSelect">地区</label>
         <select id="regionSelect">
@@ -700,6 +719,8 @@
     const els = {
       nameInput: document.getElementById('nameInput'),
       itemInput: document.getElementById('itemInput'),
+      locationSearch: document.getElementById('locationSearch'),
+      locationMatches: document.getElementById('locationMatches'),
       itemList: document.getElementById('itemList'),
       regionSelect: document.getElementById('regionSelect'),
       seasonSelect: document.getElementById('seasonSelect'),
@@ -781,6 +802,7 @@
       ['input', 'change'].forEach(evt => {
         els.nameInput.addEventListener(evt, onFilter);
         els.itemInput.addEventListener(evt, onFilter);
+        els.locationSearch.addEventListener('input', onLocationSearch);
         els.regionSelect.addEventListener(evt, onFilter);
         els.seasonSelect.addEventListener(evt, onFilter);
         els.timeSelect.addEventListener(evt, onFilter);
@@ -797,6 +819,7 @@
       });
 
       els.resetFiltersBtn.addEventListener('click', resetFilters);
+      els.locationMatches.addEventListener('click', onLocationTerrainChipClick);
       window.addEventListener('pagehide', saveViewState);
       window.addEventListener('beforeunload', saveViewState);
       window.addEventListener('scroll', () => {
@@ -1311,6 +1334,66 @@
           window.scrollTo({ top: 180, behavior: 'smooth' });
         }
       });
+    }
+
+    // 地点搜索：输入地点名 → 列出匹配地点及其地形，点地形直接查看该地形分布
+    const locationSearchIndex = new Map(); // region\0loc\0terrain -> records
+    function buildLocationSearchIndex() {
+      if (locationSearchIndex.size || !allRecords.length) return;
+      allRecords.forEach(r => {
+        const key = r[F.REGION] + '\u0000' + r[F.LOC] + '\u0000' + r[F.TERRAIN];
+        if (!locationSearchIndex.has(key)) locationSearchIndex.set(key, []);
+        locationSearchIndex.get(key).push(r);
+      });
+    }
+    function escAttr(s) {
+      return String(s == null ? '' : s)
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+    }
+    function onLocationSearch() {
+      const q = els.locationSearch.value.trim().toLowerCase();
+      const panel = els.locationMatches;
+      if (!q) {
+        panel.hidden = true;
+        panel.innerHTML = '';
+        return;
+      }
+      buildLocationSearchIndex();
+      const groups = new Map();
+      locationSearchIndex.forEach((records, key) => {
+        const parts = key.split('\u0000');
+        if (!String(parts[1]).toLowerCase().includes(q)) return;
+        const gkey = parts[0] + '\u0000' + parts[1];
+        if (!groups.has(gkey)) groups.set(gkey, { region: parts[0], loc: parts[1], terrains: [] });
+        groups.get(gkey).terrains.push({ terrain: parts[2], count: records.length });
+      });
+      const list = [...groups.values()].slice(0, 8);
+      panel.innerHTML = list.length
+        ? list.map(g =>
+            '<div class="loc-match-group">' +
+              '<div class="loc-match-title">' + esc(g.region) + ' · ' + esc(g.loc) + '</div>' +
+              '<div class="loc-match-chips">' +
+                g.terrains.map(t =>
+                  '<button type="button" class="terrain-chip" data-region="' + escAttr(g.region) + '" data-loc="' + escAttr(g.loc) + '" data-terrain="' + escAttr(t.terrain) + '">' + esc(t.terrain) + ' · ' + t.count + '</button>'
+                ).join('') +
+              '</div>' +
+            '</div>').join('')
+        : '<div class="loc-match-empty">没有匹配的地点</div>';
+      panel.hidden = false;
+    }
+    function onLocationTerrainChipClick(e) {
+      const btn = e.target.closest('.terrain-chip');
+      if (!btn) return;
+      const region = btn.dataset.region;
+      const loc = btn.dataset.loc;
+      const terrain = btn.dataset.terrain;
+      const records = locationSearchIndex.get(region + '\u0000' + loc + '\u0000' + terrain) || [];
+      const timeKey = ['morning', 'day', 'night'].find(tk =>
+        records.some(r => r[tk === 'morning' ? F.MORNING : tk === 'day' ? F.DAY : F.NIGHT])
+      ) || 'day';
+      // season 传「任意」= 该地点全部季节的分布
+      LocationPopup.open(region, loc, terrain, '任意', timeKey);
     }
 
     function esc(s) {

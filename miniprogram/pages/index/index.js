@@ -549,6 +549,8 @@ const P = Page({
     loading: true,
     nameInput: '',
     itemInput: '',
+    locationInput: '',
+    locationMatches: [],
     regions: ['全部地区'],
     regionIndex: 0,
     seasons: SEASON_LABELS,
@@ -626,6 +628,56 @@ const P = Page({
 
   onNameInput(e) { this.setData({ nameInput: e.detail.value }, () => this.applyFilters()); },
   onItemInput(e) { this.setData({ itemInput: e.detail.value }, () => this.applyFilters()); },
+  // 地点搜索：输入地点名 → 列出匹配地点及其地形，点地形直接查看该地形分布
+  onLocationInput(e) {
+    const raw = String(e.detail.value || '');
+    const q = raw.trim().toLowerCase();
+    this.setData({ locationInput: raw });
+    if (!q) {
+      this.setData({ locationMatches: [] });
+      return;
+    }
+    const groups = new Map();
+    locationIndex.forEach((records, key) => {
+      const parts = key.split('\u0000');
+      const region = parts[0];
+      const loc = parts[1];
+      const terrain = parts[2];
+      if (!String(loc).toLowerCase().includes(q)) return;
+      const gkey = region + '\u0000' + loc;
+      if (!groups.has(gkey)) groups.set(gkey, { key: gkey, region, loc, terrains: [] });
+      groups.get(gkey).terrains.push({ terrain, count: records.length });
+    });
+    this.setData({ locationMatches: [...groups.values()].slice(0, 8) });
+  },
+  onLocationTerrainTap(e) {
+    const { region, loc, terrain } = e.currentTarget.dataset;
+    if (!region || !loc || !terrain) return;
+    this.openLocationFromSearch(region, loc, terrain);
+  },
+  openLocationFromSearch(region, loc, terrain) {
+    this._locState = {
+      region,
+      loc,
+      terrain,
+      season: '任意',
+      sourceId: null,
+      sourceLevel: null,
+      sourceHorde: null,
+      filterMode: '',
+      hordeFilter: '',
+      allSeasons: true,
+    };
+    const candidates = this.locationCandidates();
+    const timeKey = ['morning', 'day', 'night'].find((tk) => candidates.some((r) => r[timeFields(tk).active])) || 'day';
+    const fields = timeFields(timeKey);
+    const active = candidates.filter((r) => r[fields.active]);
+    const hordeCounts = { 3: 0, 5: 0 };
+    active.forEach((r) => { if (hordeCounts[r[F.HORDE]] != null) hordeCounts[r[F.HORDE]]++; });
+    const defaultHordeFilter = hordeCounts[5] > 0 ? '5' : hordeCounts[3] > 0 ? '3' : '';
+    this.renderLocation(timeKey, defaultHordeFilter);
+    // 保留输入内容与地形匹配面板，便于继续选择其他地形
+  },
   onPickerChange(e) {
     const field = e.currentTarget.dataset.field;
     const index = Number(e.detail.value);
@@ -944,6 +996,11 @@ const P = Page({
   locationCandidates() {
     const s = this._locState;
     if (!s) return [];
+    // 地点搜索入口：不限季节，返回该地点地形的全部记录
+    if (s.allSeasons) {
+      const key = s.region + '\u0000' + s.loc + '\u0000' + s.terrain;
+      return (locationIndex.get(key) || []).slice();
+    }
     return candidatesFor(s.region, s.loc, s.terrain, s.season);
   },
   locationTimeAvailable(timeKey) {

@@ -14,6 +14,18 @@
       <text class="label">携带道具</text>
       <input class="input" value="{{itemInput}}" placeholder="搜索携带道具，如：幸运蛋、护符金币" confirm-type="search" bindinput="onItemInput" />
     </view>
+    <view class="field field-full">
+      <text class="label">地点</text>
+      <input class="input" value="{{locationInput}}" placeholder="输入地点搜索地形与分布，如：常磐森林、冠军道路" confirm-type="search" bindinput="onLocationInput" />
+    </view>
+    <view wx:if="{{locationMatches.length}}" class="location-matches">
+      <view class="match-group" wx:for="{{locationMatches}}" wx:key="key">
+        <text class="match-title">{{item.region}} · {{item.loc}}</text>
+        <view class="match-terrains">
+          <text class="terrain-chip" wx:for="{{item.terrains}}" wx:for-item="t" wx:key="terrain" data-region="{{item.region}}" data-loc="{{item.loc}}" data-terrain="{{t.terrain}}" bindtap="onLocationTerrainTap">{{t.terrain}} · {{t.count}}</text>
+        </view>
+      </view>
+    </view>
     <view class="field">
       <text class="label">地区</text>
       <picker mode="selector" range="{{regions}}" value="{{regionIndex}}" data-field="region" bindchange="onPickerChange">
