@@ -573,24 +573,37 @@ async function buildBossSection() {
   const active = current.filter(
     (item) => item && (!item.despawnTimestamp || item.despawnTimestamp > now)
   );
+  const saved = loadJson(BOSS_LAST_PATH, null);
+
+  // 取「最近一次出现」：优先活跃列表，否则带参数查近期历史。
+  // today 接口必须带 fromUnix/toUnix，裸调永远返回空，会导致本地记录永不更新。
+  let latest = null;
+  if (active.length) {
+    latest = active.slice().sort((a, b) => new Date(b.timestampUtc || 0) - new Date(a.timestampUtc || 0))[0];
+  } else {
+    let recent = [];
+    try {
+      recent = await fetchAlpha(ALPHA_TODAY_API + '?fromUnix=' + (now - 48 * 3600) + '&toUnix=' + now);
+    } catch (err) {
+      fail('拉取头目历史失败：', err.message);
+    }
+    if (recent.length) {
+      latest = recent.sort((a, b) => new Date(b.timestampUtc || 0) - new Date(a.timestampUtc || 0))[0];
+    }
+  }
+  const savedTime = saved ? Date.parse(saved.timestampUtc || '') || 0 : 0;
+  const latestTime = latest ? Date.parse(latest.timestampUtc || '') || 0 : 0;
+  if (latest && latestTime > savedTime) {
+    saveJson(BOSS_LAST_PATH, latest);
+  }
+
   if (active.length) {
     return buildBossActiveSection(active);
   }
-  let today = [];
-  try {
-    today = await fetchAlpha(ALPHA_TODAY_API);
-  } catch (err) {
-    fail('拉取头目历史失败：', err.message);
+  if (latest) {
+    return buildBossLastLine(latest);
   }
-  if (!today.length) {
-    const saved = loadJson(BOSS_LAST_PATH, null);
-    return saved ? buildBossLastLine(saved) : '';
-  }
-  const latest = today
-    .slice()
-    .sort((a, b) => new Date(b.timestampUtc || 0) - new Date(a.timestampUtc || 0))[0];
-  saveJson(BOSS_LAST_PATH, latest);
-  return buildBossLastLine(latest);
+  return saved ? buildBossLastLine(saved) : '';
 }
 
 async function pollOnce(pushAllActive) {
