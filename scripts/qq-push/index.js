@@ -9,6 +9,7 @@ const SEEN_PATH = path.join(ROOT, 'seen.json');
 const PENDING_PATH = path.join(ROOT, 'pending.json');
 const BOSS_LAST_PATH = path.join(ROOT, 'boss-last.json');
 const OUTAGE_PATH = path.join(ROOT, 'outage.json');
+const LAST_SENT_PATH = path.join(ROOT, 'last-sent.json');
 const DATA_FILE = path.join(ROOT, '..', '..', 'web', 'search-data.js');
 
 const POKEMOYU_API = 'https://pokemoyu.com/api/swarm-pings/current';
@@ -47,6 +48,8 @@ let seen = new Set(loadJson(SEEN_PATH, {}).ids || []);
 let pending = loadJson(PENDING_PATH, []);
 // 故障播报标记文件必须始终存在：workflow 的 git add 列表包含它，缺失会导致整轮任务失败
 if (!fs.existsSync(OUTAGE_PATH)) saveJson(OUTAGE_PATH, { notified: false });
+// 最近推送状态：记录上一次推送时的活跃明雷 sourceId 与最新头目时间，用于只在有新增时才推送
+if (!fs.existsSync(LAST_SENT_PATH)) saveJson(LAST_SENT_PATH, { swarmIds: [], bossTime: '' });
 
 function loadJson(file, fallback) {
   try {
@@ -597,13 +600,18 @@ async function buildBossSection() {
     saveJson(BOSS_LAST_PATH, latest);
   }
 
+  let text;
   if (active.length) {
-    return buildBossActiveSection(active);
+    text = buildBossActiveSection(active);
+  } else if (latest) {
+    text = buildBossLastLine(latest);
+  } else if (saved) {
+    text = buildBossLastLine(saved);
+  } else {
+    text = '';
   }
-  if (latest) {
-    return buildBossLastLine(latest);
-  }
-  return saved ? buildBossLastLine(saved) : '';
+  // 返回展示文本 + 最新一条记录的时间戳（用于“有新头目才推送”的判定）
+  return { text, latestTs: (latest || saved || null) ? String((latest || saved).timestampUtc || '') : '' };
 }
 
 async function pollOnce(pushAllActive) {
@@ -636,34 +644,45 @@ async function pollOnce(pushAllActive) {
       passesFilter(item) &&
       (!item.despawnTimestamp || item.despawnTimestamp > now)
   );
-  let bossSection = '';
-  try {
-    bossSection = await buildBossSection();
-  } catch (err) {
+  const boss = await buildBossSection().catch((err) => {
     fail('头目报点处理失败：', err.message);
+    return { text: '', latestTs: '' };
+  });
+
+  // 只在「有新增明雷」或「出现新头目」时才推送，避免每轮 cron 重复轰炸同一批活跃明雷
+  const lastSent = loadJson(LAST_SENT_PATH, { swarmIds: [], bossTime: '' });
+  const fresh = active.filter((item) => !lastSent.swarmIds.includes(String(item.sourceId)));
+  const newBoss = Boolean(boss.latestTs && boss.latestTs !== lastSent.bossTime);
+  if (!fresh.length && !newBoss) {
+    log('无新增明雷/头目，跳过本轮推送');
+    return;
   }
+
   let message;
-  if (!active.length) {
-    message =
-      '【明雷报点】当前无活跃明雷' +
-      (bossSection ? BOSS_SEPARATOR + bossSection : '');
-    log('当前没有活跃明雷，仅推送头目信息');
+  if (!fresh.length) {
+    message = '【明雷报点】当前无活跃明雷' + (boss.text ? BOSS_SEPARATOR + boss.text : '');
+    log('无新增明雷，仅因新头目推送');
   } else {
-    const featured = active
+    const featured = fresh
       .slice()
-      .sort((a, b) => (b.sourceId || 0) - (a.sourceId || 0))[0];
+      .sort((a, b) => new Date(b.timestampUtc || 0) - new Date(a.timestampUtc || 0))[0];
     const others = active.filter(
       (other) => String(other.sourceId) !== String(featured.sourceId)
     );
     message =
       buildPushMessage(featured, others) +
-      (bossSection ? BOSS_SEPARATOR + bossSection : '');
-    log('推送当前活跃明雷：', featured.pokemon || featured.monsterId, '（共', active.length, '条）');
+      (boss.text ? BOSS_SEPARATOR + boss.text : '');
+    log('推送新增明雷：', featured.pokemon || featured.monsterId, '（新增', fresh.length, '条，活跃共', active.length, '条）');
   }
   try {
     await sendMessage(message);
+    lastSent.swarmIds = active.map((item) => String(item.sourceId));
+    lastSent.bossTime = boss.latestTs || lastSent.bossTime;
+    saveJson(LAST_SENT_PATH, lastSent);
+    log('推送成功，已记录本轮状态。');
   } catch (err) {
-    fail('推送失败：', err.message);
+    // 推送失败不更新状态：下轮会把未送达的明雷/头目视为新增重试
+    fail('推送失败（下轮自动重试）：', err.message);
   }
 }
 
