@@ -501,7 +501,7 @@ function parseSwarmCards(html) {
 
 function parseLatestAlpha(payload) {
   const name = String(payload.latest_ping_value || '').trim();
-  if (!name || !payload.latest_ping_has_data) return null;
+  if (!name) return null;
   const det = String(payload.latest_ping_details_html || '');
   const region = (det.match(/data-region="([^"]+)"/) || [])[1] || '';
   const location = (det.match(/data-location="([^"]+)"/) || [])[1] || '';
