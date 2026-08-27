@@ -481,6 +481,8 @@ function parseSwarmCards(html) {
   const now = Math.floor(Date.now() / 1000);
   const items = [];
   cards.forEach((card) => {
+    // 混入的头目卡片（链接 alpha-list）不算明雷
+    if (/alpha-list\?/.test(card)) return;
     const pokemon = (card.match(/data-pokemon="([^"]+)"/) || [])[1] || '';
     const region = (card.match(/data-region="([^"]+)"/) || [])[1] || '';
     const location = (card.match(/data-location="([^"]+)"/) || [])[1] || '';
@@ -530,6 +532,38 @@ function parseLatestAlpha(payload) {
   };
 }
 
+// 直连接口的 latest_ping 字段可能为空，但活跃头目卡片会混在 swarm 区里
+// （class 含 card-alpha-override / 链接 alpha-list），从这里补取头目数据。
+// 注意：卡片链接里的 timestamp= 是消失时间；出现时间用 latest_ping_time 展示字段
+function parseAlphaCard(html, appearanceText) {
+  const cards = [...String(html).matchAll(/<article class="swarm-region-card[^"]*">([\s\S]*?)<\/article>/g)].map((m) => m[1]);
+  const card = cards.find((c) => /alpha-list\?/.test(c)) || null;
+  if (!card) return null;
+  const name = (card.match(/data-pokemon="([^"]+)"/) || [])[1] || '';
+  const region = (card.match(/data-region="([^"]+)"/) || [])[1] || '';
+  const location = (card.match(/data-location="([^"]+)"/) || [])[1] || '';
+  const pokedexId = (card.match(/\/pokedex\/(\d+)/) || [])[1];
+  const despawnIn = (card.match(/data-timedelta="(\d+)"/) || [])[1];
+  if (!name || !pokedexId) return null;
+  const now = Math.floor(Date.now() / 1000);
+  const appearanceText2 = String(appearanceText || '').match(/(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})/);
+  const appearanceTs = appearanceText2
+    ? Math.floor(Date.parse(appearanceText2[1].replace(' ', 'T') + 'Z') / 1000)
+    : null;
+  return {
+    monsterId: Number(pokedexId),
+    pokemon: name,
+    region,
+    location,
+    sourceId: appearanceTs,
+    despawnTimestamp: despawnIn ? now + Number(despawnIn) : (appearanceTs ? alphaDespawnTimestamp(appearanceTs) : null),
+    hasValuable: false,
+    timestampUtc: appearanceTs ? new Date(appearanceTs * 1000).toISOString() : '',
+    timestampRaw: appearanceTs ? new Date(appearanceTs * 1000).toISOString() : '',
+    publishedBy: '',
+  };
+}
+
 // 解析 jina 渲染后的首页 markdown 中的活跃明雷卡片
 function parseJinaSwarms(markdown) {
   const now = Math.floor(Date.now() / 1000);
@@ -568,26 +602,28 @@ function parseJinaSwarms(markdown) {
   return items;
 }
 
-// 解析 jina 渲染后的最新头目
+// 解析 jina 渲染后的最新头目（页面显示时间行 = 出现时间；链接 timestamp= 是消失时间）
 function parseJinaAlpha(markdown) {
   const section = (String(markdown).split('## Latest Alpha')[1] || '').split('## Alpha Time Slots')[0] || '';
   const nameM = section.match(/\[([^\]]+)\]\(https:\/\/alpha\.pokemmotools\.org\/pokedex\/(\d+)\)/);
   const regionM = section.match(/Region:\s*([A-Za-z]+)/);
   const locM = section.match(/Location:\s*\[([^\]]+)\]/);
-  const tsM = section.match(/timestamp=(\d+)/);
   const calledM = section.match(/Called by\s*([^\n]+)/);
-  if (!nameM || !tsM) return null;
-  const pingTs = Number(tsM[1]);
+  if (!nameM) return null;
+  // 出现时间：Latest Alpha 标题下方的时间行，如 "2026-08-27 09:17:46 UTC (UTC+00:00)"
+  const appearM = section.match(/(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})/);
+  const appearTs = appearM ? Math.floor(Date.parse(appearM[1].replace(' ', 'T') + 'Z') / 1000) : null;
+  if (!appearTs) return null;
   return {
     monsterId: Number(nameM[2]),
     pokemon: nameM[1],
     region: regionM ? regionM[1] : '',
     location: locM ? locM[1] : '',
-    sourceId: pingTs,
-    despawnTimestamp: alphaDespawnTimestamp(pingTs),
+    sourceId: appearTs,
+    despawnTimestamp: alphaDespawnTimestamp(appearTs),
     hasValuable: false,
-    timestampUtc: new Date(pingTs * 1000).toISOString(),
-    timestampRaw: new Date(pingTs * 1000).toISOString(),
+    timestampUtc: new Date(appearTs * 1000).toISOString(),
+    timestampRaw: new Date(appearTs * 1000).toISOString(),
     publishedBy: calledM ? calledM[1].trim() : '',
   };
 }
@@ -613,9 +649,10 @@ async function tryDirectAlphapediaStatus() {
   });
   if (res.status === 204 || !res.ok) return null;
   const payload = await res.json();
+  const swarmHtml = String(payload.swarm_section_html || '');
   return {
-    swarms: parseSwarmCards(String(payload.swarm_section_html || '')),
-    alpha: parseLatestAlpha(payload || {}),
+    swarms: parseSwarmCards(swarmHtml),
+    alpha: parseLatestAlpha(payload || {}) || parseAlphaCard(swarmHtml, payload.latest_ping_time),
   };
 }
 
@@ -776,7 +813,14 @@ async function buildBossSection(statusArg) {
     }
   }
   const alpha = status && status.alpha;
-  const saved = loadJson(BOSS_LAST_PATH, null);
+  let saved = loadJson(BOSS_LAST_PATH, null);
+  // 防御：历史记录出现未来时间戳（解析污染）时视为无效并清除，避免阻塞更新
+  const savedTimeRaw = saved ? Date.parse(saved.timestampUtc || '') || 0 : 0;
+  if (savedTimeRaw > Date.now() + 5 * 60 * 1000) {
+    fail('boss-last 时间戳异常（未来时间），已清除：', String(saved.timestampUtc || ''));
+    saveJson(BOSS_LAST_PATH, {});
+    saved = null;
+  }
 
   // alphapedia 只提供「最新头目」；未消失则视为活跃，否则作为最近一次出现记录
   let latest = alpha || null;
