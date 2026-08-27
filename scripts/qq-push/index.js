@@ -613,12 +613,15 @@ async function tryDirectAlphapediaStatus() {
   };
 }
 
-// 通过 r.jina.ai 渲染首页（能过 Cloudflare 挑战）
+// 通过 r.jina.ai 渲染首页（能过 Cloudflare 挑战）；配置 JINA_API_KEY 可避开共享 IP 限流
 async function fetchAlphapediaViaJina() {
-  const res = await fetchRetry('https://r.jina.ai/' + ALPHAPEDIA_BASE + '/', 2, 3000, {
+  const headers = {
     Accept: 'text/plain, text/markdown, */*',
     'User-Agent': BROWSER_UA,
-  });
+  };
+  const apiKey = process.env.JINA_API_KEY || config.jinaApiKey || '';
+  if (apiKey) headers.Authorization = 'Bearer ' + apiKey;
+  const res = await fetchRetry('https://r.jina.ai/' + ALPHAPEDIA_BASE + '/', 2, 3000, headers);
   const markdown = await res.text();
   if (
     !markdown ||

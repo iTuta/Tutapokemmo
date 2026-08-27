@@ -22,6 +22,7 @@ jobs:
       - name: 检查报点并推送
         env:
           WECHAT_WEBHOOK: ${{ secrets.WECHAT_WEBHOOK }}
+          JINA_API_KEY: ${{ secrets.JINA_API_KEY }}
           SWARM_ONLY_VALUABLE: ${{ vars.SWARM_ONLY_VALUABLE }}
           SWARM_REGIONS: ${{ vars.SWARM_REGIONS }}
           SWARM_MONSTER_IDS: ${{ vars.SWARM_MONSTER_IDS }}
