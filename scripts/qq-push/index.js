@@ -537,10 +537,16 @@ function parseJinaSwarms(markdown) {
   const cards = section.split(/!\[Image \d+: /).slice(1);
   const items = [];
   cards.forEach((block) => {
+    // 混入的头目卡片（标注 Alpha / 链接 alpha-list）不算明雷
+    if (block.includes('Alpha Active') || /alpha-list\?/.test(block)) return;
     const pm = block.match(/\[([^\]]+)\]\(https:\/\/alpha\.pokemmotools\.org\/pokedex\/(\d+)\)/);
     if (!pm) return;
-    const lines = block.split('\n');
-    const region = (lines[1] || '').trim();
+    // 地区是图片行后的首个非空行（部分卡片图片行后有空行）
+    const lines = block.split('\n').map((l) => l.trim());
+    let region = '';
+    for (let i = 1; i < lines.length; i++) {
+      if (lines[i]) { region = lines[i]; break; }
+    }
     const lm = block.match(/\[([^\]]+)\]\(https:\/\/alpha\.pokemmotools\.org\/route\/[^)]+\)/);
     const despawnM = block.match(/Despawns in (\d+) minute/);
     const tsM = block.match(/timestamp=(\d+)/);
@@ -618,6 +624,8 @@ async function fetchAlphapediaViaJina() {
   const headers = {
     Accept: 'text/plain, text/markdown, */*',
     'User-Agent': BROWSER_UA,
+    // 禁用 jina 缓存：默认会返回旧页面导致报点数据滞后
+    'X-No-Cache': 'true',
   };
   const apiKey = process.env.JINA_API_KEY || config.jinaApiKey || '';
   if (apiKey) headers.Authorization = 'Bearer ' + apiKey;
