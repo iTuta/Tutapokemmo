@@ -620,13 +620,29 @@ async function fetchAlphapediaViaJina() {
     'User-Agent': BROWSER_UA,
   });
   const markdown = await res.text();
-  if (!markdown || markdown.includes('Just a moment') || markdown.includes('Enable JavaScript') || markdown.length < 500) {
-    throw new Error('jina 渲染失败');
+  if (
+    !markdown ||
+    markdown.includes('Just a moment') ||
+    markdown.includes('Enable JavaScript') ||
+    markdown.length < 500 ||
+    (!markdown.includes('## Latest Alpha') && !markdown.includes('## Swarms'))
+  ) {
+    throw new Error('jina 渲染失败（返回异常页面）');
   }
-  return {
+  const status = {
     swarms: parseJinaSwarms(markdown),
     alpha: parseJinaAlpha(markdown),
   };
+  debugRecord({ source: 'jina', swarms: status.swarms.length, alpha: status.alpha ? status.alpha.pokemon : null });
+  return status;
+}
+
+// 调试记录：随提交回传 CI 实际拿到的数据（排查用）
+const DEBUG_PATH = path.join(ROOT, 'debug.json');
+function debugRecord(info) {
+  try {
+    saveJson(DEBUG_PATH, Object.assign({ at: new Date().toISOString() }, info));
+  } catch (err) { /* 忽略调试写入失败 */ }
 }
 
 // 拉取 alphapedia 首页实时状态：活跃明雷 + 最新头目（jina 渲染优先，直连兜底）
@@ -642,7 +658,10 @@ async function fetchAlphapediaStatus() {
   } catch (err) {
     fail('alphapedia 直连失败：', err.message);
   }
-  if (direct) return direct;
+  if (direct) {
+    debugRecord({ source: 'direct', swarms: direct.swarms.length, alpha: direct.alpha ? direct.alpha.pokemon : null });
+    return direct;
+  }
   throw new Error('alphapedia 数据获取失败（jina 与直连均不可用）');
 }
 
