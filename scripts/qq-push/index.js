@@ -11,10 +11,6 @@ const BOSS_LAST_PATH = path.join(ROOT, 'boss-last.json');
 const OUTAGE_PATH = path.join(ROOT, 'outage.json');
 const LAST_SENT_PATH = path.join(ROOT, 'last-sent.json');
 const DATA_FILE = path.join(ROOT, '..', '..', 'web', 'search-data.js');
-
-const POKEMOYU_API = 'https://pokemoyu.com/api/swarm-pings/current';
-const ALPHA_API = 'https://pokemoyu.com/api/alpha-pings/current';
-const ALPHA_TODAY_API = 'https://pokemoyu.com/api/alpha-pings/today';
 const TOKEN_URL = 'https://api.bot.qq.com/app/getAppAccessToken';
 const REGION_NAMES = {
   Kanto: '关都',
@@ -430,15 +426,16 @@ function envOrConfig(name, fallback) {
   return value == null || value === '' ? fallback : value;
 }
 
-async function fetchRetry(url, retries, baseDelay) {
+async function fetchRetry(url, retries, baseDelay, extraHeaders) {
   const max = retries || 3;
   const delay = baseDelay || 2000;
+  const headers = Object.assign({ Accept: 'application/json' }, extraHeaders || {});
   let lastErr;
   for (let attempt = 0; attempt < max; attempt++) {
     try {
       const res = await fetch(url, {
         cache: 'no-store',
-        headers: { Accept: 'application/json' },
+        headers,
       });
       // 5xx 与 429 属于上游临时故障，同样退避重试；其余状态码直接返回
       if (res.ok || (res.status < 500 && res.status !== 429)) return res;
@@ -455,11 +452,98 @@ async function fetchRetry(url, retries, baseDelay) {
   throw lastErr;
 }
 
-async function fetchCurrent() {
-  const res = await fetchRetry(POKEMOYU_API, 5, 4000);
-  if (!res.ok) throw new Error('HTTP ' + res.status);
-  const data = await res.json();
-  return Array.isArray(data) ? data : [];
+// ---------- alphapedia 数据源 ----------
+const ALPHAPEDIA_BASE = 'https://alpha.pokemmotools.org';
+const BROWSER_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36';
+
+// 头目按时间段出现：00:00-04:45 / 06:00-10:45 / 12:00-16:45 / 18:00-22:45 (UTC)
+const ALPHA_SLOT_END_MINUTES = [285, 645, 1005, 1365];
+function alphaDespawnTimestamp(pingTs) {
+  const d = new Date(pingTs * 1000);
+  const minute = d.getUTCHours() * 60 + d.getUTCMinutes();
+  for (const endMin of ALPHA_SLOT_END_MINUTES) {
+    if (minute < endMin) {
+      return Math.floor(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate()) / 1000) + endMin * 60;
+    }
+  }
+  // 22:45 之后的出现归入次日 04:45 段
+  return Math.floor(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate() + 1) / 1000) + ALPHA_SLOT_END_MINUTES[0] * 60;
+}
+
+function parseSwarmCards(html) {
+  const cards = [...html.matchAll(/<article class="swarm-region-card[^"]*">([\s\S]*?)<\/article>/g)].map((m) => m[1]);
+  const now = Math.floor(Date.now() / 1000);
+  const items = [];
+  cards.forEach((card) => {
+    const pokemon = (card.match(/data-pokemon="([^"]+)"/) || [])[1] || '';
+    const region = (card.match(/data-region="([^"]+)"/) || [])[1] || '';
+    const location = (card.match(/data-location="([^"]+)"/) || [])[1] || '';
+    const pokedexId = (card.match(/\/pokedex\/(\d+)/) || [])[1];
+    const ts = (card.match(/timestamp=(\d+)/) || [])[1];
+    const despawnIn = (card.match(/data-timedelta="(\d+)"/) || [])[1];
+    if (!pokemon || !pokedexId || !ts) return;
+    const despawnTimestamp = despawnIn ? now + Number(despawnIn) : null;
+    if (!despawnTimestamp || despawnTimestamp <= now) return; // 只保留未消失的活跃明雷
+    items.push({
+      monsterId: Number(pokedexId),
+      pokemon,
+      region,
+      location,
+      sourceId: Number(ts),
+      despawnTimestamp,
+      hasValuable: false,
+      timestampUtc: new Date(Number(ts) * 1000).toISOString(),
+      publishedBy: '',
+    });
+  });
+  return items;
+}
+
+function parseLatestAlpha(payload) {
+  const name = String(payload.latest_ping_value || '').trim();
+  if (!name || !payload.latest_ping_has_data) return null;
+  const det = String(payload.latest_ping_details_html || '');
+  const region = (det.match(/data-region="([^"]+)"/) || [])[1] || '';
+  const location = (det.match(/data-location="([^"]+)"/) || [])[1] || '';
+  const ts = (det.match(/timestamp=(\d+)/) || [])[1];
+  const pokedexId = (det.match(/\/pokedex\/(\d+)/) || [])[1];
+  const calledBy = (det.match(/publisher-name[^>]*>([^<]+)</) || [])[1] || '';
+  if (!ts || !pokedexId) return null;
+  const pingTs = Number(ts);
+  return {
+    monsterId: Number(pokedexId),
+    pokemon: name,
+    region,
+    location,
+    sourceId: pingTs,
+    despawnTimestamp: alphaDespawnTimestamp(pingTs),
+    hasValuable: false,
+    timestampUtc: new Date(pingTs * 1000).toISOString(),
+    timestampRaw: new Date(pingTs * 1000).toISOString(),
+    publishedBy: calledBy,
+  };
+}
+
+// 拉取 alphapedia 首页实时状态：活跃明雷 + 最新头目
+async function fetchAlphapediaStatus() {
+  const page = await fetchRetry(ALPHAPEDIA_BASE + '/', 3, 2000, { Accept: 'text/html', 'User-Agent': BROWSER_UA });
+  const html = await page.text();
+  const cookie = (page.headers.get('set-cookie') || '').split(';')[0];
+  const token = (html.match(/name="landing-status-token"[^>]*content="([^"]+)"/) || [])[1];
+  const res = await fetchRetry(ALPHAPEDIA_BASE + '/api/landing-status', 3, 2000, {
+    Accept: 'application/json',
+    Cookie: cookie,
+    'X-Landing-Status-Token': token,
+    Origin: ALPHAPEDIA_BASE,
+    Referer: ALPHAPEDIA_BASE + '/',
+    'User-Agent': BROWSER_UA,
+  });
+  if (res.status === 204 || !res.ok) throw new Error('HTTP ' + res.status);
+  const payload = await res.json();
+  return {
+    swarms: parseSwarmCards(String(payload.swarm_section_html || '')),
+    alpha: parseLatestAlpha(payload || {}),
+  };
 }
 
 async function pushItem(item, others) {
@@ -488,21 +572,6 @@ async function processPending(list) {
   pending = remaining;
   saveSeen();
   savePending();
-}
-
-async function fetchAlpha(url) {
-  const res = await fetchRetry(url);
-  if (!res.ok || res.status === 204) return [];
-  const text = await res.text();
-  if (!text) return [];
-  try {
-    const data = JSON.parse(text);
-    if (Array.isArray(data)) return data;
-    if (data && typeof data === 'object') return [data];
-    return [];
-  } catch (err) {
-    return [];
-  }
 }
 
 function buildBossLastBody(item) {
@@ -565,35 +634,22 @@ function buildBossActiveSection(active) {
   return lines.join('\n');
 }
 
-async function buildBossSection() {
+async function buildBossSection(statusArg) {
   const now = Math.floor(Date.now() / 1000);
-  let current = [];
-  try {
-    current = await fetchAlpha(ALPHA_API);
-  } catch (err) {
-    fail('拉取头目报点失败：', err.message);
+  let status = statusArg;
+  if (!status) {
+    try {
+      status = await fetchAlphapediaStatus();
+    } catch (err) {
+      fail('拉取头目报点失败：', err.message);
+      status = null;
+    }
   }
-  const active = current.filter(
-    (item) => item && (!item.despawnTimestamp || item.despawnTimestamp > now)
-  );
+  const alpha = status && status.alpha;
   const saved = loadJson(BOSS_LAST_PATH, null);
 
-  // 取「最近一次出现」：优先活跃列表，否则带参数查近期历史。
-  // today 接口必须带 fromUnix/toUnix，裸调永远返回空，会导致本地记录永不更新。
-  let latest = null;
-  if (active.length) {
-    latest = active.slice().sort((a, b) => new Date(b.timestampUtc || 0) - new Date(a.timestampUtc || 0))[0];
-  } else {
-    let recent = [];
-    try {
-      recent = await fetchAlpha(ALPHA_TODAY_API + '?fromUnix=' + (now - 48 * 3600) + '&toUnix=' + now);
-    } catch (err) {
-      fail('拉取头目历史失败：', err.message);
-    }
-    if (recent.length) {
-      latest = recent.sort((a, b) => new Date(b.timestampUtc || 0) - new Date(a.timestampUtc || 0))[0];
-    }
-  }
+  // alphapedia 只提供「最新头目」；未消失则视为活跃，否则作为最近一次出现记录
+  let latest = alpha || null;
   const savedTime = saved ? Date.parse(saved.timestampUtc || '') || 0 : 0;
   const latestTime = latest ? Date.parse(latest.timestampUtc || '') || 0 : 0;
   if (latest && latestTime > savedTime) {
@@ -601,8 +657,8 @@ async function buildBossSection() {
   }
 
   let text;
-  if (active.length) {
-    text = buildBossActiveSection(active);
+  if (latest && (!latest.despawnTimestamp || latest.despawnTimestamp > now)) {
+    text = buildBossActiveSection([latest]);
   } else if (latest) {
     text = buildBossLastLine(latest);
   } else if (saved) {
@@ -615,7 +671,14 @@ async function buildBossSection() {
 }
 
 async function pollOnce(pushAllActive) {
-  const list = await fetchCurrent();
+  // 数据源统一走 alphapedia：一次请求同时拿到活跃明雷与最新头目
+  let status = null;
+  try {
+    status = await fetchAlphapediaStatus();
+  } catch (err) {
+    fail('拉取报点数据失败：', err.message);
+  }
+  const list = status ? status.swarms : [];
   const now = Math.floor(Date.now() / 1000);
   if (!pushAllActive) {
     const fresh = list.filter((item) => {
@@ -644,7 +707,8 @@ async function pollOnce(pushAllActive) {
       passesFilter(item) &&
       (!item.despawnTimestamp || item.despawnTimestamp > now)
   );
-  const boss = await buildBossSection().catch((err) => {
+  // 头目段复用同一份 alphapedia 状态（避免二次请求）
+  const boss = await buildBossSection(status).catch((err) => {
     fail('头目报点处理失败：', err.message);
     return { text: '', latestTs: '' };
   });
@@ -802,7 +866,7 @@ async function runTest() {
   if (!validateConfig()) return 1;
   loadNames();
   try {
-    const list = await fetchCurrent();
+    const list = await fetchAlphapediaStatus().then((s) => s.swarms).catch(() => []);
     const target = channel === 'wechat' ? wechatWebhook : config.groupOpenid;
     if (!target) {
       fail('测试推送需要目标群。请把机器人拉进群后 @它发送「' + (config.autoBindCommand || '绑定') + '」，或手动填写 config.json 的 groupOpenid。');
