@@ -530,13 +530,74 @@ function parseLatestAlpha(payload) {
   };
 }
 
-// 拉取 alphapedia 首页实时状态：活跃明雷 + 最新头目
-async function fetchAlphapediaStatus() {
-  const page = await fetchRetry(ALPHAPEDIA_BASE + '/', 3, 2000, { Accept: 'text/html', 'User-Agent': BROWSER_UA });
+// 解析 jina 渲染后的首页 markdown 中的活跃明雷卡片
+function parseJinaSwarms(markdown) {
+  const now = Math.floor(Date.now() / 1000);
+  const section = (String(markdown).split('## Swarms')[1] || '').split('## Phenos')[0] || '';
+  const cards = section.split(/!\[Image \d+: /).slice(1);
+  const items = [];
+  cards.forEach((block) => {
+    const pm = block.match(/\[([^\]]+)\]\(https:\/\/alpha\.pokemmotools\.org\/pokedex\/(\d+)\)/);
+    if (!pm) return;
+    const lines = block.split('\n');
+    const region = (lines[1] || '').trim();
+    const lm = block.match(/\[([^\]]+)\]\(https:\/\/alpha\.pokemmotools\.org\/route\/[^)]+\)/);
+    const despawnM = block.match(/Despawns in (\d+) minute/);
+    const tsM = block.match(/timestamp=(\d+)/);
+    const despawnTimestamp = despawnM ? now + Number(despawnM[1]) * 60 : null;
+    if (!despawnTimestamp || despawnTimestamp <= now) return; // 只保留未消失的活跃明雷
+    const ts = tsM ? Number(tsM[1]) : null;
+    items.push({
+      monsterId: Number(pm[2]),
+      pokemon: pm[1],
+      region,
+      location: lm ? lm[1] : '',
+      sourceId: ts,
+      despawnTimestamp,
+      hasValuable: false,
+      timestampUtc: ts ? new Date(ts * 1000).toISOString() : '',
+      publishedBy: '',
+    });
+  });
+  return items;
+}
+
+// 解析 jina 渲染后的最新头目
+function parseJinaAlpha(markdown) {
+  const section = (String(markdown).split('## Latest Alpha')[1] || '').split('## Alpha Time Slots')[0] || '';
+  const nameM = section.match(/\[([^\]]+)\]\(https:\/\/alpha\.pokemmotools\.org\/pokedex\/(\d+)\)/);
+  const regionM = section.match(/Region:\s*([A-Za-z]+)/);
+  const locM = section.match(/Location:\s*\[([^\]]+)\]/);
+  const tsM = section.match(/timestamp=(\d+)/);
+  const calledM = section.match(/Called by\s*([^\n]+)/);
+  if (!nameM || !tsM) return null;
+  const pingTs = Number(tsM[1]);
+  return {
+    monsterId: Number(nameM[2]),
+    pokemon: nameM[1],
+    region: regionM ? regionM[1] : '',
+    location: locM ? locM[1] : '',
+    sourceId: pingTs,
+    despawnTimestamp: alphaDespawnTimestamp(pingTs),
+    hasValuable: false,
+    timestampUtc: new Date(pingTs * 1000).toISOString(),
+    timestampRaw: new Date(pingTs * 1000).toISOString(),
+    publishedBy: calledM ? calledM[1].trim() : '',
+  };
+}
+
+// 直连 alphapedia API；被 Cloudflare 挑战时返回 null
+async function tryDirectAlphapediaStatus() {
+  const page = await fetchRetry(ALPHAPEDIA_BASE + '/', 2, 2000, {
+    Accept: 'text/html,application/xhtml+xml',
+    'User-Agent': BROWSER_UA,
+  });
   const html = await page.text();
+  if (!html || html.includes('Just a moment') || html.includes('Enable JavaScript')) return null;
   const cookie = (page.headers.get('set-cookie') || '').split(';')[0];
   const token = (html.match(/name="landing-status-token"[^>]*content="([^"]+)"/) || [])[1];
-  const res = await fetchRetry(ALPHAPEDIA_BASE + '/api/landing-status', 3, 2000, {
+  if (!token) return null;
+  const res = await fetchRetry(ALPHAPEDIA_BASE + '/api/landing-status', 2, 2000, {
     Accept: 'application/json',
     Cookie: cookie,
     'X-Landing-Status-Token': token,
@@ -544,12 +605,40 @@ async function fetchAlphapediaStatus() {
     Referer: ALPHAPEDIA_BASE + '/',
     'User-Agent': BROWSER_UA,
   });
-  if (res.status === 204 || !res.ok) throw new Error('HTTP ' + res.status);
+  if (res.status === 204 || !res.ok) return null;
   const payload = await res.json();
   return {
     swarms: parseSwarmCards(String(payload.swarm_section_html || '')),
     alpha: parseLatestAlpha(payload || {}),
   };
+}
+
+// 通过 r.jina.ai 渲染首页（能过 Cloudflare 挑战）
+async function fetchAlphapediaViaJina() {
+  const res = await fetchRetry('https://r.jina.ai/' + ALPHAPEDIA_BASE + '/', 2, 3000, {
+    Accept: 'text/plain, text/markdown, */*',
+    'User-Agent': BROWSER_UA,
+  });
+  const markdown = await res.text();
+  if (!markdown || markdown.includes('Just a moment') || markdown.includes('Enable JavaScript') || markdown.length < 500) {
+    throw new Error('jina 渲染失败');
+  }
+  return {
+    swarms: parseJinaSwarms(markdown),
+    alpha: parseJinaAlpha(markdown),
+  };
+}
+
+// 拉取 alphapedia 首页实时状态：活跃明雷 + 最新头目（直连优先，风控时回退 jina）
+async function fetchAlphapediaStatus() {
+  let direct = null;
+  try {
+    direct = await tryDirectAlphapediaStatus();
+  } catch (err) {
+    fail('alphapedia 直连失败（回退渲染）：', err.message);
+  }
+  if (direct) return direct;
+  return fetchAlphapediaViaJina();
 }
 
 async function pushItem(item, others) {
@@ -679,10 +768,12 @@ async function buildBossSection(statusArg) {
 async function pollOnce(pushAllActive) {
   // 数据源统一走 alphapedia：一次请求同时拿到活跃明雷与最新头目
   let status = null;
+  let fetchFailed = false;
   try {
     status = await fetchAlphapediaStatus();
   } catch (err) {
     fail('拉取报点数据失败：', err.message);
+    fetchFailed = true;
   }
   const list = status ? status.swarms : [];
   const now = Math.floor(Date.now() / 1000);
@@ -720,7 +811,9 @@ async function pollOnce(pushAllActive) {
   });
 
   // 定时模式：每轮固定推送一次（含全部活跃明雷地区分组 + 头目段），不做新增去重
-  const message = buildSwarmMessage(active) + (boss.text ? BOSS_SEPARATOR + boss.text : '');
+  let message = buildSwarmMessage(active);
+  if (fetchFailed) message += '\n（数据源获取异常，以上信息可能不准确）';
+  message += boss.text ? BOSS_SEPARATOR + boss.text : '';
   try {
     await sendMessage(message);
     log('推送成功（活跃明雷', active.length, '条）。');
