@@ -629,16 +629,21 @@ async function fetchAlphapediaViaJina() {
   };
 }
 
-// 拉取 alphapedia 首页实时状态：活跃明雷 + 最新头目（直连优先，风控时回退 jina）
+// 拉取 alphapedia 首页实时状态：活跃明雷 + 最新头目（jina 渲染优先，直连兜底）
 async function fetchAlphapediaStatus() {
+  try {
+    return await fetchAlphapediaViaJina();
+  } catch (err) {
+    fail('jina 渲染失败（回退直连）：', err.message);
+  }
   let direct = null;
   try {
     direct = await tryDirectAlphapediaStatus();
   } catch (err) {
-    fail('alphapedia 直连失败（回退渲染）：', err.message);
+    fail('alphapedia 直连失败：', err.message);
   }
   if (direct) return direct;
-  return fetchAlphapediaViaJina();
+  throw new Error('alphapedia 数据获取失败（jina 与直连均不可用）');
 }
 
 async function pushItem(item, others) {
