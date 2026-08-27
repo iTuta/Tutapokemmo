@@ -344,42 +344,51 @@ function formatMessage(item, title) {
   ].join('\n');
 }
 
-function formatActiveLine(item, now) {
-  const info = nameById.get(item.monsterId) || {};
-  const name = info.name || item.pokemon || ('#' + item.monsterId);
-  const region = REGION_NAMES[item.region] || item.region || '';
-  const remain = Math.max(0, (item.despawnTimestamp || 0) - now);
-  const minutes = Math.round(remain / 60);
-  const despawnText = item.despawnTimestamp
-    ? new Date(item.despawnTimestamp * 1000).toLocaleTimeString('zh-CN', {
-        hour12: false,
-        timeZone: 'Asia/Shanghai',
-      })
-    : '';
-  return (
-    '• ' + name + ' #' + item.monsterId +
-    (region ? ' ' + region : '') +
-    (item.location ? ' ' + translateLocation(item.location) : '') +
-    '（约 ' + minutes + ' 分钟）' +
-    (despawnText ? '（' + despawnText + ' 消失）' : '')
-  );
-}
-
 const BOSS_SEPARATOR = '\n\n\n\n';
 
-function buildPushMessage(item, others) {
-  const lines = [formatMessage(item)];
+// 推送模板：按地区分组展示明雷（合众/城都/关都/丰缘/神奥），无则显示暂无
+const REGION_ORDER = ['Unova', 'Johto', 'Kanto', 'Hoenn', 'Sinnoh'];
+
+function buildSwarmMessage(active) {
   const now = Math.floor(Date.now() / 1000);
-  const sorted = (others || [])
-    .slice()
-    .sort((a, b) => (a.despawnTimestamp || 0) - (b.despawnTimestamp || 0));
-  lines.push('', '');
-  lines.push('【当前其他明雷】');
-  if (sorted.length) {
-    sorted.forEach((other) => lines.push(formatActiveLine(other, now)));
-  } else {
-    lines.push('当前暂无其它明雷');
-  }
+  const lines = ['【明雷报点】'];
+  const byRegion = {};
+  (active || []).forEach((item) => {
+    const key = item.region || '未知';
+    (byRegion[key] = byRegion[key] || []).push(item);
+  });
+  const regions = REGION_ORDER.concat(
+    Object.keys(byRegion).filter((r) => REGION_ORDER.indexOf(r) === -1)
+  );
+  regions.forEach((region, idx) => {
+    const items = byRegion[region] || [];
+    if (!items.length) {
+      lines.push((REGION_NAMES[region] || region) + '——精灵：暂无明雷');
+      lines.push('      地点：暂无明雷');
+      lines.push('      剩余：暂无明雷');
+    } else {
+      items
+        .slice()
+        .sort((a, b) => (a.despawnTimestamp || 0) - (b.despawnTimestamp || 0))
+        .forEach((item) => {
+          const info = nameById.get(item.monsterId) || {};
+          const name = info.name || item.pokemon || ('#' + item.monsterId);
+          const remain = Math.max(0, (item.despawnTimestamp || 0) - now);
+          const minutes = Math.floor(remain / 60);
+          const seconds = remain % 60;
+          const despawnText = item.despawnTimestamp
+            ? new Date(item.despawnTimestamp * 1000).toLocaleTimeString('zh-CN', {
+                hour12: false,
+                timeZone: 'Asia/Shanghai',
+              })
+            : '';
+          lines.push((REGION_NAMES[region] || region) + '——精灵：' + name + ' #' + item.monsterId);
+          lines.push('      地点：' + translateLocation(item.location));
+          lines.push('      剩余：' + minutes + '分' + seconds + '秒（' + despawnText + '消失）');
+        });
+    }
+    if (idx < regions.length - 1) lines.push('');
+  });
   return lines.join('\n');
 }
 
@@ -547,7 +556,7 @@ async function fetchAlphapediaStatus() {
 }
 
 async function pushItem(item, others) {
-  const message = buildPushMessage(item, others || []);
+  const message = buildSwarmMessage([item].concat(others || []));
   log('推送新明雷：', item.pokemon || item.monsterId, item.region, item.location);
   await sendMessage(message);
 }
@@ -724,19 +733,11 @@ async function pollOnce(pushAllActive) {
 
   let message;
   if (!fresh.length) {
-    message = '【明雷报点】当前无活跃明雷' + (boss.text ? BOSS_SEPARATOR + boss.text : '');
+    message = buildSwarmMessage(active) + (boss.text ? BOSS_SEPARATOR + boss.text : '');
     log('无新增明雷，仅因新头目推送');
   } else {
-    const featured = fresh
-      .slice()
-      .sort((a, b) => new Date(b.timestampUtc || 0) - new Date(a.timestampUtc || 0))[0];
-    const others = active.filter(
-      (other) => String(other.sourceId) !== String(featured.sourceId)
-    );
-    message =
-      buildPushMessage(featured, others) +
-      (boss.text ? BOSS_SEPARATOR + boss.text : '');
-    log('推送新增明雷：', featured.pokemon || featured.monsterId, '（新增', fresh.length, '条，活跃共', active.length, '条）');
+    message = buildSwarmMessage(active) + (boss.text ? BOSS_SEPARATOR + boss.text : '');
+    log('推送新增明雷：', fresh.length, '条，活跃共', active.length, '条');
   }
   try {
     await sendMessage(message);
