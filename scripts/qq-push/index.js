@@ -801,6 +801,19 @@ async function pollOnce(pushAllActive) {
   }
   const list = status ? status.swarms : [];
   const now = Math.floor(Date.now() / 1000);
+  if (pushAllActive) {
+    // 记录过滤前后数据，排查推送内容问题
+    try {
+      debugRecord({
+        at: new Date().toISOString(),
+        rawSwarms: list.map((s) => s.pokemon + '@' + (s.region || '?') + (s.despawnTimestamp > now ? '' : '(过期)')).join('|'),
+        rawCount: list.length,
+        envOnlyValuable: envOrConfig('SWARM_ONLY_VALUABLE', config.onlyValuable),
+        envRegions: envOrConfig('SWARM_REGIONS', ''),
+        envMonsterIds: envOrConfig('SWARM_MONSTER_IDS', ''),
+      });
+    } catch (err) { /* 忽略 */ }
+  }
   if (!pushAllActive) {
     const fresh = list.filter((item) => {
       if (!item || item.sourceId == null || !passesFilter(item)) return false;
