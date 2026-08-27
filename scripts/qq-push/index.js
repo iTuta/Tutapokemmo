@@ -9,7 +9,6 @@ const SEEN_PATH = path.join(ROOT, 'seen.json');
 const PENDING_PATH = path.join(ROOT, 'pending.json');
 const BOSS_LAST_PATH = path.join(ROOT, 'boss-last.json');
 const OUTAGE_PATH = path.join(ROOT, 'outage.json');
-const LAST_SENT_PATH = path.join(ROOT, 'last-sent.json');
 const DATA_FILE = path.join(ROOT, '..', '..', 'web', 'search-data.js');
 const TOKEN_URL = 'https://api.bot.qq.com/app/getAppAccessToken';
 const REGION_NAMES = {
@@ -44,8 +43,6 @@ let seen = new Set(loadJson(SEEN_PATH, {}).ids || []);
 let pending = loadJson(PENDING_PATH, []);
 // 故障播报标记文件必须始终存在：workflow 的 git add 列表包含它，缺失会导致整轮任务失败
 if (!fs.existsSync(OUTAGE_PATH)) saveJson(OUTAGE_PATH, { notified: false });
-// 最近推送状态：记录上一次推送时的活跃明雷 sourceId 与最新头目时间，用于只在有新增时才推送
-if (!fs.existsSync(LAST_SENT_PATH)) saveJson(LAST_SENT_PATH, { swarmIds: [], bossTime: '' });
 
 function loadJson(file, fallback) {
   try {
@@ -722,32 +719,13 @@ async function pollOnce(pushAllActive) {
     return { text: '', latestTs: '' };
   });
 
-  // 只在「有新增明雷」或「出现新头目」时才推送，避免每轮 cron 重复轰炸同一批活跃明雷
-  const lastSent = loadJson(LAST_SENT_PATH, { swarmIds: [], bossTime: '' });
-  const fresh = active.filter((item) => !lastSent.swarmIds.includes(String(item.sourceId)));
-  const newBoss = Boolean(boss.latestTs && boss.latestTs !== lastSent.bossTime);
-  if (!fresh.length && !newBoss) {
-    log('无新增明雷/头目，跳过本轮推送');
-    return;
-  }
-
-  let message;
-  if (!fresh.length) {
-    message = buildSwarmMessage(active) + (boss.text ? BOSS_SEPARATOR + boss.text : '');
-    log('无新增明雷，仅因新头目推送');
-  } else {
-    message = buildSwarmMessage(active) + (boss.text ? BOSS_SEPARATOR + boss.text : '');
-    log('推送新增明雷：', fresh.length, '条，活跃共', active.length, '条');
-  }
+  // 定时模式：每轮固定推送一次（含全部活跃明雷地区分组 + 头目段），不做新增去重
+  const message = buildSwarmMessage(active) + (boss.text ? BOSS_SEPARATOR + boss.text : '');
   try {
     await sendMessage(message);
-    lastSent.swarmIds = active.map((item) => String(item.sourceId));
-    lastSent.bossTime = boss.latestTs || lastSent.bossTime;
-    saveJson(LAST_SENT_PATH, lastSent);
-    log('推送成功，已记录本轮状态。');
+    log('推送成功（活跃明雷', active.length, '条）。');
   } catch (err) {
-    // 推送失败不更新状态：下轮会把未送达的明雷/头目视为新增重试
-    fail('推送失败（下轮自动重试）：', err.message);
+    fail('推送失败：', err.message);
   }
 }
 
