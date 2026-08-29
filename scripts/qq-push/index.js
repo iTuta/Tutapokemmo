@@ -8,7 +8,6 @@ const CONFIG_PATH = path.join(ROOT, 'config.json');
 const SEEN_PATH = path.join(ROOT, 'seen.json');
 const PENDING_PATH = path.join(ROOT, 'pending.json');
 const BOSS_LAST_PATH = path.join(ROOT, 'boss-last.json');
-const OUTAGE_PATH = path.join(ROOT, 'outage.json');
 const DATA_FILE = path.join(ROOT, '..', '..', 'web', 'search-data.js');
 const TOKEN_URL = 'https://api.bot.qq.com/app/getAppAccessToken';
 const REGION_NAMES = {
@@ -41,8 +40,6 @@ let stopping = false;
 let nameById = new Map();
 let seen = new Set(loadJson(SEEN_PATH, {}).ids || []);
 let pending = loadJson(PENDING_PATH, []);
-// 故障播报标记文件必须始终存在：workflow 的 git add 列表包含它，缺失会导致整轮任务失败
-if (!fs.existsSync(OUTAGE_PATH)) saveJson(OUTAGE_PATH, { notified: false });
 
 function loadJson(file, fallback) {
   try {
@@ -681,16 +678,7 @@ async function fetchAlphapediaViaJina() {
     swarms: parseJinaSwarms(markdown),
     alpha: parseJinaAlpha(markdown),
   };
-  debugRecord({ source: 'jina', swarms: status.swarms.length, alpha: status.alpha ? status.alpha.pokemon : null });
   return status;
-}
-
-// 调试记录：随提交回传 CI 实际拿到的数据（排查用）
-const DEBUG_PATH = path.join(ROOT, 'debug.json');
-function debugRecord(info) {
-  try {
-    saveJson(DEBUG_PATH, Object.assign({ at: new Date().toISOString() }, info));
-  } catch (err) { /* 忽略调试写入失败 */ }
 }
 
 // 拉取 alphapedia 首页实时状态：活跃明雷 + 最新头目（jina 渲染优先，直连兜底）
@@ -706,10 +694,7 @@ async function fetchAlphapediaStatus() {
   } catch (err) {
     fail('alphapedia 直连失败：', err.message);
   }
-  if (direct) {
-    debugRecord({ source: 'direct', swarms: direct.swarms.length, alpha: direct.alpha ? direct.alpha.pokemon : null });
-    return direct;
-  }
+  if (direct) return direct;
   throw new Error('alphapedia 数据获取失败（jina 与直连均不可用）');
 }
 
@@ -856,19 +841,6 @@ async function pollOnce(pushAllActive) {
   }
   const list = status ? status.swarms : [];
   const now = Math.floor(Date.now() / 1000);
-  if (pushAllActive) {
-    // 记录过滤前后数据，排查推送内容问题
-    try {
-      debugRecord({
-        at: new Date().toISOString(),
-        rawSwarms: list.map((s) => s.pokemon + '@' + (s.region || '?') + (s.despawnTimestamp > now ? '' : '(过期)')).join('|'),
-        rawCount: list.length,
-        envOnlyValuable: envOrConfig('SWARM_ONLY_VALUABLE', config.onlyValuable),
-        envRegions: envOrConfig('SWARM_REGIONS', ''),
-        envMonsterIds: envOrConfig('SWARM_MONSTER_IDS', ''),
-      });
-    } catch (err) { /* 忽略 */ }
-  }
   if (!pushAllActive) {
     const fresh = list.filter((item) => {
       if (!item || item.sourceId == null || !passesFilter(item)) return false;
@@ -1060,29 +1032,8 @@ async function runOnce() {
   try {
     await pollOnce(true);
     log('单次检查完成。');
-    if (loadJson(OUTAGE_PATH, { notified: false }).notified) {
-      saveJson(OUTAGE_PATH, { notified: false });
-      log('上游已恢复，清除故障标记。');
-    }
     return 0;
   } catch (err) {
-    // 上游临时故障（重试耗尽仍 5xx/429/断网）不算失败：本轮跳过，下轮定时检查会补上
-    if (err && err.transient) {
-      const state = loadJson(OUTAGE_PATH, { notified: false });
-      if (!state.notified) {
-        try {
-          await sendMessage('【明雷报点】⚠️ 本轮检查失败：上游接口持续不可用（' + err.message + '），已自动重试仍未恢复，本轮报点暂停，恢复后自动继续。');
-          state.notified = true;
-          saveJson(OUTAGE_PATH, state);
-          log('已向群内播报本轮故障。');
-        } catch (sendErr) {
-          fail('故障通知发送失败：', sendErr.message);
-        }
-      } else {
-        log('上游仍不可用（' + err.message + '），本轮跳过（故障已播报过）。');
-      }
-      return 0;
-    }
     fail('单次检查失败：', err.message);
     return 1;
   }
