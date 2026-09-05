@@ -486,18 +486,21 @@ function parseSwarmCards(html) {
     const pokedexId = (card.match(/\/pokedex\/(\d+)/) || [])[1];
     const ts = (card.match(/timestamp=(\d+)/) || [])[1];
     const despawnIn = (card.match(/data-timedelta="(\d+)"/) || [])[1];
-    if (!pokemon || !pokedexId || !ts) return;
+    if (!pokemon || !pokedexId) return;
+    // 新格式卡片无 timestamp= 参数，只有 data-timedelta（距今已出现秒数）；
+    // 报点时间 = now - delta，消失时间用 data-timedelta 直接推算
     const despawnTimestamp = despawnIn ? now + Number(despawnIn) : null;
     if (!despawnTimestamp || despawnTimestamp <= now) return; // 只保留未消失的活跃明雷
+    const appearTs = ts ? Number(ts) : despawnTimestamp - Number(despawnIn);
     items.push({
       monsterId: Number(pokedexId),
       pokemon,
       region,
       location,
-      sourceId: Number(ts),
+      sourceId: appearTs,
       despawnTimestamp,
       hasValuable: false,
-      timestampUtc: new Date(Number(ts) * 1000).toISOString(),
+      timestampUtc: new Date(appearTs * 1000).toISOString(),
       publishedBy: '',
     });
   });
