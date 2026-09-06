@@ -650,8 +650,19 @@ async function tryDirectAlphapediaStatus() {
   if (res.status === 204 || !res.ok) return null;
   const payload = await res.json();
   const swarmHtml = String(payload.swarm_section_html || '');
+  // 诊断：明雷解析为空时保存原始 HTML 片段，便于排查格式变化
+  const parsed = parseSwarmCards(swarmHtml);
+  if (!parsed.length && swarmHtml.length > 100) {
+    try {
+      const fsx = require('fs');
+      fsx.writeFileSync(
+        path.join(__dirname, 'debug-swarm-html.txt'),
+        '时间: ' + new Date().toISOString() + '\nHTML 长度: ' + swarmHtml.length + '\n' + swarmHtml.slice(0, 3000)
+      );
+    } catch (e) { /* 忽略 */ }
+  }
   return {
-    swarms: parseSwarmCards(swarmHtml),
+    swarms: parsed,
     alpha: parseLatestAlpha(payload || {}) || parseAlphaCard(swarmHtml, payload.latest_ping_time),
   };
 }
@@ -681,6 +692,16 @@ async function fetchAlphapediaViaJina() {
     swarms: parseJinaSwarms(markdown),
     alpha: parseJinaAlpha(markdown),
   };
+  // 诊断：明雷解析为空时保存原始 markdown 片段
+  if (!status.swarms.length) {
+    try {
+      const fsx = require('fs');
+      fsx.writeFileSync(
+        path.join(__dirname, 'debug-jina.md'),
+        '时间: ' + new Date().toISOString() + '\n长度: ' + markdown.length + '\n' + markdown.slice(0, 4000)
+      );
+    } catch (e) { /* 忽略 */ }
+  }
   return status;
 }
 
