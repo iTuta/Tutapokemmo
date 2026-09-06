@@ -485,13 +485,14 @@ function parseSwarmCards(html) {
     const location = (card.match(/data-location="([^"]+)"/) || [])[1] || '';
     const pokedexId = (card.match(/\/pokedex\/(\d+)/) || [])[1];
     const ts = (card.match(/timestamp=(\d+)/) || [])[1];
-    const despawnIn = (card.match(/data-timedelta="(\d+)"/) || [])[1];
+    const delta = (card.match(/data-timedelta="(\d+)"/) || [])[1];
     if (!pokemon || !pokedexId) return;
-    // 新格式卡片无 timestamp= 参数，只有 data-timedelta（距今已出现秒数）；
-    // 报点时间 = now - delta，消失时间用 data-timedelta 直接推算
-    const despawnTimestamp = despawnIn ? now + Number(despawnIn) : null;
-    if (!despawnTimestamp || despawnTimestamp <= now) return; // 只保留未消失的活跃明雷
-    const appearTs = ts ? Number(ts) : despawnTimestamp - Number(despawnIn);
+    // alphapedia 明雷被报后最长存活 25 分钟；data-timedelta = 该明雷出现距今秒数。
+    // delta 在存活窗口内（<= 25 分钟）才可能是活跃明雷；更大的 delta 是已消失的旧记录。
+    if (!delta || Number(delta) > 25 * 60) return;
+    const appearTs = ts ? Number(ts) : now - Number(delta);
+    const despawnTimestamp = appearTs + 25 * 60; // 出现后最长存活 25 分钟
+    if (despawnTimestamp <= now) return;
     items.push({
       monsterId: Number(pokedexId),
       pokemon,
