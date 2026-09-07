@@ -474,15 +474,14 @@ function alphaDespawnTimestamp(pingTs) {
 }
 
 function parseSwarmCards(html) {
-  const cards = [...html.matchAll(/<article class="swarm-region-card[^"]*">([\s\S]*?)<\/article>/g)].map((m) => m[1]);
+  const cards = [...html.matchAll(/<article class="swarm-region-card[^"]*">([\s\S]*?)<\/article>/g)].map((m) => m[0]);
   const now = Math.floor(Date.now() / 1000);
   const items = [];
   cards.forEach((card) => {
-    // 头目卡片（card-alpha-override / 链接 alpha-list）不算明雷
+    // 头目卡片（class 含 card-alpha-override / 链接 alpha-list）不算明雷
     if (/card-alpha-override/.test(card) || /alpha-list\?/.test(card)) return;
-    // 只有活跃明雷卡片带 card-active-swarm + swarm-card-despawn（剩余秒数）
-    const isActive = /card-active-swarm/.test(card);
-    if (!isActive) return;
+    // 只有活跃明雷卡片 class 带 card-active-swarm
+    if (!/card-active-swarm/.test(card)) return;
     const pokemon = (card.match(/data-pokemon="([^"]+)"/) || [])[1] || '';
     const region = (card.match(/data-region="([^"]+)"/) || [])[1] || '';
     const location = (card.match(/data-location="([^"]+)"/) || [])[1] || '';
