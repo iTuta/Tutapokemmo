@@ -8,6 +8,7 @@ const CONFIG_PATH = path.join(ROOT, 'config.json');
 const SEEN_PATH = path.join(ROOT, 'seen.json');
 const PENDING_PATH = path.join(ROOT, 'pending.json');
 const BOSS_LAST_PATH = path.join(ROOT, 'boss-last.json');
+const PUSH_COUNT_PATH = path.join(ROOT, 'push-count.json');
 const DATA_FILE = path.join(ROOT, '..', '..', 'web', 'search-data.js');
 const TOKEN_URL = 'https://api.bot.qq.com/app/getAppAccessToken';
 const REGION_NAMES = {
@@ -343,9 +344,20 @@ const BOSS_SEPARATOR = '\n\n\n\n';
 // 推送模板：按地区分组展示明雷（合众/城都/关都/丰缘/神奥），无则显示暂无
 const REGION_ORDER = ['Unova', 'Johto', 'Kanto', 'Hoenn', 'Sinnoh'];
 
+// 推送计数：返回 "【2026/9/8 第X次推送】" 标题，X 为当日推送次数（北京时间，每日重置）
+function nextPushHeader() {
+  const now = new Date();
+  const bj = new Date(now.getTime() + 8 * 3600 * 1000); // 北京时间 UTC+8
+  const dateStr = bj.getUTCFullYear() + '/' + (bj.getUTCMonth() + 1) + '/' + bj.getUTCDate();
+  let rec = loadJson(PUSH_COUNT_PATH, {});
+  const count = rec.date === dateStr ? (Number(rec.count) || 0) + 1 : 1;
+  saveJson(PUSH_COUNT_PATH, { date: dateStr, count });
+  return '【' + dateStr + ' 第' + count + '次推送】';
+}
+
 function buildSwarmMessage(active, lastSeen) {
   const now = Math.floor(Date.now() / 1000);
-  const lines = ['【明雷报点】'];
+  const lines = [nextPushHeader(), '【明雷报点】'];
   const byRegion = {};
   (active || []).forEach((item) => {
     const key = item.region || '未知';
@@ -709,18 +721,34 @@ function parseJinaAlpha(markdown) {
   };
 }
 
-// 直连 alphapedia API；被 Cloudflare 挑战时返回 null
+// 直连 alphapedia API；被 Cloudflare 挑战时返回 null（并保存原始响应供诊断）
 async function tryDirectAlphapediaStatus() {
-  const page = await fetchRetry(ALPHAPEDIA_BASE + '/', 2, 2000, {
+  const page = await fetchRetry(ALPHAPEDIA_BASE + '/', 3, 2000, {
     Accept: 'text/html,application/xhtml+xml',
     'User-Agent': BROWSER_UA,
   });
   const html = await page.text();
-  if (!html || html.includes('Just a moment') || html.includes('Enable JavaScript')) return null;
+  if (!html || html.includes('Just a moment') || html.includes('Enable JavaScript')) {
+    try {
+      require('fs').writeFileSync(
+        path.join(__dirname, 'debug-direct-fail.txt'),
+        '时间: ' + new Date().toISOString() + '\n状态: CF挑战/异常页\n长度: ' + (html || '').length + '\n' + String(html || '').slice(0, 1000)
+      );
+    } catch (e) { /* 忽略 */ }
+    return null;
+  }
   const cookie = (page.headers.get('set-cookie') || '').split(';')[0];
   const token = (html.match(/name="landing-status-token"[^>]*content="([^"]+)"/) || [])[1];
-  if (!token) return null;
-  const res = await fetchRetry(ALPHAPEDIA_BASE + '/api/landing-status', 2, 2000, {
+  if (!token) {
+    try {
+      require('fs').writeFileSync(
+        path.join(__dirname, 'debug-direct-fail.txt'),
+        '时间: ' + new Date().toISOString() + '\n状态: 首页无 token\n长度: ' + html.length + '\n' + html.slice(0, 1000)
+      );
+    } catch (e) { /* 忽略 */ }
+    return null;
+  }
+  const res = await fetchRetry(ALPHAPEDIA_BASE + '/api/landing-status', 3, 2000, {
     Accept: 'application/json',
     Cookie: cookie,
     'X-Landing-Status-Token': token,
@@ -728,7 +756,15 @@ async function tryDirectAlphapediaStatus() {
     Referer: ALPHAPEDIA_BASE + '/',
     'User-Agent': BROWSER_UA,
   });
-  if (res.status === 204 || !res.ok) return null;
+  if (res.status === 204 || !res.ok) {
+    try {
+      require('fs').writeFileSync(
+        path.join(__dirname, 'debug-direct-fail.txt'),
+        '时间: ' + new Date().toISOString() + '\n状态: API 非 200 (' + res.status + ')'
+      );
+    } catch (e) { /* 忽略 */ }
+    return null;
+  }
   const payload = await res.json();
   const swarmHtml = String(payload.swarm_section_html || '');
   // 诊断：活跃明雷解析为空时保存原始 HTML 片段，便于排查格式变化
@@ -791,17 +827,30 @@ async function fetchAlphapediaViaJina() {
 // 拉取 alphapedia 首页实时状态：活跃明雷 + 最新头目（直连 HTML 解析优先，jina 渲染兜底）
 async function fetchAlphapediaStatus() {
   let direct = null;
-  try {
-    direct = await tryDirectAlphapediaStatus();
-  } catch (err) {
-    fail('alphapedia 直连失败：', err.message);
+  // 直连可能被 Cloudflare 临时挑战：失败后等待再重试一轮，再回退 jina
+  for (let attempt = 0; attempt < 2; attempt++) {
+    try {
+      direct = await tryDirectAlphapediaStatus();
+    } catch (err) {
+      fail('alphapedia 直连失败：', err.message);
+    }
+    if (direct) return direct;
+    if (attempt === 0) {
+      fail('直连返回空（可能被 Cloudflare 挑战），5 秒后重试…');
+      await new Promise((r) => setTimeout(r, 5000));
+    }
   }
-  if (direct) return direct;
-  fail('直连返回空（可能被 Cloudflare 挑战），回退 jina 渲染');
+  fail('直连两轮均失败，回退 jina 渲染');
   try {
     return await fetchAlphapediaViaJina();
   } catch (err) {
     fail('jina 渲染失败：', err.message);
+    try {
+      require('fs').writeFileSync(
+        path.join(__dirname, 'debug-jina-fail.txt'),
+        '时间: ' + new Date().toISOString() + '\n' + String(err && err.message || err)
+      );
+    } catch (e) { /* 忽略 */ }
   }
   throw new Error('alphapedia 数据获取失败（直连与 jina 均不可用）');
 }
