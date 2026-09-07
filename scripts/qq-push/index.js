@@ -478,21 +478,22 @@ function parseSwarmCards(html) {
   const now = Math.floor(Date.now() / 1000);
   const items = [];
   cards.forEach((card) => {
-    // 混入的头目卡片（链接 alpha-list）不算明雷
-    if (/alpha-list\?/.test(card)) return;
+    // 头目卡片（card-alpha-override / 链接 alpha-list）不算明雷
+    if (/card-alpha-override/.test(card) || /alpha-list\?/.test(card)) return;
+    // 只有活跃明雷卡片带 card-active-swarm + swarm-card-despawn（剩余秒数）
+    const isActive = /card-active-swarm/.test(card);
+    if (!isActive) return;
     const pokemon = (card.match(/data-pokemon="([^"]+)"/) || [])[1] || '';
     const region = (card.match(/data-region="([^"]+)"/) || [])[1] || '';
     const location = (card.match(/data-location="([^"]+)"/) || [])[1] || '';
     const pokedexId = (card.match(/\/pokedex\/(\d+)/) || [])[1];
+    // 剩余时间：despawn 行 data-timedelta 秒；出现时间：swarm-list 链接 timestamp 参数
+    const despawnIn = (card.match(/swarm-card-despawn[^>]*>[\s\S]*?data-timedelta="(\d+)"/) || [])[1];
     const ts = (card.match(/timestamp=(\d+)/) || [])[1];
-    const delta = (card.match(/data-timedelta="(\d+)"/) || [])[1];
-    if (!pokemon || !pokedexId) return;
-    // alphapedia 明雷被报后最长存活 25 分钟；data-timedelta = 该明雷出现距今秒数。
-    // delta 在存活窗口内（<= 25 分钟）才可能是活跃明雷；更大的 delta 是已消失的旧记录。
-    if (!delta || Number(delta) > 25 * 60) return;
-    const appearTs = ts ? Number(ts) : now - Number(delta);
-    const despawnTimestamp = appearTs + 25 * 60; // 出现后最长存活 25 分钟
-    if (despawnTimestamp <= now) return;
+    if (!pokemon || !pokedexId || !despawnIn) return;
+    const despawnTimestamp = now + Number(despawnIn);
+    const appearTs = ts ? Number(ts) : despawnTimestamp - Number(despawnIn);
+    if (despawnTimestamp <= now) return; // 已消失
     items.push({
       monsterId: Number(pokedexId),
       pokemon,
