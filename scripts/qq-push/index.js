@@ -343,7 +343,7 @@ const BOSS_SEPARATOR = '\n\n\n\n';
 // 推送模板：按地区分组展示明雷（合众/城都/关都/丰缘/神奥），无则显示暂无
 const REGION_ORDER = ['Unova', 'Johto', 'Kanto', 'Hoenn', 'Sinnoh'];
 
-function buildSwarmMessage(active) {
+function buildSwarmMessage(active, lastSeen) {
   const now = Math.floor(Date.now() / 1000);
   const lines = ['【明雷报点】'];
   const byRegion = {};
@@ -351,15 +351,30 @@ function buildSwarmMessage(active) {
     const key = item.region || '未知';
     (byRegion[key] = byRegion[key] || []).push(item);
   });
+  const lastByRegion = {};
+  (lastSeen || []).forEach((item) => {
+    const key = item.region || '未知';
+    if (!lastByRegion[key]) lastByRegion[key] = item;
+  });
   const regions = REGION_ORDER.concat(
     Object.keys(byRegion).filter((r) => REGION_ORDER.indexOf(r) === -1)
   );
   regions.forEach((region, idx) => {
     const items = byRegion[region] || [];
     if (!items.length) {
-      lines.push((REGION_NAMES[region] || region) + '——精灵：暂无明雷');
-      lines.push('      地点：暂无明雷');
-      lines.push('      剩余：暂无明雷');
+      // 无活跃明雷：显示该地区上次明雷（精灵名、地点、距离上次出现多久）
+      const last = lastByRegion[region];
+      if (last) {
+        const info = nameById.get(last.monsterId) || {};
+        const name = info.name || last.pokemon || ('#' + last.monsterId);
+        lines.push((REGION_NAMES[region] || region) + '——精灵：' + name + '（上次明雷）');
+        lines.push('      地点：' + translateLocation(last.location));
+        lines.push('      上次出现：' + formatAgo(last.secondsAgo) + '前');
+      } else {
+        lines.push((REGION_NAMES[region] || region) + '——精灵：暂无明雷');
+        lines.push('      地点：暂无明雷');
+        lines.push('      剩余：暂无明雷');
+      }
     } else {
       items
         .slice()
@@ -384,6 +399,18 @@ function buildSwarmMessage(active) {
     if (idx < regions.length - 1) lines.push('');
   });
   return lines.join('\n');
+}
+
+// 距今格式化：secondsAgo -> "X小时Y分" / "X分" / "X秒"
+function formatAgo(secondsAgo) {
+  const s = Number(secondsAgo);
+  if (!Number.isFinite(s) || s < 0) return '';
+  if (s < 60) return Math.floor(s) + '秒';
+  const minutes = Math.floor(s / 60);
+  if (minutes < 60) return minutes + '分';
+  const hours = Math.floor(minutes / 60);
+  const mins = minutes % 60;
+  return hours + '小时' + (mins ? mins + '分' : '');
 }
 
 function otherActiveItems(item, list) {
@@ -473,39 +500,57 @@ function alphaDespawnTimestamp(pingTs) {
   return Math.floor(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate() + 1) / 1000) + ALPHA_SLOT_END_MINUTES[0] * 60;
 }
 
+// 解析 alphapedia 明雷卡片：返回 { active: 活跃明雷[], lastSeen: 各地区上次明雷信息[] }
+// lastSeen 项含 region / pokemon / monsterId / location / secondsAgo（出现距今秒数，即卡片 data-timedelta）
 function parseSwarmCards(html) {
   const cards = [...html.matchAll(/<article class="swarm-region-card[^"]*">([\s\S]*?)<\/article>/g)].map((m) => m[0]);
   const now = Math.floor(Date.now() / 1000);
-  const items = [];
+  const active = [];
+  const lastSeen = [];
   cards.forEach((card) => {
     // 头目卡片（class 含 card-alpha-override / 链接 alpha-list）不算明雷
     if (/card-alpha-override/.test(card) || /alpha-list\?/.test(card)) return;
-    // 只有活跃明雷卡片 class 带 card-active-swarm
-    if (!/card-active-swarm/.test(card)) return;
     const pokemon = (card.match(/data-pokemon="([^"]+)"/) || [])[1] || '';
     const region = (card.match(/data-region="([^"]+)"/) || [])[1] || '';
     const location = (card.match(/data-location="([^"]+)"/) || [])[1] || '';
     const pokedexId = (card.match(/\/pokedex\/(\d+)/) || [])[1];
-    // 剩余时间：despawn 行 data-timedelta 秒；出现时间：swarm-list 链接 timestamp 参数
+    if (!pokemon || !pokedexId) return;
+    const activeFlag = /card-active-swarm/.test(card);
     const despawnIn = (card.match(/swarm-card-despawn[^>]*>[\s\S]*?data-timedelta="(\d+)"/) || [])[1];
     const ts = (card.match(/timestamp=(\d+)/) || [])[1];
-    if (!pokemon || !pokedexId || !despawnIn) return;
-    const despawnTimestamp = now + Number(despawnIn);
-    const appearTs = ts ? Number(ts) : despawnTimestamp - Number(despawnIn);
-    if (despawnTimestamp <= now) return; // 已消失
-    items.push({
-      monsterId: Number(pokedexId),
-      pokemon,
-      region,
-      location,
-      sourceId: appearTs,
-      despawnTimestamp,
-      hasValuable: false,
-      timestampUtc: new Date(appearTs * 1000).toISOString(),
-      publishedBy: '',
-    });
+    if (activeFlag && despawnIn) {
+      // 活跃明雷：despawn 行 data-timedelta = 剩余秒数
+      const despawnTimestamp = now + Number(despawnIn);
+      const appearTs = ts ? Number(ts) : despawnTimestamp - Number(despawnIn);
+      if (despawnTimestamp > now) {
+        active.push({
+          monsterId: Number(pokedexId),
+          pokemon,
+          region,
+          location,
+          sourceId: appearTs,
+          despawnTimestamp,
+          hasValuable: false,
+          timestampUtc: new Date(appearTs * 1000).toISOString(),
+          publishedBy: '',
+        });
+      }
+    } else {
+      // 非活跃：swarm-card-age 行 data-timedelta = 出现距今秒数（上次明雷）
+      const agoIn = (card.match(/data-timedelta="(\d+)"/) || [])[1];
+      if (agoIn) {
+        lastSeen.push({
+          monsterId: Number(pokedexId),
+          pokemon,
+          region,
+          location,
+          secondsAgo: Number(agoIn),
+          sourceId: ts ? Number(ts) : now - Number(agoIn),
+        });
+      }
+    }
   });
-  return items;
+  return { active, lastSeen };
 }
 
 function parseLatestAlpha(payload) {
@@ -603,6 +648,41 @@ function parseJinaSwarms(markdown) {
   return items;
 }
 
+// 解析 jina 渲染后的"上次明雷"（非活跃卡片：显示 "X ago"）
+function parseJinaLastSeen(markdown) {
+  const now = Math.floor(Date.now() / 1000);
+  const section = (String(markdown).split('## Swarms')[1] || '').split('## Phenos')[0] || '';
+  const cards = section.split(/!\[Image \d+: /).slice(1);
+  const lastSeen = [];
+  cards.forEach((block) => {
+    if (block.includes('Alpha Active') || /alpha-list\?/.test(block)) return;
+    const pm = block.match(/\[([^\]]+)\]\(https:\/\/alpha\.pokemmotools\.org\/pokedex\/(\d+)\)/);
+    if (!pm) return;
+    const lines = block.split('\n').map((l) => l.trim());
+    let region = '';
+    for (let i = 1; i < lines.length; i++) {
+      if (lines[i]) { region = lines[i]; break; }
+    }
+    // 非活跃卡片有 "ago" 文本；尝试提取 "X hours/minutes ago"
+    if (!/\bago\b/i.test(block)) return;
+    const lm = block.match(/\[([^\]]+)\]\(https:\/\/alpha\.pokemmotools\.org\/route\/[^)]+\)/);
+    const hourM = block.match(/(\d+)\s*hours?/i);
+    const minM = block.match(/(\d+)\s*minutes?/i);
+    const secM = block.match(/(\d+)\s*seconds?/i);
+    const secondsAgo = hourM ? Number(hourM[1]) * 3600 : minM ? Number(minM[1]) * 60 : secM ? Number(secM[1]) : 0;
+    const tsM = block.match(/timestamp=(\d+)/);
+    lastSeen.push({
+      monsterId: Number(pm[2]),
+      pokemon: pm[1],
+      region,
+      location: lm ? lm[1] : '',
+      secondsAgo,
+      sourceId: tsM ? Number(tsM[1]) : now - secondsAgo,
+    });
+  });
+  return lastSeen;
+}
+
 // 解析 jina 渲染后的最新头目（页面显示时间行 = 出现时间；链接 timestamp= 是消失时间）
 function parseJinaAlpha(markdown) {
   const section = (String(markdown).split('## Latest Alpha')[1] || '').split('## Alpha Time Slots')[0] || '';
@@ -651,9 +731,9 @@ async function tryDirectAlphapediaStatus() {
   if (res.status === 204 || !res.ok) return null;
   const payload = await res.json();
   const swarmHtml = String(payload.swarm_section_html || '');
-  // 诊断：明雷解析为空时保存原始 HTML 片段，便于排查格式变化
+  // 诊断：活跃明雷解析为空时保存原始 HTML 片段，便于排查格式变化
   const parsed = parseSwarmCards(swarmHtml);
-  if (!parsed.length && swarmHtml.length > 100) {
+  if (!parsed.active.length && swarmHtml.length > 100) {
     try {
       const fsx = require('fs');
       fsx.writeFileSync(
@@ -663,7 +743,8 @@ async function tryDirectAlphapediaStatus() {
     } catch (e) { /* 忽略 */ }
   }
   return {
-    swarms: parsed,
+    swarms: parsed.active,
+    lastSeen: parsed.lastSeen,
     alpha: parseLatestAlpha(payload || {}) || parseAlphaCard(swarmHtml, payload.latest_ping_time),
   };
 }
@@ -691,6 +772,7 @@ async function fetchAlphapediaViaJina() {
   }
   const status = {
     swarms: parseJinaSwarms(markdown),
+    lastSeen: parseJinaLastSeen(markdown),
     alpha: parseJinaAlpha(markdown),
   };
   // 诊断：明雷解析为空时保存原始 markdown 片段
@@ -900,8 +982,8 @@ async function pollOnce(pushAllActive) {
     return { text: '', latestTs: '' };
   });
 
-  // 定时模式：每轮固定推送一次（含全部活跃明雷地区分组 + 头目段），不做新增去重
-  let message = buildSwarmMessage(active);
+  // 定时模式：每轮固定推送一次（含全部活跃明雷地区分组 + 上次明雷 + 头目段），不做新增去重
+  let message = buildSwarmMessage(active, status && status.lastSeen);
   if (fetchFailed) message += '\n（数据源获取异常，以上信息可能不准确）';
   message += boss.text ? BOSS_SEPARATOR + boss.text : '';
   try {
