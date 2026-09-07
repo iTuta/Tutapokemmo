@@ -706,13 +706,8 @@ async function fetchAlphapediaViaJina() {
   return status;
 }
 
-// 拉取 alphapedia 首页实时状态：活跃明雷 + 最新头目（jina 渲染优先，直连兜底）
+// 拉取 alphapedia 首页实时状态：活跃明雷 + 最新头目（直连 HTML 解析优先，jina 渲染兜底）
 async function fetchAlphapediaStatus() {
-  try {
-    return await fetchAlphapediaViaJina();
-  } catch (err) {
-    fail('jina 渲染失败（回退直连）：', err.message);
-  }
   let direct = null;
   try {
     direct = await tryDirectAlphapediaStatus();
@@ -720,7 +715,13 @@ async function fetchAlphapediaStatus() {
     fail('alphapedia 直连失败：', err.message);
   }
   if (direct) return direct;
-  throw new Error('alphapedia 数据获取失败（jina 与直连均不可用）');
+  fail('直连返回空（可能被 Cloudflare 挑战），回退 jina 渲染');
+  try {
+    return await fetchAlphapediaViaJina();
+  } catch (err) {
+    fail('jina 渲染失败：', err.message);
+  }
+  throw new Error('alphapedia 数据获取失败（直连与 jina 均不可用）');
 }
 
 async function pushItem(item, others) {
