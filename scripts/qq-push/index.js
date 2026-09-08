@@ -8,7 +8,6 @@ const CONFIG_PATH = path.join(ROOT, 'config.json');
 const SEEN_PATH = path.join(ROOT, 'seen.json');
 const PENDING_PATH = path.join(ROOT, 'pending.json');
 const BOSS_LAST_PATH = path.join(ROOT, 'boss-last.json');
-const PUSH_COUNT_PATH = path.join(ROOT, 'push-count.json');
 const DATA_FILE = path.join(ROOT, '..', '..', 'web', 'search-data.js');
 const TOKEN_URL = 'https://api.bot.qq.com/app/getAppAccessToken';
 const REGION_NAMES = {
@@ -344,20 +343,19 @@ const BOSS_SEPARATOR = '\n\n\n\n';
 // 推送模板：按地区分组展示明雷（合众/城都/关都/丰缘/神奥），无则显示暂无
 const REGION_ORDER = ['Unova', 'Johto', 'Kanto', 'Hoenn', 'Sinnoh'];
 
-// 推送计数：返回 "【2026/9/8 第X次推送】" 标题，X 为当日推送次数（北京时间，每日重置）
+// 推送计数：顶部显示 GitHub Actions 运行次数（第 N 次推送）；非 Actions 环境（本地测试）不显示
 function nextPushHeader() {
-  const now = new Date();
-  const bj = new Date(now.getTime() + 8 * 3600 * 1000); // 北京时间 UTC+8
-  const dateStr = bj.getUTCFullYear() + '/' + (bj.getUTCMonth() + 1) + '/' + bj.getUTCDate();
-  let rec = loadJson(PUSH_COUNT_PATH, {});
-  const count = rec.date === dateStr ? (Number(rec.count) || 0) + 1 : 1;
-  saveJson(PUSH_COUNT_PATH, { date: dateStr, count });
-  return '【' + dateStr + ' 第' + count + '次推送】';
+  const runNumber = Number(process.env.GITHUB_RUN_NUMBER);
+  if (Number.isFinite(runNumber) && runNumber > 0) {
+    return '【第' + runNumber + '次推送】';
+  }
+  return null;
 }
 
 function buildSwarmMessage(active, lastSeen) {
   const now = Math.floor(Date.now() / 1000);
-  const lines = [nextPushHeader(), '【明雷报点】'];
+  const header = nextPushHeader();
+  const lines = header ? [header, '【明雷报点】'] : ['【明雷报点】'];
   const byRegion = {};
   (active || []).forEach((item) => {
     const key = item.region || '未知';
@@ -571,53 +569,59 @@ function parseLatestAlpha(payload) {
   const det = String(payload.latest_ping_details_html || '');
   const region = (det.match(/data-region="([^"]+)"/) || [])[1] || '';
   const location = (det.match(/data-location="([^"]+)"/) || [])[1] || '';
+  // latest_pokedex_href 形如 "/pokedex/28"
+  const pokedexId = (String(payload.latest_pokedex_href || '').match(/\/pokedex\/(\d+)/) || [])[1] ||
+    (det.match(/\/pokedex\/(\d+)/) || [])[1];
+  // timestamp= 在 alpha-list 链接里 = 消失时间戳
   const ts = (det.match(/timestamp=(\d+)/) || [])[1];
-  const pokedexId = (det.match(/\/pokedex\/(\d+)/) || [])[1];
   const calledBy = (det.match(/publisher-name[^>]*>([^<]+)</) || [])[1] || '';
   if (!ts || !pokedexId) return null;
-  const pingTs = Number(ts);
+  const despawnTs = Number(ts);
+  const ALPHA_SLOT_SECONDS = 285 * 60;
+  const appearTs = despawnTs - ALPHA_SLOT_SECONDS;
   return {
     monsterId: Number(pokedexId),
     pokemon: name,
     region,
     location,
-    sourceId: pingTs,
-    despawnTimestamp: alphaDespawnTimestamp(pingTs),
+    sourceId: appearTs,
+    despawnTimestamp: despawnTs,
     hasValuable: false,
-    timestampUtc: new Date(pingTs * 1000).toISOString(),
-    timestampRaw: new Date(pingTs * 1000).toISOString(),
+    timestampUtc: new Date(appearTs * 1000).toISOString(),
+    timestampRaw: new Date(appearTs * 1000).toISOString(),
     publishedBy: calledBy,
   };
 }
 
-// 直连接口的 latest_ping 字段可能为空，但活跃头目卡片会混在 swarm 区里
-// （class 含 card-alpha-override / 链接 alpha-list），从这里补取头目数据。
-// 注意：卡片链接里的 timestamp= 是消失时间；出现时间用 latest_ping_time 展示字段
-function parseAlphaCard(html, appearanceText) {
-  const cards = [...String(html).matchAll(/<article class="swarm-region-card[^"]*">([\s\S]*?)<\/article>/g)].map((m) => m[1]);
-  const card = cards.find((c) => /alpha-list\?/.test(c)) || null;
+// 解析 swarm 区里的头目卡片（class 含 card-alpha-override / 链接 alpha-list）。
+// 卡片数据：timestamp= 消失时间戳；data-timedelta= 剩余秒数；出现时间 = 消失 - 头目时段时长。
+function parseAlphaCard(html) {
+  const cards = [...String(html).matchAll(/<article class="swarm-region-card[^"]*">([\s\S]*?)<\/article>/g)].map((m) => m[0]);
+  const card = cards.find((c) => /card-alpha-override/.test(c) || /alpha-list\?/.test(c)) || null;
   if (!card) return null;
   const name = (card.match(/data-pokemon="([^"]+)"/) || [])[1] || '';
   const region = (card.match(/data-region="([^"]+)"/) || [])[1] || '';
   const location = (card.match(/data-location="([^"]+)"/) || [])[1] || '';
   const pokedexId = (card.match(/\/pokedex\/(\d+)/) || [])[1];
+  // timestamp= 在 alpha-list 链接里 = 消失时间戳；data-timedelta = 剩余秒数
+  const ts = (card.match(/timestamp=(\d+)/) || [])[1];
   const despawnIn = (card.match(/data-timedelta="(\d+)"/) || [])[1];
   if (!name || !pokedexId) return null;
   const now = Math.floor(Date.now() / 1000);
-  const appearanceText2 = String(appearanceText || '').match(/(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})/);
-  const appearanceTs = appearanceText2
-    ? Math.floor(Date.parse(appearanceText2[1].replace(' ', 'T') + 'Z') / 1000)
-    : null;
+  // 出现时间：若卡片给消失时间戳则用它减时段时长；否则用 now - 剩余 + 已过时间反推
+  const ALPHA_SLOT_SECONDS = 285 * 60; // 头目时段 4 小时 45 分
+  let despawnTs = ts ? Number(ts) : (despawnIn ? now + Number(despawnIn) : null);
+  const appearTs = despawnTs ? despawnTs - ALPHA_SLOT_SECONDS : (despawnIn ? now - Number(despawnIn) + ALPHA_SLOT_SECONDS : null);
   return {
     monsterId: Number(pokedexId),
     pokemon: name,
     region,
     location,
-    sourceId: appearanceTs,
-    despawnTimestamp: despawnIn ? now + Number(despawnIn) : (appearanceTs ? alphaDespawnTimestamp(appearanceTs) : null),
+    sourceId: appearTs,
+    despawnTimestamp: despawnTs,
     hasValuable: false,
-    timestampUtc: appearanceTs ? new Date(appearanceTs * 1000).toISOString() : '',
-    timestampRaw: appearanceTs ? new Date(appearanceTs * 1000).toISOString() : '',
+    timestampUtc: appearTs ? new Date(appearTs * 1000).toISOString() : '',
+    timestampRaw: appearTs ? new Date(appearTs * 1000).toISOString() : '',
     publishedBy: '',
   };
 }
@@ -781,7 +785,7 @@ async function tryDirectAlphapediaStatus() {
   return {
     swarms: parsed.active,
     lastSeen: parsed.lastSeen,
-    alpha: parseLatestAlpha(payload || {}) || parseAlphaCard(swarmHtml, payload.latest_ping_time),
+    alpha: parseAlphaCard(swarmHtml) || parseLatestAlpha(payload || {}),
   };
 }
 
@@ -954,6 +958,7 @@ async function buildBossSection(statusArg) {
       status = null;
     }
   }
+  // 自记录：从卡片解析的活跃头目（alpha）与本地记录对比，较新则覆盖保存
   const alpha = status && status.alpha;
   let saved = loadJson(BOSS_LAST_PATH, null);
   // 防御：历史记录出现未来时间戳（解析污染）时视为无效并清除，避免阻塞更新
@@ -963,27 +968,25 @@ async function buildBossSection(statusArg) {
     saveJson(BOSS_LAST_PATH, {});
     saved = null;
   }
-
-  // alphapedia 只提供「最新头目」；未消失则视为活跃，否则作为最近一次出现记录
-  let latest = alpha || null;
   const savedTime = saved ? Date.parse(saved.timestampUtc || '') || 0 : 0;
-  const latestTime = latest ? Date.parse(latest.timestampUtc || '') || 0 : 0;
-  if (latest && latestTime > savedTime) {
-    saveJson(BOSS_LAST_PATH, latest);
+  const alphaTime = alpha ? Date.parse(alpha.timestampUtc || '') || 0 : 0;
+  if (alpha && alphaTime > savedTime) {
+    saveJson(BOSS_LAST_PATH, alpha);
+    saved = alpha;
   }
 
+  // 展示以本地记录为准（自己记录上次头目），不用网站 latest_ping
+  let latest = saved || null;
   let text;
-  if (latest && (!latest.despawnTimestamp || latest.despawnTimestamp > now)) {
+  if (latest && latest.despawnTimestamp && latest.despawnTimestamp > now) {
     text = buildBossActiveSection([latest]);
   } else if (latest) {
     text = buildBossLastLine(latest);
-  } else if (saved) {
-    text = buildBossLastLine(saved);
   } else {
     text = '';
   }
   // 返回展示文本 + 最新一条记录的时间戳（用于“有新头目才推送”的判定）
-  return { text, latestTs: (latest || saved || null) ? String((latest || saved).timestampUtc || '') : '' };
+  return { text, latestTs: latest ? String(latest.timestampUtc || '') : '' };
 }
 
 async function pollOnce(pushAllActive) {
