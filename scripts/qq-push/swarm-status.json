@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-09-10T20:20:50.278Z",
+  "fetchedAt": "2026-09-10T20:25:36.144Z",
   "swarms": [
+    {
+      "monsterId": 375,
+      "pokemon": "Metang",
+      "region": "Johto",
+      "location": "Ice Path",
+      "sourceId": 1789073185,
+      "despawnTimestamp": 1789073185,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-10T20:46:25.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 449,
       "pokemon": "Hippopotas",
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
       "sourceId": 1789072218,
-      "despawnTimestamp": 1789072217,
+      "despawnTimestamp": 1789072218,
       "hasValuable": false,
       "timestampUtc": "2026-09-10T20:30:18.000Z",
       "publishedBy": ""
@@ -19,23 +30,15 @@
       "pokemon": "Cradily",
       "region": "Kanto",
       "location": "Weepth Chamber",
-      "secondsAgo": 4929,
+      "secondsAgo": 5215,
       "sourceId": 1789066721
-    },
-    {
-      "monsterId": 155,
-      "pokemon": "Cyndaquil",
-      "region": "Johto",
-      "location": "Route 33",
-      "secondsAgo": 4984,
-      "sourceId": 1789066666
     },
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Hoenn",
       "location": "Shoal Cave",
-      "secondsAgo": 4440,
+      "secondsAgo": 4726,
       "sourceId": 1789067210
     },
     {
@@ -43,8 +46,8 @@
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 4426,
-      "sourceId": 1789067224
+      "secondsAgo": 4711,
+      "sourceId": 1789067225
     }
   ],
   "alpha": {
