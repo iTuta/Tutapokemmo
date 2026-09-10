@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-09-10T20:55:47.124Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-10T21:00:54.252Z",
+  "swarms": [
     {
-      "monsterId": 346,
-      "pokemon": "Cradily",
+      "monsterId": 2,
+      "pokemon": "Ivysaur",
       "region": "Kanto",
-      "location": "Weepth Chamber",
-      "secondsAgo": 7026,
-      "sourceId": 1789066721
-    },
+      "location": "Route 5",
+      "sourceId": 1789075482,
+      "despawnTimestamp": 1789075482,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-10T21:24:42.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 375,
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 2061,
+      "secondsAgo": 2368,
       "sourceId": 1789071686
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Lapras",
       "region": "Hoenn",
       "location": "Shoal Cave",
-      "secondsAgo": 6537,
+      "secondsAgo": 6844,
       "sourceId": 1789067210
     },
     {
@@ -31,16 +35,16 @@
       "pokemon": "Hippopotas",
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
-      "secondsAgo": 3028,
-      "sourceId": 1789070719
+      "secondsAgo": 3336,
+      "sourceId": 1789070718
     },
     {
       "monsterId": 148,
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 6522,
-      "sourceId": 1789067225
+      "secondsAgo": 6830,
+      "sourceId": 1789067224
     }
   ],
   "alpha": {
