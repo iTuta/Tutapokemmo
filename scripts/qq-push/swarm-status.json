@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-10T20:25:36.144Z",
+  "fetchedAt": "2026-09-10T20:31:37.713Z",
   "swarms": [
     {
       "monsterId": 375,
@@ -7,20 +7,9 @@
       "region": "Johto",
       "location": "Ice Path",
       "sourceId": 1789073185,
-      "despawnTimestamp": 1789073185,
+      "despawnTimestamp": 1789073184,
       "hasValuable": false,
       "timestampUtc": "2026-09-10T20:46:25.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 449,
-      "pokemon": "Hippopotas",
-      "region": "Sinnoh",
-      "location": "Maniac Tunnel",
-      "sourceId": 1789072218,
-      "despawnTimestamp": 1789072218,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-10T20:30:18.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,7 +19,7 @@
       "pokemon": "Cradily",
       "region": "Kanto",
       "location": "Weepth Chamber",
-      "secondsAgo": 5215,
+      "secondsAgo": 5576,
       "sourceId": 1789066721
     },
     {
@@ -38,16 +27,24 @@
       "pokemon": "Lapras",
       "region": "Hoenn",
       "location": "Shoal Cave",
-      "secondsAgo": 4726,
+      "secondsAgo": 5087,
       "sourceId": 1789067210
+    },
+    {
+      "monsterId": 449,
+      "pokemon": "Hippopotas",
+      "region": "Sinnoh",
+      "location": "Maniac Tunnel",
+      "secondsAgo": 1579,
+      "sourceId": 1789070718
     },
     {
       "monsterId": 148,
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 4711,
-      "sourceId": 1789067225
+      "secondsAgo": 5073,
+      "sourceId": 1789067224
     }
   ],
   "alpha": {
