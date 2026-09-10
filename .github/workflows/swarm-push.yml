@@ -50,8 +50,17 @@ jobs:
           git add -f scripts/qq-push/debug-*.md 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "已推送记录无变化，跳过提交"
-          else
-            git commit -m "chore: 更新明雷推送记录"
-            git pull --rebase origin main --autostash || true
-            git push
+            exit 0
           fi
+          git commit -m "chore: 更新明雷推送记录"
+          # 与并发运行（手动 dispatch 撞上 cron）可能提交相同文件：冲突以远端为准，重试 3 次
+          for i in 1 2 3; do
+            if git pull --rebase -X ours origin main --autostash >/dev/null 2>&1 && git push; then
+              echo "已提交推送记录"
+              exit 0
+            fi
+            git rebase --abort >/dev/null 2>&1 || true
+            sleep 5
+          done
+          echo "推送记录提交失败（远端并发冲突），本轮消息已发出，记录下轮重建"
+          exit 0
