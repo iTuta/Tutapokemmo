@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-10T21:50:43.882Z",
+  "fetchedAt": "2026-09-10T21:55:37.967Z",
   "swarms": [
+    {
+      "monsterId": 339,
+      "pokemon": "Barboach",
+      "region": "Johto",
+      "location": "Slowpoke Well",
+      "sourceId": 1789078752,
+      "despawnTimestamp": 1789078751,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-10T22:19:12.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 299,
       "pokemon": "Nosepass",
@@ -19,23 +30,15 @@
       "pokemon": "Ivysaur",
       "region": "Kanto",
       "location": "Route 5",
-      "secondsAgo": 3061,
+      "secondsAgo": 3355,
       "sourceId": 1789073982
-    },
-    {
-      "monsterId": 375,
-      "pokemon": "Metang",
-      "region": "Johto",
-      "location": "Ice Path",
-      "secondsAgo": 5358,
-      "sourceId": 1789071685
     },
     {
       "monsterId": 148,
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 9819,
+      "secondsAgo": 10113,
       "sourceId": 1789067224
     }
   ],
