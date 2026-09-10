@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-10T23:50:43.940Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-10T23:55:43.330Z",
+  "swarms": [
+    {
+      "monsterId": 439,
+      "pokemon": "Mime Jr.",
+      "region": "Hoenn",
+      "location": "Rusturf Tunnel",
+      "sourceId": 1789085823,
+      "despawnTimestamp": 1789085823,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-11T00:17:03.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 457,
       "pokemon": "Lumineon",
       "region": "Kanto",
       "location": "Route 12",
-      "secondsAgo": 6503,
+      "secondsAgo": 6803,
       "sourceId": 1789077740
     },
     {
@@ -15,32 +27,24 @@
       "pokemon": "Barboach",
       "region": "Johto",
       "location": "Slowpoke Well",
-      "secondsAgo": 6991,
+      "secondsAgo": 7291,
       "sourceId": 1789077252
-    },
-    {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Hoenn",
-      "location": "Shoal Cave",
-      "secondsAgo": 17033,
-      "sourceId": 1789067210
     },
     {
       "monsterId": 299,
       "pokemon": "Nosepass",
       "region": "Sinnoh",
       "location": "Oreburgh Gate",
-      "secondsAgo": 8081,
-      "sourceId": 1789076162
+      "secondsAgo": 8380,
+      "sourceId": 1789076163
     },
     {
       "monsterId": 313,
       "pokemon": "Volbeat",
       "region": "Unova",
       "location": "Route 8",
-      "secondsAgo": 6826,
-      "sourceId": 1789077417
+      "secondsAgo": 7125,
+      "sourceId": 1789077418
     }
   ],
   "alpha": {
