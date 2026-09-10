@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-10T19:05:42.458Z",
+  "fetchedAt": "2026-09-10T19:11:03.217Z",
   "swarms": [
     {
       "monsterId": 346,
@@ -18,36 +18,42 @@
       "region": "Johto",
       "location": "Route 33",
       "sourceId": 1789068165,
-      "despawnTimestamp": 1789068164,
+      "despawnTimestamp": 1789068165,
       "hasValuable": false,
       "timestampUtc": "2026-09-10T19:22:45.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Hoenn",
+      "location": "Shoal Cave",
+      "sourceId": 1789068709,
+      "despawnTimestamp": 1789068709,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-10T19:31:49.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 148,
+      "pokemon": "Dragonair",
+      "region": "Unova",
+      "location": "Dragonspiral Tower",
+      "sourceId": 1789068724,
+      "despawnTimestamp": 1789068724,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-10T19:32:04.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 352,
-      "pokemon": "Kecleon",
-      "region": "Hoenn",
-      "location": "Route 120",
-      "secondsAgo": 11111,
-      "sourceId": 1789056031
-    },
-    {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Sinnoh",
       "location": "Route 219",
-      "secondsAgo": 3769,
-      "sourceId": 1789063373
-    },
-    {
-      "monsterId": 241,
-      "pokemon": "Miltank",
-      "region": "Unova",
-      "location": "Village Bridge",
-      "secondsAgo": 11116,
-      "sourceId": 1789056026
+      "secondsAgo": 4089,
+      "sourceId": 1789063374
     }
   ],
   "alpha": {
