@@ -733,10 +733,11 @@ async function tryDirectAlphapediaStatus() {
   });
   const html = await page.text();
   if (!html || html.includes('Just a moment') || html.includes('Enable JavaScript')) {
+    fail('直连诊断: 首页被拦截 HTTP ' + page.status + ' 长度 ' + (html || '').length + ' 片段: ' + String(html || '').slice(0, 120).replace(/\s+/g, ' '));
     try {
       require('fs').writeFileSync(
         path.join(__dirname, 'debug-direct-fail.txt'),
-        '时间: ' + new Date().toISOString() + '\n状态: CF挑战/异常页\n长度: ' + (html || '').length + '\n' + String(html || '').slice(0, 1000)
+        '时间: ' + new Date().toISOString() + '\n状态: CF挑战/异常页\nHTTP: ' + page.status + '\n长度: ' + (html || '').length + '\n' + String(html || '').slice(0, 1000)
       );
     } catch (e) { /* 忽略 */ }
     return null;
@@ -744,6 +745,7 @@ async function tryDirectAlphapediaStatus() {
   const cookie = (page.headers.get('set-cookie') || '').split(';')[0];
   const token = (html.match(/name="landing-status-token"[^>]*content="([^"]+)"/) || [])[1];
   if (!token) {
+    fail('直连诊断: 首页无 token，HTTP ' + page.status + ' 长度 ' + html.length + ' 片段: ' + html.slice(0, 120).replace(/\s+/g, ' '));
     try {
       require('fs').writeFileSync(
         path.join(__dirname, 'debug-direct-fail.txt'),
@@ -761,6 +763,7 @@ async function tryDirectAlphapediaStatus() {
     'User-Agent': BROWSER_UA,
   });
   if (res.status === 204 || !res.ok) {
+    fail('直连诊断: API 非 200（HTTP ' + res.status + '）');
     try {
       require('fs').writeFileSync(
         path.join(__dirname, 'debug-direct-fail.txt'),
@@ -808,6 +811,15 @@ async function fetchAlphapediaViaJina() {
     markdown.length < 500 ||
     (!markdown.includes('## Latest Alpha') && !markdown.includes('## Swarms'))
   ) {
+    const snippet = String(markdown || '').slice(0, 200).replace(/\s+/g, ' ');
+    fail('jina 诊断: HTTP ' + res.status + ' 长度 ' + (markdown || '').length + ' 片段: ' + snippet);
+    try {
+      const fsx = require('fs');
+      fsx.writeFileSync(
+        path.join(__dirname, 'debug-jina-fail.txt'),
+        '时间: ' + new Date().toISOString() + '\nHTTP: ' + res.status + '\n长度: ' + (markdown || '').length + '\n' + String(markdown || '').slice(0, 2000)
+      );
+    } catch (e) { /* 忽略 */ }
     throw new Error('jina 渲染失败（返回异常页面）');
   }
   const status = {
