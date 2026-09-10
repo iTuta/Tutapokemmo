@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-09-10T18:25:37.111Z",
-  "swarms": [
-    {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Sinnoh",
-      "location": "Route 219",
-      "sourceId": 1789064873,
-      "despawnTimestamp": 1789064873,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-10T18:27:53.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-10T18:31:03.790Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Kanto",
       "location": "Route 13",
-      "secondsAgo": 3280,
+      "secondsAgo": 3606,
       "sourceId": 1789061457
     },
     {
@@ -27,23 +15,31 @@
       "pokemon": "Quilava",
       "region": "Johto",
       "location": "Route 42",
-      "secondsAgo": 7059,
-      "sourceId": 1789057678
+      "secondsAgo": 7386,
+      "sourceId": 1789057677
     },
     {
       "monsterId": 352,
       "pokemon": "Kecleon",
       "region": "Hoenn",
       "location": "Route 120",
-      "secondsAgo": 8706,
+      "secondsAgo": 9032,
       "sourceId": 1789056031
+    },
+    {
+      "monsterId": 213,
+      "pokemon": "Shuckle",
+      "region": "Sinnoh",
+      "location": "Route 219",
+      "secondsAgo": 1690,
+      "sourceId": 1789063373
     },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Unova",
       "location": "Village Bridge",
-      "secondsAgo": 8711,
+      "secondsAgo": 9037,
       "sourceId": 1789056026
     }
   ],
