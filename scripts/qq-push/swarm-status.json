@@ -1,36 +1,13 @@
 {
-  "fetchedAt": "2026-09-10T16:20:42.134Z",
-  "swarms": [
-    {
-      "monsterId": 352,
-      "pokemon": "Kecleon",
-      "region": "Hoenn",
-      "location": "Route 120",
-      "sourceId": 1789057530,
-      "despawnTimestamp": 1789057530,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-10T16:25:30.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 241,
-      "pokemon": "Miltank",
-      "region": "Unova",
-      "location": "Village Bridge",
-      "sourceId": 1789057525,
-      "despawnTimestamp": 1789057525,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-10T16:25:25.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-10T16:25:45.697Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 350,
       "pokemon": "Milotic",
       "region": "Kanto",
       "location": "Resort Gorgeous",
-      "secondsAgo": 6366,
+      "secondsAgo": 6669,
       "sourceId": 1789050876
     },
     {
@@ -38,16 +15,32 @@
       "pokemon": "Aipom",
       "region": "Johto",
       "location": "Route 29",
-      "secondsAgo": 18971,
+      "secondsAgo": 19274,
       "sourceId": 1789038271
+    },
+    {
+      "monsterId": 352,
+      "pokemon": "Kecleon",
+      "region": "Hoenn",
+      "location": "Route 120",
+      "secondsAgo": 1514,
+      "sourceId": 1789056031
     },
     {
       "monsterId": 392,
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 5777,
+      "secondsAgo": 6080,
       "sourceId": 1789051465
+    },
+    {
+      "monsterId": 241,
+      "pokemon": "Miltank",
+      "region": "Unova",
+      "location": "Village Bridge",
+      "secondsAgo": 1519,
+      "sourceId": 1789056026
     }
   ],
   "alpha": {
