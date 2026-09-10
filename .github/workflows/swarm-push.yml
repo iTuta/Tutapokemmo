@@ -19,6 +19,17 @@ jobs:
         with:
           node-version: 22
 
+      - name: 缓存 Playwright 浏览器
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-chromium
+
+      - name: 安装 Playwright（真浏览器过 CF 挑战兜底）
+        run: |
+          npm i --no-save playwright
+          npx playwright install --with-deps chromium
+
       - name: 检查报点并推送
         env:
           WECHAT_WEBHOOK: ${{ secrets.WECHAT_WEBHOOK }}

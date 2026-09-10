@@ -840,25 +840,90 @@ async function fetchAlphapediaViaJina() {
   return status;
 }
 
-// 拉取 alphapedia 首页实时状态：活跃明雷 + 最新头目（直连 HTML 解析优先，jina 渲染兜底）
-async function fetchAlphapediaStatus() {
-  let direct = null;
-  // 直连可能被 Cloudflare 临时挑战：失败后等待再重试一轮，再回退 jina
-  for (let attempt = 0; attempt < 2; attempt++) {
-    try {
-      direct = await tryDirectAlphapediaStatus();
-    } catch (err) {
-      fail('alphapedia 直连失败：', err.message);
-    }
-    if (direct) return direct;
-    if (attempt === 0) {
-      fail('直连返回空（可能被 Cloudflare 挑战），5 秒后重试…');
-      await new Promise((r) => setTimeout(r, 5000));
-    }
-  }
-  fail('直连两轮均失败，回退 jina 渲染');
+// Playwright 真浏览器兜底：自动通过 CF "Just a moment" JS 挑战（直连被挑战时的主兜底）。
+// 页面内 fetch API（同源自带 cookie），只把 JSON 结果带出来，解析复用直连逻辑。
+async function fetchAlphapediaViaBrowser() {
+  let chromium;
   try {
-    return await fetchAlphapediaViaJina();
+    ({ chromium } = require('playwright'));
+  } catch (err) {
+    fail('浏览器兜底不可用（未安装 playwright）：', err.message);
+    return null;
+  }
+  let browser;
+  try {
+    browser = await chromium.launch({ headless: true });
+    const ctx = await browser.newContext({ userAgent: BROWSER_UA, locale: 'en-US' });
+    const page = await ctx.newPage();
+    await page.goto(ALPHAPEDIA_BASE + '/', { waitUntil: 'domcontentloaded', timeout: 30000 });
+    let passed = false;
+    for (let i = 0; i < 25; i++) {
+      const title = await page.title();
+      if (!/just a moment|请稍候/i.test(title)) { passed = true; break; }
+      await page.waitForTimeout(1000);
+    }
+    if (!passed) throw new Error('CF 挑战 25 秒未通过');
+    const body = await page.evaluate(async () => {
+      const meta = document.querySelector('meta[name="landing-status-token"]');
+      if (!meta) return null;
+      const res = await fetch('/api/landing-status', {
+        headers: { 'X-Landing-Status-Token': meta.content, Accept: 'application/json' },
+      });
+      return { status: res.status, text: await res.text() };
+    });
+    if (!body) throw new Error('浏览器页面无 landing-status-token');
+    if (body.status !== 200) throw new Error('浏览器内 API HTTP ' + body.status);
+    const payload = JSON.parse(body.text);
+    const swarmHtml = String(payload.swarm_section_html || '');
+    const parsed = parseSwarmCards(swarmHtml);
+    log('浏览器兜底成功，活跃明雷', parsed.active.length, '条');
+    return {
+      swarms: parsed.active,
+      lastSeen: parsed.lastSeen,
+      alpha: parseAlphaCard(swarmHtml) || parseLatestAlpha(payload || {}),
+    };
+  } catch (err) {
+    fail('浏览器兜底失败：', err.message);
+    try {
+      require('fs').writeFileSync(
+        path.join(__dirname, 'debug-browser-fail.txt'),
+        '时间: ' + new Date().toISOString() + '\n' + String(err && err.message || err)
+      );
+    } catch (e) { /* 忽略 */ }
+    return null;
+  } finally {
+    if (browser) await browser.close().catch(() => {});
+  }
+}
+
+// 拉取 alphapedia 首页实时状态：直连优先 → Playwright 浏览器过 CF 挑战 → jina 渲染兜底
+async function fetchAlphapediaStatus() {
+  // SWARM_SKIP_DIRECT=1 时跳过直连（本地调试浏览器/jina 兜底用）
+  const skipDirect = process.env.SWARM_SKIP_DIRECT === '1';
+  if (!skipDirect) {
+    let direct = null;
+    // 直连可能被 Cloudflare 临时挑战：失败后等待再重试一轮
+    for (let attempt = 0; attempt < 2; attempt++) {
+      try {
+        direct = await tryDirectAlphapediaStatus();
+      } catch (err) {
+        fail('alphapedia 直连失败：', err.message);
+      }
+      if (direct) return recordSwarmStatus(direct);
+      if (attempt === 0) {
+        fail('直连返回空（可能被 Cloudflare 挑战），5 秒后重试…');
+        await new Promise((r) => setTimeout(r, 5000));
+      }
+    }
+    fail('直连两轮均失败，回退浏览器过 CF 挑战');
+  } else {
+    fail('SWARM_SKIP_DIRECT=1，跳过直连，走浏览器兜底');
+  }
+  const viaBrowser = await fetchAlphapediaViaBrowser();
+  if (viaBrowser) return recordSwarmStatus(viaBrowser);
+  fail('浏览器兜底失败，回退 jina 渲染');
+  try {
+    return recordSwarmStatus(await fetchAlphapediaViaJina());
   } catch (err) {
     fail('jina 渲染失败：', err.message);
     try {
@@ -868,7 +933,20 @@ async function fetchAlphapediaStatus() {
       );
     } catch (e) { /* 忽略 */ }
   }
-  throw new Error('alphapedia 数据获取失败（直连与 jina 均不可用）');
+  throw new Error('alphapedia 数据获取失败（直连、浏览器与 jina 均不可用）');
+}
+
+// 每次成功抓取后落盘当前状态快照（workflow 提交进仓库，供网页版明雷面板读取）
+function recordSwarmStatus(status) {
+  try {
+    saveJson(path.join(__dirname, 'swarm-status.json'), {
+      fetchedAt: new Date().toISOString(),
+      swarms: status.swarms || [],
+      lastSeen: status.lastSeen || [],
+      alpha: status.alpha || null,
+    });
+  } catch (e) { /* 忽略 */ }
+  return status;
 }
 
 async function pushItem(item, others) {
