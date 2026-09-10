@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-10T21:35:38.353Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-10T21:40:46.722Z",
+  "swarms": [
+    {
+      "monsterId": 299,
+      "pokemon": "Nosepass",
+      "region": "Sinnoh",
+      "location": "Oreburgh Gate",
+      "sourceId": 1789077662,
+      "despawnTimestamp": 1789077661,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-10T22:01:02.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 2,
       "pokemon": "Ivysaur",
       "region": "Kanto",
       "location": "Route 5",
-      "secondsAgo": 2156,
+      "secondsAgo": 2464,
       "sourceId": 1789073982
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 4453,
+      "secondsAgo": 4761,
       "sourceId": 1789071685
-    },
-    {
-      "monsterId": 449,
-      "pokemon": "Hippopotas",
-      "region": "Sinnoh",
-      "location": "Maniac Tunnel",
-      "secondsAgo": 5420,
-      "sourceId": 1789070718
     },
     {
       "monsterId": 148,
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 8914,
+      "secondsAgo": 9222,
       "sourceId": 1789067224
     }
   ],
