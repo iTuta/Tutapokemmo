@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-09-10T19:20:43.565Z",
+  "fetchedAt": "2026-09-10T19:25:45.851Z",
   "swarms": [
-    {
-      "monsterId": 346,
-      "pokemon": "Cradily",
-      "region": "Kanto",
-      "location": "Weepth Chamber",
-      "sourceId": 1789068220,
-      "despawnTimestamp": 1789068220,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-10T19:23:40.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 155,
-      "pokemon": "Cyndaquil",
-      "region": "Johto",
-      "location": "Route 33",
-      "sourceId": 1789068165,
-      "despawnTimestamp": 1789068164,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-10T19:22:45.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 131,
       "pokemon": "Lapras",
@@ -48,11 +26,27 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 346,
+      "pokemon": "Cradily",
+      "region": "Kanto",
+      "location": "Weepth Chamber",
+      "secondsAgo": 1624,
+      "sourceId": 1789066721
+    },
+    {
+      "monsterId": 155,
+      "pokemon": "Cyndaquil",
+      "region": "Johto",
+      "location": "Route 33",
+      "secondsAgo": 1680,
+      "sourceId": 1789066665
+    },
+    {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Sinnoh",
       "location": "Route 219",
-      "secondsAgo": 4670,
+      "secondsAgo": 4972,
       "sourceId": 1789063373
     }
   ],
