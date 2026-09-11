@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-11T18:15:44.661Z",
+  "fetchedAt": "2026-09-11T18:20:43.981Z",
   "swarms": [
     {
       "monsterId": 349,
@@ -18,9 +18,20 @@
       "region": "Sinnoh",
       "location": "Route 220",
       "sourceId": 1789151791,
-      "despawnTimestamp": 1789151791,
+      "despawnTimestamp": 1789151790,
       "hasValuable": false,
       "timestampUtc": "2026-09-11T18:36:31.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 190,
+      "pokemon": "Aipom",
+      "region": "Unova",
+      "location": "Cold Storage",
+      "sourceId": 1789152293,
+      "despawnTimestamp": 1789152292,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-11T18:44:53.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,24 +41,16 @@
       "pokemon": "Relicanth",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 2415,
-      "sourceId": 1789148129
+      "secondsAgo": 2715,
+      "sourceId": 1789148128
     },
     {
       "monsterId": 107,
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 6582,
+      "secondsAgo": 6881,
       "sourceId": 1789143962
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Unova",
-      "location": "Lostlorn Forest",
-      "secondsAgo": 5301,
-      "sourceId": 1789145243
     }
   ],
   "alpha": {
