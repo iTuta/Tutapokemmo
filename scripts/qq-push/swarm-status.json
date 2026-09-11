@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-11T03:01:08.137Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-11T03:05:42.496Z",
+  "swarms": [
+    {
+      "monsterId": 442,
+      "pokemon": "Spiritomb",
+      "region": "Sinnoh",
+      "location": "Turnback Cave",
+      "sourceId": 1789097266,
+      "despawnTimestamp": 1789097265,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-11T03:27:46.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Kanto",
       "location": "Pokemon Tower",
-      "secondsAgo": 6735,
+      "secondsAgo": 7009,
       "sourceId": 1789088933
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Feraligatr",
       "region": "Johto",
       "location": "Tohjo Falls",
-      "secondsAgo": 3442,
+      "secondsAgo": 3716,
       "sourceId": 1789092226
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Mime Jr.",
       "region": "Hoenn",
       "location": "Rusturf Tunnel",
-      "secondsAgo": 11344,
+      "secondsAgo": 11618,
       "sourceId": 1789084324
-    },
-    {
-      "monsterId": 387,
-      "pokemon": "Turtwig",
-      "region": "Sinnoh",
-      "location": "Route 203",
-      "secondsAgo": 10851,
-      "sourceId": 1789084817
     },
     {
       "monsterId": 212,
       "pokemon": "Scizor",
       "region": "Unova",
       "location": "Route 14",
-      "secondsAgo": 9629,
-      "sourceId": 1789086039
+      "secondsAgo": 9904,
+      "sourceId": 1789086038
     }
   ],
   "alpha": {
