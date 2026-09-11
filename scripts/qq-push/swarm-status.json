@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-09-11T22:55:44.287Z",
-  "swarms": [
-    {
-      "monsterId": 148,
-      "pokemon": "Dragonair",
-      "region": "Unova",
-      "location": "Dragonspiral Tower",
-      "sourceId": 1789167621,
-      "despawnTimestamp": 1789167621,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-11T23:00:21.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-11T23:01:02.315Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 411,
       "pokemon": "Bastiodon",
       "region": "Kanto",
       "location": "Monean Chamber",
-      "secondsAgo": 9609,
+      "secondsAgo": 9927,
       "sourceId": 1789157735
     },
     {
@@ -27,7 +15,7 @@
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 12582,
+      "secondsAgo": 12900,
       "sourceId": 1789154762
     },
     {
@@ -35,7 +23,7 @@
       "pokemon": "Mime Jr.",
       "region": "Hoenn",
       "location": "Rusturf Tunnel",
-      "secondsAgo": 3649,
+      "secondsAgo": 3967,
       "sourceId": 1789163695
     },
     {
@@ -43,8 +31,16 @@
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 7495,
+      "secondsAgo": 7813,
       "sourceId": 1789159849
+    },
+    {
+      "monsterId": 148,
+      "pokemon": "Dragonair",
+      "region": "Unova",
+      "location": "Dragonspiral Tower",
+      "secondsAgo": 1540,
+      "sourceId": 1789166122
     }
   ],
   "alpha": {
