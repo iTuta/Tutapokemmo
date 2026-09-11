@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-11T08:05:44.847Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-11T08:10:42.010Z",
+  "swarms": [
+    {
+      "monsterId": 441,
+      "pokemon": "Chatot",
+      "region": "Sinnoh",
+      "location": "Route 218",
+      "sourceId": 1789115629,
+      "despawnTimestamp": 1789115628,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-11T08:33:49.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Kanto",
       "location": "Icefall Cave",
-      "secondsAgo": 7262,
+      "secondsAgo": 7559,
       "sourceId": 1789106682
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Mime Jr.",
       "region": "Hoenn",
       "location": "Rusturf Tunnel",
-      "secondsAgo": 29620,
+      "secondsAgo": 29917,
       "sourceId": 1789084324
-    },
-    {
-      "monsterId": 442,
-      "pokemon": "Spiritomb",
-      "region": "Sinnoh",
-      "location": "Turnback Cave",
-      "secondsAgo": 18178,
-      "sourceId": 1789095766
     },
     {
       "monsterId": 247,
       "pokemon": "Pupitar",
       "region": "Unova",
       "location": "Twist Mountain",
-      "secondsAgo": 15275,
+      "secondsAgo": 15572,
       "sourceId": 1789098669
     }
   ],
