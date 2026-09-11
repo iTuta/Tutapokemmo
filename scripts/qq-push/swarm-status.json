@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-11T16:25:41.823Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-11T16:30:50.193Z",
+  "swarms": [
+    {
+      "monsterId": 107,
+      "pokemon": "Hitmonchan",
+      "region": "Hoenn",
+      "location": "Fiery Path",
+      "sourceId": 1789145461,
+      "despawnTimestamp": 1789145461,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-11T16:51:01.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 161,
       "pokemon": "Sentret",
       "region": "Kanto",
       "location": "Route 1",
-      "secondsAgo": 6225,
+      "secondsAgo": 6534,
       "sourceId": 1789137716
     },
     {
@@ -15,32 +27,24 @@
       "pokemon": "Porygon-Z",
       "region": "Johto",
       "location": "Team Rocket HQ",
-      "secondsAgo": 10519,
-      "sourceId": 1789133422
-    },
-    {
-      "monsterId": 107,
-      "pokemon": "Hitmonchan",
-      "region": "Hoenn",
-      "location": "Fiery Path",
-      "secondsAgo": 13121,
-      "sourceId": 1789130820
+      "secondsAgo": 10827,
+      "sourceId": 1789133423
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 6294,
-      "sourceId": 1789137647
+      "secondsAgo": 6602,
+      "sourceId": 1789137648
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 11095,
-      "sourceId": 1789132846
+      "secondsAgo": 11403,
+      "sourceId": 1789132847
     }
   ],
   "alpha": {
