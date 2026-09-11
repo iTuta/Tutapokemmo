@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-11T20:50:41.206Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-11T20:55:41.321Z",
+  "swarms": [
+    {
+      "monsterId": 441,
+      "pokemon": "Chatot",
+      "region": "Sinnoh",
+      "location": "Route 218",
+      "sourceId": 1789161348,
+      "despawnTimestamp": 1789161348,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-11T21:15:48.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 469,
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 5079,
+      "secondsAgo": 5379,
       "sourceId": 1789154762
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Sharpedo",
       "region": "Hoenn",
       "location": "Route 127",
-      "secondsAgo": 6328,
+      "secondsAgo": 6628,
       "sourceId": 1789153513
-    },
-    {
-      "monsterId": 394,
-      "pokemon": "Prinplup",
-      "region": "Sinnoh",
-      "location": "Route 220",
-      "secondsAgo": 9549,
-      "sourceId": 1789150292
     },
     {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Unova",
       "location": "Cold Storage",
-      "secondsAgo": 9047,
+      "secondsAgo": 9347,
       "sourceId": 1789150794
     }
   ],
