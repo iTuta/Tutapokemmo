@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-09-11T12:01:30.815Z",
+  "fetchedAt": "2026-09-11T12:05:43.048Z",
   "swarms": [
+    {
+      "monsterId": 441,
+      "pokemon": "Chatot",
+      "region": "Kanto",
+      "location": "Treasure Beach",
+      "sourceId": 1789129734,
+      "despawnTimestamp": 1789129734,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-11T12:28:54.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Johto",
       "location": "Route 29",
       "sourceId": 1789129303,
-      "despawnTimestamp": 1789129303,
+      "despawnTimestamp": 1789129304,
       "hasValuable": false,
       "timestampUtc": "2026-09-11T12:21:43.000Z",
       "publishedBy": ""
@@ -18,7 +29,7 @@
       "region": "Sinnoh",
       "location": "Sendoff Spring",
       "sourceId": 1789129003,
-      "despawnTimestamp": 1789129002,
+      "despawnTimestamp": 1789129003,
       "hasValuable": false,
       "timestampUtc": "2026-09-11T12:16:43.000Z",
       "publishedBy": ""
@@ -26,28 +37,20 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 137,
-      "pokemon": "Porygon",
-      "region": "Kanto",
-      "location": "Pokemon Mansion",
-      "secondsAgo": 13264,
-      "sourceId": 1789114826
-    },
-    {
       "monsterId": 149,
       "pokemon": "Dragonite",
       "region": "Hoenn",
       "location": "Route 131",
-      "secondsAgo": 5244,
-      "sourceId": 1789122846
+      "secondsAgo": 5496,
+      "sourceId": 1789122847
     },
     {
       "monsterId": 212,
       "pokemon": "Scizor",
       "region": "Unova",
       "location": "Route 14",
-      "secondsAgo": 7352,
-      "sourceId": 1789120738
+      "secondsAgo": 7604,
+      "sourceId": 1789120739
     }
   ],
   "alpha": {
