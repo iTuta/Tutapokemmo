@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-09-11T17:30:55.393Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-11T17:35:42.818Z",
+  "swarms": [
     {
-      "monsterId": 161,
-      "pokemon": "Sentret",
+      "monsterId": 369,
+      "pokemon": "Relicanth",
       "region": "Kanto",
-      "location": "Route 1",
-      "secondsAgo": 10139,
-      "sourceId": 1789137716
-    },
+      "location": "Tanoby Ruins",
+      "sourceId": 1789149628,
+      "despawnTimestamp": 1789149627,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-11T18:00:28.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 158,
       "pokemon": "Totodile",
       "region": "Johto",
       "location": "Route 32",
-      "secondsAgo": 3148,
+      "secondsAgo": 3435,
       "sourceId": 1789144707
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 3893,
+      "secondsAgo": 4180,
       "sourceId": 1789143962
     },
     {
@@ -31,16 +35,16 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 10207,
-      "sourceId": 1789137648
+      "secondsAgo": 10495,
+      "sourceId": 1789137647
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 2612,
-      "sourceId": 1789145243
+      "secondsAgo": 2900,
+      "sourceId": 1789145242
     }
   ],
   "alpha": {
