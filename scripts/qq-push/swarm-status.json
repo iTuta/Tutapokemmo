@@ -1,26 +1,26 @@
 {
-  "fetchedAt": "2026-09-11T00:15:48.061Z",
+  "fetchedAt": "2026-09-11T00:20:44.575Z",
   "swarms": [
-    {
-      "monsterId": 439,
-      "pokemon": "Mime Jr.",
-      "region": "Hoenn",
-      "location": "Rusturf Tunnel",
-      "sourceId": 1789085823,
-      "despawnTimestamp": 1789085823,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-11T00:17:03.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 387,
       "pokemon": "Turtwig",
       "region": "Sinnoh",
       "location": "Route 203",
       "sourceId": 1789086316,
-      "despawnTimestamp": 1789086316,
+      "despawnTimestamp": 1789086315,
       "hasValuable": false,
       "timestampUtc": "2026-09-11T00:25:16.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 212,
+      "pokemon": "Scizor",
+      "region": "Unova",
+      "location": "Route 14",
+      "sourceId": 1789087238,
+      "despawnTimestamp": 1789087237,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-11T00:40:38.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,7 +30,7 @@
       "pokemon": "Lumineon",
       "region": "Kanto",
       "location": "Route 12",
-      "secondsAgo": 8008,
+      "secondsAgo": 8304,
       "sourceId": 1789077740
     },
     {
@@ -38,16 +38,16 @@
       "pokemon": "Barboach",
       "region": "Johto",
       "location": "Slowpoke Well",
-      "secondsAgo": 8495,
-      "sourceId": 1789077253
+      "secondsAgo": 8792,
+      "sourceId": 1789077252
     },
     {
-      "monsterId": 313,
-      "pokemon": "Volbeat",
-      "region": "Unova",
-      "location": "Route 8",
-      "secondsAgo": 8330,
-      "sourceId": 1789077418
+      "monsterId": 439,
+      "pokemon": "Mime Jr.",
+      "region": "Hoenn",
+      "location": "Rusturf Tunnel",
+      "secondsAgo": 1720,
+      "sourceId": 1789084324
     }
   ],
   "alpha": {
