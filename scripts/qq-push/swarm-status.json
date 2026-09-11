@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-09-11T00:40:49.205Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-11T00:45:40.345Z",
+  "swarms": [
+    {
+      "monsterId": 469,
+      "pokemon": "Yanmega",
+      "region": "Johto",
+      "location": "Route 44",
+      "sourceId": 1789088951,
+      "despawnTimestamp": 1789088951,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-11T01:09:11.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 457,
       "pokemon": "Lumineon",
       "region": "Kanto",
       "location": "Route 12",
-      "secondsAgo": 9509,
+      "secondsAgo": 9800,
       "sourceId": 1789077740
-    },
-    {
-      "monsterId": 339,
-      "pokemon": "Barboach",
-      "region": "Johto",
-      "location": "Slowpoke Well",
-      "secondsAgo": 9996,
-      "sourceId": 1789077253
     },
     {
       "monsterId": 439,
       "pokemon": "Mime Jr.",
       "region": "Hoenn",
       "location": "Rusturf Tunnel",
-      "secondsAgo": 2925,
+      "secondsAgo": 3216,
       "sourceId": 1789084324
     },
     {
@@ -31,16 +35,16 @@
       "pokemon": "Turtwig",
       "region": "Sinnoh",
       "location": "Route 203",
-      "secondsAgo": 2432,
-      "sourceId": 1789084817
+      "secondsAgo": 2724,
+      "sourceId": 1789084816
     },
     {
       "monsterId": 212,
       "pokemon": "Scizor",
       "region": "Unova",
       "location": "Route 14",
-      "secondsAgo": 1210,
-      "sourceId": 1789086039
+      "secondsAgo": 1502,
+      "sourceId": 1789086038
     }
   ],
   "alpha": {
