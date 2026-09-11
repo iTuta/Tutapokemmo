@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-09-11T06:01:02.420Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-11T06:05:36.989Z",
+  "swarms": [
     {
-      "monsterId": 121,
-      "pokemon": "Starmie",
+      "monsterId": 131,
+      "pokemon": "Lapras",
       "region": "Kanto",
-      "location": "Seven Island",
-      "secondsAgo": 3801,
-      "sourceId": 1789102661
-    },
+      "location": "Icefall Cave",
+      "sourceId": 1789108181,
+      "despawnTimestamp": 1789108181,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-11T06:29:41.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 339,
       "pokemon": "Barboach",
       "region": "Johto",
       "location": "Slowpoke Well",
-      "secondsAgo": 7773,
-      "sourceId": 1789098689
+      "secondsAgo": 8048,
+      "sourceId": 1789098688
     },
     {
       "monsterId": 439,
       "pokemon": "Mime Jr.",
       "region": "Hoenn",
       "location": "Rusturf Tunnel",
-      "secondsAgo": 22138,
-      "sourceId": 1789084324
+      "secondsAgo": 22413,
+      "sourceId": 1789084323
     },
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Sinnoh",
       "location": "Turnback Cave",
-      "secondsAgo": 10696,
+      "secondsAgo": 10970,
       "sourceId": 1789095766
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Pupitar",
       "region": "Unova",
       "location": "Twist Mountain",
-      "secondsAgo": 7793,
+      "secondsAgo": 8067,
       "sourceId": 1789098669
     }
   ],
