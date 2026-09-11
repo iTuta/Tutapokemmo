@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-11T13:00:59.662Z",
+  "fetchedAt": "2026-09-11T13:05:43.887Z",
   "swarms": [
     {
       "monsterId": 107,
@@ -7,9 +7,20 @@
       "region": "Hoenn",
       "location": "Fiery Path",
       "sourceId": 1789132320,
-      "despawnTimestamp": 1789132320,
+      "despawnTimestamp": 1789132319,
       "hasValuable": false,
       "timestampUtc": "2026-09-11T13:12:00.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 395,
+      "pokemon": "Empoleon",
+      "region": "Sinnoh",
+      "location": "Lake Acuity",
+      "sourceId": 1789133437,
+      "despawnTimestamp": 1789133437,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-11T13:30:37.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,7 +30,7 @@
       "pokemon": "Chatot",
       "region": "Kanto",
       "location": "Treasure Beach",
-      "secondsAgo": 3425,
+      "secondsAgo": 3709,
       "sourceId": 1789128234
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Aipom",
       "region": "Johto",
       "location": "Route 29",
-      "secondsAgo": 3855,
+      "secondsAgo": 4139,
       "sourceId": 1789127804
-    },
-    {
-      "monsterId": 388,
-      "pokemon": "Grotle",
-      "region": "Sinnoh",
-      "location": "Sendoff Spring",
-      "secondsAgo": 4156,
-      "sourceId": 1789127503
     },
     {
       "monsterId": 212,
       "pokemon": "Scizor",
       "region": "Unova",
       "location": "Route 14",
-      "secondsAgo": 10921,
+      "secondsAgo": 11205,
       "sourceId": 1789120738
     }
   ],
