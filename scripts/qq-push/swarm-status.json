@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-09-11T18:35:47.416Z",
+  "fetchedAt": "2026-09-11T18:40:41.697Z",
   "swarms": [
-    {
-      "monsterId": 349,
-      "pokemon": "Feebas",
-      "region": "Johto",
-      "location": "Lake of Rage",
-      "sourceId": 1789151993,
-      "despawnTimestamp": 1789151993,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-11T18:39:53.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 394,
-      "pokemon": "Prinplup",
-      "region": "Sinnoh",
-      "location": "Route 220",
-      "sourceId": 1789151791,
-      "despawnTimestamp": 1789151791,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-11T18:36:31.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 190,
       "pokemon": "Aipom",
@@ -41,16 +19,32 @@
       "pokemon": "Relicanth",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 3618,
+      "secondsAgo": 3912,
       "sourceId": 1789148129
+    },
+    {
+      "monsterId": 349,
+      "pokemon": "Feebas",
+      "region": "Johto",
+      "location": "Lake of Rage",
+      "secondsAgo": 1547,
+      "sourceId": 1789150494
     },
     {
       "monsterId": 107,
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 7785,
+      "secondsAgo": 8079,
       "sourceId": 1789143962
+    },
+    {
+      "monsterId": 394,
+      "pokemon": "Prinplup",
+      "region": "Sinnoh",
+      "location": "Route 220",
+      "secondsAgo": 1749,
+      "sourceId": 1789150292
     }
   ],
   "alpha": {
