@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-11T21:55:37.978Z",
+  "fetchedAt": "2026-09-11T22:01:03.781Z",
   "swarms": [
     {
       "monsterId": 439,
@@ -7,7 +7,7 @@
       "region": "Hoenn",
       "location": "Rusturf Tunnel",
       "sourceId": 1789165194,
-      "despawnTimestamp": 1789165193,
+      "despawnTimestamp": 1789165194,
       "hasValuable": false,
       "timestampUtc": "2026-09-11T22:19:54.000Z",
       "publishedBy": ""
@@ -15,19 +15,27 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 411,
+      "pokemon": "Bastiodon",
+      "region": "Kanto",
+      "location": "Monean Chamber",
+      "secondsAgo": 6328,
+      "sourceId": 1789157735
+    },
+    {
       "monsterId": 469,
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 8976,
-      "sourceId": 1789154761
+      "secondsAgo": 9301,
+      "sourceId": 1789154762
     },
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 3889,
+      "secondsAgo": 4215,
       "sourceId": 1789159848
     },
     {
@@ -35,8 +43,8 @@
       "pokemon": "Slakoth",
       "region": "Unova",
       "location": "Route 2",
-      "secondsAgo": 2422,
-      "sourceId": 1789161315
+      "secondsAgo": 2747,
+      "sourceId": 1789161316
     }
   ],
   "alpha": {
@@ -49,6 +57,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-09-11T17:11:27.000Z",
     "timestampRaw": "2026-09-11T17:11:27.000Z",
-    "publishedBy": ""
+    "publishedBy": "Jackolomeus"
   }
 }
