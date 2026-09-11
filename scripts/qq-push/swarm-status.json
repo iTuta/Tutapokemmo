@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-10T23:55:43.330Z",
+  "fetchedAt": "2026-09-11T00:00:55.346Z",
   "swarms": [
     {
       "monsterId": 439,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-11T00:17:03.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 387,
+      "pokemon": "Turtwig",
+      "region": "Sinnoh",
+      "location": "Route 203",
+      "sourceId": 1789086316,
+      "despawnTimestamp": 1789086315,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-11T00:25:16.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Lumineon",
       "region": "Kanto",
       "location": "Route 12",
-      "secondsAgo": 6803,
+      "secondsAgo": 7115,
       "sourceId": 1789077740
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Barboach",
       "region": "Johto",
       "location": "Slowpoke Well",
-      "secondsAgo": 7291,
+      "secondsAgo": 7603,
       "sourceId": 1789077252
-    },
-    {
-      "monsterId": 299,
-      "pokemon": "Nosepass",
-      "region": "Sinnoh",
-      "location": "Oreburgh Gate",
-      "secondsAgo": 8380,
-      "sourceId": 1789076163
     },
     {
       "monsterId": 313,
       "pokemon": "Volbeat",
       "region": "Unova",
       "location": "Route 8",
-      "secondsAgo": 7125,
+      "secondsAgo": 7437,
       "sourceId": 1789077418
     }
   ],
