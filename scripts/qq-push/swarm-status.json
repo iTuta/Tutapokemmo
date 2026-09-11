@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-09-11T12:46:40.470Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-11T12:50:46.057Z",
+  "swarms": [
+    {
+      "monsterId": 107,
+      "pokemon": "Hitmonchan",
+      "region": "Hoenn",
+      "location": "Fiery Path",
+      "sourceId": 1789132320,
+      "despawnTimestamp": 1789132320,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-11T13:12:00.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Kanto",
       "location": "Treasure Beach",
-      "secondsAgo": 2566,
-      "sourceId": 1789128234
+      "secondsAgo": 2811,
+      "sourceId": 1789128235
     },
     {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Johto",
       "location": "Route 29",
-      "secondsAgo": 2996,
-      "sourceId": 1789127804
-    },
-    {
-      "monsterId": 149,
-      "pokemon": "Dragonite",
-      "region": "Hoenn",
-      "location": "Route 131",
-      "secondsAgo": 7953,
-      "sourceId": 1789122847
+      "secondsAgo": 3241,
+      "sourceId": 1789127805
     },
     {
       "monsterId": 388,
       "pokemon": "Grotle",
       "region": "Sinnoh",
       "location": "Sendoff Spring",
-      "secondsAgo": 3297,
-      "sourceId": 1789127503
+      "secondsAgo": 3542,
+      "sourceId": 1789127504
     },
     {
       "monsterId": 212,
       "pokemon": "Scizor",
       "region": "Unova",
       "location": "Route 14",
-      "secondsAgo": 10062,
-      "sourceId": 1789120738
+      "secondsAgo": 10307,
+      "sourceId": 1789120739
     }
   ],
   "alpha": {
