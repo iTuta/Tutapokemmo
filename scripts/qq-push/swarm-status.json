@@ -1,38 +1,45 @@
 {
-  "fetchedAt": "2026-09-11T03:50:43.139Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-11T03:55:49.870Z",
+  "swarms": [
+    {
+      "monsterId": 339,
+      "pokemon": "Barboach",
+      "region": "Johto",
+      "location": "Slowpoke Well",
+      "sourceId": 1789100188,
+      "despawnTimestamp": 1789100187,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-11T04:16:28.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 247,
+      "pokemon": "Pupitar",
+      "region": "Unova",
+      "location": "Twist Mountain",
+      "sourceId": 1789100169,
+      "despawnTimestamp": 1789100168,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-11T04:16:09.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Kanto",
       "location": "Pokemon Tower",
-      "secondsAgo": 9710,
+      "secondsAgo": 10016,
       "sourceId": 1789088933
-    },
-    {
-      "monsterId": 160,
-      "pokemon": "Feraligatr",
-      "region": "Johto",
-      "location": "Tohjo Falls",
-      "secondsAgo": 6417,
-      "sourceId": 1789092226
     },
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Sinnoh",
       "location": "Turnback Cave",
-      "secondsAgo": 2876,
-      "sourceId": 1789095767
-    },
-    {
-      "monsterId": 212,
-      "pokemon": "Scizor",
-      "region": "Unova",
-      "location": "Route 14",
-      "secondsAgo": 12604,
-      "sourceId": 1789086039
+      "secondsAgo": 3183,
+      "sourceId": 1789095766
     }
   ],
   "alpha": {
