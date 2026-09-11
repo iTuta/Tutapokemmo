@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-11T13:40:40.195Z",
+  "fetchedAt": "2026-09-11T13:45:56.122Z",
   "swarms": [
     {
       "monsterId": 474,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-11T13:55:22.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Unova",
-      "location": "Lostlorn Forest",
-      "sourceId": 1789134346,
-      "despawnTimestamp": 1789134346,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-11T13:45:46.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Chatot",
       "region": "Kanto",
       "location": "Treasure Beach",
-      "secondsAgo": 5805,
+      "secondsAgo": 6121,
       "sourceId": 1789128235
     },
     {
@@ -38,7 +27,7 @@
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 3219,
+      "secondsAgo": 3535,
       "sourceId": 1789130821
     },
     {
@@ -46,8 +35,16 @@
       "pokemon": "Empoleon",
       "region": "Sinnoh",
       "location": "Lake Acuity",
-      "secondsAgo": 2102,
+      "secondsAgo": 2418,
       "sourceId": 1789131938
+    },
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Unova",
+      "location": "Lostlorn Forest",
+      "secondsAgo": 1509,
+      "sourceId": 1789132847
     }
   ],
   "alpha": {
