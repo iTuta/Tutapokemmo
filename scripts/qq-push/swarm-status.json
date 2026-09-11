@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-09-11T08:15:51.787Z",
+  "fetchedAt": "2026-09-11T08:21:06.300Z",
   "swarms": [
+    {
+      "monsterId": 137,
+      "pokemon": "Porygon",
+      "region": "Kanto",
+      "location": "Pokemon Mansion",
+      "sourceId": 1789116326,
+      "despawnTimestamp": 1789116326,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-11T08:45:26.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Hoenn",
       "location": "Route 127",
       "sourceId": 1789115877,
-      "despawnTimestamp": 1789115876,
+      "despawnTimestamp": 1789115877,
       "hasValuable": false,
       "timestampUtc": "2026-09-11T08:37:57.000Z",
       "publishedBy": ""
@@ -18,7 +29,7 @@
       "region": "Sinnoh",
       "location": "Route 218",
       "sourceId": 1789115629,
-      "despawnTimestamp": 1789115628,
+      "despawnTimestamp": 1789115629,
       "hasValuable": false,
       "timestampUtc": "2026-09-11T08:33:49.000Z",
       "publishedBy": ""
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Kanto",
-      "location": "Icefall Cave",
-      "secondsAgo": 7869,
-      "sourceId": 1789106682
-    },
-    {
       "monsterId": 247,
       "pokemon": "Pupitar",
       "region": "Unova",
       "location": "Twist Mountain",
-      "secondsAgo": 15882,
+      "secondsAgo": 16197,
       "sourceId": 1789098669
     }
   ],
