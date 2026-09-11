@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-11T09:35:52.938Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-11T09:40:47.942Z",
+  "swarms": [
+    {
+      "monsterId": 254,
+      "pokemon": "Sceptile",
+      "region": "Hoenn",
+      "location": "Route 119",
+      "sourceId": 1789121146,
+      "despawnTimestamp": 1789121145,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-11T10:05:46.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 137,
       "pokemon": "Porygon",
       "region": "Kanto",
       "location": "Pokemon Mansion",
-      "secondsAgo": 4526,
+      "secondsAgo": 4821,
       "sourceId": 1789114826
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Bayleef",
       "region": "Johto",
       "location": "National Park",
-      "secondsAgo": 8011,
+      "secondsAgo": 8306,
       "sourceId": 1789111341
-    },
-    {
-      "monsterId": 319,
-      "pokemon": "Sharpedo",
-      "region": "Hoenn",
-      "location": "Route 127",
-      "secondsAgo": 4975,
-      "sourceId": 1789114377
     },
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 5223,
+      "secondsAgo": 5518,
       "sourceId": 1789114129
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Pupitar",
       "region": "Unova",
       "location": "Twist Mountain",
-      "secondsAgo": 20683,
+      "secondsAgo": 20978,
       "sourceId": 1789098669
     }
   ],
