@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-11T08:30:46.325Z",
+  "fetchedAt": "2026-09-11T08:35:37.865Z",
   "swarms": [
     {
       "monsterId": 137,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Pokemon Mansion",
       "sourceId": 1789116326,
-      "despawnTimestamp": 1789116326,
+      "despawnTimestamp": 1789116325,
       "hasValuable": false,
       "timestampUtc": "2026-09-11T08:45:26.000Z",
       "publishedBy": ""
@@ -18,30 +18,27 @@
       "region": "Hoenn",
       "location": "Route 127",
       "sourceId": 1789115877,
-      "despawnTimestamp": 1789115877,
+      "despawnTimestamp": 1789115876,
       "hasValuable": false,
       "timestampUtc": "2026-09-11T08:37:57.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 441,
-      "pokemon": "Chatot",
-      "region": "Sinnoh",
-      "location": "Route 218",
-      "sourceId": 1789115629,
-      "despawnTimestamp": 1789115629,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-11T08:33:49.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
+      "monsterId": 441,
+      "pokemon": "Chatot",
+      "region": "Sinnoh",
+      "location": "Route 218",
+      "secondsAgo": 1608,
+      "sourceId": 1789114129
+    },
+    {
       "monsterId": 247,
       "pokemon": "Pupitar",
       "region": "Unova",
       "location": "Twist Mountain",
-      "secondsAgo": 16777,
+      "secondsAgo": 17068,
       "sourceId": 1789098669
     }
   ],
