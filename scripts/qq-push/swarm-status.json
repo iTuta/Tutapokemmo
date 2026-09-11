@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-11T19:01:04.291Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-11T19:05:42.302Z",
+  "swarms": [
+    {
+      "monsterId": 319,
+      "pokemon": "Sharpedo",
+      "region": "Hoenn",
+      "location": "Route 127",
+      "sourceId": 1789155012,
+      "despawnTimestamp": 1789155012,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-11T19:30:12.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 5135,
+      "secondsAgo": 5413,
       "sourceId": 1789148129
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Feebas",
       "region": "Johto",
       "location": "Lake of Rage",
-      "secondsAgo": 2770,
+      "secondsAgo": 3048,
       "sourceId": 1789150494
-    },
-    {
-      "monsterId": 107,
-      "pokemon": "Hitmonchan",
-      "region": "Hoenn",
-      "location": "Fiery Path",
-      "secondsAgo": 9302,
-      "sourceId": 1789143962
     },
     {
       "monsterId": 394,
       "pokemon": "Prinplup",
       "region": "Sinnoh",
       "location": "Route 220",
-      "secondsAgo": 2972,
+      "secondsAgo": 3250,
       "sourceId": 1789150292
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Aipom",
       "region": "Unova",
       "location": "Cold Storage",
-      "secondsAgo": 2470,
+      "secondsAgo": 2748,
       "sourceId": 1789150794
     }
   ],
