@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-12T13:15:59.384Z",
+  "fetchedAt": "2026-09-12T13:20:40.734Z",
   "swarms": [
     {
       "monsterId": 213,
@@ -7,9 +7,20 @@
       "region": "Johto",
       "location": "Cliff Cave",
       "sourceId": 1789220180,
-      "despawnTimestamp": 1789220181,
+      "despawnTimestamp": 1789220179,
       "hasValuable": false,
       "timestampUtc": "2026-09-12T13:36:20.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 162,
+      "pokemon": "Furret",
+      "region": "Unova",
+      "location": "Abundant Shrine",
+      "sourceId": 1789220651,
+      "despawnTimestamp": 1789220650,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-12T13:44:11.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,24 +30,16 @@
       "pokemon": "Croagunk",
       "region": "Kanto",
       "location": "Route 6",
-      "secondsAgo": 6761,
-      "sourceId": 1789212198
+      "secondsAgo": 7044,
+      "sourceId": 1789212196
     },
     {
       "monsterId": 185,
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 34237,
-      "sourceId": 1789184722
-    },
-    {
-      "monsterId": 451,
-      "pokemon": "Skorupi",
-      "region": "Unova",
-      "location": "Desert Resort",
-      "secondsAgo": 8573,
-      "sourceId": 1789210386
+      "secondsAgo": 34519,
+      "sourceId": 1789184721
     }
   ],
   "alpha": {
