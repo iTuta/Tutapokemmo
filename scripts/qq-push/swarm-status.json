@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-09-12T07:25:48.116Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-12T07:30:52.992Z",
+  "swarms": [
+    {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Unova",
+      "location": "Guidance Chamber",
+      "sourceId": 1789199494,
+      "despawnTimestamp": 1789199493,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-12T07:51:34.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Kanto",
       "location": "Route 10",
-      "secondsAgo": 3767,
-      "sourceId": 1789194181
+      "secondsAgo": 4072,
+      "sourceId": 1789194180
     },
     {
       "monsterId": 121,
       "pokemon": "Starmie",
       "region": "Johto",
       "location": "Cliff Edge Gate",
-      "secondsAgo": 3806,
-      "sourceId": 1789194142
+      "secondsAgo": 4111,
+      "sourceId": 1789194141
     },
     {
       "monsterId": 185,
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 13227,
-      "sourceId": 1789184721
+      "secondsAgo": 13532,
+      "sourceId": 1789184720
     },
     {
       "monsterId": 357,
       "pokemon": "Tropius",
       "region": "Sinnoh",
       "location": "Route 226",
-      "secondsAgo": 20895,
-      "sourceId": 1789177053
-    },
-    {
-      "monsterId": 312,
-      "pokemon": "Minun",
-      "region": "Unova",
-      "location": "Route 6",
-      "secondsAgo": 9435,
-      "sourceId": 1789188513
+      "secondsAgo": 21200,
+      "sourceId": 1789177052
     }
   ],
   "alpha": {
