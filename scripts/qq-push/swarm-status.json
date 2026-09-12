@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-12T16:25:49.226Z",
+  "fetchedAt": "2026-09-12T16:30:49.998Z",
   "swarms": [
+    {
+      "monsterId": 135,
+      "pokemon": "Jolteon",
+      "region": "Kanto",
+      "location": "Ruin Valley",
+      "sourceId": 1789232001,
+      "despawnTimestamp": 1789232000,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-12T16:53:21.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 349,
       "pokemon": "Feebas",
@@ -26,28 +37,20 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Kanto",
-      "location": "Icefall Cave",
-      "secondsAgo": 7361,
-      "sourceId": 1789222988
-    },
-    {
       "monsterId": 456,
       "pokemon": "Finneon",
       "region": "Hoenn",
       "location": "Route 107",
-      "secondsAgo": 2150,
-      "sourceId": 1789228199
+      "secondsAgo": 2451,
+      "sourceId": 1789228198
     },
     {
       "monsterId": 392,
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 4240,
-      "sourceId": 1789226109
+      "secondsAgo": 4541,
+      "sourceId": 1789226108
     }
   ],
   "alpha": {
