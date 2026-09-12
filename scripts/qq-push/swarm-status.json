@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-12T03:40:43.709Z",
+  "fetchedAt": "2026-09-12T03:45:44.237Z",
   "swarms": [
     {
       "monsterId": 7,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-12T03:50:38.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 185,
+      "pokemon": "Sudowoodo",
+      "region": "Hoenn",
+      "location": "Battle Frontier",
+      "sourceId": 1789186220,
+      "despawnTimestamp": 1789186220,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-12T04:10:20.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,23 +30,15 @@
       "pokemon": "Shelgon",
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
-      "secondsAgo": 3658,
+      "secondsAgo": 3959,
       "sourceId": 1789180785
-    },
-    {
-      "monsterId": 107,
-      "pokemon": "Hitmonchan",
-      "region": "Hoenn",
-      "location": "Fiery Path",
-      "secondsAgo": 10856,
-      "sourceId": 1789173587
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 3844,
+      "secondsAgo": 4145,
       "sourceId": 1789180599
     }
   ],
