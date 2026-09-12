@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-12T18:50:44.967Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-12T18:55:48.792Z",
+  "swarms": [
+    {
+      "monsterId": 176,
+      "pokemon": "Togetic",
+      "region": "Unova",
+      "location": "Dreamyard",
+      "sourceId": 1789240739,
+      "despawnTimestamp": 1789240739,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-12T19:18:59.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "secondsAgo": 2598,
+      "secondsAgo": 2902,
       "sourceId": 1789236446
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Bayleef",
       "region": "Johto",
       "location": "National Park",
-      "secondsAgo": 4482,
+      "secondsAgo": 4786,
       "sourceId": 1789234562
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Cacnea",
       "region": "Hoenn",
       "location": "Route 111",
-      "secondsAgo": 1813,
-      "sourceId": 1789237231
+      "secondsAgo": 2116,
+      "sourceId": 1789237232
     },
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 4264,
+      "secondsAgo": 4568,
       "sourceId": 1789234780
-    },
-    {
-      "monsterId": 212,
-      "pokemon": "Scizor",
-      "region": "Unova",
-      "location": "Route 14",
-      "secondsAgo": 6196,
-      "sourceId": 1789232848
     }
   ],
   "alpha": {
