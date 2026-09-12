@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-12T19:30:56.567Z",
+  "fetchedAt": "2026-09-12T19:35:41.907Z",
   "swarms": [
     {
       "monsterId": 330,
@@ -7,20 +7,9 @@
       "region": "Hoenn",
       "location": "Desert Underpass",
       "sourceId": 1789242592,
-      "despawnTimestamp": 1789242592,
+      "despawnTimestamp": 1789242591,
       "hasValuable": false,
       "timestampUtc": "2026-09-12T19:49:52.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 328,
-      "pokemon": "Trapinch",
-      "region": "Sinnoh",
-      "location": "Oreburgh Mine",
-      "sourceId": 1789241562,
-      "despawnTimestamp": 1789241562,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-12T19:32:42.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,23 +19,31 @@
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "secondsAgo": 5009,
-      "sourceId": 1789236447
+      "secondsAgo": 5295,
+      "sourceId": 1789236446
     },
     {
       "monsterId": 153,
       "pokemon": "Bayleef",
       "region": "Johto",
       "location": "National Park",
-      "secondsAgo": 6894,
+      "secondsAgo": 7179,
       "sourceId": 1789234562
+    },
+    {
+      "monsterId": 328,
+      "pokemon": "Trapinch",
+      "region": "Sinnoh",
+      "location": "Oreburgh Mine",
+      "secondsAgo": 1679,
+      "sourceId": 1789240062
     },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 2216,
+      "secondsAgo": 2501,
       "sourceId": 1789239240
     }
   ],
