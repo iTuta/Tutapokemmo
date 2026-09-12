@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-12T15:11:04.231Z",
+  "fetchedAt": "2026-09-12T15:16:01.452Z",
   "swarms": [
     {
       "monsterId": 242,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-12T15:25:05.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 392,
+      "pokemon": "Infernape",
+      "region": "Sinnoh",
+      "location": "Route 221",
+      "sourceId": 1789227608,
+      "despawnTimestamp": 1789227608,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-12T15:40:08.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,32 +30,24 @@
       "pokemon": "Lapras",
       "region": "Kanto",
       "location": "Icefall Cave",
-      "secondsAgo": 2876,
-      "sourceId": 1789222988
+      "secondsAgo": 3174,
+      "sourceId": 1789222987
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 4225,
+      "secondsAgo": 4522,
       "sourceId": 1789221639
-    },
-    {
-      "monsterId": 357,
-      "pokemon": "Tropius",
-      "region": "Sinnoh",
-      "location": "Route 226",
-      "secondsAgo": 48811,
-      "sourceId": 1789177053
     },
     {
       "monsterId": 162,
       "pokemon": "Furret",
       "region": "Unova",
       "location": "Abundant Shrine",
-      "secondsAgo": 6712,
-      "sourceId": 1789219152
+      "secondsAgo": 7010,
+      "sourceId": 1789219151
     }
   ],
   "alpha": {
