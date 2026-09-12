@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-09-12T03:20:44.402Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-12T03:25:44.639Z",
+  "swarms": [
     {
-      "monsterId": 248,
-      "pokemon": "Tyranitar",
+      "monsterId": 7,
+      "pokemon": "Squirtle",
       "region": "Kanto",
-      "location": "Seven Island",
-      "secondsAgo": 6153,
-      "sourceId": 1789177091
-    },
+      "location": "Route 24",
+      "sourceId": 1789185038,
+      "despawnTimestamp": 1789185038,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-12T03:50:38.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 372,
       "pokemon": "Shelgon",
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
-      "secondsAgo": 2459,
+      "secondsAgo": 2759,
       "sourceId": 1789180785
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 9656,
+      "secondsAgo": 9956,
       "sourceId": 1789173588
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 2645,
+      "secondsAgo": 2945,
       "sourceId": 1789180599
     }
   ],
