@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-12T11:15:53.555Z",
+  "fetchedAt": "2026-09-12T11:20:56.570Z",
   "swarms": [
     {
       "monsterId": 281,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-12T11:29:42.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 451,
-      "pokemon": "Skorupi",
-      "region": "Unova",
-      "location": "Desert Resort",
-      "sourceId": 1789211884,
-      "despawnTimestamp": 1789211883,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-12T11:18:04.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,16 +19,32 @@
       "pokemon": "Drifloon",
       "region": "Kanto",
       "location": "Route 10",
-      "secondsAgo": 17573,
+      "secondsAgo": 17876,
       "sourceId": 1789194180
+    },
+    {
+      "monsterId": 185,
+      "pokemon": "Sudowoodo",
+      "region": "Hoenn",
+      "location": "Battle Frontier",
+      "secondsAgo": 27335,
+      "sourceId": 1789184721
     },
     {
       "monsterId": 357,
       "pokemon": "Tropius",
       "region": "Sinnoh",
       "location": "Route 226",
-      "secondsAgo": 34700,
+      "secondsAgo": 35003,
       "sourceId": 1789177053
+    },
+    {
+      "monsterId": 451,
+      "pokemon": "Skorupi",
+      "region": "Unova",
+      "location": "Desert Resort",
+      "secondsAgo": 1672,
+      "sourceId": 1789210384
     }
   ],
   "alpha": {
