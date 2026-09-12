@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-12T18:30:56.277Z",
+  "fetchedAt": "2026-09-12T18:35:38.148Z",
   "swarms": [
-    {
-      "monsterId": 127,
-      "pokemon": "Pinsir",
-      "region": "Kanto",
-      "location": "Route 11",
-      "sourceId": 1789237946,
-      "despawnTimestamp": 1789237946,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-12T18:32:26.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 331,
       "pokemon": "Cacnea",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 127,
+      "pokemon": "Pinsir",
+      "region": "Kanto",
+      "location": "Route 11",
+      "secondsAgo": 1691,
+      "sourceId": 1789236447
+    },
+    {
       "monsterId": 153,
       "pokemon": "Bayleef",
       "region": "Johto",
       "location": "National Park",
-      "secondsAgo": 3294,
+      "secondsAgo": 3576,
       "sourceId": 1789234562
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 3075,
+      "secondsAgo": 3357,
       "sourceId": 1789234781
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Scizor",
       "region": "Unova",
       "location": "Route 14",
-      "secondsAgo": 5007,
+      "secondsAgo": 5289,
       "sourceId": 1789232849
     }
   ],
