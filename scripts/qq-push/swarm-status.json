@@ -1,21 +1,47 @@
 {
-  "fetchedAt": "2026-09-12T01:35:36.172Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-12T01:40:44.315Z",
+  "swarms": [
     {
-      "monsterId": 143,
-      "pokemon": "Snorlax",
+      "monsterId": 248,
+      "pokemon": "Tyranitar",
       "region": "Kanto",
-      "location": "Cerulean Cave",
-      "secondsAgo": 6692,
-      "sourceId": 1789170244
+      "location": "Seven Island",
+      "sourceId": 1789178590,
+      "despawnTimestamp": 1789178590,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-12T02:03:10.000Z",
+      "publishedBy": ""
     },
+    {
+      "monsterId": 357,
+      "pokemon": "Tropius",
+      "region": "Sinnoh",
+      "location": "Route 226",
+      "sourceId": 1789178552,
+      "despawnTimestamp": 1789178552,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-12T02:02:32.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 193,
+      "pokemon": "Yanma",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "sourceId": 1789178713,
+      "despawnTimestamp": 1789178712,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-12T02:05:13.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 9160,
+      "secondsAgo": 9468,
       "sourceId": 1789167776
     },
     {
@@ -23,24 +49,8 @@
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 3348,
+      "secondsAgo": 3656,
       "sourceId": 1789173588
-    },
-    {
-      "monsterId": 455,
-      "pokemon": "Carnivine",
-      "region": "Sinnoh",
-      "location": "Route 225",
-      "secondsAgo": 5095,
-      "sourceId": 1789171841
-    },
-    {
-      "monsterId": 148,
-      "pokemon": "Dragonair",
-      "region": "Unova",
-      "location": "Dragonspiral Tower",
-      "secondsAgo": 10814,
-      "sourceId": 1789166122
     }
   ],
   "alpha": {
