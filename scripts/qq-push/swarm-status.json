@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-09-12T21:35:39.393Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-12T21:40:44.987Z",
+  "swarms": [
+    {
+      "monsterId": 314,
+      "pokemon": "Illumise",
+      "region": "Unova",
+      "location": "Moor of Icirrus",
+      "sourceId": 1789250671,
+      "despawnTimestamp": 1789250670,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-12T22:04:31.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "secondsAgo": 12492,
-      "sourceId": 1789236447
+      "secondsAgo": 12798,
+      "sourceId": 1789236446
     },
     {
       "monsterId": 153,
       "pokemon": "Bayleef",
       "region": "Johto",
       "location": "National Park",
-      "secondsAgo": 14377,
+      "secondsAgo": 14682,
       "sourceId": 1789234562
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Treecko",
       "region": "Hoenn",
       "location": "Petalburg Woods",
-      "secondsAgo": 3956,
-      "sourceId": 1789244983
+      "secondsAgo": 4262,
+      "sourceId": 1789244982
     },
     {
       "monsterId": 393,
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 5383,
+      "secondsAgo": 5688,
       "sourceId": 1789243556
-    },
-    {
-      "monsterId": 176,
-      "pokemon": "Togetic",
-      "region": "Unova",
-      "location": "Dreamyard",
-      "secondsAgo": 9699,
-      "sourceId": 1789239240
     }
   ],
   "alpha": {
