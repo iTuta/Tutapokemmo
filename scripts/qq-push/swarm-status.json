@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-12T20:30:49.421Z",
+  "fetchedAt": "2026-09-12T20:35:41.961Z",
   "swarms": [
     {
       "monsterId": 252,
@@ -7,20 +7,9 @@
       "region": "Hoenn",
       "location": "Petalburg Woods",
       "sourceId": 1789246482,
-      "despawnTimestamp": 1789246482,
+      "despawnTimestamp": 1789246481,
       "hasValuable": false,
       "timestampUtc": "2026-09-12T20:54:42.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 393,
-      "pokemon": "Piplup",
-      "region": "Sinnoh",
-      "location": "Route 204",
-      "sourceId": 1789245055,
-      "despawnTimestamp": 1789245055,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-12T20:30:55.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,15 +19,23 @@
       "pokemon": "Bayleef",
       "region": "Johto",
       "location": "National Park",
-      "secondsAgo": 10487,
+      "secondsAgo": 10779,
       "sourceId": 1789234562
+    },
+    {
+      "monsterId": 393,
+      "pokemon": "Piplup",
+      "region": "Sinnoh",
+      "location": "Route 204",
+      "secondsAgo": 1785,
+      "sourceId": 1789243556
     },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 5809,
+      "secondsAgo": 6101,
       "sourceId": 1789239240
     }
   ],
