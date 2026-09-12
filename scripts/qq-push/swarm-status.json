@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-12T03:45:44.237Z",
+  "fetchedAt": "2026-09-12T03:50:46.175Z",
   "swarms": [
-    {
-      "monsterId": 7,
-      "pokemon": "Squirtle",
-      "region": "Kanto",
-      "location": "Route 24",
-      "sourceId": 1789185038,
-      "despawnTimestamp": 1789185038,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-12T03:50:38.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 185,
       "pokemon": "Sudowoodo",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 7,
+      "pokemon": "Squirtle",
+      "region": "Kanto",
+      "location": "Route 24",
+      "secondsAgo": 1507,
+      "sourceId": 1789183539
+    },
+    {
       "monsterId": 372,
       "pokemon": "Shelgon",
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
-      "secondsAgo": 3959,
+      "secondsAgo": 4261,
       "sourceId": 1789180785
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 4145,
+      "secondsAgo": 4447,
       "sourceId": 1789180599
     }
   ],
