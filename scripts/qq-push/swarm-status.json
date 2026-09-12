@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-12T20:05:39.787Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-12T20:10:42.941Z",
+  "swarms": [
+    {
+      "monsterId": 393,
+      "pokemon": "Piplup",
+      "region": "Sinnoh",
+      "location": "Route 204",
+      "sourceId": 1789245055,
+      "despawnTimestamp": 1789245055,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-12T20:30:55.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 153,
       "pokemon": "Bayleef",
       "region": "Johto",
       "location": "National Park",
-      "secondsAgo": 8977,
+      "secondsAgo": 9280,
       "sourceId": 1789234562
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Flygon",
       "region": "Hoenn",
       "location": "Desert Underpass",
-      "secondsAgo": 2446,
-      "sourceId": 1789241093
-    },
-    {
-      "monsterId": 328,
-      "pokemon": "Trapinch",
-      "region": "Sinnoh",
-      "location": "Oreburgh Mine",
-      "secondsAgo": 3477,
-      "sourceId": 1789240062
+      "secondsAgo": 2750,
+      "sourceId": 1789241092
     },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 4299,
+      "secondsAgo": 4602,
       "sourceId": 1789239240
     }
   ],
