@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-12T13:35:54.416Z",
+  "fetchedAt": "2026-09-12T13:40:48.964Z",
   "swarms": [
-    {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Johto",
-      "location": "Cliff Cave",
-      "sourceId": 1789220180,
-      "despawnTimestamp": 1789220180,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-12T13:36:20.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 162,
       "pokemon": "Furret",
@@ -30,16 +19,24 @@
       "pokemon": "Croagunk",
       "region": "Kanto",
       "location": "Route 6",
-      "secondsAgo": 7958,
+      "secondsAgo": 8252,
       "sourceId": 1789212196
+    },
+    {
+      "monsterId": 213,
+      "pokemon": "Shuckle",
+      "region": "Johto",
+      "location": "Cliff Cave",
+      "secondsAgo": 1768,
+      "sourceId": 1789218680
     },
     {
       "monsterId": 185,
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 35433,
-      "sourceId": 1789184721
+      "secondsAgo": 35728,
+      "sourceId": 1789184720
     }
   ],
   "alpha": {
