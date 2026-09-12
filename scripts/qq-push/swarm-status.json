@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-12T15:45:48.814Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-12T15:50:47.499Z",
+  "swarms": [
+    {
+      "monsterId": 456,
+      "pokemon": "Finneon",
+      "region": "Hoenn",
+      "location": "Route 107",
+      "sourceId": 1789229698,
+      "despawnTimestamp": 1789229697,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-12T16:14:58.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Kanto",
       "location": "Icefall Cave",
-      "secondsAgo": 4961,
+      "secondsAgo": 5260,
       "sourceId": 1789222987
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 6309,
+      "secondsAgo": 6608,
       "sourceId": 1789221639
-    },
-    {
-      "monsterId": 242,
-      "pokemon": "Blissey",
-      "region": "Hoenn",
-      "location": "Artisan Cave",
-      "secondsAgo": 2743,
-      "sourceId": 1789225205
     },
     {
       "monsterId": 392,
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 1839,
+      "secondsAgo": 2138,
       "sourceId": 1789226109
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Furret",
       "region": "Unova",
       "location": "Abundant Shrine",
-      "secondsAgo": 8797,
+      "secondsAgo": 9096,
       "sourceId": 1789219151
     }
   ],
