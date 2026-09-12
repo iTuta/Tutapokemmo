@@ -1,37 +1,49 @@
 {
-  "fetchedAt": "2026-09-12T13:55:44.684Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-12T14:00:57.920Z",
+  "swarms": [
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Johto",
+      "location": "Route 37",
+      "sourceId": 1789223138,
+      "despawnTimestamp": 1789223138,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-12T14:25:38.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
       "region": "Kanto",
       "location": "Route 6",
-      "secondsAgo": 9148,
+      "secondsAgo": 9461,
       "sourceId": 1789212196
-    },
-    {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Johto",
-      "location": "Cliff Cave",
-      "secondsAgo": 2664,
-      "sourceId": 1789218680
     },
     {
       "monsterId": 185,
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 36623,
-      "sourceId": 1789184721
+      "secondsAgo": 36937,
+      "sourceId": 1789184720
+    },
+    {
+      "monsterId": 357,
+      "pokemon": "Tropius",
+      "region": "Sinnoh",
+      "location": "Route 226",
+      "secondsAgo": 44605,
+      "sourceId": 1789177052
     },
     {
       "monsterId": 162,
       "pokemon": "Furret",
       "region": "Unova",
       "location": "Abundant Shrine",
-      "secondsAgo": 2193,
+      "secondsAgo": 2506,
       "sourceId": 1789219151
     }
   ],
@@ -45,6 +57,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-09-12T09:13:18.000Z",
     "timestampRaw": "2026-09-12T09:13:18.000Z",
-    "publishedBy": ""
+    "publishedBy": "Jackolomeus"
   }
 }
