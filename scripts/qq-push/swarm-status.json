@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-12T16:35:39.517Z",
+  "fetchedAt": "2026-09-12T16:40:43.820Z",
   "swarms": [
     {
       "monsterId": 135,
@@ -7,47 +7,44 @@
       "region": "Kanto",
       "location": "Ruin Valley",
       "sourceId": 1789232001,
-      "despawnTimestamp": 1789232001,
+      "despawnTimestamp": 1789232003,
       "hasValuable": false,
       "timestampUtc": "2026-09-12T16:53:21.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 349,
-      "pokemon": "Feebas",
-      "region": "Johto",
-      "location": "Lake Of Rage",
-      "sourceId": 1789231057,
-      "despawnTimestamp": 1789231057,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-12T16:37:37.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
+      "monsterId": 349,
+      "pokemon": "Feebas",
+      "region": "Johto",
+      "location": "Lake Of Rage",
+      "secondsAgo": 1683,
+      "sourceId": 1789229560
+    },
+    {
       "monsterId": 456,
       "pokemon": "Finneon",
       "region": "Hoenn",
       "location": "Route 107",
-      "secondsAgo": 2741,
-      "sourceId": 1789228198
+      "secondsAgo": 3043,
+      "sourceId": 1789228200
     },
     {
       "monsterId": 392,
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 4830,
-      "sourceId": 1789226109
+      "secondsAgo": 5132,
+      "sourceId": 1789226111
     },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 1684,
-      "sourceId": 1789229255
+      "secondsAgo": 1986,
+      "sourceId": 1789229257
     }
   ],
   "alpha": {
