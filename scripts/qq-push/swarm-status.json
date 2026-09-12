@@ -1,33 +1,37 @@
 {
-  "fetchedAt": "2026-09-12T20:50:42.133Z",
-  "swarms": [
-    {
-      "monsterId": 252,
-      "pokemon": "Treecko",
-      "region": "Hoenn",
-      "location": "Petalburg Woods",
-      "sourceId": 1789246482,
-      "despawnTimestamp": 1789246482,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-12T20:54:42.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-12T20:55:41.959Z",
+  "swarms": [],
   "lastSeen": [
+    {
+      "monsterId": 127,
+      "pokemon": "Pinsir",
+      "region": "Kanto",
+      "location": "Route 11",
+      "secondsAgo": 10095,
+      "sourceId": 1789236446
+    },
     {
       "monsterId": 153,
       "pokemon": "Bayleef",
       "region": "Johto",
       "location": "National Park",
-      "secondsAgo": 11680,
+      "secondsAgo": 11979,
       "sourceId": 1789234562
+    },
+    {
+      "monsterId": 252,
+      "pokemon": "Treecko",
+      "region": "Hoenn",
+      "location": "Petalburg Woods",
+      "secondsAgo": 1559,
+      "sourceId": 1789244982
     },
     {
       "monsterId": 393,
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 2686,
+      "secondsAgo": 2985,
       "sourceId": 1789243556
     },
     {
@@ -35,7 +39,7 @@
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 7002,
+      "secondsAgo": 7301,
       "sourceId": 1789239240
     }
   ],
