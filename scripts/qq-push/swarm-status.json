@@ -1,38 +1,42 @@
 {
-  "fetchedAt": "2026-09-12T10:50:40.941Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-12T10:55:42.227Z",
+  "swarms": [
+    {
+      "monsterId": 451,
+      "pokemon": "Skorupi",
+      "region": "Unova",
+      "location": "Desert Resort",
+      "sourceId": 1789211884,
+      "despawnTimestamp": 1789211883,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-12T11:18:04.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Kanto",
       "location": "Route 10",
-      "secondsAgo": 16060,
-      "sourceId": 1789194180
+      "secondsAgo": 16361,
+      "sourceId": 1789194181
     },
     {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Johto",
       "location": "Route 29",
-      "secondsAgo": 8293,
-      "sourceId": 1789201947
+      "secondsAgo": 8594,
+      "sourceId": 1789201948
     },
     {
       "monsterId": 357,
       "pokemon": "Tropius",
       "region": "Sinnoh",
       "location": "Route 226",
-      "secondsAgo": 33188,
-      "sourceId": 1789177052
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Unova",
-      "location": "Guidance Chamber",
-      "secondsAgo": 12246,
-      "sourceId": 1789197994
+      "secondsAgo": 33489,
+      "sourceId": 1789177053
     }
   ],
   "alpha": {
