@@ -1,47 +1,21 @@
 {
-  "fetchedAt": "2026-09-12T02:01:05.907Z",
-  "swarms": [
+  "fetchedAt": "2026-09-12T02:05:39.993Z",
+  "swarms": [],
+  "lastSeen": [
     {
       "monsterId": 248,
       "pokemon": "Tyranitar",
       "region": "Kanto",
       "location": "Seven Island",
-      "sourceId": 1789178590,
-      "despawnTimestamp": 1789178590,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-12T02:03:10.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1648,
+      "sourceId": 1789177091
     },
-    {
-      "monsterId": 357,
-      "pokemon": "Tropius",
-      "region": "Sinnoh",
-      "location": "Route 226",
-      "sourceId": 1789178552,
-      "despawnTimestamp": 1789178551,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-12T02:02:32.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 193,
-      "pokemon": "Yanma",
-      "region": "Unova",
-      "location": "Pinwheel Forest",
-      "sourceId": 1789178713,
-      "despawnTimestamp": 1789178712,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-12T02:05:13.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 10690,
+      "secondsAgo": 10964,
       "sourceId": 1789167775
     },
     {
@@ -49,8 +23,24 @@
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 4878,
+      "secondsAgo": 5152,
       "sourceId": 1789173587
+    },
+    {
+      "monsterId": 357,
+      "pokemon": "Tropius",
+      "region": "Sinnoh",
+      "location": "Route 226",
+      "secondsAgo": 1687,
+      "sourceId": 1789177052
+    },
+    {
+      "monsterId": 193,
+      "pokemon": "Yanma",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "secondsAgo": 1526,
+      "sourceId": 1789177213
     }
   ],
   "alpha": {
