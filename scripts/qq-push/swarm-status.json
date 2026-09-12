@@ -1,46 +1,53 @@
 {
-  "fetchedAt": "2026-09-12T06:20:42.828Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-12T06:25:37.588Z",
+  "swarms": [
     {
-      "monsterId": 7,
-      "pokemon": "Squirtle",
+      "monsterId": 425,
+      "pokemon": "Drifloon",
       "region": "Kanto",
-      "location": "Route 24",
-      "secondsAgo": 10503,
-      "sourceId": 1789183539
+      "location": "Route 10",
+      "sourceId": 1789195680,
+      "despawnTimestamp": 1789195679,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-12T06:48:00.000Z",
+      "publishedBy": ""
     },
     {
-      "monsterId": 372,
-      "pokemon": "Shelgon",
+      "monsterId": 121,
+      "pokemon": "Starmie",
       "region": "Johto",
-      "location": "Dragon&#x27;s Den",
-      "secondsAgo": 13257,
-      "sourceId": 1789180785
-    },
+      "location": "Cliff Edge Gate",
+      "sourceId": 1789195641,
+      "despawnTimestamp": 1789195640,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-12T06:47:21.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 185,
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 9322,
-      "sourceId": 1789184720
+      "secondsAgo": 9616,
+      "sourceId": 1789184721
     },
     {
       "monsterId": 357,
       "pokemon": "Tropius",
       "region": "Sinnoh",
       "location": "Route 226",
-      "secondsAgo": 16990,
-      "sourceId": 1789177052
+      "secondsAgo": 17284,
+      "sourceId": 1789177053
     },
     {
       "monsterId": 312,
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 5530,
-      "sourceId": 1789188512
+      "secondsAgo": 5824,
+      "sourceId": 1789188513
     }
   ],
   "alpha": {
