@@ -1,45 +1,52 @@
 {
-  "fetchedAt": "2026-09-12T17:35:52.538Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-12T17:40:40.975Z",
+  "swarms": [
+    {
+      "monsterId": 153,
+      "pokemon": "Bayleef",
+      "region": "Johto",
+      "location": "National Park",
+      "sourceId": 1789236061,
+      "despawnTimestamp": 1789236061,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-12T18:01:01.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 441,
+      "pokemon": "Chatot",
+      "region": "Sinnoh",
+      "location": "Route 218",
+      "sourceId": 1789236280,
+      "despawnTimestamp": 1789236279,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-12T18:04:40.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 135,
       "pokemon": "Jolteon",
       "region": "Kanto",
       "location": "Ruin Valley",
-      "secondsAgo": 4050,
-      "sourceId": 1789230502
-    },
-    {
-      "monsterId": 349,
-      "pokemon": "Feebas",
-      "region": "Johto",
-      "location": "Lake Of Rage",
-      "secondsAgo": 4994,
-      "sourceId": 1789229558
+      "secondsAgo": 4339,
+      "sourceId": 1789230501
     },
     {
       "monsterId": 456,
       "pokemon": "Finneon",
       "region": "Hoenn",
       "location": "Route 107",
-      "secondsAgo": 6354,
+      "secondsAgo": 6642,
       "sourceId": 1789228198
-    },
-    {
-      "monsterId": 392,
-      "pokemon": "Infernape",
-      "region": "Sinnoh",
-      "location": "Route 221",
-      "secondsAgo": 8443,
-      "sourceId": 1789226109
     },
     {
       "monsterId": 212,
       "pokemon": "Scizor",
       "region": "Unova",
       "location": "Route 14",
-      "secondsAgo": 1704,
+      "secondsAgo": 1992,
       "sourceId": 1789232848
     }
   ],
