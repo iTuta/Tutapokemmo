@@ -1,33 +1,21 @@
 {
-  "fetchedAt": "2026-09-13T12:05:50.519Z",
-  "swarms": [
-    {
-      "monsterId": 430,
-      "pokemon": "Honchkrow",
-      "region": "Unova",
-      "location": "Celestial Tower",
-      "sourceId": 1789301284,
-      "despawnTimestamp": 1789301283,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-13T12:08:04.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-13T12:10:52.337Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Kanto",
       "location": "Route 15",
-      "secondsAgo": 2099,
-      "sourceId": 1789299051
+      "secondsAgo": 2400,
+      "sourceId": 1789299052
     },
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Johto",
       "location": "Sprout Tower",
-      "secondsAgo": 4361,
+      "secondsAgo": 4663,
       "sourceId": 1789296789
     },
     {
@@ -35,7 +23,7 @@
       "pokemon": "Dragonite",
       "region": "Hoenn",
       "location": "Route 131",
-      "secondsAgo": 2906,
+      "secondsAgo": 3208,
       "sourceId": 1789298244
     },
     {
@@ -43,8 +31,16 @@
       "pokemon": "Tropius",
       "region": "Sinnoh",
       "location": "Route 226",
-      "secondsAgo": 4559,
+      "secondsAgo": 4861,
       "sourceId": 1789296591
+    },
+    {
+      "monsterId": 430,
+      "pokemon": "Honchkrow",
+      "region": "Unova",
+      "location": "Celestial Tower",
+      "secondsAgo": 1668,
+      "sourceId": 1789299784
     }
   ],
   "alpha": {
