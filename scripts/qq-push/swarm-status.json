@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-13T16:50:43.680Z",
+  "fetchedAt": "2026-09-13T16:55:44.928Z",
   "swarms": [
     {
       "monsterId": 157,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-13T16:57:04.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Unova",
+      "location": "Wellspring Cave",
+      "sourceId": 1789319886,
+      "despawnTimestamp": 1789319886,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-13T17:18:06.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Houndoom",
       "region": "Kanto",
       "location": "Kindle Road",
-      "secondsAgo": 5713,
+      "secondsAgo": 6014,
       "sourceId": 1789312530
     },
     {
@@ -27,16 +38,8 @@
       "pokemon": "Elekid",
       "region": "Sinnoh",
       "location": "Valley Windworks",
-      "secondsAgo": 6240,
+      "secondsAgo": 6541,
       "sourceId": 1789312003
-    },
-    {
-      "monsterId": 420,
-      "pokemon": "Cherubi",
-      "region": "Unova",
-      "location": "Route 16",
-      "secondsAgo": 8609,
-      "sourceId": 1789309634
     }
   ],
   "alpha": {
