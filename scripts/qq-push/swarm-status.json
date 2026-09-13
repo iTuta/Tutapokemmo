@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-09-13T08:20:40.753Z",
-  "swarms": [
-    {
-      "monsterId": 389,
-      "pokemon": "Torterra",
-      "region": "Sinnoh",
-      "location": "Route 212",
-      "sourceId": 1789287760,
-      "despawnTimestamp": 1789287759,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-13T08:22:40.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-13T08:25:41.006Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 103,
       "pokemon": "Exeggutor",
       "region": "Kanto",
       "location": "Route 23",
-      "secondsAgo": 1554,
+      "secondsAgo": 1854,
       "sourceId": 1789286086
     },
     {
@@ -27,7 +15,7 @@
       "pokemon": "Typhlosion",
       "region": "Johto",
       "location": "Route 45",
-      "secondsAgo": 9854,
+      "secondsAgo": 10154,
       "sourceId": 1789277786
     },
     {
@@ -35,15 +23,23 @@
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 6066,
+      "secondsAgo": 6366,
       "sourceId": 1789281574
+    },
+    {
+      "monsterId": 389,
+      "pokemon": "Torterra",
+      "region": "Sinnoh",
+      "location": "Route 212",
+      "secondsAgo": 1680,
+      "sourceId": 1789286260
     },
     {
       "monsterId": 287,
       "pokemon": "Slakoth",
       "region": "Unova",
       "location": "Route 2",
-      "secondsAgo": 4217,
+      "secondsAgo": 4517,
       "sourceId": 1789283423
     }
   ],
