@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-13T07:55:42.816Z",
+  "fetchedAt": "2026-09-13T08:01:05.761Z",
   "swarms": [
     {
       "monsterId": 103,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-13T08:19:46.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 389,
+      "pokemon": "Torterra",
+      "region": "Sinnoh",
+      "location": "Route 212",
+      "sourceId": 1789287760,
+      "despawnTimestamp": 1789287759,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-13T08:22:40.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,23 +30,15 @@
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 4568,
+      "secondsAgo": 4891,
       "sourceId": 1789281574
-    },
-    {
-      "monsterId": 162,
-      "pokemon": "Furret",
-      "region": "Sinnoh",
-      "location": "Route 208",
-      "secondsAgo": 22042,
-      "sourceId": 1789264100
     },
     {
       "monsterId": 287,
       "pokemon": "Slakoth",
       "region": "Unova",
       "location": "Route 2",
-      "secondsAgo": 2719,
+      "secondsAgo": 3042,
       "sourceId": 1789283423
     }
   ],
