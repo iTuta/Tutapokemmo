@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-09-13T15:10:41.098Z",
+  "fetchedAt": "2026-09-13T15:15:44.524Z",
   "swarms": [
+    {
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Kanto",
+      "location": "Kindle Road",
+      "sourceId": 1789313909,
+      "despawnTimestamp": 1789313909,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-13T15:38:29.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 239,
       "pokemon": "Elekid",
       "region": "Sinnoh",
       "location": "Valley Windworks",
       "sourceId": 1789313203,
-      "despawnTimestamp": 1789313203,
+      "despawnTimestamp": 1789313202,
       "hasValuable": false,
       "timestampUtc": "2026-09-13T15:26:43.000Z",
       "publishedBy": ""
@@ -15,27 +26,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Kanto",
-      "location": "Route 15",
-      "secondsAgo": 13189,
-      "sourceId": 1789299052
-    },
-    {
       "monsterId": 375,
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 1796,
-      "sourceId": 1789310445
+      "secondsAgo": 2100,
+      "sourceId": 1789310444
     },
     {
       "monsterId": 370,
       "pokemon": "Luvdisc",
       "region": "Hoenn",
       "location": "Route 132",
-      "secondsAgo": 7578,
+      "secondsAgo": 7881,
       "sourceId": 1789304663
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Cherubi",
       "region": "Unova",
       "location": "Route 16",
-      "secondsAgo": 2607,
+      "secondsAgo": 2910,
       "sourceId": 1789309634
     }
   ],
