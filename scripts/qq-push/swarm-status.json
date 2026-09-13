@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-13T03:26:13.011Z",
+  "fetchedAt": "2026-09-13T03:30:53.583Z",
   "swarms": [
     {
       "monsterId": 637,
@@ -7,9 +7,20 @@
       "region": "Hoenn",
       "location": "Scorched Slab",
       "sourceId": 1789271075,
-      "despawnTimestamp": 1789271074,
+      "despawnTimestamp": 1789271075,
       "hasValuable": false,
       "timestampUtc": "2026-09-13T03:44:35.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 317,
+      "pokemon": "Swalot",
+      "region": "Unova",
+      "location": "Route 9",
+      "sourceId": 1789271577,
+      "despawnTimestamp": 1789271576,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-13T03:52:57.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,24 +30,16 @@
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 11460,
-      "sourceId": 1789258512
+      "secondsAgo": 11740,
+      "sourceId": 1789258513
     },
     {
       "monsterId": 121,
       "pokemon": "Starmie",
       "region": "Johto",
       "location": "Cliff Edge Gate",
-      "secondsAgo": 11137,
+      "secondsAgo": 11418,
       "sourceId": 1789258835
-    },
-    {
-      "monsterId": 233,
-      "pokemon": "Porygon2",
-      "region": "Unova",
-      "location": "P2 Laboratory",
-      "secondsAgo": 4976,
-      "sourceId": 1789264996
     }
   ],
   "alpha": {
