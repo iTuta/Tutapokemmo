@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-09-13T18:55:48.892Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-13T19:01:01.805Z",
+  "swarms": [
+    {
+      "monsterId": 359,
+      "pokemon": "Absol",
+      "region": "Johto",
+      "location": "Route 28",
+      "sourceId": 1789327407,
+      "despawnTimestamp": 1789327406,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-13T19:23:27.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Kanto",
       "location": "Route 16",
-      "secondsAgo": 1895,
-      "sourceId": 1789323853
-    },
-    {
-      "monsterId": 157,
-      "pokemon": "Typhlosion",
-      "region": "Johto",
-      "location": "Route 45",
-      "secondsAgo": 8621,
-      "sourceId": 1789317127
+      "secondsAgo": 2211,
+      "sourceId": 1789323850
     },
     {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Hoenn",
       "location": "Route 113",
-      "secondsAgo": 11205,
-      "sourceId": 1789314543
+      "secondsAgo": 11520,
+      "sourceId": 1789314541
     },
     {
       "monsterId": 162,
       "pokemon": "Furret",
       "region": "Sinnoh",
       "location": "Route 208",
-      "secondsAgo": 6648,
-      "sourceId": 1789319100
+      "secondsAgo": 6964,
+      "sourceId": 1789319097
     },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 1783,
-      "sourceId": 1789323965
+      "secondsAgo": 2099,
+      "sourceId": 1789323962
     }
   ],
   "alpha": {
