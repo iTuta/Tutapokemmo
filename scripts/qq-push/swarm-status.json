@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-09-13T10:55:51.321Z",
+  "fetchedAt": "2026-09-13T11:01:00.130Z",
   "swarms": [
-    {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Johto",
-      "location": "Sprout Tower",
-      "sourceId": 1789297088,
-      "despawnTimestamp": 1789297088,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-13T10:58:08.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 453,
-      "pokemon": "Croagunk",
-      "region": "Hoenn",
-      "location": "Route 121",
-      "sourceId": 1789296976,
-      "despawnTimestamp": 1789296976,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-13T10:56:16.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 357,
       "pokemon": "Tropius",
@@ -52,8 +30,24 @@
       "pokemon": "Exeggutor",
       "region": "Kanto",
       "location": "Route 23",
-      "secondsAgo": 10864,
+      "secondsAgo": 11173,
       "sourceId": 1789286087
+    },
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Johto",
+      "location": "Sprout Tower",
+      "secondsAgo": 471,
+      "sourceId": 1789296789
+    },
+    {
+      "monsterId": 453,
+      "pokemon": "Croagunk",
+      "region": "Hoenn",
+      "location": "Route 121",
+      "secondsAgo": 1783,
+      "sourceId": 1789295477
     }
   ],
   "alpha": {
