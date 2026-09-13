@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-09-13T11:10:46.776Z",
-  "swarms": [
-    {
-      "monsterId": 357,
-      "pokemon": "Tropius",
-      "region": "Sinnoh",
-      "location": "Route 226",
-      "sourceId": 1789298090,
-      "despawnTimestamp": 1789298090,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-13T11:14:50.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-13T11:15:55.757Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 103,
       "pokemon": "Exeggutor",
       "region": "Kanto",
       "location": "Route 23",
-      "secondsAgo": 11760,
+      "secondsAgo": 12069,
       "sourceId": 1789286086
     },
     {
@@ -27,7 +15,7 @@
       "pokemon": "Misdreavus",
       "region": "Johto",
       "location": "Sprout Tower",
-      "secondsAgo": 1057,
+      "secondsAgo": 1366,
       "sourceId": 1789296789
     },
     {
@@ -35,15 +23,23 @@
       "pokemon": "Croagunk",
       "region": "Hoenn",
       "location": "Route 121",
-      "secondsAgo": 2370,
+      "secondsAgo": 2679,
       "sourceId": 1789295476
+    },
+    {
+      "monsterId": 357,
+      "pokemon": "Tropius",
+      "region": "Sinnoh",
+      "location": "Route 226",
+      "secondsAgo": 1564,
+      "sourceId": 1789296591
     },
     {
       "monsterId": 312,
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 1519,
+      "secondsAgo": 1828,
       "sourceId": 1789296327
     }
   ],
