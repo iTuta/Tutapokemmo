@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-13T16:55:44.928Z",
+  "fetchedAt": "2026-09-13T17:00:56.747Z",
   "swarms": [
-    {
-      "monsterId": 157,
-      "pokemon": "Typhlosion",
-      "region": "Johto",
-      "location": "Route 45",
-      "sourceId": 1789318624,
-      "despawnTimestamp": 1789318623,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-13T16:57:04.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
@@ -30,15 +19,23 @@
       "pokemon": "Houndoom",
       "region": "Kanto",
       "location": "Kindle Road",
-      "secondsAgo": 6014,
+      "secondsAgo": 6326,
       "sourceId": 1789312530
+    },
+    {
+      "monsterId": 157,
+      "pokemon": "Typhlosion",
+      "region": "Johto",
+      "location": "Route 45",
+      "secondsAgo": 1732,
+      "sourceId": 1789317124
     },
     {
       "monsterId": 239,
       "pokemon": "Elekid",
       "region": "Sinnoh",
       "location": "Valley Windworks",
-      "secondsAgo": 6541,
+      "secondsAgo": 6853,
       "sourceId": 1789312003
     }
   ],
