@@ -1,55 +1,45 @@
 {
-  "fetchedAt": "2026-09-13T23:25:37.551Z",
-  "swarms": [
-    {
-      "monsterId": 190,
-      "pokemon": "Aipom",
-      "region": "Johto",
-      "location": "Route 29",
-      "sourceId": 1789342130,
-      "despawnTimestamp": 1789342129,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-13T23:28:50.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 441,
-      "pokemon": "Chatot",
-      "region": "Hoenn",
-      "location": "Route 110",
-      "sourceId": 1789342191,
-      "despawnTimestamp": 1789342191,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-13T23:29:51.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 285,
-      "pokemon": "Shroomish",
-      "region": "Sinnoh",
-      "location": "Route 201",
-      "sourceId": 1789342030,
-      "despawnTimestamp": 1789342030,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-13T23:27:10.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-13T23:30:50.375Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Kanto",
       "location": "Route 16",
-      "secondsAgo": 4724,
+      "secondsAgo": 5037,
       "sourceId": 1789337213
+    },
+    {
+      "monsterId": 190,
+      "pokemon": "Aipom",
+      "region": "Johto",
+      "location": "Route 29",
+      "secondsAgo": 1620,
+      "sourceId": 1789340630
+    },
+    {
+      "monsterId": 441,
+      "pokemon": "Chatot",
+      "region": "Hoenn",
+      "location": "Route 110",
+      "secondsAgo": 1558,
+      "sourceId": 1789340692
+    },
+    {
+      "monsterId": 285,
+      "pokemon": "Shroomish",
+      "region": "Sinnoh",
+      "location": "Route 201",
+      "secondsAgo": 1719,
+      "sourceId": 1789340531
     },
     {
       "monsterId": 291,
       "pokemon": "Ninjask",
       "region": "Unova",
       "location": "Route 11",
-      "secondsAgo": 5199,
+      "secondsAgo": 5512,
       "sourceId": 1789336738
     }
   ],
