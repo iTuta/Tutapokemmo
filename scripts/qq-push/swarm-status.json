@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-09-13T18:20:53.524Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-13T18:25:41.536Z",
+  "swarms": [
     {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
+      "monsterId": 214,
+      "pokemon": "Heracross",
       "region": "Kanto",
-      "location": "Kindle Road",
-      "secondsAgo": 11123,
-      "sourceId": 1789312530
-    },
+      "location": "Route 16",
+      "sourceId": 1789325350,
+      "despawnTimestamp": 1789325349,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-13T18:49:10.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 157,
       "pokemon": "Typhlosion",
       "region": "Johto",
       "location": "Route 45",
-      "secondsAgo": 6528,
+      "secondsAgo": 6816,
       "sourceId": 1789317125
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Skarmory",
       "region": "Hoenn",
       "location": "Route 113",
-      "secondsAgo": 9112,
+      "secondsAgo": 9400,
       "sourceId": 1789314541
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Furret",
       "region": "Sinnoh",
       "location": "Route 208",
-      "secondsAgo": 4556,
+      "secondsAgo": 4844,
       "sourceId": 1789319097
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Kangaskhan",
       "region": "Unova",
       "location": "Wellspring Cave",
-      "secondsAgo": 5266,
+      "secondsAgo": 5554,
       "sourceId": 1789318387
     }
   ],
