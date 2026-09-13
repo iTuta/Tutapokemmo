@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-13T00:15:46.874Z",
+  "fetchedAt": "2026-09-13T00:20:39.695Z",
   "swarms": [
     {
       "monsterId": 335,
@@ -11,23 +11,26 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-13T00:40:12.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 121,
+      "pokemon": "Starmie",
+      "region": "Johto",
+      "location": "Cliff Edge Gate",
+      "sourceId": 1789260335,
+      "despawnTimestamp": 1789260334,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-13T00:45:35.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 153,
-      "pokemon": "Bayleef",
-      "region": "Johto",
-      "location": "National Park",
-      "secondsAgo": 23984,
-      "sourceId": 1789234562
-    },
     {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Hoenn",
       "location": "Route 105",
-      "secondsAgo": 1717,
+      "secondsAgo": 2010,
       "sourceId": 1789256829
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 14990,
+      "secondsAgo": 15283,
       "sourceId": 1789243556
     },
     {
@@ -43,8 +46,8 @@
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 9375,
-      "sourceId": 1789249171
+      "secondsAgo": 9667,
+      "sourceId": 1789249172
     }
   ],
   "alpha": {
