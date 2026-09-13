@@ -1,45 +1,55 @@
 {
-  "fetchedAt": "2026-09-13T23:01:01.528Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-13T23:05:37.552Z",
+  "swarms": [
+    {
+      "monsterId": 190,
+      "pokemon": "Aipom",
+      "region": "Johto",
+      "location": "Route 29",
+      "sourceId": 1789342130,
+      "despawnTimestamp": 1789342129,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-13T23:28:50.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 441,
+      "pokemon": "Chatot",
+      "region": "Hoenn",
+      "location": "Route 110",
+      "sourceId": 1789342191,
+      "despawnTimestamp": 1789342191,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-13T23:29:51.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 285,
+      "pokemon": "Shroomish",
+      "region": "Sinnoh",
+      "location": "Route 201",
+      "sourceId": 1789342030,
+      "despawnTimestamp": 1789342030,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-13T23:27:10.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Kanto",
       "location": "Route 16",
-      "secondsAgo": 3248,
+      "secondsAgo": 3524,
       "sourceId": 1789337213
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Johto",
-      "location": "Mt. Silver Cave",
-      "secondsAgo": 8912,
-      "sourceId": 1789331549
-    },
-    {
-      "monsterId": 256,
-      "pokemon": "Combusken",
-      "region": "Hoenn",
-      "location": "Route 114",
-      "secondsAgo": 9837,
-      "sourceId": 1789330624
-    },
-    {
-      "monsterId": 395,
-      "pokemon": "Empoleon",
-      "region": "Sinnoh",
-      "location": "Lake Acuity",
-      "secondsAgo": 13289,
-      "sourceId": 1789327172
     },
     {
       "monsterId": 291,
       "pokemon": "Ninjask",
       "region": "Unova",
       "location": "Route 11",
-      "secondsAgo": 3723,
+      "secondsAgo": 3999,
       "sourceId": 1789336738
     }
   ],
