@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-13T20:40:54.759Z",
+  "fetchedAt": "2026-09-13T20:45:55.438Z",
   "swarms": [
     {
       "monsterId": 448,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-13T20:57:29.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 256,
-      "pokemon": "Combusken",
-      "region": "Hoenn",
-      "location": "Route 114",
-      "sourceId": 1789332123,
-      "despawnTimestamp": 1789332123,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-13T20:42:03.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,15 +19,23 @@
       "pokemon": "Kirlia",
       "region": "Kanto",
       "location": "Route 8",
-      "secondsAgo": 1954,
-      "sourceId": 1789330100
+      "secondsAgo": 2254,
+      "sourceId": 1789330101
+    },
+    {
+      "monsterId": 256,
+      "pokemon": "Combusken",
+      "region": "Hoenn",
+      "location": "Route 114",
+      "secondsAgo": 1731,
+      "sourceId": 1789330624
     },
     {
       "monsterId": 395,
       "pokemon": "Empoleon",
       "region": "Sinnoh",
       "location": "Lake Acuity",
-      "secondsAgo": 4882,
+      "secondsAgo": 5183,
       "sourceId": 1789327172
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 2764,
+      "secondsAgo": 3065,
       "sourceId": 1789329290
     }
   ],
