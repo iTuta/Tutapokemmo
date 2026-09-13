@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-13T20:55:43.325Z",
+  "fetchedAt": "2026-09-13T21:01:25.234Z",
   "swarms": [
     {
       "monsterId": 127,
@@ -7,30 +7,27 @@
       "region": "Kanto",
       "location": "Route 11",
       "sourceId": 1789334086,
-      "despawnTimestamp": 1789334085,
+      "despawnTimestamp": 1789334086,
       "hasValuable": false,
       "timestampUtc": "2026-09-13T21:14:46.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Johto",
-      "location": "Mt. Silver Cave",
-      "sourceId": 1789333049,
-      "despawnTimestamp": 1789333048,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-13T20:57:29.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Johto",
+      "location": "Mt. Silver Cave",
+      "secondsAgo": 1736,
+      "sourceId": 1789331549
+    },
+    {
       "monsterId": 256,
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Route 114",
-      "secondsAgo": 2319,
+      "secondsAgo": 2661,
       "sourceId": 1789330624
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Empoleon",
       "region": "Sinnoh",
       "location": "Lake Acuity",
-      "secondsAgo": 5771,
+      "secondsAgo": 6113,
       "sourceId": 1789327172
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 3653,
+      "secondsAgo": 3995,
       "sourceId": 1789329290
     }
   ],
