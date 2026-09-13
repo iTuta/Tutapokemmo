@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-13T17:15:50.191Z",
+  "fetchedAt": "2026-09-13T17:20:49.364Z",
   "swarms": [
     {
       "monsterId": 162,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-13T17:29:57.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Unova",
-      "location": "Wellspring Cave",
-      "sourceId": 1789319886,
-      "despawnTimestamp": 1789319886,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-13T17:18:06.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,16 +19,24 @@
       "pokemon": "Houndoom",
       "region": "Kanto",
       "location": "Kindle Road",
-      "secondsAgo": 7220,
-      "sourceId": 1789312530
+      "secondsAgo": 7518,
+      "sourceId": 1789312531
     },
     {
       "monsterId": 157,
       "pokemon": "Typhlosion",
       "region": "Johto",
       "location": "Route 45",
-      "secondsAgo": 2625,
+      "secondsAgo": 2924,
       "sourceId": 1789317125
+    },
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Unova",
+      "location": "Wellspring Cave",
+      "secondsAgo": 1661,
+      "sourceId": 1789318388
     }
   ],
   "alpha": {
