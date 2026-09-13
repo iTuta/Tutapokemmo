@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-13T01:46:16.032Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-13T01:50:45.762Z",
+  "swarms": [
+    {
+      "monsterId": 162,
+      "pokemon": "Furret",
+      "region": "Sinnoh",
+      "location": "Route 208",
+      "sourceId": 1789265599,
+      "despawnTimestamp": 1789265599,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-13T02:13:19.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 5463,
+      "secondsAgo": 5732,
       "sourceId": 1789258513
     },
     {
@@ -15,32 +27,24 @@
       "pokemon": "Starmie",
       "region": "Johto",
       "location": "Cliff Edge Gate",
-      "secondsAgo": 5140,
-      "sourceId": 1789258836
+      "secondsAgo": 5410,
+      "sourceId": 1789258835
     },
     {
       "monsterId": 256,
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Route 114",
-      "secondsAgo": 3921,
+      "secondsAgo": 4190,
       "sourceId": 1789260055
-    },
-    {
-      "monsterId": 393,
-      "pokemon": "Piplup",
-      "region": "Sinnoh",
-      "location": "Route 204",
-      "secondsAgo": 20419,
-      "sourceId": 1789243557
     },
     {
       "monsterId": 287,
       "pokemon": "Slakoth",
       "region": "Unova",
       "location": "Route 2",
-      "secondsAgo": 1613,
-      "sourceId": 1789262363
+      "secondsAgo": 1883,
+      "sourceId": 1789262362
     }
   ],
   "alpha": {
