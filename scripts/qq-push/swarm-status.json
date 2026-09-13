@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-13T03:40:51.199Z",
+  "fetchedAt": "2026-09-13T03:45:43.781Z",
   "swarms": [
     {
       "monsterId": 176,
@@ -7,20 +7,9 @@
       "region": "Johto",
       "location": "Route 27",
       "sourceId": 1789272282,
-      "despawnTimestamp": 1789272282,
+      "despawnTimestamp": 1789272281,
       "hasValuable": false,
       "timestampUtc": "2026-09-13T04:04:42.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Hoenn",
-      "location": "Scorched Slab",
-      "sourceId": 1789271075,
-      "despawnTimestamp": 1789271075,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-13T03:44:35.000Z",
       "publishedBy": ""
     },
     {
@@ -29,7 +18,7 @@
       "region": "Unova",
       "location": "Route 9",
       "sourceId": 1789271577,
-      "despawnTimestamp": 1789271577,
+      "despawnTimestamp": 1789271576,
       "hasValuable": false,
       "timestampUtc": "2026-09-13T03:52:57.000Z",
       "publishedBy": ""
@@ -41,8 +30,16 @@
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 12338,
+      "secondsAgo": 12630,
       "sourceId": 1789258513
+    },
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Hoenn",
+      "location": "Scorched Slab",
+      "secondsAgo": 1568,
+      "sourceId": 1789269575
     }
   ],
   "alpha": {
