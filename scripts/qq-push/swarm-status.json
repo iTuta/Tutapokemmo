@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-09-13T15:45:47.024Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-13T15:50:42.167Z",
+  "swarms": [
+    {
+      "monsterId": 227,
+      "pokemon": "Skarmory",
+      "region": "Hoenn",
+      "location": "Route 113",
+      "sourceId": 1789316040,
+      "despawnTimestamp": 1789316040,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-13T16:14:00.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Kanto",
       "location": "Kindle Road",
-      "secondsAgo": 1815,
-      "sourceId": 1789312531
+      "secondsAgo": 2112,
+      "sourceId": 1789312530
     },
     {
       "monsterId": 375,
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 3901,
+      "secondsAgo": 4197,
       "sourceId": 1789310445
-    },
-    {
-      "monsterId": 370,
-      "pokemon": "Luvdisc",
-      "region": "Hoenn",
-      "location": "Route 132",
-      "secondsAgo": 9682,
-      "sourceId": 1789304664
     },
     {
       "monsterId": 239,
       "pokemon": "Elekid",
       "region": "Sinnoh",
       "location": "Valley Windworks",
-      "secondsAgo": 2342,
+      "secondsAgo": 2638,
       "sourceId": 1789312004
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Cherubi",
       "region": "Unova",
       "location": "Route 16",
-      "secondsAgo": 4712,
+      "secondsAgo": 5008,
       "sourceId": 1789309634
     }
   ],
