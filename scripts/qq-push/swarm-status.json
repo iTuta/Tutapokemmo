@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-13T19:15:47.130Z",
+  "fetchedAt": "2026-09-13T19:20:50.623Z",
   "swarms": [
     {
       "monsterId": 359,
@@ -7,9 +7,20 @@
       "region": "Johto",
       "location": "Route 28",
       "sourceId": 1789327407,
-      "despawnTimestamp": 1789327407,
+      "despawnTimestamp": 1789327406,
       "hasValuable": false,
       "timestampUtc": "2026-09-13T19:23:27.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 395,
+      "pokemon": "Empoleon",
+      "region": "Sinnoh",
+      "location": "Lake Acuity",
+      "sourceId": 1789328672,
+      "despawnTimestamp": 1789328671,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-13T19:44:32.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,31 +30,23 @@
       "pokemon": "Heracross",
       "region": "Kanto",
       "location": "Route 16",
-      "secondsAgo": 3096,
-      "sourceId": 1789323851
+      "secondsAgo": 3400,
+      "sourceId": 1789323850
     },
     {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Hoenn",
       "location": "Route 113",
-      "secondsAgo": 12406,
+      "secondsAgo": 12709,
       "sourceId": 1789314541
-    },
-    {
-      "monsterId": 162,
-      "pokemon": "Furret",
-      "region": "Sinnoh",
-      "location": "Route 208",
-      "secondsAgo": 7849,
-      "sourceId": 1789319098
     },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 2984,
+      "secondsAgo": 3287,
       "sourceId": 1789323963
     }
   ],
