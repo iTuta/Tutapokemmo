@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-09-13T05:35:36.456Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-13T05:40:41.887Z",
+  "swarms": [
+    {
+      "monsterId": 157,
+      "pokemon": "Typhlosion",
+      "region": "Johto",
+      "location": "Route 45",
+      "sourceId": 1789279286,
+      "despawnTimestamp": 1789279285,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-13T06:01:26.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Kanto",
       "location": "Treasure Beach",
-      "secondsAgo": 1915,
+      "secondsAgo": 2220,
       "sourceId": 1789275821
-    },
-    {
-      "monsterId": 176,
-      "pokemon": "Togetic",
-      "region": "Johto",
-      "location": "Route 27",
-      "secondsAgo": 6954,
-      "sourceId": 1789270782
     },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Hoenn",
       "location": "Scorched Slab",
-      "secondsAgo": 8160,
-      "sourceId": 1789269576
+      "secondsAgo": 8466,
+      "sourceId": 1789269575
     },
     {
       "monsterId": 162,
       "pokemon": "Furret",
       "region": "Sinnoh",
       "location": "Route 208",
-      "secondsAgo": 13636,
+      "secondsAgo": 13941,
       "sourceId": 1789264100
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 7658,
-      "sourceId": 1789270078
+      "secondsAgo": 7964,
+      "sourceId": 1789270077
     }
   ],
   "alpha": {
