@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-13T21:55:45.769Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-13T22:00:55.316Z",
+  "swarms": [
+    {
+      "monsterId": 291,
+      "pokemon": "Ninjask",
+      "region": "Unova",
+      "location": "Route 11",
+      "sourceId": 1789338237,
+      "despawnTimestamp": 1789338237,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-13T22:23:57.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "secondsAgo": 2241,
+      "secondsAgo": 2551,
       "sourceId": 1789334304
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Lucario",
       "region": "Johto",
       "location": "Mt. Silver Cave",
-      "secondsAgo": 4996,
+      "secondsAgo": 5306,
       "sourceId": 1789331549
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Route 114",
-      "secondsAgo": 5921,
+      "secondsAgo": 6231,
       "sourceId": 1789330624
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Empoleon",
       "region": "Sinnoh",
       "location": "Lake Acuity",
-      "secondsAgo": 9373,
+      "secondsAgo": 9683,
       "sourceId": 1789327172
-    },
-    {
-      "monsterId": 193,
-      "pokemon": "Yanma",
-      "region": "Unova",
-      "location": "Pinwheel Forest",
-      "secondsAgo": 7255,
-      "sourceId": 1789329290
     }
   ],
   "alpha": {
