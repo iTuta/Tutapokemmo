@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-09-13T19:50:43.246Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-13T19:55:39.966Z",
+  "swarms": [
+    {
+      "monsterId": 193,
+      "pokemon": "Yanma",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "sourceId": 1789330789,
+      "despawnTimestamp": 1789330789,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-13T20:19:49.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Kanto",
       "location": "Route 16",
-      "secondsAgo": 5192,
-      "sourceId": 1789323851
+      "secondsAgo": 5489,
+      "sourceId": 1789323850
     },
     {
       "monsterId": 359,
       "pokemon": "Absol",
       "region": "Johto",
       "location": "Route 28",
-      "secondsAgo": 3135,
+      "secondsAgo": 3431,
       "sourceId": 1789325908
     },
     {
@@ -23,16 +35,8 @@
       "pokemon": "Skarmory",
       "region": "Hoenn",
       "location": "Route 113",
-      "secondsAgo": 14501,
-      "sourceId": 1789314542
-    },
-    {
-      "monsterId": 214,
-      "pokemon": "Heracross",
-      "region": "Unova",
-      "location": "Route 10",
-      "secondsAgo": 5080,
-      "sourceId": 1789323963
+      "secondsAgo": 14798,
+      "sourceId": 1789314541
     }
   ],
   "alpha": {
