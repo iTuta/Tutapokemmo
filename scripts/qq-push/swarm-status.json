@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-09-13T16:30:51.755Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-13T16:35:48.034Z",
+  "swarms": [
+    {
+      "monsterId": 157,
+      "pokemon": "Typhlosion",
+      "region": "Johto",
+      "location": "Route 45",
+      "sourceId": 1789318624,
+      "despawnTimestamp": 1789318623,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-13T16:57:04.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Kanto",
       "location": "Kindle Road",
-      "secondsAgo": 4521,
-      "sourceId": 1789312530
-    },
-    {
-      "monsterId": 375,
-      "pokemon": "Metang",
-      "region": "Johto",
-      "location": "Ice Path",
-      "secondsAgo": 6607,
-      "sourceId": 1789310444
+      "secondsAgo": 4818,
+      "sourceId": 1789312529
     },
     {
       "monsterId": 239,
       "pokemon": "Elekid",
       "region": "Sinnoh",
       "location": "Valley Windworks",
-      "secondsAgo": 5048,
+      "secondsAgo": 5344,
       "sourceId": 1789312003
     },
     {
@@ -31,8 +35,8 @@
       "pokemon": "Cherubi",
       "region": "Unova",
       "location": "Route 16",
-      "secondsAgo": 7417,
-      "sourceId": 1789309634
+      "secondsAgo": 7714,
+      "sourceId": 1789309633
     }
   ],
   "alpha": {
