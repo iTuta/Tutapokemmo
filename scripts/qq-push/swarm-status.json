@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-13T03:15:42.477Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-13T03:20:57.262Z",
+  "swarms": [
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Hoenn",
+      "location": "Scorched Slab",
+      "sourceId": 1789271075,
+      "despawnTimestamp": 1789271075,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-13T03:44:35.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 10829,
+      "secondsAgo": 11144,
       "sourceId": 1789258513
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Starmie",
       "region": "Johto",
       "location": "Cliff Edge Gate",
-      "secondsAgo": 10506,
+      "secondsAgo": 10821,
       "sourceId": 1789258836
-    },
-    {
-      "monsterId": 256,
-      "pokemon": "Combusken",
-      "region": "Hoenn",
-      "location": "Route 114",
-      "secondsAgo": 9287,
-      "sourceId": 1789260055
     },
     {
       "monsterId": 233,
       "pokemon": "Porygon2",
       "region": "Unova",
       "location": "P2 Laboratory",
-      "secondsAgo": 4346,
+      "secondsAgo": 4661,
       "sourceId": 1789264996
     }
   ],
