@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-09-13T11:15:55.757Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-13T11:21:04.126Z",
+  "swarms": [
+    {
+      "monsterId": 149,
+      "pokemon": "Dragonite",
+      "region": "Hoenn",
+      "location": "Route 131",
+      "sourceId": 1789299743,
+      "despawnTimestamp": 1789299743,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-13T11:42:23.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 103,
       "pokemon": "Exeggutor",
       "region": "Kanto",
       "location": "Route 23",
-      "secondsAgo": 12069,
-      "sourceId": 1789286086
+      "secondsAgo": 12377,
+      "sourceId": 1789286087
     },
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Johto",
       "location": "Sprout Tower",
-      "secondsAgo": 1366,
+      "secondsAgo": 1675,
       "sourceId": 1789296789
-    },
-    {
-      "monsterId": 453,
-      "pokemon": "Croagunk",
-      "region": "Hoenn",
-      "location": "Route 121",
-      "secondsAgo": 2679,
-      "sourceId": 1789295476
     },
     {
       "monsterId": 357,
       "pokemon": "Tropius",
       "region": "Sinnoh",
       "location": "Route 226",
-      "secondsAgo": 1564,
+      "secondsAgo": 1873,
       "sourceId": 1789296591
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 1828,
-      "sourceId": 1789296327
+      "secondsAgo": 2136,
+      "sourceId": 1789296328
     }
   ],
   "alpha": {
