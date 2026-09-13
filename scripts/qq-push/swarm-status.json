@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-13T15:25:38.764Z",
+  "fetchedAt": "2026-09-13T15:31:01.265Z",
   "swarms": [
     {
       "monsterId": 229,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-13T15:38:29.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 239,
-      "pokemon": "Elekid",
-      "region": "Sinnoh",
-      "location": "Valley Windworks",
-      "sourceId": 1789313203,
-      "despawnTimestamp": 1789313202,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-13T15:26:43.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,23 +19,31 @@
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 2694,
-      "sourceId": 1789310444
+      "secondsAgo": 3016,
+      "sourceId": 1789310445
     },
     {
       "monsterId": 370,
       "pokemon": "Luvdisc",
       "region": "Hoenn",
       "location": "Route 132",
-      "secondsAgo": 8475,
+      "secondsAgo": 8798,
       "sourceId": 1789304663
+    },
+    {
+      "monsterId": 239,
+      "pokemon": "Elekid",
+      "region": "Sinnoh",
+      "location": "Valley Windworks",
+      "secondsAgo": 1457,
+      "sourceId": 1789312004
     },
     {
       "monsterId": 420,
       "pokemon": "Cherubi",
       "region": "Unova",
       "location": "Route 16",
-      "secondsAgo": 3504,
+      "secondsAgo": 3827,
       "sourceId": 1789309634
     }
   ],
