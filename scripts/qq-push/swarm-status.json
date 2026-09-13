@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-13T07:05:47.782Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-13T07:10:45.978Z",
+  "swarms": [
+    {
+      "monsterId": 287,
+      "pokemon": "Slakoth",
+      "region": "Unova",
+      "location": "Route 2",
+      "sourceId": 1789284923,
+      "despawnTimestamp": 1789284922,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-13T07:35:23.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Kanto",
       "location": "Treasure Beach",
-      "secondsAgo": 7326,
+      "secondsAgo": 7624,
       "sourceId": 1789275821
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 1573,
+      "secondsAgo": 1871,
       "sourceId": 1789281574
     },
     {
@@ -23,16 +35,8 @@
       "pokemon": "Furret",
       "region": "Sinnoh",
       "location": "Route 208",
-      "secondsAgo": 19047,
+      "secondsAgo": 19345,
       "sourceId": 1789264100
-    },
-    {
-      "monsterId": 317,
-      "pokemon": "Swalot",
-      "region": "Unova",
-      "location": "Route 9",
-      "secondsAgo": 13070,
-      "sourceId": 1789270077
     }
   ],
   "alpha": {
