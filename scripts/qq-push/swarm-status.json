@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-14T01:10:47.049Z",
+  "fetchedAt": "2026-09-14T01:15:48.159Z",
   "swarms": [
-    {
-      "monsterId": 453,
-      "pokemon": "Croagunk",
-      "region": "Kanto",
-      "location": "Route 6",
-      "sourceId": 1789348378,
-      "despawnTimestamp": 1789348378,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-14T01:12:58.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
@@ -26,19 +15,27 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 453,
+      "pokemon": "Croagunk",
+      "region": "Kanto",
+      "location": "Route 6",
+      "secondsAgo": 1669,
+      "sourceId": 1789346879
+    },
+    {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 7554,
-      "sourceId": 1789340693
+      "secondsAgo": 7856,
+      "sourceId": 1789340692
     },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Sinnoh",
       "location": "Route 201",
-      "secondsAgo": 7716,
+      "secondsAgo": 8017,
       "sourceId": 1789340531
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Ninjask",
       "region": "Unova",
       "location": "Route 11",
-      "secondsAgo": 11509,
+      "secondsAgo": 11810,
       "sourceId": 1789336738
     }
   ],
