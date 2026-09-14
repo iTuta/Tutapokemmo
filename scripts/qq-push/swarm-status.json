@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-14T18:06:13.453Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-14T18:10:55.735Z",
+  "swarms": [
+    {
+      "monsterId": 424,
+      "pokemon": "Ambipom",
+      "region": "Sinnoh",
+      "location": "Route 216",
+      "sourceId": 1789410721,
+      "despawnTimestamp": 1789410720,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-14T18:32:01.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 142,
       "pokemon": "Aerodactyl",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 18919,
+      "secondsAgo": 19201,
       "sourceId": 1789390254
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Exeggcute",
       "region": "Johto",
       "location": "Route 30",
-      "secondsAgo": 3862,
+      "secondsAgo": 4144,
       "sourceId": 1789405311
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Sharpedo",
       "region": "Hoenn",
       "location": "Route 127",
-      "secondsAgo": 7579,
+      "secondsAgo": 7861,
       "sourceId": 1789401594
-    },
-    {
-      "monsterId": 388,
-      "pokemon": "Grotle",
-      "region": "Sinnoh",
-      "location": "Sendoff Spring",
-      "secondsAgo": 3176,
-      "sourceId": 1789405997
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 3587,
+      "secondsAgo": 3869,
       "sourceId": 1789405586
     }
   ],
