@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-09-14T00:46:18.420Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-14T00:50:51.319Z",
+  "swarms": [
     {
-      "monsterId": 214,
-      "pokemon": "Heracross",
+      "monsterId": 453,
+      "pokemon": "Croagunk",
       "region": "Kanto",
-      "location": "Route 16",
-      "secondsAgo": 9565,
-      "sourceId": 1789337213
-    },
+      "location": "Route 6",
+      "sourceId": 1789348378,
+      "despawnTimestamp": 1789348378,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-14T01:12:58.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Johto",
       "location": "Route 29",
-      "secondsAgo": 6148,
+      "secondsAgo": 6421,
       "sourceId": 1789340630
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Chatot",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 6086,
+      "secondsAgo": 6359,
       "sourceId": 1789340692
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Shroomish",
       "region": "Sinnoh",
       "location": "Route 201",
-      "secondsAgo": 6247,
+      "secondsAgo": 6520,
       "sourceId": 1789340531
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Ninjask",
       "region": "Unova",
       "location": "Route 11",
-      "secondsAgo": 10040,
+      "secondsAgo": 10313,
       "sourceId": 1789336738
     }
   ],
