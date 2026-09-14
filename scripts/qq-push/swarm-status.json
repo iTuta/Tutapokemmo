@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-14T00:55:49.063Z",
+  "fetchedAt": "2026-09-14T01:01:06.425Z",
   "swarms": [
     {
       "monsterId": 453,
@@ -11,31 +11,34 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-14T01:12:58.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Johto",
+      "location": "Route 37",
+      "sourceId": 1789349140,
+      "despawnTimestamp": 1789349140,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-14T01:25:40.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 190,
-      "pokemon": "Aipom",
-      "region": "Johto",
-      "location": "Route 29",
-      "secondsAgo": 6718,
-      "sourceId": 1789340631
-    },
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 6656,
-      "sourceId": 1789340693
+      "secondsAgo": 6974,
+      "sourceId": 1789340692
     },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Sinnoh",
       "location": "Route 201",
-      "secondsAgo": 6818,
+      "secondsAgo": 7135,
       "sourceId": 1789340531
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Ninjask",
       "region": "Unova",
       "location": "Route 11",
-      "secondsAgo": 10611,
+      "secondsAgo": 10928,
       "sourceId": 1789336738
     }
   ],
