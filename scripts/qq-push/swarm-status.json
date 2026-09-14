@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-14T17:10:51.032Z",
+  "fetchedAt": "2026-09-14T17:15:42.828Z",
   "swarms": [
     {
       "monsterId": 102,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1789406810,
       "hasValuable": false,
       "timestampUtc": "2026-09-14T17:26:51.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 388,
+      "pokemon": "Grotle",
+      "region": "Sinnoh",
+      "location": "Sendoff Spring",
+      "sourceId": 1789407496,
+      "despawnTimestamp": 1789407496,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-14T17:38:16.000Z",
       "publishedBy": ""
     },
     {
@@ -30,24 +41,16 @@
       "pokemon": "Aerodactyl",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 15597,
-      "sourceId": 1789390253
+      "secondsAgo": 15888,
+      "sourceId": 1789390254
     },
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Hoenn",
       "location": "Route 127",
-      "secondsAgo": 4256,
+      "secondsAgo": 4548,
       "sourceId": 1789401594
-    },
-    {
-      "monsterId": 442,
-      "pokemon": "Spiritomb",
-      "region": "Sinnoh",
-      "location": "Turnback Cave",
-      "secondsAgo": 6273,
-      "sourceId": 1789399577
     }
   ],
   "alpha": {
