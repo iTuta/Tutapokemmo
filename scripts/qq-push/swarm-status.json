@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-14T03:01:18.306Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-14T03:05:59.080Z",
+  "swarms": [
+    {
+      "monsterId": 426,
+      "pokemon": "Drifblim",
+      "region": "Sinnoh",
+      "location": "Route 222",
+      "sourceId": 1789356384,
+      "despawnTimestamp": 1789356385,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-14T03:26:24.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
       "region": "Kanto",
       "location": "Route 6",
-      "secondsAgo": 7999,
+      "secondsAgo": 8280,
       "sourceId": 1789346879
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 7237,
+      "secondsAgo": 7518,
       "sourceId": 1789347641
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Sharpedo",
       "region": "Hoenn",
       "location": "Route 127",
-      "secondsAgo": 5373,
+      "secondsAgo": 5654,
       "sourceId": 1789349505
-    },
-    {
-      "monsterId": 391,
-      "pokemon": "Monferno",
-      "region": "Sinnoh",
-      "location": "Route 211",
-      "secondsAgo": 4041,
-      "sourceId": 1789350837
     },
     {
       "monsterId": 287,
       "pokemon": "Slakoth",
       "region": "Unova",
       "location": "Route 2",
-      "secondsAgo": 3211,
+      "secondsAgo": 3492,
       "sourceId": 1789351667
     }
   ],
