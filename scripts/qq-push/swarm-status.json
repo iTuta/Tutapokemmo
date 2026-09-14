@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-14T15:41:05.293Z",
+  "fetchedAt": "2026-09-14T15:45:43.120Z",
   "swarms": [
     {
       "monsterId": 349,
@@ -22,6 +22,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-14T15:51:17.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 317,
+      "pokemon": "Swalot",
+      "region": "Unova",
+      "location": "Route 9",
+      "sourceId": 1789402043,
+      "despawnTimestamp": 1789402043,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-14T16:07:23.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +41,7 @@
       "pokemon": "Aerodactyl",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 10211,
+      "secondsAgo": 10489,
       "sourceId": 1789390254
     },
     {
@@ -38,16 +49,8 @@
       "pokemon": "Volcarona",
       "region": "Hoenn",
       "location": "Scorched Slab",
-      "secondsAgo": 13674,
+      "secondsAgo": 13952,
       "sourceId": 1789386791
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Unova",
-      "location": "Guidance Chamber",
-      "secondsAgo": 5288,
-      "sourceId": 1789395177
     }
   ],
   "alpha": {
