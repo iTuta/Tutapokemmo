@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-09-14T17:01:03.103Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-14T17:05:44.930Z",
+  "swarms": [
+    {
+      "monsterId": 102,
+      "pokemon": "Exeggcute",
+      "region": "Johto",
+      "location": "Route 30",
+      "sourceId": 1789406811,
+      "despawnTimestamp": 1789406810,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-14T17:26:51.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 142,
       "pokemon": "Aerodactyl",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 15009,
-      "sourceId": 1789390254
-    },
-    {
-      "monsterId": 349,
-      "pokemon": "Feebas",
-      "region": "Johto",
-      "location": "Lake Of Rage",
-      "secondsAgo": 4960,
-      "sourceId": 1789400303
+      "secondsAgo": 15291,
+      "sourceId": 1789390253
     },
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Hoenn",
       "location": "Route 127",
-      "secondsAgo": 3668,
-      "sourceId": 1789401595
+      "secondsAgo": 3950,
+      "sourceId": 1789401594
     },
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Sinnoh",
       "location": "Turnback Cave",
-      "secondsAgo": 5685,
-      "sourceId": 1789399578
+      "secondsAgo": 5967,
+      "sourceId": 1789399577
     },
     {
       "monsterId": 317,
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 4719,
-      "sourceId": 1789400544
+      "secondsAgo": 5001,
+      "sourceId": 1789400543
     }
   ],
   "alpha": {
