@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-14T11:20:55.544Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-14T11:25:58.781Z",
+  "swarms": [
+    {
+      "monsterId": 212,
+      "pokemon": "Scizor",
+      "region": "Unova",
+      "location": "Route 14",
+      "sourceId": 1789386421,
+      "despawnTimestamp": 1789386421,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-14T11:47:01.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 103,
       "pokemon": "Exeggutor",
       "region": "Kanto",
       "location": "Route 23",
-      "secondsAgo": 8949,
+      "secondsAgo": 9252,
       "sourceId": 1789375906
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 17208,
+      "secondsAgo": 17511,
       "sourceId": 1789367647
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Route 114",
-      "secondsAgo": 2318,
+      "secondsAgo": 2621,
       "sourceId": 1789382537
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Heracross",
       "region": "Sinnoh",
       "location": "Route 206",
-      "secondsAgo": 7315,
+      "secondsAgo": 7618,
       "sourceId": 1789377540
-    },
-    {
-      "monsterId": 457,
-      "pokemon": "Lumineon",
-      "region": "Unova",
-      "location": "Route 17",
-      "secondsAgo": 28707,
-      "sourceId": 1789356148
     }
   ],
   "alpha": {
