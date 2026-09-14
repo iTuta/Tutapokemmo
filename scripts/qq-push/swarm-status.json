@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-14T17:25:44.398Z",
+  "fetchedAt": "2026-09-14T17:31:02.234Z",
   "swarms": [
-    {
-      "monsterId": 102,
-      "pokemon": "Exeggcute",
-      "region": "Johto",
-      "location": "Route 30",
-      "sourceId": 1789406811,
-      "despawnTimestamp": 1789406811,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-14T17:26:51.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 388,
       "pokemon": "Grotle",
@@ -41,16 +30,24 @@
       "pokemon": "Aerodactyl",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 16490,
+      "secondsAgo": 16808,
       "sourceId": 1789390254
+    },
+    {
+      "monsterId": 102,
+      "pokemon": "Exeggcute",
+      "region": "Johto",
+      "location": "Route 30",
+      "secondsAgo": 1750,
+      "sourceId": 1789405312
     },
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Hoenn",
       "location": "Route 127",
-      "secondsAgo": 5150,
-      "sourceId": 1789401594
+      "secondsAgo": 5467,
+      "sourceId": 1789401595
     }
   ],
   "alpha": {
