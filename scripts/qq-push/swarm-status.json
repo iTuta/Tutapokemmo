@@ -1,38 +1,42 @@
 {
-  "fetchedAt": "2026-09-14T10:40:46.078Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-14T10:45:44.780Z",
+  "swarms": [
+    {
+      "monsterId": 256,
+      "pokemon": "Combusken",
+      "region": "Hoenn",
+      "location": "Route 114",
+      "sourceId": 1789383736,
+      "despawnTimestamp": 1789383736,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-14T11:02:16.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 103,
       "pokemon": "Exeggutor",
       "region": "Kanto",
       "location": "Route 23",
-      "secondsAgo": 6540,
+      "secondsAgo": 6838,
       "sourceId": 1789375906
-    },
-    {
-      "monsterId": 319,
-      "pokemon": "Sharpedo",
-      "region": "Hoenn",
-      "location": "Route 127",
-      "secondsAgo": 32941,
-      "sourceId": 1789349505
     },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Sinnoh",
       "location": "Route 206",
-      "secondsAgo": 4905,
-      "sourceId": 1789377541
+      "secondsAgo": 5204,
+      "sourceId": 1789377540
     },
     {
       "monsterId": 457,
       "pokemon": "Lumineon",
       "region": "Unova",
       "location": "Route 17",
-      "secondsAgo": 26298,
-      "sourceId": 1789356148
+      "secondsAgo": 26597,
+      "sourceId": 1789356147
     }
   ],
   "alpha": {
