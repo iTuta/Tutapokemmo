@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-09-14T05:30:51.318Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-14T05:35:37.907Z",
+  "swarms": [
     {
-      "monsterId": 83,
-      "pokemon": "Farfetch&#x27;d",
+      "monsterId": 2,
+      "pokemon": "Ivysaur",
       "region": "Kanto",
-      "location": "Route 13",
-      "secondsAgo": 7034,
-      "sourceId": 1789356817
-    },
+      "location": "Route 5",
+      "sourceId": 1789365428,
+      "despawnTimestamp": 1789365427,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-14T05:57:08.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Johto",
       "location": "Route 26",
-      "secondsAgo": 7053,
+      "secondsAgo": 7339,
       "sourceId": 1789356798
     },
     {
@@ -23,15 +27,15 @@
       "pokemon": "Sharpedo",
       "region": "Hoenn",
       "location": "Route 127",
-      "secondsAgo": 14346,
-      "sourceId": 1789349505
+      "secondsAgo": 14633,
+      "sourceId": 1789349504
     },
     {
       "monsterId": 426,
       "pokemon": "Drifblim",
       "region": "Sinnoh",
       "location": "Route 222",
-      "secondsAgo": 8966,
+      "secondsAgo": 9252,
       "sourceId": 1789354885
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Lumineon",
       "region": "Unova",
       "location": "Route 17",
-      "secondsAgo": 7703,
-      "sourceId": 1789356148
+      "secondsAgo": 7990,
+      "sourceId": 1789356147
     }
   ],
   "alpha": {
