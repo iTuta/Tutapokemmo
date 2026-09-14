@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-14T20:51:05.964Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-14T20:55:45.899Z",
+  "swarms": [
+    {
+      "monsterId": 190,
+      "pokemon": "Aipom",
+      "region": "Unova",
+      "location": "Cold Storage",
+      "sourceId": 1789420708,
+      "despawnTimestamp": 1789420707,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-14T21:18:28.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 3092,
+      "secondsAgo": 3372,
       "sourceId": 1789415973
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Murkrow",
       "region": "Hoenn",
       "location": "Jagged Pass",
-      "secondsAgo": 1569,
+      "secondsAgo": 1849,
       "sourceId": 1789417496
     },
     {
@@ -23,16 +35,8 @@
       "pokemon": "Ambipom",
       "region": "Sinnoh",
       "location": "Route 216",
-      "secondsAgo": 9844,
+      "secondsAgo": 10124,
       "sourceId": 1789409221
-    },
-    {
-      "monsterId": 193,
-      "pokemon": "Yanma",
-      "region": "Unova",
-      "location": "Pinwheel Forest",
-      "secondsAgo": 13479,
-      "sourceId": 1789405586
     }
   ],
   "alpha": {
