@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-14T06:55:52.549Z",
+  "fetchedAt": "2026-09-14T07:01:10.148Z",
   "swarms": [
-    {
-      "monsterId": 290,
-      "pokemon": "Nincada",
-      "region": "Johto",
-      "location": "Route 46",
-      "sourceId": 1789369146,
-      "despawnTimestamp": 1789369146,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-14T06:59:06.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
@@ -30,15 +19,23 @@
       "pokemon": "Ivysaur",
       "region": "Kanto",
       "location": "Route 5",
-      "secondsAgo": 5023,
+      "secondsAgo": 5341,
       "sourceId": 1789363929
+    },
+    {
+      "monsterId": 290,
+      "pokemon": "Nincada",
+      "region": "Johto",
+      "location": "Route 46",
+      "secondsAgo": 1623,
+      "sourceId": 1789367647
     },
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Hoenn",
       "location": "Route 127",
-      "secondsAgo": 19447,
+      "secondsAgo": 19765,
       "sourceId": 1789349505
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Lumineon",
       "region": "Unova",
       "location": "Route 17",
-      "secondsAgo": 12805,
-      "sourceId": 1789356147
+      "secondsAgo": 13122,
+      "sourceId": 1789356148
     }
   ],
   "alpha": {
