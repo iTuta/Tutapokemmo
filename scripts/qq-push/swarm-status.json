@@ -1,46 +1,53 @@
 {
-  "fetchedAt": "2026-09-14T21:45:40.099Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-14T21:50:44.641Z",
+  "swarms": [
     {
-      "monsterId": 369,
-      "pokemon": "Relicanth",
+      "monsterId": 319,
+      "pokemon": "Sharpedo",
       "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 6366,
-      "sourceId": 1789415974
+      "location": "Water Labyrinth",
+      "sourceId": 1789424076,
+      "despawnTimestamp": 1789424076,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-14T22:14:36.000Z",
+      "publishedBy": ""
     },
+    {
+      "monsterId": 291,
+      "pokemon": "Ninjask",
+      "region": "Unova",
+      "location": "Route 11",
+      "sourceId": 1789424111,
+      "despawnTimestamp": 1789424110,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-14T22:15:11.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 9683,
-      "sourceId": 1789412657
+      "secondsAgo": 9988,
+      "sourceId": 1789412656
     },
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Hoenn",
       "location": "Jagged Pass",
-      "secondsAgo": 4843,
-      "sourceId": 1789417497
+      "secondsAgo": 5148,
+      "sourceId": 1789417496
     },
     {
       "monsterId": 389,
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 1679,
+      "secondsAgo": 1983,
       "sourceId": 1789420661
-    },
-    {
-      "monsterId": 190,
-      "pokemon": "Aipom",
-      "region": "Unova",
-      "location": "Cold Storage",
-      "secondsAgo": 3131,
-      "sourceId": 1789419209
     }
   ],
   "alpha": {
