@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-14T19:25:44.161Z",
+  "fetchedAt": "2026-09-14T19:30:57.723Z",
   "swarms": [
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Johto",
-      "location": "Dark Cave",
-      "sourceId": 1789414156,
-      "despawnTimestamp": 1789414156,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-14T19:29:16.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
@@ -30,24 +19,32 @@
       "pokemon": "Aerodactyl",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 23690,
+      "secondsAgo": 24003,
       "sourceId": 1789390254
+    },
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Johto",
+      "location": "Dark Cave",
+      "secondsAgo": 1601,
+      "sourceId": 1789412656
     },
     {
       "monsterId": 424,
       "pokemon": "Ambipom",
       "region": "Sinnoh",
       "location": "Route 216",
-      "secondsAgo": 4722,
-      "sourceId": 1789409222
+      "secondsAgo": 5036,
+      "sourceId": 1789409221
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 8357,
-      "sourceId": 1789405587
+      "secondsAgo": 8671,
+      "sourceId": 1789405586
     }
   ],
   "alpha": {
