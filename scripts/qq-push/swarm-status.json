@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-14T12:10:49.989Z",
+  "fetchedAt": "2026-09-14T12:15:46.571Z",
   "swarms": [
     {
       "monsterId": 242,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1789388482,
       "hasValuable": false,
       "timestampUtc": "2026-09-14T12:21:23.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Johto",
+      "location": "Route 38",
+      "sourceId": 1789389644,
+      "despawnTimestamp": 1789389644,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-14T12:40:44.000Z",
       "publishedBy": ""
     },
     {
@@ -37,20 +48,12 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 290,
-      "pokemon": "Nincada",
-      "region": "Johto",
-      "location": "Route 46",
-      "secondsAgo": 20203,
-      "sourceId": 1789367646
-    },
-    {
       "monsterId": 212,
       "pokemon": "Scizor",
       "region": "Unova",
       "location": "Route 14",
-      "secondsAgo": 2928,
-      "sourceId": 1789384921
+      "secondsAgo": 3224,
+      "sourceId": 1789384922
     }
   ],
   "alpha": {
