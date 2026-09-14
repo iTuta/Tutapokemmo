@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-14T17:05:44.930Z",
+  "fetchedAt": "2026-09-14T17:10:51.032Z",
   "swarms": [
     {
       "monsterId": 102,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-14T17:26:51.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 193,
+      "pokemon": "Yanma",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "sourceId": 1789407086,
+      "despawnTimestamp": 1789407085,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-14T17:31:26.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Aerodactyl",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 15291,
+      "secondsAgo": 15597,
       "sourceId": 1789390253
     },
     {
@@ -27,7 +38,7 @@
       "pokemon": "Sharpedo",
       "region": "Hoenn",
       "location": "Route 127",
-      "secondsAgo": 3950,
+      "secondsAgo": 4256,
       "sourceId": 1789401594
     },
     {
@@ -35,16 +46,8 @@
       "pokemon": "Spiritomb",
       "region": "Sinnoh",
       "location": "Turnback Cave",
-      "secondsAgo": 5967,
+      "secondsAgo": 6273,
       "sourceId": 1789399577
-    },
-    {
-      "monsterId": 317,
-      "pokemon": "Swalot",
-      "region": "Unova",
-      "location": "Route 9",
-      "secondsAgo": 5001,
-      "sourceId": 1789400543
     }
   ],
   "alpha": {
