@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-14T22:10:57.338Z",
+  "fetchedAt": "2026-09-14T22:15:42.356Z",
   "swarms": [
-    {
-      "monsterId": 319,
-      "pokemon": "Sharpedo",
-      "region": "Kanto",
-      "location": "Water Labyrinth",
-      "sourceId": 1789424076,
-      "despawnTimestamp": 1789424076,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-14T22:14:36.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 260,
       "pokemon": "Swampert",
@@ -22,26 +11,23 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-14T22:19:57.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 291,
-      "pokemon": "Ninjask",
-      "region": "Unova",
-      "location": "Route 11",
-      "sourceId": 1789424111,
-      "despawnTimestamp": 1789424111,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-14T22:15:11.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
+    {
+      "monsterId": 319,
+      "pokemon": "Sharpedo",
+      "region": "Kanto",
+      "location": "Water Labyrinth",
+      "secondsAgo": 1565,
+      "sourceId": 1789422577
+    },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 11201,
+      "secondsAgo": 11486,
       "sourceId": 1789412656
     },
     {
@@ -49,8 +35,16 @@
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 3196,
+      "secondsAgo": 3481,
       "sourceId": 1789420661
+    },
+    {
+      "monsterId": 291,
+      "pokemon": "Ninjask",
+      "region": "Unova",
+      "location": "Route 11",
+      "secondsAgo": 1530,
+      "sourceId": 1789422612
     }
   ],
   "alpha": {
