@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-14T12:20:49.235Z",
+  "fetchedAt": "2026-09-14T12:25:38.862Z",
   "swarms": [
-    {
-      "monsterId": 242,
-      "pokemon": "Blissey",
-      "region": "Kanto",
-      "location": "Three Island",
-      "sourceId": 1789388483,
-      "despawnTimestamp": 1789388483,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-14T12:21:23.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
@@ -29,7 +18,7 @@
       "region": "Sinnoh",
       "location": "Route 204",
       "sourceId": 1789389292,
-      "despawnTimestamp": 1789389292,
+      "despawnTimestamp": 1789389291,
       "hasValuable": false,
       "timestampUtc": "2026-09-14T12:34:52.000Z",
       "publishedBy": ""
@@ -37,19 +26,27 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 242,
+      "pokemon": "Blissey",
+      "region": "Kanto",
+      "location": "Three Island",
+      "secondsAgo": 1755,
+      "sourceId": 1789386983
+    },
+    {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Hoenn",
       "location": "Scorched Slab",
-      "secondsAgo": 1658,
-      "sourceId": 1789386791
+      "secondsAgo": 1948,
+      "sourceId": 1789386790
     },
     {
       "monsterId": 212,
       "pokemon": "Scizor",
       "region": "Unova",
       "location": "Route 14",
-      "secondsAgo": 3527,
+      "secondsAgo": 3816,
       "sourceId": 1789384922
     }
   ],
