@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-14T12:30:52.850Z",
+  "fetchedAt": "2026-09-14T12:35:42.545Z",
   "swarms": [
     {
       "monsterId": 128,
@@ -7,20 +7,9 @@
       "region": "Johto",
       "location": "Route 38",
       "sourceId": 1789389644,
-      "despawnTimestamp": 1789389643,
+      "despawnTimestamp": 1789389644,
       "hasValuable": false,
       "timestampUtc": "2026-09-14T12:40:44.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 393,
-      "pokemon": "Piplup",
-      "region": "Sinnoh",
-      "location": "Route 204",
-      "sourceId": 1789389292,
-      "despawnTimestamp": 1789389291,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-14T12:34:52.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,7 +19,7 @@
       "pokemon": "Blissey",
       "region": "Kanto",
       "location": "Three Island",
-      "secondsAgo": 2069,
+      "secondsAgo": 2359,
       "sourceId": 1789386983
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Volcarona",
       "region": "Hoenn",
       "location": "Scorched Slab",
-      "secondsAgo": 2262,
+      "secondsAgo": 2552,
       "sourceId": 1789386790
+    },
+    {
+      "monsterId": 393,
+      "pokemon": "Piplup",
+      "region": "Sinnoh",
+      "location": "Route 204",
+      "secondsAgo": 1550,
+      "sourceId": 1789387792
     },
     {
       "monsterId": 212,
       "pokemon": "Scizor",
       "region": "Unova",
       "location": "Route 14",
-      "secondsAgo": 4130,
+      "secondsAgo": 4420,
       "sourceId": 1789384922
     }
   ],
