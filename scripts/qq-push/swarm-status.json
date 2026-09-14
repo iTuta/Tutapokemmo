@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-09-14T19:00:59.079Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-14T19:05:42.581Z",
+  "swarms": [
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Johto",
+      "location": "Dark Cave",
+      "sourceId": 1789414156,
+      "despawnTimestamp": 1789414155,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-14T19:29:16.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 142,
       "pokemon": "Aerodactyl",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 22205,
+      "secondsAgo": 22488,
       "sourceId": 1789390254
-    },
-    {
-      "monsterId": 102,
-      "pokemon": "Exeggcute",
-      "region": "Johto",
-      "location": "Route 30",
-      "secondsAgo": 7147,
-      "sourceId": 1789405312
     },
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Hoenn",
       "location": "Route 127",
-      "secondsAgo": 10864,
-      "sourceId": 1789401595
+      "secondsAgo": 11148,
+      "sourceId": 1789401594
     },
     {
       "monsterId": 424,
       "pokemon": "Ambipom",
       "region": "Sinnoh",
       "location": "Route 216",
-      "secondsAgo": 3237,
-      "sourceId": 1789409222
+      "secondsAgo": 3521,
+      "sourceId": 1789409221
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 6872,
-      "sourceId": 1789405587
+      "secondsAgo": 7156,
+      "sourceId": 1789405586
     }
   ],
   "alpha": {
