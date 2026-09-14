@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-14T01:50:46.281Z",
+  "fetchedAt": "2026-09-14T01:55:48.180Z",
   "swarms": [
     {
       "monsterId": 319,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-14T01:56:44.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 391,
+      "pokemon": "Monferno",
+      "region": "Sinnoh",
+      "location": "Route 211",
+      "sourceId": 1789352336,
+      "despawnTimestamp": 1789352336,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-14T02:18:56.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Croagunk",
       "region": "Kanto",
       "location": "Route 6",
-      "secondsAgo": 3767,
+      "secondsAgo": 4069,
       "sourceId": 1789346879
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 3005,
+      "secondsAgo": 3307,
       "sourceId": 1789347641
-    },
-    {
-      "monsterId": 285,
-      "pokemon": "Shroomish",
-      "region": "Sinnoh",
-      "location": "Route 201",
-      "secondsAgo": 10115,
-      "sourceId": 1789340531
     },
     {
       "monsterId": 125,
       "pokemon": "Electabuzz",
       "region": "Unova",
       "location": "Chargestone Cave",
-      "secondsAgo": 1939,
+      "secondsAgo": 2241,
       "sourceId": 1789348707
     }
   ],
