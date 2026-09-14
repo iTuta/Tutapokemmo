@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-14T15:55:56.822Z",
+  "fetchedAt": "2026-09-14T16:01:00.256Z",
   "swarms": [
     {
       "monsterId": 349,
@@ -7,9 +7,20 @@
       "region": "Johto",
       "location": "Lake Of Rage",
       "sourceId": 1789401802,
-      "despawnTimestamp": 1789401801,
+      "despawnTimestamp": 1789401802,
       "hasValuable": false,
       "timestampUtc": "2026-09-14T16:03:22.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 319,
+      "pokemon": "Sharpedo",
+      "region": "Hoenn",
+      "location": "Route 127",
+      "sourceId": 1789403094,
+      "despawnTimestamp": 1789403094,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-14T16:24:54.000Z",
       "publishedBy": ""
     },
     {
@@ -30,24 +41,16 @@
       "pokemon": "Aerodactyl",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 11102,
+      "secondsAgo": 11406,
       "sourceId": 1789390254
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Hoenn",
-      "location": "Scorched Slab",
-      "secondsAgo": 14566,
-      "sourceId": 1789386790
     },
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Sinnoh",
       "location": "Turnback Cave",
-      "secondsAgo": 1779,
-      "sourceId": 1789399577
+      "secondsAgo": 2082,
+      "sourceId": 1789399578
     }
   ],
   "alpha": {
