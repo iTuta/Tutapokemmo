@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-14T03:45:58.820Z",
+  "fetchedAt": "2026-09-14T03:50:54.539Z",
   "swarms": [
     {
       "monsterId": 83,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-14T03:58:17.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 457,
-      "pokemon": "Lumineon",
-      "region": "Unova",
-      "location": "Route 17",
-      "sourceId": 1789357647,
-      "despawnTimestamp": 1789357646,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-14T03:47:27.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,8 +30,16 @@
       "pokemon": "Drifblim",
       "region": "Sinnoh",
       "location": "Route 222",
-      "secondsAgo": 2673,
+      "secondsAgo": 2969,
       "sourceId": 1789354885
+    },
+    {
+      "monsterId": 457,
+      "pokemon": "Lumineon",
+      "region": "Unova",
+      "location": "Route 17",
+      "secondsAgo": 1707,
+      "sourceId": 1789356147
     }
   ],
   "alpha": {
