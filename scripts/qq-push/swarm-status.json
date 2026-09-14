@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-09-14T15:35:41.874Z",
+  "fetchedAt": "2026-09-14T15:41:05.293Z",
   "swarms": [
+    {
+      "monsterId": 349,
+      "pokemon": "Feebas",
+      "region": "Johto",
+      "location": "Lake Of Rage",
+      "sourceId": 1789401802,
+      "despawnTimestamp": 1789401802,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-14T16:03:22.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Sinnoh",
       "location": "Turnback Cave",
       "sourceId": 1789401077,
-      "despawnTimestamp": 1789401076,
+      "despawnTimestamp": 1789401077,
       "hasValuable": false,
       "timestampUtc": "2026-09-14T15:51:17.000Z",
       "publishedBy": ""
@@ -19,32 +30,24 @@
       "pokemon": "Aerodactyl",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 9888,
-      "sourceId": 1789390253
-    },
-    {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Johto",
-      "location": "Route 38",
-      "secondsAgo": 11997,
-      "sourceId": 1789388144
+      "secondsAgo": 10211,
+      "sourceId": 1789390254
     },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Hoenn",
       "location": "Scorched Slab",
-      "secondsAgo": 13351,
-      "sourceId": 1789386790
+      "secondsAgo": 13674,
+      "sourceId": 1789386791
     },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 4965,
-      "sourceId": 1789395176
+      "secondsAgo": 5288,
+      "sourceId": 1789395177
     }
   ],
   "alpha": {
