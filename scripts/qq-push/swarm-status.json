@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-14T15:50:40.359Z",
+  "fetchedAt": "2026-09-14T15:55:56.822Z",
   "swarms": [
     {
       "monsterId": 349,
@@ -7,20 +7,9 @@
       "region": "Johto",
       "location": "Lake Of Rage",
       "sourceId": 1789401802,
-      "despawnTimestamp": 1789401802,
+      "despawnTimestamp": 1789401801,
       "hasValuable": false,
       "timestampUtc": "2026-09-14T16:03:22.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 442,
-      "pokemon": "Spiritomb",
-      "region": "Sinnoh",
-      "location": "Turnback Cave",
-      "sourceId": 1789401077,
-      "despawnTimestamp": 1789401077,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-14T15:51:17.000Z",
       "publishedBy": ""
     },
     {
@@ -41,7 +30,7 @@
       "pokemon": "Aerodactyl",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 10786,
+      "secondsAgo": 11102,
       "sourceId": 1789390254
     },
     {
@@ -49,8 +38,16 @@
       "pokemon": "Volcarona",
       "region": "Hoenn",
       "location": "Scorched Slab",
-      "secondsAgo": 14250,
+      "secondsAgo": 14566,
       "sourceId": 1789386790
+    },
+    {
+      "monsterId": 442,
+      "pokemon": "Spiritomb",
+      "region": "Sinnoh",
+      "location": "Turnback Cave",
+      "secondsAgo": 1779,
+      "sourceId": 1789399577
     }
   ],
   "alpha": {
