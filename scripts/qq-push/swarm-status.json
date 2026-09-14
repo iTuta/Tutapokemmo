@@ -1,13 +1,35 @@
 {
-  "fetchedAt": "2026-09-14T03:31:09.343Z",
+  "fetchedAt": "2026-09-14T03:35:38.854Z",
   "swarms": [
+    {
+      "monsterId": 83,
+      "pokemon": "Farfetch&#x27;d",
+      "region": "Kanto",
+      "location": "Route 13",
+      "sourceId": 1789358316,
+      "despawnTimestamp": 1789358316,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-14T03:58:36.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 227,
+      "pokemon": "Skarmory",
+      "region": "Johto",
+      "location": "Route 26",
+      "sourceId": 1789358297,
+      "despawnTimestamp": 1789358297,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-14T03:58:17.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 457,
       "pokemon": "Lumineon",
       "region": "Unova",
       "location": "Route 17",
       "sourceId": 1789357647,
-      "despawnTimestamp": 1789357647,
+      "despawnTimestamp": 1789357646,
       "hasValuable": false,
       "timestampUtc": "2026-09-14T03:47:27.000Z",
       "publishedBy": ""
@@ -15,35 +37,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 453,
-      "pokemon": "Croagunk",
-      "region": "Kanto",
-      "location": "Route 6",
-      "secondsAgo": 9790,
-      "sourceId": 1789346879
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Johto",
-      "location": "Route 37",
-      "secondsAgo": 9028,
-      "sourceId": 1789347641
-    },
-    {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Hoenn",
       "location": "Route 127",
-      "secondsAgo": 7164,
-      "sourceId": 1789349505
+      "secondsAgo": 7434,
+      "sourceId": 1789349504
     },
     {
       "monsterId": 426,
       "pokemon": "Drifblim",
       "region": "Sinnoh",
       "location": "Route 222",
-      "secondsAgo": 1784,
+      "secondsAgo": 2053,
       "sourceId": 1789354885
     }
   ],
