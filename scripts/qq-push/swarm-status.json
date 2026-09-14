@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-14T01:15:48.159Z",
+  "fetchedAt": "2026-09-14T01:20:49.082Z",
   "swarms": [
     {
       "monsterId": 570,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-14T01:25:40.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 125,
+      "pokemon": "Electabuzz",
+      "region": "Unova",
+      "location": "Chargestone Cave",
+      "sourceId": 1789350206,
+      "despawnTimestamp": 1789350206,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-14T01:43:26.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Croagunk",
       "region": "Kanto",
       "location": "Route 6",
-      "secondsAgo": 1669,
+      "secondsAgo": 1970,
       "sourceId": 1789346879
     },
     {
@@ -27,24 +38,16 @@
       "pokemon": "Chatot",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 7856,
-      "sourceId": 1789340692
+      "secondsAgo": 8156,
+      "sourceId": 1789340693
     },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Sinnoh",
       "location": "Route 201",
-      "secondsAgo": 8017,
+      "secondsAgo": 8318,
       "sourceId": 1789340531
-    },
-    {
-      "monsterId": 291,
-      "pokemon": "Ninjask",
-      "region": "Unova",
-      "location": "Route 11",
-      "secondsAgo": 11810,
-      "sourceId": 1789336738
     }
   ],
   "alpha": {
