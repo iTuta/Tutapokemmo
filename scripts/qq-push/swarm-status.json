@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-15T17:25:37.744Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-15T17:30:50.552Z",
+  "swarms": [
+    {
+      "monsterId": 394,
+      "pokemon": "Prinplup",
+      "region": "Sinnoh",
+      "location": "Route 220",
+      "sourceId": 1789494734,
+      "despawnTimestamp": 1789494734,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-15T17:52:14.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 5,
       "pokemon": "Charmeleon",
       "region": "Kanto",
       "location": "Rock Tunnel",
-      "secondsAgo": 2375,
+      "secondsAgo": 2688,
       "sourceId": 1789490762
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Chimecho",
       "region": "Johto",
       "location": "Bellchime Trail",
-      "secondsAgo": 5173,
+      "secondsAgo": 5486,
       "sourceId": 1789487964
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Castform",
       "region": "Hoenn",
       "location": "Aqua Hideout",
-      "secondsAgo": 6302,
-      "sourceId": 1789486835
-    },
-    {
-      "monsterId": 288,
-      "pokemon": "Vigoroth",
-      "region": "Sinnoh",
-      "location": "Route 215",
-      "secondsAgo": 13293,
-      "sourceId": 1789479844
+      "secondsAgo": 6614,
+      "sourceId": 1789486836
     },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 3339,
-      "sourceId": 1789489798
+      "secondsAgo": 3651,
+      "sourceId": 1789489799
     }
   ],
   "alpha": {
