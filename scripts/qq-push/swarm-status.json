@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-09-15T20:20:57.978Z",
+  "fetchedAt": "2026-09-15T20:25:55.365Z",
   "swarms": [
-    {
-      "monsterId": 159,
-      "pokemon": "Croconaw",
-      "region": "Johto",
-      "location": "Whirl Islands",
-      "sourceId": 1789503669,
-      "despawnTimestamp": 1789503669,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-15T20:21:09.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 376,
       "pokemon": "Metagross",
       "region": "Unova",
       "location": "Giant Chasm",
       "sourceId": 1789505065,
-      "despawnTimestamp": 1789505064,
+      "despawnTimestamp": 1789505065,
       "hasValuable": false,
       "timestampUtc": "2026-09-15T20:44:25.000Z",
       "publishedBy": ""
@@ -26,20 +15,28 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 159,
+      "pokemon": "Croconaw",
+      "region": "Johto",
+      "location": "Whirl Islands",
+      "secondsAgo": 1785,
+      "sourceId": 1789502170
+    },
+    {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Hoenn",
       "location": "Jagged Pass",
-      "secondsAgo": 2501,
-      "sourceId": 1789501156
+      "secondsAgo": 2798,
+      "sourceId": 1789501157
     },
     {
       "monsterId": 394,
       "pokemon": "Prinplup",
       "region": "Sinnoh",
       "location": "Route 220",
-      "secondsAgo": 10423,
-      "sourceId": 1789493234
+      "secondsAgo": 10720,
+      "sourceId": 1789493235
     }
   ],
   "alpha": {
