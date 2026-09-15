@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-15T11:35:51.474Z",
+  "fetchedAt": "2026-09-15T11:40:42.300Z",
   "swarms": [
     {
       "monsterId": 349,
@@ -7,20 +7,9 @@
       "region": "Johto",
       "location": "Lake of Rage",
       "sourceId": 1789472508,
-      "despawnTimestamp": 1789472507,
+      "despawnTimestamp": 1789472508,
       "hasValuable": false,
       "timestampUtc": "2026-09-15T11:41:48.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 376,
-      "pokemon": "Metagross",
-      "region": "Unova",
-      "location": "Giant Chasm",
-      "sourceId": 1789472420,
-      "despawnTimestamp": 1789472420,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-15T11:40:20.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,7 +19,7 @@
       "pokemon": "Dragonite",
       "region": "Kanto",
       "location": "Six Island",
-      "secondsAgo": 4953,
+      "secondsAgo": 5244,
       "sourceId": 1789467198
     },
     {
@@ -38,7 +27,7 @@
       "pokemon": "Lapras",
       "region": "Hoenn",
       "location": "Shoal Cave",
-      "secondsAgo": 8458,
+      "secondsAgo": 8749,
       "sourceId": 1789463693
     },
     {
@@ -46,8 +35,16 @@
       "pokemon": "Miltank",
       "region": "Sinnoh",
       "location": "Route 214",
-      "secondsAgo": 12316,
+      "secondsAgo": 12607,
       "sourceId": 1789459835
+    },
+    {
+      "monsterId": 376,
+      "pokemon": "Metagross",
+      "region": "Unova",
+      "location": "Giant Chasm",
+      "secondsAgo": 1521,
+      "sourceId": 1789470921
     }
   ],
   "alpha": {
