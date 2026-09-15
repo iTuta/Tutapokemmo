@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-09-15T08:30:55.680Z",
-  "swarms": [
-    {
-      "monsterId": 241,
-      "pokemon": "Miltank",
-      "region": "Sinnoh",
-      "location": "Route 214",
-      "sourceId": 1789461154,
-      "despawnTimestamp": 1789461154,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-15T08:32:34.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-15T08:35:45.753Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 346,
       "pokemon": "Cradily",
       "region": "Kanto",
       "location": "Weepth Chamber",
-      "secondsAgo": 2981,
+      "secondsAgo": 3271,
       "sourceId": 1789458074
     },
     {
@@ -27,15 +15,23 @@
       "pokemon": "Shuckle",
       "region": "Hoenn",
       "location": "Seafloor Cavern",
-      "secondsAgo": 18007,
+      "secondsAgo": 18297,
       "sourceId": 1789443048
+    },
+    {
+      "monsterId": 241,
+      "pokemon": "Miltank",
+      "region": "Sinnoh",
+      "location": "Route 214",
+      "secondsAgo": 1511,
+      "sourceId": 1789459834
     },
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Unova",
       "location": "Route 12",
-      "secondsAgo": 11688,
+      "secondsAgo": 11978,
       "sourceId": 1789449367
     }
   ],
