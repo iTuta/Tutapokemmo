@@ -1,44 +1,37 @@
 {
-  "fetchedAt": "2026-09-15T04:40:42.414Z",
-  "swarms": [
-    {
-      "monsterId": 319,
-      "pokemon": "Sharpedo",
-      "region": "Johto",
-      "location": "Route 41",
-      "sourceId": 1789447307,
-      "despawnTimestamp": 1789447307,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-15T04:41:47.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 391,
-      "pokemon": "Monferno",
-      "region": "Sinnoh",
-      "location": "Route 211",
-      "sourceId": 1789447466,
-      "despawnTimestamp": 1789447466,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-15T04:44:26.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-15T04:45:46.215Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 350,
       "pokemon": "Milotic",
       "region": "Kanto",
       "location": "Resort Gorgeous",
-      "secondsAgo": 8704,
+      "secondsAgo": 9008,
       "sourceId": 1789438538
+    },
+    {
+      "monsterId": 319,
+      "pokemon": "Sharpedo",
+      "region": "Johto",
+      "location": "Route 41",
+      "secondsAgo": 1738,
+      "sourceId": 1789445808
+    },
+    {
+      "monsterId": 391,
+      "pokemon": "Monferno",
+      "region": "Sinnoh",
+      "location": "Route 211",
+      "secondsAgo": 1579,
+      "sourceId": 1789445967
     },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 11457,
+      "secondsAgo": 11761,
       "sourceId": 1789435785
     }
   ],
