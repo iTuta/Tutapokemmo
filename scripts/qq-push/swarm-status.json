@@ -1,29 +1,41 @@
 {
-  "fetchedAt": "2026-09-15T09:10:52.215Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-15T09:15:43.412Z",
+  "swarms": [
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Hoenn",
+      "location": "Shoal Cave",
+      "sourceId": 1789465192,
+      "despawnTimestamp": 1789465192,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-15T09:39:52.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 346,
       "pokemon": "Cradily",
       "region": "Kanto",
       "location": "Weepth Chamber",
-      "secondsAgo": 5378,
+      "secondsAgo": 5669,
       "sourceId": 1789458074
     },
     {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Hoenn",
-      "location": "Seafloor Cavern",
-      "secondsAgo": 20403,
-      "sourceId": 1789443049
+      "monsterId": 319,
+      "pokemon": "Sharpedo",
+      "region": "Johto",
+      "location": "Route 41",
+      "secondsAgo": 17935,
+      "sourceId": 1789445808
     },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Sinnoh",
       "location": "Route 214",
-      "secondsAgo": 3617,
+      "secondsAgo": 3908,
       "sourceId": 1789459835
     },
     {
@@ -31,7 +43,7 @@
       "pokemon": "Cherubi",
       "region": "Unova",
       "location": "Route 16",
-      "secondsAgo": 2053,
+      "secondsAgo": 2344,
       "sourceId": 1789461399
     }
   ],
@@ -45,6 +57,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-09-15T04:29:41.000Z",
     "timestampRaw": "2026-09-15T04:29:41.000Z",
-    "publishedBy": ""
+    "publishedBy": "GazDim"
   }
 }
