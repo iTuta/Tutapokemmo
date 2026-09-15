@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-09-15T12:35:52.310Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-15T12:40:44.140Z",
+  "swarms": [
+    {
+      "monsterId": 127,
+      "pokemon": "Pinsir",
+      "region": "Unova",
+      "location": "Route 12",
+      "sourceId": 1789477512,
+      "despawnTimestamp": 1789477512,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-15T13:05:12.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 149,
       "pokemon": "Dragonite",
       "region": "Kanto",
       "location": "Six Island",
-      "secondsAgo": 8554,
-      "sourceId": 1789467198
+      "secondsAgo": 8845,
+      "sourceId": 1789467199
     },
     {
       "monsterId": 349,
       "pokemon": "Feebas",
       "region": "Johto",
       "location": "Lake of Rage",
-      "secondsAgo": 4743,
+      "secondsAgo": 5035,
       "sourceId": 1789471009
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Magby",
       "region": "Hoenn",
       "location": "Mt. Chimney",
-      "secondsAgo": 1675,
+      "secondsAgo": 1967,
       "sourceId": 1789474077
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Miltank",
       "region": "Sinnoh",
       "location": "Route 214",
-      "secondsAgo": 15917,
+      "secondsAgo": 16209,
       "sourceId": 1789459835
-    },
-    {
-      "monsterId": 376,
-      "pokemon": "Metagross",
-      "region": "Unova",
-      "location": "Giant Chasm",
-      "secondsAgo": 4831,
-      "sourceId": 1789470921
     }
   ],
   "alpha": {
