@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-09-15T02:10:43.180Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-15T02:15:46.172Z",
+  "swarms": [
     {
-      "monsterId": 319,
-      "pokemon": "Sharpedo",
+      "monsterId": 350,
+      "pokemon": "Milotic",
       "region": "Kanto",
-      "location": "Water Labyrinth",
-      "secondsAgo": 15666,
-      "sourceId": 1789422577
-    },
+      "location": "Resort Gorgeous",
+      "sourceId": 1789440037,
+      "despawnTimestamp": 1789440037,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-15T02:40:37.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 25586,
+      "secondsAgo": 25889,
       "sourceId": 1789412657
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Nosepass",
       "region": "Hoenn",
       "location": "Granite Cave",
-      "secondsAgo": 4881,
+      "secondsAgo": 5184,
       "sourceId": 1789433362
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Scyther",
       "region": "Sinnoh",
       "location": "Route 210",
-      "secondsAgo": 8938,
+      "secondsAgo": 9241,
       "sourceId": 1789429305
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 2458,
+      "secondsAgo": 2761,
       "sourceId": 1789435785
     }
   ],
