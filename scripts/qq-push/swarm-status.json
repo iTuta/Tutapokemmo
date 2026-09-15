@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-09-15T13:10:56.329Z",
-  "swarms": [
-    {
-      "monsterId": 193,
-      "pokemon": "Yanma",
-      "region": "Sinnoh",
-      "location": "Route 205",
-      "sourceId": 1789477976,
-      "despawnTimestamp": 1789477976,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-15T13:12:56.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-15T13:16:03.410Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 149,
       "pokemon": "Dragonite",
       "region": "Kanto",
       "location": "Six Island",
-      "secondsAgo": 10658,
+      "secondsAgo": 10965,
       "sourceId": 1789467198
     },
     {
@@ -27,15 +15,23 @@
       "pokemon": "Magby",
       "region": "Hoenn",
       "location": "Mt. Chimney",
-      "secondsAgo": 3779,
+      "secondsAgo": 4086,
       "sourceId": 1789474077
+    },
+    {
+      "monsterId": 193,
+      "pokemon": "Yanma",
+      "region": "Sinnoh",
+      "location": "Route 205",
+      "secondsAgo": 1686,
+      "sourceId": 1789476477
     },
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Unova",
       "location": "Route 12",
-      "secondsAgo": 1843,
+      "secondsAgo": 2150,
       "sourceId": 1789476013
     }
   ],
