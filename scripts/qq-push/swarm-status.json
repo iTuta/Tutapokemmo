@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-15T21:05:40.378Z",
+  "fetchedAt": "2026-09-15T21:10:39.264Z",
   "swarms": [
     {
       "monsterId": 450,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-15T21:22:15.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 352,
+      "pokemon": "Kecleon",
+      "region": "Sinnoh",
+      "location": "Route 229",
+      "sourceId": 1789507911,
+      "despawnTimestamp": 1789507911,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-15T21:31:51.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Charmeleon",
       "region": "Kanto",
       "location": "Rock Tunnel",
-      "secondsAgo": 15578,
+      "secondsAgo": 15877,
       "sourceId": 1789490762
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Croconaw",
       "region": "Johto",
       "location": "Whirl Islands",
-      "secondsAgo": 4170,
+      "secondsAgo": 4469,
       "sourceId": 1789502170
-    },
-    {
-      "monsterId": 394,
-      "pokemon": "Prinplup",
-      "region": "Sinnoh",
-      "location": "Route 220",
-      "secondsAgo": 13105,
-      "sourceId": 1789493235
     },
     {
       "monsterId": 376,
       "pokemon": "Metagross",
       "region": "Unova",
       "location": "Giant Chasm",
-      "secondsAgo": 2714,
+      "secondsAgo": 3013,
       "sourceId": 1789503626
     }
   ],
