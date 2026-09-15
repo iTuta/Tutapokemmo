@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-15T16:46:02.053Z",
+  "fetchedAt": "2026-09-15T16:50:56.513Z",
   "swarms": [
+    {
+      "monsterId": 5,
+      "pokemon": "Charmeleon",
+      "region": "Kanto",
+      "location": "Rock Tunnel",
+      "sourceId": 1789492261,
+      "despawnTimestamp": 1789492261,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-15T17:11:01.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
@@ -15,27 +26,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 281,
-      "pokemon": "Kirlia",
-      "region": "Kanto",
-      "location": "Route 8",
-      "secondsAgo": 12510,
-      "sourceId": 1789478252
-    },
-    {
       "monsterId": 358,
       "pokemon": "Chimecho",
       "region": "Johto",
       "location": "Bellchime Trail",
-      "secondsAgo": 2797,
-      "sourceId": 1789487965
+      "secondsAgo": 3092,
+      "sourceId": 1789487964
     },
     {
       "monsterId": 351,
       "pokemon": "Castform",
       "region": "Hoenn",
       "location": "Aqua Hideout",
-      "secondsAgo": 3926,
+      "secondsAgo": 4220,
       "sourceId": 1789486836
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 10917,
+      "secondsAgo": 11211,
       "sourceId": 1789479845
     }
   ],
