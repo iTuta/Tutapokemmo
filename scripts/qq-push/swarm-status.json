@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-09-15T18:00:59.282Z",
+  "fetchedAt": "2026-09-15T18:05:58.827Z",
   "swarms": [
+    {
+      "monsterId": 339,
+      "pokemon": "Barboach",
+      "region": "Johto",
+      "location": "Slowpoke Well",
+      "sourceId": 1789497048,
+      "despawnTimestamp": 1789497048,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-15T18:30:48.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 252,
       "pokemon": "Treecko",
       "region": "Hoenn",
       "location": "Petalburg Woods",
       "sourceId": 1789496094,
-      "despawnTimestamp": 1789496094,
+      "despawnTimestamp": 1789496093,
       "hasValuable": false,
       "timestampUtc": "2026-09-15T18:14:54.000Z",
       "publishedBy": ""
@@ -30,24 +41,16 @@
       "pokemon": "Charmeleon",
       "region": "Kanto",
       "location": "Rock Tunnel",
-      "secondsAgo": 4497,
+      "secondsAgo": 4796,
       "sourceId": 1789490762
-    },
-    {
-      "monsterId": 358,
-      "pokemon": "Chimecho",
-      "region": "Johto",
-      "location": "Bellchime Trail",
-      "secondsAgo": 7295,
-      "sourceId": 1789487964
     },
     {
       "monsterId": 394,
       "pokemon": "Prinplup",
       "region": "Sinnoh",
       "location": "Route 220",
-      "secondsAgo": 2024,
-      "sourceId": 1789493235
+      "secondsAgo": 2324,
+      "sourceId": 1789493234
     }
   ],
   "alpha": {
