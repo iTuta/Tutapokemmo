@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-15T11:10:41.404Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-15T11:16:23.987Z",
+  "swarms": [
+    {
+      "monsterId": 376,
+      "pokemon": "Metagross",
+      "region": "Unova",
+      "location": "Giant Chasm",
+      "sourceId": 1789472420,
+      "despawnTimestamp": 1789472419,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-15T11:40:20.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 149,
       "pokemon": "Dragonite",
       "region": "Kanto",
       "location": "Six Island",
-      "secondsAgo": 3443,
+      "secondsAgo": 3785,
       "sourceId": 1789467198
     },
     {
@@ -15,32 +27,24 @@
       "pokemon": "Sharpedo",
       "region": "Johto",
       "location": "Route 41",
-      "secondsAgo": 24833,
-      "sourceId": 1789445808
+      "secondsAgo": 25176,
+      "sourceId": 1789445807
     },
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Hoenn",
       "location": "Shoal Cave",
-      "secondsAgo": 6948,
-      "sourceId": 1789463693
+      "secondsAgo": 7291,
+      "sourceId": 1789463692
     },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Sinnoh",
       "location": "Route 214",
-      "secondsAgo": 10806,
-      "sourceId": 1789459835
-    },
-    {
-      "monsterId": 373,
-      "pokemon": "Salamence",
-      "region": "Unova",
-      "location": "Dragonspiral Tower",
-      "secondsAgo": 5069,
-      "sourceId": 1789465572
+      "secondsAgo": 11149,
+      "sourceId": 1789459834
     }
   ],
   "alpha": {
