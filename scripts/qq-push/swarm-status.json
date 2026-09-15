@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-15T13:30:49.661Z",
+  "fetchedAt": "2026-09-15T13:36:03.466Z",
   "swarms": [
     {
       "monsterId": 281,
@@ -11,23 +11,26 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-15T13:42:31.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 256,
+      "pokemon": "Combusken",
+      "region": "Hoenn",
+      "location": "Route 114",
+      "sourceId": 1789480481,
+      "despawnTimestamp": 1789480481,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-15T13:54:41.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 240,
-      "pokemon": "Magby",
-      "region": "Hoenn",
-      "location": "Mt. Chimney",
-      "secondsAgo": 4972,
-      "sourceId": 1789474077
-    },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 2572,
+      "secondsAgo": 2886,
       "sourceId": 1789476477
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Pinsir",
       "region": "Unova",
       "location": "Route 12",
-      "secondsAgo": 3036,
+      "secondsAgo": 3350,
       "sourceId": 1789476013
     }
   ],
