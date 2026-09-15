@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-15T20:55:42.129Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-15T21:01:26.164Z",
+  "swarms": [
+    {
+      "monsterId": 450,
+      "pokemon": "Hippowdon",
+      "region": "Hoenn",
+      "location": "Victory Road",
+      "sourceId": 1789507335,
+      "despawnTimestamp": 1789507335,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-15T21:22:15.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 5,
       "pokemon": "Charmeleon",
       "region": "Kanto",
       "location": "Rock Tunnel",
-      "secondsAgo": 14980,
+      "secondsAgo": 15324,
       "sourceId": 1789490762
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Croconaw",
       "region": "Johto",
       "location": "Whirl Islands",
-      "secondsAgo": 3572,
+      "secondsAgo": 3916,
       "sourceId": 1789502170
-    },
-    {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
-      "region": "Hoenn",
-      "location": "Jagged Pass",
-      "secondsAgo": 4585,
-      "sourceId": 1789501157
     },
     {
       "monsterId": 394,
       "pokemon": "Prinplup",
       "region": "Sinnoh",
       "location": "Route 220",
-      "secondsAgo": 12507,
+      "secondsAgo": 12851,
       "sourceId": 1789493235
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Metagross",
       "region": "Unova",
       "location": "Giant Chasm",
-      "secondsAgo": 2116,
+      "secondsAgo": 2460,
       "sourceId": 1789503626
     }
   ],
