@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-15T20:00:55.289Z",
+  "fetchedAt": "2026-09-15T20:05:52.905Z",
   "swarms": [
     {
       "monsterId": 159,
@@ -11,34 +11,31 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-15T20:21:09.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Hoenn",
       "location": "Jagged Pass",
-      "sourceId": 1789502656,
-      "despawnTimestamp": 1789502656,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-15T20:04:16.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1596,
+      "sourceId": 1789501156
+    },
     {
       "monsterId": 394,
       "pokemon": "Prinplup",
       "region": "Sinnoh",
       "location": "Route 220",
-      "secondsAgo": 9220,
-      "sourceId": 1789493235
+      "secondsAgo": 9518,
+      "sourceId": 1789493234
     },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 7539,
+      "secondsAgo": 7836,
       "sourceId": 1789494916
     }
   ],
