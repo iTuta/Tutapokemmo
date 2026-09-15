@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-15T00:45:45.440Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-15T00:50:46.738Z",
+  "swarms": [
+    {
+      "monsterId": 299,
+      "pokemon": "Nosepass",
+      "region": "Hoenn",
+      "location": "Granite Cave",
+      "sourceId": 1789434861,
+      "despawnTimestamp": 1789434861,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-15T01:14:21.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Kanto",
       "location": "Water Labyrinth",
-      "secondsAgo": 10568,
+      "secondsAgo": 10869,
       "sourceId": 1789422577
     },
     {
@@ -15,31 +27,23 @@
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 20489,
+      "secondsAgo": 20790,
       "sourceId": 1789412656
-    },
-    {
-      "monsterId": 260,
-      "pokemon": "Swampert",
-      "region": "Hoenn",
-      "location": "Route 109",
-      "secondsAgo": 10248,
-      "sourceId": 1789422897
     },
     {
       "monsterId": 123,
       "pokemon": "Scyther",
       "region": "Sinnoh",
       "location": "Route 210",
-      "secondsAgo": 3840,
-      "sourceId": 1789429305
+      "secondsAgo": 4142,
+      "sourceId": 1789429304
     },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 5216,
+      "secondsAgo": 5517,
       "sourceId": 1789427929
     }
   ],
