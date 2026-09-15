@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-15T13:40:51.789Z",
+  "fetchedAt": "2026-09-15T13:45:59.688Z",
   "swarms": [
-    {
-      "monsterId": 281,
-      "pokemon": "Kirlia",
-      "region": "Kanto",
-      "location": "Route 8",
-      "sourceId": 1789479751,
-      "despawnTimestamp": 1789479750,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-15T13:42:31.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 256,
       "pokemon": "Combusken",
@@ -22,23 +11,34 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-15T13:54:41.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 288,
+      "pokemon": "Vigoroth",
+      "region": "Sinnoh",
+      "location": "Route 215",
+      "sourceId": 1789481344,
+      "despawnTimestamp": 1789481343,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-15T14:09:04.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 193,
-      "pokemon": "Yanma",
-      "region": "Sinnoh",
-      "location": "Route 205",
-      "secondsAgo": 3174,
-      "sourceId": 1789476477
+      "monsterId": 281,
+      "pokemon": "Kirlia",
+      "region": "Kanto",
+      "location": "Route 8",
+      "secondsAgo": 1708,
+      "sourceId": 1789478251
     },
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Unova",
       "location": "Route 12",
-      "secondsAgo": 3638,
+      "secondsAgo": 3946,
       "sourceId": 1789476013
     }
   ],
