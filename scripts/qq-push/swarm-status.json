@@ -1,58 +1,57 @@
 {
-  "fetchedAt": "2026-09-15T04:16:01.206Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-15T04:20:38.880Z",
+  "swarms": [
+    {
+      "monsterId": 319,
+      "pokemon": "Sharpedo",
+      "region": "Johto",
+      "location": "Route 41",
+      "sourceId": 1789447307,
+      "despawnTimestamp": 1789447307,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-15T04:41:47.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 391,
+      "pokemon": "Monferno",
+      "region": "Sinnoh",
+      "location": "Route 211",
+      "sourceId": 1789447466,
+      "despawnTimestamp": 1789447465,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-15T04:44:26.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 350,
       "pokemon": "Milotic",
       "region": "Kanto",
       "location": "Resort Gorgeous",
-      "secondsAgo": 7223,
-      "sourceId": 1789438538
-    },
-    {
-      "monsterId": 290,
-      "pokemon": "Nincada",
-      "region": "Johto",
-      "location": "Route 46",
-      "secondsAgo": 5807,
-      "sourceId": 1789439954
-    },
-    {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Hoenn",
-      "location": "Seafloor Cavern",
-      "secondsAgo": 2712,
-      "sourceId": 1789443049
-    },
-    {
-      "monsterId": 91,
-      "pokemon": "Cloyster",
-      "region": "Sinnoh",
-      "location": "Route 223",
-      "secondsAgo": 3813,
-      "sourceId": 1789441948
+      "secondsAgo": 7501,
+      "sourceId": 1789438537
     },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 9976,
+      "secondsAgo": 10253,
       "sourceId": 1789435785
     }
   ],
   "alpha": {
-    "monsterId": 53,
-    "pokemon": "Persian",
-    "region": "Johto",
-    "location": "Route 38",
-    "sourceId": 1789403711,
-    "despawnTimestamp": 1789420811,
+    "monsterId": 294,
+    "pokemon": "Loudred",
+    "region": "Hoenn",
+    "location": "Rusturf Tunnel",
+    "sourceId": 1789433388,
+    "despawnTimestamp": 1789450488,
     "hasValuable": false,
-    "timestampUtc": "2026-09-14T16:35:11.000Z",
-    "timestampRaw": "2026-09-14T16:35:11.000Z",
+    "timestampUtc": "2026-09-15T00:49:48.000Z",
+    "timestampRaw": "2026-09-15T00:49:48.000Z",
     "publishedBy": ""
   }
 }
