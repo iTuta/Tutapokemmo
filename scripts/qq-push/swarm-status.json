@@ -1,6 +1,28 @@
 {
-  "fetchedAt": "2026-09-15T22:15:37.724Z",
+  "fetchedAt": "2026-09-15T22:21:01.617Z",
   "swarms": [
+    {
+      "monsterId": 1,
+      "pokemon": "Bulbasaur",
+      "region": "Kanto",
+      "location": "Viridian Forest",
+      "sourceId": 1789512145,
+      "despawnTimestamp": 1789512144,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-15T22:42:25.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 91,
+      "pokemon": "Cloyster",
+      "region": "Hoenn",
+      "location": "Route 133",
+      "sourceId": 1789512177,
+      "despawnTimestamp": 1789512176,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-15T22:42:57.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 390,
       "pokemon": "Chimchar",
@@ -15,35 +37,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 5,
-      "pokemon": "Charmeleon",
-      "region": "Kanto",
-      "location": "Rock Tunnel",
-      "secondsAgo": 19775,
-      "sourceId": 1789490762
-    },
-    {
       "monsterId": 159,
       "pokemon": "Croconaw",
       "region": "Johto",
       "location": "Whirl Islands",
-      "secondsAgo": 8367,
+      "secondsAgo": 8691,
       "sourceId": 1789502170
-    },
-    {
-      "monsterId": 450,
-      "pokemon": "Hippowdon",
-      "region": "Hoenn",
-      "location": "Victory Road",
-      "secondsAgo": 4701,
-      "sourceId": 1789505836
     },
     {
       "monsterId": 376,
       "pokemon": "Metagross",
       "region": "Unova",
       "location": "Giant Chasm",
-      "secondsAgo": 6911,
+      "secondsAgo": 7235,
       "sourceId": 1789503626
     }
   ],
