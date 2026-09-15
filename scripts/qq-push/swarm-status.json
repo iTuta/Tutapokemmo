@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-15T16:50:56.513Z",
+  "fetchedAt": "2026-09-15T16:55:38.430Z",
   "swarms": [
     {
       "monsterId": 5,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-15T17:11:01.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 176,
-      "pokemon": "Togetic",
-      "region": "Unova",
-      "location": "Dreamyard",
-      "sourceId": 1789491298,
-      "despawnTimestamp": 1789491298,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-15T16:54:58.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Chimecho",
       "region": "Johto",
       "location": "Bellchime Trail",
-      "secondsAgo": 3092,
+      "secondsAgo": 3374,
       "sourceId": 1789487964
     },
     {
@@ -38,7 +27,7 @@
       "pokemon": "Castform",
       "region": "Hoenn",
       "location": "Aqua Hideout",
-      "secondsAgo": 4220,
+      "secondsAgo": 4502,
       "sourceId": 1789486836
     },
     {
@@ -46,8 +35,16 @@
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 11211,
+      "secondsAgo": 11493,
       "sourceId": 1789479845
+    },
+    {
+      "monsterId": 176,
+      "pokemon": "Togetic",
+      "region": "Unova",
+      "location": "Dreamyard",
+      "secondsAgo": 1539,
+      "sourceId": 1789489799
     }
   ],
   "alpha": {
