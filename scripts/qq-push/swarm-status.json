@@ -1,21 +1,36 @@
 {
-  "fetchedAt": "2026-09-15T05:15:42.127Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-15T05:20:43.836Z",
+  "swarms": [
     {
-      "monsterId": 350,
-      "pokemon": "Milotic",
+      "monsterId": 369,
+      "pokemon": "Relicanth",
       "region": "Kanto",
-      "location": "Resort Gorgeous",
-      "secondsAgo": 10804,
-      "sourceId": 1789438538
+      "location": "Tanoby Ruins",
+      "sourceId": 1789451040,
+      "despawnTimestamp": 1789451039,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-15T05:44:00.000Z",
+      "publishedBy": ""
     },
+    {
+      "monsterId": 127,
+      "pokemon": "Pinsir",
+      "region": "Unova",
+      "location": "Route 12",
+      "sourceId": 1789450867,
+      "despawnTimestamp": 1789450866,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-15T05:41:07.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Johto",
       "location": "Route 41",
-      "secondsAgo": 3534,
+      "secondsAgo": 3835,
       "sourceId": 1789445808
     },
     {
@@ -23,16 +38,8 @@
       "pokemon": "Monferno",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 3375,
-      "sourceId": 1789445967
-    },
-    {
-      "monsterId": 176,
-      "pokemon": "Togetic",
-      "region": "Unova",
-      "location": "Dreamyard",
-      "secondsAgo": 13557,
-      "sourceId": 1789435785
+      "secondsAgo": 3677,
+      "sourceId": 1789445966
     }
   ],
   "alpha": {
