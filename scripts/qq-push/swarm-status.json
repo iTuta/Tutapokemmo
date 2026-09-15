@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-15T18:10:45.474Z",
+  "fetchedAt": "2026-09-15T18:15:43.037Z",
   "swarms": [
     {
       "monsterId": 339,
@@ -13,23 +13,12 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 252,
-      "pokemon": "Treecko",
-      "region": "Hoenn",
-      "location": "Petalburg Woods",
-      "sourceId": 1789496094,
-      "despawnTimestamp": 1789496094,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-15T18:14:54.000Z",
-      "publishedBy": ""
-    },
-    {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
       "sourceId": 1789496416,
-      "despawnTimestamp": 1789496415,
+      "despawnTimestamp": 1789496416,
       "hasValuable": false,
       "timestampUtc": "2026-09-15T18:20:16.000Z",
       "publishedBy": ""
@@ -41,15 +30,23 @@
       "pokemon": "Charmeleon",
       "region": "Kanto",
       "location": "Rock Tunnel",
-      "secondsAgo": 5083,
+      "secondsAgo": 5381,
       "sourceId": 1789490762
+    },
+    {
+      "monsterId": 252,
+      "pokemon": "Treecko",
+      "region": "Hoenn",
+      "location": "Petalburg Woods",
+      "secondsAgo": 1548,
+      "sourceId": 1789494595
     },
     {
       "monsterId": 394,
       "pokemon": "Prinplup",
       "region": "Sinnoh",
       "location": "Route 220",
-      "secondsAgo": 2610,
+      "secondsAgo": 2908,
       "sourceId": 1789493235
     }
   ],
