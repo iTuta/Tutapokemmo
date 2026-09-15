@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-15T03:35:36.058Z",
+  "fetchedAt": "2026-09-15T03:40:44.671Z",
   "swarms": [
     {
       "monsterId": 213,
@@ -7,20 +7,9 @@
       "region": "Hoenn",
       "location": "Seafloor Cavern",
       "sourceId": 1789444548,
-      "despawnTimestamp": 1789444548,
+      "despawnTimestamp": 1789444547,
       "hasValuable": false,
       "timestampUtc": "2026-09-15T03:55:48.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 91,
-      "pokemon": "Cloyster",
-      "region": "Sinnoh",
-      "location": "Route 223",
-      "sourceId": 1789443447,
-      "despawnTimestamp": 1789443447,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-15T03:37:27.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,7 +19,7 @@
       "pokemon": "Milotic",
       "region": "Kanto",
       "location": "Resort Gorgeous",
-      "secondsAgo": 4798,
+      "secondsAgo": 5106,
       "sourceId": 1789438538
     },
     {
@@ -38,16 +27,24 @@
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 3382,
+      "secondsAgo": 3690,
       "sourceId": 1789439954
+    },
+    {
+      "monsterId": 91,
+      "pokemon": "Cloyster",
+      "region": "Sinnoh",
+      "location": "Route 223",
+      "secondsAgo": 1696,
+      "sourceId": 1789441948
     },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 7550,
-      "sourceId": 1789435786
+      "secondsAgo": 7859,
+      "sourceId": 1789435785
     }
   ],
   "alpha": {
