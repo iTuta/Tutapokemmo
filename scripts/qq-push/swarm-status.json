@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-09-16T14:30:51.642Z",
+  "fetchedAt": "2026-09-16T14:37:03.314Z",
   "swarms": [
-    {
-      "monsterId": 154,
-      "pokemon": "Meganium",
-      "region": "Johto",
-      "location": "Route 48",
-      "sourceId": 1789569299,
-      "despawnTimestamp": 1789569298,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-16T14:34:59.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 321,
-      "pokemon": "Wailord",
-      "region": "Hoenn",
-      "location": "Route 129",
-      "sourceId": 1789569230,
-      "despawnTimestamp": 1789569229,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-16T14:33:50.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 415,
       "pokemon": "Combee",
@@ -52,8 +30,24 @@
       "pokemon": "Chatot",
       "region": "Kanto",
       "location": "Treasure Beach",
-      "secondsAgo": 9875,
+      "secondsAgo": 10247,
       "sourceId": 1789559176
+    },
+    {
+      "monsterId": 154,
+      "pokemon": "Meganium",
+      "region": "Johto",
+      "location": "Route 48",
+      "secondsAgo": 1623,
+      "sourceId": 1789567800
+    },
+    {
+      "monsterId": 321,
+      "pokemon": "Wailord",
+      "region": "Hoenn",
+      "location": "Route 129",
+      "secondsAgo": 1693,
+      "sourceId": 1789567730
     }
   ],
   "alpha": {
