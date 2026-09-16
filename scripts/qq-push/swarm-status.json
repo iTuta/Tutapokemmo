@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-09-16T19:15:45.343Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-16T19:20:46.357Z",
+  "swarms": [
+    {
+      "monsterId": 157,
+      "pokemon": "Typhlosion",
+      "region": "Johto",
+      "location": "Route 45",
+      "sourceId": 1789587936,
+      "despawnTimestamp": 1789587936,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-16T19:45:36.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 299,
       "pokemon": "Nosepass",
       "region": "Kanto",
       "location": "Mt. Moon",
-      "secondsAgo": 16536,
+      "secondsAgo": 16837,
       "sourceId": 1789569609
-    },
-    {
-      "monsterId": 370,
-      "pokemon": "Luvdisc",
-      "region": "Johto",
-      "location": "Route 47",
-      "secondsAgo": 5136,
-      "sourceId": 1789581009
     },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Hoenn",
       "location": "Route 116",
-      "secondsAgo": 7235,
+      "secondsAgo": 7536,
       "sourceId": 1789578910
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Combee",
       "region": "Sinnoh",
       "location": "Floaroma Meadow",
-      "secondsAgo": 17705,
+      "secondsAgo": 18006,
       "sourceId": 1789568440
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 5329,
+      "secondsAgo": 5630,
       "sourceId": 1789580816
     }
   ],
