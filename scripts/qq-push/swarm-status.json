@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-09-16T10:55:45.544Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-16T11:01:07.080Z",
+  "swarms": [
+    {
+      "monsterId": 392,
+      "pokemon": "Infernape",
+      "region": "Sinnoh",
+      "location": "Route 221",
+      "sourceId": 1789557832,
+      "despawnTimestamp": 1789557832,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-16T11:23:52.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 8,
       "pokemon": "Wartortle",
       "region": "Kanto",
       "location": "Seafoam Islands",
-      "secondsAgo": 7986,
-      "sourceId": 1789548159
+      "secondsAgo": 8307,
+      "sourceId": 1789548160
     },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 30290,
+      "secondsAgo": 30612,
       "sourceId": 1789525855
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 8916,
+      "secondsAgo": 9238,
       "sourceId": 1789547229
-    },
-    {
-      "monsterId": 412,
-      "pokemon": "Burmy",
-      "region": "Sinnoh",
-      "location": "Route 202",
-      "secondsAgo": 18896,
-      "sourceId": 1789537249
     },
     {
       "monsterId": 233,
       "pokemon": "Porygon2",
       "region": "Unova",
       "location": "P2 Laboratory",
-      "secondsAgo": 2699,
-      "sourceId": 1789553446
+      "secondsAgo": 3020,
+      "sourceId": 1789553447
     }
   ],
   "alpha": {
