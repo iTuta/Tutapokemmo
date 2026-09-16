@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-16T12:01:24.551Z",
+  "fetchedAt": "2026-09-16T12:05:46.789Z",
   "swarms": [
     {
       "monsterId": 441,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-16T12:06:15.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 125,
-      "pokemon": "Electabuzz",
-      "region": "Unova",
-      "location": "Chargestone Cave",
-      "sourceId": 1789560210,
-      "despawnTimestamp": 1789560209,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-16T12:03:30.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,24 +19,32 @@
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 34229,
-      "sourceId": 1789525855
+      "secondsAgo": 34492,
+      "sourceId": 1789525854
     },
     {
       "monsterId": 517,
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 12855,
-      "sourceId": 1789547229
+      "secondsAgo": 13118,
+      "sourceId": 1789547228
     },
     {
       "monsterId": 392,
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 3751,
-      "sourceId": 1789556333
+      "secondsAgo": 4014,
+      "sourceId": 1789556332
+    },
+    {
+      "monsterId": 125,
+      "pokemon": "Electabuzz",
+      "region": "Unova",
+      "location": "Chargestone Cave",
+      "secondsAgo": 1636,
+      "sourceId": 1789558710
     }
   ],
   "alpha": {
