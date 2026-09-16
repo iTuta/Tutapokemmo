@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-16T14:50:48.671Z",
+  "fetchedAt": "2026-09-16T14:55:47.171Z",
   "swarms": [
     {
       "monsterId": 299,
@@ -7,20 +7,9 @@
       "region": "Kanto",
       "location": "Mt. Moon",
       "sourceId": 1789571108,
-      "despawnTimestamp": 1789571107,
+      "despawnTimestamp": 1789571108,
       "hasValuable": false,
       "timestampUtc": "2026-09-16T15:05:08.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Unova",
-      "location": "Relic Castle",
-      "sourceId": 1789570456,
-      "despawnTimestamp": 1789570455,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-16T14:54:16.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,24 +19,32 @@
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 2449,
-      "sourceId": 1789567799
+      "secondsAgo": 2747,
+      "sourceId": 1789567800
     },
     {
       "monsterId": 321,
       "pokemon": "Wailord",
       "region": "Hoenn",
       "location": "Route 129",
-      "secondsAgo": 2518,
-      "sourceId": 1789567730
+      "secondsAgo": 2816,
+      "sourceId": 1789567731
     },
     {
       "monsterId": 415,
       "pokemon": "Combee",
       "region": "Sinnoh",
       "location": "Floaroma Meadow",
-      "secondsAgo": 1808,
+      "secondsAgo": 2107,
       "sourceId": 1789568440
+    },
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Unova",
+      "location": "Relic Castle",
+      "secondsAgo": 1590,
+      "sourceId": 1789568957
     }
   ],
   "alpha": {
