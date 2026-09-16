@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-16T05:40:43.597Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-16T05:45:44.045Z",
+  "swarms": [
+    {
+      "monsterId": 412,
+      "pokemon": "Burmy",
+      "region": "Sinnoh",
+      "location": "Route 202",
+      "sourceId": 1789538689,
+      "despawnTimestamp": 1789538689,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-16T06:04:49.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 142,
       "pokemon": "Aerodactyl",
       "region": "Kanto",
       "location": "Rixy Chamber",
-      "secondsAgo": 7320,
+      "secondsAgo": 7621,
       "sourceId": 1789529923
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 11388,
+      "secondsAgo": 11689,
       "sourceId": 1789525855
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
-      "secondsAgo": 2747,
+      "secondsAgo": 3048,
       "sourceId": 1789534496
-    },
-    {
-      "monsterId": 340,
-      "pokemon": "Whiscash",
-      "region": "Sinnoh",
-      "location": "Ravaged Path",
-      "secondsAgo": 13686,
-      "sourceId": 1789523557
     },
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 11066,
+      "secondsAgo": 11367,
       "sourceId": 1789526177
     }
   ],
