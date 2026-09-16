@@ -1,38 +1,45 @@
 {
-  "fetchedAt": "2026-09-16T16:20:42.095Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-16T16:25:40.705Z",
+  "swarms": [
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Johto",
+      "location": "Dark Cave",
+      "sourceId": 1789577178,
+      "despawnTimestamp": 1789577177,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-16T16:46:18.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 204,
+      "pokemon": "Pineco",
+      "region": "Hoenn",
+      "location": "Route 103",
+      "sourceId": 1789577334,
+      "despawnTimestamp": 1789577334,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-16T16:48:54.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 299,
       "pokemon": "Nosepass",
       "region": "Kanto",
       "location": "Mt. Moon",
-      "secondsAgo": 6033,
-      "sourceId": 1789569609
-    },
-    {
-      "monsterId": 154,
-      "pokemon": "Meganium",
-      "region": "Johto",
-      "location": "Route 48",
-      "secondsAgo": 7842,
-      "sourceId": 1789567800
-    },
-    {
-      "monsterId": 321,
-      "pokemon": "Wailord",
-      "region": "Hoenn",
-      "location": "Route 129",
-      "secondsAgo": 7911,
-      "sourceId": 1789567731
+      "secondsAgo": 6332,
+      "sourceId": 1789569608
     },
     {
       "monsterId": 415,
       "pokemon": "Combee",
       "region": "Sinnoh",
       "location": "Floaroma Meadow",
-      "secondsAgo": 7202,
-      "sourceId": 1789568440
+      "secondsAgo": 7501,
+      "sourceId": 1789568439
     }
   ],
   "alpha": {
