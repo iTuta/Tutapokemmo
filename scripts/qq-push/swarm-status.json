@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-09-16T02:30:50.352Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-16T02:35:38.850Z",
+  "swarms": [
+    {
+      "monsterId": 176,
+      "pokemon": "Togetic",
+      "region": "Johto",
+      "location": "Route 27",
+      "sourceId": 1789527354,
+      "despawnTimestamp": 1789527353,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-16T02:55:54.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 413,
       "pokemon": "Wormadam",
       "region": "Kanto",
       "location": "Pattern Bush",
-      "secondsAgo": 2933,
+      "secondsAgo": 3221,
       "sourceId": 1789522917
-    },
-    {
-      "monsterId": 102,
-      "pokemon": "Exeggcute",
-      "region": "Johto",
-      "location": "Route 30",
-      "secondsAgo": 10205,
-      "sourceId": 1789515645
     },
     {
       "monsterId": 223,
       "pokemon": "Remoraid",
       "region": "Hoenn",
       "location": "Route 108",
-      "secondsAgo": 7165,
+      "secondsAgo": 7453,
       "sourceId": 1789518685
     },
     {
@@ -31,15 +35,15 @@
       "pokemon": "Whiscash",
       "region": "Sinnoh",
       "location": "Ravaged Path",
-      "secondsAgo": 2292,
-      "sourceId": 1789523558
+      "secondsAgo": 2581,
+      "sourceId": 1789523557
     },
     {
       "monsterId": 291,
       "pokemon": "Ninjask",
       "region": "Unova",
       "location": "Route 11",
-      "secondsAgo": 3342,
+      "secondsAgo": 3630,
       "sourceId": 1789522508
     }
   ],
