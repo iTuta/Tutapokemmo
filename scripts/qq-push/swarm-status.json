@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-16T21:51:20.911Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-16T21:55:36.765Z",
+  "swarms": [
+    {
+      "monsterId": 335,
+      "pokemon": "Zangoose",
+      "region": "Sinnoh",
+      "location": "Route 205",
+      "sourceId": 1789596869,
+      "despawnTimestamp": 1789596868,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-16T22:14:29.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 299,
       "pokemon": "Nosepass",
       "region": "Kanto",
       "location": "Mt. Moon",
-      "secondsAgo": 25872,
+      "secondsAgo": 26128,
       "sourceId": 1789569608
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Miltank",
       "region": "Johto",
       "location": "Route 39",
-      "secondsAgo": 4529,
+      "secondsAgo": 4785,
       "sourceId": 1789590951
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Luvdisc",
       "region": "Hoenn",
       "location": "Route 132",
-      "secondsAgo": 4559,
-      "sourceId": 1789590921
-    },
-    {
-      "monsterId": 424,
-      "pokemon": "Ambipom",
-      "region": "Sinnoh",
-      "location": "Route 216",
-      "secondsAgo": 6285,
-      "sourceId": 1789589195
+      "secondsAgo": 4814,
+      "sourceId": 1789590922
     },
     {
       "monsterId": 162,
       "pokemon": "Furret",
       "region": "Unova",
       "location": "Abundant Shrine",
-      "secondsAgo": 5538,
+      "secondsAgo": 5794,
       "sourceId": 1789589942
     }
   ],
