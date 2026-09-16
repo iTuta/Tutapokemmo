@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-16T01:40:45.396Z",
+  "fetchedAt": "2026-09-16T01:45:40.516Z",
   "swarms": [
+    {
+      "monsterId": 413,
+      "pokemon": "Wormadam",
+      "region": "Kanto",
+      "location": "Pattern Bush",
+      "sourceId": 1789524416,
+      "despawnTimestamp": 1789524416,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-16T02:06:56.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 291,
       "pokemon": "Ninjask",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 1,
-      "pokemon": "Bulbasaur",
-      "region": "Kanto",
-      "location": "Viridian Forest",
-      "secondsAgo": 12199,
-      "sourceId": 1789510646
-    },
-    {
       "monsterId": 102,
       "pokemon": "Exeggcute",
       "region": "Johto",
       "location": "Route 30",
-      "secondsAgo": 7200,
+      "secondsAgo": 7495,
       "sourceId": 1789515645
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Remoraid",
       "region": "Hoenn",
       "location": "Route 108",
-      "secondsAgo": 4160,
+      "secondsAgo": 4455,
       "sourceId": 1789518685
     },
     {
@@ -43,8 +46,8 @@
       "pokemon": "Chimchar",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 12719,
-      "sourceId": 1789510126
+      "secondsAgo": 13015,
+      "sourceId": 1789510125
     }
   ],
   "alpha": {
