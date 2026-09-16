@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-16T03:35:37.892Z",
+  "fetchedAt": "2026-09-16T03:40:58.692Z",
   "swarms": [
+    {
+      "monsterId": 142,
+      "pokemon": "Aerodactyl",
+      "region": "Kanto",
+      "location": "Rixy Chamber",
+      "sourceId": 1789531422,
+      "despawnTimestamp": 1789531422,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-16T04:03:42.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 413,
-      "pokemon": "Wormadam",
-      "region": "Kanto",
-      "location": "Pattern Bush",
-      "secondsAgo": 6821,
-      "sourceId": 1789522916
-    },
-    {
       "monsterId": 340,
       "pokemon": "Whiscash",
       "region": "Sinnoh",
       "location": "Ravaged Path",
-      "secondsAgo": 6180,
+      "secondsAgo": 6501,
       "sourceId": 1789523557
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 3560,
+      "secondsAgo": 3881,
       "sourceId": 1789526177
     }
   ],
