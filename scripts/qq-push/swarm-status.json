@@ -1,46 +1,53 @@
 {
-  "fetchedAt": "2026-09-16T14:06:04.949Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-16T14:10:51.053Z",
+  "swarms": [
+    {
+      "monsterId": 154,
+      "pokemon": "Meganium",
+      "region": "Johto",
+      "location": "Route 48",
+      "sourceId": 1789569299,
+      "despawnTimestamp": 1789569299,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-16T14:34:59.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 321,
+      "pokemon": "Wailord",
+      "region": "Hoenn",
+      "location": "Route 129",
+      "sourceId": 1789569230,
+      "despawnTimestamp": 1789569230,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-16T14:33:50.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Kanto",
       "location": "Treasure Beach",
-      "secondsAgo": 8389,
-      "sourceId": 1789559175
-    },
-    {
-      "monsterId": 176,
-      "pokemon": "Togetic",
-      "region": "Johto",
-      "location": "Route 27",
-      "secondsAgo": 41710,
-      "sourceId": 1789525854
-    },
-    {
-      "monsterId": 517,
-      "pokemon": "Munna",
-      "region": "Hoenn",
-      "location": "Route 102",
-      "secondsAgo": 20336,
-      "sourceId": 1789547228
+      "secondsAgo": 8675,
+      "sourceId": 1789559176
     },
     {
       "monsterId": 389,
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 4690,
-      "sourceId": 1789562874
+      "secondsAgo": 4976,
+      "sourceId": 1789562875
     },
     {
       "monsterId": 125,
       "pokemon": "Electabuzz",
       "region": "Unova",
       "location": "Chargestone Cave",
-      "secondsAgo": 8854,
-      "sourceId": 1789558710
+      "secondsAgo": 9140,
+      "sourceId": 1789558711
     }
   ],
   "alpha": {
