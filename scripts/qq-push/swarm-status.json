@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-16T01:55:47.254Z",
+  "fetchedAt": "2026-09-16T02:00:50.570Z",
   "swarms": [
     {
       "monsterId": 413,
@@ -18,20 +18,9 @@
       "region": "Sinnoh",
       "location": "Ravaged Path",
       "sourceId": 1789525057,
-      "despawnTimestamp": 1789525057,
+      "despawnTimestamp": 1789525056,
       "hasValuable": false,
       "timestampUtc": "2026-09-16T02:17:37.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 291,
-      "pokemon": "Ninjask",
-      "region": "Unova",
-      "location": "Route 11",
-      "sourceId": 1789523887,
-      "despawnTimestamp": 1789523887,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-16T01:58:07.000Z",
       "publishedBy": ""
     }
   ],
@@ -41,7 +30,7 @@
       "pokemon": "Exeggcute",
       "region": "Johto",
       "location": "Route 30",
-      "secondsAgo": 8102,
+      "secondsAgo": 8405,
       "sourceId": 1789515645
     },
     {
@@ -49,8 +38,16 @@
       "pokemon": "Remoraid",
       "region": "Hoenn",
       "location": "Route 108",
-      "secondsAgo": 5062,
+      "secondsAgo": 5365,
       "sourceId": 1789518685
+    },
+    {
+      "monsterId": 291,
+      "pokemon": "Ninjask",
+      "region": "Unova",
+      "location": "Route 11",
+      "secondsAgo": 1542,
+      "sourceId": 1789522508
     }
   ],
   "alpha": {
