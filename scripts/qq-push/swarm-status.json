@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-16T03:25:36.545Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-16T03:30:57.863Z",
+  "swarms": [
+    {
+      "monsterId": 222,
+      "pokemon": "Corsola",
+      "region": "Hoenn",
+      "location": "Route 128",
+      "sourceId": 1789530731,
+      "despawnTimestamp": 1789530731,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-16T03:52:11.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 413,
       "pokemon": "Wormadam",
       "region": "Kanto",
       "location": "Pattern Bush",
-      "secondsAgo": 6219,
+      "secondsAgo": 6540,
       "sourceId": 1789522917
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 3281,
-      "sourceId": 1789525855
-    },
-    {
-      "monsterId": 223,
-      "pokemon": "Remoraid",
-      "region": "Hoenn",
-      "location": "Route 108",
-      "secondsAgo": 10451,
-      "sourceId": 1789518685
+      "secondsAgo": 3603,
+      "sourceId": 1789525854
     },
     {
       "monsterId": 340,
       "pokemon": "Whiscash",
       "region": "Sinnoh",
       "location": "Ravaged Path",
-      "secondsAgo": 5579,
+      "secondsAgo": 5900,
       "sourceId": 1789523557
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 2959,
+      "secondsAgo": 3280,
       "sourceId": 1789526177
     }
   ],
