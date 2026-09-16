@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-16T00:05:36.477Z",
+  "fetchedAt": "2026-09-16T00:10:44.048Z",
   "swarms": [
-    {
-      "monsterId": 102,
-      "pokemon": "Exeggcute",
-      "region": "Johto",
-      "location": "Route 30",
-      "sourceId": 1789517145,
-      "despawnTimestamp": 1789517144,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-16T00:05:45.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
@@ -30,23 +19,31 @@
       "pokemon": "Bulbasaur",
       "region": "Kanto",
       "location": "Viridian Forest",
-      "secondsAgo": 6490,
+      "secondsAgo": 6798,
       "sourceId": 1789510646
+    },
+    {
+      "monsterId": 102,
+      "pokemon": "Exeggcute",
+      "region": "Johto",
+      "location": "Route 30",
+      "secondsAgo": 1798,
+      "sourceId": 1789515646
     },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
       "region": "Hoenn",
       "location": "Route 133",
-      "secondsAgo": 6459,
-      "sourceId": 1789510677
+      "secondsAgo": 6766,
+      "sourceId": 1789510678
     },
     {
       "monsterId": 390,
       "pokemon": "Chimchar",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 7010,
+      "secondsAgo": 7318,
       "sourceId": 1789510126
     }
   ],
