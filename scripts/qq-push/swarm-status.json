@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-16T09:05:47.447Z",
+  "fetchedAt": "2026-09-16T09:10:51.239Z",
   "swarms": [
-    {
-      "monsterId": 8,
-      "pokemon": "Wartortle",
-      "region": "Kanto",
-      "location": "Seafoam Islands",
-      "sourceId": 1789549659,
-      "despawnTimestamp": 1789549658,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-16T09:07:39.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 8,
+      "pokemon": "Wartortle",
+      "region": "Kanto",
+      "location": "Seafoam Islands",
+      "secondsAgo": 1691,
+      "sourceId": 1789548160
+    },
+    {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 23692,
+      "secondsAgo": 23996,
       "sourceId": 1789525855
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 2318,
+      "secondsAgo": 2622,
       "sourceId": 1789547229
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Burmy",
       "region": "Sinnoh",
       "location": "Route 202",
-      "secondsAgo": 12298,
+      "secondsAgo": 12602,
       "sourceId": 1789537249
     }
   ],
