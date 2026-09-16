@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-16T05:45:44.045Z",
+  "fetchedAt": "2026-09-16T05:50:38.228Z",
   "swarms": [
     {
       "monsterId": 412,
@@ -7,9 +7,20 @@
       "region": "Sinnoh",
       "location": "Route 202",
       "sourceId": 1789538689,
-      "despawnTimestamp": 1789538689,
+      "despawnTimestamp": 1789538688,
       "hasValuable": false,
       "timestampUtc": "2026-09-16T06:04:49.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 127,
+      "pokemon": "Pinsir",
+      "region": "Unova",
+      "location": "Route 12",
+      "sourceId": 1789539088,
+      "despawnTimestamp": 1789539088,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-16T06:11:28.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,7 +30,7 @@
       "pokemon": "Aerodactyl",
       "region": "Kanto",
       "location": "Rixy Chamber",
-      "secondsAgo": 7621,
+      "secondsAgo": 7915,
       "sourceId": 1789529923
     },
     {
@@ -27,7 +38,7 @@
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 11689,
+      "secondsAgo": 11983,
       "sourceId": 1789525855
     },
     {
@@ -35,16 +46,8 @@
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
-      "secondsAgo": 3048,
+      "secondsAgo": 3342,
       "sourceId": 1789534496
-    },
-    {
-      "monsterId": 335,
-      "pokemon": "Zangoose",
-      "region": "Unova",
-      "location": "Route 7",
-      "secondsAgo": 11367,
-      "sourceId": 1789526177
     }
   ],
   "alpha": {
