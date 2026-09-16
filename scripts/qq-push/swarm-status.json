@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-16T12:45:45.316Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-16T12:50:39.348Z",
+  "swarms": [
+    {
+      "monsterId": 389,
+      "pokemon": "Torterra",
+      "region": "Sinnoh",
+      "location": "Route 212",
+      "sourceId": 1789564374,
+      "despawnTimestamp": 1789564373,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-16T13:12:54.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Kanto",
       "location": "Treasure Beach",
-      "secondsAgo": 3569,
+      "secondsAgo": 3863,
       "sourceId": 1789559176
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 36890,
+      "secondsAgo": 37184,
       "sourceId": 1789525855
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 15516,
+      "secondsAgo": 15810,
       "sourceId": 1789547229
-    },
-    {
-      "monsterId": 392,
-      "pokemon": "Infernape",
-      "region": "Sinnoh",
-      "location": "Route 221",
-      "secondsAgo": 6412,
-      "sourceId": 1789556333
     },
     {
       "monsterId": 125,
       "pokemon": "Electabuzz",
       "region": "Unova",
       "location": "Chargestone Cave",
-      "secondsAgo": 4035,
+      "secondsAgo": 4329,
       "sourceId": 1789558710
     }
   ],
