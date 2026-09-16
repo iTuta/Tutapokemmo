@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-09-16T08:40:47.217Z",
+  "fetchedAt": "2026-09-16T08:45:43.793Z",
   "swarms": [
+    {
+      "monsterId": 8,
+      "pokemon": "Wartortle",
+      "region": "Kanto",
+      "location": "Seafoam Islands",
+      "sourceId": 1789549659,
+      "despawnTimestamp": 1789549658,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-16T09:07:39.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 517,
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
       "sourceId": 1789548728,
-      "despawnTimestamp": 1789548728,
+      "despawnTimestamp": 1789548727,
       "hasValuable": false,
       "timestampUtc": "2026-09-16T08:52:08.000Z",
       "publishedBy": ""
@@ -15,27 +26,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
-      "region": "Kanto",
-      "location": "Route 7",
-      "secondsAgo": 8107,
-      "sourceId": 1789539940
-    },
-    {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 22192,
-      "sourceId": 1789525855
+      "secondsAgo": 22489,
+      "sourceId": 1789525854
     },
     {
       "monsterId": 412,
       "pokemon": "Burmy",
       "region": "Sinnoh",
       "location": "Route 202",
-      "secondsAgo": 10798,
+      "secondsAgo": 11094,
       "sourceId": 1789537249
     },
     {
@@ -43,8 +46,8 @@
       "pokemon": "Pinsir",
       "region": "Unova",
       "location": "Route 12",
-      "secondsAgo": 10458,
-      "sourceId": 1789537589
+      "secondsAgo": 10755,
+      "sourceId": 1789537588
     }
   ],
   "alpha": {
