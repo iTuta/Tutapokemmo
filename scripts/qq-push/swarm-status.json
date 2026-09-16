@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-16T14:37:03.314Z",
+  "fetchedAt": "2026-09-16T14:40:44.433Z",
   "swarms": [
+    {
+      "monsterId": 299,
+      "pokemon": "Nosepass",
+      "region": "Kanto",
+      "location": "Mt. Moon",
+      "sourceId": 1789571108,
+      "despawnTimestamp": 1789571108,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-16T15:05:08.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 415,
       "pokemon": "Combee",
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 441,
-      "pokemon": "Chatot",
-      "region": "Kanto",
-      "location": "Treasure Beach",
-      "secondsAgo": 10247,
-      "sourceId": 1789559176
-    },
-    {
       "monsterId": 154,
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 1623,
+      "secondsAgo": 1844,
       "sourceId": 1789567800
     },
     {
@@ -46,7 +49,7 @@
       "pokemon": "Wailord",
       "region": "Hoenn",
       "location": "Route 129",
-      "secondsAgo": 1693,
+      "secondsAgo": 1914,
       "sourceId": 1789567730
     }
   ],
