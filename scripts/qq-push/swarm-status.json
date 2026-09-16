@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-16T14:25:43.468Z",
+  "fetchedAt": "2026-09-16T14:30:51.642Z",
   "swarms": [
     {
       "monsterId": 154,
@@ -7,7 +7,7 @@
       "region": "Johto",
       "location": "Route 48",
       "sourceId": 1789569299,
-      "despawnTimestamp": 1789569299,
+      "despawnTimestamp": 1789569298,
       "hasValuable": false,
       "timestampUtc": "2026-09-16T14:34:59.000Z",
       "publishedBy": ""
@@ -33,6 +33,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-16T14:45:39.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Unova",
+      "location": "Relic Castle",
+      "sourceId": 1789570456,
+      "despawnTimestamp": 1789570455,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-16T14:54:16.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,16 +52,8 @@
       "pokemon": "Chatot",
       "region": "Kanto",
       "location": "Treasure Beach",
-      "secondsAgo": 9567,
+      "secondsAgo": 9875,
       "sourceId": 1789559176
-    },
-    {
-      "monsterId": 125,
-      "pokemon": "Electabuzz",
-      "region": "Unova",
-      "location": "Chargestone Cave",
-      "secondsAgo": 10033,
-      "sourceId": 1789558710
     }
   ],
   "alpha": {
