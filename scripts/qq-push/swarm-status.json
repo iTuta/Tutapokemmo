@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-17T19:20:41.574Z",
+  "fetchedAt": "2026-09-17T19:25:43.945Z",
   "swarms": [
     {
       "monsterId": 4,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-17T19:29:40.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 107,
-      "pokemon": "Hitmonchan",
-      "region": "Hoenn",
-      "location": "Fiery Path",
-      "sourceId": 1789673097,
-      "despawnTimestamp": 1789673096,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-17T19:24:57.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,15 +19,23 @@
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 6787,
-      "sourceId": 1789666054
+      "secondsAgo": 7090,
+      "sourceId": 1789666053
+    },
+    {
+      "monsterId": 107,
+      "pokemon": "Hitmonchan",
+      "region": "Hoenn",
+      "location": "Fiery Path",
+      "secondsAgo": 1546,
+      "sourceId": 1789671597
     },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Sinnoh",
       "location": "Route 225",
-      "secondsAgo": 6384,
+      "secondsAgo": 6686,
       "sourceId": 1789666457
     }
   ],
