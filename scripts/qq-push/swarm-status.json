@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-17T21:30:49.230Z",
+  "fetchedAt": "2026-09-17T21:35:40.903Z",
   "swarms": [
-    {
-      "monsterId": 479,
-      "pokemon": "Rotom",
-      "region": "Kanto",
-      "location": "Power Plant",
-      "sourceId": 1789680837,
-      "despawnTimestamp": 1789680837,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-17T21:33:57.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 158,
       "pokemon": "Totodile",
@@ -22,32 +11,43 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-17T21:42:34.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 441,
+      "pokemon": "Chatot",
+      "region": "Hoenn",
+      "location": "Route 115",
+      "sourceId": 1789682368,
+      "despawnTimestamp": 1789682367,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-17T21:59:28.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 107,
-      "pokemon": "Hitmonchan",
-      "region": "Hoenn",
-      "location": "Fiery Path",
-      "secondsAgo": 9051,
-      "sourceId": 1789671598
+      "monsterId": 479,
+      "pokemon": "Rotom",
+      "region": "Kanto",
+      "location": "Power Plant",
+      "secondsAgo": 1602,
+      "sourceId": 1789679338
     },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Sinnoh",
       "location": "Route 225",
-      "secondsAgo": 4999,
-      "sourceId": 1789675650
+      "secondsAgo": 5291,
+      "sourceId": 1789675649
     },
     {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Unova",
       "location": "Cold Storage",
-      "secondsAgo": 24091,
-      "sourceId": 1789656558
+      "secondsAgo": 24383,
+      "sourceId": 1789656557
     }
   ],
   "alpha": {
