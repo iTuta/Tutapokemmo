@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-17T17:31:07.307Z",
+  "fetchedAt": "2026-09-17T17:35:39.501Z",
   "swarms": [
     {
       "monsterId": 115,
@@ -22,6 +22,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-17T17:49:35.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 455,
+      "pokemon": "Carnivine",
+      "region": "Sinnoh",
+      "location": "Route 225",
+      "sourceId": 1789667957,
+      "despawnTimestamp": 1789667956,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-17T17:59:17.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,23 +41,15 @@
       "pokemon": "Relicanth",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 11752,
+      "secondsAgo": 12024,
       "sourceId": 1789654515
-    },
-    {
-      "monsterId": 281,
-      "pokemon": "Kirlia",
-      "region": "Sinnoh",
-      "location": "Snowpoint Temple",
-      "secondsAgo": 5402,
-      "sourceId": 1789660865
     },
     {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Unova",
       "location": "Cold Storage",
-      "secondsAgo": 9709,
+      "secondsAgo": 9981,
       "sourceId": 1789656558
     }
   ],
