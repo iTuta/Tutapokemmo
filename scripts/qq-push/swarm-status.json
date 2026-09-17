@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-17T12:00:54.199Z",
+  "fetchedAt": "2026-09-17T12:05:46.527Z",
   "swarms": [
-    {
-      "monsterId": 240,
-      "pokemon": "Magby",
-      "region": "Hoenn",
-      "location": "Mt. Chimney",
-      "sourceId": 1789646661,
-      "despawnTimestamp": 1789646661,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-17T12:04:21.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 313,
       "pokemon": "Volbeat",
@@ -30,7 +19,7 @@
       "pokemon": "Charmander",
       "region": "Kanto",
       "location": "Route 3",
-      "secondsAgo": 2071,
+      "secondsAgo": 2363,
       "sourceId": 1789644383
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Vigoroth",
       "region": "Johto",
       "location": "Ruins of Alph",
-      "secondsAgo": 1622,
+      "secondsAgo": 1914,
       "sourceId": 1789644832
+    },
+    {
+      "monsterId": 240,
+      "pokemon": "Magby",
+      "region": "Hoenn",
+      "location": "Mt. Chimney",
+      "secondsAgo": 1584,
+      "sourceId": 1789645162
     },
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 18399,
+      "secondsAgo": 18691,
       "sourceId": 1789628055
     }
   ],
