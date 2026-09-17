@@ -1,38 +1,42 @@
 {
-  "fetchedAt": "2026-09-17T15:55:39.004Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-17T16:01:09.070Z",
+  "swarms": [
+    {
+      "monsterId": 281,
+      "pokemon": "Kirlia",
+      "region": "Sinnoh",
+      "location": "Snowpoint Temple",
+      "sourceId": 1789662364,
+      "despawnTimestamp": 1789662364,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-17T16:26:04.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 6023,
-      "sourceId": 1789654515
+      "secondsAgo": 6353,
+      "sourceId": 1789654516
     },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Johto",
       "location": "Cliff Cave",
-      "secondsAgo": 5814,
-      "sourceId": 1789654724
+      "secondsAgo": 6144,
+      "sourceId": 1789654725
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Hoenn",
       "location": "Route 101",
-      "secondsAgo": 2575,
-      "sourceId": 1789657963
-    },
-    {
-      "monsterId": 227,
-      "pokemon": "Skarmory",
-      "region": "Sinnoh",
-      "location": "Route 227",
-      "secondsAgo": 4043,
-      "sourceId": 1789656495
+      "secondsAgo": 2905,
+      "sourceId": 1789657964
     }
   ],
   "alpha": {
