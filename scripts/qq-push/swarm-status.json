@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-17T11:35:38.429Z",
+  "fetchedAt": "2026-09-17T11:40:43.078Z",
   "swarms": [
     {
       "monsterId": 4,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Route 3",
       "sourceId": 1789645883,
-      "despawnTimestamp": 1789645882,
+      "despawnTimestamp": 1789645883,
       "hasValuable": false,
       "timestampUtc": "2026-09-17T11:51:23.000Z",
       "publishedBy": ""
@@ -22,23 +22,26 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-17T11:58:51.000Z",
       "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+    },
     {
       "monsterId": 240,
       "pokemon": "Magby",
       "region": "Hoenn",
       "location": "Mt. Chimney",
-      "secondsAgo": 6346,
-      "sourceId": 1789638592
-    },
+      "sourceId": 1789646661,
+      "despawnTimestamp": 1789646661,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-17T12:04:21.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 16883,
+      "secondsAgo": 17188,
       "sourceId": 1789628055
     },
     {
@@ -46,8 +49,8 @@
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 16919,
-      "sourceId": 1789628019
+      "secondsAgo": 17223,
+      "sourceId": 1789628020
     }
   ],
   "alpha": {
