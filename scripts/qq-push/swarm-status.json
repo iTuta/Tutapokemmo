@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-09-17T11:25:44.335Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-17T11:31:01.130Z",
+  "swarms": [
     {
-      "monsterId": 336,
-      "pokemon": "Seviper",
+      "monsterId": 4,
+      "pokemon": "Charmander",
       "region": "Kanto",
-      "location": "Route 15",
-      "secondsAgo": 13467,
-      "sourceId": 1789630877
-    },
+      "location": "Route 3",
+      "sourceId": 1789645883,
+      "despawnTimestamp": 1789645883,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-17T11:51:23.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 5862,
+      "secondsAgo": 6179,
       "sourceId": 1789638482
     },
     {
@@ -23,15 +27,15 @@
       "pokemon": "Magby",
       "region": "Hoenn",
       "location": "Mt. Chimney",
-      "secondsAgo": 5752,
-      "sourceId": 1789638592
+      "secondsAgo": 6068,
+      "sourceId": 1789638593
     },
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 16289,
+      "secondsAgo": 16606,
       "sourceId": 1789628055
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 16324,
+      "secondsAgo": 16641,
       "sourceId": 1789628020
     }
   ],
