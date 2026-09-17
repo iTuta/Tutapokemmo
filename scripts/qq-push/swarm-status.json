@@ -1,36 +1,33 @@
 {
-  "fetchedAt": "2026-09-17T02:50:38.511Z",
+  "fetchedAt": "2026-09-17T02:55:43.089Z",
   "swarms": [
     {
-      "monsterId": 127,
-      "pokemon": "Pinsir",
-      "region": "Kanto",
-      "location": "Route 11",
-      "sourceId": 1789614016,
-      "despawnTimestamp": 1789614015,
+      "monsterId": 373,
+      "pokemon": "Salamence",
+      "region": "Unova",
+      "location": "Dragonspiral Tower",
+      "sourceId": 1789615032,
+      "despawnTimestamp": 1789615033,
       "hasValuable": false,
-      "timestampUtc": "2026-09-17T03:00:16.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 300,
-      "pokemon": "Skitty",
-      "region": "Johto",
-      "location": "Route 35",
-      "sourceId": 1789613562,
-      "despawnTimestamp": 1789613562,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-17T02:52:42.000Z",
+      "timestampUtc": "2026-09-17T03:17:12.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
+      "monsterId": 300,
+      "pokemon": "Skitty",
+      "region": "Johto",
+      "location": "Route 35",
+      "secondsAgo": 1680,
+      "sourceId": 1789612063
+    },
+    {
       "monsterId": 134,
       "pokemon": "Vaporeon",
       "region": "Hoenn",
       "location": "Route 134",
-      "secondsAgo": 4077,
+      "secondsAgo": 4382,
       "sourceId": 1789609361
     },
     {
@@ -38,28 +35,20 @@
       "pokemon": "Zangoose",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 17829,
-      "sourceId": 1789595609
-    },
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Unova",
-      "location": "Route 1",
-      "secondsAgo": 9874,
-      "sourceId": 1789603564
+      "secondsAgo": 18133,
+      "sourceId": 1789595610
     }
   ],
   "alpha": {
-    "monsterId": 87,
-    "pokemon": "Dewgong",
+    "monsterId": 30,
+    "pokemon": "Nidorina",
     "region": "Kanto",
-    "location": "Four Island",
-    "sourceId": 1789575403,
-    "despawnTimestamp": 1789592503,
+    "location": "Route 3",
+    "sourceId": 1789601125,
+    "despawnTimestamp": 1789618225,
     "hasValuable": false,
-    "timestampUtc": "2026-09-16T16:16:43.000Z",
-    "timestampRaw": "2026-09-16T16:16:43.000Z",
-    "publishedBy": "Jackolomeus"
+    "timestampUtc": "2026-09-16T23:25:25.000Z",
+    "timestampRaw": "2026-09-16T23:25:25.000Z",
+    "publishedBy": ""
   }
 }
