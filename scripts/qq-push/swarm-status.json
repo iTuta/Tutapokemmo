@@ -1,45 +1,52 @@
 {
-  "fetchedAt": "2026-09-17T09:45:51.986Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-17T09:50:43.788Z",
+  "swarms": [
+    {
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Johto",
+      "location": "Burned Tower",
+      "sourceId": 1789639861,
+      "despawnTimestamp": 1789639861,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-17T10:11:01.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 240,
+      "pokemon": "Magby",
+      "region": "Hoenn",
+      "location": "Mt. Chimney",
+      "sourceId": 1789640092,
+      "despawnTimestamp": 1789640091,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-17T10:14:52.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Kanto",
       "location": "Route 15",
-      "secondsAgo": 7475,
+      "secondsAgo": 7767,
       "sourceId": 1789630876
-    },
-    {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Johto",
-      "location": "Cliff Cave",
-      "secondsAgo": 6785,
-      "sourceId": 1789631566
-    },
-    {
-      "monsterId": 257,
-      "pokemon": "Blaziken",
-      "region": "Hoenn",
-      "location": "Magma Hideout",
-      "secondsAgo": 10726,
-      "sourceId": 1789627625
     },
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 10297,
-      "sourceId": 1789628054
+      "secondsAgo": 10588,
+      "sourceId": 1789628055
     },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 10332,
+      "secondsAgo": 10624,
       "sourceId": 1789628019
     }
   ],
