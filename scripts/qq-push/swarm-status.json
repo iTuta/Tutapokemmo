@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-17T11:55:43.410Z",
+  "fetchedAt": "2026-09-17T12:00:54.199Z",
   "swarms": [
-    {
-      "monsterId": 288,
-      "pokemon": "Vigoroth",
-      "region": "Johto",
-      "location": "Ruins of Alph",
-      "sourceId": 1789646331,
-      "despawnTimestamp": 1789646331,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-17T11:58:51.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 240,
       "pokemon": "Magby",
@@ -41,15 +30,23 @@
       "pokemon": "Charmander",
       "region": "Kanto",
       "location": "Route 3",
-      "secondsAgo": 1760,
+      "secondsAgo": 2071,
       "sourceId": 1789644383
+    },
+    {
+      "monsterId": 288,
+      "pokemon": "Vigoroth",
+      "region": "Johto",
+      "location": "Ruins of Alph",
+      "secondsAgo": 1622,
+      "sourceId": 1789644832
     },
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 18088,
+      "secondsAgo": 18399,
       "sourceId": 1789628055
     }
   ],
