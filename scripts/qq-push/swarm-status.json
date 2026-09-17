@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-17T04:36:24.501Z",
+  "fetchedAt": "2026-09-17T04:40:37.883Z",
   "swarms": [
     {
       "monsterId": 149,
@@ -7,9 +7,20 @@
       "region": "Hoenn",
       "location": "Route 131",
       "sourceId": 1789620783,
-      "despawnTimestamp": 1789620783,
+      "despawnTimestamp": 1789620782,
       "hasValuable": false,
       "timestampUtc": "2026-09-17T04:53:03.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Unova",
+      "location": "Relic Castle",
+      "sourceId": 1789621493,
+      "despawnTimestamp": 1789621493,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-17T05:04:53.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,7 +30,7 @@
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "secondsAgo": 7268,
+      "secondsAgo": 7521,
       "sourceId": 1789612516
     },
     {
@@ -27,7 +38,7 @@
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 7721,
+      "secondsAgo": 7974,
       "sourceId": 1789612063
     },
     {
@@ -35,16 +46,8 @@
       "pokemon": "Zangoose",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 24175,
+      "secondsAgo": 24428,
       "sourceId": 1789595609
-    },
-    {
-      "monsterId": 373,
-      "pokemon": "Salamence",
-      "region": "Unova",
-      "location": "Dragonspiral Tower",
-      "secondsAgo": 6251,
-      "sourceId": 1789613533
     }
   ],
   "alpha": {
