@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-17T17:20:45.364Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-17T17:25:45.404Z",
+  "swarms": [
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Hoenn",
+      "location": "Shoal Cave",
+      "sourceId": 1789667375,
+      "despawnTimestamp": 1789667375,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-17T17:49:35.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 11130,
+      "secondsAgo": 11430,
       "sourceId": 1789654515
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Shuckle",
       "region": "Johto",
       "location": "Cliff Cave",
-      "secondsAgo": 10920,
+      "secondsAgo": 11220,
       "sourceId": 1789654725
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Hoenn",
-      "location": "Route 101",
-      "secondsAgo": 7682,
-      "sourceId": 1789657963
     },
     {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Sinnoh",
       "location": "Snowpoint Temple",
-      "secondsAgo": 4780,
+      "secondsAgo": 5080,
       "sourceId": 1789660865
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Aipom",
       "region": "Unova",
       "location": "Cold Storage",
-      "secondsAgo": 9087,
+      "secondsAgo": 9387,
       "sourceId": 1789656558
     }
   ],
