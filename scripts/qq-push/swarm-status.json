@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-17T18:56:06.745Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-17T19:01:15.275Z",
+  "swarms": [
+    {
+      "monsterId": 107,
+      "pokemon": "Hitmonchan",
+      "region": "Hoenn",
+      "location": "Fiery Path",
+      "sourceId": 1789673097,
+      "despawnTimestamp": 1789673097,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-17T19:24:57.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 2,
       "pokemon": "Ivysaur",
       "region": "Kanto",
       "location": "Route 5",
-      "secondsAgo": 3086,
+      "secondsAgo": 3395,
       "sourceId": 1789668280
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 5312,
+      "secondsAgo": 5621,
       "sourceId": 1789666054
-    },
-    {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Hoenn",
-      "location": "Shoal Cave",
-      "secondsAgo": 5490,
-      "sourceId": 1789665876
     },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Sinnoh",
       "location": "Route 225",
-      "secondsAgo": 4909,
+      "secondsAgo": 5218,
       "sourceId": 1789666457
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Aipom",
       "region": "Unova",
       "location": "Cold Storage",
-      "secondsAgo": 14808,
+      "secondsAgo": 15117,
       "sourceId": 1789656558
     }
   ],
