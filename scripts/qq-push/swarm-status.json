@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-17T23:45:55.291Z",
+  "fetchedAt": "2026-09-17T23:51:23.794Z",
   "swarms": [
     {
       "monsterId": 135,
@@ -24,6 +24,17 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 211,
+      "pokemon": "Qwilfish",
+      "region": "Hoenn",
+      "location": "Route 125",
+      "sourceId": 1789690513,
+      "despawnTimestamp": 1789690512,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-18T00:15:13.000Z",
+      "publishedBy": ""
+    },
+    {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Unova",
@@ -37,20 +48,12 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 441,
-      "pokemon": "Chatot",
-      "region": "Hoenn",
-      "location": "Route 115",
-      "secondsAgo": 7886,
-      "sourceId": 1789680869
-    },
-    {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Sinnoh",
       "location": "Route 225",
-      "secondsAgo": 13105,
-      "sourceId": 1789675650
+      "secondsAgo": 13434,
+      "sourceId": 1789675649
     }
   ],
   "alpha": {
