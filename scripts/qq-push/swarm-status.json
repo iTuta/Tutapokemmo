@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-17T14:15:42.930Z",
+  "fetchedAt": "2026-09-17T14:20:41.809Z",
   "swarms": [
     {
       "monsterId": 369,
@@ -11,39 +11,45 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-17T14:40:14.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 213,
+      "pokemon": "Shuckle",
+      "region": "Johto",
+      "location": "Cliff Cave",
+      "sourceId": 1789656224,
+      "despawnTimestamp": 1789656224,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-17T14:43:44.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 227,
+      "pokemon": "Skarmory",
+      "region": "Sinnoh",
+      "location": "Route 227",
+      "sourceId": 1789656196,
+      "despawnTimestamp": 1789656195,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-17T14:43:16.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 288,
-      "pokemon": "Vigoroth",
-      "region": "Johto",
-      "location": "Ruins of Alph",
-      "secondsAgo": 9711,
-      "sourceId": 1789644831
-    },
     {
       "monsterId": 240,
       "pokemon": "Magby",
       "region": "Hoenn",
       "location": "Mt. Chimney",
-      "secondsAgo": 9381,
-      "sourceId": 1789645161
-    },
-    {
-      "monsterId": 453,
-      "pokemon": "Croagunk",
-      "region": "Sinnoh",
-      "location": "Route 212",
-      "secondsAgo": 26488,
-      "sourceId": 1789628054
+      "secondsAgo": 9679,
+      "sourceId": 1789645162
     },
     {
       "monsterId": 313,
       "pokemon": "Volbeat",
       "region": "Unova",
       "location": "Route 8",
-      "secondsAgo": 8470,
+      "secondsAgo": 8769,
       "sourceId": 1789646072
     }
   ],
