@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-17T04:25:38.896Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-17T04:30:54.929Z",
+  "swarms": [
+    {
+      "monsterId": 149,
+      "pokemon": "Dragonite",
+      "region": "Hoenn",
+      "location": "Route 131",
+      "sourceId": 1789620783,
+      "despawnTimestamp": 1789620782,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-17T04:53:03.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "secondsAgo": 6622,
+      "secondsAgo": 6938,
       "sourceId": 1789612516
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 7075,
+      "secondsAgo": 7391,
       "sourceId": 1789612063
-    },
-    {
-      "monsterId": 134,
-      "pokemon": "Vaporeon",
-      "region": "Hoenn",
-      "location": "Route 134",
-      "secondsAgo": 9777,
-      "sourceId": 1789609361
     },
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 23529,
+      "secondsAgo": 23845,
       "sourceId": 1789595609
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 5605,
+      "secondsAgo": 5921,
       "sourceId": 1789613533
     }
   ],
