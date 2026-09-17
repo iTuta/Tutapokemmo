@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-17T23:25:41.591Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-17T23:30:48.794Z",
+  "swarms": [
+    {
+      "monsterId": 373,
+      "pokemon": "Salamence",
+      "region": "Unova",
+      "location": "Dragonspiral Tower",
+      "sourceId": 1789689206,
+      "despawnTimestamp": 1789689205,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-17T23:53:26.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 479,
       "pokemon": "Rotom",
       "region": "Kanto",
       "location": "Power Plant",
-      "secondsAgo": 8203,
+      "secondsAgo": 8510,
       "sourceId": 1789679338
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Totodile",
       "region": "Johto",
       "location": "Route 32",
-      "secondsAgo": 7686,
+      "secondsAgo": 7993,
       "sourceId": 1789679855
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Chatot",
       "region": "Hoenn",
       "location": "Route 115",
-      "secondsAgo": 6672,
-      "sourceId": 1789680869
+      "secondsAgo": 6980,
+      "sourceId": 1789680868
     },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Sinnoh",
       "location": "Route 225",
-      "secondsAgo": 11891,
-      "sourceId": 1789675650
-    },
-    {
-      "monsterId": 190,
-      "pokemon": "Aipom",
-      "region": "Unova",
-      "location": "Cold Storage",
-      "secondsAgo": 30983,
-      "sourceId": 1789656558
+      "secondsAgo": 12199,
+      "sourceId": 1789675649
     }
   ],
   "alpha": {
