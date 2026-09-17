@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-17T07:10:52.854Z",
+  "fetchedAt": "2026-09-17T07:15:42.698Z",
   "swarms": [
-    {
-      "monsterId": 257,
-      "pokemon": "Blaziken",
-      "region": "Hoenn",
-      "location": "Magma Hideout",
-      "sourceId": 1789629124,
-      "despawnTimestamp": 1789629124,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-17T07:12:04.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
@@ -41,7 +30,7 @@
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "secondsAgo": 16536,
+      "secondsAgo": 16826,
       "sourceId": 1789612516
     },
     {
@@ -49,8 +38,16 @@
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 16989,
+      "secondsAgo": 17279,
       "sourceId": 1789612063
+    },
+    {
+      "monsterId": 257,
+      "pokemon": "Blaziken",
+      "region": "Hoenn",
+      "location": "Magma Hideout",
+      "secondsAgo": 1717,
+      "sourceId": 1789627625
     }
   ],
   "alpha": {
