@@ -1,13 +1,21 @@
 {
-  "fetchedAt": "2026-09-17T04:05:34.731Z",
+  "fetchedAt": "2026-09-17T04:10:53.683Z",
   "swarms": [],
   "lastSeen": [
+    {
+      "monsterId": 127,
+      "pokemon": "Pinsir",
+      "region": "Kanto",
+      "location": "Route 11",
+      "secondsAgo": 5737,
+      "sourceId": 1789612516
+    },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 5871,
+      "secondsAgo": 6190,
       "sourceId": 1789612063
     },
     {
@@ -15,7 +23,7 @@
       "pokemon": "Vaporeon",
       "region": "Hoenn",
       "location": "Route 134",
-      "secondsAgo": 8573,
+      "secondsAgo": 8892,
       "sourceId": 1789609361
     },
     {
@@ -23,7 +31,7 @@
       "pokemon": "Zangoose",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 22325,
+      "secondsAgo": 22644,
       "sourceId": 1789595609
     },
     {
@@ -31,7 +39,7 @@
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 4401,
+      "secondsAgo": 4720,
       "sourceId": 1789613533
     }
   ],
@@ -45,6 +53,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-09-16T23:25:25.000Z",
     "timestampRaw": "2026-09-16T23:25:25.000Z",
-    "publishedBy": ""
+    "publishedBy": "LotD"
   }
 }
