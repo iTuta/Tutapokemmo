@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-17T23:51:23.794Z",
+  "fetchedAt": "2026-09-17T23:55:41.132Z",
   "swarms": [
     {
       "monsterId": 135,
@@ -29,20 +29,9 @@
       "region": "Hoenn",
       "location": "Route 125",
       "sourceId": 1789690513,
-      "despawnTimestamp": 1789690512,
+      "despawnTimestamp": 1789690513,
       "hasValuable": false,
       "timestampUtc": "2026-09-18T00:15:13.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 373,
-      "pokemon": "Salamence",
-      "region": "Unova",
-      "location": "Dragonspiral Tower",
-      "sourceId": 1789689206,
-      "despawnTimestamp": 1789689205,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-17T23:53:26.000Z",
       "publishedBy": ""
     }
   ],
@@ -52,8 +41,16 @@
       "pokemon": "Carnivine",
       "region": "Sinnoh",
       "location": "Route 225",
-      "secondsAgo": 13434,
-      "sourceId": 1789675649
+      "secondsAgo": 13691,
+      "sourceId": 1789675650
+    },
+    {
+      "monsterId": 373,
+      "pokemon": "Salamence",
+      "region": "Unova",
+      "location": "Dragonspiral Tower",
+      "secondsAgo": 1634,
+      "sourceId": 1789687707
     }
   ],
   "alpha": {
