@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-09-17T15:35:50.852Z",
-  "swarms": [
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Hoenn",
-      "location": "Route 101",
-      "sourceId": 1789659463,
-      "despawnTimestamp": 1789659462,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-17T15:37:43.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-17T15:40:52.876Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 4835,
+      "secondsAgo": 5137,
       "sourceId": 1789654515
     },
     {
@@ -27,15 +15,23 @@
       "pokemon": "Shuckle",
       "region": "Johto",
       "location": "Cliff Cave",
-      "secondsAgo": 4625,
+      "secondsAgo": 4927,
       "sourceId": 1789654725
+    },
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Hoenn",
+      "location": "Route 101",
+      "secondsAgo": 1689,
+      "sourceId": 1789657963
     },
     {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Sinnoh",
       "location": "Route 227",
-      "secondsAgo": 2855,
+      "secondsAgo": 3157,
       "sourceId": 1789656495
     }
   ],
