@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-09-17T02:25:41.038Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-17T02:30:50.678Z",
+  "swarms": [
+    {
+      "monsterId": 300,
+      "pokemon": "Skitty",
+      "region": "Johto",
+      "location": "Route 35",
+      "sourceId": 1789613562,
+      "despawnTimestamp": 1789613562,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-17T02:52:42.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 299,
       "pokemon": "Nosepass",
       "region": "Kanto",
       "location": "Mt. Moon",
-      "secondsAgo": 42332,
-      "sourceId": 1789569609
-    },
-    {
-      "monsterId": 153,
-      "pokemon": "Bayleef",
-      "region": "Johto",
-      "location": "National Park",
-      "secondsAgo": 8132,
-      "sourceId": 1789603809
+      "secondsAgo": 42642,
+      "sourceId": 1789569608
     },
     {
       "monsterId": 134,
       "pokemon": "Vaporeon",
       "region": "Hoenn",
       "location": "Route 134",
-      "secondsAgo": 2580,
+      "secondsAgo": 2889,
       "sourceId": 1789609361
     },
     {
@@ -31,15 +35,15 @@
       "pokemon": "Zangoose",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 16331,
-      "sourceId": 1789595610
+      "secondsAgo": 16641,
+      "sourceId": 1789595609
     },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 8377,
+      "secondsAgo": 8686,
       "sourceId": 1789603564
     }
   ],
