@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-17T11:50:47.146Z",
+  "fetchedAt": "2026-09-17T11:55:43.410Z",
   "swarms": [
-    {
-      "monsterId": 4,
-      "pokemon": "Charmander",
-      "region": "Kanto",
-      "location": "Route 3",
-      "sourceId": 1789645883,
-      "despawnTimestamp": 1789645883,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-17T11:51:23.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 288,
       "pokemon": "Vigoroth",
@@ -33,24 +22,35 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-17T12:04:21.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 313,
+      "pokemon": "Volbeat",
+      "region": "Unova",
+      "location": "Route 8",
+      "sourceId": 1789647572,
+      "despawnTimestamp": 1789647572,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-17T12:19:32.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
+    {
+      "monsterId": 4,
+      "pokemon": "Charmander",
+      "region": "Kanto",
+      "location": "Route 3",
+      "secondsAgo": 1760,
+      "sourceId": 1789644383
+    },
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 17792,
+      "secondsAgo": 18088,
       "sourceId": 1789628055
-    },
-    {
-      "monsterId": 176,
-      "pokemon": "Togetic",
-      "region": "Unova",
-      "location": "Dreamyard",
-      "secondsAgo": 17827,
-      "sourceId": 1789628020
     }
   ],
   "alpha": {
