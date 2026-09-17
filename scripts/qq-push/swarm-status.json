@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-09-17T07:40:44.816Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-17T07:45:47.397Z",
+  "swarms": [
     {
-      "monsterId": 127,
-      "pokemon": "Pinsir",
+      "monsterId": 336,
+      "pokemon": "Seviper",
       "region": "Kanto",
-      "location": "Route 11",
-      "secondsAgo": 18328,
-      "sourceId": 1789612516
-    },
+      "location": "Route 15",
+      "sourceId": 1789632376,
+      "despawnTimestamp": 1789632375,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-17T08:06:16.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 18781,
+      "secondsAgo": 19084,
       "sourceId": 1789612063
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Blaziken",
       "region": "Hoenn",
       "location": "Magma Hideout",
-      "secondsAgo": 3219,
+      "secondsAgo": 3522,
       "sourceId": 1789627625
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Croagunk",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 2789,
+      "secondsAgo": 3092,
       "sourceId": 1789628055
     }
   ],
