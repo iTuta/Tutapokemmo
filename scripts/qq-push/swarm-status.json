@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-18T11:45:47.624Z",
+  "fetchedAt": "2026-09-18T11:50:47.033Z",
   "swarms": [
     {
       "monsterId": 479,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Power Plant",
       "sourceId": 1789733161,
-      "despawnTimestamp": 1789733161,
+      "despawnTimestamp": 1789733162,
       "hasValuable": false,
       "timestampUtc": "2026-09-18T12:06:01.000Z",
       "publishedBy": ""
@@ -18,20 +18,9 @@
       "region": "Johto",
       "location": "Route 48",
       "sourceId": 1789733006,
-      "despawnTimestamp": 1789733005,
+      "despawnTimestamp": 1789733006,
       "hasValuable": false,
       "timestampUtc": "2026-09-18T12:03:26.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 242,
-      "pokemon": "Blissey",
-      "region": "Hoenn",
-      "location": "Artisan Cave",
-      "sourceId": 1789732234,
-      "despawnTimestamp": 1789732234,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-18T11:50:34.000Z",
       "publishedBy": ""
     },
     {
@@ -40,7 +29,7 @@
       "region": "Sinnoh",
       "location": "Iron Island",
       "sourceId": 1789732450,
-      "despawnTimestamp": 1789732449,
+      "despawnTimestamp": 1789732450,
       "hasValuable": false,
       "timestampUtc": "2026-09-18T11:54:10.000Z",
       "publishedBy": ""
@@ -57,7 +46,16 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [],
+  "lastSeen": [
+    {
+      "monsterId": 242,
+      "pokemon": "Blissey",
+      "region": "Hoenn",
+      "location": "Artisan Cave",
+      "secondsAgo": 1512,
+      "sourceId": 1789730735
+    }
+  ],
   "alpha": {
     "monsterId": 22,
     "pokemon": "Fearow",
