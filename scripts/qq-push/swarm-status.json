@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-18T04:50:42.103Z",
+  "fetchedAt": "2026-09-18T04:55:36.417Z",
   "swarms": [
     {
       "monsterId": 335,
@@ -11,31 +11,34 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-18T05:15:17.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 285,
+      "pokemon": "Shroomish",
+      "region": "Johto",
+      "location": "Route 34",
+      "sourceId": 1789708835,
+      "despawnTimestamp": 1789708835,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-18T05:20:35.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 372,
-      "pokemon": "Shelgon",
-      "region": "Johto",
-      "location": "Dragon&#x27;s Den",
-      "secondsAgo": 5064,
-      "sourceId": 1789701978
-    },
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Hoenn",
       "location": "Route 127",
-      "secondsAgo": 5853,
-      "sourceId": 1789701189
+      "secondsAgo": 6148,
+      "sourceId": 1789701188
     },
     {
       "monsterId": 390,
       "pokemon": "Chimchar",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 2079,
+      "secondsAgo": 2373,
       "sourceId": 1789704963
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 3926,
+      "secondsAgo": 4220,
       "sourceId": 1789703116
     }
   ],
