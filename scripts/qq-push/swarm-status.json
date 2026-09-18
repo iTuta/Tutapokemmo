@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-18T20:31:00.094Z",
+  "fetchedAt": "2026-09-18T20:35:38.052Z",
   "swarms": [
-    {
-      "monsterId": 135,
-      "pokemon": "Jolteon",
-      "region": "Kanto",
-      "location": "Ruin Valley",
-      "sourceId": 1789763507,
-      "despawnTimestamp": 1789763507,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-18T20:31:47.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 135,
+      "pokemon": "Jolteon",
+      "region": "Kanto",
+      "location": "Ruin Valley",
+      "secondsAgo": 1730,
+      "sourceId": 1789762008
+    },
+    {
       "monsterId": 479,
       "pokemon": "Rotom",
       "region": "Hoenn",
       "location": "New Mauville",
-      "secondsAgo": 6969,
+      "secondsAgo": 7247,
       "sourceId": 1789756491
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 12129,
+      "secondsAgo": 12407,
       "sourceId": 1789751331
     }
   ],
