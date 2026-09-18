@@ -1,45 +1,52 @@
 {
-  "fetchedAt": "2026-09-18T03:10:44.703Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-18T03:15:42.178Z",
+  "swarms": [
     {
-      "monsterId": 135,
-      "pokemon": "Jolteon",
+      "monsterId": 336,
+      "pokemon": "Seviper",
       "region": "Kanto",
-      "location": "Ruin Valley",
-      "secondsAgo": 12496,
-      "sourceId": 1789688548
+      "location": "Route 15",
+      "sourceId": 1789702767,
+      "despawnTimestamp": 1789702767,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-18T03:39:27.000Z",
+      "publishedBy": ""
     },
+    {
+      "monsterId": 319,
+      "pokemon": "Sharpedo",
+      "region": "Hoenn",
+      "location": "Route 127",
+      "sourceId": 1789702388,
+      "despawnTimestamp": 1789702387,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-18T03:33:08.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Johto",
       "location": "Route 38",
-      "secondsAgo": 8016,
-      "sourceId": 1789693028
-    },
-    {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Hoenn",
-      "location": "Seafloor Cavern",
-      "secondsAgo": 8989,
-      "sourceId": 1789692055
+      "secondsAgo": 8313,
+      "sourceId": 1789693029
     },
     {
       "monsterId": 103,
       "pokemon": "Exeggutor",
       "region": "Sinnoh",
       "location": "Route 230",
-      "secondsAgo": 9155,
-      "sourceId": 1789691889
+      "secondsAgo": 9452,
+      "sourceId": 1789691890
     },
     {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 13338,
+      "secondsAgo": 13636,
       "sourceId": 1789687706
     }
   ],
