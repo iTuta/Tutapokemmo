@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-09-18T10:15:46.683Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-18T10:20:44.515Z",
+  "swarms": [
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 19528,
-      "sourceId": 1789707018
-    },
+      "sourceId": 1789728245,
+      "despawnTimestamp": 1789728245,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-18T10:44:05.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 375,
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 8840,
+      "secondsAgo": 9138,
       "sourceId": 1789717706
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Skarmory",
       "region": "Hoenn",
       "location": "Route 113",
-      "secondsAgo": 7325,
+      "secondsAgo": 7623,
       "sourceId": 1789719221
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Combee",
       "region": "Sinnoh",
       "location": "Floaroma Meadow",
-      "secondsAgo": 7993,
+      "secondsAgo": 8291,
       "sourceId": 1789718553
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 15051,
+      "secondsAgo": 15349,
       "sourceId": 1789711495
     }
   ],
