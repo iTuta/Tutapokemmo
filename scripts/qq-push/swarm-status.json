@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-18T08:00:58.684Z",
+  "fetchedAt": "2026-09-18T08:05:40.956Z",
   "swarms": [
     {
       "monsterId": 375,
@@ -7,9 +7,20 @@
       "region": "Johto",
       "location": "Ice Path",
       "sourceId": 1789719205,
-      "despawnTimestamp": 1789719205,
+      "despawnTimestamp": 1789719204,
       "hasValuable": false,
       "timestampUtc": "2026-09-18T08:13:25.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 415,
+      "pokemon": "Combee",
+      "region": "Sinnoh",
+      "location": "Floaroma Meadow",
+      "sourceId": 1789720052,
+      "despawnTimestamp": 1789720051,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-18T08:27:32.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,7 +30,7 @@
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 11441,
+      "secondsAgo": 11723,
       "sourceId": 1789707017
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
-      "secondsAgo": 5038,
+      "secondsAgo": 5320,
       "sourceId": 1789713420
-    },
-    {
-      "monsterId": 390,
-      "pokemon": "Chimchar",
-      "region": "Sinnoh",
-      "location": "Route 211",
-      "secondsAgo": 13495,
-      "sourceId": 1789704963
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 6963,
+      "secondsAgo": 7245,
       "sourceId": 1789711495
     }
   ],
