@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-18T08:25:44.597Z",
+  "fetchedAt": "2026-09-18T08:30:46.839Z",
   "swarms": [
     {
       "monsterId": 227,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-18T08:38:41.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 415,
-      "pokemon": "Combee",
-      "region": "Sinnoh",
-      "location": "Floaroma Meadow",
-      "sourceId": 1789720052,
-      "despawnTimestamp": 1789720052,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-18T08:27:32.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,23 +19,31 @@
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 12926,
-      "sourceId": 1789707018
+      "secondsAgo": 13229,
+      "sourceId": 1789707017
     },
     {
       "monsterId": 375,
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 2238,
-      "sourceId": 1789717706
+      "secondsAgo": 2541,
+      "sourceId": 1789717705
+    },
+    {
+      "monsterId": 415,
+      "pokemon": "Combee",
+      "region": "Sinnoh",
+      "location": "Floaroma Meadow",
+      "secondsAgo": 1694,
+      "sourceId": 1789718552
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 8449,
+      "secondsAgo": 8751,
       "sourceId": 1789711495
     }
   ],
