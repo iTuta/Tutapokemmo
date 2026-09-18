@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-18T11:35:44.226Z",
+  "fetchedAt": "2026-09-18T11:40:44.229Z",
   "swarms": [
+    {
+      "monsterId": 154,
+      "pokemon": "Meganium",
+      "region": "Johto",
+      "location": "Route 48",
+      "sourceId": 1789733006,
+      "despawnTimestamp": 1789733006,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-18T12:03:26.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 242,
       "pokemon": "Blissey",
@@ -22,6 +33,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-18T11:54:10.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 369,
+      "pokemon": "Relicanth",
+      "region": "Unova",
+      "location": "Challenger&#x27;s Cave",
+      "sourceId": 1789732848,
+      "despawnTimestamp": 1789732848,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-18T12:00:48.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,24 +52,8 @@
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 4598,
+      "secondsAgo": 4898,
       "sourceId": 1789726746
-    },
-    {
-      "monsterId": 375,
-      "pokemon": "Metang",
-      "region": "Johto",
-      "location": "Ice Path",
-      "secondsAgo": 13638,
-      "sourceId": 1789717706
-    },
-    {
-      "monsterId": 451,
-      "pokemon": "Skorupi",
-      "region": "Unova",
-      "location": "Desert Resort",
-      "secondsAgo": 19848,
-      "sourceId": 1789711496
     }
   ],
   "alpha": {
