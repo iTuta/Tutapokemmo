@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-09-18T11:40:44.229Z",
+  "fetchedAt": "2026-09-18T11:45:47.624Z",
   "swarms": [
+    {
+      "monsterId": 479,
+      "pokemon": "Rotom",
+      "region": "Kanto",
+      "location": "Power Plant",
+      "sourceId": 1789733161,
+      "despawnTimestamp": 1789733161,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-18T12:06:01.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 154,
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
       "sourceId": 1789733006,
-      "despawnTimestamp": 1789733006,
+      "despawnTimestamp": 1789733005,
       "hasValuable": false,
       "timestampUtc": "2026-09-18T12:03:26.000Z",
       "publishedBy": ""
@@ -29,7 +40,7 @@
       "region": "Sinnoh",
       "location": "Iron Island",
       "sourceId": 1789732450,
-      "despawnTimestamp": 1789732450,
+      "despawnTimestamp": 1789732449,
       "hasValuable": false,
       "timestampUtc": "2026-09-18T11:54:10.000Z",
       "publishedBy": ""
@@ -46,16 +57,7 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [
-    {
-      "monsterId": 335,
-      "pokemon": "Zangoose",
-      "region": "Kanto",
-      "location": "Route 14",
-      "secondsAgo": 4898,
-      "sourceId": 1789726746
-    }
-  ],
+  "lastSeen": [],
   "alpha": {
     "monsterId": 22,
     "pokemon": "Fearow",
