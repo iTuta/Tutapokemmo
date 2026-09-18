@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-18T03:31:14.355Z",
+  "fetchedAt": "2026-09-18T03:35:43.496Z",
   "swarms": [
     {
       "monsterId": 336,
@@ -22,26 +22,23 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-18T03:51:17.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Hoenn",
       "location": "Route 127",
-      "sourceId": 1789702388,
-      "despawnTimestamp": 1789702387,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-18T03:33:08.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1355,
+      "sourceId": 1789701188
+    },
     {
       "monsterId": 103,
       "pokemon": "Exeggutor",
       "region": "Sinnoh",
       "location": "Route 230",
-      "secondsAgo": 10384,
+      "secondsAgo": 10653,
       "sourceId": 1789691890
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 14568,
+      "secondsAgo": 14837,
       "sourceId": 1789687706
     }
   ],
