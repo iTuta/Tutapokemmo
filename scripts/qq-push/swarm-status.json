@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-18T00:35:46.901Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-18T00:40:43.866Z",
+  "swarms": [
+    {
+      "monsterId": 103,
+      "pokemon": "Exeggutor",
+      "region": "Sinnoh",
+      "location": "Route 230",
+      "sourceId": 1789693389,
+      "despawnTimestamp": 1789693388,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-18T01:03:09.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 135,
       "pokemon": "Jolteon",
       "region": "Kanto",
       "location": "Ruin Valley",
-      "secondsAgo": 3198,
+      "secondsAgo": 3495,
       "sourceId": 1789688548
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Feraligatr",
       "region": "Johto",
       "location": "Tohjo Falls",
-      "secondsAgo": 3053,
+      "secondsAgo": 3350,
       "sourceId": 1789688693
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 2733,
+      "secondsAgo": 3030,
       "sourceId": 1789689013
-    },
-    {
-      "monsterId": 455,
-      "pokemon": "Carnivine",
-      "region": "Sinnoh",
-      "location": "Route 225",
-      "secondsAgo": 16097,
-      "sourceId": 1789675649
     },
     {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 4040,
+      "secondsAgo": 4337,
       "sourceId": 1789687706
     }
   ],
