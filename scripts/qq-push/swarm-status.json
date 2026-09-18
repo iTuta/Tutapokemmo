@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-18T15:05:51.676Z",
+  "fetchedAt": "2026-09-18T15:10:44.826Z",
   "swarms": [
     {
       "monsterId": 451,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-18T15:29:04.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Unova",
-      "location": "Wellspring Cave",
-      "sourceId": 1789744027,
-      "despawnTimestamp": 1789744026,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-18T15:07:07.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 8697,
+      "secondsAgo": 8990,
       "sourceId": 1789735254
     },
     {
@@ -38,7 +27,7 @@
       "pokemon": "Nosepass",
       "region": "Hoenn",
       "location": "Granite Cave",
-      "secondsAgo": 4956,
+      "secondsAgo": 5249,
       "sourceId": 1789738995
     },
     {
@@ -46,8 +35,16 @@
       "pokemon": "Hippopotas",
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
-      "secondsAgo": 3769,
+      "secondsAgo": 4062,
       "sourceId": 1789740182
+    },
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Unova",
+      "location": "Wellspring Cave",
+      "secondsAgo": 1717,
+      "sourceId": 1789742527
     }
   ],
   "alpha": {
