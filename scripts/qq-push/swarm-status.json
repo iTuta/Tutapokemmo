@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-18T11:50:47.033Z",
+  "fetchedAt": "2026-09-18T11:56:16.133Z",
   "swarms": [
     {
       "monsterId": 479,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Power Plant",
       "sourceId": 1789733161,
-      "despawnTimestamp": 1789733162,
+      "despawnTimestamp": 1789733161,
       "hasValuable": false,
       "timestampUtc": "2026-09-18T12:06:01.000Z",
       "publishedBy": ""
@@ -21,17 +21,6 @@
       "despawnTimestamp": 1789733006,
       "hasValuable": false,
       "timestampUtc": "2026-09-18T12:03:26.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Sinnoh",
-      "location": "Iron Island",
-      "sourceId": 1789732450,
-      "despawnTimestamp": 1789732450,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-18T11:54:10.000Z",
       "publishedBy": ""
     },
     {
@@ -52,8 +41,16 @@
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 1512,
+      "secondsAgo": 1841,
       "sourceId": 1789730735
+    },
+    {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Sinnoh",
+      "location": "Iron Island",
+      "secondsAgo": 1625,
+      "sourceId": 1789730951
     }
   ],
   "alpha": {
