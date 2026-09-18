@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-18T15:25:39.062Z",
+  "fetchedAt": "2026-09-18T15:30:56.234Z",
   "swarms": [
-    {
-      "monsterId": 451,
-      "pokemon": "Skorupi",
-      "region": "Kanto",
-      "location": "Route 9",
-      "sourceId": 1789745344,
-      "despawnTimestamp": 1789745344,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-18T15:29:04.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 257,
       "pokemon": "Blaziken",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 451,
+      "pokemon": "Skorupi",
+      "region": "Kanto",
+      "location": "Route 9",
+      "secondsAgo": 1611,
+      "sourceId": 1789743845
+    },
+    {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 9885,
+      "secondsAgo": 10202,
       "sourceId": 1789735254
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Hippopotas",
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
-      "secondsAgo": 4956,
+      "secondsAgo": 5273,
       "sourceId": 1789740183
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Kangaskhan",
       "region": "Unova",
       "location": "Wellspring Cave",
-      "secondsAgo": 2611,
+      "secondsAgo": 2928,
       "sourceId": 1789742528
     }
   ],
