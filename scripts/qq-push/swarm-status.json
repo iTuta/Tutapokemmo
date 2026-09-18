@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-18T22:16:47.180Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-18T22:20:40.494Z",
+  "swarms": [
+    {
+      "monsterId": 291,
+      "pokemon": "Ninjask",
+      "region": "Unova",
+      "location": "Route 11",
+      "sourceId": 1789771349,
+      "despawnTimestamp": 1789771348,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-18T22:42:29.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 1,
       "pokemon": "Bulbasaur",
       "region": "Kanto",
       "location": "Viridian Forest",
-      "secondsAgo": 3442,
+      "secondsAgo": 3675,
       "sourceId": 1789766365
     },
     {
@@ -15,32 +27,24 @@
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 7840,
-      "sourceId": 1789761967
+      "secondsAgo": 8074,
+      "sourceId": 1789761966
     },
     {
       "monsterId": 149,
       "pokemon": "Dragonite",
       "region": "Hoenn",
       "location": "Route 131",
-      "secondsAgo": 5954,
-      "sourceId": 1789763853
+      "secondsAgo": 6188,
+      "sourceId": 1789763852
     },
     {
       "monsterId": 389,
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 18476,
-      "sourceId": 1789751331
-    },
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Unova",
-      "location": "Wellspring Cave",
-      "secondsAgo": 6350,
-      "sourceId": 1789763457
+      "secondsAgo": 18710,
+      "sourceId": 1789751330
     }
   ],
   "alpha": {
