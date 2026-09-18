@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-09-18T21:15:45.771Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-18T21:20:46.448Z",
+  "swarms": [
     {
-      "monsterId": 135,
-      "pokemon": "Jolteon",
+      "monsterId": 1,
+      "pokemon": "Bulbasaur",
       "region": "Kanto",
-      "location": "Ruin Valley",
-      "secondsAgo": 4138,
-      "sourceId": 1789762007
-    },
+      "location": "Viridian Forest",
+      "sourceId": 1789767864,
+      "despawnTimestamp": 1789767864,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-18T21:44:24.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 149,
       "pokemon": "Dragonite",
       "region": "Hoenn",
       "location": "Route 131",
-      "secondsAgo": 2293,
-      "sourceId": 1789763852
+      "secondsAgo": 2593,
+      "sourceId": 1789763853
     },
     {
       "monsterId": 389,
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 14815,
-      "sourceId": 1789751330
+      "secondsAgo": 15115,
+      "sourceId": 1789751331
     },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Unova",
       "location": "Wellspring Cave",
-      "secondsAgo": 2689,
+      "secondsAgo": 2990,
       "sourceId": 1789763456
     }
   ],
