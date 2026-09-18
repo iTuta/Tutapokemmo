@@ -1,38 +1,50 @@
 {
-  "fetchedAt": "2026-09-18T17:01:13.063Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-18T17:05:47.997Z",
+  "swarms": [
+    {
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Kanto",
+      "location": "Kindle Road",
+      "sourceId": 1789752454,
+      "despawnTimestamp": 1789752453,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-18T17:27:34.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
-      "monsterId": 451,
-      "pokemon": "Skorupi",
-      "region": "Kanto",
-      "location": "Route 9",
-      "secondsAgo": 7028,
-      "sourceId": 1789743845
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Johto",
+      "location": "Bell Tower",
+      "secondsAgo": 15893,
+      "sourceId": 1789735254
     },
     {
       "monsterId": 257,
       "pokemon": "Blaziken",
       "region": "Hoenn",
       "location": "Magma Hideout",
-      "secondsAgo": 6175,
-      "sourceId": 1789744698
+      "secondsAgo": 6450,
+      "sourceId": 1789744697
     },
     {
       "monsterId": 449,
       "pokemon": "Hippopotas",
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
-      "secondsAgo": 10690,
-      "sourceId": 1789740183
+      "secondsAgo": 10965,
+      "sourceId": 1789740182
     },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Unova",
       "location": "Wellspring Cave",
-      "secondsAgo": 8345,
-      "sourceId": 1789742528
+      "secondsAgo": 8620,
+      "sourceId": 1789742527
     }
   ],
   "alpha": {
@@ -45,6 +57,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-09-18T12:16:22.000Z",
     "timestampRaw": "2026-09-18T12:16:22.000Z",
-    "publishedBy": ""
+    "publishedBy": "Guanabacha"
   }
 }
