@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-18T20:55:37.857Z",
+  "fetchedAt": "2026-09-18T21:01:15.523Z",
   "swarms": [
     {
       "monsterId": 149,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-18T21:02:32.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Unova",
-      "location": "Wellspring Cave",
-      "sourceId": 1789764956,
-      "despawnTimestamp": 1789764955,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-18T20:55:56.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Jolteon",
       "region": "Kanto",
       "location": "Ruin Valley",
-      "secondsAgo": 2930,
+      "secondsAgo": 3268,
       "sourceId": 1789762007
     },
     {
@@ -38,8 +27,16 @@
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 13607,
+      "secondsAgo": 13945,
       "sourceId": 1789751330
+    },
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Unova",
+      "location": "Wellspring Cave",
+      "secondsAgo": 1819,
+      "sourceId": 1789763456
     }
   ],
   "alpha": {
