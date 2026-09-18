@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-18T13:30:51.476Z",
+  "fetchedAt": "2026-09-18T13:35:41.877Z",
   "swarms": [
     {
       "monsterId": 137,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-18T13:41:00.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 222,
-      "pokemon": "Corsola",
-      "region": "Hoenn",
-      "location": "Route 128",
-      "sourceId": 1789738303,
-      "despawnTimestamp": 1789738303,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-18T13:31:43.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,15 +19,23 @@
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 2997,
+      "secondsAgo": 3287,
       "sourceId": 1789735254
+    },
+    {
+      "monsterId": 222,
+      "pokemon": "Corsola",
+      "region": "Hoenn",
+      "location": "Route 128",
+      "secondsAgo": 1438,
+      "sourceId": 1789737103
     },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Sinnoh",
       "location": "Iron Island",
-      "secondsAgo": 7301,
+      "secondsAgo": 7591,
       "sourceId": 1789730950
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Relicanth",
       "region": "Unova",
       "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 6902,
-      "sourceId": 1789731349
+      "secondsAgo": 7193,
+      "sourceId": 1789731348
     }
   ],
   "alpha": {
