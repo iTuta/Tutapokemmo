@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-09-18T04:45:43.298Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-18T04:50:42.103Z",
+  "swarms": [
     {
-      "monsterId": 336,
-      "pokemon": "Seviper",
+      "monsterId": 335,
+      "pokemon": "Zangoose",
       "region": "Kanto",
-      "location": "Route 15",
-      "secondsAgo": 5475,
-      "sourceId": 1789701268
-    },
+      "location": "Route 14",
+      "sourceId": 1789708517,
+      "despawnTimestamp": 1789708517,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-18T05:15:17.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 372,
       "pokemon": "Shelgon",
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
-      "secondsAgo": 4765,
+      "secondsAgo": 5064,
       "sourceId": 1789701978
     },
     {
@@ -23,15 +27,15 @@
       "pokemon": "Sharpedo",
       "region": "Hoenn",
       "location": "Route 127",
-      "secondsAgo": 5555,
-      "sourceId": 1789701188
+      "secondsAgo": 5853,
+      "sourceId": 1789701189
     },
     {
       "monsterId": 390,
       "pokemon": "Chimchar",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 1780,
+      "secondsAgo": 2079,
       "sourceId": 1789704963
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 3627,
+      "secondsAgo": 3926,
       "sourceId": 1789703116
     }
   ],
