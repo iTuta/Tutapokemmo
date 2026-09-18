@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-18T17:25:36.167Z",
+  "fetchedAt": "2026-09-18T17:31:02.396Z",
   "swarms": [
-    {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Kanto",
-      "location": "Kindle Road",
-      "sourceId": 1789752454,
-      "despawnTimestamp": 1789752454,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-18T17:27:34.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 389,
       "pokemon": "Torterra",
@@ -22,15 +11,34 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-18T17:33:50.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 190,
+      "pokemon": "Aipom",
+      "region": "Unova",
+      "location": "Cold Storage",
+      "sourceId": 1789754114,
+      "despawnTimestamp": 1789754114,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-18T17:55:14.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
+    {
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Kanto",
+      "location": "Kindle Road",
+      "secondsAgo": 1707,
+      "sourceId": 1789750955
+    },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 17082,
+      "secondsAgo": 17408,
       "sourceId": 1789735254
     },
     {
@@ -38,16 +46,8 @@
       "pokemon": "Blaziken",
       "region": "Hoenn",
       "location": "Magma Hideout",
-      "secondsAgo": 7638,
+      "secondsAgo": 7964,
       "sourceId": 1789744698
-    },
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Unova",
-      "location": "Wellspring Cave",
-      "secondsAgo": 9808,
-      "sourceId": 1789742528
     }
   ],
   "alpha": {
