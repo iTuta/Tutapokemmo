@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-09-18T00:05:42.593Z",
+  "fetchedAt": "2026-09-18T00:10:40.435Z",
   "swarms": [
-    {
-      "monsterId": 135,
-      "pokemon": "Jolteon",
-      "region": "Kanto",
-      "location": "Ruin Valley",
-      "sourceId": 1789690047,
-      "despawnTimestamp": 1789690047,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-18T00:07:27.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 160,
-      "pokemon": "Feraligatr",
-      "region": "Johto",
-      "location": "Tohjo Falls",
-      "sourceId": 1789690192,
-      "despawnTimestamp": 1789690192,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-18T00:09:52.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 211,
       "pokemon": "Qwilfish",
@@ -37,11 +15,27 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 135,
+      "pokemon": "Jolteon",
+      "region": "Kanto",
+      "location": "Ruin Valley",
+      "secondsAgo": 1692,
+      "sourceId": 1789688548
+    },
+    {
+      "monsterId": 160,
+      "pokemon": "Feraligatr",
+      "region": "Johto",
+      "location": "Tohjo Falls",
+      "secondsAgo": 1547,
+      "sourceId": 1789688693
+    },
+    {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Sinnoh",
       "location": "Route 225",
-      "secondsAgo": 14292,
+      "secondsAgo": 14590,
       "sourceId": 1789675650
     },
     {
@@ -49,7 +43,7 @@
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 2236,
+      "secondsAgo": 2534,
       "sourceId": 1789687706
     }
   ],
