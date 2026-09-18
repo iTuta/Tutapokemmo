@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-09-18T07:45:45.146Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-18T07:50:59.697Z",
+  "swarms": [
     {
-      "monsterId": 285,
-      "pokemon": "Shroomish",
+      "monsterId": 375,
+      "pokemon": "Metang",
       "region": "Johto",
-      "location": "Route 34",
-      "secondsAgo": 10209,
-      "sourceId": 1789707336
-    },
+      "location": "Ice Path",
+      "sourceId": 1789719205,
+      "despawnTimestamp": 1789719205,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-18T08:13:25.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 358,
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
-      "secondsAgo": 4124,
-      "sourceId": 1789713421
+      "secondsAgo": 4439,
+      "sourceId": 1789713420
     },
     {
       "monsterId": 390,
       "pokemon": "Chimchar",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 12582,
+      "secondsAgo": 12896,
       "sourceId": 1789704963
     },
     {
@@ -31,8 +35,8 @@
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 6049,
-      "sourceId": 1789711496
+      "secondsAgo": 6364,
+      "sourceId": 1789711495
     }
   ],
   "alpha": {
