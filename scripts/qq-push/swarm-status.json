@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-18T03:50:44.132Z",
+  "fetchedAt": "2026-09-18T03:55:47.311Z",
   "swarms": [
-    {
-      "monsterId": 372,
-      "pokemon": "Shelgon",
-      "region": "Johto",
-      "location": "Dragon&#x27;s Den",
-      "sourceId": 1789703477,
-      "despawnTimestamp": 1789703477,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-18T03:51:17.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
@@ -30,23 +19,31 @@
       "pokemon": "Seviper",
       "region": "Kanto",
       "location": "Route 15",
-      "secondsAgo": 2176,
+      "secondsAgo": 2479,
       "sourceId": 1789701268
+    },
+    {
+      "monsterId": 372,
+      "pokemon": "Shelgon",
+      "region": "Johto",
+      "location": "Dragon&#x27;s Den",
+      "secondsAgo": 1769,
+      "sourceId": 1789701978
     },
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Hoenn",
       "location": "Route 127",
-      "secondsAgo": 2255,
-      "sourceId": 1789701189
+      "secondsAgo": 2559,
+      "sourceId": 1789701188
     },
     {
       "monsterId": 103,
       "pokemon": "Exeggutor",
       "region": "Sinnoh",
       "location": "Route 230",
-      "secondsAgo": 11554,
+      "secondsAgo": 11857,
       "sourceId": 1789691890
     }
   ],
