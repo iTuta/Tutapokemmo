@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-09-18T14:05:44.280Z",
+  "fetchedAt": "2026-09-18T14:11:09.485Z",
   "swarms": [
-    {
-      "monsterId": 299,
-      "pokemon": "Nosepass",
-      "region": "Hoenn",
-      "location": "Granite Cave",
-      "sourceId": 1789740494,
-      "despawnTimestamp": 1789740494,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-18T14:08:14.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 449,
       "pokemon": "Hippopotas",
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
       "sourceId": 1789741682,
-      "despawnTimestamp": 1789741682,
+      "despawnTimestamp": 1789741681,
       "hasValuable": false,
       "timestampUtc": "2026-09-18T14:28:02.000Z",
       "publishedBy": ""
@@ -30,7 +19,7 @@
       "pokemon": "Porygon",
       "region": "Kanto",
       "location": "Pokemon Mansion",
-      "secondsAgo": 2983,
+      "secondsAgo": 3308,
       "sourceId": 1789737361
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 5090,
+      "secondsAgo": 5415,
       "sourceId": 1789735254
+    },
+    {
+      "monsterId": 299,
+      "pokemon": "Nosepass",
+      "region": "Hoenn",
+      "location": "Granite Cave",
+      "secondsAgo": 1674,
+      "sourceId": 1789738995
     },
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Unova",
       "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 8995,
+      "secondsAgo": 9320,
       "sourceId": 1789731349
     }
   ],
