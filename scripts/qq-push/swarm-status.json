@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-18T23:40:49.332Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-18T23:51:22.605Z",
+  "swarms": [
+    {
+      "monsterId": 204,
+      "pokemon": "Pineco",
+      "region": "Sinnoh",
+      "location": "Route 207",
+      "sourceId": 1789776451,
+      "despawnTimestamp": 1789776451,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-19T00:07:31.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 328,
       "pokemon": "Trapinch",
       "region": "Kanto",
       "location": "Diglett&#x27;s Cave",
-      "secondsAgo": 2707,
+      "secondsAgo": 3340,
       "sourceId": 1789772142
     },
     {
@@ -15,32 +27,24 @@
       "pokemon": "Chikorita",
       "region": "Johto",
       "location": "Route 31",
-      "secondsAgo": 4747,
-      "sourceId": 1789770102
+      "secondsAgo": 5381,
+      "sourceId": 1789770101
     },
     {
       "monsterId": 149,
       "pokemon": "Dragonite",
       "region": "Hoenn",
       "location": "Route 131",
-      "secondsAgo": 10996,
-      "sourceId": 1789763853
-    },
-    {
-      "monsterId": 389,
-      "pokemon": "Torterra",
-      "region": "Sinnoh",
-      "location": "Route 212",
-      "secondsAgo": 23518,
-      "sourceId": 1789751331
+      "secondsAgo": 11630,
+      "sourceId": 1789763852
     },
     {
       "monsterId": 291,
       "pokemon": "Ninjask",
       "region": "Unova",
       "location": "Route 11",
-      "secondsAgo": 4999,
-      "sourceId": 1789769850
+      "secondsAgo": 5633,
+      "sourceId": 1789769849
     }
   ],
   "alpha": {
