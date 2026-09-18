@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-18T03:25:38.523Z",
+  "fetchedAt": "2026-09-18T03:31:14.355Z",
   "swarms": [
     {
       "monsterId": 336,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1789702767,
       "hasValuable": false,
       "timestampUtc": "2026-09-18T03:39:27.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 372,
+      "pokemon": "Shelgon",
+      "region": "Johto",
+      "location": "Dragon&#x27;s Den",
+      "sourceId": 1789703477,
+      "despawnTimestamp": 1789703477,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-18T03:51:17.000Z",
       "publishedBy": ""
     },
     {
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Johto",
-      "location": "Route 38",
-      "secondsAgo": 8910,
-      "sourceId": 1789693028
-    },
-    {
       "monsterId": 103,
       "pokemon": "Exeggutor",
       "region": "Sinnoh",
       "location": "Route 230",
-      "secondsAgo": 10048,
+      "secondsAgo": 10384,
       "sourceId": 1789691890
     },
     {
@@ -46,7 +49,7 @@
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 14232,
+      "secondsAgo": 14568,
       "sourceId": 1789687706
     }
   ],
