@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-18T13:10:45.601Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-18T13:15:54.862Z",
+  "swarms": [
+    {
+      "monsterId": 222,
+      "pokemon": "Corsola",
+      "region": "Hoenn",
+      "location": "Route 128",
+      "sourceId": 1789738303,
+      "despawnTimestamp": 1789738303,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-18T13:31:43.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 479,
       "pokemon": "Rotom",
       "region": "Kanto",
       "location": "Power Plant",
-      "secondsAgo": 5383,
+      "secondsAgo": 5692,
       "sourceId": 1789731662
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 1791,
+      "secondsAgo": 2100,
       "sourceId": 1789735254
-    },
-    {
-      "monsterId": 242,
-      "pokemon": "Blissey",
-      "region": "Hoenn",
-      "location": "Artisan Cave",
-      "secondsAgo": 6310,
-      "sourceId": 1789730735
     },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Sinnoh",
       "location": "Iron Island",
-      "secondsAgo": 6095,
+      "secondsAgo": 6404,
       "sourceId": 1789730950
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Relicanth",
       "region": "Unova",
       "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 5696,
-      "sourceId": 1789731349
+      "secondsAgo": 6006,
+      "sourceId": 1789731348
     }
   ],
   "alpha": {
