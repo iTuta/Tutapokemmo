@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-18T11:25:38.038Z",
+  "fetchedAt": "2026-09-18T11:31:28.647Z",
   "swarms": [
     {
       "monsterId": 242,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-18T11:50:34.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Sinnoh",
+      "location": "Iron Island",
+      "sourceId": 1789732450,
+      "despawnTimestamp": 1789732449,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-18T11:54:10.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 3992,
+      "secondsAgo": 4342,
       "sourceId": 1789726746
     },
     {
@@ -27,24 +38,16 @@
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 13032,
+      "secondsAgo": 13382,
       "sourceId": 1789717706
-    },
-    {
-      "monsterId": 415,
-      "pokemon": "Combee",
-      "region": "Sinnoh",
-      "location": "Floaroma Meadow",
-      "secondsAgo": 12185,
-      "sourceId": 1789718553
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 19242,
-      "sourceId": 1789711496
+      "secondsAgo": 19593,
+      "sourceId": 1789711495
     }
   ],
   "alpha": {
