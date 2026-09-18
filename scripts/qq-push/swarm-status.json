@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-18T01:05:48.111Z",
+  "fetchedAt": "2026-09-18T01:10:43.428Z",
   "swarms": [
     {
       "monsterId": 128,
@@ -7,20 +7,9 @@
       "region": "Johto",
       "location": "Route 38",
       "sourceId": 1789694228,
-      "despawnTimestamp": 1789694228,
+      "despawnTimestamp": 1789694227,
       "hasValuable": false,
       "timestampUtc": "2026-09-18T01:17:08.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Hoenn",
-      "location": "Seafloor Cavern",
-      "sourceId": 1789693555,
-      "despawnTimestamp": 1789693555,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-18T01:05:55.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,15 +19,23 @@
       "pokemon": "Jolteon",
       "region": "Kanto",
       "location": "Ruin Valley",
-      "secondsAgo": 5000,
+      "secondsAgo": 5295,
       "sourceId": 1789688548
+    },
+    {
+      "monsterId": 213,
+      "pokemon": "Shuckle",
+      "region": "Hoenn",
+      "location": "Seafloor Cavern",
+      "secondsAgo": 1788,
+      "sourceId": 1789692055
     },
     {
       "monsterId": 103,
       "pokemon": "Exeggutor",
       "region": "Sinnoh",
       "location": "Route 230",
-      "secondsAgo": 1658,
+      "secondsAgo": 1953,
       "sourceId": 1789691890
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 5841,
-      "sourceId": 1789687707
+      "secondsAgo": 6137,
+      "sourceId": 1789687706
     }
   ],
   "alpha": {
