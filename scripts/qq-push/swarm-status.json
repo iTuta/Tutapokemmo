@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-18T11:20:56.924Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-18T11:25:38.038Z",
+  "swarms": [
+    {
+      "monsterId": 242,
+      "pokemon": "Blissey",
+      "region": "Hoenn",
+      "location": "Artisan Cave",
+      "sourceId": 1789732234,
+      "despawnTimestamp": 1789732234,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-18T11:50:34.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 3710,
+      "secondsAgo": 3992,
       "sourceId": 1789726746
     },
     {
@@ -15,32 +27,24 @@
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 12751,
-      "sourceId": 1789717705
-    },
-    {
-      "monsterId": 227,
-      "pokemon": "Skarmory",
-      "region": "Hoenn",
-      "location": "Route 113",
-      "secondsAgo": 11235,
-      "sourceId": 1789719221
+      "secondsAgo": 13032,
+      "sourceId": 1789717706
     },
     {
       "monsterId": 415,
       "pokemon": "Combee",
       "region": "Sinnoh",
       "location": "Floaroma Meadow",
-      "secondsAgo": 11904,
-      "sourceId": 1789718552
+      "secondsAgo": 12185,
+      "sourceId": 1789718553
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 18961,
-      "sourceId": 1789711495
+      "secondsAgo": 19242,
+      "sourceId": 1789711496
     }
   ],
   "alpha": {
