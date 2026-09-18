@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-18T12:00:56.665Z",
+  "fetchedAt": "2026-09-18T12:05:50.739Z",
   "swarms": [
     {
       "monsterId": 479,
@@ -11,34 +11,31 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-18T12:06:01.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 154,
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "sourceId": 1789733006,
-      "despawnTimestamp": 1789733005,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-18T12:03:26.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1644,
+      "sourceId": 1789731506
+    },
     {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 2121,
-      "sourceId": 1789730735
+      "secondsAgo": 2416,
+      "sourceId": 1789730734
     },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Sinnoh",
       "location": "Iron Island",
-      "secondsAgo": 1906,
+      "secondsAgo": 2200,
       "sourceId": 1789730950
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Relicanth",
       "region": "Unova",
       "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 1507,
-      "sourceId": 1789731349
+      "secondsAgo": 1802,
+      "sourceId": 1789731348
     }
   ],
   "alpha": {
