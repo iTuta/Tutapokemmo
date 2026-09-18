@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-18T01:00:52.718Z",
+  "fetchedAt": "2026-09-18T01:05:48.111Z",
   "swarms": [
     {
       "monsterId": 128,
@@ -7,7 +7,7 @@
       "region": "Johto",
       "location": "Route 38",
       "sourceId": 1789694228,
-      "despawnTimestamp": 1789694227,
+      "despawnTimestamp": 1789694228,
       "hasValuable": false,
       "timestampUtc": "2026-09-18T01:17:08.000Z",
       "publishedBy": ""
@@ -18,20 +18,9 @@
       "region": "Hoenn",
       "location": "Seafloor Cavern",
       "sourceId": 1789693555,
-      "despawnTimestamp": 1789693554,
+      "despawnTimestamp": 1789693555,
       "hasValuable": false,
       "timestampUtc": "2026-09-18T01:05:55.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 103,
-      "pokemon": "Exeggutor",
-      "region": "Sinnoh",
-      "location": "Route 230",
-      "sourceId": 1789693389,
-      "despawnTimestamp": 1789693389,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-18T01:03:09.000Z",
       "publishedBy": ""
     }
   ],
@@ -41,16 +30,24 @@
       "pokemon": "Jolteon",
       "region": "Kanto",
       "location": "Ruin Valley",
-      "secondsAgo": 4704,
+      "secondsAgo": 5000,
       "sourceId": 1789688548
+    },
+    {
+      "monsterId": 103,
+      "pokemon": "Exeggutor",
+      "region": "Sinnoh",
+      "location": "Route 230",
+      "secondsAgo": 1658,
+      "sourceId": 1789691890
     },
     {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 5546,
-      "sourceId": 1789687706
+      "secondsAgo": 5841,
+      "sourceId": 1789687707
     }
   ],
   "alpha": {
