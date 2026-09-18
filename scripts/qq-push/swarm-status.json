@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-18T00:55:42.462Z",
+  "fetchedAt": "2026-09-18T01:00:52.718Z",
   "swarms": [
+    {
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Johto",
+      "location": "Route 38",
+      "sourceId": 1789694228,
+      "despawnTimestamp": 1789694227,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-18T01:17:08.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
@@ -30,23 +41,15 @@
       "pokemon": "Jolteon",
       "region": "Kanto",
       "location": "Ruin Valley",
-      "secondsAgo": 4394,
+      "secondsAgo": 4704,
       "sourceId": 1789688548
-    },
-    {
-      "monsterId": 160,
-      "pokemon": "Feraligatr",
-      "region": "Johto",
-      "location": "Tohjo Falls",
-      "secondsAgo": 4249,
-      "sourceId": 1789688693
     },
     {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 5236,
+      "secondsAgo": 5546,
       "sourceId": 1789687706
     }
   ],
