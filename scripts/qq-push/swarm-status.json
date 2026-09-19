@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-19T20:00:53.619Z",
+  "fetchedAt": "2026-09-19T20:05:36.621Z",
   "swarms": [
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Johto",
-      "location": "Dark Cave",
-      "sourceId": 1789848211,
-      "despawnTimestamp": 1789848211,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-19T20:03:31.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 517,
       "pokemon": "Munna",
@@ -41,15 +30,23 @@
       "pokemon": "Charmeleon",
       "region": "Kanto",
       "location": "Rock Tunnel",
-      "secondsAgo": 1575,
+      "secondsAgo": 1858,
       "sourceId": 1789846478
+    },
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Johto",
+      "location": "Dark Cave",
+      "secondsAgo": 1624,
+      "sourceId": 1789846712
     },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 2615,
+      "secondsAgo": 2898,
       "sourceId": 1789845438
     }
   ],
