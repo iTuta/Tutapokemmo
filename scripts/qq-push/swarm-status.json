@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-19T14:10:45.536Z",
+  "fetchedAt": "2026-09-19T14:15:44.524Z",
   "swarms": [
     {
       "monsterId": 121,
@@ -11,26 +11,23 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-19T14:26:57.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 288,
       "pokemon": "Vigoroth",
       "region": "Johto",
       "location": "Ruins of Alph",
-      "sourceId": 1789827252,
-      "despawnTimestamp": 1789827251,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-19T14:14:12.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1172,
+      "sourceId": 1789826172
+    },
     {
       "monsterId": 256,
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Route 114",
-      "secondsAgo": 4567,
+      "secondsAgo": 4866,
       "sourceId": 1789822478
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Cherrim",
       "region": "Sinnoh",
       "location": "Lake Verity",
-      "secondsAgo": 3798,
+      "secondsAgo": 4097,
       "sourceId": 1789823247
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 7983,
+      "secondsAgo": 8282,
       "sourceId": 1789819062
     }
   ],
