@@ -1,13 +1,36 @@
 {
-  "fetchedAt": "2026-09-19T16:20:42.426Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-19T16:25:37.053Z",
+  "swarms": [
+    {
+      "monsterId": 259,
+      "pokemon": "Marshtomp",
+      "region": "Hoenn",
+      "location": "Route 124",
+      "sourceId": 1789836463,
+      "despawnTimestamp": 1789836463,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-19T16:47:43.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 288,
+      "pokemon": "Vigoroth",
+      "region": "Sinnoh",
+      "location": "Route 215",
+      "sourceId": 1789836478,
+      "despawnTimestamp": 1789836479,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-19T16:47:58.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 121,
       "pokemon": "Starmie",
       "region": "Kanto",
       "location": "Seven Island",
-      "secondsAgo": 8324,
+      "secondsAgo": 8619,
       "sourceId": 1789826518
     },
     {
@@ -15,31 +38,15 @@
       "pokemon": "Vigoroth",
       "region": "Johto",
       "location": "Ruins of Alph",
-      "secondsAgo": 8669,
+      "secondsAgo": 8964,
       "sourceId": 1789826173
-    },
-    {
-      "monsterId": 330,
-      "pokemon": "Flygon",
-      "region": "Hoenn",
-      "location": "Desert Underpass",
-      "secondsAgo": 5103,
-      "sourceId": 1789829739
-    },
-    {
-      "monsterId": 421,
-      "pokemon": "Cherrim",
-      "region": "Sinnoh",
-      "location": "Lake Verity",
-      "secondsAgo": 11595,
-      "sourceId": 1789823247
     },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Unova",
       "location": "Wellspring Cave",
-      "secondsAgo": 6553,
+      "secondsAgo": 6848,
       "sourceId": 1789828289
     }
   ],
