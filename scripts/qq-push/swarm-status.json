@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-09-19T07:55:40.816Z",
-  "swarms": [
-    {
-      "monsterId": 162,
-      "pokemon": "Furret",
-      "region": "Sinnoh",
-      "location": "Route 208",
-      "sourceId": 1789804653,
-      "despawnTimestamp": 1789804652,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-19T07:57:33.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-19T08:01:37.623Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 416,
       "pokemon": "Vespiquen",
       "region": "Kanto",
       "location": "Five Isle Meadow",
-      "secondsAgo": 2846,
+      "secondsAgo": 3203,
       "sourceId": 1789801694
     },
     {
@@ -27,7 +15,7 @@
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 3958,
+      "secondsAgo": 4315,
       "sourceId": 1789800582
     },
     {
@@ -35,15 +23,23 @@
       "pokemon": "Wailord",
       "region": "Hoenn",
       "location": "Route 129",
-      "secondsAgo": 2670,
+      "secondsAgo": 3027,
       "sourceId": 1789801870
+    },
+    {
+      "monsterId": 162,
+      "pokemon": "Furret",
+      "region": "Sinnoh",
+      "location": "Route 208",
+      "secondsAgo": 1744,
+      "sourceId": 1789803153
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 3743,
+      "secondsAgo": 4100,
       "sourceId": 1789800797
     }
   ],
