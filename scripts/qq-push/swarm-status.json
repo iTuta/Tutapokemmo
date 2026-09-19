@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-09-19T10:30:51.880Z",
-  "swarms": [
-    {
-      "monsterId": 211,
-      "pokemon": "Qwilfish",
-      "region": "Hoenn",
-      "location": "Route 125",
-      "sourceId": 1789813906,
-      "despawnTimestamp": 1789813906,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-19T10:31:46.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-19T10:35:37.890Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 457,
       "pokemon": "Lumineon",
       "region": "Kanto",
       "location": "Route 12",
-      "secondsAgo": 3914,
+      "secondsAgo": 4200,
       "sourceId": 1789809937
     },
     {
@@ -27,16 +15,24 @@
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 4576,
+      "secondsAgo": 4862,
       "sourceId": 1789809275
+    },
+    {
+      "monsterId": 211,
+      "pokemon": "Qwilfish",
+      "region": "Hoenn",
+      "location": "Route 125",
+      "secondsAgo": 1730,
+      "sourceId": 1789812407
     },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 6331,
-      "sourceId": 1789807520
+      "secondsAgo": 6618,
+      "sourceId": 1789807519
     }
   ],
   "alpha": {
