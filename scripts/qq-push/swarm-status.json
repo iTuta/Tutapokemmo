@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-19T19:30:51.755Z",
+  "fetchedAt": "2026-09-19T19:36:10.702Z",
   "swarms": [
+    {
+      "monsterId": 5,
+      "pokemon": "Charmeleon",
+      "region": "Kanto",
+      "location": "Rock Tunnel",
+      "sourceId": 1789847978,
+      "despawnTimestamp": 1789847977,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-19T19:59:38.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 312,
-      "pokemon": "Minun",
-      "region": "Kanto",
-      "location": "Route 22",
-      "secondsAgo": 7553,
-      "sourceId": 1789838698
-    },
-    {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 10245,
+      "secondsAgo": 10564,
       "sourceId": 1789836006
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Dragonite",
       "region": "Hoenn",
       "location": "Route 131",
-      "secondsAgo": 6127,
+      "secondsAgo": 6446,
       "sourceId": 1789840124
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Kangaskhan",
       "region": "Unova",
       "location": "Wellspring Cave",
-      "secondsAgo": 17963,
+      "secondsAgo": 18282,
       "sourceId": 1789828288
     }
   ],
