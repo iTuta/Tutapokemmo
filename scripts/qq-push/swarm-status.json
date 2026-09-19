@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-19T20:05:36.621Z",
+  "fetchedAt": "2026-09-19T20:10:50.675Z",
   "swarms": [
-    {
-      "monsterId": 517,
-      "pokemon": "Munna",
-      "region": "Hoenn",
-      "location": "Route 102",
-      "sourceId": 1789848342,
-      "despawnTimestamp": 1789848342,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-19T20:05:42.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
@@ -30,7 +19,7 @@
       "pokemon": "Charmeleon",
       "region": "Kanto",
       "location": "Rock Tunnel",
-      "secondsAgo": 1858,
+      "secondsAgo": 2172,
       "sourceId": 1789846478
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 1624,
+      "secondsAgo": 1938,
       "sourceId": 1789846712
+    },
+    {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Hoenn",
+      "location": "Route 102",
+      "secondsAgo": 1807,
+      "sourceId": 1789846843
     },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 2898,
+      "secondsAgo": 3212,
       "sourceId": 1789845438
     }
   ],
