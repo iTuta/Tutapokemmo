@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-19T23:25:42.683Z",
+  "fetchedAt": "2026-09-19T23:30:53.646Z",
   "swarms": [
-    {
-      "monsterId": 479,
-      "pokemon": "Rotom",
-      "region": "Kanto",
-      "location": "Power Plant",
-      "sourceId": 1789860365,
-      "despawnTimestamp": 1789860364,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-19T23:26:05.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
@@ -22,26 +11,31 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-19T23:47:48.000Z",
       "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 479,
+      "pokemon": "Rotom",
+      "region": "Kanto",
+      "location": "Power Plant",
+      "secondsAgo": 1788,
+      "sourceId": 1789858865
     },
     {
       "monsterId": 352,
       "pokemon": "Kecleon",
       "region": "Hoenn",
       "location": "Route 120",
-      "sourceId": 1789860403,
-      "despawnTimestamp": 1789860403,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-19T23:26:43.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1749,
+      "sourceId": 1789858904
+    },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 14904,
+      "secondsAgo": 15215,
       "sourceId": 1789845438
     },
     {
@@ -49,7 +43,7 @@
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 3588,
+      "secondsAgo": 3899,
       "sourceId": 1789856754
     }
   ],
