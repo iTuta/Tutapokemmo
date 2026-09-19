@@ -1,13 +1,21 @@
 {
-  "fetchedAt": "2026-09-19T21:35:43.769Z",
+  "fetchedAt": "2026-09-19T21:40:39.947Z",
   "swarms": [],
   "lastSeen": [
+    {
+      "monsterId": 5,
+      "pokemon": "Charmeleon",
+      "region": "Kanto",
+      "location": "Rock Tunnel",
+      "secondsAgo": 7561,
+      "sourceId": 1789846478
+    },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 7032,
+      "secondsAgo": 7328,
       "sourceId": 1789846711
     },
     {
@@ -15,7 +23,7 @@
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 6901,
+      "secondsAgo": 7197,
       "sourceId": 1789846842
     },
     {
@@ -23,15 +31,15 @@
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 8305,
-      "sourceId": 1789845438
+      "secondsAgo": 8602,
+      "sourceId": 1789845437
     },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 5986,
+      "secondsAgo": 6282,
       "sourceId": 1789847757
     }
   ],
@@ -45,6 +53,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-09-19T16:52:56.000Z",
     "timestampRaw": "2026-09-19T16:52:56.000Z",
-    "publishedBy": ""
+    "publishedBy": "dw"
   }
 }
