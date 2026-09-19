@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-09-19T16:35:42.844Z",
+  "fetchedAt": "2026-09-19T16:40:42.191Z",
   "swarms": [
+    {
+      "monsterId": 143,
+      "pokemon": "Snorlax",
+      "region": "Johto",
+      "location": "Victory Road",
+      "sourceId": 1789837505,
+      "despawnTimestamp": 1789837505,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-19T17:05:05.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 259,
       "pokemon": "Marshtomp",
       "region": "Hoenn",
       "location": "Route 124",
       "sourceId": 1789836463,
-      "despawnTimestamp": 1789836462,
+      "despawnTimestamp": 1789836463,
       "hasValuable": false,
       "timestampUtc": "2026-09-19T16:47:43.000Z",
       "publishedBy": ""
@@ -30,16 +41,8 @@
       "pokemon": "Starmie",
       "region": "Kanto",
       "location": "Seven Island",
-      "secondsAgo": 9225,
-      "sourceId": 1789826517
-    },
-    {
-      "monsterId": 288,
-      "pokemon": "Vigoroth",
-      "region": "Johto",
-      "location": "Ruins of Alph",
-      "secondsAgo": 9570,
-      "sourceId": 1789826172
+      "secondsAgo": 9524,
+      "sourceId": 1789826518
     }
   ],
   "alpha": {
