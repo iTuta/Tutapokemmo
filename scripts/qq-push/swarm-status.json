@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-09-19T02:45:46.056Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-19T02:50:46.236Z",
+  "swarms": [
     {
-      "monsterId": 328,
-      "pokemon": "Trapinch",
+      "monsterId": 442,
+      "pokemon": "Spiritomb",
       "region": "Kanto",
-      "location": "Diglett&#x27;s Cave",
-      "secondsAgo": 13803,
-      "sourceId": 1789772143
-    },
+      "location": "Lost Cave",
+      "sourceId": 1789787667,
+      "despawnTimestamp": 1789787667,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-19T03:14:27.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Johto",
       "location": "Route 26",
-      "secondsAgo": 7105,
+      "secondsAgo": 7405,
       "sourceId": 1789778841
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Vaporeon",
       "region": "Hoenn",
       "location": "Route 134",
-      "secondsAgo": 7138,
+      "secondsAgo": 7438,
       "sourceId": 1789778808
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Mr. Mime",
       "region": "Sinnoh",
       "location": "Route 224",
-      "secondsAgo": 8038,
+      "secondsAgo": 8338,
       "sourceId": 1789777908
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 6787,
+      "secondsAgo": 7087,
       "sourceId": 1789779159
     }
   ],
