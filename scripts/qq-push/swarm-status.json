@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-19T19:36:10.702Z",
+  "fetchedAt": "2026-09-19T19:40:38.358Z",
   "swarms": [
     {
       "monsterId": 5,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1789847977,
       "hasValuable": false,
       "timestampUtc": "2026-09-19T19:59:38.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Johto",
+      "location": "Dark Cave",
+      "sourceId": 1789848211,
+      "despawnTimestamp": 1789848211,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-19T20:03:31.000Z",
       "publishedBy": ""
     },
     {
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 143,
-      "pokemon": "Snorlax",
-      "region": "Johto",
-      "location": "Victory Road",
-      "secondsAgo": 10564,
-      "sourceId": 1789836006
-    },
-    {
       "monsterId": 149,
       "pokemon": "Dragonite",
       "region": "Hoenn",
       "location": "Route 131",
-      "secondsAgo": 6446,
+      "secondsAgo": 6714,
       "sourceId": 1789840124
     },
     {
@@ -46,8 +49,8 @@
       "pokemon": "Kangaskhan",
       "region": "Unova",
       "location": "Wellspring Cave",
-      "secondsAgo": 18282,
-      "sourceId": 1789828288
+      "secondsAgo": 18549,
+      "sourceId": 1789828289
     }
   ],
   "alpha": {
