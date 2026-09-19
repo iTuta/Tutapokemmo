@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-19T22:25:46.233Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-19T22:30:53.312Z",
+  "swarms": [
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Unova",
+      "location": "Lostlorn Forest",
+      "sourceId": 1789857953,
+      "despawnTimestamp": 1789857953,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-19T22:45:53.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 5,
       "pokemon": "Charmeleon",
       "region": "Kanto",
       "location": "Rock Tunnel",
-      "secondsAgo": 10268,
+      "secondsAgo": 10575,
       "sourceId": 1789846478
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 10034,
+      "secondsAgo": 10341,
       "sourceId": 1789846712
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 9903,
+      "secondsAgo": 10210,
       "sourceId": 1789846843
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 11308,
+      "secondsAgo": 11615,
       "sourceId": 1789845438
-    },
-    {
-      "monsterId": 214,
-      "pokemon": "Heracross",
-      "region": "Unova",
-      "location": "Route 10",
-      "secondsAgo": 8989,
-      "sourceId": 1789847757
     }
   ],
   "alpha": {
