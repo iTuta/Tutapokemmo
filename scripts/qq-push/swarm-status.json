@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-09-19T07:01:05.746Z",
+  "fetchedAt": "2026-09-19T07:10:53.048Z",
   "swarms": [
+    {
+      "monsterId": 416,
+      "pokemon": "Vespiquen",
+      "region": "Kanto",
+      "location": "Five Isle Meadow",
+      "sourceId": 1789803193,
+      "despawnTimestamp": 1789803193,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-19T07:33:13.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 469,
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
       "sourceId": 1789802082,
-      "despawnTimestamp": 1789802081,
+      "despawnTimestamp": 1789802082,
       "hasValuable": false,
       "timestampUtc": "2026-09-19T07:14:42.000Z",
       "publishedBy": ""
@@ -18,7 +29,7 @@
       "region": "Unova",
       "location": "Lostlorn Forest",
       "sourceId": 1789802297,
-      "despawnTimestamp": 1789802296,
+      "despawnTimestamp": 1789802297,
       "hasValuable": false,
       "timestampUtc": "2026-09-19T07:18:17.000Z",
       "publishedBy": ""
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 141,
-      "pokemon": "Kabutops",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 6498,
-      "sourceId": 1789794767
-    },
-    {
       "monsterId": 259,
       "pokemon": "Marshtomp",
       "region": "Hoenn",
       "location": "Route 124",
-      "secondsAgo": 8014,
+      "secondsAgo": 8602,
       "sourceId": 1789793251
     },
     {
@@ -46,8 +49,8 @@
       "pokemon": "Cacturne",
       "region": "Sinnoh",
       "location": "Route 228",
-      "secondsAgo": 1747,
-      "sourceId": 1789799518
+      "secondsAgo": 2334,
+      "sourceId": 1789799519
     }
   ],
   "alpha": {
