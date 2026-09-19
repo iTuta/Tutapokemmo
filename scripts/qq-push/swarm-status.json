@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-19T00:55:51.046Z",
+  "fetchedAt": "2026-09-19T01:01:02.488Z",
   "swarms": [
     {
       "monsterId": 227,
@@ -24,23 +24,12 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 122,
-      "pokemon": "Mr. Mime",
-      "region": "Sinnoh",
-      "location": "Route 224",
-      "sourceId": 1789779407,
-      "despawnTimestamp": 1789779407,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-19T00:56:47.000Z",
-      "publishedBy": ""
-    },
-    {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
       "sourceId": 1789780658,
-      "despawnTimestamp": 1789780658,
+      "despawnTimestamp": 1789780657,
       "hasValuable": false,
       "timestampUtc": "2026-09-19T01:17:38.000Z",
       "publishedBy": ""
@@ -52,8 +41,16 @@
       "pokemon": "Trapinch",
       "region": "Kanto",
       "location": "Diglett&#x27;s Cave",
-      "secondsAgo": 7208,
-      "sourceId": 1789772143
+      "secondsAgo": 7520,
+      "sourceId": 1789772142
+    },
+    {
+      "monsterId": 122,
+      "pokemon": "Mr. Mime",
+      "region": "Sinnoh",
+      "location": "Route 224",
+      "secondsAgo": 1755,
+      "sourceId": 1789777907
     }
   ],
   "alpha": {
