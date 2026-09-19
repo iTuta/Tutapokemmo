@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-19T04:40:43.499Z",
+  "fetchedAt": "2026-09-19T04:45:43.794Z",
   "swarms": [
     {
       "monsterId": 159,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-19T04:49:47.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 259,
-      "pokemon": "Marshtomp",
-      "region": "Hoenn",
-      "location": "Route 124",
-      "sourceId": 1789793071,
-      "despawnTimestamp": 1789793071,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-19T04:44:31.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,15 +19,23 @@
       "pokemon": "Spiritomb",
       "region": "Kanto",
       "location": "Lost Cave",
-      "secondsAgo": 6675,
-      "sourceId": 1789786168
+      "secondsAgo": 6976,
+      "sourceId": 1789786167
+    },
+    {
+      "monsterId": 259,
+      "pokemon": "Marshtomp",
+      "region": "Hoenn",
+      "location": "Route 124",
+      "secondsAgo": 1572,
+      "sourceId": 1789791571
     },
     {
       "monsterId": 122,
       "pokemon": "Mr. Mime",
       "region": "Sinnoh",
       "location": "Route 224",
-      "secondsAgo": 14936,
+      "secondsAgo": 15236,
       "sourceId": 1789777907
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 5671,
-      "sourceId": 1789787172
+      "secondsAgo": 5972,
+      "sourceId": 1789787171
     }
   ],
   "alpha": {
