@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-09-19T10:35:37.890Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-19T10:40:47.590Z",
+  "swarms": [
+    {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Johto",
+      "location": "Mt. Silver Cave",
+      "sourceId": 1789815757,
+      "despawnTimestamp": 1789815756,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-19T11:02:37.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 457,
       "pokemon": "Lumineon",
       "region": "Kanto",
       "location": "Route 12",
-      "secondsAgo": 4200,
+      "secondsAgo": 4510,
       "sourceId": 1789809937
-    },
-    {
-      "monsterId": 154,
-      "pokemon": "Meganium",
-      "region": "Johto",
-      "location": "Route 48",
-      "secondsAgo": 4862,
-      "sourceId": 1789809275
     },
     {
       "monsterId": 211,
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 1730,
+      "secondsAgo": 2040,
       "sourceId": 1789812407
     },
     {
@@ -31,8 +35,8 @@
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 6618,
-      "sourceId": 1789807519
+      "secondsAgo": 6927,
+      "sourceId": 1789807520
     }
   ],
   "alpha": {
