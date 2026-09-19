@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-19T09:35:44.072Z",
+  "fetchedAt": "2026-09-19T09:40:39.552Z",
   "swarms": [
     {
       "monsterId": 457,
@@ -11,26 +11,23 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-19T09:44:36.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 154,
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "sourceId": 1789810775,
-      "despawnTimestamp": 1789810775,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-19T09:39:35.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1564,
+      "sourceId": 1789809275
+    },
     {
       "monsterId": 321,
       "pokemon": "Wailord",
       "region": "Hoenn",
       "location": "Route 129",
-      "secondsAgo": 8674,
+      "secondsAgo": 8969,
       "sourceId": 1789801870
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 3024,
+      "secondsAgo": 3319,
       "sourceId": 1789807520
     }
   ],
