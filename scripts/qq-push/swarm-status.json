@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-09-19T09:10:50.766Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-19T09:16:00.067Z",
+  "swarms": [
+    {
+      "monsterId": 154,
+      "pokemon": "Meganium",
+      "region": "Johto",
+      "location": "Route 48",
+      "sourceId": 1789810775,
+      "despawnTimestamp": 1789810775,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-19T09:39:35.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 416,
       "pokemon": "Vespiquen",
       "region": "Kanto",
       "location": "Five Isle Meadow",
-      "secondsAgo": 7356,
+      "secondsAgo": 7666,
       "sourceId": 1789801694
-    },
-    {
-      "monsterId": 159,
-      "pokemon": "Croconaw",
-      "region": "Johto",
-      "location": "Whirl Islands",
-      "secondsAgo": 3147,
-      "sourceId": 1789805903
     },
     {
       "monsterId": 321,
       "pokemon": "Wailord",
       "region": "Hoenn",
       "location": "Route 129",
-      "secondsAgo": 7180,
+      "secondsAgo": 7490,
       "sourceId": 1789801870
     },
     {
@@ -31,15 +35,15 @@
       "pokemon": "Furret",
       "region": "Sinnoh",
       "location": "Route 208",
-      "secondsAgo": 5897,
-      "sourceId": 1789803153
+      "secondsAgo": 6206,
+      "sourceId": 1789803154
     },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 1530,
+      "secondsAgo": 1840,
       "sourceId": 1789807520
     }
   ],
