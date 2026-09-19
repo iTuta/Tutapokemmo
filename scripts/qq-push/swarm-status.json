@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-09-19T13:25:37.141Z",
-  "swarms": [
-    {
-      "monsterId": 421,
-      "pokemon": "Cherrim",
-      "region": "Sinnoh",
-      "location": "Lake Verity",
-      "sourceId": 1789824446,
-      "despawnTimestamp": 1789824446,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-19T13:27:26.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-19T13:30:54.370Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Kanto",
       "location": "Pokemon Tower",
-      "secondsAgo": 8284,
+      "secondsAgo": 8601,
       "sourceId": 1789816053
     },
     {
@@ -27,7 +15,7 @@
       "pokemon": "Lucario",
       "region": "Johto",
       "location": "Mt. Silver Cave",
-      "secondsAgo": 10079,
+      "secondsAgo": 10396,
       "sourceId": 1789814258
     },
     {
@@ -35,15 +23,23 @@
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Route 114",
-      "secondsAgo": 1859,
+      "secondsAgo": 2176,
       "sourceId": 1789822478
+    },
+    {
+      "monsterId": 421,
+      "pokemon": "Cherrim",
+      "region": "Sinnoh",
+      "location": "Lake Verity",
+      "secondsAgo": 1407,
+      "sourceId": 1789823247
     },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 5274,
+      "secondsAgo": 5591,
       "sourceId": 1789819063
     }
   ],
