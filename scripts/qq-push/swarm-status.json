@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-19T11:55:36.952Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-19T12:01:02.665Z",
+  "swarms": [
+    {
+      "monsterId": 176,
+      "pokemon": "Togetic",
+      "region": "Unova",
+      "location": "Dreamyard",
+      "sourceId": 1789820562,
+      "despawnTimestamp": 1789820561,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-19T12:22:42.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Kanto",
       "location": "Pokemon Tower",
-      "secondsAgo": 2884,
+      "secondsAgo": 3210,
       "sourceId": 1789816052
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Lucario",
       "region": "Johto",
       "location": "Mt. Silver Cave",
-      "secondsAgo": 4679,
+      "secondsAgo": 5005,
       "sourceId": 1789814257
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 6530,
-      "sourceId": 1789812406
+      "secondsAgo": 6855,
+      "sourceId": 1789812407
     },
     {
       "monsterId": 162,
       "pokemon": "Furret",
       "region": "Sinnoh",
       "location": "Route 208",
-      "secondsAgo": 15783,
+      "secondsAgo": 16109,
       "sourceId": 1789803153
-    },
-    {
-      "monsterId": 176,
-      "pokemon": "Togetic",
-      "region": "Unova",
-      "location": "Dreamyard",
-      "secondsAgo": 11417,
-      "sourceId": 1789807519
     }
   ],
   "alpha": {
