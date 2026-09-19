@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-09-19T14:00:54.765Z",
+  "fetchedAt": "2026-09-19T14:05:36.451Z",
   "swarms": [
+    {
+      "monsterId": 121,
+      "pokemon": "Starmie",
+      "region": "Kanto",
+      "location": "Seven Island",
+      "sourceId": 1789828017,
+      "despawnTimestamp": 1789828017,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-19T14:26:57.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 288,
       "pokemon": "Vigoroth",
       "region": "Johto",
       "location": "Ruins of Alph",
       "sourceId": 1789827252,
-      "despawnTimestamp": 1789827251,
+      "despawnTimestamp": 1789827252,
       "hasValuable": false,
       "timestampUtc": "2026-09-19T14:14:12.000Z",
       "publishedBy": ""
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Kanto",
-      "location": "Pokemon Tower",
-      "secondsAgo": 10402,
-      "sourceId": 1789816052
-    },
-    {
       "monsterId": 256,
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Route 114",
-      "secondsAgo": 3976,
+      "secondsAgo": 4258,
       "sourceId": 1789822478
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Cherrim",
       "region": "Sinnoh",
       "location": "Lake Verity",
-      "secondsAgo": 3207,
+      "secondsAgo": 3489,
       "sourceId": 1789823247
     },
     {
@@ -43,8 +46,8 @@
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 7392,
-      "sourceId": 1789819062
+      "secondsAgo": 7673,
+      "sourceId": 1789819063
     }
   ],
   "alpha": {
