@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-19T17:51:03.358Z",
+  "fetchedAt": "2026-09-19T17:55:44.781Z",
   "swarms": [
     {
       "monsterId": 149,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-19T18:13:44.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 452,
-      "pokemon": "Drapion",
-      "region": "Sinnoh",
-      "location": "Route 213",
-      "sourceId": 1789840511,
-      "despawnTimestamp": 1789840510,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-19T17:55:11.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Minun",
       "region": "Kanto",
       "location": "Route 22",
-      "secondsAgo": 1565,
+      "secondsAgo": 1846,
       "sourceId": 1789838698
     },
     {
@@ -38,16 +27,24 @@
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 4257,
+      "secondsAgo": 4538,
       "sourceId": 1789836006
+    },
+    {
+      "monsterId": 452,
+      "pokemon": "Drapion",
+      "region": "Sinnoh",
+      "location": "Route 213",
+      "secondsAgo": 1533,
+      "sourceId": 1789839011
     },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Unova",
       "location": "Wellspring Cave",
-      "secondsAgo": 11974,
-      "sourceId": 1789828289
+      "secondsAgo": 12256,
+      "sourceId": 1789828288
     }
   ],
   "alpha": {
