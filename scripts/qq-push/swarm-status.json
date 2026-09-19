@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-19T07:15:42.985Z",
+  "fetchedAt": "2026-09-19T07:20:52.812Z",
   "swarms": [
     {
       "monsterId": 416,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Five Isle Meadow",
       "sourceId": 1789803193,
-      "despawnTimestamp": 1789803192,
+      "despawnTimestamp": 1789803193,
       "hasValuable": false,
       "timestampUtc": "2026-09-19T07:33:13.000Z",
       "publishedBy": ""
@@ -18,20 +18,9 @@
       "region": "Hoenn",
       "location": "Route 129",
       "sourceId": 1789803069,
-      "despawnTimestamp": 1789803068,
+      "despawnTimestamp": 1789803069,
       "hasValuable": false,
       "timestampUtc": "2026-09-19T07:31:09.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Unova",
-      "location": "Lostlorn Forest",
-      "sourceId": 1789802297,
-      "despawnTimestamp": 1789802296,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-19T07:18:17.000Z",
       "publishedBy": ""
     }
   ],
@@ -41,7 +30,7 @@
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 1560,
+      "secondsAgo": 1870,
       "sourceId": 1789800582
     },
     {
@@ -49,8 +38,16 @@
       "pokemon": "Cacturne",
       "region": "Sinnoh",
       "location": "Route 228",
-      "secondsAgo": 2624,
+      "secondsAgo": 2934,
       "sourceId": 1789799518
+    },
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Unova",
+      "location": "Lostlorn Forest",
+      "secondsAgo": 1655,
+      "sourceId": 1789800797
     }
   ],
   "alpha": {
