@@ -1,35 +1,13 @@
 {
-  "fetchedAt": "2026-09-19T01:10:49.347Z",
+  "fetchedAt": "2026-09-19T01:15:43.532Z",
   "swarms": [
-    {
-      "monsterId": 227,
-      "pokemon": "Skarmory",
-      "region": "Johto",
-      "location": "Route 26",
-      "sourceId": 1789780340,
-      "despawnTimestamp": 1789780340,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-19T01:12:20.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 134,
-      "pokemon": "Vaporeon",
-      "region": "Hoenn",
-      "location": "Route 134",
-      "sourceId": 1789780307,
-      "despawnTimestamp": 1789780307,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-19T01:11:47.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
       "sourceId": 1789780658,
-      "despawnTimestamp": 1789780658,
+      "despawnTimestamp": 1789780657,
       "hasValuable": false,
       "timestampUtc": "2026-09-19T01:17:38.000Z",
       "publishedBy": ""
@@ -41,16 +19,32 @@
       "pokemon": "Trapinch",
       "region": "Kanto",
       "location": "Diglett&#x27;s Cave",
-      "secondsAgo": 8107,
+      "secondsAgo": 8401,
       "sourceId": 1789772142
+    },
+    {
+      "monsterId": 227,
+      "pokemon": "Skarmory",
+      "region": "Johto",
+      "location": "Route 26",
+      "secondsAgo": 1702,
+      "sourceId": 1789778841
+    },
+    {
+      "monsterId": 134,
+      "pokemon": "Vaporeon",
+      "region": "Hoenn",
+      "location": "Route 134",
+      "secondsAgo": 1735,
+      "sourceId": 1789778808
     },
     {
       "monsterId": 122,
       "pokemon": "Mr. Mime",
       "region": "Sinnoh",
       "location": "Route 224",
-      "secondsAgo": 2341,
-      "sourceId": 1789777908
+      "secondsAgo": 2636,
+      "sourceId": 1789777907
     }
   ],
   "alpha": {
