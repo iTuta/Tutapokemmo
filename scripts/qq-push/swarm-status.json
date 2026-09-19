@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-09-19T15:15:48.413Z",
-  "swarms": [
-    {
-      "monsterId": 330,
-      "pokemon": "Flygon",
-      "region": "Hoenn",
-      "location": "Desert Underpass",
-      "sourceId": 1789831238,
-      "despawnTimestamp": 1789831238,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-19T15:20:38.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-19T15:20:42.104Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 121,
       "pokemon": "Starmie",
       "region": "Kanto",
       "location": "Seven Island",
-      "secondsAgo": 4430,
+      "secondsAgo": 4724,
       "sourceId": 1789826518
     },
     {
@@ -27,15 +15,23 @@
       "pokemon": "Vigoroth",
       "region": "Johto",
       "location": "Ruins of Alph",
-      "secondsAgo": 4775,
+      "secondsAgo": 5069,
       "sourceId": 1789826173
+    },
+    {
+      "monsterId": 330,
+      "pokemon": "Flygon",
+      "region": "Hoenn",
+      "location": "Desert Underpass",
+      "secondsAgo": 1503,
+      "sourceId": 1789829739
     },
     {
       "monsterId": 421,
       "pokemon": "Cherrim",
       "region": "Sinnoh",
       "location": "Lake Verity",
-      "secondsAgo": 7701,
+      "secondsAgo": 7995,
       "sourceId": 1789823247
     },
     {
@@ -43,7 +39,7 @@
       "pokemon": "Kangaskhan",
       "region": "Unova",
       "location": "Wellspring Cave",
-      "secondsAgo": 2659,
+      "secondsAgo": 2953,
       "sourceId": 1789828289
     }
   ],
