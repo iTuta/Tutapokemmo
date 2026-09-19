@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-19T09:20:46.512Z",
+  "fetchedAt": "2026-09-19T09:25:37.499Z",
   "swarms": [
+    {
+      "monsterId": 457,
+      "pokemon": "Lumineon",
+      "region": "Kanto",
+      "location": "Route 12",
+      "sourceId": 1789811076,
+      "despawnTimestamp": 1789811076,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-19T09:44:36.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 154,
       "pokemon": "Meganium",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 416,
-      "pokemon": "Vespiquen",
-      "region": "Kanto",
-      "location": "Five Isle Meadow",
-      "secondsAgo": 7952,
-      "sourceId": 1789801694
-    },
-    {
       "monsterId": 321,
       "pokemon": "Wailord",
       "region": "Hoenn",
       "location": "Route 129",
-      "secondsAgo": 7776,
+      "secondsAgo": 8067,
       "sourceId": 1789801870
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Furret",
       "region": "Sinnoh",
       "location": "Route 208",
-      "secondsAgo": 6493,
+      "secondsAgo": 6784,
       "sourceId": 1789803153
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 2126,
+      "secondsAgo": 2417,
       "sourceId": 1789807520
     }
   ],
