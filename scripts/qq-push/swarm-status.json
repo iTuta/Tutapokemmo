@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-19T03:10:45.120Z",
+  "fetchedAt": "2026-09-19T03:15:48.418Z",
   "swarms": [
-    {
-      "monsterId": 442,
-      "pokemon": "Spiritomb",
-      "region": "Kanto",
-      "location": "Lost Cave",
-      "sourceId": 1789787667,
-      "despawnTimestamp": 1789787667,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-19T03:14:27.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 317,
       "pokemon": "Swalot",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 442,
+      "pokemon": "Spiritomb",
+      "region": "Kanto",
+      "location": "Lost Cave",
+      "secondsAgo": 1580,
+      "sourceId": 1789786168
+    },
+    {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Johto",
       "location": "Route 26",
-      "secondsAgo": 8604,
+      "secondsAgo": 8907,
       "sourceId": 1789778841
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Vaporeon",
       "region": "Hoenn",
       "location": "Route 134",
-      "secondsAgo": 8637,
+      "secondsAgo": 8940,
       "sourceId": 1789778808
     }
   ],
