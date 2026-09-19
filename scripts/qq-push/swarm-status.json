@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-19T19:55:42.550Z",
+  "fetchedAt": "2026-09-19T20:00:53.619Z",
   "swarms": [
-    {
-      "monsterId": 5,
-      "pokemon": "Charmeleon",
-      "region": "Kanto",
-      "location": "Rock Tunnel",
-      "sourceId": 1789847978,
-      "despawnTimestamp": 1789847977,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-19T19:59:38.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
@@ -33,24 +22,35 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-19T20:05:42.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 214,
+      "pokemon": "Heracross",
+      "region": "Unova",
+      "location": "Route 10",
+      "sourceId": 1789849256,
+      "despawnTimestamp": 1789849256,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-19T20:20:56.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
+    {
+      "monsterId": 5,
+      "pokemon": "Charmeleon",
+      "region": "Kanto",
+      "location": "Rock Tunnel",
+      "secondsAgo": 1575,
+      "sourceId": 1789846478
+    },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 2304,
+      "secondsAgo": 2615,
       "sourceId": 1789845438
-    },
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Unova",
-      "location": "Wellspring Cave",
-      "secondsAgo": 19454,
-      "sourceId": 1789828288
     }
   ],
   "alpha": {
