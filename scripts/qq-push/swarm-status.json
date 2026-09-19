@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-19T17:25:39.817Z",
+  "fetchedAt": "2026-09-19T17:30:48.539Z",
   "swarms": [
     {
       "monsterId": 312,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-19T17:49:57.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 452,
+      "pokemon": "Drapion",
+      "region": "Sinnoh",
+      "location": "Route 213",
+      "sourceId": 1789840511,
+      "despawnTimestamp": 1789840510,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-19T17:55:11.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 2733,
+      "secondsAgo": 3042,
       "sourceId": 1789836006
     },
     {
@@ -27,16 +38,8 @@
       "pokemon": "Marshtomp",
       "region": "Hoenn",
       "location": "Route 124",
-      "secondsAgo": 3776,
+      "secondsAgo": 4085,
       "sourceId": 1789834963
-    },
-    {
-      "monsterId": 288,
-      "pokemon": "Vigoroth",
-      "region": "Sinnoh",
-      "location": "Route 215",
-      "secondsAgo": 3760,
-      "sourceId": 1789834979
     }
   ],
   "alpha": {
