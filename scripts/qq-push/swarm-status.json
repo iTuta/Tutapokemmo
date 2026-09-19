@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-19T16:45:44.542Z",
+  "fetchedAt": "2026-09-19T16:50:39.048Z",
   "swarms": [
     {
       "monsterId": 143,
@@ -11,28 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-19T17:05:05.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 259,
-      "pokemon": "Marshtomp",
-      "region": "Hoenn",
-      "location": "Route 124",
-      "sourceId": 1789836463,
-      "despawnTimestamp": 1789836462,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-19T16:47:43.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 288,
-      "pokemon": "Vigoroth",
-      "region": "Sinnoh",
-      "location": "Route 215",
-      "sourceId": 1789836478,
-      "despawnTimestamp": 1789836478,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-19T16:47:58.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,8 +19,24 @@
       "pokemon": "Starmie",
       "region": "Kanto",
       "location": "Seven Island",
-      "secondsAgo": 9826,
+      "secondsAgo": 10121,
       "sourceId": 1789826518
+    },
+    {
+      "monsterId": 259,
+      "pokemon": "Marshtomp",
+      "region": "Hoenn",
+      "location": "Route 124",
+      "secondsAgo": 1675,
+      "sourceId": 1789834964
+    },
+    {
+      "monsterId": 288,
+      "pokemon": "Vigoroth",
+      "region": "Sinnoh",
+      "location": "Route 215",
+      "secondsAgo": 1660,
+      "sourceId": 1789834979
     }
   ],
   "alpha": {
