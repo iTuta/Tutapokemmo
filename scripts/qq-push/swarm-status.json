@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-19T23:20:43.389Z",
+  "fetchedAt": "2026-09-19T23:25:42.683Z",
   "swarms": [
     {
       "monsterId": 479,
@@ -7,9 +7,20 @@
       "region": "Kanto",
       "location": "Power Plant",
       "sourceId": 1789860365,
-      "despawnTimestamp": 1789860365,
+      "despawnTimestamp": 1789860364,
       "hasValuable": false,
       "timestampUtc": "2026-09-19T23:26:05.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 213,
+      "pokemon": "Shuckle",
+      "region": "Johto",
+      "location": "Cliff Cave",
+      "sourceId": 1789861668,
+      "despawnTimestamp": 1789861668,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-19T23:47:48.000Z",
       "publishedBy": ""
     },
     {
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Johto",
-      "location": "Dark Cave",
-      "secondsAgo": 13331,
-      "sourceId": 1789846712
-    },
-    {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 14605,
+      "secondsAgo": 14904,
       "sourceId": 1789845438
     },
     {
@@ -46,7 +49,7 @@
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 3289,
+      "secondsAgo": 3588,
       "sourceId": 1789856754
     }
   ],
