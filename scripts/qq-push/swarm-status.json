@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-09-20T03:15:52.312Z",
-  "swarms": [
-    {
-      "monsterId": 242,
-      "pokemon": "Blissey",
-      "region": "Hoenn",
-      "location": "Artisan Cave",
-      "sourceId": 1789874302,
-      "despawnTimestamp": 1789874302,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-20T03:18:22.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-20T03:20:44.944Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Kanto",
       "location": "Water Labyrinth",
-      "secondsAgo": 4673,
+      "secondsAgo": 4965,
       "sourceId": 1789869479
     },
     {
@@ -27,23 +15,31 @@
       "pokemon": "Shuckle",
       "region": "Johto",
       "location": "Cliff Cave",
-      "secondsAgo": 13983,
+      "secondsAgo": 14275,
       "sourceId": 1789860169
+    },
+    {
+      "monsterId": 242,
+      "pokemon": "Blissey",
+      "region": "Hoenn",
+      "location": "Artisan Cave",
+      "secondsAgo": 1642,
+      "sourceId": 1789872802
     },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 28714,
-      "sourceId": 1789845438
+      "secondsAgo": 29007,
+      "sourceId": 1789845437
     },
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Unova",
       "location": "Route 15",
-      "secondsAgo": 5953,
+      "secondsAgo": 6245,
       "sourceId": 1789868199
     }
   ],
