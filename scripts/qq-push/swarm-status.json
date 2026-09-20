@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-20T04:20:44.790Z",
+  "fetchedAt": "2026-09-20T04:25:37.876Z",
   "swarms": [
     {
       "monsterId": 300,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-20T04:42:59.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Unova",
+      "location": "Relic Castle",
+      "sourceId": 1789879664,
+      "despawnTimestamp": 1789879663,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-20T04:47:44.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Nosepass",
       "region": "Kanto",
       "location": "Mt. Moon",
-      "secondsAgo": 3307,
+      "secondsAgo": 3600,
       "sourceId": 1789874737
     },
     {
@@ -27,16 +38,8 @@
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 5242,
+      "secondsAgo": 5535,
       "sourceId": 1789872802
-    },
-    {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Unova",
-      "location": "Route 15",
-      "secondsAgo": 9845,
-      "sourceId": 1789868199
     }
   ],
   "alpha": {
