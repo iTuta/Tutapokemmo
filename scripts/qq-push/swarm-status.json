@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-20T01:35:47.221Z",
+  "fetchedAt": "2026-09-20T01:40:43.467Z",
   "swarms": [
     {
       "monsterId": 255,
@@ -7,9 +7,20 @@
       "region": "Hoenn",
       "location": "Route 112",
       "sourceId": 1789869359,
-      "despawnTimestamp": 1789869359,
+      "despawnTimestamp": 1789869358,
       "hasValuable": false,
       "timestampUtc": "2026-09-20T01:55:59.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Unova",
+      "location": "Route 15",
+      "sourceId": 1789869698,
+      "despawnTimestamp": 1789869698,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-20T02:01:38.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,7 +30,7 @@
       "pokemon": "Rotom",
       "region": "Kanto",
       "location": "Power Plant",
-      "secondsAgo": 9281,
+      "secondsAgo": 9577,
       "sourceId": 1789858866
     },
     {
@@ -27,7 +38,7 @@
       "pokemon": "Shuckle",
       "region": "Johto",
       "location": "Cliff Cave",
-      "secondsAgo": 7978,
+      "secondsAgo": 8274,
       "sourceId": 1789860169
     },
     {
@@ -35,16 +46,8 @@
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 22709,
+      "secondsAgo": 23005,
       "sourceId": 1789845438
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Unova",
-      "location": "Lostlorn Forest",
-      "secondsAgo": 11393,
-      "sourceId": 1789856754
     }
   ],
   "alpha": {
