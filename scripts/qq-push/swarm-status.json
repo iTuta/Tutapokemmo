@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-20T21:40:42.378Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-20T21:45:52.341Z",
+  "swarms": [
+    {
+      "monsterId": 349,
+      "pokemon": "Feebas",
+      "region": "Hoenn",
+      "location": "Route 130",
+      "sourceId": 1789942112,
+      "despawnTimestamp": 1789942111,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-20T22:08:32.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Kanto",
       "location": "Route 15",
-      "secondsAgo": 5423,
+      "secondsAgo": 5733,
       "sourceId": 1789935019
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Chimecho",
       "region": "Johto",
       "location": "Bellchime Trail",
-      "secondsAgo": 4907,
+      "secondsAgo": 5217,
       "sourceId": 1789935535
-    },
-    {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Hoenn",
-      "location": "Shoal Cave",
-      "secondsAgo": 10341,
-      "sourceId": 1789930101
     },
     {
       "monsterId": 359,
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "secondsAgo": 8933,
+      "secondsAgo": 9243,
       "sourceId": 1789931509
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 6943,
+      "secondsAgo": 7253,
       "sourceId": 1789933499
     }
   ],
