@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-20T23:10:53.293Z",
+  "fetchedAt": "2026-09-20T23:15:39.079Z",
   "swarms": [
+    {
+      "monsterId": 156,
+      "pokemon": "Quilava",
+      "region": "Johto",
+      "location": "Route 42",
+      "sourceId": 1789947625,
+      "despawnTimestamp": 1789947625,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-20T23:40:25.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
@@ -19,23 +30,15 @@
       "pokemon": "Seviper",
       "region": "Kanto",
       "location": "Route 15",
-      "secondsAgo": 10834,
+      "secondsAgo": 11120,
       "sourceId": 1789935019
-    },
-    {
-      "monsterId": 358,
-      "pokemon": "Chimecho",
-      "region": "Johto",
-      "location": "Bellchime Trail",
-      "secondsAgo": 10318,
-      "sourceId": 1789935535
     },
     {
       "monsterId": 359,
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "secondsAgo": 14344,
+      "secondsAgo": 14630,
       "sourceId": 1789931509
     }
   ],
