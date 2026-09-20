@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-09-20T04:40:57.209Z",
+  "fetchedAt": "2026-09-20T04:45:44.882Z",
   "swarms": [
-    {
-      "monsterId": 300,
-      "pokemon": "Skitty",
-      "region": "Johto",
-      "location": "Route 35",
-      "sourceId": 1789879379,
-      "despawnTimestamp": 1789879379,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-20T04:42:59.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
       "sourceId": 1789879664,
-      "despawnTimestamp": 1789879664,
+      "despawnTimestamp": 1789879663,
       "hasValuable": false,
       "timestampUtc": "2026-09-20T04:47:44.000Z",
       "publishedBy": ""
@@ -30,16 +19,24 @@
       "pokemon": "Nosepass",
       "region": "Kanto",
       "location": "Mt. Moon",
-      "secondsAgo": 4519,
-      "sourceId": 1789874738
+      "secondsAgo": 4807,
+      "sourceId": 1789874737
+    },
+    {
+      "monsterId": 300,
+      "pokemon": "Skitty",
+      "region": "Johto",
+      "location": "Route 35",
+      "secondsAgo": 1665,
+      "sourceId": 1789877879
     },
     {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 6454,
-      "sourceId": 1789872803
+      "secondsAgo": 6742,
+      "sourceId": 1789872802
     }
   ],
   "alpha": {
