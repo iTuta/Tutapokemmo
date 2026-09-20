@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-20T06:35:41.282Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-20T06:40:41.341Z",
+  "swarms": [
+    {
+      "monsterId": 451,
+      "pokemon": "Skorupi",
+      "region": "Unova",
+      "location": "Desert Resort",
+      "sourceId": 1789887798,
+      "despawnTimestamp": 1789887798,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-20T07:03:18.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 248,
       "pokemon": "Tyranitar",
       "region": "Kanto",
       "location": "Sevault Canyon",
-      "secondsAgo": 2635,
+      "secondsAgo": 2935,
       "sourceId": 1789883506
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 8261,
+      "secondsAgo": 8561,
       "sourceId": 1789877880
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Spiritomb",
       "region": "Hoenn",
       "location": "Abandoned Ship",
-      "secondsAgo": 4623,
+      "secondsAgo": 4923,
       "sourceId": 1789881518
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 40703,
+      "secondsAgo": 41003,
       "sourceId": 1789845438
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Unova",
-      "location": "Relic Castle",
-      "secondsAgo": 7976,
-      "sourceId": 1789878165
     }
   ],
   "alpha": {
