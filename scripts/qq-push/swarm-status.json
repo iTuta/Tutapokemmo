@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-09-20T17:46:22.312Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-20T17:50:39.884Z",
+  "swarms": [
+    {
+      "monsterId": 420,
+      "pokemon": "Cherubi",
+      "region": "Unova",
+      "location": "Route 16",
+      "sourceId": 1789928138,
+      "despawnTimestamp": 1789928137,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-20T18:15:38.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 139,
       "pokemon": "Omastar",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 4733,
-      "sourceId": 1789921649
+      "secondsAgo": 4991,
+      "sourceId": 1789921648
     },
     {
       "monsterId": 237,
       "pokemon": "Hitmontop",
       "region": "Johto",
       "location": "Mt. Mortar",
-      "secondsAgo": 3529,
+      "secondsAgo": 3786,
       "sourceId": 1789922853
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 6906,
-      "sourceId": 1789919476
+      "secondsAgo": 7164,
+      "sourceId": 1789919475
     },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Sinnoh",
       "location": "Wayward Cave",
-      "secondsAgo": 4327,
+      "secondsAgo": 4584,
       "sourceId": 1789922055
-    },
-    {
-      "monsterId": 369,
-      "pokemon": "Relicanth",
-      "region": "Unova",
-      "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 5003,
-      "sourceId": 1789921379
     }
   ],
   "alpha": {
