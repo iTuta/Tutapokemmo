@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-20T16:20:53.792Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-20T16:25:37.636Z",
+  "swarms": [
+    {
+      "monsterId": 369,
+      "pokemon": "Relicanth",
+      "region": "Unova",
+      "location": "Challenger&#x27;s Cave",
+      "sourceId": 1789922879,
+      "despawnTimestamp": 1789922878,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-20T16:47:59.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 350,
       "pokemon": "Milotic",
       "region": "Kanto",
       "location": "Resort Gorgeous",
-      "secondsAgo": 3626,
+      "secondsAgo": 3910,
       "sourceId": 1789917627
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 3646,
+      "secondsAgo": 3930,
       "sourceId": 1789917607
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 1778,
+      "secondsAgo": 2062,
       "sourceId": 1789919475
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Heracross",
       "region": "Sinnoh",
       "location": "Route 206",
-      "secondsAgo": 20429,
+      "secondsAgo": 20713,
       "sourceId": 1789900824
-    },
-    {
-      "monsterId": 420,
-      "pokemon": "Cherubi",
-      "region": "Unova",
-      "location": "Route 16",
-      "secondsAgo": 13019,
-      "sourceId": 1789908234
     }
   ],
   "alpha": {
