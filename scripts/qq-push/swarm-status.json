@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-20T02:00:48.703Z",
+  "fetchedAt": "2026-09-20T02:05:47.634Z",
   "swarms": [
     {
       "monsterId": 319,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-20T02:22:59.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Unova",
-      "location": "Route 15",
-      "sourceId": 1789869698,
-      "despawnTimestamp": 1789869698,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-20T02:01:38.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Shuckle",
       "region": "Johto",
       "location": "Cliff Cave",
-      "secondsAgo": 9479,
+      "secondsAgo": 9778,
       "sourceId": 1789860169
     },
     {
@@ -38,7 +27,7 @@
       "pokemon": "Torchic",
       "region": "Hoenn",
       "location": "Route 112",
-      "secondsAgo": 1789,
+      "secondsAgo": 2088,
       "sourceId": 1789867859
     },
     {
@@ -46,8 +35,16 @@
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 24210,
+      "secondsAgo": 24509,
       "sourceId": 1789845438
+    },
+    {
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Unova",
+      "location": "Route 15",
+      "secondsAgo": 1748,
+      "sourceId": 1789868199
     }
   ],
   "alpha": {
