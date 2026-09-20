@@ -1,52 +1,49 @@
 {
-  "fetchedAt": "2026-09-20T19:10:40.771Z",
+  "fetchedAt": "2026-09-20T19:15:47.931Z",
   "swarms": [
+    {
+      "monsterId": 359,
+      "pokemon": "Absol",
+      "region": "Sinnoh",
+      "location": "Mt. Coronet",
+      "sourceId": 1789933008,
+      "despawnTimestamp": 1789933008,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-20T19:36:48.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 149,
       "pokemon": "Dragonite",
       "region": "Kanto",
       "location": "Six Island",
-      "sourceId": 1789931727,
-      "despawnTimestamp": 1789931727,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-20T19:15:27.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1519,
+      "sourceId": 1789930228
+    },
+    {
+      "monsterId": 237,
+      "pokemon": "Hitmontop",
+      "region": "Johto",
+      "location": "Mt. Mortar",
+      "secondsAgo": 8894,
+      "sourceId": 1789922853
     },
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Hoenn",
       "location": "Shoal Cave",
-      "sourceId": 1789931600,
-      "despawnTimestamp": 1789931600,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-20T19:13:20.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 237,
-      "pokemon": "Hitmontop",
-      "region": "Johto",
-      "location": "Mt. Mortar",
-      "secondsAgo": 8587,
-      "sourceId": 1789922853
-    },
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Sinnoh",
-      "location": "Wayward Cave",
-      "secondsAgo": 9385,
-      "sourceId": 1789922055
+      "secondsAgo": 1646,
+      "sourceId": 1789930101
     },
     {
       "monsterId": 420,
       "pokemon": "Cherubi",
       "region": "Unova",
       "location": "Route 16",
-      "secondsAgo": 4802,
+      "secondsAgo": 5109,
       "sourceId": 1789926638
     }
   ],
