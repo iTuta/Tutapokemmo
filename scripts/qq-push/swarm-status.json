@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-09-20T09:15:43.274Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-20T09:20:45.510Z",
+  "swarms": [
     {
-      "monsterId": 9,
-      "pokemon": "Blastoise",
+      "monsterId": 346,
+      "pokemon": "Cradily",
       "region": "Kanto",
-      "location": "Cape Brink",
-      "secondsAgo": 3585,
-      "sourceId": 1789892158
-    },
+      "location": "Tanoby Ruins",
+      "sourceId": 1789897439,
+      "despawnTimestamp": 1789897439,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-20T09:43:59.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Johto",
       "location": "Route 38",
-      "secondsAgo": 9136,
+      "secondsAgo": 9438,
       "sourceId": 1789886607
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Vaporeon",
       "region": "Hoenn",
       "location": "Route 134",
-      "secondsAgo": 1622,
+      "secondsAgo": 1924,
       "sourceId": 1789894121
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 50305,
+      "secondsAgo": 50607,
       "sourceId": 1789845438
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 9444,
+      "secondsAgo": 9746,
       "sourceId": 1789886299
     }
   ],
