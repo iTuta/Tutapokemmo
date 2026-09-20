@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-20T15:50:39.509Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-20T15:55:37.402Z",
+  "swarms": [
+    {
+      "monsterId": 316,
+      "pokemon": "Gulpin",
+      "region": "Hoenn",
+      "location": "Route 110",
+      "sourceId": 1789920975,
+      "despawnTimestamp": 1789920974,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-20T16:16:15.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 350,
       "pokemon": "Milotic",
       "region": "Kanto",
       "location": "Resort Gorgeous",
-      "secondsAgo": 1811,
+      "secondsAgo": 2109,
       "sourceId": 1789917628
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 1832,
-      "sourceId": 1789917607
-    },
-    {
-      "monsterId": 415,
-      "pokemon": "Combee",
-      "region": "Hoenn",
-      "location": "Route 117",
-      "secondsAgo": 9624,
-      "sourceId": 1789909815
+      "secondsAgo": 2129,
+      "sourceId": 1789917608
     },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Sinnoh",
       "location": "Route 206",
-      "secondsAgo": 18615,
+      "secondsAgo": 18913,
       "sourceId": 1789900824
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Cherubi",
       "region": "Unova",
       "location": "Route 16",
-      "secondsAgo": 11205,
+      "secondsAgo": 11503,
       "sourceId": 1789908234
     }
   ],
