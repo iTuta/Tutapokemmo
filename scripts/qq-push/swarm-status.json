@@ -1,33 +1,29 @@
 {
-  "fetchedAt": "2026-09-20T20:40:48.312Z",
-  "swarms": [
-    {
-      "monsterId": 358,
-      "pokemon": "Chimecho",
-      "region": "Johto",
-      "location": "Bellchime Trail",
-      "sourceId": 1789937034,
-      "despawnTimestamp": 1789937034,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-20T20:43:54.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-20T20:45:46.283Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Kanto",
       "location": "Route 15",
-      "secondsAgo": 1829,
+      "secondsAgo": 2127,
       "sourceId": 1789935019
+    },
+    {
+      "monsterId": 358,
+      "pokemon": "Chimecho",
+      "region": "Johto",
+      "location": "Bellchime Trail",
+      "secondsAgo": 1611,
+      "sourceId": 1789935535
     },
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Hoenn",
       "location": "Shoal Cave",
-      "secondsAgo": 6747,
+      "secondsAgo": 7045,
       "sourceId": 1789930101
     },
     {
@@ -35,7 +31,7 @@
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "secondsAgo": 5339,
+      "secondsAgo": 5637,
       "sourceId": 1789931509
     },
     {
@@ -43,7 +39,7 @@
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 3349,
+      "secondsAgo": 3647,
       "sourceId": 1789933499
     }
   ],
