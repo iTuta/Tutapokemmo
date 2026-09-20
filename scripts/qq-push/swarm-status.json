@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-20T10:45:49.352Z",
+  "fetchedAt": "2026-09-20T10:50:48.805Z",
   "swarms": [
-    {
-      "monsterId": 281,
-      "pokemon": "Kirlia",
-      "region": "Kanto",
-      "location": "Route 8",
-      "sourceId": 1789901276,
-      "despawnTimestamp": 1789901276,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-20T10:47:56.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 281,
+      "pokemon": "Kirlia",
+      "region": "Kanto",
+      "location": "Route 8",
+      "secondsAgo": 1672,
+      "sourceId": 1789899776
+    },
+    {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 4684,
+      "secondsAgo": 4983,
       "sourceId": 1789896465
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Vaporeon",
       "region": "Hoenn",
       "location": "Route 134",
-      "secondsAgo": 7028,
+      "secondsAgo": 7327,
       "sourceId": 1789894121
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 14850,
+      "secondsAgo": 15149,
       "sourceId": 1789886299
     }
   ],
