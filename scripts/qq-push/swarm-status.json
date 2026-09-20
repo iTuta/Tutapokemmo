@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-20T16:55:48.424Z",
+  "fetchedAt": "2026-09-20T17:01:04.885Z",
   "swarms": [
     {
       "monsterId": 237,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-20T17:12:33.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Sinnoh",
-      "location": "Wayward Cave",
-      "sourceId": 1789923555,
-      "despawnTimestamp": 1789923554,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-20T16:59:15.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,23 +19,31 @@
       "pokemon": "Omastar",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 1699,
-      "sourceId": 1789921649
+      "secondsAgo": 2016,
+      "sourceId": 1789921648
     },
     {
       "monsterId": 316,
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 3873,
+      "secondsAgo": 4189,
       "sourceId": 1789919475
+    },
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Sinnoh",
+      "location": "Wayward Cave",
+      "secondsAgo": 1609,
+      "sourceId": 1789922055
     },
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Unova",
       "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 1969,
+      "secondsAgo": 2285,
       "sourceId": 1789921379
     }
   ],
