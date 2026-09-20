@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-20T10:35:36.555Z",
+  "fetchedAt": "2026-09-20T10:40:40.453Z",
   "swarms": [
     {
       "monsterId": 281,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-20T10:47:56.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 214,
+      "pokemon": "Heracross",
+      "region": "Sinnoh",
+      "location": "Route 206",
+      "sourceId": 1789902323,
+      "despawnTimestamp": 1789902323,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-20T11:05:23.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 4071,
+      "secondsAgo": 4375,
       "sourceId": 1789896465
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Vaporeon",
       "region": "Hoenn",
       "location": "Route 134",
-      "secondsAgo": 6415,
+      "secondsAgo": 6719,
       "sourceId": 1789894121
-    },
-    {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Sinnoh",
-      "location": "Valor Lakefront",
-      "secondsAgo": 55098,
-      "sourceId": 1789845438
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 14237,
+      "secondsAgo": 14541,
       "sourceId": 1789886299
     }
   ],
