@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-09-20T12:35:36.632Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-20T12:40:41.229Z",
+  "swarms": [
     {
-      "monsterId": 281,
-      "pokemon": "Kirlia",
+      "monsterId": 214,
+      "pokemon": "Heracross",
       "region": "Kanto",
-      "location": "Route 8",
-      "secondsAgo": 7959,
-      "sourceId": 1789899777
-    },
+      "location": "Route 16",
+      "sourceId": 1789909379,
+      "despawnTimestamp": 1789909379,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-20T13:02:59.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 372,
       "pokemon": "Shelgon",
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
-      "secondsAgo": 1786,
-      "sourceId": 1789905950
+      "secondsAgo": 2090,
+      "sourceId": 1789905951
     },
     {
       "monsterId": 134,
       "pokemon": "Vaporeon",
       "region": "Hoenn",
       "location": "Route 134",
-      "secondsAgo": 13615,
+      "secondsAgo": 13920,
       "sourceId": 1789894121
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Heracross",
       "region": "Sinnoh",
       "location": "Route 206",
-      "secondsAgo": 6912,
+      "secondsAgo": 7217,
       "sourceId": 1789900824
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 21437,
+      "secondsAgo": 21742,
       "sourceId": 1789886299
     }
   ],
