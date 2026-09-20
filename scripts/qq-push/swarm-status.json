@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-09-20T22:50:37.919Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-20T22:55:35.584Z",
+  "swarms": [
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Unova",
+      "location": "Lostlorn Forest",
+      "sourceId": 1789946165,
+      "despawnTimestamp": 1789946165,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-20T23:16:05.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Kanto",
       "location": "Route 15",
-      "secondsAgo": 9619,
-      "sourceId": 1789935018
+      "secondsAgo": 9916,
+      "sourceId": 1789935019
     },
     {
       "monsterId": 358,
       "pokemon": "Chimecho",
       "region": "Johto",
       "location": "Bellchime Trail",
-      "secondsAgo": 9102,
+      "secondsAgo": 9400,
       "sourceId": 1789935535
     },
     {
@@ -23,16 +35,8 @@
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "secondsAgo": 13128,
+      "secondsAgo": 13426,
       "sourceId": 1789931509
-    },
-    {
-      "monsterId": 212,
-      "pokemon": "Scizor",
-      "region": "Unova",
-      "location": "Route 14",
-      "secondsAgo": 3745,
-      "sourceId": 1789940892
     }
   ],
   "alpha": {
