@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-20T16:31:17.444Z",
+  "fetchedAt": "2026-09-20T16:35:52.883Z",
   "swarms": [
     {
       "monsterId": 139,
@@ -7,9 +7,20 @@
       "region": "Kanto",
       "location": "Tanoby Ruins",
       "sourceId": 1789923148,
-      "despawnTimestamp": 1789923148,
+      "despawnTimestamp": 1789923147,
       "hasValuable": false,
       "timestampUtc": "2026-09-20T16:52:28.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Sinnoh",
+      "location": "Wayward Cave",
+      "sourceId": 1789923555,
+      "despawnTimestamp": 1789923554,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-20T16:59:15.000Z",
       "publishedBy": ""
     },
     {
@@ -30,24 +41,16 @@
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 4269,
-      "sourceId": 1789917608
+      "secondsAgo": 4545,
+      "sourceId": 1789917607
     },
     {
       "monsterId": 316,
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 2402,
+      "secondsAgo": 2677,
       "sourceId": 1789919475
-    },
-    {
-      "monsterId": 214,
-      "pokemon": "Heracross",
-      "region": "Sinnoh",
-      "location": "Route 206",
-      "secondsAgo": 21053,
-      "sourceId": 1789900824
     }
   ],
   "alpha": {
