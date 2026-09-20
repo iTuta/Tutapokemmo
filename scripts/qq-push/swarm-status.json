@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-20T16:40:44.062Z",
+  "fetchedAt": "2026-09-20T16:46:08.108Z",
   "swarms": [
-    {
-      "monsterId": 139,
-      "pokemon": "Omastar",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "sourceId": 1789923148,
-      "despawnTimestamp": 1789923148,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-20T16:52:28.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 139,
+      "pokemon": "Omastar",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "secondsAgo": 1119,
+      "sourceId": 1789921649
+    },
+    {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 4836,
+      "secondsAgo": 5160,
       "sourceId": 1789917608
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 2968,
+      "secondsAgo": 3292,
       "sourceId": 1789919476
     }
   ],
