@@ -1,29 +1,36 @@
 {
-  "fetchedAt": "2026-09-20T15:15:49.395Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-20T15:21:05.054Z",
+  "swarms": [
     {
-      "monsterId": 214,
-      "pokemon": "Heracross",
+      "monsterId": 350,
+      "pokemon": "Milotic",
       "region": "Kanto",
-      "location": "Route 16",
-      "secondsAgo": 9469,
-      "sourceId": 1789907880
+      "location": "Resort Gorgeous",
+      "sourceId": 1789919127,
+      "despawnTimestamp": 1789919127,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-20T15:45:27.000Z",
+      "publishedBy": ""
     },
     {
-      "monsterId": 372,
-      "pokemon": "Shelgon",
+      "monsterId": 290,
+      "pokemon": "Nincada",
       "region": "Johto",
-      "location": "Dragon&#x27;s Den",
-      "secondsAgo": 11398,
-      "sourceId": 1789905951
-    },
+      "location": "Route 46",
+      "sourceId": 1789919107,
+      "despawnTimestamp": 1789919107,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-20T15:45:07.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 415,
       "pokemon": "Combee",
       "region": "Hoenn",
       "location": "Route 117",
-      "secondsAgo": 7533,
+      "secondsAgo": 7849,
       "sourceId": 1789909816
     },
     {
@@ -31,16 +38,16 @@
       "pokemon": "Heracross",
       "region": "Sinnoh",
       "location": "Route 206",
-      "secondsAgo": 16525,
-      "sourceId": 1789900824
+      "secondsAgo": 16840,
+      "sourceId": 1789900825
     },
     {
       "monsterId": 420,
       "pokemon": "Cherubi",
       "region": "Unova",
       "location": "Route 16",
-      "secondsAgo": 9115,
-      "sourceId": 1789908234
+      "secondsAgo": 9430,
+      "sourceId": 1789908235
     }
   ],
   "alpha": {
