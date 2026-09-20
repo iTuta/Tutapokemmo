@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-20T19:40:44.113Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-20T19:45:46.380Z",
+  "swarms": [
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Unova",
+      "location": "Relic Castle",
+      "sourceId": 1789934999,
+      "despawnTimestamp": 1789934998,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-20T20:09:59.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 149,
       "pokemon": "Dragonite",
       "region": "Kanto",
       "location": "Six Island",
-      "secondsAgo": 3016,
+      "secondsAgo": 3318,
       "sourceId": 1789930228
     },
     {
@@ -15,15 +27,15 @@
       "pokemon": "Hitmontop",
       "region": "Johto",
       "location": "Mt. Mortar",
-      "secondsAgo": 10390,
-      "sourceId": 1789922854
+      "secondsAgo": 10693,
+      "sourceId": 1789922853
     },
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Hoenn",
       "location": "Shoal Cave",
-      "secondsAgo": 3143,
+      "secondsAgo": 3445,
       "sourceId": 1789930101
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "secondsAgo": 1735,
+      "secondsAgo": 2037,
       "sourceId": 1789931509
-    },
-    {
-      "monsterId": 420,
-      "pokemon": "Cherubi",
-      "region": "Unova",
-      "location": "Route 16",
-      "secondsAgo": 6605,
-      "sourceId": 1789926639
     }
   ],
   "alpha": {
