@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-20T09:40:43.367Z",
+  "fetchedAt": "2026-09-20T09:45:42.853Z",
   "swarms": [
-    {
-      "monsterId": 346,
-      "pokemon": "Cradily",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "sourceId": 1789897439,
-      "despawnTimestamp": 1789897439,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-20T09:43:59.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 346,
+      "pokemon": "Cradily",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "secondsAgo": 1603,
+      "sourceId": 1789895939
+    },
+    {
       "monsterId": 134,
       "pokemon": "Vaporeon",
       "region": "Hoenn",
       "location": "Route 134",
-      "secondsAgo": 3122,
+      "secondsAgo": 3421,
       "sourceId": 1789894121
     },
     {
@@ -38,16 +35,16 @@
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 51805,
-      "sourceId": 1789845438
+      "secondsAgo": 52105,
+      "sourceId": 1789845437
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 10944,
-      "sourceId": 1789886299
+      "secondsAgo": 11244,
+      "sourceId": 1789886298
     }
   ],
   "alpha": {
