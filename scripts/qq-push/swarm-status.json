@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-20T05:15:52.175Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-20T05:21:14.149Z",
+  "swarms": [
+    {
+      "monsterId": 442,
+      "pokemon": "Spiritomb",
+      "region": "Hoenn",
+      "location": "Abandoned Ship",
+      "sourceId": 1789883017,
+      "despawnTimestamp": 1789883017,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-20T05:43:37.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 299,
       "pokemon": "Nosepass",
       "region": "Kanto",
       "location": "Mt. Moon",
-      "secondsAgo": 6614,
+      "secondsAgo": 6936,
       "sourceId": 1789874738
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 3472,
+      "secondsAgo": 3794,
       "sourceId": 1789877880
-    },
-    {
-      "monsterId": 242,
-      "pokemon": "Blissey",
-      "region": "Hoenn",
-      "location": "Artisan Cave",
-      "secondsAgo": 8549,
-      "sourceId": 1789872803
     },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 3187,
+      "secondsAgo": 3509,
       "sourceId": 1789878165
     }
   ],
