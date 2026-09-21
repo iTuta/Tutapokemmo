@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-09-21T06:20:46.409Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-21T06:25:42.417Z",
+  "swarms": [
+    {
+      "monsterId": 290,
+      "pokemon": "Nincada",
+      "region": "Johto",
+      "location": "Route 46",
+      "sourceId": 1789973187,
+      "despawnTimestamp": 1789973186,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-21T06:46:27.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 7352,
+      "secondsAgo": 7648,
       "sourceId": 1789964294
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Johto",
-      "location": "Mt. Silver Cave",
-      "secondsAgo": 3488,
-      "sourceId": 1789968158
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Hoenn",
       "location": "Route 101",
-      "secondsAgo": 2569,
+      "secondsAgo": 2865,
       "sourceId": 1789969077
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Garchomp",
       "region": "Sinnoh",
       "location": "Victory Road",
-      "secondsAgo": 19985,
+      "secondsAgo": 20281,
       "sourceId": 1789951661
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Metagross",
       "region": "Unova",
       "location": "Giant Chasm",
-      "secondsAgo": 14822,
+      "secondsAgo": 15118,
       "sourceId": 1789956824
     }
   ],
