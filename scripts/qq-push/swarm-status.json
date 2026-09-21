@@ -1,49 +1,45 @@
 {
-  "fetchedAt": "2026-09-21T06:45:42.416Z",
-  "swarms": [
-    {
-      "monsterId": 290,
-      "pokemon": "Nincada",
-      "region": "Johto",
-      "location": "Route 46",
-      "sourceId": 1789973187,
-      "despawnTimestamp": 1789973186,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-21T06:46:27.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-21T06:50:44.605Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 8848,
+      "secondsAgo": 9150,
       "sourceId": 1789964294
+    },
+    {
+      "monsterId": 290,
+      "pokemon": "Nincada",
+      "region": "Johto",
+      "location": "Route 46",
+      "secondsAgo": 1757,
+      "sourceId": 1789971687
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Hoenn",
       "location": "Route 101",
-      "secondsAgo": 4065,
-      "sourceId": 1789969077
+      "secondsAgo": 4368,
+      "sourceId": 1789969076
     },
     {
       "monsterId": 445,
       "pokemon": "Garchomp",
       "region": "Sinnoh",
       "location": "Victory Road",
-      "secondsAgo": 21481,
-      "sourceId": 1789951661
+      "secondsAgo": 21784,
+      "sourceId": 1789951660
     },
     {
       "monsterId": 376,
       "pokemon": "Metagross",
       "region": "Unova",
       "location": "Giant Chasm",
-      "secondsAgo": 16318,
+      "secondsAgo": 16620,
       "sourceId": 1789956824
     }
   ],
