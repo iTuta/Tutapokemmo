@@ -1,38 +1,42 @@
 {
-  "fetchedAt": "2026-09-21T09:20:45.138Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-21T09:25:44.905Z",
+  "swarms": [
     {
-      "monsterId": 290,
-      "pokemon": "Nincada",
+      "monsterId": 241,
+      "pokemon": "Miltank",
       "region": "Johto",
-      "location": "Route 46",
-      "secondsAgo": 10757,
-      "sourceId": 1789971688
-    },
+      "location": "Route 39",
+      "sourceId": 1789983952,
+      "despawnTimestamp": 1789983951,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-21T09:45:52.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Hoenn",
       "location": "Route 101",
-      "secondsAgo": 1523,
-      "sourceId": 1789980922
+      "secondsAgo": 1823,
+      "sourceId": 1789980921
     },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Sinnoh",
       "location": "Wayward Cave",
-      "secondsAgo": 1446,
-      "sourceId": 1789980999
+      "secondsAgo": 1746,
+      "sourceId": 1789980998
     },
     {
       "monsterId": 376,
       "pokemon": "Metagross",
       "region": "Unova",
       "location": "Giant Chasm",
-      "secondsAgo": 25621,
-      "sourceId": 1789956824
+      "secondsAgo": 25921,
+      "sourceId": 1789956823
     }
   ],
   "alpha": {
