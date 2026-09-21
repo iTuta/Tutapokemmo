@@ -1,45 +1,49 @@
 {
-  "fetchedAt": "2026-09-21T15:10:44.117Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-21T15:15:50.878Z",
+  "swarms": [
+    {
+      "monsterId": 252,
+      "pokemon": "Treecko",
+      "region": "Hoenn",
+      "location": "Petalburg Woods",
+      "sourceId": 1790005126,
+      "despawnTimestamp": 1790005126,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-21T15:38:46.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Kanto",
       "location": "Route 7",
-      "secondsAgo": 10387,
-      "sourceId": 1789993057
+      "secondsAgo": 10694,
+      "sourceId": 1789993056
     },
     {
       "monsterId": 155,
       "pokemon": "Cyndaquil",
       "region": "Johto",
       "location": "Route 33",
-      "secondsAgo": 10580,
-      "sourceId": 1789992864
-    },
-    {
-      "monsterId": 349,
-      "pokemon": "Feebas",
-      "region": "Hoenn",
-      "location": "Route 130",
-      "secondsAgo": 8615,
-      "sourceId": 1789994829
+      "secondsAgo": 10887,
+      "sourceId": 1789992863
     },
     {
       "monsterId": 332,
       "pokemon": "Cacturne",
       "region": "Sinnoh",
       "location": "Route 228",
-      "secondsAgo": 7346,
-      "sourceId": 1789996098
+      "secondsAgo": 7653,
+      "sourceId": 1789996097
     },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Unova",
       "location": "Wellspring Cave",
-      "secondsAgo": 5021,
+      "secondsAgo": 5327,
       "sourceId": 1789998423
     }
   ],
