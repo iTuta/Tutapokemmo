@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-21T00:56:16.432Z",
+  "fetchedAt": "2026-09-21T01:00:59.755Z",
   "swarms": [
-    {
-      "monsterId": 139,
-      "pokemon": "Omastar",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "sourceId": 1789952395,
-      "despawnTimestamp": 1789952395,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-21T00:59:55.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 517,
       "pokemon": "Munna",
@@ -26,19 +15,27 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 139,
+      "pokemon": "Omastar",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "secondsAgo": 1564,
+      "sourceId": 1789950895
+    },
+    {
       "monsterId": 156,
       "pokemon": "Quilava",
       "region": "Johto",
       "location": "Route 42",
-      "secondsAgo": 6050,
-      "sourceId": 1789946126
+      "secondsAgo": 6334,
+      "sourceId": 1789946125
     },
     {
       "monsterId": 349,
       "pokemon": "Feebas",
       "region": "Hoenn",
       "location": "Route 130",
-      "secondsAgo": 11564,
+      "secondsAgo": 11847,
       "sourceId": 1789940612
     }
   ],
