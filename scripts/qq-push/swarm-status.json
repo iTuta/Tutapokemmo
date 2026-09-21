@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-21T13:05:39.749Z",
+  "fetchedAt": "2026-09-21T13:10:41.519Z",
   "swarms": [
     {
       "monsterId": 349,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-21T13:12:08.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 332,
+      "pokemon": "Cacturne",
+      "region": "Sinnoh",
+      "location": "Route 228",
+      "sourceId": 1789997597,
+      "despawnTimestamp": 1789997596,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-21T13:33:17.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,31 +30,23 @@
       "pokemon": "Murkrow",
       "region": "Kanto",
       "location": "Route 7",
-      "secondsAgo": 2883,
-      "sourceId": 1789993056
+      "secondsAgo": 3184,
+      "sourceId": 1789993057
     },
     {
       "monsterId": 155,
       "pokemon": "Cyndaquil",
       "region": "Johto",
       "location": "Route 33",
-      "secondsAgo": 3076,
+      "secondsAgo": 3378,
       "sourceId": 1789992863
-    },
-    {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Sinnoh",
-      "location": "Valor Lakefront",
-      "secondsAgo": 6938,
-      "sourceId": 1789989001
     },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 7649,
+      "secondsAgo": 7951,
       "sourceId": 1789988290
     }
   ],
