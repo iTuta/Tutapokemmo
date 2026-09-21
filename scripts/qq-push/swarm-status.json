@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-09-21T02:45:42.083Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-21T02:50:51.955Z",
+  "swarms": [
     {
-      "monsterId": 139,
-      "pokemon": "Omastar",
+      "monsterId": 425,
+      "pokemon": "Drifloon",
       "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 7846,
-      "sourceId": 1789950896
-    },
+      "location": "Route 10",
+      "sourceId": 1789960200,
+      "despawnTimestamp": 1789960199,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-21T03:10:00.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Johto",
       "location": "Route 43",
-      "secondsAgo": 3354,
-      "sourceId": 1789955388
+      "secondsAgo": 3664,
+      "sourceId": 1789955387
     },
     {
       "monsterId": 349,
       "pokemon": "Feebas",
       "region": "Hoenn",
       "location": "Route 130",
-      "secondsAgo": 18129,
-      "sourceId": 1789940613
+      "secondsAgo": 18439,
+      "sourceId": 1789940612
     },
     {
       "monsterId": 445,
       "pokemon": "Garchomp",
       "region": "Sinnoh",
       "location": "Victory Road",
-      "secondsAgo": 7081,
-      "sourceId": 1789951661
+      "secondsAgo": 7391,
+      "sourceId": 1789951660
     },
     {
       "monsterId": 376,
       "pokemon": "Metagross",
       "region": "Unova",
       "location": "Giant Chasm",
-      "secondsAgo": 1918,
-      "sourceId": 1789956824
+      "secondsAgo": 2228,
+      "sourceId": 1789956823
     }
   ],
   "alpha": {
