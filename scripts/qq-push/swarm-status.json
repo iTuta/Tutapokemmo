@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-21T11:05:39.616Z",
+  "fetchedAt": "2026-09-21T11:10:47.294Z",
   "swarms": [
+    {
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Sinnoh",
+      "location": "Valor Lakefront",
+      "sourceId": 1789990501,
+      "despawnTimestamp": 1789990501,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-21T11:35:01.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
@@ -19,7 +30,7 @@
       "pokemon": "Relicanth",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 24445,
+      "secondsAgo": 24753,
       "sourceId": 1789964294
     },
     {
@@ -27,7 +38,7 @@
       "pokemon": "Miltank",
       "region": "Johto",
       "location": "Route 39",
-      "secondsAgo": 6286,
+      "secondsAgo": 6594,
       "sourceId": 1789982453
     },
     {
@@ -35,16 +46,8 @@
       "pokemon": "Zorua",
       "region": "Hoenn",
       "location": "Route 101",
-      "secondsAgo": 7818,
-      "sourceId": 1789980921
-    },
-    {
-      "monsterId": 162,
-      "pokemon": "Furret",
-      "region": "Sinnoh",
-      "location": "Route 208",
-      "secondsAgo": 3688,
-      "sourceId": 1789985051
+      "secondsAgo": 8125,
+      "sourceId": 1789980922
     }
   ],
   "alpha": {
