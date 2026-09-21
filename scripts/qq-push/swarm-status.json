@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-09-21T16:01:08.491Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-21T16:05:52.361Z",
+  "swarms": [
     {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
+      "monsterId": 317,
+      "pokemon": "Swalot",
       "region": "Kanto",
-      "location": "Route 7",
-      "secondsAgo": 13411,
-      "sourceId": 1789993057
-    },
+      "location": "Route 18",
+      "sourceId": 1790008070,
+      "despawnTimestamp": 1790008070,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-21T16:27:50.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 155,
       "pokemon": "Cyndaquil",
       "region": "Johto",
       "location": "Route 33",
-      "secondsAgo": 13604,
+      "secondsAgo": 13888,
       "sourceId": 1789992864
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Treecko",
       "region": "Hoenn",
       "location": "Petalburg Woods",
-      "secondsAgo": 2841,
+      "secondsAgo": 3125,
       "sourceId": 1790003627
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Trapinch",
       "region": "Sinnoh",
       "location": "Oreburgh Mine",
-      "secondsAgo": 1579,
+      "secondsAgo": 1863,
       "sourceId": 1790004889
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Kangaskhan",
       "region": "Unova",
       "location": "Wellspring Cave",
-      "secondsAgo": 8045,
+      "secondsAgo": 8329,
       "sourceId": 1789998423
     }
   ],
