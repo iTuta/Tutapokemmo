@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-21T00:35:38.489Z",
+  "fetchedAt": "2026-09-21T00:40:42.951Z",
   "swarms": [
     {
       "monsterId": 139,
@@ -18,9 +18,20 @@
       "region": "Sinnoh",
       "location": "Route 224",
       "sourceId": 1789951556,
-      "despawnTimestamp": 1789951556,
+      "despawnTimestamp": 1789951555,
       "hasValuable": false,
       "timestampUtc": "2026-09-21T00:45:56.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Unova",
+      "location": "Dreamyard",
+      "sourceId": 1789952463,
+      "despawnTimestamp": 1789952462,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-21T01:01:03.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,24 +41,16 @@
       "pokemon": "Quilava",
       "region": "Johto",
       "location": "Route 42",
-      "secondsAgo": 4812,
-      "sourceId": 1789946126
+      "secondsAgo": 5117,
+      "sourceId": 1789946125
     },
     {
       "monsterId": 349,
       "pokemon": "Feebas",
       "region": "Hoenn",
       "location": "Route 130",
-      "secondsAgo": 10326,
+      "secondsAgo": 10630,
       "sourceId": 1789940612
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Unova",
-      "location": "Lostlorn Forest",
-      "secondsAgo": 6272,
-      "sourceId": 1789944666
     }
   ],
   "alpha": {
