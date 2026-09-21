@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-09-21T22:15:57.794Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-21T22:20:40.791Z",
+  "swarms": [
+    {
+      "monsterId": 252,
+      "pokemon": "Treecko",
+      "region": "Hoenn",
+      "location": "Petalburg Woods",
+      "sourceId": 1790030569,
+      "despawnTimestamp": 1790030568,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-21T22:42:49.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Johto",
       "location": "Route 43",
-      "secondsAgo": 12748,
+      "secondsAgo": 13031,
       "sourceId": 1790016209
-    },
-    {
-      "monsterId": 453,
-      "pokemon": "Croagunk",
-      "region": "Hoenn",
-      "location": "Route 121",
-      "secondsAgo": 3246,
-      "sourceId": 1790025711
     },
     {
       "monsterId": 113,
       "pokemon": "Chansey",
       "region": "Sinnoh",
       "location": "Trophy Garden",
-      "secondsAgo": 6343,
+      "secondsAgo": 6626,
       "sourceId": 1790022614
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Carnivine",
       "region": "Unova",
       "location": "Route 18",
-      "secondsAgo": 2149,
+      "secondsAgo": 2432,
       "sourceId": 1790026808
     }
   ],
