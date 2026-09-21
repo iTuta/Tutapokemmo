@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-21T15:35:38.185Z",
+  "fetchedAt": "2026-09-21T15:41:03.199Z",
   "swarms": [
-    {
-      "monsterId": 252,
-      "pokemon": "Treecko",
-      "region": "Hoenn",
-      "location": "Petalburg Woods",
-      "sourceId": 1790005126,
-      "despawnTimestamp": 1790005126,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-21T15:38:46.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 328,
       "pokemon": "Trapinch",
@@ -30,7 +19,7 @@
       "pokemon": "Murkrow",
       "region": "Kanto",
       "location": "Route 7",
-      "secondsAgo": 11881,
+      "secondsAgo": 12206,
       "sourceId": 1789993057
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Cyndaquil",
       "region": "Johto",
       "location": "Route 33",
-      "secondsAgo": 12074,
+      "secondsAgo": 12399,
       "sourceId": 1789992864
+    },
+    {
+      "monsterId": 252,
+      "pokemon": "Treecko",
+      "region": "Hoenn",
+      "location": "Petalburg Woods",
+      "secondsAgo": 1636,
+      "sourceId": 1790003627
     },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Unova",
       "location": "Wellspring Cave",
-      "secondsAgo": 6515,
+      "secondsAgo": 6840,
       "sourceId": 1789998423
     }
   ],
