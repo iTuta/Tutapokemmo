@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-21T20:25:48.511Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-21T20:30:49.510Z",
+  "swarms": [
+    {
+      "monsterId": 113,
+      "pokemon": "Chansey",
+      "region": "Sinnoh",
+      "location": "Trophy Garden",
+      "sourceId": 1790024113,
+      "despawnTimestamp": 1790024113,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-21T20:55:13.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Kanto",
       "location": "Cerulean Cave",
-      "secondsAgo": 10989,
+      "secondsAgo": 11290,
       "sourceId": 1790011359
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Kirlia",
       "region": "Johto",
       "location": "Route 43",
-      "secondsAgo": 6139,
+      "secondsAgo": 6440,
       "sourceId": 1790016209
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Volcarona",
       "region": "Hoenn",
       "location": "Scorched Slab",
-      "secondsAgo": 7140,
+      "secondsAgo": 7441,
       "sourceId": 1790015208
-    },
-    {
-      "monsterId": 214,
-      "pokemon": "Heracross",
-      "region": "Sinnoh",
-      "location": "Route 206",
-      "secondsAgo": 8527,
-      "sourceId": 1790013821
     },
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Unova",
       "location": "Route 12",
-      "secondsAgo": 3772,
+      "secondsAgo": 4073,
       "sourceId": 1790018576
     }
   ],
