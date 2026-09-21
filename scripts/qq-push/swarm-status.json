@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-21T23:40:41.918Z",
+  "fetchedAt": "2026-09-21T23:45:42.560Z",
   "swarms": [
     {
       "monsterId": 155,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-21T23:57:17.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 257,
+      "pokemon": "Blaziken",
+      "region": "Hoenn",
+      "location": "Magma Hideout",
+      "sourceId": 1790035597,
+      "despawnTimestamp": 1790035597,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-22T00:06:37.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,23 +30,15 @@
       "pokemon": "Snorlax",
       "region": "Kanto",
       "location": "Cerulean Cave",
-      "secondsAgo": 22682,
+      "secondsAgo": 22983,
       "sourceId": 1790011359
-    },
-    {
-      "monsterId": 252,
-      "pokemon": "Treecko",
-      "region": "Hoenn",
-      "location": "Petalburg Woods",
-      "secondsAgo": 4972,
-      "sourceId": 1790029069
     },
     {
       "monsterId": 113,
       "pokemon": "Chansey",
       "region": "Sinnoh",
       "location": "Trophy Garden",
-      "secondsAgo": 11427,
+      "secondsAgo": 11728,
       "sourceId": 1790022614
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Carnivine",
       "region": "Unova",
       "location": "Route 18",
-      "secondsAgo": 7233,
+      "secondsAgo": 7534,
       "sourceId": 1790026808
     }
   ],
