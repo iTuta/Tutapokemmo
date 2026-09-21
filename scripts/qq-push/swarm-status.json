@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-09-21T13:10:41.519Z",
+  "fetchedAt": "2026-09-21T13:15:59.512Z",
   "swarms": [
-    {
-      "monsterId": 349,
-      "pokemon": "Feebas",
-      "region": "Hoenn",
-      "location": "Route 130",
-      "sourceId": 1789996328,
-      "despawnTimestamp": 1789996328,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-21T13:12:08.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 332,
       "pokemon": "Cacturne",
       "region": "Sinnoh",
       "location": "Route 228",
       "sourceId": 1789997597,
-      "despawnTimestamp": 1789997596,
+      "despawnTimestamp": 1789997597,
       "hasValuable": false,
       "timestampUtc": "2026-09-21T13:33:17.000Z",
       "publishedBy": ""
@@ -30,7 +19,7 @@
       "pokemon": "Murkrow",
       "region": "Kanto",
       "location": "Route 7",
-      "secondsAgo": 3184,
+      "secondsAgo": 3502,
       "sourceId": 1789993057
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Cyndaquil",
       "region": "Johto",
       "location": "Route 33",
-      "secondsAgo": 3378,
-      "sourceId": 1789992863
+      "secondsAgo": 3695,
+      "sourceId": 1789992864
+    },
+    {
+      "monsterId": 349,
+      "pokemon": "Feebas",
+      "region": "Hoenn",
+      "location": "Route 130",
+      "secondsAgo": 1730,
+      "sourceId": 1789994829
     },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 7951,
+      "secondsAgo": 8269,
       "sourceId": 1789988290
     }
   ],
