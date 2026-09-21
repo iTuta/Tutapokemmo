@@ -1,41 +1,29 @@
 {
-  "fetchedAt": "2026-09-21T09:15:45.253Z",
-  "swarms": [
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Hoenn",
-      "location": "Route 101",
-      "sourceId": 1789982421,
-      "despawnTimestamp": 1789982421,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-21T09:20:21.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-21T09:20:45.138Z",
+  "swarms": [],
   "lastSeen": [
-    {
-      "monsterId": 369,
-      "pokemon": "Relicanth",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 17851,
-      "sourceId": 1789964294
-    },
     {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 10457,
+      "secondsAgo": 10757,
       "sourceId": 1789971688
+    },
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Hoenn",
+      "location": "Route 101",
+      "secondsAgo": 1523,
+      "sourceId": 1789980922
     },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Sinnoh",
       "location": "Wayward Cave",
-      "secondsAgo": 1146,
+      "secondsAgo": 1446,
       "sourceId": 1789980999
     },
     {
@@ -43,20 +31,20 @@
       "pokemon": "Metagross",
       "region": "Unova",
       "location": "Giant Chasm",
-      "secondsAgo": 25321,
+      "secondsAgo": 25621,
       "sourceId": 1789956824
     }
   ],
   "alpha": {
-    "monsterId": 445,
-    "pokemon": "Garchomp",
-    "region": "Sinnoh",
-    "location": "Route 216",
-    "sourceId": 1789939233,
-    "despawnTimestamp": 1789956333,
+    "monsterId": 132,
+    "pokemon": "Ditto",
+    "region": "Kanto",
+    "location": "Pokemon Mansion",
+    "sourceId": 1789969568,
+    "despawnTimestamp": 1789986668,
     "hasValuable": false,
-    "timestampUtc": "2026-09-20T21:20:33.000Z",
-    "timestampRaw": "2026-09-20T21:20:33.000Z",
-    "publishedBy": "Yorman  Arboleda"
+    "timestampUtc": "2026-09-21T05:46:08.000Z",
+    "timestampRaw": "2026-09-21T05:46:08.000Z",
+    "publishedBy": ""
   }
 }
