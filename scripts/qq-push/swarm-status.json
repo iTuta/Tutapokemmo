@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-21T11:20:52.138Z",
+  "fetchedAt": "2026-09-21T11:25:44.844Z",
   "swarms": [
     {
       "monsterId": 128,
@@ -7,20 +7,9 @@
       "region": "Sinnoh",
       "location": "Valor Lakefront",
       "sourceId": 1789990501,
-      "despawnTimestamp": 1789990501,
+      "despawnTimestamp": 1789990500,
       "hasValuable": false,
       "timestampUtc": "2026-09-21T11:35:01.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Unova",
-      "location": "Guidance Chamber",
-      "sourceId": 1789989789,
-      "despawnTimestamp": 1789989789,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-21T11:23:09.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,24 +19,32 @@
       "pokemon": "Relicanth",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 25358,
-      "sourceId": 1789964294
+      "secondsAgo": 25651,
+      "sourceId": 1789964293
     },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Johto",
       "location": "Route 39",
-      "secondsAgo": 7199,
-      "sourceId": 1789982453
+      "secondsAgo": 7492,
+      "sourceId": 1789982452
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Hoenn",
       "location": "Route 101",
-      "secondsAgo": 8730,
-      "sourceId": 1789980922
+      "secondsAgo": 9023,
+      "sourceId": 1789980921
+    },
+    {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Unova",
+      "location": "Guidance Chamber",
+      "secondsAgo": 1654,
+      "sourceId": 1789988290
     }
   ],
   "alpha": {
