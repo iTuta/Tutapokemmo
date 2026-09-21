@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-21T12:45:42.686Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-21T12:50:54.938Z",
+  "swarms": [
+    {
+      "monsterId": 349,
+      "pokemon": "Feebas",
+      "region": "Hoenn",
+      "location": "Route 130",
+      "sourceId": 1789996328,
+      "despawnTimestamp": 1789996328,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-21T13:12:08.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Kanto",
       "location": "Route 7",
-      "secondsAgo": 1686,
+      "secondsAgo": 1998,
       "sourceId": 1789993056
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Cyndaquil",
       "region": "Johto",
       "location": "Route 33",
-      "secondsAgo": 1879,
+      "secondsAgo": 2191,
       "sourceId": 1789992863
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Hoenn",
-      "location": "Route 101",
-      "secondsAgo": 13821,
-      "sourceId": 1789980921
     },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 5741,
+      "secondsAgo": 6053,
       "sourceId": 1789989001
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 6452,
-      "sourceId": 1789988290
+      "secondsAgo": 6765,
+      "sourceId": 1789988289
     }
   ],
   "alpha": {
