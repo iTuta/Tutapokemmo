@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-21T16:26:02.710Z",
+  "fetchedAt": "2026-09-21T16:30:56.848Z",
   "swarms": [
-    {
-      "monsterId": 317,
-      "pokemon": "Swalot",
-      "region": "Kanto",
-      "location": "Route 18",
-      "sourceId": 1790008070,
-      "despawnTimestamp": 1790008070,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-21T16:27:50.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 317,
+      "pokemon": "Swalot",
+      "region": "Kanto",
+      "location": "Route 18",
+      "secondsAgo": 1685,
+      "sourceId": 1790006571
+    },
+    {
       "monsterId": 252,
       "pokemon": "Treecko",
       "region": "Hoenn",
       "location": "Petalburg Woods",
-      "secondsAgo": 4335,
+      "secondsAgo": 4629,
       "sourceId": 1790003627
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Trapinch",
       "region": "Sinnoh",
       "location": "Oreburgh Mine",
-      "secondsAgo": 3074,
+      "secondsAgo": 3368,
       "sourceId": 1790004888
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Kangaskhan",
       "region": "Unova",
       "location": "Wellspring Cave",
-      "secondsAgo": 9539,
+      "secondsAgo": 9833,
       "sourceId": 1789998423
     }
   ],
