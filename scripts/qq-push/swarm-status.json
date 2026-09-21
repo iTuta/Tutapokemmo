@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-21T15:30:54.030Z",
+  "fetchedAt": "2026-09-21T15:35:38.185Z",
   "swarms": [
     {
       "monsterId": 252,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-21T15:38:46.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 328,
+      "pokemon": "Trapinch",
+      "region": "Sinnoh",
+      "location": "Oreburgh Mine",
+      "sourceId": 1790006388,
+      "despawnTimestamp": 1790006388,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-21T15:59:48.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,31 +30,23 @@
       "pokemon": "Murkrow",
       "region": "Kanto",
       "location": "Route 7",
-      "secondsAgo": 11597,
-      "sourceId": 1789993056
+      "secondsAgo": 11881,
+      "sourceId": 1789993057
     },
     {
       "monsterId": 155,
       "pokemon": "Cyndaquil",
       "region": "Johto",
       "location": "Route 33",
-      "secondsAgo": 11790,
-      "sourceId": 1789992863
-    },
-    {
-      "monsterId": 332,
-      "pokemon": "Cacturne",
-      "region": "Sinnoh",
-      "location": "Route 228",
-      "secondsAgo": 8556,
-      "sourceId": 1789996097
+      "secondsAgo": 12074,
+      "sourceId": 1789992864
     },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Unova",
       "location": "Wellspring Cave",
-      "secondsAgo": 6230,
+      "secondsAgo": 6515,
       "sourceId": 1789998423
     }
   ],
