@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-09-21T00:31:04.012Z",
+  "fetchedAt": "2026-09-21T00:35:38.489Z",
   "swarms": [
+    {
+      "monsterId": 139,
+      "pokemon": "Omastar",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "sourceId": 1789952395,
+      "despawnTimestamp": 1789952394,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-21T00:59:55.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 122,
       "pokemon": "Mr. Mime",
       "region": "Sinnoh",
       "location": "Route 224",
       "sourceId": 1789951556,
-      "despawnTimestamp": 1789951555,
+      "despawnTimestamp": 1789951556,
       "hasValuable": false,
       "timestampUtc": "2026-09-21T00:45:56.000Z",
       "publishedBy": ""
@@ -15,27 +26,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 5,
-      "pokemon": "Charmeleon",
-      "region": "Kanto",
-      "location": "Rock Tunnel",
-      "secondsAgo": 4106,
-      "sourceId": 1789946557
-    },
-    {
       "monsterId": 156,
       "pokemon": "Quilava",
       "region": "Johto",
       "location": "Route 42",
-      "secondsAgo": 4538,
-      "sourceId": 1789946125
+      "secondsAgo": 4812,
+      "sourceId": 1789946126
     },
     {
       "monsterId": 349,
       "pokemon": "Feebas",
       "region": "Hoenn",
       "location": "Route 130",
-      "secondsAgo": 10051,
+      "secondsAgo": 10326,
       "sourceId": 1789940612
     },
     {
@@ -43,8 +46,8 @@
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 5998,
-      "sourceId": 1789944665
+      "secondsAgo": 6272,
+      "sourceId": 1789944666
     }
   ],
   "alpha": {
