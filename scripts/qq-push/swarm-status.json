@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-09-21T17:20:49.000Z",
+  "fetchedAt": "2026-09-21T17:25:43.374Z",
   "swarms": [
+    {
+      "monsterId": 143,
+      "pokemon": "Snorlax",
+      "region": "Kanto",
+      "location": "Cerulean Cave",
+      "sourceId": 1790012859,
+      "despawnTimestamp": 1790012859,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-21T17:47:39.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 148,
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
       "sourceId": 1790012015,
-      "despawnTimestamp": 1790012014,
+      "despawnTimestamp": 1790012015,
       "hasValuable": false,
       "timestampUtc": "2026-09-21T17:33:35.000Z",
       "publishedBy": ""
@@ -15,27 +26,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 317,
-      "pokemon": "Swalot",
-      "region": "Kanto",
-      "location": "Route 18",
-      "secondsAgo": 4678,
-      "sourceId": 1790006570
-    },
-    {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 4387,
-      "sourceId": 1790006861
+      "secondsAgo": 4681,
+      "sourceId": 1790006862
     },
     {
       "monsterId": 252,
       "pokemon": "Treecko",
       "region": "Hoenn",
       "location": "Petalburg Woods",
-      "secondsAgo": 7621,
+      "secondsAgo": 7916,
       "sourceId": 1790003627
     },
     {
@@ -43,8 +46,8 @@
       "pokemon": "Trapinch",
       "region": "Sinnoh",
       "location": "Oreburgh Mine",
-      "secondsAgo": 6360,
-      "sourceId": 1790004888
+      "secondsAgo": 6654,
+      "sourceId": 1790004889
     }
   ],
   "alpha": {
