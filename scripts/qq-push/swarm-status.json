@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-09-21T13:45:45.736Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-21T13:50:51.620Z",
+  "swarms": [
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Unova",
+      "location": "Wellspring Cave",
+      "sourceId": 1789999922,
+      "despawnTimestamp": 1789999922,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-21T14:12:02.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Kanto",
       "location": "Route 7",
-      "secondsAgo": 5289,
-      "sourceId": 1789993056
+      "secondsAgo": 5594,
+      "sourceId": 1789993057
     },
     {
       "monsterId": 349,
       "pokemon": "Feebas",
       "region": "Hoenn",
       "location": "Route 130",
-      "secondsAgo": 3516,
+      "secondsAgo": 3822,
       "sourceId": 1789994829
     },
     {
@@ -23,16 +35,8 @@
       "pokemon": "Cacturne",
       "region": "Sinnoh",
       "location": "Route 228",
-      "secondsAgo": 2248,
+      "secondsAgo": 2554,
       "sourceId": 1789996097
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Unova",
-      "location": "Guidance Chamber",
-      "secondsAgo": 10055,
-      "sourceId": 1789988290
     }
   ],
   "alpha": {
