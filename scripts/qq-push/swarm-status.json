@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-21T12:35:52.423Z",
+  "fetchedAt": "2026-09-21T12:40:44.707Z",
   "swarms": [
     {
       "monsterId": 198,
@@ -7,46 +7,43 @@
       "region": "Kanto",
       "location": "Route 7",
       "sourceId": 1789994556,
-      "despawnTimestamp": 1789994556,
+      "despawnTimestamp": 1789994555,
       "hasValuable": false,
       "timestampUtc": "2026-09-21T12:42:36.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 155,
-      "pokemon": "Cyndaquil",
-      "region": "Johto",
-      "location": "Route 33",
-      "sourceId": 1789994363,
-      "despawnTimestamp": 1789994363,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-21T12:39:23.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
+      "monsterId": 155,
+      "pokemon": "Cyndaquil",
+      "region": "Johto",
+      "location": "Route 33",
+      "secondsAgo": 1581,
+      "sourceId": 1789992863
+    },
+    {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Hoenn",
       "location": "Route 101",
-      "secondsAgo": 13230,
-      "sourceId": 1789980922
+      "secondsAgo": 13523,
+      "sourceId": 1789980921
     },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 5150,
-      "sourceId": 1789989002
+      "secondsAgo": 5443,
+      "sourceId": 1789989001
     },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 5862,
+      "secondsAgo": 6154,
       "sourceId": 1789988290
     }
   ],
