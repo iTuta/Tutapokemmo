@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-09-21T19:20:43.541Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-21T19:25:53.144Z",
+  "swarms": [
+    {
+      "monsterId": 127,
+      "pokemon": "Pinsir",
+      "region": "Unova",
+      "location": "Route 12",
+      "sourceId": 1790020076,
+      "despawnTimestamp": 1790020076,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-21T19:47:56.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Kanto",
       "location": "Cerulean Cave",
-      "secondsAgo": 7084,
-      "sourceId": 1790011359
+      "secondsAgo": 7393,
+      "sourceId": 1790011360
     },
     {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Johto",
       "location": "Route 43",
-      "secondsAgo": 2233,
+      "secondsAgo": 2543,
       "sourceId": 1790016210
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Volcarona",
       "region": "Hoenn",
       "location": "Scorched Slab",
-      "secondsAgo": 3235,
+      "secondsAgo": 3545,
       "sourceId": 1790015208
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Heracross",
       "region": "Sinnoh",
       "location": "Route 206",
-      "secondsAgo": 4622,
+      "secondsAgo": 4932,
       "sourceId": 1790013821
-    },
-    {
-      "monsterId": 148,
-      "pokemon": "Dragonair",
-      "region": "Unova",
-      "location": "Dragonspiral Tower",
-      "secondsAgo": 7928,
-      "sourceId": 1790010515
     }
   ],
   "alpha": {
