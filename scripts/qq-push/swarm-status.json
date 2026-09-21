@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-21T21:40:50.337Z",
+  "fetchedAt": "2026-09-21T21:45:48.574Z",
   "swarms": [
-    {
-      "monsterId": 453,
-      "pokemon": "Croagunk",
-      "region": "Hoenn",
-      "location": "Route 121",
-      "sourceId": 1790026911,
-      "despawnTimestamp": 1790026911,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-21T21:41:51.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
@@ -30,15 +19,23 @@
       "pokemon": "Kirlia",
       "region": "Johto",
       "location": "Route 43",
-      "secondsAgo": 10640,
-      "sourceId": 1790016210
+      "secondsAgo": 10939,
+      "sourceId": 1790016209
+    },
+    {
+      "monsterId": 453,
+      "pokemon": "Croagunk",
+      "region": "Hoenn",
+      "location": "Route 121",
+      "secondsAgo": 1437,
+      "sourceId": 1790025711
     },
     {
       "monsterId": 113,
       "pokemon": "Chansey",
       "region": "Sinnoh",
       "location": "Trophy Garden",
-      "secondsAgo": 4236,
+      "secondsAgo": 4534,
       "sourceId": 1790022614
     }
   ],
