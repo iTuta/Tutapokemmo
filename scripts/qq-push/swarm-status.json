@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-21T04:30:56.592Z",
+  "fetchedAt": "2026-09-21T04:35:55.888Z",
   "swarms": [
     {
       "monsterId": 369,
@@ -7,20 +7,9 @@
       "region": "Kanto",
       "location": "Tanoby Ruins",
       "sourceId": 1789965793,
-      "despawnTimestamp": 1789965793,
+      "despawnTimestamp": 1789965792,
       "hasValuable": false,
       "timestampUtc": "2026-09-21T04:43:13.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 259,
-      "pokemon": "Marshtomp",
-      "region": "Hoenn",
-      "location": "Route 124",
-      "sourceId": 1789965077,
-      "despawnTimestamp": 1789965076,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-21T04:31:17.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,15 +19,23 @@
       "pokemon": "Kirlia",
       "region": "Johto",
       "location": "Route 43",
-      "secondsAgo": 9669,
+      "secondsAgo": 9968,
       "sourceId": 1789955387
+    },
+    {
+      "monsterId": 259,
+      "pokemon": "Marshtomp",
+      "region": "Hoenn",
+      "location": "Route 124",
+      "secondsAgo": 1778,
+      "sourceId": 1789963577
     },
     {
       "monsterId": 445,
       "pokemon": "Garchomp",
       "region": "Sinnoh",
       "location": "Victory Road",
-      "secondsAgo": 13396,
+      "secondsAgo": 13695,
       "sourceId": 1789951660
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Metagross",
       "region": "Unova",
       "location": "Giant Chasm",
-      "secondsAgo": 8232,
-      "sourceId": 1789956824
+      "secondsAgo": 8532,
+      "sourceId": 1789956823
     }
   ],
   "alpha": {
