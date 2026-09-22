@@ -1,36 +1,21 @@
 {
-  "fetchedAt": "2026-09-22T03:35:40.364Z",
-  "swarms": [
+  "fetchedAt": "2026-09-22T03:41:33.658Z",
+  "swarms": [],
+  "lastSeen": [
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Kanto",
       "location": "Route 7",
-      "sourceId": 1790048160,
-      "despawnTimestamp": 1790048160,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-22T03:36:00.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1833,
+      "sourceId": 1790046660
     },
-    {
-      "monsterId": 162,
-      "pokemon": "Furret",
-      "region": "Unova",
-      "location": "Abundant Shrine",
-      "sourceId": 1790048372,
-      "despawnTimestamp": 1790048372,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-22T03:39:32.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
     {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 6696,
+      "secondsAgo": 7049,
       "sourceId": 1790041444
     },
     {
@@ -38,8 +23,16 @@
       "pokemon": "Trapinch",
       "region": "Sinnoh",
       "location": "Oreburgh Mine",
-      "secondsAgo": 4732,
-      "sourceId": 1790043408
+      "secondsAgo": 5086,
+      "sourceId": 1790043407
+    },
+    {
+      "monsterId": 162,
+      "pokemon": "Furret",
+      "region": "Unova",
+      "location": "Abundant Shrine",
+      "secondsAgo": 1621,
+      "sourceId": 1790046872
     }
   ],
   "alpha": {
