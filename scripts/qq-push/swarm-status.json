@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-09-22T15:10:43.982Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-22T15:16:13.140Z",
+  "swarms": [
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Johto",
+      "location": "Union Cave",
+      "sourceId": 1790091418,
+      "despawnTimestamp": 1790091418,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-22T15:36:58.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 6,
       "pokemon": "Charizard",
       "region": "Kanto",
       "location": "Mt. Ember",
-      "secondsAgo": 3366,
+      "secondsAgo": 3696,
       "sourceId": 1790086477
-    },
-    {
-      "monsterId": 190,
-      "pokemon": "Aipom",
-      "region": "Johto",
-      "location": "Route 29",
-      "secondsAgo": 3974,
-      "sourceId": 1790085869
     },
     {
       "monsterId": 107,
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 18707,
-      "sourceId": 1790071136
+      "secondsAgo": 19036,
+      "sourceId": 1790071137
     },
     {
       "monsterId": 426,
       "pokemon": "Drifblim",
       "region": "Sinnoh",
       "location": "Route 222",
-      "secondsAgo": 8682,
+      "secondsAgo": 9012,
       "sourceId": 1790081161
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Corsola",
       "region": "Unova",
       "location": "Undella Bay",
-      "secondsAgo": 4330,
-      "sourceId": 1790085513
+      "secondsAgo": 4659,
+      "sourceId": 1790085514
     }
   ],
   "alpha": {
