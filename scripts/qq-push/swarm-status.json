@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-09-21T23:55:47.904Z",
+  "fetchedAt": "2026-09-22T00:01:04.570Z",
   "swarms": [
-    {
-      "monsterId": 155,
-      "pokemon": "Cyndaquil",
-      "region": "Johto",
-      "location": "Route 33",
-      "sourceId": 1790035037,
-      "despawnTimestamp": 1790035036,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-21T23:57:17.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 257,
       "pokemon": "Blaziken",
       "region": "Hoenn",
       "location": "Magma Hideout",
       "sourceId": 1790035597,
-      "despawnTimestamp": 1790035596,
+      "despawnTimestamp": 1790035597,
       "hasValuable": false,
       "timestampUtc": "2026-09-22T00:06:37.000Z",
       "publishedBy": ""
@@ -41,15 +30,23 @@
       "pokemon": "Snorlax",
       "region": "Kanto",
       "location": "Cerulean Cave",
-      "secondsAgo": 23588,
+      "secondsAgo": 23905,
       "sourceId": 1790011359
+    },
+    {
+      "monsterId": 155,
+      "pokemon": "Cyndaquil",
+      "region": "Johto",
+      "location": "Route 33",
+      "secondsAgo": 1727,
+      "sourceId": 1790033537
     },
     {
       "monsterId": 113,
       "pokemon": "Chansey",
       "region": "Sinnoh",
       "location": "Trophy Garden",
-      "secondsAgo": 12333,
+      "secondsAgo": 12650,
       "sourceId": 1790022614
     }
   ],
