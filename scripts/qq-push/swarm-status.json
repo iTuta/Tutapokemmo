@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-09-22T06:25:43.093Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-22T06:30:57.993Z",
+  "swarms": [
+    {
+      "monsterId": 247,
+      "pokemon": "Pupitar",
+      "region": "Unova",
+      "location": "Twist Mountain",
+      "sourceId": 1790060008,
+      "despawnTimestamp": 1790060007,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-22T06:53:28.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Kanto",
       "location": "Route 7",
-      "secondsAgo": 3406,
-      "sourceId": 1790054937
+      "secondsAgo": 3721,
+      "sourceId": 1790054936
     },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Johto",
       "location": "Route 39",
-      "secondsAgo": 10961,
-      "sourceId": 1790047382
+      "secondsAgo": 11276,
+      "sourceId": 1790047381
     },
     {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 16899,
-      "sourceId": 1790041444
+      "secondsAgo": 17214,
+      "sourceId": 1790041443
     },
     {
       "monsterId": 288,
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 4672,
-      "sourceId": 1790053671
-    },
-    {
-      "monsterId": 162,
-      "pokemon": "Furret",
-      "region": "Unova",
-      "location": "Abundant Shrine",
-      "secondsAgo": 11470,
-      "sourceId": 1790046873
+      "secondsAgo": 4987,
+      "sourceId": 1790053670
     }
   ],
   "alpha": {
