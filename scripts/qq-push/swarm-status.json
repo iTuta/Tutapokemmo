@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-22T04:45:45.301Z",
+  "fetchedAt": "2026-09-22T04:50:46.829Z",
   "swarms": [
     {
       "monsterId": 127,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Route 11",
       "sourceId": 1790053549,
-      "despawnTimestamp": 1790053549,
+      "despawnTimestamp": 1790053548,
       "hasValuable": false,
       "timestampUtc": "2026-09-22T05:05:49.000Z",
       "publishedBy": ""
@@ -15,28 +15,36 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 241,
+      "pokemon": "Miltank",
+      "region": "Johto",
+      "location": "Route 39",
+      "secondsAgo": 5265,
+      "sourceId": 1790047381
+    },
+    {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 10901,
-      "sourceId": 1790041444
+      "secondsAgo": 11203,
+      "sourceId": 1790041443
     },
     {
       "monsterId": 328,
       "pokemon": "Trapinch",
       "region": "Sinnoh",
       "location": "Oreburgh Mine",
-      "secondsAgo": 8937,
-      "sourceId": 1790043408
+      "secondsAgo": 9239,
+      "sourceId": 1790043407
     },
     {
       "monsterId": 162,
       "pokemon": "Furret",
       "region": "Unova",
       "location": "Abundant Shrine",
-      "secondsAgo": 5472,
-      "sourceId": 1790046873
+      "secondsAgo": 5774,
+      "sourceId": 1790046872
     }
   ],
   "alpha": {
@@ -49,6 +57,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-09-22T00:04:48.000Z",
     "timestampRaw": "2026-09-22T00:04:48.000Z",
-    "publishedBy": ""
+    "publishedBy": "GazDim"
   }
 }
