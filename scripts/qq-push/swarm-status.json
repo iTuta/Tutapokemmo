@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-09-22T17:20:42.581Z",
+  "fetchedAt": "2026-09-22T17:25:41.346Z",
   "swarms": [
-    {
-      "monsterId": 102,
-      "pokemon": "Exeggcute",
-      "region": "Johto",
-      "location": "Route 30",
-      "sourceId": 1790097874,
-      "despawnTimestamp": 1790097874,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-22T17:24:34.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 479,
-      "pokemon": "Rotom",
-      "region": "Hoenn",
-      "location": "New Mauville",
-      "sourceId": 1790097799,
-      "despawnTimestamp": 1790097799,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-22T17:23:19.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
@@ -41,16 +19,32 @@
       "pokemon": "Tyranitar",
       "region": "Kanto",
       "location": "Canyon Entrance",
-      "secondsAgo": 7421,
+      "secondsAgo": 7720,
       "sourceId": 1790090221
+    },
+    {
+      "monsterId": 102,
+      "pokemon": "Exeggcute",
+      "region": "Johto",
+      "location": "Route 30",
+      "secondsAgo": 1566,
+      "sourceId": 1790096375
+    },
+    {
+      "monsterId": 479,
+      "pokemon": "Rotom",
+      "region": "Hoenn",
+      "location": "New Mauville",
+      "secondsAgo": 1641,
+      "sourceId": 1790096300
     },
     {
       "monsterId": 438,
       "pokemon": "Bonsly",
       "region": "Sinnoh",
       "location": "Eterna Forest",
-      "secondsAgo": 6926,
-      "sourceId": 1790090716
+      "secondsAgo": 7224,
+      "sourceId": 1790090717
     }
   ],
   "alpha": {
