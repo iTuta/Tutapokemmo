@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-22T18:15:48.865Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-22T18:20:53.802Z",
+  "swarms": [
+    {
+      "monsterId": 455,
+      "pokemon": "Carnivine",
+      "region": "Sinnoh",
+      "location": "Route 225",
+      "sourceId": 1790102585,
+      "despawnTimestamp": 1790102585,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-22T18:43:05.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 248,
       "pokemon": "Tyranitar",
       "region": "Kanto",
       "location": "Canyon Entrance",
-      "secondsAgo": 10727,
+      "secondsAgo": 11032,
       "sourceId": 1790090221
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Exeggcute",
       "region": "Johto",
       "location": "Route 30",
-      "secondsAgo": 4574,
+      "secondsAgo": 4879,
       "sourceId": 1790096374
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Rotom",
       "region": "Hoenn",
       "location": "New Mauville",
-      "secondsAgo": 4649,
+      "secondsAgo": 4954,
       "sourceId": 1790096299
-    },
-    {
-      "monsterId": 438,
-      "pokemon": "Bonsly",
-      "region": "Sinnoh",
-      "location": "Eterna Forest",
-      "secondsAgo": 10232,
-      "sourceId": 1790090716
     },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 4048,
+      "secondsAgo": 4353,
       "sourceId": 1790096900
     }
   ],
