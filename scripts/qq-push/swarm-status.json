@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-09-22T03:06:31.594Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-22T03:11:01.882Z",
+  "swarms": [
     {
-      "monsterId": 409,
-      "pokemon": "Rampardos",
+      "monsterId": 198,
+      "pokemon": "Murkrow",
       "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 7067,
-      "sourceId": 1790039324
-    },
+      "location": "Route 7",
+      "sourceId": 1790048160,
+      "despawnTimestamp": 1790048159,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-22T03:36:00.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 155,
       "pokemon": "Cyndaquil",
       "region": "Johto",
       "location": "Route 33",
-      "secondsAgo": 12854,
+      "secondsAgo": 13124,
       "sourceId": 1790033537
     },
     {
@@ -23,15 +27,15 @@
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 4947,
-      "sourceId": 1790041444
+      "secondsAgo": 5218,
+      "sourceId": 1790041443
     },
     {
       "monsterId": 328,
       "pokemon": "Trapinch",
       "region": "Sinnoh",
       "location": "Oreburgh Mine",
-      "secondsAgo": 2984,
+      "secondsAgo": 3254,
       "sourceId": 1790043407
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Corsola",
       "region": "Unova",
       "location": "Undella Bay",
-      "secondsAgo": 11511,
+      "secondsAgo": 11781,
       "sourceId": 1790034880
     }
   ],
