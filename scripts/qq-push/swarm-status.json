@@ -1,50 +1,56 @@
 {
-  "fetchedAt": "2026-09-22T15:16:13.140Z",
+  "fetchedAt": "2026-09-22T15:20:43.813Z",
   "swarms": [
+    {
+      "monsterId": 248,
+      "pokemon": "Tyranitar",
+      "region": "Kanto",
+      "location": "Canyon Entrance",
+      "sourceId": 1790091721,
+      "despawnTimestamp": 1790091720,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-22T15:42:01.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Johto",
       "location": "Union Cave",
       "sourceId": 1790091418,
-      "despawnTimestamp": 1790091418,
+      "despawnTimestamp": 1790091417,
       "hasValuable": false,
       "timestampUtc": "2026-09-22T15:36:58.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 457,
+      "pokemon": "Lumineon",
+      "region": "Unova",
+      "location": "Route 17",
+      "sourceId": 1790091467,
+      "despawnTimestamp": 1790091466,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-22T15:37:47.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 6,
-      "pokemon": "Charizard",
-      "region": "Kanto",
-      "location": "Mt. Ember",
-      "secondsAgo": 3696,
-      "sourceId": 1790086477
-    },
-    {
       "monsterId": 107,
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 19036,
-      "sourceId": 1790071137
+      "secondsAgo": 19307,
+      "sourceId": 1790071136
     },
     {
       "monsterId": 426,
       "pokemon": "Drifblim",
       "region": "Sinnoh",
       "location": "Route 222",
-      "secondsAgo": 9012,
+      "secondsAgo": 9282,
       "sourceId": 1790081161
-    },
-    {
-      "monsterId": 222,
-      "pokemon": "Corsola",
-      "region": "Unova",
-      "location": "Undella Bay",
-      "secondsAgo": 4659,
-      "sourceId": 1790085514
     }
   ],
   "alpha": {
