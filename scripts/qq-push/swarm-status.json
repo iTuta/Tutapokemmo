@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-09-22T14:10:48.106Z",
+  "fetchedAt": "2026-09-22T14:16:22.883Z",
   "swarms": [
+    {
+      "monsterId": 6,
+      "pokemon": "Charizard",
+      "region": "Kanto",
+      "location": "Mt. Ember",
+      "sourceId": 1790087976,
+      "despawnTimestamp": 1790087976,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-22T14:39:36.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Johto",
       "location": "Route 29",
       "sourceId": 1790087369,
-      "despawnTimestamp": 1790087369,
+      "despawnTimestamp": 1790087368,
       "hasValuable": false,
       "timestampUtc": "2026-09-22T14:29:29.000Z",
       "publishedBy": ""
@@ -26,27 +37,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 335,
-      "pokemon": "Zangoose",
-      "region": "Kanto",
-      "location": "Route 14",
-      "secondsAgo": 10862,
-      "sourceId": 1790075386
-    },
-    {
       "monsterId": 107,
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 15111,
-      "sourceId": 1790071137
+      "secondsAgo": 15446,
+      "sourceId": 1790071136
     },
     {
       "monsterId": 426,
       "pokemon": "Drifblim",
       "region": "Sinnoh",
       "location": "Route 222",
-      "secondsAgo": 5087,
+      "secondsAgo": 5421,
       "sourceId": 1790081161
     }
   ],
