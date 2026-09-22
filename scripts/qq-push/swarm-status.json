@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-22T23:05:42.639Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-22T23:10:45.885Z",
+  "swarms": [
+    {
+      "monsterId": 190,
+      "pokemon": "Aipom",
+      "region": "Unova",
+      "location": "Cold Storage",
+      "sourceId": 1790119886,
+      "despawnTimestamp": 1790119885,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-22T23:31:26.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Kanto",
       "location": "Route 25",
-      "secondsAgo": 15526,
+      "secondsAgo": 15829,
       "sourceId": 1790102816
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Pineco",
       "region": "Johto",
       "location": "Route 36",
-      "secondsAgo": 12119,
+      "secondsAgo": 12422,
       "sourceId": 1790106223
     },
     {
@@ -23,16 +35,8 @@
       "pokemon": "Pineco",
       "region": "Hoenn",
       "location": "Route 103",
-      "secondsAgo": 8670,
-      "sourceId": 1790109672
-    },
-    {
-      "monsterId": 317,
-      "pokemon": "Swalot",
-      "region": "Unova",
-      "location": "Route 9",
-      "secondsAgo": 4789,
-      "sourceId": 1790113553
+      "secondsAgo": 8974,
+      "sourceId": 1790109671
     }
   ],
   "alpha": {
