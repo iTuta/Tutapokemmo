@@ -1,33 +1,13 @@
 {
-  "fetchedAt": "2026-09-22T06:50:42.915Z",
-  "swarms": [
-    {
-      "monsterId": 247,
-      "pokemon": "Pupitar",
-      "region": "Unova",
-      "location": "Twist Mountain",
-      "sourceId": 1790060008,
-      "despawnTimestamp": 1790060007,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-22T06:53:28.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-22T06:55:50.935Z",
+  "swarms": [],
   "lastSeen": [
-    {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
-      "region": "Kanto",
-      "location": "Route 7",
-      "secondsAgo": 4906,
-      "sourceId": 1790054936
-    },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Johto",
       "location": "Route 39",
-      "secondsAgo": 12461,
+      "secondsAgo": 12769,
       "sourceId": 1790047381
     },
     {
@@ -35,7 +15,7 @@
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 18399,
+      "secondsAgo": 18707,
       "sourceId": 1790041443
     },
     {
@@ -43,20 +23,28 @@
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 6172,
+      "secondsAgo": 6480,
       "sourceId": 1790053670
+    },
+    {
+      "monsterId": 247,
+      "pokemon": "Pupitar",
+      "region": "Unova",
+      "location": "Twist Mountain",
+      "secondsAgo": 1522,
+      "sourceId": 1790058628
     }
   ],
   "alpha": {
-    "monsterId": 132,
-    "pokemon": "Ditto",
-    "region": "Johto",
-    "location": "Route 34",
-    "sourceId": 1790035488,
-    "despawnTimestamp": 1790052588,
+    "monsterId": 127,
+    "pokemon": "Pinsir",
+    "region": "Kanto",
+    "location": "Pattern Bush",
+    "sourceId": 1790047271,
+    "despawnTimestamp": 1790064371,
     "hasValuable": false,
-    "timestampUtc": "2026-09-22T00:04:48.000Z",
-    "timestampRaw": "2026-09-22T00:04:48.000Z",
-    "publishedBy": "GazDim"
+    "timestampUtc": "2026-09-22T03:21:11.000Z",
+    "timestampRaw": "2026-09-22T03:21:11.000Z",
+    "publishedBy": ""
   }
 }
