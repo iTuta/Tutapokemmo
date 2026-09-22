@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-09-22T13:56:04.751Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-22T14:01:30.917Z",
+  "swarms": [
+    {
+      "monsterId": 222,
+      "pokemon": "Corsola",
+      "region": "Unova",
+      "location": "Undella Bay",
+      "sourceId": 1790087013,
+      "despawnTimestamp": 1790087013,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-22T14:23:33.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 9978,
-      "sourceId": 1790075386
+      "secondsAgo": 10305,
+      "sourceId": 1790075385
     },
     {
       "monsterId": 339,
       "pokemon": "Barboach",
       "region": "Johto",
       "location": "Slowpoke Well",
-      "secondsAgo": 7530,
+      "secondsAgo": 7856,
       "sourceId": 1790077834
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 14227,
-      "sourceId": 1790071137
+      "secondsAgo": 14554,
+      "sourceId": 1790071136
     },
     {
       "monsterId": 426,
       "pokemon": "Drifblim",
       "region": "Sinnoh",
       "location": "Route 222",
-      "secondsAgo": 4203,
+      "secondsAgo": 4529,
       "sourceId": 1790081161
-    },
-    {
-      "monsterId": 162,
-      "pokemon": "Furret",
-      "region": "Unova",
-      "location": "Abundant Shrine",
-      "secondsAgo": 5521,
-      "sourceId": 1790079843
     }
   ],
   "alpha": {
