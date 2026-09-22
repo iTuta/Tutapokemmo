@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-09-22T11:40:44.636Z",
+  "fetchedAt": "2026-09-22T11:45:50.185Z",
   "swarms": [
+    {
+      "monsterId": 339,
+      "pokemon": "Barboach",
+      "region": "Johto",
+      "location": "Slowpoke Well",
+      "sourceId": 1790077709,
+      "despawnTimestamp": 1790077709,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-22T11:48:29.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 359,
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
       "sourceId": 1790077666,
-      "despawnTimestamp": 1790077665,
+      "despawnTimestamp": 1790077666,
       "hasValuable": false,
       "timestampUtc": "2026-09-22T11:47:46.000Z",
       "publishedBy": ""
@@ -19,23 +30,15 @@
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 1858,
+      "secondsAgo": 2164,
       "sourceId": 1790075386
-    },
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Johto",
-      "location": "Dark Cave",
-      "secondsAgo": 12590,
-      "sourceId": 1790064654
     },
     {
       "monsterId": 107,
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 6107,
+      "secondsAgo": 6413,
       "sourceId": 1790071137
     },
     {
@@ -43,8 +46,8 @@
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 7835,
-      "sourceId": 1790069409
+      "secondsAgo": 8140,
+      "sourceId": 1790069410
     }
   ],
   "alpha": {
