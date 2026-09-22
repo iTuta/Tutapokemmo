@@ -1,33 +1,29 @@
 {
-  "fetchedAt": "2026-09-22T11:50:42.928Z",
-  "swarms": [
-    {
-      "monsterId": 339,
-      "pokemon": "Barboach",
-      "region": "Johto",
-      "location": "Slowpoke Well",
-      "sourceId": 1790078134,
-      "despawnTimestamp": 1790078133,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-22T11:55:34.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-22T11:55:42.952Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 2457,
+      "secondsAgo": 2757,
       "sourceId": 1790075385
+    },
+    {
+      "monsterId": 339,
+      "pokemon": "Barboach",
+      "region": "Johto",
+      "location": "Slowpoke Well",
+      "secondsAgo": 308,
+      "sourceId": 1790077834
     },
     {
       "monsterId": 107,
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 6706,
+      "secondsAgo": 7006,
       "sourceId": 1790071136
     },
     {
@@ -35,7 +31,7 @@
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "secondsAgo": 1436,
+      "secondsAgo": 1736,
       "sourceId": 1790076406
     },
     {
@@ -43,7 +39,7 @@
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 8433,
+      "secondsAgo": 8733,
       "sourceId": 1790069409
     }
   ],
