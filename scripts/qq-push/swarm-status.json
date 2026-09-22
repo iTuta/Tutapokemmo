@@ -1,13 +1,33 @@
 {
-  "fetchedAt": "2026-09-22T05:05:49.573Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-22T05:11:01.607Z",
+  "swarms": [
+    {
+      "monsterId": 288,
+      "pokemon": "Vigoroth",
+      "region": "Sinnoh",
+      "location": "Route 215",
+      "sourceId": 1790055170,
+      "despawnTimestamp": 1790055169,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-22T05:32:50.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
+    {
+      "monsterId": 127,
+      "pokemon": "Pinsir",
+      "region": "Kanto",
+      "location": "Route 11",
+      "secondsAgo": 1811,
+      "sourceId": 1790052050
+    },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Johto",
       "location": "Route 39",
-      "secondsAgo": 6168,
+      "secondsAgo": 6480,
       "sourceId": 1790047381
     },
     {
@@ -15,23 +35,15 @@
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 12105,
+      "secondsAgo": 12417,
       "sourceId": 1790041444
-    },
-    {
-      "monsterId": 328,
-      "pokemon": "Trapinch",
-      "region": "Sinnoh",
-      "location": "Oreburgh Mine",
-      "secondsAgo": 10142,
-      "sourceId": 1790043407
     },
     {
       "monsterId": 162,
       "pokemon": "Furret",
       "region": "Unova",
       "location": "Abundant Shrine",
-      "secondsAgo": 6677,
+      "secondsAgo": 6989,
       "sourceId": 1790046872
     }
   ],
