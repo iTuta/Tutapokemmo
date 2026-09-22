@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-09-22T15:40:52.401Z",
+  "fetchedAt": "2026-09-22T15:45:48.563Z",
   "swarms": [
-    {
-      "monsterId": 248,
-      "pokemon": "Tyranitar",
-      "region": "Kanto",
-      "location": "Canyon Entrance",
-      "sourceId": 1790091721,
-      "despawnTimestamp": 1790091720,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-22T15:42:01.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 438,
       "pokemon": "Bonsly",
       "region": "Sinnoh",
       "location": "Eterna Forest",
       "sourceId": 1790092216,
-      "despawnTimestamp": 1790092216,
+      "despawnTimestamp": 1790092215,
       "hasValuable": false,
       "timestampUtc": "2026-09-22T15:50:16.000Z",
       "publishedBy": ""
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 248,
+      "pokemon": "Tyranitar",
+      "region": "Kanto",
+      "location": "Canyon Entrance",
+      "secondsAgo": 1727,
+      "sourceId": 1790090221
+    },
+    {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Johto",
       "location": "Union Cave",
-      "secondsAgo": 1733,
+      "secondsAgo": 2029,
       "sourceId": 1790089919
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 20515,
+      "secondsAgo": 20811,
       "sourceId": 1790071137
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Lumineon",
       "region": "Unova",
       "location": "Route 17",
-      "secondsAgo": 1384,
+      "secondsAgo": 1680,
       "sourceId": 1790090268
     }
   ],
