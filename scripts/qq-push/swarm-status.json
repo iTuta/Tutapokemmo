@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-22T03:20:47.501Z",
+  "fetchedAt": "2026-09-22T03:25:44.631Z",
   "swarms": [
     {
       "monsterId": 198,
@@ -13,12 +13,23 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 241,
+      "pokemon": "Miltank",
+      "region": "Johto",
+      "location": "Route 39",
+      "sourceId": 1790048880,
+      "despawnTimestamp": 1790048880,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-22T03:48:00.000Z",
+      "publishedBy": ""
+    },
+    {
       "monsterId": 162,
       "pokemon": "Furret",
       "region": "Unova",
       "location": "Abundant Shrine",
       "sourceId": 1790048372,
-      "despawnTimestamp": 1790048372,
+      "despawnTimestamp": 1790048371,
       "hasValuable": false,
       "timestampUtc": "2026-09-22T03:39:32.000Z",
       "publishedBy": ""
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 155,
-      "pokemon": "Cyndaquil",
-      "region": "Johto",
-      "location": "Route 33",
-      "secondsAgo": 13710,
-      "sourceId": 1790033537
-    },
-    {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 5803,
+      "secondsAgo": 6100,
       "sourceId": 1790041444
     },
     {
@@ -46,8 +49,8 @@
       "pokemon": "Trapinch",
       "region": "Sinnoh",
       "location": "Oreburgh Mine",
-      "secondsAgo": 3839,
-      "sourceId": 1790043408
+      "secondsAgo": 4137,
+      "sourceId": 1790043407
     }
   ],
   "alpha": {
