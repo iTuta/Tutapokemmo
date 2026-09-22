@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-22T14:25:52.169Z",
+  "fetchedAt": "2026-09-22T14:31:08.709Z",
   "swarms": [
     {
       "monsterId": 6,
@@ -11,26 +11,23 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-22T14:39:36.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Johto",
       "location": "Route 29",
-      "sourceId": 1790087369,
-      "despawnTimestamp": 1790087369,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-22T14:29:29.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1599,
+      "sourceId": 1790085869
+    },
     {
       "monsterId": 107,
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 16015,
+      "secondsAgo": 16331,
       "sourceId": 1790071137
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Drifblim",
       "region": "Sinnoh",
       "location": "Route 222",
-      "secondsAgo": 5991,
+      "secondsAgo": 6307,
       "sourceId": 1790081161
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Corsola",
       "region": "Unova",
       "location": "Undella Bay",
-      "secondsAgo": 1638,
+      "secondsAgo": 1954,
       "sourceId": 1790085514
     }
   ],
