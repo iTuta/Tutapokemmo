@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-22T09:25:38.507Z",
+  "fetchedAt": "2026-09-22T09:30:57.567Z",
   "swarms": [
     {
       "monsterId": 388,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-22T09:49:09.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Unova",
+      "location": "Guidance Chamber",
+      "sourceId": 1790070909,
+      "despawnTimestamp": 1790070908,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-22T09:55:09.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Murkrow",
       "region": "Kanto",
       "location": "Route 7",
-      "secondsAgo": 14202,
+      "secondsAgo": 14521,
       "sourceId": 1790054936
     },
     {
@@ -27,7 +38,7 @@
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 4484,
+      "secondsAgo": 4803,
       "sourceId": 1790064654
     },
     {
@@ -35,16 +46,8 @@
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 27694,
+      "secondsAgo": 28013,
       "sourceId": 1790041444
-    },
-    {
-      "monsterId": 247,
-      "pokemon": "Pupitar",
-      "region": "Unova",
-      "location": "Twist Mountain",
-      "secondsAgo": 10509,
-      "sourceId": 1790058629
     }
   ],
   "alpha": {
