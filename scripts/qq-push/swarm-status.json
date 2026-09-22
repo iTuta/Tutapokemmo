@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-22T09:20:53.492Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-22T09:25:38.507Z",
+  "swarms": [
+    {
+      "monsterId": 388,
+      "pokemon": "Grotle",
+      "region": "Sinnoh",
+      "location": "Route 212",
+      "sourceId": 1790070549,
+      "despawnTimestamp": 1790070549,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-22T09:49:09.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Kanto",
       "location": "Route 7",
-      "secondsAgo": 13917,
+      "secondsAgo": 14202,
       "sourceId": 1790054936
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 4199,
+      "secondsAgo": 4484,
       "sourceId": 1790064654
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 27409,
+      "secondsAgo": 27694,
       "sourceId": 1790041444
-    },
-    {
-      "monsterId": 288,
-      "pokemon": "Vigoroth",
-      "region": "Sinnoh",
-      "location": "Route 215",
-      "secondsAgo": 15183,
-      "sourceId": 1790053670
     },
     {
       "monsterId": 247,
       "pokemon": "Pupitar",
       "region": "Unova",
       "location": "Twist Mountain",
-      "secondsAgo": 10224,
+      "secondsAgo": 10509,
       "sourceId": 1790058629
     }
   ],
