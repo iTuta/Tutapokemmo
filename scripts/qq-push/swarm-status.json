@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-22T20:40:42.005Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-22T20:45:46.953Z",
+  "swarms": [
+    {
+      "monsterId": 204,
+      "pokemon": "Pineco",
+      "region": "Hoenn",
+      "location": "Route 103",
+      "sourceId": 1790111171,
+      "despawnTimestamp": 1790111170,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-22T21:06:11.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Kanto",
       "location": "Route 25",
-      "secondsAgo": 6826,
+      "secondsAgo": 7131,
       "sourceId": 1790102815
     },
     {
@@ -15,31 +27,23 @@
       "pokemon": "Pineco",
       "region": "Johto",
       "location": "Route 36",
-      "secondsAgo": 3418,
+      "secondsAgo": 3723,
       "sourceId": 1790106223
-    },
-    {
-      "monsterId": 479,
-      "pokemon": "Rotom",
-      "region": "Hoenn",
-      "location": "New Mauville",
-      "secondsAgo": 13342,
-      "sourceId": 1790096299
     },
     {
       "monsterId": 393,
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 3116,
-      "sourceId": 1790106525
+      "secondsAgo": 3420,
+      "sourceId": 1790106526
     },
     {
       "monsterId": 125,
       "pokemon": "Electabuzz",
       "region": "Unova",
       "location": "Chargestone Cave",
-      "secondsAgo": 6888,
+      "secondsAgo": 7193,
       "sourceId": 1790102753
     }
   ],
