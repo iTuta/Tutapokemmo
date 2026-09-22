@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-22T15:35:42.135Z",
+  "fetchedAt": "2026-09-22T15:40:52.401Z",
   "swarms": [
     {
       "monsterId": 248,
@@ -7,20 +7,9 @@
       "region": "Kanto",
       "location": "Canyon Entrance",
       "sourceId": 1790091721,
-      "despawnTimestamp": 1790091721,
+      "despawnTimestamp": 1790091720,
       "hasValuable": false,
       "timestampUtc": "2026-09-22T15:42:01.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Johto",
-      "location": "Union Cave",
-      "sourceId": 1790091418,
-      "despawnTimestamp": 1790091418,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-22T15:36:58.000Z",
       "publishedBy": ""
     },
     {
@@ -33,27 +22,32 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-22T15:50:16.000Z",
       "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Johto",
+      "location": "Union Cave",
+      "secondsAgo": 1733,
+      "sourceId": 1790089919
+    },
+    {
+      "monsterId": 107,
+      "pokemon": "Hitmonchan",
+      "region": "Hoenn",
+      "location": "Fiery Path",
+      "secondsAgo": 20515,
+      "sourceId": 1790071137
     },
     {
       "monsterId": 457,
       "pokemon": "Lumineon",
       "region": "Unova",
       "location": "Route 17",
-      "sourceId": 1790091467,
-      "despawnTimestamp": 1790091467,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-22T15:37:47.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 107,
-      "pokemon": "Hitmonchan",
-      "region": "Hoenn",
-      "location": "Fiery Path",
-      "secondsAgo": 20205,
-      "sourceId": 1790071137
+      "secondsAgo": 1384,
+      "sourceId": 1790090268
     }
   ],
   "alpha": {
