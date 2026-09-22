@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-09-22T11:05:40.881Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-22T11:10:44.529Z",
+  "swarms": [
     {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
+      "monsterId": 335,
+      "pokemon": "Zangoose",
       "region": "Kanto",
-      "location": "Route 7",
-      "secondsAgo": 20204,
-      "sourceId": 1790054936
-    },
+      "location": "Route 14",
+      "sourceId": 1790076405,
+      "despawnTimestamp": 1790076405,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-22T11:26:45.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 10486,
+      "secondsAgo": 10790,
       "sourceId": 1790064654
     },
     {
@@ -23,23 +27,23 @@
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 4004,
-      "sourceId": 1790071136
+      "secondsAgo": 4307,
+      "sourceId": 1790071137
     },
     {
       "monsterId": 388,
       "pokemon": "Grotle",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 6091,
-      "sourceId": 1790069049
+      "secondsAgo": 6394,
+      "sourceId": 1790069050
     },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 5731,
+      "secondsAgo": 6035,
       "sourceId": 1790069409
     }
   ],
