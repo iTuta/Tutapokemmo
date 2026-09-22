@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-09-22T00:15:47.324Z",
-  "swarms": [
-    {
-      "monsterId": 222,
-      "pokemon": "Corsola",
-      "region": "Unova",
-      "location": "Undella Bay",
-      "sourceId": 1790036380,
-      "despawnTimestamp": 1790036380,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-22T00:19:40.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-22T00:20:48.251Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Kanto",
       "location": "Cerulean Cave",
-      "secondsAgo": 24787,
+      "secondsAgo": 25088,
       "sourceId": 1790011360
     },
     {
@@ -27,7 +15,7 @@
       "pokemon": "Cyndaquil",
       "region": "Johto",
       "location": "Route 33",
-      "secondsAgo": 2610,
+      "secondsAgo": 2911,
       "sourceId": 1790033537
     },
     {
@@ -35,7 +23,7 @@
       "pokemon": "Blaziken",
       "region": "Hoenn",
       "location": "Magma Hideout",
-      "secondsAgo": 2049,
+      "secondsAgo": 2350,
       "sourceId": 1790034098
     },
     {
@@ -43,8 +31,16 @@
       "pokemon": "Chansey",
       "region": "Sinnoh",
       "location": "Trophy Garden",
-      "secondsAgo": 13533,
+      "secondsAgo": 13834,
       "sourceId": 1790022614
+    },
+    {
+      "monsterId": 222,
+      "pokemon": "Corsola",
+      "region": "Unova",
+      "location": "Undella Bay",
+      "secondsAgo": 1567,
+      "sourceId": 1790034881
     }
   ],
   "alpha": {
