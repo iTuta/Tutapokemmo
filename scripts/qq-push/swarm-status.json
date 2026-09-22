@@ -1,25 +1,33 @@
 {
-  "fetchedAt": "2026-09-22T11:25:39.513Z",
+  "fetchedAt": "2026-09-22T11:31:06.310Z",
   "swarms": [
     {
-      "monsterId": 335,
-      "pokemon": "Zangoose",
-      "region": "Kanto",
-      "location": "Route 14",
-      "sourceId": 1790076405,
-      "despawnTimestamp": 1790076405,
+      "monsterId": 359,
+      "pokemon": "Absol",
+      "region": "Sinnoh",
+      "location": "Mt. Coronet",
+      "sourceId": 1790077666,
+      "despawnTimestamp": 1790077666,
       "hasValuable": false,
-      "timestampUtc": "2026-09-22T11:26:45.000Z",
+      "timestampUtc": "2026-09-22T11:47:46.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
+      "monsterId": 335,
+      "pokemon": "Zangoose",
+      "region": "Kanto",
+      "location": "Route 14",
+      "secondsAgo": 1280,
+      "sourceId": 1790075386
+    },
+    {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 11685,
+      "secondsAgo": 12012,
       "sourceId": 1790064654
     },
     {
@@ -27,23 +35,15 @@
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 5202,
+      "secondsAgo": 5529,
       "sourceId": 1790071137
-    },
-    {
-      "monsterId": 388,
-      "pokemon": "Grotle",
-      "region": "Sinnoh",
-      "location": "Route 212",
-      "secondsAgo": 7289,
-      "sourceId": 1790069050
     },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 6930,
+      "secondsAgo": 7257,
       "sourceId": 1790069409
     }
   ],
