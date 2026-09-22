@@ -1,45 +1,49 @@
 {
-  "fetchedAt": "2026-09-22T19:40:44.000Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-22T19:45:43.217Z",
+  "swarms": [
+    {
+      "monsterId": 204,
+      "pokemon": "Pineco",
+      "region": "Johto",
+      "location": "Route 36",
+      "sourceId": 1790107723,
+      "despawnTimestamp": 1790107723,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-22T20:08:43.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Kanto",
       "location": "Route 25",
-      "secondsAgo": 3228,
-      "sourceId": 1790102815
-    },
-    {
-      "monsterId": 102,
-      "pokemon": "Exeggcute",
-      "region": "Johto",
-      "location": "Route 30",
-      "secondsAgo": 9669,
-      "sourceId": 1790096374
+      "secondsAgo": 3527,
+      "sourceId": 1790102816
     },
     {
       "monsterId": 479,
       "pokemon": "Rotom",
       "region": "Hoenn",
       "location": "New Mauville",
-      "secondsAgo": 9744,
-      "sourceId": 1790096299
+      "secondsAgo": 10043,
+      "sourceId": 1790096300
     },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Sinnoh",
       "location": "Route 225",
-      "secondsAgo": 4958,
-      "sourceId": 1790101085
+      "secondsAgo": 5257,
+      "sourceId": 1790101086
     },
     {
       "monsterId": 125,
       "pokemon": "Electabuzz",
       "region": "Unova",
       "location": "Chargestone Cave",
-      "secondsAgo": 3290,
+      "secondsAgo": 3590,
       "sourceId": 1790102753
     }
   ],
