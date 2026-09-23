@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-09-23T01:40:45.458Z",
-  "swarms": [
-    {
-      "monsterId": 430,
-      "pokemon": "Honchkrow",
-      "region": "Unova",
-      "location": "Celestial Tower",
-      "sourceId": 1790127798,
-      "despawnTimestamp": 1790127798,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-23T01:43:18.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-23T01:45:48.501Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Kanto",
       "location": "Route 25",
-      "secondsAgo": 24829,
+      "secondsAgo": 25132,
       "sourceId": 1790102816
     },
     {
@@ -27,15 +15,15 @@
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 5269,
-      "sourceId": 1790122376
+      "secondsAgo": 5573,
+      "sourceId": 1790122375
     },
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Hoenn",
       "location": "Jagged Pass",
-      "secondsAgo": 1638,
+      "secondsAgo": 1941,
       "sourceId": 1790126007
     },
     {
@@ -43,8 +31,16 @@
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 21119,
+      "secondsAgo": 21422,
       "sourceId": 1790106526
+    },
+    {
+      "monsterId": 430,
+      "pokemon": "Honchkrow",
+      "region": "Unova",
+      "location": "Celestial Tower",
+      "secondsAgo": 1649,
+      "sourceId": 1790126299
     }
   ],
   "alpha": {
