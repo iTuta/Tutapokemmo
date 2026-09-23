@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-23T13:31:03.473Z",
+  "fetchedAt": "2026-09-23T13:35:43.812Z",
   "swarms": [
+    {
+      "monsterId": 300,
+      "pokemon": "Skitty",
+      "region": "Johto",
+      "location": "Route 35",
+      "sourceId": 1790171840,
+      "despawnTimestamp": 1790171840,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-23T13:57:20.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
@@ -19,23 +30,15 @@
       "pokemon": "Minun",
       "region": "Kanto",
       "location": "Route 22",
-      "secondsAgo": 13271,
+      "secondsAgo": 13551,
       "sourceId": 1790156992
-    },
-    {
-      "monsterId": 159,
-      "pokemon": "Croconaw",
-      "region": "Johto",
-      "location": "Whirl Islands",
-      "secondsAgo": 3564,
-      "sourceId": 1790166699
     },
     {
       "monsterId": 358,
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
-      "secondsAgo": 17149,
+      "secondsAgo": 17429,
       "sourceId": 1790153114
     },
     {
@@ -43,8 +46,8 @@
       "pokemon": "Snorlax",
       "region": "Sinnoh",
       "location": "Victory Road",
-      "secondsAgo": 20800,
-      "sourceId": 1790149463
+      "secondsAgo": 21081,
+      "sourceId": 1790149462
     }
   ],
   "alpha": {
