@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-23T01:35:38.381Z",
+  "fetchedAt": "2026-09-23T01:40:45.458Z",
   "swarms": [
-    {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
-      "region": "Hoenn",
-      "location": "Jagged Pass",
-      "sourceId": 1790127506,
-      "despawnTimestamp": 1790127506,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-23T01:38:26.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 430,
       "pokemon": "Honchkrow",
@@ -30,7 +19,7 @@
       "pokemon": "Nincada",
       "region": "Kanto",
       "location": "Route 25",
-      "secondsAgo": 24522,
+      "secondsAgo": 24829,
       "sourceId": 1790102816
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 4962,
+      "secondsAgo": 5269,
       "sourceId": 1790122376
+    },
+    {
+      "monsterId": 198,
+      "pokemon": "Murkrow",
+      "region": "Hoenn",
+      "location": "Jagged Pass",
+      "secondsAgo": 1638,
+      "sourceId": 1790126007
     },
     {
       "monsterId": 393,
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 20812,
+      "secondsAgo": 21119,
       "sourceId": 1790106526
     }
   ],
