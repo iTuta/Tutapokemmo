@@ -1,6 +1,28 @@
 {
-  "fetchedAt": "2026-09-23T21:15:57.058Z",
+  "fetchedAt": "2026-09-23T21:20:46.277Z",
   "swarms": [
+    {
+      "monsterId": 281,
+      "pokemon": "Kirlia",
+      "region": "Kanto",
+      "location": "Route 8",
+      "sourceId": 1790199698,
+      "despawnTimestamp": 1790199698,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-23T21:41:38.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Johto",
+      "location": "Sprout Tower",
+      "sourceId": 1790199923,
+      "despawnTimestamp": 1790199923,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-23T21:45:23.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 211,
       "pokemon": "Qwilfish",
@@ -11,40 +33,27 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-23T21:33:18.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 287,
+      "pokemon": "Slakoth",
+      "region": "Unova",
+      "location": "Route 2",
+      "sourceId": 1790199780,
+      "despawnTimestamp": 1790199780,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-23T21:43:00.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 1,
-      "pokemon": "Bulbasaur",
-      "region": "Kanto",
-      "location": "Viridian Forest",
-      "secondsAgo": 4147,
-      "sourceId": 1790194010
-    },
-    {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Johto",
-      "location": "Route 38",
-      "secondsAgo": 12809,
-      "sourceId": 1790185348
-    },
     {
       "monsterId": 392,
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 15451,
+      "secondsAgo": 15740,
       "sourceId": 1790182706
-    },
-    {
-      "monsterId": 212,
-      "pokemon": "Scizor",
-      "region": "Unova",
-      "location": "Route 14",
-      "secondsAgo": 13114,
-      "sourceId": 1790185043
     }
   ],
   "alpha": {
