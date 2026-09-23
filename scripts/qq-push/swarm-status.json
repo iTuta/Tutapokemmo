@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-23T10:10:54.117Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-23T10:15:53.034Z",
+  "swarms": [
+    {
+      "monsterId": 373,
+      "pokemon": "Salamence",
+      "region": "Unova",
+      "location": "Dragonspiral Tower",
+      "sourceId": 1790159775,
+      "despawnTimestamp": 1790159775,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-23T10:36:15.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 9817,
+      "secondsAgo": 10116,
       "sourceId": 1790148437
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
-      "secondsAgo": 5139,
+      "secondsAgo": 5438,
       "sourceId": 1790153115
     },
     {
@@ -23,16 +35,8 @@
       "pokemon": "Snorlax",
       "region": "Sinnoh",
       "location": "Victory Road",
-      "secondsAgo": 8791,
+      "secondsAgo": 9090,
       "sourceId": 1790149463
-    },
-    {
-      "monsterId": 420,
-      "pokemon": "Cherubi",
-      "region": "Unova",
-      "location": "Route 16",
-      "secondsAgo": 4419,
-      "sourceId": 1790153835
     }
   ],
   "alpha": {
