@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-23T15:50:51.180Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-23T15:56:11.114Z",
+  "swarms": [
+    {
+      "monsterId": 185,
+      "pokemon": "Sudowoodo",
+      "region": "Hoenn",
+      "location": "Battle Frontier",
+      "sourceId": 1790180261,
+      "despawnTimestamp": 1790180261,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-23T16:17:41.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 312,
       "pokemon": "Minun",
       "region": "Kanto",
       "location": "Route 22",
-      "secondsAgo": 21659,
+      "secondsAgo": 21979,
       "sourceId": 1790156992
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 8310,
+      "secondsAgo": 8630,
       "sourceId": 1790170341
-    },
-    {
-      "monsterId": 468,
-      "pokemon": "Togekiss",
-      "region": "Hoenn",
-      "location": "Sky Pillar",
-      "secondsAgo": 5886,
-      "sourceId": 1790172765
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 4975,
+      "secondsAgo": 5295,
       "sourceId": 1790173676
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 9233,
+      "secondsAgo": 9553,
       "sourceId": 1790169418
     }
   ],
