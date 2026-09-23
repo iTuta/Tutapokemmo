@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-09-23T01:10:48.973Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-23T01:15:51.442Z",
+  "swarms": [
+    {
+      "monsterId": 198,
+      "pokemon": "Murkrow",
+      "region": "Hoenn",
+      "location": "Jagged Pass",
+      "sourceId": 1790127506,
+      "despawnTimestamp": 1790127506,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-23T01:38:26.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Kanto",
       "location": "Route 25",
-      "secondsAgo": 23033,
-      "sourceId": 1790102815
+      "secondsAgo": 23335,
+      "sourceId": 1790102816
     },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 3473,
-      "sourceId": 1790122375
-    },
-    {
-      "monsterId": 358,
-      "pokemon": "Chimecho",
-      "region": "Hoenn",
-      "location": "Mt. Pyre",
-      "secondsAgo": 3530,
-      "sourceId": 1790122318
+      "secondsAgo": 3775,
+      "sourceId": 1790122376
     },
     {
       "monsterId": 393,
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 19322,
+      "secondsAgo": 19625,
       "sourceId": 1790106526
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Aipom",
       "region": "Unova",
       "location": "Cold Storage",
-      "secondsAgo": 7462,
-      "sourceId": 1790118386
+      "secondsAgo": 7764,
+      "sourceId": 1790118387
     }
   ],
   "alpha": {
