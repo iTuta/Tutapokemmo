@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-09-23T02:30:48.844Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-23T02:36:09.758Z",
+  "swarms": [
+    {
+      "monsterId": 259,
+      "pokemon": "Marshtomp",
+      "region": "Hoenn",
+      "location": "Route 124",
+      "sourceId": 1790132213,
+      "despawnTimestamp": 1790132213,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-23T02:56:53.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 8273,
+      "secondsAgo": 8594,
       "sourceId": 1790122375
-    },
-    {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
-      "region": "Hoenn",
-      "location": "Jagged Pass",
-      "secondsAgo": 4642,
-      "sourceId": 1790126006
     },
     {
       "monsterId": 393,
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 24122,
+      "secondsAgo": 24443,
       "sourceId": 1790106526
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Honchkrow",
       "region": "Unova",
       "location": "Celestial Tower",
-      "secondsAgo": 4349,
+      "secondsAgo": 4670,
       "sourceId": 1790126299
     }
   ],
