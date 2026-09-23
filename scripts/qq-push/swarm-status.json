@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-23T16:15:51.377Z",
+  "fetchedAt": "2026-09-23T16:21:14.503Z",
   "swarms": [
     {
       "monsterId": 300,
@@ -7,20 +7,9 @@
       "region": "Johto",
       "location": "Route 35",
       "sourceId": 1790181341,
-      "despawnTimestamp": 1790181341,
+      "despawnTimestamp": 1790181340,
       "hasValuable": false,
       "timestampUtc": "2026-09-23T16:35:41.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 185,
-      "pokemon": "Sudowoodo",
-      "region": "Hoenn",
-      "location": "Battle Frontier",
-      "sourceId": 1790180261,
-      "despawnTimestamp": 1790180261,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-23T16:17:41.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,15 +19,23 @@
       "pokemon": "Minun",
       "region": "Kanto",
       "location": "Route 22",
-      "secondsAgo": 23159,
+      "secondsAgo": 23482,
       "sourceId": 1790156992
+    },
+    {
+      "monsterId": 185,
+      "pokemon": "Sudowoodo",
+      "region": "Hoenn",
+      "location": "Battle Frontier",
+      "secondsAgo": 1712,
+      "sourceId": 1790178762
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 6476,
+      "secondsAgo": 6799,
       "sourceId": 1790173675
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 10733,
+      "secondsAgo": 11056,
       "sourceId": 1790169418
     }
   ],
