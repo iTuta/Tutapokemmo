@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-23T17:55:51.956Z",
+  "fetchedAt": "2026-09-23T18:00:58.912Z",
   "swarms": [
     {
       "monsterId": 128,
@@ -24,6 +24,17 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 319,
+      "pokemon": "Sharpedo",
+      "region": "Hoenn",
+      "location": "Route 127",
+      "sourceId": 1790187906,
+      "despawnTimestamp": 1790187905,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-23T18:25:06.000Z",
+      "publishedBy": ""
+    },
+    {
       "monsterId": 212,
       "pokemon": "Scizor",
       "region": "Unova",
@@ -37,19 +48,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 185,
-      "pokemon": "Sudowoodo",
-      "region": "Hoenn",
-      "location": "Battle Frontier",
-      "secondsAgo": 7389,
-      "sourceId": 1790178762
-    },
-    {
       "monsterId": 392,
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 3446,
+      "secondsAgo": 3753,
       "sourceId": 1790182705
     }
   ],
