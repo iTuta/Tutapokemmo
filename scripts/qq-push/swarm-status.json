@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-09-23T02:55:56.057Z",
+  "fetchedAt": "2026-09-23T03:00:59.778Z",
   "swarms": [
-    {
-      "monsterId": 259,
-      "pokemon": "Marshtomp",
-      "region": "Hoenn",
-      "location": "Route 124",
-      "sourceId": 1790132213,
-      "despawnTimestamp": 1790132213,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-23T02:56:53.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Sinnoh",
       "location": "Wayward Cave",
       "sourceId": 1790133170,
-      "despawnTimestamp": 1790133170,
+      "despawnTimestamp": 1790133169,
       "hasValuable": false,
       "timestampUtc": "2026-09-23T03:12:50.000Z",
       "publishedBy": ""
@@ -30,15 +19,23 @@
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 9780,
-      "sourceId": 1790122376
+      "secondsAgo": 10084,
+      "sourceId": 1790122375
+    },
+    {
+      "monsterId": 259,
+      "pokemon": "Marshtomp",
+      "region": "Hoenn",
+      "location": "Route 124",
+      "secondsAgo": 1745,
+      "sourceId": 1790130714
     },
     {
       "monsterId": 430,
       "pokemon": "Honchkrow",
       "region": "Unova",
       "location": "Celestial Tower",
-      "secondsAgo": 5857,
+      "secondsAgo": 6160,
       "sourceId": 1790126299
     }
   ],
