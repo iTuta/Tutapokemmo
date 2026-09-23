@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-09-23T14:10:44.279Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-23T14:15:48.463Z",
+  "swarms": [
+    {
+      "monsterId": 468,
+      "pokemon": "Togekiss",
+      "region": "Hoenn",
+      "location": "Sky Pillar",
+      "sourceId": 1790174264,
+      "despawnTimestamp": 1790174263,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-23T14:37:44.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 2303,
+      "secondsAgo": 2607,
       "sourceId": 1790170341
-    },
-    {
-      "monsterId": 358,
-      "pokemon": "Chimecho",
-      "region": "Hoenn",
-      "location": "Mt. Pyre",
-      "secondsAgo": 19530,
-      "sourceId": 1790153114
     },
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Sinnoh",
       "location": "Victory Road",
-      "secondsAgo": 23181,
+      "secondsAgo": 23485,
       "sourceId": 1790149463
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 3226,
+      "secondsAgo": 3530,
       "sourceId": 1790169418
     }
   ],
