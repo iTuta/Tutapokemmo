@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-23T13:15:47.806Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-23T13:20:44.158Z",
+  "swarms": [
+    {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Unova",
+      "location": "Guidance Chamber",
+      "sourceId": 1790170917,
+      "despawnTimestamp": 1790170917,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-23T13:41:57.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 312,
       "pokemon": "Minun",
       "region": "Kanto",
       "location": "Route 22",
-      "secondsAgo": 12355,
+      "secondsAgo": 12652,
       "sourceId": 1790156992
     },
     {
@@ -15,32 +27,24 @@
       "pokemon": "Croconaw",
       "region": "Johto",
       "location": "Whirl Islands",
-      "secondsAgo": 2649,
-      "sourceId": 1790166698
+      "secondsAgo": 2945,
+      "sourceId": 1790166699
     },
     {
       "monsterId": 358,
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
-      "secondsAgo": 16233,
-      "sourceId": 1790153114
+      "secondsAgo": 16529,
+      "sourceId": 1790153115
     },
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Sinnoh",
       "location": "Victory Road",
-      "secondsAgo": 19885,
-      "sourceId": 1790149462
-    },
-    {
-      "monsterId": 373,
-      "pokemon": "Salamence",
-      "region": "Unova",
-      "location": "Dragonspiral Tower",
-      "secondsAgo": 11072,
-      "sourceId": 1790158275
+      "secondsAgo": 20181,
+      "sourceId": 1790149463
     }
   ],
   "alpha": {
