@@ -1,52 +1,45 @@
 {
-  "fetchedAt": "2026-09-23T08:01:14.982Z",
-  "swarms": [
+  "fetchedAt": "2026-09-23T08:05:56.516Z",
+  "swarms": [],
+  "lastSeen": [
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Kanto",
       "location": "Route 16",
-      "sourceId": 1790150603,
-      "despawnTimestamp": 1790150602,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-23T08:03:23.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1653,
+      "sourceId": 1790149103
     },
-    {
-      "monsterId": 143,
-      "pokemon": "Snorlax",
-      "region": "Sinnoh",
-      "location": "Victory Road",
-      "sourceId": 1790150602,
-      "despawnTimestamp": 1790150601,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-23T08:03:22.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 2038,
-      "sourceId": 1790148436
+      "secondsAgo": 2319,
+      "sourceId": 1790148437
     },
     {
       "monsterId": 330,
       "pokemon": "Flygon",
       "region": "Hoenn",
       "location": "Desert Underpass",
-      "secondsAgo": 3516,
+      "secondsAgo": 3798,
       "sourceId": 1790146958
+    },
+    {
+      "monsterId": 143,
+      "pokemon": "Snorlax",
+      "region": "Sinnoh",
+      "location": "Victory Road",
+      "secondsAgo": 1293,
+      "sourceId": 1790149463
     },
     {
       "monsterId": 287,
       "pokemon": "Slakoth",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 10956,
+      "secondsAgo": 11238,
       "sourceId": 1790139518
     }
   ],
