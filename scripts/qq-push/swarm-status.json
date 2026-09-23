@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-23T07:40:54.700Z",
+  "fetchedAt": "2026-09-23T07:45:44.685Z",
   "swarms": [
     {
       "monsterId": 214,
@@ -22,6 +22,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-23T07:52:16.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 143,
+      "pokemon": "Snorlax",
+      "region": "Sinnoh",
+      "location": "Victory Road",
+      "sourceId": 1790150602,
+      "despawnTimestamp": 1790150602,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-23T08:03:22.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,23 +41,15 @@
       "pokemon": "Flygon",
       "region": "Hoenn",
       "location": "Desert Underpass",
-      "secondsAgo": 2296,
+      "secondsAgo": 2586,
       "sourceId": 1790146958
-    },
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Sinnoh",
-      "location": "Wayward Cave",
-      "secondsAgo": 17584,
-      "sourceId": 1790131670
     },
     {
       "monsterId": 287,
       "pokemon": "Slakoth",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 9736,
+      "secondsAgo": 10026,
       "sourceId": 1790139518
     }
   ],
