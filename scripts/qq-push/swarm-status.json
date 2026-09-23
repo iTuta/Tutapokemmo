@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-09-23T09:46:12.131Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-23T09:50:57.453Z",
+  "swarms": [
     {
-      "monsterId": 214,
-      "pokemon": "Heracross",
+      "monsterId": 312,
+      "pokemon": "Minun",
       "region": "Kanto",
-      "location": "Route 16",
-      "secondsAgo": 7668,
-      "sourceId": 1790149104
-    },
+      "location": "Route 22",
+      "sourceId": 1790158431,
+      "despawnTimestamp": 1790158431,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-23T10:13:51.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 8335,
+      "secondsAgo": 8620,
       "sourceId": 1790148437
     },
     {
@@ -23,15 +27,15 @@
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
-      "secondsAgo": 3657,
-      "sourceId": 1790153115
+      "secondsAgo": 3943,
+      "sourceId": 1790153114
     },
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Sinnoh",
       "location": "Victory Road",
-      "secondsAgo": 7309,
+      "secondsAgo": 7594,
       "sourceId": 1790149463
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Cherubi",
       "region": "Unova",
       "location": "Route 16",
-      "secondsAgo": 2937,
+      "secondsAgo": 3222,
       "sourceId": 1790153835
     }
   ],
