@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-09-23T18:05:55.814Z",
+  "fetchedAt": "2026-09-23T18:10:43.759Z",
   "swarms": [
-    {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Kanto",
-      "location": "Route 17",
-      "sourceId": 1790186825,
-      "despawnTimestamp": 1790186825,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-23T18:07:05.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Johto",
-      "location": "Route 38",
-      "sourceId": 1790186847,
-      "despawnTimestamp": 1790186846,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-23T18:07:27.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
@@ -37,11 +15,27 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Kanto",
+      "location": "Route 17",
+      "secondsAgo": 1717,
+      "sourceId": 1790185326
+    },
+    {
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Johto",
+      "location": "Route 38",
+      "secondsAgo": 1696,
+      "sourceId": 1790185347
+    },
+    {
       "monsterId": 392,
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 4050,
+      "secondsAgo": 4338,
       "sourceId": 1790182705
     },
     {
@@ -49,7 +43,7 @@
       "pokemon": "Scizor",
       "region": "Unova",
       "location": "Route 14",
-      "secondsAgo": 1712,
+      "secondsAgo": 2000,
       "sourceId": 1790185043
     }
   ],
