@@ -1,29 +1,41 @@
 {
-  "fetchedAt": "2026-09-23T22:46:01.403Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-23T22:50:39.815Z",
+  "swarms": [
+    {
+      "monsterId": 83,
+      "pokemon": "Farfetch&#x27;d",
+      "region": "Unova",
+      "location": "Route 1",
+      "sourceId": 1790205226,
+      "despawnTimestamp": 1790205225,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-23T23:13:46.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Kanto",
       "location": "Route 8",
-      "secondsAgo": 5362,
-      "sourceId": 1790198199
+      "secondsAgo": 5641,
+      "sourceId": 1790198198
     },
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Johto",
       "location": "Sprout Tower",
-      "secondsAgo": 5137,
-      "sourceId": 1790198424
+      "secondsAgo": 5416,
+      "sourceId": 1790198423
     },
     {
       "monsterId": 211,
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 5863,
+      "secondsAgo": 6141,
       "sourceId": 1790197698
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Ambipom",
       "region": "Sinnoh",
       "location": "Route 216",
-      "secondsAgo": 1616,
-      "sourceId": 1790201945
-    },
-    {
-      "monsterId": 287,
-      "pokemon": "Slakoth",
-      "region": "Unova",
-      "location": "Route 2",
-      "secondsAgo": 5280,
-      "sourceId": 1790198281
+      "secondsAgo": 1895,
+      "sourceId": 1790201944
     }
   ],
   "alpha": {
