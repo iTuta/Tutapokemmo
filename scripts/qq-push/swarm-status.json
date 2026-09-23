@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-23T04:56:00.999Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-23T05:01:00.988Z",
+  "swarms": [
+    {
+      "monsterId": 287,
+      "pokemon": "Slakoth",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "sourceId": 1790141018,
+      "despawnTimestamp": 1790141017,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-23T05:23:38.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Kanto",
       "location": "Route 25",
-      "secondsAgo": 36545,
+      "secondsAgo": 36845,
       "sourceId": 1790102815
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Absol",
       "region": "Johto",
       "location": "Route 28",
-      "secondsAgo": 6082,
+      "secondsAgo": 6382,
       "sourceId": 1790133278
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Marshtomp",
       "region": "Hoenn",
       "location": "Route 124",
-      "secondsAgo": 8647,
+      "secondsAgo": 8947,
       "sourceId": 1790130713
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Kangaskhan",
       "region": "Sinnoh",
       "location": "Wayward Cave",
-      "secondsAgo": 7690,
+      "secondsAgo": 7990,
       "sourceId": 1790131670
-    },
-    {
-      "monsterId": 430,
-      "pokemon": "Honchkrow",
-      "region": "Unova",
-      "location": "Celestial Tower",
-      "secondsAgo": 13061,
-      "sourceId": 1790126299
     }
   ],
   "alpha": {
