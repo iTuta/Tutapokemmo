@@ -1,13 +1,21 @@
 {
-  "fetchedAt": "2026-09-23T11:10:59.845Z",
+  "fetchedAt": "2026-09-23T11:15:45.461Z",
   "swarms": [],
   "lastSeen": [
+    {
+      "monsterId": 312,
+      "pokemon": "Minun",
+      "region": "Kanto",
+      "location": "Route 22",
+      "secondsAgo": 5153,
+      "sourceId": 1790156992
+    },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 2431,
+      "secondsAgo": 2717,
       "sourceId": 1790159428
     },
     {
@@ -15,7 +23,7 @@
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
-      "secondsAgo": 8745,
+      "secondsAgo": 9031,
       "sourceId": 1790153114
     },
     {
@@ -23,15 +31,15 @@
       "pokemon": "Snorlax",
       "region": "Sinnoh",
       "location": "Victory Road",
-      "secondsAgo": 12397,
-      "sourceId": 1790149462
+      "secondsAgo": 12682,
+      "sourceId": 1790149463
     },
     {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 3584,
+      "secondsAgo": 3870,
       "sourceId": 1790158275
     }
   ],
@@ -45,6 +53,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-09-23T06:30:17.000Z",
     "timestampRaw": "2026-09-23T06:30:17.000Z",
-    "publishedBy": ""
+    "publishedBy": "wewoo"
   }
 }
