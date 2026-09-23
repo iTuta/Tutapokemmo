@@ -1,33 +1,29 @@
 {
-  "fetchedAt": "2026-09-23T12:55:40.766Z",
-  "swarms": [
-    {
-      "monsterId": 159,
-      "pokemon": "Croconaw",
-      "region": "Johto",
-      "location": "Whirl Islands",
-      "sourceId": 1790168198,
-      "despawnTimestamp": 1790168197,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-23T12:56:38.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-23T13:01:07.746Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 312,
       "pokemon": "Minun",
       "region": "Kanto",
       "location": "Route 22",
-      "secondsAgo": 11148,
+      "secondsAgo": 11475,
       "sourceId": 1790156992
+    },
+    {
+      "monsterId": 159,
+      "pokemon": "Croconaw",
+      "region": "Johto",
+      "location": "Whirl Islands",
+      "secondsAgo": 1769,
+      "sourceId": 1790166698
     },
     {
       "monsterId": 358,
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
-      "secondsAgo": 15026,
+      "secondsAgo": 15353,
       "sourceId": 1790153114
     },
     {
@@ -35,7 +31,7 @@
       "pokemon": "Snorlax",
       "region": "Sinnoh",
       "location": "Victory Road",
-      "secondsAgo": 18678,
+      "secondsAgo": 19005,
       "sourceId": 1790149462
     },
     {
@@ -43,7 +39,7 @@
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 9865,
+      "secondsAgo": 10192,
       "sourceId": 1790158275
     }
   ],
