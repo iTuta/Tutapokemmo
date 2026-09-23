@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-23T10:35:41.001Z",
+  "fetchedAt": "2026-09-23T10:41:22.907Z",
   "swarms": [
     {
       "monsterId": 637,
@@ -7,20 +7,9 @@
       "region": "Johto",
       "location": "Bell Tower",
       "sourceId": 1790160927,
-      "despawnTimestamp": 1790160926,
+      "despawnTimestamp": 1790160927,
       "hasValuable": false,
       "timestampUtc": "2026-09-23T10:55:27.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 373,
-      "pokemon": "Salamence",
-      "region": "Unova",
-      "location": "Dragonspiral Tower",
-      "sourceId": 1790159775,
-      "despawnTimestamp": 1790159774,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-23T10:36:15.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,7 +19,7 @@
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
-      "secondsAgo": 6626,
+      "secondsAgo": 6968,
       "sourceId": 1790153114
     },
     {
@@ -38,8 +27,16 @@
       "pokemon": "Snorlax",
       "region": "Sinnoh",
       "location": "Victory Road",
-      "secondsAgo": 10278,
+      "secondsAgo": 10620,
       "sourceId": 1790149462
+    },
+    {
+      "monsterId": 373,
+      "pokemon": "Salamence",
+      "region": "Unova",
+      "location": "Dragonspiral Tower",
+      "secondsAgo": 1807,
+      "sourceId": 1790158275
     }
   ],
   "alpha": {
