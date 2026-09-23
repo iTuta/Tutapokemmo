@@ -1,33 +1,29 @@
 {
-  "fetchedAt": "2026-09-23T06:55:51.570Z",
-  "swarms": [
-    {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Johto",
-      "location": "Burned Tower",
-      "sourceId": 1790146668,
-      "despawnTimestamp": 1790146667,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-23T06:57:48.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-23T07:00:55.544Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Kanto",
       "location": "Route 25",
-      "secondsAgo": 43735,
+      "secondsAgo": 44039,
       "sourceId": 1790102816
+    },
+    {
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Johto",
+      "location": "Burned Tower",
+      "secondsAgo": 1687,
+      "sourceId": 1790145168
     },
     {
       "monsterId": 255,
       "pokemon": "Torchic",
       "region": "Hoenn",
       "location": "Route 112",
-      "secondsAgo": 4664,
+      "secondsAgo": 4968,
       "sourceId": 1790141887
     },
     {
@@ -35,7 +31,7 @@
       "pokemon": "Kangaskhan",
       "region": "Sinnoh",
       "location": "Wayward Cave",
-      "secondsAgo": 14881,
+      "secondsAgo": 15185,
       "sourceId": 1790131670
     },
     {
@@ -43,7 +39,7 @@
       "pokemon": "Slakoth",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 7033,
+      "secondsAgo": 7337,
       "sourceId": 1790139518
     }
   ],
