@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-24T05:31:05.311Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-24T05:35:38.485Z",
+  "swarms": [
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Unova",
+      "location": "Lostlorn Forest",
+      "sourceId": 1790229515,
+      "despawnTimestamp": 1790229515,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-24T05:58:35.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 3,
       "pokemon": "Venusaur",
       "region": "Kanto",
       "location": "Berry Forest",
-      "secondsAgo": 3532,
+      "secondsAgo": 3805,
       "sourceId": 1790224333
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Starmie",
       "region": "Johto",
       "location": "Cliff Edge Gate",
-      "secondsAgo": 5276,
+      "secondsAgo": 5549,
       "sourceId": 1790222589
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Metagross",
       "region": "Hoenn",
       "location": "Meteor Falls",
-      "secondsAgo": 1811,
+      "secondsAgo": 2084,
       "sourceId": 1790226054
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Croagunk",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 4451,
-      "sourceId": 1790223414
-    },
-    {
-      "monsterId": 312,
-      "pokemon": "Minun",
-      "region": "Unova",
-      "location": "Route 6",
-      "secondsAgo": 12450,
-      "sourceId": 1790215415
+      "secondsAgo": 4725,
+      "sourceId": 1790223413
     }
   ],
   "alpha": {
