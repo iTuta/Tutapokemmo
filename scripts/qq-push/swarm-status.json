@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-09-24T04:01:03.544Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-24T04:05:47.478Z",
+  "swarms": [
+    {
+      "monsterId": 121,
+      "pokemon": "Starmie",
+      "region": "Johto",
+      "location": "Cliff Edge Gate",
+      "sourceId": 1790224088,
+      "despawnTimestamp": 1790224088,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-24T04:28:08.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Kanto",
       "location": "Route 17",
-      "secondsAgo": 4917,
+      "secondsAgo": 5201,
       "sourceId": 1790217546
-    },
-    {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Johto",
-      "location": "Sprout Tower",
-      "secondsAgo": 24039,
-      "sourceId": 1790198424
     },
     {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 2106,
+      "secondsAgo": 2390,
       "sourceId": 1790220357
     },
     {
@@ -31,15 +35,15 @@
       "pokemon": "Ambipom",
       "region": "Sinnoh",
       "location": "Route 216",
-      "secondsAgo": 20519,
-      "sourceId": 1790201944
+      "secondsAgo": 20802,
+      "sourceId": 1790201945
     },
     {
       "monsterId": 312,
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 7048,
+      "secondsAgo": 7332,
       "sourceId": 1790215415
     }
   ],
