@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-09-24T03:45:47.226Z",
-  "swarms": [
-    {
-      "monsterId": 242,
-      "pokemon": "Blissey",
-      "region": "Hoenn",
-      "location": "Artisan Cave",
-      "sourceId": 1790221856,
-      "despawnTimestamp": 1790221856,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-24T03:50:56.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-24T03:51:00.174Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Kanto",
       "location": "Route 17",
-      "secondsAgo": 4000,
+      "secondsAgo": 4313,
       "sourceId": 1790217547
     },
     {
@@ -27,15 +15,23 @@
       "pokemon": "Misdreavus",
       "region": "Johto",
       "location": "Sprout Tower",
-      "secondsAgo": 23123,
+      "secondsAgo": 23436,
       "sourceId": 1790198424
+    },
+    {
+      "monsterId": 242,
+      "pokemon": "Blissey",
+      "region": "Hoenn",
+      "location": "Artisan Cave",
+      "secondsAgo": 1503,
+      "sourceId": 1790220357
     },
     {
       "monsterId": 424,
       "pokemon": "Ambipom",
       "region": "Sinnoh",
       "location": "Route 216",
-      "secondsAgo": 19602,
+      "secondsAgo": 19915,
       "sourceId": 1790201945
     },
     {
@@ -43,7 +39,7 @@
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 6132,
+      "secondsAgo": 6445,
       "sourceId": 1790215415
     }
   ],
