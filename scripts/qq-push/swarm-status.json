@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-09-24T04:25:46.107Z",
+  "fetchedAt": "2026-09-24T04:30:52.859Z",
   "swarms": [
-    {
-      "monsterId": 121,
-      "pokemon": "Starmie",
-      "region": "Johto",
-      "location": "Cliff Edge Gate",
-      "sourceId": 1790224088,
-      "despawnTimestamp": 1790224088,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-24T04:28:08.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
       "region": "Sinnoh",
       "location": "Route 212",
       "sourceId": 1790224913,
-      "despawnTimestamp": 1790224913,
+      "despawnTimestamp": 1790224912,
       "hasValuable": false,
       "timestampUtc": "2026-09-24T04:41:53.000Z",
       "publishedBy": ""
@@ -30,23 +19,31 @@
       "pokemon": "Tauros",
       "region": "Kanto",
       "location": "Route 17",
-      "secondsAgo": 6399,
-      "sourceId": 1790217547
+      "secondsAgo": 6706,
+      "sourceId": 1790217546
+    },
+    {
+      "monsterId": 121,
+      "pokemon": "Starmie",
+      "region": "Johto",
+      "location": "Cliff Edge Gate",
+      "secondsAgo": 1664,
+      "sourceId": 1790222588
     },
     {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 3588,
-      "sourceId": 1790220358
+      "secondsAgo": 3895,
+      "sourceId": 1790220357
     },
     {
       "monsterId": 312,
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 8531,
+      "secondsAgo": 8837,
       "sourceId": 1790215415
     }
   ],
