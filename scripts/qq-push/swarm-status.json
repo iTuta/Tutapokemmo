@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-24T23:31:15.431Z",
+  "fetchedAt": "2026-09-24T23:35:38.066Z",
   "swarms": [
+    {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Kanto",
+      "location": "Route 4",
+      "sourceId": 1790294250,
+      "despawnTimestamp": 1790294250,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-24T23:57:30.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 387,
       "pokemon": "Turtwig",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 409,
-      "pokemon": "Rampardos",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 4705,
-      "sourceId": 1790287970
-    },
-    {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Johto",
       "location": "Route 29",
-      "secondsAgo": 9104,
+      "secondsAgo": 9367,
       "sourceId": 1790283571
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 15833,
+      "secondsAgo": 16096,
       "sourceId": 1790276842
     },
     {
@@ -43,8 +46,8 @@
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 12633,
-      "sourceId": 1790280042
+      "secondsAgo": 12895,
+      "sourceId": 1790280043
     }
   ],
   "alpha": {
