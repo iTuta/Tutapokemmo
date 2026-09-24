@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-09-24T20:55:38.829Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-24T21:00:59.196Z",
+  "swarms": [
+    {
+      "monsterId": 190,
+      "pokemon": "Aipom",
+      "region": "Johto",
+      "location": "Route 29",
+      "sourceId": 1790285070,
+      "despawnTimestamp": 1790285070,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-24T21:24:30.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 5174,
-      "sourceId": 1790278164
-    },
-    {
-      "monsterId": 121,
-      "pokemon": "Starmie",
-      "region": "Johto",
-      "location": "Cliff Edge Gate",
-      "secondsAgo": 23926,
-      "sourceId": 1790259412
+      "secondsAgo": 5494,
+      "sourceId": 1790278165
     },
     {
       "monsterId": 185,
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 6496,
+      "secondsAgo": 6817,
       "sourceId": 1790276842
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Rotom",
       "region": "Sinnoh",
       "location": "Old Chateau",
-      "secondsAgo": 3471,
+      "secondsAgo": 3792,
       "sourceId": 1790279867
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 3296,
-      "sourceId": 1790280042
+      "secondsAgo": 3616,
+      "sourceId": 1790280043
     }
   ],
   "alpha": {
