@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-24T07:05:57.044Z",
+  "fetchedAt": "2026-09-24T07:11:04.777Z",
   "swarms": [
     {
       "monsterId": 131,
@@ -7,7 +7,7 @@
       "region": "Johto",
       "location": "Union Cave",
       "sourceId": 1790234040,
-      "despawnTimestamp": 1790234040,
+      "despawnTimestamp": 1790234039,
       "hasValuable": false,
       "timestampUtc": "2026-09-24T07:14:00.000Z",
       "publishedBy": ""
@@ -22,6 +22,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-24T07:29:05.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 455,
+      "pokemon": "Carnivine",
+      "region": "Unova",
+      "location": "Route 18",
+      "sourceId": 1790235180,
+      "despawnTimestamp": 1790235179,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-24T07:33:00.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,24 +41,16 @@
       "pokemon": "Seviper",
       "region": "Kanto",
       "location": "Route 15",
-      "secondsAgo": 3382,
-      "sourceId": 1790230175
+      "secondsAgo": 3690,
+      "sourceId": 1790230174
     },
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 10143,
-      "sourceId": 1790223414
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Unova",
-      "location": "Lostlorn Forest",
-      "secondsAgo": 5541,
-      "sourceId": 1790228016
+      "secondsAgo": 10451,
+      "sourceId": 1790223413
     }
   ],
   "alpha": {
