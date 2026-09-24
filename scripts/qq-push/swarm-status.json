@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-24T07:11:04.777Z",
+  "fetchedAt": "2026-09-24T07:21:02.521Z",
   "swarms": [
-    {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Johto",
-      "location": "Union Cave",
-      "sourceId": 1790234040,
-      "despawnTimestamp": 1790234039,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-24T07:14:00.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 299,
       "pokemon": "Nosepass",
@@ -41,15 +30,23 @@
       "pokemon": "Seviper",
       "region": "Kanto",
       "location": "Route 15",
-      "secondsAgo": 3690,
-      "sourceId": 1790230174
+      "secondsAgo": 4287,
+      "sourceId": 1790230175
+    },
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Johto",
+      "location": "Union Cave",
+      "secondsAgo": 1922,
+      "sourceId": 1790232540
     },
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 10451,
+      "secondsAgo": 11049,
       "sourceId": 1790223413
     }
   ],
