@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-09-24T17:05:43.583Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-24T17:10:41.767Z",
+  "swarms": [
+    {
+      "monsterId": 424,
+      "pokemon": "Ambipom",
+      "region": "Sinnoh",
+      "location": "Route 216",
+      "sourceId": 1790271054,
+      "despawnTimestamp": 1790271053,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-24T17:30:54.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Kanto",
       "location": "Route 15",
-      "secondsAgo": 4325,
-      "sourceId": 1790265218
+      "secondsAgo": 4624,
+      "sourceId": 1790265217
     },
     {
       "monsterId": 468,
       "pokemon": "Togekiss",
       "region": "Hoenn",
       "location": "Sky Pillar",
-      "secondsAgo": 16891,
+      "secondsAgo": 17189,
       "sourceId": 1790252652
-    },
-    {
-      "monsterId": 424,
-      "pokemon": "Ambipom",
-      "region": "Sinnoh",
-      "location": "Route 216",
-      "secondsAgo": 6487,
-      "sourceId": 1790263056
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 5202,
+      "secondsAgo": 5500,
       "sourceId": 1790264341
     }
   ],
