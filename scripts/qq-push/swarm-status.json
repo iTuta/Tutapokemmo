@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-24T07:25:47.945Z",
+  "fetchedAt": "2026-09-24T07:31:11.668Z",
   "swarms": [
-    {
-      "monsterId": 299,
-      "pokemon": "Nosepass",
-      "region": "Hoenn",
-      "location": "Granite Cave",
-      "sourceId": 1790234945,
-      "despawnTimestamp": 1790234944,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-24T07:29:05.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
@@ -30,23 +19,31 @@
       "pokemon": "Seviper",
       "region": "Kanto",
       "location": "Route 15",
-      "secondsAgo": 4573,
-      "sourceId": 1790230174
+      "secondsAgo": 4896,
+      "sourceId": 1790230175
     },
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Johto",
       "location": "Union Cave",
-      "secondsAgo": 2207,
+      "secondsAgo": 2531,
       "sourceId": 1790232540
+    },
+    {
+      "monsterId": 299,
+      "pokemon": "Nosepass",
+      "region": "Hoenn",
+      "location": "Granite Cave",
+      "secondsAgo": 1625,
+      "sourceId": 1790233446
     },
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 11334,
+      "secondsAgo": 11658,
       "sourceId": 1790223413
     }
   ],
