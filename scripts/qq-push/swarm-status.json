@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-24T23:35:38.066Z",
+  "fetchedAt": "2026-09-24T23:40:45.642Z",
   "swarms": [
     {
       "monsterId": 517,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Route 4",
       "sourceId": 1790294250,
-      "despawnTimestamp": 1790294250,
+      "despawnTimestamp": 1790294249,
       "hasValuable": false,
       "timestampUtc": "2026-09-24T23:57:30.000Z",
       "publishedBy": ""
@@ -22,6 +22,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-24T23:53:38.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Unova",
+      "location": "Wellspring Cave",
+      "sourceId": 1790294468,
+      "despawnTimestamp": 1790294467,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-25T00:01:08.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +41,7 @@
       "pokemon": "Aipom",
       "region": "Johto",
       "location": "Route 29",
-      "secondsAgo": 9367,
+      "secondsAgo": 9674,
       "sourceId": 1790283571
     },
     {
@@ -38,16 +49,8 @@
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 16096,
+      "secondsAgo": 16403,
       "sourceId": 1790276842
-    },
-    {
-      "monsterId": 335,
-      "pokemon": "Zangoose",
-      "region": "Unova",
-      "location": "Route 7",
-      "secondsAgo": 12895,
-      "sourceId": 1790280043
     }
   ],
   "alpha": {
