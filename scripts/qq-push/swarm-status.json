@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-09-24T06:45:51.153Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-24T06:50:45.549Z",
+  "swarms": [
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Johto",
+      "location": "Union Cave",
+      "sourceId": 1790234040,
+      "despawnTimestamp": 1790234039,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-24T07:14:00.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Kanto",
       "location": "Route 15",
-      "secondsAgo": 2176,
+      "secondsAgo": 2470,
       "sourceId": 1790230175
-    },
-    {
-      "monsterId": 121,
-      "pokemon": "Starmie",
-      "region": "Johto",
-      "location": "Cliff Edge Gate",
-      "secondsAgo": 9762,
-      "sourceId": 1790222589
     },
     {
       "monsterId": 376,
       "pokemon": "Metagross",
       "region": "Hoenn",
       "location": "Meteor Falls",
-      "secondsAgo": 6297,
+      "secondsAgo": 6591,
       "sourceId": 1790226054
     },
     {
@@ -31,15 +35,15 @@
       "pokemon": "Croagunk",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 8937,
-      "sourceId": 1790223414
+      "secondsAgo": 9232,
+      "sourceId": 1790223413
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 4335,
+      "secondsAgo": 4629,
       "sourceId": 1790228016
     }
   ],
