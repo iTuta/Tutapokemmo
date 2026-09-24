@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-24T23:50:42.928Z",
+  "fetchedAt": "2026-09-24T23:55:39.007Z",
   "swarms": [
     {
       "monsterId": 517,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1790294249,
       "hasValuable": false,
       "timestampUtc": "2026-09-24T23:57:30.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 387,
-      "pokemon": "Turtwig",
-      "region": "Sinnoh",
-      "location": "Route 203",
-      "sourceId": 1790294018,
-      "despawnTimestamp": 1790294017,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-24T23:53:38.000Z",
       "publishedBy": ""
     },
     {
@@ -41,16 +30,24 @@
       "pokemon": "Aipom",
       "region": "Johto",
       "location": "Route 29",
-      "secondsAgo": 10271,
-      "sourceId": 1790283571
+      "secondsAgo": 10568,
+      "sourceId": 1790283570
     },
     {
       "monsterId": 185,
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 17001,
+      "secondsAgo": 17297,
       "sourceId": 1790276841
+    },
+    {
+      "monsterId": 387,
+      "pokemon": "Turtwig",
+      "region": "Sinnoh",
+      "location": "Route 203",
+      "secondsAgo": 1620,
+      "sourceId": 1790292518
     }
   ],
   "alpha": {
