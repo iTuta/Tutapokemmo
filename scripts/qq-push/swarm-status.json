@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-24T07:01:05.118Z",
+  "fetchedAt": "2026-09-24T07:05:57.044Z",
   "swarms": [
     {
       "monsterId": 131,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-24T07:14:00.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 299,
+      "pokemon": "Nosepass",
+      "region": "Hoenn",
+      "location": "Granite Cave",
+      "sourceId": 1790234945,
+      "despawnTimestamp": 1790234945,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-24T07:29:05.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,23 +30,15 @@
       "pokemon": "Seviper",
       "region": "Kanto",
       "location": "Route 15",
-      "secondsAgo": 3090,
+      "secondsAgo": 3382,
       "sourceId": 1790230175
-    },
-    {
-      "monsterId": 376,
-      "pokemon": "Metagross",
-      "region": "Hoenn",
-      "location": "Meteor Falls",
-      "secondsAgo": 7210,
-      "sourceId": 1790226055
     },
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 9851,
+      "secondsAgo": 10143,
       "sourceId": 1790223414
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 5249,
+      "secondsAgo": 5541,
       "sourceId": 1790228016
     }
   ],
