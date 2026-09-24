@@ -1,38 +1,42 @@
 {
-  "fetchedAt": "2026-09-24T00:55:38.846Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-24T01:01:01.304Z",
+  "swarms": [
+    {
+      "monsterId": 300,
+      "pokemon": "Skitty",
+      "region": "Hoenn",
+      "location": "Route 116",
+      "sourceId": 1790212882,
+      "despawnTimestamp": 1790212881,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-24T01:21:22.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 312,
       "pokemon": "Minun",
       "region": "Kanto",
       "location": "Route 22",
-      "secondsAgo": 3861,
-      "sourceId": 1790207477
-    },
-    {
-      "monsterId": 429,
-      "pokemon": "Mismagius",
-      "region": "Hoenn",
-      "location": "Route 122",
-      "secondsAgo": 3809,
-      "sourceId": 1790207529
+      "secondsAgo": 4183,
+      "sourceId": 1790207478
     },
     {
       "monsterId": 424,
       "pokemon": "Ambipom",
       "region": "Sinnoh",
       "location": "Route 216",
-      "secondsAgo": 9394,
-      "sourceId": 1790201944
+      "secondsAgo": 9716,
+      "sourceId": 1790201945
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 7612,
-      "sourceId": 1790203726
+      "secondsAgo": 7934,
+      "sourceId": 1790203727
     }
   ],
   "alpha": {
