@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-09-24T10:40:49.945Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-24T10:45:54.893Z",
+  "swarms": [
+    {
+      "monsterId": 121,
+      "pokemon": "Starmie",
+      "region": "Johto",
+      "location": "Cliff Edge Gate",
+      "sourceId": 1790247974,
+      "despawnTimestamp": 1790247974,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-24T11:06:14.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Kanto",
       "location": "Cerulean Cave",
-      "secondsAgo": 9149,
+      "secondsAgo": 9454,
       "sourceId": 1790237300
-    },
-    {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Johto",
-      "location": "Union Cave",
-      "secondsAgo": 13909,
-      "sourceId": 1790232540
     },
     {
       "monsterId": 260,
       "pokemon": "Swampert",
       "region": "Hoenn",
       "location": "Route 109",
-      "secondsAgo": 1637,
-      "sourceId": 1790244812
+      "secondsAgo": 1941,
+      "sourceId": 1790244813
     },
     {
       "monsterId": 420,
       "pokemon": "Cherubi",
       "region": "Unova",
       "location": "Route 16",
-      "secondsAgo": 4561,
+      "secondsAgo": 4866,
       "sourceId": 1790241888
     }
   ],
