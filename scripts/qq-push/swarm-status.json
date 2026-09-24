@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-24T04:30:52.859Z",
+  "fetchedAt": "2026-09-24T04:35:50.134Z",
   "swarms": [
+    {
+      "monsterId": 3,
+      "pokemon": "Venusaur",
+      "region": "Kanto",
+      "location": "Berry Forest",
+      "sourceId": 1790225832,
+      "despawnTimestamp": 1790225831,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-24T04:57:12.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Kanto",
-      "location": "Route 17",
-      "secondsAgo": 6706,
-      "sourceId": 1790217546
-    },
-    {
       "monsterId": 121,
       "pokemon": "Starmie",
       "region": "Johto",
       "location": "Cliff Edge Gate",
-      "secondsAgo": 1664,
+      "secondsAgo": 1961,
       "sourceId": 1790222588
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 3895,
+      "secondsAgo": 4192,
       "sourceId": 1790220357
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 8837,
+      "secondsAgo": 9134,
       "sourceId": 1790215415
     }
   ],
