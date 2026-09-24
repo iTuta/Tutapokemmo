@@ -1,38 +1,45 @@
 {
-  "fetchedAt": "2026-09-24T22:10:40.102Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-24T22:15:53.346Z",
+  "swarms": [
     {
-      "monsterId": 335,
-      "pokemon": "Zangoose",
+      "monsterId": 409,
+      "pokemon": "Rampardos",
       "region": "Kanto",
-      "location": "Route 14",
-      "secondsAgo": 9675,
-      "sourceId": 1790278165
+      "location": "Tanoby Ruins",
+      "sourceId": 1790289469,
+      "despawnTimestamp": 1790289469,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-24T22:37:49.000Z",
+      "publishedBy": ""
     },
+    {
+      "monsterId": 395,
+      "pokemon": "Empoleon",
+      "region": "Sinnoh",
+      "location": "Lake Acuity",
+      "sourceId": 1790289462,
+      "despawnTimestamp": 1790289462,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-24T22:37:42.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Johto",
       "location": "Route 29",
-      "secondsAgo": 4269,
+      "secondsAgo": 4582,
       "sourceId": 1790283571
-    },
-    {
-      "monsterId": 479,
-      "pokemon": "Rotom",
-      "region": "Sinnoh",
-      "location": "Old Chateau",
-      "secondsAgo": 7973,
-      "sourceId": 1790279867
     },
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 7797,
-      "sourceId": 1790280043
+      "secondsAgo": 8111,
+      "sourceId": 1790280042
     }
   ],
   "alpha": {
