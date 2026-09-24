@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-24T12:25:42.477Z",
+  "fetchedAt": "2026-09-24T12:31:06.248Z",
   "swarms": [
+    {
+      "monsterId": 375,
+      "pokemon": "Metang",
+      "region": "Johto",
+      "location": "Ice Path",
+      "sourceId": 1790254500,
+      "despawnTimestamp": 1790254500,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-24T12:55:00.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 468,
       "pokemon": "Togekiss",
@@ -11,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-24T12:49:12.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Unova",
-      "location": "Lostlorn Forest",
-      "sourceId": 1790252933,
-      "despawnTimestamp": 1790252933,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-24T12:28:53.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,24 +30,24 @@
       "pokemon": "Snorlax",
       "region": "Kanto",
       "location": "Cerulean Cave",
-      "secondsAgo": 15441,
+      "secondsAgo": 15765,
       "sourceId": 1790237301
-    },
-    {
-      "monsterId": 121,
-      "pokemon": "Starmie",
-      "region": "Johto",
-      "location": "Cliff Edge Gate",
-      "secondsAgo": 6267,
-      "sourceId": 1790246475
     },
     {
       "monsterId": 123,
       "pokemon": "Scyther",
       "region": "Sinnoh",
       "location": "Route 210",
-      "secondsAgo": 7500,
+      "secondsAgo": 7824,
       "sourceId": 1790245242
+    },
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Unova",
+      "location": "Lostlorn Forest",
+      "secondsAgo": 1632,
+      "sourceId": 1790251434
     }
   ],
   "alpha": {
