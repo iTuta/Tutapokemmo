@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-24T10:11:04.309Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-24T10:15:59.313Z",
+  "swarms": [
+    {
+      "monsterId": 260,
+      "pokemon": "Swampert",
+      "region": "Hoenn",
+      "location": "Route 109",
+      "sourceId": 1790246312,
+      "despawnTimestamp": 1790246312,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-24T10:38:32.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Kanto",
       "location": "Cerulean Cave",
-      "secondsAgo": 7363,
+      "secondsAgo": 7658,
       "sourceId": 1790237301
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Lapras",
       "region": "Johto",
       "location": "Union Cave",
-      "secondsAgo": 12123,
+      "secondsAgo": 12418,
       "sourceId": 1790232541
-    },
-    {
-      "monsterId": 299,
-      "pokemon": "Nosepass",
-      "region": "Hoenn",
-      "location": "Granite Cave",
-      "secondsAgo": 11218,
-      "sourceId": 1790233446
     },
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 21250,
+      "secondsAgo": 21545,
       "sourceId": 1790223414
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Cherubi",
       "region": "Unova",
       "location": "Route 16",
-      "secondsAgo": 2775,
+      "secondsAgo": 3070,
       "sourceId": 1790241889
     }
   ],
