@@ -1,46 +1,53 @@
 {
-  "fetchedAt": "2026-09-25T19:01:07.181Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-25T19:05:39.760Z",
+  "swarms": [
+    {
+      "monsterId": 241,
+      "pokemon": "Miltank",
+      "region": "Johto",
+      "location": "Route 39",
+      "sourceId": 1790364520,
+      "despawnTimestamp": 1790364519,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-25T19:28:40.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 106,
+      "pokemon": "Hitmonlee",
+      "region": "Unova",
+      "location": "Victory Road",
+      "sourceId": 1790364474,
+      "despawnTimestamp": 1790364473,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-25T19:27:54.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 350,
       "pokemon": "Milotic",
       "region": "Kanto",
       "location": "Resort Gorgeous",
-      "secondsAgo": 1613,
-      "sourceId": 1790361254
-    },
-    {
-      "monsterId": 153,
-      "pokemon": "Bayleef",
-      "region": "Johto",
-      "location": "National Park",
-      "secondsAgo": 3210,
-      "sourceId": 1790359657
+      "secondsAgo": 1886,
+      "sourceId": 1790361253
     },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
       "region": "Hoenn",
       "location": "Route 133",
-      "secondsAgo": 11669,
-      "sourceId": 1790351198
+      "secondsAgo": 11942,
+      "sourceId": 1790351197
     },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
       "region": "Sinnoh",
       "location": "Lake Valor",
-      "secondsAgo": 10713,
-      "sourceId": 1790352154
-    },
-    {
-      "monsterId": 517,
-      "pokemon": "Munna",
-      "region": "Unova",
-      "location": "Dreamyard",
-      "secondsAgo": 8635,
-      "sourceId": 1790354232
+      "secondsAgo": 10986,
+      "sourceId": 1790352153
     }
   ],
   "alpha": {
