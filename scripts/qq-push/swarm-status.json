@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-09-25T12:25:43.353Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-25T12:31:04.133Z",
+  "swarms": [
+    {
+      "monsterId": 285,
+      "pokemon": "Shroomish",
+      "region": "Johto",
+      "location": "Route 34",
+      "sourceId": 1790340876,
+      "despawnTimestamp": 1790340876,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-25T12:54:36.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 161,
       "pokemon": "Sentret",
       "region": "Kanto",
       "location": "Route 1",
-      "secondsAgo": 7847,
+      "secondsAgo": 8168,
       "sourceId": 1790331296
-    },
-    {
-      "monsterId": 121,
-      "pokemon": "Starmie",
-      "region": "Johto",
-      "location": "Cliff Edge Gate",
-      "secondsAgo": 9742,
-      "sourceId": 1790329401
     },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
       "region": "Hoenn",
       "location": "Route 128",
-      "secondsAgo": 3669,
+      "secondsAgo": 3990,
       "sourceId": 1790335474
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Prinplup",
       "region": "Sinnoh",
       "location": "Route 220",
-      "secondsAgo": 11714,
+      "secondsAgo": 12035,
       "sourceId": 1790327429
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Houndoom",
       "region": "Unova",
       "location": "Route 15",
-      "secondsAgo": 4314,
-      "sourceId": 1790334829
+      "secondsAgo": 4634,
+      "sourceId": 1790334830
     }
   ],
   "alpha": {
