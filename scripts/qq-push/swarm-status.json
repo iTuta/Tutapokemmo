@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-09-25T04:05:38.460Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-25T04:10:55.185Z",
+  "swarms": [
     {
-      "monsterId": 103,
-      "pokemon": "Exeggutor",
+      "monsterId": 242,
+      "pokemon": "Blissey",
       "region": "Kanto",
-      "location": "Route 23",
-      "secondsAgo": 11818,
-      "sourceId": 1790297320
-    },
+      "location": "Three Island",
+      "sourceId": 1790310640,
+      "despawnTimestamp": 1790310640,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-25T04:30:40.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 160,
       "pokemon": "Feraligatr",
       "region": "Johto",
       "location": "Tohjo Falls",
-      "secondsAgo": 3394,
+      "secondsAgo": 3711,
       "sourceId": 1790305744
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Treecko",
       "region": "Hoenn",
       "location": "Petalburg Woods",
-      "secondsAgo": 6110,
+      "secondsAgo": 6427,
       "sourceId": 1790303028
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Glaceon",
       "region": "Sinnoh",
       "location": "Route 217",
-      "secondsAgo": 1922,
+      "secondsAgo": 2239,
       "sourceId": 1790307216
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Pupitar",
       "region": "Unova",
       "location": "Twist Mountain",
-      "secondsAgo": 3315,
+      "secondsAgo": 3632,
       "sourceId": 1790305823
     }
   ],
