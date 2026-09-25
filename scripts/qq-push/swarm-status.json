@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-25T19:25:41.828Z",
+  "fetchedAt": "2026-09-25T19:31:02.948Z",
   "swarms": [
-    {
-      "monsterId": 241,
-      "pokemon": "Miltank",
-      "region": "Johto",
-      "location": "Route 39",
-      "sourceId": 1790364520,
-      "despawnTimestamp": 1790364519,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-25T19:28:40.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 134,
       "pokemon": "Vaporeon",
@@ -22,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-25T19:35:32.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 106,
-      "pokemon": "Hitmonlee",
-      "region": "Unova",
-      "location": "Victory Road",
-      "sourceId": 1790364474,
-      "despawnTimestamp": 1790364473,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-25T19:27:54.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,16 +19,32 @@
       "pokemon": "Milotic",
       "region": "Kanto",
       "location": "Resort Gorgeous",
-      "secondsAgo": 3088,
+      "secondsAgo": 3409,
       "sourceId": 1790361253
+    },
+    {
+      "monsterId": 241,
+      "pokemon": "Miltank",
+      "region": "Johto",
+      "location": "Route 39",
+      "secondsAgo": 1642,
+      "sourceId": 1790363020
     },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
       "region": "Sinnoh",
       "location": "Lake Valor",
-      "secondsAgo": 12188,
+      "secondsAgo": 12509,
       "sourceId": 1790352153
+    },
+    {
+      "monsterId": 106,
+      "pokemon": "Hitmonlee",
+      "region": "Unova",
+      "location": "Victory Road",
+      "secondsAgo": 1688,
+      "sourceId": 1790362974
     }
   ],
   "alpha": {
