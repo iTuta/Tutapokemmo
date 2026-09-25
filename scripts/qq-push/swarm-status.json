@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-25T21:05:49.637Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-25T21:11:22.409Z",
+  "swarms": [
+    {
+      "monsterId": 254,
+      "pokemon": "Sceptile",
+      "region": "Hoenn",
+      "location": "Route 119",
+      "sourceId": 1790371868,
+      "despawnTimestamp": 1790371868,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-25T21:31:08.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 350,
       "pokemon": "Milotic",
       "region": "Kanto",
       "location": "Resort Gorgeous",
-      "secondsAgo": 9096,
+      "secondsAgo": 9429,
       "sourceId": 1790361253
     },
     {
@@ -15,24 +27,16 @@
       "pokemon": "Barboach",
       "region": "Johto",
       "location": "Slowpoke Well",
-      "secondsAgo": 3840,
+      "secondsAgo": 4173,
       "sourceId": 1790366509
-    },
-    {
-      "monsterId": 242,
-      "pokemon": "Blissey",
-      "region": "Hoenn",
-      "location": "Artisan Cave",
-      "secondsAgo": 2439,
-      "sourceId": 1790367910
     },
     {
       "monsterId": 106,
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "secondsAgo": 7375,
-      "sourceId": 1790362974
+      "secondsAgo": 7707,
+      "sourceId": 1790362975
     }
   ],
   "alpha": {
