@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-09-25T09:40:43.813Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-25T09:45:44.425Z",
+  "swarms": [
+    {
+      "monsterId": 121,
+      "pokemon": "Starmie",
+      "region": "Johto",
+      "location": "Cliff Edge Gate",
+      "sourceId": 1790330900,
+      "despawnTimestamp": 1790330900,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-25T10:08:20.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Kanto",
       "location": "Victory Road",
-      "secondsAgo": 11155,
+      "secondsAgo": 11456,
       "sourceId": 1790318088
-    },
-    {
-      "monsterId": 160,
-      "pokemon": "Feraligatr",
-      "region": "Johto",
-      "location": "Tohjo Falls",
-      "secondsAgo": 23500,
-      "sourceId": 1790305743
     },
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Hoenn",
       "location": "Abandoned Ship",
-      "secondsAgo": 13479,
+      "secondsAgo": 13780,
       "sourceId": 1790315764
     },
     {
@@ -31,16 +35,16 @@
       "pokemon": "Prinplup",
       "region": "Sinnoh",
       "location": "Route 220",
-      "secondsAgo": 1815,
-      "sourceId": 1790327428
+      "secondsAgo": 2115,
+      "sourceId": 1790327429
     },
     {
       "monsterId": 224,
       "pokemon": "Octillery",
       "region": "Unova",
       "location": "Route 13",
-      "secondsAgo": 3569,
-      "sourceId": 1790325674
+      "secondsAgo": 3869,
+      "sourceId": 1790325675
     }
   ],
   "alpha": {
