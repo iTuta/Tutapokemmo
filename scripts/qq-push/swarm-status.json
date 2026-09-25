@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-25T16:35:46.422Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-25T16:40:58.514Z",
+  "swarms": [
+    {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Unova",
+      "location": "Dreamyard",
+      "sourceId": 1790355731,
+      "despawnTimestamp": 1790355731,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-25T17:02:11.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Kanto",
       "location": "Kindle Road",
-      "secondsAgo": 6018,
+      "secondsAgo": 6330,
       "sourceId": 1790348128
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Aipom",
       "region": "Johto",
       "location": "Route 29",
-      "secondsAgo": 8336,
+      "secondsAgo": 8648,
       "sourceId": 1790345810
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Cloyster",
       "region": "Hoenn",
       "location": "Route 133",
-      "secondsAgo": 2948,
+      "secondsAgo": 3260,
       "sourceId": 1790351198
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Crawdaunt",
       "region": "Sinnoh",
       "location": "Lake Valor",
-      "secondsAgo": 1993,
+      "secondsAgo": 2305,
       "sourceId": 1790352153
-    },
-    {
-      "monsterId": 222,
-      "pokemon": "Corsola",
-      "region": "Unova",
-      "location": "Undella Bay",
-      "secondsAgo": 9196,
-      "sourceId": 1790344950
     }
   ],
   "alpha": {
