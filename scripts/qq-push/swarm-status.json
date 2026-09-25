@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-25T16:10:58.621Z",
+  "fetchedAt": "2026-09-25T16:15:48.523Z",
   "swarms": [
-    {
-      "monsterId": 91,
-      "pokemon": "Cloyster",
-      "region": "Hoenn",
-      "location": "Route 133",
-      "sourceId": 1790352697,
-      "despawnTimestamp": 1790352697,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-25T16:11:37.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
@@ -30,15 +19,23 @@
       "pokemon": "Aipom",
       "region": "Johto",
       "location": "Route 29",
-      "secondsAgo": 6848,
+      "secondsAgo": 7138,
       "sourceId": 1790345810
+    },
+    {
+      "monsterId": 91,
+      "pokemon": "Cloyster",
+      "region": "Hoenn",
+      "location": "Route 133",
+      "secondsAgo": 1750,
+      "sourceId": 1790351198
     },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
       "region": "Unova",
       "location": "Undella Bay",
-      "secondsAgo": 7708,
+      "secondsAgo": 7998,
       "sourceId": 1790344950
     }
   ],
