@@ -1,29 +1,41 @@
 {
-  "fetchedAt": "2026-09-25T05:55:58.220Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-25T06:00:59.739Z",
+  "swarms": [
+    {
+      "monsterId": 442,
+      "pokemon": "Spiritomb",
+      "region": "Hoenn",
+      "location": "Abandoned Ship",
+      "sourceId": 1790317263,
+      "despawnTimestamp": 1790317263,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-25T06:21:03.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Kanto",
       "location": "Three Island",
-      "secondsAgo": 6617,
+      "secondsAgo": 6918,
       "sourceId": 1790309141
     },
     {
-      "monsterId": 252,
-      "pokemon": "Treecko",
-      "region": "Hoenn",
-      "location": "Petalburg Woods",
-      "secondsAgo": 12730,
-      "sourceId": 1790303028
+      "monsterId": 160,
+      "pokemon": "Feraligatr",
+      "region": "Johto",
+      "location": "Tohjo Falls",
+      "secondsAgo": 10315,
+      "sourceId": 1790305744
     },
     {
       "monsterId": 471,
       "pokemon": "Glaceon",
       "region": "Sinnoh",
       "location": "Route 217",
-      "secondsAgo": 8542,
+      "secondsAgo": 8843,
       "sourceId": 1790307216
     },
     {
@@ -31,7 +43,7 @@
       "pokemon": "Lumineon",
       "region": "Unova",
       "location": "Route 17",
-      "secondsAgo": 4810,
+      "secondsAgo": 5111,
       "sourceId": 1790310948
     }
   ],
