@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-25T04:35:41.412Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-25T04:40:49.499Z",
+  "swarms": [
+    {
+      "monsterId": 457,
+      "pokemon": "Lumineon",
+      "region": "Unova",
+      "location": "Route 17",
+      "sourceId": 1790312447,
+      "despawnTimestamp": 1790312447,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-25T05:00:47.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Kanto",
       "location": "Three Island",
-      "secondsAgo": 1800,
+      "secondsAgo": 2108,
       "sourceId": 1790309141
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Feraligatr",
       "region": "Johto",
       "location": "Tohjo Falls",
-      "secondsAgo": 5197,
+      "secondsAgo": 5505,
       "sourceId": 1790305744
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Treecko",
       "region": "Hoenn",
       "location": "Petalburg Woods",
-      "secondsAgo": 7913,
-      "sourceId": 1790303028
+      "secondsAgo": 8222,
+      "sourceId": 1790303027
     },
     {
       "monsterId": 471,
       "pokemon": "Glaceon",
       "region": "Sinnoh",
       "location": "Route 217",
-      "secondsAgo": 3725,
+      "secondsAgo": 4033,
       "sourceId": 1790307216
-    },
-    {
-      "monsterId": 247,
-      "pokemon": "Pupitar",
-      "region": "Unova",
-      "location": "Twist Mountain",
-      "secondsAgo": 5118,
-      "sourceId": 1790305823
     }
   ],
   "alpha": {
