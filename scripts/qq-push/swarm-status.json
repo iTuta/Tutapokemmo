@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-25T20:20:44.095Z",
+  "fetchedAt": "2026-09-25T20:25:42.990Z",
   "swarms": [
     {
       "monsterId": 339,
@@ -7,9 +7,20 @@
       "region": "Johto",
       "location": "Slowpoke Well",
       "sourceId": 1790368009,
-      "despawnTimestamp": 1790368009,
+      "despawnTimestamp": 1790368008,
       "hasValuable": false,
       "timestampUtc": "2026-09-25T20:26:49.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 242,
+      "pokemon": "Blissey",
+      "region": "Hoenn",
+      "location": "Artisan Cave",
+      "sourceId": 1790369409,
+      "despawnTimestamp": 1790369408,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-25T20:50:09.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,24 +30,16 @@
       "pokemon": "Milotic",
       "region": "Kanto",
       "location": "Resort Gorgeous",
-      "secondsAgo": 6390,
-      "sourceId": 1790361254
-    },
-    {
-      "monsterId": 134,
-      "pokemon": "Vaporeon",
-      "region": "Hoenn",
-      "location": "Route 134",
-      "secondsAgo": 4211,
-      "sourceId": 1790363433
+      "secondsAgo": 6689,
+      "sourceId": 1790361253
     },
     {
       "monsterId": 106,
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "secondsAgo": 4669,
-      "sourceId": 1790362975
+      "secondsAgo": 4968,
+      "sourceId": 1790362974
     }
   ],
   "alpha": {
