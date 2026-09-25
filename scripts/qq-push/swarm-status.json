@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-09-25T14:01:10.703Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-25T14:06:05.418Z",
+  "swarms": [
+    {
+      "monsterId": 222,
+      "pokemon": "Corsola",
+      "region": "Unova",
+      "location": "Undella Bay",
+      "sourceId": 1790346449,
+      "despawnTimestamp": 1790346449,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-25T14:27:29.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 8,
       "pokemon": "Wartortle",
       "region": "Kanto",
       "location": "Seafoam Islands",
-      "secondsAgo": 2990,
-      "sourceId": 1790341880
+      "secondsAgo": 3284,
+      "sourceId": 1790341881
     },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Johto",
       "location": "Route 34",
-      "secondsAgo": 5494,
-      "sourceId": 1790339376
+      "secondsAgo": 5788,
+      "sourceId": 1790339377
     },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
       "region": "Hoenn",
       "location": "Route 128",
-      "secondsAgo": 9397,
-      "sourceId": 1790335473
+      "secondsAgo": 9691,
+      "sourceId": 1790335474
     },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 2760,
-      "sourceId": 1790342110
-    },
-    {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Unova",
-      "location": "Route 15",
-      "secondsAgo": 10041,
-      "sourceId": 1790334829
+      "secondsAgo": 3054,
+      "sourceId": 1790342111
     }
   ],
   "alpha": {
