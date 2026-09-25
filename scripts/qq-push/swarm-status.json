@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-25T01:10:49.427Z",
+  "fetchedAt": "2026-09-25T01:15:44.782Z",
   "swarms": [
-    {
-      "monsterId": 103,
-      "pokemon": "Exeggutor",
-      "region": "Kanto",
-      "location": "Route 23",
-      "sourceId": 1790298819,
-      "despawnTimestamp": 1790298819,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-25T01:13:39.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 162,
       "pokemon": "Furret",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 103,
+      "pokemon": "Exeggutor",
+      "region": "Kanto",
+      "location": "Route 23",
+      "secondsAgo": 1625,
+      "sourceId": 1790297319
+    },
+    {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Johto",
       "location": "Cliff Cave",
-      "secondsAgo": 2631,
+      "secondsAgo": 2926,
       "sourceId": 1790296018
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Skarmory",
       "region": "Hoenn",
       "location": "Route 113",
-      "secondsAgo": 2243,
+      "secondsAgo": 2538,
       "sourceId": 1790296406
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Kangaskhan",
       "region": "Unova",
       "location": "Wellspring Cave",
-      "secondsAgo": 5681,
+      "secondsAgo": 5976,
       "sourceId": 1790292968
     }
   ],
