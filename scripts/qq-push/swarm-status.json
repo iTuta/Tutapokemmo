@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-25T06:30:50.266Z",
+  "fetchedAt": "2026-09-25T06:35:41.144Z",
   "swarms": [
+    {
+      "monsterId": 373,
+      "pokemon": "Salamence",
+      "region": "Kanto",
+      "location": "Victory Road",
+      "sourceId": 1790319588,
+      "despawnTimestamp": 1790319588,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-25T06:59:48.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 242,
-      "pokemon": "Blissey",
-      "region": "Kanto",
-      "location": "Three Island",
-      "secondsAgo": 8709,
-      "sourceId": 1790309141
-    },
-    {
       "monsterId": 160,
       "pokemon": "Feraligatr",
       "region": "Johto",
       "location": "Tohjo Falls",
-      "secondsAgo": 12106,
+      "secondsAgo": 12397,
       "sourceId": 1790305744
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Spiritomb",
       "region": "Hoenn",
       "location": "Abandoned Ship",
-      "secondsAgo": 2086,
+      "secondsAgo": 2377,
       "sourceId": 1790315764
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Lumineon",
       "region": "Unova",
       "location": "Route 17",
-      "secondsAgo": 6902,
+      "secondsAgo": 7193,
       "sourceId": 1790310948
     }
   ],
