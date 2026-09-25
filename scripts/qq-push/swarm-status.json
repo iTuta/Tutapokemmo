@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-09-25T02:46:09.067Z",
-  "swarms": [
-    {
-      "monsterId": 252,
-      "pokemon": "Treecko",
-      "region": "Hoenn",
-      "location": "Petalburg Woods",
-      "sourceId": 1790304527,
-      "despawnTimestamp": 1790304527,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-25T02:48:47.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-25T02:50:58.087Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 103,
       "pokemon": "Exeggutor",
       "region": "Kanto",
       "location": "Route 23",
-      "secondsAgo": 7049,
+      "secondsAgo": 7338,
       "sourceId": 1790297320
     },
     {
@@ -27,15 +15,23 @@
       "pokemon": "Shuckle",
       "region": "Johto",
       "location": "Cliff Cave",
-      "secondsAgo": 8350,
+      "secondsAgo": 8639,
       "sourceId": 1790296019
+    },
+    {
+      "monsterId": 252,
+      "pokemon": "Treecko",
+      "region": "Hoenn",
+      "location": "Petalburg Woods",
+      "secondsAgo": 1630,
+      "sourceId": 1790303028
     },
     {
       "monsterId": 162,
       "pokemon": "Furret",
       "region": "Sinnoh",
       "location": "Route 208",
-      "secondsAgo": 6446,
+      "secondsAgo": 6735,
       "sourceId": 1790297923
     },
     {
@@ -43,7 +39,7 @@
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 4458,
+      "secondsAgo": 4747,
       "sourceId": 1790299911
     }
   ],
