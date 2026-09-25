@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-09-24T23:55:39.007Z",
+  "fetchedAt": "2026-09-25T00:00:57.254Z",
   "swarms": [
-    {
-      "monsterId": 517,
-      "pokemon": "Munna",
-      "region": "Kanto",
-      "location": "Route 4",
-      "sourceId": 1790294250,
-      "despawnTimestamp": 1790294249,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-24T23:57:30.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Unova",
       "location": "Wellspring Cave",
       "sourceId": 1790294468,
-      "despawnTimestamp": 1790294467,
+      "despawnTimestamp": 1790294468,
       "hasValuable": false,
       "timestampUtc": "2026-09-25T00:01:08.000Z",
       "publishedBy": ""
@@ -26,28 +15,36 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Kanto",
+      "location": "Route 4",
+      "secondsAgo": 1706,
+      "sourceId": 1790292751
+    },
+    {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Johto",
       "location": "Route 29",
-      "secondsAgo": 10568,
-      "sourceId": 1790283570
+      "secondsAgo": 10886,
+      "sourceId": 1790283571
     },
     {
       "monsterId": 185,
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 17297,
-      "sourceId": 1790276841
+      "secondsAgo": 17615,
+      "sourceId": 1790276842
     },
     {
       "monsterId": 387,
       "pokemon": "Turtwig",
       "region": "Sinnoh",
       "location": "Route 203",
-      "secondsAgo": 1620,
-      "sourceId": 1790292518
+      "secondsAgo": 1938,
+      "sourceId": 1790292519
     }
   ],
   "alpha": {
