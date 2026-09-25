@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-25T11:35:43.289Z",
+  "fetchedAt": "2026-09-25T11:40:43.044Z",
   "swarms": [
     {
       "monsterId": 222,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-25T11:49:33.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Unova",
-      "location": "Route 15",
-      "sourceId": 1790336328,
-      "despawnTimestamp": 1790336328,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-25T11:38:48.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Sentret",
       "region": "Kanto",
       "location": "Route 1",
-      "secondsAgo": 4847,
+      "secondsAgo": 5147,
       "sourceId": 1790331296
     },
     {
@@ -38,7 +27,7 @@
       "pokemon": "Starmie",
       "region": "Johto",
       "location": "Cliff Edge Gate",
-      "secondsAgo": 6742,
+      "secondsAgo": 7042,
       "sourceId": 1790329401
     },
     {
@@ -46,8 +35,16 @@
       "pokemon": "Prinplup",
       "region": "Sinnoh",
       "location": "Route 220",
-      "secondsAgo": 8714,
+      "secondsAgo": 9014,
       "sourceId": 1790327429
+    },
+    {
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Unova",
+      "location": "Route 15",
+      "secondsAgo": 1614,
+      "sourceId": 1790334829
     }
   ],
   "alpha": {
