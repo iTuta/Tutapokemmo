@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-25T16:01:16.926Z",
+  "fetchedAt": "2026-09-25T16:05:43.142Z",
   "swarms": [
     {
       "monsterId": 91,
@@ -7,9 +7,20 @@
       "region": "Hoenn",
       "location": "Route 133",
       "sourceId": 1790352697,
-      "despawnTimestamp": 1790352696,
+      "despawnTimestamp": 1790352698,
       "hasValuable": false,
       "timestampUtc": "2026-09-25T16:11:37.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 342,
+      "pokemon": "Crawdaunt",
+      "region": "Sinnoh",
+      "location": "Lake Valor",
+      "sourceId": 1790353653,
+      "despawnTimestamp": 1790353653,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-25T16:27:33.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,24 +30,16 @@
       "pokemon": "Aipom",
       "region": "Johto",
       "location": "Route 29",
-      "secondsAgo": 6267,
-      "sourceId": 1790345809
-    },
-    {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Sinnoh",
-      "location": "Valor Lakefront",
-      "secondsAgo": 9966,
-      "sourceId": 1790342110
+      "secondsAgo": 6533,
+      "sourceId": 1790345810
     },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
       "region": "Unova",
       "location": "Undella Bay",
-      "secondsAgo": 7127,
-      "sourceId": 1790344949
+      "secondsAgo": 7392,
+      "sourceId": 1790344951
     }
   ],
   "alpha": {
