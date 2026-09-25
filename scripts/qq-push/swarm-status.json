@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-25T20:01:01.013Z",
+  "fetchedAt": "2026-09-25T20:05:46.691Z",
   "swarms": [
+    {
+      "monsterId": 339,
+      "pokemon": "Barboach",
+      "region": "Johto",
+      "location": "Slowpoke Well",
+      "sourceId": 1790368009,
+      "despawnTimestamp": 1790368008,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-25T20:26:49.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 122,
       "pokemon": "Mr. Mime",
@@ -19,23 +30,15 @@
       "pokemon": "Milotic",
       "region": "Kanto",
       "location": "Resort Gorgeous",
-      "secondsAgo": 5207,
+      "secondsAgo": 5493,
       "sourceId": 1790361253
-    },
-    {
-      "monsterId": 241,
-      "pokemon": "Miltank",
-      "region": "Johto",
-      "location": "Route 39",
-      "secondsAgo": 3440,
-      "sourceId": 1790363020
     },
     {
       "monsterId": 134,
       "pokemon": "Vaporeon",
       "region": "Hoenn",
       "location": "Route 134",
-      "secondsAgo": 3028,
+      "secondsAgo": 3314,
       "sourceId": 1790363432
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "secondsAgo": 3486,
+      "secondsAgo": 3772,
       "sourceId": 1790362974
     }
   ],
