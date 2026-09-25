@@ -1,65 +1,50 @@
 {
-  "fetchedAt": "2026-09-25T15:15:55.732Z",
-  "swarms": [
-    {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Kanto",
-      "location": "Kindle Road",
-      "sourceId": 1790349627,
-      "despawnTimestamp": 1790349627,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-25T15:20:27.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 259,
-      "pokemon": "Marshtomp",
-      "region": "Hoenn",
-      "location": "Route 124",
-      "sourceId": 1790349498,
-      "despawnTimestamp": 1790349498,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-25T15:18:18.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-25T15:21:15.090Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Johto",
       "location": "Route 29",
-      "secondsAgo": 3546,
-      "sourceId": 1790345809
+      "secondsAgo": 3865,
+      "sourceId": 1790345810
+    },
+    {
+      "monsterId": 259,
+      "pokemon": "Marshtomp",
+      "region": "Hoenn",
+      "location": "Route 124",
+      "secondsAgo": 1676,
+      "sourceId": 1790347999
     },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 7245,
-      "sourceId": 1790342110
+      "secondsAgo": 7564,
+      "sourceId": 1790342111
     },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
       "region": "Unova",
       "location": "Undella Bay",
-      "secondsAgo": 4405,
+      "secondsAgo": 4725,
       "sourceId": 1790344950
     }
   ],
   "alpha": {
-    "monsterId": 357,
-    "pokemon": "Tropius",
-    "region": "Hoenn",
-    "location": "Route 118",
-    "sourceId": 1790311556,
-    "despawnTimestamp": 1790328656,
+    "monsterId": 469,
+    "pokemon": "Yanmega",
+    "region": "Kanto",
+    "location": "Six Island",
+    "sourceId": 1790336818,
+    "despawnTimestamp": 1790353918,
     "hasValuable": false,
-    "timestampUtc": "2026-09-25T04:45:56.000Z",
-    "timestampRaw": "2026-09-25T04:45:56.000Z",
-    "publishedBy": "Avionzor"
+    "timestampUtc": "2026-09-25T11:46:58.000Z",
+    "timestampRaw": "2026-09-25T11:46:58.000Z",
+    "publishedBy": ""
   }
 }
