@@ -1,38 +1,42 @@
 {
-  "fetchedAt": "2026-09-25T08:40:41.170Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-25T08:45:41.981Z",
+  "swarms": [
+    {
+      "monsterId": 224,
+      "pokemon": "Octillery",
+      "region": "Unova",
+      "location": "Route 13",
+      "sourceId": 1790327174,
+      "despawnTimestamp": 1790327173,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-25T09:06:14.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Kanto",
       "location": "Victory Road",
-      "secondsAgo": 7552,
-      "sourceId": 1790318089
+      "secondsAgo": 7853,
+      "sourceId": 1790318088
     },
     {
       "monsterId": 160,
       "pokemon": "Feraligatr",
       "region": "Johto",
       "location": "Tohjo Falls",
-      "secondsAgo": 19897,
-      "sourceId": 1790305744
+      "secondsAgo": 20198,
+      "sourceId": 1790305743
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 8379,
-      "sourceId": 1790317262
-    },
-    {
-      "monsterId": 457,
-      "pokemon": "Lumineon",
-      "region": "Unova",
-      "location": "Route 17",
-      "secondsAgo": 14693,
-      "sourceId": 1790310948
+      "secondsAgo": 8680,
+      "sourceId": 1790317261
     }
   ],
   "alpha": {
