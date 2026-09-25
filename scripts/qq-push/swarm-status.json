@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-25T23:00:57.207Z",
+  "fetchedAt": "2026-09-25T23:05:39.366Z",
   "swarms": [
     {
       "monsterId": 348,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-25T23:16:35.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 91,
-      "pokemon": "Cloyster",
-      "region": "Sinnoh",
-      "location": "Route 223",
-      "sourceId": 1790377337,
-      "despawnTimestamp": 1790377337,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-25T23:02:17.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Porygon-Z",
       "region": "Johto",
       "location": "Team Rocket HQ",
-      "secondsAgo": 2292,
+      "secondsAgo": 2574,
       "sourceId": 1790374965
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Sceptile",
       "region": "Hoenn",
       "location": "Route 119",
-      "secondsAgo": 6888,
+      "secondsAgo": 7170,
       "sourceId": 1790370369
+    },
+    {
+      "monsterId": 91,
+      "pokemon": "Cloyster",
+      "region": "Sinnoh",
+      "location": "Route 223",
+      "secondsAgo": 1702,
+      "sourceId": 1790375837
     },
     {
       "monsterId": 317,
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 2661,
+      "secondsAgo": 2943,
       "sourceId": 1790374596
     }
   ],
