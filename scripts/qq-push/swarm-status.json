@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-09-25T22:45:51.243Z",
+  "fetchedAt": "2026-09-25T22:50:42.474Z",
   "swarms": [
-    {
-      "monsterId": 474,
-      "pokemon": "Porygon-Z",
-      "region": "Johto",
-      "location": "Team Rocket HQ",
-      "sourceId": 1790376464,
-      "despawnTimestamp": 1790376464,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-25T22:47:44.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
       "region": "Sinnoh",
       "location": "Route 223",
       "sourceId": 1790377337,
-      "despawnTimestamp": 1790377337,
+      "despawnTimestamp": 1790377336,
       "hasValuable": false,
       "timestampUtc": "2026-09-25T23:02:17.000Z",
       "publishedBy": ""
@@ -30,15 +19,23 @@
       "pokemon": "Milotic",
       "region": "Kanto",
       "location": "Resort Gorgeous",
-      "secondsAgo": 15097,
-      "sourceId": 1790361254
+      "secondsAgo": 15389,
+      "sourceId": 1790361253
+    },
+    {
+      "monsterId": 474,
+      "pokemon": "Porygon-Z",
+      "region": "Johto",
+      "location": "Team Rocket HQ",
+      "secondsAgo": 1677,
+      "sourceId": 1790374965
     },
     {
       "monsterId": 254,
       "pokemon": "Sceptile",
       "region": "Hoenn",
       "location": "Route 119",
-      "secondsAgo": 5982,
+      "secondsAgo": 6273,
       "sourceId": 1790370369
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 1755,
+      "secondsAgo": 2046,
       "sourceId": 1790374596
     }
   ],
