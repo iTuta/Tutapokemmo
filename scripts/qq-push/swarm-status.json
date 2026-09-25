@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-25T21:31:01.420Z",
+  "fetchedAt": "2026-09-25T21:35:47.568Z",
   "swarms": [
-    {
-      "monsterId": 254,
-      "pokemon": "Sceptile",
-      "region": "Hoenn",
-      "location": "Route 119",
-      "sourceId": 1790371868,
-      "despawnTimestamp": 1790371868,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-25T21:31:08.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 233,
       "pokemon": "Porygon2",
@@ -30,7 +19,7 @@
       "pokemon": "Milotic",
       "region": "Kanto",
       "location": "Resort Gorgeous",
-      "secondsAgo": 10608,
+      "secondsAgo": 10894,
       "sourceId": 1790361253
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Barboach",
       "region": "Johto",
       "location": "Slowpoke Well",
-      "secondsAgo": 5352,
+      "secondsAgo": 5638,
       "sourceId": 1790366509
+    },
+    {
+      "monsterId": 254,
+      "pokemon": "Sceptile",
+      "region": "Hoenn",
+      "location": "Route 119",
+      "secondsAgo": 1778,
+      "sourceId": 1790370369
     },
     {
       "monsterId": 122,
       "pokemon": "Mr. Mime",
       "region": "Sinnoh",
       "location": "Route 224",
-      "secondsAgo": 5474,
+      "secondsAgo": 5760,
       "sourceId": 1790366387
     }
   ],
