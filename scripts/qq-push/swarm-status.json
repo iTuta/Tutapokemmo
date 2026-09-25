@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-25T22:15:45.672Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-25T22:20:49.301Z",
+  "swarms": [
+    {
+      "monsterId": 317,
+      "pokemon": "Swalot",
+      "region": "Unova",
+      "location": "Route 9",
+      "sourceId": 1790376095,
+      "despawnTimestamp": 1790376095,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-25T22:41:35.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 350,
       "pokemon": "Milotic",
       "region": "Kanto",
       "location": "Resort Gorgeous",
-      "secondsAgo": 13292,
+      "secondsAgo": 13596,
       "sourceId": 1790361253
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Barboach",
       "region": "Johto",
       "location": "Slowpoke Well",
-      "secondsAgo": 8036,
+      "secondsAgo": 8340,
       "sourceId": 1790366509
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Sceptile",
       "region": "Hoenn",
       "location": "Route 119",
-      "secondsAgo": 4176,
+      "secondsAgo": 4480,
       "sourceId": 1790370369
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Mr. Mime",
       "region": "Sinnoh",
       "location": "Route 224",
-      "secondsAgo": 8158,
+      "secondsAgo": 8462,
       "sourceId": 1790366387
-    },
-    {
-      "monsterId": 233,
-      "pokemon": "Porygon2",
-      "region": "Unova",
-      "location": "P2 Laboratory",
-      "secondsAgo": 3561,
-      "sourceId": 1790370984
     }
   ],
   "alpha": {
