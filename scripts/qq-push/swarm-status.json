@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-25T00:30:50.136Z",
+  "fetchedAt": "2026-09-25T00:35:44.586Z",
   "swarms": [
     {
       "monsterId": 213,
@@ -7,9 +7,20 @@
       "region": "Johto",
       "location": "Cliff Cave",
       "sourceId": 1790297518,
-      "despawnTimestamp": 1790297518,
+      "despawnTimestamp": 1790297517,
       "hasValuable": false,
       "timestampUtc": "2026-09-25T00:51:58.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 227,
+      "pokemon": "Skarmory",
+      "region": "Hoenn",
+      "location": "Route 113",
+      "sourceId": 1790297906,
+      "despawnTimestamp": 1790297905,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-25T00:58:26.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,23 +30,15 @@
       "pokemon": "Munna",
       "region": "Kanto",
       "location": "Route 4",
-      "secondsAgo": 3499,
-      "sourceId": 1790292751
-    },
-    {
-      "monsterId": 185,
-      "pokemon": "Sudowoodo",
-      "region": "Hoenn",
-      "location": "Battle Frontier",
-      "secondsAgo": 19408,
-      "sourceId": 1790276842
+      "secondsAgo": 3794,
+      "sourceId": 1790292750
     },
     {
       "monsterId": 387,
       "pokemon": "Turtwig",
       "region": "Sinnoh",
       "location": "Route 203",
-      "secondsAgo": 3731,
+      "secondsAgo": 4025,
       "sourceId": 1790292519
     },
     {
@@ -43,8 +46,8 @@
       "pokemon": "Kangaskhan",
       "region": "Unova",
       "location": "Wellspring Cave",
-      "secondsAgo": 3281,
-      "sourceId": 1790292969
+      "secondsAgo": 3576,
+      "sourceId": 1790292968
     }
   ],
   "alpha": {
