@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-25T22:50:42.474Z",
+  "fetchedAt": "2026-09-25T22:55:47.881Z",
   "swarms": [
+    {
+      "monsterId": 348,
+      "pokemon": "Armaldo",
+      "region": "Kanto",
+      "location": "Viapois Chamber",
+      "sourceId": 1790378195,
+      "despawnTimestamp": 1790378195,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-25T23:16:35.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 350,
-      "pokemon": "Milotic",
-      "region": "Kanto",
-      "location": "Resort Gorgeous",
-      "secondsAgo": 15389,
-      "sourceId": 1790361253
-    },
-    {
       "monsterId": 474,
       "pokemon": "Porygon-Z",
       "region": "Johto",
       "location": "Team Rocket HQ",
-      "secondsAgo": 1677,
+      "secondsAgo": 1982,
       "sourceId": 1790374965
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Sceptile",
       "region": "Hoenn",
       "location": "Route 119",
-      "secondsAgo": 6273,
+      "secondsAgo": 6578,
       "sourceId": 1790370369
     },
     {
@@ -43,8 +46,8 @@
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 2046,
-      "sourceId": 1790374596
+      "secondsAgo": 2352,
+      "sourceId": 1790374595
     }
   ],
   "alpha": {
