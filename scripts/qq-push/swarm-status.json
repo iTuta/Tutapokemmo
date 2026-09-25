@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-25T14:15:42.280Z",
+  "fetchedAt": "2026-09-25T14:20:43.089Z",
   "swarms": [
+    {
+      "monsterId": 190,
+      "pokemon": "Aipom",
+      "region": "Johto",
+      "location": "Route 29",
+      "sourceId": 1790347309,
+      "despawnTimestamp": 1790347309,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-25T14:41:49.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
@@ -19,23 +30,15 @@
       "pokemon": "Wartortle",
       "region": "Kanto",
       "location": "Seafoam Islands",
-      "secondsAgo": 3861,
+      "secondsAgo": 4162,
       "sourceId": 1790341881
-    },
-    {
-      "monsterId": 285,
-      "pokemon": "Shroomish",
-      "region": "Johto",
-      "location": "Route 34",
-      "secondsAgo": 6365,
-      "sourceId": 1790339377
     },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
       "region": "Hoenn",
       "location": "Route 128",
-      "secondsAgo": 10268,
+      "secondsAgo": 10569,
       "sourceId": 1790335474
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 3631,
+      "secondsAgo": 3932,
       "sourceId": 1790342111
     }
   ],
