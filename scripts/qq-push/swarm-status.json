@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-26T12:55:36.314Z",
+  "fetchedAt": "2026-09-26T13:01:37.034Z",
   "swarms": [
     {
       "monsterId": 253,
@@ -7,9 +7,20 @@
       "region": "Hoenn",
       "location": "Route 118",
       "sourceId": 1790428816,
-      "despawnTimestamp": 1790428815,
+      "despawnTimestamp": 1790428816,
       "hasValuable": false,
       "timestampUtc": "2026-09-26T13:20:16.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 452,
+      "pokemon": "Drapion",
+      "region": "Sinnoh",
+      "location": "Route 213",
+      "sourceId": 1790428983,
+      "despawnTimestamp": 1790428984,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-26T13:23:03.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,31 +30,23 @@
       "pokemon": "Lapras",
       "region": "Kanto",
       "location": "Icefall Cave",
-      "secondsAgo": 4119,
-      "sourceId": 1790423217
+      "secondsAgo": 4479,
+      "sourceId": 1790423218
     },
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 2370,
+      "secondsAgo": 2731,
       "sourceId": 1790424966
-    },
-    {
-      "monsterId": 390,
-      "pokemon": "Chimchar",
-      "region": "Sinnoh",
-      "location": "Route 211",
-      "secondsAgo": 14043,
-      "sourceId": 1790413293
     },
     {
       "monsterId": 106,
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "secondsAgo": 4328,
+      "secondsAgo": 4689,
       "sourceId": 1790423008
     }
   ],
