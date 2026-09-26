@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-26T00:50:45.677Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-26T00:55:56.378Z",
+  "swarms": [
+    {
+      "monsterId": 415,
+      "pokemon": "Combee",
+      "region": "Hoenn",
+      "location": "Route 117",
+      "sourceId": 1790385498,
+      "despawnTimestamp": 1790385498,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-26T01:18:18.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 348,
       "pokemon": "Armaldo",
       "region": "Kanto",
       "location": "Viapois Chamber",
-      "secondsAgo": 7149,
+      "secondsAgo": 7460,
       "sourceId": 1790376696
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Porygon-Z",
       "region": "Johto",
       "location": "Team Rocket HQ",
-      "secondsAgo": 8880,
+      "secondsAgo": 9191,
       "sourceId": 1790374965
-    },
-    {
-      "monsterId": 254,
-      "pokemon": "Sceptile",
-      "region": "Hoenn",
-      "location": "Route 119",
-      "secondsAgo": 13476,
-      "sourceId": 1790370369
     },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
       "region": "Sinnoh",
       "location": "Route 223",
-      "secondsAgo": 8008,
+      "secondsAgo": 8319,
       "sourceId": 1790375837
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 9249,
+      "secondsAgo": 9560,
       "sourceId": 1790374596
     }
   ],
