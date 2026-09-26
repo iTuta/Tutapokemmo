@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-26T21:40:41.044Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-26T21:45:41.414Z",
+  "swarms": [
+    {
+      "monsterId": 420,
+      "pokemon": "Cherubi",
+      "region": "Unova",
+      "location": "Route 16",
+      "sourceId": 1790460411,
+      "despawnTimestamp": 1790460411,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-26T22:06:51.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 350,
       "pokemon": "Milotic",
       "region": "Kanto",
       "location": "Resort Gorgeous",
-      "secondsAgo": 4667,
+      "secondsAgo": 4967,
       "sourceId": 1790454174
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Feraligatr",
       "region": "Johto",
       "location": "Tohjo Falls",
-      "secondsAgo": 21181,
+      "secondsAgo": 21481,
       "sourceId": 1790437660
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Grovyle",
       "region": "Hoenn",
       "location": "Route 118",
-      "secondsAgo": 4016,
+      "secondsAgo": 4316,
       "sourceId": 1790454825
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Cherrim",
       "region": "Sinnoh",
       "location": "Lake Verity",
-      "secondsAgo": 4153,
-      "sourceId": 1790454688
-    },
-    {
-      "monsterId": 193,
-      "pokemon": "Yanma",
-      "region": "Unova",
-      "location": "Pinwheel Forest",
-      "secondsAgo": 9230,
-      "sourceId": 1790449611
+      "secondsAgo": 4454,
+      "sourceId": 1790454687
     }
   ],
   "alpha": {
