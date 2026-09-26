@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-26T11:45:49.689Z",
+  "fetchedAt": "2026-09-26T11:50:48.680Z",
   "swarms": [
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Kanto",
+      "location": "Icefall Cave",
+      "sourceId": 1790424716,
+      "despawnTimestamp": 1790424716,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-26T12:11:56.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 106,
       "pokemon": "Hitmonlee",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 135,
-      "pokemon": "Jolteon",
-      "region": "Kanto",
-      "location": "Ruin Valley",
-      "secondsAgo": 2945,
-      "sourceId": 1790420204
-    },
-    {
       "monsterId": 288,
       "pokemon": "Vigoroth",
       "region": "Johto",
       "location": "Ruins of Alph",
-      "secondsAgo": 18430,
+      "secondsAgo": 18729,
       "sourceId": 1790404719
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Chatot",
       "region": "Hoenn",
       "location": "Route 115",
-      "secondsAgo": 8718,
+      "secondsAgo": 9017,
       "sourceId": 1790414431
     },
     {
@@ -43,8 +46,8 @@
       "pokemon": "Chimchar",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 9857,
-      "sourceId": 1790413292
+      "secondsAgo": 10155,
+      "sourceId": 1790413293
     }
   ],
   "alpha": {
