@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-09-26T04:01:00.993Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-26T04:05:37.017Z",
+  "swarms": [
     {
-      "monsterId": 348,
-      "pokemon": "Armaldo",
+      "monsterId": 350,
+      "pokemon": "Milotic",
       "region": "Kanto",
-      "location": "Viapois Chamber",
-      "secondsAgo": 18565,
-      "sourceId": 1790376695
-    },
+      "location": "Resort Gorgeous",
+      "sourceId": 1790396499,
+      "despawnTimestamp": 1790396498,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-26T04:21:39.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 152,
       "pokemon": "Chikorita",
       "region": "Johto",
       "location": "Route 31",
-      "secondsAgo": 2300,
+      "secondsAgo": 2576,
       "sourceId": 1790392960
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Cloyster",
       "region": "Sinnoh",
       "location": "Route 223",
-      "secondsAgo": 19423,
+      "secondsAgo": 19699,
       "sourceId": 1790375837
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 4877,
+      "secondsAgo": 5153,
       "sourceId": 1790390383
     }
   ],
