@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-09-26T19:31:08.790Z",
-  "swarms": [
-    {
-      "monsterId": 193,
-      "pokemon": "Yanma",
-      "region": "Unova",
-      "location": "Pinwheel Forest",
-      "sourceId": 1790451110,
-      "despawnTimestamp": 1790451109,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-26T19:31:50.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-26T19:40:51.765Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 1,
       "pokemon": "Bulbasaur",
       "region": "Kanto",
       "location": "Viridian Forest",
-      "secondsAgo": 1762,
+      "secondsAgo": 2345,
       "sourceId": 1790449306
     },
     {
@@ -27,7 +15,7 @@
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 5227,
+      "secondsAgo": 5810,
       "sourceId": 1790445841
     },
     {
@@ -35,8 +23,16 @@
       "pokemon": "Kirlia",
       "region": "Sinnoh",
       "location": "Snowpoint Temple",
-      "secondsAgo": 4090,
+      "secondsAgo": 4673,
       "sourceId": 1790446978
+    },
+    {
+      "monsterId": 193,
+      "pokemon": "Yanma",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "secondsAgo": 2041,
+      "sourceId": 1790449610
     }
   ],
   "alpha": {
