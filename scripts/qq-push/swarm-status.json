@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-09-26T09:20:46.739Z",
+  "fetchedAt": "2026-09-26T09:25:39.417Z",
   "swarms": [
+    {
+      "monsterId": 9,
+      "pokemon": "Blastoise",
+      "region": "Kanto",
+      "location": "Cape Brink",
+      "sourceId": 1790415953,
+      "despawnTimestamp": 1790415952,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-26T09:45:53.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Hoenn",
       "location": "Route 115",
       "sourceId": 1790415631,
-      "despawnTimestamp": 1790415630,
+      "despawnTimestamp": 1790415631,
       "hasValuable": false,
       "timestampUtc": "2026-09-26T09:40:31.000Z",
       "publishedBy": ""
@@ -18,7 +29,7 @@
       "region": "Sinnoh",
       "location": "Route 211",
       "sourceId": 1790414792,
-      "despawnTimestamp": 1790414791,
+      "despawnTimestamp": 1790414792,
       "hasValuable": false,
       "timestampUtc": "2026-09-26T09:26:32.000Z",
       "publishedBy": ""
@@ -26,20 +37,12 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 328,
-      "pokemon": "Trapinch",
-      "region": "Kanto",
-      "location": "Diglett&#x27;s Cave",
-      "secondsAgo": 4527,
-      "sourceId": 1790409919
-    },
-    {
       "monsterId": 106,
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "secondsAgo": 5206,
-      "sourceId": 1790409240
+      "secondsAgo": 5498,
+      "sourceId": 1790409241
     }
   ],
   "alpha": {
