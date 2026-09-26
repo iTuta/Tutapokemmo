@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-26T20:45:42.447Z",
+  "fetchedAt": "2026-09-26T20:50:45.565Z",
   "swarms": [
-    {
-      "monsterId": 350,
-      "pokemon": "Milotic",
-      "region": "Kanto",
-      "location": "Resort Gorgeous",
-      "sourceId": 1790455673,
-      "despawnTimestamp": 1790455673,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-26T20:47:53.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 253,
       "pokemon": "Grovyle",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 350,
+      "pokemon": "Milotic",
+      "region": "Kanto",
+      "location": "Resort Gorgeous",
+      "secondsAgo": 1671,
+      "sourceId": 1790454174
+    },
+    {
       "monsterId": 160,
       "pokemon": "Feraligatr",
       "region": "Johto",
       "location": "Tohjo Falls",
-      "secondsAgo": 17882,
+      "secondsAgo": 18185,
       "sourceId": 1790437660
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Cherrim",
       "region": "Sinnoh",
       "location": "Lake Verity",
-      "secondsAgo": 855,
+      "secondsAgo": 1158,
       "sourceId": 1790454687
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 5931,
-      "sourceId": 1790449611
+      "secondsAgo": 6235,
+      "sourceId": 1790449610
     }
   ],
   "alpha": {
