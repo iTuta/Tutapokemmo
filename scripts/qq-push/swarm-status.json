@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-26T09:01:01.651Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-26T09:05:42.292Z",
+  "swarms": [
+    {
+      "monsterId": 390,
+      "pokemon": "Chimchar",
+      "region": "Sinnoh",
+      "location": "Route 211",
+      "sourceId": 1790414792,
+      "despawnTimestamp": 1790414792,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-26T09:26:32.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 328,
       "pokemon": "Trapinch",
       "region": "Kanto",
       "location": "Diglett&#x27;s Cave",
-      "secondsAgo": 3342,
+      "secondsAgo": 3623,
       "sourceId": 1790409919
     },
     {
@@ -15,24 +27,16 @@
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 10256,
+      "secondsAgo": 10537,
       "sourceId": 1790403005
-    },
-    {
-      "monsterId": 388,
-      "pokemon": "Grotle",
-      "region": "Sinnoh",
-      "location": "Sendoff Spring",
-      "secondsAgo": 9449,
-      "sourceId": 1790403812
     },
     {
       "monsterId": 106,
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "secondsAgo": 4021,
-      "sourceId": 1790409240
+      "secondsAgo": 4301,
+      "sourceId": 1790409241
     }
   ],
   "alpha": {
