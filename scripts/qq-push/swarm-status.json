@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-26T02:15:43.918Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-26T02:20:41.429Z",
+  "swarms": [
+    {
+      "monsterId": 91,
+      "pokemon": "Cloyster",
+      "region": "Hoenn",
+      "location": "Route 133",
+      "sourceId": 1790390670,
+      "despawnTimestamp": 1790390670,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-26T02:44:30.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 348,
       "pokemon": "Armaldo",
       "region": "Kanto",
       "location": "Viapois Chamber",
-      "secondsAgo": 12247,
+      "secondsAgo": 12545,
       "sourceId": 1790376696
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Kirlia",
       "region": "Johto",
       "location": "Route 43",
-      "secondsAgo": 2989,
+      "secondsAgo": 3287,
       "sourceId": 1790385954
-    },
-    {
-      "monsterId": 415,
-      "pokemon": "Combee",
-      "region": "Hoenn",
-      "location": "Route 117",
-      "secondsAgo": 4944,
-      "sourceId": 1790383999
     },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
       "region": "Sinnoh",
       "location": "Route 223",
-      "secondsAgo": 13106,
+      "secondsAgo": 13404,
       "sourceId": 1790375837
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 14348,
-      "sourceId": 1790374595
+      "secondsAgo": 14645,
+      "sourceId": 1790374596
     }
   ],
   "alpha": {
