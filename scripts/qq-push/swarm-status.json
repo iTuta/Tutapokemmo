@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-09-26T20:20:39.604Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-26T20:25:40.772Z",
+  "swarms": [
     {
-      "monsterId": 1,
-      "pokemon": "Bulbasaur",
+      "monsterId": 350,
+      "pokemon": "Milotic",
       "region": "Kanto",
-      "location": "Viridian Forest",
-      "secondsAgo": 4733,
-      "sourceId": 1790449306
-    },
+      "location": "Resort Gorgeous",
+      "sourceId": 1790455673,
+      "despawnTimestamp": 1790455672,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-26T20:47:53.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 211,
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 8197,
-      "sourceId": 1790445842
+      "secondsAgo": 8499,
+      "sourceId": 1790445841
     },
     {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Sinnoh",
       "location": "Snowpoint Temple",
-      "secondsAgo": 7061,
+      "secondsAgo": 7362,
       "sourceId": 1790446978
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 4429,
+      "secondsAgo": 4730,
       "sourceId": 1790449610
     }
   ],
