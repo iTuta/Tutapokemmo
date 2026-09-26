@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-26T18:20:47.551Z",
+  "fetchedAt": "2026-09-26T18:25:42.803Z",
   "swarms": [
     {
       "monsterId": 211,
@@ -7,9 +7,20 @@
       "region": "Hoenn",
       "location": "Route 125",
       "sourceId": 1790447341,
-      "despawnTimestamp": 1790447341,
+      "despawnTimestamp": 1790447340,
       "hasValuable": false,
       "timestampUtc": "2026-09-26T18:29:01.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 281,
+      "pokemon": "Kirlia",
+      "region": "Sinnoh",
+      "location": "Snowpoint Temple",
+      "sourceId": 1790448478,
+      "despawnTimestamp": 1790448477,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-26T18:47:58.000Z",
       "publishedBy": ""
     },
     {
@@ -30,24 +41,16 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Kanto",
       "location": "Route 13",
-      "secondsAgo": 10743,
-      "sourceId": 1790436104
+      "secondsAgo": 11039,
+      "sourceId": 1790436103
     },
     {
       "monsterId": 160,
       "pokemon": "Feraligatr",
       "region": "Johto",
       "location": "Tohjo Falls",
-      "secondsAgo": 9187,
+      "secondsAgo": 9482,
       "sourceId": 1790437660
-    },
-    {
-      "monsterId": 424,
-      "pokemon": "Ambipom",
-      "region": "Sinnoh",
-      "location": "Route 216",
-      "secondsAgo": 6305,
-      "sourceId": 1790440542
     }
   ],
   "alpha": {
