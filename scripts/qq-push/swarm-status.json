@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-26T15:11:08.943Z",
+  "fetchedAt": "2026-09-26T15:15:49.911Z",
   "swarms": [
     {
       "monsterId": 358,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-26T15:21:10.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 457,
+      "pokemon": "Lumineon",
+      "region": "Unova",
+      "location": "Route 17",
+      "sourceId": 1790437190,
+      "despawnTimestamp": 1790437190,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-26T15:39:50.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Lapras",
       "region": "Kanto",
       "location": "Icefall Cave",
-      "secondsAgo": 12251,
+      "secondsAgo": 12532,
       "sourceId": 1790423217
     },
     {
@@ -27,7 +38,7 @@
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 10502,
+      "secondsAgo": 10783,
       "sourceId": 1790424966
     },
     {
@@ -35,16 +46,8 @@
       "pokemon": "Grovyle",
       "region": "Hoenn",
       "location": "Route 118",
-      "secondsAgo": 8152,
+      "secondsAgo": 8433,
       "sourceId": 1790427316
-    },
-    {
-      "monsterId": 106,
-      "pokemon": "Hitmonlee",
-      "region": "Unova",
-      "location": "Victory Road",
-      "secondsAgo": 12461,
-      "sourceId": 1790423007
     }
   ],
   "alpha": {
