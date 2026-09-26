@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-26T20:40:44.805Z",
+  "fetchedAt": "2026-09-26T20:45:42.447Z",
   "swarms": [
     {
       "monsterId": 350,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Resort Gorgeous",
       "sourceId": 1790455673,
-      "despawnTimestamp": 1790455672,
+      "despawnTimestamp": 1790455673,
       "hasValuable": false,
       "timestampUtc": "2026-09-26T20:47:53.000Z",
       "publishedBy": ""
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-26T20:58:44.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 421,
-      "pokemon": "Cherrim",
-      "region": "Sinnoh",
-      "location": "Lake Verity",
-      "sourceId": 1790455347,
-      "despawnTimestamp": 1790455346,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-26T20:42:27.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,16 +30,24 @@
       "pokemon": "Feraligatr",
       "region": "Johto",
       "location": "Tohjo Falls",
-      "secondsAgo": 17584,
+      "secondsAgo": 17882,
       "sourceId": 1790437660
+    },
+    {
+      "monsterId": 421,
+      "pokemon": "Cherrim",
+      "region": "Sinnoh",
+      "location": "Lake Verity",
+      "secondsAgo": 855,
+      "sourceId": 1790454687
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 5634,
-      "sourceId": 1790449610
+      "secondsAgo": 5931,
+      "sourceId": 1790449611
     }
   ],
   "alpha": {
