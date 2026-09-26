@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-26T23:00:53.984Z",
+  "fetchedAt": "2026-09-26T23:05:40.628Z",
   "swarms": [
     {
       "monsterId": 131,
@@ -11,26 +11,23 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-26T23:17:39.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Johto",
       "location": "Route 41",
-      "sourceId": 1790463819,
-      "despawnTimestamp": 1790463819,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-26T23:03:39.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1620,
+      "sourceId": 1790462320
+    },
     {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 2675,
+      "secondsAgo": 2962,
       "sourceId": 1790460978
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Cherrim",
       "region": "Sinnoh",
       "location": "Lake Verity",
-      "secondsAgo": 8966,
+      "secondsAgo": 9253,
       "sourceId": 1790454687
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Cherubi",
       "region": "Unova",
       "location": "Route 16",
-      "secondsAgo": 4742,
+      "secondsAgo": 5029,
       "sourceId": 1790458911
     }
   ],
