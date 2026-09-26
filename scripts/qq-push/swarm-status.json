@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-26T17:05:48.822Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-26T17:10:45.976Z",
+  "swarms": [
+    {
+      "monsterId": 176,
+      "pokemon": "Togetic",
+      "region": "Unova",
+      "location": "Dreamyard",
+      "sourceId": 1790444100,
+      "despawnTimestamp": 1790444099,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-26T17:35:00.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Kanto",
       "location": "Route 13",
-      "secondsAgo": 6245,
+      "secondsAgo": 6542,
       "sourceId": 1790436103
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Feraligatr",
       "region": "Johto",
       "location": "Tohjo Falls",
-      "secondsAgo": 4688,
+      "secondsAgo": 4985,
       "sourceId": 1790437660
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Murkrow",
       "region": "Hoenn",
       "location": "Jagged Pass",
-      "secondsAgo": 4466,
-      "sourceId": 1790437882
+      "secondsAgo": 4764,
+      "sourceId": 1790437881
     },
     {
       "monsterId": 424,
       "pokemon": "Ambipom",
       "region": "Sinnoh",
       "location": "Route 216",
-      "secondsAgo": 1806,
+      "secondsAgo": 2103,
       "sourceId": 1790440542
-    },
-    {
-      "monsterId": 457,
-      "pokemon": "Lumineon",
-      "region": "Unova",
-      "location": "Route 17",
-      "secondsAgo": 6657,
-      "sourceId": 1790435691
     }
   ],
   "alpha": {
