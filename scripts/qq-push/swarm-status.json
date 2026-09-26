@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-26T16:10:42.317Z",
+  "fetchedAt": "2026-09-26T16:15:44.972Z",
   "swarms": [
-    {
-      "monsterId": 160,
-      "pokemon": "Feraligatr",
-      "region": "Johto",
-      "location": "Tohjo Falls",
-      "sourceId": 1790439159,
-      "despawnTimestamp": 1790439159,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-26T16:12:39.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
@@ -30,15 +19,23 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Kanto",
       "location": "Route 13",
-      "secondsAgo": 2938,
-      "sourceId": 1790436104
+      "secondsAgo": 3241,
+      "sourceId": 1790436103
+    },
+    {
+      "monsterId": 160,
+      "pokemon": "Feraligatr",
+      "region": "Johto",
+      "location": "Tohjo Falls",
+      "secondsAgo": 1684,
+      "sourceId": 1790437660
     },
     {
       "monsterId": 358,
       "pokemon": "Chimecho",
       "region": "Sinnoh",
       "location": "Acuity Lakefront",
-      "secondsAgo": 4172,
+      "secondsAgo": 4474,
       "sourceId": 1790434870
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Lumineon",
       "region": "Unova",
       "location": "Route 17",
-      "secondsAgo": 3351,
+      "secondsAgo": 3653,
       "sourceId": 1790435691
     }
   ],
