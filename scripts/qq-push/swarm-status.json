@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-26T14:55:48.961Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-26T15:01:41.125Z",
+  "swarms": [
+    {
+      "monsterId": 358,
+      "pokemon": "Chimecho",
+      "region": "Sinnoh",
+      "location": "Acuity Lakefront",
+      "sourceId": 1790436070,
+      "despawnTimestamp": 1790436070,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-26T15:21:10.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Kanto",
       "location": "Icefall Cave",
-      "secondsAgo": 11331,
+      "secondsAgo": 11684,
       "sourceId": 1790423217
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 9582,
+      "secondsAgo": 9935,
       "sourceId": 1790424966
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Grovyle",
       "region": "Hoenn",
       "location": "Route 118",
-      "secondsAgo": 7232,
+      "secondsAgo": 7585,
       "sourceId": 1790427316
-    },
-    {
-      "monsterId": 452,
-      "pokemon": "Drapion",
-      "region": "Sinnoh",
-      "location": "Route 213",
-      "secondsAgo": 7064,
-      "sourceId": 1790427484
     },
     {
       "monsterId": 106,
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "secondsAgo": 11541,
-      "sourceId": 1790423007
+      "secondsAgo": 11893,
+      "sourceId": 1790423008
     }
   ],
   "alpha": {
