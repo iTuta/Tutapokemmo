@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-26T19:05:39.831Z",
+  "fetchedAt": "2026-09-26T19:10:42.749Z",
   "swarms": [
     {
       "monsterId": 1,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-26T19:26:45.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 193,
+      "pokemon": "Yanma",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "sourceId": 1790451110,
+      "despawnTimestamp": 1790451109,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-26T19:31:50.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Feraligatr",
       "region": "Johto",
       "location": "Tohjo Falls",
-      "secondsAgo": 11879,
+      "secondsAgo": 12182,
       "sourceId": 1790437660
     },
     {
@@ -27,7 +38,7 @@
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 3698,
+      "secondsAgo": 4001,
       "sourceId": 1790445841
     },
     {
@@ -35,16 +46,8 @@
       "pokemon": "Kirlia",
       "region": "Sinnoh",
       "location": "Snowpoint Temple",
-      "secondsAgo": 2561,
+      "secondsAgo": 2864,
       "sourceId": 1790446978
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Unova",
-      "location": "Relic Castle",
-      "secondsAgo": 3841,
-      "sourceId": 1790445698
     }
   ],
   "alpha": {
