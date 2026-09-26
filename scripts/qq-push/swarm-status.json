@@ -1,37 +1,15 @@
 {
-  "fetchedAt": "2026-09-26T18:25:42.803Z",
+  "fetchedAt": "2026-09-26T18:30:53.581Z",
   "swarms": [
-    {
-      "monsterId": 211,
-      "pokemon": "Qwilfish",
-      "region": "Hoenn",
-      "location": "Route 125",
-      "sourceId": 1790447341,
-      "despawnTimestamp": 1790447340,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-26T18:29:01.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Sinnoh",
       "location": "Snowpoint Temple",
       "sourceId": 1790448478,
-      "despawnTimestamp": 1790448477,
+      "despawnTimestamp": 1790448478,
       "hasValuable": false,
       "timestampUtc": "2026-09-26T18:47:58.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Unova",
-      "location": "Relic Castle",
-      "sourceId": 1790447198,
-      "despawnTimestamp": 1790447198,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-26T18:26:38.000Z",
       "publishedBy": ""
     }
   ],
@@ -41,7 +19,7 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Kanto",
       "location": "Route 13",
-      "secondsAgo": 11039,
+      "secondsAgo": 11350,
       "sourceId": 1790436103
     },
     {
@@ -49,8 +27,24 @@
       "pokemon": "Feraligatr",
       "region": "Johto",
       "location": "Tohjo Falls",
-      "secondsAgo": 9482,
+      "secondsAgo": 9793,
       "sourceId": 1790437660
+    },
+    {
+      "monsterId": 211,
+      "pokemon": "Qwilfish",
+      "region": "Hoenn",
+      "location": "Route 125",
+      "secondsAgo": 1611,
+      "sourceId": 1790445842
+    },
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Unova",
+      "location": "Relic Castle",
+      "secondsAgo": 1754,
+      "sourceId": 1790445699
     }
   ],
   "alpha": {
