@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-09-27T10:06:03.166Z",
+  "fetchedAt": "2026-09-27T10:10:56.686Z",
   "swarms": [
+    {
+      "monsterId": 369,
+      "pokemon": "Relicanth",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "sourceId": 1790505209,
+      "despawnTimestamp": 1790505209,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-27T10:33:29.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 395,
       "pokemon": "Empoleon",
       "region": "Sinnoh",
       "location": "Lake Acuity",
       "sourceId": 1790504373,
-      "despawnTimestamp": 1790504373,
+      "despawnTimestamp": 1790504372,
       "hasValuable": false,
       "timestampUtc": "2026-09-27T10:19:33.000Z",
       "publishedBy": ""
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 321,
-      "pokemon": "Wailord",
-      "region": "Kanto",
-      "location": "Green Path",
-      "secondsAgo": 19984,
-      "sourceId": 1790483579
-    },
-    {
       "monsterId": 320,
       "pokemon": "Wailmer",
       "region": "Johto",
       "location": "Route 40",
-      "secondsAgo": 9978,
+      "secondsAgo": 10271,
       "sourceId": 1790493585
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 11636,
+      "secondsAgo": 11929,
       "sourceId": 1790491927
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 6176,
+      "secondsAgo": 6469,
       "sourceId": 1790497387
     }
   ],
