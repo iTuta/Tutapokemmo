@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-09-27T04:30:57.828Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-27T04:35:42.832Z",
+  "swarms": [
     {
-      "monsterId": 122,
-      "pokemon": "Mr. Mime",
+      "monsterId": 321,
+      "pokemon": "Wailord",
       "region": "Kanto",
-      "location": "Route 21",
-      "secondsAgo": 8304,
-      "sourceId": 1790475153
-    },
+      "location": "Green Path",
+      "sourceId": 1790485078,
+      "despawnTimestamp": 1790485078,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-27T04:57:58.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 288,
       "pokemon": "Vigoroth",
       "region": "Johto",
       "location": "Ruins of Alph",
-      "secondsAgo": 8985,
+      "secondsAgo": 9270,
       "sourceId": 1790474472
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 6793,
+      "secondsAgo": 7078,
       "sourceId": 1790476664
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Trapinch",
       "region": "Sinnoh",
       "location": "Oreburgh Mine",
-      "secondsAgo": 13252,
+      "secondsAgo": 13537,
       "sourceId": 1790470205
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Corsola",
       "region": "Unova",
       "location": "Undella Bay",
-      "secondsAgo": 2790,
+      "secondsAgo": 3075,
       "sourceId": 1790480667
     }
   ],
