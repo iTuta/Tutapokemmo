@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-09-27T05:15:43.969Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-27T05:20:47.408Z",
+  "swarms": [
+    {
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Johto",
+      "location": "Route 38",
+      "sourceId": 1790487697,
+      "despawnTimestamp": 1790487697,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-27T05:41:37.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 321,
       "pokemon": "Wailord",
       "region": "Kanto",
       "location": "Green Path",
-      "secondsAgo": 2565,
-      "sourceId": 1790483578
-    },
-    {
-      "monsterId": 288,
-      "pokemon": "Vigoroth",
-      "region": "Johto",
-      "location": "Ruins of Alph",
-      "secondsAgo": 11671,
-      "sourceId": 1790474472
+      "secondsAgo": 2868,
+      "sourceId": 1790483579
     },
     {
       "monsterId": 185,
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 9479,
-      "sourceId": 1790476664
+      "secondsAgo": 9782,
+      "sourceId": 1790476665
     },
     {
       "monsterId": 328,
       "pokemon": "Trapinch",
       "region": "Sinnoh",
       "location": "Oreburgh Mine",
-      "secondsAgo": 15938,
+      "secondsAgo": 16242,
       "sourceId": 1790470205
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Corsola",
       "region": "Unova",
       "location": "Undella Bay",
-      "secondsAgo": 5476,
-      "sourceId": 1790480667
+      "secondsAgo": 5779,
+      "sourceId": 1790480668
     }
   ],
   "alpha": {
