@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-09-27T19:35:44.281Z",
+  "fetchedAt": "2026-09-27T19:40:48.931Z",
   "swarms": [
-    {
-      "monsterId": 358,
-      "pokemon": "Chimecho",
-      "region": "Johto",
-      "location": "Bellchime Trail",
-      "sourceId": 1790537793,
-      "despawnTimestamp": 1790537793,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-27T19:36:33.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 389,
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
       "sourceId": 1790538556,
-      "despawnTimestamp": 1790538556,
+      "despawnTimestamp": 1790538555,
       "hasValuable": false,
       "timestampUtc": "2026-09-27T19:49:16.000Z",
       "publishedBy": ""
@@ -30,23 +19,31 @@
       "pokemon": "Chatot",
       "region": "Kanto",
       "location": "Treasure Beach",
-      "secondsAgo": 8871,
-      "sourceId": 1790528873
+      "secondsAgo": 9176,
+      "sourceId": 1790528872
+    },
+    {
+      "monsterId": 358,
+      "pokemon": "Chimecho",
+      "region": "Johto",
+      "location": "Bellchime Trail",
+      "secondsAgo": 1755,
+      "sourceId": 1790536293
     },
     {
       "monsterId": 256,
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Route 114",
-      "secondsAgo": 4742,
-      "sourceId": 1790533002
+      "secondsAgo": 5047,
+      "sourceId": 1790533001
     },
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 8492,
+      "secondsAgo": 8796,
       "sourceId": 1790529252
     }
   ],
