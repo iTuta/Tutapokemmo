@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-27T23:05:40.651Z",
+  "fetchedAt": "2026-09-27T23:10:47.498Z",
   "swarms": [
+    {
+      "monsterId": 373,
+      "pokemon": "Salamence",
+      "region": "Kanto",
+      "location": "Victory Road",
+      "sourceId": 1790552109,
+      "despawnTimestamp": 1790552108,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-27T23:35:09.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 389,
       "pokemon": "Torterra",
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 137,
-      "pokemon": "Porygon",
-      "region": "Kanto",
-      "location": "Pokemon Mansion",
-      "secondsAgo": 9601,
-      "sourceId": 1790540739
-    },
-    {
       "monsterId": 358,
       "pokemon": "Chimecho",
       "region": "Johto",
       "location": "Bellchime Trail",
-      "secondsAgo": 14047,
+      "secondsAgo": 14354,
       "sourceId": 1790536293
     },
     {
@@ -46,7 +49,7 @@
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 5516,
+      "secondsAgo": 5823,
       "sourceId": 1790544824
     }
   ],
