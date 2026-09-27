@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-27T22:45:45.164Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-27T22:50:40.108Z",
+  "swarms": [
+    {
+      "monsterId": 389,
+      "pokemon": "Torterra",
+      "region": "Sinnoh",
+      "location": "Route 212",
+      "sourceId": 1790550684,
+      "despawnTimestamp": 1790550684,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-27T23:11:24.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 137,
       "pokemon": "Porygon",
       "region": "Kanto",
       "location": "Pokemon Mansion",
-      "secondsAgo": 8405,
+      "secondsAgo": 8700,
       "sourceId": 1790540740
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Chimecho",
       "region": "Johto",
       "location": "Bellchime Trail",
-      "secondsAgo": 12851,
+      "secondsAgo": 13146,
       "sourceId": 1790536294
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 4321,
+      "secondsAgo": 4616,
       "sourceId": 1790544824
-    },
-    {
-      "monsterId": 103,
-      "pokemon": "Exeggutor",
-      "region": "Sinnoh",
-      "location": "Route 230",
-      "secondsAgo": 4898,
-      "sourceId": 1790544247
     },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 7581,
+      "secondsAgo": 7876,
       "sourceId": 1790541564
     }
   ],
