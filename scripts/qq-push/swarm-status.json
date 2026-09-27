@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-27T17:10:38.482Z",
+  "fetchedAt": "2026-09-27T17:15:41.666Z",
   "swarms": [
     {
       "monsterId": 441,
@@ -22,6 +22,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-27T17:18:27.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 335,
+      "pokemon": "Zangoose",
+      "region": "Unova",
+      "location": "Route 7",
+      "sourceId": 1790530752,
+      "despawnTimestamp": 1790530751,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-27T17:39:12.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,24 +41,16 @@
       "pokemon": "Feebas",
       "region": "Johto",
       "location": "Lake of Rage",
-      "secondsAgo": 6405,
-      "sourceId": 1790522633
+      "secondsAgo": 6709,
+      "sourceId": 1790522632
     },
     {
       "monsterId": 438,
       "pokemon": "Bonsly",
       "region": "Sinnoh",
       "location": "Eterna Forest",
-      "secondsAgo": 3751,
+      "secondsAgo": 4054,
       "sourceId": 1790525287
-    },
-    {
-      "monsterId": 247,
-      "pokemon": "Pupitar",
-      "region": "Unova",
-      "location": "Twist Mountain",
-      "secondsAgo": 7080,
-      "sourceId": 1790521958
     }
   ],
   "alpha": {
