@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-27T02:10:45.645Z",
+  "fetchedAt": "2026-09-27T02:15:47.472Z",
   "swarms": [
+    {
+      "monsterId": 122,
+      "pokemon": "Mr. Mime",
+      "region": "Kanto",
+      "location": "Route 21",
+      "sourceId": 1790476652,
+      "despawnTimestamp": 1790476652,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-27T02:37:32.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 288,
       "pokemon": "Vigoroth",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Kanto",
-      "location": "Icefall Cave",
-      "secondsAgo": 11886,
-      "sourceId": 1790463159
-    },
-    {
       "monsterId": 517,
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 5528,
+      "secondsAgo": 5830,
       "sourceId": 1790469517
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Pinsir",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 5272,
+      "secondsAgo": 5574,
       "sourceId": 1790469773
     }
   ],
