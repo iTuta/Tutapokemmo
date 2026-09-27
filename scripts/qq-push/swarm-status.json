@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-09-27T21:30:48.152Z",
+  "fetchedAt": "2026-09-27T21:35:46.470Z",
   "swarms": [
+    {
+      "monsterId": 258,
+      "pokemon": "Mudkip",
+      "region": "Hoenn",
+      "location": "Route 104",
+      "sourceId": 1790546323,
+      "despawnTimestamp": 1790546323,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-27T21:58:43.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 103,
       "pokemon": "Exeggutor",
       "region": "Sinnoh",
       "location": "Route 230",
       "sourceId": 1790545746,
-      "despawnTimestamp": 1790545746,
+      "despawnTimestamp": 1790545745,
       "hasValuable": false,
       "timestampUtc": "2026-09-27T21:49:06.000Z",
       "publishedBy": ""
@@ -19,23 +30,15 @@
       "pokemon": "Porygon",
       "region": "Kanto",
       "location": "Pokemon Mansion",
-      "secondsAgo": 3908,
-      "sourceId": 1790540740
-    },
-    {
-      "monsterId": 256,
-      "pokemon": "Combusken",
-      "region": "Hoenn",
-      "location": "Route 114",
-      "secondsAgo": 11646,
-      "sourceId": 1790533002
+      "secondsAgo": 4207,
+      "sourceId": 1790540739
     },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 3084,
+      "secondsAgo": 3382,
       "sourceId": 1790541564
     }
   ],
