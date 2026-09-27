@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-09-27T05:55:43.847Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-27T06:00:55.525Z",
+  "swarms": [
+    {
+      "monsterId": 148,
+      "pokemon": "Dragonair",
+      "region": "Unova",
+      "location": "Dragonspiral Tower",
+      "sourceId": 1790490176,
+      "despawnTimestamp": 1790490176,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-27T06:22:56.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 321,
       "pokemon": "Wailord",
       "region": "Kanto",
       "location": "Green Path",
-      "secondsAgo": 4965,
-      "sourceId": 1790483578
+      "secondsAgo": 5276,
+      "sourceId": 1790483579
     },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Johto",
       "location": "Route 38",
-      "secondsAgo": 2345,
+      "secondsAgo": 2657,
       "sourceId": 1790486198
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 11879,
+      "secondsAgo": 12191,
       "sourceId": 1790476664
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Trapinch",
       "region": "Sinnoh",
       "location": "Oreburgh Mine",
-      "secondsAgo": 18338,
+      "secondsAgo": 18650,
       "sourceId": 1790470205
-    },
-    {
-      "monsterId": 222,
-      "pokemon": "Corsola",
-      "region": "Unova",
-      "location": "Undella Bay",
-      "secondsAgo": 7876,
-      "sourceId": 1790480667
     }
   ],
   "alpha": {
