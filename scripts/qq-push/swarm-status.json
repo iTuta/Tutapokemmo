@@ -1,56 +1,46 @@
 {
-  "fetchedAt": "2026-09-27T01:01:01.188Z",
-  "swarms": [
-    {
-      "monsterId": 517,
-      "pokemon": "Munna",
-      "region": "Hoenn",
-      "location": "Route 102",
-      "sourceId": 1790471017,
-      "despawnTimestamp": 1790471017,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-27T01:03:37.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 328,
-      "pokemon": "Trapinch",
-      "region": "Sinnoh",
-      "location": "Oreburgh Mine",
-      "sourceId": 1790471105,
-      "despawnTimestamp": 1790471104,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-27T01:05:05.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 127,
-      "pokemon": "Pinsir",
-      "region": "Unova",
-      "location": "Lostlorn Forest",
-      "sourceId": 1790470973,
-      "despawnTimestamp": 1790470973,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-27T01:02:53.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-27T01:05:39.936Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Kanto",
       "location": "Icefall Cave",
-      "secondsAgo": 7701,
-      "sourceId": 1790463160
+      "secondsAgo": 7980,
+      "sourceId": 1790463159
     },
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Johto",
       "location": "Route 41",
-      "secondsAgo": 8541,
+      "secondsAgo": 8819,
       "sourceId": 1790462320
+    },
+    {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Hoenn",
+      "location": "Route 102",
+      "secondsAgo": 1622,
+      "sourceId": 1790469517
+    },
+    {
+      "monsterId": 328,
+      "pokemon": "Trapinch",
+      "region": "Sinnoh",
+      "location": "Oreburgh Mine",
+      "secondsAgo": 934,
+      "sourceId": 1790470205
+    },
+    {
+      "monsterId": 127,
+      "pokemon": "Pinsir",
+      "region": "Unova",
+      "location": "Lostlorn Forest",
+      "secondsAgo": 1366,
+      "sourceId": 1790469773
     }
   ],
   "alpha": {
