@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-27T08:20:38.739Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-27T08:25:44.723Z",
+  "swarms": [
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Unova",
+      "location": "Relic Castle",
+      "sourceId": 1790498886,
+      "despawnTimestamp": 1790498886,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-27T08:48:06.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 320,
       "pokemon": "Wailmer",
       "region": "Johto",
       "location": "Route 40",
-      "secondsAgo": 3653,
+      "secondsAgo": 3959,
       "sourceId": 1790493585
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 5311,
+      "secondsAgo": 5617,
       "sourceId": 1790491927
     },
     {
@@ -23,16 +35,8 @@
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "secondsAgo": 1636,
+      "secondsAgo": 1942,
       "sourceId": 1790495602
-    },
-    {
-      "monsterId": 148,
-      "pokemon": "Dragonair",
-      "region": "Unova",
-      "location": "Dragonspiral Tower",
-      "secondsAgo": 8561,
-      "sourceId": 1790488677
     }
   ],
   "alpha": {
