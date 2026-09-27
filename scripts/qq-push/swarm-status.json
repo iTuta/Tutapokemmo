@@ -1,35 +1,13 @@
 {
-  "fetchedAt": "2026-09-27T11:45:45.883Z",
+  "fetchedAt": "2026-09-27T11:50:44.172Z",
   "swarms": [
-    {
-      "monsterId": 135,
-      "pokemon": "Jolteon",
-      "region": "Kanto",
-      "location": "Ruin Valley",
-      "sourceId": 1790509688,
-      "despawnTimestamp": 1790509687,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-27T11:48:08.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 156,
-      "pokemon": "Quilava",
-      "region": "Johto",
-      "location": "Route 42",
-      "sourceId": 1790509563,
-      "despawnTimestamp": 1790509562,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-27T11:46:03.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 479,
       "pokemon": "Rotom",
       "region": "Sinnoh",
       "location": "Old Chateau",
       "sourceId": 1790510470,
-      "despawnTimestamp": 1790510469,
+      "despawnTimestamp": 1790510470,
       "hasValuable": false,
       "timestampUtc": "2026-09-27T12:01:10.000Z",
       "publishedBy": ""
@@ -37,20 +15,36 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 135,
+      "pokemon": "Jolteon",
+      "region": "Kanto",
+      "location": "Ruin Valley",
+      "secondsAgo": 1655,
+      "sourceId": 1790508189
+    },
+    {
+      "monsterId": 156,
+      "pokemon": "Quilava",
+      "region": "Johto",
+      "location": "Route 42",
+      "secondsAgo": 1780,
+      "sourceId": 1790508064
+    },
+    {
       "monsterId": 254,
       "pokemon": "Sceptile",
       "region": "Hoenn",
       "location": "Route 119",
-      "secondsAgo": 4772,
-      "sourceId": 1790504773
+      "secondsAgo": 5070,
+      "sourceId": 1790504774
     },
     {
       "monsterId": 420,
       "pokemon": "Cherubi",
       "region": "Unova",
       "location": "Route 16",
-      "secondsAgo": 4260,
-      "sourceId": 1790505285
+      "secondsAgo": 4558,
+      "sourceId": 1790505286
     }
   ],
   "alpha": {
