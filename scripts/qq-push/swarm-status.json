@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-09-27T15:10:41.583Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-27T15:15:59.379Z",
+  "swarms": [
+    {
+      "monsterId": 247,
+      "pokemon": "Pupitar",
+      "region": "Unova",
+      "location": "Twist Mountain",
+      "sourceId": 1790523458,
+      "despawnTimestamp": 1790523458,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-27T15:37:38.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 135,
       "pokemon": "Jolteon",
       "region": "Kanto",
       "location": "Ruin Valley",
-      "secondsAgo": 13653,
-      "sourceId": 1790508188
+      "secondsAgo": 13970,
+      "sourceId": 1790508189
     },
     {
       "monsterId": 152,
       "pokemon": "Chikorita",
       "region": "Johto",
       "location": "Route 31",
-      "secondsAgo": 6277,
+      "secondsAgo": 6595,
       "sourceId": 1790515564
     },
     {
@@ -23,16 +35,8 @@
       "pokemon": "Rotom",
       "region": "Sinnoh",
       "location": "Old Chateau",
-      "secondsAgo": 12871,
+      "secondsAgo": 13189,
       "sourceId": 1790508970
-    },
-    {
-      "monsterId": 176,
-      "pokemon": "Togetic",
-      "region": "Unova",
-      "location": "Dreamyard",
-      "secondsAgo": 4733,
-      "sourceId": 1790517108
     }
   ],
   "alpha": {
