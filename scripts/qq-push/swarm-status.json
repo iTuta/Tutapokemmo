@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-27T07:50:44.670Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-27T07:55:51.810Z",
+  "swarms": [
+    {
+      "monsterId": 359,
+      "pokemon": "Absol",
+      "region": "Sinnoh",
+      "location": "Mt. Coronet",
+      "sourceId": 1790497102,
+      "despawnTimestamp": 1790497101,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-27T08:18:22.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 320,
       "pokemon": "Wailmer",
       "region": "Johto",
       "location": "Route 40",
-      "secondsAgo": 1859,
+      "secondsAgo": 2166,
       "sourceId": 1790493585
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 3517,
+      "secondsAgo": 3824,
       "sourceId": 1790491927
-    },
-    {
-      "monsterId": 328,
-      "pokemon": "Trapinch",
-      "region": "Sinnoh",
-      "location": "Oreburgh Mine",
-      "secondsAgo": 25239,
-      "sourceId": 1790470205
     },
     {
       "monsterId": 148,
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 6767,
+      "secondsAgo": 7074,
       "sourceId": 1790488677
     }
   ],
