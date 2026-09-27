@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-27T16:05:39.985Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-27T16:10:49.808Z",
+  "swarms": [
+    {
+      "monsterId": 438,
+      "pokemon": "Bonsly",
+      "region": "Sinnoh",
+      "location": "Eterna Forest",
+      "sourceId": 1790526786,
+      "despawnTimestamp": 1790526785,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-27T16:33:06.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 135,
       "pokemon": "Jolteon",
       "region": "Kanto",
       "location": "Ruin Valley",
-      "secondsAgo": 16951,
+      "secondsAgo": 17261,
       "sourceId": 1790508188
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Feebas",
       "region": "Johto",
       "location": "Lake of Rage",
-      "secondsAgo": 2507,
+      "secondsAgo": 2817,
       "sourceId": 1790522632
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Luvdisc",
       "region": "Hoenn",
       "location": "Route 132",
-      "secondsAgo": 12802,
+      "secondsAgo": 13112,
       "sourceId": 1790512337
-    },
-    {
-      "monsterId": 479,
-      "pokemon": "Rotom",
-      "region": "Sinnoh",
-      "location": "Old Chateau",
-      "secondsAgo": 16169,
-      "sourceId": 1790508970
     },
     {
       "monsterId": 247,
       "pokemon": "Pupitar",
       "region": "Unova",
       "location": "Twist Mountain",
-      "secondsAgo": 3181,
+      "secondsAgo": 3491,
       "sourceId": 1790521958
     }
   ],
