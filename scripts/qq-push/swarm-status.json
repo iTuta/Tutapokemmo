@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-27T02:25:41.429Z",
+  "fetchedAt": "2026-09-27T02:30:53.494Z",
   "swarms": [
     {
       "monsterId": 122,
@@ -11,26 +11,23 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-27T02:37:32.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 288,
       "pokemon": "Vigoroth",
       "region": "Johto",
       "location": "Ruins of Alph",
-      "sourceId": 1790475972,
-      "despawnTimestamp": 1790475972,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-27T02:26:12.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1781,
+      "sourceId": 1790474472
+    },
     {
       "monsterId": 517,
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 6424,
+      "secondsAgo": 6736,
       "sourceId": 1790469517
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Pinsir",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 6168,
+      "secondsAgo": 6480,
       "sourceId": 1790469773
     }
   ],
