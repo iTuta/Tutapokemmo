@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-27T03:40:41.761Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-27T03:45:44.425Z",
+  "swarms": [
+    {
+      "monsterId": 222,
+      "pokemon": "Corsola",
+      "region": "Unova",
+      "location": "Undella Bay",
+      "sourceId": 1790482167,
+      "despawnTimestamp": 1790482167,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-27T04:09:27.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 122,
       "pokemon": "Mr. Mime",
       "region": "Kanto",
       "location": "Route 21",
-      "secondsAgo": 5288,
+      "secondsAgo": 5591,
       "sourceId": 1790475153
     },
     {
@@ -15,32 +27,24 @@
       "pokemon": "Vigoroth",
       "region": "Johto",
       "location": "Ruins of Alph",
-      "secondsAgo": 5969,
-      "sourceId": 1790474472
+      "secondsAgo": 6271,
+      "sourceId": 1790474473
     },
     {
       "monsterId": 185,
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 3777,
-      "sourceId": 1790476664
+      "secondsAgo": 4079,
+      "sourceId": 1790476665
     },
     {
       "monsterId": 328,
       "pokemon": "Trapinch",
       "region": "Sinnoh",
       "location": "Oreburgh Mine",
-      "secondsAgo": 10236,
+      "secondsAgo": 10539,
       "sourceId": 1790470205
-    },
-    {
-      "monsterId": 127,
-      "pokemon": "Pinsir",
-      "region": "Unova",
-      "location": "Lostlorn Forest",
-      "secondsAgo": 10668,
-      "sourceId": 1790469773
     }
   ],
   "alpha": {
