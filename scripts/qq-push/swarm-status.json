@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-27T20:35:43.506Z",
+  "fetchedAt": "2026-09-27T20:40:46.974Z",
   "swarms": [
     {
       "monsterId": 137,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-27T20:50:39.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Unova",
+      "location": "Route 1",
+      "sourceId": 1790543063,
+      "despawnTimestamp": 1790543063,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-27T21:04:23.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Chimecho",
       "region": "Johto",
       "location": "Bellchime Trail",
-      "secondsAgo": 5050,
+      "secondsAgo": 5353,
       "sourceId": 1790536293
     },
     {
@@ -27,7 +38,7 @@
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Route 114",
-      "secondsAgo": 8342,
+      "secondsAgo": 8645,
       "sourceId": 1790533001
     },
     {
@@ -35,16 +46,8 @@
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 4287,
+      "secondsAgo": 4590,
       "sourceId": 1790537056
-    },
-    {
-      "monsterId": 335,
-      "pokemon": "Zangoose",
-      "region": "Unova",
-      "location": "Route 7",
-      "secondsAgo": 12091,
-      "sourceId": 1790529252
     }
   ],
   "alpha": {
