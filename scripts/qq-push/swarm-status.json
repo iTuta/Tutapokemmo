@@ -1,29 +1,36 @@
 {
-  "fetchedAt": "2026-09-27T11:20:51.601Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-27T11:26:06.030Z",
+  "swarms": [
     {
-      "monsterId": 369,
-      "pokemon": "Relicanth",
+      "monsterId": 135,
+      "pokemon": "Jolteon",
       "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 4221,
-      "sourceId": 1790503830
+      "location": "Ruin Valley",
+      "sourceId": 1790509688,
+      "despawnTimestamp": 1790509687,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-27T11:48:08.000Z",
+      "publishedBy": ""
     },
     {
-      "monsterId": 320,
-      "pokemon": "Wailmer",
+      "monsterId": 156,
+      "pokemon": "Quilava",
       "region": "Johto",
-      "location": "Route 40",
-      "secondsAgo": 14466,
-      "sourceId": 1790493585
-    },
+      "location": "Route 42",
+      "sourceId": 1790509563,
+      "despawnTimestamp": 1790509562,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-27T11:46:03.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 254,
       "pokemon": "Sceptile",
       "region": "Hoenn",
       "location": "Route 119",
-      "secondsAgo": 3278,
+      "secondsAgo": 3592,
       "sourceId": 1790504773
     },
     {
@@ -31,7 +38,7 @@
       "pokemon": "Empoleon",
       "region": "Sinnoh",
       "location": "Lake Acuity",
-      "secondsAgo": 5178,
+      "secondsAgo": 5492,
       "sourceId": 1790502873
     },
     {
@@ -39,8 +46,8 @@
       "pokemon": "Cherubi",
       "region": "Unova",
       "location": "Route 16",
-      "secondsAgo": 2765,
-      "sourceId": 1790505286
+      "secondsAgo": 3080,
+      "sourceId": 1790505285
     }
   ],
   "alpha": {
