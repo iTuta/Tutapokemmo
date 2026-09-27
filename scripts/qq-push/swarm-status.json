@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-09-27T18:15:47.012Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-27T18:20:49.165Z",
+  "swarms": [
+    {
+      "monsterId": 256,
+      "pokemon": "Combusken",
+      "region": "Hoenn",
+      "location": "Route 114",
+      "sourceId": 1790534501,
+      "despawnTimestamp": 1790534501,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-27T18:41:41.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Kanto",
       "location": "Treasure Beach",
-      "secondsAgo": 4074,
-      "sourceId": 1790528872
+      "secondsAgo": 4376,
+      "sourceId": 1790528873
     },
     {
       "monsterId": 349,
       "pokemon": "Feebas",
       "region": "Johto",
       "location": "Lake of Rage",
-      "secondsAgo": 10314,
-      "sourceId": 1790522632
-    },
-    {
-      "monsterId": 453,
-      "pokemon": "Croagunk",
-      "region": "Hoenn",
-      "location": "Route 121",
-      "secondsAgo": 4939,
-      "sourceId": 1790528007
+      "secondsAgo": 10616,
+      "sourceId": 1790522633
     },
     {
       "monsterId": 438,
       "pokemon": "Bonsly",
       "region": "Sinnoh",
       "location": "Eterna Forest",
-      "secondsAgo": 7660,
-      "sourceId": 1790525286
+      "secondsAgo": 7962,
+      "sourceId": 1790525287
     },
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 3694,
-      "sourceId": 1790529252
+      "secondsAgo": 3996,
+      "sourceId": 1790529253
     }
   ],
   "alpha": {
