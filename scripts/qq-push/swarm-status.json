@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-27T00:35:41.534Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-27T00:40:48.480Z",
+  "swarms": [
+    {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Hoenn",
+      "location": "Route 102",
+      "sourceId": 1790471017,
+      "despawnTimestamp": 1790471016,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-27T01:03:37.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Kanto",
       "location": "Icefall Cave",
-      "secondsAgo": 6182,
+      "secondsAgo": 6489,
       "sourceId": 1790463159
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Sharpedo",
       "region": "Johto",
       "location": "Route 41",
-      "secondsAgo": 7021,
+      "secondsAgo": 7328,
       "sourceId": 1790462320
-    },
-    {
-      "monsterId": 242,
-      "pokemon": "Blissey",
-      "region": "Hoenn",
-      "location": "Artisan Cave",
-      "secondsAgo": 8363,
-      "sourceId": 1790460978
     },
     {
       "monsterId": 421,
       "pokemon": "Cherrim",
       "region": "Sinnoh",
       "location": "Lake Verity",
-      "secondsAgo": 14654,
+      "secondsAgo": 14961,
       "sourceId": 1790454687
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Cherubi",
       "region": "Unova",
       "location": "Route 16",
-      "secondsAgo": 10430,
+      "secondsAgo": 10737,
       "sourceId": 1790458911
     }
   ],
