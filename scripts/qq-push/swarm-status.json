@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-28T09:45:49.299Z",
+  "fetchedAt": "2026-09-28T09:50:42.002Z",
   "swarms": [
     {
       "monsterId": 370,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-28T10:07:38.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 233,
+      "pokemon": "Porygon2",
+      "region": "Unova",
+      "location": "P2 Laboratory",
+      "sourceId": 1790590328,
+      "despawnTimestamp": 1790590327,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-28T10:12:08.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,32 +30,24 @@
       "pokemon": "Qwilfish",
       "region": "Kanto",
       "location": "Route 20",
-      "secondsAgo": 3834,
-      "sourceId": 1790584915
+      "secondsAgo": 4127,
+      "sourceId": 1790584914
     },
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Hoenn",
       "location": "Route 126",
-      "secondsAgo": 10652,
-      "sourceId": 1790578097
+      "secondsAgo": 10945,
+      "sourceId": 1790578096
     },
     {
       "monsterId": 395,
       "pokemon": "Empoleon",
       "region": "Sinnoh",
       "location": "Lake Acuity",
-      "secondsAgo": 3849,
+      "secondsAgo": 4141,
       "sourceId": 1790584900
-    },
-    {
-      "monsterId": 83,
-      "pokemon": "Farfetch&#x27;d",
-      "region": "Unova",
-      "location": "Route 1",
-      "secondsAgo": 13808,
-      "sourceId": 1790574941
     }
   ],
   "alpha": {
