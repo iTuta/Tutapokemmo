@@ -1,13 +1,35 @@
 {
-  "fetchedAt": "2026-09-28T14:25:55.130Z",
+  "fetchedAt": "2026-09-28T14:31:32.905Z",
   "swarms": [
+    {
+      "monsterId": 7,
+      "pokemon": "Squirtle",
+      "region": "Kanto",
+      "location": "Route 24",
+      "sourceId": 1790606944,
+      "despawnTimestamp": 1790606943,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-28T14:49:04.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 389,
+      "pokemon": "Torterra",
+      "region": "Sinnoh",
+      "location": "Route 212",
+      "sourceId": 1790607269,
+      "despawnTimestamp": 1790607268,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-28T14:54:29.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 314,
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
       "sourceId": 1790606586,
-      "despawnTimestamp": 1790606586,
+      "despawnTimestamp": 1790606585,
       "hasValuable": false,
       "timestampUtc": "2026-09-28T14:43:06.000Z",
       "publishedBy": ""
@@ -15,36 +37,20 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 121,
-      "pokemon": "Starmie",
-      "region": "Kanto",
-      "location": "Seven Island",
-      "secondsAgo": 8480,
-      "sourceId": 1790597075
-    },
-    {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Johto",
       "location": "Sprout Tower",
-      "secondsAgo": 3804,
-      "sourceId": 1790601751
+      "secondsAgo": 4142,
+      "sourceId": 1790601750
     },
     {
       "monsterId": 316,
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 2131,
-      "sourceId": 1790603424
-    },
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Sinnoh",
-      "location": "Wayward Cave",
-      "secondsAgo": 3855,
-      "sourceId": 1790601700
+      "secondsAgo": 2469,
+      "sourceId": 1790603423
     }
   ],
   "alpha": {
