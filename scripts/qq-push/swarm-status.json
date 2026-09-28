@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-09-28T04:55:50.076Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-28T05:01:00.811Z",
+  "swarms": [
+    {
+      "monsterId": 424,
+      "pokemon": "Ambipom",
+      "region": "Sinnoh",
+      "location": "Route 216",
+      "sourceId": 1790572903,
+      "despawnTimestamp": 1790572902,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-28T05:21:43.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 313,
       "pokemon": "Volbeat",
       "region": "Kanto",
       "location": "Memorial Pillar",
-      "secondsAgo": 1619,
-      "sourceId": 1790569731
+      "secondsAgo": 1930,
+      "sourceId": 1790569730
     },
     {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 14795,
-      "sourceId": 1790556555
+      "secondsAgo": 15106,
+      "sourceId": 1790556554
     },
     {
       "monsterId": 240,
       "pokemon": "Magby",
       "region": "Hoenn",
       "location": "Mt. Chimney",
-      "secondsAgo": 12761,
+      "secondsAgo": 13071,
       "sourceId": 1790558589
-    },
-    {
-      "monsterId": 248,
-      "pokemon": "Tyranitar",
-      "region": "Sinnoh",
-      "location": "Stark Mountain",
-      "secondsAgo": 2958,
-      "sourceId": 1790568392
     },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 10683,
-      "sourceId": 1790560667
+      "secondsAgo": 10994,
+      "sourceId": 1790560666
     }
   ],
   "alpha": {
