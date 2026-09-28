@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-28T04:31:04.929Z",
+  "fetchedAt": "2026-09-28T04:35:49.760Z",
   "swarms": [
     {
       "monsterId": 313,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-28T04:53:50.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 248,
-      "pokemon": "Tyranitar",
-      "region": "Sinnoh",
-      "location": "Stark Mountain",
-      "sourceId": 1790569891,
-      "despawnTimestamp": 1790569890,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-28T04:31:31.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,23 +19,31 @@
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 13310,
-      "sourceId": 1790556554
+      "secondsAgo": 13594,
+      "sourceId": 1790556555
     },
     {
       "monsterId": 240,
       "pokemon": "Magby",
       "region": "Hoenn",
       "location": "Mt. Chimney",
-      "secondsAgo": 11276,
-      "sourceId": 1790558588
+      "secondsAgo": 11560,
+      "sourceId": 1790558589
+    },
+    {
+      "monsterId": 248,
+      "pokemon": "Tyranitar",
+      "region": "Sinnoh",
+      "location": "Stark Mountain",
+      "secondsAgo": 1757,
+      "sourceId": 1790568392
     },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 9198,
+      "secondsAgo": 9483,
       "sourceId": 1790560666
     }
   ],
