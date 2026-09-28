@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-28T16:30:52.370Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-28T16:35:57.603Z",
+  "swarms": [
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Hoenn",
+      "location": "Route 101",
+      "sourceId": 1790614767,
+      "despawnTimestamp": 1790614766,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-28T16:59:27.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 7,
       "pokemon": "Squirtle",
       "region": "Kanto",
       "location": "Route 24",
-      "secondsAgo": 7307,
+      "secondsAgo": 7612,
       "sourceId": 1790605745
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Misdreavus",
       "region": "Johto",
       "location": "Sprout Tower",
-      "secondsAgo": 11302,
+      "secondsAgo": 11607,
       "sourceId": 1790601750
-    },
-    {
-      "monsterId": 316,
-      "pokemon": "Gulpin",
-      "region": "Hoenn",
-      "location": "Route 110",
-      "secondsAgo": 9629,
-      "sourceId": 1790603423
     },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 2205,
+      "secondsAgo": 2510,
       "sourceId": 1790610847
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 7965,
-      "sourceId": 1790605087
+      "secondsAgo": 8271,
+      "sourceId": 1790605086
     }
   ],
   "alpha": {
