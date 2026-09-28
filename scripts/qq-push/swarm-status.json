@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-28T01:20:56.189Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-28T01:25:42.036Z",
+  "swarms": [
+    {
+      "monsterId": 240,
+      "pokemon": "Magby",
+      "region": "Hoenn",
+      "location": "Mt. Chimney",
+      "sourceId": 1790560088,
+      "despawnTimestamp": 1790560088,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-28T01:48:08.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Kanto",
       "location": "Victory Road",
-      "secondsAgo": 7846,
+      "secondsAgo": 8132,
       "sourceId": 1790550610
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 1901,
+      "secondsAgo": 2187,
       "sourceId": 1790556555
-    },
-    {
-      "monsterId": 258,
-      "pokemon": "Mudkip",
-      "region": "Hoenn",
-      "location": "Route 104",
-      "secondsAgo": 13632,
-      "sourceId": 1790544824
     },
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Unova",
       "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 8581,
+      "secondsAgo": 8867,
       "sourceId": 1790549875
     }
   ],
