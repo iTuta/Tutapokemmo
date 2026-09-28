@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-28T10:15:57.087Z",
+  "fetchedAt": "2026-09-28T10:20:49.979Z",
   "swarms": [
     {
       "monsterId": 313,
@@ -7,20 +7,9 @@
       "region": "Kanto",
       "location": "Memorial Pillar",
       "sourceId": 1790592011,
-      "despawnTimestamp": 1790592011,
+      "despawnTimestamp": 1790592010,
       "hasValuable": false,
       "timestampUtc": "2026-09-28T10:40:11.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 260,
-      "pokemon": "Swampert",
-      "region": "Hoenn",
-      "location": "Route 109",
-      "sourceId": 1790590692,
-      "despawnTimestamp": 1790590692,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-28T10:18:12.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,24 +19,32 @@
       "pokemon": "Luvdisc",
       "region": "Johto",
       "location": "Route 47",
-      "secondsAgo": 1998,
-      "sourceId": 1790588559
+      "secondsAgo": 2291,
+      "sourceId": 1790588558
+    },
+    {
+      "monsterId": 260,
+      "pokemon": "Swampert",
+      "region": "Hoenn",
+      "location": "Route 109",
+      "secondsAgo": 1657,
+      "sourceId": 1790589192
     },
     {
       "monsterId": 395,
       "pokemon": "Empoleon",
       "region": "Sinnoh",
       "location": "Lake Acuity",
-      "secondsAgo": 5656,
-      "sourceId": 1790584901
+      "secondsAgo": 5949,
+      "sourceId": 1790584900
     },
     {
       "monsterId": 233,
       "pokemon": "Porygon2",
       "region": "Unova",
       "location": "P2 Laboratory",
-      "secondsAgo": 1548,
-      "sourceId": 1790589009
+      "secondsAgo": 1841,
+      "sourceId": 1790589008
     }
   ],
   "alpha": {
