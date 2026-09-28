@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-09-28T10:36:08.581Z",
+  "fetchedAt": "2026-09-28T10:41:00.143Z",
   "swarms": [
-    {
-      "monsterId": 313,
-      "pokemon": "Volbeat",
-      "region": "Kanto",
-      "location": "Memorial Pillar",
-      "sourceId": 1790592011,
-      "despawnTimestamp": 1790592010,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-28T10:40:11.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 372,
       "pokemon": "Shelgon",
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
       "sourceId": 1790592918,
-      "despawnTimestamp": 1790592917,
+      "despawnTimestamp": 1790592918,
       "hasValuable": false,
       "timestampUtc": "2026-09-28T10:55:18.000Z",
       "publishedBy": ""
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 313,
+      "pokemon": "Volbeat",
+      "region": "Kanto",
+      "location": "Memorial Pillar",
+      "secondsAgo": 1548,
+      "sourceId": 1790590512
+    },
+    {
       "monsterId": 260,
       "pokemon": "Swampert",
       "region": "Hoenn",
       "location": "Route 109",
-      "secondsAgo": 2575,
+      "secondsAgo": 2867,
       "sourceId": 1790589193
     },
     {
@@ -38,8 +35,8 @@
       "pokemon": "Empoleon",
       "region": "Sinnoh",
       "location": "Lake Acuity",
-      "secondsAgo": 6868,
-      "sourceId": 1790584900
+      "secondsAgo": 7159,
+      "sourceId": 1790584901
     }
   ],
   "alpha": {
