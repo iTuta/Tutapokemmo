@@ -1,46 +1,53 @@
 {
-  "fetchedAt": "2026-09-28T08:40:48.341Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-28T08:45:50.028Z",
+  "swarms": [
     {
-      "monsterId": 6,
-      "pokemon": "Charizard",
+      "monsterId": 211,
+      "pokemon": "Qwilfish",
       "region": "Kanto",
-      "location": "Mt. Ember",
-      "secondsAgo": 8259,
-      "sourceId": 1790576589
+      "location": "Route 20",
+      "sourceId": 1790586414,
+      "despawnTimestamp": 1790586413,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-28T09:06:54.000Z",
+      "publishedBy": ""
     },
+    {
+      "monsterId": 395,
+      "pokemon": "Empoleon",
+      "region": "Sinnoh",
+      "location": "Lake Acuity",
+      "sourceId": 1790586400,
+      "despawnTimestamp": 1790586399,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-28T09:06:40.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 372,
       "pokemon": "Shelgon",
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
-      "secondsAgo": 7900,
-      "sourceId": 1790576948
+      "secondsAgo": 8202,
+      "sourceId": 1790576947
     },
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Hoenn",
       "location": "Route 126",
-      "secondsAgo": 6752,
+      "secondsAgo": 7053,
       "sourceId": 1790578096
-    },
-    {
-      "monsterId": 424,
-      "pokemon": "Ambipom",
-      "region": "Sinnoh",
-      "location": "Route 216",
-      "secondsAgo": 13445,
-      "sourceId": 1790571403
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 9907,
-      "sourceId": 1790574941
+      "secondsAgo": 10209,
+      "sourceId": 1790574940
     }
   ],
   "alpha": {
