@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-28T01:55:38.396Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-28T02:01:00.405Z",
+  "swarms": [
+    {
+      "monsterId": 285,
+      "pokemon": "Shroomish",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "sourceId": 1790562165,
+      "despawnTimestamp": 1790562165,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-28T02:22:45.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Kanto",
       "location": "Victory Road",
-      "secondsAgo": 9929,
+      "secondsAgo": 10251,
       "sourceId": 1790550609
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 3983,
+      "secondsAgo": 4305,
       "sourceId": 1790556555
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Magby",
       "region": "Hoenn",
       "location": "Mt. Chimney",
-      "secondsAgo": 1949,
+      "secondsAgo": 2271,
       "sourceId": 1790558589
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 11353,
+      "secondsAgo": 11675,
       "sourceId": 1790549185
-    },
-    {
-      "monsterId": 369,
-      "pokemon": "Relicanth",
-      "region": "Unova",
-      "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 10663,
-      "sourceId": 1790549875
     }
   ],
   "alpha": {
