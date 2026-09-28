@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-28T22:35:38.385Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-28T22:40:41.202Z",
+  "swarms": [
+    {
+      "monsterId": 359,
+      "pokemon": "Absol",
+      "region": "Sinnoh",
+      "location": "Mt. Coronet",
+      "sourceId": 1790636564,
+      "despawnTimestamp": 1790636564,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-28T23:02:44.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 142,
       "pokemon": "Aerodactyl",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 6109,
+      "secondsAgo": 6412,
       "sourceId": 1790628829
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 10097,
+      "secondsAgo": 10400,
       "sourceId": 1790624841
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Shuckle",
       "region": "Hoenn",
       "location": "Seafloor Cavern",
-      "secondsAgo": 18226,
+      "secondsAgo": 18529,
       "sourceId": 1790616712
-    },
-    {
-      "monsterId": 392,
-      "pokemon": "Infernape",
-      "region": "Sinnoh",
-      "location": "Route 221",
-      "secondsAgo": 11915,
-      "sourceId": 1790623023
     },
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Unova",
       "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 4949,
+      "secondsAgo": 5252,
       "sourceId": 1790629989
     }
   ],
