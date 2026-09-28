@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-28T10:25:37.687Z",
+  "fetchedAt": "2026-09-28T10:30:48.335Z",
   "swarms": [
     {
       "monsterId": 313,
@@ -7,56 +7,51 @@
       "region": "Kanto",
       "location": "Memorial Pillar",
       "sourceId": 1790592011,
-      "despawnTimestamp": 1790592010,
+      "despawnTimestamp": 1790592011,
       "hasValuable": false,
       "timestampUtc": "2026-09-28T10:40:11.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 372,
+      "pokemon": "Shelgon",
+      "region": "Johto",
+      "location": "Dragon&#x27;s Den",
+      "sourceId": 1790592918,
+      "despawnTimestamp": 1790592917,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-28T10:55:18.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 370,
-      "pokemon": "Luvdisc",
-      "region": "Johto",
-      "location": "Route 47",
-      "secondsAgo": 2579,
-      "sourceId": 1790588558
-    },
-    {
       "monsterId": 260,
       "pokemon": "Swampert",
       "region": "Hoenn",
       "location": "Route 109",
-      "secondsAgo": 1945,
-      "sourceId": 1790589192
+      "secondsAgo": 2255,
+      "sourceId": 1790589193
     },
     {
       "monsterId": 395,
       "pokemon": "Empoleon",
       "region": "Sinnoh",
       "location": "Lake Acuity",
-      "secondsAgo": 6237,
+      "secondsAgo": 6548,
       "sourceId": 1790584900
-    },
-    {
-      "monsterId": 233,
-      "pokemon": "Porygon2",
-      "region": "Unova",
-      "location": "P2 Laboratory",
-      "secondsAgo": 2129,
-      "sourceId": 1790589008
     }
   ],
   "alpha": {
-    "monsterId": 444,
-    "pokemon": "Gabite",
-    "region": "Sinnoh",
-    "location": "Route 206",
-    "sourceId": 1790543271,
-    "despawnTimestamp": 1790560371,
+    "monsterId": 546,
+    "pokemon": "Cottonee",
+    "region": "Unova",
+    "location": "Pinwheel Forest",
+    "sourceId": 1790578707,
+    "despawnTimestamp": 1790595807,
     "hasValuable": false,
-    "timestampUtc": "2026-09-27T21:07:51.000Z",
-    "timestampRaw": "2026-09-27T21:07:51.000Z",
-    "publishedBy": "Guanabacha"
+    "timestampUtc": "2026-09-28T06:58:27.000Z",
+    "timestampRaw": "2026-09-28T06:58:27.000Z",
+    "publishedBy": ""
   }
 }
