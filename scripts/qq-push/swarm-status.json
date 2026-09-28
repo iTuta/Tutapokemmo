@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-09-28T17:15:46.987Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-28T17:21:07.403Z",
+  "swarms": [
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Johto",
+      "location": "Dark Cave",
+      "sourceId": 1790617289,
+      "despawnTimestamp": 1790617289,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-28T17:41:29.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 7,
       "pokemon": "Squirtle",
       "region": "Kanto",
       "location": "Route 24",
-      "secondsAgo": 10002,
-      "sourceId": 1790605744
-    },
-    {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Johto",
-      "location": "Sprout Tower",
-      "secondsAgo": 13996,
-      "sourceId": 1790601750
+      "secondsAgo": 10322,
+      "sourceId": 1790605745
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Hoenn",
       "location": "Route 101",
-      "secondsAgo": 2479,
-      "sourceId": 1790613267
+      "secondsAgo": 2799,
+      "sourceId": 1790613268
     },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 4899,
+      "secondsAgo": 5220,
       "sourceId": 1790610847
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 10660,
-      "sourceId": 1790605086
+      "secondsAgo": 10980,
+      "sourceId": 1790605087
     }
   ],
   "alpha": {
