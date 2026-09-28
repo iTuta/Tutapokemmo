@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-09-28T19:45:49.591Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-28T19:50:47.560Z",
+  "swarms": [
+    {
+      "monsterId": 300,
+      "pokemon": "Skitty",
+      "region": "Johto",
+      "location": "Route 35",
+      "sourceId": 1790626340,
+      "despawnTimestamp": 1790626340,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-28T20:12:20.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 137,
       "pokemon": "Porygon",
       "region": "Kanto",
       "location": "Pokemon Mansion",
-      "secondsAgo": 6987,
+      "secondsAgo": 7285,
       "sourceId": 1790617762
-    },
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Johto",
-      "location": "Dark Cave",
-      "secondsAgo": 8960,
-      "sourceId": 1790615789
     },
     {
       "monsterId": 392,
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 1726,
+      "secondsAgo": 2024,
       "sourceId": 1790623023
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Aipom",
       "region": "Unova",
       "location": "Cold Storage",
-      "secondsAgo": 1735,
+      "secondsAgo": 2033,
       "sourceId": 1790623014
     }
   ],
