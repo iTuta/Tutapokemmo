@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-28T14:15:47.384Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-28T14:20:52.619Z",
+  "swarms": [
+    {
+      "monsterId": 314,
+      "pokemon": "Illumise",
+      "region": "Unova",
+      "location": "Moor of Icirrus",
+      "sourceId": 1790606586,
+      "despawnTimestamp": 1790606585,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-28T14:43:06.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 121,
       "pokemon": "Starmie",
       "region": "Kanto",
       "location": "Seven Island",
-      "secondsAgo": 7873,
+      "secondsAgo": 8178,
       "sourceId": 1790597074
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Misdreavus",
       "region": "Johto",
       "location": "Sprout Tower",
-      "secondsAgo": 3197,
+      "secondsAgo": 3502,
       "sourceId": 1790601750
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 1524,
+      "secondsAgo": 1829,
       "sourceId": 1790603423
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Kangaskhan",
       "region": "Sinnoh",
       "location": "Wayward Cave",
-      "secondsAgo": 3247,
-      "sourceId": 1790601700
-    },
-    {
-      "monsterId": 233,
-      "pokemon": "Porygon2",
-      "region": "Unova",
-      "location": "P2 Laboratory",
-      "secondsAgo": 15939,
-      "sourceId": 1790589008
+      "secondsAgo": 3553,
+      "sourceId": 1790601699
     }
   ],
   "alpha": {
