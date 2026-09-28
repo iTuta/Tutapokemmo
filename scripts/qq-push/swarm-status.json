@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-28T05:50:47.413Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-28T05:55:57.241Z",
+  "swarms": [
+    {
+      "monsterId": 83,
+      "pokemon": "Farfetch&#x27;d",
+      "region": "Unova",
+      "location": "Route 1",
+      "sourceId": 1790576440,
+      "despawnTimestamp": 1790576440,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-28T06:20:40.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 313,
       "pokemon": "Volbeat",
       "region": "Kanto",
       "location": "Memorial Pillar",
-      "secondsAgo": 4917,
+      "secondsAgo": 5227,
       "sourceId": 1790569730
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 18092,
+      "secondsAgo": 18402,
       "sourceId": 1790556555
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Magby",
       "region": "Hoenn",
       "location": "Mt. Chimney",
-      "secondsAgo": 16058,
+      "secondsAgo": 16368,
       "sourceId": 1790558589
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Ambipom",
       "region": "Sinnoh",
       "location": "Route 216",
-      "secondsAgo": 3244,
+      "secondsAgo": 3554,
       "sourceId": 1790571403
-    },
-    {
-      "monsterId": 285,
-      "pokemon": "Shroomish",
-      "region": "Unova",
-      "location": "Pinwheel Forest",
-      "secondsAgo": 13981,
-      "sourceId": 1790560666
     }
   ],
   "alpha": {
