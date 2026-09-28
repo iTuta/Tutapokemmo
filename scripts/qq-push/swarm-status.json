@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-28T10:05:45.252Z",
+  "fetchedAt": "2026-09-28T10:10:49.372Z",
   "swarms": [
-    {
-      "monsterId": 370,
-      "pokemon": "Luvdisc",
-      "region": "Johto",
-      "location": "Route 47",
-      "sourceId": 1790590058,
-      "despawnTimestamp": 1790590057,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-28T10:07:38.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 260,
       "pokemon": "Swampert",
@@ -30,15 +19,23 @@
       "pokemon": "Qwilfish",
       "region": "Kanto",
       "location": "Route 20",
-      "secondsAgo": 5030,
+      "secondsAgo": 5334,
       "sourceId": 1790584915
+    },
+    {
+      "monsterId": 370,
+      "pokemon": "Luvdisc",
+      "region": "Johto",
+      "location": "Route 47",
+      "secondsAgo": 1691,
+      "sourceId": 1790588558
     },
     {
       "monsterId": 395,
       "pokemon": "Empoleon",
       "region": "Sinnoh",
       "location": "Lake Acuity",
-      "secondsAgo": 5045,
+      "secondsAgo": 5349,
       "sourceId": 1790584900
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Porygon2",
       "region": "Unova",
       "location": "P2 Laboratory",
-      "secondsAgo": 937,
+      "secondsAgo": 1241,
       "sourceId": 1790589008
     }
   ],
