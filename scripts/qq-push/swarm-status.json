@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-28T12:01:16.117Z",
+  "fetchedAt": "2026-09-28T12:05:50.057Z",
   "swarms": [
+    {
+      "monsterId": 121,
+      "pokemon": "Starmie",
+      "region": "Kanto",
+      "location": "Seven Island",
+      "sourceId": 1790598574,
+      "despawnTimestamp": 1790598574,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-28T12:29:34.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 257,
       "pokemon": "Blaziken",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 313,
-      "pokemon": "Volbeat",
-      "region": "Kanto",
-      "location": "Memorial Pillar",
-      "secondsAgo": 6364,
-      "sourceId": 1790590512
-    },
-    {
       "monsterId": 372,
       "pokemon": "Shelgon",
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
-      "secondsAgo": 5457,
+      "secondsAgo": 5731,
       "sourceId": 1790591419
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Heracross",
       "region": "Sinnoh",
       "location": "Route 206",
-      "secondsAgo": 4375,
+      "secondsAgo": 4649,
       "sourceId": 1790592501
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Porygon2",
       "region": "Unova",
       "location": "P2 Laboratory",
-      "secondsAgo": 7867,
+      "secondsAgo": 8141,
       "sourceId": 1790589009
     }
   ],
