@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-09-28T11:55:43.969Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-28T12:01:16.117Z",
+  "swarms": [
+    {
+      "monsterId": 257,
+      "pokemon": "Blaziken",
+      "region": "Hoenn",
+      "location": "Magma Hideout",
+      "sourceId": 1790598053,
+      "despawnTimestamp": 1790598053,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-28T12:20:53.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 313,
       "pokemon": "Volbeat",
       "region": "Kanto",
       "location": "Memorial Pillar",
-      "secondsAgo": 6032,
-      "sourceId": 1790590511
+      "secondsAgo": 6364,
+      "sourceId": 1790590512
     },
     {
       "monsterId": 372,
       "pokemon": "Shelgon",
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
-      "secondsAgo": 5125,
-      "sourceId": 1790591418
-    },
-    {
-      "monsterId": 260,
-      "pokemon": "Swampert",
-      "region": "Hoenn",
-      "location": "Route 109",
-      "secondsAgo": 7351,
-      "sourceId": 1790589192
+      "secondsAgo": 5457,
+      "sourceId": 1790591419
     },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Sinnoh",
       "location": "Route 206",
-      "secondsAgo": 4043,
-      "sourceId": 1790592500
+      "secondsAgo": 4375,
+      "sourceId": 1790592501
     },
     {
       "monsterId": 233,
       "pokemon": "Porygon2",
       "region": "Unova",
       "location": "P2 Laboratory",
-      "secondsAgo": 7535,
-      "sourceId": 1790589008
+      "secondsAgo": 7867,
+      "sourceId": 1790589009
     }
   ],
   "alpha": {
