@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-09-28T06:21:15.484Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-28T06:25:51.541Z",
+  "swarms": [
     {
-      "monsterId": 313,
-      "pokemon": "Volbeat",
+      "monsterId": 6,
+      "pokemon": "Charizard",
       "region": "Kanto",
-      "location": "Memorial Pillar",
-      "secondsAgo": 6745,
-      "sourceId": 1790569730
-    },
+      "location": "Mt. Ember",
+      "sourceId": 1790578088,
+      "despawnTimestamp": 1790578088,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-28T06:48:08.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 19920,
+      "secondsAgo": 20196,
       "sourceId": 1790556555
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Magby",
       "region": "Hoenn",
       "location": "Mt. Chimney",
-      "secondsAgo": 17886,
+      "secondsAgo": 18162,
       "sourceId": 1790558589
     },
     {
@@ -31,15 +35,15 @@
       "pokemon": "Ambipom",
       "region": "Sinnoh",
       "location": "Route 216",
-      "secondsAgo": 5072,
-      "sourceId": 1790571403
+      "secondsAgo": 5347,
+      "sourceId": 1790571404
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 1534,
+      "secondsAgo": 1810,
       "sourceId": 1790574941
     }
   ],
