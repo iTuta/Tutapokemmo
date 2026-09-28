@@ -1,36 +1,13 @@
 {
-  "fetchedAt": "2026-09-28T19:40:46.496Z",
-  "swarms": [
-    {
-      "monsterId": 392,
-      "pokemon": "Infernape",
-      "region": "Sinnoh",
-      "location": "Route 221",
-      "sourceId": 1790624523,
-      "despawnTimestamp": 1790624522,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-28T19:42:03.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 190,
-      "pokemon": "Aipom",
-      "region": "Unova",
-      "location": "Cold Storage",
-      "sourceId": 1790624514,
-      "despawnTimestamp": 1790624513,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-28T19:41:54.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-28T19:45:49.591Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 137,
       "pokemon": "Porygon",
       "region": "Kanto",
       "location": "Pokemon Mansion",
-      "secondsAgo": 6684,
+      "secondsAgo": 6987,
       "sourceId": 1790617762
     },
     {
@@ -38,8 +15,24 @@
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 8657,
+      "secondsAgo": 8960,
       "sourceId": 1790615789
+    },
+    {
+      "monsterId": 392,
+      "pokemon": "Infernape",
+      "region": "Sinnoh",
+      "location": "Route 221",
+      "secondsAgo": 1726,
+      "sourceId": 1790623023
+    },
+    {
+      "monsterId": 190,
+      "pokemon": "Aipom",
+      "region": "Unova",
+      "location": "Cold Storage",
+      "secondsAgo": 1735,
+      "sourceId": 1790623014
     }
   ],
   "alpha": {
