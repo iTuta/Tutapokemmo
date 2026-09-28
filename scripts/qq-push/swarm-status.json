@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-28T17:40:41.791Z",
+  "fetchedAt": "2026-09-28T17:45:43.758Z",
   "swarms": [
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Johto",
-      "location": "Dark Cave",
-      "sourceId": 1790617289,
-      "despawnTimestamp": 1790617288,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-28T17:41:29.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
@@ -30,15 +19,23 @@
       "pokemon": "Squirtle",
       "region": "Kanto",
       "location": "Route 24",
-      "secondsAgo": 11496,
+      "secondsAgo": 11798,
       "sourceId": 1790605745
+    },
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Johto",
+      "location": "Dark Cave",
+      "secondsAgo": 1754,
+      "sourceId": 1790615789
     },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 6394,
+      "secondsAgo": 6696,
       "sourceId": 1790610847
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 12155,
+      "secondsAgo": 12457,
       "sourceId": 1790605086
     }
   ],
