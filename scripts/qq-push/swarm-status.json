@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-28T06:46:18.565Z",
+  "fetchedAt": "2026-09-28T06:50:45.747Z",
   "swarms": [
-    {
-      "monsterId": 6,
-      "pokemon": "Charizard",
-      "region": "Kanto",
-      "location": "Mt. Ember",
-      "sourceId": 1790578088,
-      "despawnTimestamp": 1790578087,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-28T06:48:08.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 372,
       "pokemon": "Shelgon",
@@ -22,23 +11,34 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-28T06:54:07.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 369,
+      "pokemon": "Relicanth",
+      "region": "Hoenn",
+      "location": "Route 126",
+      "sourceId": 1790578636,
+      "despawnTimestamp": 1790578635,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-28T06:57:16.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 240,
-      "pokemon": "Magby",
-      "region": "Hoenn",
-      "location": "Mt. Chimney",
-      "secondsAgo": 19389,
-      "sourceId": 1790558589
+      "monsterId": 6,
+      "pokemon": "Charizard",
+      "region": "Kanto",
+      "location": "Mt. Ember",
+      "secondsAgo": 1657,
+      "sourceId": 1790576588
     },
     {
       "monsterId": 424,
       "pokemon": "Ambipom",
       "region": "Sinnoh",
       "location": "Route 216",
-      "secondsAgo": 6575,
+      "secondsAgo": 6842,
       "sourceId": 1790571403
     },
     {
@@ -46,8 +46,8 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 3037,
-      "sourceId": 1790574941
+      "secondsAgo": 3305,
+      "sourceId": 1790574940
     }
   ],
   "alpha": {
