@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-28T09:55:51.630Z",
+  "fetchedAt": "2026-09-28T10:01:54.642Z",
   "swarms": [
     {
       "monsterId": 370,
@@ -18,20 +18,9 @@
       "region": "Hoenn",
       "location": "Route 109",
       "sourceId": 1790590692,
-      "despawnTimestamp": 1790590692,
+      "despawnTimestamp": 1790590691,
       "hasValuable": false,
       "timestampUtc": "2026-09-28T10:18:12.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 233,
-      "pokemon": "Porygon2",
-      "region": "Unova",
-      "location": "P2 Laboratory",
-      "sourceId": 1790590328,
-      "despawnTimestamp": 1790590327,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-28T10:12:08.000Z",
       "publishedBy": ""
     }
   ],
@@ -41,7 +30,7 @@
       "pokemon": "Qwilfish",
       "region": "Kanto",
       "location": "Route 20",
-      "secondsAgo": 4437,
+      "secondsAgo": 4800,
       "sourceId": 1790584914
     },
     {
@@ -49,8 +38,16 @@
       "pokemon": "Empoleon",
       "region": "Sinnoh",
       "location": "Lake Acuity",
-      "secondsAgo": 4451,
+      "secondsAgo": 4814,
       "sourceId": 1790584900
+    },
+    {
+      "monsterId": 233,
+      "pokemon": "Porygon2",
+      "region": "Unova",
+      "location": "P2 Laboratory",
+      "secondsAgo": 706,
+      "sourceId": 1790589008
     }
   ],
   "alpha": {
