@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-28T14:40:43.809Z",
+  "fetchedAt": "2026-09-28T14:46:04.169Z",
   "swarms": [
     {
       "monsterId": 7,
@@ -18,20 +18,9 @@
       "region": "Sinnoh",
       "location": "Route 212",
       "sourceId": 1790607269,
-      "despawnTimestamp": 1790607268,
+      "despawnTimestamp": 1790607269,
       "hasValuable": false,
       "timestampUtc": "2026-09-28T14:54:29.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 314,
-      "pokemon": "Illumise",
-      "region": "Unova",
-      "location": "Moor of Icirrus",
-      "sourceId": 1790606586,
-      "despawnTimestamp": 1790606585,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-28T14:43:06.000Z",
       "publishedBy": ""
     }
   ],
@@ -41,16 +30,24 @@
       "pokemon": "Misdreavus",
       "region": "Johto",
       "location": "Sprout Tower",
-      "secondsAgo": 4693,
-      "sourceId": 1790601750
+      "secondsAgo": 5013,
+      "sourceId": 1790601751
     },
     {
       "monsterId": 316,
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 3020,
-      "sourceId": 1790603423
+      "secondsAgo": 3340,
+      "sourceId": 1790603424
+    },
+    {
+      "monsterId": 314,
+      "pokemon": "Illumise",
+      "region": "Unova",
+      "location": "Moor of Icirrus",
+      "secondsAgo": 1677,
+      "sourceId": 1790605087
     }
   ],
   "alpha": {
