@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-28T15:51:24.098Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-28T15:55:41.598Z",
+  "swarms": [
+    {
+      "monsterId": 300,
+      "pokemon": "Skitty",
+      "region": "Sinnoh",
+      "location": "Route 204",
+      "sourceId": 1790612347,
+      "despawnTimestamp": 1790612346,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-28T16:19:07.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 7,
       "pokemon": "Squirtle",
       "region": "Kanto",
       "location": "Route 24",
-      "secondsAgo": 4939,
+      "secondsAgo": 5196,
       "sourceId": 1790605745
     },
     {
@@ -15,24 +27,16 @@
       "pokemon": "Misdreavus",
       "region": "Johto",
       "location": "Sprout Tower",
-      "secondsAgo": 8933,
-      "sourceId": 1790601751
+      "secondsAgo": 9191,
+      "sourceId": 1790601750
     },
     {
       "monsterId": 316,
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 7260,
-      "sourceId": 1790603424
-    },
-    {
-      "monsterId": 389,
-      "pokemon": "Torterra",
-      "region": "Sinnoh",
-      "location": "Route 212",
-      "secondsAgo": 4914,
-      "sourceId": 1790605770
+      "secondsAgo": 7518,
+      "sourceId": 1790603423
     }
   ],
   "alpha": {
