@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-09-28T20:50:52.070Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-28T20:55:42.860Z",
+  "swarms": [
     {
-      "monsterId": 137,
-      "pokemon": "Porygon",
+      "monsterId": 142,
+      "pokemon": "Aerodactyl",
       "region": "Kanto",
-      "location": "Pokemon Mansion",
-      "secondsAgo": 10890,
-      "sourceId": 1790617762
-    },
+      "location": "Tanoby Ruins",
+      "sourceId": 1790630328,
+      "despawnTimestamp": 1790630328,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-28T21:18:48.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 3811,
+      "secondsAgo": 4101,
       "sourceId": 1790624841
     },
     {
@@ -23,24 +27,24 @@
       "pokemon": "Shuckle",
       "region": "Hoenn",
       "location": "Seafloor Cavern",
-      "secondsAgo": 11939,
-      "sourceId": 1790616713
+      "secondsAgo": 12230,
+      "sourceId": 1790616712
     },
     {
       "monsterId": 392,
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 5628,
-      "sourceId": 1790623024
+      "secondsAgo": 5919,
+      "sourceId": 1790623023
     },
     {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Unova",
       "location": "Cold Storage",
-      "secondsAgo": 5637,
-      "sourceId": 1790623015
+      "secondsAgo": 5928,
+      "sourceId": 1790623014
     }
   ],
   "alpha": {
