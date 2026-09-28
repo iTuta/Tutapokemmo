@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-28T09:50:42.002Z",
+  "fetchedAt": "2026-09-28T09:55:51.630Z",
   "swarms": [
     {
       "monsterId": 370,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1790590057,
       "hasValuable": false,
       "timestampUtc": "2026-09-28T10:07:38.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 260,
+      "pokemon": "Swampert",
+      "region": "Hoenn",
+      "location": "Route 109",
+      "sourceId": 1790590692,
+      "despawnTimestamp": 1790590692,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-28T10:18:12.000Z",
       "publishedBy": ""
     },
     {
@@ -30,23 +41,15 @@
       "pokemon": "Qwilfish",
       "region": "Kanto",
       "location": "Route 20",
-      "secondsAgo": 4127,
+      "secondsAgo": 4437,
       "sourceId": 1790584914
-    },
-    {
-      "monsterId": 369,
-      "pokemon": "Relicanth",
-      "region": "Hoenn",
-      "location": "Route 126",
-      "secondsAgo": 10945,
-      "sourceId": 1790578096
     },
     {
       "monsterId": 395,
       "pokemon": "Empoleon",
       "region": "Sinnoh",
       "location": "Lake Acuity",
-      "secondsAgo": 4141,
+      "secondsAgo": 4451,
       "sourceId": 1790584900
     }
   ],
