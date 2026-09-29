@@ -1,50 +1,56 @@
 {
-  "fetchedAt": "2026-09-29T00:40:47.998Z",
+  "fetchedAt": "2026-09-29T00:45:51.378Z",
   "swarms": [
+    {
+      "monsterId": 8,
+      "pokemon": "Wartortle",
+      "region": "Kanto",
+      "location": "Seafoam Islands",
+      "sourceId": 1790644044,
+      "despawnTimestamp": 1790644044,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-29T01:07:24.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 479,
       "pokemon": "Rotom",
       "region": "Hoenn",
       "location": "New Mauville",
       "sourceId": 1790643366,
-      "despawnTimestamp": 1790643365,
+      "despawnTimestamp": 1790643366,
       "hasValuable": false,
       "timestampUtc": "2026-09-29T00:56:06.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 394,
+      "pokemon": "Prinplup",
+      "region": "Sinnoh",
+      "location": "Route 220",
+      "sourceId": 1790643964,
+      "despawnTimestamp": 1790643964,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-29T01:06:04.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 142,
-      "pokemon": "Aerodactyl",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 13619,
-      "sourceId": 1790628828
-    },
-    {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Johto",
       "location": "Route 43",
-      "secondsAgo": 5521,
-      "sourceId": 1790636926
-    },
-    {
-      "monsterId": 359,
-      "pokemon": "Absol",
-      "region": "Sinnoh",
-      "location": "Mt. Coronet",
-      "secondsAgo": 7383,
-      "sourceId": 1790635064
+      "secondsAgo": 5824,
+      "sourceId": 1790636927
     },
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Unova",
       "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 12459,
-      "sourceId": 1790629988
+      "secondsAgo": 12762,
+      "sourceId": 1790629989
     }
   ],
   "alpha": {
