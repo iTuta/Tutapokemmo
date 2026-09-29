@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-09-29T06:25:44.627Z",
+  "fetchedAt": "2026-09-29T06:30:51.023Z",
   "swarms": [
+    {
+      "monsterId": 154,
+      "pokemon": "Meganium",
+      "region": "Johto",
+      "location": "Route 48",
+      "sourceId": 1790664649,
+      "despawnTimestamp": 1790664648,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-29T06:50:49.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
       "sourceId": 1790663488,
-      "despawnTimestamp": 1790663488,
+      "despawnTimestamp": 1790663487,
       "hasValuable": false,
       "timestampUtc": "2026-09-29T06:31:28.000Z",
       "publishedBy": ""
@@ -19,32 +30,24 @@
       "pokemon": "Wartortle",
       "region": "Kanto",
       "location": "Seafoam Islands",
-      "secondsAgo": 20599,
-      "sourceId": 1790642545
-    },
-    {
-      "monsterId": 375,
-      "pokemon": "Metang",
-      "region": "Johto",
-      "location": "Ice Path",
-      "secondsAgo": 10367,
-      "sourceId": 1790652777
+      "secondsAgo": 20906,
+      "sourceId": 1790642544
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Hoenn",
       "location": "Route 101",
-      "secondsAgo": 10390,
-      "sourceId": 1790652754
+      "secondsAgo": 10697,
+      "sourceId": 1790652753
     },
     {
       "monsterId": 415,
       "pokemon": "Combee",
       "region": "Sinnoh",
       "location": "Floaroma Meadow",
-      "secondsAgo": 16740,
-      "sourceId": 1790646404
+      "secondsAgo": 17047,
+      "sourceId": 1790646403
     }
   ],
   "alpha": {
