@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-29T10:25:40.680Z",
+  "fetchedAt": "2026-09-29T10:30:59.076Z",
   "swarms": [
+    {
+      "monsterId": 141,
+      "pokemon": "Kabutops",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "sourceId": 1790679230,
+      "despawnTimestamp": 1790679230,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-29T10:53:50.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 255,
       "pokemon": "Torchic",
@@ -18,7 +29,7 @@
       "region": "Sinnoh",
       "location": "Route 211",
       "sourceId": 1790678394,
-      "despawnTimestamp": 1790678393,
+      "despawnTimestamp": 1790678394,
       "hasValuable": false,
       "timestampUtc": "2026-09-29T10:39:54.000Z",
       "publishedBy": ""
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 248,
-      "pokemon": "Tyranitar",
-      "region": "Kanto",
-      "location": "Canyon Entrance",
-      "secondsAgo": 6629,
-      "sourceId": 1790670911
-    },
-    {
       "monsterId": 154,
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 14390,
+      "secondsAgo": 14709,
       "sourceId": 1790663150
     },
     {
@@ -46,8 +49,8 @@
       "pokemon": "Ninjask",
       "region": "Unova",
       "location": "Route 11",
-      "secondsAgo": 1571,
-      "sourceId": 1790675969
+      "secondsAgo": 1889,
+      "sourceId": 1790675970
     }
   ],
   "alpha": {
