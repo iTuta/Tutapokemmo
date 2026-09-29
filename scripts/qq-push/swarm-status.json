@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-09-29T00:30:57.011Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-29T00:35:55.087Z",
+  "swarms": [
+    {
+      "monsterId": 479,
+      "pokemon": "Rotom",
+      "region": "Hoenn",
+      "location": "New Mauville",
+      "sourceId": 1790643366,
+      "despawnTimestamp": 1790643366,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-29T00:56:06.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 142,
       "pokemon": "Aerodactyl",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 13028,
-      "sourceId": 1790628828
+      "secondsAgo": 13326,
+      "sourceId": 1790628829
     },
     {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Johto",
       "location": "Route 43",
-      "secondsAgo": 4930,
-      "sourceId": 1790636926
-    },
-    {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Hoenn",
-      "location": "Seafloor Cavern",
-      "secondsAgo": 25144,
-      "sourceId": 1790616712
+      "secondsAgo": 5228,
+      "sourceId": 1790636927
     },
     {
       "monsterId": 359,
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "secondsAgo": 6792,
-      "sourceId": 1790635064
+      "secondsAgo": 7090,
+      "sourceId": 1790635065
     },
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Unova",
       "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 11868,
-      "sourceId": 1790629988
+      "secondsAgo": 12166,
+      "sourceId": 1790629989
     }
   ],
   "alpha": {
