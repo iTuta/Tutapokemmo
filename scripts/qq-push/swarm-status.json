@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-09-29T09:10:50.217Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-29T09:15:55.704Z",
+  "swarms": [
+    {
+      "monsterId": 468,
+      "pokemon": "Togekiss",
+      "region": "Hoenn",
+      "location": "Sky Pillar",
+      "sourceId": 1790674747,
+      "despawnTimestamp": 1790674746,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-29T09:39:07.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 248,
       "pokemon": "Tyranitar",
       "region": "Kanto",
       "location": "Canyon Entrance",
-      "secondsAgo": 2139,
+      "secondsAgo": 2444,
       "sourceId": 1790670911
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Hoenn",
-      "location": "Route 101",
-      "secondsAgo": 2518,
-      "sourceId": 1790670532
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 7456,
+      "secondsAgo": 7761,
       "sourceId": 1790665594
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 7867,
+      "secondsAgo": 8172,
       "sourceId": 1790665183
     }
   ],
