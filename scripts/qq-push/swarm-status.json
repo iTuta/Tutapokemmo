@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-09-29T12:45:44.408Z",
+  "fetchedAt": "2026-09-29T12:50:44.974Z",
   "swarms": [
-    {
-      "monsterId": 123,
-      "pokemon": "Scyther",
-      "region": "Sinnoh",
-      "location": "Route 210",
-      "sourceId": 1790686184,
-      "despawnTimestamp": 1790686184,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-29T12:49:44.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Unova",
       "location": "Pinwheel Forest",
       "sourceId": 1790686497,
-      "despawnTimestamp": 1790686497,
+      "despawnTimestamp": 1790686496,
       "hasValuable": false,
       "timestampUtc": "2026-09-29T12:54:57.000Z",
       "publishedBy": ""
@@ -30,24 +19,32 @@
       "pokemon": "Salamence",
       "region": "Kanto",
       "location": "Victory Road",
-      "secondsAgo": 1979,
-      "sourceId": 1790683965
+      "secondsAgo": 2280,
+      "sourceId": 1790683964
     },
     {
       "monsterId": 154,
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 22794,
-      "sourceId": 1790663150
+      "secondsAgo": 23095,
+      "sourceId": 1790663149
     },
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Hoenn",
       "location": "Route 115",
-      "secondsAgo": 3248,
+      "secondsAgo": 3548,
       "sourceId": 1790682696
+    },
+    {
+      "monsterId": 123,
+      "pokemon": "Scyther",
+      "region": "Sinnoh",
+      "location": "Route 210",
+      "secondsAgo": 1560,
+      "sourceId": 1790684684
     }
   ],
   "alpha": {
