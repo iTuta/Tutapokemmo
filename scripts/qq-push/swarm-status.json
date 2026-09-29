@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-09-29T08:25:49.179Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-29T08:31:22.625Z",
+  "swarms": [
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Hoenn",
+      "location": "Route 101",
+      "sourceId": 1790672031,
+      "despawnTimestamp": 1790672031,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-29T08:53:51.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 517,
       "pokemon": "Munna",
       "region": "Kanto",
       "location": "Route 4",
-      "secondsAgo": 5016,
-      "sourceId": 1790665333
+      "secondsAgo": 5350,
+      "sourceId": 1790665332
     },
     {
       "monsterId": 154,
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 7199,
+      "secondsAgo": 7532,
       "sourceId": 1790663150
-    },
-    {
-      "monsterId": 370,
-      "pokemon": "Luvdisc",
-      "region": "Hoenn",
-      "location": "Route 132",
-      "secondsAgo": 5379,
-      "sourceId": 1790664970
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 4755,
+      "secondsAgo": 5088,
       "sourceId": 1790665594
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 5166,
+      "secondsAgo": 5499,
       "sourceId": 1790665183
     }
   ],
