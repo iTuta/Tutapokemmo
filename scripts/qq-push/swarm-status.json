@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-29T12:15:49.361Z",
+  "fetchedAt": "2026-09-29T12:20:41.592Z",
   "swarms": [
     {
       "monsterId": 373,
@@ -7,20 +7,9 @@
       "region": "Kanto",
       "location": "Victory Road",
       "sourceId": 1790685464,
-      "despawnTimestamp": 1790685464,
+      "despawnTimestamp": 1790685463,
       "hasValuable": false,
       "timestampUtc": "2026-09-29T12:37:44.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 441,
-      "pokemon": "Chatot",
-      "region": "Hoenn",
-      "location": "Route 115",
-      "sourceId": 1790684196,
-      "despawnTimestamp": 1790684195,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-29T12:16:36.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,15 +19,23 @@
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 20999,
+      "secondsAgo": 21291,
       "sourceId": 1790663150
+    },
+    {
+      "monsterId": 441,
+      "pokemon": "Chatot",
+      "region": "Hoenn",
+      "location": "Route 115",
+      "secondsAgo": 1745,
+      "sourceId": 1790682696
     },
     {
       "monsterId": 390,
       "pokemon": "Chimchar",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 7255,
+      "secondsAgo": 7547,
       "sourceId": 1790676894
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Ninjask",
       "region": "Unova",
       "location": "Route 11",
-      "secondsAgo": 8179,
+      "secondsAgo": 8471,
       "sourceId": 1790675970
     }
   ],
