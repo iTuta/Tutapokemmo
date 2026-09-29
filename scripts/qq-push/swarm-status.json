@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-29T14:55:53.128Z",
+  "fetchedAt": "2026-09-29T15:01:10.908Z",
   "swarms": [
     {
       "monsterId": 313,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-29T15:01:21.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 450,
-      "pokemon": "Hippowdon",
-      "region": "Hoenn",
-      "location": "Victory Road",
-      "sourceId": 1790693900,
-      "despawnTimestamp": 1790693900,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-29T14:58:20.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,24 +19,32 @@
       "pokemon": "Chikorita",
       "region": "Johto",
       "location": "Route 31",
-      "secondsAgo": 4504,
+      "secondsAgo": 4821,
       "sourceId": 1790689249
+    },
+    {
+      "monsterId": 450,
+      "pokemon": "Hippowdon",
+      "region": "Hoenn",
+      "location": "Victory Road",
+      "secondsAgo": 1670,
+      "sourceId": 1790692400
     },
     {
       "monsterId": 123,
       "pokemon": "Scyther",
       "region": "Sinnoh",
       "location": "Route 210",
-      "secondsAgo": 9068,
-      "sourceId": 1790684685
+      "secondsAgo": 9386,
+      "sourceId": 1790684684
     },
     {
       "monsterId": 331,
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 1801,
-      "sourceId": 1790691952
+      "secondsAgo": 2119,
+      "sourceId": 1790691951
     }
   ],
   "alpha": {
