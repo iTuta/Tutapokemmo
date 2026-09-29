@@ -1,56 +1,50 @@
 {
-  "fetchedAt": "2026-09-29T01:05:43.446Z",
+  "fetchedAt": "2026-09-29T01:10:51.906Z",
   "swarms": [
-    {
-      "monsterId": 8,
-      "pokemon": "Wartortle",
-      "region": "Kanto",
-      "location": "Seafoam Islands",
-      "sourceId": 1790644044,
-      "despawnTimestamp": 1790644044,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-29T01:07:24.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 370,
       "pokemon": "Luvdisc",
       "region": "Johto",
       "location": "Route 47",
       "sourceId": 1790644712,
-      "despawnTimestamp": 1790644712,
+      "despawnTimestamp": 1790644711,
       "hasValuable": false,
       "timestampUtc": "2026-09-29T01:18:32.000Z",
       "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 8,
+      "pokemon": "Wartortle",
+      "region": "Kanto",
+      "location": "Seafoam Islands",
+      "secondsAgo": 1706,
+      "sourceId": 1790642545
+    },
+    {
+      "monsterId": 479,
+      "pokemon": "Rotom",
+      "region": "Hoenn",
+      "location": "New Mauville",
+      "secondsAgo": 2385,
+      "sourceId": 1790641866
     },
     {
       "monsterId": 394,
       "pokemon": "Prinplup",
       "region": "Sinnoh",
       "location": "Route 220",
-      "sourceId": 1790643964,
-      "despawnTimestamp": 1790643964,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-29T01:06:04.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 479,
-      "pokemon": "Rotom",
-      "region": "Hoenn",
-      "location": "New Mauville",
-      "secondsAgo": 2077,
-      "sourceId": 1790641866
+      "secondsAgo": 1786,
+      "sourceId": 1790642465
     },
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Unova",
       "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 13954,
-      "sourceId": 1790629989
+      "secondsAgo": 14263,
+      "sourceId": 1790629988
     }
   ],
   "alpha": {
