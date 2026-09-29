@@ -1,33 +1,29 @@
 {
-  "fetchedAt": "2026-09-29T03:55:47.955Z",
-  "swarms": [
-    {
-      "monsterId": 375,
-      "pokemon": "Metang",
-      "region": "Johto",
-      "location": "Ice Path",
-      "sourceId": 1790654157,
-      "despawnTimestamp": 1790654156,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-29T03:55:57.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-29T04:01:02.691Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 8,
       "pokemon": "Wartortle",
       "region": "Kanto",
       "location": "Seafoam Islands",
-      "secondsAgo": 11602,
+      "secondsAgo": 11917,
       "sourceId": 1790642545
+    },
+    {
+      "monsterId": 375,
+      "pokemon": "Metang",
+      "region": "Johto",
+      "location": "Ice Path",
+      "secondsAgo": 1685,
+      "sourceId": 1790652777
     },
     {
       "monsterId": 415,
       "pokemon": "Combee",
       "region": "Sinnoh",
       "location": "Floaroma Meadow",
-      "secondsAgo": 7743,
+      "secondsAgo": 8058,
       "sourceId": 1790646404
     },
     {
@@ -35,7 +31,7 @@
       "pokemon": "Porygon2",
       "region": "Unova",
       "location": "P2 Laboratory",
-      "secondsAgo": 5306,
+      "secondsAgo": 5621,
       "sourceId": 1790648841
     }
   ],
