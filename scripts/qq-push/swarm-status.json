@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-29T07:10:55.463Z",
+  "fetchedAt": "2026-09-29T07:16:19.335Z",
   "swarms": [
-    {
-      "monsterId": 517,
-      "pokemon": "Munna",
-      "region": "Kanto",
-      "location": "Route 4",
-      "sourceId": 1790666832,
-      "despawnTimestamp": 1790666832,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-29T07:27:12.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 370,
       "pokemon": "Luvdisc",
@@ -48,11 +37,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Kanto",
+      "location": "Route 4",
+      "secondsAgo": 846,
+      "sourceId": 1790665333
+    },
+    {
       "monsterId": 154,
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 2705,
+      "secondsAgo": 3029,
       "sourceId": 1790663150
     }
   ],
