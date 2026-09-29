@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-29T10:20:45.797Z",
+  "fetchedAt": "2026-09-29T10:25:40.680Z",
   "swarms": [
+    {
+      "monsterId": 255,
+      "pokemon": "Torchic",
+      "region": "Hoenn",
+      "location": "Route 112",
+      "sourceId": 1790678801,
+      "despawnTimestamp": 1790678801,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-29T10:46:41.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 390,
       "pokemon": "Chimchar",
@@ -11,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-29T10:39:54.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 291,
-      "pokemon": "Ninjask",
-      "region": "Unova",
-      "location": "Route 11",
-      "sourceId": 1790677469,
-      "despawnTimestamp": 1790677468,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-29T10:24:29.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +30,7 @@
       "pokemon": "Tyranitar",
       "region": "Kanto",
       "location": "Canyon Entrance",
-      "secondsAgo": 6334,
+      "secondsAgo": 6629,
       "sourceId": 1790670911
     },
     {
@@ -38,16 +38,16 @@
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 14095,
+      "secondsAgo": 14390,
       "sourceId": 1790663150
     },
     {
-      "monsterId": 468,
-      "pokemon": "Togekiss",
-      "region": "Hoenn",
-      "location": "Sky Pillar",
-      "secondsAgo": 3998,
-      "sourceId": 1790673247
+      "monsterId": 291,
+      "pokemon": "Ninjask",
+      "region": "Unova",
+      "location": "Route 11",
+      "secondsAgo": 1571,
+      "sourceId": 1790675969
     }
   ],
   "alpha": {
