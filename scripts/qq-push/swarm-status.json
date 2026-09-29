@@ -1,33 +1,29 @@
 {
-  "fetchedAt": "2026-09-29T08:50:54.419Z",
-  "swarms": [
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Hoenn",
-      "location": "Route 101",
-      "sourceId": 1790672031,
-      "despawnTimestamp": 1790672031,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-29T08:53:51.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-29T08:55:50.158Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 248,
       "pokemon": "Tyranitar",
       "region": "Kanto",
       "location": "Canyon Entrance",
-      "secondsAgo": 943,
+      "secondsAgo": 1239,
       "sourceId": 1790670911
+    },
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Hoenn",
+      "location": "Route 101",
+      "secondsAgo": 1618,
+      "sourceId": 1790670532
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 6260,
+      "secondsAgo": 6556,
       "sourceId": 1790665594
     },
     {
@@ -35,7 +31,7 @@
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 6671,
+      "secondsAgo": 6967,
       "sourceId": 1790665183
     }
   ],
