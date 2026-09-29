@@ -1,13 +1,35 @@
 {
-  "fetchedAt": "2026-09-29T14:31:06.704Z",
+  "fetchedAt": "2026-09-29T14:36:30.248Z",
   "swarms": [
+    {
+      "monsterId": 313,
+      "pokemon": "Volbeat",
+      "region": "Kanto",
+      "location": "Memorial Pillar",
+      "sourceId": 1790694081,
+      "despawnTimestamp": 1790694081,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-29T15:01:21.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 450,
+      "pokemon": "Hippowdon",
+      "region": "Hoenn",
+      "location": "Victory Road",
+      "sourceId": 1790693900,
+      "despawnTimestamp": 1790693900,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-29T14:58:20.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 331,
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
       "sourceId": 1790693451,
-      "despawnTimestamp": 1790693450,
+      "despawnTimestamp": 1790693451,
       "hasValuable": false,
       "timestampUtc": "2026-09-29T14:50:51.000Z",
       "publishedBy": ""
@@ -15,35 +37,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 373,
-      "pokemon": "Salamence",
-      "region": "Kanto",
-      "location": "Victory Road",
-      "secondsAgo": 8302,
-      "sourceId": 1790683964
-    },
-    {
       "monsterId": 152,
       "pokemon": "Chikorita",
       "region": "Johto",
       "location": "Route 31",
-      "secondsAgo": 3017,
+      "secondsAgo": 3341,
       "sourceId": 1790689249
-    },
-    {
-      "monsterId": 441,
-      "pokemon": "Chatot",
-      "region": "Hoenn",
-      "location": "Route 115",
-      "secondsAgo": 9570,
-      "sourceId": 1790682696
     },
     {
       "monsterId": 123,
       "pokemon": "Scyther",
       "region": "Sinnoh",
       "location": "Route 210",
-      "secondsAgo": 7581,
+      "secondsAgo": 7905,
       "sourceId": 1790684685
     }
   ],
