@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-09-29T19:55:49.546Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-29T20:01:04.066Z",
+  "swarms": [
+    {
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Sinnoh",
+      "location": "Valor Lakefront",
+      "sourceId": 1790713546,
+      "despawnTimestamp": 1790713546,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-29T20:25:46.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Kanto",
       "location": "Three Island",
-      "secondsAgo": 15182,
-      "sourceId": 1790696567
+      "secondsAgo": 15496,
+      "sourceId": 1790696568
     },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Johto",
       "location": "Route 34",
-      "secondsAgo": 3538,
+      "secondsAgo": 3853,
       "sourceId": 1790708211
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Magby",
       "region": "Hoenn",
       "location": "Mt. Chimney",
-      "secondsAgo": 7724,
+      "secondsAgo": 8039,
       "sourceId": 1790704025
-    },
-    {
-      "monsterId": 91,
-      "pokemon": "Cloyster",
-      "region": "Sinnoh",
-      "location": "Route 223",
-      "secondsAgo": 7923,
-      "sourceId": 1790703826
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 11091,
+      "secondsAgo": 11406,
       "sourceId": 1790700658
     }
   ],
