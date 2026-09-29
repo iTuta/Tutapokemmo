@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-29T21:05:43.744Z",
+  "fetchedAt": "2026-09-29T21:10:45.854Z",
   "swarms": [
     {
       "monsterId": 350,
@@ -7,20 +7,9 @@
       "region": "Kanto",
       "location": "Resort Gorgeous",
       "sourceId": 1790717130,
-      "despawnTimestamp": 1790717130,
+      "despawnTimestamp": 1790717129,
       "hasValuable": false,
       "timestampUtc": "2026-09-29T21:25:30.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 160,
-      "pokemon": "Feraligatr",
-      "region": "Johto",
-      "location": "Tohjo Falls",
-      "sourceId": 1790715956,
-      "despawnTimestamp": 1790715956,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-29T21:05:56.000Z",
       "publishedBy": ""
     },
     {
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 160,
+      "pokemon": "Feraligatr",
+      "region": "Johto",
+      "location": "Tohjo Falls",
+      "secondsAgo": 1788,
+      "sourceId": 1790714457
+    },
+    {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 1987,
+      "secondsAgo": 2289,
       "sourceId": 1790713956
     }
   ],
