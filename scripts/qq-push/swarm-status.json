@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-29T11:50:43.894Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-29T11:55:46.767Z",
+  "swarms": [
+    {
+      "monsterId": 441,
+      "pokemon": "Chatot",
+      "region": "Hoenn",
+      "location": "Route 115",
+      "sourceId": 1790684196,
+      "despawnTimestamp": 1790684195,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-29T12:16:36.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 141,
       "pokemon": "Kabutops",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 4913,
+      "secondsAgo": 5216,
       "sourceId": 1790677730
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 19493,
+      "secondsAgo": 19796,
       "sourceId": 1790663150
-    },
-    {
-      "monsterId": 255,
-      "pokemon": "Torchic",
-      "region": "Hoenn",
-      "location": "Route 112",
-      "secondsAgo": 5342,
-      "sourceId": 1790677301
     },
     {
       "monsterId": 390,
       "pokemon": "Chimchar",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 5749,
+      "secondsAgo": 6052,
       "sourceId": 1790676894
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Ninjask",
       "region": "Unova",
       "location": "Route 11",
-      "secondsAgo": 6674,
+      "secondsAgo": 6977,
       "sourceId": 1790675969
     }
   ],
