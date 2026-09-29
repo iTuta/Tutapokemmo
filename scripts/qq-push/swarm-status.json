@@ -1,37 +1,44 @@
 {
-  "fetchedAt": "2026-09-29T03:31:24.448Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-29T03:35:36.164Z",
+  "swarms": [
+    {
+      "monsterId": 375,
+      "pokemon": "Metang",
+      "region": "Johto",
+      "location": "Ice Path",
+      "sourceId": 1790654157,
+      "despawnTimestamp": 1790654157,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-29T03:55:57.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Hoenn",
+      "location": "Route 101",
+      "sourceId": 1790653713,
+      "despawnTimestamp": 1790653713,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-29T03:48:33.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 8,
       "pokemon": "Wartortle",
       "region": "Kanto",
       "location": "Seafoam Islands",
-      "secondsAgo": 10139,
+      "secondsAgo": 10391,
       "sourceId": 1790642545
-    },
-    {
-      "monsterId": 370,
-      "pokemon": "Luvdisc",
-      "region": "Johto",
-      "location": "Route 47",
-      "secondsAgo": 9471,
-      "sourceId": 1790643213
-    },
-    {
-      "monsterId": 479,
-      "pokemon": "Rotom",
-      "region": "Hoenn",
-      "location": "New Mauville",
-      "secondsAgo": 10818,
-      "sourceId": 1790641866
     },
     {
       "monsterId": 415,
       "pokemon": "Combee",
       "region": "Sinnoh",
       "location": "Floaroma Meadow",
-      "secondsAgo": 6280,
+      "secondsAgo": 6532,
       "sourceId": 1790646404
     },
     {
@@ -39,8 +46,8 @@
       "pokemon": "Porygon2",
       "region": "Unova",
       "location": "P2 Laboratory",
-      "secondsAgo": 3843,
-      "sourceId": 1790648841
+      "secondsAgo": 4094,
+      "sourceId": 1790648842
     }
   ],
   "alpha": {
