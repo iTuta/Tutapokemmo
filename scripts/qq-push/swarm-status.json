@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-09-29T18:55:46.266Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-29T19:01:21.536Z",
+  "swarms": [
+    {
+      "monsterId": 285,
+      "pokemon": "Shroomish",
+      "region": "Johto",
+      "location": "Route 34",
+      "sourceId": 1790709710,
+      "despawnTimestamp": 1790709710,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-29T19:21:50.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Kanto",
       "location": "Three Island",
-      "secondsAgo": 11578,
-      "sourceId": 1790696568
-    },
-    {
-      "monsterId": 319,
-      "pokemon": "Sharpedo",
-      "region": "Johto",
-      "location": "Route 41",
-      "secondsAgo": 4268,
-      "sourceId": 1790703878
+      "secondsAgo": 11914,
+      "sourceId": 1790696567
     },
     {
       "monsterId": 240,
       "pokemon": "Magby",
       "region": "Hoenn",
       "location": "Mt. Chimney",
-      "secondsAgo": 4121,
+      "secondsAgo": 4456,
       "sourceId": 1790704025
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Cloyster",
       "region": "Sinnoh",
       "location": "Route 223",
-      "secondsAgo": 4320,
+      "secondsAgo": 4655,
       "sourceId": 1790703826
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 7488,
+      "secondsAgo": 7823,
       "sourceId": 1790700658
     }
   ],
