@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-09-29T23:05:39.971Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-29T23:10:44.214Z",
+  "swarms": [
     {
-      "monsterId": 4,
-      "pokemon": "Charmander",
+      "monsterId": 2,
+      "pokemon": "Ivysaur",
       "region": "Kanto",
-      "location": "Route 3",
-      "secondsAgo": 3507,
-      "sourceId": 1790719632
-    },
+      "location": "Route 5",
+      "sourceId": 1790724940,
+      "despawnTimestamp": 1790724940,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-29T23:35:40.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 375,
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 2003,
-      "sourceId": 1790721136
+      "secondsAgo": 2307,
+      "sourceId": 1790721137
     },
     {
       "monsterId": 256,
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Route 114",
-      "secondsAgo": 2785,
-      "sourceId": 1790720354
+      "secondsAgo": 3089,
+      "sourceId": 1790720355
     },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 11093,
+      "secondsAgo": 11398,
       "sourceId": 1790712046
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 2822,
+      "secondsAgo": 3127,
       "sourceId": 1790720317
     }
   ],
