@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-29T12:10:56.364Z",
+  "fetchedAt": "2026-09-29T12:15:49.361Z",
   "swarms": [
+    {
+      "monsterId": 373,
+      "pokemon": "Salamence",
+      "region": "Kanto",
+      "location": "Victory Road",
+      "sourceId": 1790685464,
+      "despawnTimestamp": 1790685464,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-29T12:37:44.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 441,
       "pokemon": "Chatot",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 141,
-      "pokemon": "Kabutops",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 6125,
-      "sourceId": 1790677731
-    },
-    {
       "monsterId": 154,
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 20706,
+      "secondsAgo": 20999,
       "sourceId": 1790663150
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Chimchar",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 6962,
+      "secondsAgo": 7255,
       "sourceId": 1790676894
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Ninjask",
       "region": "Unova",
       "location": "Route 11",
-      "secondsAgo": 7886,
+      "secondsAgo": 8179,
       "sourceId": 1790675970
     }
   ],
