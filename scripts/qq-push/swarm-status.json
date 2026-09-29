@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-29T00:50:43.063Z",
+  "fetchedAt": "2026-09-29T00:55:42.029Z",
   "swarms": [
     {
       "monsterId": 8,
@@ -7,9 +7,20 @@
       "region": "Kanto",
       "location": "Seafoam Islands",
       "sourceId": 1790644044,
-      "despawnTimestamp": 1790644044,
+      "despawnTimestamp": 1790644043,
       "hasValuable": false,
       "timestampUtc": "2026-09-29T01:07:24.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 370,
+      "pokemon": "Luvdisc",
+      "region": "Johto",
+      "location": "Route 47",
+      "sourceId": 1790644712,
+      "despawnTimestamp": 1790644711,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-29T01:18:32.000Z",
       "publishedBy": ""
     },
     {
@@ -18,7 +29,7 @@
       "region": "Hoenn",
       "location": "New Mauville",
       "sourceId": 1790643366,
-      "despawnTimestamp": 1790643366,
+      "despawnTimestamp": 1790643365,
       "hasValuable": false,
       "timestampUtc": "2026-09-29T00:56:06.000Z",
       "publishedBy": ""
@@ -37,20 +48,12 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 281,
-      "pokemon": "Kirlia",
-      "region": "Johto",
-      "location": "Route 43",
-      "secondsAgo": 6116,
-      "sourceId": 1790636927
-    },
-    {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Unova",
       "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 13054,
-      "sourceId": 1790629989
+      "secondsAgo": 13353,
+      "sourceId": 1790629988
     }
   ],
   "alpha": {
