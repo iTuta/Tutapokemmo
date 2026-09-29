@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-29T20:01:04.066Z",
+  "fetchedAt": "2026-09-29T20:05:43.498Z",
   "swarms": [
     {
       "monsterId": 128,
@@ -7,9 +7,20 @@
       "region": "Sinnoh",
       "location": "Valor Lakefront",
       "sourceId": 1790713546,
-      "despawnTimestamp": 1790713546,
+      "despawnTimestamp": 1790713545,
       "hasValuable": false,
       "timestampUtc": "2026-09-29T20:25:46.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Unova",
+      "location": "Route 1",
+      "sourceId": 1790713787,
+      "despawnTimestamp": 1790713787,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-29T20:29:47.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,15 +30,15 @@
       "pokemon": "Blissey",
       "region": "Kanto",
       "location": "Three Island",
-      "secondsAgo": 15496,
-      "sourceId": 1790696568
+      "secondsAgo": 15776,
+      "sourceId": 1790696567
     },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Johto",
       "location": "Route 34",
-      "secondsAgo": 3853,
+      "secondsAgo": 4132,
       "sourceId": 1790708211
     },
     {
@@ -35,16 +46,8 @@
       "pokemon": "Magby",
       "region": "Hoenn",
       "location": "Mt. Chimney",
-      "secondsAgo": 8039,
+      "secondsAgo": 8318,
       "sourceId": 1790704025
-    },
-    {
-      "monsterId": 193,
-      "pokemon": "Yanma",
-      "region": "Unova",
-      "location": "Pinwheel Forest",
-      "secondsAgo": 11406,
-      "sourceId": 1790700658
     }
   ],
   "alpha": {
