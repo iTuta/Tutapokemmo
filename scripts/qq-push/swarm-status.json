@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-29T21:10:45.854Z",
+  "fetchedAt": "2026-09-29T21:15:44.824Z",
   "swarms": [
     {
       "monsterId": 350,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-29T21:25:30.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 517,
-      "pokemon": "Munna",
-      "region": "Hoenn",
-      "location": "Route 102",
-      "sourceId": 1790716303,
-      "despawnTimestamp": 1790716302,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-29T21:11:43.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,15 +19,23 @@
       "pokemon": "Feraligatr",
       "region": "Johto",
       "location": "Tohjo Falls",
-      "secondsAgo": 1788,
+      "secondsAgo": 2087,
       "sourceId": 1790714457
+    },
+    {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Hoenn",
+      "location": "Route 102",
+      "secondsAgo": 1741,
+      "sourceId": 1790714803
     },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 2289,
+      "secondsAgo": 2588,
       "sourceId": 1790713956
     }
   ],
