@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-29T09:55:43.333Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-29T10:01:00.742Z",
+  "swarms": [
+    {
+      "monsterId": 291,
+      "pokemon": "Ninjask",
+      "region": "Unova",
+      "location": "Route 11",
+      "sourceId": 1790677469,
+      "despawnTimestamp": 1790677468,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-29T10:24:29.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 248,
       "pokemon": "Tyranitar",
       "region": "Kanto",
       "location": "Canyon Entrance",
-      "secondsAgo": 4832,
+      "secondsAgo": 5149,
       "sourceId": 1790670911
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 12593,
+      "secondsAgo": 12910,
       "sourceId": 1790663150
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Togekiss",
       "region": "Hoenn",
       "location": "Sky Pillar",
-      "secondsAgo": 2495,
-      "sourceId": 1790673248
+      "secondsAgo": 2813,
+      "sourceId": 1790673247
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 10149,
+      "secondsAgo": 10466,
       "sourceId": 1790665594
-    },
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Unova",
-      "location": "Route 1",
-      "secondsAgo": 10560,
-      "sourceId": 1790665183
     }
   ],
   "alpha": {
