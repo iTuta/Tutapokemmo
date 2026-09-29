@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-29T17:01:24.009Z",
+  "fetchedAt": "2026-09-29T17:06:24.396Z",
   "swarms": [
     {
       "monsterId": 331,
@@ -7,7 +7,7 @@
       "region": "Hoenn",
       "location": "Route 111",
       "sourceId": 1790701860,
-      "despawnTimestamp": 1790701859,
+      "despawnTimestamp": 1790701860,
       "hasValuable": false,
       "timestampUtc": "2026-09-29T17:11:00.000Z",
       "publishedBy": ""
@@ -18,7 +18,7 @@
       "region": "Unova",
       "location": "Pinwheel Forest",
       "sourceId": 1790702157,
-      "despawnTimestamp": 1790702156,
+      "despawnTimestamp": 1790702157,
       "hasValuable": false,
       "timestampUtc": "2026-09-29T17:15:57.000Z",
       "publishedBy": ""
@@ -26,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 242,
+      "pokemon": "Blissey",
+      "region": "Kanto",
+      "location": "Three Island",
+      "secondsAgo": 5017,
+      "sourceId": 1790696567
+    },
+    {
       "monsterId": 152,
       "pokemon": "Chikorita",
       "region": "Johto",
       "location": "Route 31",
-      "secondsAgo": 6879,
+      "secondsAgo": 7180,
       "sourceId": 1790694404
     },
     {
@@ -38,8 +46,8 @@
       "pokemon": "Cloyster",
       "region": "Sinnoh",
       "location": "Route 223",
-      "secondsAgo": 3753,
-      "sourceId": 1790697530
+      "secondsAgo": 4053,
+      "sourceId": 1790697531
     }
   ],
   "alpha": {
@@ -52,6 +60,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-09-29T12:16:57.000Z",
     "timestampRaw": "2026-09-29T12:16:57.000Z",
-    "publishedBy": ""
+    "publishedBy": "Peivol"
   }
 }
