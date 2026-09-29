@@ -1,37 +1,15 @@
 {
-  "fetchedAt": "2026-09-29T18:05:44.884Z",
+  "fetchedAt": "2026-09-29T18:10:44.255Z",
   "swarms": [
-    {
-      "monsterId": 319,
-      "pokemon": "Sharpedo",
-      "region": "Johto",
-      "location": "Route 41",
-      "sourceId": 1790705377,
-      "despawnTimestamp": 1790705377,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-29T18:09:37.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 240,
       "pokemon": "Magby",
       "region": "Hoenn",
       "location": "Mt. Chimney",
       "sourceId": 1790705524,
-      "despawnTimestamp": 1790705523,
+      "despawnTimestamp": 1790705524,
       "hasValuable": false,
       "timestampUtc": "2026-09-29T18:12:04.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 91,
-      "pokemon": "Cloyster",
-      "region": "Sinnoh",
-      "location": "Route 223",
-      "sourceId": 1790705325,
-      "despawnTimestamp": 1790705325,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-29T18:08:45.000Z",
       "publishedBy": ""
     }
   ],
@@ -41,15 +19,31 @@
       "pokemon": "Blissey",
       "region": "Kanto",
       "location": "Three Island",
-      "secondsAgo": 8577,
-      "sourceId": 1790696567
+      "secondsAgo": 8876,
+      "sourceId": 1790696568
+    },
+    {
+      "monsterId": 319,
+      "pokemon": "Sharpedo",
+      "region": "Johto",
+      "location": "Route 41",
+      "secondsAgo": 1566,
+      "sourceId": 1790703878
+    },
+    {
+      "monsterId": 91,
+      "pokemon": "Cloyster",
+      "region": "Sinnoh",
+      "location": "Route 223",
+      "secondsAgo": 1618,
+      "sourceId": 1790703826
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 4486,
+      "secondsAgo": 4786,
       "sourceId": 1790700658
     }
   ],
