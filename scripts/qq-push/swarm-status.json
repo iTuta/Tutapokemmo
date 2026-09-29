@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-29T01:45:42.271Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-29T01:50:47.501Z",
+  "swarms": [
+    {
+      "monsterId": 415,
+      "pokemon": "Combee",
+      "region": "Sinnoh",
+      "location": "Floaroma Meadow",
+      "sourceId": 1790647903,
+      "despawnTimestamp": 1790647903,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-29T02:11:43.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 8,
       "pokemon": "Wartortle",
       "region": "Kanto",
       "location": "Seafoam Islands",
-      "secondsAgo": 3797,
+      "secondsAgo": 4102,
       "sourceId": 1790642545
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Luvdisc",
       "region": "Johto",
       "location": "Route 47",
-      "secondsAgo": 3129,
+      "secondsAgo": 3434,
       "sourceId": 1790643213
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Rotom",
       "region": "Hoenn",
       "location": "New Mauville",
-      "secondsAgo": 4475,
-      "sourceId": 1790641867
-    },
-    {
-      "monsterId": 394,
-      "pokemon": "Prinplup",
-      "region": "Sinnoh",
-      "location": "Route 220",
-      "secondsAgo": 3877,
-      "sourceId": 1790642465
+      "secondsAgo": 4781,
+      "sourceId": 1790641866
     },
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Unova",
       "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 16353,
+      "secondsAgo": 16658,
       "sourceId": 1790629989
     }
   ],
