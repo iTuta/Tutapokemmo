@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-09-29T07:01:15.089Z",
+  "fetchedAt": "2026-09-29T07:05:52.071Z",
   "swarms": [
+    {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Kanto",
+      "location": "Route 4",
+      "sourceId": 1790666832,
+      "despawnTimestamp": 1790666832,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-29T07:27:12.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 370,
       "pokemon": "Luvdisc",
       "region": "Hoenn",
       "location": "Route 132",
       "sourceId": 1790666469,
-      "despawnTimestamp": 1790666469,
+      "despawnTimestamp": 1790666470,
       "hasValuable": false,
       "timestampUtc": "2026-09-29T07:21:09.000Z",
       "publishedBy": ""
@@ -18,7 +29,7 @@
       "region": "Unova",
       "location": "Route 1",
       "sourceId": 1790666682,
-      "despawnTimestamp": 1790666682,
+      "despawnTimestamp": 1790666683,
       "hasValuable": false,
       "timestampUtc": "2026-09-29T07:24:42.000Z",
       "publishedBy": ""
@@ -26,28 +37,20 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 8,
-      "pokemon": "Wartortle",
-      "region": "Kanto",
-      "location": "Seafoam Islands",
-      "secondsAgo": 22730,
-      "sourceId": 1790642545
-    },
-    {
       "monsterId": 154,
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 2125,
-      "sourceId": 1790663150
+      "secondsAgo": 2401,
+      "sourceId": 1790663151
     },
     {
       "monsterId": 415,
       "pokemon": "Combee",
       "region": "Sinnoh",
       "location": "Floaroma Meadow",
-      "secondsAgo": 18871,
-      "sourceId": 1790646404
+      "secondsAgo": 19147,
+      "sourceId": 1790646405
     }
   ],
   "alpha": {
