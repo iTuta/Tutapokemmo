@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-29T10:45:57.265Z",
+  "fetchedAt": "2026-09-29T10:50:58.802Z",
   "swarms": [
     {
       "monsterId": 141,
@@ -7,20 +7,9 @@
       "region": "Kanto",
       "location": "Tanoby Ruins",
       "sourceId": 1790679230,
-      "despawnTimestamp": 1790679230,
+      "despawnTimestamp": 1790679229,
       "hasValuable": false,
       "timestampUtc": "2026-09-29T10:53:50.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 255,
-      "pokemon": "Torchic",
-      "region": "Hoenn",
-      "location": "Route 112",
-      "sourceId": 1790678801,
-      "despawnTimestamp": 1790678801,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-29T10:46:41.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,24 +19,32 @@
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 15607,
+      "secondsAgo": 15908,
       "sourceId": 1790663150
+    },
+    {
+      "monsterId": 255,
+      "pokemon": "Torchic",
+      "region": "Hoenn",
+      "location": "Route 112",
+      "secondsAgo": 1756,
+      "sourceId": 1790677302
     },
     {
       "monsterId": 390,
       "pokemon": "Chimchar",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 1862,
-      "sourceId": 1790676895
+      "secondsAgo": 2164,
+      "sourceId": 1790676894
     },
     {
       "monsterId": 291,
       "pokemon": "Ninjask",
       "region": "Unova",
       "location": "Route 11",
-      "secondsAgo": 2787,
-      "sourceId": 1790675970
+      "secondsAgo": 3089,
+      "sourceId": 1790675969
     }
   ],
   "alpha": {
