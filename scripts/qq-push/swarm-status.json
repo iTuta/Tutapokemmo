@@ -1,45 +1,52 @@
 {
-  "fetchedAt": "2026-09-29T17:40:55.512Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-29T17:45:49.539Z",
+  "swarms": [
     {
-      "monsterId": 242,
-      "pokemon": "Blissey",
-      "region": "Kanto",
-      "location": "Three Island",
-      "secondsAgo": 7088,
-      "sourceId": 1790696567
-    },
-    {
-      "monsterId": 152,
-      "pokemon": "Chikorita",
+      "monsterId": 319,
+      "pokemon": "Sharpedo",
       "region": "Johto",
-      "location": "Route 31",
-      "secondsAgo": 9251,
-      "sourceId": 1790694404
-    },
-    {
-      "monsterId": 331,
-      "pokemon": "Cacnea",
-      "region": "Hoenn",
-      "location": "Route 111",
-      "secondsAgo": 3294,
-      "sourceId": 1790700361
+      "location": "Route 41",
+      "sourceId": 1790705377,
+      "despawnTimestamp": 1790705377,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-29T18:09:37.000Z",
+      "publishedBy": ""
     },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
       "region": "Sinnoh",
       "location": "Route 223",
-      "secondsAgo": 6124,
-      "sourceId": 1790697531
+      "sourceId": 1790705325,
+      "despawnTimestamp": 1790705325,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-29T18:08:45.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 242,
+      "pokemon": "Blissey",
+      "region": "Kanto",
+      "location": "Three Island",
+      "secondsAgo": 7382,
+      "sourceId": 1790696567
+    },
+    {
+      "monsterId": 331,
+      "pokemon": "Cacnea",
+      "region": "Hoenn",
+      "location": "Route 111",
+      "secondsAgo": 3588,
+      "sourceId": 1790700361
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 2997,
+      "secondsAgo": 3291,
       "sourceId": 1790700658
     }
   ],
