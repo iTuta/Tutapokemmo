@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-29T12:35:53.462Z",
+  "fetchedAt": "2026-09-29T12:40:45.692Z",
   "swarms": [
-    {
-      "monsterId": 373,
-      "pokemon": "Salamence",
-      "region": "Kanto",
-      "location": "Victory Road",
-      "sourceId": 1790685464,
-      "despawnTimestamp": 1790685464,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-29T12:37:44.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 123,
       "pokemon": "Scyther",
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 373,
+      "pokemon": "Salamence",
+      "region": "Kanto",
+      "location": "Victory Road",
+      "secondsAgo": 1681,
+      "sourceId": 1790683964
+    },
+    {
       "monsterId": 154,
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 22203,
+      "secondsAgo": 22495,
       "sourceId": 1790663150
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "Chatot",
       "region": "Hoenn",
       "location": "Route 115",
-      "secondsAgo": 2657,
+      "secondsAgo": 2949,
       "sourceId": 1790682696
     }
   ],
