@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-29T22:15:45.951Z",
+  "fetchedAt": "2026-09-29T22:20:45.597Z",
   "swarms": [
     {
       "monsterId": 4,
@@ -11,6 +11,28 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-29T22:32:12.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 256,
+      "pokemon": "Combusken",
+      "region": "Hoenn",
+      "location": "Route 114",
+      "sourceId": 1790721854,
+      "despawnTimestamp": 1790721853,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-29T22:44:14.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 331,
+      "pokemon": "Cacnea",
+      "region": "Unova",
+      "location": "Route 4",
+      "sourceId": 1790721816,
+      "despawnTimestamp": 1790721816,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-29T22:43:36.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,24 +41,16 @@
       "pokemon": "Feraligatr",
       "region": "Johto",
       "location": "Tohjo Falls",
-      "secondsAgo": 5688,
+      "secondsAgo": 5988,
       "sourceId": 1790714457
     },
     {
-      "monsterId": 517,
-      "pokemon": "Munna",
-      "region": "Hoenn",
-      "location": "Route 102",
-      "secondsAgo": 5342,
-      "sourceId": 1790714803
-    },
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Unova",
-      "location": "Route 1",
-      "secondsAgo": 6189,
-      "sourceId": 1790713956
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Sinnoh",
+      "location": "Valor Lakefront",
+      "secondsAgo": 8399,
+      "sourceId": 1790712046
     }
   ],
   "alpha": {
@@ -49,6 +63,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-09-29T17:31:34.000Z",
     "timestampRaw": "2026-09-29T17:31:34.000Z",
-    "publishedBy": ""
+    "publishedBy": "Srine"
   }
 }
