@@ -1,53 +1,46 @@
 {
-  "fetchedAt": "2026-09-30T19:15:53.546Z",
-  "swarms": [
+  "fetchedAt": "2026-09-30T19:20:49.127Z",
+  "swarms": [],
+  "lastSeen": [
     {
       "monsterId": 1,
       "pokemon": "Bulbasaur",
       "region": "Kanto",
       "location": "Viridian Forest",
-      "sourceId": 1790795992,
-      "despawnTimestamp": 1790795991,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-30T19:19:52.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1556,
+      "sourceId": 1790794493
+    },
+    {
+      "monsterId": 359,
+      "pokemon": "Absol",
+      "region": "Johto",
+      "location": "Route 28",
+      "secondsAgo": 4899,
+      "sourceId": 1790791150
     },
     {
       "monsterId": 258,
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "sourceId": 1790795785,
-      "despawnTimestamp": 1790795784,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-30T19:16:25.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 359,
-      "pokemon": "Absol",
-      "region": "Johto",
-      "location": "Route 28",
-      "secondsAgo": 4603,
-      "sourceId": 1790791150
+      "secondsAgo": 1763,
+      "sourceId": 1790794286
     },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Sinnoh",
       "location": "Iron Island",
-      "secondsAgo": 5556,
-      "sourceId": 1790790197
+      "secondsAgo": 5851,
+      "sourceId": 1790790198
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 5144,
-      "sourceId": 1790790609
+      "secondsAgo": 5439,
+      "sourceId": 1790790610
     }
   ],
   "alpha": {
