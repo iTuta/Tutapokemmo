@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-30T01:10:48.690Z",
+  "fetchedAt": "2026-09-30T01:15:42.391Z",
   "swarms": [
     {
       "monsterId": 449,
@@ -7,9 +7,20 @@
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
       "sourceId": 1790731422,
-      "despawnTimestamp": 1790731421,
+      "despawnTimestamp": 1790731422,
       "hasValuable": false,
       "timestampUtc": "2026-09-30T01:23:42.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Unova",
+      "location": "Dreamyard",
+      "sourceId": 1790732434,
+      "despawnTimestamp": 1790732434,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-30T01:40:34.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,7 +30,7 @@
       "pokemon": "Bulbasaur",
       "region": "Kanto",
       "location": "Viridian Forest",
-      "secondsAgo": 2045,
+      "secondsAgo": 2339,
       "sourceId": 1790728603
     },
     {
@@ -27,7 +38,7 @@
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 2552,
+      "secondsAgo": 2846,
       "sourceId": 1790728096
     },
     {
@@ -35,16 +46,8 @@
       "pokemon": "Mismagius",
       "region": "Hoenn",
       "location": "Route 122",
-      "secondsAgo": 4027,
+      "secondsAgo": 4321,
       "sourceId": 1790726621
-    },
-    {
-      "monsterId": 331,
-      "pokemon": "Cacnea",
-      "region": "Unova",
-      "location": "Route 4",
-      "secondsAgo": 10331,
-      "sourceId": 1790720317
     }
   ],
   "alpha": {
