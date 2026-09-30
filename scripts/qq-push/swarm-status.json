@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-30T16:55:45.585Z",
+  "fetchedAt": "2026-09-30T17:01:13.096Z",
   "swarms": [
+    {
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Kanto",
+      "location": "Route 17",
+      "sourceId": 1790789121,
+      "despawnTimestamp": 1790789121,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-30T17:25:21.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
@@ -15,27 +26,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 442,
-      "pokemon": "Spiritomb",
-      "region": "Kanto",
-      "location": "Lost Cave",
-      "secondsAgo": 12778,
-      "sourceId": 1790774567
-    },
-    {
       "monsterId": 253,
       "pokemon": "Grovyle",
       "region": "Hoenn",
       "location": "Route 118",
-      "secondsAgo": 16120,
-      "sourceId": 1790771225
+      "secondsAgo": 16447,
+      "sourceId": 1790771226
     },
     {
       "monsterId": 352,
       "pokemon": "Kecleon",
       "region": "Sinnoh",
       "location": "Route 229",
-      "secondsAgo": 1951,
+      "secondsAgo": 2279,
       "sourceId": 1790785394
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Kangaskhan",
       "region": "Unova",
       "location": "Wellspring Cave",
-      "secondsAgo": 9963,
+      "secondsAgo": 10291,
       "sourceId": 1790777382
     }
   ],
