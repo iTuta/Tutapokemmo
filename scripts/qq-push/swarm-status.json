@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-30T07:26:09.233Z",
+  "fetchedAt": "2026-09-30T07:30:58.645Z",
   "swarms": [
     {
       "monsterId": 387,
@@ -7,20 +7,9 @@
       "region": "Sinnoh",
       "location": "Route 203",
       "sourceId": 1790753558,
-      "despawnTimestamp": 1790753558,
+      "despawnTimestamp": 1790753557,
       "hasValuable": false,
       "timestampUtc": "2026-09-30T07:32:38.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Unova",
-      "location": "Lostlorn Forest",
-      "sourceId": 1790753234,
-      "despawnTimestamp": 1790753233,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-30T07:27:14.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,7 +19,7 @@
       "pokemon": "Wartortle",
       "region": "Kanto",
       "location": "Seafoam Islands",
-      "secondsAgo": 7939,
+      "secondsAgo": 8228,
       "sourceId": 1790745230
     },
     {
@@ -38,7 +27,7 @@
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 25073,
+      "secondsAgo": 25362,
       "sourceId": 1790728096
     },
     {
@@ -46,8 +35,16 @@
       "pokemon": "Luvdisc",
       "region": "Hoenn",
       "location": "Route 132",
-      "secondsAgo": 7858,
+      "secondsAgo": 8147,
       "sourceId": 1790745311
+    },
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Unova",
+      "location": "Lostlorn Forest",
+      "secondsAgo": 1724,
+      "sourceId": 1790751734
     }
   ],
   "alpha": {
