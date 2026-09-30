@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-30T12:25:45.069Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-30T12:31:01.804Z",
+  "swarms": [
+    {
+      "monsterId": 253,
+      "pokemon": "Grovyle",
+      "region": "Hoenn",
+      "location": "Route 118",
+      "sourceId": 1790772725,
+      "despawnTimestamp": 1790772724,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-30T12:52:05.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Kanto",
       "location": "Pokemon Tower",
-      "secondsAgo": 4286,
+      "secondsAgo": 4602,
       "sourceId": 1790766859
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Shroomish",
       "region": "Johto",
       "location": "Route 34",
-      "secondsAgo": 11179,
-      "sourceId": 1790759966
-    },
-    {
-      "monsterId": 300,
-      "pokemon": "Skitty",
-      "region": "Hoenn",
-      "location": "Route 116",
-      "secondsAgo": 13381,
-      "sourceId": 1790757764
+      "secondsAgo": 11496,
+      "sourceId": 1790759965
     },
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 12250,
+      "secondsAgo": 12566,
       "sourceId": 1790758895
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Porygon2",
       "region": "Unova",
       "location": "P2 Laboratory",
-      "secondsAgo": 1540,
-      "sourceId": 1790769605
+      "secondsAgo": 1857,
+      "sourceId": 1790769604
     }
   ],
   "alpha": {
