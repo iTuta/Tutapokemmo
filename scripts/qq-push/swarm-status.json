@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-09-30T09:15:49.010Z",
+  "fetchedAt": "2026-09-30T09:20:45.446Z",
   "swarms": [
+    {
+      "monsterId": 285,
+      "pokemon": "Shroomish",
+      "region": "Johto",
+      "location": "Route 34",
+      "sourceId": 1790761465,
+      "despawnTimestamp": 1790761465,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-30T09:44:25.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
       "sourceId": 1790760394,
-      "despawnTimestamp": 1790760393,
+      "despawnTimestamp": 1790760394,
       "hasValuable": false,
       "timestampUtc": "2026-09-30T09:26:34.000Z",
       "publishedBy": ""
@@ -19,23 +30,15 @@
       "pokemon": "Qwilfish",
       "region": "Kanto",
       "location": "Route 20",
-      "secondsAgo": 6080,
+      "secondsAgo": 6377,
       "sourceId": 1790753668
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Johto",
-      "location": "Route 37",
-      "secondsAgo": 2928,
-      "sourceId": 1790756820
     },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Hoenn",
       "location": "Route 116",
-      "secondsAgo": 1985,
+      "secondsAgo": 2282,
       "sourceId": 1790757763
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 8014,
+      "secondsAgo": 8311,
       "sourceId": 1790751734
     }
   ],
