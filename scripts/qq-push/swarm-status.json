@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-30T17:15:53.683Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-30T17:22:19.184Z",
+  "swarms": [
+    {
+      "monsterId": 242,
+      "pokemon": "Blissey",
+      "region": "Hoenn",
+      "location": "Artisan Cave",
+      "sourceId": 1790790222,
+      "despawnTimestamp": 1790790222,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-30T17:43:42.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Kanto",
       "location": "Route 17",
-      "secondsAgo": 931,
+      "secondsAgo": 1317,
       "sourceId": 1790787622
     },
     {
@@ -15,31 +27,23 @@
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 1690,
+      "secondsAgo": 2076,
       "sourceId": 1790786863
-    },
-    {
-      "monsterId": 253,
-      "pokemon": "Grovyle",
-      "region": "Hoenn",
-      "location": "Route 118",
-      "secondsAgo": 17328,
-      "sourceId": 1790771225
     },
     {
       "monsterId": 352,
       "pokemon": "Kecleon",
       "region": "Sinnoh",
       "location": "Route 229",
-      "secondsAgo": 3160,
-      "sourceId": 1790785393
+      "secondsAgo": 3545,
+      "sourceId": 1790785394
     },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Unova",
       "location": "Wellspring Cave",
-      "secondsAgo": 11171,
+      "secondsAgo": 11557,
       "sourceId": 1790777382
     }
   ],
