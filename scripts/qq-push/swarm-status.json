@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-09-30T08:25:38.202Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-30T08:31:00.316Z",
+  "swarms": [
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Johto",
+      "location": "Route 37",
+      "sourceId": 1790758320,
+      "despawnTimestamp": 1790758320,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-30T08:52:00.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 211,
       "pokemon": "Qwilfish",
       "region": "Kanto",
       "location": "Route 20",
-      "secondsAgo": 3069,
-      "sourceId": 1790753669
-    },
-    {
-      "monsterId": 143,
-      "pokemon": "Snorlax",
-      "region": "Johto",
-      "location": "Victory Road",
-      "secondsAgo": 28642,
-      "sourceId": 1790728096
+      "secondsAgo": 3392,
+      "sourceId": 1790753668
     },
     {
       "monsterId": 370,
       "pokemon": "Luvdisc",
       "region": "Hoenn",
       "location": "Route 132",
-      "secondsAgo": 11427,
+      "secondsAgo": 11749,
       "sourceId": 1790745311
     },
     {
@@ -31,15 +35,15 @@
       "pokemon": "Turtwig",
       "region": "Sinnoh",
       "location": "Route 203",
-      "secondsAgo": 4679,
-      "sourceId": 1790752059
+      "secondsAgo": 5002,
+      "sourceId": 1790752058
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 5004,
+      "secondsAgo": 5326,
       "sourceId": 1790751734
     }
   ],
