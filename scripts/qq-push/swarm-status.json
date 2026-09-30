@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-30T00:20:43.711Z",
+  "fetchedAt": "2026-09-30T00:25:48.118Z",
   "swarms": [
     {
       "monsterId": 429,
@@ -7,20 +7,9 @@
       "region": "Hoenn",
       "location": "Route 122",
       "sourceId": 1790728121,
-      "despawnTimestamp": 1790728120,
+      "despawnTimestamp": 1790728121,
       "hasValuable": false,
       "timestampUtc": "2026-09-30T00:28:41.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 387,
-      "pokemon": "Turtwig",
-      "region": "Sinnoh",
-      "location": "Route 203",
-      "sourceId": 1790727696,
-      "despawnTimestamp": 1790727695,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-30T00:21:36.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,7 +19,7 @@
       "pokemon": "Ivysaur",
       "region": "Kanto",
       "location": "Route 5",
-      "secondsAgo": 4202,
+      "secondsAgo": 4507,
       "sourceId": 1790723441
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 6507,
-      "sourceId": 1790721136
+      "secondsAgo": 6811,
+      "sourceId": 1790721137
+    },
+    {
+      "monsterId": 387,
+      "pokemon": "Turtwig",
+      "region": "Sinnoh",
+      "location": "Route 203",
+      "secondsAgo": 1751,
+      "sourceId": 1790726197
     },
     {
       "monsterId": 331,
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 7326,
+      "secondsAgo": 7631,
       "sourceId": 1790720317
     }
   ],
