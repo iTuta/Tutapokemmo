@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-30T01:35:43.128Z",
+  "fetchedAt": "2026-09-30T01:40:54.261Z",
   "swarms": [
     {
       "monsterId": 213,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-30T01:48:41.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 517,
-      "pokemon": "Munna",
-      "region": "Unova",
-      "location": "Dreamyard",
-      "sourceId": 1790732434,
-      "despawnTimestamp": 1790732434,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-30T01:40:34.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Bulbasaur",
       "region": "Kanto",
       "location": "Viridian Forest",
-      "secondsAgo": 3540,
+      "secondsAgo": 3851,
       "sourceId": 1790728603
     },
     {
@@ -38,7 +27,7 @@
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 4047,
+      "secondsAgo": 4358,
       "sourceId": 1790728096
     },
     {
@@ -46,8 +35,16 @@
       "pokemon": "Hippopotas",
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
-      "secondsAgo": 2220,
+      "secondsAgo": 2531,
       "sourceId": 1790729923
+    },
+    {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Unova",
+      "location": "Dreamyard",
+      "secondsAgo": 1519,
+      "sourceId": 1790730935
     }
   ],
   "alpha": {
