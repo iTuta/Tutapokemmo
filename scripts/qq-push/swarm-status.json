@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-09-30T01:00:57.310Z",
+  "fetchedAt": "2026-09-30T01:05:40.400Z",
   "swarms": [
-    {
-      "monsterId": 1,
-      "pokemon": "Bulbasaur",
-      "region": "Kanto",
-      "location": "Viridian Forest",
-      "sourceId": 1790730102,
-      "despawnTimestamp": 1790730102,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-30T01:01:42.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 449,
       "pokemon": "Hippopotas",
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
       "sourceId": 1790731422,
-      "despawnTimestamp": 1790731422,
+      "despawnTimestamp": 1790731421,
       "hasValuable": false,
       "timestampUtc": "2026-09-30T01:23:42.000Z",
       "publishedBy": ""
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 1,
+      "pokemon": "Bulbasaur",
+      "region": "Kanto",
+      "location": "Viridian Forest",
+      "secondsAgo": 1737,
+      "sourceId": 1790728603
+    },
+    {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 1961,
+      "secondsAgo": 2244,
       "sourceId": 1790728096
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Mismagius",
       "region": "Hoenn",
       "location": "Route 122",
-      "secondsAgo": 3436,
+      "secondsAgo": 3719,
       "sourceId": 1790726621
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 9740,
+      "secondsAgo": 10023,
       "sourceId": 1790720317
     }
   ],
