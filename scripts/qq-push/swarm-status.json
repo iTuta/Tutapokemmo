@@ -1,49 +1,45 @@
 {
-  "fetchedAt": "2026-09-30T17:10:58.351Z",
-  "swarms": [
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Johto",
-      "location": "Route 37",
-      "sourceId": 1790788362,
-      "despawnTimestamp": 1790788362,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-30T17:12:42.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-30T17:15:53.683Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Kanto",
       "location": "Route 17",
-      "secondsAgo": 636,
+      "secondsAgo": 931,
       "sourceId": 1790787622
+    },
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Johto",
+      "location": "Route 37",
+      "secondsAgo": 1690,
+      "sourceId": 1790786863
     },
     {
       "monsterId": 253,
       "pokemon": "Grovyle",
       "region": "Hoenn",
       "location": "Route 118",
-      "secondsAgo": 17032,
-      "sourceId": 1790771226
+      "secondsAgo": 17328,
+      "sourceId": 1790771225
     },
     {
       "monsterId": 352,
       "pokemon": "Kecleon",
       "region": "Sinnoh",
       "location": "Route 229",
-      "secondsAgo": 2864,
-      "sourceId": 1790785394
+      "secondsAgo": 3160,
+      "sourceId": 1790785393
     },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Unova",
       "location": "Wellspring Cave",
-      "secondsAgo": 10876,
+      "secondsAgo": 11171,
       "sourceId": 1790777382
     }
   ],
