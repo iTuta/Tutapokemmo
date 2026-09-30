@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-30T11:55:39.290Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-30T12:01:28.670Z",
+  "swarms": [
+    {
+      "monsterId": 233,
+      "pokemon": "Porygon2",
+      "region": "Unova",
+      "location": "P2 Laboratory",
+      "sourceId": 1790771104,
+      "despawnTimestamp": 1790771103,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-30T12:25:04.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Kanto",
       "location": "Pokemon Tower",
-      "secondsAgo": 2480,
+      "secondsAgo": 2829,
       "sourceId": 1790766859
     },
     {
@@ -15,32 +27,24 @@
       "pokemon": "Shroomish",
       "region": "Johto",
       "location": "Route 34",
-      "secondsAgo": 9373,
-      "sourceId": 1790759966
+      "secondsAgo": 9723,
+      "sourceId": 1790759965
     },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Hoenn",
       "location": "Route 116",
-      "secondsAgo": 11575,
-      "sourceId": 1790757764
+      "secondsAgo": 11925,
+      "sourceId": 1790757763
     },
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 10444,
+      "secondsAgo": 10793,
       "sourceId": 1790758895
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Unova",
-      "location": "Lostlorn Forest",
-      "secondsAgo": 17605,
-      "sourceId": 1790751734
     }
   ],
   "alpha": {
