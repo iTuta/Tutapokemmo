@@ -1,33 +1,29 @@
 {
-  "fetchedAt": "2026-09-30T18:20:58.302Z",
-  "swarms": [
-    {
-      "monsterId": 359,
-      "pokemon": "Absol",
-      "region": "Johto",
-      "location": "Route 28",
-      "sourceId": 1790792649,
-      "despawnTimestamp": 1790792649,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-30T18:24:09.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-30T18:25:42.473Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Kanto",
       "location": "Route 17",
-      "secondsAgo": 4836,
+      "secondsAgo": 5120,
       "sourceId": 1790787622
+    },
+    {
+      "monsterId": 359,
+      "pokemon": "Absol",
+      "region": "Johto",
+      "location": "Route 28",
+      "secondsAgo": 1592,
+      "sourceId": 1790791150
     },
     {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 3555,
+      "secondsAgo": 3839,
       "sourceId": 1790788903
     },
     {
@@ -35,7 +31,7 @@
       "pokemon": "Lucario",
       "region": "Sinnoh",
       "location": "Iron Island",
-      "secondsAgo": 2261,
+      "secondsAgo": 2545,
       "sourceId": 1790790197
     },
     {
@@ -43,8 +39,8 @@
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 1848,
-      "sourceId": 1790790610
+      "secondsAgo": 2133,
+      "sourceId": 1790790609
     }
   ],
   "alpha": {
