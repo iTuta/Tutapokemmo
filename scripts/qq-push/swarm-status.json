@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-30T04:01:13.775Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-30T04:05:37.003Z",
+  "swarms": [
+    {
+      "monsterId": 451,
+      "pokemon": "Skorupi",
+      "region": "Unova",
+      "location": "Desert Resort",
+      "sourceId": 1790742390,
+      "despawnTimestamp": 1790742389,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-30T04:26:30.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 135,
       "pokemon": "Jolteon",
       "region": "Kanto",
       "location": "Ruin Valley",
-      "secondsAgo": 6517,
+      "secondsAgo": 6780,
       "sourceId": 1790734356
     },
     {
@@ -15,15 +27,15 @@
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 12777,
-      "sourceId": 1790728096
+      "secondsAgo": 13041,
+      "sourceId": 1790728095
     },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Hoenn",
       "location": "Seafloor Cavern",
-      "secondsAgo": 9451,
+      "secondsAgo": 9714,
       "sourceId": 1790731422
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Hippopotas",
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
-      "secondsAgo": 10951,
+      "secondsAgo": 11214,
       "sourceId": 1790729922
-    },
-    {
-      "monsterId": 517,
-      "pokemon": "Munna",
-      "region": "Unova",
-      "location": "Dreamyard",
-      "secondsAgo": 9938,
-      "sourceId": 1790730935
     }
   ],
   "alpha": {
