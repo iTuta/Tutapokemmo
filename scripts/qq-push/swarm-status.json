@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-30T00:35:54.514Z",
+  "fetchedAt": "2026-09-30T00:40:40.366Z",
   "swarms": [
+    {
+      "monsterId": 1,
+      "pokemon": "Bulbasaur",
+      "region": "Kanto",
+      "location": "Viridian Forest",
+      "sourceId": 1790730102,
+      "despawnTimestamp": 1790730102,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-30T01:01:42.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 2,
-      "pokemon": "Ivysaur",
-      "region": "Kanto",
-      "location": "Route 5",
-      "secondsAgo": 5113,
-      "sourceId": 1790723441
-    },
-    {
       "monsterId": 429,
       "pokemon": "Mismagius",
       "region": "Hoenn",
       "location": "Route 122",
-      "secondsAgo": 1933,
+      "secondsAgo": 2219,
       "sourceId": 1790726621
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Turtwig",
       "region": "Sinnoh",
       "location": "Route 203",
-      "secondsAgo": 2357,
+      "secondsAgo": 2643,
       "sourceId": 1790726197
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 8237,
+      "secondsAgo": 8523,
       "sourceId": 1790720317
     }
   ],
