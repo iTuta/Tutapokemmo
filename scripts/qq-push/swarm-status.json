@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-30T08:40:50.912Z",
+  "fetchedAt": "2026-09-30T08:45:50.583Z",
   "swarms": [
     {
       "monsterId": 570,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-30T08:52:00.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 300,
+      "pokemon": "Skitty",
+      "region": "Hoenn",
+      "location": "Route 116",
+      "sourceId": 1790759263,
+      "despawnTimestamp": 1790759262,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-30T09:07:43.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,23 +30,15 @@
       "pokemon": "Qwilfish",
       "region": "Kanto",
       "location": "Route 20",
-      "secondsAgo": 3982,
+      "secondsAgo": 4282,
       "sourceId": 1790753668
-    },
-    {
-      "monsterId": 370,
-      "pokemon": "Luvdisc",
-      "region": "Hoenn",
-      "location": "Route 132",
-      "secondsAgo": 12340,
-      "sourceId": 1790745310
     },
     {
       "monsterId": 387,
       "pokemon": "Turtwig",
       "region": "Sinnoh",
       "location": "Route 203",
-      "secondsAgo": 5592,
+      "secondsAgo": 5892,
       "sourceId": 1790752058
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 5916,
+      "secondsAgo": 6216,
       "sourceId": 1790751734
     }
   ],
