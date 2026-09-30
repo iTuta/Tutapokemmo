@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-09-30T20:50:42.508Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-30T20:56:22.885Z",
+  "swarms": [
+    {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Johto",
+      "location": "Mt. Silver Cave",
+      "sourceId": 1790803187,
+      "despawnTimestamp": 1790803186,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-30T21:19:47.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 328,
       "pokemon": "Trapinch",
       "region": "Kanto",
       "location": "Diglett&#x27;s Cave",
-      "secondsAgo": 1520,
+      "secondsAgo": 1860,
       "sourceId": 1790799922
-    },
-    {
-      "monsterId": 359,
-      "pokemon": "Absol",
-      "region": "Johto",
-      "location": "Route 28",
-      "secondsAgo": 10292,
-      "sourceId": 1790791150
     },
     {
       "monsterId": 258,
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 7157,
+      "secondsAgo": 7497,
       "sourceId": 1790794285
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Lucario",
       "region": "Sinnoh",
       "location": "Iron Island",
-      "secondsAgo": 11245,
+      "secondsAgo": 11585,
       "sourceId": 1790790197
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 10833,
+      "secondsAgo": 11173,
       "sourceId": 1790790609
     }
   ],
