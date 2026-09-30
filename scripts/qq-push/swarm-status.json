@@ -1,38 +1,42 @@
 {
-  "fetchedAt": "2026-09-30T14:06:09.649Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-30T14:11:00.882Z",
+  "swarms": [
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Unova",
+      "location": "Wellspring Cave",
+      "sourceId": 1790778881,
+      "despawnTimestamp": 1790778881,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-30T14:34:41.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Kanto",
       "location": "Lost Cave",
-      "secondsAgo": 2602,
-      "sourceId": 1790774567
+      "secondsAgo": 2894,
+      "sourceId": 1790774566
     },
     {
       "monsterId": 358,
       "pokemon": "Chimecho",
       "region": "Johto",
       "location": "Bellchime Trail",
-      "secondsAgo": 2759,
-      "sourceId": 1790774410
+      "secondsAgo": 3051,
+      "sourceId": 1790774409
     },
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 18274,
+      "secondsAgo": 18565,
       "sourceId": 1790758895
-    },
-    {
-      "monsterId": 233,
-      "pokemon": "Porygon2",
-      "region": "Unova",
-      "location": "P2 Laboratory",
-      "secondsAgo": 7565,
-      "sourceId": 1790769604
     }
   ],
   "alpha": {
