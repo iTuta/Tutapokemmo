@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-30T14:51:53.221Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-30T14:55:51.197Z",
+  "swarms": [
+    {
+      "monsterId": 438,
+      "pokemon": "Bonsly",
+      "region": "Sinnoh",
+      "location": "Eterna Forest",
+      "sourceId": 1790781120,
+      "despawnTimestamp": 1790781120,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-30T15:12:00.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Kanto",
       "location": "Lost Cave",
-      "secondsAgo": 5346,
+      "secondsAgo": 5584,
       "sourceId": 1790774567
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Chimecho",
       "region": "Johto",
       "location": "Bellchime Trail",
-      "secondsAgo": 5503,
+      "secondsAgo": 5741,
       "sourceId": 1790774410
-    },
-    {
-      "monsterId": 441,
-      "pokemon": "Chatot",
-      "region": "Sinnoh",
-      "location": "Route 218",
-      "secondsAgo": 21018,
-      "sourceId": 1790758895
     },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Unova",
       "location": "Wellspring Cave",
-      "secondsAgo": 2531,
+      "secondsAgo": 2769,
       "sourceId": 1790777382
     }
   ],
