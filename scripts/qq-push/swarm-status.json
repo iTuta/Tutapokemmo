@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-30T21:10:52.858Z",
+  "fetchedAt": "2026-09-30T21:15:46.355Z",
   "swarms": [
     {
       "monsterId": 448,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-30T21:19:47.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Sinnoh",
+      "location": "Wayward Cave",
+      "sourceId": 1790804409,
+      "despawnTimestamp": 1790804409,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-30T21:40:09.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,23 +30,15 @@
       "pokemon": "Trapinch",
       "region": "Kanto",
       "location": "Diglett&#x27;s Cave",
-      "secondsAgo": 2730,
-      "sourceId": 1790799922
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Sinnoh",
-      "location": "Iron Island",
-      "secondsAgo": 12455,
-      "sourceId": 1790790197
+      "secondsAgo": 3023,
+      "sourceId": 1790799923
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 12043,
+      "secondsAgo": 12337,
       "sourceId": 1790790609
     }
   ],
