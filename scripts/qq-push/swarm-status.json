@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-09-30T20:20:56.950Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-09-30T20:26:01.127Z",
+  "swarms": [
     {
-      "monsterId": 1,
-      "pokemon": "Bulbasaur",
+      "monsterId": 328,
+      "pokemon": "Trapinch",
       "region": "Kanto",
-      "location": "Viridian Forest",
-      "secondsAgo": 5164,
-      "sourceId": 1790794492
-    },
+      "location": "Diglett&#x27;s Cave",
+      "sourceId": 1790801422,
+      "despawnTimestamp": 1790801422,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-30T20:50:22.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 359,
       "pokemon": "Absol",
       "region": "Johto",
       "location": "Route 28",
-      "secondsAgo": 8506,
+      "secondsAgo": 8811,
       "sourceId": 1790791150
     },
     {
@@ -23,24 +27,24 @@
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 5371,
-      "sourceId": 1790794285
+      "secondsAgo": 5675,
+      "sourceId": 1790794286
     },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Sinnoh",
       "location": "Iron Island",
-      "secondsAgo": 9459,
-      "sourceId": 1790790197
+      "secondsAgo": 9763,
+      "sourceId": 1790790198
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 9047,
-      "sourceId": 1790790609
+      "secondsAgo": 9351,
+      "sourceId": 1790790610
     }
   ],
   "alpha": {
