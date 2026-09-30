@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-30T00:50:51.738Z",
+  "fetchedAt": "2026-09-30T00:55:54.027Z",
   "swarms": [
     {
       "monsterId": 1,
@@ -11,43 +11,40 @@
       "hasValuable": false,
       "timestampUtc": "2026-09-30T01:01:42.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "sourceId": 1790729595,
-      "despawnTimestamp": 1790729595,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-30T00:53:15.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1658,
+      "sourceId": 1790728096
+    },
     {
       "monsterId": 429,
       "pokemon": "Mismagius",
       "region": "Hoenn",
       "location": "Route 122",
-      "secondsAgo": 2830,
-      "sourceId": 1790726621
+      "secondsAgo": 3132,
+      "sourceId": 1790726622
     },
     {
       "monsterId": 387,
       "pokemon": "Turtwig",
       "region": "Sinnoh",
       "location": "Route 203",
-      "secondsAgo": 3255,
-      "sourceId": 1790726196
+      "secondsAgo": 3557,
+      "sourceId": 1790726197
     },
     {
       "monsterId": 331,
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 9134,
-      "sourceId": 1790720317
+      "secondsAgo": 9436,
+      "sourceId": 1790720318
     }
   ],
   "alpha": {
