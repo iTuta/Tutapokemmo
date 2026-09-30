@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-09-30T17:55:42.113Z",
+  "fetchedAt": "2026-09-30T18:06:03.090Z",
   "swarms": [
+    {
+      "monsterId": 359,
+      "pokemon": "Absol",
+      "region": "Johto",
+      "location": "Route 28",
+      "sourceId": 1790792649,
+      "despawnTimestamp": 1790792649,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-30T18:24:09.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
@@ -30,23 +41,15 @@
       "pokemon": "Tauros",
       "region": "Kanto",
       "location": "Route 17",
-      "secondsAgo": 3320,
+      "secondsAgo": 3941,
       "sourceId": 1790787622
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Johto",
-      "location": "Route 37",
-      "secondsAgo": 4079,
-      "sourceId": 1790786863
     },
     {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 2039,
+      "secondsAgo": 2660,
       "sourceId": 1790788903
     }
   ],
