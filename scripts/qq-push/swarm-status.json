@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-09-30T23:31:07.494Z",
-  "swarms": [],
+  "fetchedAt": "2026-09-30T23:36:10.849Z",
+  "swarms": [
+    {
+      "monsterId": 257,
+      "pokemon": "Blaziken",
+      "region": "Hoenn",
+      "location": "Magma Hideout",
+      "sourceId": 1790812656,
+      "despawnTimestamp": 1790812655,
+      "hasValuable": false,
+      "timestampUtc": "2026-09-30T23:57:36.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 359,
       "pokemon": "Absol",
       "region": "Kanto",
       "location": "Canyon Entrance",
-      "secondsAgo": 5308,
+      "secondsAgo": 5611,
       "sourceId": 1790805759
     },
     {
@@ -15,31 +27,23 @@
       "pokemon": "Lucario",
       "region": "Johto",
       "location": "Mt. Silver Cave",
-      "secondsAgo": 9380,
+      "secondsAgo": 9683,
       "sourceId": 1790801687
-    },
-    {
-      "monsterId": 258,
-      "pokemon": "Mudkip",
-      "region": "Hoenn",
-      "location": "Route 104",
-      "secondsAgo": 16782,
-      "sourceId": 1790794285
     },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Sinnoh",
       "location": "Wayward Cave",
-      "secondsAgo": 8157,
-      "sourceId": 1790802910
+      "secondsAgo": 8461,
+      "sourceId": 1790802909
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 20458,
+      "secondsAgo": 20761,
       "sourceId": 1790790609
     }
   ],
