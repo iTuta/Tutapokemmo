@@ -1,41 +1,37 @@
 {
-  "fetchedAt": "2026-09-30T09:40:51.349Z",
-  "swarms": [
-    {
-      "monsterId": 285,
-      "pokemon": "Shroomish",
-      "region": "Johto",
-      "location": "Route 34",
-      "sourceId": 1790761465,
-      "despawnTimestamp": 1790761465,
-      "hasValuable": false,
-      "timestampUtc": "2026-09-30T09:44:25.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-09-30T09:45:45.733Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 211,
       "pokemon": "Qwilfish",
       "region": "Kanto",
       "location": "Route 20",
-      "secondsAgo": 7583,
+      "secondsAgo": 7877,
       "sourceId": 1790753668
+    },
+    {
+      "monsterId": 285,
+      "pokemon": "Shroomish",
+      "region": "Johto",
+      "location": "Route 34",
+      "secondsAgo": 1580,
+      "sourceId": 1790759965
     },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Hoenn",
       "location": "Route 116",
-      "secondsAgo": 3487,
-      "sourceId": 1790757764
+      "secondsAgo": 3782,
+      "sourceId": 1790757763
     },
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 2356,
+      "secondsAgo": 2650,
       "sourceId": 1790758895
     }
   ],
