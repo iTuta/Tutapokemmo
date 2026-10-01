@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-01T06:35:53.592Z",
+  "fetchedAt": "2026-10-01T06:40:42.161Z",
   "swarms": [
     {
       "monsterId": 237,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-01T06:54:27.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Unova",
+      "location": "Route 1",
+      "sourceId": 1790838206,
+      "despawnTimestamp": 1790838206,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-01T07:03:26.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,15 +30,15 @@
       "pokemon": "Blastoise",
       "region": "Kanto",
       "location": "Cape Brink",
-      "secondsAgo": 5624,
-      "sourceId": 1790830929
+      "secondsAgo": 5912,
+      "sourceId": 1790830930
     },
     {
       "monsterId": 330,
       "pokemon": "Flygon",
       "region": "Hoenn",
       "location": "Desert Underpass",
-      "secondsAgo": 5354,
+      "secondsAgo": 5643,
       "sourceId": 1790831199
     },
     {
@@ -35,16 +46,8 @@
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 21106,
+      "secondsAgo": 21395,
       "sourceId": 1790815447
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Unova",
-      "location": "Relic Castle",
-      "secondsAgo": 6899,
-      "sourceId": 1790829654
     }
   ],
   "alpha": {
