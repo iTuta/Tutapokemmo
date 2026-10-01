@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-01T19:25:47.930Z",
+  "fetchedAt": "2026-10-01T19:30:51.568Z",
   "swarms": [
-    {
-      "monsterId": 5,
-      "pokemon": "Charmeleon",
-      "region": "Kanto",
-      "location": "Rock Tunnel",
-      "sourceId": 1790883020,
-      "despawnTimestamp": 1790883019,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-01T19:30:20.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 387,
       "pokemon": "Turtwig",
@@ -29,7 +18,7 @@
       "region": "Unova",
       "location": "Abundant Shrine",
       "sourceId": 1790883089,
-      "despawnTimestamp": 1790883088,
+      "despawnTimestamp": 1790883089,
       "hasValuable": false,
       "timestampUtc": "2026-10-01T19:31:29.000Z",
       "publishedBy": ""
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 5,
+      "pokemon": "Charmeleon",
+      "region": "Kanto",
+      "location": "Rock Tunnel",
+      "secondsAgo": 1531,
+      "sourceId": 1790881520
+    },
+    {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Johto",
       "location": "Mt. Silver Cave",
-      "secondsAgo": 2769,
+      "secondsAgo": 3073,
       "sourceId": 1790879978
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "Skitty",
       "region": "Hoenn",
       "location": "Route 116",
-      "secondsAgo": 2631,
+      "secondsAgo": 2935,
       "sourceId": 1790880116
     }
   ],
