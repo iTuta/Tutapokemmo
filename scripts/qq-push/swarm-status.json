@@ -1,45 +1,52 @@
 {
-  "fetchedAt": "2026-10-01T18:35:44.264Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-01T18:42:02.762Z",
+  "swarms": [
+    {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Johto",
+      "location": "Mt. Silver Cave",
+      "sourceId": 1790881478,
+      "despawnTimestamp": 1790881477,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-01T19:04:38.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 300,
+      "pokemon": "Skitty",
+      "region": "Hoenn",
+      "location": "Route 116",
+      "sourceId": 1790881616,
+      "despawnTimestamp": 1790881615,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-01T19:06:56.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 328,
       "pokemon": "Trapinch",
       "region": "Kanto",
       "location": "Diglett&#x27;s Cave",
-      "secondsAgo": 8668,
+      "secondsAgo": 9046,
       "sourceId": 1790871076
-    },
-    {
-      "monsterId": 157,
-      "pokemon": "Typhlosion",
-      "region": "Johto",
-      "location": "Route 45",
-      "secondsAgo": 11146,
-      "sourceId": 1790868598
-    },
-    {
-      "monsterId": 258,
-      "pokemon": "Mudkip",
-      "region": "Hoenn",
-      "location": "Route 104",
-      "secondsAgo": 7655,
-      "sourceId": 1790872089
     },
     {
       "monsterId": 387,
       "pokemon": "Turtwig",
       "region": "Sinnoh",
       "location": "Route 203",
-      "secondsAgo": 9999,
-      "sourceId": 1790869745
+      "secondsAgo": 10378,
+      "sourceId": 1790869744
     },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 7200,
+      "secondsAgo": 7578,
       "sourceId": 1790872544
     }
   ],
