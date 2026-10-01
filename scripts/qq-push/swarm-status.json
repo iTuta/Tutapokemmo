@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-01T05:00:57.470Z",
+  "fetchedAt": "2026-10-01T05:05:42.011Z",
   "swarms": [
+    {
+      "monsterId": 9,
+      "pokemon": "Blastoise",
+      "region": "Kanto",
+      "location": "Cape Brink",
+      "sourceId": 1790832429,
+      "despawnTimestamp": 1790832428,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-01T05:27:09.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 159,
       "pokemon": "Croconaw",
@@ -26,28 +37,20 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 248,
-      "pokemon": "Tyranitar",
-      "region": "Kanto",
-      "location": "Seven Island",
-      "secondsAgo": 3260,
-      "sourceId": 1790827597
-    },
-    {
       "monsterId": 358,
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
-      "secondsAgo": 3693,
-      "sourceId": 1790827164
+      "secondsAgo": 3978,
+      "sourceId": 1790827163
     },
     {
       "monsterId": 392,
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 15410,
-      "sourceId": 1790815447
+      "secondsAgo": 15695,
+      "sourceId": 1790815446
     }
   ],
   "alpha": {
