@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-01T06:50:43.009Z",
+  "fetchedAt": "2026-10-01T06:55:40.039Z",
   "swarms": [
-    {
-      "monsterId": 237,
-      "pokemon": "Hitmontop",
-      "region": "Johto",
-      "location": "Mt. Mortar",
-      "sourceId": 1790837667,
-      "despawnTimestamp": 1790837666,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-01T06:54:27.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
       "sourceId": 1790838206,
-      "despawnTimestamp": 1790838205,
+      "despawnTimestamp": 1790838206,
       "hasValuable": false,
       "timestampUtc": "2026-10-01T07:03:26.000Z",
       "publishedBy": ""
@@ -30,24 +19,32 @@
       "pokemon": "Blastoise",
       "region": "Kanto",
       "location": "Cape Brink",
-      "secondsAgo": 6513,
-      "sourceId": 1790830929
+      "secondsAgo": 6810,
+      "sourceId": 1790830930
+    },
+    {
+      "monsterId": 237,
+      "pokemon": "Hitmontop",
+      "region": "Johto",
+      "location": "Mt. Mortar",
+      "secondsAgo": 1572,
+      "sourceId": 1790836168
     },
     {
       "monsterId": 330,
       "pokemon": "Flygon",
       "region": "Hoenn",
       "location": "Desert Underpass",
-      "secondsAgo": 6244,
-      "sourceId": 1790831198
+      "secondsAgo": 6541,
+      "sourceId": 1790831199
     },
     {
       "monsterId": 392,
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 21996,
-      "sourceId": 1790815446
+      "secondsAgo": 22293,
+      "sourceId": 1790815447
     }
   ],
   "alpha": {
