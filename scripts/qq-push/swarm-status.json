@@ -1,33 +1,29 @@
 {
-  "fetchedAt": "2026-10-01T12:31:34.340Z",
-  "swarms": [
-    {
-      "monsterId": 474,
-      "pokemon": "Porygon-Z",
-      "region": "Johto",
-      "location": "Team Rocket HQ",
-      "sourceId": 1790857978,
-      "despawnTimestamp": 1790857977,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-01T12:32:58.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-01T12:36:01.831Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Kanto",
       "location": "Treasure Beach",
-      "secondsAgo": 5567,
-      "sourceId": 1790852327
+      "secondsAgo": 5835,
+      "sourceId": 1790852326
+    },
+    {
+      "monsterId": 474,
+      "pokemon": "Porygon-Z",
+      "region": "Johto",
+      "location": "Team Rocket HQ",
+      "secondsAgo": 1563,
+      "sourceId": 1790856598
     },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
       "region": "Hoenn",
       "location": "Route 128",
-      "secondsAgo": 14642,
+      "secondsAgo": 14909,
       "sourceId": 1790843252
     },
     {
@@ -35,28 +31,20 @@
       "pokemon": "Tropius",
       "region": "Sinnoh",
       "location": "Route 226",
-      "secondsAgo": 1630,
+      "secondsAgo": 1897,
       "sourceId": 1790856264
-    },
-    {
-      "monsterId": 287,
-      "pokemon": "Slakoth",
-      "region": "Unova",
-      "location": "Route 2",
-      "secondsAgo": 7996,
-      "sourceId": 1790849898
     }
   ],
   "alpha": {
-    "monsterId": 312,
-    "pokemon": "Minun",
+    "monsterId": 78,
+    "pokemon": "Rapidash",
     "region": "Unova",
-    "location": "Route 6",
-    "sourceId": 1790838466,
-    "despawnTimestamp": 1790855566,
+    "location": "Route 12",
+    "sourceId": 1790845345,
+    "despawnTimestamp": 1790862445,
     "hasValuable": false,
-    "timestampUtc": "2026-10-01T07:07:46.000Z",
-    "timestampRaw": "2026-10-01T07:07:46.000Z",
-    "publishedBy": "Guanabacha"
+    "timestampUtc": "2026-10-01T09:02:25.000Z",
+    "timestampRaw": "2026-10-01T09:02:25.000Z",
+    "publishedBy": ""
   }
 }
