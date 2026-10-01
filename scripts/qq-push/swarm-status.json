@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-01T04:20:53.205Z",
+  "fetchedAt": "2026-10-01T04:25:37.694Z",
   "swarms": [
     {
       "monsterId": 248,
@@ -7,20 +7,9 @@
       "region": "Kanto",
       "location": "Seven Island",
       "sourceId": 1790829096,
-      "despawnTimestamp": 1790829096,
+      "despawnTimestamp": 1790829095,
       "hasValuable": false,
       "timestampUtc": "2026-10-01T04:31:36.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 358,
-      "pokemon": "Chimecho",
-      "region": "Hoenn",
-      "location": "Mt. Pyre",
-      "sourceId": 1790828663,
-      "despawnTimestamp": 1790828663,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-01T04:24:23.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,15 +19,23 @@
       "pokemon": "Kirlia",
       "region": "Johto",
       "location": "Route 43",
-      "secondsAgo": 5794,
-      "sourceId": 1790822659
+      "secondsAgo": 6079,
+      "sourceId": 1790822658
+    },
+    {
+      "monsterId": 358,
+      "pokemon": "Chimecho",
+      "region": "Hoenn",
+      "location": "Mt. Pyre",
+      "secondsAgo": 1573,
+      "sourceId": 1790827164
     },
     {
       "monsterId": 392,
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 13006,
+      "secondsAgo": 13290,
       "sourceId": 1790815447
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Pinsir",
       "region": "Unova",
       "location": "Route 12",
-      "secondsAgo": 6768,
+      "secondsAgo": 7052,
       "sourceId": 1790821685
     }
   ],
