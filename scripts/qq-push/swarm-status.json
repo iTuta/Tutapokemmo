@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-10-01T00:35:43.398Z",
+  "fetchedAt": "2026-10-01T00:40:53.495Z",
   "swarms": [
+    {
+      "monsterId": 160,
+      "pokemon": "Feraligatr",
+      "region": "Johto",
+      "location": "Tohjo Falls",
+      "sourceId": 1790816495,
+      "despawnTimestamp": 1790816495,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-01T01:01:35.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Hoenn",
       "location": "Seafloor Cavern",
       "sourceId": 1790816431,
-      "despawnTimestamp": 1790816431,
+      "despawnTimestamp": 1790816430,
       "hasValuable": false,
       "timestampUtc": "2026-10-01T01:00:31.000Z",
       "publishedBy": ""
@@ -30,23 +41,15 @@
       "pokemon": "Absol",
       "region": "Kanto",
       "location": "Canyon Entrance",
-      "secondsAgo": 9184,
+      "secondsAgo": 9494,
       "sourceId": 1790805759
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Johto",
-      "location": "Mt. Silver Cave",
-      "secondsAgo": 13256,
-      "sourceId": 1790801687
     },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Sinnoh",
       "location": "Wayward Cave",
-      "secondsAgo": 12033,
+      "secondsAgo": 12343,
       "sourceId": 1790802910
     }
   ],
