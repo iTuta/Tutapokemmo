@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-01T08:50:49.507Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-01T08:55:43.013Z",
+  "swarms": [
     {
-      "monsterId": 9,
-      "pokemon": "Blastoise",
+      "monsterId": 135,
+      "pokemon": "Jolteon",
       "region": "Kanto",
-      "location": "Cape Brink",
-      "secondsAgo": 13720,
-      "sourceId": 1790830929
-    },
+      "location": "Ruin Valley",
+      "sourceId": 1790846358,
+      "despawnTimestamp": 1790846357,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-01T09:19:18.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 237,
       "pokemon": "Hitmontop",
       "region": "Johto",
       "location": "Mt. Mortar",
-      "secondsAgo": 8481,
-      "sourceId": 1790836168
+      "secondsAgo": 8775,
+      "sourceId": 1790836167
     },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
       "region": "Hoenn",
       "location": "Route 128",
-      "secondsAgo": 1397,
+      "secondsAgo": 1690,
       "sourceId": 1790843252
     },
     {
@@ -31,16 +35,16 @@
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 29202,
-      "sourceId": 1790815447
+      "secondsAgo": 29496,
+      "sourceId": 1790815446
     },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 2122,
-      "sourceId": 1790842527
+      "secondsAgo": 2416,
+      "sourceId": 1790842526
     }
   ],
   "alpha": {
