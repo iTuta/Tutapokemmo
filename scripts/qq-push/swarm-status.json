@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-01T16:31:43.719Z",
+  "fetchedAt": "2026-10-01T16:37:04.954Z",
   "swarms": [
-    {
-      "monsterId": 328,
-      "pokemon": "Trapinch",
-      "region": "Kanto",
-      "location": "Diglett&#x27;s Cave",
-      "sourceId": 1790872575,
-      "despawnTimestamp": 1790872575,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-01T16:36:15.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 258,
       "pokemon": "Mudkip",
@@ -22,15 +11,34 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-01T16:53:08.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 176,
+      "pokemon": "Togetic",
+      "region": "Unova",
+      "location": "Dreamyard",
+      "sourceId": 1790874044,
+      "despawnTimestamp": 1790874043,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-01T17:00:44.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
+    {
+      "monsterId": 328,
+      "pokemon": "Trapinch",
+      "region": "Kanto",
+      "location": "Diglett&#x27;s Cave",
+      "secondsAgo": 1549,
+      "sourceId": 1790871075
+    },
     {
       "monsterId": 157,
       "pokemon": "Typhlosion",
       "region": "Johto",
       "location": "Route 45",
-      "secondsAgo": 3706,
+      "secondsAgo": 4027,
       "sourceId": 1790868597
     },
     {
@@ -38,16 +46,8 @@
       "pokemon": "Turtwig",
       "region": "Sinnoh",
       "location": "Route 203",
-      "secondsAgo": 2559,
+      "secondsAgo": 2880,
       "sourceId": 1790869744
-    },
-    {
-      "monsterId": 287,
-      "pokemon": "Slakoth",
-      "region": "Unova",
-      "location": "Route 2",
-      "secondsAgo": 22405,
-      "sourceId": 1790849898
     }
   ],
   "alpha": {
