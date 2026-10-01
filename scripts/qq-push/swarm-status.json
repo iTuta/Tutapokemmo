@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-01T13:21:01.991Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-01T13:26:21.808Z",
+  "swarms": [
+    {
+      "monsterId": 288,
+      "pokemon": "Vigoroth",
+      "region": "Sinnoh",
+      "location": "Route 215",
+      "sourceId": 1790862468,
+      "despawnTimestamp": 1790862467,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-01T13:47:48.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Kanto",
       "location": "Treasure Beach",
-      "secondsAgo": 8535,
+      "secondsAgo": 8855,
       "sourceId": 1790852326
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Porygon-Z",
       "region": "Johto",
       "location": "Team Rocket HQ",
-      "secondsAgo": 4263,
+      "secondsAgo": 4583,
       "sourceId": 1790856598
     },
     {
@@ -23,16 +35,8 @@
       "pokemon": "Corsola",
       "region": "Hoenn",
       "location": "Route 128",
-      "secondsAgo": 17609,
+      "secondsAgo": 17929,
       "sourceId": 1790843252
-    },
-    {
-      "monsterId": 357,
-      "pokemon": "Tropius",
-      "region": "Sinnoh",
-      "location": "Route 226",
-      "secondsAgo": 4598,
-      "sourceId": 1790856263
     }
   ],
   "alpha": {
