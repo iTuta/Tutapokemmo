@@ -1,29 +1,44 @@
 {
-  "fetchedAt": "2026-10-01T04:40:47.287Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-01T04:45:48.592Z",
+  "swarms": [
+    {
+      "monsterId": 159,
+      "pokemon": "Croconaw",
+      "region": "Johto",
+      "location": "Whirl Islands",
+      "sourceId": 1790831428,
+      "despawnTimestamp": 1790831427,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-01T05:10:28.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Unova",
+      "location": "Relic Castle",
+      "sourceId": 1790831154,
+      "despawnTimestamp": 1790831153,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-01T05:05:54.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 248,
       "pokemon": "Tyranitar",
       "region": "Kanto",
       "location": "Seven Island",
-      "secondsAgo": 2050,
+      "secondsAgo": 2351,
       "sourceId": 1790827597
-    },
-    {
-      "monsterId": 281,
-      "pokemon": "Kirlia",
-      "region": "Johto",
-      "location": "Route 43",
-      "secondsAgo": 6988,
-      "sourceId": 1790822659
     },
     {
       "monsterId": 358,
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
-      "secondsAgo": 2483,
+      "secondsAgo": 2784,
       "sourceId": 1790827164
     },
     {
@@ -31,16 +46,8 @@
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 14200,
+      "secondsAgo": 14501,
       "sourceId": 1790815447
-    },
-    {
-      "monsterId": 127,
-      "pokemon": "Pinsir",
-      "region": "Unova",
-      "location": "Route 12",
-      "secondsAgo": 7962,
-      "sourceId": 1790821685
     }
   ],
   "alpha": {
