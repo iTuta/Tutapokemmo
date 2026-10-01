@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-10-01T23:00:59.992Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-01T23:05:40.103Z",
+  "swarms": [
+    {
+      "monsterId": 357,
+      "pokemon": "Tropius",
+      "region": "Sinnoh",
+      "location": "Route 226",
+      "sourceId": 1790897286,
+      "despawnTimestamp": 1790897286,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-01T23:28:06.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 248,
       "pokemon": "Tyranitar",
       "region": "Kanto",
       "location": "Seven Island",
-      "secondsAgo": 6176,
-      "sourceId": 1790889483
+      "secondsAgo": 6456,
+      "sourceId": 1790889484
     },
     {
       "monsterId": 154,
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 6126,
-      "sourceId": 1790889533
+      "secondsAgo": 6406,
+      "sourceId": 1790889534
     },
     {
       "monsterId": 185,
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 8784,
-      "sourceId": 1790886875
-    },
-    {
-      "monsterId": 387,
-      "pokemon": "Turtwig",
-      "region": "Sinnoh",
-      "location": "Route 203",
-      "secondsAgo": 13596,
-      "sourceId": 1790882063
+      "secondsAgo": 9064,
+      "sourceId": 1790886876
     },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Unova",
       "location": "Village Bridge",
-      "secondsAgo": 6719,
-      "sourceId": 1790888940
+      "secondsAgo": 6999,
+      "sourceId": 1790888941
     }
   ],
   "alpha": {
