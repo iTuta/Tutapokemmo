@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-01T15:27:05.852Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-01T15:31:00.960Z",
+  "swarms": [
+    {
+      "monsterId": 157,
+      "pokemon": "Typhlosion",
+      "region": "Johto",
+      "location": "Route 45",
+      "sourceId": 1790870097,
+      "despawnTimestamp": 1790870096,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-01T15:54:57.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 4,
       "pokemon": "Charmander",
       "region": "Kanto",
       "location": "Route 3",
-      "secondsAgo": 5180,
+      "secondsAgo": 5415,
       "sourceId": 1790863245
-    },
-    {
-      "monsterId": 474,
-      "pokemon": "Porygon-Z",
-      "region": "Johto",
-      "location": "Team Rocket HQ",
-      "secondsAgo": 11827,
-      "sourceId": 1790856598
     },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
       "region": "Hoenn",
       "location": "Route 128",
-      "secondsAgo": 25173,
+      "secondsAgo": 25408,
       "sourceId": 1790843252
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 7457,
+      "secondsAgo": 7692,
       "sourceId": 1790860968
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Slakoth",
       "region": "Unova",
       "location": "Route 2",
-      "secondsAgo": 18528,
+      "secondsAgo": 18763,
       "sourceId": 1790849897
     }
   ],
