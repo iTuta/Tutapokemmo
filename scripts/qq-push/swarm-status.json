@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-01T16:27:11.637Z",
+  "fetchedAt": "2026-10-01T16:31:43.719Z",
   "swarms": [
     {
       "monsterId": 328,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-01T16:36:15.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 258,
+      "pokemon": "Mudkip",
+      "region": "Hoenn",
+      "location": "Route 104",
+      "sourceId": 1790873588,
+      "despawnTimestamp": 1790873587,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-01T16:53:08.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,23 +30,15 @@
       "pokemon": "Typhlosion",
       "region": "Johto",
       "location": "Route 45",
-      "secondsAgo": 3433,
-      "sourceId": 1790868598
-    },
-    {
-      "monsterId": 222,
-      "pokemon": "Corsola",
-      "region": "Hoenn",
-      "location": "Route 128",
-      "secondsAgo": 28779,
-      "sourceId": 1790843252
+      "secondsAgo": 3706,
+      "sourceId": 1790868597
     },
     {
       "monsterId": 387,
       "pokemon": "Turtwig",
       "region": "Sinnoh",
       "location": "Route 203",
-      "secondsAgo": 2287,
+      "secondsAgo": 2559,
       "sourceId": 1790869744
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Slakoth",
       "region": "Unova",
       "location": "Route 2",
-      "secondsAgo": 22133,
+      "secondsAgo": 22405,
       "sourceId": 1790849898
     }
   ],
