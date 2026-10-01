@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-01T15:51:59.509Z",
+  "fetchedAt": "2026-10-01T15:56:04.827Z",
   "swarms": [
-    {
-      "monsterId": 157,
-      "pokemon": "Typhlosion",
-      "region": "Johto",
-      "location": "Route 45",
-      "sourceId": 1790870097,
-      "despawnTimestamp": 1790870097,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-01T15:54:57.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 387,
       "pokemon": "Turtwig",
@@ -30,15 +19,23 @@
       "pokemon": "Charmander",
       "region": "Kanto",
       "location": "Route 3",
-      "secondsAgo": 6674,
+      "secondsAgo": 6919,
       "sourceId": 1790863245
+    },
+    {
+      "monsterId": 157,
+      "pokemon": "Typhlosion",
+      "region": "Johto",
+      "location": "Route 45",
+      "secondsAgo": 1567,
+      "sourceId": 1790868597
     },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
       "region": "Hoenn",
       "location": "Route 128",
-      "secondsAgo": 26667,
+      "secondsAgo": 26912,
       "sourceId": 1790843252
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Slakoth",
       "region": "Unova",
       "location": "Route 2",
-      "secondsAgo": 20021,
-      "sourceId": 1790849898
+      "secondsAgo": 20267,
+      "sourceId": 1790849897
     }
   ],
   "alpha": {
