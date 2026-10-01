@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-01T21:30:54.711Z",
+  "fetchedAt": "2026-10-01T21:35:50.718Z",
   "swarms": [
     {
       "monsterId": 248,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-01T21:43:53.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 241,
-      "pokemon": "Miltank",
-      "region": "Unova",
-      "location": "Village Bridge",
-      "sourceId": 1790890440,
-      "despawnTimestamp": 1790890439,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-01T21:34:00.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,8 +30,16 @@
       "pokemon": "Turtwig",
       "region": "Sinnoh",
       "location": "Route 203",
-      "secondsAgo": 8191,
+      "secondsAgo": 8487,
       "sourceId": 1790882063
+    },
+    {
+      "monsterId": 241,
+      "pokemon": "Miltank",
+      "region": "Unova",
+      "location": "Village Bridge",
+      "secondsAgo": 1610,
+      "sourceId": 1790888940
     }
   ],
   "alpha": {
