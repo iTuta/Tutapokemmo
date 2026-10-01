@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-01T15:35:43.099Z",
+  "fetchedAt": "2026-10-01T15:49:32.232Z",
   "swarms": [
     {
       "monsterId": 157,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-01T15:54:57.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 387,
+      "pokemon": "Turtwig",
+      "region": "Sinnoh",
+      "location": "Route 203",
+      "sourceId": 1790871244,
+      "despawnTimestamp": 1790871244,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-01T16:14:04.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Charmander",
       "region": "Kanto",
       "location": "Route 3",
-      "secondsAgo": 5697,
+      "secondsAgo": 6526,
       "sourceId": 1790863246
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Corsola",
       "region": "Hoenn",
       "location": "Route 128",
-      "secondsAgo": 25691,
+      "secondsAgo": 26520,
       "sourceId": 1790843252
-    },
-    {
-      "monsterId": 288,
-      "pokemon": "Vigoroth",
-      "region": "Sinnoh",
-      "location": "Route 215",
-      "secondsAgo": 7974,
-      "sourceId": 1790860969
     },
     {
       "monsterId": 287,
       "pokemon": "Slakoth",
       "region": "Unova",
       "location": "Route 2",
-      "secondsAgo": 19045,
+      "secondsAgo": 19874,
       "sourceId": 1790849898
     }
   ],
