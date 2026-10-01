@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-10-01T20:31:01.460Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-01T20:36:38.777Z",
+  "swarms": [
+    {
+      "monsterId": 185,
+      "pokemon": "Sudowoodo",
+      "region": "Hoenn",
+      "location": "Battle Frontier",
+      "sourceId": 1790888375,
+      "despawnTimestamp": 1790888375,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-01T20:59:35.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 5,
       "pokemon": "Charmeleon",
       "region": "Kanto",
       "location": "Rock Tunnel",
-      "secondsAgo": 5140,
-      "sourceId": 1790881521
+      "secondsAgo": 5478,
+      "sourceId": 1790881520
     },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Johto",
       "location": "Mt. Silver Cave",
-      "secondsAgo": 6682,
-      "sourceId": 1790879979
-    },
-    {
-      "monsterId": 300,
-      "pokemon": "Skitty",
-      "region": "Hoenn",
-      "location": "Route 116",
-      "secondsAgo": 6545,
-      "sourceId": 1790880116
+      "secondsAgo": 7020,
+      "sourceId": 1790879978
     },
     {
       "monsterId": 387,
       "pokemon": "Turtwig",
       "region": "Sinnoh",
       "location": "Route 203",
-      "secondsAgo": 4597,
-      "sourceId": 1790882064
+      "secondsAgo": 4935,
+      "sourceId": 1790882063
     },
     {
       "monsterId": 162,
       "pokemon": "Furret",
       "region": "Unova",
       "location": "Abundant Shrine",
-      "secondsAgo": 5071,
-      "sourceId": 1790881590
+      "secondsAgo": 5409,
+      "sourceId": 1790881589
     }
   ],
   "alpha": {
