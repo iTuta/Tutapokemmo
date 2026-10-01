@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-01T01:01:10.895Z",
+  "fetchedAt": "2026-10-01T01:05:40.996Z",
   "swarms": [
-    {
-      "monsterId": 160,
-      "pokemon": "Feraligatr",
-      "region": "Johto",
-      "location": "Tohjo Falls",
-      "sourceId": 1790816495,
-      "despawnTimestamp": 1790816495,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-01T01:01:35.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 392,
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
       "sourceId": 1790816946,
-      "despawnTimestamp": 1790816946,
+      "despawnTimestamp": 1790816945,
       "hasValuable": false,
       "timestampUtc": "2026-10-01T01:09:06.000Z",
       "publishedBy": ""
@@ -30,15 +19,23 @@
       "pokemon": "Absol",
       "region": "Kanto",
       "location": "Canyon Entrance",
-      "secondsAgo": 10711,
-      "sourceId": 1790805759
+      "secondsAgo": 10982,
+      "sourceId": 1790805758
+    },
+    {
+      "monsterId": 160,
+      "pokemon": "Feraligatr",
+      "region": "Johto",
+      "location": "Tohjo Falls",
+      "secondsAgo": 1745,
+      "sourceId": 1790814995
     },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Hoenn",
       "location": "Seafloor Cavern",
-      "secondsAgo": 1539,
+      "secondsAgo": 1809,
       "sourceId": 1790814931
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Metagross",
       "region": "Unova",
       "location": "Giant Chasm",
-      "secondsAgo": 2333,
+      "secondsAgo": 2603,
       "sourceId": 1790814137
     }
   ],
