@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-01T00:45:46.140Z",
+  "fetchedAt": "2026-10-01T00:51:17.724Z",
   "swarms": [
     {
       "monsterId": 160,
@@ -18,7 +18,7 @@
       "region": "Hoenn",
       "location": "Seafloor Cavern",
       "sourceId": 1790816431,
-      "despawnTimestamp": 1790816431,
+      "despawnTimestamp": 1790816430,
       "hasValuable": false,
       "timestampUtc": "2026-10-01T01:00:31.000Z",
       "publishedBy": ""
@@ -33,17 +33,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-01T01:09:06.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 376,
-      "pokemon": "Metagross",
-      "region": "Unova",
-      "location": "Giant Chasm",
-      "sourceId": 1790815637,
-      "despawnTimestamp": 1790815637,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-01T00:47:17.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -52,8 +41,16 @@
       "pokemon": "Absol",
       "region": "Kanto",
       "location": "Canyon Entrance",
-      "secondsAgo": 9787,
+      "secondsAgo": 10118,
       "sourceId": 1790805759
+    },
+    {
+      "monsterId": 376,
+      "pokemon": "Metagross",
+      "region": "Unova",
+      "location": "Giant Chasm",
+      "secondsAgo": 1740,
+      "sourceId": 1790814137
     }
   ],
   "alpha": {
