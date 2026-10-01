@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-01T05:25:50.747Z",
+  "fetchedAt": "2026-10-01T05:30:51.435Z",
   "swarms": [
-    {
-      "monsterId": 9,
-      "pokemon": "Blastoise",
-      "region": "Kanto",
-      "location": "Cape Brink",
-      "sourceId": 1790832429,
-      "despawnTimestamp": 1790832428,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-01T05:27:09.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 330,
       "pokemon": "Flygon",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 9,
+      "pokemon": "Blastoise",
+      "region": "Kanto",
+      "location": "Cape Brink",
+      "secondsAgo": 1722,
+      "sourceId": 1790830929
+    },
+    {
       "monsterId": 159,
       "pokemon": "Croconaw",
       "region": "Johto",
       "location": "Whirl Islands",
-      "secondsAgo": 2422,
+      "secondsAgo": 2723,
       "sourceId": 1790829928
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 16903,
+      "secondsAgo": 17204,
       "sourceId": 1790815447
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 2696,
+      "secondsAgo": 2997,
       "sourceId": 1790829654
     }
   ],
