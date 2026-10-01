@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-01T12:25:56.477Z",
+  "fetchedAt": "2026-10-01T12:31:34.340Z",
   "swarms": [
     {
       "monsterId": 474,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-01T12:32:58.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 357,
-      "pokemon": "Tropius",
-      "region": "Sinnoh",
-      "location": "Route 226",
-      "sourceId": 1790857763,
-      "despawnTimestamp": 1790857763,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-01T12:29:23.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Chatot",
       "region": "Kanto",
       "location": "Treasure Beach",
-      "secondsAgo": 5229,
+      "secondsAgo": 5567,
       "sourceId": 1790852327
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Corsola",
       "region": "Hoenn",
       "location": "Route 128",
-      "secondsAgo": 14304,
+      "secondsAgo": 14642,
       "sourceId": 1790843252
+    },
+    {
+      "monsterId": 357,
+      "pokemon": "Tropius",
+      "region": "Sinnoh",
+      "location": "Route 226",
+      "secondsAgo": 1630,
+      "sourceId": 1790856264
     },
     {
       "monsterId": 287,
       "pokemon": "Slakoth",
       "region": "Unova",
       "location": "Route 2",
-      "secondsAgo": 7658,
+      "secondsAgo": 7996,
       "sourceId": 1790849898
     }
   ],
