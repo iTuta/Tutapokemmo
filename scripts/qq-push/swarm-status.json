@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-01T00:55:51.949Z",
+  "fetchedAt": "2026-10-01T01:01:10.895Z",
   "swarms": [
     {
       "monsterId": 160,
@@ -7,20 +7,9 @@
       "region": "Johto",
       "location": "Tohjo Falls",
       "sourceId": 1790816495,
-      "despawnTimestamp": 1790816494,
+      "despawnTimestamp": 1790816495,
       "hasValuable": false,
       "timestampUtc": "2026-10-01T01:01:35.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Hoenn",
-      "location": "Seafloor Cavern",
-      "sourceId": 1790816431,
-      "despawnTimestamp": 1790816430,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-01T01:00:31.000Z",
       "publishedBy": ""
     },
     {
@@ -29,7 +18,7 @@
       "region": "Sinnoh",
       "location": "Route 221",
       "sourceId": 1790816946,
-      "despawnTimestamp": 1790816945,
+      "despawnTimestamp": 1790816946,
       "hasValuable": false,
       "timestampUtc": "2026-10-01T01:09:06.000Z",
       "publishedBy": ""
@@ -41,15 +30,23 @@
       "pokemon": "Absol",
       "region": "Kanto",
       "location": "Canyon Entrance",
-      "secondsAgo": 10393,
-      "sourceId": 1790805758
+      "secondsAgo": 10711,
+      "sourceId": 1790805759
+    },
+    {
+      "monsterId": 213,
+      "pokemon": "Shuckle",
+      "region": "Hoenn",
+      "location": "Seafloor Cavern",
+      "secondsAgo": 1539,
+      "sourceId": 1790814931
     },
     {
       "monsterId": 376,
       "pokemon": "Metagross",
       "region": "Unova",
       "location": "Giant Chasm",
-      "secondsAgo": 2014,
+      "secondsAgo": 2333,
       "sourceId": 1790814137
     }
   ],
