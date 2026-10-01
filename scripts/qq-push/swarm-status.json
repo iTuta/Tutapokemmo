@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-01T10:55:47.767Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-01T11:01:10.453Z",
+  "swarms": [
     {
-      "monsterId": 135,
-      "pokemon": "Jolteon",
+      "monsterId": 441,
+      "pokemon": "Chatot",
       "region": "Kanto",
-      "location": "Ruin Valley",
-      "secondsAgo": 7288,
-      "sourceId": 1790844859
-    },
+      "location": "Treasure Beach",
+      "sourceId": 1790853826,
+      "despawnTimestamp": 1790853826,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-01T11:23:46.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Johto",
       "location": "Route 34",
-      "secondsAgo": 3238,
+      "secondsAgo": 3561,
       "sourceId": 1790848909
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Corsola",
       "region": "Hoenn",
       "location": "Route 128",
-      "secondsAgo": 8895,
+      "secondsAgo": 9218,
       "sourceId": 1790843252
     },
     {
@@ -31,8 +35,8 @@
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 36701,
-      "sourceId": 1790815446
+      "secondsAgo": 37023,
+      "sourceId": 1790815447
     }
   ],
   "alpha": {
