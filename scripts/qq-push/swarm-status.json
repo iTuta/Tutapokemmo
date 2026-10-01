@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-01T02:26:05.554Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-01T02:30:56.108Z",
+  "swarms": [
+    {
+      "monsterId": 127,
+      "pokemon": "Pinsir",
+      "region": "Unova",
+      "location": "Route 12",
+      "sourceId": 1790823184,
+      "despawnTimestamp": 1790823184,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-01T02:53:04.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 359,
       "pokemon": "Absol",
       "region": "Kanto",
       "location": "Canyon Entrance",
-      "secondsAgo": 15806,
+      "secondsAgo": 16097,
       "sourceId": 1790805759
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Feraligatr",
       "region": "Johto",
       "location": "Tohjo Falls",
-      "secondsAgo": 6569,
+      "secondsAgo": 6860,
       "sourceId": 1790814996
     },
     {
@@ -23,16 +35,8 @@
       "pokemon": "Torchic",
       "region": "Hoenn",
       "location": "Route 112",
-      "secondsAgo": 1549,
+      "secondsAgo": 1840,
       "sourceId": 1790820016
-    },
-    {
-      "monsterId": 376,
-      "pokemon": "Metagross",
-      "region": "Unova",
-      "location": "Giant Chasm",
-      "secondsAgo": 7427,
-      "sourceId": 1790814138
     }
   ],
   "alpha": {
