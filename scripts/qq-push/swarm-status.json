@@ -1,21 +1,36 @@
 {
-  "fetchedAt": "2026-10-02T20:51:19.362Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-02T20:56:14.639Z",
+  "swarms": [
     {
-      "monsterId": 6,
-      "pokemon": "Charizard",
+      "monsterId": 143,
+      "pokemon": "Snorlax",
       "region": "Kanto",
-      "location": "Mt. Ember",
-      "secondsAgo": 22905,
-      "sourceId": 1790951374
+      "location": "Cerulean Cave",
+      "sourceId": 1790975989,
+      "despawnTimestamp": 1790975989,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-02T21:19:49.000Z",
+      "publishedBy": ""
     },
+    {
+      "monsterId": 328,
+      "pokemon": "Trapinch",
+      "region": "Sinnoh",
+      "location": "Oreburgh Mine",
+      "sourceId": 1790975899,
+      "despawnTimestamp": 1790975899,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-02T21:18:19.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Johto",
       "location": "Route 41",
-      "secondsAgo": 7632,
+      "secondsAgo": 7927,
       "sourceId": 1790966647
     },
     {
@@ -23,23 +38,15 @@
       "pokemon": "Blaziken",
       "region": "Hoenn",
       "location": "Magma Hideout",
-      "secondsAgo": 5672,
+      "secondsAgo": 5967,
       "sourceId": 1790968607
-    },
-    {
-      "monsterId": 300,
-      "pokemon": "Skitty",
-      "region": "Sinnoh",
-      "location": "Route 204",
-      "secondsAgo": 3493,
-      "sourceId": 1790970786
     },
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Unova",
       "location": "Route 15",
-      "secondsAgo": 4600,
+      "secondsAgo": 4895,
       "sourceId": 1790969679
     }
   ],
