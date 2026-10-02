@@ -1,13 +1,33 @@
 {
-  "fetchedAt": "2026-10-02T02:40:45.863Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-02T02:46:06.355Z",
+  "swarms": [
+    {
+      "monsterId": 331,
+      "pokemon": "Cacnea",
+      "region": "Unova",
+      "location": "Route 4",
+      "sourceId": 1790910515,
+      "despawnTimestamp": 1790910515,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-02T03:08:35.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
+    {
+      "monsterId": 214,
+      "pokemon": "Heracross",
+      "region": "Kanto",
+      "location": "Route 16",
+      "secondsAgo": 6367,
+      "sourceId": 1790902799
+    },
     {
       "monsterId": 154,
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 19311,
+      "secondsAgo": 19632,
       "sourceId": 1790889534
     },
     {
@@ -15,24 +35,16 @@
       "pokemon": "Mismagius",
       "region": "Hoenn",
       "location": "Route 122",
-      "secondsAgo": 3339,
-      "sourceId": 1790905506
+      "secondsAgo": 3659,
+      "sourceId": 1790905507
     },
     {
       "monsterId": 352,
       "pokemon": "Kecleon",
       "region": "Sinnoh",
       "location": "Route 229",
-      "secondsAgo": 7180,
-      "sourceId": 1790901665
-    },
-    {
-      "monsterId": 148,
-      "pokemon": "Dragonair",
-      "region": "Unova",
-      "location": "Dragonspiral Tower",
-      "secondsAgo": 4869,
-      "sourceId": 1790903976
+      "secondsAgo": 7500,
+      "sourceId": 1790901666
     }
   ],
   "alpha": {
@@ -45,6 +57,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-10-01T21:56:15.000Z",
     "timestampRaw": "2026-10-01T21:56:15.000Z",
-    "publishedBy": ""
+    "publishedBy": "Guanabacha"
   }
 }
