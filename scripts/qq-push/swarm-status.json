@@ -1,38 +1,42 @@
 {
-  "fetchedAt": "2026-10-02T09:35:47.363Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-02T09:40:46.884Z",
+  "swarms": [
+    {
+      "monsterId": 300,
+      "pokemon": "Skitty",
+      "region": "Sinnoh",
+      "location": "Route 204",
+      "sourceId": 1790935416,
+      "despawnTimestamp": 1790935415,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-02T10:03:36.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 4000,
-      "sourceId": 1790929747
+      "secondsAgo": 4300,
+      "sourceId": 1790929746
     },
     {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 4986,
+      "secondsAgo": 5285,
       "sourceId": 1790928761
-    },
-    {
-      "monsterId": 358,
-      "pokemon": "Chimecho",
-      "region": "Sinnoh",
-      "location": "Acuity Lakefront",
-      "secondsAgo": 12526,
-      "sourceId": 1790921221
     },
     {
       "monsterId": 311,
       "pokemon": "Plusle",
       "region": "Unova",
       "location": "Route 5",
-      "secondsAgo": 13389,
-      "sourceId": 1790920358
+      "secondsAgo": 13689,
+      "sourceId": 1790920357
     }
   ],
   "alpha": {
