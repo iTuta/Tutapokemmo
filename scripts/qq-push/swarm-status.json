@@ -1,38 +1,42 @@
 {
-  "fetchedAt": "2026-10-02T17:35:41.005Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-02T17:40:55.131Z",
+  "swarms": [
+    {
+      "monsterId": 388,
+      "pokemon": "Grotle",
+      "region": "Sinnoh",
+      "location": "Sendoff Spring",
+      "sourceId": 1790964344,
+      "despawnTimestamp": 1790964344,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-02T18:05:44.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 6,
       "pokemon": "Charizard",
       "region": "Kanto",
       "location": "Mt. Ember",
-      "secondsAgo": 11166,
-      "sourceId": 1790951374
+      "secondsAgo": 11480,
+      "sourceId": 1790951375
     },
     {
       "monsterId": 438,
       "pokemon": "Bonsly",
       "region": "Johto",
       "location": "Ilex Forest",
-      "secondsAgo": 2494,
-      "sourceId": 1790960046
+      "secondsAgo": 2808,
+      "sourceId": 1790960047
     },
     {
       "monsterId": 415,
       "pokemon": "Combee",
       "region": "Hoenn",
       "location": "Route 117",
-      "secondsAgo": 2814,
-      "sourceId": 1790959726
-    },
-    {
-      "monsterId": 122,
-      "pokemon": "Mr. Mime",
-      "region": "Sinnoh",
-      "location": "Route 224",
-      "secondsAgo": 2464,
-      "sourceId": 1790960076
+      "secondsAgo": 3128,
+      "sourceId": 1790959727
     }
   ],
   "alpha": {
