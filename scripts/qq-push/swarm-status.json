@@ -1,15 +1,37 @@
 {
-  "fetchedAt": "2026-10-02T16:50:41.115Z",
+  "fetchedAt": "2026-10-02T16:55:45.876Z",
   "swarms": [
+    {
+      "monsterId": 438,
+      "pokemon": "Bonsly",
+      "region": "Johto",
+      "location": "Ilex Forest",
+      "sourceId": 1790960946,
+      "despawnTimestamp": 1790960945,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-02T17:09:06.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 415,
       "pokemon": "Combee",
       "region": "Hoenn",
       "location": "Route 117",
       "sourceId": 1790961226,
-      "despawnTimestamp": 1790961226,
+      "despawnTimestamp": 1790961225,
       "hasValuable": false,
       "timestampUtc": "2026-10-02T17:13:46.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 122,
+      "pokemon": "Mr. Mime",
+      "region": "Sinnoh",
+      "location": "Route 224",
+      "sourceId": 1790961575,
+      "despawnTimestamp": 1790961575,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-02T17:19:35.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,24 +41,8 @@
       "pokemon": "Charizard",
       "region": "Kanto",
       "location": "Mt. Ember",
-      "secondsAgo": 8466,
-      "sourceId": 1790951375
-    },
-    {
-      "monsterId": 474,
-      "pokemon": "Porygon-Z",
-      "region": "Johto",
-      "location": "Team Rocket HQ",
-      "secondsAgo": 12485,
-      "sourceId": 1790947356
-    },
-    {
-      "monsterId": 392,
-      "pokemon": "Infernape",
-      "region": "Sinnoh",
-      "location": "Route 221",
-      "secondsAgo": 6731,
-      "sourceId": 1790953110
+      "secondsAgo": 8771,
+      "sourceId": 1790951374
     }
   ],
   "alpha": {
