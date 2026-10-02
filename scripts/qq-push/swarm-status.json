@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-10-02T12:55:43.046Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-02T13:01:03.004Z",
+  "swarms": [
+    {
+      "monsterId": 255,
+      "pokemon": "Torchic",
+      "region": "Hoenn",
+      "location": "Route 112",
+      "sourceId": 1790947332,
+      "despawnTimestamp": 1790947331,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-02T13:22:12.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 8,
       "pokemon": "Wartortle",
       "region": "Kanto",
       "location": "Seafoam Islands",
-      "secondsAgo": 9812,
-      "sourceId": 1790935931
+      "secondsAgo": 10132,
+      "sourceId": 1790935930
     },
     {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 16981,
-      "sourceId": 1790928762
-    },
-    {
-      "monsterId": 316,
-      "pokemon": "Gulpin",
-      "region": "Hoenn",
-      "location": "Route 110",
-      "secondsAgo": 31634,
-      "sourceId": 1790914109
+      "secondsAgo": 17301,
+      "sourceId": 1790928761
     },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Sinnoh",
       "location": "Iron Island",
-      "secondsAgo": 5988,
-      "sourceId": 1790939755
+      "secondsAgo": 6308,
+      "sourceId": 1790939754
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 5623,
-      "sourceId": 1790940120
+      "secondsAgo": 5943,
+      "sourceId": 1790940119
     }
   ],
   "alpha": {
