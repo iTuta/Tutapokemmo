@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-02T06:15:47.698Z",
+  "fetchedAt": "2026-10-02T06:20:47.819Z",
   "swarms": [
     {
       "monsterId": 358,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-02T06:32:00.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 311,
-      "pokemon": "Plusle",
-      "region": "Unova",
-      "location": "Route 5",
-      "sourceId": 1790921857,
-      "despawnTimestamp": 1790921856,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-02T06:17:37.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Blissey",
       "region": "Kanto",
       "location": "Three Island",
-      "secondsAgo": 2432,
+      "secondsAgo": 2732,
       "sourceId": 1790919315
     },
     {
@@ -38,7 +27,7 @@
       "pokemon": "Totodile",
       "region": "Johto",
       "location": "Route 32",
-      "secondsAgo": 2036,
+      "secondsAgo": 2336,
       "sourceId": 1790919711
     },
     {
@@ -46,8 +35,16 @@
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 7639,
+      "secondsAgo": 7939,
       "sourceId": 1790914108
+    },
+    {
+      "monsterId": 311,
+      "pokemon": "Plusle",
+      "region": "Unova",
+      "location": "Route 5",
+      "secondsAgo": 1690,
+      "sourceId": 1790920357
     }
   ],
   "alpha": {
