@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-10-02T22:40:44.218Z",
-  "swarms": [
-    {
-      "monsterId": 83,
-      "pokemon": "Farfetch&#x27;d",
-      "region": "Unova",
-      "location": "Route 1",
-      "sourceId": 1790981120,
-      "despawnTimestamp": 1790981120,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-02T22:45:20.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-02T22:45:47.680Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Kanto",
       "location": "Route 25",
-      "secondsAgo": 2621,
+      "secondsAgo": 2924,
       "sourceId": 1790978223
     },
     {
@@ -27,7 +15,7 @@
       "pokemon": "Cacnea",
       "region": "Hoenn",
       "location": "Route 111",
-      "secondsAgo": 5668,
+      "secondsAgo": 5971,
       "sourceId": 1790975176
     },
     {
@@ -35,8 +23,16 @@
       "pokemon": "Trapinch",
       "region": "Sinnoh",
       "location": "Oreburgh Mine",
-      "secondsAgo": 6444,
+      "secondsAgo": 6747,
       "sourceId": 1790974400
+    },
+    {
+      "monsterId": 83,
+      "pokemon": "Farfetch&#x27;d",
+      "region": "Unova",
+      "location": "Route 1",
+      "secondsAgo": 1526,
+      "sourceId": 1790979621
     }
   ],
   "alpha": {
