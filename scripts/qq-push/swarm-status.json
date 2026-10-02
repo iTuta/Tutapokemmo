@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-02T22:15:52.324Z",
+  "fetchedAt": "2026-10-02T22:20:57.337Z",
   "swarms": [
     {
       "monsterId": 290,
@@ -11,23 +11,26 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-02T22:22:02.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 83,
+      "pokemon": "Farfetch&#x27;d",
+      "region": "Unova",
+      "location": "Route 1",
+      "sourceId": 1790981120,
+      "despawnTimestamp": 1790981120,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-02T22:45:20.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 319,
-      "pokemon": "Sharpedo",
-      "region": "Johto",
-      "location": "Route 41",
-      "secondsAgo": 12705,
-      "sourceId": 1790966647
-    },
     {
       "monsterId": 331,
       "pokemon": "Cacnea",
       "region": "Hoenn",
       "location": "Route 111",
-      "secondsAgo": 4176,
+      "secondsAgo": 4481,
       "sourceId": 1790975176
     },
     {
@@ -35,28 +38,20 @@
       "pokemon": "Trapinch",
       "region": "Sinnoh",
       "location": "Oreburgh Mine",
-      "secondsAgo": 4952,
+      "secondsAgo": 5257,
       "sourceId": 1790974400
-    },
-    {
-      "monsterId": 222,
-      "pokemon": "Corsola",
-      "region": "Unova",
-      "location": "Undella Bay",
-      "secondsAgo": 3473,
-      "sourceId": 1790975879
     }
   ],
   "alpha": {
-    "monsterId": 211,
-    "pokemon": "Qwilfish",
-    "region": "Unova",
-    "location": "Route 18",
-    "sourceId": 1790945838,
-    "despawnTimestamp": 1790962938,
+    "monsterId": 229,
+    "pokemon": "Houndoom",
+    "region": "Johto",
+    "location": "Bellchime Trail",
+    "sourceId": 1790967052,
+    "despawnTimestamp": 1790984152,
     "hasValuable": false,
-    "timestampUtc": "2026-10-02T12:57:18.000Z",
-    "timestampRaw": "2026-10-02T12:57:18.000Z",
+    "timestampUtc": "2026-10-02T18:50:52.000Z",
+    "timestampRaw": "2026-10-02T18:50:52.000Z",
     "publishedBy": ""
   }
 }
