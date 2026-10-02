@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-02T01:05:48.236Z",
+  "fetchedAt": "2026-10-02T01:11:02.892Z",
   "swarms": [
     {
       "monsterId": 214,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-02T01:24:58.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 352,
-      "pokemon": "Kecleon",
-      "region": "Sinnoh",
-      "location": "Route 229",
-      "sourceId": 1790903165,
-      "despawnTimestamp": 1790903165,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-02T01:06:05.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,24 +19,32 @@
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 13614,
-      "sourceId": 1790889534
+      "secondsAgo": 13929,
+      "sourceId": 1790889533
     },
     {
       "monsterId": 185,
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 16272,
+      "secondsAgo": 16586,
       "sourceId": 1790886876
+    },
+    {
+      "monsterId": 352,
+      "pokemon": "Kecleon",
+      "region": "Sinnoh",
+      "location": "Route 229",
+      "secondsAgo": 1797,
+      "sourceId": 1790901665
     },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 4827,
-      "sourceId": 1790898321
+      "secondsAgo": 5142,
+      "sourceId": 1790898320
     }
   ],
   "alpha": {
