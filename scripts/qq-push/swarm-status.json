@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-02T01:20:48.315Z",
+  "fetchedAt": "2026-10-02T01:25:54.333Z",
   "swarms": [
-    {
-      "monsterId": 214,
-      "pokemon": "Heracross",
-      "region": "Kanto",
-      "location": "Route 16",
-      "sourceId": 1790904298,
-      "despawnTimestamp": 1790904298,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-02T01:24:58.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 148,
       "pokemon": "Dragonair",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 214,
+      "pokemon": "Heracross",
+      "region": "Kanto",
+      "location": "Route 16",
+      "secondsAgo": 1555,
+      "sourceId": 1790902799
+    },
+    {
       "monsterId": 154,
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 14514,
+      "secondsAgo": 14820,
       "sourceId": 1790889534
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 17172,
+      "secondsAgo": 17478,
       "sourceId": 1790886876
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Kecleon",
       "region": "Sinnoh",
       "location": "Route 229",
-      "secondsAgo": 2382,
+      "secondsAgo": 2688,
       "sourceId": 1790901666
     }
   ],
