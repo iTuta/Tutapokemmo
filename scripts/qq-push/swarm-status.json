@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-02T19:30:58.049Z",
+  "fetchedAt": "2026-10-02T19:35:46.772Z",
   "swarms": [
     {
       "monsterId": 257,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-02T19:41:46.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Unova",
+      "location": "Route 15",
+      "sourceId": 1790971179,
+      "despawnTimestamp": 1790971178,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-02T19:59:39.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,32 +30,24 @@
       "pokemon": "Charizard",
       "region": "Kanto",
       "location": "Mt. Ember",
-      "secondsAgo": 18083,
-      "sourceId": 1790951375
+      "secondsAgo": 18372,
+      "sourceId": 1790951374
     },
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Johto",
       "location": "Route 41",
-      "secondsAgo": 2811,
-      "sourceId": 1790966647
+      "secondsAgo": 3100,
+      "sourceId": 1790966646
     },
     {
       "monsterId": 388,
       "pokemon": "Grotle",
       "region": "Sinnoh",
       "location": "Sendoff Spring",
-      "secondsAgo": 6613,
+      "secondsAgo": 6901,
       "sourceId": 1790962845
-    },
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Unova",
-      "location": "Wellspring Cave",
-      "secondsAgo": 13951,
-      "sourceId": 1790955507
     }
   ],
   "alpha": {
