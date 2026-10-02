@@ -1,38 +1,42 @@
 {
-  "fetchedAt": "2026-10-02T10:10:47.973Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-02T10:15:56.121Z",
+  "swarms": [
     {
-      "monsterId": 369,
-      "pokemon": "Relicanth",
+      "monsterId": 8,
+      "pokemon": "Wartortle",
       "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 6101,
-      "sourceId": 1790929746
-    },
+      "location": "Seafoam Islands",
+      "sourceId": 1790937430,
+      "despawnTimestamp": 1790937430,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-02T10:37:10.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 7086,
-      "sourceId": 1790928761
+      "secondsAgo": 7394,
+      "sourceId": 1790928762
     },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 1931,
-      "sourceId": 1790933916
+      "secondsAgo": 2239,
+      "sourceId": 1790933917
     },
     {
       "monsterId": 311,
       "pokemon": "Plusle",
       "region": "Unova",
       "location": "Route 5",
-      "secondsAgo": 15490,
-      "sourceId": 1790920357
+      "secondsAgo": 15798,
+      "sourceId": 1790920358
     }
   ],
   "alpha": {
