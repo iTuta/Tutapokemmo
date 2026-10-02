@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-02T13:35:48.521Z",
+  "fetchedAt": "2026-10-02T13:40:45.581Z",
   "swarms": [
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Kanto",
+      "location": "Route 15",
+      "sourceId": 1790949788,
+      "despawnTimestamp": 1790949787,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-02T14:03:08.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 474,
       "pokemon": "Porygon-Z",
@@ -11,39 +22,34 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-02T13:47:35.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 299,
+      "pokemon": "Nosepass",
+      "region": "Sinnoh",
+      "location": "Oreburgh Gate",
+      "sourceId": 1790949700,
+      "despawnTimestamp": 1790949700,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-02T14:01:40.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 8,
-      "pokemon": "Wartortle",
-      "region": "Kanto",
-      "location": "Seafoam Islands",
-      "secondsAgo": 12218,
-      "sourceId": 1790935930
-    },
     {
       "monsterId": 255,
       "pokemon": "Torchic",
       "region": "Hoenn",
       "location": "Route 112",
-      "secondsAgo": 2315,
+      "secondsAgo": 2612,
       "sourceId": 1790945833
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Sinnoh",
-      "location": "Iron Island",
-      "secondsAgo": 8394,
-      "sourceId": 1790939754
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 8029,
+      "secondsAgo": 8326,
       "sourceId": 1790940119
     }
   ],
