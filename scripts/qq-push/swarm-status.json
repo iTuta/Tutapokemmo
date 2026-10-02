@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-02T08:10:56.424Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-02T08:15:49.194Z",
+  "swarms": [
+    {
+      "monsterId": 290,
+      "pokemon": "Nincada",
+      "region": "Johto",
+      "location": "Route 46",
+      "sourceId": 1790930261,
+      "despawnTimestamp": 1790930260,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-02T08:37:41.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 370,
       "pokemon": "Luvdisc",
       "region": "Kanto",
       "location": "Route 19",
-      "secondsAgo": 2538,
+      "secondsAgo": 2831,
       "sourceId": 1790926118
-    },
-    {
-      "monsterId": 158,
-      "pokemon": "Totodile",
-      "region": "Johto",
-      "location": "Route 32",
-      "secondsAgo": 8945,
-      "sourceId": 1790919711
     },
     {
       "monsterId": 316,
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 14547,
+      "secondsAgo": 14840,
       "sourceId": 1790914109
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Chimecho",
       "region": "Sinnoh",
       "location": "Acuity Lakefront",
-      "secondsAgo": 7435,
+      "secondsAgo": 7728,
       "sourceId": 1790921221
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Plusle",
       "region": "Unova",
       "location": "Route 5",
-      "secondsAgo": 8298,
+      "secondsAgo": 8591,
       "sourceId": 1790920358
     }
   ],
