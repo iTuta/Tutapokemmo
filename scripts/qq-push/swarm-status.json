@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-02T05:40:45.200Z",
+  "fetchedAt": "2026-10-02T05:45:46.598Z",
   "swarms": [
     {
       "monsterId": 242,
@@ -11,31 +11,34 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-02T06:00:14.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 158,
+      "pokemon": "Totodile",
+      "region": "Johto",
+      "location": "Route 32",
+      "sourceId": 1790921210,
+      "despawnTimestamp": 1790921210,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-02T06:06:50.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 154,
-      "pokemon": "Meganium",
-      "region": "Johto",
-      "location": "Route 48",
-      "secondsAgo": 30111,
-      "sourceId": 1790889534
-    },
     {
       "monsterId": 316,
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 5536,
-      "sourceId": 1790914109
+      "secondsAgo": 5838,
+      "sourceId": 1790914108
     },
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 9168,
+      "secondsAgo": 9469,
       "sourceId": 1790910477
     },
     {
@@ -43,8 +46,8 @@
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 10629,
-      "sourceId": 1790909016
+      "secondsAgo": 10931,
+      "sourceId": 1790909015
     }
   ],
   "alpha": {
