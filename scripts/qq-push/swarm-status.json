@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-10-02T05:31:23.322Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-02T05:35:41.916Z",
+  "swarms": [
     {
-      "monsterId": 214,
-      "pokemon": "Heracross",
+      "monsterId": 242,
+      "pokemon": "Blissey",
       "region": "Kanto",
-      "location": "Route 16",
-      "secondsAgo": 16284,
-      "sourceId": 1790902799
-    },
+      "location": "Three Island",
+      "sourceId": 1790920814,
+      "despawnTimestamp": 1790920814,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-02T06:00:14.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 154,
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 29549,
-      "sourceId": 1790889534
+      "secondsAgo": 29808,
+      "sourceId": 1790889533
     },
     {
       "monsterId": 316,
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 4974,
-      "sourceId": 1790914109
+      "secondsAgo": 5233,
+      "sourceId": 1790914108
     },
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 8606,
-      "sourceId": 1790910477
+      "secondsAgo": 8865,
+      "sourceId": 1790910476
     },
     {
       "monsterId": 331,
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 10067,
-      "sourceId": 1790909016
+      "secondsAgo": 10326,
+      "sourceId": 1790909015
     }
   ],
   "alpha": {
