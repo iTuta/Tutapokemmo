@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-02T14:55:52.893Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-02T15:01:08.645Z",
+  "swarms": [
+    {
+      "monsterId": 392,
+      "pokemon": "Infernape",
+      "region": "Sinnoh",
+      "location": "Route 221",
+      "sourceId": 1790954609,
+      "despawnTimestamp": 1790954608,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-02T15:23:29.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 6,
       "pokemon": "Charizard",
       "region": "Kanto",
       "location": "Mt. Ember",
-      "secondsAgo": 1578,
+      "secondsAgo": 1894,
       "sourceId": 1790951374
     },
     {
@@ -15,31 +27,23 @@
       "pokemon": "Porygon-Z",
       "region": "Johto",
       "location": "Team Rocket HQ",
-      "secondsAgo": 5597,
-      "sourceId": 1790947355
+      "secondsAgo": 5912,
+      "sourceId": 1790947356
     },
     {
       "monsterId": 255,
       "pokemon": "Torchic",
       "region": "Hoenn",
       "location": "Route 112",
-      "secondsAgo": 7119,
+      "secondsAgo": 7435,
       "sourceId": 1790945833
-    },
-    {
-      "monsterId": 299,
-      "pokemon": "Nosepass",
-      "region": "Sinnoh",
-      "location": "Oreburgh Gate",
-      "secondsAgo": 4752,
-      "sourceId": 1790948200
     },
     {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Unova",
       "location": "Cold Storage",
-      "secondsAgo": 3430,
+      "secondsAgo": 3746,
       "sourceId": 1790949522
     }
   ],
