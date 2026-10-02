@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-02T19:50:42.573Z",
+  "fetchedAt": "2026-10-02T19:55:50.428Z",
   "swarms": [
+    {
+      "monsterId": 300,
+      "pokemon": "Skitty",
+      "region": "Sinnoh",
+      "location": "Route 204",
+      "sourceId": 1790972285,
+      "despawnTimestamp": 1790972285,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-02T20:18:05.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
@@ -19,7 +30,7 @@
       "pokemon": "Charizard",
       "region": "Kanto",
       "location": "Mt. Ember",
-      "secondsAgo": 19268,
+      "secondsAgo": 19576,
       "sourceId": 1790951374
     },
     {
@@ -27,7 +38,7 @@
       "pokemon": "Sharpedo",
       "region": "Johto",
       "location": "Route 41",
-      "secondsAgo": 3995,
+      "secondsAgo": 4303,
       "sourceId": 1790966647
     },
     {
@@ -35,16 +46,8 @@
       "pokemon": "Blaziken",
       "region": "Hoenn",
       "location": "Magma Hideout",
-      "secondsAgo": 2035,
+      "secondsAgo": 2343,
       "sourceId": 1790968607
-    },
-    {
-      "monsterId": 388,
-      "pokemon": "Grotle",
-      "region": "Sinnoh",
-      "location": "Sendoff Spring",
-      "secondsAgo": 7797,
-      "sourceId": 1790962845
     }
   ],
   "alpha": {
