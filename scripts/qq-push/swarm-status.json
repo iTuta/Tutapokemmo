@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-02T21:15:46.223Z",
+  "fetchedAt": "2026-10-02T21:20:42.392Z",
   "swarms": [
-    {
-      "monsterId": 143,
-      "pokemon": "Snorlax",
-      "region": "Kanto",
-      "location": "Cerulean Cave",
-      "sourceId": 1790975989,
-      "despawnTimestamp": 1790975989,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-02T21:19:49.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 331,
       "pokemon": "Cacnea",
@@ -24,33 +13,41 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 328,
-      "pokemon": "Trapinch",
-      "region": "Sinnoh",
-      "location": "Oreburgh Mine",
-      "sourceId": 1790975899,
-      "despawnTimestamp": 1790975899,
+      "monsterId": 222,
+      "pokemon": "Corsola",
+      "region": "Unova",
+      "location": "Undella Bay",
+      "sourceId": 1790977378,
+      "despawnTimestamp": 1790977378,
       "hasValuable": false,
-      "timestampUtc": "2026-10-02T21:18:19.000Z",
+      "timestampUtc": "2026-10-02T21:42:58.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
+      "monsterId": 143,
+      "pokemon": "Snorlax",
+      "region": "Kanto",
+      "location": "Cerulean Cave",
+      "secondsAgo": 1552,
+      "sourceId": 1790974490
+    },
+    {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Johto",
       "location": "Route 41",
-      "secondsAgo": 9099,
+      "secondsAgo": 9395,
       "sourceId": 1790966647
     },
     {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Unova",
-      "location": "Route 15",
-      "secondsAgo": 6066,
-      "sourceId": 1790969680
+      "monsterId": 328,
+      "pokemon": "Trapinch",
+      "region": "Sinnoh",
+      "location": "Oreburgh Mine",
+      "secondsAgo": 1642,
+      "sourceId": 1790974400
     }
   ],
   "alpha": {
