@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-02T11:20:53.240Z",
+  "fetchedAt": "2026-10-02T11:25:40.046Z",
   "swarms": [
     {
       "monsterId": 448,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-02T11:40:54.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Unova",
+      "location": "Lostlorn Forest",
+      "sourceId": 1790941619,
+      "despawnTimestamp": 1790941619,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-02T11:46:59.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Wartortle",
       "region": "Kanto",
       "location": "Seafoam Islands",
-      "secondsAgo": 4122,
+      "secondsAgo": 4409,
       "sourceId": 1790935931
     },
     {
@@ -27,24 +38,16 @@
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 11292,
-      "sourceId": 1790928761
+      "secondsAgo": 11578,
+      "sourceId": 1790928762
     },
     {
       "monsterId": 316,
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 25944,
+      "secondsAgo": 26231,
       "sourceId": 1790914109
-    },
-    {
-      "monsterId": 311,
-      "pokemon": "Plusle",
-      "region": "Unova",
-      "location": "Route 5",
-      "secondsAgo": 19695,
-      "sourceId": 1790920358
     }
   ],
   "alpha": {
