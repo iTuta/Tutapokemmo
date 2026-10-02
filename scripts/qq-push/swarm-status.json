@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-02T17:05:42.118Z",
+  "fetchedAt": "2026-10-02T17:10:49.576Z",
   "swarms": [
-    {
-      "monsterId": 438,
-      "pokemon": "Bonsly",
-      "region": "Johto",
-      "location": "Ilex Forest",
-      "sourceId": 1790960946,
-      "despawnTimestamp": 1790960946,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-02T17:09:06.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 415,
       "pokemon": "Combee",
       "region": "Hoenn",
       "location": "Route 117",
       "sourceId": 1790961226,
-      "despawnTimestamp": 1790961226,
+      "despawnTimestamp": 1790961225,
       "hasValuable": false,
       "timestampUtc": "2026-10-02T17:13:46.000Z",
       "publishedBy": ""
@@ -41,8 +30,16 @@
       "pokemon": "Charizard",
       "region": "Kanto",
       "location": "Mt. Ember",
-      "secondsAgo": 9367,
-      "sourceId": 1790951375
+      "secondsAgo": 9675,
+      "sourceId": 1790951374
+    },
+    {
+      "monsterId": 438,
+      "pokemon": "Bonsly",
+      "region": "Johto",
+      "location": "Ilex Forest",
+      "secondsAgo": 1002,
+      "sourceId": 1790960047
     }
   ],
   "alpha": {
