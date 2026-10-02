@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-02T13:45:55.759Z",
+  "fetchedAt": "2026-10-02T13:50:59.999Z",
   "swarms": [
     {
       "monsterId": 336,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1790949787,
       "hasValuable": false,
       "timestampUtc": "2026-10-02T14:03:08.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 474,
-      "pokemon": "Porygon-Z",
-      "region": "Johto",
-      "location": "Team Rocket HQ",
-      "sourceId": 1790948855,
-      "despawnTimestamp": 1790948855,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-02T13:47:35.000Z",
       "publishedBy": ""
     },
     {
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 474,
+      "pokemon": "Porygon-Z",
+      "region": "Johto",
+      "location": "Team Rocket HQ",
+      "secondsAgo": 1704,
+      "sourceId": 1790947355
+    },
+    {
       "monsterId": 255,
       "pokemon": "Torchic",
       "region": "Hoenn",
       "location": "Route 112",
-      "secondsAgo": 2922,
+      "secondsAgo": 3226,
       "sourceId": 1790945833
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 8636,
+      "secondsAgo": 8940,
       "sourceId": 1790940119
     }
   ],
