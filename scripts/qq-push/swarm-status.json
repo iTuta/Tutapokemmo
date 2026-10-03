@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-03T17:25:45.590Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-03T17:30:54.545Z",
+  "swarms": [
     {
-      "monsterId": 127,
-      "pokemon": "Pinsir",
+      "monsterId": 357,
+      "pokemon": "Tropius",
       "region": "Kanto",
-      "location": "Route 11",
-      "secondsAgo": 7253,
-      "sourceId": 1791041092
-    },
+      "location": "Bond Bridge",
+      "sourceId": 1791050042,
+      "despawnTimestamp": 1791050042,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-03T17:54:02.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 3712,
+      "secondsAgo": 4021,
       "sourceId": 1791044633
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Vaporeon",
       "region": "Hoenn",
       "location": "Route 134",
-      "secondsAgo": 3673,
+      "secondsAgo": 3982,
       "sourceId": 1791044672
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Crawdaunt",
       "region": "Sinnoh",
       "location": "Lake Valor",
-      "secondsAgo": 8252,
+      "secondsAgo": 8561,
       "sourceId": 1791040093
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Corsola",
       "region": "Unova",
       "location": "Undella Bay",
-      "secondsAgo": 9898,
+      "secondsAgo": 10207,
       "sourceId": 1791038447
     }
   ],
