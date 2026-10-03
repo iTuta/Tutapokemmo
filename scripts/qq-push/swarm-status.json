@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-03T14:40:43.360Z",
+  "fetchedAt": "2026-10-03T14:45:55.341Z",
   "swarms": [
     {
       "monsterId": 313,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-03T14:58:10.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 222,
+      "pokemon": "Corsola",
+      "region": "Unova",
+      "location": "Undella Bay",
+      "sourceId": 1791039947,
+      "despawnTimestamp": 1791039947,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-03T15:05:47.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 11832,
+      "secondsAgo": 12144,
       "sourceId": 1791026611
     },
     {
@@ -27,7 +38,7 @@
       "pokemon": "Feebas",
       "region": "Hoenn",
       "location": "Route 130",
-      "secondsAgo": 10989,
+      "secondsAgo": 11301,
       "sourceId": 1791027454
     },
     {
@@ -35,16 +46,8 @@
       "pokemon": "Snorlax",
       "region": "Sinnoh",
       "location": "Victory Road",
-      "secondsAgo": 7039,
+      "secondsAgo": 7351,
       "sourceId": 1791031404
-    },
-    {
-      "monsterId": 457,
-      "pokemon": "Lumineon",
-      "region": "Unova",
-      "location": "Route 17",
-      "secondsAgo": 5050,
-      "sourceId": 1791033393
     }
   ],
   "alpha": {
