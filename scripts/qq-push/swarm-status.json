@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-03T03:10:55.350Z",
+  "fetchedAt": "2026-10-03T03:15:40.305Z",
   "swarms": [
     {
       "monsterId": 8,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-03T03:35:29.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 162,
-      "pokemon": "Furret",
-      "region": "Sinnoh",
-      "location": "Route 208",
-      "sourceId": 1790997079,
-      "despawnTimestamp": 1790997079,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-03T03:11:19.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,15 +30,23 @@
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 2123,
+      "secondsAgo": 2408,
       "sourceId": 1790994932
+    },
+    {
+      "monsterId": 162,
+      "pokemon": "Furret",
+      "region": "Sinnoh",
+      "location": "Route 208",
+      "secondsAgo": 1760,
+      "sourceId": 1790995580
     },
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Unova",
       "location": "Route 15",
-      "secondsAgo": 6349,
+      "secondsAgo": 6634,
       "sourceId": 1790990706
     }
   ],
