@@ -1,45 +1,49 @@
 {
-  "fetchedAt": "2026-10-03T15:55:40.668Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-03T16:01:15.945Z",
+  "swarms": [
+    {
+      "monsterId": 389,
+      "pokemon": "Torterra",
+      "region": "Sinnoh",
+      "location": "Route 212",
+      "sourceId": 1791044573,
+      "despawnTimestamp": 1791044572,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-03T16:22:53.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "secondsAgo": 1848,
-      "sourceId": 1791041092
+      "secondsAgo": 2184,
+      "sourceId": 1791041091
     },
     {
       "monsterId": 375,
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 16329,
-      "sourceId": 1791026611
+      "secondsAgo": 16665,
+      "sourceId": 1791026610
     },
     {
       "monsterId": 349,
       "pokemon": "Feebas",
       "region": "Hoenn",
       "location": "Route 130",
-      "secondsAgo": 15486,
+      "secondsAgo": 15821,
       "sourceId": 1791027454
-    },
-    {
-      "monsterId": 342,
-      "pokemon": "Crawdaunt",
-      "region": "Sinnoh",
-      "location": "Lake Valor",
-      "secondsAgo": 2847,
-      "sourceId": 1791040093
     },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
       "region": "Unova",
       "location": "Undella Bay",
-      "secondsAgo": 4493,
+      "secondsAgo": 4828,
       "sourceId": 1791038447
     }
   ],
