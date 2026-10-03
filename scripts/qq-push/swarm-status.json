@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-03T04:55:51.102Z",
+  "fetchedAt": "2026-10-03T05:01:04.721Z",
   "swarms": [
     {
       "monsterId": 352,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-03T05:09:12.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 233,
+      "pokemon": "Porygon2",
+      "region": "Unova",
+      "location": "P2 Laboratory",
+      "sourceId": 1791004898,
+      "despawnTimestamp": 1791004897,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-03T05:21:38.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,32 +30,24 @@
       "pokemon": "Wartortle",
       "region": "Kanto",
       "location": "Seafoam Islands",
-      "secondsAgo": 6466,
-      "sourceId": 1790996885
+      "secondsAgo": 6780,
+      "sourceId": 1790996884
     },
     {
       "monsterId": 320,
       "pokemon": "Wailmer",
       "region": "Johto",
       "location": "Route 40",
-      "secondsAgo": 5599,
-      "sourceId": 1790997752
+      "secondsAgo": 5913,
+      "sourceId": 1790997751
     },
     {
       "monsterId": 120,
       "pokemon": "Staryu",
       "region": "Hoenn",
       "location": "Route 106",
-      "secondsAgo": 6321,
-      "sourceId": 1790997030
-    },
-    {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Unova",
-      "location": "Route 15",
-      "secondsAgo": 12645,
-      "sourceId": 1790990706
+      "secondsAgo": 6635,
+      "sourceId": 1790997029
     }
   ],
   "alpha": {
