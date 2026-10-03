@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-03T08:25:37.534Z",
+  "fetchedAt": "2026-10-03T08:30:52.252Z",
   "swarms": [
-    {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
-      "region": "Hoenn",
-      "location": "Jagged Pass",
-      "sourceId": 1791016011,
-      "despawnTimestamp": 1791016010,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-03T08:26:51.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 204,
       "pokemon": "Pineco",
@@ -30,16 +19,24 @@
       "pokemon": "Sentret",
       "region": "Kanto",
       "location": "Route 1",
-      "secondsAgo": 2256,
-      "sourceId": 1791013681
+      "secondsAgo": 2570,
+      "sourceId": 1791013682
     },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 5139,
+      "secondsAgo": 5454,
       "sourceId": 1791010798
+    },
+    {
+      "monsterId": 198,
+      "pokemon": "Murkrow",
+      "region": "Hoenn",
+      "location": "Jagged Pass",
+      "secondsAgo": 840,
+      "sourceId": 1791015412
     }
   ],
   "alpha": {
