@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-10-03T20:25:47.093Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-03T20:30:50.274Z",
+  "swarms": [
+    {
+      "monsterId": 312,
+      "pokemon": "Minun",
+      "region": "Unova",
+      "location": "Route 6",
+      "sourceId": 1791060697,
+      "despawnTimestamp": 1791060697,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-03T20:51:37.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 103,
       "pokemon": "Exeggutor",
       "region": "Kanto",
       "location": "Route 23",
-      "secondsAgo": 4092,
-      "sourceId": 1791055055
+      "secondsAgo": 4396,
+      "sourceId": 1791055054
     },
     {
       "monsterId": 429,
       "pokemon": "Mismagius",
       "region": "Hoenn",
       "location": "Route 122",
-      "secondsAgo": 8257,
+      "secondsAgo": 8560,
       "sourceId": 1791050890
     },
     {
@@ -23,16 +35,8 @@
       "pokemon": "Prinplup",
       "region": "Sinnoh",
       "location": "Route 220",
-      "secondsAgo": 6443,
+      "secondsAgo": 6746,
       "sourceId": 1791052704
-    },
-    {
-      "monsterId": 451,
-      "pokemon": "Skorupi",
-      "region": "Unova",
-      "location": "Desert Resort",
-      "secondsAgo": 9792,
-      "sourceId": 1791049355
     }
   ],
   "alpha": {
