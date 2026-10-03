@@ -1,45 +1,49 @@
 {
-  "fetchedAt": "2026-10-03T23:15:42.732Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-03T23:20:44.265Z",
+  "swarms": [
+    {
+      "monsterId": 176,
+      "pokemon": "Togetic",
+      "region": "Johto",
+      "location": "Route 27",
+      "sourceId": 1791071098,
+      "despawnTimestamp": 1791071098,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-03T23:44:58.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Kanto",
       "location": "Pokemon Tower",
-      "secondsAgo": 3734,
-      "sourceId": 1791065608
-    },
-    {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Johto",
-      "location": "Union Cave",
-      "secondsAgo": 20028,
-      "sourceId": 1791049314
+      "secondsAgo": 4035,
+      "sourceId": 1791065609
     },
     {
       "monsterId": 252,
       "pokemon": "Treecko",
       "region": "Hoenn",
       "location": "Petalburg Woods",
-      "secondsAgo": 5173,
-      "sourceId": 1791064169
+      "secondsAgo": 5474,
+      "sourceId": 1791064170
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 4457,
-      "sourceId": 1791064885
+      "secondsAgo": 4758,
+      "sourceId": 1791064886
     },
     {
       "monsterId": 312,
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 10144,
+      "secondsAgo": 10446,
       "sourceId": 1791059198
     }
   ],
