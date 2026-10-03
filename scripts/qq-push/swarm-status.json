@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-03T05:15:44.647Z",
+  "fetchedAt": "2026-10-03T05:20:41.425Z",
   "swarms": [
+    {
+      "monsterId": 335,
+      "pokemon": "Zangoose",
+      "region": "Kanto",
+      "location": "Route 14",
+      "sourceId": 1791006193,
+      "despawnTimestamp": 1791006193,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-03T05:43:13.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 233,
       "pokemon": "Porygon2",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 8,
-      "pokemon": "Wartortle",
-      "region": "Kanto",
-      "location": "Seafoam Islands",
-      "secondsAgo": 7660,
-      "sourceId": 1790996884
-    },
-    {
       "monsterId": 320,
       "pokemon": "Wailmer",
       "region": "Johto",
       "location": "Route 40",
-      "secondsAgo": 6793,
+      "secondsAgo": 7090,
       "sourceId": 1790997751
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Staryu",
       "region": "Hoenn",
       "location": "Route 106",
-      "secondsAgo": 7515,
+      "secondsAgo": 7812,
       "sourceId": 1790997029
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Kecleon",
       "region": "Sinnoh",
       "location": "Route 229",
-      "secondsAgo": 1891,
+      "secondsAgo": 2188,
       "sourceId": 1791002653
     }
   ],
