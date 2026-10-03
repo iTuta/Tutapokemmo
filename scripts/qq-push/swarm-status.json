@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-03T01:00:57.358Z",
+  "fetchedAt": "2026-10-03T01:05:40.179Z",
   "swarms": [
+    {
+      "monsterId": 149,
+      "pokemon": "Dragonite",
+      "region": "Kanto",
+      "location": "Six Island",
+      "sourceId": 1790990835,
+      "despawnTimestamp": 1790990835,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-03T01:27:15.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 259,
       "pokemon": "Marshtomp",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 290,
-      "pokemon": "Nincada",
-      "region": "Kanto",
-      "location": "Route 25",
-      "secondsAgo": 11034,
-      "sourceId": 1790978223
-    },
-    {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Johto",
       "location": "Route 41",
-      "secondsAgo": 22610,
+      "secondsAgo": 22893,
       "sourceId": 1790966647
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Mr. Mime",
       "region": "Sinnoh",
       "location": "Route 224",
-      "secondsAgo": 7486,
+      "secondsAgo": 7769,
       "sourceId": 1790981771
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 9636,
+      "secondsAgo": 9919,
       "sourceId": 1790979621
     }
   ],
