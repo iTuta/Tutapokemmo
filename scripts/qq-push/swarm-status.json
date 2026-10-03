@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-03T14:55:51.859Z",
+  "fetchedAt": "2026-10-03T15:01:12.925Z",
   "swarms": [
-    {
-      "monsterId": 313,
-      "pokemon": "Volbeat",
-      "region": "Kanto",
-      "location": "Memorial Pillar",
-      "sourceId": 1791039490,
-      "despawnTimestamp": 1791039489,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-03T14:58:10.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 313,
+      "pokemon": "Volbeat",
+      "region": "Kanto",
+      "location": "Memorial Pillar",
+      "secondsAgo": 1682,
+      "sourceId": 1791037990
+    },
+    {
       "monsterId": 375,
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 12741,
+      "secondsAgo": 13062,
       "sourceId": 1791026610
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Feebas",
       "region": "Hoenn",
       "location": "Route 130",
-      "secondsAgo": 11897,
+      "secondsAgo": 12218,
       "sourceId": 1791027454
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Snorlax",
       "region": "Sinnoh",
       "location": "Victory Road",
-      "secondsAgo": 7947,
-      "sourceId": 1791031404
+      "secondsAgo": 8269,
+      "sourceId": 1791031403
     }
   ],
   "alpha": {
