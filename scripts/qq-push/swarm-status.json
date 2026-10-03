@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-03T11:45:45.906Z",
+  "fetchedAt": "2026-10-03T11:50:48.787Z",
   "swarms": [
     {
       "monsterId": 370,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1791028791,
       "hasValuable": false,
       "timestampUtc": "2026-10-03T11:59:52.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 375,
-      "pokemon": "Metang",
-      "region": "Johto",
-      "location": "Ice Path",
-      "sourceId": 1791028110,
-      "despawnTimestamp": 1791028109,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-03T11:48:30.000Z",
       "publishedBy": ""
     },
     {
@@ -48,11 +37,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 375,
+      "pokemon": "Metang",
+      "region": "Johto",
+      "location": "Ice Path",
+      "secondsAgo": 1638,
+      "sourceId": 1791026610
+    },
+    {
       "monsterId": 204,
       "pokemon": "Pineco",
       "region": "Sinnoh",
       "location": "Route 207",
-      "secondsAgo": 12800,
+      "secondsAgo": 13103,
       "sourceId": 1791015145
     }
   ],
