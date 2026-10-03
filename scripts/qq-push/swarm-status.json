@@ -1,37 +1,44 @@
 {
-  "fetchedAt": "2026-10-03T16:20:56.783Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-03T16:25:40.805Z",
+  "swarms": [
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Johto",
+      "location": "Dark Cave",
+      "sourceId": 1791046132,
+      "despawnTimestamp": 1791046132,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-03T16:48:52.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 134,
+      "pokemon": "Vaporeon",
+      "region": "Hoenn",
+      "location": "Route 134",
+      "sourceId": 1791046172,
+      "despawnTimestamp": 1791046171,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-03T16:49:32.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "secondsAgo": 3364,
-      "sourceId": 1791041092
-    },
-    {
-      "monsterId": 375,
-      "pokemon": "Metang",
-      "region": "Johto",
-      "location": "Ice Path",
-      "secondsAgo": 17846,
-      "sourceId": 1791026610
-    },
-    {
-      "monsterId": 349,
-      "pokemon": "Feebas",
-      "region": "Hoenn",
-      "location": "Route 130",
-      "secondsAgo": 17002,
-      "sourceId": 1791027454
+      "secondsAgo": 3649,
+      "sourceId": 1791041091
     },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
       "region": "Unova",
       "location": "Undella Bay",
-      "secondsAgo": 6009,
+      "secondsAgo": 6293,
       "sourceId": 1791038447
     }
   ],
