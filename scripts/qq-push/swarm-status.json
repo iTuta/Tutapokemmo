@@ -1,33 +1,29 @@
 {
-  "fetchedAt": "2026-10-03T03:45:46.483Z",
-  "swarms": [
-    {
-      "monsterId": 320,
-      "pokemon": "Wailmer",
-      "region": "Johto",
-      "location": "Route 40",
-      "sourceId": 1790999251,
-      "despawnTimestamp": 1790999250,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-03T03:47:31.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-03T03:50:48.506Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 8,
       "pokemon": "Wartortle",
       "region": "Kanto",
       "location": "Seafoam Islands",
-      "secondsAgo": 2262,
+      "secondsAgo": 2564,
       "sourceId": 1790996884
+    },
+    {
+      "monsterId": 320,
+      "pokemon": "Wailmer",
+      "region": "Johto",
+      "location": "Route 40",
+      "secondsAgo": 1697,
+      "sourceId": 1790997751
     },
     {
       "monsterId": 120,
       "pokemon": "Staryu",
       "region": "Hoenn",
       "location": "Route 106",
-      "secondsAgo": 2117,
+      "secondsAgo": 2419,
       "sourceId": 1790997029
     },
     {
@@ -35,7 +31,7 @@
       "pokemon": "Furret",
       "region": "Sinnoh",
       "location": "Route 208",
-      "secondsAgo": 3566,
+      "secondsAgo": 3868,
       "sourceId": 1790995580
     },
     {
@@ -43,7 +39,7 @@
       "pokemon": "Houndoom",
       "region": "Unova",
       "location": "Route 15",
-      "secondsAgo": 8440,
+      "secondsAgo": 8742,
       "sourceId": 1790990706
     }
   ],
