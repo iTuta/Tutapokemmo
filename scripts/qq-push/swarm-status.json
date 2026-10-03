@@ -1,25 +1,33 @@
 {
-  "fetchedAt": "2026-10-03T08:10:47.814Z",
+  "fetchedAt": "2026-10-03T08:15:48.127Z",
   "swarms": [
     {
-      "monsterId": 161,
-      "pokemon": "Sentret",
-      "region": "Kanto",
-      "location": "Route 1",
-      "sourceId": 1791015181,
-      "despawnTimestamp": 1791015180,
+      "monsterId": 204,
+      "pokemon": "Pineco",
+      "region": "Sinnoh",
+      "location": "Route 207",
+      "sourceId": 1791016644,
+      "despawnTimestamp": 1791016644,
       "hasValuable": false,
-      "timestampUtc": "2026-10-03T08:13:01.000Z",
+      "timestampUtc": "2026-10-03T08:37:24.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
+      "monsterId": 161,
+      "pokemon": "Sentret",
+      "region": "Kanto",
+      "location": "Route 1",
+      "secondsAgo": 1666,
+      "sourceId": 1791013682
+    },
+    {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 4249,
+      "secondsAgo": 4550,
       "sourceId": 1791010798
     },
     {
@@ -27,16 +35,8 @@
       "pokemon": "Staryu",
       "region": "Hoenn",
       "location": "Route 106",
-      "secondsAgo": 18018,
-      "sourceId": 1790997029
-    },
-    {
-      "monsterId": 352,
-      "pokemon": "Kecleon",
-      "region": "Sinnoh",
-      "location": "Route 229",
-      "secondsAgo": 12395,
-      "sourceId": 1791002652
+      "secondsAgo": 18318,
+      "sourceId": 1790997030
     }
   ],
   "alpha": {
