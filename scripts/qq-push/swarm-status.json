@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-03T17:40:42.507Z",
+  "fetchedAt": "2026-10-03T17:45:44.026Z",
   "swarms": [
     {
       "monsterId": 357,
@@ -11,40 +11,46 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-03T17:54:02.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Johto",
+      "location": "Union Cave",
+      "sourceId": 1791050814,
+      "despawnTimestamp": 1791050814,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-03T18:06:54.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 451,
+      "pokemon": "Skorupi",
+      "region": "Unova",
+      "location": "Desert Resort",
+      "sourceId": 1791050854,
+      "despawnTimestamp": 1791050854,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-03T18:07:34.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Johto",
-      "location": "Dark Cave",
-      "secondsAgo": 4609,
-      "sourceId": 1791044633
-    },
     {
       "monsterId": 134,
       "pokemon": "Vaporeon",
       "region": "Hoenn",
       "location": "Route 134",
-      "secondsAgo": 4570,
-      "sourceId": 1791044672
+      "secondsAgo": 4871,
+      "sourceId": 1791044673
     },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
       "region": "Sinnoh",
       "location": "Lake Valor",
-      "secondsAgo": 9149,
-      "sourceId": 1791040093
-    },
-    {
-      "monsterId": 222,
-      "pokemon": "Corsola",
-      "region": "Unova",
-      "location": "Undella Bay",
-      "secondsAgo": 10795,
-      "sourceId": 1791038447
+      "secondsAgo": 9450,
+      "sourceId": 1791040094
     }
   ],
   "alpha": {
