@@ -1,33 +1,21 @@
 {
-  "fetchedAt": "2026-10-03T20:50:41.087Z",
-  "swarms": [
-    {
-      "monsterId": 312,
-      "pokemon": "Minun",
-      "region": "Unova",
-      "location": "Route 6",
-      "sourceId": 1791060697,
-      "despawnTimestamp": 1791060697,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-03T20:51:37.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-03T20:55:54.370Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 103,
       "pokemon": "Exeggutor",
       "region": "Kanto",
       "location": "Route 23",
-      "secondsAgo": 5586,
-      "sourceId": 1791055055
+      "secondsAgo": 5900,
+      "sourceId": 1791055054
     },
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Johto",
       "location": "Union Cave",
-      "secondsAgo": 11326,
+      "secondsAgo": 11639,
       "sourceId": 1791049315
     },
     {
@@ -35,7 +23,7 @@
       "pokemon": "Mismagius",
       "region": "Hoenn",
       "location": "Route 122",
-      "secondsAgo": 9751,
+      "secondsAgo": 10064,
       "sourceId": 1791050890
     },
     {
@@ -43,8 +31,16 @@
       "pokemon": "Prinplup",
       "region": "Sinnoh",
       "location": "Route 220",
-      "secondsAgo": 7937,
+      "secondsAgo": 8250,
       "sourceId": 1791052704
+    },
+    {
+      "monsterId": 312,
+      "pokemon": "Minun",
+      "region": "Unova",
+      "location": "Route 6",
+      "secondsAgo": 1756,
+      "sourceId": 1791059198
     }
   ],
   "alpha": {
