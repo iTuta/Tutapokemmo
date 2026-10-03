@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-03T19:16:02.593Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-03T19:20:43.582Z",
+  "swarms": [
     {
-      "monsterId": 281,
-      "pokemon": "Kirlia",
+      "monsterId": 103,
+      "pokemon": "Exeggutor",
       "region": "Kanto",
-      "location": "Route 8",
-      "secondsAgo": 2353,
-      "sourceId": 1791052609
-    },
+      "location": "Route 23",
+      "sourceId": 1791056553,
+      "despawnTimestamp": 1791056553,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-03T19:42:33.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Johto",
       "location": "Union Cave",
-      "secondsAgo": 5648,
+      "secondsAgo": 5929,
       "sourceId": 1791049314
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Mismagius",
       "region": "Hoenn",
       "location": "Route 122",
-      "secondsAgo": 4073,
+      "secondsAgo": 4354,
       "sourceId": 1791050889
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Prinplup",
       "region": "Sinnoh",
       "location": "Route 220",
-      "secondsAgo": 2259,
+      "secondsAgo": 2540,
       "sourceId": 1791052703
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 5608,
+      "secondsAgo": 5889,
       "sourceId": 1791049354
     }
   ],
