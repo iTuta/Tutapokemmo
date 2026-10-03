@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-03T14:30:51.379Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-03T14:35:43.505Z",
+  "swarms": [
     {
-      "monsterId": 370,
-      "pokemon": "Luvdisc",
+      "monsterId": 313,
+      "pokemon": "Volbeat",
       "region": "Kanto",
-      "location": "Route 19",
-      "secondsAgo": 10558,
-      "sourceId": 1791027293
-    },
+      "location": "Memorial Pillar",
+      "sourceId": 1791039490,
+      "despawnTimestamp": 1791039489,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-03T14:58:10.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 375,
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 11240,
+      "secondsAgo": 11532,
       "sourceId": 1791026611
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Feebas",
       "region": "Hoenn",
       "location": "Route 130",
-      "secondsAgo": 10397,
+      "secondsAgo": 10689,
       "sourceId": 1791027454
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Snorlax",
       "region": "Sinnoh",
       "location": "Victory Road",
-      "secondsAgo": 6447,
+      "secondsAgo": 6739,
       "sourceId": 1791031404
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Lumineon",
       "region": "Unova",
       "location": "Route 17",
-      "secondsAgo": 4458,
+      "secondsAgo": 4750,
       "sourceId": 1791033393
     }
   ],
