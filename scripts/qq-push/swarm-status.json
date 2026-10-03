@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-03T11:30:51.399Z",
+  "fetchedAt": "2026-10-03T11:35:43.147Z",
   "swarms": [
+    {
+      "monsterId": 370,
+      "pokemon": "Luvdisc",
+      "region": "Kanto",
+      "location": "Route 19",
+      "sourceId": 1791028792,
+      "despawnTimestamp": 1791028792,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-03T11:59:52.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 375,
       "pokemon": "Metang",
@@ -11,40 +22,35 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-03T11:48:30.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 291,
+      "pokemon": "Ninjask",
+      "region": "Unova",
+      "location": "Route 11",
+      "sourceId": 1791028809,
+      "despawnTimestamp": 1791028809,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-03T12:00:09.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 161,
-      "pokemon": "Sentret",
-      "region": "Kanto",
-      "location": "Route 1",
-      "secondsAgo": 13369,
-      "sourceId": 1791013682
-    },
     {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Hoenn",
       "location": "Route 105",
-      "secondsAgo": 2814,
-      "sourceId": 1791024237
+      "secondsAgo": 3105,
+      "sourceId": 1791024238
     },
     {
       "monsterId": 204,
       "pokemon": "Pineco",
       "region": "Sinnoh",
       "location": "Route 207",
-      "secondsAgo": 11906,
+      "secondsAgo": 12198,
       "sourceId": 1791015145
-    },
-    {
-      "monsterId": 241,
-      "pokemon": "Miltank",
-      "region": "Unova",
-      "location": "Village Bridge",
-      "secondsAgo": 4414,
-      "sourceId": 1791022637
     }
   ],
   "alpha": {
