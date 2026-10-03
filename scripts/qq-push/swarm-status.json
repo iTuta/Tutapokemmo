@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-03T03:20:49.621Z",
+  "fetchedAt": "2026-10-03T03:25:39.525Z",
   "swarms": [
     {
       "monsterId": 8,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1790998383,
       "hasValuable": false,
       "timestampUtc": "2026-10-03T03:33:04.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 320,
+      "pokemon": "Wailmer",
+      "region": "Johto",
+      "location": "Route 40",
+      "sourceId": 1790999251,
+      "despawnTimestamp": 1790999250,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-03T03:47:31.000Z",
       "publishedBy": ""
     },
     {
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 290,
-      "pokemon": "Nincada",
-      "region": "Johto",
-      "location": "Route 46",
-      "secondsAgo": 2717,
-      "sourceId": 1790994932
-    },
-    {
       "monsterId": 162,
       "pokemon": "Furret",
       "region": "Sinnoh",
       "location": "Route 208",
-      "secondsAgo": 2069,
+      "secondsAgo": 2359,
       "sourceId": 1790995580
     },
     {
@@ -46,7 +49,7 @@
       "pokemon": "Houndoom",
       "region": "Unova",
       "location": "Route 15",
-      "secondsAgo": 6943,
+      "secondsAgo": 7233,
       "sourceId": 1790990706
     }
   ],
