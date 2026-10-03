@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-03T01:05:40.179Z",
+  "fetchedAt": "2026-10-03T01:10:42.558Z",
   "swarms": [
     {
       "monsterId": 149,
@@ -7,20 +7,9 @@
       "region": "Kanto",
       "location": "Six Island",
       "sourceId": 1790990835,
-      "despawnTimestamp": 1790990835,
+      "despawnTimestamp": 1790990834,
       "hasValuable": false,
       "timestampUtc": "2026-10-03T01:27:15.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 259,
-      "pokemon": "Marshtomp",
-      "region": "Hoenn",
-      "location": "Route 124",
-      "sourceId": 1790989779,
-      "despawnTimestamp": 1790989779,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-03T01:09:39.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,23 +19,31 @@
       "pokemon": "Sharpedo",
       "region": "Johto",
       "location": "Route 41",
-      "secondsAgo": 22893,
+      "secondsAgo": 23195,
       "sourceId": 1790966647
+    },
+    {
+      "monsterId": 259,
+      "pokemon": "Marshtomp",
+      "region": "Hoenn",
+      "location": "Route 124",
+      "secondsAgo": 1563,
+      "sourceId": 1790988279
     },
     {
       "monsterId": 122,
       "pokemon": "Mr. Mime",
       "region": "Sinnoh",
       "location": "Route 224",
-      "secondsAgo": 7769,
-      "sourceId": 1790981771
+      "secondsAgo": 8072,
+      "sourceId": 1790981770
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 9919,
+      "secondsAgo": 10221,
       "sourceId": 1790979621
     }
   ],
