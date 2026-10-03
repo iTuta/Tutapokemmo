@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-03T17:50:50.724Z",
+  "fetchedAt": "2026-10-03T17:55:38.222Z",
   "swarms": [
-    {
-      "monsterId": 357,
-      "pokemon": "Tropius",
-      "region": "Kanto",
-      "location": "Bond Bridge",
-      "sourceId": 1791050042,
-      "despawnTimestamp": 1791050041,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-03T17:54:02.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Johto",
       "location": "Union Cave",
       "sourceId": 1791050814,
-      "despawnTimestamp": 1791050813,
+      "despawnTimestamp": 1791050814,
       "hasValuable": false,
       "timestampUtc": "2026-10-03T18:06:54.000Z",
       "publishedBy": ""
@@ -29,7 +18,7 @@
       "region": "Unova",
       "location": "Desert Resort",
       "sourceId": 1791050854,
-      "despawnTimestamp": 1791050853,
+      "despawnTimestamp": 1791050854,
       "hasValuable": false,
       "timestampUtc": "2026-10-03T18:07:34.000Z",
       "publishedBy": ""
@@ -37,19 +26,27 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 357,
+      "pokemon": "Tropius",
+      "region": "Kanto",
+      "location": "Bond Bridge",
+      "secondsAgo": 1595,
+      "sourceId": 1791048543
+    },
+    {
       "monsterId": 134,
       "pokemon": "Vaporeon",
       "region": "Hoenn",
       "location": "Route 134",
-      "secondsAgo": 5178,
-      "sourceId": 1791044672
+      "secondsAgo": 5465,
+      "sourceId": 1791044673
     },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
       "region": "Sinnoh",
       "location": "Lake Valor",
-      "secondsAgo": 9757,
+      "secondsAgo": 10045,
       "sourceId": 1791040093
     }
   ],
