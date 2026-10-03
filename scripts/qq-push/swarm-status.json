@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-03T01:25:46.412Z",
+  "fetchedAt": "2026-10-03T01:30:48.608Z",
   "swarms": [
-    {
-      "monsterId": 149,
-      "pokemon": "Dragonite",
-      "region": "Kanto",
-      "location": "Six Island",
-      "sourceId": 1790990835,
-      "despawnTimestamp": 1790990835,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-03T01:27:15.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 149,
+      "pokemon": "Dragonite",
+      "region": "Kanto",
+      "location": "Six Island",
+      "secondsAgo": 1713,
+      "sourceId": 1790989335
+    },
+    {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Johto",
       "location": "Route 41",
-      "secondsAgo": 24099,
+      "secondsAgo": 24401,
       "sourceId": 1790966647
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Marshtomp",
       "region": "Hoenn",
       "location": "Route 124",
-      "secondsAgo": 2467,
+      "secondsAgo": 2769,
       "sourceId": 1790988279
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Mr. Mime",
       "region": "Sinnoh",
       "location": "Route 224",
-      "secondsAgo": 8976,
+      "secondsAgo": 9278,
       "sourceId": 1790981770
     }
   ],
