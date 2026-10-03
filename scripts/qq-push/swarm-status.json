@@ -1,6 +1,28 @@
 {
-  "fetchedAt": "2026-10-03T03:05:40.761Z",
+  "fetchedAt": "2026-10-03T03:10:55.350Z",
   "swarms": [
+    {
+      "monsterId": 8,
+      "pokemon": "Wartortle",
+      "region": "Kanto",
+      "location": "Seafoam Islands",
+      "sourceId": 1790998384,
+      "despawnTimestamp": 1790998384,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-03T03:33:04.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 120,
+      "pokemon": "Staryu",
+      "region": "Hoenn",
+      "location": "Route 106",
+      "sourceId": 1790998529,
+      "despawnTimestamp": 1790998529,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-03T03:35:29.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 162,
       "pokemon": "Furret",
@@ -15,28 +37,20 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 149,
-      "pokemon": "Dragonite",
-      "region": "Kanto",
-      "location": "Six Island",
-      "secondsAgo": 7405,
-      "sourceId": 1790989335
-    },
-    {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 1809,
-      "sourceId": 1790994931
+      "secondsAgo": 2123,
+      "sourceId": 1790994932
     },
     {
-      "monsterId": 259,
-      "pokemon": "Marshtomp",
-      "region": "Hoenn",
-      "location": "Route 124",
-      "secondsAgo": 8461,
-      "sourceId": 1790988279
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Unova",
+      "location": "Route 15",
+      "secondsAgo": 6349,
+      "sourceId": 1790990706
     }
   ],
   "alpha": {
