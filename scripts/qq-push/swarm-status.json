@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-03T02:45:45.228Z",
+  "fetchedAt": "2026-10-03T02:50:40.180Z",
   "swarms": [
     {
       "monsterId": 290,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-03T03:00:31.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 162,
+      "pokemon": "Furret",
+      "region": "Sinnoh",
+      "location": "Route 208",
+      "sourceId": 1790997079,
+      "despawnTimestamp": 1790997079,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-03T03:11:19.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Dragonite",
       "region": "Kanto",
       "location": "Six Island",
-      "secondsAgo": 6209,
+      "secondsAgo": 6504,
       "sourceId": 1790989336
     },
     {
@@ -27,16 +38,8 @@
       "pokemon": "Marshtomp",
       "region": "Hoenn",
       "location": "Route 124",
-      "secondsAgo": 7265,
+      "secondsAgo": 7560,
       "sourceId": 1790988280
-    },
-    {
-      "monsterId": 122,
-      "pokemon": "Mr. Mime",
-      "region": "Sinnoh",
-      "location": "Route 224",
-      "secondsAgo": 13774,
-      "sourceId": 1790981771
     }
   ],
   "alpha": {
