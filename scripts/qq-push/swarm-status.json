@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-03T02:55:49.685Z",
+  "fetchedAt": "2026-10-03T03:00:59.208Z",
   "swarms": [
-    {
-      "monsterId": 290,
-      "pokemon": "Nincada",
-      "region": "Johto",
-      "location": "Route 46",
-      "sourceId": 1790996431,
-      "despawnTimestamp": 1790996431,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-03T03:00:31.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 162,
       "pokemon": "Furret",
@@ -30,16 +19,24 @@
       "pokemon": "Dragonite",
       "region": "Kanto",
       "location": "Six Island",
-      "secondsAgo": 6814,
-      "sourceId": 1790989335
+      "secondsAgo": 7123,
+      "sourceId": 1790989336
+    },
+    {
+      "monsterId": 290,
+      "pokemon": "Nincada",
+      "region": "Johto",
+      "location": "Route 46",
+      "secondsAgo": 1527,
+      "sourceId": 1790994932
     },
     {
       "monsterId": 259,
       "pokemon": "Marshtomp",
       "region": "Hoenn",
       "location": "Route 124",
-      "secondsAgo": 7870,
-      "sourceId": 1790988279
+      "secondsAgo": 8179,
+      "sourceId": 1790988280
     }
   ],
   "alpha": {
