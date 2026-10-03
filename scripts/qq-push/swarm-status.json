@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-03T05:05:45.224Z",
+  "fetchedAt": "2026-10-03T05:10:45.945Z",
   "swarms": [
-    {
-      "monsterId": 352,
-      "pokemon": "Kecleon",
-      "region": "Sinnoh",
-      "location": "Route 229",
-      "sourceId": 1791004152,
-      "despawnTimestamp": 1791004152,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-03T05:09:12.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 233,
       "pokemon": "Porygon2",
       "region": "Unova",
       "location": "P2 Laboratory",
       "sourceId": 1791004898,
-      "despawnTimestamp": 1791004898,
+      "despawnTimestamp": 1791004897,
       "hasValuable": false,
       "timestampUtc": "2026-10-03T05:21:38.000Z",
       "publishedBy": ""
@@ -30,15 +19,15 @@
       "pokemon": "Wartortle",
       "region": "Kanto",
       "location": "Seafoam Islands",
-      "secondsAgo": 7060,
-      "sourceId": 1790996885
+      "secondsAgo": 7361,
+      "sourceId": 1790996884
     },
     {
       "monsterId": 320,
       "pokemon": "Wailmer",
       "region": "Johto",
       "location": "Route 40",
-      "secondsAgo": 6194,
+      "secondsAgo": 6494,
       "sourceId": 1790997751
     },
     {
@@ -46,8 +35,16 @@
       "pokemon": "Staryu",
       "region": "Hoenn",
       "location": "Route 106",
-      "secondsAgo": 6915,
-      "sourceId": 1790997030
+      "secondsAgo": 7216,
+      "sourceId": 1790997029
+    },
+    {
+      "monsterId": 352,
+      "pokemon": "Kecleon",
+      "region": "Sinnoh",
+      "location": "Route 229",
+      "secondsAgo": 1593,
+      "sourceId": 1791002652
     }
   ],
   "alpha": {
