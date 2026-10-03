@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-03T07:45:47.670Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-03T07:50:54.398Z",
+  "swarms": [
     {
-      "monsterId": 335,
-      "pokemon": "Zangoose",
+      "monsterId": 161,
+      "pokemon": "Sentret",
       "region": "Kanto",
-      "location": "Route 14",
-      "secondsAgo": 8854,
-      "sourceId": 1791004693
-    },
+      "location": "Route 1",
+      "sourceId": 1791015181,
+      "despawnTimestamp": 1791015181,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-03T08:13:01.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 2749,
+      "secondsAgo": 3056,
       "sourceId": 1791010798
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Staryu",
       "region": "Hoenn",
       "location": "Route 106",
-      "secondsAgo": 16518,
+      "secondsAgo": 16825,
       "sourceId": 1790997029
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Kecleon",
       "region": "Sinnoh",
       "location": "Route 229",
-      "secondsAgo": 10894,
+      "secondsAgo": 11201,
       "sourceId": 1791002653
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Porygon2",
       "region": "Unova",
       "location": "P2 Laboratory",
-      "secondsAgo": 10149,
+      "secondsAgo": 10456,
       "sourceId": 1791003398
     }
   ],
