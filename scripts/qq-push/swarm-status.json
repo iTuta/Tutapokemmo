@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-10-03T04:40:41.229Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-03T04:45:46.884Z",
+  "swarms": [
+    {
+      "monsterId": 352,
+      "pokemon": "Kecleon",
+      "region": "Sinnoh",
+      "location": "Route 229",
+      "sourceId": 1791004152,
+      "despawnTimestamp": 1791004151,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-03T05:09:12.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 8,
       "pokemon": "Wartortle",
       "region": "Kanto",
       "location": "Seafoam Islands",
-      "secondsAgo": 5556,
-      "sourceId": 1790996885
+      "secondsAgo": 5862,
+      "sourceId": 1790996884
     },
     {
       "monsterId": 320,
       "pokemon": "Wailmer",
       "region": "Johto",
       "location": "Route 40",
-      "secondsAgo": 4690,
+      "secondsAgo": 4995,
       "sourceId": 1790997751
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Staryu",
       "region": "Hoenn",
       "location": "Route 106",
-      "secondsAgo": 5411,
-      "sourceId": 1790997030
-    },
-    {
-      "monsterId": 162,
-      "pokemon": "Furret",
-      "region": "Sinnoh",
-      "location": "Route 208",
-      "secondsAgo": 6861,
-      "sourceId": 1790995580
+      "secondsAgo": 5717,
+      "sourceId": 1790997029
     },
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Unova",
       "location": "Route 15",
-      "secondsAgo": 11735,
-      "sourceId": 1790990706
+      "secondsAgo": 12041,
+      "sourceId": 1790990705
     }
   ],
   "alpha": {
