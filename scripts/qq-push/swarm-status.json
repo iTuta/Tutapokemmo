@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-03T15:20:49.135Z",
+  "fetchedAt": "2026-10-03T15:25:47.374Z",
   "swarms": [
+    {
+      "monsterId": 127,
+      "pokemon": "Pinsir",
+      "region": "Kanto",
+      "location": "Route 11",
+      "sourceId": 1791042591,
+      "despawnTimestamp": 1791042591,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-03T15:49:51.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 313,
-      "pokemon": "Volbeat",
-      "region": "Kanto",
-      "location": "Memorial Pillar",
-      "secondsAgo": 2858,
-      "sourceId": 1791037991
-    },
-    {
       "monsterId": 375,
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 14238,
+      "secondsAgo": 14536,
       "sourceId": 1791026611
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Feebas",
       "region": "Hoenn",
       "location": "Route 130",
-      "secondsAgo": 13395,
+      "secondsAgo": 13693,
       "sourceId": 1791027454
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Corsola",
       "region": "Unova",
       "location": "Undella Bay",
-      "secondsAgo": 2401,
+      "secondsAgo": 2699,
       "sourceId": 1791038448
     }
   ],
