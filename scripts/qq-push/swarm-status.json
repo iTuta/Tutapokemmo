@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-03T11:35:43.147Z",
+  "fetchedAt": "2026-10-03T11:40:44.606Z",
   "swarms": [
     {
       "monsterId": 370,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Route 19",
       "sourceId": 1791028792,
-      "despawnTimestamp": 1791028792,
+      "despawnTimestamp": 1791028791,
       "hasValuable": false,
       "timestampUtc": "2026-10-03T11:59:52.000Z",
       "publishedBy": ""
@@ -24,12 +24,23 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 349,
+      "pokemon": "Feebas",
+      "region": "Hoenn",
+      "location": "Route 130",
+      "sourceId": 1791028953,
+      "despawnTimestamp": 1791028953,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-03T12:02:33.000Z",
+      "publishedBy": ""
+    },
+    {
       "monsterId": 291,
       "pokemon": "Ninjask",
       "region": "Unova",
       "location": "Route 11",
       "sourceId": 1791028809,
-      "despawnTimestamp": 1791028809,
+      "despawnTimestamp": 1791028808,
       "hasValuable": false,
       "timestampUtc": "2026-10-03T12:00:09.000Z",
       "publishedBy": ""
@@ -37,19 +48,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 425,
-      "pokemon": "Drifloon",
-      "region": "Hoenn",
-      "location": "Route 105",
-      "secondsAgo": 3105,
-      "sourceId": 1791024238
-    },
-    {
       "monsterId": 204,
       "pokemon": "Pineco",
       "region": "Sinnoh",
       "location": "Route 207",
-      "secondsAgo": 12198,
+      "secondsAgo": 12499,
       "sourceId": 1791015145
     }
   ],
