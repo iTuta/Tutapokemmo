@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-03T11:21:10.397Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-03T11:25:37.470Z",
+  "swarms": [
+    {
+      "monsterId": 375,
+      "pokemon": "Metang",
+      "region": "Johto",
+      "location": "Ice Path",
+      "sourceId": 1791028110,
+      "despawnTimestamp": 1791028110,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-03T11:48:30.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 161,
       "pokemon": "Sentret",
       "region": "Kanto",
       "location": "Route 1",
-      "secondsAgo": 12788,
+      "secondsAgo": 13055,
       "sourceId": 1791013682
-    },
-    {
-      "monsterId": 227,
-      "pokemon": "Skarmory",
-      "region": "Johto",
-      "location": "Route 26",
-      "secondsAgo": 5392,
-      "sourceId": 1791021078
     },
     {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Hoenn",
       "location": "Route 105",
-      "secondsAgo": 2233,
+      "secondsAgo": 2500,
       "sourceId": 1791024237
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Pineco",
       "region": "Sinnoh",
       "location": "Route 207",
-      "secondsAgo": 11325,
+      "secondsAgo": 11592,
       "sourceId": 1791015145
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Miltank",
       "region": "Unova",
       "location": "Village Bridge",
-      "secondsAgo": 3833,
+      "secondsAgo": 4100,
       "sourceId": 1791022637
     }
   ],
