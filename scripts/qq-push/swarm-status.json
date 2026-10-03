@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-03T22:01:01.131Z",
+  "fetchedAt": "2026-10-03T22:05:39.258Z",
   "swarms": [
     {
       "monsterId": 252,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-03T22:14:29.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 193,
+      "pokemon": "Yanma",
+      "region": "Sinnoh",
+      "location": "Route 205",
+      "sourceId": 1791066385,
+      "despawnTimestamp": 1791066385,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-03T22:26:25.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,31 +30,23 @@
       "pokemon": "Exeggutor",
       "region": "Kanto",
       "location": "Route 23",
-      "secondsAgo": 9806,
-      "sourceId": 1791055055
+      "secondsAgo": 10085,
+      "sourceId": 1791055054
     },
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Johto",
       "location": "Union Cave",
-      "secondsAgo": 15546,
+      "secondsAgo": 15824,
       "sourceId": 1791049315
-    },
-    {
-      "monsterId": 394,
-      "pokemon": "Prinplup",
-      "region": "Sinnoh",
-      "location": "Route 220",
-      "secondsAgo": 12157,
-      "sourceId": 1791052704
     },
     {
       "monsterId": 312,
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 5663,
+      "secondsAgo": 5941,
       "sourceId": 1791059198
     }
   ],
