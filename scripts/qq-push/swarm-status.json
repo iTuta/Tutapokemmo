@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-04T20:15:49.351Z",
+  "fetchedAt": "2026-10-04T20:20:46.509Z",
   "swarms": [
     {
       "monsterId": 369,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-04T20:25:34.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 330,
+      "pokemon": "Flygon",
+      "region": "Hoenn",
+      "location": "Desert Underpass",
+      "sourceId": 1791146716,
+      "despawnTimestamp": 1791146715,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-04T20:45:16.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,23 +30,15 @@
       "pokemon": "Bayleef",
       "region": "Johto",
       "location": "National Park",
-      "secondsAgo": 1828,
+      "secondsAgo": 2125,
       "sourceId": 1791143121
-    },
-    {
-      "monsterId": 242,
-      "pokemon": "Blissey",
-      "region": "Hoenn",
-      "location": "Artisan Cave",
-      "secondsAgo": 5248,
-      "sourceId": 1791139701
     },
     {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Sinnoh",
       "location": "Snowpoint Temple",
-      "secondsAgo": 2043,
+      "secondsAgo": 2340,
       "sourceId": 1791142906
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 8403,
+      "secondsAgo": 8700,
       "sourceId": 1791136546
     }
   ],
