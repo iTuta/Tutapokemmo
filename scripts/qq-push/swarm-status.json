@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-10-04T10:31:01.611Z",
-  "swarms": [
-    {
-      "monsterId": 193,
-      "pokemon": "Yanma",
-      "region": "Sinnoh",
-      "location": "Route 205",
-      "sourceId": 1791109929,
-      "despawnTimestamp": 1791109928,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-04T10:32:09.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-04T10:35:41.871Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 313,
       "pokemon": "Volbeat",
       "region": "Kanto",
       "location": "Memorial Pillar",
-      "secondsAgo": 1647,
+      "secondsAgo": 1927,
       "sourceId": 1791108214
     },
     {
@@ -27,15 +15,23 @@
       "pokemon": "Murkrow",
       "region": "Hoenn",
       "location": "Jagged Pass",
-      "secondsAgo": 12632,
+      "secondsAgo": 12912,
       "sourceId": 1791097229
+    },
+    {
+      "monsterId": 193,
+      "pokemon": "Yanma",
+      "region": "Sinnoh",
+      "location": "Route 205",
+      "secondsAgo": 1712,
+      "sourceId": 1791108429
     },
     {
       "monsterId": 233,
       "pokemon": "Porygon2",
       "region": "Unova",
       "location": "P2 Laboratory",
-      "secondsAgo": 7892,
+      "secondsAgo": 8172,
       "sourceId": 1791101969
     }
   ],
