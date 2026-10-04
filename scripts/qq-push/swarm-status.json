@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-04T10:01:39.356Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-04T10:05:47.499Z",
+  "swarms": [
     {
-      "monsterId": 369,
-      "pokemon": "Relicanth",
+      "monsterId": 313,
+      "pokemon": "Volbeat",
       "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 9856,
-      "sourceId": 1791098243
-    },
+      "location": "Memorial Pillar",
+      "sourceId": 1791109713,
+      "despawnTimestamp": 1791109713,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-04T10:28:33.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Hoenn",
       "location": "Jagged Pass",
-      "secondsAgo": 10870,
+      "secondsAgo": 11118,
       "sourceId": 1791097229
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 11792,
+      "secondsAgo": 12040,
       "sourceId": 1791096307
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Porygon2",
       "region": "Unova",
       "location": "P2 Laboratory",
-      "secondsAgo": 6130,
+      "secondsAgo": 6378,
       "sourceId": 1791101969
     }
   ],
