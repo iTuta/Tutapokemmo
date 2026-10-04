@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-04T00:45:57.165Z",
+  "fetchedAt": "2026-10-04T00:50:53.507Z",
   "swarms": [
     {
       "monsterId": 256,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-04T01:00:15.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 455,
-      "pokemon": "Carnivine",
-      "region": "Unova",
-      "location": "Route 18",
-      "sourceId": 1791074819,
-      "despawnTimestamp": 1791074819,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-04T00:46:59.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,24 +19,32 @@
       "pokemon": "Nosepass",
       "region": "Kanto",
       "location": "Mt. Moon",
-      "secondsAgo": 1909,
-      "sourceId": 1791072848
+      "secondsAgo": 2206,
+      "sourceId": 1791072847
     },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 5158,
-      "sourceId": 1791069599
+      "secondsAgo": 5455,
+      "sourceId": 1791069598
     },
     {
       "monsterId": 113,
       "pokemon": "Chansey",
       "region": "Sinnoh",
       "location": "Trophy Garden",
-      "secondsAgo": 2205,
+      "secondsAgo": 2501,
       "sourceId": 1791072552
+    },
+    {
+      "monsterId": 455,
+      "pokemon": "Carnivine",
+      "region": "Unova",
+      "location": "Route 18",
+      "secondsAgo": 1734,
+      "sourceId": 1791073319
     }
   ],
   "alpha": {
