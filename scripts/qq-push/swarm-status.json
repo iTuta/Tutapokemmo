@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-04T20:05:43.076Z",
+  "fetchedAt": "2026-10-04T20:10:42.460Z",
   "swarms": [
     {
       "monsterId": 369,
@@ -11,45 +11,39 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-04T20:25:34.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 153,
       "pokemon": "Bayleef",
       "region": "Johto",
       "location": "National Park",
-      "sourceId": 1791144620,
-      "despawnTimestamp": 1791144620,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-04T20:10:20.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1521,
+      "sourceId": 1791143121
+    },
+    {
+      "monsterId": 242,
+      "pokemon": "Blissey",
+      "region": "Hoenn",
+      "location": "Artisan Cave",
+      "secondsAgo": 4941,
+      "sourceId": 1791139701
     },
     {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Sinnoh",
       "location": "Snowpoint Temple",
-      "sourceId": 1791144405,
-      "despawnTimestamp": 1791144405,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-04T20:06:45.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 242,
-      "pokemon": "Blissey",
-      "region": "Hoenn",
-      "location": "Artisan Cave",
-      "secondsAgo": 4641,
-      "sourceId": 1791139702
+      "secondsAgo": 1736,
+      "sourceId": 1791142906
     },
     {
       "monsterId": 317,
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 7797,
+      "secondsAgo": 8096,
       "sourceId": 1791136546
     }
   ],
