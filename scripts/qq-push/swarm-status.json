@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-04T01:35:47.483Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-04T01:40:43.044Z",
+  "swarms": [
     {
-      "monsterId": 299,
-      "pokemon": "Nosepass",
+      "monsterId": 413,
+      "pokemon": "Wormadam",
       "region": "Kanto",
-      "location": "Mt. Moon",
-      "secondsAgo": 4900,
-      "sourceId": 1791072847
-    },
+      "location": "Pattern Bush",
+      "sourceId": 1791079537,
+      "despawnTimestamp": 1791079537,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-04T02:05:37.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 8149,
-      "sourceId": 1791069598
+      "secondsAgo": 8444,
+      "sourceId": 1791069599
     },
     {
       "monsterId": 256,
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Route 114",
-      "secondsAgo": 3631,
+      "secondsAgo": 3927,
       "sourceId": 1791074116
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Chansey",
       "region": "Sinnoh",
       "location": "Trophy Garden",
-      "secondsAgo": 5195,
+      "secondsAgo": 5491,
       "sourceId": 1791072552
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Carnivine",
       "region": "Unova",
       "location": "Route 18",
-      "secondsAgo": 4428,
-      "sourceId": 1791073319
+      "secondsAgo": 4723,
+      "sourceId": 1791073320
     }
   ],
   "alpha": {
