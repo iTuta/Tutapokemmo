@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-10-04T00:10:41.680Z",
+  "fetchedAt": "2026-10-04T00:15:44.490Z",
   "swarms": [
+    {
+      "monsterId": 299,
+      "pokemon": "Nosepass",
+      "region": "Kanto",
+      "location": "Mt. Moon",
+      "sourceId": 1791074346,
+      "despawnTimestamp": 1791074346,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-04T00:39:06.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 113,
       "pokemon": "Chansey",
       "region": "Sinnoh",
       "location": "Trophy Garden",
       "sourceId": 1791074051,
-      "despawnTimestamp": 1791074050,
+      "despawnTimestamp": 1791074051,
       "hasValuable": false,
       "timestampUtc": "2026-10-04T00:34:11.000Z",
       "publishedBy": ""
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Kanto",
-      "location": "Pokemon Tower",
-      "secondsAgo": 7033,
-      "sourceId": 1791065608
-    },
-    {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 3043,
+      "secondsAgo": 3346,
       "sourceId": 1791069598
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Treecko",
       "region": "Hoenn",
       "location": "Petalburg Woods",
-      "secondsAgo": 8472,
+      "secondsAgo": 8775,
       "sourceId": 1791064169
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 13443,
+      "secondsAgo": 13746,
       "sourceId": 1791059198
     }
   ],
