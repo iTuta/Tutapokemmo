@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-04T22:35:44.220Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-04T22:40:46.450Z",
+  "swarms": [
+    {
+      "monsterId": 214,
+      "pokemon": "Heracross",
+      "region": "Unova",
+      "location": "Route 10",
+      "sourceId": 1791154926,
+      "despawnTimestamp": 1791154925,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-04T23:02:06.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 9309,
+      "secondsAgo": 9611,
       "sourceId": 1791144035
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Kirlia",
       "region": "Johto",
       "location": "Route 43",
-      "secondsAgo": 2913,
+      "secondsAgo": 3215,
       "sourceId": 1791150431
     },
     {
@@ -23,16 +35,8 @@
       "pokemon": "Flygon",
       "region": "Hoenn",
       "location": "Desert Underpass",
-      "secondsAgo": 8128,
+      "secondsAgo": 8430,
       "sourceId": 1791145216
-    },
-    {
-      "monsterId": 376,
-      "pokemon": "Metagross",
-      "region": "Unova",
-      "location": "Giant Chasm",
-      "secondsAgo": 5221,
-      "sourceId": 1791148123
     }
   ],
   "alpha": {
