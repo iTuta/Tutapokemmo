@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-10-04T16:40:43.095Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-04T16:45:42.452Z",
+  "swarms": [
+    {
+      "monsterId": 319,
+      "pokemon": "Sharpedo",
+      "region": "Johto",
+      "location": "Route 41",
+      "sourceId": 1791133710,
+      "despawnTimestamp": 1791133709,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-04T17:08:30.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Kanto",
       "location": "Route 16",
-      "secondsAgo": 7795,
+      "secondsAgo": 8094,
       "sourceId": 1791124248
-    },
-    {
-      "monsterId": 156,
-      "pokemon": "Quilava",
-      "region": "Johto",
-      "location": "Route 42",
-      "secondsAgo": 9861,
-      "sourceId": 1791122182
     },
     {
       "monsterId": 240,
       "pokemon": "Magby",
       "region": "Hoenn",
       "location": "Mt. Chimney",
-      "secondsAgo": 3550,
-      "sourceId": 1791128493
+      "secondsAgo": 3850,
+      "sourceId": 1791128492
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 3942,
+      "secondsAgo": 4241,
       "sourceId": 1791128101
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Pinsir",
       "region": "Unova",
       "location": "Route 12",
-      "secondsAgo": 17016,
-      "sourceId": 1791115027
+      "secondsAgo": 17316,
+      "sourceId": 1791115026
     }
   ],
   "alpha": {
