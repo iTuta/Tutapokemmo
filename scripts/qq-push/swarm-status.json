@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-04T20:20:46.509Z",
+  "fetchedAt": "2026-10-04T20:25:42.466Z",
   "swarms": [
-    {
-      "monsterId": 369,
-      "pokemon": "Relicanth",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "sourceId": 1791145534,
-      "despawnTimestamp": 1791145534,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-04T20:25:34.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 330,
       "pokemon": "Flygon",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 369,
+      "pokemon": "Relicanth",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "secondsAgo": 1507,
+      "sourceId": 1791144035
+    },
+    {
       "monsterId": 153,
       "pokemon": "Bayleef",
       "region": "Johto",
       "location": "National Park",
-      "secondsAgo": 2125,
+      "secondsAgo": 2421,
       "sourceId": 1791143121
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Kirlia",
       "region": "Sinnoh",
       "location": "Snowpoint Temple",
-      "secondsAgo": 2340,
+      "secondsAgo": 2636,
       "sourceId": 1791142906
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 8700,
+      "secondsAgo": 8996,
       "sourceId": 1791136546
     }
   ],
