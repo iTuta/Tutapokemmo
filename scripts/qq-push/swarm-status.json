@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-04T10:05:47.499Z",
+  "fetchedAt": "2026-10-04T10:10:41.720Z",
   "swarms": [
     {
       "monsterId": 313,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-04T10:28:33.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 193,
+      "pokemon": "Yanma",
+      "region": "Sinnoh",
+      "location": "Route 205",
+      "sourceId": 1791109929,
+      "despawnTimestamp": 1791109928,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-04T10:32:09.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,23 +30,15 @@
       "pokemon": "Murkrow",
       "region": "Hoenn",
       "location": "Jagged Pass",
-      "secondsAgo": 11118,
+      "secondsAgo": 11412,
       "sourceId": 1791097229
-    },
-    {
-      "monsterId": 441,
-      "pokemon": "Chatot",
-      "region": "Sinnoh",
-      "location": "Route 218",
-      "secondsAgo": 12040,
-      "sourceId": 1791096307
     },
     {
       "monsterId": 233,
       "pokemon": "Porygon2",
       "region": "Unova",
       "location": "P2 Laboratory",
-      "secondsAgo": 6378,
+      "secondsAgo": 6672,
       "sourceId": 1791101969
     }
   ],
