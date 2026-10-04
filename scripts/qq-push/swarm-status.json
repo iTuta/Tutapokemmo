@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-04T21:45:48.374Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-04T21:50:42.628Z",
+  "swarms": [
+    {
+      "monsterId": 281,
+      "pokemon": "Kirlia",
+      "region": "Johto",
+      "location": "Route 43",
+      "sourceId": 1791151930,
+      "despawnTimestamp": 1791151930,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-04T22:12:10.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 6313,
+      "secondsAgo": 6607,
       "sourceId": 1791144035
-    },
-    {
-      "monsterId": 153,
-      "pokemon": "Bayleef",
-      "region": "Johto",
-      "location": "National Park",
-      "secondsAgo": 7227,
-      "sourceId": 1791143121
     },
     {
       "monsterId": 330,
       "pokemon": "Flygon",
       "region": "Hoenn",
       "location": "Desert Underpass",
-      "secondsAgo": 5132,
+      "secondsAgo": 5426,
       "sourceId": 1791145216
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Kirlia",
       "region": "Sinnoh",
       "location": "Snowpoint Temple",
-      "secondsAgo": 7442,
+      "secondsAgo": 7736,
       "sourceId": 1791142906
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Metagross",
       "region": "Unova",
       "location": "Giant Chasm",
-      "secondsAgo": 2225,
+      "secondsAgo": 2519,
       "sourceId": 1791148123
     }
   ],
