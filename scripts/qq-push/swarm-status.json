@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-04T18:20:49.234Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-04T18:25:43.108Z",
+  "swarms": [
+    {
+      "monsterId": 227,
+      "pokemon": "Skarmory",
+      "region": "Sinnoh",
+      "location": "Route 227",
+      "sourceId": 1791139751,
+      "despawnTimestamp": 1791139751,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-04T18:49:11.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Kanto",
       "location": "Route 16",
-      "secondsAgo": 13801,
+      "secondsAgo": 14095,
       "sourceId": 1791124248
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Sharpedo",
       "region": "Johto",
       "location": "Route 41",
-      "secondsAgo": 5838,
+      "secondsAgo": 6132,
       "sourceId": 1791132211
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Magby",
       "region": "Hoenn",
       "location": "Mt. Chimney",
-      "secondsAgo": 9556,
+      "secondsAgo": 9850,
       "sourceId": 1791128493
-    },
-    {
-      "monsterId": 193,
-      "pokemon": "Yanma",
-      "region": "Sinnoh",
-      "location": "Route 205",
-      "secondsAgo": 9948,
-      "sourceId": 1791128101
     },
     {
       "monsterId": 317,
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 1503,
+      "secondsAgo": 1797,
       "sourceId": 1791136546
     }
   ],
