@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-04T07:05:42.686Z",
+  "fetchedAt": "2026-10-04T07:10:43.308Z",
   "swarms": [
+    {
+      "monsterId": 143,
+      "pokemon": "Snorlax",
+      "region": "Johto",
+      "location": "Victory Road",
+      "sourceId": 1791099160,
+      "despawnTimestamp": 1791099160,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-04T07:32:40.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
@@ -11,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-04T07:25:28.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 441,
-      "pokemon": "Chatot",
-      "region": "Sinnoh",
-      "location": "Route 218",
-      "sourceId": 1791097807,
-      "despawnTimestamp": 1791097806,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-04T07:10:07.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,24 +30,24 @@
       "pokemon": "Absol",
       "region": "Kanto",
       "location": "Sevault Canyon",
-      "secondsAgo": 7211,
-      "sourceId": 1791090331
+      "secondsAgo": 7511,
+      "sourceId": 1791090332
     },
     {
-      "monsterId": 176,
-      "pokemon": "Togetic",
-      "region": "Johto",
-      "location": "Route 27",
-      "secondsAgo": 5741,
-      "sourceId": 1791091801
+      "monsterId": 441,
+      "pokemon": "Chatot",
+      "region": "Sinnoh",
+      "location": "Route 218",
+      "secondsAgo": 1536,
+      "sourceId": 1791096307
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 14474,
-      "sourceId": 1791083068
+      "secondsAgo": 14774,
+      "sourceId": 1791083069
     }
   ],
   "alpha": {
