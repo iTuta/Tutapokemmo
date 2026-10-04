@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-04T00:35:48.629Z",
+  "fetchedAt": "2026-10-04T00:40:41.696Z",
   "swarms": [
-    {
-      "monsterId": 299,
-      "pokemon": "Nosepass",
-      "region": "Kanto",
-      "location": "Mt. Moon",
-      "sourceId": 1791074346,
-      "despawnTimestamp": 1791074346,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-04T00:39:06.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 256,
       "pokemon": "Combusken",
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 299,
+      "pokemon": "Nosepass",
+      "region": "Kanto",
+      "location": "Mt. Moon",
+      "secondsAgo": 1594,
+      "sourceId": 1791072847
+    },
+    {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 4550,
+      "secondsAgo": 4843,
       "sourceId": 1791069598
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "Chansey",
       "region": "Sinnoh",
       "location": "Trophy Garden",
-      "secondsAgo": 1597,
+      "secondsAgo": 1890,
       "sourceId": 1791072551
     }
   ],
