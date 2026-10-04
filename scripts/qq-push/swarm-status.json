@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-04T07:30:49.673Z",
+  "fetchedAt": "2026-10-04T07:35:44.413Z",
   "swarms": [
     {
       "monsterId": 369,
@@ -11,26 +11,23 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-04T07:42:22.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "sourceId": 1791099160,
-      "despawnTimestamp": 1791099160,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-04T07:32:40.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1683,
+      "sourceId": 1791097661
+    },
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Hoenn",
       "location": "Jagged Pass",
-      "secondsAgo": 1820,
+      "secondsAgo": 2115,
       "sourceId": 1791097229
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 2742,
+      "secondsAgo": 3037,
       "sourceId": 1791096307
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 15981,
-      "sourceId": 1791083068
+      "secondsAgo": 16275,
+      "sourceId": 1791083069
     }
   ],
   "alpha": {
