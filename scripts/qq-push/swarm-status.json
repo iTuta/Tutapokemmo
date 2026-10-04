@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-04T06:40:55.072Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-04T06:45:40.410Z",
+  "swarms": [
+    {
+      "monsterId": 441,
+      "pokemon": "Chatot",
+      "region": "Sinnoh",
+      "location": "Route 218",
+      "sourceId": 1791097807,
+      "despawnTimestamp": 1791097807,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-04T07:10:07.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 359,
       "pokemon": "Absol",
       "region": "Kanto",
       "location": "Sevault Canyon",
-      "secondsAgo": 5723,
+      "secondsAgo": 6008,
       "sourceId": 1791090332
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 4254,
+      "secondsAgo": 4539,
       "sourceId": 1791091801
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Dragonite",
       "region": "Hoenn",
       "location": "Route 131",
-      "secondsAgo": 12907,
+      "secondsAgo": 13192,
       "sourceId": 1791083148
-    },
-    {
-      "monsterId": 126,
-      "pokemon": "Magmar",
-      "region": "Sinnoh",
-      "location": "Fuego Ironworks",
-      "secondsAgo": 15791,
-      "sourceId": 1791080264
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 12986,
+      "secondsAgo": 13271,
       "sourceId": 1791083069
     }
   ],
