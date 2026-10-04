@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-04T11:55:43.282Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-04T12:00:56.152Z",
+  "swarms": [
+    {
+      "monsterId": 127,
+      "pokemon": "Pinsir",
+      "region": "Unova",
+      "location": "Route 12",
+      "sourceId": 1791116526,
+      "despawnTimestamp": 1791116526,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-04T12:22:06.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 313,
       "pokemon": "Volbeat",
       "region": "Kanto",
       "location": "Memorial Pillar",
-      "secondsAgo": 6729,
+      "secondsAgo": 7042,
       "sourceId": 1791108214
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Kirlia",
       "region": "Johto",
       "location": "Route 43",
-      "secondsAgo": 9875,
+      "secondsAgo": 10188,
       "sourceId": 1791105068
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Murkrow",
       "region": "Hoenn",
       "location": "Jagged Pass",
-      "secondsAgo": 17714,
+      "secondsAgo": 18027,
       "sourceId": 1791097229
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Yanma",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 6514,
-      "sourceId": 1791108429
-    },
-    {
-      "monsterId": 233,
-      "pokemon": "Porygon2",
-      "region": "Unova",
-      "location": "P2 Laboratory",
-      "secondsAgo": 12974,
-      "sourceId": 1791101969
+      "secondsAgo": 6826,
+      "sourceId": 1791108430
     }
   ],
   "alpha": {
