@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-04T05:01:04.178Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-04T05:05:50.915Z",
+  "swarms": [
     {
-      "monsterId": 413,
-      "pokemon": "Wormadam",
+      "monsterId": 359,
+      "pokemon": "Absol",
       "region": "Kanto",
-      "location": "Pattern Bush",
-      "secondsAgo": 12026,
-      "sourceId": 1791078038
-    },
+      "location": "Sevault Canyon",
+      "sourceId": 1791091831,
+      "despawnTimestamp": 1791091830,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-04T05:30:31.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 204,
       "pokemon": "Pineco",
       "region": "Johto",
       "location": "Route 36",
-      "secondsAgo": 3401,
-      "sourceId": 1791086663
+      "secondsAgo": 3688,
+      "sourceId": 1791086662
     },
     {
       "monsterId": 149,
       "pokemon": "Dragonite",
       "region": "Hoenn",
       "location": "Route 131",
-      "secondsAgo": 6916,
+      "secondsAgo": 7202,
       "sourceId": 1791083148
     },
     {
@@ -31,16 +35,16 @@
       "pokemon": "Magmar",
       "region": "Sinnoh",
       "location": "Fuego Ironworks",
-      "secondsAgo": 9800,
-      "sourceId": 1791080264
+      "secondsAgo": 10087,
+      "sourceId": 1791080263
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 6995,
-      "sourceId": 1791083069
+      "secondsAgo": 7282,
+      "sourceId": 1791083068
     }
   ],
   "alpha": {
