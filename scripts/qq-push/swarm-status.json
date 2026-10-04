@@ -1,45 +1,52 @@
 {
-  "fetchedAt": "2026-10-04T19:40:52.324Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-04T19:45:48.569Z",
+  "swarms": [
+    {
+      "monsterId": 153,
+      "pokemon": "Bayleef",
+      "region": "Johto",
+      "location": "National Park",
+      "sourceId": 1791144620,
+      "despawnTimestamp": 1791144620,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-04T20:10:20.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 281,
+      "pokemon": "Kirlia",
+      "region": "Sinnoh",
+      "location": "Snowpoint Temple",
+      "sourceId": 1791144405,
+      "despawnTimestamp": 1791144405,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-04T20:06:45.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 348,
       "pokemon": "Armaldo",
       "region": "Kanto",
       "location": "Viapois Chamber",
-      "secondsAgo": 4147,
+      "secondsAgo": 4443,
       "sourceId": 1791138705
-    },
-    {
-      "monsterId": 319,
-      "pokemon": "Sharpedo",
-      "region": "Johto",
-      "location": "Route 41",
-      "secondsAgo": 10642,
-      "sourceId": 1791132210
     },
     {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 3151,
+      "secondsAgo": 3447,
       "sourceId": 1791139701
-    },
-    {
-      "monsterId": 227,
-      "pokemon": "Skarmory",
-      "region": "Sinnoh",
-      "location": "Route 227",
-      "secondsAgo": 4600,
-      "sourceId": 1791138252
     },
     {
       "monsterId": 317,
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 6306,
+      "secondsAgo": 6602,
       "sourceId": 1791136546
     }
   ],
