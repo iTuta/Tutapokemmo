@@ -1,41 +1,37 @@
 {
-  "fetchedAt": "2026-10-04T14:20:46.012Z",
-  "swarms": [
-    {
-      "monsterId": 156,
-      "pokemon": "Quilava",
-      "region": "Johto",
-      "location": "Route 42",
-      "sourceId": 1791123681,
-      "despawnTimestamp": 1791123680,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-04T14:21:21.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-04T14:25:50.491Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 3558,
+      "secondsAgo": 3863,
       "sourceId": 1791120087
+    },
+    {
+      "monsterId": 156,
+      "pokemon": "Quilava",
+      "region": "Johto",
+      "location": "Route 42",
+      "secondsAgo": 1769,
+      "sourceId": 1791122181
     },
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Hoenn",
       "location": "Jagged Pass",
-      "secondsAgo": 26417,
-      "sourceId": 1791097228
+      "secondsAgo": 26721,
+      "sourceId": 1791097229
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 15216,
+      "secondsAgo": 15521,
       "sourceId": 1791108429
     }
   ],
