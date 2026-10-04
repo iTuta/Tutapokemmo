@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-04T07:15:54.535Z",
+  "fetchedAt": "2026-10-04T07:20:51.121Z",
   "swarms": [
+    {
+      "monsterId": 369,
+      "pokemon": "Relicanth",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "sourceId": 1791099742,
+      "despawnTimestamp": 1791099742,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-04T07:42:22.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
@@ -26,27 +37,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 359,
-      "pokemon": "Absol",
-      "region": "Kanto",
-      "location": "Sevault Canyon",
-      "secondsAgo": 7823,
-      "sourceId": 1791090331
-    },
-    {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 1847,
-      "sourceId": 1791096307
+      "secondsAgo": 2143,
+      "sourceId": 1791096308
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 15085,
+      "secondsAgo": 15382,
       "sourceId": 1791083069
     }
   ],
