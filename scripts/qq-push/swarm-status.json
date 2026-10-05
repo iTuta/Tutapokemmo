@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-10-05T15:55:41.248Z",
+  "fetchedAt": "2026-10-05T16:01:03.823Z",
   "swarms": [
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Johto",
+      "location": "Union Cave",
+      "sourceId": 1791217521,
+      "despawnTimestamp": 1791217520,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-05T16:25:21.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 439,
       "pokemon": "Mime Jr.",
       "region": "Hoenn",
       "location": "Rusturf Tunnel",
       "sourceId": 1791216886,
-      "despawnTimestamp": 1791216886,
+      "despawnTimestamp": 1791216885,
       "hasValuable": false,
       "timestampUtc": "2026-10-05T16:14:46.000Z",
       "publishedBy": ""
@@ -19,24 +30,16 @@
       "pokemon": "Illumise",
       "region": "Kanto",
       "location": "Water Path",
-      "secondsAgo": 3499,
+      "secondsAgo": 3821,
       "sourceId": 1791212242
-    },
-    {
-      "monsterId": 438,
-      "pokemon": "Bonsly",
-      "region": "Johto",
-      "location": "Ilex Forest",
-      "secondsAgo": 8750,
-      "sourceId": 1791206991
     },
     {
       "monsterId": 421,
       "pokemon": "Cherrim",
       "region": "Sinnoh",
       "location": "Lake Verity",
-      "secondsAgo": 4804,
-      "sourceId": 1791210937
+      "secondsAgo": 5127,
+      "sourceId": 1791210936
     }
   ],
   "alpha": {
