@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-05T08:35:41.816Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-05T08:40:48.946Z",
+  "swarms": [
     {
-      "monsterId": 416,
-      "pokemon": "Vespiquen",
+      "monsterId": 2,
+      "pokemon": "Ivysaur",
       "region": "Kanto",
-      "location": "Five Isle Meadow",
-      "secondsAgo": 11323,
-      "sourceId": 1791178018
-    },
+      "location": "Route 5",
+      "sourceId": 1791190499,
+      "despawnTimestamp": 1791190498,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-05T08:54:59.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 102,
       "pokemon": "Exeggcute",
       "region": "Johto",
       "location": "Route 30",
-      "secondsAgo": 4982,
+      "secondsAgo": 5289,
       "sourceId": 1791184359
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 22240,
+      "secondsAgo": 22547,
       "sourceId": 1791167101
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Shroomish",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 10816,
+      "secondsAgo": 11123,
       "sourceId": 1791178525
     }
   ],
