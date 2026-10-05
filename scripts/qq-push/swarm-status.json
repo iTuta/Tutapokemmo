@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-05T05:50:50.039Z",
+  "fetchedAt": "2026-10-05T05:55:46.357Z",
   "swarms": [
-    {
-      "monsterId": 416,
-      "pokemon": "Vespiquen",
-      "region": "Kanto",
-      "location": "Five Isle Meadow",
-      "sourceId": 1791179518,
-      "despawnTimestamp": 1791179518,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-05T05:51:58.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
@@ -48,12 +37,20 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 416,
+      "pokemon": "Vespiquen",
+      "region": "Kanto",
+      "location": "Five Isle Meadow",
+      "secondsAgo": 1728,
+      "sourceId": 1791178018
+    },
+    {
       "monsterId": 107,
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 12348,
-      "sourceId": 1791167102
+      "secondsAgo": 12645,
+      "sourceId": 1791167101
     }
   ],
   "alpha": {
