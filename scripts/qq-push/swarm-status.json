@@ -1,36 +1,21 @@
 {
-  "fetchedAt": "2026-10-05T18:45:44.728Z",
-  "swarms": [
+  "fetchedAt": "2026-10-05T18:50:44.536Z",
+  "swarms": [],
+  "lastSeen": [
     {
       "monsterId": 1,
       "pokemon": "Bulbasaur",
       "region": "Kanto",
       "location": "Viridian Forest",
-      "sourceId": 1791226018,
-      "despawnTimestamp": 1791226017,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-05T18:46:58.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1726,
+      "sourceId": 1791224518
     },
-    {
-      "monsterId": 193,
-      "pokemon": "Yanma",
-      "region": "Unova",
-      "location": "Pinwheel Forest",
-      "sourceId": 1791226124,
-      "despawnTimestamp": 1791226123,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-05T18:48:44.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 2632,
+      "secondsAgo": 2932,
       "sourceId": 1791223312
     },
     {
@@ -38,7 +23,7 @@
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Jagged Pass",
-      "secondsAgo": 5083,
+      "secondsAgo": 5383,
       "sourceId": 1791220861
     },
     {
@@ -46,8 +31,16 @@
       "pokemon": "Kecleon",
       "region": "Sinnoh",
       "location": "Route 229",
-      "secondsAgo": 3571,
+      "secondsAgo": 3871,
       "sourceId": 1791222373
+    },
+    {
+      "monsterId": 193,
+      "pokemon": "Yanma",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "secondsAgo": 1620,
+      "sourceId": 1791224624
     }
   ],
   "alpha": {
