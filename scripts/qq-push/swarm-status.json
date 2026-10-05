@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-05T13:25:51.543Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-05T13:30:53.000Z",
+  "swarms": [
+    {
+      "monsterId": 438,
+      "pokemon": "Bonsly",
+      "region": "Johto",
+      "location": "Ilex Forest",
+      "sourceId": 1791208490,
+      "despawnTimestamp": 1791208490,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-05T13:54:50.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Kanto",
       "location": "Kindle Road",
-      "secondsAgo": 6265,
+      "secondsAgo": 6566,
       "sourceId": 1791200486
-    },
-    {
-      "monsterId": 176,
-      "pokemon": "Togetic",
-      "region": "Johto",
-      "location": "Route 27",
-      "secondsAgo": 6813,
-      "sourceId": 1791199938
     },
     {
       "monsterId": 120,
       "pokemon": "Staryu",
       "region": "Hoenn",
       "location": "Route 106",
-      "secondsAgo": 5810,
+      "secondsAgo": 6111,
       "sourceId": 1791200941
     },
     {
@@ -31,15 +35,15 @@
       "pokemon": "Hippopotas",
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
-      "secondsAgo": 6920,
-      "sourceId": 1791199831
+      "secondsAgo": 7222,
+      "sourceId": 1791199830
     },
     {
       "monsterId": 331,
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 4248,
+      "secondsAgo": 4549,
       "sourceId": 1791202503
     }
   ],
