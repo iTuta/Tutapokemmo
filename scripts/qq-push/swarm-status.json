@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-05T03:10:50.483Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-05T03:15:47.502Z",
+  "swarms": [
+    {
+      "monsterId": 358,
+      "pokemon": "Chimecho",
+      "region": "Johto",
+      "location": "Bellchime Trail",
+      "sourceId": 1791171415,
+      "despawnTimestamp": 1791171414,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-05T03:36:55.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 5128,
+      "secondsAgo": 5425,
       "sourceId": 1791164722
-    },
-    {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Johto",
-      "location": "Cliff Cave",
-      "secondsAgo": 10469,
-      "sourceId": 1791159381
     },
     {
       "monsterId": 107,
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 2749,
+      "secondsAgo": 3046,
       "sourceId": 1791167101
     },
     {
@@ -31,15 +35,15 @@
       "pokemon": "Empoleon",
       "region": "Sinnoh",
       "location": "Lake Acuity",
-      "secondsAgo": 3840,
-      "sourceId": 1791166010
+      "secondsAgo": 4138,
+      "sourceId": 1791166009
     },
     {
       "monsterId": 247,
       "pokemon": "Pupitar",
       "region": "Unova",
       "location": "Twist Mountain",
-      "secondsAgo": 9654,
+      "secondsAgo": 9951,
       "sourceId": 1791160196
     }
   ],
