@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-05T23:41:16.647Z",
+  "fetchedAt": "2026-10-05T23:45:44.205Z",
   "swarms": [
     {
       "monsterId": 257,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-05T23:58:37.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 351,
-      "pokemon": "Castform",
-      "region": "Sinnoh",
-      "location": "Route 210",
-      "sourceId": 1791243741,
-      "despawnTimestamp": 1791243740,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-05T23:42:21.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,24 +19,32 @@
       "pokemon": "Venusaur",
       "region": "Kanto",
       "location": "Berry Forest",
-      "secondsAgo": 3021,
-      "sourceId": 1791240655
+      "secondsAgo": 3288,
+      "sourceId": 1791240656
     },
     {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 4740,
-      "sourceId": 1791238936
+      "secondsAgo": 5007,
+      "sourceId": 1791238937
+    },
+    {
+      "monsterId": 351,
+      "pokemon": "Castform",
+      "region": "Sinnoh",
+      "location": "Route 210",
+      "secondsAgo": 1703,
+      "sourceId": 1791242241
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 19052,
-      "sourceId": 1791224624
+      "secondsAgo": 19319,
+      "sourceId": 1791224625
     }
   ],
   "alpha": {
