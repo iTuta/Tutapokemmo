@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-05T19:36:32.773Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-05T19:50:55.865Z",
+  "swarms": [
+    {
+      "monsterId": 227,
+      "pokemon": "Skarmory",
+      "region": "Johto",
+      "location": "Route 26",
+      "sourceId": 1791230754,
+      "despawnTimestamp": 1791230753,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-05T20:05:54.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 1,
       "pokemon": "Bulbasaur",
       "region": "Kanto",
       "location": "Viridian Forest",
-      "secondsAgo": 4474,
+      "secondsAgo": 5337,
       "sourceId": 1791224518
-    },
-    {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Johto",
-      "location": "Burned Tower",
-      "secondsAgo": 5680,
-      "sourceId": 1791223312
     },
     {
       "monsterId": 256,
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Jagged Pass",
-      "secondsAgo": 8131,
+      "secondsAgo": 8994,
       "sourceId": 1791220861
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Kecleon",
       "region": "Sinnoh",
       "location": "Route 229",
-      "secondsAgo": 6619,
+      "secondsAgo": 7482,
       "sourceId": 1791222373
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 4368,
+      "secondsAgo": 5231,
       "sourceId": 1791224624
     }
   ],
