@@ -1,29 +1,41 @@
 {
-  "fetchedAt": "2026-10-05T10:20:55.613Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-05T10:25:43.875Z",
+  "swarms": [
+    {
+      "monsterId": 212,
+      "pokemon": "Scizor",
+      "region": "Unova",
+      "location": "Route 14",
+      "sourceId": 1791197316,
+      "despawnTimestamp": 1791197316,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-05T10:48:36.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 2,
       "pokemon": "Ivysaur",
       "region": "Kanto",
       "location": "Route 5",
-      "secondsAgo": 6055,
-      "sourceId": 1791189600
+      "secondsAgo": 6344,
+      "sourceId": 1791189599
     },
     {
       "monsterId": 469,
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 3525,
-      "sourceId": 1791192130
+      "secondsAgo": 3814,
+      "sourceId": 1791192129
     },
     {
       "monsterId": 316,
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 5848,
+      "secondsAgo": 6136,
       "sourceId": 1791189807
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Cloyster",
       "region": "Sinnoh",
       "location": "Route 223",
-      "secondsAgo": 17155,
-      "sourceId": 1791178500
-    },
-    {
-      "monsterId": 373,
-      "pokemon": "Salamence",
-      "region": "Unova",
-      "location": "Dragonspiral Tower",
-      "secondsAgo": 3495,
-      "sourceId": 1791192160
+      "secondsAgo": 17444,
+      "sourceId": 1791178499
     }
   ],
   "alpha": {
