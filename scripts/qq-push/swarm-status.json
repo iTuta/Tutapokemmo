@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-05T18:25:43.243Z",
+  "fetchedAt": "2026-10-05T18:30:52.031Z",
   "swarms": [
     {
       "monsterId": 1,
@@ -7,20 +7,9 @@
       "region": "Kanto",
       "location": "Viridian Forest",
       "sourceId": 1791226018,
-      "despawnTimestamp": 1791226018,
+      "despawnTimestamp": 1791226017,
       "hasValuable": false,
       "timestampUtc": "2026-10-05T18:46:58.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Johto",
-      "location": "Burned Tower",
-      "sourceId": 1791224812,
-      "despawnTimestamp": 1791224812,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-05T18:26:52.000Z",
       "publishedBy": ""
     },
     {
@@ -29,7 +18,7 @@
       "region": "Unova",
       "location": "Pinwheel Forest",
       "sourceId": 1791226124,
-      "despawnTimestamp": 1791226124,
+      "despawnTimestamp": 1791226123,
       "hasValuable": false,
       "timestampUtc": "2026-10-05T18:48:44.000Z",
       "publishedBy": ""
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Johto",
+      "location": "Burned Tower",
+      "secondsAgo": 1739,
+      "sourceId": 1791223312
+    },
+    {
       "monsterId": 256,
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Jagged Pass",
-      "secondsAgo": 3882,
+      "secondsAgo": 4190,
       "sourceId": 1791220861
     },
     {
@@ -49,8 +46,8 @@
       "pokemon": "Kecleon",
       "region": "Sinnoh",
       "location": "Route 229",
-      "secondsAgo": 2369,
-      "sourceId": 1791222374
+      "secondsAgo": 2678,
+      "sourceId": 1791222373
     }
   ],
   "alpha": {
