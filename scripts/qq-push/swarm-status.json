@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-05T08:50:50.157Z",
+  "fetchedAt": "2026-10-05T08:55:56.027Z",
   "swarms": [
-    {
-      "monsterId": 2,
-      "pokemon": "Ivysaur",
-      "region": "Kanto",
-      "location": "Route 5",
-      "sourceId": 1791190499,
-      "despawnTimestamp": 1791190499,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-05T08:54:59.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 316,
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
       "sourceId": 1791191306,
-      "despawnTimestamp": 1791191306,
+      "despawnTimestamp": 1791191305,
       "hasValuable": false,
       "timestampUtc": "2026-10-05T09:08:26.000Z",
       "publishedBy": ""
@@ -26,20 +15,28 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 2,
+      "pokemon": "Ivysaur",
+      "region": "Kanto",
+      "location": "Route 5",
+      "secondsAgo": 956,
+      "sourceId": 1791189599
+    },
+    {
       "monsterId": 102,
       "pokemon": "Exeggcute",
       "region": "Johto",
       "location": "Route 30",
-      "secondsAgo": 5890,
-      "sourceId": 1791184360
+      "secondsAgo": 6196,
+      "sourceId": 1791184359
     },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 11725,
-      "sourceId": 1791178525
+      "secondsAgo": 12031,
+      "sourceId": 1791178524
     }
   ],
   "alpha": {
