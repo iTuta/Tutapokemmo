@@ -1,29 +1,41 @@
 {
-  "fetchedAt": "2026-10-05T05:25:41.876Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-05T05:30:56.645Z",
+  "swarms": [
     {
-      "monsterId": 369,
-      "pokemon": "Relicanth",
+      "monsterId": 416,
+      "pokemon": "Vespiquen",
       "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 13220,
-      "sourceId": 1791164721
-    },
+      "location": "Five Isle Meadow",
+      "sourceId": 1791179518,
+      "despawnTimestamp": 1791179517,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-05T05:51:58.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 358,
       "pokemon": "Chimecho",
       "region": "Johto",
       "location": "Bellchime Trail",
-      "secondsAgo": 8026,
+      "secondsAgo": 8341,
       "sourceId": 1791169915
+    },
+    {
+      "monsterId": 107,
+      "pokemon": "Hitmonchan",
+      "region": "Hoenn",
+      "location": "Fiery Path",
+      "secondsAgo": 11155,
+      "sourceId": 1791167101
     },
     {
       "monsterId": 395,
       "pokemon": "Empoleon",
       "region": "Sinnoh",
       "location": "Lake Acuity",
-      "secondsAgo": 11932,
+      "secondsAgo": 12247,
       "sourceId": 1791166009
     },
     {
@@ -31,7 +43,7 @@
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 6492,
+      "secondsAgo": 6807,
       "sourceId": 1791171449
     }
   ],
