@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-05T23:01:02.203Z",
+  "fetchedAt": "2026-10-05T23:05:41.928Z",
   "swarms": [
     {
       "monsterId": 3,
@@ -7,20 +7,9 @@
       "region": "Kanto",
       "location": "Berry Forest",
       "sourceId": 1791242155,
-      "despawnTimestamp": 1791242155,
+      "despawnTimestamp": 1791242154,
       "hasValuable": false,
       "timestampUtc": "2026-10-05T23:15:55.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 300,
-      "pokemon": "Skitty",
-      "region": "Hoenn",
-      "location": "Route 116",
-      "sourceId": 1791241536,
-      "despawnTimestamp": 1791241536,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-05T23:05:36.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,15 +19,23 @@
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 2325,
-      "sourceId": 1791238937
+      "secondsAgo": 2605,
+      "sourceId": 1791238936
+    },
+    {
+      "monsterId": 300,
+      "pokemon": "Skitty",
+      "region": "Hoenn",
+      "location": "Route 116",
+      "secondsAgo": 1505,
+      "sourceId": 1791240036
     },
     {
       "monsterId": 388,
       "pokemon": "Grotle",
       "region": "Sinnoh",
       "location": "Sendoff Spring",
-      "secondsAgo": 5658,
+      "secondsAgo": 5937,
       "sourceId": 1791235604
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 16637,
-      "sourceId": 1791224625
+      "secondsAgo": 16917,
+      "sourceId": 1791224624
     }
   ],
   "alpha": {
