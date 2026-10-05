@@ -1,33 +1,47 @@
 {
-  "fetchedAt": "2026-10-05T18:20:47.867Z",
+  "fetchedAt": "2026-10-05T18:25:43.243Z",
   "swarms": [
+    {
+      "monsterId": 1,
+      "pokemon": "Bulbasaur",
+      "region": "Kanto",
+      "location": "Viridian Forest",
+      "sourceId": 1791226018,
+      "despawnTimestamp": 1791226018,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-05T18:46:58.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
       "sourceId": 1791224812,
-      "despawnTimestamp": 1791224811,
+      "despawnTimestamp": 1791224812,
       "hasValuable": false,
       "timestampUtc": "2026-10-05T18:26:52.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 193,
+      "pokemon": "Yanma",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "sourceId": 1791226124,
+      "despawnTimestamp": 1791226124,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-05T18:48:44.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 314,
-      "pokemon": "Illumise",
-      "region": "Kanto",
-      "location": "Water Path",
-      "secondsAgo": 12205,
-      "sourceId": 1791212242
-    },
-    {
       "monsterId": 256,
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Jagged Pass",
-      "secondsAgo": 3586,
+      "secondsAgo": 3882,
       "sourceId": 1791220861
     },
     {
@@ -35,16 +49,8 @@
       "pokemon": "Kecleon",
       "region": "Sinnoh",
       "location": "Route 229",
-      "secondsAgo": 2074,
-      "sourceId": 1791222373
-    },
-    {
-      "monsterId": 285,
-      "pokemon": "Shroomish",
-      "region": "Unova",
-      "location": "Pinwheel Forest",
-      "secondsAgo": 16798,
-      "sourceId": 1791207649
+      "secondsAgo": 2369,
+      "sourceId": 1791222374
     }
   ],
   "alpha": {
