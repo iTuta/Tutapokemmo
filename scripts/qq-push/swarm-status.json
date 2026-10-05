@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-10-05T00:15:50.113Z",
+  "fetchedAt": "2026-10-05T00:20:47.717Z",
   "swarms": [
+    {
+      "monsterId": 213,
+      "pokemon": "Shuckle",
+      "region": "Johto",
+      "location": "Cliff Cave",
+      "sourceId": 1791160880,
+      "despawnTimestamp": 1791160879,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-05T00:41:20.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 120,
       "pokemon": "Staryu",
       "region": "Hoenn",
       "location": "Route 106",
       "sourceId": 1791160048,
-      "despawnTimestamp": 1791160048,
+      "despawnTimestamp": 1791160047,
       "hasValuable": false,
       "timestampUtc": "2026-10-05T00:27:28.000Z",
       "publishedBy": ""
@@ -19,32 +30,24 @@
       "pokemon": "Plusle",
       "region": "Kanto",
       "location": "Route 2",
-      "secondsAgo": 3733,
+      "secondsAgo": 4030,
       "sourceId": 1791155617
-    },
-    {
-      "monsterId": 281,
-      "pokemon": "Kirlia",
-      "region": "Johto",
-      "location": "Route 43",
-      "secondsAgo": 8919,
-      "sourceId": 1791150431
     },
     {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Sinnoh",
       "location": "Snowpoint Temple",
-      "secondsAgo": 16444,
-      "sourceId": 1791142906
+      "secondsAgo": 16742,
+      "sourceId": 1791142905
     },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 5923,
-      "sourceId": 1791153427
+      "secondsAgo": 6221,
+      "sourceId": 1791153426
     }
   ],
   "alpha": {
