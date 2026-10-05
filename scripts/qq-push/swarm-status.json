@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-05T18:10:55.159Z",
+  "fetchedAt": "2026-10-05T18:15:53.638Z",
   "swarms": [
     {
       "monsterId": 229,
@@ -7,20 +7,9 @@
       "region": "Johto",
       "location": "Burned Tower",
       "sourceId": 1791224812,
-      "despawnTimestamp": 1791224812,
+      "despawnTimestamp": 1791224811,
       "hasValuable": false,
       "timestampUtc": "2026-10-05T18:26:52.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 352,
-      "pokemon": "Kecleon",
-      "region": "Sinnoh",
-      "location": "Route 229",
-      "sourceId": 1791223873,
-      "despawnTimestamp": 1791223873,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-05T18:11:13.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,7 +19,7 @@
       "pokemon": "Illumise",
       "region": "Kanto",
       "location": "Water Path",
-      "secondsAgo": 11613,
+      "secondsAgo": 11911,
       "sourceId": 1791212242
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Jagged Pass",
-      "secondsAgo": 2993,
-      "sourceId": 1791220862
+      "secondsAgo": 3292,
+      "sourceId": 1791220861
+    },
+    {
+      "monsterId": 352,
+      "pokemon": "Kecleon",
+      "region": "Sinnoh",
+      "location": "Route 229",
+      "secondsAgo": 1780,
+      "sourceId": 1791222373
     },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 16205,
+      "secondsAgo": 16503,
       "sourceId": 1791207650
     }
   ],
