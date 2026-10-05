@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-05T00:01:03.730Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-05T00:05:51.344Z",
+  "swarms": [
+    {
+      "monsterId": 120,
+      "pokemon": "Staryu",
+      "region": "Hoenn",
+      "location": "Route 106",
+      "sourceId": 1791160048,
+      "despawnTimestamp": 1791160047,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-05T00:27:28.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 311,
       "pokemon": "Plusle",
       "region": "Kanto",
       "location": "Route 2",
-      "secondsAgo": 2846,
+      "secondsAgo": 3134,
       "sourceId": 1791155617
     },
     {
@@ -15,31 +27,23 @@
       "pokemon": "Kirlia",
       "region": "Johto",
       "location": "Route 43",
-      "secondsAgo": 8032,
+      "secondsAgo": 8320,
       "sourceId": 1791150431
-    },
-    {
-      "monsterId": 330,
-      "pokemon": "Flygon",
-      "region": "Hoenn",
-      "location": "Desert Underpass",
-      "secondsAgo": 13247,
-      "sourceId": 1791145216
     },
     {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Sinnoh",
       "location": "Snowpoint Temple",
-      "secondsAgo": 15558,
-      "sourceId": 1791142905
+      "secondsAgo": 15845,
+      "sourceId": 1791142906
     },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 5037,
+      "secondsAgo": 5325,
       "sourceId": 1791153426
     }
   ],
