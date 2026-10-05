@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-05T05:30:56.645Z",
+  "fetchedAt": "2026-10-05T05:35:54.643Z",
   "swarms": [
     {
       "monsterId": 416,
@@ -11,6 +11,28 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-05T05:51:58.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 91,
+      "pokemon": "Cloyster",
+      "region": "Sinnoh",
+      "location": "Route 223",
+      "sourceId": 1791179999,
+      "despawnTimestamp": 1791179999,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-05T05:59:59.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 285,
+      "pokemon": "Shroomish",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "sourceId": 1791180024,
+      "despawnTimestamp": 1791180024,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-05T06:00:24.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +41,7 @@
       "pokemon": "Chimecho",
       "region": "Johto",
       "location": "Bellchime Trail",
-      "secondsAgo": 8341,
+      "secondsAgo": 8639,
       "sourceId": 1791169915
     },
     {
@@ -27,24 +49,8 @@
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 11155,
+      "secondsAgo": 11453,
       "sourceId": 1791167101
-    },
-    {
-      "monsterId": 395,
-      "pokemon": "Empoleon",
-      "region": "Sinnoh",
-      "location": "Lake Acuity",
-      "secondsAgo": 12247,
-      "sourceId": 1791166009
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Unova",
-      "location": "Relic Castle",
-      "secondsAgo": 6807,
-      "sourceId": 1791171449
     }
   ],
   "alpha": {
