@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-05T05:55:46.357Z",
+  "fetchedAt": "2026-10-05T06:00:57.733Z",
   "swarms": [
     {
       "monsterId": 241,
@@ -7,31 +7,9 @@
       "region": "Johto",
       "location": "Route 39",
       "sourceId": 1791180726,
-      "despawnTimestamp": 1791180726,
+      "despawnTimestamp": 1791180725,
       "hasValuable": false,
       "timestampUtc": "2026-10-05T06:12:06.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 91,
-      "pokemon": "Cloyster",
-      "region": "Sinnoh",
-      "location": "Route 223",
-      "sourceId": 1791179999,
-      "despawnTimestamp": 1791179999,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-05T05:59:59.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 285,
-      "pokemon": "Shroomish",
-      "region": "Unova",
-      "location": "Pinwheel Forest",
-      "sourceId": 1791180024,
-      "despawnTimestamp": 1791180024,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-05T06:00:24.000Z",
       "publishedBy": ""
     }
   ],
@@ -41,7 +19,7 @@
       "pokemon": "Vespiquen",
       "region": "Kanto",
       "location": "Five Isle Meadow",
-      "secondsAgo": 1728,
+      "secondsAgo": 2039,
       "sourceId": 1791178018
     },
     {
@@ -49,8 +27,24 @@
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 12645,
+      "secondsAgo": 12956,
       "sourceId": 1791167101
+    },
+    {
+      "monsterId": 91,
+      "pokemon": "Cloyster",
+      "region": "Sinnoh",
+      "location": "Route 223",
+      "secondsAgo": 1557,
+      "sourceId": 1791178500
+    },
+    {
+      "monsterId": 285,
+      "pokemon": "Shroomish",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "secondsAgo": 1532,
+      "sourceId": 1791178525
     }
   ],
   "alpha": {
