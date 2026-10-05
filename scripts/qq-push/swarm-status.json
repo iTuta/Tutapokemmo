@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-05T11:50:53.044Z",
+  "fetchedAt": "2026-10-05T11:55:42.203Z",
   "swarms": [
     {
       "monsterId": 229,
@@ -18,7 +18,7 @@
       "region": "Johto",
       "location": "Route 27",
       "sourceId": 1791201438,
-      "despawnTimestamp": 1791201438,
+      "despawnTimestamp": 1791201437,
       "hasValuable": false,
       "timestampUtc": "2026-10-05T11:57:18.000Z",
       "publishedBy": ""
@@ -33,26 +33,23 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-05T12:14:01.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 449,
       "pokemon": "Hippopotas",
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
-      "sourceId": 1791201330,
-      "despawnTimestamp": 1791201330,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-05T11:55:30.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1511,
+      "sourceId": 1791199831
+    },
     {
       "monsterId": 212,
       "pokemon": "Scizor",
       "region": "Unova",
       "location": "Route 14",
-      "secondsAgo": 5236,
+      "secondsAgo": 5525,
       "sourceId": 1791195817
     }
   ],
