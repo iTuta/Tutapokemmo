@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-10-05T20:36:24.868Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-05T20:52:21.368Z",
+  "swarms": [
+    {
+      "monsterId": 358,
+      "pokemon": "Chimecho",
+      "region": "Hoenn",
+      "location": "Mt. Pyre",
+      "sourceId": 1791234947,
+      "despawnTimestamp": 1791234946,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-05T21:15:47.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Kanto",
       "location": "Route 7",
-      "secondsAgo": 1694,
-      "sourceId": 1791230890
+      "secondsAgo": 2650,
+      "sourceId": 1791230891
     },
     {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Johto",
       "location": "Route 26",
-      "secondsAgo": 3330,
+      "secondsAgo": 4287,
       "sourceId": 1791229254
-    },
-    {
-      "monsterId": 256,
-      "pokemon": "Combusken",
-      "region": "Hoenn",
-      "location": "Jagged Pass",
-      "secondsAgo": 11723,
-      "sourceId": 1791220861
     },
     {
       "monsterId": 352,
       "pokemon": "Kecleon",
       "region": "Sinnoh",
       "location": "Route 229",
-      "secondsAgo": 10211,
+      "secondsAgo": 11168,
       "sourceId": 1791222373
     }
   ],
