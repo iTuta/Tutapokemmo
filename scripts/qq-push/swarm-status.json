@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-05T17:20:44.752Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-05T17:25:42.625Z",
+  "swarms": [
+    {
+      "monsterId": 256,
+      "pokemon": "Combusken",
+      "region": "Hoenn",
+      "location": "Jagged Pass",
+      "sourceId": 1791222361,
+      "despawnTimestamp": 1791222360,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-05T17:46:01.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 314,
       "pokemon": "Illumise",
       "region": "Kanto",
       "location": "Water Path",
-      "secondsAgo": 8602,
+      "secondsAgo": 8900,
       "sourceId": 1791212242
     },
     {
@@ -15,31 +27,23 @@
       "pokemon": "Lapras",
       "region": "Johto",
       "location": "Union Cave",
-      "secondsAgo": 4823,
+      "secondsAgo": 5121,
       "sourceId": 1791216021
-    },
-    {
-      "monsterId": 439,
-      "pokemon": "Mime Jr.",
-      "region": "Hoenn",
-      "location": "Rusturf Tunnel",
-      "secondsAgo": 5458,
-      "sourceId": 1791215386
     },
     {
       "monsterId": 421,
       "pokemon": "Cherrim",
       "region": "Sinnoh",
       "location": "Lake Verity",
-      "secondsAgo": 9908,
-      "sourceId": 1791210936
+      "secondsAgo": 10205,
+      "sourceId": 1791210937
     },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 13194,
+      "secondsAgo": 13492,
       "sourceId": 1791207650
     }
   ],
