@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-05T00:40:48.089Z",
+  "fetchedAt": "2026-10-05T00:45:48.218Z",
   "swarms": [
-    {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Johto",
-      "location": "Cliff Cave",
-      "sourceId": 1791160880,
-      "despawnTimestamp": 1791160880,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-05T00:41:20.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
@@ -41,15 +30,23 @@
       "pokemon": "Plusle",
       "region": "Kanto",
       "location": "Route 2",
-      "secondsAgo": 5231,
+      "secondsAgo": 5531,
       "sourceId": 1791155617
+    },
+    {
+      "monsterId": 213,
+      "pokemon": "Shuckle",
+      "region": "Johto",
+      "location": "Cliff Cave",
+      "secondsAgo": 1767,
+      "sourceId": 1791159381
     },
     {
       "monsterId": 120,
       "pokemon": "Staryu",
       "region": "Hoenn",
       "location": "Route 106",
-      "secondsAgo": 2299,
+      "secondsAgo": 2599,
       "sourceId": 1791158549
     }
   ],
