@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-05T08:40:48.946Z",
+  "fetchedAt": "2026-10-05T08:45:50.207Z",
   "swarms": [
     {
       "monsterId": 2,
@@ -7,9 +7,20 @@
       "region": "Kanto",
       "location": "Route 5",
       "sourceId": 1791190499,
-      "despawnTimestamp": 1791190498,
+      "despawnTimestamp": 1791190499,
       "hasValuable": false,
       "timestampUtc": "2026-10-05T08:54:59.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 316,
+      "pokemon": "Gulpin",
+      "region": "Hoenn",
+      "location": "Route 110",
+      "sourceId": 1791191306,
+      "despawnTimestamp": 1791191306,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-05T09:08:26.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,23 +30,15 @@
       "pokemon": "Exeggcute",
       "region": "Johto",
       "location": "Route 30",
-      "secondsAgo": 5289,
-      "sourceId": 1791184359
-    },
-    {
-      "monsterId": 107,
-      "pokemon": "Hitmonchan",
-      "region": "Hoenn",
-      "location": "Fiery Path",
-      "secondsAgo": 22547,
-      "sourceId": 1791167101
+      "secondsAgo": 5590,
+      "sourceId": 1791184360
     },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 11123,
+      "secondsAgo": 11425,
       "sourceId": 1791178525
     }
   ],
