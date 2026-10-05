@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-05T05:40:45.634Z",
+  "fetchedAt": "2026-10-05T05:50:50.039Z",
   "swarms": [
     {
       "monsterId": 416,
@@ -7,9 +7,20 @@
       "region": "Kanto",
       "location": "Five Isle Meadow",
       "sourceId": 1791179518,
-      "despawnTimestamp": 1791179517,
+      "despawnTimestamp": 1791179518,
       "hasValuable": false,
       "timestampUtc": "2026-10-05T05:51:58.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 241,
+      "pokemon": "Miltank",
+      "region": "Johto",
+      "location": "Route 39",
+      "sourceId": 1791180726,
+      "despawnTimestamp": 1791180726,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-05T06:12:06.000Z",
       "publishedBy": ""
     },
     {
@@ -37,20 +48,12 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 358,
-      "pokemon": "Chimecho",
-      "region": "Johto",
-      "location": "Bellchime Trail",
-      "secondsAgo": 8930,
-      "sourceId": 1791169915
-    },
-    {
       "monsterId": 107,
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 11744,
-      "sourceId": 1791167101
+      "secondsAgo": 12348,
+      "sourceId": 1791167102
     }
   ],
   "alpha": {
