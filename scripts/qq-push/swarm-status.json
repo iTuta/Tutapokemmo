@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-05T14:31:05.987Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-05T14:35:44.242Z",
+  "swarms": [
+    {
+      "monsterId": 421,
+      "pokemon": "Cherrim",
+      "region": "Sinnoh",
+      "location": "Lake Verity",
+      "sourceId": 1791212436,
+      "despawnTimestamp": 1791212436,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-05T15:00:36.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Kanto",
       "location": "Kindle Road",
-      "secondsAgo": 10179,
+      "secondsAgo": 10458,
       "sourceId": 1791200486
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Bonsly",
       "region": "Johto",
       "location": "Ilex Forest",
-      "secondsAgo": 3674,
+      "secondsAgo": 3953,
       "sourceId": 1791206991
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Corsola",
       "region": "Hoenn",
       "location": "Route 128",
-      "secondsAgo": 1228,
-      "sourceId": 1791209437
-    },
-    {
-      "monsterId": 449,
-      "pokemon": "Hippopotas",
-      "region": "Sinnoh",
-      "location": "Maniac Tunnel",
-      "secondsAgo": 10835,
-      "sourceId": 1791199830
+      "secondsAgo": 1506,
+      "sourceId": 1791209438
     },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 3016,
-      "sourceId": 1791207649
+      "secondsAgo": 3294,
+      "sourceId": 1791207650
     }
   ],
   "alpha": {
