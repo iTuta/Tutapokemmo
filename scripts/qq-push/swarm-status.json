@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-05T12:01:03.046Z",
+  "fetchedAt": "2026-10-05T12:05:43.911Z",
   "swarms": [
-    {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Kanto",
-      "location": "Kindle Road",
-      "sourceId": 1791201685,
-      "despawnTimestamp": 1791201685,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-05T12:01:25.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 120,
       "pokemon": "Staryu",
       "region": "Hoenn",
       "location": "Route 106",
       "sourceId": 1791202441,
-      "despawnTimestamp": 1791202441,
+      "despawnTimestamp": 1791202440,
       "hasValuable": false,
       "timestampUtc": "2026-10-05T12:14:01.000Z",
       "publishedBy": ""
@@ -26,27 +15,35 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Kanto",
+      "location": "Kindle Road",
+      "secondsAgo": 1457,
+      "sourceId": 1791200486
+    },
+    {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 1724,
-      "sourceId": 1791199939
+      "secondsAgo": 2005,
+      "sourceId": 1791199938
     },
     {
       "monsterId": 449,
       "pokemon": "Hippopotas",
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
-      "secondsAgo": 1832,
-      "sourceId": 1791199831
+      "secondsAgo": 2113,
+      "sourceId": 1791199830
     },
     {
       "monsterId": 212,
       "pokemon": "Scizor",
       "region": "Unova",
       "location": "Route 14",
-      "secondsAgo": 5846,
+      "secondsAgo": 6126,
       "sourceId": 1791195817
     }
   ],
