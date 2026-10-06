@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-06T09:20:55.677Z",
+  "fetchedAt": "2026-10-06T09:25:43.744Z",
   "swarms": [
-    {
-      "monsterId": 142,
-      "pokemon": "Aerodactyl",
-      "region": "Kanto",
-      "location": "Rixy Chamber",
-      "sourceId": 1791278686,
-      "despawnTimestamp": 1791278685,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-06T09:24:46.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 142,
+      "pokemon": "Aerodactyl",
+      "region": "Kanto",
+      "location": "Rixy Chamber",
+      "secondsAgo": 1557,
+      "sourceId": 1791277186
+    },
+    {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Johto",
       "location": "Route 41",
-      "secondsAgo": 5746,
+      "secondsAgo": 6034,
       "sourceId": 1791272709
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Glaceon",
       "region": "Sinnoh",
       "location": "Route 217",
-      "secondsAgo": 4874,
+      "secondsAgo": 5162,
       "sourceId": 1791273581
     }
   ],
