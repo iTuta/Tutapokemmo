@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-06T02:25:58.547Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-06T02:30:53.807Z",
+  "swarms": [
     {
-      "monsterId": 3,
-      "pokemon": "Venusaur",
+      "monsterId": 5,
+      "pokemon": "Charmeleon",
       "region": "Kanto",
-      "location": "Berry Forest",
-      "secondsAgo": 12903,
-      "sourceId": 1791240655
-    },
+      "location": "Rock Tunnel",
+      "sourceId": 1791255101,
+      "despawnTimestamp": 1791255100,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-06T02:51:41.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 158,
       "pokemon": "Totodile",
       "region": "Johto",
       "location": "Route 32",
-      "secondsAgo": 2362,
+      "secondsAgo": 2657,
       "sourceId": 1791251196
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Wailord",
       "region": "Hoenn",
       "location": "Route 129",
-      "secondsAgo": 6075,
+      "secondsAgo": 6370,
       "sourceId": 1791247483
     },
     {
@@ -31,15 +35,15 @@
       "pokemon": "Snorlax",
       "region": "Sinnoh",
       "location": "Victory Road",
-      "secondsAgo": 4891,
-      "sourceId": 1791248667
+      "secondsAgo": 5187,
+      "sourceId": 1791248666
     },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 2702,
+      "secondsAgo": 2997,
       "sourceId": 1791250856
     }
   ],
