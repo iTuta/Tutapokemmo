@@ -1,36 +1,13 @@
 {
-  "fetchedAt": "2026-10-06T08:20:44.920Z",
-  "swarms": [
-    {
-      "monsterId": 471,
-      "pokemon": "Glaceon",
-      "region": "Sinnoh",
-      "location": "Route 217",
-      "sourceId": 1791275080,
-      "despawnTimestamp": 1791275080,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-06T08:24:40.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 162,
-      "pokemon": "Furret",
-      "region": "Unova",
-      "location": "Abundant Shrine",
-      "sourceId": 1791274988,
-      "despawnTimestamp": 1791274987,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-06T08:23:08.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-06T08:25:54.340Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "secondsAgo": 9758,
+      "secondsAgo": 10068,
       "sourceId": 1791265086
     },
     {
@@ -38,8 +15,24 @@
       "pokemon": "Sharpedo",
       "region": "Johto",
       "location": "Route 41",
-      "secondsAgo": 2135,
+      "secondsAgo": 2445,
       "sourceId": 1791272709
+    },
+    {
+      "monsterId": 471,
+      "pokemon": "Glaceon",
+      "region": "Sinnoh",
+      "location": "Route 217",
+      "secondsAgo": 1573,
+      "sourceId": 1791273581
+    },
+    {
+      "monsterId": 162,
+      "pokemon": "Furret",
+      "region": "Unova",
+      "location": "Abundant Shrine",
+      "secondsAgo": 1665,
+      "sourceId": 1791273489
     }
   ],
   "alpha": {
