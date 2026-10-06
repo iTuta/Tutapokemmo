@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-06T12:45:48.319Z",
+  "fetchedAt": "2026-10-06T12:50:49.982Z",
   "swarms": [
     {
       "monsterId": 157,
@@ -7,9 +7,20 @@
       "region": "Johto",
       "location": "Route 45",
       "sourceId": 1791291622,
-      "despawnTimestamp": 1791291622,
+      "despawnTimestamp": 1791291621,
       "hasValuable": false,
       "timestampUtc": "2026-10-06T13:00:22.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 468,
+      "pokemon": "Togekiss",
+      "region": "Hoenn",
+      "location": "Sky Pillar",
+      "sourceId": 1791292365,
+      "despawnTimestamp": 1791292365,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-06T13:12:45.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,32 +30,24 @@
       "pokemon": "Wailord",
       "region": "Kanto",
       "location": "Green Path",
-      "secondsAgo": 1890,
+      "secondsAgo": 2191,
       "sourceId": 1791288858
-    },
-    {
-      "monsterId": 352,
-      "pokemon": "Kecleon",
-      "region": "Hoenn",
-      "location": "Route 120",
-      "secondsAgo": 17358,
-      "sourceId": 1791273390
     },
     {
       "monsterId": 449,
       "pokemon": "Hippopotas",
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
-      "secondsAgo": 1627,
-      "sourceId": 1791289121
+      "secondsAgo": 1929,
+      "sourceId": 1791289120
     },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 3659,
-      "sourceId": 1791287089
+      "secondsAgo": 3961,
+      "sourceId": 1791287088
     }
   ],
   "alpha": {
