@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-06T22:50:53.998Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-06T22:56:02.481Z",
+  "swarms": [
+    {
+      "monsterId": 312,
+      "pokemon": "Minun",
+      "region": "Unova",
+      "location": "Route 6",
+      "sourceId": 1791328644,
+      "despawnTimestamp": 1791328644,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-06T23:17:24.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 346,
       "pokemon": "Cradily",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 10744,
+      "secondsAgo": 11053,
       "sourceId": 1791316309
     },
     {
@@ -15,15 +27,15 @@
       "pokemon": "Vigoroth",
       "region": "Johto",
       "location": "Ruins of Alph",
-      "secondsAgo": 7370,
-      "sourceId": 1791319683
+      "secondsAgo": 7678,
+      "sourceId": 1791319684
     },
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Hoenn",
       "location": "Route 115",
-      "secondsAgo": 6073,
+      "secondsAgo": 6382,
       "sourceId": 1791320980
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Prinplup",
       "region": "Sinnoh",
       "location": "Route 220",
-      "secondsAgo": 1599,
-      "sourceId": 1791325454
-    },
-    {
-      "monsterId": 331,
-      "pokemon": "Cacnea",
-      "region": "Unova",
-      "location": "Route 4",
-      "secondsAgo": 11081,
-      "sourceId": 1791315972
+      "secondsAgo": 1907,
+      "sourceId": 1791325455
     }
   ],
   "alpha": {
