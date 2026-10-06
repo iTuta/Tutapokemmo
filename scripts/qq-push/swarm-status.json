@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-10-06T14:20:52.150Z",
+  "fetchedAt": "2026-10-06T14:25:43.962Z",
   "swarms": [
+    {
+      "monsterId": 161,
+      "pokemon": "Sentret",
+      "region": "Kanto",
+      "location": "Route 1",
+      "sourceId": 1791298206,
+      "despawnTimestamp": 1791298205,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-06T14:50:06.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 223,
       "pokemon": "Remoraid",
       "region": "Hoenn",
       "location": "Route 108",
       "sourceId": 1791297982,
-      "despawnTimestamp": 1791297982,
+      "despawnTimestamp": 1791297981,
       "hasValuable": false,
       "timestampUtc": "2026-10-06T14:46:22.000Z",
       "publishedBy": ""
@@ -18,7 +29,7 @@
       "region": "Unova",
       "location": "Desert Resort",
       "sourceId": 1791296795,
-      "despawnTimestamp": 1791296795,
+      "despawnTimestamp": 1791296794,
       "hasValuable": false,
       "timestampUtc": "2026-10-06T14:26:35.000Z",
       "publishedBy": ""
@@ -26,28 +37,12 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 416,
-      "pokemon": "Vespiquen",
-      "region": "Kanto",
-      "location": "Five Isle Meadow",
-      "secondsAgo": 3784,
-      "sourceId": 1791292668
-    },
-    {
-      "monsterId": 468,
-      "pokemon": "Togekiss",
-      "region": "Hoenn",
-      "location": "Sky Pillar",
-      "secondsAgo": 5586,
-      "sourceId": 1791290866
-    },
-    {
       "monsterId": 449,
       "pokemon": "Hippopotas",
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
-      "secondsAgo": 7331,
-      "sourceId": 1791289121
+      "secondsAgo": 7623,
+      "sourceId": 1791289120
     }
   ],
   "alpha": {
