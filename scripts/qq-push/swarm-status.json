@@ -1,36 +1,21 @@
 {
-  "fetchedAt": "2026-10-06T06:00:58.134Z",
-  "swarms": [
+  "fetchedAt": "2026-10-06T06:05:45.041Z",
+  "swarms": [],
+  "lastSeen": [
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "sourceId": 1791266585,
-      "despawnTimestamp": 1791266585,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-06T06:03:05.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1659,
+      "sourceId": 1791265086
     },
-    {
-      "monsterId": 342,
-      "pokemon": "Crawdaunt",
-      "region": "Unova",
-      "location": "Route 3",
-      "sourceId": 1791266546,
-      "despawnTimestamp": 1791266546,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-06T06:02:26.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
     {
       "monsterId": 474,
       "pokemon": "Porygon-Z",
       "region": "Johto",
       "location": "Team Rocket HQ",
-      "secondsAgo": 7654,
+      "secondsAgo": 7941,
       "sourceId": 1791258804
     },
     {
@@ -38,7 +23,7 @@
       "pokemon": "Croagunk",
       "region": "Hoenn",
       "location": "Route 121",
-      "secondsAgo": 11240,
+      "secondsAgo": 11527,
       "sourceId": 1791255218
     },
     {
@@ -46,8 +31,16 @@
       "pokemon": "Mr. Mime",
       "region": "Sinnoh",
       "location": "Route 224",
-      "secondsAgo": 10890,
+      "secondsAgo": 11177,
       "sourceId": 1791255568
+    },
+    {
+      "monsterId": 342,
+      "pokemon": "Crawdaunt",
+      "region": "Unova",
+      "location": "Route 3",
+      "secondsAgo": 1698,
+      "sourceId": 1791265047
     }
   ],
   "alpha": {
