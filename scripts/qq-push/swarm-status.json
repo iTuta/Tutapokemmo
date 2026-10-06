@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-06T20:30:50.859Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-06T20:40:47.604Z",
+  "swarms": [
+    {
+      "monsterId": 359,
+      "pokemon": "Absol",
+      "region": "Sinnoh",
+      "location": "Mt. Coronet",
+      "sourceId": 1791320167,
+      "despawnTimestamp": 1791320166,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-06T20:56:07.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 346,
       "pokemon": "Cradily",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 2341,
+      "secondsAgo": 2938,
       "sourceId": 1791316309
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Lucario",
       "region": "Johto",
       "location": "Mt. Silver Cave",
-      "secondsAgo": 4972,
+      "secondsAgo": 5569,
       "sourceId": 1791313678
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 7900,
-      "sourceId": 1791310750
-    },
-    {
-      "monsterId": 424,
-      "pokemon": "Ambipom",
-      "region": "Sinnoh",
-      "location": "Route 216",
-      "secondsAgo": 5987,
-      "sourceId": 1791312663
+      "secondsAgo": 8496,
+      "sourceId": 1791310751
     },
     {
       "monsterId": 331,
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 2678,
-      "sourceId": 1791315972
+      "secondsAgo": 3274,
+      "sourceId": 1791315973
     }
   ],
   "alpha": {
