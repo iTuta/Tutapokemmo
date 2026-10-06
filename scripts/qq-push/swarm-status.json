@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-06T13:15:58.556Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-06T13:20:48.895Z",
+  "swarms": [
     {
-      "monsterId": 321,
-      "pokemon": "Wailord",
+      "monsterId": 416,
+      "pokemon": "Vespiquen",
       "region": "Kanto",
-      "location": "Green Path",
-      "secondsAgo": 3700,
-      "sourceId": 1791288858
-    },
+      "location": "Five Isle Meadow",
+      "sourceId": 1791294168,
+      "despawnTimestamp": 1791294167,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-06T13:42:48.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 468,
       "pokemon": "Togekiss",
       "region": "Hoenn",
       "location": "Sky Pillar",
-      "secondsAgo": 1692,
+      "secondsAgo": 1982,
       "sourceId": 1791290866
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Hippopotas",
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
-      "secondsAgo": 3438,
+      "secondsAgo": 3728,
       "sourceId": 1791289120
     },
     {
@@ -31,8 +35,8 @@
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 5469,
-      "sourceId": 1791287089
+      "secondsAgo": 5760,
+      "sourceId": 1791287088
     }
   ],
   "alpha": {
