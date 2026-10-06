@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-06T10:20:59.646Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-06T10:25:45.858Z",
+  "swarms": [
+    {
+      "monsterId": 125,
+      "pokemon": "Electabuzz",
+      "region": "Unova",
+      "location": "Chargestone Cave",
+      "sourceId": 1791283680,
+      "despawnTimestamp": 1791283679,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-06T10:48:00.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 142,
       "pokemon": "Aerodactyl",
       "region": "Kanto",
       "location": "Rixy Chamber",
-      "secondsAgo": 4873,
+      "secondsAgo": 5159,
       "sourceId": 1791277186
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Sharpedo",
       "region": "Johto",
       "location": "Route 41",
-      "secondsAgo": 9350,
+      "secondsAgo": 9636,
       "sourceId": 1791272709
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Kecleon",
       "region": "Hoenn",
       "location": "Route 120",
-      "secondsAgo": 8669,
+      "secondsAgo": 8955,
       "sourceId": 1791273390
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 2596,
-      "sourceId": 1791279463
-    },
-    {
-      "monsterId": 335,
-      "pokemon": "Zangoose",
-      "region": "Unova",
-      "location": "Route 7",
-      "secondsAgo": 3958,
-      "sourceId": 1791278101
+      "secondsAgo": 2883,
+      "sourceId": 1791279462
     }
   ],
   "alpha": {
