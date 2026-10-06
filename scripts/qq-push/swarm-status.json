@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-10-05T23:55:48.787Z",
-  "swarms": [
-    {
-      "monsterId": 257,
-      "pokemon": "Blaziken",
-      "region": "Hoenn",
-      "location": "Magma Hideout",
-      "sourceId": 1791244717,
-      "despawnTimestamp": 1791244717,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-05T23:58:37.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-06T00:01:08.001Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 3,
       "pokemon": "Venusaur",
       "region": "Kanto",
       "location": "Berry Forest",
-      "secondsAgo": 3893,
+      "secondsAgo": 4212,
       "sourceId": 1791240655
     },
     {
@@ -27,15 +15,23 @@
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 5612,
+      "secondsAgo": 5931,
       "sourceId": 1791238936
+    },
+    {
+      "monsterId": 257,
+      "pokemon": "Blaziken",
+      "region": "Hoenn",
+      "location": "Magma Hideout",
+      "secondsAgo": 1649,
+      "sourceId": 1791243218
     },
     {
       "monsterId": 351,
       "pokemon": "Castform",
       "region": "Sinnoh",
       "location": "Route 210",
-      "secondsAgo": 2307,
+      "secondsAgo": 2626,
       "sourceId": 1791242241
     },
     {
@@ -43,7 +39,7 @@
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 19924,
+      "secondsAgo": 20243,
       "sourceId": 1791224624
     }
   ],
