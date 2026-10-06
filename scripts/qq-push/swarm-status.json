@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-06T21:05:44.750Z",
+  "fetchedAt": "2026-10-06T21:10:40.079Z",
   "swarms": [
     {
       "monsterId": 288,
@@ -7,36 +7,39 @@
       "region": "Johto",
       "location": "Ruins of Alph",
       "sourceId": 1791321183,
-      "despawnTimestamp": 1791321182,
+      "despawnTimestamp": 1791321183,
       "hasValuable": false,
       "timestampUtc": "2026-10-06T21:13:03.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 441,
+      "pokemon": "Chatot",
+      "region": "Hoenn",
+      "location": "Route 115",
+      "sourceId": 1791322480,
+      "despawnTimestamp": 1791322480,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-06T21:34:40.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 211,
-      "pokemon": "Qwilfish",
-      "region": "Hoenn",
-      "location": "Route 125",
-      "secondsAgo": 9994,
-      "sourceId": 1791310750
-    },
-    {
       "monsterId": 359,
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "secondsAgo": 2077,
-      "sourceId": 1791318667
+      "secondsAgo": 2372,
+      "sourceId": 1791318668
     },
     {
       "monsterId": 331,
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 4772,
-      "sourceId": 1791315972
+      "secondsAgo": 5067,
+      "sourceId": 1791315973
     }
   ],
   "alpha": {
