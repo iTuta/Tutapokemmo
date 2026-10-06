@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-10-06T18:50:54.790Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-06T18:55:49.947Z",
+  "swarms": [
+    {
+      "monsterId": 424,
+      "pokemon": "Ambipom",
+      "region": "Sinnoh",
+      "location": "Route 216",
+      "sourceId": 1791314163,
+      "despawnTimestamp": 1791314162,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-06T19:16:03.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 141,
       "pokemon": "Kabutops",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 3660,
-      "sourceId": 1791308994
+      "secondsAgo": 3956,
+      "sourceId": 1791308993
     },
     {
       "monsterId": 372,
       "pokemon": "Shelgon",
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
-      "secondsAgo": 9884,
+      "secondsAgo": 10179,
       "sourceId": 1791302770
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 1904,
+      "secondsAgo": 2199,
       "sourceId": 1791310750
-    },
-    {
-      "monsterId": 122,
-      "pokemon": "Mr. Mime",
-      "region": "Sinnoh",
-      "location": "Route 224",
-      "secondsAgo": 6834,
-      "sourceId": 1791305820
     },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
       "region": "Unova",
       "location": "Undella Bay",
-      "secondsAgo": 7816,
+      "secondsAgo": 8111,
       "sourceId": 1791304838
     }
   ],
