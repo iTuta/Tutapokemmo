@@ -1,62 +1,50 @@
 {
-  "fetchedAt": "2026-10-06T04:15:45.134Z",
-  "swarms": [
-    {
-      "monsterId": 474,
-      "pokemon": "Porygon-Z",
-      "region": "Johto",
-      "location": "Team Rocket HQ",
-      "sourceId": 1791260303,
-      "despawnTimestamp": 1791260303,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-06T04:18:23.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-06T04:20:41.908Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 5,
       "pokemon": "Charmeleon",
       "region": "Kanto",
       "location": "Rock Tunnel",
-      "secondsAgo": 6543,
-      "sourceId": 1791253602
+      "secondsAgo": 6840,
+      "sourceId": 1791253601
+    },
+    {
+      "monsterId": 474,
+      "pokemon": "Porygon-Z",
+      "region": "Johto",
+      "location": "Team Rocket HQ",
+      "secondsAgo": 1638,
+      "sourceId": 1791258803
     },
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
       "region": "Hoenn",
       "location": "Route 121",
-      "secondsAgo": 4927,
-      "sourceId": 1791255218
-    },
-    {
-      "monsterId": 122,
-      "pokemon": "Mr. Mime",
-      "region": "Sinnoh",
-      "location": "Route 224",
-      "secondsAgo": 4577,
-      "sourceId": 1791255568
+      "secondsAgo": 5224,
+      "sourceId": 1791255217
     },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 9289,
+      "secondsAgo": 9585,
       "sourceId": 1791250856
     }
   ],
   "alpha": {
-    "monsterId": 132,
-    "pokemon": "Ditto",
-    "region": "Unova",
-    "location": "Route 9",
-    "sourceId": 1791218472,
-    "despawnTimestamp": 1791235572,
+    "monsterId": 77,
+    "pokemon": "Ponyta",
+    "region": "Sinnoh",
+    "location": "Route 203",
+    "sourceId": 1791247666,
+    "despawnTimestamp": 1791264766,
     "hasValuable": false,
-    "timestampUtc": "2026-10-05T16:41:12.000Z",
-    "timestampRaw": "2026-10-05T16:41:12.000Z",
+    "timestampUtc": "2026-10-06T00:47:46.000Z",
+    "timestampRaw": "2026-10-06T00:47:46.000Z",
     "publishedBy": ""
   }
 }
