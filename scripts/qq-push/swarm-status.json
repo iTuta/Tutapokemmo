@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-06T00:15:42.658Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-06T00:20:49.979Z",
+  "swarms": [
+    {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Unova",
+      "location": "Guidance Chamber",
+      "sourceId": 1791247475,
+      "despawnTimestamp": 1791247474,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-06T00:44:35.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 3,
       "pokemon": "Venusaur",
       "region": "Kanto",
       "location": "Berry Forest",
-      "secondsAgo": 5087,
+      "secondsAgo": 5394,
       "sourceId": 1791240655
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 6806,
+      "secondsAgo": 7113,
       "sourceId": 1791238936
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Blaziken",
       "region": "Hoenn",
       "location": "Magma Hideout",
-      "secondsAgo": 2524,
-      "sourceId": 1791243218
+      "secondsAgo": 2832,
+      "sourceId": 1791243217
     },
     {
       "monsterId": 351,
       "pokemon": "Castform",
       "region": "Sinnoh",
       "location": "Route 210",
-      "secondsAgo": 3501,
+      "secondsAgo": 3808,
       "sourceId": 1791242241
-    },
-    {
-      "monsterId": 193,
-      "pokemon": "Yanma",
-      "region": "Unova",
-      "location": "Pinwheel Forest",
-      "secondsAgo": 21118,
-      "sourceId": 1791224624
     }
   ],
   "alpha": {
