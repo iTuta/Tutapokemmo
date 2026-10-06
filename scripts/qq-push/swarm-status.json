@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-06T20:46:04.542Z",
+  "fetchedAt": "2026-10-06T20:50:46.308Z",
   "swarms": [
+    {
+      "monsterId": 288,
+      "pokemon": "Vigoroth",
+      "region": "Johto",
+      "location": "Ruins of Alph",
+      "sourceId": 1791321183,
+      "despawnTimestamp": 1791321183,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-06T21:13:03.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 359,
       "pokemon": "Absol",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Johto",
-      "location": "Mt. Silver Cave",
-      "secondsAgo": 5886,
-      "sourceId": 1791313678
-    },
-    {
       "monsterId": 211,
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 8813,
+      "secondsAgo": 9095,
       "sourceId": 1791310751
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 3591,
+      "secondsAgo": 3873,
       "sourceId": 1791315973
     }
   ],
