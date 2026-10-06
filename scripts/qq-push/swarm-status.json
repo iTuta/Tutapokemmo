@@ -1,33 +1,29 @@
 {
-  "fetchedAt": "2026-10-06T21:30:50.484Z",
-  "swarms": [
-    {
-      "monsterId": 441,
-      "pokemon": "Chatot",
-      "region": "Hoenn",
-      "location": "Route 115",
-      "sourceId": 1791322480,
-      "despawnTimestamp": 1791322479,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-06T21:34:40.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-06T21:35:41.288Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 288,
       "pokemon": "Vigoroth",
       "region": "Johto",
       "location": "Ruins of Alph",
-      "secondsAgo": 2566,
+      "secondsAgo": 2857,
       "sourceId": 1791319684
+    },
+    {
+      "monsterId": 441,
+      "pokemon": "Chatot",
+      "region": "Hoenn",
+      "location": "Route 115",
+      "secondsAgo": 1560,
+      "sourceId": 1791320981
     },
     {
       "monsterId": 359,
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "secondsAgo": 3583,
+      "secondsAgo": 3874,
       "sourceId": 1791318667
     },
     {
@@ -35,7 +31,7 @@
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 6277,
+      "secondsAgo": 6568,
       "sourceId": 1791315973
     }
   ],
