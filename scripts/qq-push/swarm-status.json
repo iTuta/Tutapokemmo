@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-06T01:46:17.954Z",
+  "fetchedAt": "2026-10-06T01:51:28.895Z",
   "swarms": [
+    {
+      "monsterId": 158,
+      "pokemon": "Totodile",
+      "region": "Johto",
+      "location": "Route 32",
+      "sourceId": 1791252696,
+      "despawnTimestamp": 1791252695,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-06T02:11:36.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
@@ -19,23 +30,15 @@
       "pokemon": "Venusaur",
       "region": "Kanto",
       "location": "Berry Forest",
-      "secondsAgo": 10522,
+      "secondsAgo": 10833,
       "sourceId": 1791240655
-    },
-    {
-      "monsterId": 290,
-      "pokemon": "Nincada",
-      "region": "Johto",
-      "location": "Route 46",
-      "secondsAgo": 12241,
-      "sourceId": 1791238936
     },
     {
       "monsterId": 321,
       "pokemon": "Wailord",
       "region": "Hoenn",
       "location": "Route 129",
-      "secondsAgo": 3694,
+      "secondsAgo": 4005,
       "sourceId": 1791247483
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Snorlax",
       "region": "Sinnoh",
       "location": "Victory Road",
-      "secondsAgo": 2511,
+      "secondsAgo": 2822,
       "sourceId": 1791248666
     }
   ],
