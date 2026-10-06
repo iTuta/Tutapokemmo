@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-06T12:15:52.795Z",
+  "fetchedAt": "2026-10-06T12:20:58.012Z",
   "swarms": [
     {
       "monsterId": 321,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-06T12:34:17.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 449,
+      "pokemon": "Hippopotas",
+      "region": "Sinnoh",
+      "location": "Maniac Tunnel",
+      "sourceId": 1791290440,
+      "despawnTimestamp": 1791290439,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-06T12:40:40.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Barboach",
       "region": "Johto",
       "location": "Slowpoke Well",
-      "secondsAgo": 4848,
+      "secondsAgo": 5153,
       "sourceId": 1791284104
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Kecleon",
       "region": "Hoenn",
       "location": "Route 120",
-      "secondsAgo": 15562,
-      "sourceId": 1791273390
-    },
-    {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Sinnoh",
-      "location": "Route 219",
-      "secondsAgo": 5054,
-      "sourceId": 1791283898
+      "secondsAgo": 15868,
+      "sourceId": 1791273389
     },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 1864,
+      "secondsAgo": 2169,
       "sourceId": 1791287088
     }
   ],
