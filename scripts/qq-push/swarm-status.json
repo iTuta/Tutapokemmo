@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-06T16:25:46.021Z",
+  "fetchedAt": "2026-10-06T16:30:52.185Z",
   "swarms": [
     {
       "monsterId": 372,
@@ -7,20 +7,9 @@
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
       "sourceId": 1791304270,
-      "despawnTimestamp": 1791304269,
+      "despawnTimestamp": 1791304270,
       "hasValuable": false,
       "timestampUtc": "2026-10-06T16:31:10.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Hoenn",
-      "location": "Shoal Cave",
-      "sourceId": 1791303970,
-      "despawnTimestamp": 1791303969,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-06T16:26:10.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,24 +19,32 @@
       "pokemon": "Sentret",
       "region": "Kanto",
       "location": "Route 1",
-      "secondsAgo": 7239,
-      "sourceId": 1791296706
+      "secondsAgo": 7545,
+      "sourceId": 1791296707
+    },
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Hoenn",
+      "location": "Shoal Cave",
+      "secondsAgo": 1781,
+      "sourceId": 1791302471
     },
     {
       "monsterId": 449,
       "pokemon": "Hippopotas",
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
-      "secondsAgo": 14825,
-      "sourceId": 1791289120
+      "secondsAgo": 15131,
+      "sourceId": 1791289121
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 8650,
-      "sourceId": 1791295295
+      "secondsAgo": 8956,
+      "sourceId": 1791295296
     }
   ],
   "alpha": {
