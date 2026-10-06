@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-06T08:55:41.830Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-06T09:01:29.902Z",
+  "swarms": [
     {
-      "monsterId": 127,
-      "pokemon": "Pinsir",
+      "monsterId": 142,
+      "pokemon": "Aerodactyl",
       "region": "Kanto",
-      "location": "Route 11",
-      "secondsAgo": 11855,
-      "sourceId": 1791265086
-    },
+      "location": "Rixy Chamber",
+      "sourceId": 1791278686,
+      "despawnTimestamp": 1791278685,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-06T09:24:46.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Johto",
       "location": "Route 41",
-      "secondsAgo": 4232,
+      "secondsAgo": 4580,
       "sourceId": 1791272709
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Glaceon",
       "region": "Sinnoh",
       "location": "Route 217",
-      "secondsAgo": 3360,
+      "secondsAgo": 3708,
       "sourceId": 1791273581
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Furret",
       "region": "Unova",
       "location": "Abundant Shrine",
-      "secondsAgo": 3452,
+      "secondsAgo": 3800,
       "sourceId": 1791273489
     }
   ],
