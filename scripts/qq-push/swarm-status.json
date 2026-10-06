@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-06T17:01:05.094Z",
+  "fetchedAt": "2026-10-06T17:05:44.280Z",
   "swarms": [
     {
       "monsterId": 122,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-06T17:22:00.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 222,
-      "pokemon": "Corsola",
-      "region": "Unova",
-      "location": "Undella Bay",
-      "sourceId": 1791306338,
-      "despawnTimestamp": 1791306338,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-06T17:05:38.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Sentret",
       "region": "Kanto",
       "location": "Route 1",
-      "secondsAgo": 9358,
+      "secondsAgo": 9637,
       "sourceId": 1791296707
     },
     {
@@ -38,7 +27,7 @@
       "pokemon": "Shelgon",
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
-      "secondsAgo": 3294,
+      "secondsAgo": 3573,
       "sourceId": 1791302771
     },
     {
@@ -46,8 +35,16 @@
       "pokemon": "Lapras",
       "region": "Hoenn",
       "location": "Shoal Cave",
-      "secondsAgo": 3594,
+      "secondsAgo": 3873,
       "sourceId": 1791302471
+    },
+    {
+      "monsterId": 222,
+      "pokemon": "Corsola",
+      "region": "Unova",
+      "location": "Undella Bay",
+      "secondsAgo": 1506,
+      "sourceId": 1791304838
     }
   ],
   "alpha": {
