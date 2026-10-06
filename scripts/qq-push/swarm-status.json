@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-06T14:25:43.962Z",
+  "fetchedAt": "2026-10-06T14:30:56.201Z",
   "swarms": [
     {
       "monsterId": 161,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Route 1",
       "sourceId": 1791298206,
-      "despawnTimestamp": 1791298205,
+      "despawnTimestamp": 1791298206,
       "hasValuable": false,
       "timestampUtc": "2026-10-06T14:50:06.000Z",
       "publishedBy": ""
@@ -18,31 +18,36 @@
       "region": "Hoenn",
       "location": "Route 108",
       "sourceId": 1791297982,
-      "despawnTimestamp": 1791297981,
+      "despawnTimestamp": 1791297982,
       "hasValuable": false,
       "timestampUtc": "2026-10-06T14:46:22.000Z",
       "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 157,
+      "pokemon": "Typhlosion",
+      "region": "Johto",
+      "location": "Route 45",
+      "secondsAgo": 6933,
+      "sourceId": 1791290123
+    },
+    {
+      "monsterId": 449,
+      "pokemon": "Hippopotas",
+      "region": "Sinnoh",
+      "location": "Maniac Tunnel",
+      "secondsAgo": 7935,
+      "sourceId": 1791289121
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "sourceId": 1791296795,
-      "despawnTimestamp": 1791296794,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-06T14:26:35.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 449,
-      "pokemon": "Hippopotas",
-      "region": "Sinnoh",
-      "location": "Maniac Tunnel",
-      "secondsAgo": 7623,
-      "sourceId": 1791289120
+      "secondsAgo": 1760,
+      "sourceId": 1791295296
     }
   ],
   "alpha": {
@@ -55,6 +60,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-10-06T09:43:46.000Z",
     "timestampRaw": "2026-10-06T09:43:46.000Z",
-    "publishedBy": ""
+    "publishedBy": "DanieWC"
   }
 }
