@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-06T08:05:47.591Z",
+  "fetchedAt": "2026-10-06T08:11:26.936Z",
   "swarms": [
-    {
-      "monsterId": 319,
-      "pokemon": "Sharpedo",
-      "region": "Johto",
-      "location": "Route 41",
-      "sourceId": 1791274208,
-      "despawnTimestamp": 1791274208,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-06T08:10:08.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 352,
       "pokemon": "Kecleon",
       "region": "Hoenn",
       "location": "Route 120",
       "sourceId": 1791274889,
-      "despawnTimestamp": 1791274889,
+      "despawnTimestamp": 1791274888,
       "hasValuable": false,
       "timestampUtc": "2026-10-06T08:21:29.000Z",
       "publishedBy": ""
@@ -52,8 +41,16 @@
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "secondsAgo": 8861,
+      "secondsAgo": 9200,
       "sourceId": 1791265086
+    },
+    {
+      "monsterId": 319,
+      "pokemon": "Sharpedo",
+      "region": "Johto",
+      "location": "Route 41",
+      "secondsAgo": 1577,
+      "sourceId": 1791272709
     }
   ],
   "alpha": {
