@@ -1,29 +1,41 @@
 {
-  "fetchedAt": "2026-10-06T01:30:53.681Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-06T01:40:58.036Z",
+  "swarms": [
+    {
+      "monsterId": 214,
+      "pokemon": "Heracross",
+      "region": "Unova",
+      "location": "Route 10",
+      "sourceId": 1791252355,
+      "despawnTimestamp": 1791252356,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-06T02:05:55.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 3,
       "pokemon": "Venusaur",
       "region": "Kanto",
       "location": "Berry Forest",
-      "secondsAgo": 9598,
-      "sourceId": 1791240655
+      "secondsAgo": 10202,
+      "sourceId": 1791240656
     },
     {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 11317,
-      "sourceId": 1791238936
+      "secondsAgo": 11921,
+      "sourceId": 1791238937
     },
     {
       "monsterId": 321,
       "pokemon": "Wailord",
       "region": "Hoenn",
       "location": "Route 129",
-      "secondsAgo": 2770,
+      "secondsAgo": 3375,
       "sourceId": 1791247483
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Snorlax",
       "region": "Sinnoh",
       "location": "Victory Road",
-      "secondsAgo": 1587,
-      "sourceId": 1791248666
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Unova",
-      "location": "Guidance Chamber",
-      "secondsAgo": 2768,
-      "sourceId": 1791247485
+      "secondsAgo": 2191,
+      "sourceId": 1791248667
     }
   ],
   "alpha": {
