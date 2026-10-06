@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-06T11:41:00.150Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-06T11:45:49.524Z",
+  "swarms": [
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Unova",
+      "location": "Route 1",
+      "sourceId": 1791288588,
+      "despawnTimestamp": 1791288588,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-06T12:09:48.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Kanto",
       "location": "Treasure Beach",
-      "secondsAgo": 3955,
+      "secondsAgo": 4244,
       "sourceId": 1791282905
     },
     {
@@ -15,15 +27,15 @@
       "pokemon": "Barboach",
       "region": "Johto",
       "location": "Slowpoke Well",
-      "secondsAgo": 2755,
-      "sourceId": 1791284105
+      "secondsAgo": 3045,
+      "sourceId": 1791284104
     },
     {
       "monsterId": 352,
       "pokemon": "Kecleon",
       "region": "Hoenn",
       "location": "Route 120",
-      "secondsAgo": 13470,
+      "secondsAgo": 13759,
       "sourceId": 1791273390
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Shuckle",
       "region": "Sinnoh",
       "location": "Route 219",
-      "secondsAgo": 2961,
-      "sourceId": 1791283899
-    },
-    {
-      "monsterId": 125,
-      "pokemon": "Electabuzz",
-      "region": "Unova",
-      "location": "Chargestone Cave",
-      "secondsAgo": 4679,
-      "sourceId": 1791282181
+      "secondsAgo": 3251,
+      "sourceId": 1791283898
     }
   ],
   "alpha": {
