@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-07T08:05:39.987Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-07T08:10:57.172Z",
+  "swarms": [
+    {
+      "monsterId": 241,
+      "pokemon": "Miltank",
+      "region": "Unova",
+      "location": "Village Bridge",
+      "sourceId": 1791361952,
+      "despawnTimestamp": 1791361952,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-07T08:32:32.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 346,
       "pokemon": "Cradily",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 8241,
+      "secondsAgo": 8559,
       "sourceId": 1791352098
     },
     {
@@ -15,15 +27,15 @@
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 3237,
-      "sourceId": 1791357102
+      "secondsAgo": 3554,
+      "sourceId": 1791357103
     },
     {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 4893,
+      "secondsAgo": 5211,
       "sourceId": 1791355446
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Hippopotas",
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
-      "secondsAgo": 9812,
-      "sourceId": 1791350527
-    },
-    {
-      "monsterId": 312,
-      "pokemon": "Minun",
-      "region": "Unova",
-      "location": "Route 6",
-      "secondsAgo": 26019,
-      "sourceId": 1791334320
+      "secondsAgo": 10129,
+      "sourceId": 1791350528
     }
   ],
   "alpha": {
