@@ -1,45 +1,49 @@
 {
-  "fetchedAt": "2026-10-07T02:00:57.261Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-07T02:05:42.988Z",
+  "swarms": [
+    {
+      "monsterId": 352,
+      "pokemon": "Kecleon",
+      "region": "Hoenn",
+      "location": "Route 120",
+      "sourceId": 1791340051,
+      "despawnTimestamp": 1791340050,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-07T02:27:31.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 359,
       "pokemon": "Absol",
       "region": "Kanto",
       "location": "Canyon Entrance",
-      "secondsAgo": 4084,
-      "sourceId": 1791334373
+      "secondsAgo": 4370,
+      "sourceId": 1791334372
     },
     {
       "monsterId": 469,
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 7480,
-      "sourceId": 1791330977
-    },
-    {
-      "monsterId": 370,
-      "pokemon": "Luvdisc",
-      "region": "Hoenn",
-      "location": "Route 132",
-      "secondsAgo": 5217,
-      "sourceId": 1791333240
+      "secondsAgo": 7766,
+      "sourceId": 1791330976
     },
     {
       "monsterId": 288,
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 8291,
-      "sourceId": 1791330166
+      "secondsAgo": 8577,
+      "sourceId": 1791330165
     },
     {
       "monsterId": 312,
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 4137,
+      "secondsAgo": 4422,
       "sourceId": 1791334320
     }
   ],
