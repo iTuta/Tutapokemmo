@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-07T23:20:49.395Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-07T23:25:49.645Z",
+  "swarms": [
     {
-      "monsterId": 242,
-      "pokemon": "Blissey",
+      "monsterId": 441,
+      "pokemon": "Chatot",
       "region": "Kanto",
-      "location": "Three Island",
-      "secondsAgo": 22240,
-      "sourceId": 1791393009
-    },
+      "location": "Treasure Beach",
+      "sourceId": 1791416755,
+      "despawnTimestamp": 1791416754,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-07T23:45:55.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 22016,
+      "secondsAgo": 22316,
       "sourceId": 1791393233
     },
     {
@@ -23,15 +27,15 @@
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 5360,
-      "sourceId": 1791409889
+      "secondsAgo": 5661,
+      "sourceId": 1791409888
     },
     {
       "monsterId": 103,
       "pokemon": "Exeggutor",
       "region": "Sinnoh",
       "location": "Route 230",
-      "secondsAgo": 7646,
+      "secondsAgo": 7946,
       "sourceId": 1791407603
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Volbeat",
       "region": "Unova",
       "location": "Route 8",
-      "secondsAgo": 3805,
+      "secondsAgo": 4105,
       "sourceId": 1791411444
     }
   ],
