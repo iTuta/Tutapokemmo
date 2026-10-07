@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-10-07T13:40:46.627Z",
+  "fetchedAt": "2026-10-07T13:45:42.429Z",
   "swarms": [
+    {
+      "monsterId": 321,
+      "pokemon": "Wailord",
+      "region": "Kanto",
+      "location": "Green Path",
+      "sourceId": 1791381848,
+      "despawnTimestamp": 1791381847,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-07T14:04:08.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 317,
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
       "sourceId": 1791381041,
-      "despawnTimestamp": 1791381040,
+      "despawnTimestamp": 1791381041,
       "hasValuable": false,
       "timestampUtc": "2026-10-07T13:50:41.000Z",
       "publishedBy": ""
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 214,
-      "pokemon": "Heracross",
-      "region": "Kanto",
-      "location": "Route 16",
-      "secondsAgo": 4526,
-      "sourceId": 1791375920
-    },
-    {
       "monsterId": 474,
       "pokemon": "Porygon-Z",
       "region": "Johto",
       "location": "Team Rocket HQ",
-      "secondsAgo": 8717,
+      "secondsAgo": 9013,
       "sourceId": 1791371729
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Route 114",
-      "secondsAgo": 4760,
+      "secondsAgo": 5056,
       "sourceId": 1791375686
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 2145,
+      "secondsAgo": 2441,
       "sourceId": 1791378301
     }
   ],
