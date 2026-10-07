@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-07T17:05:39.455Z",
+  "fetchedAt": "2026-10-07T17:10:52.693Z",
   "swarms": [
+    {
+      "monsterId": 242,
+      "pokemon": "Blissey",
+      "region": "Kanto",
+      "location": "Three Island",
+      "sourceId": 1791394508,
+      "despawnTimestamp": 1791394508,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-07T17:35:08.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 450,
       "pokemon": "Hippowdon",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 321,
-      "pokemon": "Wailord",
-      "region": "Kanto",
-      "location": "Green Path",
-      "secondsAgo": 12091,
-      "sourceId": 1791380648
-    },
-    {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 7463,
+      "secondsAgo": 7776,
       "sourceId": 1791385276
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Metagross",
       "region": "Hoenn",
       "location": "Meteor Falls",
-      "secondsAgo": 5904,
+      "secondsAgo": 6217,
       "sourceId": 1791386835
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 14438,
+      "secondsAgo": 14751,
       "sourceId": 1791378301
     }
   ],
