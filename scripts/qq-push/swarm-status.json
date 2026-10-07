@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-07T03:35:44.243Z",
+  "fetchedAt": "2026-10-07T03:40:58.197Z",
   "swarms": [
     {
       "monsterId": 198,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-07T03:51:40.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Sinnoh",
+      "location": "Valor Lakefront",
+      "sourceId": 1791345485,
+      "despawnTimestamp": 1791345485,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-07T03:58:05.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 4018,
+      "secondsAgo": 4332,
       "sourceId": 1791340126
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 13167,
+      "secondsAgo": 13481,
       "sourceId": 1791330977
-    },
-    {
-      "monsterId": 415,
-      "pokemon": "Combee",
-      "region": "Sinnoh",
-      "location": "Floaroma Meadow",
-      "secondsAgo": 4735,
-      "sourceId": 1791339409
     },
     {
       "monsterId": 312,
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 9823,
+      "secondsAgo": 10137,
       "sourceId": 1791334321
     }
   ],
