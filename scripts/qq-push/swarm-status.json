@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-07T10:55:44.751Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-07T11:01:03.465Z",
+  "swarms": [
     {
-      "monsterId": 1,
-      "pokemon": "Bulbasaur",
+      "monsterId": 453,
+      "pokemon": "Croagunk",
       "region": "Kanto",
-      "location": "Viridian Forest",
-      "secondsAgo": 3250,
-      "sourceId": 1791367294
-    },
+      "location": "Route 6",
+      "sourceId": 1791371926,
+      "despawnTimestamp": 1791371926,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-07T11:18:46.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 7077,
-      "sourceId": 1791363467
+      "secondsAgo": 7395,
+      "sourceId": 1791363468
     },
     {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 15098,
+      "secondsAgo": 15417,
       "sourceId": 1791355446
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Chimchar",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 2652,
+      "secondsAgo": 2971,
       "sourceId": 1791367892
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 1999,
+      "secondsAgo": 2318,
       "sourceId": 1791368545
     }
   ],
