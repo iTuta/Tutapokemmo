@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-10-07T09:01:12.323Z",
+  "fetchedAt": "2026-10-07T09:05:44.928Z",
   "swarms": [
+    {
+      "monsterId": 139,
+      "pokemon": "Omastar",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "sourceId": 1791365248,
+      "despawnTimestamp": 1791365247,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-07T09:27:28.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
       "sourceId": 1791364967,
-      "despawnTimestamp": 1791364968,
+      "despawnTimestamp": 1791364966,
       "hasValuable": false,
       "timestampUtc": "2026-10-07T09:22:47.000Z",
       "publishedBy": ""
@@ -15,28 +26,20 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 346,
-      "pokemon": "Cradily",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 11572,
-      "sourceId": 1791352100
-    },
-    {
       "monsterId": 449,
       "pokemon": "Hippopotas",
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
-      "secondsAgo": 13143,
-      "sourceId": 1791350529
+      "secondsAgo": 13417,
+      "sourceId": 1791350527
     },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Unova",
       "location": "Village Bridge",
-      "secondsAgo": 3218,
-      "sourceId": 1791360454
+      "secondsAgo": 3491,
+      "sourceId": 1791360453
     }
   ],
   "alpha": {
