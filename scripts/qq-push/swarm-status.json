@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-10-07T19:16:14.970Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-07T19:21:23.203Z",
+  "swarms": [
+    {
+      "monsterId": 426,
+      "pokemon": "Drifblim",
+      "region": "Sinnoh",
+      "location": "Route 222",
+      "sourceId": 1791402214,
+      "despawnTimestamp": 1791402214,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-07T19:43:34.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 7342,
-      "sourceId": 1791393232
+      "secondsAgo": 7650,
+      "sourceId": 1791393233
     },
     {
       "monsterId": 456,
       "pokemon": "Finneon",
       "region": "Hoenn",
       "location": "Route 107",
-      "secondsAgo": 7199,
-      "sourceId": 1791393375
-    },
-    {
-      "monsterId": 441,
-      "pokemon": "Chatot",
-      "region": "Sinnoh",
-      "location": "Route 218",
-      "secondsAgo": 22273,
-      "sourceId": 1791378301
+      "secondsAgo": 7507,
+      "sourceId": 1791393376
     },
     {
       "monsterId": 376,
       "pokemon": "Metagross",
       "region": "Unova",
       "location": "Giant Chasm",
-      "secondsAgo": 2680,
+      "secondsAgo": 2989,
       "sourceId": 1791397894
     }
   ],
