@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-07T17:25:49.787Z",
+  "fetchedAt": "2026-10-07T17:31:03.968Z",
   "swarms": [
     {
       "monsterId": 242,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Three Island",
       "sourceId": 1791394508,
-      "despawnTimestamp": 1791394508,
+      "despawnTimestamp": 1791394507,
       "hasValuable": false,
       "timestampUtc": "2026-10-07T17:35:08.000Z",
       "publishedBy": ""
@@ -33,17 +33,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-07T17:41:15.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 450,
-      "pokemon": "Hippowdon",
-      "region": "Unova",
-      "location": "Mistralton Cave",
-      "sourceId": 1791393970,
-      "despawnTimestamp": 1791393970,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-07T17:26:10.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -52,8 +41,16 @@
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 15648,
+      "secondsAgo": 15962,
       "sourceId": 1791378301
+    },
+    {
+      "monsterId": 450,
+      "pokemon": "Hippowdon",
+      "region": "Unova",
+      "location": "Mistralton Cave",
+      "secondsAgo": 1792,
+      "sourceId": 1791392471
     }
   ],
   "alpha": {
