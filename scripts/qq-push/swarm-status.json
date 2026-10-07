@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-07T10:01:12.616Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-07T10:05:49.684Z",
+  "swarms": [
     {
-      "monsterId": 139,
-      "pokemon": "Omastar",
+      "monsterId": 1,
+      "pokemon": "Bulbasaur",
       "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 3524,
-      "sourceId": 1791363748
-    },
+      "location": "Viridian Forest",
+      "sourceId": 1791368794,
+      "despawnTimestamp": 1791368793,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-07T10:26:34.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 3805,
+      "secondsAgo": 4082,
       "sourceId": 1791363467
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Hippopotas",
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
-      "secondsAgo": 16744,
+      "secondsAgo": 17021,
       "sourceId": 1791350528
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Miltank",
       "region": "Unova",
       "location": "Village Bridge",
-      "secondsAgo": 6819,
+      "secondsAgo": 7096,
       "sourceId": 1791360453
     }
   ],
