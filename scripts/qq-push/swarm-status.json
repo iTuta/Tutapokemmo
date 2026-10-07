@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-07T03:25:46.950Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-07T03:31:00.642Z",
+  "swarms": [
+    {
+      "monsterId": 198,
+      "pokemon": "Murkrow",
+      "region": "Hoenn",
+      "location": "Jagged Pass",
+      "sourceId": 1791345100,
+      "despawnTimestamp": 1791345100,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-07T03:51:40.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 3421,
+      "secondsAgo": 3735,
       "sourceId": 1791340125
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 12570,
+      "secondsAgo": 12884,
       "sourceId": 1791330976
-    },
-    {
-      "monsterId": 352,
-      "pokemon": "Kecleon",
-      "region": "Hoenn",
-      "location": "Route 120",
-      "secondsAgo": 4995,
-      "sourceId": 1791338551
     },
     {
       "monsterId": 415,
       "pokemon": "Combee",
       "region": "Sinnoh",
       "location": "Floaroma Meadow",
-      "secondsAgo": 4137,
+      "secondsAgo": 4451,
       "sourceId": 1791339409
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 9226,
+      "secondsAgo": 9540,
       "sourceId": 1791334320
     }
   ],
