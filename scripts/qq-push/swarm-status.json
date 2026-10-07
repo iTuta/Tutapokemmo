@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-07T21:50:58.651Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-07T21:57:06.830Z",
+  "swarms": [
+    {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Hoenn",
+      "location": "Route 102",
+      "sourceId": 1791411388,
+      "despawnTimestamp": 1791411387,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-07T22:16:28.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Kanto",
       "location": "Three Island",
-      "secondsAgo": 16849,
+      "secondsAgo": 17217,
       "sourceId": 1791393009
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 16625,
-      "sourceId": 1791393233
-    },
-    {
-      "monsterId": 456,
-      "pokemon": "Finneon",
-      "region": "Hoenn",
-      "location": "Route 107",
-      "secondsAgo": 16483,
-      "sourceId": 1791393375
+      "secondsAgo": 16994,
+      "sourceId": 1791393232
     },
     {
       "monsterId": 103,
       "pokemon": "Exeggutor",
       "region": "Sinnoh",
       "location": "Route 230",
-      "secondsAgo": 2255,
+      "secondsAgo": 2623,
       "sourceId": 1791407603
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Metagross",
       "region": "Unova",
       "location": "Giant Chasm",
-      "secondsAgo": 11964,
+      "secondsAgo": 12332,
       "sourceId": 1791397894
     }
   ],
