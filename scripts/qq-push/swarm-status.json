@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-07T10:10:41.999Z",
+  "fetchedAt": "2026-10-07T10:16:18.634Z",
   "swarms": [
     {
       "monsterId": 1,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-07T10:26:34.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 390,
+      "pokemon": "Chimchar",
+      "region": "Sinnoh",
+      "location": "Route 211",
+      "sourceId": 1791369392,
+      "despawnTimestamp": 1791369391,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-07T10:36:32.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,31 +30,23 @@
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 4374,
-      "sourceId": 1791363467
+      "secondsAgo": 4710,
+      "sourceId": 1791363468
     },
     {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 12395,
+      "secondsAgo": 12732,
       "sourceId": 1791355446
-    },
-    {
-      "monsterId": 449,
-      "pokemon": "Hippopotas",
-      "region": "Sinnoh",
-      "location": "Maniac Tunnel",
-      "secondsAgo": 17314,
-      "sourceId": 1791350527
     },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Unova",
       "location": "Village Bridge",
-      "secondsAgo": 7388,
+      "secondsAgo": 7725,
       "sourceId": 1791360453
     }
   ],
