@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-10-06T23:55:43.479Z",
+  "fetchedAt": "2026-10-07T00:01:02.680Z",
   "swarms": [
+    {
+      "monsterId": 469,
+      "pokemon": "Yanmega",
+      "region": "Johto",
+      "location": "Route 44",
+      "sourceId": 1791332476,
+      "despawnTimestamp": 1791332475,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-07T00:21:16.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 288,
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
       "sourceId": 1791331665,
-      "despawnTimestamp": 1791331665,
+      "despawnTimestamp": 1791331664,
       "hasValuable": false,
       "timestampUtc": "2026-10-07T00:07:45.000Z",
       "publishedBy": ""
@@ -19,23 +30,15 @@
       "pokemon": "Vespiquen",
       "region": "Kanto",
       "location": "Five Isle Meadow",
-      "secondsAgo": 2311,
-      "sourceId": 1791328632
-    },
-    {
-      "monsterId": 288,
-      "pokemon": "Vigoroth",
-      "region": "Johto",
-      "location": "Ruins of Alph",
-      "secondsAgo": 11259,
-      "sourceId": 1791319684
+      "secondsAgo": 2631,
+      "sourceId": 1791328631
     },
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Hoenn",
       "location": "Route 115",
-      "secondsAgo": 9963,
+      "secondsAgo": 10282,
       "sourceId": 1791320980
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 3798,
+      "secondsAgo": 4117,
       "sourceId": 1791327145
     }
   ],
