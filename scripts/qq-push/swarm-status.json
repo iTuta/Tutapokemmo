@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-07T17:31:03.968Z",
+  "fetchedAt": "2026-10-07T17:35:40.690Z",
   "swarms": [
-    {
-      "monsterId": 242,
-      "pokemon": "Blissey",
-      "region": "Kanto",
-      "location": "Three Island",
-      "sourceId": 1791394508,
-      "despawnTimestamp": 1791394507,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-07T17:35:08.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
       "sourceId": 1791394732,
-      "despawnTimestamp": 1791394731,
+      "despawnTimestamp": 1791394732,
       "hasValuable": false,
       "timestampUtc": "2026-10-07T17:38:52.000Z",
       "publishedBy": ""
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 242,
+      "pokemon": "Blissey",
+      "region": "Kanto",
+      "location": "Three Island",
+      "secondsAgo": 1531,
+      "sourceId": 1791393009
+    },
+    {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 15962,
+      "secondsAgo": 16239,
       "sourceId": 1791378301
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "Hippowdon",
       "region": "Unova",
       "location": "Mistralton Cave",
-      "secondsAgo": 1792,
+      "secondsAgo": 2069,
       "sourceId": 1791392471
     }
   ],
