@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-07T17:10:52.693Z",
+  "fetchedAt": "2026-10-07T17:15:46.065Z",
   "swarms": [
     {
       "monsterId": 242,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1791394508,
       "hasValuable": false,
       "timestampUtc": "2026-10-07T17:35:08.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Johto",
+      "location": "Bell Tower",
+      "sourceId": 1791394732,
+      "despawnTimestamp": 1791394732,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-07T17:38:52.000Z",
       "publishedBy": ""
     },
     {
@@ -26,28 +37,20 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 143,
-      "pokemon": "Snorlax",
-      "region": "Johto",
-      "location": "Victory Road",
-      "secondsAgo": 7776,
-      "sourceId": 1791385276
-    },
-    {
       "monsterId": 376,
       "pokemon": "Metagross",
       "region": "Hoenn",
       "location": "Meteor Falls",
-      "secondsAgo": 6217,
-      "sourceId": 1791386835
+      "secondsAgo": 6510,
+      "sourceId": 1791386836
     },
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 14751,
-      "sourceId": 1791378301
+      "secondsAgo": 15044,
+      "sourceId": 1791378302
     }
   ],
   "alpha": {
