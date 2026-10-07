@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-10-07T13:01:09.282Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-07T13:05:43.729Z",
+  "swarms": [
+    {
+      "monsterId": 441,
+      "pokemon": "Chatot",
+      "region": "Sinnoh",
+      "location": "Route 218",
+      "sourceId": 1791379801,
+      "despawnTimestamp": 1791379800,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-07T13:30:01.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Kanto",
       "location": "Route 16",
-      "secondsAgo": 2148,
-      "sourceId": 1791375921
+      "secondsAgo": 2423,
+      "sourceId": 1791375920
     },
     {
       "monsterId": 474,
       "pokemon": "Porygon-Z",
       "region": "Johto",
       "location": "Team Rocket HQ",
-      "secondsAgo": 6340,
+      "secondsAgo": 6614,
       "sourceId": 1791371729
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Route 114",
-      "secondsAgo": 2383,
+      "secondsAgo": 2657,
       "sourceId": 1791375686
-    },
-    {
-      "monsterId": 390,
-      "pokemon": "Chimchar",
-      "region": "Sinnoh",
-      "location": "Route 211",
-      "secondsAgo": 10177,
-      "sourceId": 1791367892
     },
     {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 9524,
+      "secondsAgo": 9798,
       "sourceId": 1791368545
     }
   ],
