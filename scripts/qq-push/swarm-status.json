@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-07T05:46:18.802Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-07T05:50:48.879Z",
+  "swarms": [
     {
-      "monsterId": 335,
-      "pokemon": "Zangoose",
+      "monsterId": 346,
+      "pokemon": "Cradily",
       "region": "Kanto",
-      "location": "Route 14",
-      "secondsAgo": 11853,
-      "sourceId": 1791340125
-    },
+      "location": "Tanoby Ruins",
+      "sourceId": 1791353597,
+      "despawnTimestamp": 1791353597,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-07T06:13:17.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 469,
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 21002,
+      "secondsAgo": 21272,
       "sourceId": 1791330976
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 2071,
+      "secondsAgo": 2341,
       "sourceId": 1791349907
     },
     {
@@ -31,15 +35,15 @@
       "pokemon": "Hippopotas",
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
-      "secondsAgo": 1450,
-      "sourceId": 1791350528
+      "secondsAgo": 1721,
+      "sourceId": 1791350527
     },
     {
       "monsterId": 312,
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 17658,
+      "secondsAgo": 17928,
       "sourceId": 1791334320
     }
   ],
