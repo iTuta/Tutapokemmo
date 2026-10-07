@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-07T00:31:24.071Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-07T00:36:14.218Z",
+  "swarms": [
+    {
+      "monsterId": 370,
+      "pokemon": "Luvdisc",
+      "region": "Hoenn",
+      "location": "Route 132",
+      "sourceId": 1791334739,
+      "despawnTimestamp": 1791334739,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-07T00:58:59.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 416,
       "pokemon": "Vespiquen",
       "region": "Kanto",
       "location": "Five Isle Meadow",
-      "secondsAgo": 4452,
+      "secondsAgo": 4742,
       "sourceId": 1791328632
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 2107,
+      "secondsAgo": 2397,
       "sourceId": 1791330977
-    },
-    {
-      "monsterId": 441,
-      "pokemon": "Chatot",
-      "region": "Hoenn",
-      "location": "Route 115",
-      "secondsAgo": 12103,
-      "sourceId": 1791320981
     },
     {
       "monsterId": 288,
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 2918,
+      "secondsAgo": 3208,
       "sourceId": 1791330166
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 5939,
+      "secondsAgo": 6229,
       "sourceId": 1791327145
     }
   ],
