@@ -1,33 +1,29 @@
 {
-  "fetchedAt": "2026-10-07T07:35:47.864Z",
-  "swarms": [
-    {
-      "monsterId": 300,
-      "pokemon": "Skitty",
-      "region": "Johto",
-      "location": "Route 35",
-      "sourceId": 1791358602,
-      "despawnTimestamp": 1791358601,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-07T07:36:42.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-07T07:40:41.532Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 346,
       "pokemon": "Cradily",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 6449,
+      "secondsAgo": 6743,
       "sourceId": 1791352098
+    },
+    {
+      "monsterId": 300,
+      "pokemon": "Skitty",
+      "region": "Johto",
+      "location": "Route 35",
+      "secondsAgo": 1738,
+      "sourceId": 1791357103
     },
     {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 3101,
+      "secondsAgo": 3395,
       "sourceId": 1791355446
     },
     {
@@ -35,7 +31,7 @@
       "pokemon": "Hippopotas",
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
-      "secondsAgo": 8019,
+      "secondsAgo": 8313,
       "sourceId": 1791350528
     },
     {
@@ -43,7 +39,7 @@
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 24227,
+      "secondsAgo": 24521,
       "sourceId": 1791334320
     }
   ],
