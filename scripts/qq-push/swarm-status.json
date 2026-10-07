@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-07T17:35:40.690Z",
+  "fetchedAt": "2026-10-07T17:40:45.551Z",
   "swarms": [
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Johto",
-      "location": "Bell Tower",
-      "sourceId": 1791394732,
-      "despawnTimestamp": 1791394732,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-07T17:38:52.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 456,
       "pokemon": "Finneon",
       "region": "Hoenn",
       "location": "Route 107",
       "sourceId": 1791394875,
-      "despawnTimestamp": 1791394874,
+      "despawnTimestamp": 1791394875,
       "hasValuable": false,
       "timestampUtc": "2026-10-07T17:41:15.000Z",
       "publishedBy": ""
@@ -30,15 +19,23 @@
       "pokemon": "Blissey",
       "region": "Kanto",
       "location": "Three Island",
-      "secondsAgo": 1531,
+      "secondsAgo": 1836,
       "sourceId": 1791393009
+    },
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Johto",
+      "location": "Bell Tower",
+      "secondsAgo": 1612,
+      "sourceId": 1791393233
     },
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 16239,
+      "secondsAgo": 16544,
       "sourceId": 1791378301
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Hippowdon",
       "region": "Unova",
       "location": "Mistralton Cave",
-      "secondsAgo": 2069,
+      "secondsAgo": 2374,
       "sourceId": 1791392471
     }
   ],
