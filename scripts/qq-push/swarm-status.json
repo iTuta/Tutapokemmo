@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-07T11:15:48.285Z",
+  "fetchedAt": "2026-10-07T11:20:51.910Z",
   "swarms": [
-    {
-      "monsterId": 453,
-      "pokemon": "Croagunk",
-      "region": "Kanto",
-      "location": "Route 6",
-      "sourceId": 1791371926,
-      "despawnTimestamp": 1791371926,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-07T11:18:46.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 474,
       "pokemon": "Porygon-Z",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 453,
+      "pokemon": "Croagunk",
+      "region": "Kanto",
+      "location": "Route 6",
+      "secondsAgo": 1444,
+      "sourceId": 1791370607
+    },
+    {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 16302,
+      "secondsAgo": 16605,
       "sourceId": 1791355446
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Chimchar",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 3856,
+      "secondsAgo": 4159,
       "sourceId": 1791367892
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 3203,
+      "secondsAgo": 3506,
       "sourceId": 1791368545
     }
   ],
