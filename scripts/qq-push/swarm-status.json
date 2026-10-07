@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-07T10:25:54.003Z",
+  "fetchedAt": "2026-10-07T10:30:52.663Z",
   "swarms": [
-    {
-      "monsterId": 1,
-      "pokemon": "Bulbasaur",
-      "region": "Kanto",
-      "location": "Viridian Forest",
-      "sourceId": 1791368794,
-      "despawnTimestamp": 1791368793,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-07T10:26:34.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 390,
       "pokemon": "Chimchar",
@@ -29,7 +18,7 @@
       "region": "Unova",
       "location": "Dragonspiral Tower",
       "sourceId": 1791370044,
-      "despawnTimestamp": 1791370043,
+      "despawnTimestamp": 1791370044,
       "hasValuable": false,
       "timestampUtc": "2026-10-07T10:47:24.000Z",
       "publishedBy": ""
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 1,
+      "pokemon": "Bulbasaur",
+      "region": "Kanto",
+      "location": "Viridian Forest",
+      "secondsAgo": 1758,
+      "sourceId": 1791367294
+    },
+    {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 5286,
+      "secondsAgo": 5585,
       "sourceId": 1791363467
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 13307,
+      "secondsAgo": 13606,
       "sourceId": 1791355446
     }
   ],
