@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-07T17:15:46.065Z",
+  "fetchedAt": "2026-10-07T17:20:50.160Z",
   "swarms": [
     {
       "monsterId": 242,
@@ -24,6 +24,17 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 456,
+      "pokemon": "Finneon",
+      "region": "Hoenn",
+      "location": "Route 107",
+      "sourceId": 1791394875,
+      "despawnTimestamp": 1791394875,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-07T17:41:15.000Z",
+      "publishedBy": ""
+    },
+    {
       "monsterId": 450,
       "pokemon": "Hippowdon",
       "region": "Unova",
@@ -37,19 +48,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 376,
-      "pokemon": "Metagross",
-      "region": "Hoenn",
-      "location": "Meteor Falls",
-      "secondsAgo": 6510,
-      "sourceId": 1791386836
-    },
-    {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 15044,
+      "secondsAgo": 15348,
       "sourceId": 1791378302
     }
   ],
