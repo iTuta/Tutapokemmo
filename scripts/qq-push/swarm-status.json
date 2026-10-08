@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-08T13:45:52.545Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-08T13:51:07.261Z",
+  "swarms": [
+    {
+      "monsterId": 159,
+      "pokemon": "Croconaw",
+      "region": "Johto",
+      "location": "Whirl Islands",
+      "sourceId": 1791468695,
+      "despawnTimestamp": 1791468694,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-08T14:11:35.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Kanto",
       "location": "Water Labyrinth",
-      "secondsAgo": 2756,
-      "sourceId": 1791464396
-    },
-    {
-      "monsterId": 152,
-      "pokemon": "Chikorita",
-      "region": "Johto",
-      "location": "Route 31",
-      "secondsAgo": 4680,
-      "sourceId": 1791462472
+      "secondsAgo": 3070,
+      "sourceId": 1791464397
     },
     {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 12379,
+      "secondsAgo": 12694,
       "sourceId": 1791454773
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Snorlax",
       "region": "Sinnoh",
       "location": "Victory Road",
-      "secondsAgo": 2966,
+      "secondsAgo": 3281,
       "sourceId": 1791464186
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 16935,
+      "secondsAgo": 17250,
       "sourceId": 1791450217
     }
   ],
