@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-08T07:50:57.458Z",
+  "fetchedAt": "2026-10-08T07:55:50.213Z",
   "swarms": [
     {
       "monsterId": 637,
@@ -7,9 +7,20 @@
       "region": "Johto",
       "location": "Bell Tower",
       "sourceId": 1791446498,
-      "despawnTimestamp": 1791446497,
+      "despawnTimestamp": 1791446498,
       "hasValuable": false,
       "timestampUtc": "2026-10-08T08:01:38.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 222,
+      "pokemon": "Corsola",
+      "region": "Unova",
+      "location": "Undella Bay",
+      "sourceId": 1791447361,
+      "despawnTimestamp": 1791447361,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-08T08:16:01.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,7 +30,7 @@
       "pokemon": "Tauros",
       "region": "Kanto",
       "location": "Route 17",
-      "secondsAgo": 2789,
+      "secondsAgo": 3082,
       "sourceId": 1791443068
     },
     {
@@ -27,7 +38,7 @@
       "pokemon": "Spiritomb",
       "region": "Hoenn",
       "location": "Abandoned Ship",
-      "secondsAgo": 5333,
+      "secondsAgo": 5626,
       "sourceId": 1791440524
     },
     {
@@ -35,16 +46,8 @@
       "pokemon": "Mr. Mime",
       "region": "Sinnoh",
       "location": "Route 224",
-      "secondsAgo": 4211,
+      "secondsAgo": 4504,
       "sourceId": 1791441646
-    },
-    {
-      "monsterId": 376,
-      "pokemon": "Metagross",
-      "region": "Unova",
-      "location": "Giant Chasm",
-      "secondsAgo": 3116,
-      "sourceId": 1791442741
     }
   ],
   "alpha": {
