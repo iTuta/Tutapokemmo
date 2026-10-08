@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-08T10:01:15.186Z",
+  "fetchedAt": "2026-10-08T10:05:56.579Z",
   "swarms": [
-    {
-      "monsterId": 373,
-      "pokemon": "Salamence",
-      "region": "Kanto",
-      "location": "Victory Road",
-      "sourceId": 1791453697,
-      "despawnTimestamp": 1791453697,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-08T10:01:37.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 156,
       "pokemon": "Quilava",
       "region": "Johto",
       "location": "Route 42",
       "sourceId": 1791454192,
-      "despawnTimestamp": 1791454192,
+      "despawnTimestamp": 1791454191,
       "hasValuable": false,
       "timestampUtc": "2026-10-08T10:09:52.000Z",
       "publishedBy": ""
@@ -26,27 +15,35 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 373,
+      "pokemon": "Salamence",
+      "region": "Kanto",
+      "location": "Victory Road",
+      "secondsAgo": 1758,
+      "sourceId": 1791452198
+    },
+    {
       "monsterId": 257,
       "pokemon": "Blaziken",
       "region": "Hoenn",
       "location": "Magma Hideout",
-      "secondsAgo": 6306,
-      "sourceId": 1791447369
+      "secondsAgo": 6588,
+      "sourceId": 1791447368
     },
     {
       "monsterId": 449,
       "pokemon": "Hippopotas",
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
-      "secondsAgo": 2768,
-      "sourceId": 1791450907
+      "secondsAgo": 3050,
+      "sourceId": 1791450906
     },
     {
       "monsterId": 314,
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 3458,
+      "secondsAgo": 3739,
       "sourceId": 1791450217
     }
   ],
