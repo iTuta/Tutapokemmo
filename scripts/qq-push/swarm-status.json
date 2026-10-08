@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-08T19:40:48.270Z",
+  "fetchedAt": "2026-10-08T19:45:52.577Z",
   "swarms": [
-    {
-      "monsterId": 135,
-      "pokemon": "Jolteon",
-      "region": "Kanto",
-      "location": "Ruin Valley",
-      "sourceId": 1791488652,
-      "despawnTimestamp": 1791488652,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-08T19:44:12.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
@@ -26,19 +15,27 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 135,
+      "pokemon": "Jolteon",
+      "region": "Kanto",
+      "location": "Ruin Valley",
+      "secondsAgo": 1600,
+      "sourceId": 1791487152
+    },
+    {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 8372,
-      "sourceId": 1791480076
+      "secondsAgo": 8677,
+      "sourceId": 1791480075
     },
     {
       "monsterId": 340,
       "pokemon": "Whiscash",
       "region": "Sinnoh",
       "location": "Ravaged Path",
-      "secondsAgo": 11126,
+      "secondsAgo": 11430,
       "sourceId": 1791477322
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Honchkrow",
       "region": "Unova",
       "location": "Celestial Tower",
-      "secondsAgo": 2870,
-      "sourceId": 1791485578
+      "secondsAgo": 3175,
+      "sourceId": 1791485577
     }
   ],
   "alpha": {
