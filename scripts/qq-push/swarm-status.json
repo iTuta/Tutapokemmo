@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-08T16:30:59.388Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-08T16:36:08.662Z",
+  "swarms": [
+    {
+      "monsterId": 340,
+      "pokemon": "Whiscash",
+      "region": "Sinnoh",
+      "location": "Ravaged Path",
+      "sourceId": 1791478822,
+      "despawnTimestamp": 1791478821,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-08T17:00:22.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 1,
       "pokemon": "Bulbasaur",
       "region": "Kanto",
       "location": "Viridian Forest",
-      "secondsAgo": 4324,
+      "secondsAgo": 4633,
       "sourceId": 1791472735
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Croconaw",
       "region": "Johto",
       "location": "Whirl Islands",
-      "secondsAgo": 9864,
+      "secondsAgo": 10173,
       "sourceId": 1791467195
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 22286,
+      "secondsAgo": 22595,
       "sourceId": 1791454773
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Sinnoh",
-      "location": "Iron Island",
-      "secondsAgo": 2858,
-      "sourceId": 1791474201
     },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Unova",
       "location": "Village Bridge",
-      "secondsAgo": 7589,
+      "secondsAgo": 7898,
       "sourceId": 1791469470
     }
   ],
