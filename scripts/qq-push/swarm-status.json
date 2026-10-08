@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-08T02:05:46.465Z",
+  "fetchedAt": "2026-10-08T02:11:01.630Z",
   "swarms": [
-    {
-      "monsterId": 300,
-      "pokemon": "Skitty",
-      "region": "Johto",
-      "location": "Route 35",
-      "sourceId": 1791425375,
-      "despawnTimestamp": 1791425375,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-08T02:09:35.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 389,
       "pokemon": "Torterra",
@@ -30,15 +19,23 @@
       "pokemon": "Chatot",
       "region": "Kanto",
       "location": "Treasure Beach",
-      "secondsAgo": 9891,
+      "secondsAgo": 10206,
       "sourceId": 1791415255
+    },
+    {
+      "monsterId": 300,
+      "pokemon": "Skitty",
+      "region": "Johto",
+      "location": "Route 35",
+      "secondsAgo": 1585,
+      "sourceId": 1791423876
     },
     {
       "monsterId": 370,
       "pokemon": "Luvdisc",
       "region": "Hoenn",
       "location": "Route 132",
-      "secondsAgo": 3484,
+      "secondsAgo": 3799,
       "sourceId": 1791421662
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 2963,
-      "sourceId": 1791422183
+      "secondsAgo": 3279,
+      "sourceId": 1791422182
     }
   ],
   "alpha": {
