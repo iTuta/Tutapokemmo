@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-10-08T01:05:34.785Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-08T01:10:48.288Z",
+  "swarms": [
+    {
+      "monsterId": 370,
+      "pokemon": "Luvdisc",
+      "region": "Hoenn",
+      "location": "Route 132",
+      "sourceId": 1791423161,
+      "despawnTimestamp": 1791423161,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-08T01:32:41.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Kanto",
       "location": "Treasure Beach",
-      "secondsAgo": 6279,
-      "sourceId": 1791415255
+      "secondsAgo": 6592,
+      "sourceId": 1791415256
     },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Johto",
       "location": "Cliff Cave",
-      "secondsAgo": 2950,
+      "secondsAgo": 3264,
       "sourceId": 1791418584
-    },
-    {
-      "monsterId": 517,
-      "pokemon": "Munna",
-      "region": "Hoenn",
-      "location": "Route 102",
-      "secondsAgo": 11646,
-      "sourceId": 1791409888
     },
     {
       "monsterId": 103,
       "pokemon": "Exeggutor",
       "region": "Sinnoh",
       "location": "Route 230",
-      "secondsAgo": 13931,
+      "secondsAgo": 14245,
       "sourceId": 1791407603
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Volbeat",
       "region": "Unova",
       "location": "Route 8",
-      "secondsAgo": 10090,
+      "secondsAgo": 10404,
       "sourceId": 1791411444
     }
   ],
