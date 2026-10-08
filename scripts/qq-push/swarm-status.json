@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-08T17:40:53.861Z",
+  "fetchedAt": "2026-10-08T17:45:59.800Z",
   "swarms": [
-    {
-      "monsterId": 348,
-      "pokemon": "Armaldo",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "sourceId": 1791481387,
-      "despawnTimestamp": 1791481386,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-08T17:43:07.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 348,
+      "pokemon": "Armaldo",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "secondsAgo": 1672,
+      "sourceId": 1791479887
+    },
+    {
       "monsterId": 211,
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 2754,
+      "secondsAgo": 3060,
       "sourceId": 1791478499
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Whiscash",
       "region": "Sinnoh",
       "location": "Ravaged Path",
-      "secondsAgo": 3931,
+      "secondsAgo": 4237,
       "sourceId": 1791477322
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Miltank",
       "region": "Unova",
       "location": "Village Bridge",
-      "secondsAgo": 11783,
+      "secondsAgo": 12089,
       "sourceId": 1791469470
     }
   ],
