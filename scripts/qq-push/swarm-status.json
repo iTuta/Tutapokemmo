@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-08T15:16:07.390Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-08T15:21:09.884Z",
+  "swarms": [
     {
-      "monsterId": 319,
-      "pokemon": "Sharpedo",
+      "monsterId": 1,
+      "pokemon": "Bulbasaur",
       "region": "Kanto",
-      "location": "Water Labyrinth",
-      "secondsAgo": 8171,
-      "sourceId": 1791464396
-    },
+      "location": "Viridian Forest",
+      "sourceId": 1791474234,
+      "despawnTimestamp": 1791474233,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-08T15:43:54.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 159,
       "pokemon": "Croconaw",
       "region": "Johto",
       "location": "Whirl Islands",
-      "secondsAgo": 5372,
+      "secondsAgo": 5674,
       "sourceId": 1791467195
     },
     {
@@ -23,15 +27,15 @@
       "pokemon": "Snorlax",
       "region": "Sinnoh",
       "location": "Victory Road",
-      "secondsAgo": 8381,
-      "sourceId": 1791464186
+      "secondsAgo": 8684,
+      "sourceId": 1791464185
     },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Unova",
       "location": "Village Bridge",
-      "secondsAgo": 3097,
+      "secondsAgo": 3399,
       "sourceId": 1791469470
     }
   ],
