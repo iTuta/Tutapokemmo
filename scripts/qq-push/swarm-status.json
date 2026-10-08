@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-08T03:35:49.901Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-08T03:41:05.911Z",
+  "swarms": [
+    {
+      "monsterId": 127,
+      "pokemon": "Pinsir",
+      "region": "Unova",
+      "location": "Route 12",
+      "sourceId": 1791432203,
+      "despawnTimestamp": 1791432202,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-08T04:03:23.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Kanto",
       "location": "Route 7",
-      "secondsAgo": 4478,
+      "secondsAgo": 4794,
       "sourceId": 1791426071
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 6674,
+      "secondsAgo": 6990,
       "sourceId": 1791423875
     },
     {
@@ -23,16 +35,8 @@
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 6092,
+      "secondsAgo": 6408,
       "sourceId": 1791424457
-    },
-    {
-      "monsterId": 193,
-      "pokemon": "Yanma",
-      "region": "Unova",
-      "location": "Pinwheel Forest",
-      "secondsAgo": 8367,
-      "sourceId": 1791422182
     }
   ],
   "alpha": {
