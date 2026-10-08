@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-08T07:35:51.147Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-08T07:40:53.826Z",
+  "swarms": [
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Johto",
+      "location": "Bell Tower",
+      "sourceId": 1791446498,
+      "despawnTimestamp": 1791446497,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-08T08:01:38.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Kanto",
       "location": "Route 17",
-      "secondsAgo": 1883,
-      "sourceId": 1791443068
-    },
-    {
-      "monsterId": 155,
-      "pokemon": "Cyndaquil",
-      "region": "Johto",
-      "location": "Route 33",
-      "secondsAgo": 7498,
-      "sourceId": 1791437453
+      "secondsAgo": 2186,
+      "sourceId": 1791443067
     },
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Hoenn",
       "location": "Abandoned Ship",
-      "secondsAgo": 4427,
+      "secondsAgo": 4729,
       "sourceId": 1791440524
     },
     {
@@ -31,16 +35,16 @@
       "pokemon": "Mr. Mime",
       "region": "Sinnoh",
       "location": "Route 224",
-      "secondsAgo": 3305,
-      "sourceId": 1791441646
+      "secondsAgo": 3608,
+      "sourceId": 1791441645
     },
     {
       "monsterId": 376,
       "pokemon": "Metagross",
       "region": "Unova",
       "location": "Giant Chasm",
-      "secondsAgo": 2209,
-      "sourceId": 1791442742
+      "secondsAgo": 2512,
+      "sourceId": 1791442741
     }
   ],
   "alpha": {
