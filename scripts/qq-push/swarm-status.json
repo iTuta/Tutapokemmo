@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-08T06:21:02.641Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-08T06:25:54.989Z",
+  "swarms": [
+    {
+      "monsterId": 442,
+      "pokemon": "Spiritomb",
+      "region": "Hoenn",
+      "location": "Abandoned Ship",
+      "sourceId": 1791441723,
+      "despawnTimestamp": 1791441722,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-08T06:42:03.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 3,
       "pokemon": "Venusaur",
       "region": "Kanto",
       "location": "Berry Forest",
-      "secondsAgo": 8767,
+      "secondsAgo": 9059,
       "sourceId": 1791431695
     },
     {
@@ -15,32 +27,24 @@
       "pokemon": "Cyndaquil",
       "region": "Johto",
       "location": "Route 33",
-      "secondsAgo": 3010,
+      "secondsAgo": 3302,
       "sourceId": 1791437452
-    },
-    {
-      "monsterId": 370,
-      "pokemon": "Luvdisc",
-      "region": "Hoenn",
-      "location": "Route 132",
-      "secondsAgo": 18800,
-      "sourceId": 1791421662
     },
     {
       "monsterId": 351,
       "pokemon": "Castform",
       "region": "Sinnoh",
       "location": "Route 210",
-      "secondsAgo": 5237,
-      "sourceId": 1791435225
+      "secondsAgo": 5530,
+      "sourceId": 1791435224
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 5062,
-      "sourceId": 1791435400
+      "secondsAgo": 5355,
+      "sourceId": 1791435399
     }
   ],
   "alpha": {
