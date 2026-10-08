@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-08T03:50:44.931Z",
+  "fetchedAt": "2026-10-08T03:56:00.823Z",
   "swarms": [
+    {
+      "monsterId": 3,
+      "pokemon": "Venusaur",
+      "region": "Kanto",
+      "location": "Berry Forest",
+      "sourceId": 1791433195,
+      "despawnTimestamp": 1791433194,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-08T04:19:55.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
-      "region": "Kanto",
-      "location": "Route 7",
-      "secondsAgo": 5373,
-      "sourceId": 1791426071
-    },
-    {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 7569,
+      "secondsAgo": 7885,
       "sourceId": 1791423875
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 6987,
+      "secondsAgo": 7303,
       "sourceId": 1791424457
     }
   ],
