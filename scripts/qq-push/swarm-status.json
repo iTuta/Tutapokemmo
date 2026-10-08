@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-08T20:50:51.121Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-08T20:55:46.210Z",
+  "swarms": [
     {
-      "monsterId": 135,
-      "pokemon": "Jolteon",
+      "monsterId": 319,
+      "pokemon": "Sharpedo",
       "region": "Kanto",
-      "location": "Ruin Valley",
-      "secondsAgo": 5498,
-      "sourceId": 1791487153
-    },
+      "location": "Water Labyrinth",
+      "sourceId": 1791494348,
+      "despawnTimestamp": 1791494347,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-08T21:19:08.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 12575,
+      "secondsAgo": 12870,
       "sourceId": 1791480076
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Croagunk",
       "region": "Hoenn",
       "location": "Route 121",
-      "secondsAgo": 4835,
+      "secondsAgo": 5130,
       "sourceId": 1791487816
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Nosepass",
       "region": "Sinnoh",
       "location": "Oreburgh Gate",
-      "secondsAgo": 1646,
+      "secondsAgo": 1941,
       "sourceId": 1791491005
     }
   ],
