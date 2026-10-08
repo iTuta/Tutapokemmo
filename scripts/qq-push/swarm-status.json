@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-08T17:20:53.481Z",
+  "fetchedAt": "2026-10-08T17:25:53.284Z",
   "swarms": [
     {
       "monsterId": 348,
@@ -11,23 +11,26 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-08T17:43:07.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Johto",
+      "location": "Dark Cave",
+      "sourceId": 1791481575,
+      "despawnTimestamp": 1791481575,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-08T17:46:15.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 159,
-      "pokemon": "Croconaw",
-      "region": "Johto",
-      "location": "Whirl Islands",
-      "secondsAgo": 12858,
-      "sourceId": 1791467195
-    },
     {
       "monsterId": 211,
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 1554,
+      "secondsAgo": 1854,
       "sourceId": 1791478499
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Whiscash",
       "region": "Sinnoh",
       "location": "Ravaged Path",
-      "secondsAgo": 2731,
+      "secondsAgo": 3031,
       "sourceId": 1791477322
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Miltank",
       "region": "Unova",
       "location": "Village Bridge",
-      "secondsAgo": 10583,
+      "secondsAgo": 10883,
       "sourceId": 1791469470
     }
   ],
