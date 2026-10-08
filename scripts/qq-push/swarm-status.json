@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-08T21:15:51.299Z",
+  "fetchedAt": "2026-10-08T21:20:53.476Z",
   "swarms": [
-    {
-      "monsterId": 319,
-      "pokemon": "Sharpedo",
-      "region": "Kanto",
-      "location": "Water Labyrinth",
-      "sourceId": 1791494348,
-      "despawnTimestamp": 1791494347,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-08T21:19:08.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 102,
       "pokemon": "Exeggcute",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 319,
+      "pokemon": "Sharpedo",
+      "region": "Kanto",
+      "location": "Water Labyrinth",
+      "secondsAgo": 1605,
+      "sourceId": 1791492848
+    },
+    {
       "monsterId": 453,
       "pokemon": "Croagunk",
       "region": "Hoenn",
       "location": "Route 121",
-      "secondsAgo": 6335,
+      "secondsAgo": 6637,
       "sourceId": 1791487816
     },
     {
@@ -38,8 +35,8 @@
       "pokemon": "Nosepass",
       "region": "Sinnoh",
       "location": "Oreburgh Gate",
-      "secondsAgo": 3146,
-      "sourceId": 1791491005
+      "secondsAgo": 3449,
+      "sourceId": 1791491004
     }
   ],
   "alpha": {
