@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-08T09:01:04.979Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-08T09:05:46.905Z",
+  "swarms": [
+    {
+      "monsterId": 314,
+      "pokemon": "Illumise",
+      "region": "Unova",
+      "location": "Moor of Icirrus",
+      "sourceId": 1791451717,
+      "despawnTimestamp": 1791451716,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-08T09:28:37.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Kanto",
       "location": "Route 17",
-      "secondsAgo": 6997,
+      "secondsAgo": 7279,
       "sourceId": 1791443067
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 5066,
+      "secondsAgo": 5348,
       "sourceId": 1791444998
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Blaziken",
       "region": "Hoenn",
       "location": "Magma Hideout",
-      "secondsAgo": 2696,
+      "secondsAgo": 2978,
       "sourceId": 1791447368
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Mr. Mime",
       "region": "Sinnoh",
       "location": "Route 224",
-      "secondsAgo": 8419,
+      "secondsAgo": 8701,
       "sourceId": 1791441645
-    },
-    {
-      "monsterId": 222,
-      "pokemon": "Corsola",
-      "region": "Unova",
-      "location": "Undella Bay",
-      "secondsAgo": 4203,
-      "sourceId": 1791445861
     }
   ],
   "alpha": {
