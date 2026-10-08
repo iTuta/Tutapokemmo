@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-08T07:21:04.457Z",
+  "fetchedAt": "2026-10-08T07:25:49.513Z",
   "swarms": [
     {
       "monsterId": 128,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-08T07:29:27.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 376,
-      "pokemon": "Metagross",
-      "region": "Unova",
-      "location": "Giant Chasm",
-      "sourceId": 1791444241,
-      "despawnTimestamp": 1791444240,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-08T07:24:01.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Cyndaquil",
       "region": "Johto",
       "location": "Route 33",
-      "secondsAgo": 6612,
+      "secondsAgo": 6897,
       "sourceId": 1791437452
     },
     {
@@ -38,7 +27,7 @@
       "pokemon": "Spiritomb",
       "region": "Hoenn",
       "location": "Abandoned Ship",
-      "secondsAgo": 3540,
+      "secondsAgo": 3825,
       "sourceId": 1791440524
     },
     {
@@ -46,8 +35,16 @@
       "pokemon": "Mr. Mime",
       "region": "Sinnoh",
       "location": "Route 224",
-      "secondsAgo": 2419,
+      "secondsAgo": 2704,
       "sourceId": 1791441645
+    },
+    {
+      "monsterId": 376,
+      "pokemon": "Metagross",
+      "region": "Unova",
+      "location": "Giant Chasm",
+      "secondsAgo": 1608,
+      "sourceId": 1791442741
     }
   ],
   "alpha": {
