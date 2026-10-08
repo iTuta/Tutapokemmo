@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-08T06:35:54.846Z",
+  "fetchedAt": "2026-10-08T06:40:56.346Z",
   "swarms": [
     {
       "monsterId": 442,
@@ -7,9 +7,20 @@
       "region": "Hoenn",
       "location": "Abandoned Ship",
       "sourceId": 1791441723,
-      "despawnTimestamp": 1791441722,
+      "despawnTimestamp": 1791441723,
       "hasValuable": false,
       "timestampUtc": "2026-10-08T06:42:03.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 122,
+      "pokemon": "Mr. Mime",
+      "region": "Sinnoh",
+      "location": "Route 224",
+      "sourceId": 1791443145,
+      "despawnTimestamp": 1791443145,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-08T07:05:45.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,32 +30,24 @@
       "pokemon": "Venusaur",
       "region": "Kanto",
       "location": "Berry Forest",
-      "secondsAgo": 9659,
-      "sourceId": 1791431695
+      "secondsAgo": 9960,
+      "sourceId": 1791431696
     },
     {
       "monsterId": 155,
       "pokemon": "Cyndaquil",
       "region": "Johto",
       "location": "Route 33",
-      "secondsAgo": 3902,
+      "secondsAgo": 4204,
       "sourceId": 1791437452
-    },
-    {
-      "monsterId": 351,
-      "pokemon": "Castform",
-      "region": "Sinnoh",
-      "location": "Route 210",
-      "secondsAgo": 6129,
-      "sourceId": 1791435225
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 5955,
-      "sourceId": 1791435399
+      "secondsAgo": 6256,
+      "sourceId": 1791435400
     }
   ],
   "alpha": {
