@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-08T20:20:56.671Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-08T20:25:49.760Z",
+  "swarms": [
+    {
+      "monsterId": 299,
+      "pokemon": "Nosepass",
+      "region": "Sinnoh",
+      "location": "Oreburgh Gate",
+      "sourceId": 1791492504,
+      "despawnTimestamp": 1791492503,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-08T20:48:24.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 135,
       "pokemon": "Jolteon",
       "region": "Kanto",
       "location": "Ruin Valley",
-      "secondsAgo": 3704,
+      "secondsAgo": 3997,
       "sourceId": 1791487152
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 10781,
+      "secondsAgo": 11074,
       "sourceId": 1791480075
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Croagunk",
       "region": "Hoenn",
       "location": "Route 121",
-      "secondsAgo": 3040,
+      "secondsAgo": 3333,
       "sourceId": 1791487816
-    },
-    {
-      "monsterId": 340,
-      "pokemon": "Whiscash",
-      "region": "Sinnoh",
-      "location": "Ravaged Path",
-      "secondsAgo": 13534,
-      "sourceId": 1791477322
     },
     {
       "monsterId": 430,
       "pokemon": "Honchkrow",
       "region": "Unova",
       "location": "Celestial Tower",
-      "secondsAgo": 5279,
+      "secondsAgo": 5572,
       "sourceId": 1791485577
     }
   ],
