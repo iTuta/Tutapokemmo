@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-08T01:50:49.333Z",
+  "fetchedAt": "2026-10-08T01:55:55.368Z",
   "swarms": [
     {
       "monsterId": 300,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-08T02:09:35.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 389,
+      "pokemon": "Torterra",
+      "region": "Sinnoh",
+      "location": "Route 212",
+      "sourceId": 1791425957,
+      "despawnTimestamp": 1791425956,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-08T02:19:17.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Chatot",
       "region": "Kanto",
       "location": "Treasure Beach",
-      "secondsAgo": 8993,
+      "secondsAgo": 9299,
       "sourceId": 1791415256
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Luvdisc",
       "region": "Hoenn",
       "location": "Route 132",
-      "secondsAgo": 2587,
+      "secondsAgo": 2893,
       "sourceId": 1791421662
-    },
-    {
-      "monsterId": 103,
-      "pokemon": "Exeggutor",
-      "region": "Sinnoh",
-      "location": "Route 230",
-      "secondsAgo": 16646,
-      "sourceId": 1791407603
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 2066,
+      "secondsAgo": 2372,
       "sourceId": 1791422183
     }
   ],
