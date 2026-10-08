@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-08T05:25:47.330Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-08T05:31:02.705Z",
+  "swarms": [
+    {
+      "monsterId": 155,
+      "pokemon": "Cyndaquil",
+      "region": "Johto",
+      "location": "Route 33",
+      "sourceId": 1791438952,
+      "despawnTimestamp": 1791438951,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-08T05:55:52.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 3,
       "pokemon": "Venusaur",
       "region": "Kanto",
       "location": "Berry Forest",
-      "secondsAgo": 5451,
-      "sourceId": 1791431696
-    },
-    {
-      "monsterId": 300,
-      "pokemon": "Skitty",
-      "region": "Johto",
-      "location": "Route 35",
-      "secondsAgo": 13271,
-      "sourceId": 1791423876
+      "secondsAgo": 5767,
+      "sourceId": 1791431695
     },
     {
       "monsterId": 370,
       "pokemon": "Luvdisc",
       "region": "Hoenn",
       "location": "Route 132",
-      "secondsAgo": 15485,
+      "secondsAgo": 15800,
       "sourceId": 1791421662
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Castform",
       "region": "Sinnoh",
       "location": "Route 210",
-      "secondsAgo": 1922,
+      "secondsAgo": 2237,
       "sourceId": 1791435225
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 1747,
+      "secondsAgo": 2062,
       "sourceId": 1791435400
     }
   ],
