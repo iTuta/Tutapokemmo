@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-09T06:55:48.520Z",
+  "fetchedAt": "2026-10-09T07:01:08.218Z",
   "swarms": [
-    {
-      "monsterId": 438,
-      "pokemon": "Bonsly",
-      "region": "Johto",
-      "location": "Ilex Forest",
-      "sourceId": 1791529036,
-      "despawnTimestamp": 1791529035,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-09T06:57:16.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
@@ -30,15 +19,23 @@
       "pokemon": "Vespiquen",
       "region": "Kanto",
       "location": "Five Isle Meadow",
-      "secondsAgo": 11804,
-      "sourceId": 1791517144
+      "secondsAgo": 12123,
+      "sourceId": 1791517145
+    },
+    {
+      "monsterId": 438,
+      "pokemon": "Bonsly",
+      "region": "Johto",
+      "location": "Ilex Forest",
+      "secondsAgo": 1732,
+      "sourceId": 1791527536
     },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
       "region": "Hoenn",
       "location": "Route 128",
-      "secondsAgo": 11110,
+      "secondsAgo": 11430,
       "sourceId": 1791517838
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 8566,
+      "secondsAgo": 8886,
       "sourceId": 1791520382
     }
   ],
