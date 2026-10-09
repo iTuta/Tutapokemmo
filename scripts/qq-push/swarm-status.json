@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-09T03:35:49.052Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-09T03:40:49.577Z",
+  "swarms": [
     {
-      "monsterId": 141,
-      "pokemon": "Kabutops",
+      "monsterId": 416,
+      "pokemon": "Vespiquen",
       "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 3643,
-      "sourceId": 1791513306
-    },
+      "location": "Five Isle Meadow",
+      "sourceId": 1791518644,
+      "despawnTimestamp": 1791518643,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-09T04:04:04.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 102,
       "pokemon": "Exeggcute",
       "region": "Johto",
       "location": "Route 30",
-      "secondsAgo": 23876,
+      "secondsAgo": 24176,
       "sourceId": 1791493073
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Cloyster",
       "region": "Hoenn",
       "location": "Route 133",
-      "secondsAgo": 3031,
+      "secondsAgo": 3331,
       "sourceId": 1791513918
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Empoleon",
       "region": "Sinnoh",
       "location": "Lake Acuity",
-      "secondsAgo": 3451,
+      "secondsAgo": 3751,
       "sourceId": 1791513498
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Honchkrow",
       "region": "Unova",
       "location": "Celestial Tower",
-      "secondsAgo": 31371,
+      "secondsAgo": 31671,
       "sourceId": 1791485578
     }
   ],
