@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-09T03:45:54.970Z",
+  "fetchedAt": "2026-10-09T03:50:52.464Z",
   "swarms": [
     {
       "monsterId": 416,
@@ -22,23 +22,26 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-09T04:05:53.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 222,
+      "pokemon": "Corsola",
+      "region": "Hoenn",
+      "location": "Route 128",
+      "sourceId": 1791519337,
+      "despawnTimestamp": 1791519337,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-09T04:15:37.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 91,
-      "pokemon": "Cloyster",
-      "region": "Hoenn",
-      "location": "Route 133",
-      "secondsAgo": 3637,
-      "sourceId": 1791513917
-    },
     {
       "monsterId": 395,
       "pokemon": "Empoleon",
       "region": "Sinnoh",
       "location": "Lake Acuity",
-      "secondsAgo": 4056,
+      "secondsAgo": 4354,
       "sourceId": 1791513498
     },
     {
@@ -46,7 +49,7 @@
       "pokemon": "Honchkrow",
       "region": "Unova",
       "location": "Celestial Tower",
-      "secondsAgo": 31977,
+      "secondsAgo": 32275,
       "sourceId": 1791485577
     }
   ],
