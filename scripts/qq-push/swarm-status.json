@@ -1,37 +1,33 @@
 {
-  "fetchedAt": "2026-10-09T15:25:52.625Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-09T15:30:58.052Z",
+  "swarms": [
     {
-      "monsterId": 359,
-      "pokemon": "Absol",
+      "monsterId": 139,
+      "pokemon": "Omastar",
       "region": "Kanto",
-      "location": "Canyon Entrance",
-      "secondsAgo": 4660,
-      "sourceId": 1791554892
-    },
+      "location": "Tanoby Ruins",
+      "sourceId": 1791561228,
+      "despawnTimestamp": 1791561228,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-09T15:53:48.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 375,
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 1870,
+      "secondsAgo": 2176,
       "sourceId": 1791557682
-    },
-    {
-      "monsterId": 468,
-      "pokemon": "Togekiss",
-      "region": "Hoenn",
-      "location": "Sky Pillar",
-      "secondsAgo": 4901,
-      "sourceId": 1791554651
     },
     {
       "monsterId": 359,
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "secondsAgo": 2712,
+      "secondsAgo": 3018,
       "sourceId": 1791556840
     },
     {
@@ -39,20 +35,20 @@
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 3028,
-      "sourceId": 1791556524
+      "secondsAgo": 3333,
+      "sourceId": 1791556525
     }
   ],
   "alpha": {
-    "monsterId": 30,
-    "pokemon": "Nidorina",
-    "region": "Kanto",
-    "location": "Route 3",
-    "sourceId": 1791527265,
-    "despawnTimestamp": 1791544365,
+    "monsterId": 184,
+    "pokemon": "Azumarill",
+    "region": "Hoenn",
+    "location": "Route 123",
+    "sourceId": 1791547057,
+    "despawnTimestamp": 1791564157,
     "hasValuable": false,
-    "timestampUtc": "2026-10-09T06:27:45.000Z",
-    "timestampRaw": "2026-10-09T06:27:45.000Z",
-    "publishedBy": "maek1098"
+    "timestampUtc": "2026-10-09T11:57:37.000Z",
+    "timestampRaw": "2026-10-09T11:57:37.000Z",
+    "publishedBy": ""
   }
 }
