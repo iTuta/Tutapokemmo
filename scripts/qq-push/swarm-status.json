@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-09T19:01:10.793Z",
+  "fetchedAt": "2026-10-09T19:05:45.574Z",
   "swarms": [
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Johto",
-      "location": "Dark Cave",
-      "sourceId": 1791572727,
-      "despawnTimestamp": 1791572726,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-09T19:05:27.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 415,
       "pokemon": "Combee",
@@ -22,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-09T19:17:55.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 193,
+      "pokemon": "Yanma",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "sourceId": 1791574060,
+      "despawnTimestamp": 1791574060,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-09T19:27:40.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,24 +30,24 @@
       "pokemon": "Starmie",
       "region": "Kanto",
       "location": "Seven Island",
-      "secondsAgo": 7692,
+      "secondsAgo": 7967,
       "sourceId": 1791564778
+    },
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Johto",
+      "location": "Dark Cave",
+      "secondsAgo": 1517,
+      "sourceId": 1791571228
     },
     {
       "monsterId": 468,
       "pokemon": "Togekiss",
       "region": "Hoenn",
       "location": "Sky Pillar",
-      "secondsAgo": 17819,
+      "secondsAgo": 18094,
       "sourceId": 1791554651
-    },
-    {
-      "monsterId": 162,
-      "pokemon": "Furret",
-      "region": "Unova",
-      "location": "Abundant Shrine",
-      "secondsAgo": 7564,
-      "sourceId": 1791564906
     }
   ],
   "alpha": {
