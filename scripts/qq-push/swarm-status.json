@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-09T02:35:45.809Z",
+  "fetchedAt": "2026-10-09T02:41:12.684Z",
   "swarms": [
     {
       "monsterId": 141,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-09T03:00:05.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 395,
+      "pokemon": "Empoleon",
+      "region": "Sinnoh",
+      "location": "Lake Acuity",
+      "sourceId": 1791514997,
+      "despawnTimestamp": 1791514997,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-09T03:03:17.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Exeggcute",
       "region": "Johto",
       "location": "Route 30",
-      "secondsAgo": 20272,
+      "secondsAgo": 20599,
       "sourceId": 1791493073
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Vaporeon",
       "region": "Hoenn",
       "location": "Route 134",
-      "secondsAgo": 4316,
+      "secondsAgo": 4643,
       "sourceId": 1791509029
-    },
-    {
-      "monsterId": 162,
-      "pokemon": "Furret",
-      "region": "Sinnoh",
-      "location": "Route 208",
-      "secondsAgo": 6444,
-      "sourceId": 1791506901
     },
     {
       "monsterId": 430,
       "pokemon": "Honchkrow",
       "region": "Unova",
       "location": "Celestial Tower",
-      "secondsAgo": 27768,
+      "secondsAgo": 28095,
       "sourceId": 1791485577
     }
   ],
