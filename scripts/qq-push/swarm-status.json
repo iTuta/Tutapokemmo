@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-09T07:25:50.442Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-09T07:31:01.401Z",
+  "swarms": [
+    {
+      "monsterId": 468,
+      "pokemon": "Togekiss",
+      "region": "Hoenn",
+      "location": "Sky Pillar",
+      "sourceId": 1791532303,
+      "despawnTimestamp": 1791532303,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-09T07:51:43.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 416,
       "pokemon": "Vespiquen",
       "region": "Kanto",
       "location": "Five Isle Meadow",
-      "secondsAgo": 13606,
+      "secondsAgo": 13917,
       "sourceId": 1791517144
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Bonsly",
       "region": "Johto",
       "location": "Ilex Forest",
-      "secondsAgo": 3214,
+      "secondsAgo": 3525,
       "sourceId": 1791527536
-    },
-    {
-      "monsterId": 222,
-      "pokemon": "Corsola",
-      "region": "Hoenn",
-      "location": "Route 128",
-      "secondsAgo": 12912,
-      "sourceId": 1791517838
     },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Sinnoh",
       "location": "Route 225",
-      "secondsAgo": 2590,
+      "secondsAgo": 2901,
       "sourceId": 1791528160
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 10368,
+      "secondsAgo": 10679,
       "sourceId": 1791520382
     }
   ],
