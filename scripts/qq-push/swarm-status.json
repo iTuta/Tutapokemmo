@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-09T20:01:22.293Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-09T20:05:48.997Z",
+  "swarms": [
+    {
+      "monsterId": 241,
+      "pokemon": "Miltank",
+      "region": "Unova",
+      "location": "Village Bridge",
+      "sourceId": 1791577655,
+      "despawnTimestamp": 1791577654,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-09T20:27:35.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 121,
       "pokemon": "Starmie",
       "region": "Kanto",
       "location": "Seven Island",
-      "secondsAgo": 11304,
+      "secondsAgo": 11570,
       "sourceId": 1791564778
     },
     {
@@ -15,15 +27,15 @@
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 4854,
-      "sourceId": 1791571228
+      "secondsAgo": 5121,
+      "sourceId": 1791571227
     },
     {
       "monsterId": 468,
       "pokemon": "Togekiss",
       "region": "Hoenn",
       "location": "Sky Pillar",
-      "secondsAgo": 21431,
+      "secondsAgo": 21697,
       "sourceId": 1791554651
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Combee",
       "region": "Sinnoh",
       "location": "Floaroma Meadow",
-      "secondsAgo": 3926,
-      "sourceId": 1791572156
-    },
-    {
-      "monsterId": 193,
-      "pokemon": "Yanma",
-      "region": "Unova",
-      "location": "Pinwheel Forest",
-      "secondsAgo": 3521,
-      "sourceId": 1791572561
+      "secondsAgo": 4193,
+      "sourceId": 1791572155
     }
   ],
   "alpha": {
