@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-10-09T21:50:56.832Z",
+  "fetchedAt": "2026-10-09T21:55:45.704Z",
   "swarms": [
-    {
-      "monsterId": 359,
-      "pokemon": "Absol",
-      "region": "Johto",
-      "location": "Route 28",
-      "sourceId": 1791582710,
-      "despawnTimestamp": 1791582709,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-09T21:51:50.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 394,
-      "pokemon": "Prinplup",
-      "region": "Sinnoh",
-      "location": "Route 220",
-      "sourceId": 1791582787,
-      "despawnTimestamp": 1791582787,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-09T21:53:07.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
@@ -41,16 +19,32 @@
       "pokemon": "Heracross",
       "region": "Kanto",
       "location": "Route 16",
-      "secondsAgo": 4917,
+      "secondsAgo": 5206,
       "sourceId": 1791577739
+    },
+    {
+      "monsterId": 359,
+      "pokemon": "Absol",
+      "region": "Johto",
+      "location": "Route 28",
+      "secondsAgo": 1735,
+      "sourceId": 1791581210
     },
     {
       "monsterId": 517,
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 5107,
+      "secondsAgo": 5396,
       "sourceId": 1791577549
+    },
+    {
+      "monsterId": 394,
+      "pokemon": "Prinplup",
+      "region": "Sinnoh",
+      "location": "Route 220",
+      "secondsAgo": 1657,
+      "sourceId": 1791581288
     }
   ],
   "alpha": {
