@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-09T02:30:56.964Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-09T02:35:45.809Z",
+  "swarms": [
     {
-      "monsterId": 319,
-      "pokemon": "Sharpedo",
+      "monsterId": 141,
+      "pokemon": "Kabutops",
       "region": "Kanto",
-      "location": "Water Labyrinth",
-      "secondsAgo": 20208,
-      "sourceId": 1791492848
-    },
+      "location": "Tanoby Ruins",
+      "sourceId": 1791514805,
+      "despawnTimestamp": 1791514804,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-09T03:00:05.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 102,
       "pokemon": "Exeggcute",
       "region": "Johto",
       "location": "Route 30",
-      "secondsAgo": 19984,
-      "sourceId": 1791493072
+      "secondsAgo": 20272,
+      "sourceId": 1791493073
     },
     {
       "monsterId": 134,
       "pokemon": "Vaporeon",
       "region": "Hoenn",
       "location": "Route 134",
-      "secondsAgo": 4027,
+      "secondsAgo": 4316,
       "sourceId": 1791509029
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Furret",
       "region": "Sinnoh",
       "location": "Route 208",
-      "secondsAgo": 6155,
+      "secondsAgo": 6444,
       "sourceId": 1791506901
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Honchkrow",
       "region": "Unova",
       "location": "Celestial Tower",
-      "secondsAgo": 27479,
+      "secondsAgo": 27768,
       "sourceId": 1791485577
     }
   ],
