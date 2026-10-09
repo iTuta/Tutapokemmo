@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-09T14:05:44.299Z",
+  "fetchedAt": "2026-10-09T14:10:59.700Z",
   "swarms": [
+    {
+      "monsterId": 359,
+      "pokemon": "Absol",
+      "region": "Kanto",
+      "location": "Canyon Entrance",
+      "sourceId": 1791556391,
+      "despawnTimestamp": 1791556391,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-09T14:33:11.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 468,
       "pokemon": "Togekiss",
@@ -15,27 +26,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 317,
-      "pokemon": "Swalot",
-      "region": "Kanto",
-      "location": "Route 18",
-      "secondsAgo": 20509,
-      "sourceId": 1791534235
-    },
-    {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Johto",
       "location": "Sprout Tower",
-      "secondsAgo": 3877,
-      "sourceId": 1791550867
+      "secondsAgo": 4193,
+      "sourceId": 1791550866
     },
     {
       "monsterId": 288,
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 8471,
+      "secondsAgo": 8786,
       "sourceId": 1791546273
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 4960,
+      "secondsAgo": 5275,
       "sourceId": 1791549784
     }
   ],
