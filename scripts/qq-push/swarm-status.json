@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-09T16:10:50.488Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-09T16:15:56.450Z",
+  "swarms": [
+    {
+      "monsterId": 479,
+      "pokemon": "Rotom",
+      "region": "Sinnoh",
+      "location": "Old Chateau",
+      "sourceId": 1791563983,
+      "despawnTimestamp": 1791563982,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-09T16:39:43.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 139,
       "pokemon": "Omastar",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 2521,
+      "secondsAgo": 2827,
       "sourceId": 1791559729
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 4568,
+      "secondsAgo": 4874,
       "sourceId": 1791557682
-    },
-    {
-      "monsterId": 359,
-      "pokemon": "Absol",
-      "region": "Sinnoh",
-      "location": "Mt. Coronet",
-      "secondsAgo": 5410,
-      "sourceId": 1791556840
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 5726,
+      "secondsAgo": 6032,
       "sourceId": 1791556524
     }
   ],
