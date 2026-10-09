@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-10-09T04:30:59.310Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-09T04:35:46.848Z",
+  "swarms": [
+    {
+      "monsterId": 214,
+      "pokemon": "Heracross",
+      "region": "Unova",
+      "location": "Route 10",
+      "sourceId": 1791521881,
+      "despawnTimestamp": 1791521880,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-09T04:58:01.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 416,
       "pokemon": "Vespiquen",
       "region": "Kanto",
       "location": "Five Isle Meadow",
-      "secondsAgo": 3114,
-      "sourceId": 1791517145
+      "secondsAgo": 3402,
+      "sourceId": 1791517144
     },
     {
       "monsterId": 339,
       "pokemon": "Barboach",
       "region": "Johto",
       "location": "Slowpoke Well",
-      "secondsAgo": 3005,
+      "secondsAgo": 3292,
       "sourceId": 1791517254
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Corsola",
       "region": "Hoenn",
       "location": "Route 128",
-      "secondsAgo": 2421,
-      "sourceId": 1791517838
+      "secondsAgo": 2709,
+      "sourceId": 1791517837
     },
     {
       "monsterId": 395,
       "pokemon": "Empoleon",
       "region": "Sinnoh",
       "location": "Lake Acuity",
-      "secondsAgo": 6761,
+      "secondsAgo": 7048,
       "sourceId": 1791513498
-    },
-    {
-      "monsterId": 430,
-      "pokemon": "Honchkrow",
-      "region": "Unova",
-      "location": "Celestial Tower",
-      "secondsAgo": 34681,
-      "sourceId": 1791485578
     }
   ],
   "alpha": {
