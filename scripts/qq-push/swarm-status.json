@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-09T01:20:56.446Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-09T01:25:46.408Z",
+  "swarms": [
+    {
+      "monsterId": 134,
+      "pokemon": "Vaporeon",
+      "region": "Hoenn",
+      "location": "Route 134",
+      "sourceId": 1791510529,
+      "despawnTimestamp": 1791510528,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-09T01:48:49.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Kanto",
       "location": "Water Labyrinth",
-      "secondsAgo": 16008,
+      "secondsAgo": 16298,
       "sourceId": 1791492848
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Exeggcute",
       "region": "Johto",
       "location": "Route 30",
-      "secondsAgo": 15783,
+      "secondsAgo": 16073,
       "sourceId": 1791493073
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Hoenn",
-      "location": "Scorched Slab",
-      "secondsAgo": 10830,
-      "sourceId": 1791498026
     },
     {
       "monsterId": 162,
       "pokemon": "Furret",
       "region": "Sinnoh",
       "location": "Route 208",
-      "secondsAgo": 1954,
+      "secondsAgo": 2244,
       "sourceId": 1791506902
     }
   ],
