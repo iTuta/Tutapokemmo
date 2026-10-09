@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-09T20:25:46.964Z",
+  "fetchedAt": "2026-10-09T20:30:58.887Z",
   "swarms": [
+    {
+      "monsterId": 214,
+      "pokemon": "Heracross",
+      "region": "Kanto",
+      "location": "Route 16",
+      "sourceId": 1791579239,
+      "despawnTimestamp": 1791579238,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-09T20:53:59.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 372,
       "pokemon": "Shelgon",
@@ -13,6 +24,17 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Hoenn",
+      "location": "Route 102",
+      "sourceId": 1791579049,
+      "despawnTimestamp": 1791579048,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-09T20:50:49.000Z",
+      "publishedBy": ""
+    },
+    {
       "monsterId": 426,
       "pokemon": "Drifblim",
       "region": "Sinnoh",
@@ -22,35 +44,16 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-09T20:35:46.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Unova",
       "location": "Village Bridge",
-      "sourceId": 1791577655,
-      "despawnTimestamp": 1791577654,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-09T20:27:35.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 121,
-      "pokemon": "Starmie",
-      "region": "Kanto",
-      "location": "Seven Island",
-      "secondsAgo": 12768,
-      "sourceId": 1791564778
-    },
-    {
-      "monsterId": 468,
-      "pokemon": "Togekiss",
-      "region": "Hoenn",
-      "location": "Sky Pillar",
-      "secondsAgo": 22895,
-      "sourceId": 1791554651
+      "secondsAgo": 1703,
+      "sourceId": 1791576155
     }
   ],
   "alpha": {
