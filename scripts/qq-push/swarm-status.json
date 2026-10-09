@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-09T06:31:06.017Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-09T06:36:06.952Z",
+  "swarms": [
+    {
+      "monsterId": 438,
+      "pokemon": "Bonsly",
+      "region": "Johto",
+      "location": "Ilex Forest",
+      "sourceId": 1791529036,
+      "despawnTimestamp": 1791529035,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-09T06:57:16.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 416,
       "pokemon": "Vespiquen",
       "region": "Kanto",
       "location": "Five Isle Meadow",
-      "secondsAgo": 10321,
+      "secondsAgo": 10622,
       "sourceId": 1791517144
-    },
-    {
-      "monsterId": 339,
-      "pokemon": "Barboach",
-      "region": "Johto",
-      "location": "Slowpoke Well",
-      "secondsAgo": 10211,
-      "sourceId": 1791517254
     },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
       "region": "Hoenn",
       "location": "Route 128",
-      "secondsAgo": 9628,
+      "secondsAgo": 9929,
       "sourceId": 1791517837
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Mr. Mime",
       "region": "Sinnoh",
       "location": "Route 224",
-      "secondsAgo": 5113,
+      "secondsAgo": 5414,
       "sourceId": 1791522352
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 7084,
+      "secondsAgo": 7385,
       "sourceId": 1791520381
     }
   ],
