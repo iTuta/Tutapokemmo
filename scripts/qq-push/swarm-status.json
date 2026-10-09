@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-09T02:55:52.221Z",
+  "fetchedAt": "2026-10-09T03:01:05.633Z",
   "swarms": [
-    {
-      "monsterId": 141,
-      "pokemon": "Kabutops",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "sourceId": 1791514805,
-      "despawnTimestamp": 1791514805,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-09T03:00:05.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
       "region": "Hoenn",
       "location": "Route 133",
       "sourceId": 1791515417,
-      "despawnTimestamp": 1791515417,
+      "despawnTimestamp": 1791515416,
       "hasValuable": false,
       "timestampUtc": "2026-10-09T03:10:17.000Z",
       "publishedBy": ""
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 141,
+      "pokemon": "Kabutops",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "secondsAgo": 1560,
+      "sourceId": 1791513305
+    },
+    {
       "monsterId": 102,
       "pokemon": "Exeggcute",
       "region": "Johto",
       "location": "Route 30",
-      "secondsAgo": 21479,
+      "secondsAgo": 21792,
       "sourceId": 1791493073
     },
     {
@@ -49,8 +46,8 @@
       "pokemon": "Honchkrow",
       "region": "Unova",
       "location": "Celestial Tower",
-      "secondsAgo": 28974,
-      "sourceId": 1791485578
+      "secondsAgo": 29288,
+      "sourceId": 1791485577
     }
   ],
   "alpha": {
