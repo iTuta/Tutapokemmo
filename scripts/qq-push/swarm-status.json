@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-10-09T00:45:50.629Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-09T00:51:05.175Z",
+  "swarms": [
+    {
+      "monsterId": 162,
+      "pokemon": "Furret",
+      "region": "Sinnoh",
+      "location": "Route 208",
+      "sourceId": 1791508401,
+      "despawnTimestamp": 1791508401,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-09T01:13:21.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Kanto",
       "location": "Water Labyrinth",
-      "secondsAgo": 13902,
-      "sourceId": 1791492848
+      "secondsAgo": 14216,
+      "sourceId": 1791492849
     },
     {
       "monsterId": 102,
       "pokemon": "Exeggcute",
       "region": "Johto",
       "location": "Route 30",
-      "secondsAgo": 13677,
+      "secondsAgo": 13992,
       "sourceId": 1791493073
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Volcarona",
       "region": "Hoenn",
       "location": "Scorched Slab",
-      "secondsAgo": 8725,
-      "sourceId": 1791498025
-    },
-    {
-      "monsterId": 299,
-      "pokemon": "Nosepass",
-      "region": "Sinnoh",
-      "location": "Oreburgh Gate",
-      "secondsAgo": 15746,
-      "sourceId": 1791491004
+      "secondsAgo": 9039,
+      "sourceId": 1791498026
     },
     {
       "monsterId": 430,
       "pokemon": "Honchkrow",
       "region": "Unova",
       "location": "Celestial Tower",
-      "secondsAgo": 21173,
-      "sourceId": 1791485577
+      "secondsAgo": 21487,
+      "sourceId": 1791485578
     }
   ],
   "alpha": {
