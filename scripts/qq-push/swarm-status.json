@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-09T14:25:52.803Z",
+  "fetchedAt": "2026-10-09T14:31:01.751Z",
   "swarms": [
     {
       "monsterId": 359,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-09T14:33:11.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 468,
-      "pokemon": "Togekiss",
-      "region": "Hoenn",
-      "location": "Sky Pillar",
-      "sourceId": 1791556151,
-      "despawnTimestamp": 1791556150,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-09T14:29:11.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,15 +19,23 @@
       "pokemon": "Misdreavus",
       "region": "Johto",
       "location": "Sprout Tower",
-      "secondsAgo": 5086,
+      "secondsAgo": 5395,
       "sourceId": 1791550866
+    },
+    {
+      "monsterId": 468,
+      "pokemon": "Togekiss",
+      "region": "Hoenn",
+      "location": "Sky Pillar",
+      "secondsAgo": 1610,
+      "sourceId": 1791554651
     },
     {
       "monsterId": 288,
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 9679,
+      "secondsAgo": 9988,
       "sourceId": 1791546273
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 6168,
+      "secondsAgo": 6477,
       "sourceId": 1791549784
     }
   ],
