@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-09T23:05:45.766Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-09T23:10:44.878Z",
+  "swarms": [
     {
-      "monsterId": 214,
-      "pokemon": "Heracross",
+      "monsterId": 413,
+      "pokemon": "Wormadam",
       "region": "Kanto",
-      "location": "Route 16",
-      "secondsAgo": 9406,
-      "sourceId": 1791577739
-    },
+      "location": "Pattern Bush",
+      "sourceId": 1791588836,
+      "despawnTimestamp": 1791588835,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-09T23:33:56.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 2151,
+      "secondsAgo": 2450,
       "sourceId": 1791584994
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 9596,
+      "secondsAgo": 9895,
       "sourceId": 1791577549
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 5573,
+      "secondsAgo": 5872,
       "sourceId": 1791581572
     }
   ],
