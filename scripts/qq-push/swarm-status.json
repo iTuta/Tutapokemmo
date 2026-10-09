@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-10-09T14:35:47.958Z",
+  "fetchedAt": "2026-10-09T14:40:53.279Z",
   "swarms": [
+    {
+      "monsterId": 359,
+      "pokemon": "Absol",
+      "region": "Sinnoh",
+      "location": "Mt. Coronet",
+      "sourceId": 1791558339,
+      "despawnTimestamp": 1791558339,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-09T15:05:39.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
       "sourceId": 1791558024,
-      "despawnTimestamp": 1791558023,
+      "despawnTimestamp": 1791558024,
       "hasValuable": false,
       "timestampUtc": "2026-10-09T15:00:24.000Z",
       "publishedBy": ""
@@ -19,32 +30,24 @@
       "pokemon": "Absol",
       "region": "Kanto",
       "location": "Canyon Entrance",
-      "secondsAgo": 1656,
-      "sourceId": 1791554891
+      "secondsAgo": 1961,
+      "sourceId": 1791554892
     },
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Johto",
       "location": "Sprout Tower",
-      "secondsAgo": 5681,
-      "sourceId": 1791550866
+      "secondsAgo": 5986,
+      "sourceId": 1791550867
     },
     {
       "monsterId": 468,
       "pokemon": "Togekiss",
       "region": "Hoenn",
       "location": "Sky Pillar",
-      "secondsAgo": 1896,
+      "secondsAgo": 2202,
       "sourceId": 1791554651
-    },
-    {
-      "monsterId": 288,
-      "pokemon": "Vigoroth",
-      "region": "Sinnoh",
-      "location": "Route 215",
-      "secondsAgo": 10274,
-      "sourceId": 1791546273
     }
   ],
   "alpha": {
