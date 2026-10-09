@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-09T12:06:00.230Z",
+  "fetchedAt": "2026-10-09T12:10:50.112Z",
   "swarms": [
     {
       "monsterId": 185,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-09T12:18:01.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 288,
-      "pokemon": "Vigoroth",
-      "region": "Sinnoh",
-      "location": "Route 215",
-      "sourceId": 1791547772,
-      "despawnTimestamp": 1791547772,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-09T12:09:32.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Swalot",
       "region": "Kanto",
       "location": "Route 18",
-      "secondsAgo": 13325,
+      "secondsAgo": 13615,
       "sourceId": 1791534235
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Shroomish",
       "region": "Johto",
       "location": "Route 34",
-      "secondsAgo": 7910,
+      "secondsAgo": 8200,
       "sourceId": 1791539650
+    },
+    {
+      "monsterId": 288,
+      "pokemon": "Vigoroth",
+      "region": "Sinnoh",
+      "location": "Route 215",
+      "secondsAgo": 1577,
+      "sourceId": 1791546273
     },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 14559,
+      "secondsAgo": 14849,
       "sourceId": 1791533001
     }
   ],
