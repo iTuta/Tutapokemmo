@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-09T12:41:01.503Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-09T12:45:59.490Z",
+  "swarms": [
+    {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Unova",
+      "location": "Guidance Chamber",
+      "sourceId": 1791551283,
+      "despawnTimestamp": 1791551283,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-09T13:08:03.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 317,
       "pokemon": "Swalot",
       "region": "Kanto",
       "location": "Route 18",
-      "secondsAgo": 15426,
+      "secondsAgo": 15724,
       "sourceId": 1791534235
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Shroomish",
       "region": "Johto",
       "location": "Route 34",
-      "secondsAgo": 10011,
+      "secondsAgo": 10309,
       "sourceId": 1791539650
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 2879,
+      "secondsAgo": 3177,
       "sourceId": 1791546782
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 3388,
+      "secondsAgo": 3686,
       "sourceId": 1791546273
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Unova",
-      "location": "Relic Castle",
-      "secondsAgo": 16661,
-      "sourceId": 1791533000
     }
   ],
   "alpha": {
