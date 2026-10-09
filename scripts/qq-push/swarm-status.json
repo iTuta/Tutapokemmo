@@ -1,36 +1,21 @@
 {
-  "fetchedAt": "2026-10-09T17:15:57.211Z",
-  "swarms": [
+  "fetchedAt": "2026-10-09T17:20:55.407Z",
+  "swarms": [],
+  "lastSeen": [
     {
       "monsterId": 121,
       "pokemon": "Starmie",
       "region": "Kanto",
       "location": "Seven Island",
-      "sourceId": 1791566278,
-      "despawnTimestamp": 1791566277,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-09T17:17:58.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1677,
+      "sourceId": 1791564778
     },
-    {
-      "monsterId": 162,
-      "pokemon": "Furret",
-      "region": "Unova",
-      "location": "Abundant Shrine",
-      "sourceId": 1791566406,
-      "despawnTimestamp": 1791566406,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-09T17:20:06.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
     {
       "monsterId": 375,
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 8475,
+      "secondsAgo": 8773,
       "sourceId": 1791557682
     },
     {
@@ -38,16 +23,24 @@
       "pokemon": "Togekiss",
       "region": "Hoenn",
       "location": "Sky Pillar",
-      "secondsAgo": 11505,
-      "sourceId": 1791554652
+      "secondsAgo": 11804,
+      "sourceId": 1791554651
     },
     {
       "monsterId": 479,
       "pokemon": "Rotom",
       "region": "Sinnoh",
       "location": "Old Chateau",
-      "secondsAgo": 3673,
-      "sourceId": 1791562484
+      "secondsAgo": 3972,
+      "sourceId": 1791562483
+    },
+    {
+      "monsterId": 162,
+      "pokemon": "Furret",
+      "region": "Unova",
+      "location": "Abundant Shrine",
+      "secondsAgo": 1548,
+      "sourceId": 1791564907
     }
   ],
   "alpha": {
