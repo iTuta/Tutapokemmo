@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-09T20:45:51.275Z",
+  "fetchedAt": "2026-10-09T20:50:56.394Z",
   "swarms": [
     {
       "monsterId": 214,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-09T20:53:59.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 517,
-      "pokemon": "Munna",
-      "region": "Hoenn",
-      "location": "Route 102",
-      "sourceId": 1791579049,
-      "despawnTimestamp": 1791579048,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-09T20:50:49.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,15 +19,23 @@
       "pokemon": "Shelgon",
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
-      "secondsAgo": 619,
+      "secondsAgo": 924,
       "sourceId": 1791578132
+    },
+    {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Hoenn",
+      "location": "Route 102",
+      "secondsAgo": 1507,
+      "sourceId": 1791577549
     },
     {
       "monsterId": 426,
       "pokemon": "Drifblim",
       "region": "Sinnoh",
       "location": "Route 222",
-      "secondsAgo": 2104,
+      "secondsAgo": 2409,
       "sourceId": 1791576647
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Miltank",
       "region": "Unova",
       "location": "Village Bridge",
-      "secondsAgo": 2596,
+      "secondsAgo": 2901,
       "sourceId": 1791576155
     }
   ],
