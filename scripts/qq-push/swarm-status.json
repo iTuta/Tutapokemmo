@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-09T13:05:48.304Z",
+  "fetchedAt": "2026-10-09T13:10:55.625Z",
   "swarms": [
     {
       "monsterId": 200,
@@ -7,20 +7,9 @@
       "region": "Johto",
       "location": "Sprout Tower",
       "sourceId": 1791552366,
-      "despawnTimestamp": 1791552366,
+      "despawnTimestamp": 1791552365,
       "hasValuable": false,
       "timestampUtc": "2026-10-09T13:26:06.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Unova",
-      "location": "Guidance Chamber",
-      "sourceId": 1791551283,
-      "despawnTimestamp": 1791551283,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-09T13:08:03.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,7 +19,7 @@
       "pokemon": "Swalot",
       "region": "Kanto",
       "location": "Route 18",
-      "secondsAgo": 16913,
+      "secondsAgo": 17220,
       "sourceId": 1791534235
     },
     {
@@ -38,7 +27,7 @@
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 4366,
+      "secondsAgo": 4673,
       "sourceId": 1791546782
     },
     {
@@ -46,8 +35,16 @@
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 4875,
+      "secondsAgo": 5182,
       "sourceId": 1791546273
+    },
+    {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Unova",
+      "location": "Guidance Chamber",
+      "secondsAgo": 1671,
+      "sourceId": 1791549784
     }
   ],
   "alpha": {
