@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-09T22:25:53.725Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-09T22:30:57.003Z",
+  "swarms": [
+    {
+      "monsterId": 143,
+      "pokemon": "Snorlax",
+      "region": "Johto",
+      "location": "Victory Road",
+      "sourceId": 1791586494,
+      "despawnTimestamp": 1791586493,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-09T22:54:54.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Kanto",
       "location": "Route 16",
-      "secondsAgo": 7014,
+      "secondsAgo": 7317,
       "sourceId": 1791577739
-    },
-    {
-      "monsterId": 359,
-      "pokemon": "Absol",
-      "region": "Johto",
-      "location": "Route 28",
-      "secondsAgo": 3543,
-      "sourceId": 1791581210
     },
     {
       "monsterId": 517,
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 7204,
+      "secondsAgo": 7507,
       "sourceId": 1791577549
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 3181,
+      "secondsAgo": 3484,
       "sourceId": 1791581572
     }
   ],
