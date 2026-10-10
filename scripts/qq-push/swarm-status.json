@@ -1,6 +1,28 @@
 {
-  "fetchedAt": "2026-10-10T22:20:51.915Z",
+  "fetchedAt": "2026-10-10T22:25:43.894Z",
   "swarms": [
+    {
+      "monsterId": 4,
+      "pokemon": "Charmander",
+      "region": "Kanto",
+      "location": "Route 3",
+      "sourceId": 1791672566,
+      "despawnTimestamp": 1791672566,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-10T22:49:26.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 390,
+      "pokemon": "Chimchar",
+      "region": "Sinnoh",
+      "location": "Route 211",
+      "sourceId": 1791672415,
+      "despawnTimestamp": 1791672415,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-10T22:46:55.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
@@ -15,28 +37,12 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 413,
-      "pokemon": "Wormadam",
-      "region": "Kanto",
-      "location": "Pattern Bush",
-      "secondsAgo": 5997,
-      "sourceId": 1791664854
-    },
-    {
       "monsterId": 370,
       "pokemon": "Luvdisc",
       "region": "Johto",
       "location": "Route 47",
-      "secondsAgo": 2754,
+      "secondsAgo": 3046,
       "sourceId": 1791668097
-    },
-    {
-      "monsterId": 455,
-      "pokemon": "Carnivine",
-      "region": "Sinnoh",
-      "location": "Route 225",
-      "secondsAgo": 6523,
-      "sourceId": 1791664328
     }
   ],
   "alpha": {
