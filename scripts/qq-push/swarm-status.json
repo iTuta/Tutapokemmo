@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-10T03:25:46.551Z",
+  "fetchedAt": "2026-10-10T03:30:53.636Z",
   "swarms": [
+    {
+      "monsterId": 312,
+      "pokemon": "Minun",
+      "region": "Kanto",
+      "location": "Route 22",
+      "sourceId": 1791604339,
+      "despawnTimestamp": 1791604338,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-10T03:52:19.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 227,
       "pokemon": "Skarmory",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 137,
-      "pokemon": "Porygon",
-      "region": "Kanto",
-      "location": "Pokemon Mansion",
-      "secondsAgo": 3422,
-      "sourceId": 1791599324
-    },
-    {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Hoenn",
       "location": "Route 127",
-      "secondsAgo": 7873,
+      "secondsAgo": 8180,
       "sourceId": 1791594873
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 3281,
+      "secondsAgo": 3588,
       "sourceId": 1791599465
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 4107,
+      "secondsAgo": 4414,
       "sourceId": 1791598639
     }
   ],
