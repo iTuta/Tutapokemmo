@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-10T16:05:51.159Z",
+  "fetchedAt": "2026-10-10T16:13:37.145Z",
   "swarms": [
-    {
-      "monsterId": 319,
-      "pokemon": "Sharpedo",
-      "region": "Hoenn",
-      "location": "Route 127",
-      "sourceId": 1791648664,
-      "despawnTimestamp": 1791648664,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-10T16:11:04.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
@@ -30,15 +19,23 @@
       "pokemon": "Snorlax",
       "region": "Kanto",
       "location": "Cerulean Cave",
-      "secondsAgo": 5137,
+      "secondsAgo": 5603,
       "sourceId": 1791643214
+    },
+    {
+      "monsterId": 319,
+      "pokemon": "Sharpedo",
+      "region": "Hoenn",
+      "location": "Route 127",
+      "secondsAgo": 1412,
+      "sourceId": 1791647405
     },
     {
       "monsterId": 340,
       "pokemon": "Whiscash",
       "region": "Sinnoh",
       "location": "Ravaged Path",
-      "secondsAgo": 2935,
+      "secondsAgo": 3401,
       "sourceId": 1791645416
     }
   ],
