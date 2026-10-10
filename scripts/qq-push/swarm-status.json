@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-09T23:55:48.366Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-10T00:01:09.850Z",
+  "swarms": [
+    {
+      "monsterId": 237,
+      "pokemon": "Hitmontop",
+      "region": "Johto",
+      "location": "Mt. Mortar",
+      "sourceId": 1791591720,
+      "despawnTimestamp": 1791591719,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-10T00:22:00.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 413,
       "pokemon": "Wormadam",
       "region": "Kanto",
       "location": "Pattern Bush",
-      "secondsAgo": 2811,
-      "sourceId": 1791587337
-    },
-    {
-      "monsterId": 143,
-      "pokemon": "Snorlax",
-      "region": "Johto",
-      "location": "Victory Road",
-      "secondsAgo": 5153,
-      "sourceId": 1791584995
+      "secondsAgo": 3133,
+      "sourceId": 1791587336
     },
     {
       "monsterId": 517,
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 12599,
+      "secondsAgo": 12920,
       "sourceId": 1791577549
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Prinplup",
       "region": "Sinnoh",
       "location": "Route 220",
-      "secondsAgo": 8860,
+      "secondsAgo": 9181,
       "sourceId": 1791581288
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 8576,
+      "secondsAgo": 8897,
       "sourceId": 1791581572
     }
   ],
