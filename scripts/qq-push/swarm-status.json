@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-10T20:45:54.966Z",
+  "fetchedAt": "2026-10-10T20:50:55.084Z",
   "swarms": [
     {
       "monsterId": 413,
@@ -7,31 +7,9 @@
       "region": "Kanto",
       "location": "Pattern Bush",
       "sourceId": 1791666354,
-      "despawnTimestamp": 1791666353,
+      "despawnTimestamp": 1791666354,
       "hasValuable": false,
       "timestampUtc": "2026-10-10T21:05:54.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Johto",
-      "location": "Cliff Cave",
-      "sourceId": 1791665357,
-      "despawnTimestamp": 1791665357,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-10T20:49:17.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 455,
-      "pokemon": "Carnivine",
-      "region": "Sinnoh",
-      "location": "Route 225",
-      "sourceId": 1791665828,
-      "despawnTimestamp": 1791665827,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-10T20:57:08.000Z",
       "publishedBy": ""
     },
     {
@@ -40,7 +18,7 @@
       "region": "Unova",
       "location": "Pinwheel Forest",
       "sourceId": 1791665697,
-      "despawnTimestamp": 1791665696,
+      "despawnTimestamp": 1791665697,
       "hasValuable": false,
       "timestampUtc": "2026-10-10T20:54:57.000Z",
       "publishedBy": ""
@@ -48,12 +26,28 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 213,
+      "pokemon": "Shuckle",
+      "region": "Johto",
+      "location": "Cliff Cave",
+      "secondsAgo": 1596,
+      "sourceId": 1791663859
+    },
+    {
       "monsterId": 316,
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 9260,
+      "secondsAgo": 9561,
       "sourceId": 1791655894
+    },
+    {
+      "monsterId": 455,
+      "pokemon": "Carnivine",
+      "region": "Sinnoh",
+      "location": "Route 225",
+      "secondsAgo": 1126,
+      "sourceId": 1791664329
     }
   ],
   "alpha": {
