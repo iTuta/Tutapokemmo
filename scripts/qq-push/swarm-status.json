@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-10T14:35:44.577Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-10T14:40:56.334Z",
+  "swarms": [
     {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
+      "monsterId": 143,
+      "pokemon": "Snorlax",
       "region": "Kanto",
-      "location": "Kindle Road",
-      "secondsAgo": 3222,
-      "sourceId": 1791639722
-    },
+      "location": "Cerulean Cave",
+      "sourceId": 1791644713,
+      "despawnTimestamp": 1791644713,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-10T15:05:13.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 339,
       "pokemon": "Barboach",
       "region": "Johto",
       "location": "Slowpoke Well",
-      "secondsAgo": 6521,
+      "secondsAgo": 6833,
       "sourceId": 1791636423
     },
     {
@@ -23,23 +27,23 @@
       "pokemon": "Relicanth",
       "region": "Hoenn",
       "location": "Route 126",
-      "secondsAgo": 15839,
-      "sourceId": 1791627105
+      "secondsAgo": 16150,
+      "sourceId": 1791627106
     },
     {
       "monsterId": 391,
       "pokemon": "Monferno",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 1820,
-      "sourceId": 1791641124
+      "secondsAgo": 2131,
+      "sourceId": 1791641125
     },
     {
       "monsterId": 314,
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 24050,
+      "secondsAgo": 24362,
       "sourceId": 1791618894
     }
   ],
