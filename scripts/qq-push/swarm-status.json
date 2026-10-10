@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-10T22:30:59.284Z",
+  "fetchedAt": "2026-10-10T22:35:51.178Z",
   "swarms": [
     {
       "monsterId": 4,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Route 3",
       "sourceId": 1791672566,
-      "despawnTimestamp": 1791672566,
+      "despawnTimestamp": 1791672567,
       "hasValuable": false,
       "timestampUtc": "2026-10-10T22:49:26.000Z",
       "publishedBy": ""
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-10T22:46:55.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Unova",
-      "location": "Relic Castle",
-      "sourceId": 1791671741,
-      "despawnTimestamp": 1791671740,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-10T22:35:41.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,8 +30,16 @@
       "pokemon": "Luvdisc",
       "region": "Johto",
       "location": "Route 47",
-      "secondsAgo": 3362,
+      "secondsAgo": 3654,
       "sourceId": 1791668097
+    },
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Unova",
+      "location": "Relic Castle",
+      "secondsAgo": 1509,
+      "sourceId": 1791670242
     }
   ],
   "alpha": {
