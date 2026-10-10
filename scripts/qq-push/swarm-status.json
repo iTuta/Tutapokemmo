@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-10T11:31:01.553Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-10T11:35:46.383Z",
+  "swarms": [
     {
-      "monsterId": 335,
-      "pokemon": "Zangoose",
+      "monsterId": 359,
+      "pokemon": "Absol",
       "region": "Kanto",
-      "location": "Route 14",
-      "secondsAgo": 8882,
-      "sourceId": 1791622979
-    },
+      "location": "Canyon Entrance",
+      "sourceId": 1791633522,
+      "despawnTimestamp": 1791633522,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-10T11:58:42.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 159,
       "pokemon": "Croconaw",
       "region": "Johto",
       "location": "Whirl Islands",
-      "secondsAgo": 9813,
+      "secondsAgo": 10098,
       "sourceId": 1791622048
     },
     {
@@ -23,15 +27,15 @@
       "pokemon": "Relicanth",
       "region": "Hoenn",
       "location": "Route 126",
-      "secondsAgo": 4756,
-      "sourceId": 1791627105
+      "secondsAgo": 5040,
+      "sourceId": 1791627106
     },
     {
       "monsterId": 314,
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 12967,
+      "secondsAgo": 13252,
       "sourceId": 1791618894
     }
   ],
