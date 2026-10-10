@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-10T15:15:57.639Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-10T15:20:59.348Z",
+  "swarms": [
+    {
+      "monsterId": 340,
+      "pokemon": "Whiscash",
+      "region": "Sinnoh",
+      "location": "Ravaged Path",
+      "sourceId": 1791646495,
+      "despawnTimestamp": 1791646495,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-10T15:34:55.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Kanto",
       "location": "Cerulean Cave",
-      "secondsAgo": 2143,
+      "secondsAgo": 2445,
       "sourceId": 1791643214
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Barboach",
       "region": "Johto",
       "location": "Slowpoke Well",
-      "secondsAgo": 8934,
+      "secondsAgo": 9236,
       "sourceId": 1791636423
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Relicanth",
       "region": "Hoenn",
       "location": "Route 126",
-      "secondsAgo": 18252,
-      "sourceId": 1791627105
-    },
-    {
-      "monsterId": 391,
-      "pokemon": "Monferno",
-      "region": "Sinnoh",
-      "location": "Route 211",
-      "secondsAgo": 4233,
-      "sourceId": 1791641124
+      "secondsAgo": 18553,
+      "sourceId": 1791627106
     },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 1712,
+      "secondsAgo": 2014,
       "sourceId": 1791643645
     }
   ],
