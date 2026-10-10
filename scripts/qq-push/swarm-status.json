@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-10T03:50:45.677Z",
+  "fetchedAt": "2026-10-10T03:55:48.042Z",
   "swarms": [
-    {
-      "monsterId": 312,
-      "pokemon": "Minun",
-      "region": "Kanto",
-      "location": "Route 22",
-      "sourceId": 1791604339,
-      "despawnTimestamp": 1791604338,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-10T03:52:19.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 321,
       "pokemon": "Wailord",
       "region": "Hoenn",
       "location": "Route 129",
       "sourceId": 1791605142,
-      "despawnTimestamp": 1791605141,
+      "despawnTimestamp": 1791605142,
       "hasValuable": false,
       "timestampUtc": "2026-10-10T04:05:42.000Z",
       "publishedBy": ""
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 312,
+      "pokemon": "Minun",
+      "region": "Kanto",
+      "location": "Route 22",
+      "secondsAgo": 1708,
+      "sourceId": 1791602840
+    },
+    {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Johto",
       "location": "Route 26",
-      "secondsAgo": 2537,
+      "secondsAgo": 2840,
       "sourceId": 1791601708
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 4780,
+      "secondsAgo": 5083,
       "sourceId": 1791599465
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 5606,
-      "sourceId": 1791598639
+      "secondsAgo": 5908,
+      "sourceId": 1791598640
     }
   ],
   "alpha": {
