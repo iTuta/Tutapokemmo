@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-10T17:45:57.394Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-10T17:50:52.630Z",
+  "swarms": [
     {
-      "monsterId": 143,
-      "pokemon": "Snorlax",
+      "monsterId": 336,
+      "pokemon": "Seviper",
       "region": "Kanto",
-      "location": "Cerulean Cave",
-      "secondsAgo": 4264,
-      "sourceId": 1791650093
-    },
+      "location": "Route 15",
+      "sourceId": 1791655691,
+      "despawnTimestamp": 1791655691,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-10T18:08:11.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 154,
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 7094,
-      "sourceId": 1791647263
+      "secondsAgo": 7390,
+      "sourceId": 1791647262
     },
     {
       "monsterId": 316,
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 2384,
+      "secondsAgo": 2679,
       "sourceId": 1791651973
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Whiscash",
       "region": "Sinnoh",
       "location": "Ravaged Path",
-      "secondsAgo": 8941,
+      "secondsAgo": 9236,
       "sourceId": 1791645416
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 6603,
+      "secondsAgo": 6898,
       "sourceId": 1791647754
     }
   ],
