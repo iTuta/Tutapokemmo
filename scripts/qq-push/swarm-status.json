@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-10T02:15:53.707Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-10T02:21:03.475Z",
+  "swarms": [
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Unova",
+      "location": "Route 1",
+      "sourceId": 1791600139,
+      "despawnTimestamp": 1791600138,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-10T02:42:19.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 413,
       "pokemon": "Wormadam",
       "region": "Kanto",
       "location": "Pattern Bush",
-      "secondsAgo": 11217,
+      "secondsAgo": 11527,
       "sourceId": 1791587336
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 5113,
+      "secondsAgo": 5423,
       "sourceId": 1791593440
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Sharpedo",
       "region": "Hoenn",
       "location": "Route 127",
-      "secondsAgo": 3681,
-      "sourceId": 1791594872
+      "secondsAgo": 3990,
+      "sourceId": 1791594873
     },
     {
       "monsterId": 394,
       "pokemon": "Prinplup",
       "region": "Sinnoh",
       "location": "Route 220",
-      "secondsAgo": 17265,
+      "secondsAgo": 17575,
       "sourceId": 1791581288
-    },
-    {
-      "monsterId": 176,
-      "pokemon": "Togetic",
-      "region": "Unova",
-      "location": "Dreamyard",
-      "secondsAgo": 16981,
-      "sourceId": 1791581572
     }
   ],
   "alpha": {
