@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-10-10T22:50:52.007Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-10T22:55:46.144Z",
+  "swarms": [
+    {
+      "monsterId": 156,
+      "pokemon": "Quilava",
+      "region": "Johto",
+      "location": "Route 42",
+      "sourceId": 1791674289,
+      "despawnTimestamp": 1791674289,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-10T23:18:09.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 4,
       "pokemon": "Charmander",
       "region": "Kanto",
       "location": "Route 3",
-      "secondsAgo": 1584,
+      "secondsAgo": 1879,
       "sourceId": 1791671067
-    },
-    {
-      "monsterId": 370,
-      "pokemon": "Luvdisc",
-      "region": "Johto",
-      "location": "Route 47",
-      "secondsAgo": 4555,
-      "sourceId": 1791668096
     },
     {
       "monsterId": 390,
       "pokemon": "Chimchar",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 1736,
-      "sourceId": 1791670915
+      "secondsAgo": 2030,
+      "sourceId": 1791670916
     },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 2410,
+      "secondsAgo": 2705,
       "sourceId": 1791670241
     }
   ],
