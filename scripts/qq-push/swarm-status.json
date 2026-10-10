@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-10T03:30:53.636Z",
+  "fetchedAt": "2026-10-10T03:35:52.428Z",
   "swarms": [
     {
       "monsterId": 312,
@@ -7,30 +7,27 @@
       "region": "Kanto",
       "location": "Route 22",
       "sourceId": 1791604339,
-      "despawnTimestamp": 1791604338,
+      "despawnTimestamp": 1791604339,
       "hasValuable": false,
       "timestampUtc": "2026-10-10T03:52:19.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 227,
-      "pokemon": "Skarmory",
-      "region": "Johto",
-      "location": "Route 26",
-      "sourceId": 1791603207,
-      "despawnTimestamp": 1791603207,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-10T03:33:27.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
+      "monsterId": 227,
+      "pokemon": "Skarmory",
+      "region": "Johto",
+      "location": "Route 26",
+      "secondsAgo": 1644,
+      "sourceId": 1791601708
+    },
+    {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Hoenn",
       "location": "Route 127",
-      "secondsAgo": 8180,
+      "secondsAgo": 8479,
       "sourceId": 1791594873
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 3588,
+      "secondsAgo": 3887,
       "sourceId": 1791599465
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 4414,
+      "secondsAgo": 4713,
       "sourceId": 1791598639
     }
   ],
