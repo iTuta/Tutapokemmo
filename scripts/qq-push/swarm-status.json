@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-10T22:05:46.548Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-10T22:10:50.498Z",
+  "swarms": [
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Unova",
+      "location": "Relic Castle",
+      "sourceId": 1791671741,
+      "despawnTimestamp": 1791671740,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-10T22:35:41.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 413,
       "pokemon": "Wormadam",
       "region": "Kanto",
       "location": "Pattern Bush",
-      "secondsAgo": 5092,
+      "secondsAgo": 5396,
       "sourceId": 1791664854
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Luvdisc",
       "region": "Johto",
       "location": "Route 47",
-      "secondsAgo": 1849,
+      "secondsAgo": 2153,
       "sourceId": 1791668097
     },
     {
@@ -23,16 +35,8 @@
       "pokemon": "Carnivine",
       "region": "Sinnoh",
       "location": "Route 225",
-      "secondsAgo": 5618,
+      "secondsAgo": 5922,
       "sourceId": 1791664328
-    },
-    {
-      "monsterId": 285,
-      "pokemon": "Shroomish",
-      "region": "Unova",
-      "location": "Pinwheel Forest",
-      "secondsAgo": 5749,
-      "sourceId": 1791664197
     }
   ],
   "alpha": {
