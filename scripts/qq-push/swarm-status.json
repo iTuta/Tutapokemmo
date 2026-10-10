@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-10T09:01:10.149Z",
+  "fetchedAt": "2026-10-10T09:05:45.243Z",
   "swarms": [
+    {
+      "monsterId": 335,
+      "pokemon": "Zangoose",
+      "region": "Kanto",
+      "location": "Route 14",
+      "sourceId": 1791624478,
+      "despawnTimestamp": 1791624478,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-10T09:27:58.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 159,
       "pokemon": "Croconaw",
@@ -15,27 +26,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 328,
-      "pokemon": "Trapinch",
-      "region": "Kanto",
-      "location": "Diglett&#x27;s Cave",
-      "secondsAgo": 11310,
-      "sourceId": 1791611560
-    },
-    {
       "monsterId": 331,
       "pokemon": "Cacnea",
       "region": "Hoenn",
       "location": "Route 111",
-      "secondsAgo": 3512,
-      "sourceId": 1791619358
+      "secondsAgo": 3788,
+      "sourceId": 1791619357
     },
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 23405,
+      "secondsAgo": 23680,
       "sourceId": 1791599465
     },
     {
@@ -43,8 +46,8 @@
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 3975,
-      "sourceId": 1791618895
+      "secondsAgo": 4251,
+      "sourceId": 1791618894
     }
   ],
   "alpha": {
