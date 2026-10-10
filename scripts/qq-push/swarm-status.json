@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-10T07:50:55.106Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-10T07:55:42.067Z",
+  "swarms": [
+    {
+      "monsterId": 314,
+      "pokemon": "Illumise",
+      "region": "Unova",
+      "location": "Moor of Icirrus",
+      "sourceId": 1791620394,
+      "despawnTimestamp": 1791620394,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-10T08:19:54.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 328,
       "pokemon": "Trapinch",
       "region": "Kanto",
       "location": "Diglett&#x27;s Cave",
-      "secondsAgo": 7095,
+      "secondsAgo": 7382,
       "sourceId": 1791611560
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Skarmory",
       "region": "Johto",
       "location": "Route 26",
-      "secondsAgo": 9892,
+      "secondsAgo": 10179,
       "sourceId": 1791608763
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Combee",
       "region": "Hoenn",
       "location": "Route 117",
-      "secondsAgo": 3531,
+      "secondsAgo": 3818,
       "sourceId": 1791615124
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 19190,
+      "secondsAgo": 19477,
       "sourceId": 1791599465
-    },
-    {
-      "monsterId": 291,
-      "pokemon": "Ninjask",
-      "region": "Unova",
-      "location": "Route 11",
-      "secondsAgo": 7440,
-      "sourceId": 1791611215
     }
   ],
   "alpha": {
