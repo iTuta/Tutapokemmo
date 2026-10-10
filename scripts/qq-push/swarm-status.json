@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-10T05:46:06.046Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-10T05:50:49.457Z",
+  "swarms": [
+    {
+      "monsterId": 291,
+      "pokemon": "Ninjask",
+      "region": "Unova",
+      "location": "Route 11",
+      "sourceId": 1791612534,
+      "despawnTimestamp": 1791612534,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-10T06:08:54.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 312,
       "pokemon": "Minun",
       "region": "Kanto",
       "location": "Route 22",
-      "secondsAgo": 8326,
+      "secondsAgo": 8609,
       "sourceId": 1791602840
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Skarmory",
       "region": "Johto",
       "location": "Route 26",
-      "secondsAgo": 2403,
+      "secondsAgo": 2686,
       "sourceId": 1791608763
     },
     {
@@ -23,16 +35,8 @@
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 11701,
+      "secondsAgo": 11984,
       "sourceId": 1791599465
-    },
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Unova",
-      "location": "Route 1",
-      "secondsAgo": 12526,
-      "sourceId": 1791598640
     }
   ],
   "alpha": {
