@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-10-10T09:40:53.325Z",
-  "swarms": [
-    {
-      "monsterId": 248,
-      "pokemon": "Tyranitar",
-      "region": "Sinnoh",
-      "location": "Stark Mountain",
-      "sourceId": 1791625804,
-      "despawnTimestamp": 1791625804,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-10T09:50:04.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-10T09:45:54.705Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 2274,
+      "secondsAgo": 2575,
       "sourceId": 1791622979
     },
     {
@@ -27,7 +15,7 @@
       "pokemon": "Croconaw",
       "region": "Johto",
       "location": "Whirl Islands",
-      "secondsAgo": 3205,
+      "secondsAgo": 3506,
       "sourceId": 1791622048
     },
     {
@@ -35,15 +23,23 @@
       "pokemon": "Cacnea",
       "region": "Hoenn",
       "location": "Route 111",
-      "secondsAgo": 5896,
+      "secondsAgo": 6197,
       "sourceId": 1791619357
+    },
+    {
+      "monsterId": 248,
+      "pokemon": "Tyranitar",
+      "region": "Sinnoh",
+      "location": "Stark Mountain",
+      "secondsAgo": 1249,
+      "sourceId": 1791624305
     },
     {
       "monsterId": 314,
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 6359,
+      "secondsAgo": 6660,
       "sourceId": 1791618894
     }
   ],
