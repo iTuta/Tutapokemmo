@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-10T21:05:50.388Z",
+  "fetchedAt": "2026-10-10T21:10:50.530Z",
   "swarms": [
-    {
-      "monsterId": 413,
-      "pokemon": "Wormadam",
-      "region": "Kanto",
-      "location": "Pattern Bush",
-      "sourceId": 1791666354,
-      "despawnTimestamp": 1791666353,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-10T21:05:54.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 204,
       "pokemon": "Pineco",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 413,
+      "pokemon": "Wormadam",
+      "region": "Kanto",
+      "location": "Pattern Bush",
+      "secondsAgo": 1796,
+      "sourceId": 1791664854
+    },
+    {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Johto",
       "location": "Cliff Cave",
-      "secondsAgo": 2492,
+      "secondsAgo": 2792,
       "sourceId": 1791663858
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Carnivine",
       "region": "Sinnoh",
       "location": "Route 225",
-      "secondsAgo": 2022,
+      "secondsAgo": 2322,
       "sourceId": 1791664328
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Shroomish",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 2153,
+      "secondsAgo": 2453,
       "sourceId": 1791664197
     }
   ],
