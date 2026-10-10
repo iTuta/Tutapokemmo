@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-10T20:25:51.467Z",
+  "fetchedAt": "2026-10-10T20:31:01.884Z",
   "swarms": [
     {
       "monsterId": 213,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-10T20:49:17.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 285,
+      "pokemon": "Shroomish",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "sourceId": 1791665697,
+      "despawnTimestamp": 1791665696,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-10T20:54:57.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,15 +30,15 @@
       "pokemon": "Seviper",
       "region": "Kanto",
       "location": "Route 15",
-      "secondsAgo": 9579,
-      "sourceId": 1791654372
+      "secondsAgo": 9890,
+      "sourceId": 1791654371
     },
     {
       "monsterId": 316,
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 8057,
+      "secondsAgo": 8367,
       "sourceId": 1791655894
     },
     {
@@ -35,16 +46,8 @@
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 8022,
+      "secondsAgo": 8332,
       "sourceId": 1791655929
-    },
-    {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Unova",
-      "location": "Route 15",
-      "secondsAgo": 3893,
-      "sourceId": 1791660058
     }
   ],
   "alpha": {
