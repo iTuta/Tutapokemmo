@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-10T16:31:10.479Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-10T16:36:07.068Z",
+  "swarms": [
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Kanto",
       "location": "Cerulean Cave",
-      "secondsAgo": 6656,
-      "sourceId": 1791643214
-    },
+      "sourceId": 1791651592,
+      "despawnTimestamp": 1791651591,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-10T16:59:52.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Hoenn",
       "location": "Route 127",
-      "secondsAgo": 2466,
+      "secondsAgo": 2762,
       "sourceId": 1791647404
     },
     {
@@ -23,16 +27,16 @@
       "pokemon": "Whiscash",
       "region": "Sinnoh",
       "location": "Ravaged Path",
-      "secondsAgo": 4454,
-      "sourceId": 1791645416
+      "secondsAgo": 4751,
+      "sourceId": 1791645415
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 2116,
-      "sourceId": 1791647754
+      "secondsAgo": 2413,
+      "sourceId": 1791647753
     }
   ],
   "alpha": {
