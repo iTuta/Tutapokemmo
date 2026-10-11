@@ -1,45 +1,38 @@
 {
-  "fetchedAt": "2026-10-11T04:15:52.192Z",
-  "swarms": [
+  "fetchedAt": "2026-10-11T04:20:51.929Z",
+  "swarms": [],
+  "lastSeen": [
     {
       "monsterId": 348,
       "pokemon": "Armaldo",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "sourceId": 1791692319,
-      "despawnTimestamp": 1791692319,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-11T04:18:39.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1632,
+      "sourceId": 1791690819
+    },
+    {
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Johto",
+      "location": "Route 38",
+      "secondsAgo": 8140,
+      "sourceId": 1791684311
     },
     {
       "monsterId": 352,
       "pokemon": "Kecleon",
       "region": "Hoenn",
       "location": "Route 120",
-      "sourceId": 1791692238,
-      "despawnTimestamp": 1791692238,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-11T04:17:18.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Johto",
-      "location": "Route 38",
-      "secondsAgo": 7840,
-      "sourceId": 1791684312
+      "secondsAgo": 1713,
+      "sourceId": 1791690738
     },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
       "region": "Sinnoh",
       "location": "Route 223",
-      "secondsAgo": 8319,
-      "sourceId": 1791683833
+      "secondsAgo": 8619,
+      "sourceId": 1791683832
     }
   ],
   "alpha": {
