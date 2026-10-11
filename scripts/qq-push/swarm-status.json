@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-11T20:10:54.544Z",
+  "fetchedAt": "2026-10-11T20:15:52.290Z",
   "swarms": [
+    {
+      "monsterId": 135,
+      "pokemon": "Jolteon",
+      "region": "Kanto",
+      "location": "Ruin Valley",
+      "sourceId": 1791751106,
+      "despawnTimestamp": 1791751105,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-11T20:38:26.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 388,
       "pokemon": "Grotle",
@@ -11,34 +22,15 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-11T20:29:21.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 376,
-      "pokemon": "Metagross",
-      "region": "Unova",
-      "location": "Giant Chasm",
-      "sourceId": 1791749695,
-      "despawnTimestamp": 1791749694,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-11T20:14:55.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 127,
-      "pokemon": "Pinsir",
-      "region": "Kanto",
-      "location": "Route 11",
-      "secondsAgo": 8103,
-      "sourceId": 1791741351
-    },
     {
       "monsterId": 469,
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 3426,
+      "secondsAgo": 3724,
       "sourceId": 1791746028
     },
     {
@@ -46,8 +38,16 @@
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Route 114",
-      "secondsAgo": 3421,
+      "secondsAgo": 3719,
       "sourceId": 1791746033
+    },
+    {
+      "monsterId": 376,
+      "pokemon": "Metagross",
+      "region": "Unova",
+      "location": "Giant Chasm",
+      "secondsAgo": 1556,
+      "sourceId": 1791748196
     }
   ],
   "alpha": {
