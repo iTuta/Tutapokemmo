@@ -1,45 +1,52 @@
 {
-  "fetchedAt": "2026-10-11T19:10:51.806Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-11T19:15:56.996Z",
+  "swarms": [
+    {
+      "monsterId": 469,
+      "pokemon": "Yanmega",
+      "region": "Johto",
+      "location": "Route 44",
+      "sourceId": 1791747527,
+      "despawnTimestamp": 1791747527,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-11T19:38:47.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 256,
+      "pokemon": "Combusken",
+      "region": "Hoenn",
+      "location": "Route 114",
+      "sourceId": 1791747532,
+      "despawnTimestamp": 1791747531,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-11T19:38:52.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "secondsAgo": 4501,
+      "secondsAgo": 4806,
       "sourceId": 1791741350
-    },
-    {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Johto",
-      "location": "Route 38",
-      "secondsAgo": 5841,
-      "sourceId": 1791740010
-    },
-    {
-      "monsterId": 222,
-      "pokemon": "Corsola",
-      "region": "Hoenn",
-      "location": "Route 128",
-      "secondsAgo": 3789,
-      "sourceId": 1791742062
     },
     {
       "monsterId": 393,
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 7655,
-      "sourceId": 1791738196
+      "secondsAgo": 7961,
+      "sourceId": 1791738195
     },
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 7125,
+      "secondsAgo": 7430,
       "sourceId": 1791738726
     }
   ],
