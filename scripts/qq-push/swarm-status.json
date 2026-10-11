@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-11T14:10:59.157Z",
+  "fetchedAt": "2026-10-11T14:15:50.566Z",
   "swarms": [
-    {
-      "monsterId": 413,
-      "pokemon": "Wormadam",
-      "region": "Kanto",
-      "location": "Pattern Bush",
-      "sourceId": 1791728115,
-      "despawnTimestamp": 1791728115,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-11T14:15:15.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 376,
       "pokemon": "Metagross",
@@ -29,7 +18,7 @@
       "region": "Sinnoh",
       "location": "Route 219",
       "sourceId": 1791728461,
-      "despawnTimestamp": 1791728461,
+      "despawnTimestamp": 1791728460,
       "hasValuable": false,
       "timestampUtc": "2026-10-11T14:21:01.000Z",
       "publishedBy": ""
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 413,
+      "pokemon": "Wormadam",
+      "region": "Kanto",
+      "location": "Pattern Bush",
+      "secondsAgo": 1534,
+      "sourceId": 1791726616
+    },
+    {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Johto",
       "location": "Mt. Silver Cave",
-      "secondsAgo": 8728,
+      "secondsAgo": 9019,
       "sourceId": 1791719131
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 25547,
+      "secondsAgo": 25838,
       "sourceId": 1791702312
     }
   ],
