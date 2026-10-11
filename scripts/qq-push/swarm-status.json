@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-11T08:05:47.714Z",
+  "fetchedAt": "2026-10-11T08:10:53.481Z",
   "swarms": [
-    {
-      "monsterId": 122,
-      "pokemon": "Mr. Mime",
-      "region": "Kanto",
-      "location": "Route 21",
-      "sourceId": 1791706203,
-      "despawnTimestamp": 1791706202,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-11T08:10:03.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 255,
       "pokemon": "Torchic",
@@ -22,34 +11,39 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-11T08:24:58.000Z",
       "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 122,
+      "pokemon": "Mr. Mime",
+      "region": "Kanto",
+      "location": "Route 21",
+      "secondsAgo": 1250,
+      "sourceId": 1791705003
+    },
+    {
+      "monsterId": 190,
+      "pokemon": "Aipom",
+      "region": "Johto",
+      "location": "Route 29",
+      "secondsAgo": 12757,
+      "sourceId": 1791693496
     },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "sourceId": 1791705963,
-      "despawnTimestamp": 1791705963,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-11T08:06:03.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 190,
-      "pokemon": "Aipom",
-      "region": "Johto",
-      "location": "Route 29",
-      "secondsAgo": 12451,
-      "sourceId": 1791693496
+      "secondsAgo": 1189,
+      "sourceId": 1791705064
     },
     {
       "monsterId": 314,
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 3635,
+      "secondsAgo": 3941,
       "sourceId": 1791702312
     }
   ],
