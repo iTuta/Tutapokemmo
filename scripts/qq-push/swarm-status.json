@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-11T11:40:47.591Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-11T11:45:47.088Z",
+  "swarms": [
+    {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Johto",
+      "location": "Mt. Silver Cave",
+      "sourceId": 1791720630,
+      "despawnTimestamp": 1791720630,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-11T12:10:30.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Kanto",
       "location": "Lost Cave",
-      "secondsAgo": 7257,
+      "secondsAgo": 7557,
       "sourceId": 1791711590
-    },
-    {
-      "monsterId": 300,
-      "pokemon": "Skitty",
-      "region": "Johto",
-      "location": "Route 35",
-      "secondsAgo": 9092,
-      "sourceId": 1791709755
     },
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Hoenn",
       "location": "Abandoned Ship",
-      "secondsAgo": 9171,
+      "secondsAgo": 9471,
       "sourceId": 1791709676
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Kecleon",
       "region": "Sinnoh",
       "location": "Route 229",
-      "secondsAgo": 2672,
+      "secondsAgo": 2972,
       "sourceId": 1791716175
     }
   ],
