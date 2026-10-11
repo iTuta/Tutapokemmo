@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-11T16:01:08.042Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-11T16:05:52.215Z",
+  "swarms": [
+    {
+      "monsterId": 349,
+      "pokemon": "Feebas",
+      "region": "Hoenn",
+      "location": "Route 130",
+      "sourceId": 1791736105,
+      "despawnTimestamp": 1791736105,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-11T16:28:25.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 122,
       "pokemon": "Mr. Mime",
       "region": "Kanto",
       "location": "Route 21",
-      "secondsAgo": 1872,
+      "secondsAgo": 2156,
       "sourceId": 1791732596
-    },
-    {
-      "monsterId": 376,
-      "pokemon": "Metagross",
-      "region": "Hoenn",
-      "location": "Meteor Falls",
-      "secondsAgo": 6785,
-      "sourceId": 1791727683
     },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Sinnoh",
       "location": "Route 219",
-      "secondsAgo": 7506,
+      "secondsAgo": 7790,
       "sourceId": 1791726962
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Relicanth",
       "region": "Unova",
       "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 4533,
+      "secondsAgo": 4817,
       "sourceId": 1791729935
     }
   ],
