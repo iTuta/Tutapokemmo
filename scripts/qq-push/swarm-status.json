@@ -1,38 +1,53 @@
 {
-  "fetchedAt": "2026-10-11T21:45:53.320Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-11T21:50:53.706Z",
+  "swarms": [
+    {
+      "monsterId": 159,
+      "pokemon": "Croconaw",
+      "region": "Johto",
+      "location": "Whirl Islands",
+      "sourceId": 1791756934,
+      "despawnTimestamp": 1791756934,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-11T22:15:34.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Unova",
+      "location": "Dreamyard",
+      "sourceId": 1791756667,
+      "despawnTimestamp": 1791756666,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-11T22:11:07.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 135,
       "pokemon": "Jolteon",
       "region": "Kanto",
       "location": "Ruin Valley",
-      "secondsAgo": 3853,
+      "secondsAgo": 4153,
       "sourceId": 1791751300
-    },
-    {
-      "monsterId": 469,
-      "pokemon": "Yanmega",
-      "region": "Johto",
-      "location": "Route 44",
-      "secondsAgo": 9125,
-      "sourceId": 1791746028
     },
     {
       "monsterId": 256,
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Route 114",
-      "secondsAgo": 9120,
-      "sourceId": 1791746033
+      "secondsAgo": 9421,
+      "sourceId": 1791746032
     },
     {
-      "monsterId": 376,
-      "pokemon": "Metagross",
-      "region": "Unova",
-      "location": "Giant Chasm",
-      "secondsAgo": 6957,
-      "sourceId": 1791748196
+      "monsterId": 388,
+      "pokemon": "Grotle",
+      "region": "Sinnoh",
+      "location": "Sendoff Spring",
+      "secondsAgo": 6392,
+      "sourceId": 1791749061
     }
   ],
   "alpha": {
