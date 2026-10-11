@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-10-11T02:55:42.308Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-11T03:01:10.570Z",
+  "swarms": [
+    {
+      "monsterId": 247,
+      "pokemon": "Pupitar",
+      "region": "Unova",
+      "location": "Twist Mountain",
+      "sourceId": 1791689136,
+      "despawnTimestamp": 1791689135,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-11T03:25:36.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 348,
       "pokemon": "Armaldo",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 4381,
-      "sourceId": 1791682961
+      "secondsAgo": 4710,
+      "sourceId": 1791682960
     },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Johto",
       "location": "Route 38",
-      "secondsAgo": 3030,
+      "secondsAgo": 3358,
       "sourceId": 1791684312
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Vaporeon",
       "region": "Hoenn",
       "location": "Route 134",
-      "secondsAgo": 2142,
-      "sourceId": 1791685200
+      "secondsAgo": 2471,
+      "sourceId": 1791685199
     },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
       "region": "Sinnoh",
       "location": "Route 223",
-      "secondsAgo": 3509,
+      "secondsAgo": 3837,
       "sourceId": 1791683833
-    },
-    {
-      "monsterId": 342,
-      "pokemon": "Crawdaunt",
-      "region": "Unova",
-      "location": "Route 3",
-      "secondsAgo": 8695,
-      "sourceId": 1791678647
     }
   ],
   "alpha": {
