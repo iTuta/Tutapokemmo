@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-11T07:45:53.702Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-11T07:50:47.075Z",
+  "swarms": [
     {
-      "monsterId": 348,
-      "pokemon": "Armaldo",
+      "monsterId": 122,
+      "pokemon": "Mr. Mime",
       "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 13933,
-      "sourceId": 1791690820
-    },
+      "location": "Route 21",
+      "sourceId": 1791706203,
+      "despawnTimestamp": 1791706203,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-11T08:10:03.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Johto",
       "location": "Route 29",
-      "secondsAgo": 11257,
-      "sourceId": 1791693496
+      "secondsAgo": 11550,
+      "sourceId": 1791693497
     },
     {
       "monsterId": 439,
       "pokemon": "Mime Jr.",
       "region": "Hoenn",
       "location": "Rusturf Tunnel",
-      "secondsAgo": 9743,
+      "secondsAgo": 10037,
       "sourceId": 1791695010
     },
     {
@@ -31,15 +35,15 @@
       "pokemon": "Shroomish",
       "region": "Sinnoh",
       "location": "Route 201",
-      "secondsAgo": 8230,
-      "sourceId": 1791696523
+      "secondsAgo": 8523,
+      "sourceId": 1791696524
     },
     {
       "monsterId": 314,
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 2441,
+      "secondsAgo": 2735,
       "sourceId": 1791702312
     }
   ],
