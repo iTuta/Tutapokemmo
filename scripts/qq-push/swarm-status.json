@@ -1,44 +1,37 @@
 {
-  "fetchedAt": "2026-10-11T19:35:44.302Z",
-  "swarms": [
-    {
-      "monsterId": 469,
-      "pokemon": "Yanmega",
-      "region": "Johto",
-      "location": "Route 44",
-      "sourceId": 1791747527,
-      "despawnTimestamp": 1791747527,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-11T19:38:47.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 256,
-      "pokemon": "Combusken",
-      "region": "Hoenn",
-      "location": "Route 114",
-      "sourceId": 1791747532,
-      "despawnTimestamp": 1791747532,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-11T19:38:52.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-11T19:40:51.351Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "secondsAgo": 5993,
+      "secondsAgo": 6300,
       "sourceId": 1791741351
+    },
+    {
+      "monsterId": 469,
+      "pokemon": "Yanmega",
+      "region": "Johto",
+      "location": "Route 44",
+      "secondsAgo": 1623,
+      "sourceId": 1791746028
+    },
+    {
+      "monsterId": 256,
+      "pokemon": "Combusken",
+      "region": "Hoenn",
+      "location": "Route 114",
+      "secondsAgo": 1618,
+      "sourceId": 1791746033
     },
     {
       "monsterId": 393,
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 9148,
+      "secondsAgo": 9455,
       "sourceId": 1791738196
     },
     {
@@ -46,7 +39,7 @@
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 8617,
+      "secondsAgo": 8924,
       "sourceId": 1791738727
     }
   ],
