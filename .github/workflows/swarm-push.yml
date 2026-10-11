@@ -33,6 +33,10 @@ jobs:
       - name: 检查报点并推送
         env:
           WECHAT_WEBHOOK: ${{ secrets.WECHAT_WEBHOOK }}
+          # Qmsg 酱：免费第三方 QQ 群推送（不占 QQ 官方主动消息额度，不用上架/IP 白名单）
+          # 不配这两个就当没这回事，主通道不受影响
+          QMSG_KEY: ${{ secrets.QMSG_KEY }}
+          QMSG_GROUP: ${{ vars.QMSG_GROUP }}
           JINA_API_KEY: ${{ secrets.JINA_API_KEY }}
           GITHUB_RUN_NUMBER: ${{ github.run_number }}
           SWARM_ONLY_VALUABLE: ${{ vars.SWARM_ONLY_VALUABLE }}
