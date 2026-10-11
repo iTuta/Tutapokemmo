@@ -1,38 +1,42 @@
 {
-  "fetchedAt": "2026-10-11T04:35:48.164Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-11T04:40:49.707Z",
+  "swarms": [
+    {
+      "monsterId": 190,
+      "pokemon": "Aipom",
+      "region": "Johto",
+      "location": "Route 29",
+      "sourceId": 1791694996,
+      "despawnTimestamp": 1791694995,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-11T05:03:16.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 348,
       "pokemon": "Armaldo",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 2528,
+      "secondsAgo": 2829,
       "sourceId": 1791690820
-    },
-    {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Johto",
-      "location": "Route 38",
-      "secondsAgo": 9036,
-      "sourceId": 1791684312
     },
     {
       "monsterId": 352,
       "pokemon": "Kecleon",
       "region": "Hoenn",
       "location": "Route 120",
-      "secondsAgo": 2609,
-      "sourceId": 1791690739
+      "secondsAgo": 2911,
+      "sourceId": 1791690738
     },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
       "region": "Sinnoh",
       "location": "Route 223",
-      "secondsAgo": 9515,
-      "sourceId": 1791683833
+      "secondsAgo": 9817,
+      "sourceId": 1791683832
     }
   ],
   "alpha": {
