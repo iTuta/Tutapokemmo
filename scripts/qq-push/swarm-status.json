@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-11T13:46:00.709Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-11T13:50:48.395Z",
+  "swarms": [
     {
-      "monsterId": 137,
-      "pokemon": "Porygon",
+      "monsterId": 413,
+      "pokemon": "Wormadam",
       "region": "Kanto",
-      "location": "Pokemon Mansion",
-      "secondsAgo": 5726,
-      "sourceId": 1791720634
-    },
+      "location": "Pattern Bush",
+      "sourceId": 1791728115,
+      "despawnTimestamp": 1791728115,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-11T14:15:15.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Johto",
       "location": "Mt. Silver Cave",
-      "secondsAgo": 7229,
+      "secondsAgo": 7517,
       "sourceId": 1791719131
     },
     {
@@ -23,15 +27,15 @@
       "pokemon": "Vaporeon",
       "region": "Hoenn",
       "location": "Route 134",
-      "secondsAgo": 3285,
-      "sourceId": 1791723075
+      "secondsAgo": 3572,
+      "sourceId": 1791723076
     },
     {
       "monsterId": 352,
       "pokemon": "Kecleon",
       "region": "Sinnoh",
       "location": "Route 229",
-      "secondsAgo": 10185,
+      "secondsAgo": 10473,
       "sourceId": 1791716175
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 24048,
+      "secondsAgo": 24336,
       "sourceId": 1791702312
     }
   ],
