@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-11T02:20:57.004Z",
+  "fetchedAt": "2026-10-11T02:25:47.843Z",
   "swarms": [
     {
       "monsterId": 128,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-11T02:39:59.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 91,
-      "pokemon": "Cloyster",
-      "region": "Sinnoh",
-      "location": "Route 223",
-      "sourceId": 1791685332,
-      "despawnTimestamp": 1791685331,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-11T02:22:12.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,15 +30,23 @@
       "pokemon": "Armaldo",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 2296,
+      "secondsAgo": 2587,
       "sourceId": 1791682960
+    },
+    {
+      "monsterId": 91,
+      "pokemon": "Cloyster",
+      "region": "Sinnoh",
+      "location": "Route 223",
+      "secondsAgo": 1715,
+      "sourceId": 1791683832
     },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
       "region": "Unova",
       "location": "Route 3",
-      "secondsAgo": 6610,
+      "secondsAgo": 6901,
       "sourceId": 1791678646
     }
   ],
