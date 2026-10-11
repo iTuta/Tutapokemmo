@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-11T19:45:53.548Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-11T19:50:51.373Z",
+  "swarms": [
+    {
+      "monsterId": 376,
+      "pokemon": "Metagross",
+      "region": "Unova",
+      "location": "Giant Chasm",
+      "sourceId": 1791749695,
+      "despawnTimestamp": 1791749695,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-11T20:14:55.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "secondsAgo": 6602,
+      "secondsAgo": 6900,
       "sourceId": 1791741351
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 1925,
+      "secondsAgo": 2223,
       "sourceId": 1791746028
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Route 114",
-      "secondsAgo": 1920,
+      "secondsAgo": 2218,
       "sourceId": 1791746033
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 9757,
+      "secondsAgo": 10055,
       "sourceId": 1791738196
-    },
-    {
-      "monsterId": 335,
-      "pokemon": "Zangoose",
-      "region": "Unova",
-      "location": "Route 7",
-      "secondsAgo": 9226,
-      "sourceId": 1791738727
     }
   ],
   "alpha": {
