@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-11T09:35:45.863Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-11T09:40:51.840Z",
+  "swarms": [
     {
-      "monsterId": 122,
-      "pokemon": "Mr. Mime",
+      "monsterId": 442,
+      "pokemon": "Spiritomb",
       "region": "Kanto",
-      "location": "Route 21",
-      "secondsAgo": 6342,
-      "sourceId": 1791705003
-    },
+      "location": "Lost Cave",
+      "sourceId": 1791713089,
+      "despawnTimestamp": 1791713088,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-11T10:04:49.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 1590,
+      "secondsAgo": 1896,
       "sourceId": 1791709755
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Spiritomb",
       "region": "Hoenn",
       "location": "Abandoned Ship",
-      "secondsAgo": 1669,
+      "secondsAgo": 1975,
       "sourceId": 1791709676
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 6282,
+      "secondsAgo": 6588,
       "sourceId": 1791705063
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 9034,
+      "secondsAgo": 9340,
       "sourceId": 1791702311
     }
   ],
