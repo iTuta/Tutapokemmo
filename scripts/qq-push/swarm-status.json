@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-11T15:01:15.473Z",
+  "fetchedAt": "2026-10-11T15:05:46.300Z",
   "swarms": [
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Johto",
-      "location": "Mt. Silver Cave",
-      "sourceId": 1791731089,
-      "despawnTimestamp": 1791731088,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-11T15:04:49.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
@@ -30,15 +19,23 @@
       "pokemon": "Wormadam",
       "region": "Kanto",
       "location": "Pattern Bush",
-      "secondsAgo": 4259,
+      "secondsAgo": 4530,
       "sourceId": 1791726616
+    },
+    {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Johto",
+      "location": "Mt. Silver Cave",
+      "secondsAgo": 1557,
+      "sourceId": 1791729589
     },
     {
       "monsterId": 376,
       "pokemon": "Metagross",
       "region": "Hoenn",
       "location": "Meteor Falls",
-      "secondsAgo": 3192,
+      "secondsAgo": 3463,
       "sourceId": 1791727683
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Shuckle",
       "region": "Sinnoh",
       "location": "Route 219",
-      "secondsAgo": 3914,
-      "sourceId": 1791726961
+      "secondsAgo": 4184,
+      "sourceId": 1791726962
     }
   ],
   "alpha": {
