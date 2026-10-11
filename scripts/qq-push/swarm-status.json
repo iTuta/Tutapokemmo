@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-11T23:45:48.473Z",
+  "fetchedAt": "2026-10-11T23:50:58.366Z",
   "swarms": [
-    {
-      "monsterId": 281,
-      "pokemon": "Kirlia",
-      "region": "Johto",
-      "location": "Route 43",
-      "sourceId": 1791762631,
-      "despawnTimestamp": 1791762630,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-11T23:50:31.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 388,
       "pokemon": "Grotle",
@@ -41,15 +30,23 @@
       "pokemon": "Skorupi",
       "region": "Kanto",
       "location": "Route 9",
-      "secondsAgo": 6682,
+      "secondsAgo": 6992,
       "sourceId": 1791755666
+    },
+    {
+      "monsterId": 281,
+      "pokemon": "Kirlia",
+      "region": "Johto",
+      "location": "Route 43",
+      "secondsAgo": 1526,
+      "sourceId": 1791761132
     },
     {
       "monsterId": 256,
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Route 114",
-      "secondsAgo": 6309,
+      "secondsAgo": 6619,
       "sourceId": 1791756039
     }
   ],
