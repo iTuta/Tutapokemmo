@@ -21,6 +21,10 @@ const REGION_NAMES = {
 const args = process.argv.slice(2);
 const config = loadJson(CONFIG_PATH, {});
 const wechatWebhook = process.env.WECHAT_WEBHOOK || config.wechatWebhook || '';
+// Qmsg 酱（免费第三方 QQ 群推送）：配了 key + 群号就额外推一份到 QQ 群。
+// 它是别人的机器人替我们发，所以不占 QQ 官方机器人的「主动消息」额度、也不需要上架/IP 白名单。
+const qmsgKey = process.env.QMSG_KEY || config.qmsgKey || '';
+const qmsgGroup = process.env.QMSG_GROUP || config.qmsgGroup || '';
 const channel = wechatWebhook ? 'wechat' : 'qq';
 
 const API_BASE = config.sandbox
@@ -299,6 +303,33 @@ async function sendGroupMessage(groupOpenid, content, msgId) {
   }
 }
 
+async function sendQmsg(content) {
+  const url = 'https://qmsg.zendee.cn/v3/send/' + encodeURIComponent(qmsgKey);
+  // Qmsg 单条上限 1000 字符，超了截断（报点正文远短于它，留个兜底）
+  const msg = content.length > 1000 ? content.slice(0, 999) + '…' : content;
+  const res = await fetch(url, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: new URLSearchParams({ msg, group: String(qmsgGroup) }).toString(),
+  });
+  const data = await res.json().catch(() => ({}));
+  if (!data.success) {
+    throw new Error('Qmsg 推送失败 HTTP ' + res.status + ' ' + JSON.stringify(data));
+  }
+  return data;
+}
+
+// 附加通道：失败只记日志，不影响主通道的成败（否则整条消息会被塞进 pending 反复重试主通道）
+async function sendQmsgSafely(content) {
+  if (!qmsgKey || !qmsgGroup) return;
+  try {
+    await sendQmsg(content);
+    log('[qmsg] 已推送到 QQ 群 ' + qmsgGroup);
+  } catch (err) {
+    log('[qmsg] 推送失败（不影响主通道）：' + (err && err.message));
+  }
+}
+
 async function sendMessage(content) {
   if (channel === 'wechat') {
     const res = await fetch(wechatWebhook, {
@@ -310,9 +341,12 @@ async function sendMessage(content) {
     if (!res.ok || data.errcode !== 0) {
       throw new Error('微信推送失败 HTTP ' + res.status + ' ' + JSON.stringify(data));
     }
+    await sendQmsgSafely(content);
     return data;
   }
-  return sendGroupMessage(config.groupOpenid, content);
+  const result = await sendGroupMessage(config.groupOpenid, content);
+  await sendQmsgSafely(content);
+  return result;
 }
 
 function formatMessage(item, title) {
