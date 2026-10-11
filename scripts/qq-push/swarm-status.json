@@ -1,44 +1,37 @@
 {
-  "fetchedAt": "2026-10-11T09:30:56.733Z",
-  "swarms": [
-    {
-      "monsterId": 300,
-      "pokemon": "Skitty",
-      "region": "Johto",
-      "location": "Route 35",
-      "sourceId": 1791711255,
-      "despawnTimestamp": 1791711254,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-11T09:34:15.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 442,
-      "pokemon": "Spiritomb",
-      "region": "Hoenn",
-      "location": "Abandoned Ship",
-      "sourceId": 1791711175,
-      "despawnTimestamp": 1791711175,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-11T09:32:55.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-11T09:35:45.863Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 122,
       "pokemon": "Mr. Mime",
       "region": "Kanto",
       "location": "Route 21",
-      "secondsAgo": 6053,
+      "secondsAgo": 6342,
       "sourceId": 1791705003
+    },
+    {
+      "monsterId": 300,
+      "pokemon": "Skitty",
+      "region": "Johto",
+      "location": "Route 35",
+      "secondsAgo": 1590,
+      "sourceId": 1791709755
+    },
+    {
+      "monsterId": 442,
+      "pokemon": "Spiritomb",
+      "region": "Hoenn",
+      "location": "Abandoned Ship",
+      "secondsAgo": 1669,
+      "sourceId": 1791709676
     },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 5993,
+      "secondsAgo": 6282,
       "sourceId": 1791705063
     },
     {
@@ -46,8 +39,8 @@
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 8744,
-      "sourceId": 1791702312
+      "secondsAgo": 9034,
+      "sourceId": 1791702311
     }
   ],
   "alpha": {
