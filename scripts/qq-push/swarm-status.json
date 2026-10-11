@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-11T02:01:14.514Z",
+  "fetchedAt": "2026-10-11T02:05:49.845Z",
   "swarms": [
     {
       "monsterId": 348,
@@ -7,9 +7,20 @@
       "region": "Kanto",
       "location": "Tanoby Ruins",
       "sourceId": 1791684460,
-      "despawnTimestamp": 1791684460,
+      "despawnTimestamp": 1791684459,
       "hasValuable": false,
       "timestampUtc": "2026-10-11T02:07:40.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Johto",
+      "location": "Route 38",
+      "sourceId": 1791685811,
+      "despawnTimestamp": 1791685810,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-11T02:30:11.000Z",
       "publishedBy": ""
     },
     {
@@ -18,7 +29,7 @@
       "region": "Sinnoh",
       "location": "Route 223",
       "sourceId": 1791685332,
-      "despawnTimestamp": 1791685332,
+      "despawnTimestamp": 1791685331,
       "hasValuable": false,
       "timestampUtc": "2026-10-11T02:22:12.000Z",
       "publishedBy": ""
@@ -26,27 +37,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 156,
-      "pokemon": "Quilava",
-      "region": "Johto",
-      "location": "Route 42",
-      "secondsAgo": 11285,
-      "sourceId": 1791672789
-    },
-    {
       "monsterId": 204,
       "pokemon": "Pineco",
       "region": "Hoenn",
       "location": "Route 103",
-      "secondsAgo": 18333,
-      "sourceId": 1791665741
+      "secondsAgo": 18609,
+      "sourceId": 1791665740
     },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
       "region": "Unova",
       "location": "Route 3",
-      "secondsAgo": 5428,
+      "secondsAgo": 5703,
       "sourceId": 1791678646
     }
   ],
