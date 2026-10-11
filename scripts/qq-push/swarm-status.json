@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-11T17:35:47.581Z",
+  "fetchedAt": "2026-10-11T17:40:51.757Z",
   "swarms": [
     {
       "monsterId": 128,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-11T17:58:29.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 335,
-      "pokemon": "Zangoose",
-      "region": "Unova",
-      "location": "Route 7",
-      "sourceId": 1791740226,
-      "despawnTimestamp": 1791740226,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-11T17:37:06.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Mr. Mime",
       "region": "Kanto",
       "location": "Route 21",
-      "secondsAgo": 7551,
+      "secondsAgo": 7855,
       "sourceId": 1791732596
     },
     {
@@ -38,7 +27,7 @@
       "pokemon": "Feebas",
       "region": "Hoenn",
       "location": "Route 130",
-      "secondsAgo": 5541,
+      "secondsAgo": 5845,
       "sourceId": 1791734606
     },
     {
@@ -46,8 +35,16 @@
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 1951,
+      "secondsAgo": 2255,
       "sourceId": 1791738196
+    },
+    {
+      "monsterId": 335,
+      "pokemon": "Zangoose",
+      "region": "Unova",
+      "location": "Route 7",
+      "secondsAgo": 1724,
+      "sourceId": 1791738727
     }
   ],
   "alpha": {
