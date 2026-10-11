@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-11T02:05:49.845Z",
+  "fetchedAt": "2026-10-11T02:11:01.909Z",
   "swarms": [
-    {
-      "monsterId": 348,
-      "pokemon": "Armaldo",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "sourceId": 1791684460,
-      "despawnTimestamp": 1791684459,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-11T02:07:40.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 348,
+      "pokemon": "Armaldo",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "secondsAgo": 1701,
+      "sourceId": 1791682960
+    },
+    {
       "monsterId": 204,
       "pokemon": "Pineco",
       "region": "Hoenn",
       "location": "Route 103",
-      "secondsAgo": 18609,
+      "secondsAgo": 18921,
       "sourceId": 1791665740
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "Crawdaunt",
       "region": "Unova",
       "location": "Route 3",
-      "secondsAgo": 5703,
+      "secondsAgo": 6015,
       "sourceId": 1791678646
     }
   ],
