@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-10-11T17:01:02.633Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-11T17:05:42.823Z",
+  "swarms": [
+    {
+      "monsterId": 393,
+      "pokemon": "Piplup",
+      "region": "Sinnoh",
+      "location": "Route 204",
+      "sourceId": 1791739695,
+      "despawnTimestamp": 1791739695,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-11T17:28:15.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 122,
       "pokemon": "Mr. Mime",
       "region": "Kanto",
       "location": "Route 21",
-      "secondsAgo": 5466,
-      "sourceId": 1791732596
+      "secondsAgo": 5747,
+      "sourceId": 1791732595
     },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Johto",
       "location": "Mt. Silver Cave",
-      "secondsAgo": 8473,
+      "secondsAgo": 8753,
       "sourceId": 1791729589
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Feebas",
       "region": "Hoenn",
       "location": "Route 130",
-      "secondsAgo": 3456,
+      "secondsAgo": 3736,
       "sourceId": 1791734606
-    },
-    {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Sinnoh",
-      "location": "Route 219",
-      "secondsAgo": 11101,
-      "sourceId": 1791726961
     },
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Unova",
       "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 8128,
+      "secondsAgo": 8408,
       "sourceId": 1791729934
     }
   ],
