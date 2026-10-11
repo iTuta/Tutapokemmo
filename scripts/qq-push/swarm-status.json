@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-10-11T10:55:45.705Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-11T11:01:18.690Z",
+  "swarms": [
+    {
+      "monsterId": 352,
+      "pokemon": "Kecleon",
+      "region": "Sinnoh",
+      "location": "Route 229",
+      "sourceId": 1791717674,
+      "despawnTimestamp": 1791717674,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-11T11:21:14.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Kanto",
       "location": "Lost Cave",
-      "secondsAgo": 4556,
-      "sourceId": 1791711589
+      "secondsAgo": 4888,
+      "sourceId": 1791711590
     },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 6390,
+      "secondsAgo": 6723,
       "sourceId": 1791709755
     },
     {
@@ -23,16 +35,8 @@
       "pokemon": "Spiritomb",
       "region": "Hoenn",
       "location": "Abandoned Ship",
-      "secondsAgo": 6469,
+      "secondsAgo": 6802,
       "sourceId": 1791709676
-    },
-    {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Sinnoh",
-      "location": "Valor Lakefront",
-      "secondsAgo": 11082,
-      "sourceId": 1791705063
     }
   ],
   "alpha": {
