@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-11T02:15:57.045Z",
+  "fetchedAt": "2026-10-11T02:20:57.004Z",
   "swarms": [
     {
       "monsterId": 128,
@@ -7,9 +7,20 @@
       "region": "Johto",
       "location": "Route 38",
       "sourceId": 1791685811,
-      "despawnTimestamp": 1791685811,
+      "despawnTimestamp": 1791685810,
       "hasValuable": false,
       "timestampUtc": "2026-10-11T02:30:11.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 134,
+      "pokemon": "Vaporeon",
+      "region": "Hoenn",
+      "location": "Route 134",
+      "sourceId": 1791686399,
+      "despawnTimestamp": 1791686398,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-11T02:39:59.000Z",
       "publishedBy": ""
     },
     {
@@ -18,7 +29,7 @@
       "region": "Sinnoh",
       "location": "Route 223",
       "sourceId": 1791685332,
-      "despawnTimestamp": 1791685332,
+      "despawnTimestamp": 1791685331,
       "hasValuable": false,
       "timestampUtc": "2026-10-11T02:22:12.000Z",
       "publishedBy": ""
@@ -30,24 +41,16 @@
       "pokemon": "Armaldo",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 1996,
-      "sourceId": 1791682961
-    },
-    {
-      "monsterId": 204,
-      "pokemon": "Pineco",
-      "region": "Hoenn",
-      "location": "Route 103",
-      "secondsAgo": 19216,
-      "sourceId": 1791665741
+      "secondsAgo": 2296,
+      "sourceId": 1791682960
     },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
       "region": "Unova",
       "location": "Route 3",
-      "secondsAgo": 6310,
-      "sourceId": 1791678647
+      "secondsAgo": 6610,
+      "sourceId": 1791678646
     }
   ],
   "alpha": {
