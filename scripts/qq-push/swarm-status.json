@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-11T14:20:54.955Z",
+  "fetchedAt": "2026-10-11T14:25:46.961Z",
   "swarms": [
     {
       "monsterId": 376,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-11T14:33:02.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Sinnoh",
-      "location": "Route 219",
-      "sourceId": 1791728461,
-      "despawnTimestamp": 1791728460,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-11T14:21:01.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Wormadam",
       "region": "Kanto",
       "location": "Pattern Bush",
-      "secondsAgo": 1839,
+      "secondsAgo": 2131,
       "sourceId": 1791726615
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Lucario",
       "region": "Johto",
       "location": "Mt. Silver Cave",
-      "secondsAgo": 9323,
-      "sourceId": 1791719131
+      "secondsAgo": 9616,
+      "sourceId": 1791719130
+    },
+    {
+      "monsterId": 213,
+      "pokemon": "Shuckle",
+      "region": "Sinnoh",
+      "location": "Route 219",
+      "secondsAgo": 1785,
+      "sourceId": 1791726961
     },
     {
       "monsterId": 314,
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 26143,
+      "secondsAgo": 26435,
       "sourceId": 1791702311
     }
   ],
