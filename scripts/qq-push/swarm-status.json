@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-11T01:40:56.111Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-11T01:45:53.582Z",
+  "swarms": [
     {
-      "monsterId": 4,
-      "pokemon": "Charmander",
+      "monsterId": 348,
+      "pokemon": "Armaldo",
       "region": "Kanto",
-      "location": "Route 3",
-      "secondsAgo": 11788,
-      "sourceId": 1791671068
-    },
+      "location": "Tanoby Ruins",
+      "sourceId": 1791684460,
+      "despawnTimestamp": 1791684459,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-11T02:07:40.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 156,
       "pokemon": "Quilava",
       "region": "Johto",
       "location": "Route 42",
-      "secondsAgo": 10066,
-      "sourceId": 1791672790
+      "secondsAgo": 10364,
+      "sourceId": 1791672789
     },
     {
       "monsterId": 204,
       "pokemon": "Pineco",
       "region": "Hoenn",
       "location": "Route 103",
-      "secondsAgo": 17115,
+      "secondsAgo": 17412,
       "sourceId": 1791665741
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Chimchar",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 11940,
+      "secondsAgo": 12237,
       "sourceId": 1791670916
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Crawdaunt",
       "region": "Unova",
       "location": "Route 3",
-      "secondsAgo": 4209,
-      "sourceId": 1791678647
+      "secondsAgo": 4507,
+      "sourceId": 1791678646
     }
   ],
   "alpha": {
