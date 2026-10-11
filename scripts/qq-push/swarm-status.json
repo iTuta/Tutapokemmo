@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-11T07:50:47.075Z",
+  "fetchedAt": "2026-10-11T07:55:44.798Z",
   "swarms": [
     {
       "monsterId": 122,
@@ -7,9 +7,20 @@
       "region": "Kanto",
       "location": "Route 21",
       "sourceId": 1791706203,
-      "despawnTimestamp": 1791706203,
+      "despawnTimestamp": 1791706202,
       "hasValuable": false,
       "timestampUtc": "2026-10-11T08:10:03.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Sinnoh",
+      "location": "Valor Lakefront",
+      "sourceId": 1791705963,
+      "despawnTimestamp": 1791705962,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-11T08:06:03.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,31 +30,23 @@
       "pokemon": "Aipom",
       "region": "Johto",
       "location": "Route 29",
-      "secondsAgo": 11550,
-      "sourceId": 1791693497
+      "secondsAgo": 11848,
+      "sourceId": 1791693496
     },
     {
       "monsterId": 439,
       "pokemon": "Mime Jr.",
       "region": "Hoenn",
       "location": "Rusturf Tunnel",
-      "secondsAgo": 10037,
-      "sourceId": 1791695010
-    },
-    {
-      "monsterId": 285,
-      "pokemon": "Shroomish",
-      "region": "Sinnoh",
-      "location": "Route 201",
-      "secondsAgo": 8523,
-      "sourceId": 1791696524
+      "secondsAgo": 10335,
+      "sourceId": 1791695009
     },
     {
       "monsterId": 314,
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 2735,
+      "secondsAgo": 3032,
       "sourceId": 1791702312
     }
   ],
