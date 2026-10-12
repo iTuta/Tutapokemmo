@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-12T18:31:28.467Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-12T18:35:51.784Z",
+  "swarms": [
+    {
+      "monsterId": 415,
+      "pokemon": "Combee",
+      "region": "Hoenn",
+      "location": "Route 117",
+      "sourceId": 1791831553,
+      "despawnTimestamp": 1791831552,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-12T18:59:13.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Kanto",
       "location": "Victory Road",
-      "secondsAgo": 3531,
+      "secondsAgo": 3794,
       "sourceId": 1791826357
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Typhlosion",
       "region": "Johto",
       "location": "Route 45",
-      "secondsAgo": 2779,
+      "secondsAgo": 3042,
       "sourceId": 1791827109
-    },
-    {
-      "monsterId": 211,
-      "pokemon": "Qwilfish",
-      "region": "Hoenn",
-      "location": "Route 125",
-      "secondsAgo": 10374,
-      "sourceId": 1791819514
     },
     {
       "monsterId": 393,
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 10461,
+      "secondsAgo": 10724,
       "sourceId": 1791819427
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 11460,
+      "secondsAgo": 11723,
       "sourceId": 1791818428
     }
   ],
