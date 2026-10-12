@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-12T11:01:18.307Z",
+  "fetchedAt": "2026-10-12T11:05:45.549Z",
   "swarms": [
-    {
-      "monsterId": 9,
-      "pokemon": "Blastoise",
-      "region": "Kanto",
-      "location": "Cape Brink",
-      "sourceId": 1791803127,
-      "despawnTimestamp": 1791803127,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-12T11:05:27.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 211,
       "pokemon": "Qwilfish",
@@ -29,7 +18,7 @@
       "region": "Sinnoh",
       "location": "Route 210",
       "sourceId": 1791804188,
-      "despawnTimestamp": 1791804188,
+      "despawnTimestamp": 1791804187,
       "hasValuable": false,
       "timestampUtc": "2026-10-12T11:23:08.000Z",
       "publishedBy": ""
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 9,
+      "pokemon": "Blastoise",
+      "region": "Kanto",
+      "location": "Cape Brink",
+      "secondsAgo": 1517,
+      "sourceId": 1791801628
+    },
+    {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 11232,
+      "secondsAgo": 11499,
       "sourceId": 1791791646
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 3701,
+      "secondsAgo": 3968,
       "sourceId": 1791799177
     }
   ],
