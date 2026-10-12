@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-10-12T05:30:57.897Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-12T05:36:00.600Z",
+  "swarms": [
+    {
+      "monsterId": 148,
+      "pokemon": "Dragonair",
+      "region": "Unova",
+      "location": "Dragonspiral Tower",
+      "sourceId": 1791784081,
+      "despawnTimestamp": 1791784081,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-12T05:48:01.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 413,
       "pokemon": "Wormadam",
       "region": "Kanto",
       "location": "Pattern Bush",
-      "secondsAgo": 14288,
-      "sourceId": 1791768769
+      "secondsAgo": 14590,
+      "sourceId": 1791768770
     },
     {
       "monsterId": 153,
       "pokemon": "Bayleef",
       "region": "Johto",
       "location": "National Park",
-      "secondsAgo": 12415,
+      "secondsAgo": 12718,
       "sourceId": 1791770642
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
-      "secondsAgo": 6522,
-      "sourceId": 1791776535
+      "secondsAgo": 6824,
+      "sourceId": 1791776536
     },
     {
       "monsterId": 424,
       "pokemon": "Ambipom",
       "region": "Sinnoh",
       "location": "Route 216",
-      "secondsAgo": 8338,
+      "secondsAgo": 8641,
       "sourceId": 1791774719
-    },
-    {
-      "monsterId": 83,
-      "pokemon": "Farfetch&#x27;d",
-      "region": "Unova",
-      "location": "Route 1",
-      "secondsAgo": 9671,
-      "sourceId": 1791773386
     }
   ],
   "alpha": {
