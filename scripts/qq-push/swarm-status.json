@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-12T03:40:54.713Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-12T03:45:50.662Z",
+  "swarms": [
+    {
+      "monsterId": 358,
+      "pokemon": "Chimecho",
+      "region": "Hoenn",
+      "location": "Mt. Pyre",
+      "sourceId": 1791778035,
+      "despawnTimestamp": 1791778035,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-12T04:07:15.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 413,
       "pokemon": "Wormadam",
       "region": "Kanto",
       "location": "Pattern Bush",
-      "secondsAgo": 7684,
+      "secondsAgo": 7980,
       "sourceId": 1791768770
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Bayleef",
       "region": "Johto",
       "location": "National Park",
-      "secondsAgo": 5812,
+      "secondsAgo": 6108,
       "sourceId": 1791770642
-    },
-    {
-      "monsterId": 349,
-      "pokemon": "Feebas",
-      "region": "Hoenn",
-      "location": "Route 130",
-      "secondsAgo": 10041,
-      "sourceId": 1791766413
     },
     {
       "monsterId": 424,
       "pokemon": "Ambipom",
       "region": "Sinnoh",
       "location": "Route 216",
-      "secondsAgo": 1735,
+      "secondsAgo": 2031,
       "sourceId": 1791774719
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 3067,
+      "secondsAgo": 3363,
       "sourceId": 1791773387
     }
   ],
