@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-12T15:40:55.828Z",
+  "fetchedAt": "2026-10-12T15:45:52.831Z",
   "swarms": [
-    {
-      "monsterId": 142,
-      "pokemon": "Aerodactyl",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "sourceId": 1791819939,
-      "despawnTimestamp": 1791819938,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-12T15:45:39.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 211,
       "pokemon": "Qwilfish",
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 142,
+      "pokemon": "Aerodactyl",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "secondsAgo": 1513,
+      "sourceId": 1791818439
+    },
+    {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 3968,
+      "secondsAgo": 4265,
       "sourceId": 1791815687
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 1228,
+      "secondsAgo": 1525,
       "sourceId": 1791818427
     }
   ],
