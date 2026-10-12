@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-12T10:55:45.326Z",
+  "fetchedAt": "2026-10-12T11:01:18.307Z",
   "swarms": [
     {
       "monsterId": 9,
@@ -11,6 +11,28 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-12T11:05:27.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 211,
+      "pokemon": "Qwilfish",
+      "region": "Hoenn",
+      "location": "Route 125",
+      "sourceId": 1791804220,
+      "despawnTimestamp": 1791804220,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-12T11:23:40.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 123,
+      "pokemon": "Scyther",
+      "region": "Sinnoh",
+      "location": "Route 210",
+      "sourceId": 1791804188,
+      "despawnTimestamp": 1791804188,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-12T11:23:08.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,31 +41,15 @@
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 10899,
+      "secondsAgo": 11232,
       "sourceId": 1791791646
-    },
-    {
-      "monsterId": 134,
-      "pokemon": "Vaporeon",
-      "region": "Hoenn",
-      "location": "Route 134",
-      "secondsAgo": 14464,
-      "sourceId": 1791788081
-    },
-    {
-      "monsterId": 389,
-      "pokemon": "Torterra",
-      "region": "Sinnoh",
-      "location": "Route 212",
-      "secondsAgo": 14266,
-      "sourceId": 1791788279
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 3368,
+      "secondsAgo": 3701,
       "sourceId": 1791799177
     }
   ],
