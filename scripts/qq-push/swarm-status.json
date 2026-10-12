@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-12T13:50:49.701Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-12T13:55:51.419Z",
+  "swarms": [
+    {
+      "monsterId": 442,
+      "pokemon": "Spiritomb",
+      "region": "Hoenn",
+      "location": "Abandoned Ship",
+      "sourceId": 1791814667,
+      "despawnTimestamp": 1791814667,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-12T14:17:47.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 9,
       "pokemon": "Blastoise",
       "region": "Kanto",
       "location": "Cape Brink",
-      "secondsAgo": 9645,
+      "secondsAgo": 9947,
       "sourceId": 1791803404
     },
     {
@@ -15,31 +27,23 @@
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 3987,
+      "secondsAgo": 4289,
       "sourceId": 1791809062
-    },
-    {
-      "monsterId": 211,
-      "pokemon": "Qwilfish",
-      "region": "Hoenn",
-      "location": "Route 125",
-      "secondsAgo": 10328,
-      "sourceId": 1791802721
     },
     {
       "monsterId": 340,
       "pokemon": "Whiscash",
       "region": "Sinnoh",
       "location": "Ravaged Path",
-      "secondsAgo": 2735,
-      "sourceId": 1791810314
+      "secondsAgo": 3036,
+      "sourceId": 1791810315
     },
     {
       "monsterId": 317,
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 2293,
+      "secondsAgo": 2595,
       "sourceId": 1791810756
     }
   ],
