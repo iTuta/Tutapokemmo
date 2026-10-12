@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-12T14:10:54.132Z",
+  "fetchedAt": "2026-10-12T14:16:07.053Z",
   "swarms": [
     {
       "monsterId": 442,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-12T14:17:47.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 300,
+      "pokemon": "Skitty",
+      "region": "Sinnoh",
+      "location": "Route 204",
+      "sourceId": 1791815777,
+      "despawnTimestamp": 1791815777,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-12T14:36:17.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Blastoise",
       "region": "Kanto",
       "location": "Cape Brink",
-      "secondsAgo": 10849,
+      "secondsAgo": 11162,
       "sourceId": 1791803405
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 5192,
+      "secondsAgo": 5505,
       "sourceId": 1791809062
-    },
-    {
-      "monsterId": 340,
-      "pokemon": "Whiscash",
-      "region": "Sinnoh",
-      "location": "Ravaged Path",
-      "secondsAgo": 3939,
-      "sourceId": 1791810315
     },
     {
       "monsterId": 317,
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 3497,
+      "secondsAgo": 3810,
       "sourceId": 1791810757
     }
   ],
