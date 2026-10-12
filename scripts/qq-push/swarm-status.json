@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-12T07:16:00.681Z",
+  "fetchedAt": "2026-10-12T07:20:55.548Z",
   "swarms": [
-    {
-      "monsterId": 134,
-      "pokemon": "Vaporeon",
-      "region": "Hoenn",
-      "location": "Route 134",
-      "sourceId": 1791789580,
-      "despawnTimestamp": 1791789580,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-12T07:19:40.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 389,
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
       "sourceId": 1791789778,
-      "despawnTimestamp": 1791789777,
+      "despawnTimestamp": 1791789778,
       "hasValuable": false,
       "timestampUtc": "2026-10-12T07:22:58.000Z",
       "publishedBy": ""
@@ -30,7 +19,7 @@
       "pokemon": "Plusle",
       "region": "Kanto",
       "location": "Route 2",
-      "secondsAgo": 1700,
+      "secondsAgo": 1995,
       "sourceId": 1791787660
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Barboach",
       "region": "Johto",
       "location": "Slowpoke Well",
-      "secondsAgo": 1637,
-      "sourceId": 1791787723
+      "secondsAgo": 1931,
+      "sourceId": 1791787724
+    },
+    {
+      "monsterId": 134,
+      "pokemon": "Vaporeon",
+      "region": "Hoenn",
+      "location": "Route 134",
+      "secondsAgo": 1574,
+      "sourceId": 1791788081
     },
     {
       "monsterId": 148,
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 6178,
+      "secondsAgo": 6473,
       "sourceId": 1791783182
     }
   ],
