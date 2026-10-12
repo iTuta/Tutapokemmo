@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-12T10:35:46.680Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-12T10:41:01.550Z",
+  "swarms": [
     {
-      "monsterId": 348,
-      "pokemon": "Armaldo",
+      "monsterId": 9,
+      "pokemon": "Blastoise",
       "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 4257,
-      "sourceId": 1791797089
-    },
+      "location": "Cape Brink",
+      "sourceId": 1791803127,
+      "despawnTimestamp": 1791803127,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-12T11:05:27.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 9700,
+      "secondsAgo": 10015,
       "sourceId": 1791791646
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Vaporeon",
       "region": "Hoenn",
       "location": "Route 134",
-      "secondsAgo": 13265,
+      "secondsAgo": 13580,
       "sourceId": 1791788081
     },
     {
@@ -31,15 +35,15 @@
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 13068,
-      "sourceId": 1791788278
+      "secondsAgo": 13382,
+      "sourceId": 1791788279
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 2169,
+      "secondsAgo": 2484,
       "sourceId": 1791799177
     }
   ],
