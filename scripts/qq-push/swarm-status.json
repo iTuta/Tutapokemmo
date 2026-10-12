@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-12T09:55:02.260Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-12T10:01:15.223Z",
+  "swarms": [
+    {
+      "monsterId": 193,
+      "pokemon": "Yanma",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "sourceId": 1791800676,
+      "despawnTimestamp": 1791800676,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-12T10:24:36.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 348,
       "pokemon": "Armaldo",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 1813,
+      "secondsAgo": 2186,
       "sourceId": 1791797089
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 7256,
+      "secondsAgo": 7629,
       "sourceId": 1791791646
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Vaporeon",
       "region": "Hoenn",
       "location": "Route 134",
-      "secondsAgo": 10821,
+      "secondsAgo": 11194,
       "sourceId": 1791788081
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 10623,
+      "secondsAgo": 10996,
       "sourceId": 1791788279
-    },
-    {
-      "monsterId": 148,
-      "pokemon": "Dragonair",
-      "region": "Unova",
-      "location": "Dragonspiral Tower",
-      "secondsAgo": 15720,
-      "sourceId": 1791783182
     }
   ],
   "alpha": {
