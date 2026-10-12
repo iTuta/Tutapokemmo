@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-12T14:50:57.640Z",
+  "fetchedAt": "2026-10-12T14:55:45.675Z",
   "swarms": [
-    {
-      "monsterId": 350,
-      "pokemon": "Milotic",
-      "region": "Kanto",
-      "location": "Resort Gorgeous",
-      "sourceId": 1791816706,
-      "despawnTimestamp": 1791816705,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-12T14:51:46.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 350,
+      "pokemon": "Milotic",
+      "region": "Kanto",
+      "location": "Resort Gorgeous",
+      "secondsAgo": 1739,
+      "sourceId": 1791815206
+    },
+    {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Hoenn",
       "location": "Abandoned Ship",
-      "secondsAgo": 3489,
+      "secondsAgo": 3777,
       "sourceId": 1791813168
     },
     {
@@ -38,15 +35,15 @@
       "pokemon": "Skitty",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 2379,
-      "sourceId": 1791814278
+      "secondsAgo": 2668,
+      "sourceId": 1791814277
     },
     {
       "monsterId": 317,
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 5901,
+      "secondsAgo": 6189,
       "sourceId": 1791810756
     }
   ],
