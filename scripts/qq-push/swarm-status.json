@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-12T21:10:59.320Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-12T21:15:49.761Z",
+  "swarms": [
     {
-      "monsterId": 373,
-      "pokemon": "Salamence",
+      "monsterId": 161,
+      "pokemon": "Sentret",
       "region": "Kanto",
-      "location": "Victory Road",
-      "secondsAgo": 13101,
-      "sourceId": 1791826358
-    },
+      "location": "Route 1",
+      "sourceId": 1791841026,
+      "despawnTimestamp": 1791841025,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-12T21:37:06.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Johto",
       "location": "Cliff Cave",
-      "secondsAgo": 5881,
+      "secondsAgo": 6171,
       "sourceId": 1791833578
     },
     {
@@ -23,24 +27,24 @@
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 2968,
-      "sourceId": 1791836491
+      "secondsAgo": 3259,
+      "sourceId": 1791836490
     },
     {
       "monsterId": 103,
       "pokemon": "Exeggutor",
       "region": "Sinnoh",
       "location": "Route 230",
-      "secondsAgo": 3138,
-      "sourceId": 1791836321
+      "secondsAgo": 3429,
+      "sourceId": 1791836320
     },
     {
       "monsterId": 247,
       "pokemon": "Pupitar",
       "region": "Unova",
       "location": "Twist Mountain",
-      "secondsAgo": 2590,
-      "sourceId": 1791836869
+      "secondsAgo": 2881,
+      "sourceId": 1791836868
     }
   ],
   "alpha": {
