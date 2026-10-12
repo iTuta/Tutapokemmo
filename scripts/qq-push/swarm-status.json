@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-12T01:01:22.709Z",
+  "fetchedAt": "2026-10-12T01:06:01.685Z",
   "swarms": [
     {
       "monsterId": 204,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-12T01:18:32.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 314,
-      "pokemon": "Illumise",
-      "region": "Unova",
-      "location": "Moor of Icirrus",
-      "sourceId": 1791767031,
-      "despawnTimestamp": 1791767031,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-12T01:03:51.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,7 +30,7 @@
       "pokemon": "Skorupi",
       "region": "Kanto",
       "location": "Route 9",
-      "secondsAgo": 11216,
+      "secondsAgo": 11495,
       "sourceId": 1791755666
     },
     {
@@ -49,8 +38,16 @@
       "pokemon": "Grotle",
       "region": "Sinnoh",
       "location": "Sendoff Spring",
-      "secondsAgo": 5457,
+      "secondsAgo": 5736,
       "sourceId": 1791761425
+    },
+    {
+      "monsterId": 314,
+      "pokemon": "Illumise",
+      "region": "Unova",
+      "location": "Moor of Icirrus",
+      "secondsAgo": 1329,
+      "sourceId": 1791765832
     }
   ],
   "alpha": {
