@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-12T22:55:46.287Z",
+  "fetchedAt": "2026-10-12T23:01:22.609Z",
   "swarms": [
     {
       "monsterId": 121,
@@ -11,31 +11,34 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-12T23:20:16.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 91,
+      "pokemon": "Cloyster",
+      "region": "Hoenn",
+      "location": "Route 133",
+      "sourceId": 1791847315,
+      "despawnTimestamp": 1791847314,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-12T23:21:55.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 517,
-      "pokemon": "Munna",
-      "region": "Hoenn",
-      "location": "Route 102",
-      "secondsAgo": 9255,
-      "sourceId": 1791836491
-    },
     {
       "monsterId": 421,
       "pokemon": "Cherrim",
       "region": "Sinnoh",
       "location": "Lake Verity",
-      "secondsAgo": 1829,
-      "sourceId": 1791843917
+      "secondsAgo": 2166,
+      "sourceId": 1791843916
     },
     {
       "monsterId": 247,
       "pokemon": "Pupitar",
       "region": "Unova",
       "location": "Twist Mountain",
-      "secondsAgo": 8877,
+      "secondsAgo": 9213,
       "sourceId": 1791836869
     }
   ],
