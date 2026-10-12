@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-12T14:35:54.154Z",
+  "fetchedAt": "2026-10-12T14:41:01.419Z",
   "swarms": [
     {
       "monsterId": 350,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Resort Gorgeous",
       "sourceId": 1791816706,
-      "despawnTimestamp": 1791816706,
+      "despawnTimestamp": 1791816705,
       "hasValuable": false,
       "timestampUtc": "2026-10-12T14:51:46.000Z",
       "publishedBy": ""
@@ -18,20 +18,9 @@
       "region": "Johto",
       "location": "Route 37",
       "sourceId": 1791817187,
-      "despawnTimestamp": 1791817187,
+      "despawnTimestamp": 1791817186,
       "hasValuable": false,
       "timestampUtc": "2026-10-12T14:59:47.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 300,
-      "pokemon": "Skitty",
-      "region": "Sinnoh",
-      "location": "Route 204",
-      "sourceId": 1791815777,
-      "despawnTimestamp": 1791815777,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-12T14:36:17.000Z",
       "publishedBy": ""
     }
   ],
@@ -41,16 +30,24 @@
       "pokemon": "Spiritomb",
       "region": "Hoenn",
       "location": "Abandoned Ship",
-      "secondsAgo": 2586,
+      "secondsAgo": 2893,
       "sourceId": 1791813168
+    },
+    {
+      "monsterId": 300,
+      "pokemon": "Skitty",
+      "region": "Sinnoh",
+      "location": "Route 204",
+      "secondsAgo": 1783,
+      "sourceId": 1791814278
     },
     {
       "monsterId": 317,
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 4997,
-      "sourceId": 1791810757
+      "secondsAgo": 5305,
+      "sourceId": 1791810756
     }
   ],
   "alpha": {
