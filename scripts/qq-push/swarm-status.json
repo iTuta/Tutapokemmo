@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-12T01:15:59.417Z",
+  "fetchedAt": "2026-10-12T01:20:54.209Z",
   "swarms": [
     {
       "monsterId": 204,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-12T01:25:00.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 349,
-      "pokemon": "Feebas",
-      "region": "Hoenn",
-      "location": "Route 130",
-      "sourceId": 1791767912,
-      "despawnTimestamp": 1791767912,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-12T01:18:32.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,15 +19,23 @@
       "pokemon": "Skorupi",
       "region": "Kanto",
       "location": "Route 9",
-      "secondsAgo": 12093,
+      "secondsAgo": 12388,
       "sourceId": 1791755666
+    },
+    {
+      "monsterId": 349,
+      "pokemon": "Feebas",
+      "region": "Hoenn",
+      "location": "Route 130",
+      "secondsAgo": 1641,
+      "sourceId": 1791766413
     },
     {
       "monsterId": 388,
       "pokemon": "Grotle",
       "region": "Sinnoh",
       "location": "Sendoff Spring",
-      "secondsAgo": 6334,
+      "secondsAgo": 6629,
       "sourceId": 1791761425
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 1927,
+      "secondsAgo": 2222,
       "sourceId": 1791765832
     }
   ],
