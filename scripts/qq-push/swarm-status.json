@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-12T11:20:54.970Z",
+  "fetchedAt": "2026-10-12T11:27:32.989Z",
   "swarms": [
     {
       "monsterId": 448,
@@ -11,28 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-12T11:28:47.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 211,
-      "pokemon": "Qwilfish",
-      "region": "Hoenn",
-      "location": "Route 125",
-      "sourceId": 1791804220,
-      "despawnTimestamp": 1791804220,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-12T11:23:40.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 123,
-      "pokemon": "Scyther",
-      "region": "Sinnoh",
-      "location": "Route 210",
-      "sourceId": 1791804188,
-      "despawnTimestamp": 1791804187,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-12T11:23:08.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,15 +19,31 @@
       "pokemon": "Blastoise",
       "region": "Kanto",
       "location": "Cape Brink",
-      "secondsAgo": 650,
+      "secondsAgo": 1048,
       "sourceId": 1791803404
+    },
+    {
+      "monsterId": 211,
+      "pokemon": "Qwilfish",
+      "region": "Hoenn",
+      "location": "Route 125",
+      "secondsAgo": 1731,
+      "sourceId": 1791802721
+    },
+    {
+      "monsterId": 123,
+      "pokemon": "Scyther",
+      "region": "Sinnoh",
+      "location": "Route 210",
+      "secondsAgo": 1764,
+      "sourceId": 1791802688
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 4877,
+      "secondsAgo": 5275,
       "sourceId": 1791799177
     }
   ],
