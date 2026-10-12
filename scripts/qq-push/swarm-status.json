@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-10-12T20:20:50.733Z",
+  "fetchedAt": "2026-10-12T20:25:49.606Z",
   "swarms": [
+    {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Hoenn",
+      "location": "Route 102",
+      "sourceId": 1791836790,
+      "despawnTimestamp": 1791836789,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-12T20:26:30.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 103,
       "pokemon": "Exeggutor",
       "region": "Sinnoh",
       "location": "Route 230",
       "sourceId": 1791837820,
-      "despawnTimestamp": 1791837819,
+      "despawnTimestamp": 1791837820,
       "hasValuable": false,
       "timestampUtc": "2026-10-12T20:43:40.000Z",
       "publishedBy": ""
@@ -19,7 +30,7 @@
       "pokemon": "Salamence",
       "region": "Kanto",
       "location": "Victory Road",
-      "secondsAgo": 10093,
+      "secondsAgo": 10392,
       "sourceId": 1791826357
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Shuckle",
       "region": "Johto",
       "location": "Cliff Cave",
-      "secondsAgo": 2872,
+      "secondsAgo": 3171,
       "sourceId": 1791833578
-    },
-    {
-      "monsterId": 517,
-      "pokemon": "Munna",
-      "region": "Hoenn",
-      "location": "Route 102",
-      "secondsAgo": 1590,
-      "sourceId": 1791834860
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 18022,
+      "secondsAgo": 18321,
       "sourceId": 1791818428
     }
   ],
