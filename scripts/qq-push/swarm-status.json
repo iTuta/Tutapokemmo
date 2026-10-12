@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-12T00:55:52.525Z",
+  "fetchedAt": "2026-10-12T01:01:22.709Z",
   "swarms": [
+    {
+      "monsterId": 204,
+      "pokemon": "Pineco",
+      "region": "Johto",
+      "location": "Route 36",
+      "sourceId": 1791768300,
+      "despawnTimestamp": 1791768299,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-12T01:25:00.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 349,
       "pokemon": "Feebas",
@@ -30,23 +41,15 @@
       "pokemon": "Skorupi",
       "region": "Kanto",
       "location": "Route 9",
-      "secondsAgo": 10886,
+      "secondsAgo": 11216,
       "sourceId": 1791755666
-    },
-    {
-      "monsterId": 281,
-      "pokemon": "Kirlia",
-      "region": "Johto",
-      "location": "Route 43",
-      "secondsAgo": 5421,
-      "sourceId": 1791761131
     },
     {
       "monsterId": 388,
       "pokemon": "Grotle",
       "region": "Sinnoh",
       "location": "Sendoff Spring",
-      "secondsAgo": 5127,
+      "secondsAgo": 5457,
       "sourceId": 1791761425
     }
   ],
