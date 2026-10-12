@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-10-12T22:20:53.369Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-12T22:25:50.554Z",
+  "swarms": [
+    {
+      "monsterId": 421,
+      "pokemon": "Cherrim",
+      "region": "Sinnoh",
+      "location": "Lake Verity",
+      "sourceId": 1791845416,
+      "despawnTimestamp": 1791845416,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-12T22:50:16.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 161,
       "pokemon": "Sentret",
       "region": "Kanto",
       "location": "Route 1",
-      "secondsAgo": 4126,
-      "sourceId": 1791839527
+      "secondsAgo": 4424,
+      "sourceId": 1791839526
     },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Johto",
       "location": "Cliff Cave",
-      "secondsAgo": 10075,
+      "secondsAgo": 10372,
       "sourceId": 1791833578
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 7162,
+      "secondsAgo": 7459,
       "sourceId": 1791836491
-    },
-    {
-      "monsterId": 103,
-      "pokemon": "Exeggutor",
-      "region": "Sinnoh",
-      "location": "Route 230",
-      "secondsAgo": 7332,
-      "sourceId": 1791836321
     },
     {
       "monsterId": 247,
       "pokemon": "Pupitar",
       "region": "Unova",
       "location": "Twist Mountain",
-      "secondsAgo": 6784,
+      "secondsAgo": 7081,
       "sourceId": 1791836869
     }
   ],
