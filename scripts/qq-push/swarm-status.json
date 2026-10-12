@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-12T19:50:58.749Z",
+  "fetchedAt": "2026-10-12T19:55:46.755Z",
   "swarms": [
     {
       "monsterId": 213,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-12T19:57:57.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Hoenn",
+      "location": "Route 102",
+      "sourceId": 1791836359,
+      "despawnTimestamp": 1791836359,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-12T20:19:19.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,23 +30,15 @@
       "pokemon": "Salamence",
       "region": "Kanto",
       "location": "Victory Road",
-      "secondsAgo": 8301,
+      "secondsAgo": 8589,
       "sourceId": 1791826357
-    },
-    {
-      "monsterId": 415,
-      "pokemon": "Combee",
-      "region": "Hoenn",
-      "location": "Route 117",
-      "secondsAgo": 4605,
-      "sourceId": 1791830053
     },
     {
       "monsterId": 392,
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 2708,
+      "secondsAgo": 2996,
       "sourceId": 1791831950
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 16230,
+      "secondsAgo": 16518,
       "sourceId": 1791818428
     }
   ],
