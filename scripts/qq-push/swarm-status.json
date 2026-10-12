@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-12T06:51:02.179Z",
+  "fetchedAt": "2026-10-12T06:55:44.352Z",
   "swarms": [
     {
       "monsterId": 311,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Route 2",
       "sourceId": 1791789160,
-      "despawnTimestamp": 1791789160,
+      "despawnTimestamp": 1791789159,
       "hasValuable": false,
       "timestampUtc": "2026-10-12T07:12:40.000Z",
       "publishedBy": ""
@@ -22,31 +22,34 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-12T07:13:43.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 134,
+      "pokemon": "Vaporeon",
+      "region": "Hoenn",
+      "location": "Route 134",
+      "sourceId": 1791789580,
+      "despawnTimestamp": 1791789580,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-12T07:19:40.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 358,
-      "pokemon": "Chimecho",
-      "region": "Hoenn",
-      "location": "Mt. Pyre",
-      "secondsAgo": 11326,
-      "sourceId": 1791776536
-    },
     {
       "monsterId": 424,
       "pokemon": "Ambipom",
       "region": "Sinnoh",
       "location": "Route 216",
-      "secondsAgo": 13142,
-      "sourceId": 1791774720
+      "secondsAgo": 13425,
+      "sourceId": 1791774719
     },
     {
       "monsterId": 148,
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 4680,
+      "secondsAgo": 4962,
       "sourceId": 1791783182
     }
   ],
