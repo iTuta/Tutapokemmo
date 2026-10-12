@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-12T07:50:54.382Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-12T07:55:43.516Z",
+  "swarms": [
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Johto",
+      "location": "Dark Cave",
+      "sourceId": 1791793145,
+      "despawnTimestamp": 1791793145,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-12T08:19:05.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 311,
       "pokemon": "Plusle",
       "region": "Kanto",
       "location": "Route 2",
-      "secondsAgo": 3794,
+      "secondsAgo": 4083,
       "sourceId": 1791787660
-    },
-    {
-      "monsterId": 339,
-      "pokemon": "Barboach",
-      "region": "Johto",
-      "location": "Slowpoke Well",
-      "secondsAgo": 3730,
-      "sourceId": 1791787724
     },
     {
       "monsterId": 134,
       "pokemon": "Vaporeon",
       "region": "Hoenn",
       "location": "Route 134",
-      "secondsAgo": 3373,
+      "secondsAgo": 3662,
       "sourceId": 1791788081
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 3175,
+      "secondsAgo": 3464,
       "sourceId": 1791788279
     }
   ],
