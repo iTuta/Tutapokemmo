@@ -1,45 +1,49 @@
 {
-  "fetchedAt": "2026-10-12T09:20:46.227Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-12T09:25:58.805Z",
+  "swarms": [
     {
-      "monsterId": 311,
-      "pokemon": "Plusle",
+      "monsterId": 348,
+      "pokemon": "Armaldo",
       "region": "Kanto",
-      "location": "Route 2",
-      "secondsAgo": 9185,
-      "sourceId": 1791787661
-    },
+      "location": "Tanoby Ruins",
+      "sourceId": 1791798588,
+      "despawnTimestamp": 1791798587,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-12T09:49:48.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 5200,
-      "sourceId": 1791791646
+      "secondsAgo": 5513,
+      "sourceId": 1791791645
     },
     {
       "monsterId": 134,
       "pokemon": "Vaporeon",
       "region": "Hoenn",
       "location": "Route 134",
-      "secondsAgo": 8765,
-      "sourceId": 1791788081
+      "secondsAgo": 9078,
+      "sourceId": 1791788080
     },
     {
       "monsterId": 389,
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 8567,
-      "sourceId": 1791788279
+      "secondsAgo": 8880,
+      "sourceId": 1791788278
     },
     {
       "monsterId": 148,
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 13664,
+      "secondsAgo": 13976,
       "sourceId": 1791783182
     }
   ],
