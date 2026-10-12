@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-12T13:10:52.145Z",
+  "fetchedAt": "2026-10-12T13:15:58.973Z",
   "swarms": [
     {
       "monsterId": 340,
@@ -7,9 +7,20 @@
       "region": "Sinnoh",
       "location": "Ravaged Path",
       "sourceId": 1791811814,
-      "despawnTimestamp": 1791811814,
+      "despawnTimestamp": 1791811813,
       "hasValuable": false,
       "timestampUtc": "2026-10-12T13:30:14.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 317,
+      "pokemon": "Swalot",
+      "region": "Unova",
+      "location": "Route 9",
+      "sourceId": 1791812256,
+      "despawnTimestamp": 1791812255,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-12T13:37:36.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,32 +30,24 @@
       "pokemon": "Blastoise",
       "region": "Kanto",
       "location": "Cape Brink",
-      "secondsAgo": 7247,
-      "sourceId": 1791803405
+      "secondsAgo": 7554,
+      "sourceId": 1791803404
     },
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 1590,
-      "sourceId": 1791809062
+      "secondsAgo": 1897,
+      "sourceId": 1791809061
     },
     {
       "monsterId": 211,
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 7931,
+      "secondsAgo": 8237,
       "sourceId": 1791802721
-    },
-    {
-      "monsterId": 193,
-      "pokemon": "Yanma",
-      "region": "Unova",
-      "location": "Pinwheel Forest",
-      "secondsAgo": 11475,
-      "sourceId": 1791799177
     }
   ],
   "alpha": {
