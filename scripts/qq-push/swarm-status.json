@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-12T12:41:00.153Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-12T12:45:56.310Z",
+  "swarms": [
+    {
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Johto",
+      "location": "Burned Tower",
+      "sourceId": 1791810561,
+      "despawnTimestamp": 1791810561,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-12T13:09:21.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 9,
       "pokemon": "Blastoise",
       "region": "Kanto",
       "location": "Cape Brink",
-      "secondsAgo": 5455,
-      "sourceId": 1791803405
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Johto",
-      "location": "Mt. Silver Cave",
-      "secondsAgo": 5532,
-      "sourceId": 1791803328
+      "secondsAgo": 5752,
+      "sourceId": 1791803404
     },
     {
       "monsterId": 211,
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 6139,
+      "secondsAgo": 6435,
       "sourceId": 1791802721
     },
     {
@@ -31,15 +35,15 @@
       "pokemon": "Scyther",
       "region": "Sinnoh",
       "location": "Route 210",
-      "secondsAgo": 6171,
-      "sourceId": 1791802689
+      "secondsAgo": 6468,
+      "sourceId": 1791802688
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 9683,
+      "secondsAgo": 9979,
       "sourceId": 1791799177
     }
   ],
