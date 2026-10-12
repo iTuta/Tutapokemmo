@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-12T17:31:22.276Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-12T17:35:46.442Z",
+  "swarms": [
     {
-      "monsterId": 142,
-      "pokemon": "Aerodactyl",
+      "monsterId": 373,
+      "pokemon": "Salamence",
       "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 7842,
-      "sourceId": 1791818440
-    },
+      "location": "Victory Road",
+      "sourceId": 1791827857,
+      "despawnTimestamp": 1791827857,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-12T17:57:37.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 10595,
+      "secondsAgo": 10859,
       "sourceId": 1791815687
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 6768,
+      "secondsAgo": 7032,
       "sourceId": 1791819514
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 6855,
+      "secondsAgo": 7119,
       "sourceId": 1791819427
     }
   ],
