@@ -1,29 +1,41 @@
 {
-  "fetchedAt": "2026-10-12T02:45:58.316Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-12T02:51:03.786Z",
+  "swarms": [
+    {
+      "monsterId": 83,
+      "pokemon": "Farfetch&#x27;d",
+      "region": "Unova",
+      "location": "Route 1",
+      "sourceId": 1791774886,
+      "despawnTimestamp": 1791774885,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-12T03:14:46.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 413,
       "pokemon": "Wormadam",
       "region": "Kanto",
       "location": "Pattern Bush",
-      "secondsAgo": 4388,
-      "sourceId": 1791768770
+      "secondsAgo": 4694,
+      "sourceId": 1791768769
     },
     {
       "monsterId": 153,
       "pokemon": "Bayleef",
       "region": "Johto",
       "location": "National Park",
-      "secondsAgo": 2515,
-      "sourceId": 1791770643
+      "secondsAgo": 2821,
+      "sourceId": 1791770642
     },
     {
       "monsterId": 349,
       "pokemon": "Feebas",
       "region": "Hoenn",
       "location": "Route 130",
-      "secondsAgo": 6745,
+      "secondsAgo": 7050,
       "sourceId": 1791766413
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Grotle",
       "region": "Sinnoh",
       "location": "Sendoff Spring",
-      "secondsAgo": 11733,
-      "sourceId": 1791761425
-    },
-    {
-      "monsterId": 314,
-      "pokemon": "Illumise",
-      "region": "Unova",
-      "location": "Moor of Icirrus",
-      "secondsAgo": 7326,
-      "sourceId": 1791765832
+      "secondsAgo": 12039,
+      "sourceId": 1791761424
     }
   ],
   "alpha": {
