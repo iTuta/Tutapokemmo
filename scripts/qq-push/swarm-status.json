@@ -1,38 +1,42 @@
 {
-  "fetchedAt": "2026-10-12T23:35:46.710Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-12T23:41:01.180Z",
+  "swarms": [
+    {
+      "monsterId": 214,
+      "pokemon": "Heracross",
+      "region": "Unova",
+      "location": "Route 10",
+      "sourceId": 1791849756,
+      "despawnTimestamp": 1791849756,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-13T00:02:36.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 121,
       "pokemon": "Starmie",
       "region": "Johto",
       "location": "Cliff Edge Gate",
-      "secondsAgo": 2430,
-      "sourceId": 1791845716
+      "secondsAgo": 2744,
+      "sourceId": 1791845717
     },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
       "region": "Hoenn",
       "location": "Route 133",
-      "secondsAgo": 2331,
-      "sourceId": 1791845815
+      "secondsAgo": 2645,
+      "sourceId": 1791845816
     },
     {
       "monsterId": 421,
       "pokemon": "Cherrim",
       "region": "Sinnoh",
       "location": "Lake Verity",
-      "secondsAgo": 4230,
-      "sourceId": 1791843916
-    },
-    {
-      "monsterId": 247,
-      "pokemon": "Pupitar",
-      "region": "Unova",
-      "location": "Twist Mountain",
-      "secondsAgo": 11278,
-      "sourceId": 1791836868
+      "secondsAgo": 4544,
+      "sourceId": 1791843917
     }
   ],
   "alpha": {
