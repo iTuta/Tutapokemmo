@@ -1,36 +1,13 @@
 {
-  "fetchedAt": "2026-10-12T16:01:20.117Z",
-  "swarms": [
-    {
-      "monsterId": 211,
-      "pokemon": "Qwilfish",
-      "region": "Hoenn",
-      "location": "Route 125",
-      "sourceId": 1791821013,
-      "despawnTimestamp": 1791821013,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-12T16:03:33.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 393,
-      "pokemon": "Piplup",
-      "region": "Sinnoh",
-      "location": "Route 204",
-      "sourceId": 1791820926,
-      "despawnTimestamp": 1791820926,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-12T16:02:06.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-12T16:05:52.241Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 142,
       "pokemon": "Aerodactyl",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 2440,
+      "secondsAgo": 2712,
       "sourceId": 1791818440
     },
     {
@@ -38,15 +15,31 @@
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 5192,
-      "sourceId": 1791815688
+      "secondsAgo": 5465,
+      "sourceId": 1791815687
+    },
+    {
+      "monsterId": 211,
+      "pokemon": "Qwilfish",
+      "region": "Hoenn",
+      "location": "Route 125",
+      "secondsAgo": 1638,
+      "sourceId": 1791819514
+    },
+    {
+      "monsterId": 393,
+      "pokemon": "Piplup",
+      "region": "Sinnoh",
+      "location": "Route 204",
+      "secondsAgo": 1725,
+      "sourceId": 1791819427
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 2452,
+      "secondsAgo": 2724,
       "sourceId": 1791818428
     }
   ],
