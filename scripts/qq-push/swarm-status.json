@@ -1,38 +1,42 @@
 {
-  "fetchedAt": "2026-10-12T22:50:54.675Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-12T22:55:46.287Z",
+  "swarms": [
     {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
+      "monsterId": 121,
+      "pokemon": "Starmie",
       "region": "Johto",
-      "location": "Cliff Cave",
-      "secondsAgo": 11876,
-      "sourceId": 1791833578
-    },
+      "location": "Cliff Edge Gate",
+      "sourceId": 1791847216,
+      "despawnTimestamp": 1791847215,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-12T23:20:16.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 517,
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 8964,
-      "sourceId": 1791836490
+      "secondsAgo": 9255,
+      "sourceId": 1791836491
     },
     {
       "monsterId": 421,
       "pokemon": "Cherrim",
       "region": "Sinnoh",
       "location": "Lake Verity",
-      "secondsAgo": 1538,
-      "sourceId": 1791843916
+      "secondsAgo": 1829,
+      "sourceId": 1791843917
     },
     {
       "monsterId": 247,
       "pokemon": "Pupitar",
       "region": "Unova",
       "location": "Twist Mountain",
-      "secondsAgo": 8586,
-      "sourceId": 1791836868
+      "secondsAgo": 8877,
+      "sourceId": 1791836869
     }
   ],
   "alpha": {
