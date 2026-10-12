@@ -1,45 +1,49 @@
 {
-  "fetchedAt": "2026-10-12T19:31:20.131Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-12T19:35:48.705Z",
+  "swarms": [
+    {
+      "monsterId": 213,
+      "pokemon": "Shuckle",
+      "region": "Johto",
+      "location": "Cliff Cave",
+      "sourceId": 1791835077,
+      "despawnTimestamp": 1791835077,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-12T19:57:57.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Kanto",
       "location": "Victory Road",
-      "secondsAgo": 7122,
-      "sourceId": 1791826358
-    },
-    {
-      "monsterId": 157,
-      "pokemon": "Typhlosion",
-      "region": "Johto",
-      "location": "Route 45",
-      "secondsAgo": 6370,
-      "sourceId": 1791827110
+      "secondsAgo": 7391,
+      "sourceId": 1791826357
     },
     {
       "monsterId": 415,
       "pokemon": "Combee",
       "region": "Hoenn",
       "location": "Route 117",
-      "secondsAgo": 3426,
-      "sourceId": 1791830054
+      "secondsAgo": 3695,
+      "sourceId": 1791830053
     },
     {
       "monsterId": 392,
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 1529,
-      "sourceId": 1791831951
+      "secondsAgo": 1798,
+      "sourceId": 1791831950
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 15052,
+      "secondsAgo": 15320,
       "sourceId": 1791818428
     }
   ],
