@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-13T08:45:56.601Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-13T08:50:52.836Z",
+  "swarms": [
     {
-      "monsterId": 311,
-      "pokemon": "Plusle",
+      "monsterId": 290,
+      "pokemon": "Nincada",
       "region": "Kanto",
-      "location": "Route 2",
-      "secondsAgo": 3776,
-      "sourceId": 1791877380
-    },
+      "location": "Route 25",
+      "sourceId": 1791882778,
+      "despawnTimestamp": 1791882777,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-13T09:12:58.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 372,
       "pokemon": "Shelgon",
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
-      "secondsAgo": 12094,
+      "secondsAgo": 12390,
       "sourceId": 1791869062
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Route 114",
-      "secondsAgo": 10075,
+      "secondsAgo": 10371,
       "sourceId": 1791871081
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Skarmory",
       "region": "Sinnoh",
       "location": "Route 227",
-      "secondsAgo": 6342,
+      "secondsAgo": 6638,
       "sourceId": 1791874814
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Houndoom",
       "region": "Unova",
       "location": "Route 15",
-      "secondsAgo": 5548,
+      "secondsAgo": 5844,
       "sourceId": 1791875608
     }
   ],
