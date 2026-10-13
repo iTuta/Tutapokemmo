@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-13T01:55:51.790Z",
+  "fetchedAt": "2026-10-13T02:01:16.518Z",
   "swarms": [
     {
       "monsterId": 155,
@@ -11,28 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-13T02:02:38.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 193,
-      "pokemon": "Yanma",
-      "region": "Sinnoh",
-      "location": "Route 205",
-      "sourceId": 1791857774,
-      "despawnTimestamp": 1791857773,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-13T02:16:14.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Unova",
-      "location": "Route 15",
-      "sourceId": 1791856792,
-      "despawnTimestamp": 1791856791,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-13T01:59:52.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,28 +19,36 @@
       "pokemon": "Sentret",
       "region": "Kanto",
       "location": "Route 1",
-      "secondsAgo": 17025,
-      "sourceId": 1791839526
+      "secondsAgo": 17349,
+      "sourceId": 1791839527
     },
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Hoenn",
       "location": "Shoal Cave",
-      "secondsAgo": 6258,
-      "sourceId": 1791850293
+      "secondsAgo": 6582,
+      "sourceId": 1791850294
+    },
+    {
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Unova",
+      "location": "Route 15",
+      "secondsAgo": 1584,
+      "sourceId": 1791855292
     }
   ],
   "alpha": {
-    "monsterId": 53,
-    "pokemon": "Persian",
-    "region": "Kanto",
-    "location": "Ruin Valley",
-    "sourceId": 1791831363,
-    "despawnTimestamp": 1791848463,
+    "monsterId": 466,
+    "pokemon": "Electivire",
+    "region": "Sinnoh",
+    "location": "Mt. Coronet",
+    "sourceId": 1791844133,
+    "despawnTimestamp": 1791861233,
     "hasValuable": false,
-    "timestampUtc": "2026-10-12T18:56:03.000Z",
-    "timestampRaw": "2026-10-12T18:56:03.000Z",
+    "timestampUtc": "2026-10-12T22:28:53.000Z",
+    "timestampRaw": "2026-10-12T22:28:53.000Z",
     "publishedBy": ""
   }
 }
