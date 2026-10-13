@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-10-13T22:45:51.704Z",
-  "swarms": [
-    {
-      "monsterId": 457,
-      "pokemon": "Lumineon",
-      "region": "Unova",
-      "location": "Route 17",
-      "sourceId": 1791931675,
-      "despawnTimestamp": 1791931675,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-13T22:47:55.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-13T22:50:53.254Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 237,
       "pokemon": "Hitmontop",
       "region": "Johto",
       "location": "Mt. Mortar",
-      "secondsAgo": 6848,
+      "secondsAgo": 7150,
       "sourceId": 1791924703
     },
     {
@@ -27,7 +15,7 @@
       "pokemon": "Volcarona",
       "region": "Hoenn",
       "location": "Scorched Slab",
-      "secondsAgo": 8990,
+      "secondsAgo": 9292,
       "sourceId": 1791922561
     },
     {
@@ -35,8 +23,16 @@
       "pokemon": "Chansey",
       "region": "Sinnoh",
       "location": "Trophy Garden",
-      "secondsAgo": 5195,
+      "secondsAgo": 5497,
       "sourceId": 1791926356
+    },
+    {
+      "monsterId": 457,
+      "pokemon": "Lumineon",
+      "region": "Unova",
+      "location": "Route 17",
+      "secondsAgo": 1677,
+      "sourceId": 1791930176
     }
   ],
   "alpha": {
