@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-13T09:50:52.333Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-13T09:55:53.093Z",
+  "swarms": [
+    {
+      "monsterId": 421,
+      "pokemon": "Cherrim",
+      "region": "Sinnoh",
+      "location": "Lake Verity",
+      "sourceId": 1791886656,
+      "despawnTimestamp": 1791886657,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-13T10:17:36.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Kanto",
       "location": "Route 25",
-      "secondsAgo": 3773,
+      "secondsAgo": 4074,
       "sourceId": 1791881279
     },
     {
@@ -15,24 +27,16 @@
       "pokemon": "Chikorita",
       "region": "Johto",
       "location": "Route 31",
-      "secondsAgo": 2138,
-      "sourceId": 1791882914
-    },
-    {
-      "monsterId": 227,
-      "pokemon": "Skarmory",
-      "region": "Sinnoh",
-      "location": "Route 227",
-      "secondsAgo": 10237,
-      "sourceId": 1791874815
+      "secondsAgo": 2438,
+      "sourceId": 1791882915
     },
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Unova",
       "location": "Route 15",
-      "secondsAgo": 9444,
-      "sourceId": 1791875608
+      "secondsAgo": 9744,
+      "sourceId": 1791875609
     }
   ],
   "alpha": {
