@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-13T01:31:06.934Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-13T01:35:46.781Z",
+  "swarms": [
+    {
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Unova",
+      "location": "Route 15",
+      "sourceId": 1791856792,
+      "despawnTimestamp": 1791856791,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-13T01:59:52.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 161,
       "pokemon": "Sentret",
       "region": "Kanto",
       "location": "Route 1",
-      "secondsAgo": 15540,
+      "secondsAgo": 15820,
       "sourceId": 1791839526
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Starmie",
       "region": "Johto",
       "location": "Cliff Edge Gate",
-      "secondsAgo": 9350,
+      "secondsAgo": 9630,
       "sourceId": 1791845716
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Lapras",
       "region": "Hoenn",
       "location": "Shoal Cave",
-      "secondsAgo": 4773,
+      "secondsAgo": 5053,
       "sourceId": 1791850293
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 6206,
+      "secondsAgo": 6486,
       "sourceId": 1791848860
-    },
-    {
-      "monsterId": 214,
-      "pokemon": "Heracross",
-      "region": "Unova",
-      "location": "Route 10",
-      "secondsAgo": 6810,
-      "sourceId": 1791848256
     }
   ],
   "alpha": {
