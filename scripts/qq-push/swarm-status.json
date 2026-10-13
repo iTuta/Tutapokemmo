@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-13T01:50:48.188Z",
+  "fetchedAt": "2026-10-13T01:55:51.790Z",
   "swarms": [
     {
       "monsterId": 155,
@@ -7,9 +7,20 @@
       "region": "Johto",
       "location": "Route 33",
       "sourceId": 1791856958,
-      "despawnTimestamp": 1791856958,
+      "despawnTimestamp": 1791856957,
       "hasValuable": false,
       "timestampUtc": "2026-10-13T02:02:38.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 193,
+      "pokemon": "Yanma",
+      "region": "Sinnoh",
+      "location": "Route 205",
+      "sourceId": 1791857774,
+      "despawnTimestamp": 1791857773,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-13T02:16:14.000Z",
       "publishedBy": ""
     },
     {
@@ -18,7 +29,7 @@
       "region": "Unova",
       "location": "Route 15",
       "sourceId": 1791856792,
-      "despawnTimestamp": 1791856792,
+      "despawnTimestamp": 1791856791,
       "hasValuable": false,
       "timestampUtc": "2026-10-13T01:59:52.000Z",
       "publishedBy": ""
@@ -30,24 +41,16 @@
       "pokemon": "Sentret",
       "region": "Kanto",
       "location": "Route 1",
-      "secondsAgo": 16721,
-      "sourceId": 1791839527
+      "secondsAgo": 17025,
+      "sourceId": 1791839526
     },
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Hoenn",
       "location": "Shoal Cave",
-      "secondsAgo": 5954,
-      "sourceId": 1791850294
-    },
-    {
-      "monsterId": 441,
-      "pokemon": "Chatot",
-      "region": "Sinnoh",
-      "location": "Route 218",
-      "secondsAgo": 7387,
-      "sourceId": 1791848861
+      "secondsAgo": 6258,
+      "sourceId": 1791850293
     }
   ],
   "alpha": {
