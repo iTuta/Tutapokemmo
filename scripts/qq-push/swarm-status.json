@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-13T03:05:43.945Z",
+  "fetchedAt": "2026-10-13T03:10:53.047Z",
   "swarms": [
-    {
-      "monsterId": 441,
-      "pokemon": "Chatot",
-      "region": "Kanto",
-      "location": "Treasure Beach",
-      "sourceId": 1791860881,
-      "despawnTimestamp": 1791860880,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-13T03:08:01.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 290,
       "pokemon": "Nincada",
@@ -26,28 +15,36 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 441,
+      "pokemon": "Chatot",
+      "region": "Kanto",
+      "location": "Treasure Beach",
+      "secondsAgo": 1671,
+      "sourceId": 1791859382
+    },
+    {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Hoenn",
       "location": "Shoal Cave",
-      "secondsAgo": 10450,
-      "sourceId": 1791850293
+      "secondsAgo": 10759,
+      "sourceId": 1791850294
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 4469,
-      "sourceId": 1791856274
+      "secondsAgo": 4778,
+      "sourceId": 1791856275
     },
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Unova",
       "location": "Route 15",
-      "secondsAgo": 5451,
-      "sourceId": 1791855292
+      "secondsAgo": 5760,
+      "sourceId": 1791855293
     }
   ],
   "alpha": {
