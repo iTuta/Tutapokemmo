@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-13T02:50:50.385Z",
+  "fetchedAt": "2026-10-13T02:56:15.451Z",
   "swarms": [
     {
       "monsterId": 441,
@@ -11,23 +11,26 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-13T03:08:01.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 290,
+      "pokemon": "Nincada",
+      "region": "Johto",
+      "location": "Route 46",
+      "sourceId": 1791861533,
+      "despawnTimestamp": 1791861533,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-13T03:18:53.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 155,
-      "pokemon": "Cyndaquil",
-      "region": "Johto",
-      "location": "Route 33",
-      "secondsAgo": 4392,
-      "sourceId": 1791855458
-    },
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Hoenn",
       "location": "Shoal Cave",
-      "secondsAgo": 9556,
+      "secondsAgo": 9881,
       "sourceId": 1791850294
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Yanma",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 3576,
+      "secondsAgo": 3901,
       "sourceId": 1791856274
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Houndoom",
       "region": "Unova",
       "location": "Route 15",
-      "secondsAgo": 4558,
+      "secondsAgo": 4883,
       "sourceId": 1791855292
     }
   ],
