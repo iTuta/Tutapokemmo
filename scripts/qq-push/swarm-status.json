@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-13T21:10:59.005Z",
+  "fetchedAt": "2026-10-13T21:15:56.585Z",
   "swarms": [
     {
       "monsterId": 237,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-13T21:16:42.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 113,
-      "pokemon": "Chansey",
-      "region": "Sinnoh",
-      "location": "Trophy Garden",
-      "sourceId": 1791926083,
-      "despawnTimestamp": 1791926082,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-13T21:14:43.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,23 +19,31 @@
       "pokemon": "Charizard",
       "region": "Kanto",
       "location": "Mt. Ember",
-      "secondsAgo": 5899,
-      "sourceId": 1791919959
+      "secondsAgo": 6196,
+      "sourceId": 1791919960
     },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Hoenn",
       "location": "Scorched Slab",
-      "secondsAgo": 3297,
+      "secondsAgo": 3595,
       "sourceId": 1791922561
+    },
+    {
+      "monsterId": 113,
+      "pokemon": "Chansey",
+      "region": "Sinnoh",
+      "location": "Trophy Garden",
+      "secondsAgo": 1572,
+      "sourceId": 1791924584
     },
     {
       "monsterId": 148,
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 8917,
+      "secondsAgo": 9215,
       "sourceId": 1791916941
     }
   ],
