@@ -1,52 +1,45 @@
 {
-  "fetchedAt": "2026-10-13T18:25:53.465Z",
-  "swarms": [
-    {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Hoenn",
-      "location": "Shoal Cave",
-      "sourceId": 1791916145,
-      "despawnTimestamp": 1791916145,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-13T18:29:05.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Sinnoh",
-      "location": "Wayward Cave",
-      "sourceId": 1791915982,
-      "despawnTimestamp": 1791915982,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-13T18:26:22.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-13T18:31:05.177Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Kanto",
       "location": "Route 10",
-      "secondsAgo": 9351,
-      "sourceId": 1791906602
+      "secondsAgo": 9662,
+      "sourceId": 1791906603
     },
     {
       "monsterId": 160,
       "pokemon": "Feraligatr",
       "region": "Johto",
       "location": "Tohjo Falls",
-      "secondsAgo": 7394,
+      "secondsAgo": 7706,
       "sourceId": 1791908559
+    },
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Hoenn",
+      "location": "Shoal Cave",
+      "secondsAgo": 1619,
+      "sourceId": 1791914646
+    },
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Sinnoh",
+      "location": "Wayward Cave",
+      "secondsAgo": 1782,
+      "sourceId": 1791914483
     },
     {
       "monsterId": 162,
       "pokemon": "Furret",
       "region": "Unova",
       "location": "Abundant Shrine",
-      "secondsAgo": 10119,
+      "secondsAgo": 10431,
       "sourceId": 1791905834
     }
   ],
