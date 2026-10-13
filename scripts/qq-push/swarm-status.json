@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-13T16:01:18.895Z",
+  "fetchedAt": "2026-10-13T16:05:50.803Z",
   "swarms": [
     {
       "monsterId": 425,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-13T16:15:02.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 162,
-      "pokemon": "Furret",
-      "region": "Unova",
-      "location": "Abundant Shrine",
-      "sourceId": 1791907333,
-      "despawnTimestamp": 1791907332,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-13T16:02:13.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 8720,
+      "secondsAgo": 8992,
       "sourceId": 1791898558
     },
     {
@@ -38,7 +27,7 @@
       "pokemon": "Zorua",
       "region": "Hoenn",
       "location": "Route 101",
-      "secondsAgo": 9634,
+      "secondsAgo": 9906,
       "sourceId": 1791897644
     },
     {
@@ -46,8 +35,16 @@
       "pokemon": "Bonsly",
       "region": "Sinnoh",
       "location": "Eterna Forest",
-      "secondsAgo": 2248,
+      "secondsAgo": 2520,
       "sourceId": 1791905030
+    },
+    {
+      "monsterId": 162,
+      "pokemon": "Furret",
+      "region": "Unova",
+      "location": "Abundant Shrine",
+      "secondsAgo": 1717,
+      "sourceId": 1791905833
     }
   ],
   "alpha": {
