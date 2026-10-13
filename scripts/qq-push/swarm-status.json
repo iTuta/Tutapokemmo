@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-13T16:41:01.517Z",
+  "fetchedAt": "2026-10-13T16:46:02.025Z",
   "swarms": [
     {
       "monsterId": 160,
@@ -7,9 +7,20 @@
       "region": "Johto",
       "location": "Tohjo Falls",
       "sourceId": 1791910058,
-      "despawnTimestamp": 1791910058,
+      "despawnTimestamp": 1791910057,
       "hasValuable": false,
       "timestampUtc": "2026-10-13T16:47:38.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 299,
+      "pokemon": "Nosepass",
+      "region": "Hoenn",
+      "location": "Granite Cave",
+      "sourceId": 1791911366,
+      "despawnTimestamp": 1791911366,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-13T17:09:26.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,32 +30,24 @@
       "pokemon": "Drifloon",
       "region": "Kanto",
       "location": "Route 10",
-      "secondsAgo": 3059,
+      "secondsAgo": 3359,
       "sourceId": 1791906602
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Hoenn",
-      "location": "Route 101",
-      "secondsAgo": 12016,
-      "sourceId": 1791897645
     },
     {
       "monsterId": 438,
       "pokemon": "Bonsly",
       "region": "Sinnoh",
       "location": "Eterna Forest",
-      "secondsAgo": 4630,
-      "sourceId": 1791905031
+      "secondsAgo": 4931,
+      "sourceId": 1791905030
     },
     {
       "monsterId": 162,
       "pokemon": "Furret",
       "region": "Unova",
       "location": "Abundant Shrine",
-      "secondsAgo": 3827,
-      "sourceId": 1791905834
+      "secondsAgo": 4128,
+      "sourceId": 1791905833
     }
   ],
   "alpha": {
