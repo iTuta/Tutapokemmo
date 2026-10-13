@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-13T20:45:55.569Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-13T20:50:57.381Z",
+  "swarms": [
+    {
+      "monsterId": 113,
+      "pokemon": "Chansey",
+      "region": "Sinnoh",
+      "location": "Trophy Garden",
+      "sourceId": 1791926083,
+      "despawnTimestamp": 1791926083,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-13T21:14:43.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 6,
       "pokemon": "Charizard",
       "region": "Kanto",
       "location": "Mt. Ember",
-      "secondsAgo": 4395,
+      "secondsAgo": 4697,
       "sourceId": 1791919960
     },
     {
@@ -15,32 +27,24 @@
       "pokemon": "Bayleef",
       "region": "Johto",
       "location": "National Park",
-      "secondsAgo": 3151,
-      "sourceId": 1791921204
+      "secondsAgo": 3452,
+      "sourceId": 1791921205
     },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Hoenn",
       "location": "Scorched Slab",
-      "secondsAgo": 1794,
+      "secondsAgo": 2096,
       "sourceId": 1791922561
-    },
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Sinnoh",
-      "location": "Wayward Cave",
-      "secondsAgo": 9872,
-      "sourceId": 1791914483
     },
     {
       "monsterId": 148,
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 7414,
-      "sourceId": 1791916941
+      "secondsAgo": 7715,
+      "sourceId": 1791916942
     }
   ],
   "alpha": {
