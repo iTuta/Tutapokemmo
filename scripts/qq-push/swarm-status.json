@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-13T11:40:56.996Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-13T11:46:07.028Z",
+  "swarms": [
+    {
+      "monsterId": 113,
+      "pokemon": "Chansey",
+      "region": "Sinnoh",
+      "location": "Trophy Garden",
+      "sourceId": 1791893181,
+      "despawnTimestamp": 1791893180,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-13T12:06:21.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Kanto",
       "location": "Route 25",
-      "secondsAgo": 10378,
+      "secondsAgo": 10688,
       "sourceId": 1791881278
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Typhlosion",
       "region": "Johto",
       "location": "Route 45",
-      "secondsAgo": 5474,
+      "secondsAgo": 5784,
       "sourceId": 1791886182
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Route 114",
-      "secondsAgo": 20575,
+      "secondsAgo": 20885,
       "sourceId": 1791871081
-    },
-    {
-      "monsterId": 421,
-      "pokemon": "Cherrim",
-      "region": "Sinnoh",
-      "location": "Lake Verity",
-      "secondsAgo": 6499,
-      "sourceId": 1791885157
     },
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Unova",
       "location": "Route 15",
-      "secondsAgo": 16048,
+      "secondsAgo": 16358,
       "sourceId": 1791875608
     }
   ],
