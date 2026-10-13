@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-13T13:40:52.258Z",
+  "fetchedAt": "2026-10-13T13:45:55.741Z",
   "swarms": [
     {
       "monsterId": 469,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-13T14:00:58.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Hoenn",
-      "location": "Route 101",
-      "sourceId": 1791899144,
-      "despawnTimestamp": 1791899144,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-13T13:45:44.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,16 +19,24 @@
       "pokemon": "Nincada",
       "region": "Kanto",
       "location": "Route 25",
-      "secondsAgo": 17573,
-      "sourceId": 1791881279
+      "secondsAgo": 17877,
+      "sourceId": 1791881278
+    },
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Hoenn",
+      "location": "Route 101",
+      "secondsAgo": 1511,
+      "sourceId": 1791897644
     },
     {
       "monsterId": 113,
       "pokemon": "Chansey",
       "region": "Sinnoh",
       "location": "Trophy Garden",
-      "secondsAgo": 7170,
-      "sourceId": 1791891682
+      "secondsAgo": 7474,
+      "sourceId": 1791891681
     }
   ],
   "alpha": {
