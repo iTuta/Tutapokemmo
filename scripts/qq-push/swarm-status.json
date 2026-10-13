@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-13T06:55:48.814Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-13T07:01:18.624Z",
+  "swarms": [
+    {
+      "monsterId": 227,
+      "pokemon": "Skarmory",
+      "region": "Sinnoh",
+      "location": "Route 227",
+      "sourceId": 1791876314,
+      "despawnTimestamp": 1791876313,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-13T07:25:14.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 313,
       "pokemon": "Volbeat",
       "region": "Kanto",
       "location": "Memorial Pillar",
-      "secondsAgo": 9966,
+      "secondsAgo": 10296,
       "sourceId": 1791864582
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Shelgon",
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
-      "secondsAgo": 5486,
+      "secondsAgo": 5816,
       "sourceId": 1791869062
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Route 114",
-      "secondsAgo": 3467,
+      "secondsAgo": 3797,
       "sourceId": 1791871081
-    },
-    {
-      "monsterId": 193,
-      "pokemon": "Yanma",
-      "region": "Sinnoh",
-      "location": "Route 205",
-      "secondsAgo": 18274,
-      "sourceId": 1791856274
     },
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Unova",
       "location": "Route 12",
-      "secondsAgo": 11332,
+      "secondsAgo": 11662,
       "sourceId": 1791863216
     }
   ],
