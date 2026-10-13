@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-13T18:40:52.286Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-13T18:45:59.443Z",
+  "swarms": [
+    {
+      "monsterId": 148,
+      "pokemon": "Dragonair",
+      "region": "Unova",
+      "location": "Dragonspiral Tower",
+      "sourceId": 1791918441,
+      "despawnTimestamp": 1791918441,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-13T19:07:21.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Kanto",
       "location": "Route 10",
-      "secondsAgo": 10250,
+      "secondsAgo": 10557,
       "sourceId": 1791906602
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Feraligatr",
       "region": "Johto",
       "location": "Tohjo Falls",
-      "secondsAgo": 8293,
+      "secondsAgo": 8600,
       "sourceId": 1791908559
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Lapras",
       "region": "Hoenn",
       "location": "Shoal Cave",
-      "secondsAgo": 2206,
+      "secondsAgo": 2513,
       "sourceId": 1791914646
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Kangaskhan",
       "region": "Sinnoh",
       "location": "Wayward Cave",
-      "secondsAgo": 2369,
+      "secondsAgo": 2676,
       "sourceId": 1791914483
-    },
-    {
-      "monsterId": 162,
-      "pokemon": "Furret",
-      "region": "Unova",
-      "location": "Abundant Shrine",
-      "secondsAgo": 11018,
-      "sourceId": 1791905834
     }
   ],
   "alpha": {
