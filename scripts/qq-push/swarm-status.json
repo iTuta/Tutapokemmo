@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-13T19:50:49.199Z",
+  "fetchedAt": "2026-10-13T19:55:45.444Z",
   "swarms": [
     {
       "monsterId": 6,
@@ -11,23 +11,26 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-13T19:57:39.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 153,
+      "pokemon": "Bayleef",
+      "region": "Johto",
+      "location": "National Park",
+      "sourceId": 1791922704,
+      "despawnTimestamp": 1791922704,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-13T20:18:24.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 160,
-      "pokemon": "Feraligatr",
-      "region": "Johto",
-      "location": "Tohjo Falls",
-      "secondsAgo": 12490,
-      "sourceId": 1791908559
-    },
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Hoenn",
       "location": "Shoal Cave",
-      "secondsAgo": 6403,
+      "secondsAgo": 6699,
       "sourceId": 1791914646
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Kangaskhan",
       "region": "Sinnoh",
       "location": "Wayward Cave",
-      "secondsAgo": 6566,
+      "secondsAgo": 6862,
       "sourceId": 1791914483
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 4107,
+      "secondsAgo": 4403,
       "sourceId": 1791916942
     }
   ],
