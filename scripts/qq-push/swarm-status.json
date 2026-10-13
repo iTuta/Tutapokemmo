@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-13T15:21:02.375Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-13T15:25:53.152Z",
+  "swarms": [
+    {
+      "monsterId": 438,
+      "pokemon": "Bonsly",
+      "region": "Sinnoh",
+      "location": "Eterna Forest",
+      "sourceId": 1791906530,
+      "despawnTimestamp": 1791906530,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-13T15:48:50.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Kanto",
       "location": "Route 25",
-      "secondsAgo": 23583,
+      "secondsAgo": 23874,
       "sourceId": 1791881279
     },
     {
@@ -15,31 +27,23 @@
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 6304,
-      "sourceId": 1791898558
+      "secondsAgo": 6594,
+      "sourceId": 1791898559
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Hoenn",
       "location": "Route 101",
-      "secondsAgo": 7217,
+      "secondsAgo": 7508,
       "sourceId": 1791897645
-    },
-    {
-      "monsterId": 285,
-      "pokemon": "Shroomish",
-      "region": "Sinnoh",
-      "location": "Route 201",
-      "secondsAgo": 5225,
-      "sourceId": 1791899637
     },
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Unova",
       "location": "Route 15",
-      "secondsAgo": 29253,
+      "secondsAgo": 29544,
       "sourceId": 1791875609
     }
   ],
