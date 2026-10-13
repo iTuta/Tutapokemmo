@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-13T03:45:58.301Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-13T03:50:55.406Z",
+  "swarms": [
+    {
+      "monsterId": 127,
+      "pokemon": "Pinsir",
+      "region": "Unova",
+      "location": "Route 12",
+      "sourceId": 1791864416,
+      "despawnTimestamp": 1791864415,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-13T04:06:56.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Kanto",
       "location": "Treasure Beach",
-      "secondsAgo": 3776,
+      "secondsAgo": 4073,
       "sourceId": 1791859382
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 3124,
+      "secondsAgo": 3421,
       "sourceId": 1791860034
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Combee",
       "region": "Hoenn",
       "location": "Route 117",
-      "secondsAgo": 1538,
+      "secondsAgo": 1835,
       "sourceId": 1791861620
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Yanma",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 6884,
+      "secondsAgo": 7181,
       "sourceId": 1791856274
-    },
-    {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Unova",
-      "location": "Route 15",
-      "secondsAgo": 7866,
-      "sourceId": 1791855292
     }
   ],
   "alpha": {
