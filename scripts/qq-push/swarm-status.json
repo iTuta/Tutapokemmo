@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-14T10:50:52.755Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-14T10:55:49.843Z",
+  "swarms": [
+    {
+      "monsterId": 352,
+      "pokemon": "Kecleon",
+      "region": "Hoenn",
+      "location": "Route 120",
+      "sourceId": 1791976565,
+      "despawnTimestamp": 1791976564,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-14T11:16:05.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "secondsAgo": 5053,
+      "secondsAgo": 5350,
       "sourceId": 1791969999
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 8125,
+      "secondsAgo": 8422,
       "sourceId": 1791966927
-    },
-    {
-      "monsterId": 455,
-      "pokemon": "Carnivine",
-      "region": "Hoenn",
-      "location": "Route 123",
-      "secondsAgo": 3993,
-      "sourceId": 1791971059
     },
     {
       "monsterId": 479,
       "pokemon": "Rotom",
       "region": "Sinnoh",
       "location": "Old Chateau",
-      "secondsAgo": 17875,
+      "secondsAgo": 18172,
       "sourceId": 1791957177
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "secondsAgo": 5222,
+      "secondsAgo": 5519,
       "sourceId": 1791969830
     }
   ],
