@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-14T11:50:53.366Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-14T11:55:58.035Z",
+  "swarms": [
+    {
+      "monsterId": 455,
+      "pokemon": "Carnivine",
+      "region": "Unova",
+      "location": "Route 18",
+      "sourceId": 1791980439,
+      "despawnTimestamp": 1791980439,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-14T12:20:39.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "secondsAgo": 8653,
+      "secondsAgo": 8958,
       "sourceId": 1791970000
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Lucario",
       "region": "Johto",
       "location": "Mt. Silver Cave",
-      "secondsAgo": 2723,
+      "secondsAgo": 3028,
       "sourceId": 1791975930
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Kecleon",
       "region": "Hoenn",
       "location": "Route 120",
-      "secondsAgo": 3468,
-      "sourceId": 1791975185
+      "secondsAgo": 3772,
+      "sourceId": 1791975186
     },
     {
       "monsterId": 479,
       "pokemon": "Rotom",
       "region": "Sinnoh",
       "location": "Old Chateau",
-      "secondsAgo": 21476,
-      "sourceId": 1791957177
-    },
-    {
-      "monsterId": 106,
-      "pokemon": "Hitmonlee",
-      "region": "Unova",
-      "location": "Victory Road",
-      "secondsAgo": 8823,
-      "sourceId": 1791969830
+      "secondsAgo": 21780,
+      "sourceId": 1791957178
     }
   ],
   "alpha": {
