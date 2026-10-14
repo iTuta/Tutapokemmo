@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-14T02:25:57.403Z",
+  "fetchedAt": "2026-10-14T02:31:12.333Z",
   "swarms": [
+    {
+      "monsterId": 139,
+      "pokemon": "Omastar",
+      "region": "Kanto",
+      "location": "Liptoo Chamber",
+      "sourceId": 1791946312,
+      "despawnTimestamp": 1791946312,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-14T02:51:52.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 6,
-      "pokemon": "Charizard",
-      "region": "Kanto",
-      "location": "Mt. Ember",
-      "secondsAgo": 24797,
-      "sourceId": 1791919960
-    },
-    {
       "monsterId": 469,
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 2694,
+      "secondsAgo": 3009,
       "sourceId": 1791942063
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Kecleon",
       "region": "Hoenn",
       "location": "Route 120",
-      "secondsAgo": 4971,
+      "secondsAgo": 5286,
       "sourceId": 1791939786
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "secondsAgo": 9944,
+      "secondsAgo": 10259,
       "sourceId": 1791934813
     }
   ],
