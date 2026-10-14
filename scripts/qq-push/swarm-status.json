@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-14T20:20:50.527Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-14T20:25:51.728Z",
+  "swarms": [
     {
-      "monsterId": 425,
-      "pokemon": "Drifloon",
+      "monsterId": 83,
+      "pokemon": "Farfetch&#x27;d",
       "region": "Kanto",
-      "location": "Route 10",
-      "secondsAgo": 13786,
-      "sourceId": 1791995464
-    },
+      "location": "Route 13",
+      "sourceId": 1792010751,
+      "despawnTimestamp": 1792010750,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-14T20:45:51.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 102,
       "pokemon": "Exeggcute",
       "region": "Johto",
       "location": "Route 30",
-      "secondsAgo": 2720,
-      "sourceId": 1792006530
+      "secondsAgo": 3022,
+      "sourceId": 1792006529
     },
     {
       "monsterId": 349,
       "pokemon": "Feebas",
       "region": "Hoenn",
       "location": "Route 130",
-      "secondsAgo": 4212,
+      "secondsAgo": 4513,
       "sourceId": 1792005038
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Tyranitar",
       "region": "Sinnoh",
       "location": "Stark Mountain",
-      "secondsAgo": 9747,
+      "secondsAgo": 10048,
       "sourceId": 1791999503
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Hippowdon",
       "region": "Unova",
       "location": "Mistralton Cave",
-      "secondsAgo": 7481,
+      "secondsAgo": 7782,
       "sourceId": 1792001769
     }
   ],
