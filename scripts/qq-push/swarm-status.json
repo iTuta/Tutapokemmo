@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-14T06:05:45.657Z",
+  "fetchedAt": "2026-10-14T06:10:50.430Z",
   "swarms": [
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Johto",
-      "location": "Route 37",
-      "sourceId": 1791958218,
-      "despawnTimestamp": 1791958217,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-14T06:10:18.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 479,
       "pokemon": "Rotom",
@@ -41,15 +30,23 @@
       "pokemon": "Omastar",
       "region": "Kanto",
       "location": "Liptoo Chamber",
-      "secondsAgo": 12952,
+      "secondsAgo": 13257,
       "sourceId": 1791944993
+    },
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Johto",
+      "location": "Route 37",
+      "secondsAgo": 1531,
+      "sourceId": 1791956719
     },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
       "region": "Hoenn",
       "location": "Route 133",
-      "secondsAgo": 10293,
+      "secondsAgo": 10598,
       "sourceId": 1791947652
     }
   ],
