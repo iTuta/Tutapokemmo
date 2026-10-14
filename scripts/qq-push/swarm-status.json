@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-14T14:15:56.108Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-14T14:20:49.189Z",
+  "swarms": [
     {
-      "monsterId": 128,
-      "pokemon": "Tauros",
+      "monsterId": 411,
+      "pokemon": "Bastiodon",
       "region": "Kanto",
-      "location": "Route 17",
-      "secondsAgo": 4393,
-      "sourceId": 1791982963
-    },
+      "location": "Tanoby Ruins",
+      "sourceId": 1791988963,
+      "despawnTimestamp": 1791988963,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-14T14:42:43.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 1908,
+      "secondsAgo": 2201,
       "sourceId": 1791985448
     },
     {
@@ -23,15 +27,15 @@
       "pokemon": "Kecleon",
       "region": "Hoenn",
       "location": "Route 120",
-      "secondsAgo": 12170,
-      "sourceId": 1791975186
+      "secondsAgo": 12464,
+      "sourceId": 1791975185
     },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Unova",
       "location": "Route 18",
-      "secondsAgo": 8416,
+      "secondsAgo": 8709,
       "sourceId": 1791978940
     }
   ],
