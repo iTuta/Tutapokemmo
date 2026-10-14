@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-14T09:25:54.213Z",
+  "fetchedAt": "2026-10-14T09:31:07.345Z",
   "swarms": [
+    {
+      "monsterId": 127,
+      "pokemon": "Pinsir",
+      "region": "Kanto",
+      "location": "Route 11",
+      "sourceId": 1791971499,
+      "despawnTimestamp": 1791971499,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-14T09:51:39.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 106,
       "pokemon": "Hitmonlee",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Kanto",
-      "location": "Route 15",
-      "secondsAgo": 7226,
-      "sourceId": 1791962728
-    },
-    {
       "monsterId": 154,
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 3027,
+      "secondsAgo": 3340,
       "sourceId": 1791966927
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Drifloon",
       "region": "Hoenn",
       "location": "Route 105",
-      "secondsAgo": 10330,
+      "secondsAgo": 10643,
       "sourceId": 1791959624
     },
     {
@@ -43,8 +46,8 @@
       "pokemon": "Rotom",
       "region": "Sinnoh",
       "location": "Old Chateau",
-      "secondsAgo": 12776,
-      "sourceId": 1791957178
+      "secondsAgo": 13090,
+      "sourceId": 1791957177
     }
   ],
   "alpha": {
