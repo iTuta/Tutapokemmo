@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-14T01:40:49.768Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-14T01:45:57.393Z",
+  "swarms": [
+    {
+      "monsterId": 469,
+      "pokemon": "Yanmega",
+      "region": "Johto",
+      "location": "Route 44",
+      "sourceId": 1791943562,
+      "despawnTimestamp": 1791943562,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-14T02:06:02.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 6,
       "pokemon": "Charizard",
       "region": "Kanto",
       "location": "Mt. Ember",
-      "secondsAgo": 22089,
+      "secondsAgo": 22397,
       "sourceId": 1791919960
-    },
-    {
-      "monsterId": 237,
-      "pokemon": "Hitmontop",
-      "region": "Johto",
-      "location": "Mt. Mortar",
-      "secondsAgo": 17346,
-      "sourceId": 1791924703
     },
     {
       "monsterId": 352,
       "pokemon": "Kecleon",
       "region": "Hoenn",
       "location": "Route 120",
-      "secondsAgo": 2263,
+      "secondsAgo": 2571,
       "sourceId": 1791939786
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "secondsAgo": 7236,
+      "secondsAgo": 7544,
       "sourceId": 1791934813
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Lumineon",
       "region": "Unova",
       "location": "Route 17",
-      "secondsAgo": 9945,
+      "secondsAgo": 10253,
       "sourceId": 1791932104
     }
   ],
