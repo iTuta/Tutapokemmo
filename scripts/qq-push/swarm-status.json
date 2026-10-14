@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-14T21:35:50.916Z",
+  "fetchedAt": "2026-10-14T21:40:52.469Z",
   "swarms": [
-    {
-      "monsterId": 320,
-      "pokemon": "Wailmer",
-      "region": "Johto",
-      "location": "Route 40",
-      "sourceId": 1792014694,
-      "despawnTimestamp": 1792014694,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-14T21:51:34.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
@@ -30,23 +19,31 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Kanto",
       "location": "Route 13",
-      "secondsAgo": 4499,
+      "secondsAgo": 4801,
       "sourceId": 1792009251
+    },
+    {
+      "monsterId": 320,
+      "pokemon": "Wailmer",
+      "region": "Johto",
+      "location": "Route 40",
+      "secondsAgo": 857,
+      "sourceId": 1792013195
     },
     {
       "monsterId": 349,
       "pokemon": "Feebas",
       "region": "Hoenn",
       "location": "Route 130",
-      "secondsAgo": 8713,
-      "sourceId": 1792005037
+      "secondsAgo": 9014,
+      "sourceId": 1792005038
     },
     {
       "monsterId": 359,
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "secondsAgo": 3397,
+      "secondsAgo": 3699,
       "sourceId": 1792010353
     }
   ],
