@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-14T02:31:12.333Z",
+  "fetchedAt": "2026-10-14T02:35:46.896Z",
   "swarms": [
     {
       "monsterId": 139,
@@ -7,20 +7,9 @@
       "region": "Kanto",
       "location": "Liptoo Chamber",
       "sourceId": 1791946312,
-      "despawnTimestamp": 1791946312,
+      "despawnTimestamp": 1791946311,
       "hasValuable": false,
       "timestampUtc": "2026-10-14T02:51:52.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 455,
-      "pokemon": "Carnivine",
-      "region": "Unova",
-      "location": "Route 18",
-      "sourceId": 1791945344,
-      "despawnTimestamp": 1791945344,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-14T02:35:44.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,7 +19,7 @@
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 3009,
+      "secondsAgo": 3283,
       "sourceId": 1791942063
     },
     {
@@ -38,7 +27,7 @@
       "pokemon": "Kecleon",
       "region": "Hoenn",
       "location": "Route 120",
-      "secondsAgo": 5286,
+      "secondsAgo": 5560,
       "sourceId": 1791939786
     },
     {
@@ -46,8 +35,16 @@
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "secondsAgo": 10259,
+      "secondsAgo": 10533,
       "sourceId": 1791934813
+    },
+    {
+      "monsterId": 455,
+      "pokemon": "Carnivine",
+      "region": "Unova",
+      "location": "Route 18",
+      "secondsAgo": 1501,
+      "sourceId": 1791943845
     }
   ],
   "alpha": {
