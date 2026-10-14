@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-14T13:41:17.750Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-14T13:46:16.676Z",
+  "swarms": [
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Johto",
+      "location": "Bell Tower",
+      "sourceId": 1791986947,
+      "despawnTimestamp": 1791986946,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-14T14:09:07.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Kanto",
       "location": "Route 17",
-      "secondsAgo": 2315,
+      "secondsAgo": 2614,
       "sourceId": 1791982962
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Johto",
-      "location": "Mt. Silver Cave",
-      "secondsAgo": 9348,
-      "sourceId": 1791975929
     },
     {
       "monsterId": 352,
       "pokemon": "Kecleon",
       "region": "Hoenn",
       "location": "Route 120",
-      "secondsAgo": 10092,
+      "secondsAgo": 10391,
       "sourceId": 1791975185
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Carnivine",
       "region": "Unova",
       "location": "Route 18",
-      "secondsAgo": 6338,
+      "secondsAgo": 6637,
       "sourceId": 1791978939
     }
   ],
