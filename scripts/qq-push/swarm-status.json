@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-14T20:42:45.159Z",
+  "fetchedAt": "2026-10-14T20:45:57.374Z",
   "swarms": [
-    {
-      "monsterId": 83,
-      "pokemon": "Farfetch&#x27;d",
-      "region": "Kanto",
-      "location": "Route 13",
-      "sourceId": 1792010751,
-      "despawnTimestamp": 1792010751,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-14T20:45:51.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 359,
       "pokemon": "Absol",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 83,
+      "pokemon": "Farfetch&#x27;d",
+      "region": "Kanto",
+      "location": "Route 13",
+      "secondsAgo": 1505,
+      "sourceId": 1792009252
+    },
+    {
       "monsterId": 102,
       "pokemon": "Exeggcute",
       "region": "Johto",
       "location": "Route 30",
-      "secondsAgo": 4035,
+      "secondsAgo": 4227,
       "sourceId": 1792006530
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Feebas",
       "region": "Hoenn",
       "location": "Route 130",
-      "secondsAgo": 5527,
+      "secondsAgo": 5719,
       "sourceId": 1792005038
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Hippowdon",
       "region": "Unova",
       "location": "Mistralton Cave",
-      "secondsAgo": 8796,
+      "secondsAgo": 8988,
       "sourceId": 1792001769
     }
   ],
