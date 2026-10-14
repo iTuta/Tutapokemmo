@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-14T11:15:53.445Z",
+  "fetchedAt": "2026-10-14T11:20:48.611Z",
   "swarms": [
     {
       "monsterId": 448,
@@ -7,20 +7,9 @@
       "region": "Johto",
       "location": "Mt. Silver Cave",
       "sourceId": 1791977429,
-      "despawnTimestamp": 1791977429,
+      "despawnTimestamp": 1791977428,
       "hasValuable": false,
       "timestampUtc": "2026-10-14T11:30:29.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 352,
-      "pokemon": "Kecleon",
-      "region": "Hoenn",
-      "location": "Route 120",
-      "sourceId": 1791976565,
-      "despawnTimestamp": 1791976564,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-14T11:16:05.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,15 +19,23 @@
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "secondsAgo": 6554,
+      "secondsAgo": 6849,
       "sourceId": 1791969999
+    },
+    {
+      "monsterId": 352,
+      "pokemon": "Kecleon",
+      "region": "Hoenn",
+      "location": "Route 120",
+      "secondsAgo": 1663,
+      "sourceId": 1791975185
     },
     {
       "monsterId": 479,
       "pokemon": "Rotom",
       "region": "Sinnoh",
       "location": "Old Chateau",
-      "secondsAgo": 19376,
+      "secondsAgo": 19671,
       "sourceId": 1791957177
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "secondsAgo": 6723,
+      "secondsAgo": 7018,
       "sourceId": 1791969830
     }
   ],
