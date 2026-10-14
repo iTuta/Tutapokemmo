@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-14T09:40:48.770Z",
+  "fetchedAt": "2026-10-14T09:46:14.500Z",
   "swarms": [
     {
       "monsterId": 127,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1791971498,
       "hasValuable": false,
       "timestampUtc": "2026-10-14T09:51:39.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 455,
+      "pokemon": "Carnivine",
+      "region": "Hoenn",
+      "location": "Route 123",
+      "sourceId": 1791972559,
+      "despawnTimestamp": 1791972559,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-14T10:09:19.000Z",
       "publishedBy": ""
     },
     {
@@ -30,23 +41,15 @@
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 3921,
+      "secondsAgo": 4247,
       "sourceId": 1791966927
-    },
-    {
-      "monsterId": 425,
-      "pokemon": "Drifloon",
-      "region": "Hoenn",
-      "location": "Route 105",
-      "secondsAgo": 11225,
-      "sourceId": 1791959623
     },
     {
       "monsterId": 479,
       "pokemon": "Rotom",
       "region": "Sinnoh",
       "location": "Old Chateau",
-      "secondsAgo": 13671,
+      "secondsAgo": 13997,
       "sourceId": 1791957177
     }
   ],
