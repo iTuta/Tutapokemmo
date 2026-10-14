@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-14T07:20:53.831Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-14T07:25:47.874Z",
+  "swarms": [
     {
-      "monsterId": 139,
-      "pokemon": "Omastar",
+      "monsterId": 336,
+      "pokemon": "Seviper",
       "region": "Kanto",
-      "location": "Liptoo Chamber",
-      "secondsAgo": 17461,
-      "sourceId": 1791944992
-    },
+      "location": "Route 15",
+      "sourceId": 1791964227,
+      "despawnTimestamp": 1791964227,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-14T07:50:27.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 5735,
+      "secondsAgo": 6029,
       "sourceId": 1791956718
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Drifloon",
       "region": "Hoenn",
       "location": "Route 105",
-      "secondsAgo": 2830,
+      "secondsAgo": 3124,
       "sourceId": 1791959623
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Rotom",
       "region": "Sinnoh",
       "location": "Old Chateau",
-      "secondsAgo": 5276,
+      "secondsAgo": 5570,
       "sourceId": 1791957177
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 3260,
+      "secondsAgo": 3554,
       "sourceId": 1791959193
     }
   ],
