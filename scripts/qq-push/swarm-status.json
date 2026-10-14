@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-14T14:40:57.827Z",
+  "fetchedAt": "2026-10-14T14:46:02.596Z",
   "swarms": [
-    {
-      "monsterId": 411,
-      "pokemon": "Bastiodon",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "sourceId": 1791988963,
-      "despawnTimestamp": 1791988962,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-14T14:42:43.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 257,
       "pokemon": "Blaziken",
@@ -37,12 +26,28 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 411,
+      "pokemon": "Bastiodon",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "secondsAgo": 1698,
+      "sourceId": 1791987464
+    },
+    {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 3410,
+      "secondsAgo": 3715,
       "sourceId": 1791985447
+    },
+    {
+      "monsterId": 241,
+      "pokemon": "Miltank",
+      "region": "Sinnoh",
+      "location": "Route 214",
+      "secondsAgo": 9339,
+      "sourceId": 1791979823
     }
   ],
   "alpha": {
@@ -55,6 +60,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-10-14T10:00:43.000Z",
     "timestampRaw": "2026-10-14T10:00:43.000Z",
-    "publishedBy": ""
+    "publishedBy": "Katastrophine"
   }
 }
