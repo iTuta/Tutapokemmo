@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-14T23:05:51.418Z",
+  "fetchedAt": "2026-10-14T23:10:55.755Z",
   "swarms": [
-    {
-      "monsterId": 155,
-      "pokemon": "Cyndaquil",
-      "region": "Johto",
-      "location": "Route 33",
-      "sourceId": 1792019217,
-      "despawnTimestamp": 1792019217,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-14T23:06:57.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
@@ -30,15 +19,23 @@
       "pokemon": "Heracross",
       "region": "Kanto",
       "location": "Route 16",
-      "secondsAgo": 3682,
+      "secondsAgo": 3986,
       "sourceId": 1792015469
+    },
+    {
+      "monsterId": 155,
+      "pokemon": "Cyndaquil",
+      "region": "Johto",
+      "location": "Route 33",
+      "secondsAgo": 1557,
+      "sourceId": 1792017898
     },
     {
       "monsterId": 359,
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "secondsAgo": 8798,
+      "secondsAgo": 9102,
       "sourceId": 1792010353
     }
   ],
