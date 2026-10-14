@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-10-14T00:05:52.085Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-14T00:10:48.972Z",
+  "swarms": [
+    {
+      "monsterId": 185,
+      "pokemon": "Sudowoodo",
+      "region": "Hoenn",
+      "location": "Battle Frontier",
+      "sourceId": 1791937878,
+      "despawnTimestamp": 1791937878,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-14T00:31:18.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 6,
       "pokemon": "Charizard",
       "region": "Kanto",
       "location": "Mt. Ember",
-      "secondsAgo": 16392,
-      "sourceId": 1791919960
+      "secondsAgo": 16689,
+      "sourceId": 1791919959
     },
     {
       "monsterId": 237,
       "pokemon": "Hitmontop",
       "region": "Johto",
       "location": "Mt. Mortar",
-      "secondsAgo": 11649,
-      "sourceId": 1791924703
-    },
-    {
-      "monsterId": 349,
-      "pokemon": "Feebas",
-      "region": "Hoenn",
-      "location": "Route 130",
-      "secondsAgo": 4045,
-      "sourceId": 1791932307
+      "secondsAgo": 11946,
+      "sourceId": 1791924702
     },
     {
       "monsterId": 359,
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "secondsAgo": 1539,
-      "sourceId": 1791934813
+      "secondsAgo": 1836,
+      "sourceId": 1791934812
     },
     {
       "monsterId": 457,
       "pokemon": "Lumineon",
       "region": "Unova",
       "location": "Route 17",
-      "secondsAgo": 4247,
-      "sourceId": 1791932105
+      "secondsAgo": 4544,
+      "sourceId": 1791932104
     }
   ],
   "alpha": {
