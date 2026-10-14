@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-10-14T03:05:44.780Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-14T03:10:47.365Z",
+  "swarms": [
+    {
+      "monsterId": 389,
+      "pokemon": "Torterra",
+      "region": "Sinnoh",
+      "location": "Route 212",
+      "sourceId": 1791948645,
+      "despawnTimestamp": 1791948645,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-14T03:30:45.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 139,
       "pokemon": "Omastar",
       "region": "Kanto",
       "location": "Liptoo Chamber",
-      "secondsAgo": 2152,
-      "sourceId": 1791944992
+      "secondsAgo": 2454,
+      "sourceId": 1791944993
     },
     {
       "monsterId": 469,
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 5081,
+      "secondsAgo": 5384,
       "sourceId": 1791942063
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Kecleon",
       "region": "Hoenn",
       "location": "Route 120",
-      "secondsAgo": 7358,
+      "secondsAgo": 7661,
       "sourceId": 1791939786
-    },
-    {
-      "monsterId": 359,
-      "pokemon": "Absol",
-      "region": "Sinnoh",
-      "location": "Mt. Coronet",
-      "secondsAgo": 12331,
-      "sourceId": 1791934813
     },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Unova",
       "location": "Route 18",
-      "secondsAgo": 3299,
+      "secondsAgo": 3602,
       "sourceId": 1791943845
     }
   ],
