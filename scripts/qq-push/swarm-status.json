@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-14T13:02:36.019Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-14T13:05:58.848Z",
+  "swarms": [
     {
-      "monsterId": 127,
-      "pokemon": "Pinsir",
+      "monsterId": 128,
+      "pokemon": "Tauros",
       "region": "Kanto",
-      "location": "Route 11",
-      "secondsAgo": 12956,
-      "sourceId": 1791969999
-    },
+      "location": "Route 17",
+      "sourceId": 1791984462,
+      "despawnTimestamp": 1791984461,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-14T13:27:42.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Johto",
       "location": "Mt. Silver Cave",
-      "secondsAgo": 7026,
+      "secondsAgo": 7229,
       "sourceId": 1791975929
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Kecleon",
       "region": "Hoenn",
       "location": "Route 120",
-      "secondsAgo": 7770,
+      "secondsAgo": 7973,
       "sourceId": 1791975185
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Miltank",
       "region": "Sinnoh",
       "location": "Route 214",
-      "secondsAgo": 3132,
+      "secondsAgo": 3335,
       "sourceId": 1791979823
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Carnivine",
       "region": "Unova",
       "location": "Route 18",
-      "secondsAgo": 4016,
+      "secondsAgo": 4219,
       "sourceId": 1791978939
     }
   ],
