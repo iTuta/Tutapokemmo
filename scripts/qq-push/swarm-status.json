@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-14T20:35:42.585Z",
+  "fetchedAt": "2026-10-14T20:42:45.159Z",
   "swarms": [
     {
       "monsterId": 83,
@@ -7,9 +7,20 @@
       "region": "Kanto",
       "location": "Route 13",
       "sourceId": 1792010751,
-      "despawnTimestamp": 1792010750,
+      "despawnTimestamp": 1792010751,
       "hasValuable": false,
       "timestampUtc": "2026-10-14T20:45:51.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 359,
+      "pokemon": "Absol",
+      "region": "Sinnoh",
+      "location": "Mt. Coronet",
+      "sourceId": 1792011852,
+      "despawnTimestamp": 1792011852,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-14T21:04:12.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,31 +30,23 @@
       "pokemon": "Exeggcute",
       "region": "Johto",
       "location": "Route 30",
-      "secondsAgo": 3613,
-      "sourceId": 1792006529
+      "secondsAgo": 4035,
+      "sourceId": 1792006530
     },
     {
       "monsterId": 349,
       "pokemon": "Feebas",
       "region": "Hoenn",
       "location": "Route 130",
-      "secondsAgo": 5104,
+      "secondsAgo": 5527,
       "sourceId": 1792005038
-    },
-    {
-      "monsterId": 248,
-      "pokemon": "Tyranitar",
-      "region": "Sinnoh",
-      "location": "Stark Mountain",
-      "secondsAgo": 10639,
-      "sourceId": 1791999503
     },
     {
       "monsterId": 450,
       "pokemon": "Hippowdon",
       "region": "Unova",
       "location": "Mistralton Cave",
-      "secondsAgo": 8373,
+      "secondsAgo": 8796,
       "sourceId": 1792001769
     }
   ],
