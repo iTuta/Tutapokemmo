@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-10-14T08:31:14.691Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-14T08:35:46.476Z",
+  "swarms": [
+    {
+      "monsterId": 154,
+      "pokemon": "Meganium",
+      "region": "Johto",
+      "location": "Route 48",
+      "sourceId": 1791968427,
+      "despawnTimestamp": 1791968426,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-14T09:00:27.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Kanto",
       "location": "Route 15",
-      "secondsAgo": 3946,
+      "secondsAgo": 4218,
       "sourceId": 1791962728
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Johto",
-      "location": "Route 37",
-      "secondsAgo": 9956,
-      "sourceId": 1791956718
     },
     {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Hoenn",
       "location": "Route 105",
-      "secondsAgo": 7051,
-      "sourceId": 1791959623
+      "secondsAgo": 7322,
+      "sourceId": 1791959624
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 7481,
+      "secondsAgo": 7753,
       "sourceId": 1791959193
     }
   ],
