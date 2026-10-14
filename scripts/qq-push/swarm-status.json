@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-10-14T18:05:52.901Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-14T18:10:50.066Z",
+  "swarms": [
+    {
+      "monsterId": 256,
+      "pokemon": "Combusken",
+      "region": "Hoenn",
+      "location": "Route 114",
+      "sourceId": 1792002883,
+      "despawnTimestamp": 1792002883,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-14T18:34:43.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Kanto",
       "location": "Route 10",
-      "secondsAgo": 5688,
-      "sourceId": 1791995464
+      "secondsAgo": 5985,
+      "sourceId": 1791995465
     },
     {
       "monsterId": 372,
       "pokemon": "Shelgon",
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
-      "secondsAgo": 6012,
-      "sourceId": 1791995140
-    },
-    {
-      "monsterId": 257,
-      "pokemon": "Blaziken",
-      "region": "Hoenn",
-      "location": "Magma Hideout",
-      "secondsAgo": 13316,
-      "sourceId": 1791987836
+      "secondsAgo": 6309,
+      "sourceId": 1791995141
     },
     {
       "monsterId": 248,
       "pokemon": "Tyranitar",
       "region": "Sinnoh",
       "location": "Stark Mountain",
-      "secondsAgo": 1649,
-      "sourceId": 1791999503
+      "secondsAgo": 1946,
+      "sourceId": 1791999504
     },
     {
       "monsterId": 430,
       "pokemon": "Honchkrow",
       "region": "Unova",
       "location": "Celestial Tower",
-      "secondsAgo": 13318,
-      "sourceId": 1791987834
+      "secondsAgo": 13615,
+      "sourceId": 1791987835
     }
   ],
   "alpha": {
