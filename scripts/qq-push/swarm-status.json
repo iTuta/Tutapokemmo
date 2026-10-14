@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-14T09:46:14.500Z",
+  "fetchedAt": "2026-10-14T09:50:57.282Z",
   "swarms": [
     {
       "monsterId": 127,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Route 11",
       "sourceId": 1791971499,
-      "despawnTimestamp": 1791971498,
+      "despawnTimestamp": 1791971499,
       "hasValuable": false,
       "timestampUtc": "2026-10-14T09:51:39.000Z",
       "publishedBy": ""
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-14T10:09:19.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 106,
-      "pokemon": "Hitmonlee",
-      "region": "Unova",
-      "location": "Victory Road",
-      "sourceId": 1791971329,
-      "despawnTimestamp": 1791971329,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-14T09:48:49.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,7 +30,7 @@
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 4247,
+      "secondsAgo": 4530,
       "sourceId": 1791966927
     },
     {
@@ -49,8 +38,16 @@
       "pokemon": "Rotom",
       "region": "Sinnoh",
       "location": "Old Chateau",
-      "secondsAgo": 13997,
+      "secondsAgo": 14280,
       "sourceId": 1791957177
+    },
+    {
+      "monsterId": 106,
+      "pokemon": "Hitmonlee",
+      "region": "Unova",
+      "location": "Victory Road",
+      "secondsAgo": 1627,
+      "sourceId": 1791969830
     }
   ],
   "alpha": {
