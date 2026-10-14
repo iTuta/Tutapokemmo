@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-14T06:10:50.430Z",
+  "fetchedAt": "2026-10-14T06:15:52.900Z",
   "swarms": [
     {
       "monsterId": 479,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-14T06:17:57.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 83,
-      "pokemon": "Farfetch&#x27;d",
-      "region": "Unova",
-      "location": "Route 1",
-      "sourceId": 1791958512,
-      "despawnTimestamp": 1791958512,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-14T06:15:12.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,24 +19,32 @@
       "pokemon": "Omastar",
       "region": "Kanto",
       "location": "Liptoo Chamber",
-      "secondsAgo": 13257,
-      "sourceId": 1791944993
+      "secondsAgo": 13560,
+      "sourceId": 1791944992
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 1531,
-      "sourceId": 1791956719
+      "secondsAgo": 1834,
+      "sourceId": 1791956718
     },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
       "region": "Hoenn",
       "location": "Route 133",
-      "secondsAgo": 10598,
+      "secondsAgo": 10900,
       "sourceId": 1791947652
+    },
+    {
+      "monsterId": 83,
+      "pokemon": "Farfetch&#x27;d",
+      "region": "Unova",
+      "location": "Route 1",
+      "secondsAgo": 1540,
+      "sourceId": 1791957012
     }
   ],
   "alpha": {
