@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-10-14T16:31:03.440Z",
+  "fetchedAt": "2026-10-14T16:35:54.885Z",
   "swarms": [
+    {
+      "monsterId": 425,
+      "pokemon": "Drifloon",
+      "region": "Kanto",
+      "location": "Route 10",
+      "sourceId": 1791996964,
+      "despawnTimestamp": 1791996963,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-14T16:56:04.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 372,
       "pokemon": "Shelgon",
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
       "sourceId": 1791996640,
-      "despawnTimestamp": 1791996640,
+      "despawnTimestamp": 1791996639,
       "hasValuable": false,
       "timestampUtc": "2026-10-14T16:50:40.000Z",
       "publishedBy": ""
@@ -18,7 +29,7 @@
       "region": "Sinnoh",
       "location": "Mt. Coronet",
       "sourceId": 1791996519,
-      "despawnTimestamp": 1791996519,
+      "despawnTimestamp": 1791996518,
       "hasValuable": false,
       "timestampUtc": "2026-10-14T16:48:39.000Z",
       "publishedBy": ""
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 411,
-      "pokemon": "Bastiodon",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 7999,
-      "sourceId": 1791987464
-    },
-    {
       "monsterId": 257,
       "pokemon": "Blaziken",
       "region": "Hoenn",
       "location": "Magma Hideout",
-      "secondsAgo": 7627,
+      "secondsAgo": 7918,
       "sourceId": 1791987836
     },
     {
@@ -46,7 +49,7 @@
       "pokemon": "Honchkrow",
       "region": "Unova",
       "location": "Celestial Tower",
-      "secondsAgo": 7629,
+      "secondsAgo": 7920,
       "sourceId": 1791987834
     }
   ],
