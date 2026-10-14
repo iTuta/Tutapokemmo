@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-14T16:45:50.302Z",
+  "fetchedAt": "2026-10-14T16:50:52.892Z",
   "swarms": [
     {
       "monsterId": 425,
@@ -11,45 +11,39 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-14T16:56:04.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 372,
       "pokemon": "Shelgon",
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
-      "sourceId": 1791996640,
-      "despawnTimestamp": 1791996640,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-14T16:50:40.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1512,
+      "sourceId": 1791995140
+    },
+    {
+      "monsterId": 257,
+      "pokemon": "Blaziken",
+      "region": "Hoenn",
+      "location": "Magma Hideout",
+      "secondsAgo": 8816,
+      "sourceId": 1791987836
     },
     {
       "monsterId": 359,
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "sourceId": 1791996519,
-      "despawnTimestamp": 1791996519,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-14T16:48:39.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 257,
-      "pokemon": "Blaziken",
-      "region": "Hoenn",
-      "location": "Magma Hideout",
-      "secondsAgo": 8513,
-      "sourceId": 1791987837
+      "secondsAgo": 1633,
+      "sourceId": 1791995019
     },
     {
       "monsterId": 430,
       "pokemon": "Honchkrow",
       "region": "Unova",
       "location": "Celestial Tower",
-      "secondsAgo": 8516,
+      "secondsAgo": 8818,
       "sourceId": 1791987834
     }
   ],
