@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-14T22:05:48.193Z",
+  "fetchedAt": "2026-10-14T22:10:50.203Z",
   "swarms": [
     {
       "monsterId": 214,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-14T22:29:28.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 456,
+      "pokemon": "Finneon",
+      "region": "Hoenn",
+      "location": "Route 107",
+      "sourceId": 1792017061,
+      "despawnTimestamp": 1792017060,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-14T22:31:01.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,23 +30,15 @@
       "pokemon": "Wailmer",
       "region": "Johto",
       "location": "Route 40",
-      "secondsAgo": 2353,
+      "secondsAgo": 2655,
       "sourceId": 1792013195
-    },
-    {
-      "monsterId": 349,
-      "pokemon": "Feebas",
-      "region": "Hoenn",
-      "location": "Route 130",
-      "secondsAgo": 10510,
-      "sourceId": 1792005038
     },
     {
       "monsterId": 359,
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "secondsAgo": 5195,
+      "secondsAgo": 5497,
       "sourceId": 1792010353
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Pinsir",
       "region": "Unova",
       "location": "Route 12",
-      "secondsAgo": 2956,
+      "secondsAgo": 3258,
       "sourceId": 1792012592
     }
   ],
