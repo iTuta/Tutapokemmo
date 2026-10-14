@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-14T09:50:57.282Z",
+  "fetchedAt": "2026-10-14T09:55:48.885Z",
   "swarms": [
-    {
-      "monsterId": 127,
-      "pokemon": "Pinsir",
-      "region": "Kanto",
-      "location": "Route 11",
-      "sourceId": 1791971499,
-      "despawnTimestamp": 1791971499,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-14T09:51:39.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Hoenn",
       "location": "Route 123",
       "sourceId": 1791972559,
-      "despawnTimestamp": 1791972559,
+      "despawnTimestamp": 1791972558,
       "hasValuable": false,
       "timestampUtc": "2026-10-14T10:09:19.000Z",
       "publishedBy": ""
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 127,
+      "pokemon": "Pinsir",
+      "region": "Kanto",
+      "location": "Route 11",
+      "secondsAgo": 1749,
+      "sourceId": 1791969999
+    },
+    {
       "monsterId": 154,
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 4530,
+      "secondsAgo": 4821,
       "sourceId": 1791966927
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Rotom",
       "region": "Sinnoh",
       "location": "Old Chateau",
-      "secondsAgo": 14280,
+      "secondsAgo": 14571,
       "sourceId": 1791957177
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "secondsAgo": 1627,
-      "sourceId": 1791969830
+      "secondsAgo": 1919,
+      "sourceId": 1791969829
     }
   ],
   "alpha": {
