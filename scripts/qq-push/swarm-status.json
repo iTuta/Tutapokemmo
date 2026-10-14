@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-14T03:10:47.365Z",
+  "fetchedAt": "2026-10-14T03:16:10.347Z",
   "swarms": [
+    {
+      "monsterId": 91,
+      "pokemon": "Cloyster",
+      "region": "Hoenn",
+      "location": "Route 133",
+      "sourceId": 1791949152,
+      "despawnTimestamp": 1791949152,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-14T03:39:12.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 389,
       "pokemon": "Torterra",
@@ -15,48 +26,32 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 139,
-      "pokemon": "Omastar",
-      "region": "Kanto",
-      "location": "Liptoo Chamber",
-      "secondsAgo": 2454,
-      "sourceId": 1791944993
-    },
-    {
       "monsterId": 469,
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 5384,
+      "secondsAgo": 5707,
       "sourceId": 1791942063
-    },
-    {
-      "monsterId": 352,
-      "pokemon": "Kecleon",
-      "region": "Hoenn",
-      "location": "Route 120",
-      "secondsAgo": 7661,
-      "sourceId": 1791939786
     },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Unova",
       "location": "Route 18",
-      "secondsAgo": 3602,
+      "secondsAgo": 3925,
       "sourceId": 1791943845
     }
   ],
   "alpha": {
-    "monsterId": 149,
-    "pokemon": "Dragonite",
+    "monsterId": 469,
+    "pokemon": "Yanmega",
     "region": "Kanto",
-    "location": "Outcast Island",
-    "sourceId": 1791917350,
-    "despawnTimestamp": 1791934450,
+    "location": "Water Path",
+    "sourceId": 1791935100,
+    "despawnTimestamp": 1791952200,
     "hasValuable": false,
-    "timestampUtc": "2026-10-13T18:49:10.000Z",
-    "timestampRaw": "2026-10-13T18:49:10.000Z",
+    "timestampUtc": "2026-10-13T23:45:00.000Z",
+    "timestampRaw": "2026-10-13T23:45:00.000Z",
     "publishedBy": ""
   }
 }
