@@ -1,36 +1,13 @@
 {
-  "fetchedAt": "2026-10-14T14:46:02.596Z",
-  "swarms": [
-    {
-      "monsterId": 257,
-      "pokemon": "Blaziken",
-      "region": "Hoenn",
-      "location": "Magma Hideout",
-      "sourceId": 1791989336,
-      "despawnTimestamp": 1791989335,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-14T14:48:56.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 430,
-      "pokemon": "Honchkrow",
-      "region": "Unova",
-      "location": "Celestial Tower",
-      "sourceId": 1791989334,
-      "despawnTimestamp": 1791989333,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-14T14:48:54.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-14T14:50:54.216Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 411,
       "pokemon": "Bastiodon",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 1698,
+      "secondsAgo": 1990,
       "sourceId": 1791987464
     },
     {
@@ -38,16 +15,32 @@
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 3715,
-      "sourceId": 1791985447
+      "secondsAgo": 4006,
+      "sourceId": 1791985448
+    },
+    {
+      "monsterId": 257,
+      "pokemon": "Blaziken",
+      "region": "Hoenn",
+      "location": "Magma Hideout",
+      "secondsAgo": 1617,
+      "sourceId": 1791987837
     },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Sinnoh",
       "location": "Route 214",
-      "secondsAgo": 9339,
-      "sourceId": 1791979823
+      "secondsAgo": 9630,
+      "sourceId": 1791979824
+    },
+    {
+      "monsterId": 430,
+      "pokemon": "Honchkrow",
+      "region": "Unova",
+      "location": "Celestial Tower",
+      "secondsAgo": 1620,
+      "sourceId": 1791987834
     }
   ],
   "alpha": {
