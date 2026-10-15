@@ -1,45 +1,49 @@
 {
-  "fetchedAt": "2026-10-15T13:20:56.257Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-15T13:25:55.624Z",
+  "swarms": [
+    {
+      "monsterId": 143,
+      "pokemon": "Snorlax",
+      "region": "Johto",
+      "location": "Victory Road",
+      "sourceId": 1792071988,
+      "despawnTimestamp": 1792071988,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-15T13:46:28.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "secondsAgo": 9726,
-      "sourceId": 1792060730
-    },
-    {
-      "monsterId": 300,
-      "pokemon": "Skitty",
-      "region": "Johto",
-      "location": "Route 35",
-      "secondsAgo": 9226,
-      "sourceId": 1792061230
+      "secondsAgo": 10026,
+      "sourceId": 1792060729
     },
     {
       "monsterId": 185,
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 5982,
-      "sourceId": 1792064474
+      "secondsAgo": 6282,
+      "sourceId": 1792064473
     },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
       "region": "Sinnoh",
       "location": "Lake Valor",
-      "secondsAgo": 2123,
-      "sourceId": 1792068333
+      "secondsAgo": 2423,
+      "sourceId": 1792068332
     },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 5082,
+      "secondsAgo": 5381,
       "sourceId": 1792065374
     }
   ],
