@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-15T14:16:00.468Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-15T14:20:52.288Z",
+  "swarms": [
+    {
+      "monsterId": 152,
+      "pokemon": "Chikorita",
+      "region": "Johto",
+      "location": "Route 31",
+      "sourceId": 1792075416,
+      "despawnTimestamp": 1792075416,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-15T14:43:36.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 142,
       "pokemon": "Aerodactyl",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 2051,
+      "secondsAgo": 2343,
       "sourceId": 1792071709
-    },
-    {
-      "monsterId": 143,
-      "pokemon": "Snorlax",
-      "region": "Johto",
-      "location": "Victory Road",
-      "secondsAgo": 3271,
-      "sourceId": 1792070489
     },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Hoenn",
       "location": "Seafloor Cavern",
-      "secondsAgo": 1581,
+      "secondsAgo": 1873,
       "sourceId": 1792072179
     },
     {
@@ -31,28 +35,20 @@
       "pokemon": "Crawdaunt",
       "region": "Sinnoh",
       "location": "Lake Valor",
-      "secondsAgo": 5428,
-      "sourceId": 1792068332
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Unova",
-      "location": "Relic Castle",
-      "secondsAgo": 8386,
-      "sourceId": 1792065374
+      "secondsAgo": 5719,
+      "sourceId": 1792068333
     }
   ],
   "alpha": {
-    "monsterId": 472,
-    "pokemon": "Gliscor",
+    "monsterId": 28,
+    "pokemon": "Sandslash",
     "region": "Unova",
-    "location": "Route 11",
-    "sourceId": 1792037436,
-    "despawnTimestamp": 1792054536,
+    "location": "Desert Resort",
+    "sourceId": 1792061376,
+    "despawnTimestamp": 1792078476,
     "hasValuable": false,
-    "timestampUtc": "2026-10-15T04:10:36.000Z",
-    "timestampRaw": "2026-10-15T04:10:36.000Z",
-    "publishedBy": "Jackolomeus"
+    "timestampUtc": "2026-10-15T10:49:36.000Z",
+    "timestampRaw": "2026-10-15T10:49:36.000Z",
+    "publishedBy": ""
   }
 }
