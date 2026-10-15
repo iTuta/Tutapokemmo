@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-15T09:10:53.265Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-15T09:16:03.583Z",
+  "swarms": [
     {
-      "monsterId": 312,
-      "pokemon": "Minun",
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
       "region": "Kanto",
-      "location": "Route 22",
-      "secondsAgo": 6772,
-      "sourceId": 1792048681
-    },
+      "location": "Pokemon Tower",
+      "sourceId": 1792057032,
+      "despawnTimestamp": 1792057032,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-15T09:37:12.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 9944,
+      "secondsAgo": 10254,
       "sourceId": 1792045509
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Metagross",
       "region": "Hoenn",
       "location": "Meteor Falls",
-      "secondsAgo": 3945,
+      "secondsAgo": 4255,
       "sourceId": 1792051508
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Hippopotas",
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
-      "secondsAgo": 5174,
+      "secondsAgo": 5484,
       "sourceId": 1792050279
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 15648,
+      "secondsAgo": 15958,
       "sourceId": 1792039805
     }
   ],
