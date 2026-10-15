@@ -1,29 +1,41 @@
 {
-  "fetchedAt": "2026-10-15T19:16:01.551Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-15T19:20:56.797Z",
+  "swarms": [
+    {
+      "monsterId": 450,
+      "pokemon": "Hippowdon",
+      "region": "Unova",
+      "location": "Mistralton Cave",
+      "sourceId": 1792093407,
+      "despawnTimestamp": 1792093407,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-15T19:43:27.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 139,
       "pokemon": "Omastar",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 8949,
-      "sourceId": 1792082812
+      "secondsAgo": 9245,
+      "sourceId": 1792082811
     },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Johto",
       "location": "Route 34",
-      "secondsAgo": 2615,
-      "sourceId": 1792089146
+      "secondsAgo": 2911,
+      "sourceId": 1792089145
     },
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Hoenn",
       "location": "Route 126",
-      "secondsAgo": 10359,
+      "secondsAgo": 10654,
       "sourceId": 1792081402
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Grotle",
       "region": "Sinnoh",
       "location": "Sendoff Spring",
-      "secondsAgo": 4525,
+      "secondsAgo": 4820,
       "sourceId": 1792087236
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Unova",
-      "location": "Relic Castle",
-      "secondsAgo": 26387,
-      "sourceId": 1792065374
     }
   ],
   "alpha": {
