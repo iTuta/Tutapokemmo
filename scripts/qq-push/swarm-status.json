@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-15T14:05:46.244Z",
+  "fetchedAt": "2026-10-15T14:10:54.290Z",
   "swarms": [
-    {
-      "monsterId": 142,
-      "pokemon": "Aerodactyl",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "sourceId": 1792073208,
-      "despawnTimestamp": 1792073208,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-15T14:06:48.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 142,
+      "pokemon": "Aerodactyl",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "secondsAgo": 1745,
+      "sourceId": 1792071709
+    },
+    {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 2657,
+      "secondsAgo": 2965,
       "sourceId": 1792070489
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Crawdaunt",
       "region": "Sinnoh",
       "location": "Lake Valor",
-      "secondsAgo": 4813,
+      "secondsAgo": 5121,
       "sourceId": 1792068333
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 7772,
+      "secondsAgo": 8080,
       "sourceId": 1792065374
     }
   ],
