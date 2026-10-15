@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-15T19:50:50.078Z",
+  "fetchedAt": "2026-10-15T19:55:51.034Z",
   "swarms": [
-    {
-      "monsterId": 149,
-      "pokemon": "Dragonite",
-      "region": "Kanto",
-      "location": "Six Island",
-      "sourceId": 1792094047,
-      "despawnTimestamp": 1792094047,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-15T19:54:07.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
@@ -26,28 +15,36 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 149,
+      "pokemon": "Dragonite",
+      "region": "Kanto",
+      "location": "Six Island",
+      "secondsAgo": 1602,
+      "sourceId": 1792092548
+    },
+    {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Johto",
       "location": "Route 34",
-      "secondsAgo": 4704,
-      "sourceId": 1792089146
+      "secondsAgo": 5005,
+      "sourceId": 1792089145
     },
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Hoenn",
       "location": "Route 126",
-      "secondsAgo": 12448,
-      "sourceId": 1792081402
+      "secondsAgo": 12749,
+      "sourceId": 1792081401
     },
     {
       "monsterId": 450,
       "pokemon": "Hippowdon",
       "region": "Unova",
       "location": "Mistralton Cave",
-      "secondsAgo": 1822,
-      "sourceId": 1792092028
+      "secondsAgo": 2123,
+      "sourceId": 1792092027
     }
   ],
   "alpha": {
