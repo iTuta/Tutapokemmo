@@ -1,38 +1,42 @@
 {
-  "fetchedAt": "2026-10-15T15:15:56.121Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-15T15:20:50.001Z",
+  "swarms": [
+    {
+      "monsterId": 185,
+      "pokemon": "Sudowoodo",
+      "region": "Hoenn",
+      "location": "Battle Frontier",
+      "sourceId": 1792079010,
+      "despawnTimestamp": 1792079009,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-15T15:43:30.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 142,
       "pokemon": "Aerodactyl",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 5647,
-      "sourceId": 1792071709
+      "secondsAgo": 5941,
+      "sourceId": 1792071708
     },
     {
       "monsterId": 152,
       "pokemon": "Chikorita",
       "region": "Johto",
       "location": "Route 31",
-      "secondsAgo": 3439,
-      "sourceId": 1792073917
-    },
-    {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Hoenn",
-      "location": "Seafloor Cavern",
-      "secondsAgo": 5177,
-      "sourceId": 1792072179
+      "secondsAgo": 3733,
+      "sourceId": 1792073916
     },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
       "region": "Sinnoh",
       "location": "Lake Valor",
-      "secondsAgo": 9023,
-      "sourceId": 1792068333
+      "secondsAgo": 9317,
+      "sourceId": 1792068332
     }
   ],
   "alpha": {
