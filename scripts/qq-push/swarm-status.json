@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-15T06:20:50.742Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-15T06:26:05.886Z",
+  "swarms": [
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Johto",
+      "location": "Bell Tower",
+      "sourceId": 1792047008,
+      "despawnTimestamp": 1792047008,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-15T06:50:08.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "secondsAgo": 7478,
+      "secondsAgo": 7793,
       "sourceId": 1792037772
-    },
-    {
-      "monsterId": 285,
-      "pokemon": "Shroomish",
-      "region": "Johto",
-      "location": "Route 34",
-      "secondsAgo": 13477,
-      "sourceId": 1792031773
     },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Hoenn",
       "location": "Route 123",
-      "secondsAgo": 3629,
+      "secondsAgo": 3944,
       "sourceId": 1792041621
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Burmy",
       "region": "Sinnoh",
       "location": "Route 202",
-      "secondsAgo": 20948,
+      "secondsAgo": 21263,
       "sourceId": 1792024302
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 5445,
+      "secondsAgo": 5760,
       "sourceId": 1792039805
     }
   ],
