@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-15T08:05:44.533Z",
+  "fetchedAt": "2026-10-15T08:10:53.601Z",
   "swarms": [
     {
       "monsterId": 376,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-15T08:30:07.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 449,
-      "pokemon": "Hippopotas",
-      "region": "Sinnoh",
-      "location": "Maniac Tunnel",
-      "sourceId": 1792051778,
-      "despawnTimestamp": 1792051778,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-15T08:09:38.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Minun",
       "region": "Kanto",
       "location": "Route 22",
-      "secondsAgo": 2864,
+      "secondsAgo": 3173,
       "sourceId": 1792048680
     },
     {
@@ -38,8 +27,16 @@
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 6035,
+      "secondsAgo": 6344,
       "sourceId": 1792045509
+    },
+    {
+      "monsterId": 449,
+      "pokemon": "Hippopotas",
+      "region": "Sinnoh",
+      "location": "Maniac Tunnel",
+      "secondsAgo": 1575,
+      "sourceId": 1792050278
     }
   ],
   "alpha": {
