@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-15T12:40:57.718Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-15T12:45:56.975Z",
+  "swarms": [
+    {
+      "monsterId": 342,
+      "pokemon": "Crawdaunt",
+      "region": "Sinnoh",
+      "location": "Lake Valor",
+      "sourceId": 1792069832,
+      "despawnTimestamp": 1792069831,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-15T13:10:32.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "secondsAgo": 7328,
+      "secondsAgo": 7627,
       "sourceId": 1792060729
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 6827,
+      "secondsAgo": 7126,
       "sourceId": 1792061230
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 3584,
+      "secondsAgo": 3883,
       "sourceId": 1792064473
-    },
-    {
-      "monsterId": 449,
-      "pokemon": "Hippopotas",
-      "region": "Sinnoh",
-      "location": "Maniac Tunnel",
-      "secondsAgo": 17779,
-      "sourceId": 1792050278
     },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 2683,
-      "sourceId": 1792065374
+      "secondsAgo": 2983,
+      "sourceId": 1792065373
     }
   ],
   "alpha": {
