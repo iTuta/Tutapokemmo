@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-10-15T23:25:49.955Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-15T23:31:05.569Z",
+  "swarms": [
+    {
+      "monsterId": 387,
+      "pokemon": "Turtwig",
+      "region": "Sinnoh",
+      "location": "Route 203",
+      "sourceId": 1792108245,
+      "despawnTimestamp": 1792108245,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-15T23:50:45.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 4,
       "pokemon": "Charmander",
       "region": "Kanto",
       "location": "Route 3",
-      "secondsAgo": 10188,
-      "sourceId": 1792096561
+      "secondsAgo": 10503,
+      "sourceId": 1792096562
     },
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 7890,
+      "secondsAgo": 8206,
       "sourceId": 1792098859
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Relicanth",
       "region": "Hoenn",
       "location": "Route 126",
-      "secondsAgo": 3254,
-      "sourceId": 1792103495
-    },
-    {
-      "monsterId": 300,
-      "pokemon": "Skitty",
-      "region": "Sinnoh",
-      "location": "Route 204",
-      "secondsAgo": 13117,
-      "sourceId": 1792093632
+      "secondsAgo": 3569,
+      "sourceId": 1792103496
     },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 6796,
-      "sourceId": 1792099953
+      "secondsAgo": 7111,
+      "sourceId": 1792099954
     }
   ],
   "alpha": {
