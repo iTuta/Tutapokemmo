@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-15T15:40:58.859Z",
+  "fetchedAt": "2026-10-15T15:45:53.916Z",
   "swarms": [
-    {
-      "monsterId": 185,
-      "pokemon": "Sudowoodo",
-      "region": "Hoenn",
-      "location": "Battle Frontier",
-      "sourceId": 1792079010,
-      "despawnTimestamp": 1792079010,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-15T15:43:30.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 471,
       "pokemon": "Glaceon",
       "region": "Sinnoh",
       "location": "Route 217",
       "sourceId": 1792079325,
-      "despawnTimestamp": 1792079325,
+      "despawnTimestamp": 1792079324,
       "hasValuable": false,
       "timestampUtc": "2026-10-15T15:48:45.000Z",
       "publishedBy": ""
@@ -30,7 +19,7 @@
       "pokemon": "Aerodactyl",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 7149,
+      "secondsAgo": 7444,
       "sourceId": 1792071709
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Chikorita",
       "region": "Johto",
       "location": "Route 31",
-      "secondsAgo": 4941,
+      "secondsAgo": 5236,
       "sourceId": 1792073917
+    },
+    {
+      "monsterId": 185,
+      "pokemon": "Sudowoodo",
+      "region": "Hoenn",
+      "location": "Battle Frontier",
+      "secondsAgo": 1643,
+      "sourceId": 1792077510
     },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 13484,
+      "secondsAgo": 13779,
       "sourceId": 1792065374
     }
   ],
