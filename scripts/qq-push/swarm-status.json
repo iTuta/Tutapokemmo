@@ -1,33 +1,29 @@
 {
-  "fetchedAt": "2026-10-15T11:10:53.799Z",
-  "swarms": [
-    {
-      "monsterId": 300,
-      "pokemon": "Skitty",
-      "region": "Johto",
-      "location": "Route 35",
-      "sourceId": 1792062729,
-      "despawnTimestamp": 1792062729,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-15T11:12:09.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-15T11:15:49.809Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "secondsAgo": 1924,
+      "secondsAgo": 2220,
       "sourceId": 1792060729
+    },
+    {
+      "monsterId": 300,
+      "pokemon": "Skitty",
+      "region": "Johto",
+      "location": "Route 35",
+      "secondsAgo": 1719,
+      "sourceId": 1792061230
     },
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Hoenn",
       "location": "Route 126",
-      "secondsAgo": 3218,
+      "secondsAgo": 3514,
       "sourceId": 1792059435
     },
     {
@@ -35,7 +31,7 @@
       "pokemon": "Hippopotas",
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
-      "secondsAgo": 12375,
+      "secondsAgo": 12671,
       "sourceId": 1792050278
     },
     {
@@ -43,7 +39,7 @@
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 22848,
+      "secondsAgo": 23144,
       "sourceId": 1792039805
     }
   ],
