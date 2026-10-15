@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-15T19:25:47.961Z",
+  "fetchedAt": "2026-10-15T19:31:02.011Z",
   "swarms": [
+    {
+      "monsterId": 149,
+      "pokemon": "Dragonite",
+      "region": "Kanto",
+      "location": "Six Island",
+      "sourceId": 1792094047,
+      "despawnTimestamp": 1792094046,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-15T19:54:07.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 450,
       "pokemon": "Hippowdon",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 139,
-      "pokemon": "Omastar",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 9536,
-      "sourceId": 1792082811
-    },
-    {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Johto",
       "location": "Route 34",
-      "secondsAgo": 3202,
+      "secondsAgo": 3516,
       "sourceId": 1792089145
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Relicanth",
       "region": "Hoenn",
       "location": "Route 126",
-      "secondsAgo": 10946,
+      "secondsAgo": 11260,
       "sourceId": 1792081401
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Grotle",
       "region": "Sinnoh",
       "location": "Sendoff Spring",
-      "secondsAgo": 5112,
+      "secondsAgo": 5426,
       "sourceId": 1792087235
     }
   ],
