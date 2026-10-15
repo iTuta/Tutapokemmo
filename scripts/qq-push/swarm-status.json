@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-15T02:55:44.574Z",
+  "fetchedAt": "2026-10-15T03:01:14.414Z",
   "swarms": [
-    {
-      "monsterId": 285,
-      "pokemon": "Shroomish",
-      "region": "Johto",
-      "location": "Route 34",
-      "sourceId": 1792033272,
-      "despawnTimestamp": 1792033272,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-15T03:01:12.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 349,
       "pokemon": "Feebas",
@@ -30,15 +19,23 @@
       "pokemon": "Snorlax",
       "region": "Kanto",
       "location": "Cerulean Cave",
-      "secondsAgo": 5914,
+      "secondsAgo": 6244,
       "sourceId": 1792027030
+    },
+    {
+      "monsterId": 285,
+      "pokemon": "Shroomish",
+      "region": "Johto",
+      "location": "Route 34",
+      "secondsAgo": 1501,
+      "sourceId": 1792031773
     },
     {
       "monsterId": 412,
       "pokemon": "Burmy",
       "region": "Sinnoh",
       "location": "Route 202",
-      "secondsAgo": 8642,
+      "secondsAgo": 8972,
       "sourceId": 1792024302
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Honchkrow",
       "region": "Unova",
       "location": "Celestial Tower",
-      "secondsAgo": 3616,
+      "secondsAgo": 3946,
       "sourceId": 1792029328
     }
   ],
