@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-10-15T22:30:58.265Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-15T22:36:06.031Z",
+  "swarms": [
+    {
+      "monsterId": 369,
+      "pokemon": "Relicanth",
+      "region": "Hoenn",
+      "location": "Route 126",
+      "sourceId": 1792104995,
+      "despawnTimestamp": 1792104995,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-15T22:56:35.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 4598,
+      "secondsAgo": 4906,
       "sourceId": 1792098860
-    },
-    {
-      "monsterId": 259,
-      "pokemon": "Marshtomp",
-      "region": "Hoenn",
-      "location": "Route 124",
-      "secondsAgo": 9088,
-      "sourceId": 1792094370
     },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 9826,
-      "sourceId": 1792093632
+      "secondsAgo": 10133,
+      "sourceId": 1792093633
     },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 3504,
+      "secondsAgo": 3812,
       "sourceId": 1792099954
     }
   ],
