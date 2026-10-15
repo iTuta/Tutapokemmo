@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-10-15T00:15:53.813Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-15T00:20:55.982Z",
+  "swarms": [
+    {
+      "monsterId": 148,
+      "pokemon": "Dragonair",
+      "region": "Unova",
+      "location": "Dragonspiral Tower",
+      "sourceId": 1792024882,
+      "despawnTimestamp": 1792024881,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-15T00:41:22.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Kanto",
       "location": "Route 16",
-      "secondsAgo": 7884,
-      "sourceId": 1792015469
+      "secondsAgo": 8187,
+      "sourceId": 1792015468
     },
     {
       "monsterId": 155,
       "pokemon": "Cyndaquil",
       "region": "Johto",
       "location": "Route 33",
-      "secondsAgo": 5455,
+      "secondsAgo": 5757,
       "sourceId": 1792017898
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Finneon",
       "region": "Hoenn",
       "location": "Route 107",
-      "secondsAgo": 7792,
+      "secondsAgo": 8094,
       "sourceId": 1792015561
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "secondsAgo": 13000,
+      "secondsAgo": 13302,
       "sourceId": 1792010353
-    },
-    {
-      "monsterId": 214,
-      "pokemon": "Heracross",
-      "region": "Unova",
-      "location": "Route 10",
-      "secondsAgo": 4327,
-      "sourceId": 1792019026
     }
   ],
   "alpha": {
