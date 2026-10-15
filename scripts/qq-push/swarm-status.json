@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-10-15T10:36:01.607Z",
+  "fetchedAt": "2026-10-15T10:40:48.817Z",
   "swarms": [
+    {
+      "monsterId": 127,
+      "pokemon": "Pinsir",
+      "region": "Kanto",
+      "location": "Route 11",
+      "sourceId": 1792062229,
+      "despawnTimestamp": 1792062228,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-15T11:03:49.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Hoenn",
       "location": "Route 126",
       "sourceId": 1792060935,
-      "despawnTimestamp": 1792060935,
+      "despawnTimestamp": 1792060934,
       "hasValuable": false,
       "timestampUtc": "2026-10-15T10:42:15.000Z",
       "publishedBy": ""
@@ -15,27 +26,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Kanto",
-      "location": "Pokemon Tower",
-      "secondsAgo": 5029,
-      "sourceId": 1792055532
-    },
-    {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 3326,
-      "sourceId": 1792057235
+      "secondsAgo": 3614,
+      "sourceId": 1792057234
     },
     {
       "monsterId": 449,
       "pokemon": "Hippopotas",
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
-      "secondsAgo": 10283,
+      "secondsAgo": 10570,
       "sourceId": 1792050278
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 20756,
+      "secondsAgo": 21043,
       "sourceId": 1792039805
     }
   ],
