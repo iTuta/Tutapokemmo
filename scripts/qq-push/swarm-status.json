@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-15T02:35:44.625Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-15T02:41:00.714Z",
+  "swarms": [
+    {
+      "monsterId": 285,
+      "pokemon": "Shroomish",
+      "region": "Johto",
+      "location": "Route 34",
+      "sourceId": 1792033272,
+      "despawnTimestamp": 1792033272,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-15T03:01:12.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Kanto",
       "location": "Cerulean Cave",
-      "secondsAgo": 4714,
+      "secondsAgo": 5030,
       "sourceId": 1792027030
-    },
-    {
-      "monsterId": 155,
-      "pokemon": "Cyndaquil",
-      "region": "Johto",
-      "location": "Route 33",
-      "secondsAgo": 13846,
-      "sourceId": 1792017898
     },
     {
       "monsterId": 456,
       "pokemon": "Finneon",
       "region": "Hoenn",
       "location": "Route 107",
-      "secondsAgo": 16183,
+      "secondsAgo": 16499,
       "sourceId": 1792015561
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Burmy",
       "region": "Sinnoh",
       "location": "Route 202",
-      "secondsAgo": 7442,
+      "secondsAgo": 7758,
       "sourceId": 1792024302
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Honchkrow",
       "region": "Unova",
       "location": "Celestial Tower",
-      "secondsAgo": 2416,
+      "secondsAgo": 2732,
       "sourceId": 1792029328
     }
   ],
