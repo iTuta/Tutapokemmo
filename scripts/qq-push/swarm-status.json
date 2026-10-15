@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-15T04:15:56.333Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-15T04:20:50.373Z",
+  "swarms": [
     {
-      "monsterId": 135,
-      "pokemon": "Jolteon",
+      "monsterId": 127,
+      "pokemon": "Pinsir",
       "region": "Kanto",
-      "location": "Ruin Valley",
-      "secondsAgo": 3864,
-      "sourceId": 1792033892
-    },
+      "location": "Route 11",
+      "sourceId": 1792039272,
+      "despawnTimestamp": 1792039271,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-15T04:41:12.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Johto",
       "location": "Route 34",
-      "secondsAgo": 5983,
+      "secondsAgo": 6277,
       "sourceId": 1792031773
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Feebas",
       "region": "Hoenn",
       "location": "Route 130",
-      "secondsAgo": 5529,
+      "secondsAgo": 5823,
       "sourceId": 1792032227
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Honchkrow",
       "region": "Unova",
       "location": "Celestial Tower",
-      "secondsAgo": 8428,
+      "secondsAgo": 8722,
       "sourceId": 1792029328
     }
   ],
