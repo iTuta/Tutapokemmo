@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-15T04:45:51.446Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-15T04:51:01.362Z",
+  "swarms": [
+    {
+      "monsterId": 176,
+      "pokemon": "Togetic",
+      "region": "Unova",
+      "location": "Dreamyard",
+      "sourceId": 1792041305,
+      "despawnTimestamp": 1792041304,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-15T05:15:05.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "secondsAgo": 1779,
+      "secondsAgo": 2089,
       "sourceId": 1792037772
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Shroomish",
       "region": "Johto",
       "location": "Route 34",
-      "secondsAgo": 7778,
+      "secondsAgo": 8088,
       "sourceId": 1792031773
     },
     {
@@ -23,16 +35,8 @@
       "pokemon": "Feebas",
       "region": "Hoenn",
       "location": "Route 130",
-      "secondsAgo": 7324,
+      "secondsAgo": 7634,
       "sourceId": 1792032227
-    },
-    {
-      "monsterId": 430,
-      "pokemon": "Honchkrow",
-      "region": "Unova",
-      "location": "Celestial Tower",
-      "secondsAgo": 10223,
-      "sourceId": 1792029328
     }
   ],
   "alpha": {
