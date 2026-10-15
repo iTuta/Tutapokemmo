@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-15T13:45:54.318Z",
+  "fetchedAt": "2026-10-15T13:50:54.475Z",
   "swarms": [
     {
       "monsterId": 142,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-15T14:06:48.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 213,
+      "pokemon": "Shuckle",
+      "region": "Hoenn",
+      "location": "Seafloor Cavern",
+      "sourceId": 1792073678,
+      "despawnTimestamp": 1792073678,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-15T14:14:38.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,31 +30,23 @@
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 1465,
+      "secondsAgo": 1765,
       "sourceId": 1792070489
-    },
-    {
-      "monsterId": 185,
-      "pokemon": "Sudowoodo",
-      "region": "Hoenn",
-      "location": "Battle Frontier",
-      "secondsAgo": 7481,
-      "sourceId": 1792064473
     },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
       "region": "Sinnoh",
       "location": "Lake Valor",
-      "secondsAgo": 3621,
-      "sourceId": 1792068333
+      "secondsAgo": 3922,
+      "sourceId": 1792068332
     },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 6580,
+      "secondsAgo": 6880,
       "sourceId": 1792065374
     }
   ],
