@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-15T21:10:49.766Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-15T21:16:07.115Z",
+  "swarms": [
+    {
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Johto",
+      "location": "Burned Tower",
+      "sourceId": 1792100359,
+      "despawnTimestamp": 1792100359,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-15T21:39:19.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 4,
       "pokemon": "Charmander",
       "region": "Kanto",
       "location": "Route 3",
-      "secondsAgo": 2088,
-      "sourceId": 1792096561
-    },
-    {
-      "monsterId": 285,
-      "pokemon": "Shroomish",
-      "region": "Johto",
-      "location": "Route 34",
-      "secondsAgo": 9504,
-      "sourceId": 1792089145
+      "secondsAgo": 2405,
+      "sourceId": 1792096562
     },
     {
       "monsterId": 259,
       "pokemon": "Marshtomp",
       "region": "Hoenn",
       "location": "Route 124",
-      "secondsAgo": 4279,
+      "secondsAgo": 4597,
       "sourceId": 1792094370
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Skitty",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 5017,
+      "secondsAgo": 5335,
       "sourceId": 1792093632
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Hippowdon",
       "region": "Unova",
       "location": "Mistralton Cave",
-      "secondsAgo": 6621,
+      "secondsAgo": 6939,
       "sourceId": 1792092028
     }
   ],
