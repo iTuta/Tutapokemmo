@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-15T01:50:48.146Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-15T01:55:41.616Z",
+  "swarms": [
+    {
+      "monsterId": 430,
+      "pokemon": "Honchkrow",
+      "region": "Unova",
+      "location": "Celestial Tower",
+      "sourceId": 1792030827,
+      "despawnTimestamp": 1792030827,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-15T02:20:27.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Kanto",
       "location": "Cerulean Cave",
-      "secondsAgo": 2018,
+      "secondsAgo": 2311,
       "sourceId": 1792027030
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Cyndaquil",
       "region": "Johto",
       "location": "Route 33",
-      "secondsAgo": 11150,
+      "secondsAgo": 11443,
       "sourceId": 1792017898
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Finneon",
       "region": "Hoenn",
       "location": "Route 107",
-      "secondsAgo": 13487,
+      "secondsAgo": 13780,
       "sourceId": 1792015561
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Burmy",
       "region": "Sinnoh",
       "location": "Route 202",
-      "secondsAgo": 4746,
+      "secondsAgo": 5039,
       "sourceId": 1792024302
-    },
-    {
-      "monsterId": 148,
-      "pokemon": "Dragonair",
-      "region": "Unova",
-      "location": "Dragonspiral Tower",
-      "secondsAgo": 5665,
-      "sourceId": 1792023383
     }
   ],
   "alpha": {
