@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-15T07:16:03.756Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-15T07:20:52.444Z",
+  "swarms": [
     {
-      "monsterId": 127,
-      "pokemon": "Pinsir",
+      "monsterId": 312,
+      "pokemon": "Minun",
       "region": "Kanto",
-      "location": "Route 11",
-      "secondsAgo": 10791,
-      "sourceId": 1792037772
-    },
+      "location": "Route 22",
+      "sourceId": 1792050180,
+      "despawnTimestamp": 1792050179,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-15T07:43:00.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 3054,
+      "secondsAgo": 3343,
       "sourceId": 1792045509
     },
     {
@@ -23,15 +27,15 @@
       "pokemon": "Carnivine",
       "region": "Hoenn",
       "location": "Route 123",
-      "secondsAgo": 6942,
-      "sourceId": 1792041621
+      "secondsAgo": 7230,
+      "sourceId": 1792041622
     },
     {
       "monsterId": 412,
       "pokemon": "Burmy",
       "region": "Sinnoh",
       "location": "Route 202",
-      "secondsAgo": 24261,
+      "secondsAgo": 24550,
       "sourceId": 1792024302
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 8758,
+      "secondsAgo": 9047,
       "sourceId": 1792039805
     }
   ],
