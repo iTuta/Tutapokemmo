@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-10-15T08:01:09.982Z",
+  "fetchedAt": "2026-10-15T08:05:44.533Z",
   "swarms": [
+    {
+      "monsterId": 376,
+      "pokemon": "Metagross",
+      "region": "Hoenn",
+      "location": "Meteor Falls",
+      "sourceId": 1792053007,
+      "despawnTimestamp": 1792053007,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-15T08:30:07.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 449,
       "pokemon": "Hippopotas",
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
       "sourceId": 1792051778,
-      "despawnTimestamp": 1792051777,
+      "despawnTimestamp": 1792051778,
       "hasValuable": false,
       "timestampUtc": "2026-10-15T08:09:38.000Z",
       "publishedBy": ""
@@ -19,7 +30,7 @@
       "pokemon": "Minun",
       "region": "Kanto",
       "location": "Route 22",
-      "secondsAgo": 2589,
+      "secondsAgo": 2864,
       "sourceId": 1792048680
     },
     {
@@ -27,16 +38,8 @@
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 5761,
-      "sourceId": 1792045508
-    },
-    {
-      "monsterId": 455,
-      "pokemon": "Carnivine",
-      "region": "Hoenn",
-      "location": "Route 123",
-      "secondsAgo": 9648,
-      "sourceId": 1792041621
+      "secondsAgo": 6035,
+      "sourceId": 1792045509
     }
   ],
   "alpha": {
