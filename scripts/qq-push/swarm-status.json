@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-16T15:15:55.218Z",
+  "fetchedAt": "2026-10-16T15:20:54.201Z",
   "swarms": [
     {
       "monsterId": 241,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-16T15:31:46.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 125,
+      "pokemon": "Electabuzz",
+      "region": "Unova",
+      "location": "Chargestone Cave",
+      "sourceId": 1792165537,
+      "despawnTimestamp": 1792165537,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-16T15:45:37.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Omastar",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 3354,
+      "secondsAgo": 3653,
       "sourceId": 1792160401
     },
     {
@@ -27,7 +38,7 @@
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 11779,
+      "secondsAgo": 12078,
       "sourceId": 1792151976
     },
     {
@@ -35,16 +46,8 @@
       "pokemon": "Pineco",
       "region": "Sinnoh",
       "location": "Route 207",
-      "secondsAgo": 1995,
+      "secondsAgo": 2294,
       "sourceId": 1792161760
-    },
-    {
-      "monsterId": 312,
-      "pokemon": "Minun",
-      "region": "Unova",
-      "location": "Route 6",
-      "secondsAgo": 7618,
-      "sourceId": 1792156137
     }
   ],
   "alpha": {
