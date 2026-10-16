@@ -1,45 +1,42 @@
 {
-  "fetchedAt": "2026-10-16T20:46:00.865Z",
+  "fetchedAt": "2026-10-16T20:51:13.456Z",
   "swarms": [
+    {
+      "monsterId": 342,
+      "pokemon": "Crawdaunt",
+      "region": "Unova",
+      "location": "Route 3",
+      "sourceId": 1792185133,
+      "despawnTimestamp": 1792185133,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-16T21:12:13.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Kanto",
       "location": "Three Island",
-      "sourceId": 1792183790,
-      "despawnTimestamp": 1792183789,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-16T20:49:50.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1582,
+      "sourceId": 1792182291
+    },
+    {
+      "monsterId": 351,
+      "pokemon": "Castform",
+      "region": "Hoenn",
+      "location": "Aqua Hideout",
+      "secondsAgo": 8484,
+      "sourceId": 1792175389
     },
     {
       "monsterId": 204,
       "pokemon": "Pineco",
       "region": "Sinnoh",
       "location": "Route 207",
-      "sourceId": 1792183694,
-      "despawnTimestamp": 1792183693,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-16T20:48:14.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 351,
-      "pokemon": "Castform",
-      "region": "Hoenn",
-      "location": "Aqua Hideout",
-      "secondsAgo": 8172,
-      "sourceId": 1792175388
-    },
-    {
-      "monsterId": 176,
-      "pokemon": "Togetic",
-      "region": "Unova",
-      "location": "Dreamyard",
-      "secondsAgo": 4947,
-      "sourceId": 1792178613
+      "secondsAgo": 1678,
+      "sourceId": 1792182195
     }
   ],
   "alpha": {
