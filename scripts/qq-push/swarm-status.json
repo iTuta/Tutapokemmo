@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-16T13:31:01.685Z",
+  "fetchedAt": "2026-10-16T13:35:46.739Z",
   "swarms": [
     {
       "monsterId": 299,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-16T13:39:30.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 312,
-      "pokemon": "Minun",
-      "region": "Unova",
-      "location": "Route 6",
-      "sourceId": 1792157636,
-      "despawnTimestamp": 1792157635,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-16T13:33:56.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 4999,
+      "secondsAgo": 5284,
       "sourceId": 1792152462
     },
     {
@@ -38,7 +27,7 @@
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 5485,
+      "secondsAgo": 5770,
       "sourceId": 1792151976
     },
     {
@@ -46,8 +35,16 @@
       "pokemon": "Rotom",
       "region": "Sinnoh",
       "location": "Old Chateau",
-      "secondsAgo": 3354,
+      "secondsAgo": 3639,
       "sourceId": 1792154107
+    },
+    {
+      "monsterId": 312,
+      "pokemon": "Minun",
+      "region": "Unova",
+      "location": "Route 6",
+      "secondsAgo": 1610,
+      "sourceId": 1792156136
     }
   ],
   "alpha": {
