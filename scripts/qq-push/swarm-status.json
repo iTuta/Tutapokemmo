@@ -1,53 +1,46 @@
 {
-  "fetchedAt": "2026-10-16T18:50:55.858Z",
-  "swarms": [
-    {
-      "monsterId": 351,
-      "pokemon": "Castform",
-      "region": "Hoenn",
-      "location": "Aqua Hideout",
-      "sourceId": 1792176888,
-      "despawnTimestamp": 1792176887,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-16T18:54:48.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 212,
-      "pokemon": "Scizor",
-      "region": "Unova",
-      "location": "Route 14",
-      "sourceId": 1792176883,
-      "despawnTimestamp": 1792176883,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-16T18:54:43.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-16T18:55:53.395Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 139,
       "pokemon": "Omastar",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 16255,
-      "sourceId": 1792160400
+      "secondsAgo": 16552,
+      "sourceId": 1792160401
     },
     {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Johto",
       "location": "Route 26",
-      "secondsAgo": 6648,
-      "sourceId": 1792170007
+      "secondsAgo": 6945,
+      "sourceId": 1792170008
+    },
+    {
+      "monsterId": 351,
+      "pokemon": "Castform",
+      "region": "Hoenn",
+      "location": "Aqua Hideout",
+      "secondsAgo": 1564,
+      "sourceId": 1792175389
     },
     {
       "monsterId": 438,
       "pokemon": "Bonsly",
       "region": "Sinnoh",
       "location": "Eterna Forest",
-      "secondsAgo": 3847,
+      "secondsAgo": 4145,
       "sourceId": 1792172808
+    },
+    {
+      "monsterId": 212,
+      "pokemon": "Scizor",
+      "region": "Unova",
+      "location": "Route 14",
+      "secondsAgo": 1569,
+      "sourceId": 1792175384
     }
   ],
   "alpha": {
