@@ -1,35 +1,13 @@
 {
-  "fetchedAt": "2026-10-16T01:35:45.047Z",
+  "fetchedAt": "2026-10-16T01:40:51.692Z",
   "swarms": [
-    {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Johto",
-      "location": "Cliff Cave",
-      "sourceId": 1792114823,
-      "despawnTimestamp": 1792114823,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-16T01:40:23.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Hoenn",
-      "location": "Scorched Slab",
-      "sourceId": 1792115209,
-      "despawnTimestamp": 1792115209,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-16T01:46:49.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 248,
       "pokemon": "Tyranitar",
       "region": "Sinnoh",
       "location": "Stark Mountain",
       "sourceId": 1792115648,
-      "despawnTimestamp": 1792115648,
+      "despawnTimestamp": 1792115647,
       "hasValuable": false,
       "timestampUtc": "2026-10-16T01:54:08.000Z",
       "publishedBy": ""
@@ -41,28 +19,36 @@
       "pokemon": "Absol",
       "region": "Kanto",
       "location": "Sevault Canyon",
-      "secondsAgo": 4915,
-      "sourceId": 1792109630
+      "secondsAgo": 5222,
+      "sourceId": 1792109629
+    },
+    {
+      "monsterId": 213,
+      "pokemon": "Shuckle",
+      "region": "Johto",
+      "location": "Cliff Cave",
+      "secondsAgo": 327,
+      "sourceId": 1792114524
     },
     {
       "monsterId": 331,
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 6379,
-      "sourceId": 1792108166
+      "secondsAgo": 6686,
+      "sourceId": 1792108165
     }
   ],
   "alpha": {
-    "monsterId": 12,
-    "pokemon": "Butterfree",
-    "region": "Kanto",
-    "location": "Viridian Forest",
-    "sourceId": 1792088944,
-    "despawnTimestamp": 1792106044,
+    "monsterId": 264,
+    "pokemon": "Linoone",
+    "region": "Hoenn",
+    "location": "Route 104",
+    "sourceId": 1792102216,
+    "despawnTimestamp": 1792119316,
     "hasValuable": false,
-    "timestampUtc": "2026-10-15T18:29:04.000Z",
-    "timestampRaw": "2026-10-15T18:29:04.000Z",
+    "timestampUtc": "2026-10-15T22:10:16.000Z",
+    "timestampRaw": "2026-10-15T22:10:16.000Z",
     "publishedBy": ""
   }
 }
