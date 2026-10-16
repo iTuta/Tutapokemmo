@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-16T23:31:01.292Z",
+  "fetchedAt": "2026-10-16T23:35:44.717Z",
   "swarms": [
-    {
-      "monsterId": 317,
-      "pokemon": "Swalot",
-      "region": "Kanto",
-      "location": "Route 18",
-      "sourceId": 1792193569,
-      "despawnTimestamp": 1792193569,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-16T23:32:49.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
       "sourceId": 1792193879,
-      "despawnTimestamp": 1792193879,
+      "despawnTimestamp": 1792193878,
       "hasValuable": false,
       "timestampUtc": "2026-10-16T23:37:59.000Z",
       "publishedBy": ""
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 317,
+      "pokemon": "Swalot",
+      "region": "Kanto",
+      "location": "Route 18",
+      "secondsAgo": 1674,
+      "sourceId": 1792192070
+    },
+    {
       "monsterId": 479,
       "pokemon": "Rotom",
       "region": "Hoenn",
       "location": "New Mauville",
-      "secondsAgo": 2387,
+      "secondsAgo": 2670,
       "sourceId": 1792191074
     },
     {
@@ -38,16 +35,16 @@
       "pokemon": "Chansey",
       "region": "Sinnoh",
       "location": "Trophy Garden",
-      "secondsAgo": 4142,
-      "sourceId": 1792189319
+      "secondsAgo": 4426,
+      "sourceId": 1792189318
     },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
       "region": "Unova",
       "location": "Route 3",
-      "secondsAgo": 9827,
-      "sourceId": 1792183634
+      "secondsAgo": 10111,
+      "sourceId": 1792183633
     }
   ],
   "alpha": {
