@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-16T08:15:56.560Z",
+  "fetchedAt": "2026-10-16T08:21:01.401Z",
   "swarms": [
     {
       "monsterId": 158,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-16T08:23:01.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 313,
-      "pokemon": "Volbeat",
-      "region": "Unova",
-      "location": "Route 8",
-      "sourceId": 1792138733,
-      "despawnTimestamp": 1792138733,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-16T08:18:53.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Kecleon",
       "region": "Hoenn",
       "location": "Route 120",
-      "secondsAgo": 3151,
+      "secondsAgo": 3456,
       "sourceId": 1792135405
     },
     {
@@ -38,8 +27,16 @@
       "pokemon": "Shuckle",
       "region": "Sinnoh",
       "location": "Route 219",
-      "secondsAgo": 13791,
+      "secondsAgo": 14096,
       "sourceId": 1792124765
+    },
+    {
+      "monsterId": 313,
+      "pokemon": "Volbeat",
+      "region": "Unova",
+      "location": "Route 8",
+      "secondsAgo": 1627,
+      "sourceId": 1792137234
     }
   ],
   "alpha": {
