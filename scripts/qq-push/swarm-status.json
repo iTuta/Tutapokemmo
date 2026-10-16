@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-16T13:05:51.888Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-16T13:10:49.711Z",
+  "swarms": [
+    {
+      "monsterId": 312,
+      "pokemon": "Minun",
+      "region": "Unova",
+      "location": "Route 6",
+      "sourceId": 1792157636,
+      "despawnTimestamp": 1792157635,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-16T13:33:56.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 312,
       "pokemon": "Minun",
       "region": "Kanto",
       "location": "Route 22",
-      "secondsAgo": 6191,
+      "secondsAgo": 6489,
       "sourceId": 1792149760
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 3489,
+      "secondsAgo": 3787,
       "sourceId": 1792152462
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 3975,
+      "secondsAgo": 4273,
       "sourceId": 1792151976
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Rotom",
       "region": "Sinnoh",
       "location": "Old Chateau",
-      "secondsAgo": 1844,
+      "secondsAgo": 2142,
       "sourceId": 1792154107
-    },
-    {
-      "monsterId": 162,
-      "pokemon": "Furret",
-      "region": "Unova",
-      "location": "Abundant Shrine",
-      "secondsAgo": 10094,
-      "sourceId": 1792145857
     }
   ],
   "alpha": {
