@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-16T04:15:58.785Z",
+  "fetchedAt": "2026-10-16T04:20:48.745Z",
   "swarms": [
+    {
+      "monsterId": 300,
+      "pokemon": "Skitty",
+      "region": "Hoenn",
+      "location": "Route 116",
+      "sourceId": 1792125641,
+      "despawnTimestamp": 1792125641,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-16T04:40:41.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 311,
       "pokemon": "Plusle",
@@ -19,7 +30,7 @@
       "pokemon": "Vespiquen",
       "region": "Kanto",
       "location": "Five Isle Meadow",
-      "secondsAgo": 2326,
+      "secondsAgo": 2616,
       "sourceId": 1792121832
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Shuckle",
       "region": "Johto",
       "location": "Cliff Cave",
-      "secondsAgo": 9634,
+      "secondsAgo": 9924,
       "sourceId": 1792114524
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Hoenn",
-      "location": "Scorched Slab",
-      "secondsAgo": 10448,
-      "sourceId": 1792113710
     },
     {
       "monsterId": 123,
       "pokemon": "Scyther",
       "region": "Sinnoh",
       "location": "Route 210",
-      "secondsAgo": 4352,
+      "secondsAgo": 4642,
       "sourceId": 1792119806
     }
   ],
