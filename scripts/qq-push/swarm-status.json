@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-16T10:40:50.925Z",
+  "fetchedAt": "2026-10-16T10:46:04.346Z",
   "swarms": [
     {
       "monsterId": 442,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-16T10:51:29.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 162,
-      "pokemon": "Furret",
-      "region": "Unova",
-      "location": "Abundant Shrine",
-      "sourceId": 1792147357,
-      "despawnTimestamp": 1792147356,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-16T10:42:37.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,24 +19,32 @@
       "pokemon": "Sentret",
       "region": "Kanto",
       "location": "Route 1",
-      "secondsAgo": 13597,
-      "sourceId": 1792133653
+      "secondsAgo": 13910,
+      "sourceId": 1792133654
     },
     {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Johto",
       "location": "Route 29",
-      "secondsAgo": 4335,
-      "sourceId": 1792142915
+      "secondsAgo": 4648,
+      "sourceId": 1792142916
     },
     {
       "monsterId": 517,
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 3013,
+      "secondsAgo": 3327,
       "sourceId": 1792144237
+    },
+    {
+      "monsterId": 162,
+      "pokemon": "Furret",
+      "region": "Unova",
+      "location": "Abundant Shrine",
+      "secondsAgo": 1706,
+      "sourceId": 1792145858
     }
   ],
   "alpha": {
