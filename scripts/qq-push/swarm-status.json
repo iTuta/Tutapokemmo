@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-16T22:50:50.472Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-16T22:55:54.750Z",
+  "swarms": [
+    {
+      "monsterId": 479,
+      "pokemon": "Rotom",
+      "region": "Hoenn",
+      "location": "New Mauville",
+      "sourceId": 1792192573,
+      "despawnTimestamp": 1792192573,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-16T23:16:13.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 2219,
+      "secondsAgo": 2523,
       "sourceId": 1792188831
     },
     {
@@ -15,32 +27,24 @@
       "pokemon": "Skarmory",
       "region": "Johto",
       "location": "Route 26",
-      "secondsAgo": 21042,
-      "sourceId": 1792170008
-    },
-    {
-      "monsterId": 185,
-      "pokemon": "Sudowoodo",
-      "region": "Hoenn",
-      "location": "Battle Frontier",
-      "secondsAgo": 7164,
-      "sourceId": 1792183886
+      "secondsAgo": 21347,
+      "sourceId": 1792170007
     },
     {
       "monsterId": 113,
       "pokemon": "Chansey",
       "region": "Sinnoh",
       "location": "Trophy Garden",
-      "secondsAgo": 1731,
-      "sourceId": 1792189319
+      "secondsAgo": 2036,
+      "sourceId": 1792189318
     },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
       "region": "Unova",
       "location": "Route 3",
-      "secondsAgo": 7416,
-      "sourceId": 1792183634
+      "secondsAgo": 7721,
+      "sourceId": 1792183633
     }
   ],
   "alpha": {
