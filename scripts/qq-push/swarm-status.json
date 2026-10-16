@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-16T15:31:07.480Z",
+  "fetchedAt": "2026-10-16T15:35:44.584Z",
   "swarms": [
-    {
-      "monsterId": 241,
-      "pokemon": "Miltank",
-      "region": "Johto",
-      "location": "Route 39",
-      "sourceId": 1792164706,
-      "despawnTimestamp": 1792164706,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-16T15:31:46.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 125,
       "pokemon": "Electabuzz",
@@ -30,15 +19,23 @@
       "pokemon": "Omastar",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 4266,
-      "sourceId": 1792160401
+      "secondsAgo": 4544,
+      "sourceId": 1792160400
+    },
+    {
+      "monsterId": 241,
+      "pokemon": "Miltank",
+      "region": "Johto",
+      "location": "Route 39",
+      "secondsAgo": 1737,
+      "sourceId": 1792163207
     },
     {
       "monsterId": 258,
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 12691,
+      "secondsAgo": 12968,
       "sourceId": 1792151976
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Pineco",
       "region": "Sinnoh",
       "location": "Route 207",
-      "secondsAgo": 2908,
+      "secondsAgo": 3185,
       "sourceId": 1792161759
     }
   ],
