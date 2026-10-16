@@ -1,45 +1,49 @@
 {
-  "fetchedAt": "2026-10-16T09:25:46.404Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-16T09:31:08.078Z",
+  "swarms": [
+    {
+      "monsterId": 190,
+      "pokemon": "Aipom",
+      "region": "Johto",
+      "location": "Route 29",
+      "sourceId": 1792144415,
+      "despawnTimestamp": 1792144415,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-16T09:53:35.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 161,
       "pokemon": "Sentret",
       "region": "Kanto",
       "location": "Route 1",
-      "secondsAgo": 9092,
+      "secondsAgo": 9414,
       "sourceId": 1792133654
-    },
-    {
-      "monsterId": 158,
-      "pokemon": "Totodile",
-      "region": "Johto",
-      "location": "Route 32",
-      "secondsAgo": 5264,
-      "sourceId": 1792137482
     },
     {
       "monsterId": 352,
       "pokemon": "Kecleon",
       "region": "Hoenn",
       "location": "Route 120",
-      "secondsAgo": 7341,
-      "sourceId": 1792135405
+      "secondsAgo": 7662,
+      "sourceId": 1792135406
     },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Sinnoh",
       "location": "Route 219",
-      "secondsAgo": 17981,
-      "sourceId": 1792124765
+      "secondsAgo": 18302,
+      "sourceId": 1792124766
     },
     {
       "monsterId": 313,
       "pokemon": "Volbeat",
       "region": "Unova",
       "location": "Route 8",
-      "secondsAgo": 5512,
+      "secondsAgo": 5834,
       "sourceId": 1792137234
     }
   ],
