@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-16T01:25:48.262Z",
+  "fetchedAt": "2026-10-16T01:31:04.391Z",
   "swarms": [
     {
       "monsterId": 637,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-16T01:46:49.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 248,
+      "pokemon": "Tyranitar",
+      "region": "Sinnoh",
+      "location": "Stark Mountain",
+      "sourceId": 1792115648,
+      "despawnTimestamp": 1792115648,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-16T01:54:08.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Absol",
       "region": "Kanto",
       "location": "Sevault Canyon",
-      "secondsAgo": 4319,
+      "secondsAgo": 4635,
       "sourceId": 1792109629
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Shuckle",
       "region": "Johto",
       "location": "Cliff Cave",
-      "secondsAgo": 1111,
+      "secondsAgo": 1427,
       "sourceId": 1792112837
-    },
-    {
-      "monsterId": 387,
-      "pokemon": "Turtwig",
-      "region": "Sinnoh",
-      "location": "Route 203",
-      "secondsAgo": 6902,
-      "sourceId": 1792107046
     },
     {
       "monsterId": 331,
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 5782,
+      "secondsAgo": 6098,
       "sourceId": 1792108166
     }
   ],
