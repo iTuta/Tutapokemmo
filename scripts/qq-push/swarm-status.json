@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-16T09:45:50.380Z",
+  "fetchedAt": "2026-10-16T09:50:55.455Z",
   "swarms": [
     {
       "monsterId": 190,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-16T09:53:35.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Hoenn",
+      "location": "Route 102",
+      "sourceId": 1792145736,
+      "despawnTimestamp": 1792145736,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-16T10:15:36.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,23 +30,15 @@
       "pokemon": "Sentret",
       "region": "Kanto",
       "location": "Route 1",
-      "secondsAgo": 10296,
+      "secondsAgo": 10601,
       "sourceId": 1792133654
-    },
-    {
-      "monsterId": 352,
-      "pokemon": "Kecleon",
-      "region": "Hoenn",
-      "location": "Route 120",
-      "secondsAgo": 8544,
-      "sourceId": 1792135406
     },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Sinnoh",
       "location": "Route 219",
-      "secondsAgo": 19185,
+      "secondsAgo": 19490,
       "sourceId": 1792124765
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Volbeat",
       "region": "Unova",
       "location": "Route 8",
-      "secondsAgo": 6716,
+      "secondsAgo": 7021,
       "sourceId": 1792137234
     }
   ],
