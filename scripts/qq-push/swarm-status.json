@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-10-16T20:51:13.456Z",
+  "fetchedAt": "2026-10-16T20:55:50.914Z",
   "swarms": [
+    {
+      "monsterId": 185,
+      "pokemon": "Sudowoodo",
+      "region": "Hoenn",
+      "location": "Battle Frontier",
+      "sourceId": 1792185385,
+      "despawnTimestamp": 1792185384,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-16T21:16:25.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
       "region": "Unova",
       "location": "Route 3",
       "sourceId": 1792185133,
-      "despawnTimestamp": 1792185133,
+      "despawnTimestamp": 1792185132,
       "hasValuable": false,
       "timestampUtc": "2026-10-16T21:12:13.000Z",
       "publishedBy": ""
@@ -19,24 +30,16 @@
       "pokemon": "Blissey",
       "region": "Kanto",
       "location": "Three Island",
-      "secondsAgo": 1582,
-      "sourceId": 1792182291
-    },
-    {
-      "monsterId": 351,
-      "pokemon": "Castform",
-      "region": "Hoenn",
-      "location": "Aqua Hideout",
-      "secondsAgo": 8484,
-      "sourceId": 1792175389
+      "secondsAgo": 1860,
+      "sourceId": 1792182290
     },
     {
       "monsterId": 204,
       "pokemon": "Pineco",
       "region": "Sinnoh",
       "location": "Route 207",
-      "secondsAgo": 1678,
-      "sourceId": 1792182195
+      "secondsAgo": 1956,
+      "sourceId": 1792182194
     }
   ],
   "alpha": {
