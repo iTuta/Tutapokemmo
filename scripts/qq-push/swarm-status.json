@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-16T04:50:48.132Z",
+  "fetchedAt": "2026-10-16T04:55:47.010Z",
   "swarms": [
     {
       "monsterId": 229,
@@ -7,20 +7,9 @@
       "region": "Johto",
       "location": "Burned Tower",
       "sourceId": 1792127431,
-      "despawnTimestamp": 1792127431,
+      "despawnTimestamp": 1792127430,
       "hasValuable": false,
       "timestampUtc": "2026-10-16T05:10:31.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Sinnoh",
-      "location": "Route 219",
-      "sourceId": 1792126265,
-      "despawnTimestamp": 1792126265,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-16T04:51:05.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,24 +19,32 @@
       "pokemon": "Vespiquen",
       "region": "Kanto",
       "location": "Five Isle Meadow",
-      "secondsAgo": 4415,
-      "sourceId": 1792121833
+      "secondsAgo": 4714,
+      "sourceId": 1792121832
     },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Hoenn",
       "location": "Route 116",
-      "secondsAgo": 1986,
+      "secondsAgo": 2284,
       "sourceId": 1792124262
+    },
+    {
+      "monsterId": 213,
+      "pokemon": "Shuckle",
+      "region": "Sinnoh",
+      "location": "Route 219",
+      "secondsAgo": 1781,
+      "sourceId": 1792124765
     },
     {
       "monsterId": 311,
       "pokemon": "Plusle",
       "region": "Unova",
       "location": "Route 5",
-      "secondsAgo": 2200,
-      "sourceId": 1792124048
+      "secondsAgo": 2499,
+      "sourceId": 1792124047
     }
   ],
   "alpha": {
