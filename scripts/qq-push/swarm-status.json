@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-16T22:10:53.772Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-16T22:15:56.617Z",
+  "swarms": [
     {
-      "monsterId": 242,
-      "pokemon": "Blissey",
+      "monsterId": 369,
+      "pokemon": "Relicanth",
       "region": "Kanto",
-      "location": "Three Island",
-      "secondsAgo": 6363,
-      "sourceId": 1792182290
-    },
+      "location": "Tanoby Ruins",
+      "sourceId": 1792190330,
+      "despawnTimestamp": 1792190330,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-16T22:38:50.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Johto",
       "location": "Route 26",
-      "secondsAgo": 18646,
-      "sourceId": 1792170007
+      "secondsAgo": 18948,
+      "sourceId": 1792170008
     },
     {
       "monsterId": 185,
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 4768,
+      "secondsAgo": 5071,
       "sourceId": 1792183885
     },
     {
@@ -31,16 +35,16 @@
       "pokemon": "Pineco",
       "region": "Sinnoh",
       "location": "Route 207",
-      "secondsAgo": 6459,
-      "sourceId": 1792182194
+      "secondsAgo": 6761,
+      "sourceId": 1792182195
     },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
       "region": "Unova",
       "location": "Route 3",
-      "secondsAgo": 5020,
-      "sourceId": 1792183633
+      "secondsAgo": 5322,
+      "sourceId": 1792183634
     }
   ],
   "alpha": {
