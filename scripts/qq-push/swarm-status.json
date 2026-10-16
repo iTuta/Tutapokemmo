@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-10-16T16:55:51.032Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-16T17:01:14.434Z",
+  "swarms": [
+    {
+      "monsterId": 227,
+      "pokemon": "Skarmory",
+      "region": "Johto",
+      "location": "Route 26",
+      "sourceId": 1792171507,
+      "despawnTimestamp": 1792171507,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-16T17:25:07.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 139,
       "pokemon": "Omastar",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 9350,
+      "secondsAgo": 9673,
       "sourceId": 1792160401
-    },
-    {
-      "monsterId": 241,
-      "pokemon": "Miltank",
-      "region": "Johto",
-      "location": "Route 39",
-      "secondsAgo": 6544,
-      "sourceId": 1792163207
     },
     {
       "monsterId": 258,
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 17774,
-      "sourceId": 1792151977
+      "secondsAgo": 18098,
+      "sourceId": 1792151976
     },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Sinnoh",
       "location": "Route 219",
-      "secondsAgo": 3805,
+      "secondsAgo": 4128,
       "sourceId": 1792165946
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Electabuzz",
       "region": "Unova",
       "location": "Chargestone Cave",
-      "secondsAgo": 5713,
+      "secondsAgo": 6036,
       "sourceId": 1792164038
     }
   ],
