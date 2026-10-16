@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-16T13:10:49.711Z",
+  "fetchedAt": "2026-10-16T13:15:49.677Z",
   "swarms": [
+    {
+      "monsterId": 299,
+      "pokemon": "Nosepass",
+      "region": "Kanto",
+      "location": "Mt. Moon",
+      "sourceId": 1792157970,
+      "despawnTimestamp": 1792157969,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-16T13:39:30.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 312,
       "pokemon": "Minun",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 312,
-      "pokemon": "Minun",
-      "region": "Kanto",
-      "location": "Route 22",
-      "secondsAgo": 6489,
-      "sourceId": 1792149760
-    },
-    {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 3787,
+      "secondsAgo": 4087,
       "sourceId": 1792152462
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 4273,
+      "secondsAgo": 4573,
       "sourceId": 1792151976
     },
     {
@@ -43,8 +46,8 @@
       "pokemon": "Rotom",
       "region": "Sinnoh",
       "location": "Old Chateau",
-      "secondsAgo": 2142,
-      "sourceId": 1792154107
+      "secondsAgo": 2441,
+      "sourceId": 1792154108
     }
   ],
   "alpha": {
