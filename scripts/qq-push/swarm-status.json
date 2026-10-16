@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-16T02:31:03.491Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-16T02:35:48.030Z",
+  "swarms": [
     {
-      "monsterId": 359,
-      "pokemon": "Absol",
+      "monsterId": 321,
+      "pokemon": "Wailord",
       "region": "Kanto",
-      "location": "Sevault Canyon",
-      "secondsAgo": 8234,
-      "sourceId": 1792109629
-    },
+      "location": "Green Path",
+      "sourceId": 1792119395,
+      "despawnTimestamp": 1792119394,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-16T02:56:35.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Johto",
       "location": "Cliff Cave",
-      "secondsAgo": 3339,
-      "sourceId": 1792114524
+      "secondsAgo": 3624,
+      "sourceId": 1792114523
     },
     {
       "monsterId": 248,
       "pokemon": "Tyranitar",
       "region": "Sinnoh",
       "location": "Stark Mountain",
-      "secondsAgo": 3715,
+      "secondsAgo": 3999,
       "sourceId": 1792114148
     },
     {
@@ -31,8 +35,8 @@
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 9697,
-      "sourceId": 1792108166
+      "secondsAgo": 9982,
+      "sourceId": 1792108165
     }
   ],
   "alpha": {
