@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-16T11:55:46.959Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-16T12:01:14.364Z",
+  "swarms": [
+    {
+      "monsterId": 258,
+      "pokemon": "Mudkip",
+      "region": "Hoenn",
+      "location": "Route 104",
+      "sourceId": 1792153475,
+      "despawnTimestamp": 1792153475,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-16T12:24:35.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 312,
       "pokemon": "Minun",
       "region": "Kanto",
       "location": "Route 22",
-      "secondsAgo": 1986,
+      "secondsAgo": 2314,
       "sourceId": 1792149760
     },
     {
@@ -15,32 +27,24 @@
       "pokemon": "Aipom",
       "region": "Johto",
       "location": "Route 29",
-      "secondsAgo": 8831,
-      "sourceId": 1792142915
-    },
-    {
-      "monsterId": 517,
-      "pokemon": "Munna",
-      "region": "Hoenn",
-      "location": "Route 102",
-      "secondsAgo": 7510,
-      "sourceId": 1792144236
+      "secondsAgo": 9158,
+      "sourceId": 1792142916
     },
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Sinnoh",
       "location": "Turnback Cave",
-      "secondsAgo": 1627,
-      "sourceId": 1792150119
+      "secondsAgo": 1954,
+      "sourceId": 1792150120
     },
     {
       "monsterId": 162,
       "pokemon": "Furret",
       "region": "Unova",
       "location": "Abundant Shrine",
-      "secondsAgo": 5889,
-      "sourceId": 1792145857
+      "secondsAgo": 6216,
+      "sourceId": 1792145858
     }
   ],
   "alpha": {
