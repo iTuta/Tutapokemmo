@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-16T03:10:45.949Z",
+  "fetchedAt": "2026-10-16T03:15:55.137Z",
   "swarms": [
     {
       "monsterId": 123,
@@ -7,20 +7,9 @@
       "region": "Sinnoh",
       "location": "Route 210",
       "sourceId": 1792121306,
-      "despawnTimestamp": 1792121305,
+      "despawnTimestamp": 1792121306,
       "hasValuable": false,
       "timestampUtc": "2026-10-16T03:28:26.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Unova",
-      "location": "Lostlorn Forest",
-      "sourceId": 1792120464,
-      "despawnTimestamp": 1792120463,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-16T03:14:24.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,24 +19,32 @@
       "pokemon": "Wailord",
       "region": "Kanto",
       "location": "Green Path",
-      "secondsAgo": 2350,
-      "sourceId": 1792117895
+      "secondsAgo": 2659,
+      "sourceId": 1792117896
     },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Johto",
       "location": "Cliff Cave",
-      "secondsAgo": 5722,
-      "sourceId": 1792114523
+      "secondsAgo": 6031,
+      "sourceId": 1792114524
     },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Hoenn",
       "location": "Scorched Slab",
-      "secondsAgo": 6535,
+      "secondsAgo": 6845,
       "sourceId": 1792113710
+    },
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Unova",
+      "location": "Lostlorn Forest",
+      "secondsAgo": 1590,
+      "sourceId": 1792118965
     }
   ],
   "alpha": {
