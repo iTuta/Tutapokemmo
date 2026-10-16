@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-16T14:15:55.749Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-16T14:20:49.767Z",
+  "swarms": [
     {
-      "monsterId": 299,
-      "pokemon": "Nosepass",
+      "monsterId": 139,
+      "pokemon": "Omastar",
       "region": "Kanto",
-      "location": "Mt. Moon",
-      "secondsAgo": 3685,
-      "sourceId": 1792156470
-    },
+      "location": "Tanoby Ruins",
+      "sourceId": 1792161900,
+      "despawnTimestamp": 1792161899,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-16T14:45:00.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 7693,
+      "secondsAgo": 7987,
       "sourceId": 1792152462
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 8179,
+      "secondsAgo": 8473,
       "sourceId": 1792151976
     },
     {
@@ -31,15 +35,15 @@
       "pokemon": "Rotom",
       "region": "Sinnoh",
       "location": "Old Chateau",
-      "secondsAgo": 6048,
-      "sourceId": 1792154107
+      "secondsAgo": 6341,
+      "sourceId": 1792154108
     },
     {
       "monsterId": 312,
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 4019,
+      "secondsAgo": 4313,
       "sourceId": 1792156136
     }
   ],
