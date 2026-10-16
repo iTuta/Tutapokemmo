@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-16T06:50:47.117Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-16T06:55:54.069Z",
+  "swarms": [
     {
-      "monsterId": 416,
-      "pokemon": "Vespiquen",
+      "monsterId": 161,
+      "pokemon": "Sentret",
       "region": "Kanto",
-      "location": "Five Isle Meadow",
-      "secondsAgo": 11614,
-      "sourceId": 1792121833
-    },
+      "location": "Route 1",
+      "sourceId": 1792135153,
+      "despawnTimestamp": 1792135153,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-16T07:19:13.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 7515,
+      "secondsAgo": 7822,
       "sourceId": 1792125932
     },
     {
@@ -23,15 +27,15 @@
       "pokemon": "Skitty",
       "region": "Hoenn",
       "location": "Route 116",
-      "secondsAgo": 9185,
-      "sourceId": 1792124262
+      "secondsAgo": 9491,
+      "sourceId": 1792124263
     },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Sinnoh",
       "location": "Route 219",
-      "secondsAgo": 8681,
+      "secondsAgo": 8988,
       "sourceId": 1792124766
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Furret",
       "region": "Unova",
       "location": "Abundant Shrine",
-      "secondsAgo": 4663,
+      "secondsAgo": 4970,
       "sourceId": 1792128784
     }
   ],
