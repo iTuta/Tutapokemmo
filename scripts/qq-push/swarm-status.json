@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-10-16T03:25:43.388Z",
-  "swarms": [
-    {
-      "monsterId": 123,
-      "pokemon": "Scyther",
-      "region": "Sinnoh",
-      "location": "Route 210",
-      "sourceId": 1792121306,
-      "despawnTimestamp": 1792121305,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-16T03:28:26.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-16T03:31:16.199Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 321,
       "pokemon": "Wailord",
       "region": "Kanto",
       "location": "Green Path",
-      "secondsAgo": 3247,
+      "secondsAgo": 3580,
       "sourceId": 1792117896
     },
     {
@@ -27,7 +15,7 @@
       "pokemon": "Shuckle",
       "region": "Johto",
       "location": "Cliff Cave",
-      "secondsAgo": 6619,
+      "secondsAgo": 6952,
       "sourceId": 1792114524
     },
     {
@@ -35,15 +23,23 @@
       "pokemon": "Volcarona",
       "region": "Hoenn",
       "location": "Scorched Slab",
-      "secondsAgo": 7433,
+      "secondsAgo": 7766,
       "sourceId": 1792113710
+    },
+    {
+      "monsterId": 123,
+      "pokemon": "Scyther",
+      "region": "Sinnoh",
+      "location": "Route 210",
+      "secondsAgo": 1669,
+      "sourceId": 1792119807
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 2179,
+      "secondsAgo": 2512,
       "sourceId": 1792118964
     }
   ],
