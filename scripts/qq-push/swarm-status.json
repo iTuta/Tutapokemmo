@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-10-16T15:50:51.646Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-16T15:55:47.400Z",
+  "swarms": [
+    {
+      "monsterId": 213,
+      "pokemon": "Shuckle",
+      "region": "Sinnoh",
+      "location": "Route 219",
+      "sourceId": 1792167445,
+      "despawnTimestamp": 1792167445,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-16T16:17:25.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Johto",
       "location": "Route 39",
-      "secondsAgo": 2645,
-      "sourceId": 1792163206
+      "secondsAgo": 2940,
+      "sourceId": 1792163207
     },
     {
       "monsterId": 258,
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 13875,
+      "secondsAgo": 14171,
       "sourceId": 1792151976
-    },
-    {
-      "monsterId": 204,
-      "pokemon": "Pineco",
-      "region": "Sinnoh",
-      "location": "Route 207",
-      "secondsAgo": 4092,
-      "sourceId": 1792161759
     },
     {
       "monsterId": 125,
       "pokemon": "Electabuzz",
       "region": "Unova",
       "location": "Chargestone Cave",
-      "secondsAgo": 1813,
+      "secondsAgo": 2109,
       "sourceId": 1792164038
     }
   ],
