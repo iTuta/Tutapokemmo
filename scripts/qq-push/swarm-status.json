@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-16T09:50:55.455Z",
+  "fetchedAt": "2026-10-16T09:55:44.903Z",
   "swarms": [
-    {
-      "monsterId": 190,
-      "pokemon": "Aipom",
-      "region": "Johto",
-      "location": "Route 29",
-      "sourceId": 1792144415,
-      "despawnTimestamp": 1792144415,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-16T09:53:35.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 517,
       "pokemon": "Munna",
@@ -30,15 +19,23 @@
       "pokemon": "Sentret",
       "region": "Kanto",
       "location": "Route 1",
-      "secondsAgo": 10601,
-      "sourceId": 1792133654
+      "secondsAgo": 10891,
+      "sourceId": 1792133653
+    },
+    {
+      "monsterId": 190,
+      "pokemon": "Aipom",
+      "region": "Johto",
+      "location": "Route 29",
+      "secondsAgo": 1629,
+      "sourceId": 1792142915
     },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Sinnoh",
       "location": "Route 219",
-      "secondsAgo": 19490,
+      "secondsAgo": 19779,
       "sourceId": 1792124765
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Volbeat",
       "region": "Unova",
       "location": "Route 8",
-      "secondsAgo": 7021,
-      "sourceId": 1792137234
+      "secondsAgo": 7311,
+      "sourceId": 1792137233
     }
   ],
   "alpha": {
