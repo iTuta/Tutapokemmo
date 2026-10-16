@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-16T00:16:03.568Z",
+  "fetchedAt": "2026-10-16T00:20:53.158Z",
   "swarms": [
     {
       "monsterId": 359,
@@ -7,27 +7,30 @@
       "region": "Kanto",
       "location": "Sevault Canyon",
       "sourceId": 1792111129,
-      "despawnTimestamp": 1792111128,
+      "despawnTimestamp": 1792111129,
       "hasValuable": false,
       "timestampUtc": "2026-10-16T00:38:49.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 241,
+      "pokemon": "Miltank",
+      "region": "Johto",
+      "location": "Route 39",
+      "sourceId": 1792111479,
+      "despawnTimestamp": 1792111479,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-16T00:44:39.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Johto",
-      "location": "Burned Tower",
-      "secondsAgo": 10904,
-      "sourceId": 1792098859
-    },
-    {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Hoenn",
       "location": "Route 126",
-      "secondsAgo": 6267,
+      "secondsAgo": 6557,
       "sourceId": 1792103496
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Turtwig",
       "region": "Sinnoh",
       "location": "Route 203",
-      "secondsAgo": 2717,
+      "secondsAgo": 3007,
       "sourceId": 1792107046
     },
     {
@@ -43,8 +46,8 @@
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 1598,
-      "sourceId": 1792108165
+      "secondsAgo": 1887,
+      "sourceId": 1792108166
     }
   ],
   "alpha": {
