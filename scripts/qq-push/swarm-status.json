@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-10-16T17:45:52.299Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-16T17:50:48.636Z",
+  "swarms": [
+    {
+      "monsterId": 438,
+      "pokemon": "Bonsly",
+      "region": "Sinnoh",
+      "location": "Eterna Forest",
+      "sourceId": 1792174308,
+      "despawnTimestamp": 1792174307,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-16T18:11:48.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 139,
       "pokemon": "Omastar",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 12351,
-      "sourceId": 1792160401
+      "secondsAgo": 12648,
+      "sourceId": 1792160400
     },
     {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Johto",
       "location": "Route 26",
-      "secondsAgo": 2744,
+      "secondsAgo": 3040,
       "sourceId": 1792170008
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 20776,
+      "secondsAgo": 21072,
       "sourceId": 1792151976
-    },
-    {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Sinnoh",
-      "location": "Route 219",
-      "secondsAgo": 6806,
-      "sourceId": 1792165946
     },
     {
       "monsterId": 125,
       "pokemon": "Electabuzz",
       "region": "Unova",
       "location": "Chargestone Cave",
-      "secondsAgo": 8714,
+      "secondsAgo": 9010,
       "sourceId": 1792164038
     }
   ],
