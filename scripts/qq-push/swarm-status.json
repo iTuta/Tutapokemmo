@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-16T22:36:00.528Z",
+  "fetchedAt": "2026-10-16T22:40:45.411Z",
   "swarms": [
-    {
-      "monsterId": 369,
-      "pokemon": "Relicanth",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "sourceId": 1792190330,
-      "despawnTimestamp": 1792190330,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-16T22:38:50.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 113,
       "pokemon": "Chansey",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 369,
+      "pokemon": "Relicanth",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "secondsAgo": 1614,
+      "sourceId": 1792188831
+    },
+    {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Johto",
       "location": "Route 26",
-      "secondsAgo": 20152,
+      "secondsAgo": 20437,
       "sourceId": 1792170008
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 6274,
+      "secondsAgo": 6559,
       "sourceId": 1792183886
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Crawdaunt",
       "region": "Unova",
       "location": "Route 3",
-      "secondsAgo": 6526,
+      "secondsAgo": 6811,
       "sourceId": 1792183634
     }
   ],
