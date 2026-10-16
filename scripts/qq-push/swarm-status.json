@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-16T01:31:04.391Z",
+  "fetchedAt": "2026-10-16T01:35:45.047Z",
   "swarms": [
+    {
+      "monsterId": 213,
+      "pokemon": "Shuckle",
+      "region": "Johto",
+      "location": "Cliff Cave",
+      "sourceId": 1792114823,
+      "despawnTimestamp": 1792114823,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-16T01:40:23.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
@@ -30,23 +41,15 @@
       "pokemon": "Absol",
       "region": "Kanto",
       "location": "Sevault Canyon",
-      "secondsAgo": 4635,
-      "sourceId": 1792109629
-    },
-    {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Johto",
-      "location": "Cliff Cave",
-      "secondsAgo": 1427,
-      "sourceId": 1792112837
+      "secondsAgo": 4915,
+      "sourceId": 1792109630
     },
     {
       "monsterId": 331,
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 6098,
+      "secondsAgo": 6379,
       "sourceId": 1792108166
     }
   ],
