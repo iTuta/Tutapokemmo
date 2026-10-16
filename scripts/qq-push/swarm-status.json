@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-16T19:15:56.518Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-16T19:20:49.359Z",
+  "swarms": [
     {
-      "monsterId": 139,
-      "pokemon": "Omastar",
+      "monsterId": 328,
+      "pokemon": "Trapinch",
       "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 17756,
-      "sourceId": 1792160400
-    },
+      "location": "Diglett&#x27;s Cave",
+      "sourceId": 1792179848,
+      "despawnTimestamp": 1792179848,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-16T19:44:08.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Johto",
       "location": "Route 26",
-      "secondsAgo": 8148,
+      "secondsAgo": 8441,
       "sourceId": 1792170008
     },
     {
@@ -23,15 +27,15 @@
       "pokemon": "Castform",
       "region": "Hoenn",
       "location": "Aqua Hideout",
-      "secondsAgo": 2768,
-      "sourceId": 1792175388
+      "secondsAgo": 3060,
+      "sourceId": 1792175389
     },
     {
       "monsterId": 438,
       "pokemon": "Bonsly",
       "region": "Sinnoh",
       "location": "Eterna Forest",
-      "secondsAgo": 5348,
+      "secondsAgo": 5641,
       "sourceId": 1792172808
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Scizor",
       "region": "Unova",
       "location": "Route 14",
-      "secondsAgo": 2772,
+      "secondsAgo": 3065,
       "sourceId": 1792175384
     }
   ],
