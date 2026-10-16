@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-16T11:45:55.735Z",
+  "fetchedAt": "2026-10-16T11:50:52.561Z",
   "swarms": [
-    {
-      "monsterId": 312,
-      "pokemon": "Minun",
-      "region": "Kanto",
-      "location": "Route 22",
-      "sourceId": 1792151259,
-      "despawnTimestamp": 1792151259,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-16T11:47:39.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 312,
+      "pokemon": "Minun",
+      "region": "Kanto",
+      "location": "Route 22",
+      "secondsAgo": 1692,
+      "sourceId": 1792149760
+    },
+    {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Johto",
       "location": "Route 29",
-      "secondsAgo": 8239,
+      "secondsAgo": 8536,
       "sourceId": 1792142916
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 6918,
+      "secondsAgo": 7215,
       "sourceId": 1792144237
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Furret",
       "region": "Unova",
       "location": "Abundant Shrine",
-      "secondsAgo": 5298,
+      "secondsAgo": 5595,
       "sourceId": 1792145857
     }
   ],
