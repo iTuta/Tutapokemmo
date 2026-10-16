@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-16T07:50:54.606Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-16T07:55:55.143Z",
+  "swarms": [
+    {
+      "monsterId": 313,
+      "pokemon": "Volbeat",
+      "region": "Unova",
+      "location": "Route 8",
+      "sourceId": 1792138733,
+      "despawnTimestamp": 1792138733,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-16T08:18:53.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 11122,
+      "secondsAgo": 11423,
       "sourceId": 1792125932
     },
     {
@@ -15,24 +27,16 @@
       "pokemon": "Kecleon",
       "region": "Hoenn",
       "location": "Route 120",
-      "secondsAgo": 1649,
-      "sourceId": 1792135405
+      "secondsAgo": 1949,
+      "sourceId": 1792135406
     },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Sinnoh",
       "location": "Route 219",
-      "secondsAgo": 12289,
-      "sourceId": 1792124765
-    },
-    {
-      "monsterId": 162,
-      "pokemon": "Furret",
-      "region": "Unova",
-      "location": "Abundant Shrine",
-      "secondsAgo": 8270,
-      "sourceId": 1792128784
+      "secondsAgo": 12589,
+      "sourceId": 1792124766
     }
   ],
   "alpha": {
