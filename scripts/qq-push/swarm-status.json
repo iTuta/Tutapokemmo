@@ -1,38 +1,45 @@
 {
-  "fetchedAt": "2026-10-16T20:20:53.568Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-16T20:25:47.923Z",
+  "swarms": [
     {
-      "monsterId": 328,
-      "pokemon": "Trapinch",
+      "monsterId": 242,
+      "pokemon": "Blissey",
       "region": "Kanto",
-      "location": "Diglett&#x27;s Cave",
-      "secondsAgo": 3704,
-      "sourceId": 1792178349
+      "location": "Three Island",
+      "sourceId": 1792183790,
+      "despawnTimestamp": 1792183789,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-16T20:49:50.000Z",
+      "publishedBy": ""
     },
+    {
+      "monsterId": 204,
+      "pokemon": "Pineco",
+      "region": "Sinnoh",
+      "location": "Route 207",
+      "sourceId": 1792183694,
+      "despawnTimestamp": 1792183693,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-16T20:48:14.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 351,
       "pokemon": "Castform",
       "region": "Hoenn",
       "location": "Aqua Hideout",
-      "secondsAgo": 6665,
+      "secondsAgo": 6959,
       "sourceId": 1792175388
-    },
-    {
-      "monsterId": 438,
-      "pokemon": "Bonsly",
-      "region": "Sinnoh",
-      "location": "Eterna Forest",
-      "secondsAgo": 9245,
-      "sourceId": 1792172808
     },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 3439,
-      "sourceId": 1792178614
+      "secondsAgo": 3734,
+      "sourceId": 1792178613
     }
   ],
   "alpha": {
