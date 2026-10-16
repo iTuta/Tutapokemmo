@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-16T22:20:52.057Z",
+  "fetchedAt": "2026-10-16T22:25:46.086Z",
   "swarms": [
     {
       "monsterId": 369,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-16T22:38:50.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 113,
+      "pokemon": "Chansey",
+      "region": "Sinnoh",
+      "location": "Trophy Garden",
+      "sourceId": 1792190818,
+      "despawnTimestamp": 1792190818,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-16T22:46:58.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Skarmory",
       "region": "Johto",
       "location": "Route 26",
-      "secondsAgo": 19244,
+      "secondsAgo": 19538,
       "sourceId": 1792170008
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 5366,
+      "secondsAgo": 5660,
       "sourceId": 1792183886
-    },
-    {
-      "monsterId": 204,
-      "pokemon": "Pineco",
-      "region": "Sinnoh",
-      "location": "Route 207",
-      "secondsAgo": 7057,
-      "sourceId": 1792182195
     },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
       "region": "Unova",
       "location": "Route 3",
-      "secondsAgo": 5618,
+      "secondsAgo": 5912,
       "sourceId": 1792183634
     }
   ],
