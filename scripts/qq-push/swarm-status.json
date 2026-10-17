@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-17T03:55:54.290Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-17T04:01:13.363Z",
+  "swarms": [
+    {
+      "monsterId": 389,
+      "pokemon": "Torterra",
+      "region": "Sinnoh",
+      "location": "Route 212",
+      "sourceId": 1792211028,
+      "despawnTimestamp": 1792211028,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-17T04:23:48.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Kanto",
       "location": "Pokemon Tower",
-      "secondsAgo": 2074,
+      "secondsAgo": 2393,
       "sourceId": 1792207280
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Sharpedo",
       "region": "Johto",
       "location": "Route 41",
-      "secondsAgo": 4328,
+      "secondsAgo": 4647,
       "sourceId": 1792205026
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Drifloon",
       "region": "Hoenn",
       "location": "Route 105",
-      "secondsAgo": 7119,
-      "sourceId": 1792202235
-    },
-    {
-      "monsterId": 248,
-      "pokemon": "Tyranitar",
-      "region": "Sinnoh",
-      "location": "Stark Mountain",
-      "secondsAgo": 3713,
-      "sourceId": 1792205641
+      "secondsAgo": 7439,
+      "sourceId": 1792202234
     },
     {
       "monsterId": 106,
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "secondsAgo": 4163,
+      "secondsAgo": 4482,
       "sourceId": 1792205191
     }
   ],
