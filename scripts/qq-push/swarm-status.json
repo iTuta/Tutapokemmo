@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-17T22:05:44.450Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-17T22:10:51.695Z",
+  "swarms": [
+    {
+      "monsterId": 438,
+      "pokemon": "Bonsly",
+      "region": "Sinnoh",
+      "location": "Eterna Forest",
+      "sourceId": 1792276428,
+      "despawnTimestamp": 1792276427,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-17T22:33:48.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 161,
       "pokemon": "Sentret",
       "region": "Kanto",
       "location": "Route 1",
-      "secondsAgo": 12084,
+      "secondsAgo": 12391,
       "sourceId": 1792262660
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Misdreavus",
       "region": "Johto",
       "location": "Sprout Tower",
-      "secondsAgo": 3879,
+      "secondsAgo": 4186,
       "sourceId": 1792270865
-    },
-    {
-      "monsterId": 113,
-      "pokemon": "Chansey",
-      "region": "Sinnoh",
-      "location": "Trophy Garden",
-      "secondsAgo": 6777,
-      "sourceId": 1792267967
     },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 6388,
+      "secondsAgo": 6695,
       "sourceId": 1792268356
     }
   ],
