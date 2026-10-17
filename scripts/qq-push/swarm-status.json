@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-17T14:20:49.197Z",
+  "fetchedAt": "2026-10-17T14:25:46.112Z",
   "swarms": [
+    {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Kanto",
+      "location": "Route 4",
+      "sourceId": 1792248559,
+      "despawnTimestamp": 1792248559,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-17T14:49:19.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 438,
       "pokemon": "Bonsly",
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Kanto",
-      "location": "Pokemon Tower",
-      "secondsAgo": 8011,
-      "sourceId": 1792238838
-    },
-    {
       "monsterId": 372,
       "pokemon": "Shelgon",
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
-      "secondsAgo": 4915,
+      "secondsAgo": 5212,
       "sourceId": 1792241934
     },
     {
@@ -46,7 +49,7 @@
       "pokemon": "Castform",
       "region": "Hoenn",
       "location": "Aqua Hideout",
-      "secondsAgo": 4983,
+      "secondsAgo": 5280,
       "sourceId": 1792241866
     }
   ],
