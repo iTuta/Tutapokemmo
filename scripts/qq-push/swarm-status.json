@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-17T03:20:53.485Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-17T03:25:59.964Z",
+  "swarms": [
     {
-      "monsterId": 413,
-      "pokemon": "Wormadam",
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
       "region": "Kanto",
-      "location": "Pattern Bush",
-      "secondsAgo": 4290,
-      "sourceId": 1792202963
-    },
+      "location": "Pokemon Tower",
+      "sourceId": 1792208659,
+      "despawnTimestamp": 1792208658,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-17T03:44:19.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Johto",
       "location": "Route 41",
-      "secondsAgo": 2227,
-      "sourceId": 1792205026
+      "secondsAgo": 2534,
+      "sourceId": 1792205025
     },
     {
       "monsterId": 248,
       "pokemon": "Tyranitar",
       "region": "Sinnoh",
       "location": "Stark Mountain",
-      "secondsAgo": 1613,
+      "secondsAgo": 1919,
       "sourceId": 1792205640
     },
     {
@@ -31,8 +35,8 @@
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "secondsAgo": 2062,
-      "sourceId": 1792205191
+      "secondsAgo": 2369,
+      "sourceId": 1792205190
     }
   ],
   "alpha": {
