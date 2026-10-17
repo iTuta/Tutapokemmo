@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-17T22:45:49.360Z",
+  "fetchedAt": "2026-10-17T22:50:53.655Z",
   "swarms": [
-    {
-      "monsterId": 3,
-      "pokemon": "Venusaur",
-      "region": "Kanto",
-      "location": "Berry Forest",
-      "sourceId": 1792277226,
-      "despawnTimestamp": 1792277226,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-17T22:47:06.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 450,
       "pokemon": "Hippowdon",
@@ -26,20 +15,28 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 3,
+      "pokemon": "Venusaur",
+      "region": "Kanto",
+      "location": "Berry Forest",
+      "secondsAgo": 1726,
+      "sourceId": 1792275727
+    },
+    {
       "monsterId": 358,
       "pokemon": "Chimecho",
       "region": "Johto",
       "location": "Bellchime Trail",
-      "secondsAgo": 1762,
-      "sourceId": 1792275387
+      "secondsAgo": 2067,
+      "sourceId": 1792275386
     },
     {
       "monsterId": 438,
       "pokemon": "Bonsly",
       "region": "Sinnoh",
       "location": "Eterna Forest",
-      "secondsAgo": 2220,
-      "sourceId": 1792274929
+      "secondsAgo": 2525,
+      "sourceId": 1792274928
     }
   ],
   "alpha": {
