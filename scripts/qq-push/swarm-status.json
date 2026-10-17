@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-10-17T12:01:12.490Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-17T12:05:49.904Z",
+  "swarms": [
+    {
+      "monsterId": 258,
+      "pokemon": "Mudkip",
+      "region": "Hoenn",
+      "location": "Route 104",
+      "sourceId": 1792240116,
+      "despawnTimestamp": 1792240115,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-17T12:28:36.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 346,
       "pokemon": "Cradily",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 6080,
-      "sourceId": 1792232392
+      "secondsAgo": 6358,
+      "sourceId": 1792232391
     },
     {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Johto",
       "location": "Route 43",
-      "secondsAgo": 5536,
+      "secondsAgo": 5813,
       "sourceId": 1792232936
-    },
-    {
-      "monsterId": 352,
-      "pokemon": "Kecleon",
-      "region": "Hoenn",
-      "location": "Route 120",
-      "secondsAgo": 3619,
-      "sourceId": 1792234853
     },
     {
       "monsterId": 389,
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 3349,
+      "secondsAgo": 3626,
       "sourceId": 1792235123
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Munna",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 12111,
+      "secondsAgo": 12388,
       "sourceId": 1792226361
     }
   ],
