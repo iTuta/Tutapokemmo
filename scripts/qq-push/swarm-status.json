@@ -1,44 +1,37 @@
 {
-  "fetchedAt": "2026-10-17T13:21:02.181Z",
-  "swarms": [
-    {
-      "monsterId": 372,
-      "pokemon": "Shelgon",
-      "region": "Johto",
-      "location": "Dragon&#x27;s Den",
-      "sourceId": 1792243433,
-      "despawnTimestamp": 1792243433,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-17T13:23:53.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 351,
-      "pokemon": "Castform",
-      "region": "Hoenn",
-      "location": "Aqua Hideout",
-      "sourceId": 1792243365,
-      "despawnTimestamp": 1792243365,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-17T13:22:45.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-17T13:25:59.639Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Kanto",
       "location": "Pokemon Tower",
-      "secondsAgo": 4424,
+      "secondsAgo": 4721,
       "sourceId": 1792238838
+    },
+    {
+      "monsterId": 372,
+      "pokemon": "Shelgon",
+      "region": "Johto",
+      "location": "Dragon&#x27;s Den",
+      "secondsAgo": 1626,
+      "sourceId": 1792241933
+    },
+    {
+      "monsterId": 351,
+      "pokemon": "Castform",
+      "region": "Hoenn",
+      "location": "Aqua Hideout",
+      "secondsAgo": 1694,
+      "sourceId": 1792241865
     },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Sinnoh",
       "location": "Route 201",
-      "secondsAgo": 2002,
+      "secondsAgo": 2299,
       "sourceId": 1792241260
     },
     {
@@ -46,8 +39,8 @@
       "pokemon": "Cherubi",
       "region": "Unova",
       "location": "Route 16",
-      "secondsAgo": 1891,
-      "sourceId": 1792241371
+      "secondsAgo": 2189,
+      "sourceId": 1792241370
     }
   ],
   "alpha": {
