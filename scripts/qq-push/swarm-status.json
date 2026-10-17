@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-17T14:35:48.576Z",
+  "fetchedAt": "2026-10-17T14:40:55.491Z",
   "swarms": [
     {
       "monsterId": 517,
@@ -22,28 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-17T14:53:07.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 438,
-      "pokemon": "Bonsly",
-      "region": "Sinnoh",
-      "location": "Eterna Forest",
-      "sourceId": 1792247876,
-      "despawnTimestamp": 1792247876,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-17T14:37:56.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Unova",
-      "location": "Relic Castle",
-      "sourceId": 1792247778,
-      "despawnTimestamp": 1792247778,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-17T14:36:18.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -52,8 +30,24 @@
       "pokemon": "Castform",
       "region": "Hoenn",
       "location": "Aqua Hideout",
-      "secondsAgo": 5882,
+      "secondsAgo": 6189,
       "sourceId": 1792241866
+    },
+    {
+      "monsterId": 438,
+      "pokemon": "Bonsly",
+      "region": "Sinnoh",
+      "location": "Eterna Forest",
+      "secondsAgo": 1678,
+      "sourceId": 1792246377
+    },
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Unova",
+      "location": "Relic Castle",
+      "secondsAgo": 1776,
+      "sourceId": 1792246279
     }
   ],
   "alpha": {
