@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-17T09:50:51.926Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-17T09:55:43.560Z",
+  "swarms": [
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Hoenn",
+      "location": "Route 101",
+      "sourceId": 1792232283,
+      "despawnTimestamp": 1792232282,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-17T10:18:03.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 359,
       "pokemon": "Absol",
       "region": "Kanto",
       "location": "Canyon Entrance",
-      "secondsAgo": 2657,
+      "secondsAgo": 2949,
       "sourceId": 1792227994
     },
     {
@@ -15,24 +27,16 @@
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 5673,
-      "sourceId": 1792224978
-    },
-    {
-      "monsterId": 358,
-      "pokemon": "Chimecho",
-      "region": "Hoenn",
-      "location": "Mt. Pyre",
-      "secondsAgo": 12307,
-      "sourceId": 1792218344
+      "secondsAgo": 5964,
+      "sourceId": 1792224979
     },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Sinnoh",
       "location": "Route 201",
-      "secondsAgo": 7005,
-      "sourceId": 1792223646
+      "secondsAgo": 7296,
+      "sourceId": 1792223647
     }
   ],
   "alpha": {
