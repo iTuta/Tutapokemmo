@@ -1,33 +1,29 @@
 {
-  "fetchedAt": "2026-10-17T21:25:51.105Z",
-  "swarms": [
-    {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Johto",
-      "location": "Sprout Tower",
-      "sourceId": 1792272365,
-      "despawnTimestamp": 1792272365,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-17T21:26:05.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-17T21:31:03.243Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 161,
       "pokemon": "Sentret",
       "region": "Kanto",
       "location": "Route 1",
-      "secondsAgo": 9690,
+      "secondsAgo": 10002,
       "sourceId": 1792262661
+    },
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Johto",
+      "location": "Sprout Tower",
+      "secondsAgo": 1797,
+      "sourceId": 1792270866
     },
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Hoenn",
       "location": "Shoal Cave",
-      "secondsAgo": 3168,
+      "secondsAgo": 3480,
       "sourceId": 1792269183
     },
     {
@@ -35,7 +31,7 @@
       "pokemon": "Chansey",
       "region": "Sinnoh",
       "location": "Trophy Garden",
-      "secondsAgo": 4383,
+      "secondsAgo": 4695,
       "sourceId": 1792267968
     },
     {
@@ -43,7 +39,7 @@
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 3995,
+      "secondsAgo": 4307,
       "sourceId": 1792268356
     }
   ],
