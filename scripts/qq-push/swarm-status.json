@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-17T09:05:49.087Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-17T09:10:47.248Z",
+  "swarms": [
     {
-      "monsterId": 314,
-      "pokemon": "Illumise",
+      "monsterId": 359,
+      "pokemon": "Absol",
       "region": "Kanto",
-      "location": "Water Path",
-      "secondsAgo": 8480,
-      "sourceId": 1792219469
-    },
+      "location": "Canyon Entrance",
+      "sourceId": 1792229493,
+      "despawnTimestamp": 1792229493,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-17T09:31:33.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 2970,
+      "secondsAgo": 3268,
       "sourceId": 1792224979
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
-      "secondsAgo": 9604,
+      "secondsAgo": 9902,
       "sourceId": 1792218345
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Shroomish",
       "region": "Sinnoh",
       "location": "Route 201",
-      "secondsAgo": 4302,
+      "secondsAgo": 4600,
       "sourceId": 1792223647
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Munna",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 1588,
+      "secondsAgo": 1886,
       "sourceId": 1792226361
     }
   ],
