@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-17T03:05:51.395Z",
+  "fetchedAt": "2026-10-17T03:10:50.270Z",
   "swarms": [
-    {
-      "monsterId": 319,
-      "pokemon": "Sharpedo",
-      "region": "Johto",
-      "location": "Route 41",
-      "sourceId": 1792206525,
-      "despawnTimestamp": 1792206525,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-17T03:08:45.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 248,
       "pokemon": "Tyranitar",
       "region": "Sinnoh",
       "location": "Stark Mountain",
       "sourceId": 1792207140,
-      "despawnTimestamp": 1792207139,
+      "despawnTimestamp": 1792207140,
       "hasValuable": false,
       "timestampUtc": "2026-10-17T03:19:00.000Z",
       "publishedBy": ""
@@ -41,8 +30,16 @@
       "pokemon": "Wormadam",
       "region": "Kanto",
       "location": "Pattern Bush",
-      "secondsAgo": 3388,
+      "secondsAgo": 3687,
       "sourceId": 1792202963
+    },
+    {
+      "monsterId": 319,
+      "pokemon": "Sharpedo",
+      "region": "Johto",
+      "location": "Route 41",
+      "secondsAgo": 1624,
+      "sourceId": 1792205026
     }
   ],
   "alpha": {
