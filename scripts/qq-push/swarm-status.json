@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-17T07:50:51.060Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-17T07:55:44.922Z",
+  "swarms": [
+    {
+      "monsterId": 285,
+      "pokemon": "Shroomish",
+      "region": "Sinnoh",
+      "location": "Route 201",
+      "sourceId": 1792225146,
+      "despawnTimestamp": 1792225146,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-17T08:19:06.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 314,
       "pokemon": "Illumise",
       "region": "Kanto",
       "location": "Water Path",
-      "secondsAgo": 3982,
+      "secondsAgo": 4275,
       "sourceId": 1792219469
     },
     {
@@ -15,32 +27,24 @@
       "pokemon": "Miltank",
       "region": "Johto",
       "location": "Route 39",
-      "secondsAgo": 8010,
-      "sourceId": 1792215441
+      "secondsAgo": 8304,
+      "sourceId": 1792215440
     },
     {
       "monsterId": 358,
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
-      "secondsAgo": 5106,
-      "sourceId": 1792218345
-    },
-    {
-      "monsterId": 389,
-      "pokemon": "Torterra",
-      "region": "Sinnoh",
-      "location": "Route 212",
-      "secondsAgo": 13922,
-      "sourceId": 1792209529
+      "secondsAgo": 5400,
+      "sourceId": 1792218344
     },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 8784,
-      "sourceId": 1792214667
+      "secondsAgo": 9078,
+      "sourceId": 1792214666
     }
   ],
   "alpha": {
