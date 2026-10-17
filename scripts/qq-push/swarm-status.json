@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-10-17T06:20:50.423Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-17T06:25:46.612Z",
+  "swarms": [
+    {
+      "monsterId": 358,
+      "pokemon": "Chimecho",
+      "region": "Hoenn",
+      "location": "Mt. Pyre",
+      "sourceId": 1792219844,
+      "despawnTimestamp": 1792219843,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-17T06:50:44.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Kanto",
       "location": "Pokemon Tower",
-      "secondsAgo": 10770,
-      "sourceId": 1792207280
+      "secondsAgo": 11067,
+      "sourceId": 1792207279
     },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Johto",
       "location": "Route 39",
-      "secondsAgo": 2610,
+      "secondsAgo": 2906,
       "sourceId": 1792215440
-    },
-    {
-      "monsterId": 425,
-      "pokemon": "Drifloon",
-      "region": "Hoenn",
-      "location": "Route 105",
-      "secondsAgo": 15816,
-      "sourceId": 1792202234
     },
     {
       "monsterId": 389,
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 8521,
+      "secondsAgo": 8817,
       "sourceId": 1792209529
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 3383,
-      "sourceId": 1792214667
+      "secondsAgo": 3680,
+      "sourceId": 1792214666
     }
   ],
   "alpha": {
