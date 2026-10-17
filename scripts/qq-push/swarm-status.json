@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-17T16:25:48.111Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-17T16:31:00.126Z",
+  "swarms": [
+    {
+      "monsterId": 288,
+      "pokemon": "Vigoroth",
+      "region": "Johto",
+      "location": "Ruins of Alph",
+      "sourceId": 1792256143,
+      "despawnTimestamp": 1792256143,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-17T16:55:43.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 517,
       "pokemon": "Munna",
       "region": "Kanto",
       "location": "Route 4",
-      "secondsAgo": 7288,
+      "secondsAgo": 7600,
       "sourceId": 1792247060
-    },
-    {
-      "monsterId": 176,
-      "pokemon": "Togetic",
-      "region": "Johto",
-      "location": "Route 27",
-      "secondsAgo": 7060,
-      "sourceId": 1792247288
     },
     {
       "monsterId": 351,
       "pokemon": "Castform",
       "region": "Hoenn",
       "location": "Aqua Hideout",
-      "secondsAgo": 12482,
+      "secondsAgo": 12794,
       "sourceId": 1792241866
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Burmy",
       "region": "Sinnoh",
       "location": "Route 202",
-      "secondsAgo": 2333,
+      "secondsAgo": 2645,
       "sourceId": 1792252015
     }
   ],
