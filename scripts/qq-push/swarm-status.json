@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-17T13:10:54.791Z",
+  "fetchedAt": "2026-10-17T13:15:51.810Z",
   "swarms": [
     {
       "monsterId": 372,
@@ -22,28 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-17T13:22:45.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 285,
-      "pokemon": "Shroomish",
-      "region": "Sinnoh",
-      "location": "Route 201",
-      "sourceId": 1792242759,
-      "despawnTimestamp": 1792242758,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-17T13:12:39.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 420,
-      "pokemon": "Cherubi",
-      "region": "Unova",
-      "location": "Route 16",
-      "sourceId": 1792242870,
-      "despawnTimestamp": 1792242869,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-17T13:14:30.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -52,8 +30,24 @@
       "pokemon": "Misdreavus",
       "region": "Kanto",
       "location": "Pokemon Tower",
-      "secondsAgo": 3817,
+      "secondsAgo": 4114,
       "sourceId": 1792238837
+    },
+    {
+      "monsterId": 285,
+      "pokemon": "Shroomish",
+      "region": "Sinnoh",
+      "location": "Route 201",
+      "secondsAgo": 1692,
+      "sourceId": 1792241259
+    },
+    {
+      "monsterId": 420,
+      "pokemon": "Cherubi",
+      "region": "Unova",
+      "location": "Route 16",
+      "secondsAgo": 1581,
+      "sourceId": 1792241370
     }
   ],
   "alpha": {
