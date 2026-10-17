@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-17T08:40:50.601Z",
+  "fetchedAt": "2026-10-17T08:45:50.322Z",
   "swarms": [
-    {
-      "monsterId": 176,
-      "pokemon": "Togetic",
-      "region": "Johto",
-      "location": "Route 27",
-      "sourceId": 1792226478,
-      "despawnTimestamp": 1792226478,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-17T08:41:18.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 517,
       "pokemon": "Munna",
@@ -30,15 +19,23 @@
       "pokemon": "Illumise",
       "region": "Kanto",
       "location": "Water Path",
-      "secondsAgo": 6981,
+      "secondsAgo": 7281,
       "sourceId": 1792219469
+    },
+    {
+      "monsterId": 176,
+      "pokemon": "Togetic",
+      "region": "Johto",
+      "location": "Route 27",
+      "secondsAgo": 1771,
+      "sourceId": 1792224979
     },
     {
       "monsterId": 358,
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
-      "secondsAgo": 8106,
+      "secondsAgo": 8406,
       "sourceId": 1792218344
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Shroomish",
       "region": "Sinnoh",
       "location": "Route 201",
-      "secondsAgo": 2803,
+      "secondsAgo": 3103,
       "sourceId": 1792223647
     }
   ],
