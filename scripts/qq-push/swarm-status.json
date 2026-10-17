@@ -1,13 +1,36 @@
 {
-  "fetchedAt": "2026-10-17T14:10:53.348Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-17T14:15:52.464Z",
+  "swarms": [
+    {
+      "monsterId": 438,
+      "pokemon": "Bonsly",
+      "region": "Sinnoh",
+      "location": "Eterna Forest",
+      "sourceId": 1792247876,
+      "despawnTimestamp": 1792247876,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-17T14:37:56.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Unova",
+      "location": "Relic Castle",
+      "sourceId": 1792247778,
+      "despawnTimestamp": 1792247778,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-17T14:36:18.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Kanto",
       "location": "Pokemon Tower",
-      "secondsAgo": 7415,
+      "secondsAgo": 7714,
       "sourceId": 1792238838
     },
     {
@@ -15,7 +38,7 @@
       "pokemon": "Shelgon",
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
-      "secondsAgo": 4320,
+      "secondsAgo": 4619,
       "sourceId": 1792241933
     },
     {
@@ -23,24 +46,8 @@
       "pokemon": "Castform",
       "region": "Hoenn",
       "location": "Aqua Hideout",
-      "secondsAgo": 4387,
+      "secondsAgo": 4686,
       "sourceId": 1792241866
-    },
-    {
-      "monsterId": 285,
-      "pokemon": "Shroomish",
-      "region": "Sinnoh",
-      "location": "Route 201",
-      "secondsAgo": 4993,
-      "sourceId": 1792241260
-    },
-    {
-      "monsterId": 420,
-      "pokemon": "Cherubi",
-      "region": "Unova",
-      "location": "Route 16",
-      "secondsAgo": 4882,
-      "sourceId": 1792241371
     }
   ],
   "alpha": {
