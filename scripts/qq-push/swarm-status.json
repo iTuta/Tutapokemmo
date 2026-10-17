@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-17T20:35:50.588Z",
+  "fetchedAt": "2026-10-17T20:40:45.330Z",
   "swarms": [
     {
       "monsterId": 131,
@@ -7,20 +7,9 @@
       "region": "Hoenn",
       "location": "Shoal Cave",
       "sourceId": 1792270682,
-      "despawnTimestamp": 1792270681,
+      "despawnTimestamp": 1792270682,
       "hasValuable": false,
       "timestampUtc": "2026-10-17T20:58:02.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 113,
-      "pokemon": "Chansey",
-      "region": "Sinnoh",
-      "location": "Trophy Garden",
-      "sourceId": 1792269467,
-      "despawnTimestamp": 1792269466,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-17T20:37:47.000Z",
       "publishedBy": ""
     },
     {
@@ -41,16 +30,24 @@
       "pokemon": "Sentret",
       "region": "Kanto",
       "location": "Route 1",
-      "secondsAgo": 6690,
-      "sourceId": 1792262660
+      "secondsAgo": 6984,
+      "sourceId": 1792262661
     },
     {
       "monsterId": 375,
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 9361,
+      "secondsAgo": 9656,
       "sourceId": 1792259989
+    },
+    {
+      "monsterId": 113,
+      "pokemon": "Chansey",
+      "region": "Sinnoh",
+      "location": "Trophy Garden",
+      "secondsAgo": 1677,
+      "sourceId": 1792267968
     }
   ],
   "alpha": {
