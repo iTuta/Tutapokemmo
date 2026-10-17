@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-17T22:20:55.278Z",
+  "fetchedAt": "2026-10-17T22:25:44.336Z",
   "swarms": [
+    {
+      "monsterId": 3,
+      "pokemon": "Venusaur",
+      "region": "Kanto",
+      "location": "Berry Forest",
+      "sourceId": 1792277226,
+      "despawnTimestamp": 1792277226,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-17T22:47:06.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 358,
       "pokemon": "Chimecho",
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 161,
-      "pokemon": "Sentret",
-      "region": "Kanto",
-      "location": "Route 1",
-      "secondsAgo": 12994,
-      "sourceId": 1792262661
-    },
-    {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 7299,
+      "secondsAgo": 7588,
       "sourceId": 1792268356
     }
   ],
