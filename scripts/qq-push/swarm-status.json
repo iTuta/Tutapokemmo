@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-10-17T19:05:43.911Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-17T19:10:51.276Z",
+  "swarms": [
+    {
+      "monsterId": 193,
+      "pokemon": "Yanma",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "sourceId": 1792265523,
+      "despawnTimestamp": 1792265522,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-17T19:32:03.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 161,
       "pokemon": "Sentret",
       "region": "Kanto",
       "location": "Route 1",
-      "secondsAgo": 1283,
-      "sourceId": 1792262660
+      "secondsAgo": 1590,
+      "sourceId": 1792262661
     },
     {
       "monsterId": 375,
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 3954,
+      "secondsAgo": 4262,
       "sourceId": 1792259989
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 1990,
+      "secondsAgo": 2298,
       "sourceId": 1792261953
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Heracross",
       "region": "Sinnoh",
       "location": "Route 206",
-      "secondsAgo": 4104,
+      "secondsAgo": 4412,
       "sourceId": 1792259839
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Unova",
-      "location": "Relic Castle",
-      "secondsAgo": 17664,
-      "sourceId": 1792246279
     }
   ],
   "alpha": {
