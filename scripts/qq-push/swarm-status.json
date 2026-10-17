@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-17T01:15:47.052Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-17T01:20:55.299Z",
+  "swarms": [
+    {
+      "monsterId": 358,
+      "pokemon": "Chimecho",
+      "region": "Sinnoh",
+      "location": "Acuity Lakefront",
+      "sourceId": 1792201270,
+      "despawnTimestamp": 1792201270,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-17T01:41:10.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 317,
       "pokemon": "Swalot",
       "region": "Kanto",
       "location": "Route 18",
-      "secondsAgo": 7677,
+      "secondsAgo": 7985,
       "sourceId": 1792192070
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 7067,
+      "secondsAgo": 7375,
       "sourceId": 1792192680
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Rotom",
       "region": "Hoenn",
       "location": "New Mauville",
-      "secondsAgo": 8673,
+      "secondsAgo": 8981,
       "sourceId": 1792191074
-    },
-    {
-      "monsterId": 113,
-      "pokemon": "Chansey",
-      "region": "Sinnoh",
-      "location": "Trophy Garden",
-      "secondsAgo": 10428,
-      "sourceId": 1792189319
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 4674,
+      "secondsAgo": 4982,
       "sourceId": 1792195073
     }
   ],
