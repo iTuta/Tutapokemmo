@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-17T01:55:49.145Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-17T02:01:18.173Z",
+  "swarms": [
+    {
+      "monsterId": 425,
+      "pokemon": "Drifloon",
+      "region": "Hoenn",
+      "location": "Route 105",
+      "sourceId": 1792203734,
+      "despawnTimestamp": 1792203734,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-17T02:22:14.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 317,
       "pokemon": "Swalot",
       "region": "Kanto",
       "location": "Route 18",
-      "secondsAgo": 10079,
+      "secondsAgo": 10408,
       "sourceId": 1792192070
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 9469,
+      "secondsAgo": 9798,
       "sourceId": 1792192680
-    },
-    {
-      "monsterId": 479,
-      "pokemon": "Rotom",
-      "region": "Hoenn",
-      "location": "New Mauville",
-      "secondsAgo": 11075,
-      "sourceId": 1792191074
     },
     {
       "monsterId": 358,
       "pokemon": "Chimecho",
       "region": "Sinnoh",
       "location": "Acuity Lakefront",
-      "secondsAgo": 2378,
+      "secondsAgo": 2707,
       "sourceId": 1792199771
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 7076,
+      "secondsAgo": 7405,
       "sourceId": 1792195073
     }
   ],
