@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-17T18:45:47.124Z",
+  "fetchedAt": "2026-10-17T18:50:48.693Z",
   "swarms": [
-    {
-      "monsterId": 161,
-      "pokemon": "Sentret",
-      "region": "Kanto",
-      "location": "Route 1",
-      "sourceId": 1792262960,
-      "despawnTimestamp": 1792262960,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-17T18:49:20.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 517,
       "pokemon": "Munna",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 161,
+      "pokemon": "Sentret",
+      "region": "Kanto",
+      "location": "Route 1",
+      "secondsAgo": 388,
+      "sourceId": 1792262660
+    },
+    {
       "monsterId": 375,
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 2758,
+      "secondsAgo": 3059,
       "sourceId": 1792259989
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Heracross",
       "region": "Sinnoh",
       "location": "Route 206",
-      "secondsAgo": 2908,
+      "secondsAgo": 3209,
       "sourceId": 1792259839
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 16468,
+      "secondsAgo": 16769,
       "sourceId": 1792246279
     }
   ],
