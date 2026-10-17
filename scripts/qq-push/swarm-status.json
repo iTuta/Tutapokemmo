@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-17T20:10:49.550Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-17T20:15:53.992Z",
+  "swarms": [
+    {
+      "monsterId": 113,
+      "pokemon": "Chansey",
+      "region": "Sinnoh",
+      "location": "Trophy Garden",
+      "sourceId": 1792269467,
+      "despawnTimestamp": 1792269466,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-17T20:37:47.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 161,
       "pokemon": "Sentret",
       "region": "Kanto",
       "location": "Route 1",
-      "secondsAgo": 5189,
+      "secondsAgo": 5493,
       "sourceId": 1792262660
     },
     {
@@ -15,31 +27,23 @@
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 7860,
-      "sourceId": 1792259989
+      "secondsAgo": 8165,
+      "sourceId": 1792259988
     },
     {
       "monsterId": 517,
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 5896,
-      "sourceId": 1792261953
-    },
-    {
-      "monsterId": 214,
-      "pokemon": "Heracross",
-      "region": "Sinnoh",
-      "location": "Route 206",
-      "secondsAgo": 8010,
-      "sourceId": 1792259839
+      "secondsAgo": 6201,
+      "sourceId": 1792261952
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 3826,
+      "secondsAgo": 4130,
       "sourceId": 1792264023
     }
   ],
