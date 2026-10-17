@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-17T02:50:52.290Z",
+  "fetchedAt": "2026-10-17T02:55:46.921Z",
   "swarms": [
     {
       "monsterId": 319,
@@ -7,9 +7,20 @@
       "region": "Johto",
       "location": "Route 41",
       "sourceId": 1792206525,
-      "despawnTimestamp": 1792206525,
+      "despawnTimestamp": 1792206524,
       "hasValuable": false,
       "timestampUtc": "2026-10-17T03:08:45.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 248,
+      "pokemon": "Tyranitar",
+      "region": "Sinnoh",
+      "location": "Stark Mountain",
+      "sourceId": 1792207140,
+      "despawnTimestamp": 1792207139,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-17T03:19:00.000Z",
       "publishedBy": ""
     },
     {
@@ -18,7 +29,7 @@
       "region": "Unova",
       "location": "Victory Road",
       "sourceId": 1792206690,
-      "despawnTimestamp": 1792206690,
+      "despawnTimestamp": 1792206689,
       "hasValuable": false,
       "timestampUtc": "2026-10-17T03:11:30.000Z",
       "publishedBy": ""
@@ -30,16 +41,8 @@
       "pokemon": "Wormadam",
       "region": "Kanto",
       "location": "Pattern Bush",
-      "secondsAgo": 2489,
+      "secondsAgo": 2783,
       "sourceId": 1792202963
-    },
-    {
-      "monsterId": 358,
-      "pokemon": "Chimecho",
-      "region": "Sinnoh",
-      "location": "Acuity Lakefront",
-      "secondsAgo": 5681,
-      "sourceId": 1792199771
     }
   ],
   "alpha": {
