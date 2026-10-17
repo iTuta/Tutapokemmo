@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-17T10:40:52.745Z",
+  "fetchedAt": "2026-10-17T10:45:55.362Z",
   "swarms": [
-    {
-      "monsterId": 346,
-      "pokemon": "Cradily",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "sourceId": 1792233891,
-      "despawnTimestamp": 1792233890,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-17T10:44:51.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Johto",
       "location": "Route 43",
       "sourceId": 1792234436,
-      "despawnTimestamp": 1792234435,
+      "despawnTimestamp": 1792234436,
       "hasValuable": false,
       "timestampUtc": "2026-10-17T10:53:56.000Z",
       "publishedBy": ""
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 346,
+      "pokemon": "Cradily",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "secondsAgo": 1563,
+      "sourceId": 1792232392
+    },
+    {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Hoenn",
       "location": "Route 101",
-      "secondsAgo": 2869,
+      "secondsAgo": 3172,
       "sourceId": 1792230783
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Shroomish",
       "region": "Sinnoh",
       "location": "Route 201",
-      "secondsAgo": 10005,
+      "secondsAgo": 10308,
       "sourceId": 1792223647
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Munna",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 7291,
+      "secondsAgo": 7594,
       "sourceId": 1792226361
     }
   ],
