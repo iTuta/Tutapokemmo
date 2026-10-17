@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-17T20:31:00.766Z",
+  "fetchedAt": "2026-10-17T20:35:50.588Z",
   "swarms": [
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Hoenn",
+      "location": "Shoal Cave",
+      "sourceId": 1792270682,
+      "despawnTimestamp": 1792270681,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-17T20:58:02.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 113,
       "pokemon": "Chansey",
@@ -30,7 +41,7 @@
       "pokemon": "Sentret",
       "region": "Kanto",
       "location": "Route 1",
-      "secondsAgo": 6400,
+      "secondsAgo": 6690,
       "sourceId": 1792262660
     },
     {
@@ -38,16 +49,8 @@
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 9071,
+      "secondsAgo": 9361,
       "sourceId": 1792259989
-    },
-    {
-      "monsterId": 517,
-      "pokemon": "Munna",
-      "region": "Hoenn",
-      "location": "Route 102",
-      "secondsAgo": 7108,
-      "sourceId": 1792261952
     }
   ],
   "alpha": {
