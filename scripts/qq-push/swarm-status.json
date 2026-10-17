@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-17T14:25:46.112Z",
+  "fetchedAt": "2026-10-17T14:31:10.287Z",
   "swarms": [
     {
       "monsterId": 517,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1792248559,
       "hasValuable": false,
       "timestampUtc": "2026-10-17T14:49:19.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 176,
+      "pokemon": "Togetic",
+      "region": "Johto",
+      "location": "Route 27",
+      "sourceId": 1792248787,
+      "despawnTimestamp": 1792248787,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-17T14:53:07.000Z",
       "publishedBy": ""
     },
     {
@@ -37,19 +48,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 372,
-      "pokemon": "Shelgon",
-      "region": "Johto",
-      "location": "Dragon&#x27;s Den",
-      "secondsAgo": 5212,
-      "sourceId": 1792241934
-    },
-    {
       "monsterId": 351,
       "pokemon": "Castform",
       "region": "Hoenn",
       "location": "Aqua Hideout",
-      "secondsAgo": 5280,
+      "secondsAgo": 5604,
       "sourceId": 1792241866
     }
   ],
