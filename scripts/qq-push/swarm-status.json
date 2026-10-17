@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-17T22:40:47.844Z",
+  "fetchedAt": "2026-10-17T22:45:49.360Z",
   "swarms": [
     {
       "monsterId": 3,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1792277226,
       "hasValuable": false,
       "timestampUtc": "2026-10-17T22:47:06.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 358,
-      "pokemon": "Chimecho",
-      "region": "Johto",
-      "location": "Bellchime Trail",
-      "sourceId": 1792276886,
-      "despawnTimestamp": 1792276885,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-17T22:41:26.000Z",
       "publishedBy": ""
     },
     {
@@ -37,12 +26,20 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 358,
+      "pokemon": "Chimecho",
+      "region": "Johto",
+      "location": "Bellchime Trail",
+      "secondsAgo": 1762,
+      "sourceId": 1792275387
+    },
+    {
       "monsterId": 438,
       "pokemon": "Bonsly",
       "region": "Sinnoh",
       "location": "Eterna Forest",
-      "secondsAgo": 1919,
-      "sourceId": 1792274928
+      "secondsAgo": 2220,
+      "sourceId": 1792274929
     }
   ],
   "alpha": {
