@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-18T19:05:50.478Z",
+  "fetchedAt": "2026-10-18T19:10:53.391Z",
   "swarms": [
     {
       "monsterId": 457,
@@ -24,17 +24,6 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 211,
-      "pokemon": "Qwilfish",
-      "region": "Hoenn",
-      "location": "Route 125",
-      "sourceId": 1792350578,
-      "despawnTimestamp": 1792350578,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-18T19:09:38.000Z",
-      "publishedBy": ""
-    },
-    {
       "monsterId": 387,
       "pokemon": "Turtwig",
       "region": "Sinnoh",
@@ -48,11 +37,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 211,
+      "pokemon": "Qwilfish",
+      "region": "Hoenn",
+      "location": "Route 125",
+      "secondsAgo": 1574,
+      "sourceId": 1792349079
+    },
+    {
       "monsterId": 106,
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "secondsAgo": 5125,
+      "secondsAgo": 5428,
       "sourceId": 1792345225
     }
   ],
