@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-18T01:15:49.552Z",
+  "fetchedAt": "2026-10-18T01:20:49.256Z",
   "swarms": [
     {
       "monsterId": 102,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-18T01:27:33.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 113,
-      "pokemon": "Chansey",
-      "region": "Sinnoh",
-      "location": "Trophy Garden",
-      "sourceId": 1792286294,
-      "despawnTimestamp": 1792286294,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-18T01:18:14.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Venusaur",
       "region": "Kanto",
       "location": "Berry Forest",
-      "secondsAgo": 10422,
+      "secondsAgo": 10722,
       "sourceId": 1792275727
     },
     {
@@ -38,16 +27,24 @@
       "pokemon": "Lapras",
       "region": "Hoenn",
       "location": "Shoal Cave",
-      "secondsAgo": 16967,
-      "sourceId": 1792269182
+      "secondsAgo": 17266,
+      "sourceId": 1792269183
+    },
+    {
+      "monsterId": 113,
+      "pokemon": "Chansey",
+      "region": "Sinnoh",
+      "location": "Trophy Garden",
+      "secondsAgo": 1234,
+      "sourceId": 1792285215
     },
     {
       "monsterId": 313,
       "pokemon": "Volbeat",
       "region": "Unova",
       "location": "Route 8",
-      "secondsAgo": 2562,
-      "sourceId": 1792283587
+      "secondsAgo": 2861,
+      "sourceId": 1792283588
     }
   ],
   "alpha": {
