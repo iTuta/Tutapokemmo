@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-10-18T14:55:50.104Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-18T15:01:11.962Z",
+  "swarms": [
+    {
+      "monsterId": 452,
+      "pokemon": "Drapion",
+      "region": "Sinnoh",
+      "location": "Route 213",
+      "sourceId": 1792336962,
+      "despawnTimestamp": 1792336962,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-18T15:22:42.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 1,
       "pokemon": "Bulbasaur",
       "region": "Kanto",
       "location": "Viridian Forest",
-      "secondsAgo": 3489,
-      "sourceId": 1792331861
+      "secondsAgo": 3811,
+      "sourceId": 1792331860
     },
     {
       "monsterId": 152,
       "pokemon": "Chikorita",
       "region": "Johto",
       "location": "Route 31",
-      "secondsAgo": 14509,
-      "sourceId": 1792320841
+      "secondsAgo": 14831,
+      "sourceId": 1792320840
     },
     {
       "monsterId": 256,
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Route 114",
-      "secondsAgo": 3342,
-      "sourceId": 1792332008
-    },
-    {
-      "monsterId": 387,
-      "pokemon": "Turtwig",
-      "region": "Sinnoh",
-      "location": "Route 203",
-      "secondsAgo": 10151,
-      "sourceId": 1792325199
+      "secondsAgo": 3664,
+      "sourceId": 1792332007
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 3193,
-      "sourceId": 1792332157
+      "secondsAgo": 3515,
+      "sourceId": 1792332156
     }
   ],
   "alpha": {
