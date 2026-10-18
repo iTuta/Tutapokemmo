@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-10-18T14:20:53.061Z",
+  "fetchedAt": "2026-10-18T14:25:48.285Z",
   "swarms": [
-    {
-      "monsterId": 1,
-      "pokemon": "Bulbasaur",
-      "region": "Kanto",
-      "location": "Viridian Forest",
-      "sourceId": 1792333360,
-      "despawnTimestamp": 1792333360,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-18T14:22:40.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 256,
-      "pokemon": "Combusken",
-      "region": "Hoenn",
-      "location": "Route 114",
-      "sourceId": 1792333506,
-      "despawnTimestamp": 1792333507,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-18T14:25:06.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
@@ -37,19 +15,35 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 1,
+      "pokemon": "Bulbasaur",
+      "region": "Kanto",
+      "location": "Viridian Forest",
+      "secondsAgo": 1688,
+      "sourceId": 1792331860
+    },
+    {
       "monsterId": 152,
       "pokemon": "Chikorita",
       "region": "Johto",
       "location": "Route 31",
-      "secondsAgo": 12413,
+      "secondsAgo": 12708,
       "sourceId": 1792320840
+    },
+    {
+      "monsterId": 256,
+      "pokemon": "Combusken",
+      "region": "Hoenn",
+      "location": "Route 114",
+      "secondsAgo": 1541,
+      "sourceId": 1792332007
     },
     {
       "monsterId": 387,
       "pokemon": "Turtwig",
       "region": "Sinnoh",
       "location": "Route 203",
-      "secondsAgo": 8055,
+      "secondsAgo": 8350,
       "sourceId": 1792325198
     }
   ],
