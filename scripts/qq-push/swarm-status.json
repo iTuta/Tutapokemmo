@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-10-18T04:11:02.362Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-18T04:15:55.600Z",
+  "swarms": [
+    {
+      "monsterId": 373,
+      "pokemon": "Salamence",
+      "region": "Unova",
+      "location": "Dragonspiral Tower",
+      "sourceId": 1792298276,
+      "despawnTimestamp": 1792298276,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-18T04:37:56.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Kanto",
       "location": "Route 7",
-      "secondsAgo": 5334,
-      "sourceId": 1792291328
+      "secondsAgo": 5628,
+      "sourceId": 1792291327
     },
     {
       "monsterId": 102,
       "pokemon": "Exeggcute",
       "region": "Johto",
       "location": "Route 30",
-      "secondsAgo": 11308,
+      "secondsAgo": 11601,
       "sourceId": 1792285354
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Swampert",
       "region": "Hoenn",
       "location": "Route 109",
-      "secondsAgo": 9310,
+      "secondsAgo": 9603,
       "sourceId": 1792287352
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Cloyster",
       "region": "Sinnoh",
       "location": "Route 223",
-      "secondsAgo": 1859,
+      "secondsAgo": 2152,
       "sourceId": 1792294803
-    },
-    {
-      "monsterId": 313,
-      "pokemon": "Volbeat",
-      "region": "Unova",
-      "location": "Route 8",
-      "secondsAgo": 13074,
-      "sourceId": 1792283588
     }
   ],
   "alpha": {
