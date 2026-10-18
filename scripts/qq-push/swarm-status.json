@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-18T10:50:56.364Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-18T10:55:46.396Z",
+  "swarms": [
+    {
+      "monsterId": 152,
+      "pokemon": "Chikorita",
+      "region": "Johto",
+      "location": "Route 31",
+      "sourceId": 1792322339,
+      "despawnTimestamp": 1792322339,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-18T11:18:59.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 313,
       "pokemon": "Volbeat",
       "region": "Kanto",
       "location": "Memorial Pillar",
-      "secondsAgo": 11276,
+      "secondsAgo": 11566,
       "sourceId": 1792309380
-    },
-    {
-      "monsterId": 121,
-      "pokemon": "Starmie",
-      "region": "Johto",
-      "location": "Cliff Edge Gate",
-      "secondsAgo": 10952,
-      "sourceId": 1792309704
     },
     {
       "monsterId": 258,
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 5087,
+      "secondsAgo": 5377,
       "sourceId": 1792315569
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Combee",
       "region": "Sinnoh",
       "location": "Floaroma Meadow",
-      "secondsAgo": 4113,
+      "secondsAgo": 4403,
       "sourceId": 1792316543
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Electabuzz",
       "region": "Unova",
       "location": "Chargestone Cave",
-      "secondsAgo": 12687,
-      "sourceId": 1792307969
+      "secondsAgo": 12978,
+      "sourceId": 1792307968
     }
   ],
   "alpha": {
