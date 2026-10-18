@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-18T16:45:55.073Z",
+  "fetchedAt": "2026-10-18T16:50:55.326Z",
   "swarms": [
+    {
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Kanto",
+      "location": "Kindle Road",
+      "sourceId": 1792343582,
+      "despawnTimestamp": 1792343582,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-18T17:13:02.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 359,
       "pokemon": "Absol",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 1,
-      "pokemon": "Bulbasaur",
-      "region": "Kanto",
-      "location": "Viridian Forest",
-      "secondsAgo": 10094,
-      "sourceId": 1792331861
-    },
-    {
       "monsterId": 429,
       "pokemon": "Mismagius",
       "region": "Hoenn",
       "location": "Route 122",
-      "secondsAgo": 3963,
+      "secondsAgo": 4263,
       "sourceId": 1792337992
     },
     {
@@ -35,16 +38,16 @@
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "secondsAgo": 1886,
-      "sourceId": 1792340069
+      "secondsAgo": 2187,
+      "sourceId": 1792340068
     },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 2922,
-      "sourceId": 1792339033
+      "secondsAgo": 3223,
+      "sourceId": 1792339032
     }
   ],
   "alpha": {
