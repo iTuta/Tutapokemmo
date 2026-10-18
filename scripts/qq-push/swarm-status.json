@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-18T02:35:53.729Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-18T02:41:04.444Z",
+  "swarms": [
+    {
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Sinnoh",
+      "location": "Valor Lakefront",
+      "sourceId": 1792292536,
+      "despawnTimestamp": 1792292536,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-18T03:02:16.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 3,
       "pokemon": "Venusaur",
       "region": "Kanto",
       "location": "Berry Forest",
-      "secondsAgo": 15226,
+      "secondsAgo": 15537,
       "sourceId": 1792275727
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Exeggcute",
       "region": "Johto",
       "location": "Route 30",
-      "secondsAgo": 5599,
+      "secondsAgo": 5910,
       "sourceId": 1792285354
-    },
-    {
-      "monsterId": 113,
-      "pokemon": "Chansey",
-      "region": "Sinnoh",
-      "location": "Trophy Garden",
-      "secondsAgo": 5738,
-      "sourceId": 1792285215
     },
     {
       "monsterId": 313,
       "pokemon": "Volbeat",
       "region": "Unova",
       "location": "Route 8",
-      "secondsAgo": 7366,
+      "secondsAgo": 7677,
       "sourceId": 1792283587
     }
   ],
