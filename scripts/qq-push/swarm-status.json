@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-18T22:01:01.247Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-18T22:05:45.402Z",
+  "swarms": [
+    {
+      "monsterId": 438,
+      "pokemon": "Bonsly",
+      "region": "Johto",
+      "location": "Ilex Forest",
+      "sourceId": 1792362362,
+      "despawnTimestamp": 1792362362,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-18T22:26:02.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 457,
       "pokemon": "Lumineon",
       "region": "Kanto",
       "location": "Route 12",
-      "secondsAgo": 11569,
-      "sourceId": 1792349292
-    },
-    {
-      "monsterId": 157,
-      "pokemon": "Typhlosion",
-      "region": "Johto",
-      "location": "Route 45",
-      "secondsAgo": 7958,
-      "sourceId": 1792352903
+      "secondsAgo": 11854,
+      "sourceId": 1792349291
     },
     {
       "monsterId": 387,
       "pokemon": "Turtwig",
       "region": "Sinnoh",
       "location": "Route 203",
-      "secondsAgo": 11273,
+      "secondsAgo": 11557,
       "sourceId": 1792349588
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Cherubi",
       "region": "Unova",
       "location": "Route 16",
-      "secondsAgo": 3957,
+      "secondsAgo": 4241,
       "sourceId": 1792356904
     }
   ],
