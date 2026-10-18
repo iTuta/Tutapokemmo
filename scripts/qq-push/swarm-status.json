@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-18T16:01:11.315Z",
+  "fetchedAt": "2026-10-18T16:05:49.231Z",
   "swarms": [
-    {
-      "monsterId": 429,
-      "pokemon": "Mismagius",
-      "region": "Hoenn",
-      "location": "Route 122",
-      "sourceId": 1792339491,
-      "despawnTimestamp": 1792339491,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-18T16:04:51.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
       "sourceId": 1792340532,
-      "despawnTimestamp": 1792340531,
+      "despawnTimestamp": 1792340532,
       "hasValuable": false,
       "timestampUtc": "2026-10-18T16:22:12.000Z",
       "publishedBy": ""
@@ -30,7 +19,7 @@
       "pokemon": "Bulbasaur",
       "region": "Kanto",
       "location": "Viridian Forest",
-      "secondsAgo": 7411,
+      "secondsAgo": 7689,
       "sourceId": 1792331860
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 2799,
+      "secondsAgo": 3077,
       "sourceId": 1792336472
+    },
+    {
+      "monsterId": 429,
+      "pokemon": "Mismagius",
+      "region": "Hoenn",
+      "location": "Route 122",
+      "secondsAgo": 1557,
+      "sourceId": 1792337992
     },
     {
       "monsterId": 452,
       "pokemon": "Drapion",
       "region": "Sinnoh",
       "location": "Route 213",
-      "secondsAgo": 3808,
+      "secondsAgo": 4086,
       "sourceId": 1792335463
     }
   ],
