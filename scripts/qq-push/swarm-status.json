@@ -1,29 +1,41 @@
 {
-  "fetchedAt": "2026-10-18T17:35:46.788Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-18T17:40:47.260Z",
+  "swarms": [
+    {
+      "monsterId": 106,
+      "pokemon": "Hitmonlee",
+      "region": "Unova",
+      "location": "Victory Road",
+      "sourceId": 1792346724,
+      "despawnTimestamp": 1792346724,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-18T18:05:24.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Kanto",
       "location": "Kindle Road",
-      "secondsAgo": 2864,
-      "sourceId": 1792342082
+      "secondsAgo": 3164,
+      "sourceId": 1792342083
     },
     {
       "monsterId": 359,
       "pokemon": "Absol",
       "region": "Johto",
       "location": "Route 28",
-      "secondsAgo": 3558,
-      "sourceId": 1792341388
+      "secondsAgo": 3858,
+      "sourceId": 1792341389
     },
     {
       "monsterId": 429,
       "pokemon": "Mismagius",
       "region": "Hoenn",
       "location": "Route 122",
-      "secondsAgo": 6954,
+      "secondsAgo": 7255,
       "sourceId": 1792337992
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "secondsAgo": 4878,
+      "secondsAgo": 5179,
       "sourceId": 1792340068
-    },
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Unova",
-      "location": "Route 1",
-      "secondsAgo": 5914,
-      "sourceId": 1792339032
     }
   ],
   "alpha": {
