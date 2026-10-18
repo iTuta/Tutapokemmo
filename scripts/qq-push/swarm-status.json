@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-10-18T04:01:05.744Z",
-  "swarms": [
-    {
-      "monsterId": 91,
-      "pokemon": "Cloyster",
-      "region": "Sinnoh",
-      "location": "Route 223",
-      "sourceId": 1792296302,
-      "despawnTimestamp": 1792296302,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-18T04:05:02.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-18T04:05:58.001Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Kanto",
       "location": "Route 7",
-      "secondsAgo": 4738,
+      "secondsAgo": 5030,
       "sourceId": 1792291327
     },
     {
@@ -27,23 +15,31 @@
       "pokemon": "Exeggcute",
       "region": "Johto",
       "location": "Route 30",
-      "secondsAgo": 10711,
-      "sourceId": 1792285354
+      "secondsAgo": 11004,
+      "sourceId": 1792285353
     },
     {
       "monsterId": 260,
       "pokemon": "Swampert",
       "region": "Hoenn",
       "location": "Route 109",
-      "secondsAgo": 8713,
+      "secondsAgo": 9005,
       "sourceId": 1792287352
+    },
+    {
+      "monsterId": 91,
+      "pokemon": "Cloyster",
+      "region": "Sinnoh",
+      "location": "Route 223",
+      "secondsAgo": 1555,
+      "sourceId": 1792294802
     },
     {
       "monsterId": 313,
       "pokemon": "Volbeat",
       "region": "Unova",
       "location": "Route 8",
-      "secondsAgo": 12478,
+      "secondsAgo": 12770,
       "sourceId": 1792283587
     }
   ],
