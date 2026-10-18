@@ -1,29 +1,44 @@
 {
-  "fetchedAt": "2026-10-18T13:55:45.452Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-18T14:01:07.509Z",
+  "swarms": [
     {
-      "monsterId": 346,
-      "pokemon": "Cradily",
+      "monsterId": 1,
+      "pokemon": "Bulbasaur",
       "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 10442,
-      "sourceId": 1792321303
+      "location": "Viridian Forest",
+      "sourceId": 1792333360,
+      "despawnTimestamp": 1792333359,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-18T14:22:40.000Z",
+      "publishedBy": ""
     },
     {
-      "monsterId": 299,
-      "pokemon": "Nosepass",
+      "monsterId": 256,
+      "pokemon": "Combusken",
       "region": "Hoenn",
-      "location": "Granite Cave",
-      "secondsAgo": 3113,
-      "sourceId": 1792328632
+      "location": "Route 114",
+      "sourceId": 1792333506,
+      "despawnTimestamp": 1792333506,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-18T14:25:06.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 152,
+      "pokemon": "Chikorita",
+      "region": "Johto",
+      "location": "Route 31",
+      "secondsAgo": 11227,
+      "sourceId": 1792320840
     },
     {
       "monsterId": 387,
       "pokemon": "Turtwig",
       "region": "Sinnoh",
       "location": "Route 203",
-      "secondsAgo": 6547,
+      "secondsAgo": 6869,
       "sourceId": 1792325198
     },
     {
@@ -31,7 +46,7 @@
       "pokemon": "Relicanth",
       "region": "Unova",
       "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 10171,
+      "secondsAgo": 10493,
       "sourceId": 1792321574
     }
   ],
@@ -45,6 +60,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-10-18T09:11:54.000Z",
     "timestampRaw": "2026-10-18T09:11:54.000Z",
-    "publishedBy": ""
+    "publishedBy": "lil&#x27;yek"
   }
 }
