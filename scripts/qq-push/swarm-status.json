@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-18T15:20:52.239Z",
+  "fetchedAt": "2026-10-18T15:25:52.799Z",
   "swarms": [
     {
       "monsterId": 375,
@@ -7,20 +7,9 @@
       "region": "Johto",
       "location": "Ice Path",
       "sourceId": 1792337971,
-      "despawnTimestamp": 1792337971,
+      "despawnTimestamp": 1792337970,
       "hasValuable": false,
       "timestampUtc": "2026-10-18T15:39:31.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 452,
-      "pokemon": "Drapion",
-      "region": "Sinnoh",
-      "location": "Route 213",
-      "sourceId": 1792336962,
-      "despawnTimestamp": 1792336962,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-18T15:22:42.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,7 +19,7 @@
       "pokemon": "Bulbasaur",
       "region": "Kanto",
       "location": "Viridian Forest",
-      "secondsAgo": 4992,
+      "secondsAgo": 5292,
       "sourceId": 1792331860
     },
     {
@@ -38,16 +27,24 @@
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Route 114",
-      "secondsAgo": 4845,
+      "secondsAgo": 5145,
       "sourceId": 1792332007
+    },
+    {
+      "monsterId": 452,
+      "pokemon": "Drapion",
+      "region": "Sinnoh",
+      "location": "Route 213",
+      "secondsAgo": 1689,
+      "sourceId": 1792335463
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 4695,
-      "sourceId": 1792332157
+      "secondsAgo": 4996,
+      "sourceId": 1792332156
     }
   ],
   "alpha": {
