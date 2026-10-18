@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-18T13:01:10.055Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-18T13:05:52.920Z",
+  "swarms": [
+    {
+      "monsterId": 299,
+      "pokemon": "Nosepass",
+      "region": "Hoenn",
+      "location": "Granite Cave",
+      "sourceId": 1792330132,
+      "despawnTimestamp": 1792330131,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-18T13:28:52.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 346,
       "pokemon": "Cradily",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 7167,
+      "secondsAgo": 7449,
       "sourceId": 1792321303
-    },
-    {
-      "monsterId": 258,
-      "pokemon": "Mudkip",
-      "region": "Hoenn",
-      "location": "Route 104",
-      "secondsAgo": 12901,
-      "sourceId": 1792315569
     },
     {
       "monsterId": 387,
       "pokemon": "Turtwig",
       "region": "Sinnoh",
       "location": "Route 203",
-      "secondsAgo": 3272,
+      "secondsAgo": 3554,
       "sourceId": 1792325198
     },
     {
@@ -31,8 +35,8 @@
       "pokemon": "Relicanth",
       "region": "Unova",
       "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 6896,
-      "sourceId": 1792321574
+      "secondsAgo": 7179,
+      "sourceId": 1792321573
     }
   ],
   "alpha": {
