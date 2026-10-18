@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-18T16:20:55.584Z",
+  "fetchedAt": "2026-10-18T16:25:57.497Z",
   "swarms": [
     {
       "monsterId": 359,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-18T16:39:28.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Unova",
-      "location": "Route 1",
-      "sourceId": 1792340532,
-      "despawnTimestamp": 1792340531,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-18T16:22:12.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Bulbasaur",
       "region": "Kanto",
       "location": "Viridian Forest",
-      "secondsAgo": 8595,
+      "secondsAgo": 8897,
       "sourceId": 1792331860
     },
     {
@@ -38,7 +27,7 @@
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 3984,
+      "secondsAgo": 4286,
       "sourceId": 1792336471
     },
     {
@@ -46,8 +35,16 @@
       "pokemon": "Mismagius",
       "region": "Hoenn",
       "location": "Route 122",
-      "secondsAgo": 2463,
+      "secondsAgo": 2765,
       "sourceId": 1792337992
+    },
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Unova",
+      "location": "Route 1",
+      "secondsAgo": 1725,
+      "sourceId": 1792339032
     }
   ],
   "alpha": {
