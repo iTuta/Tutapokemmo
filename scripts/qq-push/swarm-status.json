@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-18T02:41:04.444Z",
+  "fetchedAt": "2026-10-18T02:45:47.355Z",
   "swarms": [
+    {
+      "monsterId": 198,
+      "pokemon": "Murkrow",
+      "region": "Kanto",
+      "location": "Route 7",
+      "sourceId": 1792292827,
+      "despawnTimestamp": 1792292827,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-18T03:07:07.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 3,
-      "pokemon": "Venusaur",
-      "region": "Kanto",
-      "location": "Berry Forest",
-      "secondsAgo": 15537,
-      "sourceId": 1792275727
-    },
-    {
       "monsterId": 102,
       "pokemon": "Exeggcute",
       "region": "Johto",
       "location": "Route 30",
-      "secondsAgo": 5910,
+      "secondsAgo": 6193,
       "sourceId": 1792285354
     },
     {
@@ -35,8 +38,8 @@
       "pokemon": "Volbeat",
       "region": "Unova",
       "location": "Route 8",
-      "secondsAgo": 7677,
-      "sourceId": 1792283587
+      "secondsAgo": 7959,
+      "sourceId": 1792283588
     }
   ],
   "alpha": {
