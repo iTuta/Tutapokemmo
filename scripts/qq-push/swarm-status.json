@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-18T18:50:55.323Z",
+  "fetchedAt": "2026-10-18T18:55:44.628Z",
   "swarms": [
     {
       "monsterId": 457,
@@ -33,23 +33,26 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-18T19:09:38.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 387,
+      "pokemon": "Turtwig",
+      "region": "Sinnoh",
+      "location": "Route 203",
+      "sourceId": 1792351087,
+      "despawnTimestamp": 1792351087,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-18T19:18:07.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 359,
-      "pokemon": "Absol",
-      "region": "Sinnoh",
-      "location": "Mt. Coronet",
-      "secondsAgo": 9387,
-      "sourceId": 1792340068
-    },
     {
       "monsterId": 106,
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "secondsAgo": 4230,
+      "secondsAgo": 4519,
       "sourceId": 1792345225
     }
   ],
