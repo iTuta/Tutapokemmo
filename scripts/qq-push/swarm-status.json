@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-18T04:50:54.405Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-18T04:55:48.806Z",
+  "swarms": [
+    {
+      "monsterId": 159,
+      "pokemon": "Croconaw",
+      "region": "Johto",
+      "location": "Whirl Islands",
+      "sourceId": 1792300558,
+      "despawnTimestamp": 1792300558,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-18T05:15:58.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Kanto",
       "location": "Route 7",
-      "secondsAgo": 7726,
-      "sourceId": 1792291328
-    },
-    {
-      "monsterId": 102,
-      "pokemon": "Exeggcute",
-      "region": "Johto",
-      "location": "Route 30",
-      "secondsAgo": 13700,
-      "sourceId": 1792285354
+      "secondsAgo": 8021,
+      "sourceId": 1792291327
     },
     {
       "monsterId": 260,
       "pokemon": "Swampert",
       "region": "Hoenn",
       "location": "Route 109",
-      "secondsAgo": 11702,
+      "secondsAgo": 11996,
       "sourceId": 1792287352
     },
     {
@@ -31,16 +35,16 @@
       "pokemon": "Cloyster",
       "region": "Sinnoh",
       "location": "Route 223",
-      "secondsAgo": 4251,
-      "sourceId": 1792294803
+      "secondsAgo": 4546,
+      "sourceId": 1792294802
     },
     {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 2277,
-      "sourceId": 1792296777
+      "secondsAgo": 2572,
+      "sourceId": 1792296776
     }
   ],
   "alpha": {
