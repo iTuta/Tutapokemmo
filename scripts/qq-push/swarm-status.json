@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-18T20:10:43.182Z",
+  "fetchedAt": "2026-10-18T20:15:58.521Z",
   "swarms": [
-    {
-      "monsterId": 157,
-      "pokemon": "Typhlosion",
-      "region": "Johto",
-      "location": "Route 45",
-      "sourceId": 1792354402,
-      "despawnTimestamp": 1792354402,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-18T20:13:22.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 517,
       "pokemon": "Munna",
@@ -30,15 +19,23 @@
       "pokemon": "Lumineon",
       "region": "Kanto",
       "location": "Route 12",
-      "secondsAgo": 4951,
-      "sourceId": 1792349292
+      "secondsAgo": 5267,
+      "sourceId": 1792349291
+    },
+    {
+      "monsterId": 157,
+      "pokemon": "Typhlosion",
+      "region": "Johto",
+      "location": "Route 45",
+      "secondsAgo": 1655,
+      "sourceId": 1792352903
     },
     {
       "monsterId": 211,
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 5164,
+      "secondsAgo": 5479,
       "sourceId": 1792349079
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Turtwig",
       "region": "Sinnoh",
       "location": "Route 203",
-      "secondsAgo": 4655,
+      "secondsAgo": 4970,
       "sourceId": 1792349588
     }
   ],
