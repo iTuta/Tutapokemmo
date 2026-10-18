@@ -1,13 +1,35 @@
 {
-  "fetchedAt": "2026-10-18T18:46:03.016Z",
+  "fetchedAt": "2026-10-18T18:50:55.323Z",
   "swarms": [
+    {
+      "monsterId": 457,
+      "pokemon": "Lumineon",
+      "region": "Kanto",
+      "location": "Route 12",
+      "sourceId": 1792350791,
+      "despawnTimestamp": 1792350790,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-18T19:13:11.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Johto",
+      "location": "Dark Cave",
+      "sourceId": 1792350897,
+      "despawnTimestamp": 1792350897,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-18T19:14:57.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 211,
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
       "sourceId": 1792350578,
-      "despawnTimestamp": 1792350577,
+      "despawnTimestamp": 1792350578,
       "hasValuable": false,
       "timestampUtc": "2026-10-18T19:09:38.000Z",
       "publishedBy": ""
@@ -15,27 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Kanto",
-      "location": "Kindle Road",
-      "secondsAgo": 7080,
-      "sourceId": 1792342082
-    },
-    {
-      "monsterId": 359,
-      "pokemon": "Absol",
-      "region": "Johto",
-      "location": "Route 28",
-      "secondsAgo": 7774,
-      "sourceId": 1792341388
-    },
-    {
       "monsterId": 359,
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "secondsAgo": 9094,
+      "secondsAgo": 9387,
       "sourceId": 1792340068
     },
     {
@@ -43,8 +49,8 @@
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "secondsAgo": 3938,
-      "sourceId": 1792345224
+      "secondsAgo": 4230,
+      "sourceId": 1792345225
     }
   ],
   "alpha": {
