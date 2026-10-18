@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-18T05:31:08.345Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-18T05:35:47.650Z",
+  "swarms": [
     {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
+      "monsterId": 311,
+      "pokemon": "Plusle",
       "region": "Kanto",
-      "location": "Route 7",
-      "secondsAgo": 10140,
-      "sourceId": 1792291328
-    },
+      "location": "Route 2",
+      "sourceId": 1792303031,
+      "despawnTimestamp": 1792303031,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-18T05:57:11.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 159,
       "pokemon": "Croconaw",
       "region": "Johto",
       "location": "Whirl Islands",
-      "secondsAgo": 2409,
+      "secondsAgo": 2688,
       "sourceId": 1792299059
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Swampert",
       "region": "Hoenn",
       "location": "Route 109",
-      "secondsAgo": 14116,
+      "secondsAgo": 14395,
       "sourceId": 1792287352
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Cloyster",
       "region": "Sinnoh",
       "location": "Route 223",
-      "secondsAgo": 6665,
+      "secondsAgo": 6944,
       "sourceId": 1792294803
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 4691,
+      "secondsAgo": 4970,
       "sourceId": 1792296777
     }
   ],
