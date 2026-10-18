@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-18T07:45:59.415Z",
+  "fetchedAt": "2026-10-18T07:51:16.253Z",
   "swarms": [
     {
       "monsterId": 313,
@@ -11,23 +11,26 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-18T08:07:59.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 121,
+      "pokemon": "Starmie",
+      "region": "Johto",
+      "location": "Cliff Edge Gate",
+      "sourceId": 1792311203,
+      "despawnTimestamp": 1792311203,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-18T08:13:23.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 159,
-      "pokemon": "Croconaw",
-      "region": "Johto",
-      "location": "Whirl Islands",
-      "secondsAgo": 10500,
-      "sourceId": 1792299059
-    },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
       "region": "Hoenn",
       "location": "Route 128",
-      "secondsAgo": 3276,
+      "secondsAgo": 3593,
       "sourceId": 1792306283
     },
     {
@@ -35,8 +38,8 @@
       "pokemon": "Electabuzz",
       "region": "Unova",
       "location": "Chargestone Cave",
-      "secondsAgo": 1591,
-      "sourceId": 1792307968
+      "secondsAgo": 1907,
+      "sourceId": 1792307969
     }
   ],
   "alpha": {
