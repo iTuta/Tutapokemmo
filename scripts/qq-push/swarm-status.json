@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-18T14:01:07.509Z",
+  "fetchedAt": "2026-10-18T14:05:54.756Z",
   "swarms": [
     {
       "monsterId": 1,
@@ -22,6 +22,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-18T14:25:06.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 193,
+      "pokemon": "Yanma",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "sourceId": 1792333656,
+      "despawnTimestamp": 1792333655,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-18T14:27:36.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +41,7 @@
       "pokemon": "Chikorita",
       "region": "Johto",
       "location": "Route 31",
-      "secondsAgo": 11227,
+      "secondsAgo": 11514,
       "sourceId": 1792320840
     },
     {
@@ -38,16 +49,8 @@
       "pokemon": "Turtwig",
       "region": "Sinnoh",
       "location": "Route 203",
-      "secondsAgo": 6869,
+      "secondsAgo": 7156,
       "sourceId": 1792325198
-    },
-    {
-      "monsterId": 369,
-      "pokemon": "Relicanth",
-      "region": "Unova",
-      "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 10493,
-      "sourceId": 1792321574
     }
   ],
   "alpha": {
