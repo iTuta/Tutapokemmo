@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-18T17:01:13.958Z",
+  "fetchedAt": "2026-10-18T17:05:48.918Z",
   "swarms": [
     {
       "monsterId": 229,
@@ -11,34 +11,31 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-18T17:13:02.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 359,
       "pokemon": "Absol",
       "region": "Johto",
       "location": "Route 28",
-      "sourceId": 1792342888,
-      "despawnTimestamp": 1792342887,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-18T17:01:28.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1760,
+      "sourceId": 1792341388
+    },
     {
       "monsterId": 429,
       "pokemon": "Mismagius",
       "region": "Hoenn",
       "location": "Route 122",
-      "secondsAgo": 4882,
-      "sourceId": 1792337991
+      "secondsAgo": 5156,
+      "sourceId": 1792337992
     },
     {
       "monsterId": 359,
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "secondsAgo": 2805,
+      "secondsAgo": 3080,
       "sourceId": 1792340068
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 3841,
+      "secondsAgo": 4116,
       "sourceId": 1792339032
     }
   ],
