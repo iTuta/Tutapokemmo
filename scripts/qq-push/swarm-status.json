@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-18T01:35:48.195Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-18T01:40:45.465Z",
+  "swarms": [
+    {
+      "monsterId": 260,
+      "pokemon": "Swampert",
+      "region": "Hoenn",
+      "location": "Route 109",
+      "sourceId": 1792288852,
+      "despawnTimestamp": 1792288851,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-18T02:00:52.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 3,
       "pokemon": "Venusaur",
       "region": "Kanto",
       "location": "Berry Forest",
-      "secondsAgo": 11621,
+      "secondsAgo": 11918,
       "sourceId": 1792275727
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Exeggcute",
       "region": "Johto",
       "location": "Route 30",
-      "secondsAgo": 1994,
+      "secondsAgo": 2291,
       "sourceId": 1792285354
-    },
-    {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Hoenn",
-      "location": "Shoal Cave",
-      "secondsAgo": 18165,
-      "sourceId": 1792269183
     },
     {
       "monsterId": 113,
       "pokemon": "Chansey",
       "region": "Sinnoh",
       "location": "Trophy Garden",
-      "secondsAgo": 2133,
+      "secondsAgo": 2430,
       "sourceId": 1792285215
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Volbeat",
       "region": "Unova",
       "location": "Route 8",
-      "secondsAgo": 3760,
-      "sourceId": 1792283588
+      "secondsAgo": 4058,
+      "sourceId": 1792283587
     }
   ],
   "alpha": {
