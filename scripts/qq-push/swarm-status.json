@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-18T20:31:03.984Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-18T20:35:47.945Z",
+  "swarms": [
+    {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Hoenn",
+      "location": "Route 102",
+      "sourceId": 1792357138,
+      "despawnTimestamp": 1792357137,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-18T20:58:58.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 457,
       "pokemon": "Lumineon",
       "region": "Kanto",
       "location": "Route 12",
-      "secondsAgo": 6172,
+      "secondsAgo": 6456,
       "sourceId": 1792349291
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Typhlosion",
       "region": "Johto",
       "location": "Route 45",
-      "secondsAgo": 2560,
+      "secondsAgo": 2844,
       "sourceId": 1792352903
-    },
-    {
-      "monsterId": 211,
-      "pokemon": "Qwilfish",
-      "region": "Hoenn",
-      "location": "Route 125",
-      "secondsAgo": 6385,
-      "sourceId": 1792349078
     },
     {
       "monsterId": 387,
       "pokemon": "Turtwig",
       "region": "Sinnoh",
       "location": "Route 203",
-      "secondsAgo": 5876,
+      "secondsAgo": 6160,
       "sourceId": 1792349587
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Munna",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 2191,
+      "secondsAgo": 2475,
       "sourceId": 1792353272
     }
   ],
