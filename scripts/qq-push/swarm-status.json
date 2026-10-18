@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-18T09:50:48.611Z",
+  "fetchedAt": "2026-10-18T09:55:52.016Z",
   "swarms": [
-    {
-      "monsterId": 258,
-      "pokemon": "Mudkip",
-      "region": "Hoenn",
-      "location": "Route 104",
-      "sourceId": 1792317068,
-      "despawnTimestamp": 1792317067,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-18T09:51:08.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 415,
       "pokemon": "Combee",
       "region": "Sinnoh",
       "location": "Floaroma Meadow",
       "sourceId": 1792318042,
-      "despawnTimestamp": 1792318042,
+      "despawnTimestamp": 1792318041,
       "hasValuable": false,
       "timestampUtc": "2026-10-18T10:07:22.000Z",
       "publishedBy": ""
@@ -30,23 +19,31 @@
       "pokemon": "Volbeat",
       "region": "Kanto",
       "location": "Memorial Pillar",
-      "secondsAgo": 7668,
-      "sourceId": 1792309380
+      "secondsAgo": 7972,
+      "sourceId": 1792309379
     },
     {
       "monsterId": 121,
       "pokemon": "Starmie",
       "region": "Johto",
       "location": "Cliff Edge Gate",
-      "secondsAgo": 7344,
+      "secondsAgo": 7647,
       "sourceId": 1792309704
+    },
+    {
+      "monsterId": 258,
+      "pokemon": "Mudkip",
+      "region": "Hoenn",
+      "location": "Route 104",
+      "secondsAgo": 1783,
+      "sourceId": 1792315568
     },
     {
       "monsterId": 125,
       "pokemon": "Electabuzz",
       "region": "Unova",
       "location": "Chargestone Cave",
-      "secondsAgo": 9080,
+      "secondsAgo": 9383,
       "sourceId": 1792307968
     }
   ],
