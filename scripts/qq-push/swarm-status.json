@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-18T19:50:51.327Z",
+  "fetchedAt": "2026-10-18T19:55:44.483Z",
   "swarms": [
     {
       "monsterId": 157,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-18T20:13:22.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Unova",
+      "location": "Dreamyard",
+      "sourceId": 1792354772,
+      "despawnTimestamp": 1792354772,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-18T20:19:32.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Lumineon",
       "region": "Kanto",
       "location": "Route 12",
-      "secondsAgo": 3760,
+      "secondsAgo": 4053,
       "sourceId": 1792349291
     },
     {
@@ -27,7 +38,7 @@
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 3972,
+      "secondsAgo": 4265,
       "sourceId": 1792349079
     },
     {
@@ -35,16 +46,8 @@
       "pokemon": "Turtwig",
       "region": "Sinnoh",
       "location": "Route 203",
-      "secondsAgo": 3463,
+      "secondsAgo": 3756,
       "sourceId": 1792349588
-    },
-    {
-      "monsterId": 106,
-      "pokemon": "Hitmonlee",
-      "region": "Unova",
-      "location": "Victory Road",
-      "secondsAgo": 7826,
-      "sourceId": 1792345225
     }
   ],
   "alpha": {
