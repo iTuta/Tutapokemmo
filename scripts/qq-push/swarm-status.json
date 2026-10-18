@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-18T19:45:48.375Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-18T19:50:51.327Z",
+  "swarms": [
+    {
+      "monsterId": 157,
+      "pokemon": "Typhlosion",
+      "region": "Johto",
+      "location": "Route 45",
+      "sourceId": 1792354402,
+      "despawnTimestamp": 1792354402,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-18T20:13:22.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 457,
       "pokemon": "Lumineon",
       "region": "Kanto",
       "location": "Route 12",
-      "secondsAgo": 3457,
+      "secondsAgo": 3760,
       "sourceId": 1792349291
-    },
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Johto",
-      "location": "Dark Cave",
-      "secondsAgo": 3350,
-      "sourceId": 1792349398
     },
     {
       "monsterId": 211,
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 3669,
+      "secondsAgo": 3972,
       "sourceId": 1792349079
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Turtwig",
       "region": "Sinnoh",
       "location": "Route 203",
-      "secondsAgo": 3160,
+      "secondsAgo": 3463,
       "sourceId": 1792349588
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "secondsAgo": 7523,
+      "secondsAgo": 7826,
       "sourceId": 1792345225
     }
   ],
