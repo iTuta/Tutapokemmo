@@ -1,35 +1,13 @@
 {
-  "fetchedAt": "2026-10-19T22:45:56.757Z",
+  "fetchedAt": "2026-10-19T22:50:49.302Z",
   "swarms": [
-    {
-      "monsterId": 134,
-      "pokemon": "Vaporeon",
-      "region": "Hoenn",
-      "location": "Route 134",
-      "sourceId": 1792450148,
-      "despawnTimestamp": 1792450147,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-19T22:49:08.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 248,
-      "pokemon": "Tyranitar",
-      "region": "Sinnoh",
-      "location": "Stark Mountain",
-      "sourceId": 1792450123,
-      "despawnTimestamp": 1792450123,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-19T22:48:43.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 376,
       "pokemon": "Metagross",
       "region": "Unova",
       "location": "Giant Chasm",
       "sourceId": 1792450854,
-      "despawnTimestamp": 1792450853,
+      "despawnTimestamp": 1792450854,
       "hasValuable": false,
       "timestampUtc": "2026-10-19T23:00:54.000Z",
       "publishedBy": ""
@@ -41,8 +19,24 @@
       "pokemon": "Charizard",
       "region": "Kanto",
       "location": "Mt. Ember",
-      "secondsAgo": 13036,
-      "sourceId": 1792436920
+      "secondsAgo": 13328,
+      "sourceId": 1792436921
+    },
+    {
+      "monsterId": 134,
+      "pokemon": "Vaporeon",
+      "region": "Hoenn",
+      "location": "Route 134",
+      "secondsAgo": 1600,
+      "sourceId": 1792448649
+    },
+    {
+      "monsterId": 248,
+      "pokemon": "Tyranitar",
+      "region": "Sinnoh",
+      "location": "Stark Mountain",
+      "secondsAgo": 1625,
+      "sourceId": 1792448624
     }
   ],
   "alpha": {
