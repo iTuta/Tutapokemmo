@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-19T18:06:35.343Z",
+  "fetchedAt": "2026-10-19T18:10:55.035Z",
   "swarms": [
     {
       "monsterId": 335,
@@ -7,9 +7,20 @@
       "region": "Kanto",
       "location": "Route 14",
       "sourceId": 1792434537,
-      "despawnTimestamp": 1792434536,
+      "despawnTimestamp": 1792434537,
       "hasValuable": false,
       "timestampUtc": "2026-10-19T18:28:57.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 127,
+      "pokemon": "Pinsir",
+      "region": "Unova",
+      "location": "Route 12",
+      "sourceId": 1792434816,
+      "despawnTimestamp": 1792434817,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-19T18:33:36.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,7 +30,7 @@
       "pokemon": "Miltank",
       "region": "Johto",
       "location": "Route 39",
-      "secondsAgo": 1511,
+      "secondsAgo": 1771,
       "sourceId": 1792431684
     },
     {
@@ -27,7 +38,7 @@
       "pokemon": "Cloyster",
       "region": "Hoenn",
       "location": "Route 133",
-      "secondsAgo": 9271,
+      "secondsAgo": 9531,
       "sourceId": 1792423924
     },
     {
@@ -35,16 +46,8 @@
       "pokemon": "Nosepass",
       "region": "Sinnoh",
       "location": "Oreburgh Gate",
-      "secondsAgo": 2096,
+      "secondsAgo": 2356,
       "sourceId": 1792431099
-    },
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Unova",
-      "location": "Route 1",
-      "secondsAgo": 4563,
-      "sourceId": 1792428632
     }
   ],
   "alpha": {
