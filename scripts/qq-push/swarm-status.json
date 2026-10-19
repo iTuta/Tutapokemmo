@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-19T09:05:49.168Z",
+  "fetchedAt": "2026-10-19T09:10:45.725Z",
   "swarms": [
     {
       "monsterId": 413,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-19T09:26:44.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 287,
-      "pokemon": "Slakoth",
-      "region": "Unova",
-      "location": "Route 2",
-      "sourceId": 1792400955,
-      "despawnTimestamp": 1792400955,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-19T09:09:15.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Luvdisc",
       "region": "Johto",
       "location": "Route 47",
-      "secondsAgo": 7042,
+      "secondsAgo": 7338,
       "sourceId": 1792393707
     },
     {
@@ -38,16 +27,24 @@
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 3495,
-      "sourceId": 1792397254
+      "secondsAgo": 3792,
+      "sourceId": 1792397253
     },
     {
       "monsterId": 340,
       "pokemon": "Whiscash",
       "region": "Sinnoh",
       "location": "Ravaged Path",
-      "secondsAgo": 5175,
+      "secondsAgo": 5471,
       "sourceId": 1792395574
+    },
+    {
+      "monsterId": 287,
+      "pokemon": "Slakoth",
+      "region": "Unova",
+      "location": "Route 2",
+      "secondsAgo": 1589,
+      "sourceId": 1792399456
     }
   ],
   "alpha": {
