@@ -1,44 +1,21 @@
 {
-  "fetchedAt": "2026-10-19T05:01:03.376Z",
-  "swarms": [
-    {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Sinnoh",
-      "location": "Valor Lakefront",
-      "sourceId": 1792386344,
-      "despawnTimestamp": 1792386344,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-19T05:05:44.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Unova",
-      "location": "Lostlorn Forest",
-      "sourceId": 1792386189,
-      "despawnTimestamp": 1792386189,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-19T05:03:09.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-19T05:05:50.146Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 346,
       "pokemon": "Cradily",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 4156,
-      "sourceId": 1792381907
+      "secondsAgo": 4442,
+      "sourceId": 1792381908
     },
     {
       "monsterId": 359,
       "pokemon": "Absol",
       "region": "Johto",
       "location": "Route 28",
-      "secondsAgo": 11931,
+      "secondsAgo": 12218,
       "sourceId": 1792374132
     },
     {
@@ -46,8 +23,24 @@
       "pokemon": "Pineco",
       "region": "Hoenn",
       "location": "Route 103",
-      "secondsAgo": 13966,
-      "sourceId": 1792372097
+      "secondsAgo": 14252,
+      "sourceId": 1792372098
+    },
+    {
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Sinnoh",
+      "location": "Valor Lakefront",
+      "secondsAgo": 1505,
+      "sourceId": 1792384845
+    },
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Unova",
+      "location": "Lostlorn Forest",
+      "secondsAgo": 1660,
+      "sourceId": 1792384690
     }
   ],
   "alpha": {
