@@ -1,37 +1,44 @@
 {
-  "fetchedAt": "2026-10-19T22:20:48.257Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-19T22:25:48.203Z",
+  "swarms": [
+    {
+      "monsterId": 134,
+      "pokemon": "Vaporeon",
+      "region": "Hoenn",
+      "location": "Route 134",
+      "sourceId": 1792450148,
+      "despawnTimestamp": 1792450148,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-19T22:49:08.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 248,
+      "pokemon": "Tyranitar",
+      "region": "Sinnoh",
+      "location": "Stark Mountain",
+      "sourceId": 1792450123,
+      "despawnTimestamp": 1792450123,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-19T22:48:43.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 6,
       "pokemon": "Charizard",
       "region": "Kanto",
       "location": "Mt. Ember",
-      "secondsAgo": 11527,
+      "secondsAgo": 11827,
       "sourceId": 1792436921
-    },
-    {
-      "monsterId": 204,
-      "pokemon": "Pineco",
-      "region": "Hoenn",
-      "location": "Route 103",
-      "secondsAgo": 11848,
-      "sourceId": 1792436600
-    },
-    {
-      "monsterId": 299,
-      "pokemon": "Nosepass",
-      "region": "Sinnoh",
-      "location": "Oreburgh Gate",
-      "secondsAgo": 3645,
-      "sourceId": 1792444803
     },
     {
       "monsterId": 420,
       "pokemon": "Cherubi",
       "region": "Unova",
       "location": "Route 16",
-      "secondsAgo": 3801,
+      "secondsAgo": 4101,
       "sourceId": 1792444647
     }
   ],
