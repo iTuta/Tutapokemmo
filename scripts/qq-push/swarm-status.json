@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-19T19:46:30.854Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-19T19:51:03.696Z",
+  "swarms": [
+    {
+      "monsterId": 155,
+      "pokemon": "Cyndaquil",
+      "region": "Johto",
+      "location": "Route 33",
+      "sourceId": 1792440667,
+      "despawnTimestamp": 1792440667,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-19T20:11:07.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 6,
       "pokemon": "Charizard",
       "region": "Kanto",
       "location": "Mt. Ember",
-      "secondsAgo": 2270,
+      "secondsAgo": 2543,
       "sourceId": 1792436920
-    },
-    {
-      "monsterId": 241,
-      "pokemon": "Miltank",
-      "region": "Johto",
-      "location": "Route 39",
-      "secondsAgo": 7507,
-      "sourceId": 1792431683
     },
     {
       "monsterId": 204,
       "pokemon": "Pineco",
       "region": "Hoenn",
       "location": "Route 103",
-      "secondsAgo": 2591,
+      "secondsAgo": 2864,
       "sourceId": 1792436599
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Kirlia",
       "region": "Sinnoh",
       "location": "Snowpoint Temple",
-      "secondsAgo": 2493,
+      "secondsAgo": 2766,
       "sourceId": 1792436697
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Pinsir",
       "region": "Unova",
       "location": "Route 12",
-      "secondsAgo": 5873,
+      "secondsAgo": 6146,
       "sourceId": 1792433317
     }
   ],
