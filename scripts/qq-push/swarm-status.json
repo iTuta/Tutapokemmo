@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-19T06:55:45.827Z",
+  "fetchedAt": "2026-10-19T07:01:04.735Z",
   "swarms": [
     {
       "monsterId": 161,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-19T07:09:01.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 83,
-      "pokemon": "Farfetch&#x27;d",
-      "region": "Unova",
-      "location": "Route 1",
-      "sourceId": 1792392957,
-      "despawnTimestamp": 1792392956,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-19T06:55:57.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,7 +30,7 @@
       "pokemon": "Wailmer",
       "region": "Johto",
       "location": "Route 40",
-      "secondsAgo": 5676,
+      "secondsAgo": 5995,
       "sourceId": 1792387269
     },
     {
@@ -49,8 +38,16 @@
       "pokemon": "Grotle",
       "region": "Sinnoh",
       "location": "Sendoff Spring",
-      "secondsAgo": 1893,
+      "secondsAgo": 2212,
       "sourceId": 1792391052
+    },
+    {
+      "monsterId": 83,
+      "pokemon": "Farfetch&#x27;d",
+      "region": "Unova",
+      "location": "Route 1",
+      "secondsAgo": 1807,
+      "sourceId": 1792391457
     }
   ],
   "alpha": {
