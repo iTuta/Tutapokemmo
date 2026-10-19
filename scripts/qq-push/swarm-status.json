@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-19T09:01:10.050Z",
+  "fetchedAt": "2026-10-19T09:05:49.168Z",
   "swarms": [
+    {
+      "monsterId": 413,
+      "pokemon": "Wormadam",
+      "region": "Kanto",
+      "location": "Pattern Bush",
+      "sourceId": 1792402004,
+      "despawnTimestamp": 1792402004,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-19T09:26:44.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 287,
       "pokemon": "Slakoth",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 161,
-      "pokemon": "Sentret",
-      "region": "Kanto",
-      "location": "Route 1",
-      "secondsAgo": 8171,
-      "sourceId": 1792392299
-    },
-    {
       "monsterId": 370,
       "pokemon": "Luvdisc",
       "region": "Johto",
       "location": "Route 47",
-      "secondsAgo": 6763,
+      "secondsAgo": 7042,
       "sourceId": 1792393707
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 3216,
+      "secondsAgo": 3495,
       "sourceId": 1792397254
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Whiscash",
       "region": "Sinnoh",
       "location": "Ravaged Path",
-      "secondsAgo": 4896,
+      "secondsAgo": 5175,
       "sourceId": 1792395574
     }
   ],
