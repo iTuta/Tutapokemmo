@@ -1,52 +1,45 @@
 {
-  "fetchedAt": "2026-10-19T17:55:46.852Z",
-  "swarms": [
-    {
-      "monsterId": 241,
-      "pokemon": "Miltank",
-      "region": "Johto",
-      "location": "Route 39",
-      "sourceId": 1792433183,
-      "despawnTimestamp": 1792433182,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-19T18:06:23.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 299,
-      "pokemon": "Nosepass",
-      "region": "Sinnoh",
-      "location": "Oreburgh Gate",
-      "sourceId": 1792432598,
-      "despawnTimestamp": 1792432597,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-19T17:56:38.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-19T18:01:21.398Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 313,
       "pokemon": "Volbeat",
       "region": "Kanto",
       "location": "Memorial Pillar",
-      "secondsAgo": 11176,
-      "sourceId": 1792421370
+      "secondsAgo": 11510,
+      "sourceId": 1792421371
+    },
+    {
+      "monsterId": 241,
+      "pokemon": "Miltank",
+      "region": "Johto",
+      "location": "Route 39",
+      "secondsAgo": 1197,
+      "sourceId": 1792431684
     },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
       "region": "Hoenn",
       "location": "Route 133",
-      "secondsAgo": 8623,
-      "sourceId": 1792423923
+      "secondsAgo": 8957,
+      "sourceId": 1792423924
+    },
+    {
+      "monsterId": 299,
+      "pokemon": "Nosepass",
+      "region": "Sinnoh",
+      "location": "Oreburgh Gate",
+      "secondsAgo": 1782,
+      "sourceId": 1792431099
     },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 3914,
+      "secondsAgo": 4249,
       "sourceId": 1792428632
     }
   ],
