@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-19T13:05:56.412Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-19T13:10:59.467Z",
+  "swarms": [
     {
-      "monsterId": 142,
-      "pokemon": "Aerodactyl",
+      "monsterId": 103,
+      "pokemon": "Exeggutor",
       "region": "Kanto",
-      "location": "Rixy Chamber",
-      "secondsAgo": 6230,
-      "sourceId": 1792408926
-    },
+      "location": "Route 23",
+      "sourceId": 1792416711,
+      "despawnTimestamp": 1792416711,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-19T13:31:51.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 156,
       "pokemon": "Quilava",
       "region": "Johto",
       "location": "Route 42",
-      "secondsAgo": 6297,
+      "secondsAgo": 6600,
       "sourceId": 1792408859
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Mime Jr.",
       "region": "Hoenn",
       "location": "Rusturf Tunnel",
-      "secondsAgo": 5878,
+      "secondsAgo": 6181,
       "sourceId": 1792409278
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Crawdaunt",
       "region": "Sinnoh",
       "location": "Lake Valor",
-      "secondsAgo": 1907,
+      "secondsAgo": 2210,
       "sourceId": 1792413249
     }
   ],
