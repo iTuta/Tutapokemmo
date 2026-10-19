@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-19T18:25:47.225Z",
+  "fetchedAt": "2026-10-19T18:31:16.861Z",
   "swarms": [
-    {
-      "monsterId": 335,
-      "pokemon": "Zangoose",
-      "region": "Kanto",
-      "location": "Route 14",
-      "sourceId": 1792434537,
-      "despawnTimestamp": 1792434536,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-19T18:28:57.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
@@ -26,28 +15,36 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 335,
+      "pokemon": "Zangoose",
+      "region": "Kanto",
+      "location": "Route 14",
+      "secondsAgo": 1639,
+      "sourceId": 1792433037
+    },
+    {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Johto",
       "location": "Route 39",
-      "secondsAgo": 2663,
-      "sourceId": 1792431684
+      "secondsAgo": 2993,
+      "sourceId": 1792431683
     },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
       "region": "Hoenn",
       "location": "Route 133",
-      "secondsAgo": 10423,
-      "sourceId": 1792423924
+      "secondsAgo": 10753,
+      "sourceId": 1792423923
     },
     {
       "monsterId": 299,
       "pokemon": "Nosepass",
       "region": "Sinnoh",
       "location": "Oreburgh Gate",
-      "secondsAgo": 3248,
-      "sourceId": 1792431099
+      "secondsAgo": 3578,
+      "sourceId": 1792431098
     }
   ],
   "alpha": {
