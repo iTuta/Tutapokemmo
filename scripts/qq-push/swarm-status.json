@@ -1,45 +1,52 @@
 {
-  "fetchedAt": "2026-10-19T19:01:16.167Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-19T19:05:56.425Z",
+  "swarms": [
+    {
+      "monsterId": 204,
+      "pokemon": "Pineco",
+      "region": "Hoenn",
+      "location": "Route 103",
+      "sourceId": 1792438099,
+      "despawnTimestamp": 1792438099,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-19T19:28:19.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 281,
+      "pokemon": "Kirlia",
+      "region": "Sinnoh",
+      "location": "Snowpoint Temple",
+      "sourceId": 1792438197,
+      "despawnTimestamp": 1792438197,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-19T19:29:57.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 3438,
-      "sourceId": 1792433038
+      "secondsAgo": 3719,
+      "sourceId": 1792433037
     },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Johto",
       "location": "Route 39",
-      "secondsAgo": 4792,
-      "sourceId": 1792431684
-    },
-    {
-      "monsterId": 91,
-      "pokemon": "Cloyster",
-      "region": "Hoenn",
-      "location": "Route 133",
-      "secondsAgo": 12552,
-      "sourceId": 1792423924
-    },
-    {
-      "monsterId": 299,
-      "pokemon": "Nosepass",
-      "region": "Sinnoh",
-      "location": "Oreburgh Gate",
-      "secondsAgo": 5377,
-      "sourceId": 1792431099
+      "secondsAgo": 5073,
+      "sourceId": 1792431683
     },
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Unova",
       "location": "Route 12",
-      "secondsAgo": 3159,
+      "secondsAgo": 3439,
       "sourceId": 1792433317
     }
   ],
