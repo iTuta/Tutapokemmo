@@ -1,13 +1,35 @@
 {
-  "fetchedAt": "2026-10-19T06:40:58.528Z",
+  "fetchedAt": "2026-10-19T06:45:49.230Z",
   "swarms": [
+    {
+      "monsterId": 161,
+      "pokemon": "Sentret",
+      "region": "Kanto",
+      "location": "Route 1",
+      "sourceId": 1792393798,
+      "despawnTimestamp": 1792393798,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-19T07:09:58.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 442,
+      "pokemon": "Spiritomb",
+      "region": "Hoenn",
+      "location": "Abandoned Ship",
+      "sourceId": 1792393741,
+      "despawnTimestamp": 1792393741,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-19T07:09:01.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 388,
       "pokemon": "Grotle",
       "region": "Sinnoh",
       "location": "Sendoff Spring",
       "sourceId": 1792392552,
-      "despawnTimestamp": 1792392551,
+      "despawnTimestamp": 1792392552,
       "hasValuable": false,
       "timestampUtc": "2026-10-19T06:49:12.000Z",
       "publishedBy": ""
@@ -18,7 +40,7 @@
       "region": "Unova",
       "location": "Route 1",
       "sourceId": 1792392957,
-      "despawnTimestamp": 1792392956,
+      "despawnTimestamp": 1792392957,
       "hasValuable": false,
       "timestampUtc": "2026-10-19T06:55:57.000Z",
       "publishedBy": ""
@@ -26,28 +48,12 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 346,
-      "pokemon": "Cradily",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 10151,
-      "sourceId": 1792381907
-    },
-    {
       "monsterId": 320,
       "pokemon": "Wailmer",
       "region": "Johto",
       "location": "Route 40",
-      "secondsAgo": 4788,
+      "secondsAgo": 5079,
       "sourceId": 1792387270
-    },
-    {
-      "monsterId": 204,
-      "pokemon": "Pineco",
-      "region": "Hoenn",
-      "location": "Route 103",
-      "secondsAgo": 19961,
-      "sourceId": 1792372097
     }
   ],
   "alpha": {
