@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-19T12:31:01.808Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-19T12:35:45.289Z",
+  "swarms": [
+    {
+      "monsterId": 342,
+      "pokemon": "Crawdaunt",
+      "region": "Sinnoh",
+      "location": "Lake Valor",
+      "sourceId": 1792414748,
+      "despawnTimestamp": 1792414748,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-19T12:59:08.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 142,
       "pokemon": "Aerodactyl",
       "region": "Kanto",
       "location": "Rixy Chamber",
-      "secondsAgo": 4135,
+      "secondsAgo": 4419,
       "sourceId": 1792408926
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Quilava",
       "region": "Johto",
       "location": "Route 42",
-      "secondsAgo": 4202,
+      "secondsAgo": 4486,
       "sourceId": 1792408859
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Mime Jr.",
       "region": "Hoenn",
       "location": "Rusturf Tunnel",
-      "secondsAgo": 3783,
+      "secondsAgo": 4067,
       "sourceId": 1792409278
-    },
-    {
-      "monsterId": 340,
-      "pokemon": "Whiscash",
-      "region": "Sinnoh",
-      "location": "Ravaged Path",
-      "secondsAgo": 17487,
-      "sourceId": 1792395574
     },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 4128,
+      "secondsAgo": 4412,
       "sourceId": 1792408933
     }
   ],
