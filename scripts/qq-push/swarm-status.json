@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-19T11:25:58.539Z",
+  "fetchedAt": "2026-10-19T11:31:01.680Z",
   "swarms": [
     {
       "monsterId": 142,
@@ -24,6 +24,17 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 439,
+      "pokemon": "Mime Jr.",
+      "region": "Hoenn",
+      "location": "Rusturf Tunnel",
+      "sourceId": 1792410778,
+      "despawnTimestamp": 1792410777,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-19T11:52:58.000Z",
+      "publishedBy": ""
+    },
+    {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Unova",
@@ -37,12 +48,12 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 258,
-      "pokemon": "Mudkip",
-      "region": "Hoenn",
-      "location": "Route 104",
-      "secondsAgo": 11905,
-      "sourceId": 1792397253
+      "monsterId": 340,
+      "pokemon": "Whiscash",
+      "region": "Sinnoh",
+      "location": "Ravaged Path",
+      "secondsAgo": 13887,
+      "sourceId": 1792395574
     }
   ],
   "alpha": {
@@ -55,6 +66,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-10-19T06:42:52.000Z",
     "timestampRaw": "2026-10-19T06:42:52.000Z",
-    "publishedBy": ""
+    "publishedBy": "NandoGuida"
   }
 }
