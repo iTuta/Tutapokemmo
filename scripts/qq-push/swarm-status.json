@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-19T01:05:46.728Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-19T01:10:55.567Z",
+  "swarms": [
+    {
+      "monsterId": 204,
+      "pokemon": "Pineco",
+      "region": "Hoenn",
+      "location": "Route 103",
+      "sourceId": 1792373597,
+      "despawnTimestamp": 1792373596,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-19T01:33:17.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 457,
       "pokemon": "Lumineon",
       "region": "Kanto",
       "location": "Route 12",
-      "secondsAgo": 22655,
+      "secondsAgo": 22964,
       "sourceId": 1792349291
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Bonsly",
       "region": "Johto",
       "location": "Ilex Forest",
-      "secondsAgo": 11083,
+      "secondsAgo": 11392,
       "sourceId": 1792360863
-    },
-    {
-      "monsterId": 517,
-      "pokemon": "Munna",
-      "region": "Hoenn",
-      "location": "Route 102",
-      "secondsAgo": 16308,
-      "sourceId": 1792355638
     },
     {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Sinnoh",
       "location": "Route 227",
-      "secondsAgo": 8162,
+      "secondsAgo": 8471,
       "sourceId": 1792363784
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Cherubi",
       "region": "Unova",
       "location": "Route 16",
-      "secondsAgo": 15042,
+      "secondsAgo": 15351,
       "sourceId": 1792356904
     }
   ],
