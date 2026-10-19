@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-19T01:20:49.122Z",
+  "fetchedAt": "2026-10-19T01:25:50.295Z",
   "swarms": [
     {
       "monsterId": 204,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-19T01:33:17.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 143,
+      "pokemon": "Snorlax",
+      "region": "Sinnoh",
+      "location": "Victory Road",
+      "sourceId": 1792374426,
+      "despawnTimestamp": 1792374426,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-19T01:47:06.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,32 +30,24 @@
       "pokemon": "Lumineon",
       "region": "Kanto",
       "location": "Route 12",
-      "secondsAgo": 23557,
-      "sourceId": 1792349292
+      "secondsAgo": 23859,
+      "sourceId": 1792349291
     },
     {
       "monsterId": 438,
       "pokemon": "Bonsly",
       "region": "Johto",
       "location": "Ilex Forest",
-      "secondsAgo": 11986,
+      "secondsAgo": 12287,
       "sourceId": 1792360863
-    },
-    {
-      "monsterId": 227,
-      "pokemon": "Skarmory",
-      "region": "Sinnoh",
-      "location": "Route 227",
-      "secondsAgo": 9064,
-      "sourceId": 1792363785
     },
     {
       "monsterId": 420,
       "pokemon": "Cherubi",
       "region": "Unova",
       "location": "Route 16",
-      "secondsAgo": 15944,
-      "sourceId": 1792356905
+      "secondsAgo": 16246,
+      "sourceId": 1792356904
     }
   ],
   "alpha": {
