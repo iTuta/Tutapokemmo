@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-19T05:20:54.570Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-19T05:25:45.843Z",
+  "swarms": [
+    {
+      "monsterId": 320,
+      "pokemon": "Wailmer",
+      "region": "Johto",
+      "location": "Route 40",
+      "sourceId": 1792388769,
+      "despawnTimestamp": 1792388768,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-19T05:46:09.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 346,
       "pokemon": "Cradily",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 5347,
+      "secondsAgo": 5638,
       "sourceId": 1792381907
-    },
-    {
-      "monsterId": 359,
-      "pokemon": "Absol",
-      "region": "Johto",
-      "location": "Route 28",
-      "secondsAgo": 13123,
-      "sourceId": 1792374131
     },
     {
       "monsterId": 204,
       "pokemon": "Pineco",
       "region": "Hoenn",
       "location": "Route 103",
-      "secondsAgo": 15157,
+      "secondsAgo": 15448,
       "sourceId": 1792372097
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 2409,
+      "secondsAgo": 2700,
       "sourceId": 1792384845
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 2564,
+      "secondsAgo": 2855,
       "sourceId": 1792384690
     }
   ],
