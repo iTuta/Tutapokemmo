@@ -1,44 +1,21 @@
 {
-  "fetchedAt": "2026-10-19T21:40:54.781Z",
-  "swarms": [
-    {
-      "monsterId": 299,
-      "pokemon": "Nosepass",
-      "region": "Sinnoh",
-      "location": "Oreburgh Gate",
-      "sourceId": 1792446302,
-      "despawnTimestamp": 1792446301,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-19T21:45:02.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 420,
-      "pokemon": "Cherubi",
-      "region": "Unova",
-      "location": "Route 16",
-      "sourceId": 1792446146,
-      "despawnTimestamp": 1792446146,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-19T21:42:26.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-19T21:45:58.298Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 6,
       "pokemon": "Charizard",
       "region": "Kanto",
       "location": "Mt. Ember",
-      "secondsAgo": 9134,
-      "sourceId": 1792436920
+      "secondsAgo": 9437,
+      "sourceId": 1792436921
     },
     {
       "monsterId": 155,
       "pokemon": "Cyndaquil",
       "region": "Johto",
       "location": "Route 33",
-      "secondsAgo": 6766,
+      "secondsAgo": 7070,
       "sourceId": 1792439288
     },
     {
@@ -46,8 +23,24 @@
       "pokemon": "Pineco",
       "region": "Hoenn",
       "location": "Route 103",
-      "secondsAgo": 9455,
-      "sourceId": 1792436599
+      "secondsAgo": 9758,
+      "sourceId": 1792436600
+    },
+    {
+      "monsterId": 299,
+      "pokemon": "Nosepass",
+      "region": "Sinnoh",
+      "location": "Oreburgh Gate",
+      "secondsAgo": 1555,
+      "sourceId": 1792444803
+    },
+    {
+      "monsterId": 420,
+      "pokemon": "Cherubi",
+      "region": "Unova",
+      "location": "Route 16",
+      "secondsAgo": 1711,
+      "sourceId": 1792444647
     }
   ],
   "alpha": {
