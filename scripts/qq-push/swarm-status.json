@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-19T07:35:51.664Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-19T07:40:53.587Z",
+  "swarms": [
+    {
+      "monsterId": 340,
+      "pokemon": "Whiscash",
+      "region": "Sinnoh",
+      "location": "Ravaged Path",
+      "sourceId": 1792397073,
+      "despawnTimestamp": 1792397073,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-19T08:04:33.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 161,
       "pokemon": "Sentret",
       "region": "Kanto",
       "location": "Route 1",
-      "secondsAgo": 3052,
+      "secondsAgo": 3354,
       "sourceId": 1792392299
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Luvdisc",
       "region": "Johto",
       "location": "Route 47",
-      "secondsAgo": 1644,
+      "secondsAgo": 1946,
       "sourceId": 1792393707
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Spiritomb",
       "region": "Hoenn",
       "location": "Abandoned Ship",
-      "secondsAgo": 3109,
+      "secondsAgo": 3411,
       "sourceId": 1792392242
-    },
-    {
-      "monsterId": 388,
-      "pokemon": "Grotle",
-      "region": "Sinnoh",
-      "location": "Sendoff Spring",
-      "secondsAgo": 4299,
-      "sourceId": 1792391052
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 3894,
+      "secondsAgo": 4196,
       "sourceId": 1792391457
     }
   ],
