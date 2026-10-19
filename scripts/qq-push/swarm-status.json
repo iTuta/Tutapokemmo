@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-19T08:05:50.867Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-19T08:10:58.645Z",
+  "swarms": [
+    {
+      "monsterId": 258,
+      "pokemon": "Mudkip",
+      "region": "Hoenn",
+      "location": "Route 104",
+      "sourceId": 1792398753,
+      "despawnTimestamp": 1792398752,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-19T08:32:33.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 161,
       "pokemon": "Sentret",
       "region": "Kanto",
       "location": "Route 1",
-      "secondsAgo": 4852,
+      "secondsAgo": 5160,
       "sourceId": 1792392298
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Luvdisc",
       "region": "Johto",
       "location": "Route 47",
-      "secondsAgo": 3444,
-      "sourceId": 1792393706
-    },
-    {
-      "monsterId": 442,
-      "pokemon": "Spiritomb",
-      "region": "Hoenn",
-      "location": "Abandoned Ship",
-      "secondsAgo": 4909,
-      "sourceId": 1792392241
+      "secondsAgo": 3751,
+      "sourceId": 1792393707
     },
     {
       "monsterId": 340,
       "pokemon": "Whiscash",
       "region": "Sinnoh",
       "location": "Ravaged Path",
-      "secondsAgo": 1576,
+      "secondsAgo": 1884,
       "sourceId": 1792395574
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 5693,
+      "secondsAgo": 6001,
       "sourceId": 1792391457
     }
   ],
