@@ -1,38 +1,48 @@
 {
-  "fetchedAt": "2026-10-19T11:20:50.427Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-19T11:25:58.539Z",
+  "swarms": [
     {
-      "monsterId": 413,
-      "pokemon": "Wormadam",
+      "monsterId": 142,
+      "pokemon": "Aerodactyl",
       "region": "Kanto",
-      "location": "Pattern Bush",
-      "secondsAgo": 8345,
-      "sourceId": 1792400505
+      "location": "Rixy Chamber",
+      "sourceId": 1792410426,
+      "despawnTimestamp": 1792410425,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-19T11:47:06.000Z",
+      "publishedBy": ""
     },
     {
-      "monsterId": 241,
-      "pokemon": "Miltank",
+      "monsterId": 156,
+      "pokemon": "Quilava",
       "region": "Johto",
-      "location": "Route 39",
-      "secondsAgo": 5290,
-      "sourceId": 1792403560
+      "location": "Route 42",
+      "sourceId": 1792410359,
+      "despawnTimestamp": 1792410358,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-19T11:45:59.000Z",
+      "publishedBy": ""
     },
+    {
+      "monsterId": 285,
+      "pokemon": "Shroomish",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "sourceId": 1792410432,
+      "despawnTimestamp": 1792410432,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-19T11:47:12.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 258,
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 11597,
+      "secondsAgo": 11905,
       "sourceId": 1792397253
-    },
-    {
-      "monsterId": 287,
-      "pokemon": "Slakoth",
-      "region": "Unova",
-      "location": "Route 2",
-      "secondsAgo": 9394,
-      "sourceId": 1792399456
     }
   ],
   "alpha": {
