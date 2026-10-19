@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-19T18:01:21.398Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-19T18:06:35.343Z",
+  "swarms": [
     {
-      "monsterId": 313,
-      "pokemon": "Volbeat",
+      "monsterId": 335,
+      "pokemon": "Zangoose",
       "region": "Kanto",
-      "location": "Memorial Pillar",
-      "secondsAgo": 11510,
-      "sourceId": 1792421371
-    },
+      "location": "Route 14",
+      "sourceId": 1792434537,
+      "despawnTimestamp": 1792434536,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-19T18:28:57.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Johto",
       "location": "Route 39",
-      "secondsAgo": 1197,
+      "secondsAgo": 1511,
       "sourceId": 1792431684
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Cloyster",
       "region": "Hoenn",
       "location": "Route 133",
-      "secondsAgo": 8957,
+      "secondsAgo": 9271,
       "sourceId": 1792423924
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Nosepass",
       "region": "Sinnoh",
       "location": "Oreburgh Gate",
-      "secondsAgo": 1782,
+      "secondsAgo": 2096,
       "sourceId": 1792431099
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 4249,
+      "secondsAgo": 4563,
       "sourceId": 1792428632
     }
   ],
