@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-10-19T23:40:57.079Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-19T23:45:58.771Z",
+  "swarms": [
+    {
+      "monsterId": 311,
+      "pokemon": "Plusle",
+      "region": "Unova",
+      "location": "Route 5",
+      "sourceId": 1792455020,
+      "despawnTimestamp": 1792455019,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-20T00:10:20.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 314,
       "pokemon": "Illumise",
       "region": "Kanto",
       "location": "Water Path",
-      "secondsAgo": 2852,
-      "sourceId": 1792450405
+      "secondsAgo": 3154,
+      "sourceId": 1792450404
     },
     {
       "monsterId": 155,
       "pokemon": "Cyndaquil",
       "region": "Johto",
       "location": "Route 33",
-      "secondsAgo": 13969,
+      "secondsAgo": 14270,
       "sourceId": 1792439288
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Vaporeon",
       "region": "Hoenn",
       "location": "Route 134",
-      "secondsAgo": 4608,
-      "sourceId": 1792448649
+      "secondsAgo": 4910,
+      "sourceId": 1792448648
     },
     {
       "monsterId": 248,
       "pokemon": "Tyranitar",
       "region": "Sinnoh",
       "location": "Stark Mountain",
-      "secondsAgo": 4633,
+      "secondsAgo": 4934,
       "sourceId": 1792448624
-    },
-    {
-      "monsterId": 376,
-      "pokemon": "Metagross",
-      "region": "Unova",
-      "location": "Giant Chasm",
-      "secondsAgo": 3902,
-      "sourceId": 1792449355
     }
   ],
   "alpha": {
