@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-19T14:45:51.832Z",
+  "fetchedAt": "2026-10-19T14:50:58.494Z",
   "swarms": [
+    {
+      "monsterId": 313,
+      "pokemon": "Volbeat",
+      "region": "Kanto",
+      "location": "Memorial Pillar",
+      "sourceId": 1792422870,
+      "despawnTimestamp": 1792422870,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-19T15:14:30.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 152,
       "pokemon": "Chikorita",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 103,
-      "pokemon": "Exeggutor",
-      "region": "Kanto",
-      "location": "Route 23",
-      "secondsAgo": 5940,
-      "sourceId": 1792415211
-    },
-    {
       "monsterId": 439,
       "pokemon": "Mime Jr.",
       "region": "Hoenn",
       "location": "Rusturf Tunnel",
-      "secondsAgo": 11873,
+      "secondsAgo": 12180,
       "sourceId": 1792409278
     },
     {
@@ -35,15 +38,15 @@
       "pokemon": "Crawdaunt",
       "region": "Sinnoh",
       "location": "Lake Valor",
-      "secondsAgo": 7903,
-      "sourceId": 1792413248
+      "secondsAgo": 8209,
+      "sourceId": 1792413249
     },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 12218,
+      "secondsAgo": 12525,
       "sourceId": 1792408933
     }
   ],
