@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-19T17:31:02.114Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-19T17:35:57.569Z",
+  "swarms": [
+    {
+      "monsterId": 299,
+      "pokemon": "Nosepass",
+      "region": "Sinnoh",
+      "location": "Oreburgh Gate",
+      "sourceId": 1792432598,
+      "despawnTimestamp": 1792432598,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-19T17:56:38.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 313,
       "pokemon": "Volbeat",
       "region": "Kanto",
       "location": "Memorial Pillar",
-      "secondsAgo": 9691,
+      "secondsAgo": 9986,
       "sourceId": 1792421371
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Chikorita",
       "region": "Johto",
       "location": "Route 31",
-      "secondsAgo": 10218,
+      "secondsAgo": 10513,
       "sourceId": 1792420844
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Cloyster",
       "region": "Hoenn",
       "location": "Route 133",
-      "secondsAgo": 7138,
+      "secondsAgo": 7433,
       "sourceId": 1792423924
-    },
-    {
-      "monsterId": 285,
-      "pokemon": "Shroomish",
-      "region": "Sinnoh",
-      "location": "Route 201",
-      "secondsAgo": 8386,
-      "sourceId": 1792422676
     },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 2429,
-      "sourceId": 1792428633
+      "secondsAgo": 2725,
+      "sourceId": 1792428632
     }
   ],
   "alpha": {
