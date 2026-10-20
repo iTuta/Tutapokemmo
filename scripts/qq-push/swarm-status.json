@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-20T17:46:02.834Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-20T17:50:52.872Z",
+  "swarms": [
     {
-      "monsterId": 442,
-      "pokemon": "Spiritomb",
+      "monsterId": 335,
+      "pokemon": "Zangoose",
       "region": "Kanto",
-      "location": "Lost Cave",
-      "secondsAgo": 12639,
-      "sourceId": 1792505723
-    },
+      "location": "Route 14",
+      "sourceId": 1792519866,
+      "despawnTimestamp": 1792519865,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-20T18:11:06.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 2123,
+      "secondsAgo": 2413,
       "sourceId": 1792516239
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Swampert",
       "region": "Hoenn",
       "location": "Route 109",
-      "secondsAgo": 7559,
+      "secondsAgo": 7849,
       "sourceId": 1792510803
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Kecleon",
       "region": "Sinnoh",
       "location": "Route 229",
-      "secondsAgo": 4755,
+      "secondsAgo": 5045,
       "sourceId": 1792513607
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 6193,
+      "secondsAgo": 6483,
       "sourceId": 1792512169
     }
   ],
