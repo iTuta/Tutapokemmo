@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-20T07:40:51.717Z",
+  "fetchedAt": "2026-10-20T07:46:10.587Z",
   "swarms": [
     {
       "monsterId": 357,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-20T08:03:08.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 340,
-      "pokemon": "Whiscash",
-      "region": "Sinnoh",
-      "location": "Ravaged Path",
-      "sourceId": 1792482300,
-      "despawnTimestamp": 1792482300,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-20T07:45:00.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Porygon-Z",
       "region": "Johto",
       "location": "Team Rocket HQ",
-      "secondsAgo": 7432,
+      "secondsAgo": 7751,
       "sourceId": 1792474619
     },
     {
@@ -38,16 +27,24 @@
       "pokemon": "Luvdisc",
       "region": "Hoenn",
       "location": "Route 132",
-      "secondsAgo": 5423,
+      "secondsAgo": 5742,
       "sourceId": 1792476628
+    },
+    {
+      "monsterId": 340,
+      "pokemon": "Whiscash",
+      "region": "Sinnoh",
+      "location": "Ravaged Path",
+      "secondsAgo": 669,
+      "sourceId": 1792481701
     },
     {
       "monsterId": 311,
       "pokemon": "Plusle",
       "region": "Unova",
       "location": "Route 5",
-      "secondsAgo": 2932,
-      "sourceId": 1792479119
+      "secondsAgo": 3250,
+      "sourceId": 1792479120
     }
   ],
   "alpha": {
