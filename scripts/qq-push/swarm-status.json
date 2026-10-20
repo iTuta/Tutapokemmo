@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-20T19:55:56.440Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-20T20:01:04.741Z",
+  "swarms": [
     {
-      "monsterId": 335,
-      "pokemon": "Zangoose",
+      "monsterId": 1,
+      "pokemon": "Bulbasaur",
       "region": "Kanto",
-      "location": "Route 14",
-      "secondsAgo": 7789,
-      "sourceId": 1792518367
-    },
+      "location": "Viridian Forest",
+      "sourceId": 1792527958,
+      "despawnTimestamp": 1792527957,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-20T20:25:58.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 3914,
+      "secondsAgo": 4222,
       "sourceId": 1792522242
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 5815,
+      "secondsAgo": 6123,
       "sourceId": 1792520341
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Kecleon",
       "region": "Sinnoh",
       "location": "Route 229",
-      "secondsAgo": 12549,
+      "secondsAgo": 12857,
       "sourceId": 1792513607
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 13987,
+      "secondsAgo": 14295,
       "sourceId": 1792512169
     }
   ],
