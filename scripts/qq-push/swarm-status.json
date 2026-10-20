@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-20T06:05:43.825Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-20T06:10:52.624Z",
+  "swarms": [
+    {
+      "monsterId": 370,
+      "pokemon": "Luvdisc",
+      "region": "Hoenn",
+      "location": "Route 132",
+      "sourceId": 1792478127,
+      "despawnTimestamp": 1792478127,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-20T06:35:27.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 346,
       "pokemon": "Cradily",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 5135,
+      "secondsAgo": 5444,
       "sourceId": 1792471208
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Porygon-Z",
       "region": "Johto",
       "location": "Team Rocket HQ",
-      "secondsAgo": 1724,
+      "secondsAgo": 2033,
       "sourceId": 1792474619
-    },
-    {
-      "monsterId": 369,
-      "pokemon": "Relicanth",
-      "region": "Hoenn",
-      "location": "Route 126",
-      "secondsAgo": 7286,
-      "sourceId": 1792469057
     },
     {
       "monsterId": 479,
       "pokemon": "Rotom",
       "region": "Sinnoh",
       "location": "Old Chateau",
-      "secondsAgo": 7350,
+      "secondsAgo": 7659,
       "sourceId": 1792468993
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 10681,
+      "secondsAgo": 10990,
       "sourceId": 1792465662
     }
   ],
