@@ -1,45 +1,52 @@
 {
-  "fetchedAt": "2026-10-20T04:01:07.393Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-20T04:05:44.622Z",
+  "swarms": [
+    {
+      "monsterId": 369,
+      "pokemon": "Relicanth",
+      "region": "Hoenn",
+      "location": "Route 126",
+      "sourceId": 1792470557,
+      "despawnTimestamp": 1792470557,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-20T04:29:17.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 479,
+      "pokemon": "Rotom",
+      "region": "Sinnoh",
+      "location": "Old Chateau",
+      "sourceId": 1792470493,
+      "despawnTimestamp": 1792470492,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-20T04:28:13.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 314,
       "pokemon": "Illumise",
       "region": "Kanto",
       "location": "Water Path",
-      "secondsAgo": 18462,
-      "sourceId": 1792450405
+      "secondsAgo": 18740,
+      "sourceId": 1792450404
     },
     {
       "monsterId": 155,
       "pokemon": "Cyndaquil",
       "region": "Johto",
       "location": "Route 33",
-      "secondsAgo": 29579,
+      "secondsAgo": 29856,
       "sourceId": 1792439288
-    },
-    {
-      "monsterId": 331,
-      "pokemon": "Cacnea",
-      "region": "Hoenn",
-      "location": "Route 111",
-      "secondsAgo": 6605,
-      "sourceId": 1792462262
-    },
-    {
-      "monsterId": 83,
-      "pokemon": "Farfetch&#x27;d",
-      "region": "Sinnoh",
-      "location": "Route 209",
-      "secondsAgo": 11153,
-      "sourceId": 1792457714
     },
     {
       "monsterId": 148,
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 3205,
+      "secondsAgo": 3482,
       "sourceId": 1792465662
     }
   ],
