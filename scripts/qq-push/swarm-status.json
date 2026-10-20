@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-20T13:25:52.494Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-20T13:31:06.793Z",
+  "swarms": [
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Hoenn",
+      "location": "Shoal Cave",
+      "sourceId": 1792504519,
+      "despawnTimestamp": 1792504518,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-20T13:55:19.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 9681,
+      "secondsAgo": 9995,
       "sourceId": 1792493071
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 11663,
+      "secondsAgo": 11977,
       "sourceId": 1792491089
-    },
-    {
-      "monsterId": 321,
-      "pokemon": "Wailord",
-      "region": "Hoenn",
-      "location": "Route 129",
-      "secondsAgo": 12571,
-      "sourceId": 1792490181
     },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Sinnoh",
       "location": "Route 225",
-      "secondsAgo": 8996,
+      "secondsAgo": 9310,
       "sourceId": 1792493756
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Aipom",
       "region": "Unova",
       "location": "Cold Storage",
-      "secondsAgo": 4188,
+      "secondsAgo": 4502,
       "sourceId": 1792498564
     }
   ],
