@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-20T16:25:52.694Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-20T16:31:08.218Z",
+  "swarms": [
+    {
+      "monsterId": 352,
+      "pokemon": "Kecleon",
+      "region": "Sinnoh",
+      "location": "Route 229",
+      "sourceId": 1792515107,
+      "despawnTimestamp": 1792515107,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-20T16:51:47.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Kanto",
       "location": "Lost Cave",
-      "secondsAgo": 7829,
+      "secondsAgo": 8145,
       "sourceId": 1792505723
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Croconaw",
       "region": "Johto",
       "location": "Whirl Islands",
-      "secondsAgo": 8761,
+      "secondsAgo": 9077,
       "sourceId": 1792504791
     },
     {
@@ -23,16 +35,8 @@
       "pokemon": "Swampert",
       "region": "Hoenn",
       "location": "Route 109",
-      "secondsAgo": 2748,
+      "secondsAgo": 3064,
       "sourceId": 1792510804
-    },
-    {
-      "monsterId": 328,
-      "pokemon": "Trapinch",
-      "region": "Sinnoh",
-      "location": "Oreburgh Mine",
-      "secondsAgo": 7252,
-      "sourceId": 1792506300
     }
   ],
   "alpha": {
