@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-20T10:20:54.083Z",
+  "fetchedAt": "2026-10-20T10:25:46.146Z",
   "swarms": [
     {
       "monsterId": 469,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-20T10:36:28.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 321,
-      "pokemon": "Wailord",
-      "region": "Hoenn",
-      "location": "Route 129",
-      "sourceId": 1792491680,
-      "despawnTimestamp": 1792491680,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-20T10:21:20.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,15 +19,23 @@
       "pokemon": "Tropius",
       "region": "Kanto",
       "location": "Bond Bridge",
-      "secondsAgo": 9765,
+      "secondsAgo": 10057,
       "sourceId": 1792481889
+    },
+    {
+      "monsterId": 321,
+      "pokemon": "Wailord",
+      "region": "Hoenn",
+      "location": "Route 129",
+      "secondsAgo": 1765,
+      "sourceId": 1792490181
     },
     {
       "monsterId": 389,
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 6276,
+      "secondsAgo": 6568,
       "sourceId": 1792485378
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Hippowdon",
       "region": "Unova",
       "location": "Mistralton Cave",
-      "secondsAgo": 5911,
+      "secondsAgo": 6203,
       "sourceId": 1792485743
     }
   ],
