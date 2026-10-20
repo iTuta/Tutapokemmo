@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-20T07:30:54.165Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-20T07:35:52.758Z",
+  "swarms": [
+    {
+      "monsterId": 340,
+      "pokemon": "Whiscash",
+      "region": "Sinnoh",
+      "location": "Ravaged Path",
+      "sourceId": 1792482300,
+      "despawnTimestamp": 1792482300,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-20T07:45:00.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 346,
       "pokemon": "Cradily",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 10246,
+      "secondsAgo": 10544,
       "sourceId": 1792471208
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Porygon-Z",
       "region": "Johto",
       "location": "Team Rocket HQ",
-      "secondsAgo": 6835,
+      "secondsAgo": 7133,
       "sourceId": 1792474619
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Luvdisc",
       "region": "Hoenn",
       "location": "Route 132",
-      "secondsAgo": 4826,
+      "secondsAgo": 5124,
       "sourceId": 1792476628
-    },
-    {
-      "monsterId": 479,
-      "pokemon": "Rotom",
-      "region": "Sinnoh",
-      "location": "Old Chateau",
-      "secondsAgo": 12460,
-      "sourceId": 1792468994
     },
     {
       "monsterId": 311,
       "pokemon": "Plusle",
       "region": "Unova",
       "location": "Route 5",
-      "secondsAgo": 2334,
-      "sourceId": 1792479120
+      "secondsAgo": 2633,
+      "sourceId": 1792479119
     }
   ],
   "alpha": {
