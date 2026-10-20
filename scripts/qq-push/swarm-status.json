@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-20T12:15:52.098Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-20T12:20:50.243Z",
+  "swarms": [
+    {
+      "monsterId": 190,
+      "pokemon": "Aipom",
+      "region": "Unova",
+      "location": "Cold Storage",
+      "sourceId": 1792500063,
+      "despawnTimestamp": 1792500063,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-20T12:41:03.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 5481,
+      "secondsAgo": 5779,
       "sourceId": 1792493071
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 7463,
+      "secondsAgo": 7761,
       "sourceId": 1792491089
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Wailord",
       "region": "Hoenn",
       "location": "Route 129",
-      "secondsAgo": 8371,
+      "secondsAgo": 8669,
       "sourceId": 1792490181
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Carnivine",
       "region": "Sinnoh",
       "location": "Route 225",
-      "secondsAgo": 4795,
-      "sourceId": 1792493757
-    },
-    {
-      "monsterId": 450,
-      "pokemon": "Hippowdon",
-      "region": "Unova",
-      "location": "Mistralton Cave",
-      "secondsAgo": 12809,
-      "sourceId": 1792485743
+      "secondsAgo": 5094,
+      "sourceId": 1792493756
     }
   ],
   "alpha": {
