@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-20T20:51:01.953Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-20T20:55:50.832Z",
+  "swarms": [
+    {
+      "monsterId": 349,
+      "pokemon": "Feebas",
+      "region": "Hoenn",
+      "location": "Route 130",
+      "sourceId": 1792530941,
+      "despawnTimestamp": 1792530940,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-20T21:15:41.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 7219,
+      "secondsAgo": 7508,
       "sourceId": 1792522242
-    },
-    {
-      "monsterId": 517,
-      "pokemon": "Munna",
-      "region": "Hoenn",
-      "location": "Route 102",
-      "secondsAgo": 9121,
-      "sourceId": 1792520340
     },
     {
       "monsterId": 352,
       "pokemon": "Kecleon",
       "region": "Sinnoh",
       "location": "Route 229",
-      "secondsAgo": 15854,
+      "secondsAgo": 16143,
       "sourceId": 1792513607
     },
     {
@@ -31,8 +35,8 @@
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 17293,
-      "sourceId": 1792512168
+      "secondsAgo": 17581,
+      "sourceId": 1792512169
     }
   ],
   "alpha": {
