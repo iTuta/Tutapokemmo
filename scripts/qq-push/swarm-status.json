@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-20T04:35:56.463Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-20T04:40:49.853Z",
+  "swarms": [
     {
-      "monsterId": 314,
-      "pokemon": "Illumise",
+      "monsterId": 346,
+      "pokemon": "Cradily",
       "region": "Kanto",
-      "location": "Water Path",
-      "secondsAgo": 20551,
-      "sourceId": 1792450405
-    },
+      "location": "Tanoby Ruins",
+      "sourceId": 1792472707,
+      "despawnTimestamp": 1792472706,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-20T05:05:07.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 155,
       "pokemon": "Cyndaquil",
       "region": "Johto",
       "location": "Route 33",
-      "secondsAgo": 31668,
+      "secondsAgo": 31961,
       "sourceId": 1792439288
     },
     {
@@ -23,15 +27,15 @@
       "pokemon": "Relicanth",
       "region": "Hoenn",
       "location": "Route 126",
-      "secondsAgo": 1898,
-      "sourceId": 1792469058
+      "secondsAgo": 2192,
+      "sourceId": 1792469057
     },
     {
       "monsterId": 479,
       "pokemon": "Rotom",
       "region": "Sinnoh",
       "location": "Old Chateau",
-      "secondsAgo": 1963,
+      "secondsAgo": 2256,
       "sourceId": 1792468993
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 5294,
-      "sourceId": 1792465662
+      "secondsAgo": 5588,
+      "sourceId": 1792465661
     }
   ],
   "alpha": {
