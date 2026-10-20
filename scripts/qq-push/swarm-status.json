@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-20T11:05:46.679Z",
+  "fetchedAt": "2026-10-20T11:11:02.323Z",
   "swarms": [
-    {
-      "monsterId": 335,
-      "pokemon": "Zangoose",
-      "region": "Kanto",
-      "location": "Route 14",
-      "sourceId": 1792494570,
-      "despawnTimestamp": 1792494570,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-20T11:09:30.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 335,
+      "pokemon": "Zangoose",
+      "region": "Kanto",
+      "location": "Route 14",
+      "secondsAgo": 1591,
+      "sourceId": 1792493071
+    },
+    {
       "monsterId": 321,
       "pokemon": "Wailord",
       "region": "Hoenn",
       "location": "Route 129",
-      "secondsAgo": 4165,
+      "secondsAgo": 4481,
       "sourceId": 1792490181
     },
     {
@@ -38,8 +35,8 @@
       "pokemon": "Hippowdon",
       "region": "Unova",
       "location": "Mistralton Cave",
-      "secondsAgo": 8604,
-      "sourceId": 1792485742
+      "secondsAgo": 8919,
+      "sourceId": 1792485743
     }
   ],
   "alpha": {
