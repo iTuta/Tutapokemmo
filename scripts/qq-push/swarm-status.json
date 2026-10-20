@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-20T14:10:53.976Z",
+  "fetchedAt": "2026-10-20T14:15:54.814Z",
   "swarms": [
+    {
+      "monsterId": 442,
+      "pokemon": "Spiritomb",
+      "region": "Kanto",
+      "location": "Lost Cave",
+      "sourceId": 1792507222,
+      "despawnTimestamp": 1792507222,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-20T14:40:22.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 159,
       "pokemon": "Croconaw",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 335,
-      "pokemon": "Zangoose",
-      "region": "Kanto",
-      "location": "Route 14",
-      "secondsAgo": 12382,
-      "sourceId": 1792493071
-    },
-    {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Hoenn",
       "location": "Shoal Cave",
-      "secondsAgo": 2434,
+      "secondsAgo": 2735,
       "sourceId": 1792503019
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Carnivine",
       "region": "Sinnoh",
       "location": "Route 225",
-      "secondsAgo": 11697,
+      "secondsAgo": 11998,
       "sourceId": 1792493756
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Aipom",
       "region": "Unova",
       "location": "Cold Storage",
-      "secondsAgo": 6889,
+      "secondsAgo": 7190,
       "sourceId": 1792498564
     }
   ],
