@@ -1,33 +1,29 @@
 {
-  "fetchedAt": "2026-10-20T19:10:51.989Z",
-  "swarms": [
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Johto",
-      "location": "Bell Tower",
-      "sourceId": 1792523742,
-      "despawnTimestamp": 1792523741,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-20T19:15:42.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-20T19:15:54.020Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 5085,
+      "secondsAgo": 5387,
       "sourceId": 1792518366
+    },
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Johto",
+      "location": "Bell Tower",
+      "secondsAgo": 1511,
+      "sourceId": 1792522242
     },
     {
       "monsterId": 517,
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 3111,
+      "secondsAgo": 3413,
       "sourceId": 1792520340
     },
     {
@@ -35,7 +31,7 @@
       "pokemon": "Kecleon",
       "region": "Sinnoh",
       "location": "Route 229",
-      "secondsAgo": 9844,
+      "secondsAgo": 10146,
       "sourceId": 1792513607
     },
     {
@@ -43,7 +39,7 @@
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 11283,
+      "secondsAgo": 11585,
       "sourceId": 1792512168
     }
   ],
