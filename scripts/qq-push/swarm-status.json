@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-20T14:35:49.372Z",
+  "fetchedAt": "2026-10-20T14:40:57.603Z",
   "swarms": [
-    {
-      "monsterId": 442,
-      "pokemon": "Spiritomb",
-      "region": "Kanto",
-      "location": "Lost Cave",
-      "sourceId": 1792507222,
-      "despawnTimestamp": 1792507222,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-20T14:40:22.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 328,
       "pokemon": "Trapinch",
       "region": "Sinnoh",
       "location": "Oreburgh Mine",
       "sourceId": 1792507800,
-      "despawnTimestamp": 1792507800,
+      "despawnTimestamp": 1792507799,
       "hasValuable": false,
       "timestampUtc": "2026-10-20T14:50:00.000Z",
       "publishedBy": ""
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 442,
+      "pokemon": "Spiritomb",
+      "region": "Kanto",
+      "location": "Lost Cave",
+      "secondsAgo": 1534,
+      "sourceId": 1792505723
+    },
+    {
       "monsterId": 159,
       "pokemon": "Croconaw",
       "region": "Johto",
       "location": "Whirl Islands",
-      "secondsAgo": 2158,
+      "secondsAgo": 2466,
       "sourceId": 1792504791
     },
     {
@@ -38,15 +35,15 @@
       "pokemon": "Lapras",
       "region": "Hoenn",
       "location": "Shoal Cave",
-      "secondsAgo": 3929,
-      "sourceId": 1792503020
+      "secondsAgo": 4238,
+      "sourceId": 1792503019
     },
     {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Unova",
       "location": "Cold Storage",
-      "secondsAgo": 8385,
+      "secondsAgo": 8693,
       "sourceId": 1792498564
     }
   ],
