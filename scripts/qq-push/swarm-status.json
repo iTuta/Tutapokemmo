@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-20T03:05:37.998Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-20T03:10:48.686Z",
+  "swarms": [
+    {
+      "monsterId": 148,
+      "pokemon": "Dragonair",
+      "region": "Unova",
+      "location": "Dragonspiral Tower",
+      "sourceId": 1792467161,
+      "despawnTimestamp": 1792467161,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-20T03:32:41.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 314,
       "pokemon": "Illumise",
       "region": "Kanto",
       "location": "Water Path",
-      "secondsAgo": 15133,
+      "secondsAgo": 15444,
       "sourceId": 1792450404
     },
     {
@@ -15,24 +27,16 @@
       "pokemon": "Cacnea",
       "region": "Hoenn",
       "location": "Route 111",
-      "secondsAgo": 3276,
-      "sourceId": 1792462261
+      "secondsAgo": 3586,
+      "sourceId": 1792462262
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 7823,
+      "secondsAgo": 8134,
       "sourceId": 1792457714
-    },
-    {
-      "monsterId": 311,
-      "pokemon": "Plusle",
-      "region": "Unova",
-      "location": "Route 5",
-      "secondsAgo": 12017,
-      "sourceId": 1792453520
     }
   ],
   "alpha": {
