@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-20T07:35:52.758Z",
+  "fetchedAt": "2026-10-20T07:40:51.717Z",
   "swarms": [
+    {
+      "monsterId": 357,
+      "pokemon": "Tropius",
+      "region": "Kanto",
+      "location": "Bond Bridge",
+      "sourceId": 1792483388,
+      "despawnTimestamp": 1792483387,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-20T08:03:08.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 340,
       "pokemon": "Whiscash",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 346,
-      "pokemon": "Cradily",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 10544,
-      "sourceId": 1792471208
-    },
-    {
       "monsterId": 474,
       "pokemon": "Porygon-Z",
       "region": "Johto",
       "location": "Team Rocket HQ",
-      "secondsAgo": 7133,
+      "secondsAgo": 7432,
       "sourceId": 1792474619
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Luvdisc",
       "region": "Hoenn",
       "location": "Route 132",
-      "secondsAgo": 5124,
+      "secondsAgo": 5423,
       "sourceId": 1792476628
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Plusle",
       "region": "Unova",
       "location": "Route 5",
-      "secondsAgo": 2633,
+      "secondsAgo": 2932,
       "sourceId": 1792479119
     }
   ],
