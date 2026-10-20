@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-20T10:40:47.589Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-20T10:45:58.913Z",
+  "swarms": [
     {
-      "monsterId": 357,
-      "pokemon": "Tropius",
+      "monsterId": 335,
+      "pokemon": "Zangoose",
       "region": "Kanto",
-      "location": "Bond Bridge",
-      "secondsAgo": 10959,
-      "sourceId": 1792481888
-    },
+      "location": "Route 14",
+      "sourceId": 1792494570,
+      "despawnTimestamp": 1792494570,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-20T11:09:30.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 321,
       "pokemon": "Wailord",
       "region": "Hoenn",
       "location": "Route 129",
-      "secondsAgo": 2666,
-      "sourceId": 1792490181
+      "secondsAgo": 2978,
+      "sourceId": 1792490180
     },
     {
       "monsterId": 389,
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 7470,
+      "secondsAgo": 7781,
       "sourceId": 1792485377
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Hippowdon",
       "region": "Unova",
       "location": "Mistralton Cave",
-      "secondsAgo": 7105,
+      "secondsAgo": 7416,
       "sourceId": 1792485742
     }
   ],
