@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-20T06:50:52.810Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-20T06:56:47.060Z",
+  "swarms": [
+    {
+      "monsterId": 311,
+      "pokemon": "Plusle",
+      "region": "Unova",
+      "location": "Route 5",
+      "sourceId": 1792480619,
+      "despawnTimestamp": 1792480619,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-20T07:16:59.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 346,
       "pokemon": "Cradily",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 7844,
+      "secondsAgo": 8199,
       "sourceId": 1792471208
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Porygon-Z",
       "region": "Johto",
       "location": "Team Rocket HQ",
-      "secondsAgo": 4433,
+      "secondsAgo": 4788,
       "sourceId": 1792474619
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Luvdisc",
       "region": "Hoenn",
       "location": "Route 132",
-      "secondsAgo": 2424,
+      "secondsAgo": 2779,
       "sourceId": 1792476628
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Rotom",
       "region": "Sinnoh",
       "location": "Old Chateau",
-      "secondsAgo": 10059,
-      "sourceId": 1792468993
-    },
-    {
-      "monsterId": 148,
-      "pokemon": "Dragonair",
-      "region": "Unova",
-      "location": "Dragonspiral Tower",
-      "secondsAgo": 13390,
-      "sourceId": 1792465662
+      "secondsAgo": 10413,
+      "sourceId": 1792468994
     }
   ],
   "alpha": {
