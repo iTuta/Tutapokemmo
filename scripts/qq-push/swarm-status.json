@@ -1,45 +1,52 @@
 {
-  "fetchedAt": "2026-10-20T23:01:07.650Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-20T23:05:48.740Z",
+  "swarms": [
+    {
+      "monsterId": 339,
+      "pokemon": "Barboach",
+      "region": "Johto",
+      "location": "Slowpoke Well",
+      "sourceId": 1792538806,
+      "despawnTimestamp": 1792538805,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-20T23:26:46.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 260,
+      "pokemon": "Swampert",
+      "region": "Hoenn",
+      "location": "Route 109",
+      "sourceId": 1792539036,
+      "despawnTimestamp": 1792539035,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-20T23:30:36.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 1,
       "pokemon": "Bulbasaur",
       "region": "Kanto",
       "location": "Viridian Forest",
-      "secondsAgo": 10808,
-      "sourceId": 1792526459
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Johto",
-      "location": "Bell Tower",
-      "secondsAgo": 15025,
-      "sourceId": 1792522242
-    },
-    {
-      "monsterId": 316,
-      "pokemon": "Gulpin",
-      "region": "Hoenn",
-      "location": "Route 110",
-      "secondsAgo": 4224,
-      "sourceId": 1792533043
+      "secondsAgo": 11090,
+      "sourceId": 1792526458
     },
     {
       "monsterId": 103,
       "pokemon": "Exeggutor",
       "region": "Sinnoh",
       "location": "Route 230",
-      "secondsAgo": 2563,
-      "sourceId": 1792534704
+      "secondsAgo": 2845,
+      "sourceId": 1792534703
     },
     {
       "monsterId": 311,
       "pokemon": "Plusle",
       "region": "Unova",
       "location": "Route 5",
-      "secondsAgo": 6137,
+      "secondsAgo": 6418,
       "sourceId": 1792531130
     }
   ],
