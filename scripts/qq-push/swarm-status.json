@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-10-20T22:15:54.863Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-20T22:20:49.481Z",
+  "swarms": [
+    {
+      "monsterId": 103,
+      "pokemon": "Exeggutor",
+      "region": "Sinnoh",
+      "location": "Route 230",
+      "sourceId": 1792536203,
+      "despawnTimestamp": 1792536203,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-20T22:43:23.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 1,
       "pokemon": "Bulbasaur",
       "region": "Kanto",
       "location": "Viridian Forest",
-      "secondsAgo": 8096,
-      "sourceId": 1792526458
+      "secondsAgo": 8390,
+      "sourceId": 1792526459
     },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 12312,
+      "secondsAgo": 12607,
       "sourceId": 1792522242
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 1512,
-      "sourceId": 1792533042
-    },
-    {
-      "monsterId": 438,
-      "pokemon": "Bonsly",
-      "region": "Sinnoh",
-      "location": "Eterna Forest",
-      "secondsAgo": 4448,
-      "sourceId": 1792530106
+      "secondsAgo": 1806,
+      "sourceId": 1792533043
     },
     {
       "monsterId": 311,
       "pokemon": "Plusle",
       "region": "Unova",
       "location": "Route 5",
-      "secondsAgo": 3425,
-      "sourceId": 1792531129
+      "secondsAgo": 3719,
+      "sourceId": 1792531130
     }
   ],
   "alpha": {
