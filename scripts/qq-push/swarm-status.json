@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-20T21:10:48.491Z",
+  "fetchedAt": "2026-10-20T21:15:59.190Z",
   "swarms": [
-    {
-      "monsterId": 349,
-      "pokemon": "Feebas",
-      "region": "Hoenn",
-      "location": "Route 130",
-      "sourceId": 1792530941,
-      "despawnTimestamp": 1792530940,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-20T21:15:41.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 438,
       "pokemon": "Bonsly",
       "region": "Sinnoh",
       "location": "Eterna Forest",
       "sourceId": 1792531606,
-      "despawnTimestamp": 1792531605,
+      "despawnTimestamp": 1792531606,
       "hasValuable": false,
       "timestampUtc": "2026-10-20T21:26:46.000Z",
       "publishedBy": ""
@@ -30,15 +19,23 @@
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 8406,
-      "sourceId": 1792522242
+      "secondsAgo": 8716,
+      "sourceId": 1792522243
+    },
+    {
+      "monsterId": 349,
+      "pokemon": "Feebas",
+      "region": "Hoenn",
+      "location": "Route 130",
+      "secondsAgo": 1217,
+      "sourceId": 1792529742
     },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 18479,
+      "secondsAgo": 18790,
       "sourceId": 1792512169
     }
   ],
