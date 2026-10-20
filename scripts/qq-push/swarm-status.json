@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-20T02:10:54.946Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-20T02:15:52.257Z",
+  "swarms": [
+    {
+      "monsterId": 331,
+      "pokemon": "Cacnea",
+      "region": "Hoenn",
+      "location": "Route 111",
+      "sourceId": 1792463761,
+      "despawnTimestamp": 1792463761,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-20T02:36:01.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 314,
       "pokemon": "Illumise",
       "region": "Kanto",
       "location": "Water Path",
-      "secondsAgo": 11850,
-      "sourceId": 1792450404
-    },
-    {
-      "monsterId": 134,
-      "pokemon": "Vaporeon",
-      "region": "Hoenn",
-      "location": "Route 134",
-      "secondsAgo": 13606,
-      "sourceId": 1792448648
+      "secondsAgo": 12147,
+      "sourceId": 1792450405
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 4540,
+      "secondsAgo": 4838,
       "sourceId": 1792457714
     },
     {
@@ -31,8 +35,8 @@
       "pokemon": "Plusle",
       "region": "Unova",
       "location": "Route 5",
-      "secondsAgo": 8734,
-      "sourceId": 1792453520
+      "secondsAgo": 9031,
+      "sourceId": 1792453521
     }
   ],
   "alpha": {
