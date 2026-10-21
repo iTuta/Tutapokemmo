@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-21T09:50:59.624Z",
+  "fetchedAt": "2026-10-21T09:55:48.319Z",
   "swarms": [
     {
       "monsterId": 570,
@@ -7,20 +7,9 @@
       "region": "Hoenn",
       "location": "Route 101",
       "sourceId": 1792577555,
-      "despawnTimestamp": 1792577554,
+      "despawnTimestamp": 1792577555,
       "hasValuable": false,
       "timestampUtc": "2026-10-21T10:12:35.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Sinnoh",
-      "location": "Iron Island",
-      "sourceId": 1792576411,
-      "despawnTimestamp": 1792576410,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-21T09:53:31.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,7 +19,7 @@
       "pokemon": "Skorupi",
       "region": "Kanto",
       "location": "Route 9",
-      "secondsAgo": 12178,
+      "secondsAgo": 12467,
       "sourceId": 1792564081
     },
     {
@@ -38,8 +27,16 @@
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 4675,
+      "secondsAgo": 4964,
       "sourceId": 1792571584
+    },
+    {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Sinnoh",
+      "location": "Iron Island",
+      "secondsAgo": 1637,
+      "sourceId": 1792574911
     }
   ],
   "alpha": {
