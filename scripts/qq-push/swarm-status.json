@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-21T06:25:50.774Z",
+  "fetchedAt": "2026-10-21T06:31:03.692Z",
   "swarms": [
+    {
+      "monsterId": 451,
+      "pokemon": "Skorupi",
+      "region": "Kanto",
+      "location": "Route 9",
+      "sourceId": 1792565580,
+      "despawnTimestamp": 1792565580,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-21T06:53:00.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 359,
-      "pokemon": "Absol",
-      "region": "Kanto",
-      "location": "Canyon Entrance",
-      "secondsAgo": 7078,
-      "sourceId": 1792556872
-    },
-    {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 14186,
+      "secondsAgo": 14499,
       "sourceId": 1792549764
     },
     {
@@ -46,7 +49,7 @@
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 12364,
+      "secondsAgo": 12677,
       "sourceId": 1792551586
     }
   ],
