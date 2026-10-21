@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-21T18:40:53.362Z",
+  "fetchedAt": "2026-10-21T18:46:01.285Z",
   "swarms": [
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Johto",
+      "location": "Union Cave",
+      "sourceId": 1792609742,
+      "despawnTimestamp": 1792609742,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-21T19:09:02.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 255,
       "pokemon": "Torchic",
@@ -19,23 +30,15 @@
       "pokemon": "Ivysaur",
       "region": "Kanto",
       "location": "Route 5",
-      "secondsAgo": 11080,
+      "secondsAgo": 11388,
       "sourceId": 1792596973
-    },
-    {
-      "monsterId": 290,
-      "pokemon": "Nincada",
-      "region": "Johto",
-      "location": "Route 46",
-      "secondsAgo": 8288,
-      "sourceId": 1792599765
     },
     {
       "monsterId": 103,
       "pokemon": "Exeggutor",
       "region": "Sinnoh",
       "location": "Route 230",
-      "secondsAgo": 8302,
+      "secondsAgo": 8610,
       "sourceId": 1792599751
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Ninjask",
       "region": "Unova",
       "location": "Route 11",
-      "secondsAgo": 18855,
+      "secondsAgo": 19163,
       "sourceId": 1792589198
     }
   ],
