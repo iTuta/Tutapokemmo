@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-21T03:31:05.192Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-21T03:35:55.274Z",
+  "swarms": [
+    {
+      "monsterId": 227,
+      "pokemon": "Skarmory",
+      "region": "Johto",
+      "location": "Route 26",
+      "sourceId": 1792555007,
+      "despawnTimestamp": 1792555007,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-21T03:56:47.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 248,
       "pokemon": "Tyranitar",
       "region": "Kanto",
       "location": "Sevault Canyon",
-      "secondsAgo": 7058,
-      "sourceId": 1792546407
-    },
-    {
-      "monsterId": 160,
-      "pokemon": "Feraligatr",
-      "region": "Johto",
-      "location": "Tohjo Falls",
-      "secondsAgo": 12749,
-      "sourceId": 1792540716
+      "secondsAgo": 7349,
+      "sourceId": 1792546406
     },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Hoenn",
       "location": "Route 116",
-      "secondsAgo": 5011,
+      "secondsAgo": 5301,
       "sourceId": 1792548454
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 3700,
+      "secondsAgo": 3990,
       "sourceId": 1792549765
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 1878,
+      "secondsAgo": 2168,
       "sourceId": 1792551587
     }
   ],
