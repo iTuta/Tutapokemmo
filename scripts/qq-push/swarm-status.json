@@ -1,29 +1,41 @@
 {
-  "fetchedAt": "2026-10-21T02:57:20.268Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-21T03:01:14.691Z",
+  "swarms": [
+    {
+      "monsterId": 148,
+      "pokemon": "Dragonair",
+      "region": "Unova",
+      "location": "Dragonspiral Tower",
+      "sourceId": 1792553086,
+      "despawnTimestamp": 1792553085,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-21T03:24:46.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 248,
       "pokemon": "Tyranitar",
       "region": "Kanto",
       "location": "Sevault Canyon",
-      "secondsAgo": 5033,
-      "sourceId": 1792546407
+      "secondsAgo": 5268,
+      "sourceId": 1792546406
     },
     {
       "monsterId": 160,
       "pokemon": "Feraligatr",
       "region": "Johto",
       "location": "Tohjo Falls",
-      "secondsAgo": 10723,
-      "sourceId": 1792540717
+      "secondsAgo": 10958,
+      "sourceId": 1792540716
     },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Hoenn",
       "location": "Route 116",
-      "secondsAgo": 2986,
+      "secondsAgo": 3220,
       "sourceId": 1792548454
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 1675,
-      "sourceId": 1792549765
-    },
-    {
-      "monsterId": 214,
-      "pokemon": "Heracross",
-      "region": "Unova",
-      "location": "Route 10",
-      "secondsAgo": 10119,
-      "sourceId": 1792541321
+      "secondsAgo": 1910,
+      "sourceId": 1792549764
     }
   ],
   "alpha": {
