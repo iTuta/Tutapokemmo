@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-21T22:01:14.495Z",
+  "fetchedAt": "2026-10-21T22:05:52.411Z",
   "swarms": [
-    {
-      "monsterId": 135,
-      "pokemon": "Jolteon",
-      "region": "Kanto",
-      "location": "Ruin Valley",
-      "sourceId": 1792620106,
-      "despawnTimestamp": 1792620106,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-21T22:01:46.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 439,
       "pokemon": "Mime Jr.",
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 135,
+      "pokemon": "Jolteon",
+      "region": "Kanto",
+      "location": "Ruin Valley",
+      "secondsAgo": 1745,
+      "sourceId": 1792618607
+    },
+    {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 5482,
+      "secondsAgo": 5760,
       "sourceId": 1792614592
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "Heracross",
       "region": "Sinnoh",
       "location": "Route 206",
-      "secondsAgo": 9355,
+      "secondsAgo": 9633,
       "sourceId": 1792610719
     }
   ],
