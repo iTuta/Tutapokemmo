@@ -1,38 +1,45 @@
 {
-  "fetchedAt": "2026-10-21T16:21:01.263Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-21T16:25:56.335Z",
+  "swarms": [
+    {
+      "monsterId": 290,
+      "pokemon": "Nincada",
+      "region": "Johto",
+      "location": "Route 46",
+      "sourceId": 1792601264,
+      "despawnTimestamp": 1792601264,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-21T16:47:44.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 103,
+      "pokemon": "Exeggutor",
+      "region": "Sinnoh",
+      "location": "Route 230",
+      "sourceId": 1792601250,
+      "despawnTimestamp": 1792601250,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-21T16:47:30.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 2,
       "pokemon": "Ivysaur",
       "region": "Kanto",
       "location": "Route 5",
-      "secondsAgo": 2688,
+      "secondsAgo": 2983,
       "sourceId": 1792596973
-    },
-    {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Johto",
-      "location": "Union Cave",
-      "secondsAgo": 5279,
-      "sourceId": 1792594382
     },
     {
       "monsterId": 260,
       "pokemon": "Swampert",
       "region": "Hoenn",
       "location": "Route 109",
-      "secondsAgo": 5387,
+      "secondsAgo": 5682,
       "sourceId": 1792594274
-    },
-    {
-      "monsterId": 357,
-      "pokemon": "Tropius",
-      "region": "Sinnoh",
-      "location": "Route 226",
-      "secondsAgo": 3090,
-      "sourceId": 1792596571
     }
   ],
   "alpha": {
