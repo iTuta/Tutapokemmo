@@ -1,38 +1,42 @@
 {
-  "fetchedAt": "2026-10-21T19:20:51.656Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-21T19:25:47.146Z",
+  "swarms": [
+    {
+      "monsterId": 214,
+      "pokemon": "Heracross",
+      "region": "Sinnoh",
+      "location": "Route 206",
+      "sourceId": 1792612218,
+      "despawnTimestamp": 1792612218,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-21T19:50:18.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 2,
       "pokemon": "Ivysaur",
       "region": "Kanto",
       "location": "Route 5",
-      "secondsAgo": 13479,
-      "sourceId": 1792596972
+      "secondsAgo": 13774,
+      "sourceId": 1792596973
     },
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Johto",
       "location": "Union Cave",
-      "secondsAgo": 2209,
-      "sourceId": 1792608242
+      "secondsAgo": 2504,
+      "sourceId": 1792608243
     },
     {
       "monsterId": 255,
       "pokemon": "Torchic",
       "region": "Hoenn",
       "location": "Route 112",
-      "secondsAgo": 2512,
+      "secondsAgo": 2808,
       "sourceId": 1792607939
-    },
-    {
-      "monsterId": 103,
-      "pokemon": "Exeggutor",
-      "region": "Sinnoh",
-      "location": "Route 230",
-      "secondsAgo": 10700,
-      "sourceId": 1792599751
     }
   ],
   "alpha": {
