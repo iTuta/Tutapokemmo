@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-10-21T23:45:53.330Z",
+  "fetchedAt": "2026-10-21T23:51:04.743Z",
   "swarms": [
+    {
+      "monsterId": 227,
+      "pokemon": "Skarmory",
+      "region": "Johto",
+      "location": "Route 26",
+      "sourceId": 1792627984,
+      "despawnTimestamp": 1792627983,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-22T00:13:04.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
       "region": "Unova",
       "location": "Route 3",
       "sourceId": 1792627123,
-      "despawnTimestamp": 1792627123,
+      "despawnTimestamp": 1792627122,
       "hasValuable": false,
       "timestampUtc": "2026-10-21T23:58:43.000Z",
       "publishedBy": ""
@@ -19,23 +30,15 @@
       "pokemon": "Jolteon",
       "region": "Kanto",
       "location": "Ruin Valley",
-      "secondsAgo": 7746,
+      "secondsAgo": 8057,
       "sourceId": 1792618607
-    },
-    {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Johto",
-      "location": "Burned Tower",
-      "secondsAgo": 11761,
-      "sourceId": 1792614592
     },
     {
       "monsterId": 439,
       "pokemon": "Mime Jr.",
       "region": "Hoenn",
       "location": "Rusturf Tunnel",
-      "secondsAgo": 6474,
+      "secondsAgo": 6785,
       "sourceId": 1792619879
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Croagunk",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 5262,
+      "secondsAgo": 5573,
       "sourceId": 1792621091
     }
   ],
