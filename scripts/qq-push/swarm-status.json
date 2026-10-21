@@ -1,38 +1,42 @@
 {
-  "fetchedAt": "2026-10-21T05:25:57.684Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-21T05:31:01.373Z",
+  "swarms": [
+    {
+      "monsterId": 351,
+      "pokemon": "Castform",
+      "region": "Hoenn",
+      "location": "Aqua Hideout",
+      "sourceId": 1792562041,
+      "despawnTimestamp": 1792562041,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-21T05:54:01.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 359,
       "pokemon": "Absol",
       "region": "Kanto",
       "location": "Canyon Entrance",
-      "secondsAgo": 3485,
-      "sourceId": 1792556872
+      "secondsAgo": 3788,
+      "sourceId": 1792556873
     },
     {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Johto",
       "location": "Route 26",
-      "secondsAgo": 6850,
-      "sourceId": 1792553507
-    },
-    {
-      "monsterId": 300,
-      "pokemon": "Skitty",
-      "region": "Hoenn",
-      "location": "Route 116",
-      "secondsAgo": 11903,
-      "sourceId": 1792548454
+      "secondsAgo": 7153,
+      "sourceId": 1792553508
     },
     {
       "monsterId": 148,
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 8771,
-      "sourceId": 1792551586
+      "secondsAgo": 9074,
+      "sourceId": 1792551587
     }
   ],
   "alpha": {
