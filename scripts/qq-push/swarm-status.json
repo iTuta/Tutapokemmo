@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-21T15:35:50.943Z",
+  "fetchedAt": "2026-10-21T15:41:04.006Z",
   "swarms": [
+    {
+      "monsterId": 2,
+      "pokemon": "Ivysaur",
+      "region": "Kanto",
+      "location": "Route 5",
+      "sourceId": 1792598472,
+      "despawnTimestamp": 1792598471,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-21T16:01:12.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 357,
       "pokemon": "Tropius",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 369,
-      "pokemon": "Relicanth",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 9899,
-      "sourceId": 1792587051
-    },
-    {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Johto",
       "location": "Union Cave",
-      "secondsAgo": 2568,
+      "secondsAgo": 2881,
       "sourceId": 1792594382
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Swampert",
       "region": "Hoenn",
       "location": "Route 109",
-      "secondsAgo": 2677,
+      "secondsAgo": 2990,
       "sourceId": 1792594273
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Ninjask",
       "region": "Unova",
       "location": "Route 11",
-      "secondsAgo": 7752,
+      "secondsAgo": 8065,
       "sourceId": 1792589198
     }
   ],
