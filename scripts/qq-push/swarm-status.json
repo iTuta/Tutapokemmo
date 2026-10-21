@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-21T20:50:48.391Z",
+  "fetchedAt": "2026-10-21T20:55:49.202Z",
   "swarms": [
     {
       "monsterId": 211,
@@ -7,30 +7,27 @@
       "region": "Kanto",
       "location": "Route 20",
       "sourceId": 1792616323,
-      "despawnTimestamp": 1792616322,
+      "despawnTimestamp": 1792616323,
       "hasValuable": false,
       "timestampUtc": "2026-10-21T20:58:43.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Johto",
-      "location": "Burned Tower",
-      "sourceId": 1792616092,
-      "despawnTimestamp": 1792616091,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-21T20:54:52.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Johto",
+      "location": "Burned Tower",
+      "secondsAgo": 1556,
+      "sourceId": 1792614593
+    },
+    {
       "monsterId": 255,
       "pokemon": "Torchic",
       "region": "Hoenn",
       "location": "Route 112",
-      "secondsAgo": 7909,
+      "secondsAgo": 8210,
       "sourceId": 1792607939
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Heracross",
       "region": "Sinnoh",
       "location": "Route 206",
-      "secondsAgo": 5129,
+      "secondsAgo": 5430,
       "sourceId": 1792610719
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Ninjask",
       "region": "Unova",
       "location": "Route 11",
-      "secondsAgo": 26650,
-      "sourceId": 1792589198
+      "secondsAgo": 26950,
+      "sourceId": 1792589199
     }
   ],
   "alpha": {
