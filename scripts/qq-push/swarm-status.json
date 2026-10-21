@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-21T06:41:01.446Z",
+  "fetchedAt": "2026-10-21T06:45:57.449Z",
   "swarms": [
     {
       "monsterId": 451,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-21T06:53:00.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 255,
-      "pokemon": "Torchic",
-      "region": "Hoenn",
-      "location": "Route 112",
-      "sourceId": 1792565127,
-      "despawnTimestamp": 1792565127,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-21T06:45:27.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,15 +19,23 @@
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 1526,
+      "secondsAgo": 1822,
       "sourceId": 1792563335
+    },
+    {
+      "monsterId": 255,
+      "pokemon": "Torchic",
+      "region": "Hoenn",
+      "location": "Route 112",
+      "secondsAgo": 1529,
+      "sourceId": 1792563628
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 15096,
+      "secondsAgo": 15392,
       "sourceId": 1792549765
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 13274,
-      "sourceId": 1792551587
+      "secondsAgo": 13571,
+      "sourceId": 1792551586
     }
   ],
   "alpha": {
