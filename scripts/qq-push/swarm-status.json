@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-21T23:31:08.540Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-21T23:35:47.937Z",
+  "swarms": [
+    {
+      "monsterId": 342,
+      "pokemon": "Crawdaunt",
+      "region": "Unova",
+      "location": "Route 3",
+      "sourceId": 1792627123,
+      "despawnTimestamp": 1792627122,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-21T23:58:43.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 135,
       "pokemon": "Jolteon",
       "region": "Kanto",
       "location": "Ruin Valley",
-      "secondsAgo": 6861,
+      "secondsAgo": 7140,
       "sourceId": 1792618607
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 10876,
+      "secondsAgo": 11155,
       "sourceId": 1792614592
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Mime Jr.",
       "region": "Hoenn",
       "location": "Rusturf Tunnel",
-      "secondsAgo": 5589,
+      "secondsAgo": 5868,
       "sourceId": 1792619879
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Croagunk",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 4377,
+      "secondsAgo": 4656,
       "sourceId": 1792621091
-    },
-    {
-      "monsterId": 430,
-      "pokemon": "Honchkrow",
-      "region": "Unova",
-      "location": "Celestial Tower",
-      "secondsAgo": 6211,
-      "sourceId": 1792619257
     }
   ],
   "alpha": {
