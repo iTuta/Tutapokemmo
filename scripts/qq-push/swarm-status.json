@@ -1,45 +1,52 @@
 {
-  "fetchedAt": "2026-10-21T14:50:56.862Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-21T14:55:55.695Z",
+  "swarms": [
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Johto",
+      "location": "Union Cave",
+      "sourceId": 1792595882,
+      "despawnTimestamp": 1792595881,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-21T15:18:02.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 260,
+      "pokemon": "Swampert",
+      "region": "Hoenn",
+      "location": "Route 109",
+      "sourceId": 1792595773,
+      "despawnTimestamp": 1792595772,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-21T15:16:13.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 7205,
+      "secondsAgo": 7504,
       "sourceId": 1792587051
-    },
-    {
-      "monsterId": 237,
-      "pokemon": "Hitmontop",
-      "region": "Johto",
-      "location": "Mt. Mortar",
-      "secondsAgo": 11105,
-      "sourceId": 1792583151
-    },
-    {
-      "monsterId": 352,
-      "pokemon": "Kecleon",
-      "region": "Hoenn",
-      "location": "Route 120",
-      "secondsAgo": 7235,
-      "sourceId": 1792587021
     },
     {
       "monsterId": 421,
       "pokemon": "Cherrim",
       "region": "Sinnoh",
       "location": "Lake Verity",
-      "secondsAgo": 10059,
-      "sourceId": 1792584197
+      "secondsAgo": 10357,
+      "sourceId": 1792584198
     },
     {
       "monsterId": 291,
       "pokemon": "Ninjask",
       "region": "Unova",
       "location": "Route 11",
-      "secondsAgo": 5058,
+      "secondsAgo": 5357,
       "sourceId": 1792589198
     }
   ],
