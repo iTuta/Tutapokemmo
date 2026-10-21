@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-21T13:25:50.507Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-21T13:31:09.622Z",
+  "swarms": [
+    {
+      "monsterId": 291,
+      "pokemon": "Ninjask",
+      "region": "Unova",
+      "location": "Route 11",
+      "sourceId": 1792590697,
+      "despawnTimestamp": 1792590697,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-21T13:51:37.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 2099,
+      "secondsAgo": 2418,
       "sourceId": 1792587051
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Hitmontop",
       "region": "Johto",
       "location": "Mt. Mortar",
-      "secondsAgo": 5999,
+      "secondsAgo": 6318,
       "sourceId": 1792583151
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Kecleon",
       "region": "Hoenn",
       "location": "Route 120",
-      "secondsAgo": 2128,
-      "sourceId": 1792587022
+      "secondsAgo": 2448,
+      "sourceId": 1792587021
     },
     {
       "monsterId": 421,
       "pokemon": "Cherrim",
       "region": "Sinnoh",
       "location": "Lake Verity",
-      "secondsAgo": 4952,
+      "secondsAgo": 5271,
       "sourceId": 1792584198
-    },
-    {
-      "monsterId": 127,
-      "pokemon": "Pinsir",
-      "region": "Unova",
-      "location": "Route 12",
-      "secondsAgo": 18119,
-      "sourceId": 1792571031
     }
   ],
   "alpha": {
