@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-21T12:05:48.452Z",
+  "fetchedAt": "2026-10-21T12:11:11.585Z",
   "swarms": [
-    {
-      "monsterId": 237,
-      "pokemon": "Hitmontop",
-      "region": "Johto",
-      "location": "Mt. Mortar",
-      "sourceId": 1792584651,
-      "despawnTimestamp": 1792584650,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-21T12:10:51.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 421,
       "pokemon": "Cherrim",
@@ -30,15 +19,23 @@
       "pokemon": "Skorupi",
       "region": "Kanto",
       "location": "Route 9",
-      "secondsAgo": 20267,
+      "secondsAgo": 20590,
       "sourceId": 1792564081
+    },
+    {
+      "monsterId": 237,
+      "pokemon": "Hitmontop",
+      "region": "Johto",
+      "location": "Mt. Mortar",
+      "secondsAgo": 1520,
+      "sourceId": 1792583151
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Hoenn",
       "location": "Route 101",
-      "secondsAgo": 8293,
+      "secondsAgo": 8616,
       "sourceId": 1792576055
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Pinsir",
       "region": "Unova",
       "location": "Route 12",
-      "secondsAgo": 13317,
+      "secondsAgo": 13640,
       "sourceId": 1792571031
     }
   ],
