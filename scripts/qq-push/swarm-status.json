@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-10-21T16:50:59.505Z",
-  "swarms": [
-    {
-      "monsterId": 185,
-      "pokemon": "Sudowoodo",
-      "region": "Hoenn",
-      "location": "Battle Frontier",
-      "sourceId": 1792601599,
-      "despawnTimestamp": 1792601599,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-21T16:53:19.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-21T16:55:55.645Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 2,
       "pokemon": "Ivysaur",
       "region": "Kanto",
       "location": "Route 5",
-      "secondsAgo": 4487,
+      "secondsAgo": 4783,
       "sourceId": 1792596972
     },
     {
@@ -27,15 +15,23 @@
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 1694,
-      "sourceId": 1792599765
+      "secondsAgo": 1991,
+      "sourceId": 1792599764
+    },
+    {
+      "monsterId": 185,
+      "pokemon": "Sudowoodo",
+      "region": "Hoenn",
+      "location": "Battle Frontier",
+      "secondsAgo": 1655,
+      "sourceId": 1792600100
     },
     {
       "monsterId": 103,
       "pokemon": "Exeggutor",
       "region": "Sinnoh",
       "location": "Route 230",
-      "secondsAgo": 1708,
+      "secondsAgo": 2004,
       "sourceId": 1792599751
     }
   ],
