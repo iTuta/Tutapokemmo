@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-21T18:55:49.579Z",
+  "fetchedAt": "2026-10-21T19:01:12.865Z",
   "swarms": [
     {
       "monsterId": 131,
@@ -7,20 +7,9 @@
       "region": "Johto",
       "location": "Union Cave",
       "sourceId": 1792609742,
-      "despawnTimestamp": 1792609742,
+      "despawnTimestamp": 1792609741,
       "hasValuable": false,
       "timestampUtc": "2026-10-21T19:09:02.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 255,
-      "pokemon": "Torchic",
-      "region": "Hoenn",
-      "location": "Route 112",
-      "sourceId": 1792609138,
-      "despawnTimestamp": 1792609138,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-21T18:58:58.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,23 +19,31 @@
       "pokemon": "Ivysaur",
       "region": "Kanto",
       "location": "Route 5",
-      "secondsAgo": 11977,
+      "secondsAgo": 12300,
       "sourceId": 1792596972
+    },
+    {
+      "monsterId": 255,
+      "pokemon": "Torchic",
+      "region": "Hoenn",
+      "location": "Route 112",
+      "secondsAgo": 1334,
+      "sourceId": 1792607938
     },
     {
       "monsterId": 103,
       "pokemon": "Exeggutor",
       "region": "Sinnoh",
       "location": "Route 230",
-      "secondsAgo": 9198,
-      "sourceId": 1792599751
+      "secondsAgo": 9522,
+      "sourceId": 1792599750
     },
     {
       "monsterId": 291,
       "pokemon": "Ninjask",
       "region": "Unova",
       "location": "Route 11",
-      "secondsAgo": 19751,
+      "secondsAgo": 20074,
       "sourceId": 1792589198
     }
   ],
