@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-21T15:25:51.073Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-21T15:31:09.584Z",
+  "swarms": [
+    {
+      "monsterId": 357,
+      "pokemon": "Tropius",
+      "region": "Sinnoh",
+      "location": "Route 226",
+      "sourceId": 1792598070,
+      "despawnTimestamp": 1792598069,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-21T15:54:30.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 9300,
+      "secondsAgo": 9618,
       "sourceId": 1792587051
     },
     {
@@ -15,32 +27,24 @@
       "pokemon": "Lapras",
       "region": "Johto",
       "location": "Union Cave",
-      "secondsAgo": 1968,
-      "sourceId": 1792594383
+      "secondsAgo": 2287,
+      "sourceId": 1792594382
     },
     {
       "monsterId": 260,
       "pokemon": "Swampert",
       "region": "Hoenn",
       "location": "Route 109",
-      "secondsAgo": 2077,
+      "secondsAgo": 2395,
       "sourceId": 1792594274
-    },
-    {
-      "monsterId": 421,
-      "pokemon": "Cherrim",
-      "region": "Sinnoh",
-      "location": "Lake Verity",
-      "secondsAgo": 12153,
-      "sourceId": 1792584198
     },
     {
       "monsterId": 291,
       "pokemon": "Ninjask",
       "region": "Unova",
       "location": "Route 11",
-      "secondsAgo": 7152,
-      "sourceId": 1792589199
+      "secondsAgo": 7471,
+      "sourceId": 1792589198
     }
   ],
   "alpha": {
