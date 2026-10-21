@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-21T21:35:50.872Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-21T21:40:52.454Z",
+  "swarms": [
     {
-      "monsterId": 211,
-      "pokemon": "Qwilfish",
+      "monsterId": 135,
+      "pokemon": "Jolteon",
       "region": "Kanto",
-      "location": "Route 20",
-      "secondsAgo": 3727,
-      "sourceId": 1792614823
-    },
+      "location": "Ruin Valley",
+      "sourceId": 1792620106,
+      "despawnTimestamp": 1792620106,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-21T22:01:46.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 3958,
+      "secondsAgo": 4260,
       "sourceId": 1792614592
     },
     {
@@ -23,15 +27,15 @@
       "pokemon": "Torchic",
       "region": "Hoenn",
       "location": "Route 112",
-      "secondsAgo": 10612,
-      "sourceId": 1792607938
+      "secondsAgo": 10913,
+      "sourceId": 1792607939
     },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Sinnoh",
       "location": "Route 206",
-      "secondsAgo": 7831,
+      "secondsAgo": 8133,
       "sourceId": 1792610719
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Ninjask",
       "region": "Unova",
       "location": "Route 11",
-      "secondsAgo": 29352,
+      "secondsAgo": 29654,
       "sourceId": 1792589198
     }
   ],
