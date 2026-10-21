@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-21T01:30:57.923Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-21T01:36:01.730Z",
+  "swarms": [
     {
-      "monsterId": 1,
-      "pokemon": "Bulbasaur",
+      "monsterId": 248,
+      "pokemon": "Tyranitar",
       "region": "Kanto",
-      "location": "Viridian Forest",
-      "secondsAgo": 19799,
-      "sourceId": 1792526458
-    },
+      "location": "Sevault Canyon",
+      "sourceId": 1792547906,
+      "despawnTimestamp": 1792547905,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-21T01:58:26.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 160,
       "pokemon": "Feraligatr",
       "region": "Johto",
       "location": "Tohjo Falls",
-      "secondsAgo": 5541,
+      "secondsAgo": 5845,
       "sourceId": 1792540716
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Swampert",
       "region": "Hoenn",
       "location": "Route 109",
-      "secondsAgo": 8721,
+      "secondsAgo": 9025,
       "sourceId": 1792537536
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Carnivine",
       "region": "Sinnoh",
       "location": "Route 225",
-      "secondsAgo": 7021,
+      "secondsAgo": 7325,
       "sourceId": 1792539236
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 4937,
+      "secondsAgo": 5241,
       "sourceId": 1792541320
     }
   ],
