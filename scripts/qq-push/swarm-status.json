@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-21T06:35:55.558Z",
+  "fetchedAt": "2026-10-21T06:41:01.446Z",
   "swarms": [
     {
       "monsterId": 451,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1792565580,
       "hasValuable": false,
       "timestampUtc": "2026-10-21T06:53:00.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Johto",
-      "location": "Route 37",
-      "sourceId": 1792564834,
-      "despawnTimestamp": 1792564834,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-21T06:40:34.000Z",
       "publishedBy": ""
     },
     {
@@ -37,20 +26,28 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Johto",
+      "location": "Route 37",
+      "secondsAgo": 1526,
+      "sourceId": 1792563335
+    },
+    {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 14791,
-      "sourceId": 1792549764
+      "secondsAgo": 15096,
+      "sourceId": 1792549765
     },
     {
       "monsterId": 148,
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 12969,
-      "sourceId": 1792551586
+      "secondsAgo": 13274,
+      "sourceId": 1792551587
     }
   ],
   "alpha": {
