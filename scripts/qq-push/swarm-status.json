@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-22T14:55:43.616Z",
+  "fetchedAt": "2026-10-22T15:01:19.147Z",
   "swarms": [
     {
       "monsterId": 257,
@@ -7,7 +7,7 @@
       "region": "Hoenn",
       "location": "Magma Hideout",
       "sourceId": 1792682408,
-      "despawnTimestamp": 1792682407,
+      "despawnTimestamp": 1792682408,
       "hasValuable": false,
       "timestampUtc": "2026-10-22T15:20:08.000Z",
       "publishedBy": ""
@@ -15,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 121,
+      "pokemon": "Starmie",
+      "region": "Kanto",
+      "location": "Seven Island",
+      "secondsAgo": 15363,
+      "sourceId": 1792665916
+    },
+    {
       "monsterId": 370,
       "pokemon": "Luvdisc",
       "region": "Johto",
       "location": "Route 47",
-      "secondsAgo": 2005,
+      "secondsAgo": 2341,
       "sourceId": 1792678938
     },
     {
@@ -27,15 +35,15 @@
       "pokemon": "Trapinch",
       "region": "Sinnoh",
       "location": "Oreburgh Mine",
-      "secondsAgo": 10149,
-      "sourceId": 1792670794
+      "secondsAgo": 10484,
+      "sourceId": 1792670795
     },
     {
       "monsterId": 106,
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "secondsAgo": 2820,
+      "secondsAgo": 3156,
       "sourceId": 1792678123
     }
   ],
@@ -49,6 +57,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-10-22T10:10:51.000Z",
     "timestampRaw": "2026-10-22T10:10:51.000Z",
-    "publishedBy": ""
+    "publishedBy": "GazDim"
   }
 }
