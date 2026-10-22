@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-22T14:51:01.988Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-22T14:55:43.616Z",
+  "swarms": [
+    {
+      "monsterId": 257,
+      "pokemon": "Blaziken",
+      "region": "Hoenn",
+      "location": "Magma Hideout",
+      "sourceId": 1792682408,
+      "despawnTimestamp": 1792682407,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-22T15:20:08.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 370,
       "pokemon": "Luvdisc",
       "region": "Johto",
       "location": "Route 47",
-      "secondsAgo": 1724,
-      "sourceId": 1792678937
-    },
-    {
-      "monsterId": 256,
-      "pokemon": "Combusken",
-      "region": "Hoenn",
-      "location": "Route 114",
-      "secondsAgo": 10408,
-      "sourceId": 1792670253
+      "secondsAgo": 2005,
+      "sourceId": 1792678938
     },
     {
       "monsterId": 328,
       "pokemon": "Trapinch",
       "region": "Sinnoh",
       "location": "Oreburgh Mine",
-      "secondsAgo": 9867,
+      "secondsAgo": 10149,
       "sourceId": 1792670794
     },
     {
@@ -31,8 +35,8 @@
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "secondsAgo": 2539,
-      "sourceId": 1792678122
+      "secondsAgo": 2820,
+      "sourceId": 1792678123
     }
   ],
   "alpha": {
