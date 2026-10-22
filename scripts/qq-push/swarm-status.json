@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-22T09:15:56.081Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-22T09:22:01.136Z",
+  "swarms": [
+    {
+      "monsterId": 300,
+      "pokemon": "Skitty",
+      "region": "Sinnoh",
+      "location": "Route 204",
+      "sourceId": 1792662261,
+      "despawnTimestamp": 1792662261,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-22T09:44:21.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Kanto",
       "location": "Route 9",
-      "secondsAgo": 6309,
+      "secondsAgo": 6674,
       "sourceId": 1792654247
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Grovyle",
       "region": "Hoenn",
       "location": "Route 118",
-      "secondsAgo": 2480,
+      "secondsAgo": 2845,
       "sourceId": 1792658076
-    },
-    {
-      "monsterId": 359,
-      "pokemon": "Absol",
-      "region": "Sinnoh",
-      "location": "Mt. Coronet",
-      "secondsAgo": 6329,
-      "sourceId": 1792654227
     },
     {
       "monsterId": 313,
       "pokemon": "Volbeat",
       "region": "Unova",
       "location": "Route 8",
-      "secondsAgo": 9150,
+      "secondsAgo": 9515,
       "sourceId": 1792651406
     }
   ],
