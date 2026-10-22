@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-22T06:10:52.873Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-22T06:15:56.253Z",
+  "swarms": [
     {
-      "monsterId": 214,
-      "pokemon": "Heracross",
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
       "region": "Kanto",
-      "location": "Route 16",
-      "secondsAgo": 9806,
-      "sourceId": 1792639646
-    },
+      "location": "Pokemon Tower",
+      "sourceId": 1792651230,
+      "despawnTimestamp": 1792651230,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-22T06:40:30.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 9083,
+      "secondsAgo": 9387,
       "sourceId": 1792640369
     },
     {
@@ -23,15 +27,15 @@
       "pokemon": "Staryu",
       "region": "Hoenn",
       "location": "Route 106",
-      "secondsAgo": 10345,
-      "sourceId": 1792639107
+      "secondsAgo": 10648,
+      "sourceId": 1792639108
     },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
       "region": "Sinnoh",
       "location": "Lake Valor",
-      "secondsAgo": 15600,
+      "secondsAgo": 15904,
       "sourceId": 1792633852
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Scizor",
       "region": "Unova",
       "location": "Route 14",
-      "secondsAgo": 3353,
-      "sourceId": 1792646099
+      "secondsAgo": 3656,
+      "sourceId": 1792646100
     }
   ],
   "alpha": {
