@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-22T11:05:49.507Z",
+  "fetchedAt": "2026-10-22T11:10:57.918Z",
   "swarms": [
-    {
-      "monsterId": 121,
-      "pokemon": "Starmie",
-      "region": "Kanto",
-      "location": "Seven Island",
-      "sourceId": 1792667415,
-      "despawnTimestamp": 1792667414,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-22T11:10:15.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 121,
+      "pokemon": "Starmie",
+      "region": "Kanto",
+      "location": "Seven Island",
+      "secondsAgo": 1542,
+      "sourceId": 1792665915
+    },
+    {
       "monsterId": 320,
       "pokemon": "Wailmer",
       "region": "Johto",
       "location": "Route 40",
-      "secondsAgo": 12872,
+      "secondsAgo": 13180,
       "sourceId": 1792654277
     },
     {
@@ -38,16 +35,16 @@
       "pokemon": "Grovyle",
       "region": "Hoenn",
       "location": "Route 118",
-      "secondsAgo": 9073,
-      "sourceId": 1792658076
+      "secondsAgo": 9382,
+      "sourceId": 1792658075
     },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 2332,
-      "sourceId": 1792664817
+      "secondsAgo": 2641,
+      "sourceId": 1792664816
     }
   ],
   "alpha": {
