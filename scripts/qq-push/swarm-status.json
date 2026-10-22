@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-22T14:20:53.393Z",
+  "fetchedAt": "2026-10-22T14:25:48.381Z",
   "swarms": [
+    {
+      "monsterId": 370,
+      "pokemon": "Luvdisc",
+      "region": "Johto",
+      "location": "Route 47",
+      "sourceId": 1792680437,
+      "despawnTimestamp": 1792680437,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-22T14:47:17.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 106,
       "pokemon": "Hitmonlee",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 320,
-      "pokemon": "Wailmer",
-      "region": "Johto",
-      "location": "Route 40",
-      "secondsAgo": 24575,
-      "sourceId": 1792654278
-    },
-    {
       "monsterId": 256,
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Route 114",
-      "secondsAgo": 8599,
+      "secondsAgo": 8894,
       "sourceId": 1792670254
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Trapinch",
       "region": "Sinnoh",
       "location": "Oreburgh Mine",
-      "secondsAgo": 8058,
+      "secondsAgo": 8353,
       "sourceId": 1792670795
     }
   ],
