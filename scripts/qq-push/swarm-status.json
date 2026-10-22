@@ -1,65 +1,57 @@
 {
-  "fetchedAt": "2026-10-22T21:40:46.950Z",
+  "fetchedAt": "2026-10-22T21:54:18.366Z",
   "swarms": [
+    {
+      "monsterId": 313,
+      "pokemon": "Volbeat",
+      "region": "Kanto",
+      "location": "Memorial Pillar",
+      "sourceId": 1792706872,
+      "despawnTimestamp": 1792706872,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-22T22:07:52.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Johto",
       "location": "Route 26",
       "sourceId": 1792706701,
-      "despawnTimestamp": 1792706700,
+      "despawnTimestamp": 1792706701,
       "hasValuable": false,
       "timestampUtc": "2026-10-22T22:05:01.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 479,
-      "pokemon": "Rotom",
-      "region": "Hoenn",
-      "location": "New Mauville",
-      "sourceId": 1792706430,
-      "despawnTimestamp": 1792706429,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-22T22:00:30.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 248,
-      "pokemon": "Tyranitar",
-      "region": "Kanto",
-      "location": "Canyon Entrance",
-      "secondsAgo": 4176,
-      "sourceId": 1792701070
-    },
-    {
       "monsterId": 389,
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 2910,
-      "sourceId": 1792702336
+      "secondsAgo": 3721,
+      "sourceId": 1792702337
     },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Unova",
       "location": "Route 18",
-      "secondsAgo": 10979,
+      "secondsAgo": 11791,
       "sourceId": 1792694267
     }
   ],
   "alpha": {
-    "monsterId": 62,
-    "pokemon": "Poliwrath",
-    "region": "Kanto",
-    "location": "Route 12",
-    "sourceId": 1792663851,
-    "despawnTimestamp": 1792680951,
+    "monsterId": 178,
+    "pokemon": "Xatu",
+    "region": "Hoenn",
+    "location": "Route 121",
+    "sourceId": 1792693291,
+    "despawnTimestamp": 1792710391,
     "hasValuable": false,
-    "timestampUtc": "2026-10-22T10:10:51.000Z",
-    "timestampRaw": "2026-10-22T10:10:51.000Z",
-    "publishedBy": "GazDim"
+    "timestampUtc": "2026-10-22T18:21:31.000Z",
+    "timestampRaw": "2026-10-22T18:21:31.000Z",
+    "publishedBy": ""
   }
 }
