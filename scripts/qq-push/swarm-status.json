@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-22T21:31:01.175Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-22T21:35:56.234Z",
+  "swarms": [
+    {
+      "monsterId": 479,
+      "pokemon": "Rotom",
+      "region": "Hoenn",
+      "location": "New Mauville",
+      "sourceId": 1792706430,
+      "despawnTimestamp": 1792706430,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-22T22:00:30.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 248,
       "pokemon": "Tyranitar",
       "region": "Kanto",
       "location": "Canyon Entrance",
-      "secondsAgo": 3591,
+      "secondsAgo": 3886,
       "sourceId": 1792701070
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Quilava",
       "region": "Johto",
       "location": "Route 42",
-      "secondsAgo": 6583,
+      "secondsAgo": 6878,
       "sourceId": 1792698078
-    },
-    {
-      "monsterId": 107,
-      "pokemon": "Hitmonchan",
-      "region": "Hoenn",
-      "location": "Fiery Path",
-      "secondsAgo": 4619,
-      "sourceId": 1792700042
     },
     {
       "monsterId": 389,
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 2324,
+      "secondsAgo": 2619,
       "sourceId": 1792702337
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Carnivine",
       "region": "Unova",
       "location": "Route 18",
-      "secondsAgo": 10394,
+      "secondsAgo": 10689,
       "sourceId": 1792694267
     }
   ],
