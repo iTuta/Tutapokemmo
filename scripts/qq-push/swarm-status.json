@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-10-22T03:10:51.515Z",
+  "fetchedAt": "2026-10-22T03:20:49.994Z",
   "swarms": [
+    {
+      "monsterId": 120,
+      "pokemon": "Staryu",
+      "region": "Hoenn",
+      "location": "Route 106",
+      "sourceId": 1792640607,
+      "despawnTimestamp": 1792640606,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-22T03:43:27.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 125,
       "pokemon": "Electabuzz",
       "region": "Unova",
       "location": "Chargestone Cave",
       "sourceId": 1792639857,
-      "despawnTimestamp": 1792639857,
+      "despawnTimestamp": 1792639856,
       "hasValuable": false,
       "timestampUtc": "2026-10-22T03:30:57.000Z",
       "publishedBy": ""
@@ -19,7 +30,7 @@
       "pokemon": "Blissey",
       "region": "Kanto",
       "location": "Three Island",
-      "secondsAgo": 9432,
+      "secondsAgo": 10030,
       "sourceId": 1792629219
     },
     {
@@ -27,24 +38,16 @@
       "pokemon": "Kirlia",
       "region": "Johto",
       "location": "Route 43",
-      "secondsAgo": 6051,
+      "secondsAgo": 6649,
       "sourceId": 1792632600
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Hoenn",
-      "location": "Route 101",
-      "secondsAgo": 6030,
-      "sourceId": 1792632621
     },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
       "region": "Sinnoh",
       "location": "Lake Valor",
-      "secondsAgo": 4799,
-      "sourceId": 1792633852
+      "secondsAgo": 5398,
+      "sourceId": 1792633851
     }
   ],
   "alpha": {
