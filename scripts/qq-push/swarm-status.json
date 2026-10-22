@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-22T03:35:53.767Z",
+  "fetchedAt": "2026-10-22T03:40:53.724Z",
   "swarms": [
     {
       "monsterId": 214,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1792641145,
       "hasValuable": false,
       "timestampUtc": "2026-10-22T03:52:25.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Johto",
+      "location": "Route 37",
+      "sourceId": 1792641868,
+      "despawnTimestamp": 1792641868,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-22T04:04:28.000Z",
       "publishedBy": ""
     },
     {
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 281,
-      "pokemon": "Kirlia",
-      "region": "Johto",
-      "location": "Route 43",
-      "secondsAgo": 7553,
-      "sourceId": 1792632600
-    },
-    {
       "monsterId": 125,
       "pokemon": "Electabuzz",
       "region": "Unova",
       "location": "Chargestone Cave",
-      "secondsAgo": 1796,
+      "secondsAgo": 2096,
       "sourceId": 1792638357
     }
   ],
