@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-22T10:25:56.626Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-22T10:31:01.471Z",
+  "swarms": [
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Unova",
+      "location": "Route 1",
+      "sourceId": 1792666316,
+      "despawnTimestamp": 1792666316,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-22T10:51:56.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Kanto",
       "location": "Route 9",
-      "secondsAgo": 10510,
+      "secondsAgo": 10815,
       "sourceId": 1792654246
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Wailmer",
       "region": "Johto",
       "location": "Route 40",
-      "secondsAgo": 10479,
+      "secondsAgo": 10784,
       "sourceId": 1792654277
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Grovyle",
       "region": "Hoenn",
       "location": "Route 118",
-      "secondsAgo": 6680,
+      "secondsAgo": 6985,
       "sourceId": 1792658076
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Skitty",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 3994,
+      "secondsAgo": 4299,
       "sourceId": 1792660762
-    },
-    {
-      "monsterId": 313,
-      "pokemon": "Volbeat",
-      "region": "Unova",
-      "location": "Route 8",
-      "secondsAgo": 13350,
-      "sourceId": 1792651406
     }
   ],
   "alpha": {
