@@ -1,46 +1,56 @@
 {
-  "fetchedAt": "2026-10-22T07:25:48.474Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-22T07:32:14.976Z",
+  "swarms": [
     {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
+      "monsterId": 451,
+      "pokemon": "Skorupi",
       "region": "Kanto",
-      "location": "Pokemon Tower",
-      "secondsAgo": 4217,
-      "sourceId": 1792649731
+      "location": "Route 9",
+      "sourceId": 1792655746,
+      "despawnTimestamp": 1792655745,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-22T07:55:46.000Z",
+      "publishedBy": ""
     },
     {
-      "monsterId": 570,
-      "pokemon": "Zorua",
+      "monsterId": 320,
+      "pokemon": "Wailmer",
       "region": "Johto",
-      "location": "Route 37",
-      "secondsAgo": 13579,
-      "sourceId": 1792640369
+      "location": "Route 40",
+      "sourceId": 1792655777,
+      "despawnTimestamp": 1792655776,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-22T07:56:17.000Z",
+      "publishedBy": ""
     },
+    {
+      "monsterId": 359,
+      "pokemon": "Absol",
+      "region": "Sinnoh",
+      "location": "Mt. Coronet",
+      "sourceId": 1792655726,
+      "despawnTimestamp": 1792655725,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-22T07:55:26.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 257,
       "pokemon": "Blaziken",
       "region": "Hoenn",
       "location": "Magma Hideout",
-      "secondsAgo": 1901,
-      "sourceId": 1792652047
-    },
-    {
-      "monsterId": 342,
-      "pokemon": "Crawdaunt",
-      "region": "Sinnoh",
-      "location": "Lake Valor",
-      "secondsAgo": 20096,
-      "sourceId": 1792633852
+      "secondsAgo": 2288,
+      "sourceId": 1792652046
     },
     {
       "monsterId": 313,
       "pokemon": "Volbeat",
       "region": "Unova",
       "location": "Route 8",
-      "secondsAgo": 2542,
-      "sourceId": 1792651406
+      "secondsAgo": 2929,
+      "sourceId": 1792651405
     }
   ],
   "alpha": {
