@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-10-22T07:16:32.356Z",
-  "swarms": [
-    {
-      "monsterId": 257,
-      "pokemon": "Blaziken",
-      "region": "Hoenn",
-      "location": "Magma Hideout",
-      "sourceId": 1792653546,
-      "despawnTimestamp": 1792653546,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-22T07:19:06.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-22T07:20:50.169Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Kanto",
       "location": "Pokemon Tower",
-      "secondsAgo": 3661,
+      "secondsAgo": 3919,
       "sourceId": 1792649731
     },
     {
@@ -27,15 +15,23 @@
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 13023,
+      "secondsAgo": 13281,
       "sourceId": 1792640369
+    },
+    {
+      "monsterId": 257,
+      "pokemon": "Blaziken",
+      "region": "Hoenn",
+      "location": "Magma Hideout",
+      "secondsAgo": 1603,
+      "sourceId": 1792652047
     },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
       "region": "Sinnoh",
       "location": "Lake Valor",
-      "secondsAgo": 19540,
+      "secondsAgo": 19798,
       "sourceId": 1792633852
     },
     {
@@ -43,7 +39,7 @@
       "pokemon": "Volbeat",
       "region": "Unova",
       "location": "Route 8",
-      "secondsAgo": 1986,
+      "secondsAgo": 2244,
       "sourceId": 1792651406
     }
   ],
