@@ -1,65 +1,57 @@
 {
-  "fetchedAt": "2026-10-22T03:25:50.552Z",
+  "fetchedAt": "2026-10-22T03:31:00.269Z",
   "swarms": [
+    {
+      "monsterId": 214,
+      "pokemon": "Heracross",
+      "region": "Kanto",
+      "location": "Route 16",
+      "sourceId": 1792641145,
+      "despawnTimestamp": 1792641145,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-22T03:52:25.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 120,
       "pokemon": "Staryu",
       "region": "Hoenn",
       "location": "Route 106",
       "sourceId": 1792640607,
-      "despawnTimestamp": 1792640606,
+      "despawnTimestamp": 1792640607,
       "hasValuable": false,
       "timestampUtc": "2026-10-22T03:43:27.000Z",
       "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 281,
+      "pokemon": "Kirlia",
+      "region": "Johto",
+      "location": "Route 43",
+      "secondsAgo": 7259,
+      "sourceId": 1792632601
     },
     {
       "monsterId": 125,
       "pokemon": "Electabuzz",
       "region": "Unova",
       "location": "Chargestone Cave",
-      "sourceId": 1792639857,
-      "despawnTimestamp": 1792639857,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-22T03:30:57.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 242,
-      "pokemon": "Blissey",
-      "region": "Kanto",
-      "location": "Three Island",
-      "secondsAgo": 10331,
-      "sourceId": 1792629219
-    },
-    {
-      "monsterId": 281,
-      "pokemon": "Kirlia",
-      "region": "Johto",
-      "location": "Route 43",
-      "secondsAgo": 6950,
-      "sourceId": 1792632600
-    },
-    {
-      "monsterId": 342,
-      "pokemon": "Crawdaunt",
-      "region": "Sinnoh",
-      "location": "Lake Valor",
-      "secondsAgo": 5698,
-      "sourceId": 1792633852
+      "secondsAgo": 1502,
+      "sourceId": 1792638358
     }
   ],
   "alpha": {
-    "monsterId": 336,
-    "pokemon": "Seviper",
-    "region": "Unova",
-    "location": "Route 11",
-    "sourceId": 1792597568,
-    "despawnTimestamp": 1792614668,
+    "monsterId": 195,
+    "pokemon": "Quagsire",
+    "region": "Sinnoh",
+    "location": "Route 212",
+    "sourceId": 1792627230,
+    "despawnTimestamp": 1792644330,
     "hasValuable": false,
-    "timestampUtc": "2026-10-21T15:46:08.000Z",
-    "timestampRaw": "2026-10-21T15:46:08.000Z",
+    "timestampUtc": "2026-10-22T00:00:30.000Z",
+    "timestampRaw": "2026-10-22T00:00:30.000Z",
     "publishedBy": ""
   }
 }
