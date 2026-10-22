@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-22T20:50:59.399Z",
+  "fetchedAt": "2026-10-22T20:56:04.917Z",
   "swarms": [
     {
       "monsterId": 248,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-22T20:56:09.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 389,
+      "pokemon": "Torterra",
+      "region": "Sinnoh",
+      "location": "Route 212",
+      "sourceId": 1792703836,
+      "despawnTimestamp": 1792703835,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-22T21:17:16.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,31 +30,23 @@
       "pokemon": "Quilava",
       "region": "Johto",
       "location": "Route 42",
-      "secondsAgo": 4181,
-      "sourceId": 1792698078
+      "secondsAgo": 4487,
+      "sourceId": 1792698077
     },
     {
       "monsterId": 107,
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 2218,
+      "secondsAgo": 2523,
       "sourceId": 1792700041
-    },
-    {
-      "monsterId": 388,
-      "pokemon": "Grotle",
-      "region": "Sinnoh",
-      "location": "Sendoff Spring",
-      "secondsAgo": 6488,
-      "sourceId": 1792695771
     },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Unova",
       "location": "Route 18",
-      "secondsAgo": 7992,
+      "secondsAgo": 8297,
       "sourceId": 1792694267
     }
   ],
