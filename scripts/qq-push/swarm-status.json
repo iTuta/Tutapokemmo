@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-22T07:52:04.322Z",
+  "fetchedAt": "2026-10-22T07:55:44.138Z",
   "swarms": [
     {
       "monsterId": 451,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Route 9",
       "sourceId": 1792655746,
-      "despawnTimestamp": 1792655745,
+      "despawnTimestamp": 1792655746,
       "hasValuable": false,
       "timestampUtc": "2026-10-22T07:55:46.000Z",
       "publishedBy": ""
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-22T07:56:17.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 359,
-      "pokemon": "Absol",
-      "region": "Sinnoh",
-      "location": "Mt. Coronet",
-      "sourceId": 1792655726,
-      "despawnTimestamp": 1792655726,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-22T07:55:26.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,15 +30,23 @@
       "pokemon": "Blaziken",
       "region": "Hoenn",
       "location": "Magma Hideout",
-      "secondsAgo": 3477,
+      "secondsAgo": 3697,
       "sourceId": 1792652047
+    },
+    {
+      "monsterId": 359,
+      "pokemon": "Absol",
+      "region": "Sinnoh",
+      "location": "Mt. Coronet",
+      "secondsAgo": 1517,
+      "sourceId": 1792654227
     },
     {
       "monsterId": 313,
       "pokemon": "Volbeat",
       "region": "Unova",
       "location": "Route 8",
-      "secondsAgo": 4118,
+      "secondsAgo": 4338,
       "sourceId": 1792651406
     }
   ],
