@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-22T11:56:01.705Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-22T12:01:30.495Z",
+  "swarms": [
+    {
+      "monsterId": 256,
+      "pokemon": "Combusken",
+      "region": "Hoenn",
+      "location": "Route 114",
+      "sourceId": 1792671753,
+      "despawnTimestamp": 1792671752,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-22T12:22:33.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 121,
       "pokemon": "Starmie",
       "region": "Kanto",
       "location": "Seven Island",
-      "secondsAgo": 4246,
+      "secondsAgo": 4575,
       "sourceId": 1792665915
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Wailmer",
       "region": "Johto",
       "location": "Route 40",
-      "secondsAgo": 15884,
+      "secondsAgo": 16213,
       "sourceId": 1792654277
-    },
-    {
-      "monsterId": 253,
-      "pokemon": "Grovyle",
-      "region": "Hoenn",
-      "location": "Route 118",
-      "secondsAgo": 12085,
-      "sourceId": 1792658076
     },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
       "region": "Sinnoh",
       "location": "Route 223",
-      "secondsAgo": 4100,
+      "secondsAgo": 4429,
       "sourceId": 1792666061
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 5345,
-      "sourceId": 1792664816
+      "secondsAgo": 5673,
+      "sourceId": 1792664817
     }
   ],
   "alpha": {
