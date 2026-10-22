@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-22T14:25:48.381Z",
+  "fetchedAt": "2026-10-22T14:35:57.338Z",
   "swarms": [
     {
       "monsterId": 370,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-22T14:47:17.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 106,
-      "pokemon": "Hitmonlee",
-      "region": "Unova",
-      "location": "Victory Road",
-      "sourceId": 1792679622,
-      "despawnTimestamp": 1792679622,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-22T14:33:42.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Route 114",
-      "secondsAgo": 8894,
+      "secondsAgo": 9503,
       "sourceId": 1792670254
     },
     {
@@ -38,8 +27,16 @@
       "pokemon": "Trapinch",
       "region": "Sinnoh",
       "location": "Oreburgh Mine",
-      "secondsAgo": 8353,
+      "secondsAgo": 8962,
       "sourceId": 1792670795
+    },
+    {
+      "monsterId": 106,
+      "pokemon": "Hitmonlee",
+      "region": "Unova",
+      "location": "Victory Road",
+      "secondsAgo": 1634,
+      "sourceId": 1792678123
     }
   ],
   "alpha": {
