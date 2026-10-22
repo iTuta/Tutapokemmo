@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-10-22T17:31:51.529Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-22T17:40:50.160Z",
+  "swarms": [
+    {
+      "monsterId": 291,
+      "pokemon": "Ninjask",
+      "region": "Unova",
+      "location": "Route 11",
+      "sourceId": 1792691977,
+      "despawnTimestamp": 1792691977,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-22T17:59:37.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Kanto",
       "location": "Water Labyrinth",
-      "secondsAgo": 2386,
-      "sourceId": 1792687925
+      "secondsAgo": 2924,
+      "sourceId": 1792687926
     },
     {
       "monsterId": 438,
       "pokemon": "Bonsly",
       "region": "Johto",
       "location": "Ilex Forest",
-      "secondsAgo": 5316,
+      "secondsAgo": 5855,
       "sourceId": 1792684995
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Blaziken",
       "region": "Hoenn",
       "location": "Magma Hideout",
-      "secondsAgo": 9403,
-      "sourceId": 1792680908
+      "secondsAgo": 9941,
+      "sourceId": 1792680909
     },
     {
       "monsterId": 438,
       "pokemon": "Bonsly",
       "region": "Sinnoh",
       "location": "Eterna Forest",
-      "secondsAgo": 3747,
-      "sourceId": 1792686564
-    },
-    {
-      "monsterId": 83,
-      "pokemon": "Farfetch&#x27;d",
-      "region": "Unova",
-      "location": "Route 1",
-      "secondsAgo": 8140,
-      "sourceId": 1792682171
+      "secondsAgo": 4285,
+      "sourceId": 1792686565
     }
   ],
   "alpha": {
