@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-10-22T22:20:55.577Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-22T22:25:46.346Z",
+  "swarms": [
+    {
+      "monsterId": 193,
+      "pokemon": "Yanma",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "sourceId": 1792709329,
+      "despawnTimestamp": 1792709329,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-22T22:48:49.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 313,
       "pokemon": "Volbeat",
       "region": "Kanto",
       "location": "Memorial Pillar",
-      "secondsAgo": 2283,
-      "sourceId": 1792705372
+      "secondsAgo": 2573,
+      "sourceId": 1792705373
     },
     {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Johto",
       "location": "Route 26",
-      "secondsAgo": 2453,
+      "secondsAgo": 2744,
       "sourceId": 1792705202
     },
     {
@@ -23,16 +35,8 @@
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 5319,
-      "sourceId": 1792702336
-    },
-    {
-      "monsterId": 455,
-      "pokemon": "Carnivine",
-      "region": "Unova",
-      "location": "Route 18",
-      "secondsAgo": 13388,
-      "sourceId": 1792694267
+      "secondsAgo": 5609,
+      "sourceId": 1792702337
     }
   ],
   "alpha": {
