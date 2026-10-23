@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-23T06:01:10.902Z",
+  "fetchedAt": "2026-10-23T06:05:50.926Z",
   "swarms": [
     {
       "monsterId": 154,
@@ -7,9 +7,20 @@
       "region": "Johto",
       "location": "Route 48",
       "sourceId": 1792736632,
-      "despawnTimestamp": 1792736632,
+      "despawnTimestamp": 1792736631,
       "hasValuable": false,
       "timestampUtc": "2026-10-23T06:23:52.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 227,
+      "pokemon": "Skarmory",
+      "region": "Sinnoh",
+      "location": "Route 227",
+      "sourceId": 1792736802,
+      "despawnTimestamp": 1792736801,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-23T06:26:42.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,7 +30,7 @@
       "pokemon": "Kirlia",
       "region": "Kanto",
       "location": "Route 8",
-      "secondsAgo": 9301,
+      "secondsAgo": 9581,
       "sourceId": 1792725969
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Cloyster",
       "region": "Hoenn",
       "location": "Route 133",
-      "secondsAgo": 4396,
+      "secondsAgo": 4676,
       "sourceId": 1792730874
-    },
-    {
-      "monsterId": 281,
-      "pokemon": "Kirlia",
-      "region": "Sinnoh",
-      "location": "Snowpoint Temple",
-      "secondsAgo": 2748,
-      "sourceId": 1792732522
     },
     {
       "monsterId": 331,
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 1518,
+      "secondsAgo": 1798,
       "sourceId": 1792733752
     }
   ],
