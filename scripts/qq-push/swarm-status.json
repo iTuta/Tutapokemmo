@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-23T16:40:55.715Z",
+  "fetchedAt": "2026-10-23T16:45:59.893Z",
   "swarms": [
     {
       "monsterId": 258,
@@ -7,9 +7,20 @@
       "region": "Hoenn",
       "location": "Route 104",
       "sourceId": 1792774712,
-      "despawnTimestamp": 1792774712,
+      "despawnTimestamp": 1792774711,
       "hasValuable": false,
       "timestampUtc": "2026-10-23T16:58:32.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 390,
+      "pokemon": "Chimchar",
+      "region": "Sinnoh",
+      "location": "Route 211",
+      "sourceId": 1792775205,
+      "despawnTimestamp": 1792775205,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-23T17:06:45.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,7 +30,7 @@
       "pokemon": "Munna",
       "region": "Kanto",
       "location": "Route 4",
-      "secondsAgo": 2759,
+      "secondsAgo": 3063,
       "sourceId": 1792770896
     },
     {
@@ -27,24 +38,16 @@
       "pokemon": "Croconaw",
       "region": "Johto",
       "location": "Whirl Islands",
-      "secondsAgo": 6819,
+      "secondsAgo": 7123,
       "sourceId": 1792766836
-    },
-    {
-      "monsterId": 248,
-      "pokemon": "Tyranitar",
-      "region": "Sinnoh",
-      "location": "Stark Mountain",
-      "secondsAgo": 7361,
-      "sourceId": 1792766294
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 3581,
-      "sourceId": 1792770074
+      "secondsAgo": 3886,
+      "sourceId": 1792770073
     }
   ],
   "alpha": {
