@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-23T00:10:52.188Z",
+  "fetchedAt": "2026-10-23T00:19:20.726Z",
   "swarms": [
     {
       "monsterId": 479,
@@ -7,9 +7,20 @@
       "region": "Hoenn",
       "location": "New Mauville",
       "sourceId": 1792715504,
-      "despawnTimestamp": 1792715504,
+      "despawnTimestamp": 1792715503,
       "hasValuable": false,
       "timestampUtc": "2026-10-23T00:31:44.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 426,
+      "pokemon": "Drifblim",
+      "region": "Sinnoh",
+      "location": "Route 222",
+      "sourceId": 1792716247,
+      "despawnTimestamp": 1792716247,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-23T00:44:07.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,32 +30,24 @@
       "pokemon": "Munna",
       "region": "Kanto",
       "location": "Route 4",
-      "secondsAgo": 1609,
-      "sourceId": 1792712643
+      "secondsAgo": 2118,
+      "sourceId": 1792712642
     },
     {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Johto",
       "location": "Route 26",
-      "secondsAgo": 9050,
-      "sourceId": 1792705202
-    },
-    {
-      "monsterId": 389,
-      "pokemon": "Torterra",
-      "region": "Sinnoh",
-      "location": "Route 212",
-      "secondsAgo": 11915,
-      "sourceId": 1792702337
+      "secondsAgo": 9559,
+      "sourceId": 1792705201
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 6422,
-      "sourceId": 1792707830
+      "secondsAgo": 6931,
+      "sourceId": 1792707829
     }
   ],
   "alpha": {
