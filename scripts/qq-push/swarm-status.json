@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-23T21:15:52.799Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-23T21:21:02.227Z",
+  "swarms": [
+    {
+      "monsterId": 153,
+      "pokemon": "Bayleef",
+      "region": "Johto",
+      "location": "National Park",
+      "sourceId": 1792791889,
+      "despawnTimestamp": 1792791889,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-23T21:44:49.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Kanto",
       "location": "Route 9",
-      "secondsAgo": 1673,
+      "secondsAgo": 1983,
       "sourceId": 1792788479
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Johto",
-      "location": "Mt. Silver Cave",
-      "secondsAgo": 11534,
-      "sourceId": 1792778618
     },
     {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Hoenn",
       "location": "Route 113",
-      "secondsAgo": 4576,
+      "secondsAgo": 4886,
       "sourceId": 1792785576
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Skarmory",
       "region": "Sinnoh",
       "location": "Route 227",
-      "secondsAgo": 7207,
+      "secondsAgo": 7517,
       "sourceId": 1792782945
     }
   ],
