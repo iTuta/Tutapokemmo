@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-23T10:35:44.214Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-23T10:40:51.147Z",
+  "swarms": [
+    {
+      "monsterId": 123,
+      "pokemon": "Scyther",
+      "region": "Sinnoh",
+      "location": "Route 210",
+      "sourceId": 1792753312,
+      "despawnTimestamp": 1792753312,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-23T11:01:52.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 311,
       "pokemon": "Plusle",
       "region": "Kanto",
       "location": "Route 2",
-      "secondsAgo": 6152,
+      "secondsAgo": 6459,
       "sourceId": 1792745592
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
-      "secondsAgo": 9732,
+      "secondsAgo": 10039,
       "sourceId": 1792742012
-    },
-    {
-      "monsterId": 300,
-      "pokemon": "Skitty",
-      "region": "Sinnoh",
-      "location": "Route 204",
-      "secondsAgo": 12846,
-      "sourceId": 1792738898
     },
     {
       "monsterId": 517,
       "pokemon": "Munna",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 3170,
+      "secondsAgo": 3477,
       "sourceId": 1792748574
     }
   ],
