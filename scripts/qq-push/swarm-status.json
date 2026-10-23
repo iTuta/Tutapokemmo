@@ -1,53 +1,46 @@
 {
-  "fetchedAt": "2026-10-23T23:10:50.966Z",
-  "swarms": [
-    {
-      "monsterId": 157,
-      "pokemon": "Typhlosion",
-      "region": "Johto",
-      "location": "Route 45",
-      "sourceId": 1792797228,
-      "despawnTimestamp": 1792797227,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-23T23:13:48.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 393,
-      "pokemon": "Piplup",
-      "region": "Sinnoh",
-      "location": "Route 204",
-      "sourceId": 1792797161,
-      "despawnTimestamp": 1792797160,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-23T23:12:41.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-23T23:15:52.048Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Kanto",
       "location": "Route 9",
-      "secondsAgo": 8571,
+      "secondsAgo": 8873,
       "sourceId": 1792788479
+    },
+    {
+      "monsterId": 157,
+      "pokemon": "Typhlosion",
+      "region": "Johto",
+      "location": "Route 45",
+      "secondsAgo": 1623,
+      "sourceId": 1792795729
     },
     {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Hoenn",
       "location": "Route 113",
-      "secondsAgo": 11474,
-      "sourceId": 1792785576
+      "secondsAgo": 11775,
+      "sourceId": 1792785577
+    },
+    {
+      "monsterId": 393,
+      "pokemon": "Piplup",
+      "region": "Sinnoh",
+      "location": "Route 204",
+      "secondsAgo": 1690,
+      "sourceId": 1792795662
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 26977,
-      "sourceId": 1792770073
+      "secondsAgo": 27278,
+      "sourceId": 1792770074
     }
   ],
   "alpha": {
