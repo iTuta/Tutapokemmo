@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-23T20:46:00.946Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-23T20:50:51.922Z",
+  "swarms": [
     {
-      "monsterId": 314,
-      "pokemon": "Illumise",
+      "monsterId": 451,
+      "pokemon": "Skorupi",
       "region": "Kanto",
-      "location": "Water Path",
-      "secondsAgo": 4848,
-      "sourceId": 1792783512
-    },
+      "location": "Route 9",
+      "sourceId": 1792789978,
+      "despawnTimestamp": 1792789977,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-23T21:12:58.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Johto",
       "location": "Mt. Silver Cave",
-      "secondsAgo": 9742,
+      "secondsAgo": 10033,
       "sourceId": 1792778618
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Skarmory",
       "region": "Hoenn",
       "location": "Route 113",
-      "secondsAgo": 2784,
+      "secondsAgo": 3075,
       "sourceId": 1792785576
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Skarmory",
       "region": "Sinnoh",
       "location": "Route 227",
-      "secondsAgo": 5415,
+      "secondsAgo": 5706,
       "sourceId": 1792782945
     }
   ],
