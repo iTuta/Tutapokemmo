@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-23T04:45:50.865Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-23T04:50:51.929Z",
+  "swarms": [
+    {
+      "monsterId": 91,
+      "pokemon": "Cloyster",
+      "region": "Hoenn",
+      "location": "Route 133",
+      "sourceId": 1792732374,
+      "despawnTimestamp": 1792732373,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-23T05:12:54.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 320,
       "pokemon": "Wailmer",
       "region": "Johto",
       "location": "Route 40",
-      "secondsAgo": 5294,
+      "secondsAgo": 5595,
       "sourceId": 1792725456
-    },
-    {
-      "monsterId": 479,
-      "pokemon": "Rotom",
-      "region": "Hoenn",
-      "location": "New Mauville",
-      "secondsAgo": 16746,
-      "sourceId": 1792714004
     },
     {
       "monsterId": 288,
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 6103,
+      "secondsAgo": 6404,
       "sourceId": 1792724647
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Porygon2",
       "region": "Unova",
       "location": "P2 Laboratory",
-      "secondsAgo": 11354,
+      "secondsAgo": 11655,
       "sourceId": 1792719396
     }
   ],
