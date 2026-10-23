@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-23T13:00:57.061Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-23T13:10:39.037Z",
+  "swarms": [
+    {
+      "monsterId": 125,
+      "pokemon": "Electabuzz",
+      "region": "Unova",
+      "location": "Chargestone Cave",
+      "sourceId": 1792762475,
+      "despawnTimestamp": 1792762475,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-23T13:34:35.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 350,
       "pokemon": "Milotic",
       "region": "Kanto",
       "location": "Resort Gorgeous",
-      "secondsAgo": 4189,
+      "secondsAgo": 4771,
       "sourceId": 1792756268
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Porygon-Z",
       "region": "Johto",
       "location": "Team Rocket HQ",
-      "secondsAgo": 17266,
+      "secondsAgo": 17848,
       "sourceId": 1792743191
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
-      "secondsAgo": 18445,
+      "secondsAgo": 19027,
       "sourceId": 1792742012
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 4471,
+      "secondsAgo": 5053,
       "sourceId": 1792755986
-    },
-    {
-      "monsterId": 517,
-      "pokemon": "Munna",
-      "region": "Unova",
-      "location": "Dreamyard",
-      "secondsAgo": 11883,
-      "sourceId": 1792748574
     }
   ],
   "alpha": {
