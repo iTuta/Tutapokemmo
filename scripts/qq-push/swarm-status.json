@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-23T05:20:52.480Z",
+  "fetchedAt": "2026-10-23T05:31:00.693Z",
   "swarms": [
     {
       "monsterId": 281,
@@ -15,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 281,
+      "pokemon": "Kirlia",
+      "region": "Kanto",
+      "location": "Route 8",
+      "secondsAgo": 7491,
+      "sourceId": 1792725969
+    },
+    {
       "monsterId": 320,
       "pokemon": "Wailmer",
       "region": "Johto",
       "location": "Route 40",
-      "secondsAgo": 7396,
+      "secondsAgo": 8004,
       "sourceId": 1792725456
     },
     {
@@ -27,15 +35,15 @@
       "pokemon": "Cloyster",
       "region": "Hoenn",
       "location": "Route 133",
-      "secondsAgo": 1977,
-      "sourceId": 1792730875
+      "secondsAgo": 2586,
+      "sourceId": 1792730874
     },
     {
       "monsterId": 233,
       "pokemon": "Porygon2",
       "region": "Unova",
       "location": "P2 Laboratory",
-      "secondsAgo": 13456,
+      "secondsAgo": 14064,
       "sourceId": 1792719396
     }
   ],
