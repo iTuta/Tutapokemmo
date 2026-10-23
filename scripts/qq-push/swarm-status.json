@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-10-23T08:05:52.046Z",
+  "fetchedAt": "2026-10-23T08:16:03.393Z",
   "swarms": [
+    {
+      "monsterId": 474,
+      "pokemon": "Porygon-Z",
+      "region": "Johto",
+      "location": "Team Rocket HQ",
+      "sourceId": 1792744690,
+      "despawnTimestamp": 1792744690,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-23T08:38:10.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 358,
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
       "sourceId": 1792743511,
-      "despawnTimestamp": 1792743511,
+      "despawnTimestamp": 1792743510,
       "hasValuable": false,
       "timestampUtc": "2026-10-23T08:18:31.000Z",
       "publishedBy": ""
@@ -19,31 +30,23 @@
       "pokemon": "Kirlia",
       "region": "Kanto",
       "location": "Route 8",
-      "secondsAgo": 16782,
+      "secondsAgo": 17393,
       "sourceId": 1792725970
-    },
-    {
-      "monsterId": 349,
-      "pokemon": "Feebas",
-      "region": "Johto",
-      "location": "Lake of Rage",
-      "secondsAgo": 2095,
-      "sourceId": 1792740657
     },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 3854,
-      "sourceId": 1792738898
+      "secondsAgo": 4466,
+      "sourceId": 1792738897
     },
     {
       "monsterId": 291,
       "pokemon": "Ninjask",
       "region": "Unova",
       "location": "Route 11",
-      "secondsAgo": 2067,
+      "secondsAgo": 2678,
       "sourceId": 1792740685
     }
   ],
