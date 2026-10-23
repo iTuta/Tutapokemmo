@@ -1,46 +1,53 @@
 {
-  "fetchedAt": "2026-10-23T01:31:03.732Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-23T01:41:09.529Z",
+  "swarms": [
     {
-      "monsterId": 517,
-      "pokemon": "Munna",
+      "monsterId": 348,
+      "pokemon": "Armaldo",
       "region": "Kanto",
-      "location": "Route 4",
-      "secondsAgo": 6421,
-      "sourceId": 1792712642
+      "location": "Tanoby Ruins",
+      "sourceId": 1792721164,
+      "despawnTimestamp": 1792721164,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-23T02:06:04.000Z",
+      "publishedBy": ""
     },
+    {
+      "monsterId": 233,
+      "pokemon": "Porygon2",
+      "region": "Unova",
+      "location": "P2 Laboratory",
+      "sourceId": 1792720895,
+      "despawnTimestamp": 1792720895,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-23T02:01:35.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 339,
       "pokemon": "Barboach",
       "region": "Johto",
       "location": "Slowpoke Well",
-      "secondsAgo": 3265,
-      "sourceId": 1792715798
+      "secondsAgo": 3870,
+      "sourceId": 1792715799
     },
     {
       "monsterId": 479,
       "pokemon": "Rotom",
       "region": "Hoenn",
       "location": "New Mauville",
-      "secondsAgo": 5059,
-      "sourceId": 1792714004
+      "secondsAgo": 5664,
+      "sourceId": 1792714005
     },
     {
       "monsterId": 426,
       "pokemon": "Drifblim",
       "region": "Sinnoh",
       "location": "Route 222",
-      "secondsAgo": 4315,
+      "secondsAgo": 4921,
       "sourceId": 1792714748
-    },
-    {
-      "monsterId": 193,
-      "pokemon": "Yanma",
-      "region": "Unova",
-      "location": "Pinwheel Forest",
-      "secondsAgo": 11234,
-      "sourceId": 1792707829
     }
   ],
   "alpha": {
