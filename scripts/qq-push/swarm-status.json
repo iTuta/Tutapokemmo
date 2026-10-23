@@ -1,21 +1,36 @@
 {
-  "fetchedAt": "2026-10-23T15:41:03.091Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-23T15:55:16.349Z",
+  "swarms": [
     {
-      "monsterId": 143,
-      "pokemon": "Snorlax",
+      "monsterId": 517,
+      "pokemon": "Munna",
       "region": "Kanto",
-      "location": "Cerulean Cave",
-      "secondsAgo": 6733,
-      "sourceId": 1792763330
+      "location": "Route 4",
+      "sourceId": 1792772396,
+      "despawnTimestamp": 1792772395,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-23T16:19:56.000Z",
+      "publishedBy": ""
     },
+    {
+      "monsterId": 193,
+      "pokemon": "Yanma",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "sourceId": 1792771573,
+      "despawnTimestamp": 1792771573,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-23T16:06:13.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 159,
       "pokemon": "Croconaw",
       "region": "Johto",
       "location": "Whirl Islands",
-      "secondsAgo": 3227,
+      "secondsAgo": 4080,
       "sourceId": 1792766836
     },
     {
@@ -23,7 +38,7 @@
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
-      "secondsAgo": 28051,
+      "secondsAgo": 28904,
       "sourceId": 1792742012
     },
     {
@@ -31,16 +46,8 @@
       "pokemon": "Tyranitar",
       "region": "Sinnoh",
       "location": "Stark Mountain",
-      "secondsAgo": 3769,
+      "secondsAgo": 4622,
       "sourceId": 1792766294
-    },
-    {
-      "monsterId": 125,
-      "pokemon": "Electabuzz",
-      "region": "Unova",
-      "location": "Chargestone Cave",
-      "secondsAgo": 9087,
-      "sourceId": 1792760976
     }
   ],
   "alpha": {
