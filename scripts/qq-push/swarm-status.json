@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-23T09:40:51.153Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-23T09:45:55.504Z",
+  "swarms": [
+    {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Unova",
+      "location": "Dreamyard",
+      "sourceId": 1792750073,
+      "despawnTimestamp": 1792750072,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-23T10:07:53.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 311,
       "pokemon": "Plusle",
       "region": "Kanto",
       "location": "Route 2",
-      "secondsAgo": 2859,
+      "secondsAgo": 3163,
       "sourceId": 1792745592
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Porygon-Z",
       "region": "Johto",
       "location": "Team Rocket HQ",
-      "secondsAgo": 5260,
+      "secondsAgo": 5564,
       "sourceId": 1792743191
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
-      "secondsAgo": 6439,
-      "sourceId": 1792742012
+      "secondsAgo": 6744,
+      "sourceId": 1792742011
     },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 9553,
-      "sourceId": 1792738898
-    },
-    {
-      "monsterId": 291,
-      "pokemon": "Ninjask",
-      "region": "Unova",
-      "location": "Route 11",
-      "secondsAgo": 7766,
-      "sourceId": 1792740685
+      "secondsAgo": 9858,
+      "sourceId": 1792738897
     }
   ],
   "alpha": {
