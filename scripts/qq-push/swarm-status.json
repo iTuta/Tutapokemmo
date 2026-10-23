@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-23T11:40:54.190Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-23T11:51:06.747Z",
+  "swarms": [
+    {
+      "monsterId": 392,
+      "pokemon": "Infernape",
+      "region": "Sinnoh",
+      "location": "Route 221",
+      "sourceId": 1792757485,
+      "despawnTimestamp": 1792757484,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-23T12:11:25.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 311,
       "pokemon": "Plusle",
       "region": "Kanto",
       "location": "Route 2",
-      "secondsAgo": 10062,
+      "secondsAgo": 10674,
       "sourceId": 1792745592
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Porygon-Z",
       "region": "Johto",
       "location": "Team Rocket HQ",
-      "secondsAgo": 12463,
+      "secondsAgo": 13075,
       "sourceId": 1792743191
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
-      "secondsAgo": 13642,
-      "sourceId": 1792742012
-    },
-    {
-      "monsterId": 123,
-      "pokemon": "Scyther",
-      "region": "Sinnoh",
-      "location": "Route 210",
-      "secondsAgo": 3841,
-      "sourceId": 1792751813
+      "secondsAgo": 14255,
+      "sourceId": 1792742011
     },
     {
       "monsterId": 517,
       "pokemon": "Munna",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 7080,
-      "sourceId": 1792748574
+      "secondsAgo": 7693,
+      "sourceId": 1792748573
     }
   ],
   "alpha": {
