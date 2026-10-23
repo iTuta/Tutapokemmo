@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-23T23:30:58.614Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-23T23:35:55.198Z",
+  "swarms": [
+    {
+      "monsterId": 321,
+      "pokemon": "Wailord",
+      "region": "Hoenn",
+      "location": "Route 129",
+      "sourceId": 1792799907,
+      "despawnTimestamp": 1792799907,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-23T23:58:27.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Kanto",
       "location": "Route 9",
-      "secondsAgo": 9779,
+      "secondsAgo": 10076,
       "sourceId": 1792788479
     },
     {
@@ -15,31 +27,23 @@
       "pokemon": "Typhlosion",
       "region": "Johto",
       "location": "Route 45",
-      "secondsAgo": 2530,
-      "sourceId": 1792795728
-    },
-    {
-      "monsterId": 227,
-      "pokemon": "Skarmory",
-      "region": "Hoenn",
-      "location": "Route 113",
-      "secondsAgo": 12682,
-      "sourceId": 1792785576
+      "secondsAgo": 2826,
+      "sourceId": 1792795729
     },
     {
       "monsterId": 393,
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 2597,
-      "sourceId": 1792795661
+      "secondsAgo": 2893,
+      "sourceId": 1792795662
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 28184,
+      "secondsAgo": 28481,
       "sourceId": 1792770074
     }
   ],
