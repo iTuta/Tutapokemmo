@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-23T02:01:10.070Z",
+  "fetchedAt": "2026-10-23T02:05:57.859Z",
   "swarms": [
     {
       "monsterId": 348,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-23T02:06:04.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 233,
-      "pokemon": "Porygon2",
-      "region": "Unova",
-      "location": "P2 Laboratory",
-      "sourceId": 1792720895,
-      "despawnTimestamp": 1792720896,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-23T02:01:35.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,24 +19,32 @@
       "pokemon": "Barboach",
       "region": "Johto",
       "location": "Slowpoke Well",
-      "secondsAgo": 5071,
-      "sourceId": 1792715799
+      "secondsAgo": 5359,
+      "sourceId": 1792715798
     },
     {
       "monsterId": 479,
       "pokemon": "Rotom",
       "region": "Hoenn",
       "location": "New Mauville",
-      "secondsAgo": 6865,
-      "sourceId": 1792714005
+      "secondsAgo": 7153,
+      "sourceId": 1792714004
     },
     {
       "monsterId": 426,
       "pokemon": "Drifblim",
       "region": "Sinnoh",
       "location": "Route 222",
-      "secondsAgo": 6122,
-      "sourceId": 1792714748
+      "secondsAgo": 6410,
+      "sourceId": 1792714747
+    },
+    {
+      "monsterId": 233,
+      "pokemon": "Porygon2",
+      "region": "Unova",
+      "location": "P2 Laboratory",
+      "secondsAgo": 1761,
+      "sourceId": 1792719396
     }
   ],
   "alpha": {
