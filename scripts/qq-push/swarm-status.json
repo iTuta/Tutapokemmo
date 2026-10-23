@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-23T07:55:49.636Z",
+  "fetchedAt": "2026-10-23T08:01:20.289Z",
   "swarms": [
     {
       "monsterId": 358,
@@ -7,31 +7,9 @@
       "region": "Hoenn",
       "location": "Mt. Pyre",
       "sourceId": 1792743511,
-      "despawnTimestamp": 1792743510,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-23T07:55:56.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 358,
-      "pokemon": "Chimecho",
-      "region": "Hoenn",
-      "location": "Mt. Pyre",
-      "sourceId": 1792743511,
-      "despawnTimestamp": 1792743510,
+      "despawnTimestamp": 1792743511,
       "hasValuable": false,
       "timestampUtc": "2026-10-23T08:18:31.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 291,
-      "pokemon": "Ninjask",
-      "region": "Unova",
-      "location": "Route 11",
-      "sourceId": 1792742184,
-      "despawnTimestamp": 1792742184,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-23T07:56:24.000Z",
       "publishedBy": ""
     }
   ],
@@ -41,16 +19,32 @@
       "pokemon": "Kirlia",
       "region": "Kanto",
       "location": "Route 8",
-      "secondsAgo": 16180,
-      "sourceId": 1792725969
+      "secondsAgo": 16510,
+      "sourceId": 1792725970
+    },
+    {
+      "monsterId": 349,
+      "pokemon": "Feebas",
+      "region": "Johto",
+      "location": "Lake of Rage",
+      "secondsAgo": 1824,
+      "sourceId": 1792740656
     },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 3252,
-      "sourceId": 1792738897
+      "secondsAgo": 3582,
+      "sourceId": 1792738898
+    },
+    {
+      "monsterId": 291,
+      "pokemon": "Ninjask",
+      "region": "Unova",
+      "location": "Route 11",
+      "secondsAgo": 1795,
+      "sourceId": 1792740685
     }
   ],
   "alpha": {
