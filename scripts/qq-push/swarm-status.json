@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-23T14:45:52.788Z",
+  "fetchedAt": "2026-10-23T14:50:52.557Z",
   "swarms": [
+    {
+      "monsterId": 159,
+      "pokemon": "Croconaw",
+      "region": "Johto",
+      "location": "Whirl Islands",
+      "sourceId": 1792768335,
+      "despawnTimestamp": 1792768335,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-23T15:12:15.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 248,
       "pokemon": "Tyranitar",
@@ -19,23 +30,15 @@
       "pokemon": "Snorlax",
       "region": "Kanto",
       "location": "Cerulean Cave",
-      "secondsAgo": 3422,
+      "secondsAgo": 3722,
       "sourceId": 1792763330
-    },
-    {
-      "monsterId": 474,
-      "pokemon": "Porygon-Z",
-      "region": "Johto",
-      "location": "Team Rocket HQ",
-      "secondsAgo": 23562,
-      "sourceId": 1792743190
     },
     {
       "monsterId": 125,
       "pokemon": "Electabuzz",
       "region": "Unova",
       "location": "Chargestone Cave",
-      "secondsAgo": 5777,
+      "secondsAgo": 6077,
       "sourceId": 1792760975
     }
   ],
