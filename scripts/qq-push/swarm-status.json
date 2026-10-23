@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-23T21:30:52.151Z",
+  "fetchedAt": "2026-10-23T21:35:54.988Z",
   "swarms": [
     {
       "monsterId": 153,
@@ -7,7 +7,7 @@
       "region": "Johto",
       "location": "National Park",
       "sourceId": 1792791889,
-      "despawnTimestamp": 1792791889,
+      "despawnTimestamp": 1792791888,
       "hasValuable": false,
       "timestampUtc": "2026-10-23T21:44:49.000Z",
       "publishedBy": ""
@@ -19,15 +19,15 @@
       "pokemon": "Skorupi",
       "region": "Kanto",
       "location": "Route 9",
-      "secondsAgo": 2573,
-      "sourceId": 1792788479
+      "secondsAgo": 2876,
+      "sourceId": 1792788478
     },
     {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Hoenn",
       "location": "Route 113",
-      "secondsAgo": 5476,
+      "secondsAgo": 5778,
       "sourceId": 1792785576
     },
     {
@@ -35,8 +35,16 @@
       "pokemon": "Skarmory",
       "region": "Sinnoh",
       "location": "Route 227",
-      "secondsAgo": 8106,
-      "sourceId": 1792782946
+      "secondsAgo": 8409,
+      "sourceId": 1792782945
+    },
+    {
+      "monsterId": 193,
+      "pokemon": "Yanma",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "secondsAgo": 21281,
+      "sourceId": 1792770073
     }
   ],
   "alpha": {
@@ -49,6 +57,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-10-23T16:47:28.000Z",
     "timestampRaw": "2026-10-23T16:47:28.000Z",
-    "publishedBy": ""
+    "publishedBy": "Tsoyushi"
   }
 }
