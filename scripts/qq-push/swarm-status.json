@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-24T13:25:55.777Z",
+  "fetchedAt": "2026-10-24T13:31:08.334Z",
   "swarms": [
     {
       "monsterId": 211,
@@ -22,24 +22,27 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-24T13:36:51.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 450,
+      "pokemon": "Hippowdon",
+      "region": "Hoenn",
+      "location": "Victory Road",
+      "sourceId": 1792849861,
+      "despawnTimestamp": 1792849861,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-24T13:51:01.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 351,
-      "pokemon": "Castform",
-      "region": "Hoenn",
-      "location": "Aqua Hideout",
-      "secondsAgo": 8238,
-      "sourceId": 1792840117
-    },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 19142,
-      "sourceId": 1792829213
+      "secondsAgo": 19454,
+      "sourceId": 1792829214
     }
   ],
   "alpha": {
