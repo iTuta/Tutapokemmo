@@ -1,33 +1,29 @@
 {
-  "fetchedAt": "2026-10-24T02:05:44.537Z",
-  "swarms": [
-    {
-      "monsterId": 143,
-      "pokemon": "Snorlax",
-      "region": "Johto",
-      "location": "Victory Road",
-      "sourceId": 1792807734,
-      "despawnTimestamp": 1792807734,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-24T02:08:54.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-24T02:10:47.722Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 9,
       "pokemon": "Blastoise",
       "region": "Kanto",
       "location": "Cape Brink",
-      "secondsAgo": 1934,
+      "secondsAgo": 2237,
       "sourceId": 1792805610
+    },
+    {
+      "monsterId": 143,
+      "pokemon": "Snorlax",
+      "region": "Johto",
+      "location": "Victory Road",
+      "secondsAgo": 1612,
+      "sourceId": 1792806235
     },
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Hoenn",
       "location": "Route 127",
-      "secondsAgo": 1593,
+      "secondsAgo": 1896,
       "sourceId": 1792805951
     },
     {
@@ -35,7 +31,7 @@
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 11883,
+      "secondsAgo": 12186,
       "sourceId": 1792795661
     }
   ],
