@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-24T13:45:56.466Z",
+  "fetchedAt": "2026-10-24T13:51:00.343Z",
   "swarms": [
-    {
-      "monsterId": 211,
-      "pokemon": "Qwilfish",
-      "region": "Kanto",
-      "location": "Route 20",
-      "sourceId": 1792849655,
-      "despawnTimestamp": 1792849655,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-24T13:47:35.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 450,
       "pokemon": "Hippowdon",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 211,
+      "pokemon": "Qwilfish",
+      "region": "Kanto",
+      "location": "Route 20",
+      "secondsAgo": 1704,
+      "sourceId": 1792848156
+    },
+    {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 2045,
+      "secondsAgo": 2349,
       "sourceId": 1792847511
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 20342,
+      "secondsAgo": 20646,
       "sourceId": 1792829214
     }
   ],
