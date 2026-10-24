@@ -1,38 +1,50 @@
 {
-  "fetchedAt": "2026-10-24T02:35:50.831Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-24T02:40:55.508Z",
+  "swarms": [
     {
-      "monsterId": 9,
-      "pokemon": "Blastoise",
+      "monsterId": 453,
+      "pokemon": "Croagunk",
       "region": "Kanto",
-      "location": "Cape Brink",
-      "secondsAgo": 3741,
-      "sourceId": 1792805609
-    },
+      "location": "Route 6",
+      "sourceId": 1792811023,
+      "despawnTimestamp": 1792811024,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-24T03:03:43.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 3116,
-      "sourceId": 1792806234
+      "secondsAgo": 3419,
+      "sourceId": 1792806236
     },
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Hoenn",
       "location": "Route 127",
-      "secondsAgo": 3399,
-      "sourceId": 1792805951
+      "secondsAgo": 3703,
+      "sourceId": 1792805952
     },
     {
       "monsterId": 393,
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 13689,
-      "sourceId": 1792795661
+      "secondsAgo": 13993,
+      "sourceId": 1792795662
+    },
+    {
+      "monsterId": 212,
+      "pokemon": "Scizor",
+      "region": "Unova",
+      "location": "Route 14",
+      "secondsAgo": 10269,
+      "sourceId": 1792799386
     }
   ],
   "alpha": {
