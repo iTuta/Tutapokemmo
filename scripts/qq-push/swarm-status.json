@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-10-24T07:51:15.795Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-24T07:55:48.107Z",
+  "swarms": [
+    {
+      "monsterId": 430,
+      "pokemon": "Honchkrow",
+      "region": "Unova",
+      "location": "Celestial Tower",
+      "sourceId": 1792829995,
+      "despawnTimestamp": 1792829996,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-24T08:19:55.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 121,
       "pokemon": "Starmie",
       "region": "Kanto",
       "location": "Seven Island",
-      "secondsAgo": 3751,
-      "sourceId": 1792824524
+      "secondsAgo": 4023,
+      "sourceId": 1792824525
     },
     {
       "monsterId": 152,
       "pokemon": "Chikorita",
       "region": "Johto",
       "location": "Route 31",
-      "secondsAgo": 1747,
-      "sourceId": 1792826528
+      "secondsAgo": 2019,
+      "sourceId": 1792826529
     },
     {
       "monsterId": 330,
       "pokemon": "Flygon",
       "region": "Hoenn",
       "location": "Desert Underpass",
-      "secondsAgo": 7713,
-      "sourceId": 1792820562
+      "secondsAgo": 7984,
+      "sourceId": 1792820564
     },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Sinnoh",
       "location": "Route 201",
-      "secondsAgo": 6439,
-      "sourceId": 1792821836
-    },
-    {
-      "monsterId": 373,
-      "pokemon": "Salamence",
-      "region": "Unova",
-      "location": "Dragonspiral Tower",
-      "secondsAgo": 13529,
-      "sourceId": 1792814746
+      "secondsAgo": 6711,
+      "sourceId": 1792821837
     }
   ],
   "alpha": {
