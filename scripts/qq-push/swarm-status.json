@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-24T20:46:17.529Z",
+  "fetchedAt": "2026-10-24T20:51:02.124Z",
   "swarms": [
-    {
-      "monsterId": 517,
-      "pokemon": "Munna",
-      "region": "Hoenn",
-      "location": "Route 102",
-      "sourceId": 1792875031,
-      "despawnTimestamp": 1792875030,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-24T20:50:31.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 331,
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
       "sourceId": 1792876153,
-      "despawnTimestamp": 1792876152,
+      "despawnTimestamp": 1792876153,
       "hasValuable": false,
       "timestampUtc": "2026-10-24T21:09:13.000Z",
       "publishedBy": ""
@@ -30,23 +19,31 @@
       "pokemon": "Kirlia",
       "region": "Kanto",
       "location": "Route 8",
-      "secondsAgo": 10308,
-      "sourceId": 1792864469
+      "secondsAgo": 10592,
+      "sourceId": 1792864470
     },
     {
       "monsterId": 358,
       "pokemon": "Chimecho",
       "region": "Johto",
       "location": "Bellchime Trail",
-      "secondsAgo": 5958,
-      "sourceId": 1792868819
+      "secondsAgo": 6242,
+      "sourceId": 1792868820
+    },
+    {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Hoenn",
+      "location": "Route 102",
+      "secondsAgo": 1530,
+      "sourceId": 1792873532
     },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 6966,
+      "secondsAgo": 7251,
       "sourceId": 1792867811
     }
   ],
