@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-24T22:15:52.810Z",
+  "fetchedAt": "2026-10-24T22:22:05.735Z",
   "swarms": [
+    {
+      "monsterId": 241,
+      "pokemon": "Miltank",
+      "region": "Johto",
+      "location": "Route 39",
+      "sourceId": 1792881816,
+      "despawnTimestamp": 1792881815,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-24T22:43:36.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 185,
       "pokemon": "Sudowoodo",
@@ -11,6 +22,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-24T22:24:41.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 393,
+      "pokemon": "Piplup",
+      "region": "Sinnoh",
+      "location": "Route 204",
+      "sourceId": 1792881732,
+      "despawnTimestamp": 1792881732,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-24T22:42:12.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,31 +41,15 @@
       "pokemon": "Kirlia",
       "region": "Kanto",
       "location": "Route 8",
-      "secondsAgo": 15683,
+      "secondsAgo": 16056,
       "sourceId": 1792864469
-    },
-    {
-      "monsterId": 358,
-      "pokemon": "Chimecho",
-      "region": "Johto",
-      "location": "Bellchime Trail",
-      "secondsAgo": 11333,
-      "sourceId": 1792868819
-    },
-    {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Sinnoh",
-      "location": "Valor Lakefront",
-      "secondsAgo": 12341,
-      "sourceId": 1792867811
     },
     {
       "monsterId": 331,
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 5499,
+      "secondsAgo": 5872,
       "sourceId": 1792874653
     }
   ],
