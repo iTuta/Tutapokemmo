@@ -1,45 +1,52 @@
 {
-  "fetchedAt": "2026-10-24T05:40:52.466Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-24T05:45:53.217Z",
+  "swarms": [
     {
-      "monsterId": 453,
-      "pokemon": "Croagunk",
+      "monsterId": 321,
+      "pokemon": "Wailord",
       "region": "Kanto",
-      "location": "Route 6",
-      "secondsAgo": 10928,
-      "sourceId": 1792809524
+      "location": "Green Path",
+      "sourceId": 1792822057,
+      "despawnTimestamp": 1792822057,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-24T06:07:37.000Z",
+      "publishedBy": ""
     },
+    {
+      "monsterId": 330,
+      "pokemon": "Flygon",
+      "region": "Hoenn",
+      "location": "Desert Underpass",
+      "sourceId": 1792822062,
+      "despawnTimestamp": 1792822062,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-24T06:07:42.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 375,
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 7962,
+      "secondsAgo": 8263,
       "sourceId": 1792812490
-    },
-    {
-      "monsterId": 352,
-      "pokemon": "Kecleon",
-      "region": "Hoenn",
-      "location": "Route 120",
-      "secondsAgo": 3605,
-      "sourceId": 1792816847
     },
     {
       "monsterId": 393,
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 24791,
-      "sourceId": 1792795661
+      "secondsAgo": 25091,
+      "sourceId": 1792795662
     },
     {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 5706,
+      "secondsAgo": 6007,
       "sourceId": 1792814746
     }
   ],
