@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-24T04:35:55.659Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-24T04:40:56.478Z",
+  "swarms": [
+    {
+      "monsterId": 352,
+      "pokemon": "Kecleon",
+      "region": "Hoenn",
+      "location": "Route 120",
+      "sourceId": 1792817447,
+      "despawnTimestamp": 1792817446,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-24T04:50:47.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
       "region": "Kanto",
       "location": "Route 6",
-      "secondsAgo": 7031,
+      "secondsAgo": 7332,
       "sourceId": 1792809524
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 4065,
+      "secondsAgo": 4366,
       "sourceId": 1792812490
-    },
-    {
-      "monsterId": 319,
-      "pokemon": "Sharpedo",
-      "region": "Hoenn",
-      "location": "Route 127",
-      "secondsAgo": 10604,
-      "sourceId": 1792805951
     },
     {
       "monsterId": 393,
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 20894,
+      "secondsAgo": 21195,
       "sourceId": 1792795661
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 1809,
+      "secondsAgo": 2110,
       "sourceId": 1792814746
     }
   ],
