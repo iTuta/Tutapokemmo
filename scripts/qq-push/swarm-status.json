@@ -1,38 +1,45 @@
 {
-  "fetchedAt": "2026-10-24T01:30:57.230Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-24T01:39:30.292Z",
+  "swarms": [
     {
-      "monsterId": 451,
-      "pokemon": "Skorupi",
+      "monsterId": 9,
+      "pokemon": "Blastoise",
       "region": "Kanto",
-      "location": "Route 9",
-      "secondsAgo": 16978,
-      "sourceId": 1792788479
+      "location": "Cape Brink",
+      "sourceId": 1792807109,
+      "despawnTimestamp": 1792807109,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-24T01:58:29.000Z",
+      "publishedBy": ""
     },
+    {
+      "monsterId": 319,
+      "pokemon": "Sharpedo",
+      "region": "Hoenn",
+      "location": "Route 127",
+      "sourceId": 1792807451,
+      "despawnTimestamp": 1792807451,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-24T02:04:11.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 157,
       "pokemon": "Typhlosion",
       "region": "Johto",
       "location": "Route 45",
-      "secondsAgo": 9728,
+      "secondsAgo": 10241,
       "sourceId": 1792795729
-    },
-    {
-      "monsterId": 321,
-      "pokemon": "Wailord",
-      "region": "Hoenn",
-      "location": "Route 129",
-      "secondsAgo": 7049,
-      "sourceId": 1792798408
     },
     {
       "monsterId": 393,
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 9795,
-      "sourceId": 1792795662
+      "secondsAgo": 10309,
+      "sourceId": 1792795661
     }
   ],
   "alpha": {
