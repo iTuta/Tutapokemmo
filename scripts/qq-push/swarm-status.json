@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-24T13:36:01.069Z",
+  "fetchedAt": "2026-10-24T13:44:15.692Z",
   "swarms": [
     {
       "monsterId": 211,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1792849655,
       "hasValuable": false,
       "timestampUtc": "2026-10-24T13:47:35.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Johto",
-      "location": "Route 37",
-      "sourceId": 1792849011,
-      "despawnTimestamp": 1792849011,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-24T13:36:51.000Z",
       "publishedBy": ""
     },
     {
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Johto",
+      "location": "Route 37",
+      "secondsAgo": 1944,
+      "sourceId": 1792847511
+    },
+    {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 19747,
+      "secondsAgo": 20241,
       "sourceId": 1792829214
     }
   ],
