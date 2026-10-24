@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-24T12:46:02.425Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-24T12:50:54.489Z",
+  "swarms": [
+    {
+      "monsterId": 83,
+      "pokemon": "Farfetch&#x27;d",
+      "region": "Unova",
+      "location": "Route 1",
+      "sourceId": 1792847705,
+      "despawnTimestamp": 1792847705,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-24T13:15:05.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 121,
       "pokemon": "Starmie",
       "region": "Kanto",
       "location": "Seven Island",
-      "secondsAgo": 21438,
+      "secondsAgo": 21730,
       "sourceId": 1792824524
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Feraligatr",
       "region": "Johto",
       "location": "Tohjo Falls",
-      "secondsAgo": 2740,
+      "secondsAgo": 3032,
       "sourceId": 1792843222
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Castform",
       "region": "Hoenn",
       "location": "Aqua Hideout",
-      "secondsAgo": 5845,
+      "secondsAgo": 6137,
       "sourceId": 1792840117
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 16748,
+      "secondsAgo": 17040,
       "sourceId": 1792829214
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Unova",
-      "location": "Relic Castle",
-      "secondsAgo": 9382,
-      "sourceId": 1792836580
     }
   ],
   "alpha": {
