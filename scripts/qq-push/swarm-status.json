@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-10-24T17:50:56.561Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-24T17:55:49.399Z",
+  "swarms": [
     {
-      "monsterId": 211,
-      "pokemon": "Qwilfish",
+      "monsterId": 281,
+      "pokemon": "Kirlia",
       "region": "Kanto",
-      "location": "Route 20",
-      "secondsAgo": 16100,
-      "sourceId": 1792848156
-    },
+      "location": "Route 8",
+      "sourceId": 1792865969,
+      "despawnTimestamp": 1792865969,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-24T18:19:29.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 358,
       "pokemon": "Chimecho",
       "region": "Johto",
       "location": "Bellchime Trail",
-      "secondsAgo": 2583,
-      "sourceId": 1792861673
+      "secondsAgo": 2875,
+      "sourceId": 1792861674
     },
     {
       "monsterId": 450,
       "pokemon": "Hippowdon",
       "region": "Hoenn",
       "location": "Victory Road",
-      "secondsAgo": 15894,
-      "sourceId": 1792848362
+      "secondsAgo": 16186,
+      "sourceId": 1792848363
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 35042,
+      "secondsAgo": 35335,
       "sourceId": 1792829214
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Plusle",
       "region": "Unova",
       "location": "Route 5",
-      "secondsAgo": 1520,
-      "sourceId": 1792862736
+      "secondsAgo": 1812,
+      "sourceId": 1792862737
     }
   ],
   "alpha": {
