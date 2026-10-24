@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-24T08:16:06.111Z",
+  "fetchedAt": "2026-10-24T08:20:48.036Z",
   "swarms": [
     {
       "monsterId": 83,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-24T08:31:53.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 430,
-      "pokemon": "Honchkrow",
-      "region": "Unova",
-      "location": "Celestial Tower",
-      "sourceId": 1792829995,
-      "despawnTimestamp": 1792829995,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-24T08:19:55.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Starmie",
       "region": "Kanto",
       "location": "Seven Island",
-      "secondsAgo": 5241,
+      "secondsAgo": 5523,
       "sourceId": 1792824525
     },
     {
@@ -38,7 +27,7 @@
       "pokemon": "Chikorita",
       "region": "Johto",
       "location": "Route 31",
-      "secondsAgo": 3238,
+      "secondsAgo": 3520,
       "sourceId": 1792826528
     },
     {
@@ -46,8 +35,16 @@
       "pokemon": "Flygon",
       "region": "Hoenn",
       "location": "Desert Underpass",
-      "secondsAgo": 9203,
+      "secondsAgo": 9485,
       "sourceId": 1792820563
+    },
+    {
+      "monsterId": 430,
+      "pokemon": "Honchkrow",
+      "region": "Unova",
+      "location": "Celestial Tower",
+      "secondsAgo": 1552,
+      "sourceId": 1792828496
     }
   ],
   "alpha": {
