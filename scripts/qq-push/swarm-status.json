@@ -1,52 +1,45 @@
 {
-  "fetchedAt": "2026-10-24T22:40:52.362Z",
-  "swarms": [
-    {
-      "monsterId": 241,
-      "pokemon": "Miltank",
-      "region": "Johto",
-      "location": "Route 39",
-      "sourceId": 1792881816,
-      "despawnTimestamp": 1792881815,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-24T22:43:36.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 393,
-      "pokemon": "Piplup",
-      "region": "Sinnoh",
-      "location": "Route 204",
-      "sourceId": 1792881732,
-      "despawnTimestamp": 1792881732,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-24T22:42:12.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-24T22:47:46.366Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Kanto",
       "location": "Route 8",
-      "secondsAgo": 17182,
+      "secondsAgo": 17596,
       "sourceId": 1792864470
+    },
+    {
+      "monsterId": 241,
+      "pokemon": "Miltank",
+      "region": "Johto",
+      "location": "Route 39",
+      "secondsAgo": 1750,
+      "sourceId": 1792880316
     },
     {
       "monsterId": 185,
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 2470,
+      "secondsAgo": 2884,
       "sourceId": 1792879182
+    },
+    {
+      "monsterId": 393,
+      "pokemon": "Piplup",
+      "region": "Sinnoh",
+      "location": "Route 204",
+      "secondsAgo": 1833,
+      "sourceId": 1792880233
     },
     {
       "monsterId": 331,
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 6998,
+      "secondsAgo": 7412,
       "sourceId": 1792874654
     }
   ],
