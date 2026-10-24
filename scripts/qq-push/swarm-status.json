@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-24T17:30:56.464Z",
+  "fetchedAt": "2026-10-24T17:35:58.519Z",
   "swarms": [
-    {
-      "monsterId": 358,
-      "pokemon": "Chimecho",
-      "region": "Johto",
-      "location": "Bellchime Trail",
-      "sourceId": 1792863173,
-      "despawnTimestamp": 1792863172,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-24T17:32:53.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 311,
       "pokemon": "Plusle",
@@ -30,15 +19,23 @@
       "pokemon": "Qwilfish",
       "region": "Kanto",
       "location": "Route 20",
-      "secondsAgo": 14900,
+      "secondsAgo": 15202,
       "sourceId": 1792848156
+    },
+    {
+      "monsterId": 358,
+      "pokemon": "Chimecho",
+      "region": "Johto",
+      "location": "Bellchime Trail",
+      "secondsAgo": 1685,
+      "sourceId": 1792861673
     },
     {
       "monsterId": 450,
       "pokemon": "Hippowdon",
       "region": "Hoenn",
       "location": "Victory Road",
-      "secondsAgo": 14694,
+      "secondsAgo": 14996,
       "sourceId": 1792848362
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 33842,
+      "secondsAgo": 34144,
       "sourceId": 1792829214
     }
   ],
