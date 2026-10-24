@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-24T06:01:05.264Z",
+  "fetchedAt": "2026-10-24T06:05:53.281Z",
   "swarms": [
     {
       "monsterId": 321,
@@ -18,9 +18,20 @@
       "region": "Hoenn",
       "location": "Desert Underpass",
       "sourceId": 1792822062,
-      "despawnTimestamp": 1792822061,
+      "despawnTimestamp": 1792822062,
       "hasValuable": false,
       "timestampUtc": "2026-10-24T06:07:42.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 285,
+      "pokemon": "Shroomish",
+      "region": "Sinnoh",
+      "location": "Route 201",
+      "sourceId": 1792823335,
+      "despawnTimestamp": 1792823335,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-24T06:28:55.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,24 +41,16 @@
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 9174,
+      "secondsAgo": 9463,
       "sourceId": 1792812490
-    },
-    {
-      "monsterId": 393,
-      "pokemon": "Piplup",
-      "region": "Sinnoh",
-      "location": "Route 204",
-      "secondsAgo": 26003,
-      "sourceId": 1792795661
     },
     {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 6919,
-      "sourceId": 1792814745
+      "secondsAgo": 7207,
+      "sourceId": 1792814746
     }
   ],
   "alpha": {
