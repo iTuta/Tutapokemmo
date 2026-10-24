@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-10-24T06:05:53.281Z",
+  "fetchedAt": "2026-10-24T06:10:50.418Z",
   "swarms": [
-    {
-      "monsterId": 321,
-      "pokemon": "Wailord",
-      "region": "Kanto",
-      "location": "Green Path",
-      "sourceId": 1792822057,
-      "despawnTimestamp": 1792822057,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-24T06:07:37.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 330,
-      "pokemon": "Flygon",
-      "region": "Hoenn",
-      "location": "Desert Underpass",
-      "sourceId": 1792822062,
-      "despawnTimestamp": 1792822062,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-24T06:07:42.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
@@ -37,19 +15,35 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 321,
+      "pokemon": "Wailord",
+      "region": "Kanto",
+      "location": "Green Path",
+      "secondsAgo": 1692,
+      "sourceId": 1792820558
+    },
+    {
       "monsterId": 375,
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 9463,
+      "secondsAgo": 9760,
       "sourceId": 1792812490
+    },
+    {
+      "monsterId": 330,
+      "pokemon": "Flygon",
+      "region": "Hoenn",
+      "location": "Desert Underpass",
+      "secondsAgo": 1687,
+      "sourceId": 1792820563
     },
     {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 7207,
+      "secondsAgo": 7504,
       "sourceId": 1792814746
     }
   ],
