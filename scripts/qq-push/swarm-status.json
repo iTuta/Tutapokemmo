@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-10-24T21:55:58.561Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-24T22:01:15.403Z",
+  "swarms": [
+    {
+      "monsterId": 185,
+      "pokemon": "Sudowoodo",
+      "region": "Hoenn",
+      "location": "Battle Frontier",
+      "sourceId": 1792880681,
+      "despawnTimestamp": 1792880681,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-24T22:24:41.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Kanto",
       "location": "Route 8",
-      "secondsAgo": 14489,
-      "sourceId": 1792864469
+      "secondsAgo": 14805,
+      "sourceId": 1792864470
     },
     {
       "monsterId": 358,
       "pokemon": "Chimecho",
       "region": "Johto",
       "location": "Bellchime Trail",
-      "secondsAgo": 10139,
-      "sourceId": 1792868819
-    },
-    {
-      "monsterId": 517,
-      "pokemon": "Munna",
-      "region": "Hoenn",
-      "location": "Route 102",
-      "secondsAgo": 5427,
-      "sourceId": 1792873531
+      "secondsAgo": 10455,
+      "sourceId": 1792868820
     },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 11147,
+      "secondsAgo": 11464,
       "sourceId": 1792867811
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 4305,
-      "sourceId": 1792874653
+      "secondsAgo": 4621,
+      "sourceId": 1792874654
     }
   ],
   "alpha": {
