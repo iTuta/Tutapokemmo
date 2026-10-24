@@ -1,52 +1,45 @@
 {
-  "fetchedAt": "2026-10-24T06:25:48.264Z",
-  "swarms": [
-    {
-      "monsterId": 438,
-      "pokemon": "Bonsly",
-      "region": "Johto",
-      "location": "Ilex Forest",
-      "sourceId": 1792824469,
-      "despawnTimestamp": 1792824469,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-24T06:47:49.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 285,
-      "pokemon": "Shroomish",
-      "region": "Sinnoh",
-      "location": "Route 201",
-      "sourceId": 1792823335,
-      "despawnTimestamp": 1792823335,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-24T06:28:55.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-24T06:30:56.583Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 321,
       "pokemon": "Wailord",
       "region": "Kanto",
       "location": "Green Path",
-      "secondsAgo": 2590,
+      "secondsAgo": 2898,
       "sourceId": 1792820558
+    },
+    {
+      "monsterId": 438,
+      "pokemon": "Bonsly",
+      "region": "Johto",
+      "location": "Ilex Forest",
+      "secondsAgo": 486,
+      "sourceId": 1792822970
     },
     {
       "monsterId": 330,
       "pokemon": "Flygon",
       "region": "Hoenn",
       "location": "Desert Underpass",
-      "secondsAgo": 2585,
+      "secondsAgo": 2893,
       "sourceId": 1792820563
+    },
+    {
+      "monsterId": 285,
+      "pokemon": "Shroomish",
+      "region": "Sinnoh",
+      "location": "Route 201",
+      "secondsAgo": 1620,
+      "sourceId": 1792821836
     },
     {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 8402,
+      "secondsAgo": 8710,
       "sourceId": 1792814746
     }
   ],
