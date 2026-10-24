@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-10-24T20:21:30.097Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-24T20:25:50.551Z",
+  "swarms": [
+    {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Hoenn",
+      "location": "Route 102",
+      "sourceId": 1792875031,
+      "despawnTimestamp": 1792875030,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-24T20:50:31.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Kanto",
       "location": "Route 8",
-      "secondsAgo": 8820,
-      "sourceId": 1792864470
+      "secondsAgo": 9081,
+      "sourceId": 1792864469
     },
     {
       "monsterId": 358,
       "pokemon": "Chimecho",
       "region": "Johto",
       "location": "Bellchime Trail",
-      "secondsAgo": 4470,
-      "sourceId": 1792868820
-    },
-    {
-      "monsterId": 468,
-      "pokemon": "Togekiss",
-      "region": "Hoenn",
-      "location": "Sky Pillar",
-      "secondsAgo": 7994,
-      "sourceId": 1792865296
+      "secondsAgo": 4731,
+      "sourceId": 1792868819
     },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 5479,
+      "secondsAgo": 5739,
       "sourceId": 1792867811
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Plusle",
       "region": "Unova",
       "location": "Route 5",
-      "secondsAgo": 10554,
+      "secondsAgo": 10814,
       "sourceId": 1792862736
     }
   ],
