@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-24T18:10:51.795Z",
+  "fetchedAt": "2026-10-24T18:20:49.586Z",
   "swarms": [
-    {
-      "monsterId": 281,
-      "pokemon": "Kirlia",
-      "region": "Kanto",
-      "location": "Route 8",
-      "sourceId": 1792865969,
-      "despawnTimestamp": 1792865968,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-24T18:19:29.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 468,
       "pokemon": "Togekiss",
@@ -26,27 +15,35 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 281,
+      "pokemon": "Kirlia",
+      "region": "Kanto",
+      "location": "Route 8",
+      "secondsAgo": 1579,
+      "sourceId": 1792864470
+    },
+    {
       "monsterId": 358,
       "pokemon": "Chimecho",
       "region": "Johto",
       "location": "Bellchime Trail",
-      "secondsAgo": 3778,
-      "sourceId": 1792861673
+      "secondsAgo": 4375,
+      "sourceId": 1792861674
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 36238,
-      "sourceId": 1792829213
+      "secondsAgo": 36835,
+      "sourceId": 1792829214
     },
     {
       "monsterId": 311,
       "pokemon": "Plusle",
       "region": "Unova",
       "location": "Route 5",
-      "secondsAgo": 2715,
+      "secondsAgo": 3313,
       "sourceId": 1792862736
     }
   ],
