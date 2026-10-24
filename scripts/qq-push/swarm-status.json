@@ -1,41 +1,37 @@
 {
-  "fetchedAt": "2026-10-24T03:51:20.627Z",
-  "swarms": [
-    {
-      "monsterId": 375,
-      "pokemon": "Metang",
-      "region": "Johto",
-      "location": "Ice Path",
-      "sourceId": 1792813990,
-      "despawnTimestamp": 1792813989,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-24T03:53:10.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-24T03:55:52.389Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
       "region": "Kanto",
       "location": "Route 6",
-      "secondsAgo": 4356,
+      "secondsAgo": 4628,
       "sourceId": 1792809524
+    },
+    {
+      "monsterId": 375,
+      "pokemon": "Metang",
+      "region": "Johto",
+      "location": "Ice Path",
+      "secondsAgo": 1662,
+      "sourceId": 1792812490
     },
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Hoenn",
       "location": "Route 127",
-      "secondsAgo": 7929,
-      "sourceId": 1792805951
+      "secondsAgo": 8200,
+      "sourceId": 1792805952
     },
     {
       "monsterId": 393,
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 18219,
+      "secondsAgo": 18491,
       "sourceId": 1792795661
     },
     {
@@ -43,7 +39,7 @@
       "pokemon": "Scizor",
       "region": "Unova",
       "location": "Route 14",
-      "secondsAgo": 14495,
+      "secondsAgo": 14767,
       "sourceId": 1792799385
     }
   ],
