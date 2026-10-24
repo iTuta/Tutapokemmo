@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-24T14:55:45.632Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-24T15:01:06.213Z",
+  "swarms": [
+    {
+      "monsterId": 281,
+      "pokemon": "Kirlia",
+      "region": "Johto",
+      "location": "Route 43",
+      "sourceId": 1792855396,
+      "despawnTimestamp": 1792855396,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-24T15:23:16.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 211,
       "pokemon": "Qwilfish",
       "region": "Kanto",
       "location": "Route 20",
-      "secondsAgo": 5589,
+      "secondsAgo": 5910,
       "sourceId": 1792848156
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Johto",
-      "location": "Route 37",
-      "secondsAgo": 6234,
-      "sourceId": 1792847511
     },
     {
       "monsterId": 450,
       "pokemon": "Hippowdon",
       "region": "Hoenn",
       "location": "Victory Road",
-      "secondsAgo": 5383,
+      "secondsAgo": 5704,
       "sourceId": 1792848362
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 24531,
+      "secondsAgo": 24852,
       "sourceId": 1792829214
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 7539,
+      "secondsAgo": 7860,
       "sourceId": 1792846206
     }
   ],
