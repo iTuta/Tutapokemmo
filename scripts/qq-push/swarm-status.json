@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-24T02:01:06.053Z",
+  "fetchedAt": "2026-10-24T02:05:44.537Z",
   "swarms": [
     {
       "monsterId": 143,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-24T02:08:54.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 319,
-      "pokemon": "Sharpedo",
-      "region": "Hoenn",
-      "location": "Route 127",
-      "sourceId": 1792807451,
-      "despawnTimestamp": 1792807451,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-24T02:04:11.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,16 +19,24 @@
       "pokemon": "Blastoise",
       "region": "Kanto",
       "location": "Cape Brink",
-      "secondsAgo": 1656,
+      "secondsAgo": 1934,
       "sourceId": 1792805610
+    },
+    {
+      "monsterId": 319,
+      "pokemon": "Sharpedo",
+      "region": "Hoenn",
+      "location": "Route 127",
+      "secondsAgo": 1593,
+      "sourceId": 1792805951
     },
     {
       "monsterId": 393,
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 11604,
-      "sourceId": 1792795662
+      "secondsAgo": 11883,
+      "sourceId": 1792795661
     }
   ],
   "alpha": {
