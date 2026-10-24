@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-24T01:55:55.491Z",
+  "fetchedAt": "2026-10-24T02:01:06.053Z",
   "swarms": [
-    {
-      "monsterId": 9,
-      "pokemon": "Blastoise",
-      "region": "Kanto",
-      "location": "Cape Brink",
-      "sourceId": 1792807109,
-      "despawnTimestamp": 1792807109,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-24T01:58:29.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
@@ -37,12 +26,20 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 9,
+      "pokemon": "Blastoise",
+      "region": "Kanto",
+      "location": "Cape Brink",
+      "secondsAgo": 1656,
+      "sourceId": 1792805610
+    },
+    {
       "monsterId": 393,
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 11294,
-      "sourceId": 1792795661
+      "secondsAgo": 11604,
+      "sourceId": 1792795662
     }
   ],
   "alpha": {
