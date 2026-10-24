@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-24T13:10:51.129Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-24T13:15:53.169Z",
+  "swarms": [
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Johto",
+      "location": "Route 37",
+      "sourceId": 1792849011,
+      "despawnTimestamp": 1792849011,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-24T13:36:51.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 121,
       "pokemon": "Starmie",
       "region": "Kanto",
       "location": "Seven Island",
-      "secondsAgo": 22926,
+      "secondsAgo": 23228,
       "sourceId": 1792824525
-    },
-    {
-      "monsterId": 160,
-      "pokemon": "Feraligatr",
-      "region": "Johto",
-      "location": "Tohjo Falls",
-      "secondsAgo": 4228,
-      "sourceId": 1792843223
     },
     {
       "monsterId": 351,
       "pokemon": "Castform",
       "region": "Hoenn",
       "location": "Aqua Hideout",
-      "secondsAgo": 7333,
+      "secondsAgo": 7635,
       "sourceId": 1792840118
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 18237,
+      "secondsAgo": 18539,
       "sourceId": 1792829214
     }
   ],
