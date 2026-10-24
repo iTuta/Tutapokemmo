@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-10-24T19:05:57.838Z",
+  "fetchedAt": "2026-10-24T19:11:05.946Z",
   "swarms": [
+    {
+      "monsterId": 358,
+      "pokemon": "Chimecho",
+      "region": "Johto",
+      "location": "Bellchime Trail",
+      "sourceId": 1792870319,
+      "despawnTimestamp": 1792870318,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-24T19:31:59.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
       "sourceId": 1792869310,
-      "despawnTimestamp": 1792869310,
+      "despawnTimestamp": 1792869309,
       "hasValuable": false,
       "timestampUtc": "2026-10-24T19:15:10.000Z",
       "publishedBy": ""
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 358,
-      "pokemon": "Chimecho",
-      "region": "Johto",
-      "location": "Bellchime Trail",
-      "secondsAgo": 7084,
-      "sourceId": 1792861673
-    },
-    {
       "monsterId": 468,
       "pokemon": "Togekiss",
       "region": "Hoenn",
       "location": "Sky Pillar",
-      "secondsAgo": 3461,
+      "secondsAgo": 3769,
       "sourceId": 1792865296
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Plusle",
       "region": "Unova",
       "location": "Route 5",
-      "secondsAgo": 6021,
+      "secondsAgo": 6329,
       "sourceId": 1792862736
     }
   ],
