@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-10-24T13:51:00.343Z",
-  "swarms": [
-    {
-      "monsterId": 450,
-      "pokemon": "Hippowdon",
-      "region": "Hoenn",
-      "location": "Victory Road",
-      "sourceId": 1792849861,
-      "despawnTimestamp": 1792849861,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-24T13:51:01.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-24T13:55:55.503Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 211,
       "pokemon": "Qwilfish",
       "region": "Kanto",
       "location": "Route 20",
-      "secondsAgo": 1704,
+      "secondsAgo": 1999,
       "sourceId": 1792848156
     },
     {
@@ -27,15 +15,23 @@
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 2349,
+      "secondsAgo": 2644,
       "sourceId": 1792847511
+    },
+    {
+      "monsterId": 450,
+      "pokemon": "Hippowdon",
+      "region": "Hoenn",
+      "location": "Victory Road",
+      "secondsAgo": 1793,
+      "sourceId": 1792848362
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 20646,
+      "secondsAgo": 20941,
       "sourceId": 1792829214
     }
   ],
