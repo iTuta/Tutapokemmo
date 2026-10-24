@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-24T01:40:50.193Z",
+  "fetchedAt": "2026-10-24T01:46:01.397Z",
   "swarms": [
     {
       "monsterId": 9,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1792807109,
       "hasValuable": false,
       "timestampUtc": "2026-10-24T01:58:29.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 143,
+      "pokemon": "Snorlax",
+      "region": "Johto",
+      "location": "Victory Road",
+      "sourceId": 1792807734,
+      "despawnTimestamp": 1792807734,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-24T02:08:54.000Z",
       "publishedBy": ""
     },
     {
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 157,
-      "pokemon": "Typhlosion",
-      "region": "Johto",
-      "location": "Route 45",
-      "secondsAgo": 10321,
-      "sourceId": 1792795729
-    },
-    {
       "monsterId": 393,
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 10388,
+      "secondsAgo": 10699,
       "sourceId": 1792795662
     }
   ],
