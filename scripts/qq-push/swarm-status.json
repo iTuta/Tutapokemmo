@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-25T19:35:45.809Z",
+  "fetchedAt": "2026-10-25T19:40:49.126Z",
   "swarms": [
-    {
-      "monsterId": 335,
-      "pokemon": "Zangoose",
-      "region": "Kanto",
-      "location": "Route 14",
-      "sourceId": 1792957148,
-      "despawnTimestamp": 1792957147,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-25T19:39:08.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
       "sourceId": 1792957317,
-      "despawnTimestamp": 1792957316,
+      "despawnTimestamp": 1792957317,
       "hasValuable": false,
       "timestampUtc": "2026-10-25T19:41:57.000Z",
       "publishedBy": ""
@@ -29,7 +18,7 @@
       "region": "Unova",
       "location": "Route 18",
       "sourceId": 1792958139,
-      "despawnTimestamp": 1792958138,
+      "despawnTimestamp": 1792958139,
       "hasValuable": false,
       "timestampUtc": "2026-10-25T19:55:39.000Z",
       "publishedBy": ""
@@ -37,20 +26,28 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 335,
+      "pokemon": "Zangoose",
+      "region": "Kanto",
+      "location": "Route 14",
+      "secondsAgo": 1600,
+      "sourceId": 1792955649
+    },
+    {
       "monsterId": 450,
       "pokemon": "Hippowdon",
       "region": "Hoenn",
       "location": "Victory Road",
-      "secondsAgo": 20394,
-      "sourceId": 1792936551
+      "secondsAgo": 20697,
+      "sourceId": 1792936552
     },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Sinnoh",
       "location": "Iron Island",
-      "secondsAgo": 3262,
-      "sourceId": 1792953683
+      "secondsAgo": 3565,
+      "sourceId": 1792953684
     }
   ],
   "alpha": {
