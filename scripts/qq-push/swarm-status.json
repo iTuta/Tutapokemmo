@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-25T05:01:19.354Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-25T05:05:54.059Z",
+  "swarms": [
     {
-      "monsterId": 357,
-      "pokemon": "Tropius",
+      "monsterId": 128,
+      "pokemon": "Tauros",
       "region": "Kanto",
-      "location": "Bond Bridge",
-      "secondsAgo": 3631,
-      "sourceId": 1792900848
-    },
+      "location": "Route 17",
+      "sourceId": 1792906205,
+      "despawnTimestamp": 1792906206,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-25T05:30:05.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Johto",
       "location": "Route 41",
-      "secondsAgo": 3595,
+      "secondsAgo": 3870,
       "sourceId": 1792900884
     },
     {
@@ -23,15 +27,15 @@
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 5452,
-      "sourceId": 1792899027
+      "secondsAgo": 5726,
+      "sourceId": 1792899028
     },
     {
       "monsterId": 288,
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 7521,
+      "secondsAgo": 7796,
       "sourceId": 1792896958
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 5919,
+      "secondsAgo": 6194,
       "sourceId": 1792898560
     }
   ],
