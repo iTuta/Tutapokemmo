@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-25T19:16:01.816Z",
+  "fetchedAt": "2026-10-25T19:20:49.425Z",
   "swarms": [
     {
       "monsterId": 335,
@@ -7,35 +7,38 @@
       "region": "Kanto",
       "location": "Route 14",
       "sourceId": 1792957148,
-      "despawnTimestamp": 1792957147,
+      "despawnTimestamp": 1792957148,
       "hasValuable": false,
       "timestampUtc": "2026-10-25T19:39:08.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Johto",
+      "location": "Dark Cave",
+      "sourceId": 1792957317,
+      "despawnTimestamp": 1792957317,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-25T19:41:57.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 339,
-      "pokemon": "Barboach",
-      "region": "Johto",
-      "location": "Slowpoke Well",
-      "secondsAgo": 9162,
-      "sourceId": 1792946599
-    },
-    {
       "monsterId": 450,
       "pokemon": "Hippowdon",
       "region": "Hoenn",
       "location": "Victory Road",
-      "secondsAgo": 19210,
-      "sourceId": 1792936551
+      "secondsAgo": 19497,
+      "sourceId": 1792936552
     },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Sinnoh",
       "location": "Iron Island",
-      "secondsAgo": 2078,
+      "secondsAgo": 2366,
       "sourceId": 1792953683
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Hippowdon",
       "region": "Unova",
       "location": "Mistralton Cave",
-      "secondsAgo": 6981,
+      "secondsAgo": 7269,
       "sourceId": 1792948780
     }
   ],
