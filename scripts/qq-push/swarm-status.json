@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-10-25T16:25:49.770Z",
+  "fetchedAt": "2026-10-25T16:30:58.045Z",
   "swarms": [
+    {
+      "monsterId": 3,
+      "pokemon": "Venusaur",
+      "region": "Kanto",
+      "location": "Berry Forest",
+      "sourceId": 1792947140,
+      "despawnTimestamp": 1792947140,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-25T16:52:20.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 123,
       "pokemon": "Scyther",
       "region": "Sinnoh",
       "location": "Route 210",
       "sourceId": 1792946331,
-      "despawnTimestamp": 1792946330,
+      "despawnTimestamp": 1792946331,
       "hasValuable": false,
       "timestampUtc": "2026-10-25T16:38:51.000Z",
       "publishedBy": ""
@@ -15,27 +26,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 143,
-      "pokemon": "Snorlax",
-      "region": "Kanto",
-      "location": "Cerulean Cave",
-      "secondsAgo": 9177,
-      "sourceId": 1792936372
-    },
-    {
       "monsterId": 160,
       "pokemon": "Feraligatr",
       "region": "Johto",
       "location": "Tohjo Falls",
-      "secondsAgo": 6836,
-      "sourceId": 1792938713
+      "secondsAgo": 7144,
+      "sourceId": 1792938714
     },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 1743,
+      "secondsAgo": 2052,
       "sourceId": 1792943806
     }
   ],
