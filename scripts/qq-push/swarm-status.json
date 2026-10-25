@@ -1,45 +1,49 @@
 {
-  "fetchedAt": "2026-10-25T14:30:58.564Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-25T14:36:08.314Z",
+  "swarms": [
+    {
+      "monsterId": 160,
+      "pokemon": "Feraligatr",
+      "region": "Johto",
+      "location": "Tohjo Falls",
+      "sourceId": 1792940213,
+      "despawnTimestamp": 1792940213,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-25T14:56:53.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Kanto",
       "location": "Cerulean Cave",
-      "secondsAgo": 2286,
+      "secondsAgo": 2596,
       "sourceId": 1792936372
-    },
-    {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Johto",
-      "location": "Route 38",
-      "secondsAgo": 7306,
-      "sourceId": 1792931352
     },
     {
       "monsterId": 450,
       "pokemon": "Hippowdon",
       "region": "Hoenn",
       "location": "Victory Road",
-      "secondsAgo": 2107,
-      "sourceId": 1792936551
+      "secondsAgo": 2416,
+      "sourceId": 1792936552
     },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
       "region": "Sinnoh",
       "location": "Lake Valor",
-      "secondsAgo": 5516,
-      "sourceId": 1792933142
+      "secondsAgo": 5825,
+      "sourceId": 1792933143
     },
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Unova",
       "location": "Route 12",
-      "secondsAgo": 5608,
+      "secondsAgo": 5918,
       "sourceId": 1792933050
     }
   ],
