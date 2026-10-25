@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-25T03:15:52.155Z",
+  "fetchedAt": "2026-10-25T03:20:48.862Z",
   "swarms": [
-    {
-      "monsterId": 409,
-      "pokemon": "Rampardos",
-      "region": "Kanto",
-      "location": "Scufib Chamber",
-      "sourceId": 1792898373,
-      "despawnTimestamp": 1792898373,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-25T03:19:33.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 288,
       "pokemon": "Vigoroth",
@@ -26,19 +15,27 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 409,
+      "pokemon": "Rampardos",
+      "region": "Kanto",
+      "location": "Scufib Chamber",
+      "secondsAgo": 1574,
+      "sourceId": 1792896874
+    },
+    {
       "monsterId": 158,
       "pokemon": "Totodile",
       "region": "Johto",
       "location": "Route 32",
-      "secondsAgo": 5077,
-      "sourceId": 1792893075
+      "secondsAgo": 5374,
+      "sourceId": 1792893074
     },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Hoenn",
       "location": "Route 123",
-      "secondsAgo": 11225,
+      "secondsAgo": 11521,
       "sourceId": 1792886927
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Shroomish",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 12353,
-      "sourceId": 1792885799
+      "secondsAgo": 12650,
+      "sourceId": 1792885798
     }
   ],
   "alpha": {
