@@ -2,17 +2,6 @@
   "fetchedAt": "2026-10-25T23:25:53.506Z",
   "swarms": [
     {
-      "monsterId": 311,
-      "pokemon": "Plusle",
-      "region": "Kanto",
-      "location": "Route 2",
-      "sourceId": 1792970881,
-      "despawnTimestamp": 1792970881,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-25T23:28:01.000Z",
-      "publishedBy": ""
-    },
-    {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Sinnoh",
@@ -25,6 +14,14 @@
     }
   ],
   "lastSeen": [
+    {
+      "monsterId": 311,
+      "pokemon": "Plusle",
+      "region": "Kanto",
+      "location": "Route 2",
+      "secondsAgo": 1587,
+      "sourceId": 1792969381
+    },
     {
       "monsterId": 237,
       "pokemon": "Hitmontop",
