@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-25T10:35:49.206Z",
+  "fetchedAt": "2026-10-25T10:40:53.062Z",
   "swarms": [
     {
       "monsterId": 154,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-25T10:59:10.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 358,
-      "pokemon": "Chimecho",
-      "region": "Hoenn",
-      "location": "Mt. Pyre",
-      "sourceId": 1792924748,
-      "despawnTimestamp": 1792924748,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-25T10:39:08.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,15 +19,23 @@
       "pokemon": "Cradily",
       "region": "Kanto",
       "location": "Weepth Chamber",
-      "secondsAgo": 2328,
+      "secondsAgo": 2632,
       "sourceId": 1792922221
+    },
+    {
+      "monsterId": 358,
+      "pokemon": "Chimecho",
+      "region": "Hoenn",
+      "location": "Mt. Pyre",
+      "secondsAgo": 1604,
+      "sourceId": 1792923249
     },
     {
       "monsterId": 471,
       "pokemon": "Glaceon",
       "region": "Sinnoh",
       "location": "Route 217",
-      "secondsAgo": 17472,
+      "secondsAgo": 17776,
       "sourceId": 1792907077
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 5539,
+      "secondsAgo": 5843,
       "sourceId": 1792919010
     }
   ],
