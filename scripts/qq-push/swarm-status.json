@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-25T09:55:45.653Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-25T10:01:12.227Z",
+  "swarms": [
     {
-      "monsterId": 137,
-      "pokemon": "Porygon",
+      "monsterId": 346,
+      "pokemon": "Cradily",
       "region": "Kanto",
-      "location": "Pokemon Mansion",
-      "secondsAgo": 9266,
-      "sourceId": 1792912879
-    },
+      "location": "Weepth Chamber",
+      "sourceId": 1792923720,
+      "despawnTimestamp": 1792923720,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-25T10:22:00.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 372,
       "pokemon": "Shelgon",
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
-      "secondsAgo": 11080,
+      "secondsAgo": 11407,
       "sourceId": 1792911065
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Luvdisc",
       "region": "Hoenn",
       "location": "Route 132",
-      "secondsAgo": 10911,
+      "secondsAgo": 11238,
       "sourceId": 1792911234
     },
     {
@@ -31,15 +35,15 @@
       "pokemon": "Glaceon",
       "region": "Sinnoh",
       "location": "Route 217",
-      "secondsAgo": 15069,
-      "sourceId": 1792907076
+      "secondsAgo": 15395,
+      "sourceId": 1792907077
     },
     {
       "monsterId": 148,
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 3135,
+      "secondsAgo": 3462,
       "sourceId": 1792919010
     }
   ],
