@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-25T00:50:53.405Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-25T00:55:48.232Z",
+  "swarms": [
+    {
+      "monsterId": 320,
+      "pokemon": "Wailmer",
+      "region": "Johto",
+      "location": "Route 40",
+      "sourceId": 1792891117,
+      "despawnTimestamp": 1792891117,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-25T01:18:37.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Kanto",
       "location": "Route 8",
-      "secondsAgo": 24984,
-      "sourceId": 1792864469
-    },
-    {
-      "monsterId": 241,
-      "pokemon": "Miltank",
-      "region": "Johto",
-      "location": "Route 39",
-      "secondsAgo": 9137,
-      "sourceId": 1792880316
+      "secondsAgo": 25278,
+      "sourceId": 1792864470
     },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Hoenn",
       "location": "Route 123",
-      "secondsAgo": 2526,
+      "secondsAgo": 2821,
       "sourceId": 1792886927
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 9220,
+      "secondsAgo": 9515,
       "sourceId": 1792880233
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Shroomish",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 3655,
-      "sourceId": 1792885798
+      "secondsAgo": 3949,
+      "sourceId": 1792885799
     }
   ],
   "alpha": {
