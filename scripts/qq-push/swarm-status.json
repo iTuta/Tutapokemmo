@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-25T17:55:51.829Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-25T18:01:06.660Z",
+  "swarms": [
     {
-      "monsterId": 3,
-      "pokemon": "Venusaur",
+      "monsterId": 229,
+      "pokemon": "Houndoom",
       "region": "Kanto",
-      "location": "Berry Forest",
-      "secondsAgo": 5310,
-      "sourceId": 1792945641
-    },
+      "location": "Kindle Road",
+      "sourceId": 1792952516,
+      "despawnTimestamp": 1792952515,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-25T18:21:56.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 339,
       "pokemon": "Barboach",
       "region": "Johto",
       "location": "Slowpoke Well",
-      "secondsAgo": 4352,
+      "secondsAgo": 4667,
       "sourceId": 1792946599
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Hippowdon",
       "region": "Hoenn",
       "location": "Victory Road",
-      "secondsAgo": 14400,
+      "secondsAgo": 14715,
       "sourceId": 1792936551
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Scyther",
       "region": "Sinnoh",
       "location": "Route 210",
-      "secondsAgo": 6120,
+      "secondsAgo": 6435,
       "sourceId": 1792944831
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Hippowdon",
       "region": "Unova",
       "location": "Mistralton Cave",
-      "secondsAgo": 2171,
+      "secondsAgo": 2486,
       "sourceId": 1792948780
     }
   ],
