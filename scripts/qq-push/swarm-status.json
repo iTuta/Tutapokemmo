@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-25T20:25:51.797Z",
+  "fetchedAt": "2026-10-25T20:35:50.996Z",
   "swarms": [
     {
       "monsterId": 258,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-25T20:46:14.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 335,
-      "pokemon": "Zangoose",
-      "region": "Sinnoh",
-      "location": "Route 205",
-      "sourceId": 1792960511,
-      "despawnTimestamp": 1792960510,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-25T20:35:11.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 4303,
+      "secondsAgo": 4902,
       "sourceId": 1792955648
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 4134,
+      "secondsAgo": 4733,
       "sourceId": 1792955817
+    },
+    {
+      "monsterId": 335,
+      "pokemon": "Zangoose",
+      "region": "Sinnoh",
+      "location": "Route 205",
+      "secondsAgo": 1539,
+      "sourceId": 1792959011
     },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Unova",
       "location": "Route 18",
-      "secondsAgo": 3312,
+      "secondsAgo": 3911,
       "sourceId": 1792956639
     }
   ],
