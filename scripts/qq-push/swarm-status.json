@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-10-25T05:41:07.068Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-25T05:45:52.951Z",
+  "swarms": [
+    {
+      "monsterId": 471,
+      "pokemon": "Glaceon",
+      "region": "Sinnoh",
+      "location": "Route 217",
+      "sourceId": 1792908576,
+      "despawnTimestamp": 1792908576,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-25T06:09:36.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Kanto",
       "location": "Route 17",
-      "secondsAgo": 2160,
-      "sourceId": 1792904707
+      "secondsAgo": 2446,
+      "sourceId": 1792904706
     },
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Johto",
       "location": "Route 41",
-      "secondsAgo": 5983,
+      "secondsAgo": 6268,
       "sourceId": 1792900884
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 7839,
-      "sourceId": 1792899028
-    },
-    {
-      "monsterId": 288,
-      "pokemon": "Vigoroth",
-      "region": "Sinnoh",
-      "location": "Route 215",
-      "secondsAgo": 9909,
-      "sourceId": 1792896958
+      "secondsAgo": 8125,
+      "sourceId": 1792899027
     },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 8307,
+      "secondsAgo": 8592,
       "sourceId": 1792898560
     }
   ],
