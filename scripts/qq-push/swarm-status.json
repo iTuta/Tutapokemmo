@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-25T02:50:55.222Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-25T02:55:49.787Z",
+  "swarms": [
     {
-      "monsterId": 281,
-      "pokemon": "Kirlia",
+      "monsterId": 409,
+      "pokemon": "Rampardos",
       "region": "Kanto",
-      "location": "Route 8",
-      "secondsAgo": 32185,
-      "sourceId": 1792864470
-    },
+      "location": "Scufib Chamber",
+      "sourceId": 1792898373,
+      "despawnTimestamp": 1792898373,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-25T03:19:33.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 158,
       "pokemon": "Totodile",
       "region": "Johto",
       "location": "Route 32",
-      "secondsAgo": 3581,
+      "secondsAgo": 3875,
       "sourceId": 1792893074
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Carnivine",
       "region": "Hoenn",
       "location": "Route 123",
-      "secondsAgo": 9728,
+      "secondsAgo": 10022,
       "sourceId": 1792886927
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Magmar",
       "region": "Sinnoh",
       "location": "Fuego Ironworks",
-      "secondsAgo": 3714,
+      "secondsAgo": 4008,
       "sourceId": 1792892941
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Shroomish",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 10856,
-      "sourceId": 1792885799
+      "secondsAgo": 11151,
+      "sourceId": 1792885798
     }
   ],
   "alpha": {
