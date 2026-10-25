@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-25T03:55:52.461Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-25T04:01:06.891Z",
+  "swarms": [
     {
-      "monsterId": 409,
-      "pokemon": "Rampardos",
+      "monsterId": 357,
+      "pokemon": "Tropius",
       "region": "Kanto",
-      "location": "Scufib Chamber",
-      "secondsAgo": 3678,
-      "sourceId": 1792896874
-    },
+      "location": "Bond Bridge",
+      "sourceId": 1792902347,
+      "despawnTimestamp": 1792902346,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-25T04:25:47.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 158,
       "pokemon": "Totodile",
       "region": "Johto",
       "location": "Route 32",
-      "secondsAgo": 7478,
+      "secondsAgo": 7792,
       "sourceId": 1792893074
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 3594,
+      "secondsAgo": 3908,
       "sourceId": 1792896958
     },
     {
@@ -31,8 +35,8 @@
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 1992,
-      "sourceId": 1792898560
+      "secondsAgo": 2307,
+      "sourceId": 1792898559
     }
   ],
   "alpha": {
