@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-25T14:56:16.950Z",
+  "fetchedAt": "2026-10-25T15:01:12.298Z",
   "swarms": [
-    {
-      "monsterId": 160,
-      "pokemon": "Feraligatr",
-      "region": "Johto",
-      "location": "Tohjo Falls",
-      "sourceId": 1792940213,
-      "despawnTimestamp": 1792940212,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-25T14:56:53.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 449,
       "pokemon": "Hippopotas",
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
       "sourceId": 1792941224,
-      "despawnTimestamp": 1792941223,
+      "despawnTimestamp": 1792941224,
       "hasValuable": false,
       "timestampUtc": "2026-10-25T15:13:44.000Z",
       "publishedBy": ""
@@ -30,23 +19,31 @@
       "pokemon": "Snorlax",
       "region": "Kanto",
       "location": "Cerulean Cave",
-      "secondsAgo": 3804,
+      "secondsAgo": 4100,
       "sourceId": 1792936372
+    },
+    {
+      "monsterId": 160,
+      "pokemon": "Feraligatr",
+      "region": "Johto",
+      "location": "Tohjo Falls",
+      "secondsAgo": 1758,
+      "sourceId": 1792938714
     },
     {
       "monsterId": 450,
       "pokemon": "Hippowdon",
       "region": "Hoenn",
       "location": "Victory Road",
-      "secondsAgo": 3625,
-      "sourceId": 1792936551
+      "secondsAgo": 3920,
+      "sourceId": 1792936552
     },
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Unova",
       "location": "Route 12",
-      "secondsAgo": 7126,
+      "secondsAgo": 7422,
       "sourceId": 1792933050
     }
   ],
