@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-25T16:40:46.445Z",
+  "fetchedAt": "2026-10-25T16:46:17.138Z",
   "swarms": [
     {
       "monsterId": 3,
@@ -11,31 +11,34 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-25T16:52:20.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 339,
+      "pokemon": "Barboach",
+      "region": "Johto",
+      "location": "Slowpoke Well",
+      "sourceId": 1792948098,
+      "despawnTimestamp": 1792948098,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-25T17:08:18.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 160,
-      "pokemon": "Feraligatr",
-      "region": "Johto",
-      "location": "Tohjo Falls",
-      "secondsAgo": 7732,
-      "sourceId": 1792938714
-    },
     {
       "monsterId": 123,
       "pokemon": "Scyther",
       "region": "Sinnoh",
       "location": "Route 210",
-      "secondsAgo": 1615,
-      "sourceId": 1792944831
+      "secondsAgo": 1945,
+      "sourceId": 1792944832
     },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 2640,
+      "secondsAgo": 2971,
       "sourceId": 1792943806
     }
   ],
