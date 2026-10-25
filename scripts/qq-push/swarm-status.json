@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-25T16:50:56.959Z",
+  "fetchedAt": "2026-10-25T16:55:49.793Z",
   "swarms": [
-    {
-      "monsterId": 3,
-      "pokemon": "Venusaur",
-      "region": "Kanto",
-      "location": "Berry Forest",
-      "sourceId": 1792947140,
-      "despawnTimestamp": 1792947140,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-25T16:52:20.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 339,
       "pokemon": "Barboach",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 3,
+      "pokemon": "Venusaur",
+      "region": "Kanto",
+      "location": "Berry Forest",
+      "secondsAgo": 1708,
+      "sourceId": 1792945641
+    },
+    {
       "monsterId": 123,
       "pokemon": "Scyther",
       "region": "Sinnoh",
       "location": "Route 210",
-      "secondsAgo": 2225,
+      "secondsAgo": 2518,
       "sourceId": 1792944831
     },
     {
@@ -38,8 +35,8 @@
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 3251,
-      "sourceId": 1792943805
+      "secondsAgo": 3543,
+      "sourceId": 1792943806
     }
   ],
   "alpha": {
