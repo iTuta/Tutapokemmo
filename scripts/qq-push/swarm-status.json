@@ -1,37 +1,44 @@
 {
-  "fetchedAt": "2026-10-25T06:50:46.477Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-25T06:55:52.864Z",
+  "swarms": [
+    {
+      "monsterId": 372,
+      "pokemon": "Shelgon",
+      "region": "Johto",
+      "location": "Dragon&#x27;s Den",
+      "sourceId": 1792912564,
+      "despawnTimestamp": 1792912564,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-25T07:16:04.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 370,
+      "pokemon": "Luvdisc",
+      "region": "Hoenn",
+      "location": "Route 132",
+      "sourceId": 1792912733,
+      "despawnTimestamp": 1792912733,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-25T07:18:53.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Kanto",
       "location": "Route 17",
-      "secondsAgo": 6340,
+      "secondsAgo": 6646,
       "sourceId": 1792904706
-    },
-    {
-      "monsterId": 319,
-      "pokemon": "Sharpedo",
-      "region": "Johto",
-      "location": "Route 41",
-      "secondsAgo": 10162,
-      "sourceId": 1792900884
-    },
-    {
-      "monsterId": 517,
-      "pokemon": "Munna",
-      "region": "Hoenn",
-      "location": "Route 102",
-      "secondsAgo": 12019,
-      "sourceId": 1792899027
     },
     {
       "monsterId": 471,
       "pokemon": "Glaceon",
       "region": "Sinnoh",
       "location": "Route 217",
-      "secondsAgo": 3970,
+      "secondsAgo": 4276,
       "sourceId": 1792907076
     },
     {
@@ -39,8 +46,8 @@
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 3733,
-      "sourceId": 1792907313
+      "secondsAgo": 4040,
+      "sourceId": 1792907312
     }
   ],
   "alpha": {
