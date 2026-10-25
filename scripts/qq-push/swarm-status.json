@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-25T16:30:58.045Z",
+  "fetchedAt": "2026-10-25T16:40:46.445Z",
   "swarms": [
     {
       "monsterId": 3,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-25T16:52:20.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 123,
-      "pokemon": "Scyther",
-      "region": "Sinnoh",
-      "location": "Route 210",
-      "sourceId": 1792946331,
-      "despawnTimestamp": 1792946331,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-25T16:38:51.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,15 +19,23 @@
       "pokemon": "Feraligatr",
       "region": "Johto",
       "location": "Tohjo Falls",
-      "secondsAgo": 7144,
+      "secondsAgo": 7732,
       "sourceId": 1792938714
+    },
+    {
+      "monsterId": 123,
+      "pokemon": "Scyther",
+      "region": "Sinnoh",
+      "location": "Route 210",
+      "secondsAgo": 1615,
+      "sourceId": 1792944831
     },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 2052,
+      "secondsAgo": 2640,
       "sourceId": 1792943806
     }
   ],
