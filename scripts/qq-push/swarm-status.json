@@ -1,29 +1,44 @@
 {
-  "fetchedAt": "2026-10-25T22:10:52.307Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-25T22:15:52.278Z",
+  "swarms": [
+    {
+      "monsterId": 237,
+      "pokemon": "Hitmontop",
+      "region": "Johto",
+      "location": "Mt. Mortar",
+      "sourceId": 1792967994,
+      "despawnTimestamp": 1792967994,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-25T22:39:54.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 222,
+      "pokemon": "Corsola",
+      "region": "Unova",
+      "location": "Undella Bay",
+      "sourceId": 1792968049,
+      "despawnTimestamp": 1792968049,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-25T22:40:49.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 10603,
+      "secondsAgo": 10903,
       "sourceId": 1792955649
-    },
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Johto",
-      "location": "Dark Cave",
-      "secondsAgo": 10434,
-      "sourceId": 1792955818
     },
     {
       "monsterId": 258,
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 6578,
+      "secondsAgo": 6878,
       "sourceId": 1792959674
     },
     {
@@ -31,16 +46,8 @@
       "pokemon": "Zangoose",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 7240,
+      "secondsAgo": 7540,
       "sourceId": 1792959012
-    },
-    {
-      "monsterId": 455,
-      "pokemon": "Carnivine",
-      "region": "Unova",
-      "location": "Route 18",
-      "secondsAgo": 9612,
-      "sourceId": 1792956640
     }
   ],
   "alpha": {
