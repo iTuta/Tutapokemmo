@@ -1,36 +1,13 @@
 {
-  "fetchedAt": "2026-10-25T13:20:50.427Z",
-  "swarms": [
-    {
-      "monsterId": 342,
-      "pokemon": "Crawdaunt",
-      "region": "Sinnoh",
-      "location": "Lake Valor",
-      "sourceId": 1792934642,
-      "despawnTimestamp": 1792934641,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-25T13:24:02.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 127,
-      "pokemon": "Pinsir",
-      "region": "Unova",
-      "location": "Route 12",
-      "sourceId": 1792934549,
-      "despawnTimestamp": 1792934549,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-25T13:22:29.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-25T13:25:53.731Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 299,
       "pokemon": "Nosepass",
       "region": "Kanto",
       "location": "Mt. Moon",
-      "secondsAgo": 5137,
+      "secondsAgo": 5440,
       "sourceId": 1792929313
     },
     {
@@ -38,7 +15,7 @@
       "pokemon": "Tauros",
       "region": "Johto",
       "location": "Route 38",
-      "secondsAgo": 3098,
+      "secondsAgo": 3401,
       "sourceId": 1792931352
     },
     {
@@ -46,8 +23,24 @@
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
-      "secondsAgo": 11201,
-      "sourceId": 1792923249
+      "secondsAgo": 11505,
+      "sourceId": 1792923248
+    },
+    {
+      "monsterId": 342,
+      "pokemon": "Crawdaunt",
+      "region": "Sinnoh",
+      "location": "Lake Valor",
+      "secondsAgo": 1611,
+      "sourceId": 1792933142
+    },
+    {
+      "monsterId": 127,
+      "pokemon": "Pinsir",
+      "region": "Unova",
+      "location": "Route 12",
+      "secondsAgo": 1703,
+      "sourceId": 1792933050
     }
   ],
   "alpha": {
