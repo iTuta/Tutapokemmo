@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-25T14:15:53.239Z",
+  "fetchedAt": "2026-10-25T14:20:49.071Z",
   "swarms": [
-    {
-      "monsterId": 143,
-      "pokemon": "Snorlax",
-      "region": "Kanto",
-      "location": "Cerulean Cave",
-      "sourceId": 1792937871,
-      "despawnTimestamp": 1792937871,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-25T14:17:51.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 450,
       "pokemon": "Hippowdon",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 143,
+      "pokemon": "Snorlax",
+      "region": "Kanto",
+      "location": "Cerulean Cave",
+      "secondsAgo": 1676,
+      "sourceId": 1792936373
+    },
+    {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Johto",
       "location": "Route 38",
-      "secondsAgo": 6400,
+      "secondsAgo": 6696,
       "sourceId": 1792931353
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Crawdaunt",
       "region": "Sinnoh",
       "location": "Lake Valor",
-      "secondsAgo": 4610,
+      "secondsAgo": 4906,
       "sourceId": 1792933143
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Pinsir",
       "region": "Unova",
       "location": "Route 12",
-      "secondsAgo": 4703,
+      "secondsAgo": 4999,
       "sourceId": 1792933050
     }
   ],
