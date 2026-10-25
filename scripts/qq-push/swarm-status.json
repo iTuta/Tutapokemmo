@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-25T12:01:16.484Z",
+  "fetchedAt": "2026-10-25T12:05:53.774Z",
   "swarms": [
     {
       "monsterId": 299,
@@ -7,9 +7,20 @@
       "region": "Kanto",
       "location": "Mt. Moon",
       "sourceId": 1792930813,
-      "despawnTimestamp": 1792930814,
+      "despawnTimestamp": 1792930812,
       "hasValuable": false,
       "timestampUtc": "2026-10-25T12:20:13.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 248,
+      "pokemon": "Tyranitar",
+      "region": "Sinnoh",
+      "location": "Stark Mountain",
+      "sourceId": 1792931443,
+      "despawnTimestamp": 1792931442,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-25T12:30:43.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,32 +30,24 @@
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 5224,
-      "sourceId": 1792924452
+      "secondsAgo": 5503,
+      "sourceId": 1792924450
     },
     {
       "monsterId": 358,
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
-      "secondsAgo": 6426,
-      "sourceId": 1792923250
-    },
-    {
-      "monsterId": 471,
-      "pokemon": "Glaceon",
-      "region": "Sinnoh",
-      "location": "Route 217",
-      "secondsAgo": 22598,
-      "sourceId": 1792907078
+      "secondsAgo": 6705,
+      "sourceId": 1792923248
     },
     {
       "monsterId": 148,
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 10665,
-      "sourceId": 1792919011
+      "secondsAgo": 10943,
+      "sourceId": 1792919010
     }
   ],
   "alpha": {
