@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-26T23:40:54.247Z",
+  "fetchedAt": "2026-10-26T23:46:02.172Z",
   "swarms": [
     {
       "monsterId": 388,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-26T23:57:17.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 311,
-      "pokemon": "Plusle",
-      "region": "Unova",
-      "location": "Route 5",
-      "sourceId": 1793058063,
-      "despawnTimestamp": 1793058063,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-26T23:41:03.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Nincada",
       "region": "Kanto",
       "location": "Route 25",
-      "secondsAgo": 1626,
+      "secondsAgo": 1934,
       "sourceId": 1793056428
     },
     {
@@ -38,7 +27,7 @@
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 2419,
+      "secondsAgo": 2727,
       "sourceId": 1793055635
     },
     {
@@ -46,8 +35,16 @@
       "pokemon": "Mime Jr.",
       "region": "Hoenn",
       "location": "Rusturf Tunnel",
-      "secondsAgo": 1662,
+      "secondsAgo": 1970,
       "sourceId": 1793056392
+    },
+    {
+      "monsterId": 311,
+      "pokemon": "Plusle",
+      "region": "Unova",
+      "location": "Route 5",
+      "secondsAgo": 1798,
+      "sourceId": 1793056564
     }
   ],
   "alpha": {
