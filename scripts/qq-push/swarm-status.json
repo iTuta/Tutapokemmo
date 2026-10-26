@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-26T03:45:55.501Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-26T03:55:45.524Z",
+  "swarms": [
     {
-      "monsterId": 139,
-      "pokemon": "Omastar",
+      "monsterId": 214,
+      "pokemon": "Heracross",
       "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 4591,
-      "sourceId": 1792981764
-    },
+      "location": "Route 16",
+      "sourceId": 1792988150,
+      "despawnTimestamp": 1792988149,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-26T04:15:50.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 320,
       "pokemon": "Wailmer",
       "region": "Johto",
       "location": "Route 40",
-      "secondsAgo": 8465,
+      "secondsAgo": 9055,
       "sourceId": 1792977890
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Rotom",
       "region": "Hoenn",
       "location": "New Mauville",
-      "secondsAgo": 8701,
+      "secondsAgo": 9291,
       "sourceId": 1792977654
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Drifblim",
       "region": "Sinnoh",
       "location": "Route 222",
-      "secondsAgo": 9866,
+      "secondsAgo": 10456,
       "sourceId": 1792976489
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 7705,
+      "secondsAgo": 8295,
       "sourceId": 1792978650
     }
   ],
