@@ -1,45 +1,49 @@
 {
-  "fetchedAt": "2026-10-26T22:55:47.297Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-26T23:04:07.003Z",
+  "swarms": [
+    {
+      "monsterId": 143,
+      "pokemon": "Snorlax",
+      "region": "Johto",
+      "location": "Victory Road",
+      "sourceId": 1793057134,
+      "despawnTimestamp": 1793057133,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-26T23:25:34.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 4053,
-      "sourceId": 1793051294
-    },
-    {
-      "monsterId": 237,
-      "pokemon": "Hitmontop",
-      "region": "Johto",
-      "location": "Mt. Mortar",
-      "secondsAgo": 8084,
-      "sourceId": 1793047263
+      "secondsAgo": 4553,
+      "sourceId": 1793051293
     },
     {
       "monsterId": 321,
       "pokemon": "Wailord",
       "region": "Hoenn",
       "location": "Route 129",
-      "secondsAgo": 5508,
-      "sourceId": 1793049839
+      "secondsAgo": 6008,
+      "sourceId": 1793049838
     },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Sinnoh",
       "location": "Route 219",
-      "secondsAgo": 11611,
-      "sourceId": 1793043736
+      "secondsAgo": 12111,
+      "sourceId": 1793043735
     },
     {
       "monsterId": 148,
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 4619,
+      "secondsAgo": 5118,
       "sourceId": 1793050728
     }
   ],
