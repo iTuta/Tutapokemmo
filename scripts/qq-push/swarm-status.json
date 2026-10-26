@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-10-26T18:50:53.112Z",
+  "fetchedAt": "2026-10-26T18:55:56.436Z",
   "swarms": [
-    {
-      "monsterId": 409,
-      "pokemon": "Rampardos",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "sourceId": 1793040926,
-      "despawnTimestamp": 1793040926,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-26T18:55:26.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 358,
-      "pokemon": "Chimecho",
-      "region": "Johto",
-      "location": "Bellchime Trail",
-      "sourceId": 1793040825,
-      "despawnTimestamp": 1793040825,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-26T18:53:45.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 211,
       "pokemon": "Qwilfish",
@@ -57,7 +35,24 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [],
+  "lastSeen": [
+    {
+      "monsterId": 409,
+      "pokemon": "Rampardos",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "secondsAgo": 1529,
+      "sourceId": 1793039427
+    },
+    {
+      "monsterId": 358,
+      "pokemon": "Chimecho",
+      "region": "Johto",
+      "location": "Bellchime Trail",
+      "secondsAgo": 1631,
+      "sourceId": 1793039325
+    }
+  ],
   "alpha": {
     "monsterId": 99,
     "pokemon": "Kingler",
