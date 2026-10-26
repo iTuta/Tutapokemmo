@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-10-26T23:35:51.456Z",
+  "fetchedAt": "2026-10-26T23:40:54.247Z",
   "swarms": [
-    {
-      "monsterId": 290,
-      "pokemon": "Nincada",
-      "region": "Kanto",
-      "location": "Route 25",
-      "sourceId": 1793057927,
-      "despawnTimestamp": 1793057927,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-26T23:38:47.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 439,
-      "pokemon": "Mime Jr.",
-      "region": "Hoenn",
-      "location": "Rusturf Tunnel",
-      "sourceId": 1793057891,
-      "despawnTimestamp": 1793057891,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-26T23:38:11.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 388,
       "pokemon": "Grotle",
@@ -48,12 +26,28 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 290,
+      "pokemon": "Nincada",
+      "region": "Kanto",
+      "location": "Route 25",
+      "secondsAgo": 1626,
+      "sourceId": 1793056428
+    },
+    {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 2117,
-      "sourceId": 1793055634
+      "secondsAgo": 2419,
+      "sourceId": 1793055635
+    },
+    {
+      "monsterId": 439,
+      "pokemon": "Mime Jr.",
+      "region": "Hoenn",
+      "location": "Rusturf Tunnel",
+      "secondsAgo": 1662,
+      "sourceId": 1793056392
     }
   ],
   "alpha": {
