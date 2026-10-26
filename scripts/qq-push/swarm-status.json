@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-26T21:16:12.970Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-26T21:25:53.818Z",
+  "swarms": [
+    {
+      "monsterId": 321,
+      "pokemon": "Wailord",
+      "region": "Hoenn",
+      "location": "Route 129",
+      "sourceId": 1793051338,
+      "despawnTimestamp": 1793051337,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-26T21:48:58.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 409,
       "pokemon": "Rampardos",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 9946,
+      "secondsAgo": 10527,
       "sourceId": 1793039426
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Hitmontop",
       "region": "Johto",
       "location": "Mt. Mortar",
-      "secondsAgo": 2109,
+      "secondsAgo": 2690,
       "sourceId": 1793047263
-    },
-    {
-      "monsterId": 223,
-      "pokemon": "Remoraid",
-      "region": "Hoenn",
-      "location": "Route 108",
-      "secondsAgo": 3612,
-      "sourceId": 1793045760
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 9235,
+      "secondsAgo": 9816,
       "sourceId": 1793040137
     }
   ],
