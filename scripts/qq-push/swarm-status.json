@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-10-26T18:55:56.436Z",
+  "fetchedAt": "2026-10-26T19:01:20.070Z",
   "swarms": [
-    {
-      "monsterId": 211,
-      "pokemon": "Qwilfish",
-      "region": "Hoenn",
-      "location": "Route 125",
-      "sourceId": 1793041005,
-      "despawnTimestamp": 1793041005,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-26T18:56:45.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 328,
-      "pokemon": "Trapinch",
-      "region": "Sinnoh",
-      "location": "Oreburgh Mine",
-      "sourceId": 1793041031,
-      "despawnTimestamp": 1793041031,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-26T18:57:11.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
@@ -41,7 +19,7 @@
       "pokemon": "Rampardos",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 1529,
+      "secondsAgo": 1853,
       "sourceId": 1793039427
     },
     {
@@ -49,8 +27,24 @@
       "pokemon": "Chimecho",
       "region": "Johto",
       "location": "Bellchime Trail",
-      "secondsAgo": 1631,
-      "sourceId": 1793039325
+      "secondsAgo": 1954,
+      "sourceId": 1793039326
+    },
+    {
+      "monsterId": 211,
+      "pokemon": "Qwilfish",
+      "region": "Hoenn",
+      "location": "Route 125",
+      "secondsAgo": 1774,
+      "sourceId": 1793039506
+    },
+    {
+      "monsterId": 328,
+      "pokemon": "Trapinch",
+      "region": "Sinnoh",
+      "location": "Oreburgh Mine",
+      "secondsAgo": 1748,
+      "sourceId": 1793039532
     }
   ],
   "alpha": {
