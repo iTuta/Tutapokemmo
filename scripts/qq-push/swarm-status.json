@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-26T00:31:00.908Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-26T00:39:50.598Z",
+  "swarms": [
     {
-      "monsterId": 311,
-      "pokemon": "Plusle",
+      "monsterId": 214,
+      "pokemon": "Heracross",
       "region": "Kanto",
-      "location": "Route 2",
-      "secondsAgo": 5279,
-      "sourceId": 1792969381
-    },
+      "location": "Route 16",
+      "sourceId": 1792976414,
+      "despawnTimestamp": 1792976413,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-26T01:00:14.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 237,
       "pokemon": "Hitmontop",
       "region": "Johto",
       "location": "Mt. Mortar",
-      "secondsAgo": 8166,
+      "secondsAgo": 8696,
       "sourceId": 1792966494
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 14986,
+      "secondsAgo": 15516,
       "sourceId": 1792959674
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Heracross",
       "region": "Sinnoh",
       "location": "Route 206",
-      "secondsAgo": 4669,
+      "secondsAgo": 5199,
       "sourceId": 1792969991
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Corsola",
       "region": "Unova",
       "location": "Undella Bay",
-      "secondsAgo": 8111,
+      "secondsAgo": 8641,
       "sourceId": 1792966549
     }
   ],
