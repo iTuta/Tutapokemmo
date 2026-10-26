@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-26T10:21:03.351Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-26T10:25:54.018Z",
+  "swarms": [
+    {
+      "monsterId": 314,
+      "pokemon": "Illumise",
+      "region": "Unova",
+      "location": "Moor of Icirrus",
+      "sourceId": 1793011732,
+      "despawnTimestamp": 1793011731,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-26T10:48:52.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 2280,
+      "secondsAgo": 2570,
       "sourceId": 1793007783
     },
     {
@@ -15,24 +27,16 @@
       "pokemon": "Pineco",
       "region": "Hoenn",
       "location": "Route 103",
-      "secondsAgo": 4488,
-      "sourceId": 1793005575
+      "secondsAgo": 4779,
+      "sourceId": 1793005574
     },
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Sinnoh",
       "location": "Turnback Cave",
-      "secondsAgo": 12948,
-      "sourceId": 1792997115
-    },
-    {
-      "monsterId": 241,
-      "pokemon": "Miltank",
-      "region": "Unova",
-      "location": "Village Bridge",
-      "secondsAgo": 14131,
-      "sourceId": 1792995932
+      "secondsAgo": 13239,
+      "sourceId": 1792997114
     }
   ],
   "alpha": {
