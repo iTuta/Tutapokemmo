@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-26T07:45:55.795Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-26T07:50:54.195Z",
+  "swarms": [
+    {
+      "monsterId": 227,
+      "pokemon": "Skarmory",
+      "region": "Hoenn",
+      "location": "Route 113",
+      "sourceId": 1793002426,
+      "despawnTimestamp": 1793002426,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-26T08:13:46.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 312,
       "pokemon": "Minun",
       "region": "Kanto",
       "location": "Route 22",
-      "secondsAgo": 5989,
+      "secondsAgo": 6288,
       "sourceId": 1792994766
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Bonsly",
       "region": "Johto",
       "location": "Ilex Forest",
-      "secondsAgo": 6339,
+      "secondsAgo": 6638,
       "sourceId": 1792994416
-    },
-    {
-      "monsterId": 134,
-      "pokemon": "Vaporeon",
-      "region": "Hoenn",
-      "location": "Route 134",
-      "secondsAgo": 3456,
-      "sourceId": 1792997299
     },
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Sinnoh",
       "location": "Turnback Cave",
-      "secondsAgo": 3640,
+      "secondsAgo": 3939,
       "sourceId": 1792997115
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Miltank",
       "region": "Unova",
       "location": "Village Bridge",
-      "secondsAgo": 4823,
+      "secondsAgo": 5122,
       "sourceId": 1792995932
     }
   ],
