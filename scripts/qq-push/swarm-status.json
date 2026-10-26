@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-26T15:15:52.494Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-26T15:20:51.500Z",
+  "swarms": [
+    {
+      "monsterId": 107,
+      "pokemon": "Hitmonchan",
+      "region": "Hoenn",
+      "location": "Fiery Path",
+      "sourceId": 1793029314,
+      "despawnTimestamp": 1793029313,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-26T15:41:54.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 311,
       "pokemon": "Plusle",
       "region": "Kanto",
       "location": "Route 2",
-      "secondsAgo": 26401,
+      "secondsAgo": 26700,
       "sourceId": 1793001351
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Totodile",
       "region": "Johto",
       "location": "Route 32",
-      "secondsAgo": 6401,
+      "secondsAgo": 6700,
       "sourceId": 1793021351
-    },
-    {
-      "monsterId": 222,
-      "pokemon": "Corsola",
-      "region": "Hoenn",
-      "location": "Route 128",
-      "secondsAgo": 9647,
-      "sourceId": 1793018105
     },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 5077,
+      "secondsAgo": 5376,
       "sourceId": 1793022675
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 9777,
+      "secondsAgo": 10076,
       "sourceId": 1793017975
     }
   ],
