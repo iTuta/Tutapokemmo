@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-26T21:35:50.652Z",
+  "fetchedAt": "2026-10-26T21:45:56.162Z",
   "swarms": [
     {
       "monsterId": 321,
@@ -7,9 +7,20 @@
       "region": "Hoenn",
       "location": "Route 129",
       "sourceId": 1793051338,
-      "despawnTimestamp": 1793051337,
+      "despawnTimestamp": 1793051338,
       "hasValuable": false,
       "timestampUtc": "2026-10-26T21:48:58.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 148,
+      "pokemon": "Dragonair",
+      "region": "Unova",
+      "location": "Dragonspiral Tower",
+      "sourceId": 1793052227,
+      "despawnTimestamp": 1793052227,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-26T22:03:47.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,7 +30,7 @@
       "pokemon": "Rampardos",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 11123,
+      "secondsAgo": 11729,
       "sourceId": 1793039427
     },
     {
@@ -27,24 +38,16 @@
       "pokemon": "Hitmontop",
       "region": "Johto",
       "location": "Mt. Mortar",
-      "secondsAgo": 3287,
-      "sourceId": 1793047263
+      "secondsAgo": 3892,
+      "sourceId": 1793047264
     },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Sinnoh",
       "location": "Route 219",
-      "secondsAgo": 6814,
+      "secondsAgo": 7420,
       "sourceId": 1793043736
-    },
-    {
-      "monsterId": 193,
-      "pokemon": "Yanma",
-      "region": "Unova",
-      "location": "Pinwheel Forest",
-      "secondsAgo": 10413,
-      "sourceId": 1793040137
     }
   ],
   "alpha": {
