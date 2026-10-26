@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-10-26T01:15:53.605Z",
+  "fetchedAt": "2026-10-26T01:21:04.493Z",
   "swarms": [
+    {
+      "monsterId": 479,
+      "pokemon": "Rotom",
+      "region": "Hoenn",
+      "location": "New Mauville",
+      "sourceId": 1792979154,
+      "despawnTimestamp": 1792979154,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-26T01:45:54.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 426,
       "pokemon": "Drifblim",
       "region": "Sinnoh",
       "location": "Route 222",
       "sourceId": 1792977988,
-      "despawnTimestamp": 1792977988,
+      "despawnTimestamp": 1792977989,
       "hasValuable": false,
       "timestampUtc": "2026-10-26T01:26:28.000Z",
       "publishedBy": ""
@@ -19,32 +30,24 @@
       "pokemon": "Heracross",
       "region": "Kanto",
       "location": "Route 16",
-      "secondsAgo": 2439,
-      "sourceId": 1792974914
+      "secondsAgo": 2749,
+      "sourceId": 1792974915
     },
     {
       "monsterId": 237,
       "pokemon": "Hitmontop",
       "region": "Johto",
       "location": "Mt. Mortar",
-      "secondsAgo": 10859,
-      "sourceId": 1792966494
-    },
-    {
-      "monsterId": 258,
-      "pokemon": "Mudkip",
-      "region": "Hoenn",
-      "location": "Route 104",
-      "secondsAgo": 17679,
-      "sourceId": 1792959674
+      "secondsAgo": 11169,
+      "sourceId": 1792966495
     },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
       "region": "Unova",
       "location": "Undella Bay",
-      "secondsAgo": 10804,
-      "sourceId": 1792966549
+      "secondsAgo": 11113,
+      "sourceId": 1792966551
     }
   ],
   "alpha": {
