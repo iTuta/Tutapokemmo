@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-26T01:45:59.902Z",
+  "fetchedAt": "2026-10-26T01:50:58.058Z",
   "swarms": [
-    {
-      "monsterId": 320,
-      "pokemon": "Wailmer",
-      "region": "Johto",
-      "location": "Route 40",
-      "sourceId": 1792979390,
-      "despawnTimestamp": 1792979389,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-26T01:49:50.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 148,
       "pokemon": "Dragonair",
@@ -30,15 +19,23 @@
       "pokemon": "Heracross",
       "region": "Kanto",
       "location": "Route 16",
-      "secondsAgo": 4245,
+      "secondsAgo": 4543,
       "sourceId": 1792974914
+    },
+    {
+      "monsterId": 320,
+      "pokemon": "Wailmer",
+      "region": "Johto",
+      "location": "Route 40",
+      "secondsAgo": 1567,
+      "sourceId": 1792977890
     },
     {
       "monsterId": 479,
       "pokemon": "Rotom",
       "region": "Hoenn",
       "location": "New Mauville",
-      "secondsAgo": 1505,
+      "secondsAgo": 1803,
       "sourceId": 1792977654
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Drifblim",
       "region": "Sinnoh",
       "location": "Route 222",
-      "secondsAgo": 2671,
+      "secondsAgo": 2969,
       "sourceId": 1792976488
     }
   ],
