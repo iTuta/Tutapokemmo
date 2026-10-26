@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-26T13:50:52.606Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-26T13:56:00.362Z",
+  "swarms": [
+    {
+      "monsterId": 300,
+      "pokemon": "Skitty",
+      "region": "Sinnoh",
+      "location": "Route 204",
+      "sourceId": 1793024174,
+      "despawnTimestamp": 1793024174,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-26T14:16:14.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 158,
       "pokemon": "Totodile",
       "region": "Johto",
       "location": "Route 32",
-      "secondsAgo": 1301,
+      "secondsAgo": 1609,
       "sourceId": 1793021351
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Corsola",
       "region": "Hoenn",
       "location": "Route 128",
-      "secondsAgo": 4547,
-      "sourceId": 1793018105
-    },
-    {
-      "monsterId": 424,
-      "pokemon": "Ambipom",
-      "region": "Sinnoh",
-      "location": "Route 216",
-      "secondsAgo": 10944,
-      "sourceId": 1793011708
+      "secondsAgo": 4854,
+      "sourceId": 1793018106
     },
     {
       "monsterId": 331,
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 4677,
+      "secondsAgo": 4985,
       "sourceId": 1793017975
     }
   ],
