@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-26T06:25:47.001Z",
+  "fetchedAt": "2026-10-26T06:31:23.856Z",
   "swarms": [
-    {
-      "monsterId": 312,
-      "pokemon": "Minun",
-      "region": "Kanto",
-      "location": "Route 22",
-      "sourceId": 1792996265,
-      "despawnTimestamp": 1792996264,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-26T06:31:05.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 312,
+      "pokemon": "Minun",
+      "region": "Kanto",
+      "location": "Route 22",
+      "secondsAgo": 1518,
+      "sourceId": 1792994765
+    },
+    {
       "monsterId": 438,
       "pokemon": "Bonsly",
       "region": "Johto",
       "location": "Ilex Forest",
-      "secondsAgo": 1530,
+      "secondsAgo": 1867,
       "sourceId": 1792994416
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Staryu",
       "region": "Hoenn",
       "location": "Route 106",
-      "secondsAgo": 7117,
+      "secondsAgo": 7454,
       "sourceId": 1792988829
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Cloyster",
       "region": "Sinnoh",
       "location": "Route 223",
-      "secondsAgo": 5968,
+      "secondsAgo": 6305,
       "sourceId": 1792989978
     }
   ],
