@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-26T13:56:00.362Z",
+  "fetchedAt": "2026-10-26T14:06:02.992Z",
   "swarms": [
     {
       "monsterId": 300,
@@ -7,7 +7,7 @@
       "region": "Sinnoh",
       "location": "Route 204",
       "sourceId": 1793024174,
-      "despawnTimestamp": 1793024174,
+      "despawnTimestamp": 1793024173,
       "hasValuable": false,
       "timestampUtc": "2026-10-26T14:16:14.000Z",
       "publishedBy": ""
@@ -15,28 +15,36 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 311,
+      "pokemon": "Plusle",
+      "region": "Kanto",
+      "location": "Route 2",
+      "secondsAgo": 22211,
+      "sourceId": 1793001351
+    },
+    {
       "monsterId": 158,
       "pokemon": "Totodile",
       "region": "Johto",
       "location": "Route 32",
-      "secondsAgo": 1609,
-      "sourceId": 1793021351
+      "secondsAgo": 2212,
+      "sourceId": 1793021350
     },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
       "region": "Hoenn",
       "location": "Route 128",
-      "secondsAgo": 4854,
-      "sourceId": 1793018106
+      "secondsAgo": 5457,
+      "sourceId": 1793018105
     },
     {
       "monsterId": 331,
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 4985,
-      "sourceId": 1793017975
+      "secondsAgo": 5588,
+      "sourceId": 1793017974
     }
   ],
   "alpha": {
@@ -49,6 +57,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-10-26T09:14:49.000Z",
     "timestampRaw": "2026-10-26T09:14:49.000Z",
-    "publishedBy": ""
+    "publishedBy": "wewoo"
   }
 }
