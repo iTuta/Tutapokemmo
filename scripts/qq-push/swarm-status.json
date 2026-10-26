@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-26T06:49:32.954Z",
+  "fetchedAt": "2026-10-26T06:51:01.099Z",
   "swarms": [
     {
       "monsterId": 134,
@@ -7,7 +7,7 @@
       "region": "Hoenn",
       "location": "Route 134",
       "sourceId": 1792998799,
-      "despawnTimestamp": 1792998798,
+      "despawnTimestamp": 1792998799,
       "hasValuable": false,
       "timestampUtc": "2026-10-26T07:13:19.000Z",
       "publishedBy": ""
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-26T07:10:14.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 241,
-      "pokemon": "Miltank",
-      "region": "Unova",
-      "location": "Village Bridge",
-      "sourceId": 1792997431,
-      "despawnTimestamp": 1792997431,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-26T06:50:31.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,16 +30,24 @@
       "pokemon": "Minun",
       "region": "Kanto",
       "location": "Route 22",
-      "secondsAgo": 2607,
-      "sourceId": 1792994765
+      "secondsAgo": 2695,
+      "sourceId": 1792994766
     },
     {
       "monsterId": 438,
       "pokemon": "Bonsly",
       "region": "Johto",
       "location": "Ilex Forest",
-      "secondsAgo": 2956,
-      "sourceId": 1792994416
+      "secondsAgo": 3044,
+      "sourceId": 1792994417
+    },
+    {
+      "monsterId": 241,
+      "pokemon": "Miltank",
+      "region": "Unova",
+      "location": "Village Bridge",
+      "secondsAgo": 1528,
+      "sourceId": 1792995933
     }
   ],
   "alpha": {
