@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-26T19:35:54.652Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-26T19:43:36.272Z",
+  "swarms": [
+    {
+      "monsterId": 213,
+      "pokemon": "Shuckle",
+      "region": "Sinnoh",
+      "location": "Route 219",
+      "sourceId": 1793045235,
+      "despawnTimestamp": 1793045235,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-26T20:07:15.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 409,
       "pokemon": "Rampardos",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 3927,
+      "secondsAgo": 4389,
       "sourceId": 1793039427
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Chimecho",
       "region": "Johto",
       "location": "Bellchime Trail",
-      "secondsAgo": 4029,
+      "secondsAgo": 4491,
       "sourceId": 1793039325
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 3849,
-      "sourceId": 1793039505
-    },
-    {
-      "monsterId": 328,
-      "pokemon": "Trapinch",
-      "region": "Sinnoh",
-      "location": "Oreburgh Mine",
-      "secondsAgo": 3823,
-      "sourceId": 1793039531
+      "secondsAgo": 4310,
+      "sourceId": 1793039506
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 3217,
+      "secondsAgo": 3679,
       "sourceId": 1793040137
     }
   ],
