@@ -1,29 +1,36 @@
 {
-  "fetchedAt": "2026-10-26T18:21:06.847Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-26T18:31:07.871Z",
+  "swarms": [
     {
-      "monsterId": 5,
-      "pokemon": "Charmeleon",
+      "monsterId": 409,
+      "pokemon": "Rampardos",
       "region": "Kanto",
-      "location": "Rock Tunnel",
-      "secondsAgo": 3965,
-      "sourceId": 1793034901
+      "location": "Tanoby Ruins",
+      "sourceId": 1793040926,
+      "despawnTimestamp": 1793040925,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-26T18:55:26.000Z",
+      "publishedBy": ""
     },
     {
-      "monsterId": 159,
-      "pokemon": "Croconaw",
+      "monsterId": 358,
+      "pokemon": "Chimecho",
       "region": "Johto",
-      "location": "Whirl Islands",
-      "secondsAgo": 5945,
-      "sourceId": 1793032921
-    },
+      "location": "Bellchime Trail",
+      "sourceId": 1793040825,
+      "despawnTimestamp": 1793040824,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-26T18:53:45.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 107,
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 11052,
+      "secondsAgo": 11653,
       "sourceId": 1793027814
     },
     {
@@ -31,7 +38,7 @@
       "pokemon": "Cacturne",
       "region": "Sinnoh",
       "location": "Route 228",
-      "secondsAgo": 3936,
+      "secondsAgo": 4537,
       "sourceId": 1793034930
     },
     {
@@ -39,7 +46,7 @@
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 7485,
+      "secondsAgo": 8086,
       "sourceId": 1793031381
     }
   ],
