@@ -1,33 +1,29 @@
 {
-  "fetchedAt": "2026-10-26T23:05:52.414Z",
-  "swarms": [
-    {
-      "monsterId": 143,
-      "pokemon": "Snorlax",
-      "region": "Johto",
-      "location": "Victory Road",
-      "sourceId": 1793057134,
-      "despawnTimestamp": 1793057133,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-26T23:25:34.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-26T23:11:14.437Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 4658,
+      "secondsAgo": 4980,
       "sourceId": 1793051294
+    },
+    {
+      "monsterId": 143,
+      "pokemon": "Snorlax",
+      "region": "Johto",
+      "location": "Victory Road",
+      "secondsAgo": 640,
+      "sourceId": 1793055634
     },
     {
       "monsterId": 321,
       "pokemon": "Wailord",
       "region": "Hoenn",
       "location": "Route 129",
-      "secondsAgo": 6113,
+      "secondsAgo": 6435,
       "sourceId": 1793049839
     },
     {
@@ -35,7 +31,7 @@
       "pokemon": "Shuckle",
       "region": "Sinnoh",
       "location": "Route 219",
-      "secondsAgo": 12216,
+      "secondsAgo": 12538,
       "sourceId": 1793043736
     },
     {
@@ -43,7 +39,7 @@
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 5224,
+      "secondsAgo": 5546,
       "sourceId": 1793050728
     }
   ],
