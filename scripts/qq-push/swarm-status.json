@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-10-26T16:11:05.361Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-26T16:21:01.643Z",
+  "swarms": [
+    {
+      "monsterId": 373,
+      "pokemon": "Salamence",
+      "region": "Unova",
+      "location": "Dragonspiral Tower",
+      "sourceId": 1793032881,
+      "despawnTimestamp": 1793032880,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-26T16:41:21.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 311,
       "pokemon": "Plusle",
       "region": "Kanto",
       "location": "Route 2",
-      "secondsAgo": 29713,
-      "sourceId": 1793001352
+      "secondsAgo": 30310,
+      "sourceId": 1793001351
     },
     {
       "monsterId": 158,
       "pokemon": "Totodile",
       "region": "Johto",
       "location": "Route 32",
-      "secondsAgo": 9714,
+      "secondsAgo": 10310,
       "sourceId": 1793021351
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 3250,
-      "sourceId": 1793027815
+      "secondsAgo": 3847,
+      "sourceId": 1793027814
     },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 8390,
+      "secondsAgo": 8986,
       "sourceId": 1793022675
-    },
-    {
-      "monsterId": 331,
-      "pokemon": "Cacnea",
-      "region": "Unova",
-      "location": "Route 4",
-      "secondsAgo": 13090,
-      "sourceId": 1793017975
     }
   ],
   "alpha": {
