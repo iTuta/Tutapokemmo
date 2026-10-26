@@ -1,33 +1,29 @@
 {
-  "fetchedAt": "2026-10-26T09:25:54.916Z",
-  "swarms": [
-    {
-      "monsterId": 204,
-      "pokemon": "Pineco",
-      "region": "Hoenn",
-      "location": "Route 103",
-      "sourceId": 1793006834,
-      "despawnTimestamp": 1793006833,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-26T09:27:14.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-26T09:31:09.259Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 358,
       "pokemon": "Chimecho",
       "region": "Johto",
       "location": "Bellchime Trail",
-      "secondsAgo": 4546,
+      "secondsAgo": 4861,
       "sourceId": 1793002208
+    },
+    {
+      "monsterId": 204,
+      "pokemon": "Pineco",
+      "region": "Hoenn",
+      "location": "Route 103",
+      "secondsAgo": 1494,
+      "sourceId": 1793005575
     },
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Sinnoh",
       "location": "Turnback Cave",
-      "secondsAgo": 9639,
+      "secondsAgo": 9954,
       "sourceId": 1792997115
     },
     {
@@ -35,7 +31,7 @@
       "pokemon": "Miltank",
       "region": "Unova",
       "location": "Village Bridge",
-      "secondsAgo": 10822,
+      "secondsAgo": 11137,
       "sourceId": 1792995932
     }
   ],
