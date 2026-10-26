@@ -1,37 +1,44 @@
 {
-  "fetchedAt": "2026-10-26T23:11:14.437Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-26T23:15:50.460Z",
+  "swarms": [
     {
-      "monsterId": 335,
-      "pokemon": "Zangoose",
+      "monsterId": 290,
+      "pokemon": "Nincada",
       "region": "Kanto",
-      "location": "Route 14",
-      "secondsAgo": 4980,
-      "sourceId": 1793051294
+      "location": "Route 25",
+      "sourceId": 1793057927,
+      "despawnTimestamp": 1793057927,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-26T23:38:47.000Z",
+      "publishedBy": ""
     },
+    {
+      "monsterId": 439,
+      "pokemon": "Mime Jr.",
+      "region": "Hoenn",
+      "location": "Rusturf Tunnel",
+      "sourceId": 1793057891,
+      "despawnTimestamp": 1793057891,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-26T23:38:11.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 640,
+      "secondsAgo": 916,
       "sourceId": 1793055634
-    },
-    {
-      "monsterId": 321,
-      "pokemon": "Wailord",
-      "region": "Hoenn",
-      "location": "Route 129",
-      "secondsAgo": 6435,
-      "sourceId": 1793049839
     },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Sinnoh",
       "location": "Route 219",
-      "secondsAgo": 12538,
+      "secondsAgo": 12814,
       "sourceId": 1793043736
     },
     {
@@ -39,7 +46,7 @@
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 5546,
+      "secondsAgo": 5822,
       "sourceId": 1793050728
     }
   ],
