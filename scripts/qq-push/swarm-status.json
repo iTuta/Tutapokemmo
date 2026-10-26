@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-26T07:50:54.195Z",
+  "fetchedAt": "2026-10-26T07:58:19.835Z",
   "swarms": [
+    {
+      "monsterId": 311,
+      "pokemon": "Plusle",
+      "region": "Kanto",
+      "location": "Route 2",
+      "sourceId": 1793002851,
+      "despawnTimestamp": 1793002850,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-26T08:20:51.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 227,
       "pokemon": "Skarmory",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 312,
-      "pokemon": "Minun",
-      "region": "Kanto",
-      "location": "Route 22",
-      "secondsAgo": 6288,
-      "sourceId": 1792994766
-    },
-    {
       "monsterId": 438,
       "pokemon": "Bonsly",
       "region": "Johto",
       "location": "Ilex Forest",
-      "secondsAgo": 6638,
+      "secondsAgo": 7083,
       "sourceId": 1792994416
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Spiritomb",
       "region": "Sinnoh",
       "location": "Turnback Cave",
-      "secondsAgo": 3939,
+      "secondsAgo": 4384,
       "sourceId": 1792997115
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Miltank",
       "region": "Unova",
       "location": "Village Bridge",
-      "secondsAgo": 5122,
+      "secondsAgo": 5567,
       "sourceId": 1792995932
     }
   ],
