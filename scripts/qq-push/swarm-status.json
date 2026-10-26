@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-10-26T01:21:04.493Z",
+  "fetchedAt": "2026-10-26T01:25:46.808Z",
   "swarms": [
+    {
+      "monsterId": 320,
+      "pokemon": "Wailmer",
+      "region": "Johto",
+      "location": "Route 40",
+      "sourceId": 1792979390,
+      "despawnTimestamp": 1792979389,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-26T01:49:50.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 479,
       "pokemon": "Rotom",
       "region": "Hoenn",
       "location": "New Mauville",
       "sourceId": 1792979154,
-      "despawnTimestamp": 1792979154,
+      "despawnTimestamp": 1792979153,
       "hasValuable": false,
       "timestampUtc": "2026-10-26T01:45:54.000Z",
       "publishedBy": ""
@@ -18,7 +29,7 @@
       "region": "Sinnoh",
       "location": "Route 222",
       "sourceId": 1792977988,
-      "despawnTimestamp": 1792977989,
+      "despawnTimestamp": 1792977987,
       "hasValuable": false,
       "timestampUtc": "2026-10-26T01:26:28.000Z",
       "publishedBy": ""
@@ -30,24 +41,16 @@
       "pokemon": "Heracross",
       "region": "Kanto",
       "location": "Route 16",
-      "secondsAgo": 2749,
-      "sourceId": 1792974915
-    },
-    {
-      "monsterId": 237,
-      "pokemon": "Hitmontop",
-      "region": "Johto",
-      "location": "Mt. Mortar",
-      "secondsAgo": 11169,
-      "sourceId": 1792966495
+      "secondsAgo": 3032,
+      "sourceId": 1792974914
     },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
       "region": "Unova",
       "location": "Undella Bay",
-      "secondsAgo": 11113,
-      "sourceId": 1792966551
+      "secondsAgo": 11397,
+      "sourceId": 1792966549
     }
   ],
   "alpha": {
