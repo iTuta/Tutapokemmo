@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-26T07:05:44.990Z",
+  "fetchedAt": "2026-10-26T07:10:49.333Z",
   "swarms": [
     {
       "monsterId": 134,
@@ -7,20 +7,9 @@
       "region": "Hoenn",
       "location": "Route 134",
       "sourceId": 1792998799,
-      "despawnTimestamp": 1792998798,
+      "despawnTimestamp": 1792998799,
       "hasValuable": false,
       "timestampUtc": "2026-10-26T07:13:19.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 442,
-      "pokemon": "Spiritomb",
-      "region": "Sinnoh",
-      "location": "Turnback Cave",
-      "sourceId": 1792998614,
-      "despawnTimestamp": 1792998614,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-26T07:10:14.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,23 +19,31 @@
       "pokemon": "Minun",
       "region": "Kanto",
       "location": "Route 22",
-      "secondsAgo": 3579,
-      "sourceId": 1792994765
+      "secondsAgo": 3883,
+      "sourceId": 1792994766
     },
     {
       "monsterId": 438,
       "pokemon": "Bonsly",
       "region": "Johto",
       "location": "Ilex Forest",
-      "secondsAgo": 3928,
+      "secondsAgo": 4233,
       "sourceId": 1792994416
+    },
+    {
+      "monsterId": 442,
+      "pokemon": "Spiritomb",
+      "region": "Sinnoh",
+      "location": "Turnback Cave",
+      "secondsAgo": 1534,
+      "sourceId": 1792997115
     },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Unova",
       "location": "Village Bridge",
-      "secondsAgo": 2412,
+      "secondsAgo": 2717,
       "sourceId": 1792995932
     }
   ],
