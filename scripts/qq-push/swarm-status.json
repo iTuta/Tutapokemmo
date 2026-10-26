@@ -1,45 +1,49 @@
 {
-  "fetchedAt": "2026-10-26T05:56:06.972Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-26T06:01:05.083Z",
+  "swarms": [
+    {
+      "monsterId": 438,
+      "pokemon": "Bonsly",
+      "region": "Johto",
+      "location": "Ilex Forest",
+      "sourceId": 1792995916,
+      "despawnTimestamp": 1792995916,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-26T06:25:16.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Kanto",
       "location": "Route 16",
-      "secondsAgo": 7516,
-      "sourceId": 1792986650
-    },
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Johto",
-      "location": "Dark Cave",
-      "secondsAgo": 2109,
-      "sourceId": 1792992057
+      "secondsAgo": 7814,
+      "sourceId": 1792986651
     },
     {
       "monsterId": 120,
       "pokemon": "Staryu",
       "region": "Hoenn",
       "location": "Route 106",
-      "secondsAgo": 5337,
-      "sourceId": 1792988829
+      "secondsAgo": 5635,
+      "sourceId": 1792988830
     },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
       "region": "Sinnoh",
       "location": "Route 223",
-      "secondsAgo": 4188,
-      "sourceId": 1792989978
+      "secondsAgo": 4486,
+      "sourceId": 1792989979
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 3867,
+      "secondsAgo": 4166,
       "sourceId": 1792990299
     }
   ],
