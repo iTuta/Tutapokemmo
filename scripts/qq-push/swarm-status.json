@@ -1,49 +1,52 @@
 {
-  "fetchedAt": "2026-10-26T17:05:44.013Z",
+  "fetchedAt": "2026-10-26T17:16:02.843Z",
   "swarms": [
     {
-      "monsterId": 159,
-      "pokemon": "Croconaw",
-      "region": "Johto",
-      "location": "Whirl Islands",
-      "sourceId": 1793034420,
-      "despawnTimestamp": 1793034419,
+      "monsterId": 5,
+      "pokemon": "Charmeleon",
+      "region": "Kanto",
+      "location": "Rock Tunnel",
+      "sourceId": 1793036401,
+      "despawnTimestamp": 1793036400,
       "hasValuable": false,
-      "timestampUtc": "2026-10-26T17:07:00.000Z",
+      "timestampUtc": "2026-10-26T17:40:01.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 332,
+      "pokemon": "Cacturne",
+      "region": "Sinnoh",
+      "location": "Route 228",
+      "sourceId": 1793036429,
+      "despawnTimestamp": 1793036429,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-26T17:40:29.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 311,
-      "pokemon": "Plusle",
-      "region": "Kanto",
-      "location": "Route 2",
-      "secondsAgo": 32992,
-      "sourceId": 1793001351
+      "monsterId": 159,
+      "pokemon": "Croconaw",
+      "region": "Johto",
+      "location": "Whirl Islands",
+      "secondsAgo": 2041,
+      "sourceId": 1793032921
     },
     {
       "monsterId": 107,
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 6529,
+      "secondsAgo": 7148,
       "sourceId": 1793027814
-    },
-    {
-      "monsterId": 300,
-      "pokemon": "Skitty",
-      "region": "Sinnoh",
-      "location": "Route 204",
-      "secondsAgo": 11669,
-      "sourceId": 1793022674
     },
     {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 2962,
+      "secondsAgo": 3581,
       "sourceId": 1793031381
     }
   ],
