@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-26T10:25:54.018Z",
+  "fetchedAt": "2026-10-26T10:31:04.542Z",
   "swarms": [
     {
       "monsterId": 314,
@@ -7,7 +7,7 @@
       "region": "Unova",
       "location": "Moor of Icirrus",
       "sourceId": 1793011732,
-      "despawnTimestamp": 1793011731,
+      "despawnTimestamp": 1793011734,
       "hasValuable": false,
       "timestampUtc": "2026-10-26T10:48:52.000Z",
       "publishedBy": ""
@@ -15,28 +15,36 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 311,
+      "pokemon": "Plusle",
+      "region": "Kanto",
+      "location": "Route 2",
+      "secondsAgo": 9310,
+      "sourceId": 1793001354
+    },
+    {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 2570,
-      "sourceId": 1793007783
+      "secondsAgo": 2878,
+      "sourceId": 1793007786
     },
     {
       "monsterId": 204,
       "pokemon": "Pineco",
       "region": "Hoenn",
       "location": "Route 103",
-      "secondsAgo": 4779,
-      "sourceId": 1793005574
+      "secondsAgo": 5087,
+      "sourceId": 1793005577
     },
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Sinnoh",
       "location": "Turnback Cave",
-      "secondsAgo": 13239,
-      "sourceId": 1792997114
+      "secondsAgo": 13547,
+      "sourceId": 1792997117
     }
   ],
   "alpha": {
@@ -49,6 +57,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-10-26T05:42:10.000Z",
     "timestampRaw": "2026-10-26T05:42:10.000Z",
-    "publishedBy": ""
+    "publishedBy": "IronLion"
   }
 }
