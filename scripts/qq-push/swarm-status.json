@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-26T23:15:50.460Z",
+  "fetchedAt": "2026-10-26T23:25:56.381Z",
   "swarms": [
     {
       "monsterId": 290,
@@ -22,6 +22,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-26T23:38:11.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 311,
+      "pokemon": "Plusle",
+      "region": "Unova",
+      "location": "Route 5",
+      "sourceId": 1793058063,
+      "despawnTimestamp": 1793058063,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-26T23:41:03.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +41,7 @@
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 916,
+      "secondsAgo": 1522,
       "sourceId": 1793055634
     },
     {
@@ -38,16 +49,8 @@
       "pokemon": "Shuckle",
       "region": "Sinnoh",
       "location": "Route 219",
-      "secondsAgo": 12814,
+      "secondsAgo": 13420,
       "sourceId": 1793043736
-    },
-    {
-      "monsterId": 148,
-      "pokemon": "Dragonair",
-      "region": "Unova",
-      "location": "Dragonspiral Tower",
-      "secondsAgo": 5822,
-      "sourceId": 1793050728
     }
   ],
   "alpha": {
