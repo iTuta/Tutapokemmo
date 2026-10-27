@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-10-27T03:35:47.341Z",
-  "swarms": [
-    {
-      "monsterId": 438,
-      "pokemon": "Bonsly",
-      "region": "Sinnoh",
-      "location": "Eterna Forest",
-      "sourceId": 1793072449,
-      "despawnTimestamp": 1793072449,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-27T03:40:49.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-27T03:41:01.763Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Kanto",
       "location": "Route 8",
-      "secondsAgo": 11577,
+      "secondsAgo": 11891,
       "sourceId": 1793060570
     },
     {
@@ -27,15 +15,23 @@
       "pokemon": "Lucario",
       "region": "Johto",
       "location": "Mt. Silver Cave",
-      "secondsAgo": 3708,
-      "sourceId": 1793068439
+      "secondsAgo": 4023,
+      "sourceId": 1793068438
+    },
+    {
+      "monsterId": 438,
+      "pokemon": "Bonsly",
+      "region": "Sinnoh",
+      "location": "Eterna Forest",
+      "secondsAgo": 1511,
+      "sourceId": 1793070950
     },
     {
       "monsterId": 162,
       "pokemon": "Furret",
       "region": "Unova",
       "location": "Abundant Shrine",
-      "secondsAgo": 3449,
+      "secondsAgo": 3763,
       "sourceId": 1793068698
     }
   ],
