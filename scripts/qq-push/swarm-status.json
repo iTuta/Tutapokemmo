@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-27T15:25:46.132Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-27T15:35:59.339Z",
+  "swarms": [
+    {
+      "monsterId": 255,
+      "pokemon": "Torchic",
+      "region": "Hoenn",
+      "location": "Route 112",
+      "sourceId": 1793116624,
+      "despawnTimestamp": 1793116623,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-27T15:57:04.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Kanto",
       "location": "Icefall Cave",
-      "secondsAgo": 20460,
+      "secondsAgo": 21073,
       "sourceId": 1793094286
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Lapras",
       "region": "Johto",
       "location": "Union Cave",
-      "secondsAgo": 2018,
+      "secondsAgo": 2631,
       "sourceId": 1793112728
-    },
-    {
-      "monsterId": 415,
-      "pokemon": "Combee",
-      "region": "Hoenn",
-      "location": "Route 117",
-      "secondsAgo": 2185,
-      "sourceId": 1793112561
     },
     {
       "monsterId": 122,
       "pokemon": "Mr. Mime",
       "region": "Sinnoh",
       "location": "Route 224",
-      "secondsAgo": 12691,
+      "secondsAgo": 13304,
       "sourceId": 1793102055
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Relicanth",
       "region": "Unova",
       "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 6031,
-      "sourceId": 1793108715
+      "secondsAgo": 6645,
+      "sourceId": 1793108714
     }
   ],
   "alpha": {
