@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-27T10:15:54.195Z",
+  "fetchedAt": "2026-10-27T10:20:48.119Z",
   "swarms": [
     {
       "monsterId": 469,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-27T10:23:37.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 193,
-      "pokemon": "Yanma",
-      "region": "Unova",
-      "location": "Pinwheel Forest",
-      "sourceId": 1793096314,
-      "despawnTimestamp": 1793096314,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-27T10:18:34.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Lapras",
       "region": "Kanto",
       "location": "Icefall Cave",
-      "secondsAgo": 1868,
+      "secondsAgo": 2162,
       "sourceId": 1793094286
     },
     {
@@ -38,7 +27,7 @@
       "pokemon": "Flygon",
       "region": "Hoenn",
       "location": "Desert Underpass",
-      "secondsAgo": 10790,
+      "secondsAgo": 11084,
       "sourceId": 1793085364
     },
     {
@@ -46,8 +35,16 @@
       "pokemon": "Lucario",
       "region": "Sinnoh",
       "location": "Iron Island",
-      "secondsAgo": 2819,
+      "secondsAgo": 3113,
       "sourceId": 1793093335
+    },
+    {
+      "monsterId": 193,
+      "pokemon": "Yanma",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "secondsAgo": 1633,
+      "sourceId": 1793094815
     }
   ],
   "alpha": {
