@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-27T06:50:49.669Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-27T06:56:09.820Z",
+  "swarms": [
+    {
+      "monsterId": 342,
+      "pokemon": "Crawdaunt",
+      "region": "Unova",
+      "location": "Route 3",
+      "sourceId": 1793085667,
+      "despawnTimestamp": 1793085666,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-27T07:21:07.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 479,
       "pokemon": "Rotom",
       "region": "Kanto",
       "location": "Power Plant",
-      "secondsAgo": 3899,
+      "secondsAgo": 4219,
       "sourceId": 1793079950
     },
     {
@@ -15,15 +27,15 @@
       "pokemon": "Lucario",
       "region": "Johto",
       "location": "Mt. Silver Cave",
-      "secondsAgo": 15410,
-      "sourceId": 1793068439
+      "secondsAgo": 15731,
+      "sourceId": 1793068438
     },
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Hoenn",
       "location": "Jagged Pass",
-      "secondsAgo": 13085,
+      "secondsAgo": 13405,
       "sourceId": 1793070764
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Glaceon",
       "region": "Sinnoh",
       "location": "Route 217",
-      "secondsAgo": 2574,
+      "secondsAgo": 2894,
       "sourceId": 1793081275
-    },
-    {
-      "monsterId": 162,
-      "pokemon": "Furret",
-      "region": "Unova",
-      "location": "Abundant Shrine",
-      "secondsAgo": 3284,
-      "sourceId": 1793080565
     }
   ],
   "alpha": {
