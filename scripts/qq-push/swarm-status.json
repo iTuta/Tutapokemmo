@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-27T00:20:56.989Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-27T00:25:49.593Z",
+  "swarms": [
     {
-      "monsterId": 290,
-      "pokemon": "Nincada",
+      "monsterId": 281,
+      "pokemon": "Kirlia",
       "region": "Kanto",
-      "location": "Route 25",
-      "secondsAgo": 4029,
-      "sourceId": 1793056427
-    },
+      "location": "Route 8",
+      "sourceId": 1793062069,
+      "despawnTimestamp": 1793062069,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-27T00:47:49.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 121,
       "pokemon": "Starmie",
       "region": "Johto",
       "location": "Cliff Edge Gate",
-      "secondsAgo": 1557,
+      "secondsAgo": 1850,
       "sourceId": 1793058899
     },
     {
@@ -23,15 +27,15 @@
       "pokemon": "Mime Jr.",
       "region": "Hoenn",
       "location": "Rusturf Tunnel",
-      "secondsAgo": 4065,
-      "sourceId": 1793056391
+      "secondsAgo": 4357,
+      "sourceId": 1793056392
     },
     {
       "monsterId": 388,
       "pokemon": "Grotle",
       "region": "Sinnoh",
       "location": "Sendoff Spring",
-      "secondsAgo": 2918,
+      "secondsAgo": 3211,
       "sourceId": 1793057538
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Plusle",
       "region": "Unova",
       "location": "Route 5",
-      "secondsAgo": 3893,
+      "secondsAgo": 4186,
       "sourceId": 1793056563
     }
   ],
