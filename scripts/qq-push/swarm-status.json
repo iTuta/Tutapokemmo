@@ -1,46 +1,53 @@
 {
-  "fetchedAt": "2026-10-27T22:10:49.005Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-27T22:15:59.297Z",
+  "swarms": [
     {
-      "monsterId": 409,
-      "pokemon": "Rampardos",
+      "monsterId": 357,
+      "pokemon": "Tropius",
       "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 11459,
-      "sourceId": 1793127589
+      "location": "Bond Bridge",
+      "sourceId": 1793140857,
+      "despawnTimestamp": 1793140857,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-27T22:40:57.000Z",
+      "publishedBy": ""
     },
+    {
+      "monsterId": 441,
+      "pokemon": "Chatot",
+      "region": "Sinnoh",
+      "location": "Route 218",
+      "sourceId": 1793140611,
+      "despawnTimestamp": 1793140611,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-27T22:36:51.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 159,
       "pokemon": "Croconaw",
       "region": "Johto",
       "location": "Whirl Islands",
-      "secondsAgo": 12752,
-      "sourceId": 1793126296
+      "secondsAgo": 13062,
+      "sourceId": 1793126297
     },
     {
       "monsterId": 185,
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 6483,
-      "sourceId": 1793132565
-    },
-    {
-      "monsterId": 103,
-      "pokemon": "Exeggutor",
-      "region": "Sinnoh",
-      "location": "Route 230",
-      "secondsAgo": 6096,
-      "sourceId": 1793132952
+      "secondsAgo": 6793,
+      "sourceId": 1793132566
     },
     {
       "monsterId": 331,
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 1676,
-      "sourceId": 1793137372
+      "secondsAgo": 1986,
+      "sourceId": 1793137373
     }
   ],
   "alpha": {
