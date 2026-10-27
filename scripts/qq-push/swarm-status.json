@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-27T22:15:59.297Z",
+  "fetchedAt": "2026-10-27T22:20:45.422Z",
   "swarms": [
     {
       "monsterId": 357,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1793140857,
       "hasValuable": false,
       "timestampUtc": "2026-10-27T22:40:57.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 237,
+      "pokemon": "Hitmontop",
+      "region": "Johto",
+      "location": "Mt. Mortar",
+      "sourceId": 1793140966,
+      "despawnTimestamp": 1793140966,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-27T22:42:46.000Z",
       "publishedBy": ""
     },
     {
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 159,
-      "pokemon": "Croconaw",
-      "region": "Johto",
-      "location": "Whirl Islands",
-      "secondsAgo": 13062,
-      "sourceId": 1793126297
-    },
-    {
       "monsterId": 185,
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 6793,
+      "secondsAgo": 7079,
       "sourceId": 1793132566
     },
     {
@@ -46,7 +49,7 @@
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 1986,
+      "secondsAgo": 2272,
       "sourceId": 1793137373
     }
   ],
