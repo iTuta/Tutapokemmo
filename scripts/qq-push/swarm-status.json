@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-10-27T01:51:02.070Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-27T01:55:46.290Z",
+  "swarms": [
+    {
+      "monsterId": 412,
+      "pokemon": "Burmy",
+      "region": "Sinnoh",
+      "location": "Route 202",
+      "sourceId": 1793067459,
+      "despawnTimestamp": 1793067459,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-27T02:17:39.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Kanto",
       "location": "Route 8",
-      "secondsAgo": 5291,
-      "sourceId": 1793060571
+      "secondsAgo": 5576,
+      "sourceId": 1793060570
     },
     {
       "monsterId": 121,
       "pokemon": "Starmie",
       "region": "Johto",
       "location": "Cliff Edge Gate",
-      "secondsAgo": 6962,
+      "secondsAgo": 7246,
       "sourceId": 1793058900
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Skitty",
       "region": "Hoenn",
       "location": "Route 116",
-      "secondsAgo": 3195,
+      "secondsAgo": 3479,
       "sourceId": 1793062667
-    },
-    {
-      "monsterId": 388,
-      "pokemon": "Grotle",
-      "region": "Sinnoh",
-      "location": "Sendoff Spring",
-      "secondsAgo": 8324,
-      "sourceId": 1793057538
     },
     {
       "monsterId": 311,
       "pokemon": "Plusle",
       "region": "Unova",
       "location": "Route 5",
-      "secondsAgo": 9298,
+      "secondsAgo": 9582,
       "sourceId": 1793056564
     }
   ],
