@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-27T04:11:00.404Z",
+  "fetchedAt": "2026-10-27T04:15:58.843Z",
   "swarms": [
-    {
-      "monsterId": 7,
-      "pokemon": "Squirtle",
-      "region": "Kanto",
-      "location": "Route 24",
-      "sourceId": 1793074424,
-      "despawnTimestamp": 1793074424,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-27T04:13:44.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
@@ -26,19 +15,27 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 7,
+      "pokemon": "Squirtle",
+      "region": "Kanto",
+      "location": "Route 24",
+      "secondsAgo": 1633,
+      "sourceId": 1793072925
+    },
+    {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Johto",
       "location": "Mt. Silver Cave",
-      "secondsAgo": 5821,
-      "sourceId": 1793068439
+      "secondsAgo": 6120,
+      "sourceId": 1793068438
     },
     {
       "monsterId": 438,
       "pokemon": "Bonsly",
       "region": "Sinnoh",
       "location": "Eterna Forest",
-      "secondsAgo": 3310,
+      "secondsAgo": 3608,
       "sourceId": 1793070950
     }
   ],
