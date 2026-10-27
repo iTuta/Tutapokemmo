@@ -1,13 +1,35 @@
 {
-  "fetchedAt": "2026-10-27T09:41:16.864Z",
+  "fetchedAt": "2026-10-27T09:45:51.041Z",
   "swarms": [
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Kanto",
+      "location": "Icefall Cave",
+      "sourceId": 1793095785,
+      "despawnTimestamp": 1793095785,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-27T10:09:45.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Johto",
+      "location": "Union Cave",
+      "sourceId": 1793095681,
+      "despawnTimestamp": 1793095681,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-27T10:08:01.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Sinnoh",
       "location": "Iron Island",
       "sourceId": 1793094834,
-      "despawnTimestamp": 1793094833,
+      "despawnTimestamp": 1793094834,
       "hasValuable": false,
       "timestampUtc": "2026-10-27T09:53:54.000Z",
       "publishedBy": ""
@@ -15,36 +37,20 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 479,
-      "pokemon": "Rotom",
-      "region": "Kanto",
-      "location": "Power Plant",
-      "secondsAgo": 14126,
-      "sourceId": 1793079950
-    },
-    {
-      "monsterId": 372,
-      "pokemon": "Shelgon",
-      "region": "Johto",
-      "location": "Dragon&#x27;s Den",
-      "secondsAgo": 3409,
-      "sourceId": 1793090667
-    },
-    {
       "monsterId": 330,
       "pokemon": "Flygon",
       "region": "Hoenn",
       "location": "Desert Underpass",
-      "secondsAgo": 8713,
-      "sourceId": 1793085363
+      "secondsAgo": 8987,
+      "sourceId": 1793085364
     },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
       "region": "Unova",
       "location": "Route 3",
-      "secondsAgo": 9909,
-      "sourceId": 1793084167
+      "secondsAgo": 10183,
+      "sourceId": 1793084168
     }
   ],
   "alpha": {
