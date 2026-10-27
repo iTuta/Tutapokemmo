@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-27T05:40:51.269Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-27T05:45:51.103Z",
+  "swarms": [
     {
-      "monsterId": 7,
-      "pokemon": "Squirtle",
+      "monsterId": 479,
+      "pokemon": "Rotom",
       "region": "Kanto",
-      "location": "Route 24",
-      "secondsAgo": 6726,
-      "sourceId": 1793072925
-    },
+      "location": "Power Plant",
+      "sourceId": 1793081449,
+      "despawnTimestamp": 1793081449,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-27T06:10:49.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Johto",
       "location": "Mt. Silver Cave",
-      "secondsAgo": 11212,
+      "secondsAgo": 11512,
       "sourceId": 1793068439
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Murkrow",
       "region": "Hoenn",
       "location": "Jagged Pass",
-      "secondsAgo": 8886,
+      "secondsAgo": 9186,
       "sourceId": 1793070765
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Bonsly",
       "region": "Sinnoh",
       "location": "Eterna Forest",
-      "secondsAgo": 8701,
+      "secondsAgo": 9001,
       "sourceId": 1793070950
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 5971,
+      "secondsAgo": 6271,
       "sourceId": 1793073680
     }
   ],
