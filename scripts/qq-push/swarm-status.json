@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-10-27T18:21:06.079Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-27T18:31:06.577Z",
+  "swarms": [
+    {
+      "monsterId": 223,
+      "pokemon": "Remoraid",
+      "region": "Hoenn",
+      "location": "Route 108",
+      "sourceId": 1793127096,
+      "despawnTimestamp": 1793127096,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-27T18:51:36.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 411,
       "pokemon": "Bastiodon",
       "region": "Kanto",
       "location": "Monean Chamber",
-      "secondsAgo": 9065,
-      "sourceId": 1793116201
+      "secondsAgo": 9666,
+      "sourceId": 1793116200
     },
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Johto",
       "location": "Union Cave",
-      "secondsAgo": 12538,
+      "secondsAgo": 13138,
       "sourceId": 1793112728
-    },
-    {
-      "monsterId": 255,
-      "pokemon": "Torchic",
-      "region": "Hoenn",
-      "location": "Route 112",
-      "secondsAgo": 10141,
-      "sourceId": 1793115125
     },
     {
       "monsterId": 352,
       "pokemon": "Kecleon",
       "region": "Sinnoh",
       "location": "Route 229",
-      "secondsAgo": 9811,
+      "secondsAgo": 10411,
       "sourceId": 1793115455
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 6075,
+      "secondsAgo": 6675,
       "sourceId": 1793119191
     }
   ],
