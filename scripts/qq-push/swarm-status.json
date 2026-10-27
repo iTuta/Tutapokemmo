@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-27T02:50:51.204Z",
+  "fetchedAt": "2026-10-27T03:01:22.845Z",
   "swarms": [
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Johto",
-      "location": "Mt. Silver Cave",
-      "sourceId": 1793069938,
-      "despawnTimestamp": 1793069938,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-27T02:58:58.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 162,
       "pokemon": "Furret",
@@ -30,15 +19,23 @@
       "pokemon": "Kirlia",
       "region": "Kanto",
       "location": "Route 8",
-      "secondsAgo": 8881,
+      "secondsAgo": 9512,
       "sourceId": 1793060570
+    },
+    {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Johto",
+      "location": "Mt. Silver Cave",
+      "secondsAgo": 1644,
+      "sourceId": 1793068438
     },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Hoenn",
       "location": "Route 116",
-      "secondsAgo": 6784,
+      "secondsAgo": 7415,
       "sourceId": 1793062667
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Burmy",
       "region": "Sinnoh",
       "location": "Route 202",
-      "secondsAgo": 3491,
-      "sourceId": 1793065960
+      "secondsAgo": 4123,
+      "sourceId": 1793065959
     }
   ],
   "alpha": {
