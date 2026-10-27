@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-26T23:55:44.611Z",
+  "fetchedAt": "2026-10-27T00:01:10.312Z",
   "swarms": [
     {
       "monsterId": 121,
@@ -7,20 +7,9 @@
       "region": "Johto",
       "location": "Cliff Edge Gate",
       "sourceId": 1793060399,
-      "despawnTimestamp": 1793060398,
+      "despawnTimestamp": 1793060399,
       "hasValuable": false,
       "timestampUtc": "2026-10-27T00:19:59.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 388,
-      "pokemon": "Grotle",
-      "region": "Sinnoh",
-      "location": "Sendoff Spring",
-      "sourceId": 1793059037,
-      "despawnTimestamp": 1793059037,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-26T23:57:17.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,7 +19,7 @@
       "pokemon": "Nincada",
       "region": "Kanto",
       "location": "Route 25",
-      "secondsAgo": 2516,
+      "secondsAgo": 2842,
       "sourceId": 1793056428
     },
     {
@@ -38,16 +27,24 @@
       "pokemon": "Mime Jr.",
       "region": "Hoenn",
       "location": "Rusturf Tunnel",
-      "secondsAgo": 2552,
+      "secondsAgo": 2878,
       "sourceId": 1793056392
+    },
+    {
+      "monsterId": 388,
+      "pokemon": "Grotle",
+      "region": "Sinnoh",
+      "location": "Sendoff Spring",
+      "secondsAgo": 1732,
+      "sourceId": 1793057538
     },
     {
       "monsterId": 311,
       "pokemon": "Plusle",
       "region": "Unova",
       "location": "Route 5",
-      "secondsAgo": 2381,
-      "sourceId": 1793056563
+      "secondsAgo": 2706,
+      "sourceId": 1793056564
     }
   ],
   "alpha": {
