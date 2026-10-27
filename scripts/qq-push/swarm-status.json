@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-27T15:35:59.339Z",
+  "fetchedAt": "2026-10-27T15:40:57.110Z",
   "swarms": [
     {
       "monsterId": 255,
@@ -7,9 +7,20 @@
       "region": "Hoenn",
       "location": "Route 112",
       "sourceId": 1793116624,
-      "despawnTimestamp": 1793116623,
+      "despawnTimestamp": 1793116624,
       "hasValuable": false,
       "timestampUtc": "2026-10-27T15:57:04.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 352,
+      "pokemon": "Kecleon",
+      "region": "Sinnoh",
+      "location": "Route 229",
+      "sourceId": 1793116954,
+      "despawnTimestamp": 1793116954,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-27T16:02:34.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,7 +30,7 @@
       "pokemon": "Lapras",
       "region": "Kanto",
       "location": "Icefall Cave",
-      "secondsAgo": 21073,
+      "secondsAgo": 21371,
       "sourceId": 1793094286
     },
     {
@@ -27,24 +38,16 @@
       "pokemon": "Lapras",
       "region": "Johto",
       "location": "Union Cave",
-      "secondsAgo": 2631,
+      "secondsAgo": 2929,
       "sourceId": 1793112728
-    },
-    {
-      "monsterId": 122,
-      "pokemon": "Mr. Mime",
-      "region": "Sinnoh",
-      "location": "Route 224",
-      "secondsAgo": 13304,
-      "sourceId": 1793102055
     },
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Unova",
       "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 6645,
-      "sourceId": 1793108714
+      "secondsAgo": 6942,
+      "sourceId": 1793108715
     }
   ],
   "alpha": {
