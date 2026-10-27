@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-27T16:35:50.640Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-27T16:46:00.543Z",
+  "swarms": [
+    {
+      "monsterId": 83,
+      "pokemon": "Farfetch&#x27;d",
+      "region": "Unova",
+      "location": "Route 1",
+      "sourceId": 1793120690,
+      "despawnTimestamp": 1793120690,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-27T17:04:50.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 411,
       "pokemon": "Bastiodon",
       "region": "Kanto",
       "location": "Monean Chamber",
-      "secondsAgo": 2750,
+      "secondsAgo": 3360,
       "sourceId": 1793116200
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Lapras",
       "region": "Johto",
       "location": "Union Cave",
-      "secondsAgo": 6222,
+      "secondsAgo": 6832,
       "sourceId": 1793112728
     },
     {
@@ -23,16 +35,8 @@
       "pokemon": "Kecleon",
       "region": "Sinnoh",
       "location": "Route 229",
-      "secondsAgo": 3495,
+      "secondsAgo": 4105,
       "sourceId": 1793115455
-    },
-    {
-      "monsterId": 369,
-      "pokemon": "Relicanth",
-      "region": "Unova",
-      "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 10236,
-      "sourceId": 1793108714
     }
   ],
   "alpha": {
