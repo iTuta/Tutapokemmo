@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-27T19:01:12.586Z",
+  "fetchedAt": "2026-10-27T19:14:13.631Z",
   "swarms": [
     {
       "monsterId": 409,
@@ -11,37 +11,23 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-27T19:24:49.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 159,
       "pokemon": "Croconaw",
       "region": "Johto",
       "location": "Whirl Islands",
-      "sourceId": 1793127796,
-      "despawnTimestamp": 1793127796,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-27T19:03:16.000Z",
-      "publishedBy": ""
+      "secondsAgo": 2156,
+      "sourceId": 1793126297
     },
-    {
-      "monsterId": 311,
-      "pokemon": "Plusle",
-      "region": "Unova",
-      "location": "Route 5",
-      "sourceId": 1793127864,
-      "despawnTimestamp": 1793127863,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-27T19:04:24.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
     {
       "monsterId": 223,
       "pokemon": "Remoraid",
       "region": "Hoenn",
       "location": "Route 108",
-      "secondsAgo": 2075,
+      "secondsAgo": 2856,
       "sourceId": 1793125597
     },
     {
@@ -49,8 +35,16 @@
       "pokemon": "Kecleon",
       "region": "Sinnoh",
       "location": "Route 229",
-      "secondsAgo": 12217,
+      "secondsAgo": 12998,
       "sourceId": 1793115455
+    },
+    {
+      "monsterId": 311,
+      "pokemon": "Plusle",
+      "region": "Unova",
+      "location": "Route 5",
+      "secondsAgo": 2089,
+      "sourceId": 1793126364
     }
   ],
   "alpha": {
