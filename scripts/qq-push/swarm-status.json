@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-10-27T11:01:13.003Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-27T11:10:51.091Z",
+  "swarms": [
+    {
+      "monsterId": 227,
+      "pokemon": "Skarmory",
+      "region": "Hoenn",
+      "location": "Route 113",
+      "sourceId": 1793100427,
+      "despawnTimestamp": 1793100427,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-27T11:27:07.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Kanto",
       "location": "Icefall Cave",
-      "secondsAgo": 4587,
-      "sourceId": 1793094285
+      "secondsAgo": 5165,
+      "sourceId": 1793094286
     },
     {
       "monsterId": 469,
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 3755,
-      "sourceId": 1793095117
-    },
-    {
-      "monsterId": 330,
-      "pokemon": "Flygon",
-      "region": "Hoenn",
-      "location": "Desert Underpass",
-      "secondsAgo": 13509,
-      "sourceId": 1793085363
+      "secondsAgo": 4333,
+      "sourceId": 1793095118
     },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Sinnoh",
       "location": "Iron Island",
-      "secondsAgo": 5538,
-      "sourceId": 1793093334
+      "secondsAgo": 6116,
+      "sourceId": 1793093335
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 4058,
-      "sourceId": 1793094814
+      "secondsAgo": 4636,
+      "sourceId": 1793094815
     }
   ],
   "alpha": {
