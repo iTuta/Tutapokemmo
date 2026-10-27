@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-27T03:46:02.733Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-27T03:51:00.176Z",
+  "swarms": [
     {
-      "monsterId": 281,
-      "pokemon": "Kirlia",
+      "monsterId": 7,
+      "pokemon": "Squirtle",
       "region": "Kanto",
-      "location": "Route 8",
-      "secondsAgo": 12192,
-      "sourceId": 1793060570
-    },
+      "location": "Route 24",
+      "sourceId": 1793074424,
+      "despawnTimestamp": 1793074424,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-27T04:13:44.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Johto",
       "location": "Mt. Silver Cave",
-      "secondsAgo": 4324,
-      "sourceId": 1793068438
+      "secondsAgo": 4621,
+      "sourceId": 1793068439
     },
     {
       "monsterId": 438,
       "pokemon": "Bonsly",
       "region": "Sinnoh",
       "location": "Eterna Forest",
-      "secondsAgo": 1812,
+      "secondsAgo": 2110,
       "sourceId": 1793070950
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Furret",
       "region": "Unova",
       "location": "Abundant Shrine",
-      "secondsAgo": 4064,
+      "secondsAgo": 4362,
       "sourceId": 1793068698
     }
   ],
