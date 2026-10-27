@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-10-27T01:15:55.206Z",
-  "swarms": [
-    {
-      "monsterId": 300,
-      "pokemon": "Skitty",
-      "region": "Hoenn",
-      "location": "Route 116",
-      "sourceId": 1793063866,
-      "despawnTimestamp": 1793063866,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-27T01:17:46.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-27T01:20:52.195Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Kanto",
       "location": "Route 8",
-      "secondsAgo": 3185,
+      "secondsAgo": 3482,
       "sourceId": 1793060570
     },
     {
@@ -27,15 +15,23 @@
       "pokemon": "Starmie",
       "region": "Johto",
       "location": "Cliff Edge Gate",
-      "secondsAgo": 4855,
+      "secondsAgo": 5152,
       "sourceId": 1793058900
+    },
+    {
+      "monsterId": 300,
+      "pokemon": "Skitty",
+      "region": "Hoenn",
+      "location": "Route 116",
+      "secondsAgo": 1385,
+      "sourceId": 1793062667
     },
     {
       "monsterId": 388,
       "pokemon": "Grotle",
       "region": "Sinnoh",
       "location": "Sendoff Spring",
-      "secondsAgo": 6217,
+      "secondsAgo": 6514,
       "sourceId": 1793057538
     },
     {
@@ -43,7 +39,7 @@
       "pokemon": "Plusle",
       "region": "Unova",
       "location": "Route 5",
-      "secondsAgo": 7191,
+      "secondsAgo": 7488,
       "sourceId": 1793056564
     }
   ],
