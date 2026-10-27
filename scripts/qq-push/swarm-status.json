@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-27T20:16:34.328Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-27T20:20:55.567Z",
+  "swarms": [
     {
-      "monsterId": 409,
-      "pokemon": "Rampardos",
+      "monsterId": 290,
+      "pokemon": "Nincada",
       "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 4604,
-      "sourceId": 1793127590
-    },
+      "location": "Route 25",
+      "sourceId": 1793133891,
+      "despawnTimestamp": 1793133891,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-27T20:44:51.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 159,
       "pokemon": "Croconaw",
       "region": "Johto",
       "location": "Whirl Islands",
-      "secondsAgo": 5897,
+      "secondsAgo": 6158,
       "sourceId": 1793126297
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Remoraid",
       "region": "Hoenn",
       "location": "Route 108",
-      "secondsAgo": 6597,
+      "secondsAgo": 6858,
       "sourceId": 1793125597
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Kecleon",
       "region": "Sinnoh",
       "location": "Route 229",
-      "secondsAgo": 16739,
+      "secondsAgo": 17000,
       "sourceId": 1793115455
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Plusle",
       "region": "Unova",
       "location": "Route 5",
-      "secondsAgo": 5830,
+      "secondsAgo": 6091,
       "sourceId": 1793126364
     }
   ],
