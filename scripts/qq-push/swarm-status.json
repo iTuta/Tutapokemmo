@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-27T10:05:57.362Z",
+  "fetchedAt": "2026-10-27T10:10:51.723Z",
   "swarms": [
-    {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Kanto",
-      "location": "Icefall Cave",
-      "sourceId": 1793095785,
-      "despawnTimestamp": 1793095785,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-27T10:09:45.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 469,
       "pokemon": "Yanmega",
@@ -37,19 +26,27 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Kanto",
+      "location": "Icefall Cave",
+      "secondsAgo": 1565,
+      "sourceId": 1793094286
+    },
+    {
       "monsterId": 330,
       "pokemon": "Flygon",
       "region": "Hoenn",
       "location": "Desert Underpass",
-      "secondsAgo": 10193,
-      "sourceId": 1793085364
+      "secondsAgo": 10488,
+      "sourceId": 1793085363
     },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Sinnoh",
       "location": "Iron Island",
-      "secondsAgo": 2222,
+      "secondsAgo": 2516,
       "sourceId": 1793093335
     }
   ],
