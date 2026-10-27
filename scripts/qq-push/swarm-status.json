@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-27T09:25:53.417Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-27T09:31:07.303Z",
+  "swarms": [
+    {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Sinnoh",
+      "location": "Iron Island",
+      "sourceId": 1793094834,
+      "despawnTimestamp": 1793094834,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-27T09:53:54.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 479,
       "pokemon": "Rotom",
       "region": "Kanto",
       "location": "Power Plant",
-      "secondsAgo": 13203,
+      "secondsAgo": 13517,
       "sourceId": 1793079950
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Shelgon",
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
-      "secondsAgo": 2485,
+      "secondsAgo": 2799,
       "sourceId": 1793090668
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Flygon",
       "region": "Hoenn",
       "location": "Desert Underpass",
-      "secondsAgo": 7789,
+      "secondsAgo": 8103,
       "sourceId": 1793085364
-    },
-    {
-      "monsterId": 471,
-      "pokemon": "Glaceon",
-      "region": "Sinnoh",
-      "location": "Route 217",
-      "secondsAgo": 11878,
-      "sourceId": 1793081275
     },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
       "region": "Unova",
       "location": "Route 3",
-      "secondsAgo": 8985,
+      "secondsAgo": 9299,
       "sourceId": 1793084168
     }
   ],
