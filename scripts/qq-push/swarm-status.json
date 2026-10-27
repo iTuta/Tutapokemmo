@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-27T15:10:54.790Z",
+  "fetchedAt": "2026-10-27T15:16:02.987Z",
   "swarms": [
     {
       "monsterId": 131,
@@ -7,20 +7,9 @@
       "region": "Johto",
       "location": "Union Cave",
       "sourceId": 1793114227,
-      "despawnTimestamp": 1793114227,
+      "despawnTimestamp": 1793114226,
       "hasValuable": false,
       "timestampUtc": "2026-10-27T15:17:07.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 415,
-      "pokemon": "Combee",
-      "region": "Hoenn",
-      "location": "Route 117",
-      "sourceId": 1793114060,
-      "despawnTimestamp": 1793114059,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-27T15:14:20.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,15 +19,23 @@
       "pokemon": "Lapras",
       "region": "Kanto",
       "location": "Icefall Cave",
-      "secondsAgo": 19568,
-      "sourceId": 1793094286
+      "secondsAgo": 19877,
+      "sourceId": 1793094285
+    },
+    {
+      "monsterId": 415,
+      "pokemon": "Combee",
+      "region": "Hoenn",
+      "location": "Route 117",
+      "secondsAgo": 1602,
+      "sourceId": 1793112560
     },
     {
       "monsterId": 122,
       "pokemon": "Mr. Mime",
       "region": "Sinnoh",
       "location": "Route 224",
-      "secondsAgo": 11800,
+      "secondsAgo": 12108,
       "sourceId": 1793102054
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Relicanth",
       "region": "Unova",
       "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 5140,
+      "secondsAgo": 5448,
       "sourceId": 1793108714
     }
   ],
