@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-27T08:55:48.906Z",
+  "fetchedAt": "2026-10-27T09:01:10.395Z",
   "swarms": [
     {
       "monsterId": 372,
@@ -7,7 +7,7 @@
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
       "sourceId": 1793092167,
-      "despawnTimestamp": 1793092166,
+      "despawnTimestamp": 1793092167,
       "hasValuable": false,
       "timestampUtc": "2026-10-27T09:09:27.000Z",
       "publishedBy": ""
@@ -19,15 +19,23 @@
       "pokemon": "Rotom",
       "region": "Kanto",
       "location": "Power Plant",
-      "secondsAgo": 11398,
+      "secondsAgo": 11720,
       "sourceId": 1793079950
+    },
+    {
+      "monsterId": 330,
+      "pokemon": "Flygon",
+      "region": "Hoenn",
+      "location": "Desert Underpass",
+      "secondsAgo": 6306,
+      "sourceId": 1793085364
     },
     {
       "monsterId": 471,
       "pokemon": "Glaceon",
       "region": "Sinnoh",
       "location": "Route 217",
-      "secondsAgo": 10073,
+      "secondsAgo": 10395,
       "sourceId": 1793081275
     },
     {
@@ -35,8 +43,8 @@
       "pokemon": "Crawdaunt",
       "region": "Unova",
       "location": "Route 3",
-      "secondsAgo": 7181,
-      "sourceId": 1793084167
+      "secondsAgo": 7502,
+      "sourceId": 1793084168
     }
   ],
   "alpha": {
@@ -49,6 +57,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-10-27T04:11:17.000Z",
     "timestampRaw": "2026-10-27T04:11:17.000Z",
-    "publishedBy": ""
+    "publishedBy": "wewoo"
   }
 }
