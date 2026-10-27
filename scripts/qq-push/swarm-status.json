@@ -1,15 +1,15 @@
 {
-  "fetchedAt": "2026-10-27T06:05:48.008Z",
+  "fetchedAt": "2026-10-27T06:11:13.643Z",
   "swarms": [
     {
-      "monsterId": 479,
-      "pokemon": "Rotom",
-      "region": "Kanto",
-      "location": "Power Plant",
-      "sourceId": 1793081449,
-      "despawnTimestamp": 1793081448,
+      "monsterId": 471,
+      "pokemon": "Glaceon",
+      "region": "Sinnoh",
+      "location": "Route 217",
+      "sourceId": 1793082774,
+      "despawnTimestamp": 1793082774,
       "hasValuable": false,
-      "timestampUtc": "2026-10-27T06:10:49.000Z",
+      "timestampUtc": "2026-10-27T06:32:54.000Z",
       "publishedBy": ""
     },
     {
@@ -18,7 +18,7 @@
       "region": "Unova",
       "location": "Abundant Shrine",
       "sourceId": 1793082064,
-      "despawnTimestamp": 1793082063,
+      "despawnTimestamp": 1793082064,
       "hasValuable": false,
       "timestampUtc": "2026-10-27T06:21:04.000Z",
       "publishedBy": ""
@@ -26,28 +26,28 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 479,
+      "pokemon": "Rotom",
+      "region": "Kanto",
+      "location": "Power Plant",
+      "secondsAgo": 1523,
+      "sourceId": 1793079950
+    },
+    {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Johto",
       "location": "Mt. Silver Cave",
-      "secondsAgo": 12709,
-      "sourceId": 1793068438
+      "secondsAgo": 13034,
+      "sourceId": 1793068439
     },
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Hoenn",
       "location": "Jagged Pass",
-      "secondsAgo": 10383,
+      "secondsAgo": 10709,
       "sourceId": 1793070764
-    },
-    {
-      "monsterId": 438,
-      "pokemon": "Bonsly",
-      "region": "Sinnoh",
-      "location": "Eterna Forest",
-      "secondsAgo": 10198,
-      "sourceId": 1793070949
     }
   ],
   "alpha": {
