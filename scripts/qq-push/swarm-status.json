@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-27T23:26:01.487Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-27T23:31:06.431Z",
+  "swarms": [
     {
-      "monsterId": 357,
-      "pokemon": "Tropius",
+      "monsterId": 373,
+      "pokemon": "Salamence",
       "region": "Kanto",
-      "location": "Bond Bridge",
-      "secondsAgo": 4203,
-      "sourceId": 1793139358
-    },
+      "location": "Victory Road",
+      "sourceId": 1793145128,
+      "despawnTimestamp": 1793145128,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-27T23:52:08.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 237,
       "pokemon": "Hitmontop",
       "region": "Johto",
       "location": "Mt. Mortar",
-      "secondsAgo": 4094,
+      "secondsAgo": 4399,
       "sourceId": 1793139467
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Blaziken",
       "region": "Hoenn",
       "location": "Magma Hideout",
-      "secondsAgo": 1751,
+      "secondsAgo": 2056,
       "sourceId": 1793141810
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 4449,
+      "secondsAgo": 4754,
       "sourceId": 1793139112
     }
   ],
