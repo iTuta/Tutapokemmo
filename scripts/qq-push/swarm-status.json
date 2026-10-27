@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-27T12:35:53.614Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-27T12:40:59.990Z",
+  "swarms": [
+    {
+      "monsterId": 155,
+      "pokemon": "Cyndaquil",
+      "region": "Johto",
+      "location": "Route 33",
+      "sourceId": 1793106346,
+      "despawnTimestamp": 1793106346,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-27T13:05:46.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Kanto",
       "location": "Icefall Cave",
-      "secondsAgo": 10267,
-      "sourceId": 1793094286
-    },
-    {
-      "monsterId": 469,
-      "pokemon": "Yanmega",
-      "region": "Johto",
-      "location": "Route 44",
-      "secondsAgo": 9435,
-      "sourceId": 1793095118
+      "secondsAgo": 10574,
+      "sourceId": 1793094285
     },
     {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Hoenn",
       "location": "Route 113",
-      "secondsAgo": 5626,
+      "secondsAgo": 5932,
       "sourceId": 1793098927
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Mr. Mime",
       "region": "Sinnoh",
       "location": "Route 224",
-      "secondsAgo": 2499,
+      "secondsAgo": 2805,
       "sourceId": 1793102054
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 3706,
+      "secondsAgo": 4012,
       "sourceId": 1793100847
     }
   ],
