@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-28T13:50:54.388Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-28T13:55:48.480Z",
+  "swarms": [
+    {
+      "monsterId": 450,
+      "pokemon": "Hippowdon",
+      "region": "Unova",
+      "location": "Mistralton Cave",
+      "sourceId": 1793197158,
+      "despawnTimestamp": 1793197158,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-28T14:19:18.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Kanto",
       "location": "Route 13",
-      "secondsAgo": 5072,
+      "secondsAgo": 5366,
       "sourceId": 1793190382
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 1786,
+      "secondsAgo": 2080,
       "sourceId": 1793193668
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Carnivine",
       "region": "Hoenn",
       "location": "Route 123",
-      "secondsAgo": 6394,
+      "secondsAgo": 6688,
       "sourceId": 1793189060
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "secondsAgo": 3439,
+      "secondsAgo": 3733,
       "sourceId": 1793192015
-    },
-    {
-      "monsterId": 312,
-      "pokemon": "Minun",
-      "region": "Unova",
-      "location": "Route 6",
-      "secondsAgo": 5058,
-      "sourceId": 1793190396
     }
   ],
   "alpha": {
