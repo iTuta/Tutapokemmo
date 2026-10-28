@@ -1,37 +1,15 @@
 {
-  "fetchedAt": "2026-10-28T01:20:52.597Z",
+  "fetchedAt": "2026-10-28T01:26:14.731Z",
   "swarms": [
-    {
-      "monsterId": 155,
-      "pokemon": "Cyndaquil",
-      "region": "Johto",
-      "location": "Route 33",
-      "sourceId": 1793150658,
-      "despawnTimestamp": 1793150658,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-28T01:24:18.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 393,
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
       "sourceId": 1793151555,
-      "despawnTimestamp": 1793151554,
+      "despawnTimestamp": 1793151555,
       "hasValuable": false,
       "timestampUtc": "2026-10-28T01:39:15.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 214,
-      "pokemon": "Heracross",
-      "region": "Unova",
-      "location": "Route 10",
-      "sourceId": 1793150633,
-      "despawnTimestamp": 1793150632,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-28T01:23:53.000Z",
       "publishedBy": ""
     }
   ],
@@ -41,16 +19,32 @@
       "pokemon": "Salamence",
       "region": "Kanto",
       "location": "Victory Road",
-      "secondsAgo": 6823,
+      "secondsAgo": 7145,
       "sourceId": 1793143629
+    },
+    {
+      "monsterId": 155,
+      "pokemon": "Cyndaquil",
+      "region": "Johto",
+      "location": "Route 33",
+      "secondsAgo": 1615,
+      "sourceId": 1793149159
     },
     {
       "monsterId": 257,
       "pokemon": "Blaziken",
       "region": "Hoenn",
       "location": "Magma Hideout",
-      "secondsAgo": 8642,
+      "secondsAgo": 8964,
       "sourceId": 1793141810
+    },
+    {
+      "monsterId": 214,
+      "pokemon": "Heracross",
+      "region": "Unova",
+      "location": "Route 10",
+      "secondsAgo": 1641,
+      "sourceId": 1793149133
     }
   ],
   "alpha": {
