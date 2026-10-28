@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-28T19:50:53.030Z",
+  "fetchedAt": "2026-10-28T19:55:49.746Z",
   "swarms": [
     {
       "monsterId": 311,
@@ -11,34 +11,31 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-28T20:02:01.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 204,
       "pokemon": "Pineco",
       "region": "Johto",
       "location": "Route 36",
-      "sourceId": 1793217283,
-      "despawnTimestamp": 1793217282,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-28T19:54:43.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1086,
+      "sourceId": 1793216263
+    },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
       "region": "Hoenn",
       "location": "Route 128",
-      "secondsAgo": 18620,
-      "sourceId": 1793198432
+      "secondsAgo": 18916,
+      "sourceId": 1793198433
     },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 14072,
+      "secondsAgo": 14369,
       "sourceId": 1793202980
     }
   ],
