@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-28T21:10:44.995Z",
+  "fetchedAt": "2026-10-28T21:16:07.732Z",
   "swarms": [
-    {
-      "monsterId": 141,
-      "pokemon": "Kabutops",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "sourceId": 1793222095,
-      "despawnTimestamp": 1793222094,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-28T21:14:55.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Hoenn",
       "location": "Scorched Slab",
       "sourceId": 1793222408,
-      "despawnTimestamp": 1793222407,
+      "despawnTimestamp": 1793222408,
       "hasValuable": false,
       "timestampUtc": "2026-10-28T21:20:08.000Z",
       "publishedBy": ""
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 141,
+      "pokemon": "Kabutops",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "secondsAgo": 1572,
+      "sourceId": 1793220595
+    },
+    {
       "monsterId": 358,
       "pokemon": "Chimecho",
       "region": "Johto",
       "location": "Bellchime Trail",
-      "secondsAgo": 1703,
+      "secondsAgo": 2026,
       "sourceId": 1793220141
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Kangaskhan",
       "region": "Sinnoh",
       "location": "Wayward Cave",
-      "secondsAgo": 13508,
+      "secondsAgo": 13831,
       "sourceId": 1793208336
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 2498,
+      "secondsAgo": 2821,
       "sourceId": 1793219346
     }
   ],
