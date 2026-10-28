@@ -1,50 +1,53 @@
 {
-  "fetchedAt": "2026-10-28T12:25:52.471Z",
+  "fetchedAt": "2026-10-28T12:31:10.109Z",
   "swarms": [
     {
-      "monsterId": 455,
-      "pokemon": "Carnivine",
-      "region": "Hoenn",
-      "location": "Route 123",
-      "sourceId": 1793190559,
-      "despawnTimestamp": 1793190559,
+      "monsterId": 83,
+      "pokemon": "Farfetch&#x27;d",
+      "region": "Kanto",
+      "location": "Route 13",
+      "sourceId": 1793191882,
+      "despawnTimestamp": 1793191882,
       "hasValuable": false,
-      "timestampUtc": "2026-10-28T12:29:19.000Z",
+      "timestampUtc": "2026-10-28T12:51:22.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 312,
+      "pokemon": "Minun",
+      "region": "Unova",
+      "location": "Route 6",
+      "sourceId": 1793191896,
+      "despawnTimestamp": 1793191896,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-28T12:51:36.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 141,
-      "pokemon": "Kabutops",
-      "region": "Kanto",
-      "location": "Dilford Chamber",
-      "secondsAgo": 11488,
-      "sourceId": 1793178864
-    },
-    {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Johto",
       "location": "Cliff Cave",
-      "secondsAgo": 19272,
+      "secondsAgo": 19590,
       "sourceId": 1793171080
+    },
+    {
+      "monsterId": 455,
+      "pokemon": "Carnivine",
+      "region": "Hoenn",
+      "location": "Route 123",
+      "secondsAgo": 1610,
+      "sourceId": 1793189060
     },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Sinnoh",
       "location": "Route 225",
-      "secondsAgo": 3951,
+      "secondsAgo": 4269,
       "sourceId": 1793186401
-    },
-    {
-      "monsterId": 222,
-      "pokemon": "Corsola",
-      "region": "Unova",
-      "location": "Undella Bay",
-      "secondsAgo": 7209,
-      "sourceId": 1793183143
     }
   ],
   "alpha": {
