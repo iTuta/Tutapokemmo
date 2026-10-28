@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-28T16:31:12.441Z",
+  "fetchedAt": "2026-10-28T16:35:54.409Z",
   "swarms": [
-    {
-      "monsterId": 9,
-      "pokemon": "Blastoise",
-      "region": "Kanto",
-      "location": "Cape Brink",
-      "sourceId": 1793205245,
-      "despawnTimestamp": 1793205244,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-28T16:34:05.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 9,
+      "pokemon": "Blastoise",
+      "region": "Kanto",
+      "location": "Cape Brink",
+      "secondsAgo": 1609,
+      "sourceId": 1793203745
+    },
+    {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 11404,
+      "secondsAgo": 11686,
       "sourceId": 1793193668
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Corsola",
       "region": "Hoenn",
       "location": "Route 128",
-      "secondsAgo": 6639,
+      "secondsAgo": 6921,
       "sourceId": 1793198433
     }
   ],
