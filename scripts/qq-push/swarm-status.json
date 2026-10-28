@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-28T14:50:56.329Z",
+  "fetchedAt": "2026-10-28T14:57:19.171Z",
   "swarms": [
-    {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Kanto",
-      "location": "Kindle Road",
-      "sourceId": 1793199375,
-      "despawnTimestamp": 1793199375,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-28T14:56:15.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Kanto",
+      "location": "Kindle Road",
+      "secondsAgo": 1563,
+      "sourceId": 1793197876
+    },
+    {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 5388,
+      "secondsAgo": 5771,
       "sourceId": 1793193668
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "secondsAgo": 998,
+      "secondsAgo": 1381,
       "sourceId": 1793198058
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Hippowdon",
       "region": "Unova",
       "location": "Mistralton Cave",
-      "secondsAgo": 3397,
+      "secondsAgo": 3780,
       "sourceId": 1793195659
     }
   ],
