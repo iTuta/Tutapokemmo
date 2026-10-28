@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-28T08:10:57.760Z",
+  "fetchedAt": "2026-10-28T08:15:55.874Z",
   "swarms": [
     {
       "monsterId": 359,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1793176084,
       "hasValuable": false,
       "timestampUtc": "2026-10-28T08:28:05.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 455,
-      "pokemon": "Carnivine",
-      "region": "Hoenn",
-      "location": "Route 123",
-      "sourceId": 1793175179,
-      "despawnTimestamp": 1793175178,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-28T08:12:59.000Z",
       "publishedBy": ""
     },
     {
@@ -41,15 +30,23 @@
       "pokemon": "Shuckle",
       "region": "Johto",
       "location": "Cliff Cave",
-      "secondsAgo": 3978,
+      "secondsAgo": 4276,
       "sourceId": 1793171079
+    },
+    {
+      "monsterId": 455,
+      "pokemon": "Carnivine",
+      "region": "Hoenn",
+      "location": "Route 123",
+      "secondsAgo": 1676,
+      "sourceId": 1793173679
     },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Unova",
       "location": "Village Bridge",
-      "secondsAgo": 4832,
+      "secondsAgo": 5130,
       "sourceId": 1793170225
     }
   ],
