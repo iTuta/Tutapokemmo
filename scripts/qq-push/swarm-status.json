@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-10-28T07:46:05.147Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-28T07:50:46.680Z",
+  "swarms": [
+    {
+      "monsterId": 455,
+      "pokemon": "Carnivine",
+      "region": "Hoenn",
+      "location": "Route 123",
+      "sourceId": 1793175179,
+      "despawnTimestamp": 1793175178,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-28T08:12:59.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Kanto",
       "location": "Icefall Cave",
-      "secondsAgo": 10467,
-      "sourceId": 1793163098
+      "secondsAgo": 10749,
+      "sourceId": 1793163097
     },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Johto",
       "location": "Cliff Cave",
-      "secondsAgo": 2485,
-      "sourceId": 1793171080
-    },
-    {
-      "monsterId": 316,
-      "pokemon": "Gulpin",
-      "region": "Hoenn",
-      "location": "Route 110",
-      "secondsAgo": 14256,
-      "sourceId": 1793159309
+      "secondsAgo": 2767,
+      "sourceId": 1793171079
     },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 3894,
-      "sourceId": 1793169671
+      "secondsAgo": 4176,
+      "sourceId": 1793169670
     },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Unova",
       "location": "Village Bridge",
-      "secondsAgo": 3339,
-      "sourceId": 1793170226
+      "secondsAgo": 3621,
+      "sourceId": 1793170225
     }
   ],
   "alpha": {
