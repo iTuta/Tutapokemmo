@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-28T10:20:54.815Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-28T10:25:45.383Z",
+  "swarms": [
+    {
+      "monsterId": 222,
+      "pokemon": "Corsola",
+      "region": "Unova",
+      "location": "Undella Bay",
+      "sourceId": 1793184643,
+      "despawnTimestamp": 1793184642,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-28T10:50:43.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 141,
       "pokemon": "Kabutops",
       "region": "Kanto",
       "location": "Dilford Chamber",
-      "secondsAgo": 3990,
+      "secondsAgo": 4281,
       "sourceId": 1793178864
     },
     {
@@ -15,32 +27,24 @@
       "pokemon": "Shuckle",
       "region": "Johto",
       "location": "Cliff Cave",
-      "secondsAgo": 11775,
-      "sourceId": 1793171079
+      "secondsAgo": 12065,
+      "sourceId": 1793171080
     },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Hoenn",
       "location": "Seafloor Cavern",
-      "secondsAgo": 1945,
-      "sourceId": 1793180909
+      "secondsAgo": 2235,
+      "sourceId": 1793180910
     },
     {
       "monsterId": 204,
       "pokemon": "Pineco",
       "region": "Sinnoh",
       "location": "Route 207",
-      "secondsAgo": 8542,
-      "sourceId": 1793174312
-    },
-    {
-      "monsterId": 241,
-      "pokemon": "Miltank",
-      "region": "Unova",
-      "location": "Village Bridge",
-      "secondsAgo": 12629,
-      "sourceId": 1793170225
+      "secondsAgo": 8832,
+      "sourceId": 1793174313
     }
   ],
   "alpha": {
