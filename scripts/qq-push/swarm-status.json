@@ -1,38 +1,45 @@
 {
-  "fetchedAt": "2026-10-28T19:35:48.201Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-28T19:40:52.873Z",
+  "swarms": [
     {
-      "monsterId": 9,
-      "pokemon": "Blastoise",
+      "monsterId": 311,
+      "pokemon": "Plusle",
       "region": "Kanto",
-      "location": "Cape Brink",
-      "secondsAgo": 12402,
-      "sourceId": 1793203746
+      "location": "Route 2",
+      "sourceId": 1793217721,
+      "despawnTimestamp": 1793217720,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-28T20:02:01.000Z",
+      "publishedBy": ""
     },
     {
-      "monsterId": 158,
-      "pokemon": "Totodile",
+      "monsterId": 204,
+      "pokemon": "Pineco",
       "region": "Johto",
-      "location": "Route 32",
-      "secondsAgo": 9545,
-      "sourceId": 1793206603
-    },
+      "location": "Route 36",
+      "sourceId": 1793217283,
+      "despawnTimestamp": 1793217282,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-28T19:54:43.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 222,
       "pokemon": "Corsola",
       "region": "Hoenn",
       "location": "Route 128",
-      "secondsAgo": 17715,
-      "sourceId": 1793198433
+      "secondsAgo": 18020,
+      "sourceId": 1793198432
     },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 13167,
-      "sourceId": 1793202981
+      "secondsAgo": 13472,
+      "sourceId": 1793202980
     }
   ],
   "alpha": {
