@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-28T04:50:53.115Z",
+  "fetchedAt": "2026-10-28T04:55:44.688Z",
   "swarms": [
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Kanto",
+      "location": "Icefall Cave",
+      "sourceId": 1793164597,
+      "despawnTimestamp": 1793164596,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-28T05:16:37.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 395,
       "pokemon": "Empoleon",
@@ -15,36 +26,28 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 319,
-      "pokemon": "Sharpedo",
-      "region": "Kanto",
-      "location": "Water Labyrinth",
-      "secondsAgo": 3810,
-      "sourceId": 1793159243
-    },
-    {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Johto",
       "location": "Sprout Tower",
-      "secondsAgo": 9915,
-      "sourceId": 1793153138
+      "secondsAgo": 10207,
+      "sourceId": 1793153137
     },
     {
       "monsterId": 316,
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 3744,
-      "sourceId": 1793159309
+      "secondsAgo": 4036,
+      "sourceId": 1793159308
     },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 13919,
-      "sourceId": 1793149134
+      "secondsAgo": 14211,
+      "sourceId": 1793149133
     }
   ],
   "alpha": {
