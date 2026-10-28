@@ -1,46 +1,53 @@
 {
-  "fetchedAt": "2026-10-28T00:55:49.853Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-28T01:01:14.216Z",
+  "swarms": [
+    {
+      "monsterId": 155,
+      "pokemon": "Cyndaquil",
+      "region": "Johto",
+      "location": "Route 33",
+      "sourceId": 1793150658,
+      "despawnTimestamp": 1793150658,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-28T01:24:18.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 214,
+      "pokemon": "Heracross",
+      "region": "Unova",
+      "location": "Route 10",
+      "sourceId": 1793150633,
+      "despawnTimestamp": 1793150633,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-28T01:23:53.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Kanto",
       "location": "Victory Road",
-      "secondsAgo": 5320,
+      "secondsAgo": 5645,
       "sourceId": 1793143629
-    },
-    {
-      "monsterId": 237,
-      "pokemon": "Hitmontop",
-      "region": "Johto",
-      "location": "Mt. Mortar",
-      "secondsAgo": 9482,
-      "sourceId": 1793139467
     },
     {
       "monsterId": 257,
       "pokemon": "Blaziken",
       "region": "Hoenn",
       "location": "Magma Hideout",
-      "secondsAgo": 7140,
-      "sourceId": 1793141809
+      "secondsAgo": 7464,
+      "sourceId": 1793141810
     },
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 9837,
+      "secondsAgo": 10162,
       "sourceId": 1793139112
-    },
-    {
-      "monsterId": 331,
-      "pokemon": "Cacnea",
-      "region": "Unova",
-      "location": "Route 4",
-      "secondsAgo": 11577,
-      "sourceId": 1793137372
     }
   ],
   "alpha": {
