@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-28T08:21:26.265Z",
+  "fetchedAt": "2026-10-28T08:25:43.688Z",
   "swarms": [
     {
       "monsterId": 359,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-28T08:28:05.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 204,
-      "pokemon": "Pineco",
-      "region": "Sinnoh",
-      "location": "Route 207",
-      "sourceId": 1793175812,
-      "despawnTimestamp": 1793175812,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-28T08:23:32.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,24 +19,32 @@
       "pokemon": "Shuckle",
       "region": "Johto",
       "location": "Cliff Cave",
-      "secondsAgo": 4606,
-      "sourceId": 1793171080
+      "secondsAgo": 4864,
+      "sourceId": 1793171079
     },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Hoenn",
       "location": "Route 123",
-      "secondsAgo": 2006,
-      "sourceId": 1793173680
+      "secondsAgo": 2264,
+      "sourceId": 1793173679
+    },
+    {
+      "monsterId": 204,
+      "pokemon": "Pineco",
+      "region": "Sinnoh",
+      "location": "Route 207",
+      "secondsAgo": 1631,
+      "sourceId": 1793174312
     },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Unova",
       "location": "Village Bridge",
-      "secondsAgo": 5460,
-      "sourceId": 1793170226
+      "secondsAgo": 5718,
+      "sourceId": 1793170225
     }
   ],
   "alpha": {
