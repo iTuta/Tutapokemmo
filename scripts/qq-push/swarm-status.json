@@ -1,44 +1,37 @@
 {
-  "fetchedAt": "2026-10-28T04:11:29.455Z",
-  "swarms": [
+  "fetchedAt": "2026-10-28T04:16:09.483Z",
+  "swarms": [],
+  "lastSeen": [
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Kanto",
       "location": "Water Labyrinth",
-      "sourceId": 1793160742,
-      "despawnTimestamp": 1793160742,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-28T04:12:22.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1726,
+      "sourceId": 1793159243
+    },
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Johto",
+      "location": "Sprout Tower",
+      "secondsAgo": 7832,
+      "sourceId": 1793153137
     },
     {
       "monsterId": 316,
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "sourceId": 1793160808,
-      "despawnTimestamp": 1793160808,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-28T04:13:28.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Johto",
-      "location": "Sprout Tower",
-      "secondsAgo": 7552,
-      "sourceId": 1793153137
+      "secondsAgo": 1660,
+      "sourceId": 1793159309
     },
     {
       "monsterId": 393,
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 10633,
+      "secondsAgo": 10913,
       "sourceId": 1793150056
     },
     {
@@ -46,7 +39,7 @@
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 11556,
+      "secondsAgo": 11836,
       "sourceId": 1793149133
     }
   ],
