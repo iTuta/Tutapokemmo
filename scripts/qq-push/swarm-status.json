@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-28T07:06:02.527Z",
+  "fetchedAt": "2026-10-28T07:11:14.315Z",
   "swarms": [
     {
       "monsterId": 213,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1793172579,
       "hasValuable": false,
       "timestampUtc": "2026-10-28T07:29:39.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Sinnoh",
-      "location": "Valor Lakefront",
-      "sourceId": 1793171170,
-      "despawnTimestamp": 1793171170,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-28T07:06:10.000Z",
       "publishedBy": ""
     },
     {
@@ -41,7 +30,7 @@
       "pokemon": "Lapras",
       "region": "Kanto",
       "location": "Icefall Cave",
-      "secondsAgo": 8065,
+      "secondsAgo": 8377,
       "sourceId": 1793163097
     },
     {
@@ -49,8 +38,16 @@
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 11853,
+      "secondsAgo": 12165,
       "sourceId": 1793159309
+    },
+    {
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Sinnoh",
+      "location": "Valor Lakefront",
+      "secondsAgo": 1803,
+      "sourceId": 1793169671
     }
   ],
   "alpha": {
