@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-28T05:11:33.217Z",
+  "fetchedAt": "2026-10-28T05:15:54.538Z",
   "swarms": [
     {
       "monsterId": 131,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-28T05:16:37.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 395,
-      "pokemon": "Empoleon",
-      "region": "Sinnoh",
-      "location": "Lake Acuity",
-      "sourceId": 1793164530,
-      "despawnTimestamp": 1793164530,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-28T05:15:30.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Misdreavus",
       "region": "Johto",
       "location": "Sprout Tower",
-      "secondsAgo": 11156,
+      "secondsAgo": 11417,
       "sourceId": 1793153137
     },
     {
@@ -38,16 +27,24 @@
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 4984,
+      "secondsAgo": 5245,
       "sourceId": 1793159309
+    },
+    {
+      "monsterId": 395,
+      "pokemon": "Empoleon",
+      "region": "Sinnoh",
+      "location": "Lake Acuity",
+      "secondsAgo": 1523,
+      "sourceId": 1793163031
     },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 15159,
-      "sourceId": 1793149134
+      "secondsAgo": 15421,
+      "sourceId": 1793149133
     }
   ],
   "alpha": {
