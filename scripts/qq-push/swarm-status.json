@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-28T08:01:10.515Z",
+  "fetchedAt": "2026-10-28T08:05:49.205Z",
   "swarms": [
+    {
+      "monsterId": 359,
+      "pokemon": "Absol",
+      "region": "Kanto",
+      "location": "Canyon Entrance",
+      "sourceId": 1793176085,
+      "despawnTimestamp": 1793176084,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-28T08:28:05.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Kanto",
-      "location": "Icefall Cave",
-      "secondsAgo": 11373,
-      "sourceId": 1793163097
-    },
-    {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Johto",
       "location": "Cliff Cave",
-      "secondsAgo": 3390,
+      "secondsAgo": 3669,
       "sourceId": 1793171080
     },
     {
@@ -46,7 +49,7 @@
       "pokemon": "Miltank",
       "region": "Unova",
       "location": "Village Bridge",
-      "secondsAgo": 4244,
+      "secondsAgo": 4523,
       "sourceId": 1793170226
     }
   ],
