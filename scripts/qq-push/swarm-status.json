@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-28T02:25:57.607Z",
+  "fetchedAt": "2026-10-28T02:30:57.688Z",
   "swarms": [
-    {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Johto",
-      "location": "Sprout Tower",
-      "sourceId": 1793154636,
-      "despawnTimestamp": 1793154636,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-28T02:30:36.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 450,
       "pokemon": "Hippowdon",
@@ -30,15 +19,23 @@
       "pokemon": "Salamence",
       "region": "Kanto",
       "location": "Victory Road",
-      "secondsAgo": 1659,
+      "secondsAgo": 1959,
       "sourceId": 1793152698
+    },
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Johto",
+      "location": "Sprout Tower",
+      "secondsAgo": 1520,
+      "sourceId": 1793153137
     },
     {
       "monsterId": 393,
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 4302,
+      "secondsAgo": 4602,
       "sourceId": 1793150055
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 5224,
+      "secondsAgo": 5524,
       "sourceId": 1793149133
     }
   ],
