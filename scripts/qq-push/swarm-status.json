@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-28T07:55:49.265Z",
+  "fetchedAt": "2026-10-28T08:01:10.515Z",
   "swarms": [
     {
       "monsterId": 455,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-28T08:12:59.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 204,
+      "pokemon": "Pineco",
+      "region": "Sinnoh",
+      "location": "Route 207",
+      "sourceId": 1793175812,
+      "despawnTimestamp": 1793175812,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-28T08:23:32.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Lapras",
       "region": "Kanto",
       "location": "Icefall Cave",
-      "secondsAgo": 11052,
+      "secondsAgo": 11373,
       "sourceId": 1793163097
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Shuckle",
       "region": "Johto",
       "location": "Cliff Cave",
-      "secondsAgo": 3069,
+      "secondsAgo": 3390,
       "sourceId": 1793171080
-    },
-    {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Sinnoh",
-      "location": "Valor Lakefront",
-      "secondsAgo": 4478,
-      "sourceId": 1793169671
     },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Unova",
       "location": "Village Bridge",
-      "secondsAgo": 3923,
+      "secondsAgo": 4244,
       "sourceId": 1793170226
     }
   ],
