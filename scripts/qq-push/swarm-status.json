@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-10-28T15:56:04.031Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-28T16:01:10.026Z",
+  "swarms": [
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Unova",
+      "location": "Route 1",
+      "sourceId": 1793204480,
+      "despawnTimestamp": 1793204479,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-28T16:21:20.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Kanto",
       "location": "Kindle Road",
-      "secondsAgo": 5088,
-      "sourceId": 1793197876
+      "secondsAgo": 5394,
+      "sourceId": 1793197875
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 9296,
-      "sourceId": 1793193668
+      "secondsAgo": 9602,
+      "sourceId": 1793193667
     },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
       "region": "Hoenn",
       "location": "Route 128",
-      "secondsAgo": 4531,
-      "sourceId": 1793198433
+      "secondsAgo": 4837,
+      "sourceId": 1793198432
     },
     {
       "monsterId": 390,
       "pokemon": "Chimchar",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 2927,
-      "sourceId": 1793200037
-    },
-    {
-      "monsterId": 450,
-      "pokemon": "Hippowdon",
-      "region": "Unova",
-      "location": "Mistralton Cave",
-      "secondsAgo": 7305,
-      "sourceId": 1793195659
+      "secondsAgo": 3233,
+      "sourceId": 1793200036
     }
   ],
   "alpha": {
