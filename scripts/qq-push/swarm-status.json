@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-28T21:05:58.640Z",
+  "fetchedAt": "2026-10-28T21:10:44.995Z",
   "swarms": [
     {
       "monsterId": 141,
@@ -7,20 +7,9 @@
       "region": "Kanto",
       "location": "Tanoby Ruins",
       "sourceId": 1793222095,
-      "despawnTimestamp": 1793222095,
+      "despawnTimestamp": 1793222094,
       "hasValuable": false,
       "timestampUtc": "2026-10-28T21:14:55.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 358,
-      "pokemon": "Chimecho",
-      "region": "Johto",
-      "location": "Bellchime Trail",
-      "sourceId": 1793221641,
-      "despawnTimestamp": 1793221640,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-28T21:07:21.000Z",
       "publishedBy": ""
     },
     {
@@ -29,7 +18,7 @@
       "region": "Hoenn",
       "location": "Scorched Slab",
       "sourceId": 1793222408,
-      "despawnTimestamp": 1793222408,
+      "despawnTimestamp": 1793222407,
       "hasValuable": false,
       "timestampUtc": "2026-10-28T21:20:08.000Z",
       "publishedBy": ""
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 358,
+      "pokemon": "Chimecho",
+      "region": "Johto",
+      "location": "Bellchime Trail",
+      "secondsAgo": 1703,
+      "sourceId": 1793220141
+    },
+    {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Sinnoh",
       "location": "Wayward Cave",
-      "secondsAgo": 13222,
+      "secondsAgo": 13508,
       "sourceId": 1793208336
     },
     {
@@ -49,8 +46,8 @@
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 2211,
-      "sourceId": 1793219347
+      "secondsAgo": 2498,
+      "sourceId": 1793219346
     }
   ],
   "alpha": {
