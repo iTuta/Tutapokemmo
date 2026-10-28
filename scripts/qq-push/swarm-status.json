@@ -1,38 +1,50 @@
 {
-  "fetchedAt": "2026-10-28T20:25:57.847Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-28T20:31:11.152Z",
+  "swarms": [
+    {
+      "monsterId": 214,
+      "pokemon": "Heracross",
+      "region": "Unova",
+      "location": "Route 10",
+      "sourceId": 1793220846,
+      "despawnTimestamp": 1793220846,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-28T20:54:06.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 311,
       "pokemon": "Plusle",
       "region": "Kanto",
       "location": "Route 2",
-      "secondsAgo": 2936,
-      "sourceId": 1793216221
+      "secondsAgo": 3249,
+      "sourceId": 1793216222
     },
     {
       "monsterId": 204,
       "pokemon": "Pineco",
       "region": "Johto",
       "location": "Route 36",
-      "secondsAgo": 2894,
-      "sourceId": 1793216263
+      "secondsAgo": 3207,
+      "sourceId": 1793216264
     },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
       "region": "Hoenn",
       "location": "Route 128",
-      "secondsAgo": 20724,
+      "secondsAgo": 21038,
       "sourceId": 1793198433
     },
     {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Unova",
-      "location": "Route 1",
-      "secondsAgo": 16177,
-      "sourceId": 1793202980
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Sinnoh",
+      "location": "Wayward Cave",
+      "secondsAgo": 11134,
+      "sourceId": 1793208337
     }
   ],
   "alpha": {
