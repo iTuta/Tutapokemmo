@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-28T06:41:05.564Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-28T06:46:00.743Z",
+  "swarms": [
+    {
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Sinnoh",
+      "location": "Valor Lakefront",
+      "sourceId": 1793171170,
+      "despawnTimestamp": 1793171169,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-28T07:06:10.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Kanto",
       "location": "Icefall Cave",
-      "secondsAgo": 6568,
+      "secondsAgo": 6863,
       "sourceId": 1793163097
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Lapras",
       "region": "Johto",
       "location": "Union Cave",
-      "secondsAgo": 5003,
+      "secondsAgo": 5298,
       "sourceId": 1793164662
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 10356,
-      "sourceId": 1793159309
-    },
-    {
-      "monsterId": 395,
-      "pokemon": "Empoleon",
-      "region": "Sinnoh",
-      "location": "Lake Acuity",
-      "secondsAgo": 6634,
-      "sourceId": 1793163031
+      "secondsAgo": 10652,
+      "sourceId": 1793159308
     },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 20532,
+      "secondsAgo": 20827,
       "sourceId": 1793149133
     }
   ],
