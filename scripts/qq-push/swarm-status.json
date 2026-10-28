@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-28T23:21:05.198Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-28T23:25:52.471Z",
+  "swarms": [
+    {
+      "monsterId": 288,
+      "pokemon": "Vigoroth",
+      "region": "Sinnoh",
+      "location": "Route 215",
+      "sourceId": 1793231405,
+      "despawnTimestamp": 1793231405,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-28T23:50:05.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 311,
       "pokemon": "Plusle",
       "region": "Kanto",
       "location": "Route 2",
-      "secondsAgo": 4038,
+      "secondsAgo": 4325,
       "sourceId": 1793225627
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Porygon-Z",
       "region": "Johto",
       "location": "Team Rocket HQ",
-      "secondsAgo": 5866,
+      "secondsAgo": 6153,
       "sourceId": 1793223799
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Volcarona",
       "region": "Hoenn",
       "location": "Scorched Slab",
-      "secondsAgo": 8756,
+      "secondsAgo": 9043,
       "sourceId": 1793220909
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Sinnoh",
-      "location": "Iron Island",
-      "secondsAgo": 4873,
-      "sourceId": 1793224792
     },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
       "region": "Unova",
       "location": "Undella Bay",
-      "secondsAgo": 3402,
+      "secondsAgo": 3689,
       "sourceId": 1793226263
     }
   ],
