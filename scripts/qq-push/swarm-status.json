@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-28T14:41:16.597Z",
+  "fetchedAt": "2026-10-28T14:45:59.747Z",
   "swarms": [
     {
       "monsterId": 229,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-28T15:00:32.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 359,
-      "pokemon": "Absol",
-      "region": "Sinnoh",
-      "location": "Mt. Coronet",
-      "sourceId": 1793199557,
-      "despawnTimestamp": 1793199557,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-28T14:59:17.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,15 +30,23 @@
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 4808,
+      "secondsAgo": 5091,
       "sourceId": 1793193668
+    },
+    {
+      "monsterId": 359,
+      "pokemon": "Absol",
+      "region": "Sinnoh",
+      "location": "Mt. Coronet",
+      "secondsAgo": 702,
+      "sourceId": 1793198057
     },
     {
       "monsterId": 450,
       "pokemon": "Hippowdon",
       "region": "Unova",
       "location": "Mistralton Cave",
-      "secondsAgo": 2818,
+      "secondsAgo": 3101,
       "sourceId": 1793195658
     }
   ],
