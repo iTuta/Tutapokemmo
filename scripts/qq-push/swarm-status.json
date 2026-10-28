@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-28T02:01:32.906Z",
+  "fetchedAt": "2026-10-28T02:05:49.809Z",
   "swarms": [
     {
       "monsterId": 373,
@@ -11,23 +11,26 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-28T02:23:18.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Johto",
+      "location": "Sprout Tower",
+      "sourceId": 1793154636,
+      "despawnTimestamp": 1793154636,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-28T02:30:36.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 155,
-      "pokemon": "Cyndaquil",
-      "region": "Johto",
-      "location": "Route 33",
-      "secondsAgo": 3734,
-      "sourceId": 1793149158
-    },
     {
       "monsterId": 257,
       "pokemon": "Blaziken",
       "region": "Hoenn",
       "location": "Magma Hideout",
-      "secondsAgo": 11083,
+      "secondsAgo": 11340,
       "sourceId": 1793141809
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 2837,
+      "secondsAgo": 3094,
       "sourceId": 1793150055
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 3759,
+      "secondsAgo": 4016,
       "sourceId": 1793149133
     }
   ],
