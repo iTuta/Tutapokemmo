@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-28T16:06:32.035Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-28T16:11:10.991Z",
+  "swarms": [
     {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
+      "monsterId": 9,
+      "pokemon": "Blastoise",
       "region": "Kanto",
-      "location": "Kindle Road",
-      "secondsAgo": 5716,
-      "sourceId": 1793197875
-    },
+      "location": "Cape Brink",
+      "sourceId": 1793205245,
+      "despawnTimestamp": 1793205244,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-28T16:34:05.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 9924,
-      "sourceId": 1793193667
+      "secondsAgo": 10202,
+      "sourceId": 1793193668
     },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
       "region": "Hoenn",
       "location": "Route 128",
-      "secondsAgo": 5159,
+      "secondsAgo": 5438,
       "sourceId": 1793198432
     },
     {
@@ -31,8 +35,8 @@
       "pokemon": "Chimchar",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 3555,
-      "sourceId": 1793200036
+      "secondsAgo": 3833,
+      "sourceId": 1793200037
     }
   ],
   "alpha": {
