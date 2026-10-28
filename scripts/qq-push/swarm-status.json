@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-28T06:46:00.743Z",
+  "fetchedAt": "2026-10-28T06:51:12.805Z",
   "swarms": [
     {
       "monsterId": 128,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-28T07:06:10.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 241,
+      "pokemon": "Miltank",
+      "region": "Unova",
+      "location": "Village Bridge",
+      "sourceId": 1793171725,
+      "despawnTimestamp": 1793171724,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-28T07:15:25.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Lapras",
       "region": "Kanto",
       "location": "Icefall Cave",
-      "secondsAgo": 6863,
+      "secondsAgo": 7175,
       "sourceId": 1793163097
     },
     {
@@ -27,7 +38,7 @@
       "pokemon": "Lapras",
       "region": "Johto",
       "location": "Union Cave",
-      "secondsAgo": 5298,
+      "secondsAgo": 5610,
       "sourceId": 1793164662
     },
     {
@@ -35,16 +46,8 @@
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 10652,
+      "secondsAgo": 10964,
       "sourceId": 1793159308
-    },
-    {
-      "monsterId": 214,
-      "pokemon": "Heracross",
-      "region": "Unova",
-      "location": "Route 10",
-      "secondsAgo": 20827,
-      "sourceId": 1793149133
     }
   ],
   "alpha": {
