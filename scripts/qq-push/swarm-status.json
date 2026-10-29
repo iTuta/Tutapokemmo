@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-29T19:31:00.068Z",
+  "fetchedAt": "2026-10-29T19:35:42.007Z",
   "swarms": [
     {
       "monsterId": 139,
@@ -7,20 +7,9 @@
       "region": "Kanto",
       "location": "Liptoo Chamber",
       "sourceId": 1793302884,
-      "despawnTimestamp": 1793302885,
+      "despawnTimestamp": 1793302884,
       "hasValuable": false,
       "timestampUtc": "2026-10-29T19:41:24.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 469,
-      "pokemon": "Yanmega",
-      "region": "Johto",
-      "location": "Route 44",
-      "sourceId": 1793302456,
-      "despawnTimestamp": 1793302456,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-29T19:34:16.000Z",
       "publishedBy": ""
     },
     {
@@ -37,20 +26,28 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 469,
+      "pokemon": "Yanmega",
+      "region": "Johto",
+      "location": "Route 44",
+      "secondsAgo": 1585,
+      "sourceId": 1793300956
+    },
+    {
       "monsterId": 468,
       "pokemon": "Togekiss",
       "region": "Hoenn",
       "location": "Sky Pillar",
-      "secondsAgo": 3988,
-      "sourceId": 1793298272
+      "secondsAgo": 4270,
+      "sourceId": 1793298271
     },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Sinnoh",
       "location": "Iron Island",
-      "secondsAgo": 9278,
-      "sourceId": 1793292982
+      "secondsAgo": 9560,
+      "sourceId": 1793292981
     }
   ],
   "alpha": {
