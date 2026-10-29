@@ -1,29 +1,41 @@
 {
-  "fetchedAt": "2026-10-29T16:45:59.027Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-29T16:51:09.775Z",
+  "swarms": [
+    {
+      "monsterId": 193,
+      "pokemon": "Yanma",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "sourceId": 1793293984,
+      "despawnTimestamp": 1793293983,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-29T17:13:04.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 8,
       "pokemon": "Wartortle",
       "region": "Kanto",
       "location": "Seafoam Islands",
-      "secondsAgo": 9640,
-      "sourceId": 1793282718
+      "secondsAgo": 9950,
+      "sourceId": 1793282719
     },
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 10794,
-      "sourceId": 1793281564
+      "secondsAgo": 11104,
+      "sourceId": 1793281565
     },
     {
       "monsterId": 316,
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 4711,
+      "secondsAgo": 5022,
       "sourceId": 1793287647
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 30453,
+      "secondsAgo": 30764,
       "sourceId": 1793261905
-    },
-    {
-      "monsterId": 285,
-      "pokemon": "Shroomish",
-      "region": "Unova",
-      "location": "Pinwheel Forest",
-      "secondsAgo": 5272,
-      "sourceId": 1793287086
     }
   ],
   "alpha": {
