@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-29T10:50:55.868Z",
+  "fetchedAt": "2026-10-29T10:55:52.689Z",
   "swarms": [
     {
       "monsterId": 152,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-29T11:09:56.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 233,
-      "pokemon": "Porygon2",
-      "region": "Unova",
-      "location": "P2 Laboratory",
-      "sourceId": 1793271196,
-      "despawnTimestamp": 1793271195,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-29T10:53:16.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Volbeat",
       "region": "Kanto",
       "location": "Memorial Pillar",
-      "secondsAgo": 4917,
+      "secondsAgo": 5214,
       "sourceId": 1793266138
     },
     {
@@ -38,8 +27,16 @@
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
-      "secondsAgo": 4617,
-      "sourceId": 1793266438
+      "secondsAgo": 4913,
+      "sourceId": 1793266439
+    },
+    {
+      "monsterId": 233,
+      "pokemon": "Porygon2",
+      "region": "Unova",
+      "location": "P2 Laboratory",
+      "secondsAgo": 1656,
+      "sourceId": 1793269696
     }
   ],
   "alpha": {
