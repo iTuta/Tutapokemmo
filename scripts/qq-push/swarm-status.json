@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-29T14:01:19.027Z",
+  "fetchedAt": "2026-10-29T14:05:51.119Z",
   "swarms": [
+    {
+      "monsterId": 8,
+      "pokemon": "Wartortle",
+      "region": "Kanto",
+      "location": "Seafoam Islands",
+      "sourceId": 1793284218,
+      "despawnTimestamp": 1793284218,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-29T14:30:18.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 313,
-      "pokemon": "Volbeat",
-      "region": "Kanto",
-      "location": "Memorial Pillar",
-      "secondsAgo": 16340,
-      "sourceId": 1793266139
-    },
-    {
       "monsterId": 107,
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 2846,
+      "secondsAgo": 3118,
       "sourceId": 1793279633
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 20573,
+      "secondsAgo": 20845,
       "sourceId": 1793261906
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Porygon2",
       "region": "Unova",
       "location": "P2 Laboratory",
-      "secondsAgo": 12782,
+      "secondsAgo": 13054,
       "sourceId": 1793269697
     }
   ],
