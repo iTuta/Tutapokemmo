@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-10-29T20:10:55.538Z",
-  "swarms": [
-    {
-      "monsterId": 388,
-      "pokemon": "Grotle",
-      "region": "Sinnoh",
-      "location": "Sendoff Spring",
-      "sourceId": 1793304792,
-      "despawnTimestamp": 1793304792,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-29T20:13:12.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-29T20:15:51.544Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 139,
       "pokemon": "Omastar",
       "region": "Kanto",
       "location": "Liptoo Chamber",
-      "secondsAgo": 3270,
+      "secondsAgo": 3566,
       "sourceId": 1793301385
     },
     {
@@ -27,15 +15,23 @@
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 3698,
+      "secondsAgo": 3994,
       "sourceId": 1793300957
+    },
+    {
+      "monsterId": 388,
+      "pokemon": "Grotle",
+      "region": "Sinnoh",
+      "location": "Sendoff Spring",
+      "secondsAgo": 1658,
+      "sourceId": 1793303293
     },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 2513,
+      "secondsAgo": 2809,
       "sourceId": 1793302142
     }
   ],
