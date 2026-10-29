@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-10-29T00:20:49.103Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-29T00:25:48.873Z",
+  "swarms": [
+    {
+      "monsterId": 349,
+      "pokemon": "Feebas",
+      "region": "Hoenn",
+      "location": "Route 130",
+      "sourceId": 1793234843,
+      "despawnTimestamp": 1793234842,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-29T00:47:23.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 311,
       "pokemon": "Plusle",
       "region": "Kanto",
       "location": "Route 2",
-      "secondsAgo": 7622,
-      "sourceId": 1793225627
+      "secondsAgo": 7922,
+      "sourceId": 1793225626
     },
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 3086,
-      "sourceId": 1793230163
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Hoenn",
-      "location": "Scorched Slab",
-      "secondsAgo": 12340,
-      "sourceId": 1793220909
+      "secondsAgo": 3386,
+      "sourceId": 1793230162
     },
     {
       "monsterId": 288,
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 3342,
-      "sourceId": 1793229907
+      "secondsAgo": 3642,
+      "sourceId": 1793229906
     },
     {
       "monsterId": 222,
       "pokemon": "Corsola",
       "region": "Unova",
       "location": "Undella Bay",
-      "secondsAgo": 6986,
-      "sourceId": 1793226263
+      "secondsAgo": 7286,
+      "sourceId": 1793226262
     }
   ],
   "alpha": {
