@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-29T17:35:47.106Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-29T17:40:55.088Z",
+  "swarms": [
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Johto",
+      "location": "Union Cave",
+      "sourceId": 1793296895,
+      "despawnTimestamp": 1793296895,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-29T18:01:35.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 413,
       "pokemon": "Wormadam",
       "region": "Kanto",
       "location": "Pattern Bush",
-      "secondsAgo": 1622,
+      "secondsAgo": 1930,
       "sourceId": 1793293725
-    },
-    {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Johto",
-      "location": "Burned Tower",
-      "secondsAgo": 13782,
-      "sourceId": 1793281565
     },
     {
       "monsterId": 316,
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 7699,
+      "secondsAgo": 8007,
       "sourceId": 1793287648
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Lucario",
       "region": "Sinnoh",
       "location": "Iron Island",
-      "secondsAgo": 2365,
+      "secondsAgo": 2673,
       "sourceId": 1793292982
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 2862,
+      "secondsAgo": 3170,
       "sourceId": 1793292485
     }
   ],
