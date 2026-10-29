@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-29T19:51:03.657Z",
+  "fetchedAt": "2026-10-29T19:55:46.126Z",
   "swarms": [
+    {
+      "monsterId": 198,
+      "pokemon": "Murkrow",
+      "region": "Hoenn",
+      "location": "Jagged Pass",
+      "sourceId": 1793305095,
+      "despawnTimestamp": 1793305095,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-29T20:18:15.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 388,
       "pokemon": "Grotle",
@@ -11,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-29T20:13:12.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Unova",
-      "location": "Route 1",
-      "sourceId": 1793303641,
-      "despawnTimestamp": 1793303641,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-29T19:54:01.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +30,7 @@
       "pokemon": "Omastar",
       "region": "Kanto",
       "location": "Liptoo Chamber",
-      "secondsAgo": 2078,
+      "secondsAgo": 2361,
       "sourceId": 1793301385
     },
     {
@@ -38,16 +38,16 @@
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 2507,
-      "sourceId": 1793300956
+      "secondsAgo": 2789,
+      "sourceId": 1793300957
     },
     {
-      "monsterId": 468,
-      "pokemon": "Togekiss",
-      "region": "Hoenn",
-      "location": "Sky Pillar",
-      "secondsAgo": 5191,
-      "sourceId": 1793298272
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Unova",
+      "location": "Route 1",
+      "secondsAgo": 1604,
+      "sourceId": 1793302142
     }
   ],
   "alpha": {
