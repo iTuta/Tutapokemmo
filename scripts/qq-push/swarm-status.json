@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-29T07:10:52.071Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-29T07:15:56.578Z",
+  "swarms": [
     {
-      "monsterId": 211,
-      "pokemon": "Qwilfish",
+      "monsterId": 142,
+      "pokemon": "Aerodactyl",
       "region": "Kanto",
-      "location": "Route 20",
-      "secondsAgo": 10823,
-      "sourceId": 1793247029
-    },
+      "location": "Rixy Chamber",
+      "sourceId": 1793259451,
+      "despawnTimestamp": 1793259450,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-29T07:37:31.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 4657,
+      "secondsAgo": 4961,
       "sourceId": 1793253195
     },
     {
@@ -23,15 +27,15 @@
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Route 114",
-      "secondsAgo": 9453,
-      "sourceId": 1793248399
+      "secondsAgo": 9758,
+      "sourceId": 1793248398
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 9051,
+      "secondsAgo": 9355,
       "sourceId": 1793248801
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 12281,
-      "sourceId": 1793245571
+      "secondsAgo": 12586,
+      "sourceId": 1793245570
     }
   ],
   "alpha": {
