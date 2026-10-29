@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-29T15:16:06.725Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-29T15:20:46.811Z",
+  "swarms": [
+    {
+      "monsterId": 285,
+      "pokemon": "Shroomish",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "sourceId": 1793288585,
+      "despawnTimestamp": 1793288585,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-29T15:43:05.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 8,
       "pokemon": "Wartortle",
       "region": "Kanto",
       "location": "Seafoam Islands",
-      "secondsAgo": 4247,
+      "secondsAgo": 4527,
       "sourceId": 1793282719
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 5401,
+      "secondsAgo": 5681,
       "sourceId": 1793281565
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 7333,
+      "secondsAgo": 7613,
       "sourceId": 1793279633
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 25061,
+      "secondsAgo": 25341,
       "sourceId": 1793261905
-    },
-    {
-      "monsterId": 369,
-      "pokemon": "Relicanth",
-      "region": "Unova",
-      "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 4213,
-      "sourceId": 1793282753
     }
   ],
   "alpha": {
