@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-29T04:35:44.615Z",
+  "fetchedAt": "2026-10-29T04:40:48.514Z",
   "swarms": [
     {
       "monsterId": 256,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-29T04:58:18.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 83,
+      "pokemon": "Farfetch&#x27;d",
+      "region": "Sinnoh",
+      "location": "Route 209",
+      "sourceId": 1793250300,
+      "despawnTimestamp": 1793250300,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-29T05:05:00.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,31 +30,23 @@
       "pokemon": "Qwilfish",
       "region": "Kanto",
       "location": "Route 20",
-      "secondsAgo": 1516,
-      "sourceId": 1793247028
+      "secondsAgo": 1819,
+      "sourceId": 1793247029
     },
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 18381,
+      "secondsAgo": 18685,
       "sourceId": 1793230163
-    },
-    {
-      "monsterId": 328,
-      "pokemon": "Trapinch",
-      "region": "Sinnoh",
-      "location": "Oreburgh Mine",
-      "secondsAgo": 3168,
-      "sourceId": 1793245376
     },
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 2974,
+      "secondsAgo": 3278,
       "sourceId": 1793245570
     }
   ],
