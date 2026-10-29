@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-29T19:15:53.182Z",
+  "fetchedAt": "2026-10-29T19:20:52.110Z",
   "swarms": [
+    {
+      "monsterId": 139,
+      "pokemon": "Omastar",
+      "region": "Kanto",
+      "location": "Liptoo Chamber",
+      "sourceId": 1793302884,
+      "despawnTimestamp": 1793302884,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-29T19:41:24.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 469,
       "pokemon": "Yanmega",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 413,
-      "pokemon": "Wormadam",
-      "region": "Kanto",
-      "location": "Pattern Bush",
-      "secondsAgo": 7628,
-      "sourceId": 1793293725
-    },
-    {
       "monsterId": 468,
       "pokemon": "Togekiss",
       "region": "Hoenn",
       "location": "Sky Pillar",
-      "secondsAgo": 3081,
+      "secondsAgo": 3380,
       "sourceId": 1793298272
     },
     {
@@ -35,15 +38,15 @@
       "pokemon": "Lucario",
       "region": "Sinnoh",
       "location": "Iron Island",
-      "secondsAgo": 8372,
-      "sourceId": 1793292981
+      "secondsAgo": 8670,
+      "sourceId": 1793292982
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 8868,
+      "secondsAgo": 9167,
       "sourceId": 1793292485
     }
   ],
