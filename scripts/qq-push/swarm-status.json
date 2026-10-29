@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-29T17:05:51.344Z",
+  "fetchedAt": "2026-10-29T17:10:47.273Z",
   "swarms": [
+    {
+      "monsterId": 413,
+      "pokemon": "Wormadam",
+      "region": "Kanto",
+      "location": "Pattern Bush",
+      "sourceId": 1793295224,
+      "despawnTimestamp": 1793295224,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-29T17:33:44.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 8,
-      "pokemon": "Wartortle",
-      "region": "Kanto",
-      "location": "Seafoam Islands",
-      "secondsAgo": 10832,
-      "sourceId": 1793282719
-    },
-    {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 11986,
+      "secondsAgo": 12282,
       "sourceId": 1793281565
     },
     {
@@ -46,7 +49,7 @@
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 5903,
+      "secondsAgo": 6199,
       "sourceId": 1793287648
     }
   ],
