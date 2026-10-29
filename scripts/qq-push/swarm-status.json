@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-29T17:21:13.319Z",
+  "fetchedAt": "2026-10-29T17:25:42.831Z",
   "swarms": [
     {
       "monsterId": 413,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-29T17:33:44.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Sinnoh",
-      "location": "Iron Island",
-      "sourceId": 1793294481,
-      "despawnTimestamp": 1793294480,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-29T17:21:21.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 12908,
+      "secondsAgo": 13177,
       "sourceId": 1793281565
     },
     {
@@ -38,16 +27,24 @@
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 6825,
-      "sourceId": 1793287648
+      "secondsAgo": 7095,
+      "sourceId": 1793287647
+    },
+    {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Sinnoh",
+      "location": "Iron Island",
+      "secondsAgo": 1761,
+      "sourceId": 1793292981
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 1988,
-      "sourceId": 1793292485
+      "secondsAgo": 2258,
+      "sourceId": 1793292484
     }
   ],
   "alpha": {
