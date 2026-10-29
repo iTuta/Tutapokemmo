@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-29T14:10:51.569Z",
+  "fetchedAt": "2026-10-29T14:15:48.521Z",
   "swarms": [
     {
       "monsterId": 8,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1793284218,
       "hasValuable": false,
       "timestampUtc": "2026-10-29T14:30:18.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Johto",
-      "location": "Burned Tower",
-      "sourceId": 1793283064,
-      "despawnTimestamp": 1793283064,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-29T14:11:04.000Z",
       "publishedBy": ""
     },
     {
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Johto",
+      "location": "Burned Tower",
+      "secondsAgo": 1783,
+      "sourceId": 1793281565
+    },
+    {
       "monsterId": 107,
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 3418,
+      "secondsAgo": 3715,
       "sourceId": 1793279633
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 21146,
+      "secondsAgo": 21443,
       "sourceId": 1793261905
     }
   ],
