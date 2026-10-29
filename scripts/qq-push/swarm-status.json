@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-29T19:41:10.382Z",
+  "fetchedAt": "2026-10-29T19:45:58.144Z",
   "swarms": [
-    {
-      "monsterId": 139,
-      "pokemon": "Omastar",
-      "region": "Kanto",
-      "location": "Liptoo Chamber",
-      "sourceId": 1793302884,
-      "despawnTimestamp": 1793302884,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-29T19:41:24.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 139,
+      "pokemon": "Omastar",
+      "region": "Kanto",
+      "location": "Liptoo Chamber",
+      "secondsAgo": 1773,
+      "sourceId": 1793301385
+    },
+    {
       "monsterId": 469,
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 1913,
+      "secondsAgo": 2201,
       "sourceId": 1793300957
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Togekiss",
       "region": "Hoenn",
       "location": "Sky Pillar",
-      "secondsAgo": 4598,
+      "secondsAgo": 4886,
       "sourceId": 1793298272
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Lucario",
       "region": "Sinnoh",
       "location": "Iron Island",
-      "secondsAgo": 9889,
-      "sourceId": 1793292981
+      "secondsAgo": 10176,
+      "sourceId": 1793292982
     }
   ],
   "alpha": {
