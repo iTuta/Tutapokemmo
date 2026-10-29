@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-10-29T03:20:53.720Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-29T03:25:46.352Z",
+  "swarms": [
+    {
+      "monsterId": 213,
+      "pokemon": "Shuckle",
+      "region": "Hoenn",
+      "location": "Seafloor Cavern",
+      "sourceId": 1793245611,
+      "despawnTimestamp": 1793245611,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-29T03:46:51.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 6442,
-      "sourceId": 1793237611
+      "secondsAgo": 6734,
+      "sourceId": 1793237612
     },
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 13891,
-      "sourceId": 1793230162
-    },
-    {
-      "monsterId": 349,
-      "pokemon": "Feebas",
-      "region": "Hoenn",
-      "location": "Route 130",
-      "secondsAgo": 10709,
-      "sourceId": 1793233344
+      "secondsAgo": 14183,
+      "sourceId": 1793230163
     },
     {
       "monsterId": 426,
       "pokemon": "Drifblim",
       "region": "Sinnoh",
       "location": "Route 222",
-      "secondsAgo": 4141,
+      "secondsAgo": 4434,
       "sourceId": 1793239912
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 7077,
+      "secondsAgo": 7370,
       "sourceId": 1793236976
     }
   ],
