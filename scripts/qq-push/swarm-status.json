@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-29T17:10:47.273Z",
+  "fetchedAt": "2026-10-29T17:15:54.335Z",
   "swarms": [
     {
       "monsterId": 413,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-29T17:21:21.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 193,
-      "pokemon": "Yanma",
-      "region": "Unova",
-      "location": "Pinwheel Forest",
-      "sourceId": 1793293984,
-      "despawnTimestamp": 1793293984,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-29T17:13:04.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,7 +30,7 @@
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 12282,
+      "secondsAgo": 12589,
       "sourceId": 1793281565
     },
     {
@@ -49,8 +38,16 @@
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 6199,
+      "secondsAgo": 6506,
       "sourceId": 1793287648
+    },
+    {
+      "monsterId": 193,
+      "pokemon": "Yanma",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "secondsAgo": 1669,
+      "sourceId": 1793292485
     }
   ],
   "alpha": {
