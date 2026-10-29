@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-29T05:50:53.201Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-29T05:55:43.310Z",
+  "swarms": [
+    {
+      "monsterId": 300,
+      "pokemon": "Skitty",
+      "region": "Johto",
+      "location": "Route 35",
+      "sourceId": 1793254694,
+      "despawnTimestamp": 1793254694,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-29T06:18:14.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 211,
       "pokemon": "Qwilfish",
       "region": "Kanto",
       "location": "Route 20",
-      "secondsAgo": 6024,
+      "secondsAgo": 6314,
       "sourceId": 1793247029
-    },
-    {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Johto",
-      "location": "Burned Tower",
-      "secondsAgo": 22890,
-      "sourceId": 1793230163
     },
     {
       "monsterId": 256,
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Route 114",
-      "secondsAgo": 4654,
+      "secondsAgo": 4944,
       "sourceId": 1793248399
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 4252,
+      "secondsAgo": 4542,
       "sourceId": 1793248801
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 7483,
+      "secondsAgo": 7773,
       "sourceId": 1793245570
     }
   ],
