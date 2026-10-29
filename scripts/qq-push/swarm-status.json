@@ -1,41 +1,37 @@
 {
-  "fetchedAt": "2026-10-29T11:55:42.981Z",
-  "swarms": [
-    {
-      "monsterId": 300,
-      "pokemon": "Skitty",
-      "region": "Johto",
-      "location": "Route 35",
-      "sourceId": 1793275249,
-      "despawnTimestamp": 1793275248,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-29T12:00:49.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-29T12:01:17.590Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 313,
       "pokemon": "Volbeat",
       "region": "Kanto",
       "location": "Memorial Pillar",
-      "secondsAgo": 8804,
+      "secondsAgo": 9139,
       "sourceId": 1793266138
+    },
+    {
+      "monsterId": 300,
+      "pokemon": "Skitty",
+      "region": "Johto",
+      "location": "Route 35",
+      "secondsAgo": 1527,
+      "sourceId": 1793273750
     },
     {
       "monsterId": 358,
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
-      "secondsAgo": 8504,
-      "sourceId": 1793266438
+      "secondsAgo": 8838,
+      "sourceId": 1793266439
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 13037,
+      "secondsAgo": 13372,
       "sourceId": 1793261905
     },
     {
@@ -43,7 +39,7 @@
       "pokemon": "Porygon2",
       "region": "Unova",
       "location": "P2 Laboratory",
-      "secondsAgo": 5246,
+      "secondsAgo": 5581,
       "sourceId": 1793269696
     }
   ],
