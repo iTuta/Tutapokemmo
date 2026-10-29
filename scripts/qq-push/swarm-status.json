@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-29T08:40:47.411Z",
+  "fetchedAt": "2026-10-29T08:45:57.034Z",
   "swarms": [
     {
       "monsterId": 316,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-29T08:47:13.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 83,
-      "pokemon": "Farfetch&#x27;d",
-      "region": "Sinnoh",
-      "location": "Route 209",
-      "sourceId": 1793263405,
-      "despawnTimestamp": 1793263404,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-29T08:43:25.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,23 +19,31 @@
       "pokemon": "Aerodactyl",
       "region": "Kanto",
       "location": "Rixy Chamber",
-      "secondsAgo": 5295,
-      "sourceId": 1793257952
+      "secondsAgo": 5605,
+      "sourceId": 1793257951
     },
     {
       "monsterId": 157,
       "pokemon": "Typhlosion",
       "region": "Johto",
       "location": "Route 45",
-      "secondsAgo": 1538,
-      "sourceId": 1793261709
+      "secondsAgo": 1848,
+      "sourceId": 1793261708
+    },
+    {
+      "monsterId": 83,
+      "pokemon": "Farfetch&#x27;d",
+      "region": "Sinnoh",
+      "location": "Route 209",
+      "secondsAgo": 1651,
+      "sourceId": 1793261905
     },
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 17677,
+      "secondsAgo": 17986,
       "sourceId": 1793245570
     }
   ],
