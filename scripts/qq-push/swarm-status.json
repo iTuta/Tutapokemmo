@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-29T23:21:07.663Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-29T23:25:48.556Z",
+  "swarms": [
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Sinnoh",
+      "location": "Wayward Cave",
+      "sourceId": 1793317754,
+      "despawnTimestamp": 1793317754,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-29T23:49:14.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Kanto",
       "location": "Lost Cave",
-      "secondsAgo": 4964,
+      "secondsAgo": 5245,
       "sourceId": 1793311103
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 4667,
+      "secondsAgo": 4948,
       "sourceId": 1793311400
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Murkrow",
       "region": "Hoenn",
       "location": "Jagged Pass",
-      "secondsAgo": 12472,
-      "sourceId": 1793303595
-    },
-    {
-      "monsterId": 388,
-      "pokemon": "Grotle",
-      "region": "Sinnoh",
-      "location": "Sendoff Spring",
-      "secondsAgo": 12775,
-      "sourceId": 1793303292
+      "secondsAgo": 12752,
+      "sourceId": 1793303596
     },
     {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Unova",
       "location": "Cold Storage",
-      "secondsAgo": 7998,
-      "sourceId": 1793308069
+      "secondsAgo": 8278,
+      "sourceId": 1793308070
     }
   ],
   "alpha": {
