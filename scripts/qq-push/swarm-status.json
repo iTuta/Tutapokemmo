@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-29T08:20:49.072Z",
+  "fetchedAt": "2026-10-29T08:26:07.492Z",
   "swarms": [
     {
       "monsterId": 157,
@@ -13,12 +13,23 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 316,
+      "pokemon": "Gulpin",
+      "region": "Hoenn",
+      "location": "Route 110",
+      "sourceId": 1793263633,
+      "despawnTimestamp": 1793263633,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-29T08:47:13.000Z",
+      "publishedBy": ""
+    },
+    {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
       "sourceId": 1793263405,
-      "despawnTimestamp": 1793263405,
+      "despawnTimestamp": 1793263404,
       "hasValuable": false,
       "timestampUtc": "2026-10-29T08:43:25.000Z",
       "publishedBy": ""
@@ -30,24 +41,16 @@
       "pokemon": "Aerodactyl",
       "region": "Kanto",
       "location": "Rixy Chamber",
-      "secondsAgo": 4097,
+      "secondsAgo": 4415,
       "sourceId": 1793257952
-    },
-    {
-      "monsterId": 256,
-      "pokemon": "Combusken",
-      "region": "Hoenn",
-      "location": "Route 114",
-      "secondsAgo": 13650,
-      "sourceId": 1793248399
     },
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 16478,
-      "sourceId": 1793245571
+      "secondsAgo": 16797,
+      "sourceId": 1793245570
     }
   ],
   "alpha": {
