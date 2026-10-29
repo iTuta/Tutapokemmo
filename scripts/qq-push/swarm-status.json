@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-10-29T02:10:58.429Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-29T02:15:58.863Z",
+  "swarms": [
+    {
+      "monsterId": 426,
+      "pokemon": "Drifblim",
+      "region": "Sinnoh",
+      "location": "Route 222",
+      "sourceId": 1793241411,
+      "despawnTimestamp": 1793241411,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-29T02:36:51.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 2246,
-      "sourceId": 1793237612
+      "secondsAgo": 2547,
+      "sourceId": 1793237611
     },
     {
       "monsterId": 349,
       "pokemon": "Feebas",
       "region": "Hoenn",
       "location": "Route 130",
-      "secondsAgo": 6514,
-      "sourceId": 1793233344
-    },
-    {
-      "monsterId": 288,
-      "pokemon": "Vigoroth",
-      "region": "Sinnoh",
-      "location": "Route 215",
-      "secondsAgo": 9952,
-      "sourceId": 1793229906
+      "secondsAgo": 6815,
+      "sourceId": 1793233343
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 2882,
+      "secondsAgo": 3182,
       "sourceId": 1793236976
     }
   ],
