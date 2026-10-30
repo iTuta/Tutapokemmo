@@ -1,13 +1,36 @@
 {
-  "fetchedAt": "2026-10-30T09:15:50.297Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-30T09:20:52.310Z",
+  "swarms": [
+    {
+      "monsterId": 370,
+      "pokemon": "Luvdisc",
+      "region": "Hoenn",
+      "location": "Route 132",
+      "sourceId": 1793353372,
+      "despawnTimestamp": 1793353372,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-30T09:42:52.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 224,
+      "pokemon": "Octillery",
+      "region": "Unova",
+      "location": "Route 13",
+      "sourceId": 1793353326,
+      "despawnTimestamp": 1793353326,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-30T09:42:06.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 6,
       "pokemon": "Charizard",
       "region": "Kanto",
       "location": "Mt. Ember",
-      "secondsAgo": 4186,
+      "secondsAgo": 4488,
       "sourceId": 1793347564
     },
     {
@@ -15,32 +38,16 @@
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 11499,
+      "secondsAgo": 11801,
       "sourceId": 1793340251
-    },
-    {
-      "monsterId": 351,
-      "pokemon": "Castform",
-      "region": "Hoenn",
-      "location": "Aqua Hideout",
-      "secondsAgo": 4392,
-      "sourceId": 1793347358
     },
     {
       "monsterId": 412,
       "pokemon": "Burmy",
       "region": "Sinnoh",
       "location": "Route 202",
-      "secondsAgo": 11528,
+      "secondsAgo": 11830,
       "sourceId": 1793340222
-    },
-    {
-      "monsterId": 455,
-      "pokemon": "Carnivine",
-      "region": "Unova",
-      "location": "Route 18",
-      "secondsAgo": 11129,
-      "sourceId": 1793340621
     }
   ],
   "alpha": {
