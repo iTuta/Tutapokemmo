@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-30T22:55:46.307Z",
+  "fetchedAt": "2026-10-30T23:01:28.217Z",
   "swarms": [
     {
       "monsterId": 131,
@@ -7,27 +7,30 @@
       "region": "Kanto",
       "location": "Icefall Cave",
       "sourceId": 1793401714,
-      "despawnTimestamp": 1793401713,
+      "despawnTimestamp": 1793401714,
       "hasValuable": false,
       "timestampUtc": "2026-10-30T23:08:34.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 152,
+      "pokemon": "Chikorita",
+      "region": "Johto",
+      "location": "Route 31",
+      "sourceId": 1793402623,
+      "despawnTimestamp": 1793402622,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-30T23:23:43.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 375,
-      "pokemon": "Metang",
-      "region": "Johto",
-      "location": "Ice Path",
-      "secondsAgo": 6870,
-      "sourceId": 1793394076
-    },
-    {
       "monsterId": 162,
       "pokemon": "Furret",
       "region": "Sinnoh",
       "location": "Route 208",
-      "secondsAgo": 2059,
+      "secondsAgo": 2401,
       "sourceId": 1793398887
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 4564,
+      "secondsAgo": 4906,
       "sourceId": 1793396382
     }
   ],
