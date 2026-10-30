@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-30T13:21:03.643Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-30T13:25:51.169Z",
+  "swarms": [
+    {
+      "monsterId": 152,
+      "pokemon": "Chikorita",
+      "region": "Johto",
+      "location": "Route 31",
+      "sourceId": 1793368021,
+      "despawnTimestamp": 1793368021,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-30T13:47:01.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 1,
       "pokemon": "Bulbasaur",
       "region": "Kanto",
       "location": "Viridian Forest",
-      "secondsAgo": 4267,
-      "sourceId": 1793362196
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Johto",
-      "location": "Mt. Silver Cave",
-      "secondsAgo": 13925,
-      "sourceId": 1793352538
+      "secondsAgo": 4554,
+      "sourceId": 1793362197
     },
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Hoenn",
       "location": "Abandoned Ship",
-      "secondsAgo": 7544,
+      "secondsAgo": 7832,
       "sourceId": 1793358919
     },
     {
@@ -31,16 +35,16 @@
       "pokemon": "Yanma",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 9515,
-      "sourceId": 1793356948
+      "secondsAgo": 9802,
+      "sourceId": 1793356949
     },
     {
       "monsterId": 317,
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 3951,
-      "sourceId": 1793362512
+      "secondsAgo": 4238,
+      "sourceId": 1793362513
     }
   ],
   "alpha": {
