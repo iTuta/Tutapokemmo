@@ -1,33 +1,29 @@
 {
-  "fetchedAt": "2026-10-30T18:06:22.460Z",
-  "swarms": [
-    {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Johto",
-      "location": "Burned Tower",
-      "sourceId": 1793383851,
-      "despawnTimestamp": 1793383850,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-30T18:10:51.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-30T18:10:52.974Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 1,
       "pokemon": "Bulbasaur",
       "region": "Kanto",
       "location": "Viridian Forest",
-      "secondsAgo": 21386,
+      "secondsAgo": 21656,
       "sourceId": 1793362196
+    },
+    {
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Johto",
+      "location": "Burned Tower",
+      "secondsAgo": 1501,
+      "sourceId": 1793382351
     },
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Hoenn",
       "location": "Abandoned Ship",
-      "secondsAgo": 24663,
+      "secondsAgo": 24933,
       "sourceId": 1793358919
     },
     {
@@ -35,7 +31,7 @@
       "pokemon": "Yanma",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 26634,
+      "secondsAgo": 26904,
       "sourceId": 1793356948
     },
     {
@@ -43,7 +39,7 @@
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 21070,
+      "secondsAgo": 21340,
       "sourceId": 1793362512
     }
   ],
