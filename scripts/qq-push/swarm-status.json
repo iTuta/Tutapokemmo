@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-30T22:21:09.435Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-30T22:25:49.309Z",
+  "swarms": [
+    {
+      "monsterId": 162,
+      "pokemon": "Furret",
+      "region": "Sinnoh",
+      "location": "Route 208",
+      "sourceId": 1793400386,
+      "despawnTimestamp": 1793400386,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-30T22:46:26.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 3,
       "pokemon": "Venusaur",
       "region": "Kanto",
       "location": "Berry Forest",
-      "secondsAgo": 8260,
+      "secondsAgo": 8540,
       "sourceId": 1793390609
     },
     {
@@ -15,24 +27,16 @@
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 4793,
+      "secondsAgo": 5073,
       "sourceId": 1793394076
-    },
-    {
-      "monsterId": 359,
-      "pokemon": "Absol",
-      "region": "Sinnoh",
-      "location": "Mt. Coronet",
-      "secondsAgo": 6051,
-      "sourceId": 1793392818
     },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 2488,
-      "sourceId": 1793396381
+      "secondsAgo": 2767,
+      "sourceId": 1793396382
     }
   ],
   "alpha": {
