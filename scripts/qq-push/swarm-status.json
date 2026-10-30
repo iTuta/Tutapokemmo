@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-30T06:15:59.641Z",
+  "fetchedAt": "2026-10-30T06:20:57.773Z",
   "swarms": [
     {
       "monsterId": 321,
@@ -24,17 +24,6 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 412,
-      "pokemon": "Burmy",
-      "region": "Sinnoh",
-      "location": "Route 202",
-      "sourceId": 1793341721,
-      "despawnTimestamp": 1793341721,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-30T06:28:41.000Z",
-      "publishedBy": ""
-    },
-    {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Unova",
@@ -52,8 +41,16 @@
       "pokemon": "Spiritomb",
       "region": "Hoenn",
       "location": "Abandoned Ship",
-      "secondsAgo": 4153,
+      "secondsAgo": 4451,
       "sourceId": 1793336806
+    },
+    {
+      "monsterId": 412,
+      "pokemon": "Burmy",
+      "region": "Sinnoh",
+      "location": "Route 202",
+      "secondsAgo": 1035,
+      "sourceId": 1793340222
     }
   ],
   "alpha": {
