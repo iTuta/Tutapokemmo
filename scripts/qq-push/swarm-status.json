@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-30T06:25:52.535Z",
+  "fetchedAt": "2026-10-30T06:31:05.937Z",
   "swarms": [
     {
       "monsterId": 321,
@@ -7,20 +7,9 @@
       "region": "Kanto",
       "location": "Green Path",
       "sourceId": 1793341980,
-      "despawnTimestamp": 1793341980,
+      "despawnTimestamp": 1793341979,
       "hasValuable": false,
       "timestampUtc": "2026-10-30T06:33:00.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 154,
-      "pokemon": "Meganium",
-      "region": "Johto",
-      "location": "Route 48",
-      "sourceId": 1793341750,
-      "despawnTimestamp": 1793341750,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-30T06:29:10.000Z",
       "publishedBy": ""
     },
     {
@@ -29,7 +18,7 @@
       "region": "Unova",
       "location": "Route 18",
       "sourceId": 1793342120,
-      "despawnTimestamp": 1793342120,
+      "despawnTimestamp": 1793342119,
       "hasValuable": false,
       "timestampUtc": "2026-10-30T06:35:20.000Z",
       "publishedBy": ""
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 154,
+      "pokemon": "Meganium",
+      "region": "Johto",
+      "location": "Route 48",
+      "secondsAgo": 1615,
+      "sourceId": 1793340250
+    },
+    {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Hoenn",
       "location": "Abandoned Ship",
-      "secondsAgo": 4746,
+      "secondsAgo": 5059,
       "sourceId": 1793336806
     },
     {
@@ -49,8 +46,8 @@
       "pokemon": "Burmy",
       "region": "Sinnoh",
       "location": "Route 202",
-      "secondsAgo": 1330,
-      "sourceId": 1793340222
+      "secondsAgo": 1644,
+      "sourceId": 1793340221
     }
   ],
   "alpha": {
