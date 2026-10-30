@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-30T22:40:47.092Z",
+  "fetchedAt": "2026-10-30T22:45:48.087Z",
   "swarms": [
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Kanto",
+      "location": "Icefall Cave",
+      "sourceId": 1793401714,
+      "despawnTimestamp": 1793401714,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-30T23:08:34.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 162,
       "pokemon": "Furret",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 3,
-      "pokemon": "Venusaur",
-      "region": "Kanto",
-      "location": "Berry Forest",
-      "secondsAgo": 9438,
-      "sourceId": 1793390609
-    },
-    {
       "monsterId": 375,
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 5971,
+      "secondsAgo": 6272,
       "sourceId": 1793394076
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 3665,
+      "secondsAgo": 3966,
       "sourceId": 1793396382
     }
   ],
