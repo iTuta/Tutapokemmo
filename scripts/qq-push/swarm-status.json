@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-30T10:45:58.179Z",
+  "fetchedAt": "2026-10-30T10:51:04.205Z",
   "swarms": [
-    {
-      "monsterId": 141,
-      "pokemon": "Kabutops",
-      "region": "Kanto",
-      "location": "Dilford Chamber",
-      "sourceId": 1793357380,
-      "despawnTimestamp": 1793357380,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-30T10:49:40.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 141,
+      "pokemon": "Kabutops",
+      "region": "Kanto",
+      "location": "Dilford Chamber",
+      "secondsAgo": 1583,
+      "sourceId": 1793355881
+    },
+    {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Johto",
       "location": "Mt. Silver Cave",
-      "secondsAgo": 4620,
+      "secondsAgo": 4926,
       "sourceId": 1793352538
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Luvdisc",
       "region": "Hoenn",
       "location": "Route 132",
-      "secondsAgo": 5285,
+      "secondsAgo": 5591,
       "sourceId": 1793351873
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Octillery",
       "region": "Unova",
       "location": "Route 13",
-      "secondsAgo": 5331,
+      "secondsAgo": 5637,
       "sourceId": 1793351827
     }
   ],
