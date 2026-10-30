@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-30T08:25:46.472Z",
+  "fetchedAt": "2026-10-30T08:30:57.517Z",
   "swarms": [
     {
       "monsterId": 6,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-30T08:31:04.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 351,
-      "pokemon": "Castform",
-      "region": "Hoenn",
-      "location": "Aqua Hideout",
-      "sourceId": 1793348858,
-      "despawnTimestamp": 1793348857,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-30T08:27:38.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,15 +19,23 @@
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 8495,
-      "sourceId": 1793340251
+      "secondsAgo": 8807,
+      "sourceId": 1793340250
+    },
+    {
+      "monsterId": 351,
+      "pokemon": "Castform",
+      "region": "Hoenn",
+      "location": "Aqua Hideout",
+      "secondsAgo": 1699,
+      "sourceId": 1793347358
     },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Unova",
       "location": "Route 18",
-      "secondsAgo": 8125,
+      "secondsAgo": 8436,
       "sourceId": 1793340621
     }
   ],
