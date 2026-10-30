@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-30T08:05:51.201Z",
+  "fetchedAt": "2026-10-30T08:10:48.089Z",
   "swarms": [
+    {
+      "monsterId": 6,
+      "pokemon": "Charizard",
+      "region": "Kanto",
+      "location": "Mt. Ember",
+      "sourceId": 1793349064,
+      "despawnTimestamp": 1793349064,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-30T08:31:04.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 351,
       "pokemon": "Castform",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 321,
-      "pokemon": "Wailord",
-      "region": "Kanto",
-      "location": "Green Path",
-      "secondsAgo": 7070,
-      "sourceId": 1793340481
-    },
-    {
       "monsterId": 154,
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 7300,
+      "secondsAgo": 7597,
       "sourceId": 1793340251
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Carnivine",
       "region": "Unova",
       "location": "Route 18",
-      "secondsAgo": 6930,
+      "secondsAgo": 7227,
       "sourceId": 1793340621
     }
   ],
