@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-10-30T05:05:44.027Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-30T05:11:09.515Z",
+  "swarms": [
+    {
+      "monsterId": 442,
+      "pokemon": "Spiritomb",
+      "region": "Hoenn",
+      "location": "Abandoned Ship",
+      "sourceId": 1793338305,
+      "despawnTimestamp": 1793338305,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-30T05:31:45.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 411,
       "pokemon": "Bastiodon",
       "region": "Kanto",
       "location": "Monean Chamber",
-      "secondsAgo": 3772,
-      "sourceId": 1793332972
+      "secondsAgo": 4098,
+      "sourceId": 1793332971
     },
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 25343,
+      "secondsAgo": 25668,
       "sourceId": 1793311401
-    },
-    {
-      "monsterId": 260,
-      "pokemon": "Swampert",
-      "region": "Hoenn",
-      "location": "Route 109",
-      "secondsAgo": 8966,
-      "sourceId": 1793327778
     },
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 3555,
+      "secondsAgo": 3880,
       "sourceId": 1793333189
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 7191,
+      "secondsAgo": 7516,
       "sourceId": 1793329553
     }
   ],
