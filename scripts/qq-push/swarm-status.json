@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-30T19:35:47.015Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-30T19:40:57.360Z",
+  "swarms": [
     {
-      "monsterId": 1,
-      "pokemon": "Bulbasaur",
+      "monsterId": 3,
+      "pokemon": "Venusaur",
       "region": "Kanto",
-      "location": "Viridian Forest",
-      "secondsAgo": 26750,
-      "sourceId": 1793362196
-    },
+      "location": "Berry Forest",
+      "sourceId": 1793390495,
+      "despawnTimestamp": 1793390495,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-30T20:01:35.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 6595,
+      "secondsAgo": 6906,
       "sourceId": 1793382351
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Spiritomb",
       "region": "Hoenn",
       "location": "Abandoned Ship",
-      "secondsAgo": 30027,
+      "secondsAgo": 30338,
       "sourceId": 1793358919
     },
     {
@@ -31,16 +35,16 @@
       "pokemon": "Chimecho",
       "region": "Sinnoh",
       "location": "Acuity Lakefront",
-      "secondsAgo": 1630,
-      "sourceId": 1793387316
+      "secondsAgo": 1940,
+      "sourceId": 1793387317
     },
     {
       "monsterId": 317,
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 26434,
-      "sourceId": 1793362512
+      "secondsAgo": 26744,
+      "sourceId": 1793362513
     }
   ],
   "alpha": {
