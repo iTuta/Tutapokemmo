@@ -1,45 +1,49 @@
 {
-  "fetchedAt": "2026-10-30T10:20:49.068Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-30T10:25:44.965Z",
+  "swarms": [
     {
-      "monsterId": 6,
-      "pokemon": "Charizard",
+      "monsterId": 141,
+      "pokemon": "Kabutops",
       "region": "Kanto",
-      "location": "Mt. Ember",
-      "secondsAgo": 8084,
-      "sourceId": 1793347565
-    },
+      "location": "Dilford Chamber",
+      "sourceId": 1793357380,
+      "despawnTimestamp": 1793357379,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-30T10:49:40.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Johto",
       "location": "Mt. Silver Cave",
-      "secondsAgo": 3111,
-      "sourceId": 1793352538
+      "secondsAgo": 3407,
+      "sourceId": 1793352537
     },
     {
       "monsterId": 370,
       "pokemon": "Luvdisc",
       "region": "Hoenn",
       "location": "Route 132",
-      "secondsAgo": 3776,
-      "sourceId": 1793351873
+      "secondsAgo": 4072,
+      "sourceId": 1793351872
     },
     {
       "monsterId": 412,
       "pokemon": "Burmy",
       "region": "Sinnoh",
       "location": "Route 202",
-      "secondsAgo": 15427,
-      "sourceId": 1793340222
+      "secondsAgo": 15723,
+      "sourceId": 1793340221
     },
     {
       "monsterId": 224,
       "pokemon": "Octillery",
       "region": "Unova",
       "location": "Route 13",
-      "secondsAgo": 3822,
+      "secondsAgo": 4117,
       "sourceId": 1793351827
     }
   ],
