@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-30T23:05:47.392Z",
+  "fetchedAt": "2026-10-30T23:10:47.778Z",
   "swarms": [
-    {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Kanto",
-      "location": "Icefall Cave",
-      "sourceId": 1793401714,
-      "despawnTimestamp": 1793401713,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-30T23:08:34.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 152,
       "pokemon": "Chikorita",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Kanto",
+      "location": "Icefall Cave",
+      "secondsAgo": 1633,
+      "sourceId": 1793400214
+    },
+    {
       "monsterId": 162,
       "pokemon": "Furret",
       "region": "Sinnoh",
       "location": "Route 208",
-      "secondsAgo": 2660,
+      "secondsAgo": 2960,
       "sourceId": 1793398887
     },
     {
@@ -38,8 +35,8 @@
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 5165,
-      "sourceId": 1793396382
+      "secondsAgo": 5466,
+      "sourceId": 1793396381
     }
   ],
   "alpha": {
