@@ -1,36 +1,13 @@
 {
-  "fetchedAt": "2026-10-30T03:25:40.711Z",
-  "swarms": [
-    {
-      "monsterId": 387,
-      "pokemon": "Turtwig",
-      "region": "Sinnoh",
-      "location": "Route 203",
-      "sourceId": 1793330859,
-      "despawnTimestamp": 1793330858,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-30T03:27:39.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 193,
-      "pokemon": "Yanma",
-      "region": "Unova",
-      "location": "Pinwheel Forest",
-      "sourceId": 1793331052,
-      "despawnTimestamp": 1793331052,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-30T03:30:52.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-30T03:31:05.877Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Kanto",
       "location": "Pokemon Tower",
-      "secondsAgo": 11005,
+      "secondsAgo": 11330,
       "sourceId": 1793319735
     },
     {
@@ -38,7 +15,7 @@
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 19340,
+      "secondsAgo": 19665,
       "sourceId": 1793311400
     },
     {
@@ -46,8 +23,24 @@
       "pokemon": "Swampert",
       "region": "Hoenn",
       "location": "Route 109",
-      "secondsAgo": 2962,
+      "secondsAgo": 3287,
       "sourceId": 1793327778
+    },
+    {
+      "monsterId": 387,
+      "pokemon": "Turtwig",
+      "region": "Sinnoh",
+      "location": "Route 203",
+      "secondsAgo": 1706,
+      "sourceId": 1793329359
+    },
+    {
+      "monsterId": 193,
+      "pokemon": "Yanma",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "secondsAgo": 1512,
+      "sourceId": 1793329553
     }
   ],
   "alpha": {
