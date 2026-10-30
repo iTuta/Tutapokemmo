@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-30T12:05:51.710Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-30T12:10:49.552Z",
+  "swarms": [
     {
-      "monsterId": 141,
-      "pokemon": "Kabutops",
+      "monsterId": 1,
+      "pokemon": "Bulbasaur",
       "region": "Kanto",
-      "location": "Dilford Chamber",
-      "secondsAgo": 6071,
-      "sourceId": 1793355880
-    },
+      "location": "Viridian Forest",
+      "sourceId": 1793363696,
+      "despawnTimestamp": 1793363695,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-30T12:34:56.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Johto",
       "location": "Mt. Silver Cave",
-      "secondsAgo": 9413,
+      "secondsAgo": 9711,
       "sourceId": 1793352538
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Spiritomb",
       "region": "Hoenn",
       "location": "Abandoned Ship",
-      "secondsAgo": 3032,
+      "secondsAgo": 3330,
       "sourceId": 1793358919
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Yanma",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 5003,
+      "secondsAgo": 5301,
       "sourceId": 1793356948
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Octillery",
       "region": "Unova",
       "location": "Route 13",
-      "secondsAgo": 10124,
+      "secondsAgo": 10422,
       "sourceId": 1793351827
     }
   ],
