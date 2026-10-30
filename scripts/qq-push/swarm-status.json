@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-30T21:35:44.466Z",
+  "fetchedAt": "2026-10-30T21:40:56.289Z",
   "swarms": [
     {
       "monsterId": 370,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-30T21:54:27.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 214,
+      "pokemon": "Heracross",
+      "region": "Unova",
+      "location": "Route 10",
+      "sourceId": 1793397881,
+      "despawnTimestamp": 1793397881,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-30T22:04:41.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Venusaur",
       "region": "Kanto",
       "location": "Berry Forest",
-      "secondsAgo": 5535,
+      "secondsAgo": 5847,
       "sourceId": 1793390609
     },
     {
@@ -27,7 +38,7 @@
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 2068,
+      "secondsAgo": 2380,
       "sourceId": 1793394076
     },
     {
@@ -35,16 +46,8 @@
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "secondsAgo": 3326,
+      "secondsAgo": 3638,
       "sourceId": 1793392818
-    },
-    {
-      "monsterId": 317,
-      "pokemon": "Swalot",
-      "region": "Unova",
-      "location": "Route 9",
-      "secondsAgo": 33632,
-      "sourceId": 1793362512
     }
   ],
   "alpha": {
