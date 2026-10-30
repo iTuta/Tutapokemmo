@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-30T04:25:45.777Z",
+  "fetchedAt": "2026-10-30T04:31:03.870Z",
   "swarms": [
-    {
-      "monsterId": 411,
-      "pokemon": "Bastiodon",
-      "region": "Kanto",
-      "location": "Monean Chamber",
-      "sourceId": 1793334471,
-      "despawnTimestamp": 1793334470,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-30T04:27:51.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 411,
+      "pokemon": "Bastiodon",
+      "region": "Kanto",
+      "location": "Monean Chamber",
+      "secondsAgo": 1692,
+      "sourceId": 1793332971
+    },
+    {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 22945,
+      "secondsAgo": 23263,
       "sourceId": 1793311400
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Swampert",
       "region": "Hoenn",
       "location": "Route 109",
-      "secondsAgo": 6567,
+      "secondsAgo": 6885,
       "sourceId": 1793327778
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 4792,
+      "secondsAgo": 5110,
       "sourceId": 1793329553
     }
   ],
