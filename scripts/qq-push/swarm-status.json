@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-30T20:06:22.376Z",
+  "fetchedAt": "2026-10-30T20:11:24.884Z",
   "swarms": [
-    {
-      "monsterId": 3,
-      "pokemon": "Venusaur",
-      "region": "Kanto",
-      "location": "Berry Forest",
-      "sourceId": 1793390908,
-      "despawnTimestamp": 1793390908,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-30T20:08:28.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
       "sourceId": 1793391827,
-      "despawnTimestamp": 1793391827,
+      "despawnTimestamp": 1793391826,
       "hasValuable": false,
       "timestampUtc": "2026-10-30T20:23:47.000Z",
       "publishedBy": ""
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 3,
+      "pokemon": "Venusaur",
+      "region": "Kanto",
+      "location": "Berry Forest",
+      "secondsAgo": 476,
+      "sourceId": 1793390608
+    },
+    {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Hoenn",
       "location": "Abandoned Ship",
-      "secondsAgo": 31863,
+      "secondsAgo": 32165,
       "sourceId": 1793358919
     },
     {
@@ -38,16 +35,16 @@
       "pokemon": "Chimecho",
       "region": "Sinnoh",
       "location": "Acuity Lakefront",
-      "secondsAgo": 3465,
-      "sourceId": 1793387317
+      "secondsAgo": 3768,
+      "sourceId": 1793387316
     },
     {
       "monsterId": 317,
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 28269,
-      "sourceId": 1793362513
+      "secondsAgo": 28572,
+      "sourceId": 1793362512
     }
   ],
   "alpha": {
