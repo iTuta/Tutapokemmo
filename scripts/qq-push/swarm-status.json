@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-30T04:05:47.871Z",
+  "fetchedAt": "2026-10-30T04:10:52.290Z",
   "swarms": [
     {
       "monsterId": 411,
@@ -7,9 +7,20 @@
       "region": "Kanto",
       "location": "Monean Chamber",
       "sourceId": 1793334471,
-      "despawnTimestamp": 1793334470,
+      "despawnTimestamp": 1793334471,
       "hasValuable": false,
       "timestampUtc": "2026-10-30T04:27:51.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 453,
+      "pokemon": "Croagunk",
+      "region": "Sinnoh",
+      "location": "Route 212",
+      "sourceId": 1793334688,
+      "despawnTimestamp": 1793334688,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-30T04:31:28.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,31 +30,23 @@
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 21747,
-      "sourceId": 1793311400
+      "secondsAgo": 22051,
+      "sourceId": 1793311401
     },
     {
       "monsterId": 260,
       "pokemon": "Swampert",
       "region": "Hoenn",
       "location": "Route 109",
-      "secondsAgo": 5369,
+      "secondsAgo": 5674,
       "sourceId": 1793327778
-    },
-    {
-      "monsterId": 387,
-      "pokemon": "Turtwig",
-      "region": "Sinnoh",
-      "location": "Route 203",
-      "secondsAgo": 3788,
-      "sourceId": 1793329359
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 3594,
+      "secondsAgo": 3899,
       "sourceId": 1793329553
     }
   ],
