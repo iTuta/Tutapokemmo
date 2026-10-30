@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-30T11:10:49.507Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-30T11:15:53.435Z",
+  "swarms": [
+    {
+      "monsterId": 442,
+      "pokemon": "Spiritomb",
+      "region": "Hoenn",
+      "location": "Abandoned Ship",
+      "sourceId": 1793360418,
+      "despawnTimestamp": 1793360418,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-30T11:40:18.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 141,
       "pokemon": "Kabutops",
       "region": "Kanto",
       "location": "Dilford Chamber",
-      "secondsAgo": 2769,
+      "secondsAgo": 3073,
       "sourceId": 1793355880
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Lucario",
       "region": "Johto",
       "location": "Mt. Silver Cave",
-      "secondsAgo": 6111,
+      "secondsAgo": 6415,
       "sourceId": 1793352538
-    },
-    {
-      "monsterId": 370,
-      "pokemon": "Luvdisc",
-      "region": "Hoenn",
-      "location": "Route 132",
-      "secondsAgo": 6777,
-      "sourceId": 1793351872
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 1701,
+      "secondsAgo": 2005,
       "sourceId": 1793356948
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Octillery",
       "region": "Unova",
       "location": "Route 13",
-      "secondsAgo": 6822,
+      "secondsAgo": 7126,
       "sourceId": 1793351827
     }
   ],
