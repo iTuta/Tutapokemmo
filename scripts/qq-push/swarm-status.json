@@ -1,33 +1,29 @@
 {
-  "fetchedAt": "2026-10-30T09:51:11.884Z",
-  "swarms": [
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Johto",
-      "location": "Mt. Silver Cave",
-      "sourceId": 1793354037,
-      "despawnTimestamp": 1793354037,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-30T09:53:57.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-30T09:56:04.632Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 6,
       "pokemon": "Charizard",
       "region": "Kanto",
       "location": "Mt. Ember",
-      "secondsAgo": 6307,
+      "secondsAgo": 6600,
       "sourceId": 1793347564
+    },
+    {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Johto",
+      "location": "Mt. Silver Cave",
+      "secondsAgo": 1626,
+      "sourceId": 1793352538
     },
     {
       "monsterId": 370,
       "pokemon": "Luvdisc",
       "region": "Hoenn",
       "location": "Route 132",
-      "secondsAgo": 1999,
+      "secondsAgo": 2292,
       "sourceId": 1793351872
     },
     {
@@ -35,7 +31,7 @@
       "pokemon": "Burmy",
       "region": "Sinnoh",
       "location": "Route 202",
-      "secondsAgo": 13649,
+      "secondsAgo": 13942,
       "sourceId": 1793340222
     },
     {
@@ -43,7 +39,7 @@
       "pokemon": "Octillery",
       "region": "Unova",
       "location": "Route 13",
-      "secondsAgo": 2044,
+      "secondsAgo": 2337,
       "sourceId": 1793351827
     }
   ],
