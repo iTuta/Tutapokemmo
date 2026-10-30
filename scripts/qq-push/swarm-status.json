@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-10-30T04:01:08.407Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-30T04:05:47.871Z",
+  "swarms": [
     {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
+      "monsterId": 411,
+      "pokemon": "Bastiodon",
       "region": "Kanto",
-      "location": "Pokemon Tower",
-      "secondsAgo": 13133,
-      "sourceId": 1793319735
-    },
+      "location": "Monean Chamber",
+      "sourceId": 1793334471,
+      "despawnTimestamp": 1793334470,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-30T04:27:51.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 21467,
-      "sourceId": 1793311401
+      "secondsAgo": 21747,
+      "sourceId": 1793311400
     },
     {
       "monsterId": 260,
       "pokemon": "Swampert",
       "region": "Hoenn",
       "location": "Route 109",
-      "secondsAgo": 5090,
+      "secondsAgo": 5369,
       "sourceId": 1793327778
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Turtwig",
       "region": "Sinnoh",
       "location": "Route 203",
-      "secondsAgo": 3509,
+      "secondsAgo": 3788,
       "sourceId": 1793329359
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 3315,
+      "secondsAgo": 3594,
       "sourceId": 1793329553
     }
   ],
