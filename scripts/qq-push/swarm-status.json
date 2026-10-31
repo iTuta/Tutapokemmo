@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-31T04:15:56.920Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-31T04:20:53.900Z",
+  "swarms": [
+    {
+      "monsterId": 314,
+      "pokemon": "Illumise",
+      "region": "Unova",
+      "location": "Moor of Icirrus",
+      "sourceId": 1793421701,
+      "despawnTimestamp": 1793421700,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-31T04:41:41.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 346,
       "pokemon": "Cradily",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 6461,
+      "secondsAgo": 6758,
       "sourceId": 1793413695
     },
     {
@@ -15,24 +27,16 @@
       "pokemon": "Pineco",
       "region": "Hoenn",
       "location": "Route 103",
-      "secondsAgo": 8108,
-      "sourceId": 1793412048
+      "secondsAgo": 8404,
+      "sourceId": 1793412049
     },
     {
       "monsterId": 352,
       "pokemon": "Kecleon",
       "region": "Sinnoh",
       "location": "Route 229",
-      "secondsAgo": 5451,
+      "secondsAgo": 5748,
       "sourceId": 1793414705
-    },
-    {
-      "monsterId": 127,
-      "pokemon": "Pinsir",
-      "region": "Unova",
-      "location": "Route 12",
-      "secondsAgo": 12373,
-      "sourceId": 1793407783
     }
   ],
   "alpha": {
