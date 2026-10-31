@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-31T10:05:41.211Z",
+  "fetchedAt": "2026-10-31T10:10:41.497Z",
   "swarms": [
+    {
+      "monsterId": 285,
+      "pokemon": "Shroomish",
+      "region": "Johto",
+      "location": "Route 34",
+      "sourceId": 1793442813,
+      "despawnTimestamp": 1793442813,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-31T10:33:33.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
@@ -19,23 +30,15 @@
       "pokemon": "Omastar",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 4048,
+      "secondsAgo": 4348,
       "sourceId": 1793437093
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Johto",
-      "location": "Route 37",
-      "secondsAgo": 7031,
-      "sourceId": 1793434110
     },
     {
       "monsterId": 349,
       "pokemon": "Feebas",
       "region": "Hoenn",
       "location": "Route 130",
-      "secondsAgo": 8444,
+      "secondsAgo": 8744,
       "sourceId": 1793432697
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Metagross",
       "region": "Unova",
       "location": "Giant Chasm",
-      "secondsAgo": 7579,
+      "secondsAgo": 7879,
       "sourceId": 1793433562
     }
   ],
