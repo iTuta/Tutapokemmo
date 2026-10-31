@@ -1,29 +1,36 @@
 {
-  "fetchedAt": "2026-10-31T14:25:56.938Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-31T14:31:02.250Z",
+  "swarms": [
     {
-      "monsterId": 346,
-      "pokemon": "Cradily",
+      "monsterId": 317,
+      "pokemon": "Swalot",
       "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 7614,
-      "sourceId": 1793449142
+      "location": "Route 18",
+      "sourceId": 1793458561,
+      "despawnTimestamp": 1793458561,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-31T14:56:01.000Z",
+      "publishedBy": ""
     },
     {
-      "monsterId": 154,
-      "pokemon": "Meganium",
+      "monsterId": 229,
+      "pokemon": "Houndoom",
       "region": "Johto",
-      "location": "Route 48",
-      "secondsAgo": 6903,
-      "sourceId": 1793449853
-    },
+      "location": "Burned Tower",
+      "sourceId": 1793458471,
+      "despawnTimestamp": 1793458470,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-31T14:54:31.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 257,
       "pokemon": "Blaziken",
       "region": "Hoenn",
       "location": "Magma Hideout",
-      "secondsAgo": 3493,
+      "secondsAgo": 3799,
       "sourceId": 1793453263
     },
     {
@@ -31,28 +38,20 @@
       "pokemon": "Zangoose",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 3121,
-      "sourceId": 1793453635
-    },
-    {
-      "monsterId": 331,
-      "pokemon": "Cacnea",
-      "region": "Unova",
-      "location": "Route 4",
-      "secondsAgo": 5257,
-      "sourceId": 1793451499
+      "secondsAgo": 3426,
+      "sourceId": 1793453636
     }
   ],
   "alpha": {
-    "monsterId": 572,
-    "pokemon": "Minccino",
+    "monsterId": 20,
+    "pokemon": "Raticate",
     "region": "Unova",
-    "location": "Route 16",
-    "sourceId": 1793421381,
-    "despawnTimestamp": 1793438481,
+    "location": "Mistralton Cave",
+    "sourceId": 1793444209,
+    "despawnTimestamp": 1793461309,
     "hasValuable": false,
-    "timestampUtc": "2026-10-31T04:36:21.000Z",
-    "timestampRaw": "2026-10-31T04:36:21.000Z",
+    "timestampUtc": "2026-10-31T10:56:49.000Z",
+    "timestampRaw": "2026-10-31T10:56:49.000Z",
     "publishedBy": ""
   }
 }
