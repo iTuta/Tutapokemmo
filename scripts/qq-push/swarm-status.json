@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-31T18:01:10.306Z",
+  "fetchedAt": "2026-10-31T18:05:56.855Z",
   "swarms": [
-    {
-      "monsterId": 290,
-      "pokemon": "Nincada",
-      "region": "Kanto",
-      "location": "Route 25",
-      "sourceId": 1793470821,
-      "despawnTimestamp": 1793470821,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-31T18:20:21.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Johto",
       "location": "Route 26",
       "sourceId": 1793470787,
-      "despawnTimestamp": 1793470787,
+      "despawnTimestamp": 1793470786,
       "hasValuable": false,
       "timestampUtc": "2026-10-31T18:19:47.000Z",
       "publishedBy": ""
@@ -33,24 +22,35 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-31T18:19:36.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Sinnoh",
+      "location": "Wayward Cave",
+      "sourceId": 1793471332,
+      "despawnTimestamp": 1793471331,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-31T18:28:52.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 391,
-      "pokemon": "Monferno",
-      "region": "Sinnoh",
-      "location": "Route 211",
-      "secondsAgo": 12472,
-      "sourceId": 1793457198
+      "monsterId": 290,
+      "pokemon": "Nincada",
+      "region": "Kanto",
+      "location": "Route 25",
+      "secondsAgo": 635,
+      "sourceId": 1793469321
     },
     {
       "monsterId": 331,
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 18170,
-      "sourceId": 1793451500
+      "secondsAgo": 18457,
+      "sourceId": 1793451499
     }
   ],
   "alpha": {
