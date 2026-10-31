@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-31T15:55:52.204Z",
+  "fetchedAt": "2026-10-31T16:01:08.892Z",
   "swarms": [
-    {
-      "monsterId": 346,
-      "pokemon": "Cradily",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "sourceId": 1793462356,
-      "despawnTimestamp": 1793462356,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-31T15:59:16.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
       "sourceId": 1793463085,
-      "despawnTimestamp": 1793463085,
+      "despawnTimestamp": 1793463084,
       "hasValuable": false,
       "timestampUtc": "2026-10-31T16:11:25.000Z",
       "publishedBy": ""
@@ -29,7 +18,7 @@
       "region": "Hoenn",
       "location": "Route 102",
       "sourceId": 1793463486,
-      "despawnTimestamp": 1793463486,
+      "despawnTimestamp": 1793463485,
       "hasValuable": false,
       "timestampUtc": "2026-10-31T16:18:06.000Z",
       "publishedBy": ""
@@ -37,20 +26,28 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 346,
+      "pokemon": "Cradily",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "secondsAgo": 1612,
+      "sourceId": 1793460856
+    },
+    {
       "monsterId": 391,
       "pokemon": "Monferno",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 4954,
-      "sourceId": 1793457198
+      "secondsAgo": 5271,
+      "sourceId": 1793457197
     },
     {
       "monsterId": 331,
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 10652,
-      "sourceId": 1793451500
+      "secondsAgo": 10969,
+      "sourceId": 1793451499
     }
   ],
   "alpha": {
