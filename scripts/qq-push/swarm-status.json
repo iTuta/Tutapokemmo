@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-31T15:50:57.466Z",
+  "fetchedAt": "2026-10-31T15:55:52.204Z",
   "swarms": [
     {
       "monsterId": 346,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Tanoby Ruins",
       "sourceId": 1793462356,
-      "despawnTimestamp": 1793462355,
+      "despawnTimestamp": 1793462356,
       "hasValuable": false,
       "timestampUtc": "2026-10-31T15:59:16.000Z",
       "publishedBy": ""
@@ -22,23 +22,26 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-31T16:11:25.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Hoenn",
+      "location": "Route 102",
+      "sourceId": 1793463486,
+      "despawnTimestamp": 1793463486,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-31T16:18:06.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 257,
-      "pokemon": "Blaziken",
-      "region": "Hoenn",
-      "location": "Magma Hideout",
-      "secondsAgo": 8594,
-      "sourceId": 1793453263
-    },
     {
       "monsterId": 391,
       "pokemon": "Monferno",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 4659,
+      "secondsAgo": 4954,
       "sourceId": 1793457198
     },
     {
@@ -46,8 +49,8 @@
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 10358,
-      "sourceId": 1793451499
+      "secondsAgo": 10652,
+      "sourceId": 1793451500
     }
   ],
   "alpha": {
