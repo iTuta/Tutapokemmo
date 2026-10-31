@@ -1,36 +1,21 @@
 {
-  "fetchedAt": "2026-10-31T14:55:47.935Z",
-  "swarms": [
+  "fetchedAt": "2026-10-31T15:01:04.734Z",
+  "swarms": [],
+  "lastSeen": [
     {
       "monsterId": 317,
       "pokemon": "Swalot",
       "region": "Kanto",
       "location": "Route 18",
-      "sourceId": 1793458561,
-      "despawnTimestamp": 1793458560,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-31T14:56:01.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1803,
+      "sourceId": 1793457061
     },
-    {
-      "monsterId": 391,
-      "pokemon": "Monferno",
-      "region": "Sinnoh",
-      "location": "Route 211",
-      "sourceId": 1793458697,
-      "despawnTimestamp": 1793458696,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-31T14:58:17.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 1576,
+      "secondsAgo": 1893,
       "sourceId": 1793456971
     },
     {
@@ -38,8 +23,16 @@
       "pokemon": "Blaziken",
       "region": "Hoenn",
       "location": "Magma Hideout",
-      "secondsAgo": 5284,
+      "secondsAgo": 5601,
       "sourceId": 1793453263
+    },
+    {
+      "monsterId": 391,
+      "pokemon": "Monferno",
+      "region": "Sinnoh",
+      "location": "Route 211",
+      "secondsAgo": 1667,
+      "sourceId": 1793457197
     }
   ],
   "alpha": {
