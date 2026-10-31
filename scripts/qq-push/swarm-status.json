@@ -1,53 +1,46 @@
 {
-  "fetchedAt": "2026-10-31T03:05:48.490Z",
-  "swarms": [
-    {
-      "monsterId": 290,
-      "pokemon": "Nincada",
-      "region": "Johto",
-      "location": "Route 46",
-      "sourceId": 1793416136,
-      "despawnTimestamp": 1793416136,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-31T03:08:56.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 352,
-      "pokemon": "Kecleon",
-      "region": "Sinnoh",
-      "location": "Route 229",
-      "sourceId": 1793416205,
-      "despawnTimestamp": 1793416205,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-31T03:10:05.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-10-31T03:10:47.944Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 346,
       "pokemon": "Cradily",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 2253,
+      "secondsAgo": 2552,
       "sourceId": 1793413695
+    },
+    {
+      "monsterId": 290,
+      "pokemon": "Nincada",
+      "region": "Johto",
+      "location": "Route 46",
+      "secondsAgo": 1611,
+      "sourceId": 1793414636
     },
     {
       "monsterId": 204,
       "pokemon": "Pineco",
       "region": "Hoenn",
       "location": "Route 103",
-      "secondsAgo": 3899,
-      "sourceId": 1793412049
+      "secondsAgo": 4199,
+      "sourceId": 1793412048
+    },
+    {
+      "monsterId": 352,
+      "pokemon": "Kecleon",
+      "region": "Sinnoh",
+      "location": "Route 229",
+      "secondsAgo": 1542,
+      "sourceId": 1793414705
     },
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Unova",
       "location": "Route 12",
-      "secondsAgo": 8164,
-      "sourceId": 1793407784
+      "secondsAgo": 8464,
+      "sourceId": 1793407783
     }
   ],
   "alpha": {
