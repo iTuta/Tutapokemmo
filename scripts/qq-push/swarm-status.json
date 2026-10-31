@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-31T13:25:51.587Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-31T13:30:55.166Z",
+  "swarms": [
+    {
+      "monsterId": 257,
+      "pokemon": "Blaziken",
+      "region": "Hoenn",
+      "location": "Magma Hideout",
+      "sourceId": 1793454763,
+      "despawnTimestamp": 1793454763,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-31T13:52:43.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 346,
       "pokemon": "Cradily",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 4008,
+      "secondsAgo": 4312,
       "sourceId": 1793449143
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 3298,
+      "secondsAgo": 3602,
       "sourceId": 1793449853
-    },
-    {
-      "monsterId": 349,
-      "pokemon": "Feebas",
-      "region": "Hoenn",
-      "location": "Route 130",
-      "secondsAgo": 7628,
-      "sourceId": 1793445523
     },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 12775,
+      "secondsAgo": 13079,
       "sourceId": 1793440376
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 1652,
-      "sourceId": 1793451499
+      "secondsAgo": 1955,
+      "sourceId": 1793451500
     }
   ],
   "alpha": {
