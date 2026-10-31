@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-31T20:55:40.449Z",
+  "fetchedAt": "2026-10-31T21:01:17.141Z",
   "swarms": [
+    {
+      "monsterId": 314,
+      "pokemon": "Illumise",
+      "region": "Kanto",
+      "location": "Water Path",
+      "sourceId": 1793481651,
+      "despawnTimestamp": 1793481651,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-31T21:20:51.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 211,
       "pokemon": "Qwilfish",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 290,
-      "pokemon": "Nincada",
-      "region": "Kanto",
-      "location": "Route 25",
-      "secondsAgo": 10818,
-      "sourceId": 1793469322
-    },
-    {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Johto",
       "location": "Route 29",
-      "secondsAgo": 1880,
+      "secondsAgo": 2217,
       "sourceId": 1793478260
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Scyther",
       "region": "Sinnoh",
       "location": "Route 210",
-      "secondsAgo": 3474,
+      "secondsAgo": 3811,
       "sourceId": 1793476666
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Aipom",
       "region": "Unova",
       "location": "Cold Storage",
-      "secondsAgo": 7908,
+      "secondsAgo": 8245,
       "sourceId": 1793472232
     }
   ],
