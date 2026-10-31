@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-31T21:45:52.494Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-31T21:50:49.476Z",
+  "swarms": [
     {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Johto",
       "location": "Route 29",
-      "secondsAgo": 4892,
-      "sourceId": 1793478260
-    },
+      "sourceId": 1793484705,
+      "despawnTimestamp": 1793484705,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-31T22:11:45.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 211,
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 3535,
+      "secondsAgo": 3832,
       "sourceId": 1793479617
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Scyther",
       "region": "Sinnoh",
       "location": "Route 210",
-      "secondsAgo": 6486,
+      "secondsAgo": 6783,
       "sourceId": 1793476666
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Aipom",
       "region": "Unova",
       "location": "Cold Storage",
-      "secondsAgo": 10920,
+      "secondsAgo": 11217,
       "sourceId": 1793472232
     }
   ],
