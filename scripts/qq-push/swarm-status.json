@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-31T05:55:38.326Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-31T06:01:05.020Z",
+  "swarms": [
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Sinnoh",
+      "location": "Wayward Cave",
+      "sourceId": 1793427943,
+      "despawnTimestamp": 1793427943,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-31T06:25:43.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 4,
       "pokemon": "Charmander",
       "region": "Kanto",
       "location": "Route 3",
-      "secondsAgo": 5392,
+      "secondsAgo": 5718,
       "sourceId": 1793420746
     },
     {
@@ -15,31 +27,23 @@
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 11501,
-      "sourceId": 1793414637
+      "secondsAgo": 11828,
+      "sourceId": 1793414636
     },
     {
       "monsterId": 517,
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 4008,
+      "secondsAgo": 4334,
       "sourceId": 1793422130
-    },
-    {
-      "monsterId": 352,
-      "pokemon": "Kecleon",
-      "region": "Sinnoh",
-      "location": "Route 229",
-      "secondsAgo": 11432,
-      "sourceId": 1793414706
     },
     {
       "monsterId": 314,
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 5937,
+      "secondsAgo": 6263,
       "sourceId": 1793420201
     }
   ],
