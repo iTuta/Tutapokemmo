@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-31T06:55:43.584Z",
+  "fetchedAt": "2026-10-31T07:01:03.467Z",
   "swarms": [
     {
       "monsterId": 369,
@@ -11,23 +11,26 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-31T07:12:48.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Johto",
+      "location": "Sprout Tower",
+      "sourceId": 1793431385,
+      "despawnTimestamp": 1793431385,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-31T07:23:05.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 290,
-      "pokemon": "Nincada",
-      "region": "Johto",
-      "location": "Route 46",
-      "secondsAgo": 15107,
-      "sourceId": 1793414636
-    },
     {
       "monsterId": 517,
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 7613,
+      "secondsAgo": 7933,
       "sourceId": 1793422130
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Kangaskhan",
       "region": "Sinnoh",
       "location": "Wayward Cave",
-      "secondsAgo": 3299,
+      "secondsAgo": 3619,
       "sourceId": 1793426444
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 9542,
+      "secondsAgo": 9862,
       "sourceId": 1793420201
     }
   ],
