@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-31T22:10:43.222Z",
+  "fetchedAt": "2026-10-31T22:15:53.296Z",
   "swarms": [
-    {
-      "monsterId": 190,
-      "pokemon": "Aipom",
-      "region": "Johto",
-      "location": "Route 29",
-      "sourceId": 1793484705,
-      "despawnTimestamp": 1793484705,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-31T22:11:45.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 441,
       "pokemon": "Chatot",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 190,
+      "pokemon": "Aipom",
+      "region": "Johto",
+      "location": "Route 29",
+      "secondsAgo": 1747,
+      "sourceId": 1793483206
+    },
+    {
       "monsterId": 123,
       "pokemon": "Scyther",
       "region": "Sinnoh",
       "location": "Route 210",
-      "secondsAgo": 7977,
+      "secondsAgo": 8287,
       "sourceId": 1793476666
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Aipom",
       "region": "Unova",
       "location": "Cold Storage",
-      "secondsAgo": 12411,
+      "secondsAgo": 12721,
       "sourceId": 1793472232
     }
   ],
