@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-10-31T01:55:44.927Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-31T02:01:04.777Z",
+  "swarms": [
+    {
+      "monsterId": 204,
+      "pokemon": "Pineco",
+      "region": "Hoenn",
+      "location": "Route 103",
+      "sourceId": 1793413548,
+      "despawnTimestamp": 1793413548,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-31T02:25:48.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Kanto",
       "location": "Icefall Cave",
-      "secondsAgo": 11530,
+      "secondsAgo": 11850,
       "sourceId": 1793400214
     },
     {
@@ -15,32 +27,24 @@
       "pokemon": "Shuckle",
       "region": "Johto",
       "location": "Cliff Cave",
-      "secondsAgo": 2368,
+      "secondsAgo": 2688,
       "sourceId": 1793409376
-    },
-    {
-      "monsterId": 370,
-      "pokemon": "Luvdisc",
-      "region": "Hoenn",
-      "location": "Route 132",
-      "secondsAgo": 15976,
-      "sourceId": 1793395768
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 7927,
-      "sourceId": 1793403817
+      "secondsAgo": 8246,
+      "sourceId": 1793403818
     },
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Unova",
       "location": "Route 12",
-      "secondsAgo": 3961,
-      "sourceId": 1793407783
+      "secondsAgo": 4280,
+      "sourceId": 1793407784
     }
   ],
   "alpha": {
