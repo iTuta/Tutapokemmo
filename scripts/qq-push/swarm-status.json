@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-10-31T04:20:53.900Z",
+  "fetchedAt": "2026-10-31T04:26:00.593Z",
   "swarms": [
+    {
+      "monsterId": 4,
+      "pokemon": "Charmander",
+      "region": "Kanto",
+      "location": "Route 3",
+      "sourceId": 1793422246,
+      "despawnTimestamp": 1793422245,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-31T04:50:46.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 314,
       "pokemon": "Illumise",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 346,
-      "pokemon": "Cradily",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 6758,
-      "sourceId": 1793413695
-    },
-    {
       "monsterId": 204,
       "pokemon": "Pineco",
       "region": "Hoenn",
       "location": "Route 103",
-      "secondsAgo": 8404,
+      "secondsAgo": 8711,
       "sourceId": 1793412049
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Kecleon",
       "region": "Sinnoh",
       "location": "Route 229",
-      "secondsAgo": 5748,
+      "secondsAgo": 6055,
       "sourceId": 1793414705
     }
   ],
