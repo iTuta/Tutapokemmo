@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-31T12:25:46.507Z",
+  "fetchedAt": "2026-10-31T12:30:59.354Z",
   "swarms": [
     {
       "monsterId": 346,
@@ -11,23 +11,26 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-31T12:44:02.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 154,
+      "pokemon": "Meganium",
+      "region": "Johto",
+      "location": "Route 48",
+      "sourceId": 1793451352,
+      "despawnTimestamp": 1793451352,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-31T12:55:52.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 285,
-      "pokemon": "Shroomish",
-      "region": "Johto",
-      "location": "Route 34",
-      "secondsAgo": 8232,
-      "sourceId": 1793441314
-    },
     {
       "monsterId": 349,
       "pokemon": "Feebas",
       "region": "Hoenn",
       "location": "Route 130",
-      "secondsAgo": 4023,
+      "secondsAgo": 4336,
       "sourceId": 1793445523
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Skitty",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 9170,
+      "secondsAgo": 9483,
       "sourceId": 1793440376
     },
     {
@@ -43,8 +46,8 @@
       "pokemon": "Metagross",
       "region": "Unova",
       "location": "Giant Chasm",
-      "secondsAgo": 15985,
-      "sourceId": 1793433561
+      "secondsAgo": 16297,
+      "sourceId": 1793433562
     }
   ],
   "alpha": {
