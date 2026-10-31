@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-31T07:50:47.503Z",
+  "fetchedAt": "2026-10-31T07:55:46.344Z",
   "swarms": [
     {
       "monsterId": 349,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-31T08:09:56.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 412,
+      "pokemon": "Burmy",
+      "region": "Sinnoh",
+      "location": "Route 202",
+      "sourceId": 1793434755,
+      "despawnTimestamp": 1793434754,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-31T08:19:15.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Relicanth",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 3418,
+      "secondsAgo": 3717,
       "sourceId": 1793429629
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Misdreavus",
       "region": "Johto",
       "location": "Sprout Tower",
-      "secondsAgo": 3161,
+      "secondsAgo": 3460,
       "sourceId": 1793429886
-    },
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Sinnoh",
-      "location": "Wayward Cave",
-      "secondsAgo": 6603,
-      "sourceId": 1793426444
     },
     {
       "monsterId": 314,
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 12846,
+      "secondsAgo": 13145,
       "sourceId": 1793420201
     }
   ],
