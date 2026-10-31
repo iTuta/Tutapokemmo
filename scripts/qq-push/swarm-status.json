@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-31T14:31:02.250Z",
+  "fetchedAt": "2026-10-31T14:35:39.192Z",
   "swarms": [
     {
       "monsterId": 317,
@@ -22,6 +22,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-31T14:54:31.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 391,
+      "pokemon": "Monferno",
+      "region": "Sinnoh",
+      "location": "Route 211",
+      "sourceId": 1793458697,
+      "despawnTimestamp": 1793458697,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-31T14:58:17.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,16 +41,8 @@
       "pokemon": "Blaziken",
       "region": "Hoenn",
       "location": "Magma Hideout",
-      "secondsAgo": 3799,
+      "secondsAgo": 4076,
       "sourceId": 1793453263
-    },
-    {
-      "monsterId": 335,
-      "pokemon": "Zangoose",
-      "region": "Sinnoh",
-      "location": "Route 205",
-      "secondsAgo": 3426,
-      "sourceId": 1793453636
     }
   ],
   "alpha": {
