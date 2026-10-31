@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-31T07:10:51.617Z",
+  "fetchedAt": "2026-10-31T07:15:51.413Z",
   "swarms": [
-    {
-      "monsterId": 369,
-      "pokemon": "Relicanth",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "sourceId": 1793430768,
-      "despawnTimestamp": 1793430768,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-31T07:12:48.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 369,
+      "pokemon": "Relicanth",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "secondsAgo": 1322,
+      "sourceId": 1793429629
+    },
+    {
       "monsterId": 517,
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 8521,
+      "secondsAgo": 8821,
       "sourceId": 1793422130
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Kangaskhan",
       "region": "Sinnoh",
       "location": "Wayward Cave",
-      "secondsAgo": 4207,
+      "secondsAgo": 4507,
       "sourceId": 1793426444
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 10450,
+      "secondsAgo": 10750,
       "sourceId": 1793420201
     }
   ],
