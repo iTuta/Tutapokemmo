@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-31T15:31:07.820Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-31T15:35:47.210Z",
+  "swarms": [
     {
-      "monsterId": 317,
-      "pokemon": "Swalot",
+      "monsterId": 346,
+      "pokemon": "Cradily",
       "region": "Kanto",
-      "location": "Route 18",
-      "secondsAgo": 3606,
-      "sourceId": 1793457061
-    },
+      "location": "Tanoby Ruins",
+      "sourceId": 1793462356,
+      "despawnTimestamp": 1793462355,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-31T15:59:16.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 3696,
+      "secondsAgo": 3976,
       "sourceId": 1793456971
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Blaziken",
       "region": "Hoenn",
       "location": "Magma Hideout",
-      "secondsAgo": 7404,
+      "secondsAgo": 7684,
       "sourceId": 1793453263
     },
     {
@@ -31,8 +35,8 @@
       "pokemon": "Monferno",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 3470,
-      "sourceId": 1793457197
+      "secondsAgo": 3749,
+      "sourceId": 1793457198
     }
   ],
   "alpha": {
