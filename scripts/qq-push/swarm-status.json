@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-31T19:05:50.165Z",
+  "fetchedAt": "2026-10-31T19:10:47.060Z",
   "swarms": [
     {
       "monsterId": 160,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-31T19:23:42.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 190,
-      "pokemon": "Aipom",
-      "region": "Unova",
-      "location": "Cold Storage",
-      "sourceId": 1793473731,
-      "despawnTimestamp": 1793473731,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-31T19:08:51.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Nincada",
       "region": "Kanto",
       "location": "Route 25",
-      "secondsAgo": 4228,
+      "secondsAgo": 4525,
       "sourceId": 1793469322
     },
     {
@@ -38,16 +27,24 @@
       "pokemon": "Zorua",
       "region": "Hoenn",
       "location": "Route 101",
-      "secondsAgo": 4274,
-      "sourceId": 1793469276
+      "secondsAgo": 4570,
+      "sourceId": 1793469277
     },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Sinnoh",
       "location": "Wayward Cave",
-      "secondsAgo": 3717,
+      "secondsAgo": 4014,
       "sourceId": 1793469833
+    },
+    {
+      "monsterId": 190,
+      "pokemon": "Aipom",
+      "region": "Unova",
+      "location": "Cold Storage",
+      "secondsAgo": 1615,
+      "sourceId": 1793472232
     }
   ],
   "alpha": {
