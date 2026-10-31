@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-10-31T12:40:53.995Z",
+  "fetchedAt": "2026-10-31T12:45:45.946Z",
   "swarms": [
-    {
-      "monsterId": 346,
-      "pokemon": "Cradily",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "sourceId": 1793450642,
-      "despawnTimestamp": 1793450641,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-31T12:44:02.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 154,
       "pokemon": "Meganium",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 346,
+      "pokemon": "Cradily",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "secondsAgo": 1603,
+      "sourceId": 1793449142
+    },
+    {
       "monsterId": 349,
       "pokemon": "Feebas",
       "region": "Hoenn",
       "location": "Route 130",
-      "secondsAgo": 4931,
+      "secondsAgo": 5223,
       "sourceId": 1793445522
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Skitty",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 10078,
+      "secondsAgo": 10370,
       "sourceId": 1793440375
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Metagross",
       "region": "Unova",
       "location": "Giant Chasm",
-      "secondsAgo": 16892,
+      "secondsAgo": 17184,
       "sourceId": 1793433561
     }
   ],
