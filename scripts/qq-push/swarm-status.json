@@ -1,45 +1,49 @@
 {
-  "fetchedAt": "2026-10-31T19:55:43.798Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-31T20:01:12.132Z",
+  "swarms": [
+    {
+      "monsterId": 123,
+      "pokemon": "Scyther",
+      "region": "Sinnoh",
+      "location": "Route 210",
+      "sourceId": 1793478165,
+      "despawnTimestamp": 1793478166,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-31T20:22:45.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Kanto",
       "location": "Route 25",
-      "secondsAgo": 7222,
-      "sourceId": 1793469321
+      "secondsAgo": 7550,
+      "sourceId": 1793469322
     },
     {
       "monsterId": 160,
       "pokemon": "Feraligatr",
       "region": "Johto",
       "location": "Tohjo Falls",
-      "secondsAgo": 3421,
-      "sourceId": 1793473122
+      "secondsAgo": 3749,
+      "sourceId": 1793473123
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Hoenn",
       "location": "Route 101",
-      "secondsAgo": 7267,
-      "sourceId": 1793469276
-    },
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Sinnoh",
-      "location": "Wayward Cave",
-      "secondsAgo": 6711,
-      "sourceId": 1793469832
+      "secondsAgo": 7595,
+      "sourceId": 1793469277
     },
     {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Unova",
       "location": "Cold Storage",
-      "secondsAgo": 4311,
+      "secondsAgo": 4640,
       "sourceId": 1793472232
     }
   ],
