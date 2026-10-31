@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-10-31T08:55:49.822Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-10-31T09:01:04.862Z",
+  "swarms": [
     {
-      "monsterId": 369,
-      "pokemon": "Relicanth",
+      "monsterId": 139,
+      "pokemon": "Omastar",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 7321,
-      "sourceId": 1793429628
-    },
+      "sourceId": 1793438592,
+      "despawnTimestamp": 1793438592,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-31T09:23:12.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 2840,
+      "secondsAgo": 3155,
       "sourceId": 1793434109
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Feebas",
       "region": "Hoenn",
       "location": "Route 130",
-      "secondsAgo": 4253,
+      "secondsAgo": 4568,
       "sourceId": 1793432696
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Burmy",
       "region": "Sinnoh",
       "location": "Route 202",
-      "secondsAgo": 3694,
+      "secondsAgo": 4009,
       "sourceId": 1793433255
     }
   ],
