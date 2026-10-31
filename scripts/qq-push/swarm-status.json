@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-31T22:01:09.072Z",
+  "fetchedAt": "2026-10-31T22:05:44.176Z",
   "swarms": [
     {
       "monsterId": 190,
@@ -11,31 +11,34 @@
       "hasValuable": false,
       "timestampUtc": "2026-10-31T22:11:45.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 441,
+      "pokemon": "Chatot",
+      "region": "Hoenn",
+      "location": "Route 115",
+      "sourceId": 1793485608,
+      "despawnTimestamp": 1793485608,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-31T22:26:48.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 211,
-      "pokemon": "Qwilfish",
-      "region": "Hoenn",
-      "location": "Route 125",
-      "secondsAgo": 4452,
-      "sourceId": 1793479617
-    },
     {
       "monsterId": 123,
       "pokemon": "Scyther",
       "region": "Sinnoh",
       "location": "Route 210",
-      "secondsAgo": 7402,
-      "sourceId": 1793476667
+      "secondsAgo": 7678,
+      "sourceId": 1793476666
     },
     {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Unova",
       "location": "Cold Storage",
-      "secondsAgo": 11837,
+      "secondsAgo": 12112,
       "sourceId": 1793472232
     }
   ],
