@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-10-31T07:40:50.849Z",
-  "swarms": [],
+  "fetchedAt": "2026-10-31T07:45:56.346Z",
+  "swarms": [
+    {
+      "monsterId": 349,
+      "pokemon": "Feebas",
+      "region": "Hoenn",
+      "location": "Route 130",
+      "sourceId": 1793434196,
+      "despawnTimestamp": 1793434196,
+      "hasValuable": false,
+      "timestampUtc": "2026-10-31T08:09:56.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 2822,
-      "sourceId": 1793429628
+      "secondsAgo": 3127,
+      "sourceId": 1793429629
     },
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Johto",
       "location": "Sprout Tower",
-      "secondsAgo": 2565,
-      "sourceId": 1793429885
-    },
-    {
-      "monsterId": 517,
-      "pokemon": "Munna",
-      "region": "Hoenn",
-      "location": "Route 102",
-      "secondsAgo": 10320,
-      "sourceId": 1793422130
+      "secondsAgo": 2870,
+      "sourceId": 1793429886
     },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Sinnoh",
       "location": "Wayward Cave",
-      "secondsAgo": 6006,
+      "secondsAgo": 6312,
       "sourceId": 1793426444
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 12249,
+      "secondsAgo": 12555,
       "sourceId": 1793420201
     }
   ],
