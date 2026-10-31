@@ -1,35 +1,13 @@
 {
-  "fetchedAt": "2026-10-31T18:15:52.428Z",
+  "fetchedAt": "2026-10-31T18:20:47.922Z",
   "swarms": [
-    {
-      "monsterId": 227,
-      "pokemon": "Skarmory",
-      "region": "Johto",
-      "location": "Route 26",
-      "sourceId": 1793470787,
-      "despawnTimestamp": 1793470787,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-31T18:19:47.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Hoenn",
-      "location": "Route 101",
-      "sourceId": 1793470776,
-      "despawnTimestamp": 1793470775,
-      "hasValuable": false,
-      "timestampUtc": "2026-10-31T18:19:36.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Sinnoh",
       "location": "Wayward Cave",
       "sourceId": 1793471332,
-      "despawnTimestamp": 1793471332,
+      "despawnTimestamp": 1793471331,
       "hasValuable": false,
       "timestampUtc": "2026-10-31T18:28:52.000Z",
       "publishedBy": ""
@@ -41,15 +19,31 @@
       "pokemon": "Nincada",
       "region": "Kanto",
       "location": "Route 25",
-      "secondsAgo": 1230,
-      "sourceId": 1793469322
+      "secondsAgo": 1526,
+      "sourceId": 1793469321
+    },
+    {
+      "monsterId": 227,
+      "pokemon": "Skarmory",
+      "region": "Johto",
+      "location": "Route 26",
+      "secondsAgo": 1560,
+      "sourceId": 1793469287
+    },
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Hoenn",
+      "location": "Route 101",
+      "secondsAgo": 1571,
+      "sourceId": 1793469276
     },
     {
       "monsterId": 331,
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 19053,
+      "secondsAgo": 19348,
       "sourceId": 1793451499
     }
   ],
