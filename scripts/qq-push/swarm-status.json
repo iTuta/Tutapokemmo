@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-01T15:40:50.251Z",
+  "fetchedAt": "2026-11-01T15:45:46.278Z",
   "swarms": [
-    {
-      "monsterId": 167,
-      "pokemon": "Spinarak",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793547909,
-      "despawnTimestamp": 1793547909,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-01T15:45:09.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 261,
       "pokemon": "Poochyena",
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 167,
+      "pokemon": "Spinarak",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 936,
+      "sourceId": 1793547010
+    },
+    {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1034,
+      "secondsAgo": 1330,
       "sourceId": 1793546616
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "Spinarak",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1451,
+      "secondsAgo": 1747,
       "sourceId": 1793546199
     }
   ],
