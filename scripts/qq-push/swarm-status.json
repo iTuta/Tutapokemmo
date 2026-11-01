@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-01T05:31:02.987Z",
+  "fetchedAt": "2026-11-01T05:35:42.173Z",
   "swarms": [
     {
       "monsterId": 104,
@@ -7,31 +7,9 @@
       "region": "Kanto",
       "location": "",
       "sourceId": 1793511514,
-      "despawnTimestamp": 1793511513,
+      "despawnTimestamp": 1793511514,
       "hasValuable": false,
       "timestampUtc": "2026-11-01T05:38:34.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 163,
-      "pokemon": "Hoothoot",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1793511188,
-      "despawnTimestamp": 1793511187,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-01T05:33:08.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 23,
-      "pokemon": "Ekans",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1793511161,
-      "despawnTimestamp": 1793511160,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-01T05:32:41.000Z",
       "publishedBy": ""
     },
     {
@@ -46,7 +24,24 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [],
+  "lastSeen": [
+    {
+      "monsterId": 163,
+      "pokemon": "Hoothoot",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 453,
+      "sourceId": 1793510889
+    },
+    {
+      "monsterId": 23,
+      "pokemon": "Ekans",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 1680,
+      "sourceId": 1793509662
+    }
+  ],
   "alpha": {
     "monsterId": 241,
     "pokemon": "Miltank",
