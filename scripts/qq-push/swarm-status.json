@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-01T20:01:08.382Z",
+  "fetchedAt": "2026-11-01T20:05:44.421Z",
   "swarms": [
+    {
+      "monsterId": 425,
+      "pokemon": "Drifloon",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1793564275,
+      "despawnTimestamp": 1793564275,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-01T20:17:55.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 425,
       "pokemon": "Drifloon",
@@ -10,17 +21,6 @@
       "despawnTimestamp": 1793564145,
       "hasValuable": false,
       "timestampUtc": "2026-11-01T20:15:46.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 425,
-      "pokemon": "Drifloon",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1793563299,
-      "despawnTimestamp": 1793563299,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-01T20:01:39.000Z",
       "publishedBy": ""
     },
     {
@@ -37,20 +37,20 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 92,
-      "pokemon": "Gastly",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 2435,
-      "sourceId": 1793560833
-    },
-    {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1540,
+      "secondsAgo": 1816,
       "sourceId": 1793561728
+    },
+    {
+      "monsterId": 425,
+      "pokemon": "Drifloon",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 1145,
+      "sourceId": 1793562399
     }
   ],
   "alpha": {
