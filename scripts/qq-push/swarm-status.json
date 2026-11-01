@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-01T08:01:05.923Z",
+  "fetchedAt": "2026-11-01T08:05:51.474Z",
   "swarms": [
-    {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793520278,
-      "despawnTimestamp": 1793520278,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-01T08:04:38.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 96,
       "pokemon": "Drowzee",
@@ -22,16 +11,27 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-01T08:15:19.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Unova",
+      "location": "",
+      "sourceId": 1793521837,
+      "despawnTimestamp": 1793521837,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-01T08:30:37.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 163,
-      "pokemon": "Hoothoot",
-      "region": "Unova",
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Kanto",
       "location": "",
-      "secondsAgo": 1438,
-      "sourceId": 1793518627
+      "secondsAgo": 1572,
+      "sourceId": 1793518779
     }
   ],
   "alpha": {
