@@ -1,53 +1,56 @@
 {
-  "fetchedAt": "2026-11-01T19:31:02.114Z",
+  "fetchedAt": "2026-11-01T19:35:48.822Z",
   "swarms": [
-    {
-      "monsterId": 92,
-      "pokemon": "Gastly",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793561732,
-      "despawnTimestamp": 1793561732,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-01T19:35:32.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 23,
       "pokemon": "Ekans",
       "region": "Johto",
       "location": "",
       "sourceId": 1793561777,
-      "despawnTimestamp": 1793561777,
+      "despawnTimestamp": 1793561776,
       "hasValuable": false,
       "timestampUtc": "2026-11-01T19:36:17.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 425,
+      "pokemon": "Drifloon",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1793562628,
+      "despawnTimestamp": 1793562627,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-01T19:50:28.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 302,
+      "pokemon": "Sableye",
+      "region": "Unova",
+      "location": "",
+      "sourceId": 1793562381,
+      "despawnTimestamp": 1793562380,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-01T19:46:21.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 353,
-      "pokemon": "Shuppet",
-      "region": "Hoenn",
+      "monsterId": 92,
+      "pokemon": "Gastly",
+      "region": "Kanto",
       "location": "",
-      "secondsAgo": 1838,
-      "sourceId": 1793559624
+      "secondsAgo": 915,
+      "sourceId": 1793560833
     },
     {
       "monsterId": 207,
       "pokemon": "Gligar",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1346,
-      "sourceId": 1793560116
-    },
-    {
-      "monsterId": 23,
-      "pokemon": "Ekans",
-      "region": "Unova",
-      "location": "",
-      "secondsAgo": 2617,
-      "sourceId": 1793558845
+      "secondsAgo": 1633,
+      "sourceId": 1793560115
     }
   ],
   "alpha": {
