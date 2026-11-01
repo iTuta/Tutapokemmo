@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-01T05:20:47.109Z",
+  "fetchedAt": "2026-11-01T05:26:01.200Z",
   "swarms": [
     {
       "monsterId": 104,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1793511514,
       "hasValuable": false,
       "timestampUtc": "2026-11-01T05:38:34.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 163,
+      "pokemon": "Hoothoot",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1793510845,
+      "despawnTimestamp": 1793510845,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-01T05:27:25.000Z",
       "publishedBy": ""
     },
     {
@@ -35,16 +46,7 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [
-    {
-      "monsterId": 163,
-      "pokemon": "Hoothoot",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 1692,
-      "sourceId": 1793508755
-    }
-  ],
+  "lastSeen": [],
   "alpha": {
     "monsterId": 241,
     "pokemon": "Miltank",
