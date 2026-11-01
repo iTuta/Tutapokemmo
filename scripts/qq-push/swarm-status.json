@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-01T10:10:48.908Z",
+  "fetchedAt": "2026-11-01T10:15:59.497Z",
   "swarms": [
     {
       "monsterId": 228,
@@ -24,17 +24,6 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 167,
-      "pokemon": "Spinarak",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1793528108,
-      "despawnTimestamp": 1793528107,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-01T10:15:08.000Z",
-      "publishedBy": ""
-    },
-    {
       "monsterId": 23,
       "pokemon": "ekans",
       "region": "Unova",
@@ -46,7 +35,16 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [],
+  "lastSeen": [
+    {
+      "monsterId": 167,
+      "pokemon": "Spinarak",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 1550,
+      "sourceId": 1793526609
+    }
+  ],
   "alpha": {
     "monsterId": 125,
     "pokemon": "Electabuzz",
