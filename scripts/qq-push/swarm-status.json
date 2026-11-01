@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-01T00:10:46.723Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-01T00:22:52.893Z",
+  "swarms": [
+    {
+      "monsterId": 317,
+      "pokemon": "Swalot",
+      "region": "Unova",
+      "location": "Route 9",
+      "sourceId": 1793494006,
+      "despawnTimestamp": 1793494005,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-01T00:46:46.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 314,
       "pokemon": "Illumise",
       "region": "Kanto",
       "location": "Water Path",
-      "secondsAgo": 11694,
+      "secondsAgo": 12420,
       "sourceId": 1793480152
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 2396,
+      "secondsAgo": 3122,
       "sourceId": 1793489450
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Chatot",
       "region": "Hoenn",
       "location": "Route 115",
-      "secondsAgo": 7738,
+      "secondsAgo": 8464,
       "sourceId": 1793484108
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Chansey",
       "region": "Sinnoh",
       "location": "Trophy Garden",
-      "secondsAgo": 3102,
+      "secondsAgo": 3828,
       "sourceId": 1793488744
-    },
-    {
-      "monsterId": 190,
-      "pokemon": "Aipom",
-      "region": "Unova",
-      "location": "Cold Storage",
-      "secondsAgo": 19614,
-      "sourceId": 1793472232
     }
   ],
   "alpha": {
