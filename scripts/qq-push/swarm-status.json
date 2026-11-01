@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-01T23:45:50.828Z",
+  "fetchedAt": "2026-11-01T23:50:50.233Z",
   "swarms": [
+    {
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1793577753,
+      "despawnTimestamp": 1793577753,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-02T00:02:33.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Hoenn",
       "location": "",
       "sourceId": 1793577355,
-      "despawnTimestamp": 1793577354,
+      "despawnTimestamp": 1793577355,
       "hasValuable": false,
       "timestampUtc": "2026-11-01T23:55:55.000Z",
       "publishedBy": ""
@@ -18,39 +29,28 @@
       "region": "Sinnoh",
       "location": "",
       "sourceId": 1793577373,
-      "despawnTimestamp": 1793577372,
+      "despawnTimestamp": 1793577373,
       "hasValuable": false,
       "timestampUtc": "2026-11-01T23:56:13.000Z",
       "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 355,
+      "pokemon": "Duskull",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 1334,
+      "sourceId": 1793575716
     },
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Unova",
       "location": "",
-      "sourceId": 1793576817,
-      "despawnTimestamp": 1793576816,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-01T23:46:57.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 41,
-      "pokemon": "zubat",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 1508,
-      "sourceId": 1793575242
-    },
-    {
-      "monsterId": 355,
-      "pokemon": "Duskull",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 1034,
-      "sourceId": 1793575716
+      "secondsAgo": 1132,
+      "sourceId": 1793575918
     }
   ],
   "alpha": {
