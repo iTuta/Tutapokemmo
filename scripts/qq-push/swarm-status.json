@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-01T06:01:03.321Z",
+  "fetchedAt": "2026-11-01T06:05:42.630Z",
   "swarms": [
-    {
-      "monsterId": 167,
-      "pokemon": "Spinarak",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793513062,
-      "despawnTimestamp": 1793513062,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-01T06:04:22.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 23,
       "pokemon": "Ekans",
@@ -48,11 +37,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 167,
+      "pokemon": "Spinarak",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1580,
+      "sourceId": 1793511562
+    },
+    {
       "monsterId": 152,
       "pokemon": "Chikorita",
       "region": "Johto",
       "location": "Route 31",
-      "secondsAgo": 13369,
+      "secondsAgo": 13648,
       "sourceId": 1793499494
     }
   ],
