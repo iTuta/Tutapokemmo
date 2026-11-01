@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-01T02:01:10.579Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-01T02:05:48.537Z",
+  "swarms": [
+    {
+      "monsterId": 441,
+      "pokemon": "Chatot",
+      "region": "Sinnoh",
+      "location": "Route 218",
+      "sourceId": 1793500005,
+      "despawnTimestamp": 1793500005,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-01T02:26:45.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 313,
       "pokemon": "Volbeat",
       "region": "Kanto",
       "location": "Memorial Pillar",
-      "secondsAgo": 3918,
+      "secondsAgo": 4196,
       "sourceId": 1793494552
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Luvdisc",
       "region": "Johto",
       "location": "Route 47",
-      "secondsAgo": 2110,
+      "secondsAgo": 2388,
       "sourceId": 1793496360
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 3867,
+      "secondsAgo": 4145,
       "sourceId": 1793494603
-    },
-    {
-      "monsterId": 113,
-      "pokemon": "Chansey",
-      "region": "Sinnoh",
-      "location": "Trophy Garden",
-      "secondsAgo": 9726,
-      "sourceId": 1793488744
     },
     {
       "monsterId": 317,
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 5963,
+      "secondsAgo": 6241,
       "sourceId": 1793492507
     }
   ],
