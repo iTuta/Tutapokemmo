@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-01T09:45:47.417Z",
+  "fetchedAt": "2026-11-01T09:50:52.276Z",
   "swarms": [
-    {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793526631,
-      "despawnTimestamp": 1793526631,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-01T09:50:31.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 41,
       "pokemon": "Zubat",
@@ -24,14 +13,14 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 197,
-      "pokemon": "umbreon",
+      "monsterId": 167,
+      "pokemon": "Spinarak",
       "region": "Hoenn",
       "location": "",
-      "sourceId": 1793526413,
-      "despawnTimestamp": 1793526413,
+      "sourceId": 1793528108,
+      "despawnTimestamp": 1793528108,
       "hasValuable": false,
-      "timestampUtc": "2026-11-01T09:46:53.000Z",
+      "timestampUtc": "2026-11-01T10:15:08.000Z",
       "publishedBy": ""
     },
     {
@@ -40,7 +29,7 @@
       "region": "Sinnoh",
       "location": "",
       "sourceId": 1793527367,
-      "despawnTimestamp": 1793527366,
+      "despawnTimestamp": 1793527367,
       "hasValuable": false,
       "timestampUtc": "2026-11-01T10:02:47.000Z",
       "publishedBy": ""
@@ -57,7 +46,16 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [],
+  "lastSeen": [
+    {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1520,
+      "sourceId": 1793525132
+    }
+  ],
   "alpha": {
     "monsterId": 241,
     "pokemon": "Miltank",
