@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-01T06:25:43.163Z",
+  "fetchedAt": "2026-11-01T06:31:02.433Z",
   "swarms": [
     {
       "monsterId": 261,
@@ -11,31 +11,37 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-01T06:43:38.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 104,
+      "pokemon": "cubone",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1793516155,
+      "despawnTimestamp": 1793516155,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-01T06:55:55.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 228,
+      "pokemon": "Houndour",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1793515968,
+      "despawnTimestamp": 1793515968,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-01T06:52:48.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 152,
-      "pokemon": "Chikorita",
-      "region": "Johto",
-      "location": "Route 31",
-      "secondsAgo": 14848,
-      "sourceId": 1793499495
-    },
-    {
-      "monsterId": 23,
-      "pokemon": "Ekans",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 1805,
-      "sourceId": 1793512538
-    },
     {
       "monsterId": 355,
       "pokemon": "Duskull",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 820,
+      "secondsAgo": 1139,
       "sourceId": 1793513523
     },
     {
@@ -43,7 +49,7 @@
       "pokemon": "Cubone",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 2216,
+      "secondsAgo": 2535,
       "sourceId": 1793512127
     }
   ],
