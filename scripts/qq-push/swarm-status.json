@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-01T08:20:54.516Z",
+  "fetchedAt": "2026-11-01T08:25:56.090Z",
   "swarms": [
     {
       "monsterId": 96,
@@ -7,9 +7,20 @@
       "region": "Johto",
       "location": "",
       "sourceId": 1793522573,
-      "despawnTimestamp": 1793522572,
+      "despawnTimestamp": 1793522573,
       "hasValuable": false,
       "timestampUtc": "2026-11-01T08:42:53.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Sinnoh",
+      "location": "",
+      "sourceId": 1793522978,
+      "despawnTimestamp": 1793522978,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-01T08:49:38.000Z",
       "publishedBy": ""
     },
     {
@@ -24,16 +35,7 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [
-    {
-      "monsterId": 96,
-      "pokemon": "Drowzee",
-      "region": "Sinnoh",
-      "location": "",
-      "secondsAgo": 1835,
-      "sourceId": 1793519419
-    }
-  ],
+  "lastSeen": [],
   "alpha": {
     "monsterId": 241,
     "pokemon": "Miltank",
