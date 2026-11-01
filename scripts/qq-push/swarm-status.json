@@ -1,50 +1,49 @@
 {
-  "fetchedAt": "2026-11-01T04:36:09.548Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-01T04:40:54.365Z",
+  "swarms": [
     {
-      "monsterId": 214,
-      "pokemon": "Heracross",
+      "monsterId": 167,
+      "pokemon": "Spinarak",
       "region": "Kanto",
-      "location": "Route 16",
-      "secondsAgo": 7211,
-      "sourceId": 1793500558
+      "location": "",
+      "sourceId": 1793509536,
+      "despawnTimestamp": 1793509536,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-01T05:05:36.000Z",
+      "publishedBy": ""
     },
     {
-      "monsterId": 152,
-      "pokemon": "Chikorita",
-      "region": "Johto",
-      "location": "Route 31",
-      "secondsAgo": 8275,
-      "sourceId": 1793499494
-    },
-    {
-      "monsterId": 441,
-      "pokemon": "Chatot",
+      "monsterId": 92,
+      "pokemon": "Gastly",
       "region": "Sinnoh",
-      "location": "Route 218",
-      "secondsAgo": 9263,
-      "sourceId": 1793498506
-    },
+      "location": "",
+      "sourceId": 1793509290,
+      "despawnTimestamp": 1793509290,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-01T05:01:30.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Unova",
       "location": "Cold Storage",
-      "secondsAgo": 7078,
+      "secondsAgo": 7363,
       "sourceId": 1793500691
     }
   ],
   "alpha": {
-    "monsterId": 372,
-    "pokemon": "Shelgon",
-    "region": "Hoenn",
-    "location": "Meteor Falls",
-    "sourceId": 1793491259,
-    "despawnTimestamp": 1793508359,
+    "monsterId": 241,
+    "pokemon": "Miltank",
+    "region": "Johto",
+    "location": "Route 48",
+    "sourceId": 1793495187,
+    "despawnTimestamp": 1793512287,
     "hasValuable": false,
-    "timestampUtc": "2026-11-01T00:00:59.000Z",
-    "timestampRaw": "2026-11-01T00:00:59.000Z",
+    "timestampUtc": "2026-11-01T01:06:27.000Z",
+    "timestampRaw": "2026-11-01T01:06:27.000Z",
     "publishedBy": ""
   }
 }
