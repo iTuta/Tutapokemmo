@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-01T18:35:52.722Z",
+  "fetchedAt": "2026-11-01T18:40:54.840Z",
   "swarms": [
-    {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1793558393,
-      "despawnTimestamp": 1793558392,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-01T18:39:53.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 228,
       "pokemon": "Houndour",
@@ -41,15 +30,23 @@
       "pokemon": "Poochyena",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1588,
+      "secondsAgo": 1890,
       "sourceId": 1793556564
+    },
+    {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 961,
+      "sourceId": 1793557493
     },
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1863,
+      "secondsAgo": 2165,
       "sourceId": 1793556289
     }
   ],
