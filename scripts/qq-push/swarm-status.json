@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-01T09:06:04.966Z",
+  "fetchedAt": "2026-11-01T09:10:47.992Z",
   "swarms": [
-    {
-      "monsterId": 163,
-      "pokemon": "Hoothoot",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793524169,
-      "despawnTimestamp": 1793524168,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-01T09:09:29.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 163,
+      "pokemon": "Hoothoot",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1578,
+      "sourceId": 1793522669
+    },
+    {
       "monsterId": 302,
       "pokemon": "Sableye",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1748,
+      "secondsAgo": 2031,
       "sourceId": 1793522216
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "Zorua",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 3124,
+      "secondsAgo": 3407,
       "sourceId": 1793520840
     }
   ],
