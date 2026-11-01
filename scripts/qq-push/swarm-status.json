@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-11-01T00:50:58.984Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-01T00:55:55.908Z",
+  "swarms": [
     {
-      "monsterId": 314,
-      "pokemon": "Illumise",
+      "monsterId": 313,
+      "pokemon": "Volbeat",
       "region": "Kanto",
-      "location": "Water Path",
-      "secondsAgo": 14106,
-      "sourceId": 1793480152
-    },
+      "location": "Memorial Pillar",
+      "sourceId": 1793496052,
+      "despawnTimestamp": 1793496051,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-01T01:20:52.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 4808,
+      "secondsAgo": 5105,
       "sourceId": 1793489450
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Chatot",
       "region": "Hoenn",
       "location": "Route 115",
-      "secondsAgo": 10150,
+      "secondsAgo": 10447,
       "sourceId": 1793484108
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Chansey",
       "region": "Sinnoh",
       "location": "Trophy Garden",
-      "secondsAgo": 5514,
+      "secondsAgo": 5811,
       "sourceId": 1793488744
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 1752,
+      "secondsAgo": 2049,
       "sourceId": 1793492506
     }
   ],
