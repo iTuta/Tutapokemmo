@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-01T08:25:56.090Z",
+  "fetchedAt": "2026-11-01T08:30:54.601Z",
   "swarms": [
     {
       "monsterId": 96,
@@ -7,7 +7,7 @@
       "region": "Johto",
       "location": "",
       "sourceId": 1793522573,
-      "despawnTimestamp": 1793522573,
+      "despawnTimestamp": 1793522572,
       "hasValuable": false,
       "timestampUtc": "2026-11-01T08:42:53.000Z",
       "publishedBy": ""
@@ -18,24 +18,22 @@
       "region": "Sinnoh",
       "location": "",
       "sourceId": 1793522978,
-      "despawnTimestamp": 1793522978,
+      "despawnTimestamp": 1793522977,
       "hasValuable": false,
       "timestampUtc": "2026-11-01T08:49:38.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "",
-      "sourceId": 1793521837,
-      "despawnTimestamp": 1793521837,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-01T08:30:37.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1517,
+      "sourceId": 1793520337
     }
   ],
-  "lastSeen": [],
   "alpha": {
     "monsterId": 241,
     "pokemon": "Miltank",
