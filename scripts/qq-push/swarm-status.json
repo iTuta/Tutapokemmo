@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-01T16:50:54.867Z",
+  "fetchedAt": "2026-11-01T16:55:45.028Z",
   "swarms": [
-    {
-      "monsterId": 261,
-      "pokemon": "Poochyena",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1793552080,
-      "despawnTimestamp": 1793552080,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-01T16:54:40.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 207,
       "pokemon": "Gligar",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 964,
+      "sourceId": 1793551180
+    },
+    {
       "monsterId": 228,
       "pokemon": "Houndour",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1192,
+      "secondsAgo": 1482,
       "sourceId": 1793550662
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Hoothoot",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 2088,
+      "secondsAgo": 2378,
       "sourceId": 1793549766
     }
   ],
