@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-01T07:51:08.583Z",
+  "fetchedAt": "2026-11-01T07:55:44.299Z",
   "swarms": [
     {
       "monsterId": 41,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1793520278,
       "hasValuable": false,
       "timestampUtc": "2026-11-01T08:04:38.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 261,
-      "pokemon": "Poochyena",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1793519486,
-      "despawnTimestamp": 1793519486,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-01T07:51:26.000Z",
       "publishedBy": ""
     },
     {
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 1157,
+      "sourceId": 1793518587
+    },
+    {
       "monsterId": 163,
       "pokemon": "Hoothoot",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 841,
+      "secondsAgo": 1117,
       "sourceId": 1793518627
     }
   ],
