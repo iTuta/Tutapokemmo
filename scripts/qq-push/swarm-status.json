@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-01T22:15:50.032Z",
+  "fetchedAt": "2026-11-01T22:20:57.178Z",
   "swarms": [
     {
       "monsterId": 228,
@@ -11,23 +11,26 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-01T22:27:37.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 353,
+      "pokemon": "Shuppet",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1793572473,
+      "despawnTimestamp": 1793572473,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-01T22:34:33.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 2386,
-      "sourceId": 1793568964
-    },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 5521,
+      "secondsAgo": 5828,
       "sourceId": 1793565829
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Cubone",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1727,
+      "secondsAgo": 2034,
       "sourceId": 1793569623
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Drifloon",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1717,
+      "secondsAgo": 2024,
       "sourceId": 1793569633
     }
   ],
