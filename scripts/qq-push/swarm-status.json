@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-01T09:40:58.720Z",
+  "fetchedAt": "2026-11-01T09:45:47.417Z",
   "swarms": [
     {
       "monsterId": 41,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1793526631,
       "hasValuable": false,
       "timestampUtc": "2026-11-01T09:50:31.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1793527783,
+      "despawnTimestamp": 1793527783,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-01T10:09:43.000Z",
       "publishedBy": ""
     },
     {
@@ -46,16 +57,7 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 2857,
-      "sourceId": 1793523201
-    }
-  ],
+  "lastSeen": [],
   "alpha": {
     "monsterId": 241,
     "pokemon": "Miltank",
