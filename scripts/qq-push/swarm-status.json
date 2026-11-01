@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-01T18:15:56.078Z",
+  "fetchedAt": "2026-11-01T18:20:44.074Z",
   "swarms": [
     {
       "monsterId": 261,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-01T18:20:45.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1793557189,
-      "despawnTimestamp": 1793557189,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-01T18:19:49.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,7 +30,7 @@
       "pokemon": "Gligar",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 2061,
+      "secondsAgo": 2349,
       "sourceId": 1793554895
     },
     {
@@ -49,8 +38,16 @@
       "pokemon": "Sableye",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 2038,
+      "secondsAgo": 2326,
       "sourceId": 1793554918
+    },
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 954,
+      "sourceId": 1793556290
     }
   ],
   "alpha": {
