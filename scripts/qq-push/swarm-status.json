@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-01T08:10:45.825Z",
+  "fetchedAt": "2026-11-01T08:15:47.805Z",
   "swarms": [
-    {
-      "monsterId": 96,
-      "pokemon": "Drowzee",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1793520919,
-      "despawnTimestamp": 1793520918,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-01T08:15:19.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
@@ -24,7 +13,16 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [],
+  "lastSeen": [
+    {
+      "monsterId": 96,
+      "pokemon": "Drowzee",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 1528,
+      "sourceId": 1793519419
+    }
+  ],
   "alpha": {
     "monsterId": 241,
     "pokemon": "Miltank",
