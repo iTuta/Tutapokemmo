@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-01T02:35:48.800Z",
+  "fetchedAt": "2026-11-01T02:40:46.869Z",
   "swarms": [
+    {
+      "monsterId": 214,
+      "pokemon": "Heracross",
+      "region": "Kanto",
+      "location": "Route 16",
+      "sourceId": 1793502057,
+      "despawnTimestamp": 1793502056,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-01T03:00:57.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 152,
       "pokemon": "Chikorita",
@@ -17,28 +28,20 @@
       "pokemon": "Aipom",
       "region": "Unova",
       "location": "Cold Storage",
-      "sourceId": 1793500579,
-      "despawnTimestamp": 1793500579,
+      "sourceId": 1793500990,
+      "despawnTimestamp": 1793500990,
       "hasValuable": false,
-      "timestampUtc": "2026-11-01T02:36:19.000Z",
+      "timestampUtc": "2026-11-01T02:43:10.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 313,
-      "pokemon": "Volbeat",
-      "region": "Kanto",
-      "location": "Memorial Pillar",
-      "secondsAgo": 5996,
-      "sourceId": 1793494552
-    },
-    {
       "monsterId": 211,
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 5946,
+      "secondsAgo": 6244,
       "sourceId": 1793494602
     },
     {
@@ -46,7 +49,7 @@
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 2043,
+      "secondsAgo": 2341,
       "sourceId": 1793498505
     }
   ],
