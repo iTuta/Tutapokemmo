@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-02T06:36:26.486Z",
+  "fetchedAt": "2026-11-02T06:40:49.807Z",
   "swarms": [
+    {
+      "monsterId": 425,
+      "pokemon": "Drifloon",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1793602410,
+      "despawnTimestamp": 1793602409,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-02T06:53:30.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 104,
       "pokemon": "Cubone",
@@ -33,26 +44,20 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-02T06:47:35.000Z",
       "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 197,
-      "pokemon": "Umbreon",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 1826,
-      "sourceId": 1793599560
     },
     {
       "monsterId": 353,
       "pokemon": "Shuppet",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 2389,
-      "sourceId": 1793598997
+      "sourceId": 1793602538,
+      "despawnTimestamp": 1793602537,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-02T06:55:38.000Z",
+      "publishedBy": ""
     }
   ],
+  "lastSeen": [],
   "alpha": {
     "monsterId": 149,
     "pokemon": "Dragonite",
