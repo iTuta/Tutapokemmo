@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-02T11:50:51.404Z",
+  "fetchedAt": "2026-11-02T11:55:52.771Z",
   "swarms": [
+    {
+      "monsterId": 197,
+      "pokemon": "Umbreon",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1793621359,
+      "despawnTimestamp": 1793621358,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-02T12:09:19.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 41,
       "pokemon": "Zubat",
       "region": "Hoenn",
       "location": "",
       "sourceId": 1793620895,
-      "despawnTimestamp": 1793620895,
+      "despawnTimestamp": 1793620894,
       "hasValuable": false,
       "timestampUtc": "2026-11-02T12:01:35.000Z",
       "publishedBy": ""
@@ -22,35 +33,24 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-02T11:59:23.000Z",
       "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 451,
+      "pokemon": "Skorupi",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 1315,
+      "sourceId": 1793619237
     },
     {
       "monsterId": 23,
       "pokemon": "Ekans",
       "region": "Unova",
       "location": "",
-      "sourceId": 1793620430,
-      "despawnTimestamp": 1793620429,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-02T11:53:50.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 197,
-      "pokemon": "Umbreon",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 1770,
-      "sourceId": 1793618481
-    },
-    {
-      "monsterId": 451,
-      "pokemon": "Skorupi",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 1014,
-      "sourceId": 1793619237
+      "secondsAgo": 1022,
+      "sourceId": 1793619530
     }
   ],
   "alpha": {
