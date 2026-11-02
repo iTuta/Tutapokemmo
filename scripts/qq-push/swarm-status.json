@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-02T05:10:52.964Z",
+  "fetchedAt": "2026-11-02T05:15:53.771Z",
   "swarms": [
-    {
-      "monsterId": 261,
-      "pokemon": "Poochyena",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793596487,
-      "despawnTimestamp": 1793596486,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-02T05:14:47.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 198,
       "pokemon": "murkrow",
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 966,
+      "sourceId": 1793595587
+    },
+    {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1377,
+      "secondsAgo": 1678,
       "sourceId": 1793594875
     },
     {
@@ -49,8 +46,8 @@
       "pokemon": "Houndour",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1250,
-      "sourceId": 1793595002
+      "secondsAgo": 1550,
+      "sourceId": 1793595003
     }
   ],
   "alpha": {
