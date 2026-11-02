@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-11-02T01:15:51.300Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-02T01:20:47.452Z",
+  "swarms": [
     {
-      "monsterId": 23,
-      "pokemon": "Ekans",
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1059,
-      "sourceId": 1793581092
-    },
+      "sourceId": 1793583216,
+      "despawnTimestamp": 1793583215,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-02T01:33:36.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 302,
       "pokemon": "Sableye",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 2023,
+      "secondsAgo": 2319,
       "sourceId": 1793580128
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Skorupi",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 903,
+      "secondsAgo": 1199,
       "sourceId": 1793581248
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Drifloon",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1475,
+      "secondsAgo": 1771,
       "sourceId": 1793580676
     }
   ],
