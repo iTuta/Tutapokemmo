@@ -1,45 +1,52 @@
 {
-  "fetchedAt": "2026-11-02T06:25:47.653Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-02T06:30:59.522Z",
+  "swarms": [
+    {
+      "monsterId": 104,
+      "pokemon": "Cubone",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1793601664,
+      "despawnTimestamp": 1793601663,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-02T06:41:04.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1793601790,
+      "despawnTimestamp": 1793601790,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-02T06:43:10.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 197,
       "pokemon": "Umbreon",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1187,
+      "secondsAgo": 1499,
       "sourceId": 1793599560
-    },
-    {
-      "monsterId": 261,
-      "pokemon": "Poochyena",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 2451,
-      "sourceId": 1793598296
-    },
-    {
-      "monsterId": 425,
-      "pokemon": "Drifloon",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 870,
-      "sourceId": 1793599877
     },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1481,
-      "sourceId": 1793599266
+      "secondsAgo": 1792,
+      "sourceId": 1793599267
     },
     {
       "monsterId": 353,
       "pokemon": "Shuppet",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1750,
+      "secondsAgo": 2062,
       "sourceId": 1793598997
     }
   ],
