@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-02T00:01:00.514Z",
+  "fetchedAt": "2026-11-02T00:05:44.763Z",
   "swarms": [
-    {
-      "monsterId": 261,
-      "pokemon": "Poochyena",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793577753,
-      "despawnTimestamp": 1793577753,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-02T00:02:33.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 228,
       "pokemon": "Houndour",
@@ -21,6 +10,17 @@
       "despawnTimestamp": 1793578017,
       "hasValuable": false,
       "timestampUtc": "2026-11-02T00:06:57.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 207,
+      "pokemon": "Gligar",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1793578612,
+      "despawnTimestamp": 1793578612,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-02T00:16:52.000Z",
       "publishedBy": ""
     },
     {
@@ -37,20 +37,20 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Hoenn",
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Kanto",
       "location": "",
-      "secondsAgo": 1205,
-      "sourceId": 1793576455
+      "secondsAgo": 1090,
+      "sourceId": 1793576854
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1186,
-      "sourceId": 1793576474
+      "secondsAgo": 1471,
+      "sourceId": 1793576473
     }
   ],
   "alpha": {
