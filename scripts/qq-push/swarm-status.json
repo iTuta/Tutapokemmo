@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-02T15:50:56.551Z",
+  "fetchedAt": "2026-11-02T15:55:45.713Z",
   "swarms": [
+    {
+      "monsterId": 23,
+      "pokemon": "Ekans",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1793635788,
+      "despawnTimestamp": 1793635788,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-02T16:09:48.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
@@ -19,23 +30,15 @@
       "pokemon": "Poochyena",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1146,
+      "secondsAgo": 1435,
       "sourceId": 1793633510
-    },
-    {
-      "monsterId": 163,
-      "pokemon": "hoothoot",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 912,
-      "sourceId": 1793633744
     },
     {
       "monsterId": 355,
       "pokemon": "duskull",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1637,
+      "secondsAgo": 1926,
       "sourceId": 1793633019
     }
   ],
