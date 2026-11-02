@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-02T09:46:06.386Z",
+  "fetchedAt": "2026-11-02T09:51:00.404Z",
   "swarms": [
-    {
-      "monsterId": 197,
-      "pokemon": "Umbreon",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793612801,
-      "despawnTimestamp": 1793612801,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-02T09:46:41.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 353,
       "pokemon": "Shuppet",
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 197,
+      "pokemon": "Umbreon",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1158,
+      "sourceId": 1793611902
+    },
+    {
       "monsterId": 96,
       "pokemon": "drowzee",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1197,
+      "secondsAgo": 1491,
       "sourceId": 1793611569
     }
   ],
