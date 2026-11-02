@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-02T01:05:43.105Z",
+  "fetchedAt": "2026-11-02T01:10:48.513Z",
   "swarms": [
     {
       "monsterId": 23,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-02T01:15:47.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 425,
-      "pokemon": "Drifloon",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1793581576,
-      "despawnTimestamp": 1793581576,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-02T01:06:16.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,8 +30,16 @@
       "pokemon": "Sableye",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1415,
-      "sourceId": 1793580128
+      "secondsAgo": 1721,
+      "sourceId": 1793580127
+    },
+    {
+      "monsterId": 425,
+      "pokemon": "Drifloon",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 1172,
+      "sourceId": 1793580676
     }
   ],
   "alpha": {
