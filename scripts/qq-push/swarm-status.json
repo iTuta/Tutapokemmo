@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-02T18:50:45.875Z",
+  "fetchedAt": "2026-11-02T18:55:44.454Z",
   "swarms": [
-    {
-      "monsterId": 261,
-      "pokemon": "Poochyena",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793645620,
-      "despawnTimestamp": 1793645619,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-02T18:53:40.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 96,
       "pokemon": "Drowzee",
@@ -29,7 +18,7 @@
       "region": "Unova",
       "location": "",
       "sourceId": 1793645848,
-      "despawnTimestamp": 1793645847,
+      "despawnTimestamp": 1793645848,
       "hasValuable": false,
       "timestampUtc": "2026-11-02T18:57:28.000Z",
       "publishedBy": ""
@@ -37,12 +26,20 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1023,
+      "sourceId": 1793644721
+    },
+    {
       "monsterId": 41,
       "pokemon": "Zubat",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1316,
-      "sourceId": 1793644129
+      "secondsAgo": 1614,
+      "sourceId": 1793644130
     }
   ],
   "alpha": {
