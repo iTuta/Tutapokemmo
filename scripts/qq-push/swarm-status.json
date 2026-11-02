@@ -1,58 +1,54 @@
 {
-  "fetchedAt": "2026-11-02T08:41:07.195Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-02T08:45:58.644Z",
+  "swarms": [
+    {
+      "monsterId": 23,
+      "pokemon": "Ekans",
+      "region": "Sinnoh",
+      "location": "",
+      "sourceId": 1793609904,
+      "despawnTimestamp": 1793609903,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-02T08:58:24.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1137,
-      "sourceId": 1793607730
-    },
-    {
-      "monsterId": 355,
-      "pokemon": "Duskull",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 1672,
-      "sourceId": 1793607195
+      "secondsAgo": 1429,
+      "sourceId": 1793607729
     },
     {
       "monsterId": 197,
       "pokemon": "Umbreon",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1585,
+      "secondsAgo": 1876,
       "sourceId": 1793607282
-    },
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Sinnoh",
-      "location": "",
-      "secondsAgo": 2502,
-      "sourceId": 1793606365
     },
     {
       "monsterId": 92,
       "pokemon": "Gastly",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 2068,
+      "secondsAgo": 2359,
       "sourceId": 1793606799
     }
   ],
   "alpha": {
-    "monsterId": 149,
-    "pokemon": "Dragonite",
-    "region": "Kanto",
-    "location": "Outcast Island",
-    "sourceId": 1793567667,
-    "despawnTimestamp": 1793584767,
+    "monsterId": 34,
+    "pokemon": "Nidoking",
+    "region": "Johto",
+    "location": "Route 45",
+    "sourceId": 1793596281,
+    "despawnTimestamp": 1793613381,
     "hasValuable": false,
-    "timestampUtc": "2026-11-01T21:14:27.000Z",
-    "timestampRaw": "2026-11-01T21:14:27.000Z",
+    "timestampUtc": "2026-11-02T05:11:21.000Z",
+    "timestampRaw": "2026-11-02T05:11:21.000Z",
     "publishedBy": ""
   }
 }
