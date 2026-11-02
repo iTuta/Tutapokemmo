@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-02T16:52:40.286Z",
+  "fetchedAt": "2026-11-02T16:55:49.228Z",
   "swarms": [
-    {
-      "monsterId": 197,
-      "pokemon": "Umbreon",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793638490,
-      "despawnTimestamp": 1793638490,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-02T16:54:50.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 197,
+      "pokemon": "Umbreon",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 958,
+      "sourceId": 1793637591
+    },
+    {
       "monsterId": 96,
       "pokemon": "Drowzee",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1477,
+      "secondsAgo": 1666,
       "sourceId": 1793636883
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Sableye",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1143,
+      "secondsAgo": 1332,
       "sourceId": 1793637217
     }
   ],
