@@ -1,68 +1,54 @@
 {
-  "fetchedAt": "2026-11-02T15:46:20.387Z",
+  "fetchedAt": "2026-11-02T15:50:56.551Z",
   "swarms": [
+    {
+      "monsterId": 198,
+      "pokemon": "Murkrow",
+      "region": "Sinnoh",
+      "location": "",
+      "sourceId": 1793635315,
+      "despawnTimestamp": 1793635314,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-02T16:01:55.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 261,
       "pokemon": "Poochyena",
       "region": "Kanto",
       "location": "",
-      "sourceId": 1793634409,
-      "despawnTimestamp": 1793634409,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-02T15:46:49.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1793635261,
-      "despawnTimestamp": 1793635261,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-02T16:01:01.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1146,
+      "sourceId": 1793633510
     },
     {
       "monsterId": 163,
       "pokemon": "hoothoot",
       "region": "Hoenn",
       "location": "",
-      "sourceId": 1793634644,
-      "despawnTimestamp": 1793634643,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-02T15:50:44.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 228,
-      "pokemon": "Houndour",
-      "region": "Sinnoh",
-      "location": "",
-      "secondsAgo": 2587,
-      "sourceId": 1793631793
+      "secondsAgo": 912,
+      "sourceId": 1793633744
     },
     {
       "monsterId": 355,
       "pokemon": "duskull",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1361,
+      "secondsAgo": 1637,
       "sourceId": 1793633019
     }
   ],
   "alpha": {
-    "monsterId": 34,
-    "pokemon": "Nidoking",
+    "monsterId": 184,
+    "pokemon": "Azumarill",
     "region": "Johto",
-    "location": "Route 45",
-    "sourceId": 1793596281,
-    "despawnTimestamp": 1793613381,
+    "location": "Tohjo Falls",
+    "sourceId": 1793621868,
+    "despawnTimestamp": 1793638968,
     "hasValuable": false,
-    "timestampUtc": "2026-11-02T05:11:21.000Z",
-    "timestampRaw": "2026-11-02T05:11:21.000Z",
-    "publishedBy": "Alain Sky Walker"
+    "timestampUtc": "2026-11-02T12:17:48.000Z",
+    "timestampRaw": "2026-11-02T12:17:48.000Z",
+    "publishedBy": ""
   }
 }
