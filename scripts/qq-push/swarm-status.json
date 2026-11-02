@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-02T01:41:09.880Z",
+  "fetchedAt": "2026-11-02T01:45:49.016Z",
   "swarms": [
     {
       "monsterId": 167,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-02T01:54:24.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1793583836,
-      "despawnTimestamp": 1793583836,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-02T01:43:56.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Misdreavus",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1353,
+      "secondsAgo": 1632,
       "sourceId": 1793582316
     },
     {
@@ -38,8 +27,16 @@
       "pokemon": "gastly",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1061,
+      "secondsAgo": 1340,
       "sourceId": 1793582608
+    },
+    {
+      "monsterId": 198,
+      "pokemon": "Murkrow",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 1012,
+      "sourceId": 1793582936
     }
   ],
   "alpha": {
