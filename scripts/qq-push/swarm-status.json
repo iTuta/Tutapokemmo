@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-02T18:46:09.814Z",
+  "fetchedAt": "2026-11-02T18:50:45.875Z",
   "swarms": [
     {
       "monsterId": 261,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1793645619,
       "hasValuable": false,
       "timestampUtc": "2026-11-02T18:53:40.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 96,
+      "pokemon": "Drowzee",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1793646122,
+      "despawnTimestamp": 1793646121,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-02T19:02:02.000Z",
       "publishedBy": ""
     },
     {
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 2320,
-      "sourceId": 1793642849
-    },
-    {
       "monsterId": 41,
       "pokemon": "Zubat",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1040,
+      "secondsAgo": 1316,
       "sourceId": 1793644129
     }
   ],
