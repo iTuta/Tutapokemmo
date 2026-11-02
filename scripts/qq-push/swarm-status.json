@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-02T15:11:04.171Z",
+  "fetchedAt": "2026-11-02T15:15:55.103Z",
   "swarms": [
     {
       "monsterId": 163,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-02T15:18:13.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 451,
-      "pokemon": "Skorupi",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1793632470,
-      "despawnTimestamp": 1793632470,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-02T15:14:30.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,7 +30,7 @@
       "pokemon": "Duskull",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1469,
+      "secondsAgo": 1760,
       "sourceId": 1793630795
     },
     {
@@ -49,8 +38,16 @@
       "pokemon": "Zubat",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1356,
+      "secondsAgo": 1647,
       "sourceId": 1793630908
+    },
+    {
+      "monsterId": 451,
+      "pokemon": "Skorupi",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 984,
+      "sourceId": 1793631571
     }
   ],
   "alpha": {
