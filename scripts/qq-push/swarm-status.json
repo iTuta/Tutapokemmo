@@ -1,53 +1,46 @@
 {
-  "fetchedAt": "2026-11-02T10:40:50.955Z",
-  "swarms": [
-    {
-      "monsterId": 197,
-      "pokemon": "Umbreon",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1793616231,
-      "despawnTimestamp": 1793616230,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-02T10:43:51.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 197,
-      "pokemon": "Umbreon",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1793616105,
-      "despawnTimestamp": 1793616104,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-02T10:41:45.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-11-02T10:45:49.333Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 228,
       "pokemon": "Houndour",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1952,
+      "secondsAgo": 2251,
       "sourceId": 1793614098
+    },
+    {
+      "monsterId": 197,
+      "pokemon": "Umbreon",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 1017,
+      "sourceId": 1793615332
     },
     {
       "monsterId": 96,
       "pokemon": "drowzee",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1278,
-      "sourceId": 1793614772
+      "secondsAgo": 1576,
+      "sourceId": 1793614773
     },
     {
       "monsterId": 163,
       "pokemon": "Hoothoot",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1586,
-      "sourceId": 1793614464
+      "secondsAgo": 1884,
+      "sourceId": 1793614465
+    },
+    {
+      "monsterId": 197,
+      "pokemon": "Umbreon",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 1144,
+      "sourceId": 1793615205
     }
   ],
   "alpha": {
