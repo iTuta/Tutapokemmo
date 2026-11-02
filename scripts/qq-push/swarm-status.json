@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-02T09:01:19.785Z",
+  "fetchedAt": "2026-11-02T09:06:05.815Z",
   "swarms": [
-    {
-      "monsterId": 451,
-      "pokemon": "Skorupi",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793610236,
-      "despawnTimestamp": 1793610236,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-02T09:03:56.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 302,
       "pokemon": "Sableye",
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 451,
+      "pokemon": "Skorupi",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1028,
+      "sourceId": 1793609337
+    },
+    {
       "monsterId": 23,
       "pokemon": "Ekans",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1075,
+      "secondsAgo": 1361,
       "sourceId": 1793609004
     }
   ],
