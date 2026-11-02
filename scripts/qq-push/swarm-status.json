@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-02T06:40:49.807Z",
+  "fetchedAt": "2026-11-02T06:45:50.679Z",
   "swarms": [
     {
       "monsterId": 425,
@@ -10,28 +10,6 @@
       "despawnTimestamp": 1793602409,
       "hasValuable": false,
       "timestampUtc": "2026-11-02T06:53:30.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 104,
-      "pokemon": "Cubone",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1793601664,
-      "despawnTimestamp": 1793601663,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-02T06:41:04.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1793601790,
-      "despawnTimestamp": 1793601790,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-02T06:43:10.000Z",
       "publishedBy": ""
     },
     {
@@ -51,13 +29,30 @@
       "region": "Unova",
       "location": "",
       "sourceId": 1793602538,
-      "despawnTimestamp": 1793602537,
+      "despawnTimestamp": 1793602538,
       "hasValuable": false,
       "timestampUtc": "2026-11-02T06:55:38.000Z",
       "publishedBy": ""
     }
   ],
-  "lastSeen": [],
+  "lastSeen": [
+    {
+      "monsterId": 104,
+      "pokemon": "Cubone",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 1186,
+      "sourceId": 1793600764
+    },
+    {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 1059,
+      "sourceId": 1793600891
+    }
+  ],
   "alpha": {
     "monsterId": 149,
     "pokemon": "Dragonite",
