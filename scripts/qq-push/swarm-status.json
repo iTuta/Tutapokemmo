@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-02T09:16:16.218Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-02T09:20:47.696Z",
+  "swarms": [
+    {
+      "monsterId": 207,
+      "pokemon": "Gligar",
+      "region": "Sinnoh",
+      "location": "",
+      "sourceId": 1793611983,
+      "despawnTimestamp": 1793611982,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-02T09:33:03.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1639,
+      "secondsAgo": 1910,
       "sourceId": 1793609337
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Sableye",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1189,
+      "secondsAgo": 1460,
       "sourceId": 1793609787
-    },
-    {
-      "monsterId": 23,
-      "pokemon": "Ekans",
-      "region": "Sinnoh",
-      "location": "",
-      "secondsAgo": 1971,
-      "sourceId": 1793609005
     },
     {
       "monsterId": 167,
       "pokemon": "Spinarak",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1207,
+      "secondsAgo": 1478,
       "sourceId": 1793609769
     }
   ],
