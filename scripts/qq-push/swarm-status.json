@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-02T09:35:46.527Z",
+  "fetchedAt": "2026-11-02T09:40:50.218Z",
   "swarms": [
     {
       "monsterId": 197,
@@ -13,35 +13,40 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 353,
+      "pokemon": "Shuppet",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1793613171,
+      "despawnTimestamp": 1793613171,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-02T09:52:51.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 355,
+      "pokemon": "Duskull",
+      "region": "Sinnoh",
+      "location": "",
+      "sourceId": 1793613259,
+      "despawnTimestamp": 1793613259,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-02T09:54:19.000Z",
+      "publishedBy": ""
+    },
+    {
       "monsterId": 96,
       "pokemon": "drowzee",
       "region": "Unova",
       "location": "",
       "sourceId": 1793612469,
-      "despawnTimestamp": 1793612468,
+      "despawnTimestamp": 1793612469,
       "hasValuable": false,
       "timestampUtc": "2026-11-02T09:41:09.000Z",
       "publishedBy": ""
     }
   ],
-  "lastSeen": [
-    {
-      "monsterId": 302,
-      "pokemon": "Sableye",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 2359,
-      "sourceId": 1793609787
-    },
-    {
-      "monsterId": 207,
-      "pokemon": "Gligar",
-      "region": "Sinnoh",
-      "location": "",
-      "secondsAgo": 1063,
-      "sourceId": 1793611083
-    }
-  ],
+  "lastSeen": [],
   "alpha": {
     "monsterId": 34,
     "pokemon": "Nidoking",
