@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-03T23:01:12.502Z",
+  "fetchedAt": "2026-11-03T23:05:45.816Z",
   "swarms": [
     {
       "monsterId": 200,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1793747707,
       "hasValuable": false,
       "timestampUtc": "2026-11-03T23:15:08.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 355,
-      "pokemon": "Duskull",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1793747080,
-      "despawnTimestamp": 1793747079,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-03T23:04:40.000Z",
       "publishedBy": ""
     },
     {
@@ -35,29 +24,35 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1793746894,
-      "despawnTimestamp": 1793746894,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-03T23:01:34.000Z",
-      "publishedBy": ""
-    },
-    {
       "monsterId": 104,
       "pokemon": "Cubone",
       "region": "Unova",
       "location": "",
       "sourceId": 1793747255,
-      "despawnTimestamp": 1793747255,
+      "despawnTimestamp": 1793747254,
       "hasValuable": false,
       "timestampUtc": "2026-11-03T23:07:35.000Z",
       "publishedBy": ""
     }
   ],
-  "lastSeen": [],
+  "lastSeen": [
+    {
+      "monsterId": 355,
+      "pokemon": "Duskull",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 965,
+      "sourceId": 1793746180
+    },
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 1150,
+      "sourceId": 1793745995
+    }
+  ],
   "alpha": {
     "monsterId": 435,
     "pokemon": "Skuntank",
