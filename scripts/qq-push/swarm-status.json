@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-03T16:45:53.762Z",
+  "fetchedAt": "2026-11-03T16:50:58.834Z",
   "swarms": [
-    {
-      "monsterId": 451,
-      "pokemon": "Skorupi",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793724504,
-      "despawnTimestamp": 1793724504,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-03T16:48:24.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 207,
       "pokemon": "Gligar",
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 451,
+      "pokemon": "Skorupi",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1053,
+      "sourceId": 1793723605
+    },
+    {
       "monsterId": 228,
       "pokemon": "Houndour",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1313,
+      "secondsAgo": 1618,
       "sourceId": 1793723040
     }
   ],
