@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-03T05:05:45.711Z",
+  "fetchedAt": "2026-11-03T05:10:54.433Z",
   "swarms": [
-    {
-      "monsterId": 96,
-      "pokemon": "Drowzee",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1793682414,
-      "despawnTimestamp": 1793682413,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-03T05:06:54.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 353,
       "pokemon": "Shuppet",
@@ -22,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-03T05:14:18.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 197,
-      "pokemon": "Umbreon",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1793682450,
-      "despawnTimestamp": 1793682449,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-03T05:07:30.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,15 +19,31 @@
       "pokemon": "Misdreavus",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1954,
+      "secondsAgo": 2263,
       "sourceId": 1793680391
+    },
+    {
+      "monsterId": 96,
+      "pokemon": "Drowzee",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 1139,
+      "sourceId": 1793681515
+    },
+    {
+      "monsterId": 197,
+      "pokemon": "Umbreon",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 1103,
+      "sourceId": 1793681551
     },
     {
       "monsterId": 96,
       "pokemon": "Drowzee",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1357,
+      "secondsAgo": 1666,
       "sourceId": 1793680988
     }
   ],
