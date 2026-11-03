@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-03T03:31:02.347Z",
+  "fetchedAt": "2026-11-03T03:35:46.959Z",
   "swarms": [
     {
       "monsterId": 355,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1793677238,
       "hasValuable": false,
       "timestampUtc": "2026-11-03T03:40:39.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 104,
+      "pokemon": "Cubone",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1793677634,
+      "despawnTimestamp": 1793677634,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-03T03:47:14.000Z",
       "publishedBy": ""
     },
     {
@@ -26,20 +37,12 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 353,
-      "pokemon": "Shuppet",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 2699,
-      "sourceId": 1793673963
-    },
-    {
       "monsterId": 163,
       "pokemon": "Hoothoot",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1354,
-      "sourceId": 1793675308
+      "secondsAgo": 1639,
+      "sourceId": 1793675307
     }
   ],
   "alpha": {
