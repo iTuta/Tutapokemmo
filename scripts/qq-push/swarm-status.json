@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-03T15:01:22.234Z",
+  "fetchedAt": "2026-11-03T15:05:49.458Z",
   "swarms": [
     {
       "monsterId": 200,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1793718525,
       "hasValuable": false,
       "timestampUtc": "2026-11-03T15:08:46.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 23,
-      "pokemon": "ekans",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1793718148,
-      "despawnTimestamp": 1793718148,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-03T15:02:28.000Z",
       "publishedBy": ""
     },
     {
@@ -41,15 +30,23 @@
       "pokemon": "Zorua",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1107,
-      "sourceId": 1793716975
+      "secondsAgo": 1375,
+      "sourceId": 1793716974
+    },
+    {
+      "monsterId": 23,
+      "pokemon": "ekans",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 1100,
+      "sourceId": 1793717249
     },
     {
       "monsterId": 228,
       "pokemon": "houndour",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1487,
+      "secondsAgo": 1754,
       "sourceId": 1793716595
     }
   ],
