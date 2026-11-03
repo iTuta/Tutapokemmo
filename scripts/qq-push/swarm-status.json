@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-03T12:10:50.399Z",
+  "fetchedAt": "2026-11-03T12:15:58.061Z",
   "swarms": [
-    {
-      "monsterId": 23,
-      "pokemon": "Ekans",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1793708057,
-      "despawnTimestamp": 1793708056,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-03T12:14:17.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 228,
       "pokemon": "Houndour",
@@ -41,15 +30,23 @@
       "pokemon": "Drifloon",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1608,
-      "sourceId": 1793706242
+      "secondsAgo": 1915,
+      "sourceId": 1793706243
+    },
+    {
+      "monsterId": 23,
+      "pokemon": "Ekans",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 1000,
+      "sourceId": 1793707158
     },
     {
       "monsterId": 92,
       "pokemon": "Gastly",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1100,
+      "secondsAgo": 1408,
       "sourceId": 1793706750
     }
   ],
