@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-03T23:40:56.819Z",
+  "fetchedAt": "2026-11-03T23:45:56.766Z",
   "swarms": [
     {
       "monsterId": 197,
@@ -13,6 +13,17 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 198,
+      "pokemon": "Murkrow",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1793750325,
+      "despawnTimestamp": 1793750324,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-03T23:58:45.000Z",
+      "publishedBy": ""
+    },
+    {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Hoenn",
@@ -22,34 +33,23 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-03T23:51:06.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 228,
       "pokemon": "Houndour",
       "region": "Sinnoh",
       "location": "",
-      "sourceId": 1793749541,
-      "despawnTimestamp": 1793749540,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-03T23:45:41.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 1480,
-      "sourceId": 1793747776
+      "secondsAgo": 915,
+      "sourceId": 1793748641
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1038,
+      "secondsAgo": 1338,
       "sourceId": 1793748218
     }
   ],
