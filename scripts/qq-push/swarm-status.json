@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-03T07:51:09.545Z",
+  "fetchedAt": "2026-11-03T07:55:45.474Z",
   "swarms": [
     {
       "monsterId": 163,
@@ -7,7 +7,7 @@
       "region": "Hoenn",
       "location": "",
       "sourceId": 1793693092,
-      "despawnTimestamp": 1793693091,
+      "despawnTimestamp": 1793693092,
       "hasValuable": false,
       "timestampUtc": "2026-11-03T08:04:52.000Z",
       "publishedBy": ""
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-03T08:01:34.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 355,
-      "pokemon": "Duskull",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1793692426,
-      "despawnTimestamp": 1793692426,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-03T07:53:46.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,28 +30,28 @@
       "pokemon": "Seviper",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 904,
+      "secondsAgo": 1180,
       "sourceId": 1793691365
     },
     {
-      "monsterId": 207,
-      "pokemon": "Gligar",
-      "region": "Johto",
+      "monsterId": 355,
+      "pokemon": "Duskull",
+      "region": "Unova",
       "location": "",
-      "secondsAgo": 1563,
-      "sourceId": 1793690706
+      "secondsAgo": 1018,
+      "sourceId": 1793691527
     }
   ],
   "alpha": {
-    "monsterId": 461,
-    "pokemon": "Weavile",
-    "region": "Unova",
-    "location": "Giant Chasm",
-    "sourceId": 1793660143,
-    "despawnTimestamp": 1793677243,
+    "monsterId": 99,
+    "pokemon": "Kingler",
+    "region": "Johto",
+    "location": "Route 40",
+    "sourceId": 1793679934,
+    "despawnTimestamp": 1793697034,
     "hasValuable": false,
-    "timestampUtc": "2026-11-02T22:55:43.000Z",
-    "timestampRaw": "2026-11-02T22:55:43.000Z",
-    "publishedBy": "Enzo"
+    "timestampUtc": "2026-11-03T04:25:34.000Z",
+    "timestampRaw": "2026-11-03T04:25:34.000Z",
+    "publishedBy": ""
   }
 }
