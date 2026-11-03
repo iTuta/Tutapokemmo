@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-03T11:30:58.474Z",
+  "fetchedAt": "2026-11-03T11:35:47.707Z",
   "swarms": [
     {
       "monsterId": 302,
@@ -24,6 +24,17 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 425,
+      "pokemon": "Drifloon",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1793706417,
+      "despawnTimestamp": 1793706417,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-03T11:46:57.000Z",
+      "publishedBy": ""
+    },
+    {
       "monsterId": 92,
       "pokemon": "Gastly",
       "region": "Unova",
@@ -37,19 +48,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 96,
-      "pokemon": "Drowzee",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 1972,
-      "sourceId": 1793703486
-    },
-    {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1905,
+      "secondsAgo": 2194,
       "sourceId": 1793703553
     }
   ],
