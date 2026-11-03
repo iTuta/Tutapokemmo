@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-03T21:41:11.814Z",
+  "fetchedAt": "2026-11-03T21:46:01.393Z",
   "swarms": [
     {
       "monsterId": 570,
@@ -7,27 +7,30 @@
       "region": "Kanto",
       "location": "",
       "sourceId": 1793742534,
-      "despawnTimestamp": 1793742533,
+      "despawnTimestamp": 1793742534,
       "hasValuable": false,
       "timestampUtc": "2026-11-03T21:48:54.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 228,
+      "pokemon": "Houndour",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1793743065,
+      "despawnTimestamp": 1793743065,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-03T21:57:45.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 104,
-      "pokemon": "Cubone",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 2283,
-      "sourceId": 1793739788
-    },
-    {
       "monsterId": 96,
       "pokemon": "Drowzee",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1471,
+      "secondsAgo": 1761,
       "sourceId": 1793740600
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Umbreon",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 8128,
+      "secondsAgo": 8418,
       "sourceId": 1793733943
     },
     {
@@ -43,8 +46,8 @@
       "pokemon": "Zubat",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1489,
-      "sourceId": 1793740582
+      "secondsAgo": 1778,
+      "sourceId": 1793740583
     }
   ],
   "alpha": {
