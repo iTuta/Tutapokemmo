@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-03T16:01:18.410Z",
+  "fetchedAt": "2026-11-03T16:06:36.099Z",
   "swarms": [
     {
       "monsterId": 207,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1793722107,
       "hasValuable": false,
       "timestampUtc": "2026-11-03T16:08:27.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1793722746,
+      "despawnTimestamp": 1793722746,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-03T16:19:06.000Z",
       "publishedBy": ""
     },
     {
@@ -37,19 +48,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 23,
-      "pokemon": "Ekans",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 1584,
-      "sourceId": 1793720094
-    },
-    {
       "monsterId": 228,
       "pokemon": "Houndour",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1069,
+      "secondsAgo": 1387,
       "sourceId": 1793720609
     }
   ],
