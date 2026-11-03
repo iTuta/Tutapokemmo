@@ -1,35 +1,13 @@
 {
-  "fetchedAt": "2026-11-03T02:35:48.126Z",
+  "fetchedAt": "2026-11-03T02:40:46.985Z",
   "swarms": [
-    {
-      "monsterId": 92,
-      "pokemon": "Gastly",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793673614,
-      "despawnTimestamp": 1793673615,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-03T02:40:14.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 451,
-      "pokemon": "Skorupi",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1793673417,
-      "despawnTimestamp": 1793673417,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-03T02:36:57.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 92,
       "pokemon": "Gastly",
       "region": "Sinnoh",
       "location": "",
       "sourceId": 1793673910,
-      "despawnTimestamp": 1793673910,
+      "despawnTimestamp": 1793673909,
       "hasValuable": false,
       "timestampUtc": "2026-11-03T02:45:10.000Z",
       "publishedBy": ""
@@ -39,10 +17,26 @@
     {
       "monsterId": 92,
       "pokemon": "Gastly",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 931,
+      "sourceId": 1793672715
+    },
+    {
+      "monsterId": 92,
+      "pokemon": "Gastly",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1341,
-      "sourceId": 1793672007
+      "secondsAgo": 1640,
+      "sourceId": 1793672006
+    },
+    {
+      "monsterId": 451,
+      "pokemon": "Skorupi",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 1129,
+      "sourceId": 1793672517
     }
   ],
   "alpha": {
