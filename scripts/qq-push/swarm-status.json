@@ -1,65 +1,60 @@
 {
-  "fetchedAt": "2026-11-03T02:20:47.664Z",
+  "fetchedAt": "2026-11-03T02:25:53.063Z",
   "swarms": [
+    {
+      "monsterId": 92,
+      "pokemon": "Gastly",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1793673614,
+      "despawnTimestamp": 1793673615,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-03T02:40:14.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 92,
       "pokemon": "Gastly",
       "region": "Johto",
       "location": "",
       "sourceId": 1793672906,
-      "despawnTimestamp": 1793672905,
+      "despawnTimestamp": 1793672906,
       "hasValuable": false,
       "timestampUtc": "2026-11-03T02:28:26.000Z",
       "publishedBy": ""
     },
     {
-      "monsterId": 163,
-      "pokemon": "Hoothoot",
-      "region": "Unova",
+      "monsterId": 451,
+      "pokemon": "Skorupi",
+      "region": "Hoenn",
       "location": "",
-      "sourceId": 1793673162,
-      "despawnTimestamp": 1793673161,
+      "sourceId": 1793673417,
+      "despawnTimestamp": 1793673417,
       "hasValuable": false,
-      "timestampUtc": "2026-11-03T02:32:42.000Z",
+      "timestampUtc": "2026-11-03T02:36:57.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 92,
-      "pokemon": "Gastly",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 2231,
-      "sourceId": 1793670216
-    },
-    {
-      "monsterId": 163,
-      "pokemon": "hoothoot",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 1912,
-      "sourceId": 1793670535
-    },
-    {
       "monsterId": 197,
       "pokemon": "Umbreon",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1919,
-      "sourceId": 1793670528
+      "secondsAgo": 2224,
+      "sourceId": 1793670529
     }
   ],
   "alpha": {
-    "monsterId": 365,
-    "pokemon": "Walrein",
-    "region": "Hoenn",
-    "location": "Route 124",
-    "sourceId": 1793632472,
-    "despawnTimestamp": 1793649572,
+    "monsterId": 461,
+    "pokemon": "Weavile",
+    "region": "Unova",
+    "location": "Giant Chasm",
+    "sourceId": 1793660143,
+    "despawnTimestamp": 1793677243,
     "hasValuable": false,
-    "timestampUtc": "2026-11-02T15:14:32.000Z",
-    "timestampRaw": "2026-11-02T15:14:32.000Z",
-    "publishedBy": "Guanabacha"
+    "timestampUtc": "2026-11-02T22:55:43.000Z",
+    "timestampRaw": "2026-11-02T22:55:43.000Z",
+    "publishedBy": ""
   }
 }
