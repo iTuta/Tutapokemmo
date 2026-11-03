@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-03T00:30:59.915Z",
+  "fetchedAt": "2026-11-03T00:35:50.673Z",
   "swarms": [
+    {
+      "monsterId": 167,
+      "pokemon": "spinarak",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1793666775,
+      "despawnTimestamp": 1793666775,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-03T00:46:15.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 197,
       "pokemon": "umbreon",
@@ -10,17 +21,6 @@
       "despawnTimestamp": 1793666631,
       "hasValuable": false,
       "timestampUtc": "2026-11-03T00:43:51.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1793665945,
-      "despawnTimestamp": 1793665944,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-03T00:32:25.000Z",
       "publishedBy": ""
     },
     {
@@ -37,20 +37,20 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 228,
-      "pokemon": "Houndour",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 4958,
-      "sourceId": 1793660901
-    },
-    {
       "monsterId": 104,
       "pokemon": "Cubone",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1148,
+      "secondsAgo": 1439,
       "sourceId": 1793664711
+    },
+    {
+      "monsterId": 198,
+      "pokemon": "Murkrow",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 1105,
+      "sourceId": 1793665045
     }
   ],
   "alpha": {
