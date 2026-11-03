@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-03T14:01:33.463Z",
+  "fetchedAt": "2026-11-03T14:05:47.626Z",
   "swarms": [
+    {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1793715397,
+      "despawnTimestamp": 1793715397,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-03T14:16:37.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 570,
       "pokemon": "zorua",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 2160,
-      "sourceId": 1793712333
-    },
-    {
       "monsterId": 302,
       "pokemon": "Sableye",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1229,
+      "secondsAgo": 1483,
       "sourceId": 1793713264
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Houndour",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 455,
+      "secondsAgo": 709,
       "sourceId": 1793714038
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Poochyena",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 2458,
+      "secondsAgo": 2712,
       "sourceId": 1793712035
     }
   ],
