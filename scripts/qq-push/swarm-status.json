@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-03T22:40:55.254Z",
+  "fetchedAt": "2026-11-03T22:45:52.088Z",
   "swarms": [
     {
       "monsterId": 261,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1793746267,
       "hasValuable": false,
       "timestampUtc": "2026-11-03T22:51:07.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 302,
-      "pokemon": "Sableye",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1793745770,
-      "despawnTimestamp": 1793745770,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-03T22:42:50.000Z",
       "publishedBy": ""
     },
     {
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 302,
+      "pokemon": "Sableye",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 1081,
+      "sourceId": 1793744871
+    },
+    {
       "monsterId": 96,
       "pokemon": "Drowzee",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1866,
+      "secondsAgo": 2163,
       "sourceId": 1793743789
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "Gastly",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1096,
+      "secondsAgo": 1393,
       "sourceId": 1793744559
     }
   ],
