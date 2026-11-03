@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-03T23:05:45.816Z",
+  "fetchedAt": "2026-11-03T23:11:07.057Z",
   "swarms": [
     {
       "monsterId": 200,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "",
       "sourceId": 1793747708,
-      "despawnTimestamp": 1793747707,
+      "despawnTimestamp": 1793747708,
       "hasValuable": false,
       "timestampUtc": "2026-11-03T23:15:08.000Z",
       "publishedBy": ""
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-03T23:11:46.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 104,
-      "pokemon": "Cubone",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1793747255,
-      "despawnTimestamp": 1793747254,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-03T23:07:35.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,16 +30,24 @@
       "pokemon": "Duskull",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 965,
-      "sourceId": 1793746180
+      "secondsAgo": 1286,
+      "sourceId": 1793746181
     },
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1150,
+      "secondsAgo": 1472,
       "sourceId": 1793745995
+    },
+    {
+      "monsterId": 104,
+      "pokemon": "Cubone",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 1111,
+      "sourceId": 1793746356
     }
   ],
   "alpha": {
