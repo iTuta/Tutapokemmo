@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-03T16:41:18.395Z",
+  "fetchedAt": "2026-11-03T16:45:53.762Z",
   "swarms": [
     {
       "monsterId": 451,
@@ -22,23 +22,26 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-03T16:54:04.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 23,
+      "pokemon": "Ekans",
+      "region": "Sinnoh",
+      "location": "",
+      "sourceId": 1793725045,
+      "despawnTimestamp": 1793725044,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-03T16:57:25.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Sinnoh",
-      "location": "",
-      "secondsAgo": 1271,
-      "sourceId": 1793722807
-    },
     {
       "monsterId": 228,
       "pokemon": "Houndour",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1038,
+      "secondsAgo": 1313,
       "sourceId": 1793723040
     }
   ],
