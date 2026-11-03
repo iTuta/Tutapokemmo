@@ -1,15 +1,37 @@
 {
-  "fetchedAt": "2026-11-03T22:55:42.219Z",
+  "fetchedAt": "2026-11-03T23:01:12.502Z",
   "swarms": [
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1793747708,
+      "despawnTimestamp": 1793747707,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-03T23:15:08.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 355,
       "pokemon": "Duskull",
       "region": "Johto",
       "location": "",
       "sourceId": 1793747080,
-      "despawnTimestamp": 1793747080,
+      "despawnTimestamp": 1793747079,
       "hasValuable": false,
       "timestampUtc": "2026-11-03T23:04:40.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 302,
+      "pokemon": "sableye",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1793747506,
+      "despawnTimestamp": 1793747506,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-03T23:11:46.000Z",
       "publishedBy": ""
     },
     {
@@ -35,24 +57,7 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [
-    {
-      "monsterId": 261,
-      "pokemon": "Poochyena",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 1174,
-      "sourceId": 1793745368
-    },
-    {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 1248,
-      "sourceId": 1793745294
-    }
-  ],
+  "lastSeen": [],
   "alpha": {
     "monsterId": 435,
     "pokemon": "Skuntank",
