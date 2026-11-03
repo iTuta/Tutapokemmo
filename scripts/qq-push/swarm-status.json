@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-03T17:05:52.356Z",
+  "fetchedAt": "2026-11-03T17:10:52.604Z",
   "swarms": [
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793725780,
-      "despawnTimestamp": 1793725780,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-03T17:09:40.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 972,
+      "sourceId": 1793724880
+    },
+    {
       "monsterId": 207,
       "pokemon": "Gligar",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1607,
+      "secondsAgo": 1907,
       "sourceId": 1793723945
     }
   ],
