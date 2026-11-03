@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-03T03:35:46.959Z",
+  "fetchedAt": "2026-11-03T03:40:47.540Z",
   "swarms": [
-    {
-      "monsterId": 355,
-      "pokemon": "Duskull",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793677239,
-      "despawnTimestamp": 1793677238,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-03T03:40:39.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 104,
       "pokemon": "Cubone",
@@ -37,12 +26,28 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 355,
+      "pokemon": "Duskull",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 908,
+      "sourceId": 1793676339
+    },
+    {
       "monsterId": 163,
       "pokemon": "Hoothoot",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1639,
-      "sourceId": 1793675307
+      "secondsAgo": 1939,
+      "sourceId": 1793675308
+    },
+    {
+      "monsterId": 163,
+      "pokemon": "Hoothoot",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 4985,
+      "sourceId": 1793672262
     }
   ],
   "alpha": {
@@ -55,6 +60,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-11-02T22:55:43.000Z",
     "timestampRaw": "2026-11-02T22:55:43.000Z",
-    "publishedBy": ""
+    "publishedBy": "Enzo"
   }
 }
