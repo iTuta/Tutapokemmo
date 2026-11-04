@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-04T03:20:51.421Z",
+  "fetchedAt": "2026-11-04T03:25:39.629Z",
   "swarms": [
+    {
+      "monsterId": 92,
+      "pokemon": "Gastly",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1793763602,
+      "despawnTimestamp": 1793763602,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-04T03:40:02.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 41,
       "pokemon": "zubat",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 451,
-      "pokemon": "Skorupi",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 1326,
-      "sourceId": 1793761125
-    },
-    {
       "monsterId": 163,
       "pokemon": "Hoothoot",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 967,
+      "secondsAgo": 1255,
       "sourceId": 1793761484
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Duskull",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1990,
+      "secondsAgo": 2278,
       "sourceId": 1793760461
     }
   ],
