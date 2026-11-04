@@ -1,56 +1,50 @@
 {
-  "fetchedAt": "2026-11-04T01:10:44.863Z",
+  "fetchedAt": "2026-11-04T01:15:52.931Z",
   "swarms": [
+    {
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Sinnoh",
+      "location": "",
+      "sourceId": 1793755545,
+      "despawnTimestamp": 1793755544,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-04T01:25:45.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Kanto",
       "location": "",
-      "sourceId": 1793754851,
-      "despawnTimestamp": 1793754851,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-04T01:14:11.000Z",
-      "publishedBy": ""
+      "secondsAgo": 400,
+      "sourceId": 1793754552
     },
     {
       "monsterId": 355,
       "pokemon": "Duskull",
       "region": "Johto",
       "location": "",
-      "sourceId": 1793754703,
-      "despawnTimestamp": 1793754702,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-04T01:11:43.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1149,
+      "sourceId": 1793753803
+    },
+    {
+      "monsterId": 228,
+      "pokemon": "Houndour",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 1493,
+      "sourceId": 1793753459
     },
     {
       "monsterId": 353,
       "pokemon": "Shuppet",
       "region": "Unova",
       "location": "",
-      "sourceId": 1793754940,
-      "despawnTimestamp": 1793754939,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-04T01:15:40.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 228,
-      "pokemon": "Houndour",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 1184,
-      "sourceId": 1793753460
-    },
-    {
-      "monsterId": 104,
-      "pokemon": "Cubone",
-      "region": "Sinnoh",
-      "location": "",
-      "secondsAgo": 1808,
-      "sourceId": 1793752836
+      "secondsAgo": 912,
+      "sourceId": 1793754040
     }
   ],
   "alpha": {
