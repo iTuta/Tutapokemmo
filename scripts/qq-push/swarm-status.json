@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-04T16:20:50.846Z",
+  "fetchedAt": "2026-11-04T16:25:49.131Z",
   "swarms": [
+    {
+      "monsterId": 197,
+      "pokemon": "umbreon",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1793810272,
+      "despawnTimestamp": 1793810272,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-04T16:37:52.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 355,
       "pokemon": "Duskull",
@@ -15,27 +26,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 104,
-      "pokemon": "Cubone",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 1122,
-      "sourceId": 1793808128
-    },
-    {
       "monsterId": 207,
       "pokemon": "Gligar",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1252,
-      "sourceId": 1793807998
+      "secondsAgo": 1550,
+      "sourceId": 1793807999
     },
     {
       "monsterId": 23,
       "pokemon": "Ekans",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1275,
+      "secondsAgo": 1574,
       "sourceId": 1793807975
     }
   ],
