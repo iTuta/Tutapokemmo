@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-04T16:25:49.131Z",
+  "fetchedAt": "2026-11-04T16:31:04.322Z",
   "swarms": [
     {
       "monsterId": 197,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1793810272,
       "hasValuable": false,
       "timestampUtc": "2026-11-04T16:37:52.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1793810721,
+      "despawnTimestamp": 1793810721,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-04T16:45:21.000Z",
       "publishedBy": ""
     },
     {
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 207,
-      "pokemon": "Gligar",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 1550,
-      "sourceId": 1793807999
-    },
-    {
       "monsterId": 23,
       "pokemon": "Ekans",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1574,
+      "secondsAgo": 1889,
       "sourceId": 1793807975
     }
   ],
