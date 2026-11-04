@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-04T21:31:45.563Z",
+  "fetchedAt": "2026-11-04T21:35:46.969Z",
   "swarms": [
+    {
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1793828892,
+      "despawnTimestamp": 1793828891,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-04T21:48:12.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 23,
       "pokemon": "ekans",
       "region": "Sinnoh",
       "location": "",
       "sourceId": 1793828217,
-      "despawnTimestamp": 1793828217,
+      "despawnTimestamp": 1793828216,
       "hasValuable": false,
       "timestampUtc": "2026-11-04T21:36:57.000Z",
       "publishedBy": ""
@@ -30,24 +41,16 @@
       "pokemon": "Poochyena",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 900,
-      "sourceId": 1793827005
+      "secondsAgo": 1142,
+      "sourceId": 1793827004
     },
     {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1485,
+      "secondsAgo": 1726,
       "sourceId": 1793826420
-    },
-    {
-      "monsterId": 353,
-      "pokemon": "Shuppet",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 7206,
-      "sourceId": 1793820699
     }
   ],
   "alpha": {
