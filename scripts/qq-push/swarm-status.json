@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-04T04:26:01.539Z",
+  "fetchedAt": "2026-11-04T04:31:27.883Z",
   "swarms": [
+    {
+      "monsterId": 302,
+      "pokemon": "Sableye",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1793767419,
+      "despawnTimestamp": 1793767418,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-04T04:43:39.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 228,
       "pokemon": "Houndour",
@@ -11,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-04T04:38:11.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1793766367,
-      "despawnTimestamp": 1793766367,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-04T04:26:07.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,24 +30,24 @@
       "pokemon": "Murkrow",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1767,
-      "sourceId": 1793764594
-    },
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 1712,
-      "sourceId": 1793764649
+      "secondsAgo": 2094,
+      "sourceId": 1793764593
     },
     {
       "monsterId": 261,
       "pokemon": "Poochyena",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1084,
+      "secondsAgo": 1410,
       "sourceId": 1793765277
+    },
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 1220,
+      "sourceId": 1793765467
     }
   ],
   "alpha": {
