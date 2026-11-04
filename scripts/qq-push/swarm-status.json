@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-04T16:10:52.608Z",
+  "fetchedAt": "2026-11-04T16:15:50.799Z",
   "swarms": [
     {
       "monsterId": 104,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-04T16:17:08.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 23,
-      "pokemon": "Ekans",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1793808874,
-      "despawnTimestamp": 1793808874,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-04T16:14:34.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,15 +19,23 @@
       "pokemon": "Gligar",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 654,
+      "secondsAgo": 952,
       "sourceId": 1793807998
+    },
+    {
+      "monsterId": 23,
+      "pokemon": "Ekans",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 975,
+      "sourceId": 1793807975
     },
     {
       "monsterId": 41,
       "pokemon": "Zubat",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1331,
+      "secondsAgo": 1629,
       "sourceId": 1793807321
     }
   ],
