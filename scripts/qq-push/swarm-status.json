@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-04T02:31:02.893Z",
+  "fetchedAt": "2026-11-04T02:35:44.426Z",
   "swarms": [
-    {
-      "monsterId": 261,
-      "pokemon": "Poochyena",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793759509,
-      "despawnTimestamp": 1793759509,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-04T02:31:49.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 104,
       "pokemon": "Cubone",
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1134,
+      "sourceId": 1793758610
+    },
+    {
       "monsterId": 302,
       "pokemon": "Sableye",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1648,
+      "secondsAgo": 1930,
       "sourceId": 1793757814
     }
   ],
