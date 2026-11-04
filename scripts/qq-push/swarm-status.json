@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-04T11:15:54.455Z",
+  "fetchedAt": "2026-11-04T11:20:57.165Z",
   "swarms": [
     {
       "monsterId": 207,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-04T11:24:39.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1793791144,
-      "despawnTimestamp": 1793791144,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-04T11:19:04.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,8 +30,16 @@
       "pokemon": "Seviper",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1113,
+      "secondsAgo": 1416,
       "sourceId": 1793789841
+    },
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 1012,
+      "sourceId": 1793790245
     }
   ],
   "alpha": {
