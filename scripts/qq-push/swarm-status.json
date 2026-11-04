@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-04T13:36:08.527Z",
+  "fetchedAt": "2026-11-04T13:40:51.685Z",
   "swarms": [
-    {
-      "monsterId": 197,
-      "pokemon": "Umbreon",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793799465,
-      "despawnTimestamp": 1793799465,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-04T13:37:45.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 104,
       "pokemon": "Cubone",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 197,
+      "pokemon": "Umbreon",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1086,
+      "sourceId": 1793798565
+    },
+    {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1098,
+      "secondsAgo": 1381,
       "sourceId": 1793798270
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Hoothoot",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1498,
+      "secondsAgo": 1781,
       "sourceId": 1793797870
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Hoothoot",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1326,
+      "secondsAgo": 1609,
       "sourceId": 1793798042
     }
   ],
