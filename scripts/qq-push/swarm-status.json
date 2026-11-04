@@ -1,56 +1,53 @@
 {
-  "fetchedAt": "2026-11-04T15:01:15.100Z",
+  "fetchedAt": "2026-11-04T15:11:40.096Z",
   "swarms": [
+    {
+      "monsterId": 228,
+      "pokemon": "Houndour",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1793805507,
+      "despawnTimestamp": 1793805507,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-04T15:18:27.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1793805701,
+      "despawnTimestamp": 1793805701,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-04T15:21:41.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Johto",
       "location": "",
-      "sourceId": 1793804617,
-      "despawnTimestamp": 1793804617,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-04T15:03:37.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1382,
+      "sourceId": 1793803718
     },
     {
       "monsterId": 355,
       "pokemon": "Duskull",
       "region": "Sinnoh",
       "location": "",
-      "sourceId": 1793804930,
-      "despawnTimestamp": 1793804930,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-04T15:08:50.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1069,
+      "sourceId": 1793804031
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "",
-      "sourceId": 1793805050,
-      "despawnTimestamp": 1793805050,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-04T15:10:50.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 96,
-      "pokemon": "Drowzee",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 1630,
-      "sourceId": 1793802845
-    },
-    {
-      "monsterId": 228,
-      "pokemon": "Houndour",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 1338,
-      "sourceId": 1793803137
+      "secondsAgo": 949,
+      "sourceId": 1793804151
     }
   ],
   "alpha": {
