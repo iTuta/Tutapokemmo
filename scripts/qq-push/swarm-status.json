@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-04T07:15:51.624Z",
+  "fetchedAt": "2026-11-04T07:20:48.668Z",
   "swarms": [
+    {
+      "monsterId": 92,
+      "pokemon": "Gastly",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1793777529,
+      "despawnTimestamp": 1793777528,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-04T07:32:09.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 353,
       "pokemon": "Shuppet",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 1637,
-      "sourceId": 1793774914
-    },
-    {
       "monsterId": 228,
       "pokemon": "Houndour",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 925,
+      "secondsAgo": 1222,
       "sourceId": 1793775626
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Murkrow",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1070,
+      "secondsAgo": 1367,
       "sourceId": 1793775481
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Shuppet",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1306,
+      "secondsAgo": 1603,
       "sourceId": 1793775245
     }
   ],
