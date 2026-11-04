@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-04T11:35:44.923Z",
+  "fetchedAt": "2026-11-04T11:40:52.276Z",
   "swarms": [
-    {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793792332,
-      "despawnTimestamp": 1793792331,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-04T11:38:52.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1019,
+      "sourceId": 1793791433
+    },
+    {
       "monsterId": 207,
       "pokemon": "Gligar",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1407,
+      "secondsAgo": 1715,
       "sourceId": 1793790737
     },
     {
@@ -38,8 +35,8 @@
       "pokemon": "Seviper",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1900,
-      "sourceId": 1793790244
+      "secondsAgo": 2207,
+      "sourceId": 1793790245
     }
   ],
   "alpha": {
