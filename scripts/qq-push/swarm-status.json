@@ -1,39 +1,6 @@
 {
-  "fetchedAt": "2026-11-04T04:10:48.782Z",
+  "fetchedAt": "2026-11-04T04:15:53.867Z",
   "swarms": [
-    {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793765493,
-      "despawnTimestamp": 1793765493,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-04T04:11:33.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1793765548,
-      "despawnTimestamp": 1793765548,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-04T04:12:28.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 425,
-      "pokemon": "Drifloon",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1793765746,
-      "despawnTimestamp": 1793765746,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-04T04:15:46.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 261,
       "pokemon": "Poochyena",
@@ -44,16 +11,43 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-04T04:22:57.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Unova",
+      "location": "",
+      "sourceId": 1793766367,
+      "despawnTimestamp": 1793766366,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-04T04:26:07.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 197,
-      "pokemon": "Umbreon",
-      "region": "Unova",
+      "monsterId": 198,
+      "pokemon": "Murkrow",
+      "region": "Kanto",
       "location": "",
-      "secondsAgo": 7381,
-      "sourceId": 1793758067
+      "secondsAgo": 1160,
+      "sourceId": 1793764593
+    },
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 1105,
+      "sourceId": 1793764648
+    },
+    {
+      "monsterId": 425,
+      "pokemon": "Drifloon",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 906,
+      "sourceId": 1793764847
     }
   ],
   "alpha": {
