@@ -1,65 +1,54 @@
 {
-  "fetchedAt": "2026-11-04T02:16:04.214Z",
+  "fetchedAt": "2026-11-04T02:20:49.610Z",
   "swarms": [
     {
-      "monsterId": 302,
-      "pokemon": "Sableye",
-      "region": "Hoenn",
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Kanto",
       "location": "",
-      "sourceId": 1793758713,
-      "despawnTimestamp": 1793758713,
+      "sourceId": 1793759509,
+      "despawnTimestamp": 1793759509,
       "hasValuable": false,
-      "timestampUtc": "2026-11-04T02:18:33.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 197,
-      "pokemon": "Umbreon",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1793758966,
-      "despawnTimestamp": 1793758966,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-04T02:22:46.000Z",
+      "timestampUtc": "2026-11-04T02:31:49.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 92,
-      "pokemon": "Gastly",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 1940,
-      "sourceId": 1793756624
-    },
-    {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1137,
+      "secondsAgo": 1422,
       "sourceId": 1793757427
+    },
+    {
+      "monsterId": 302,
+      "pokemon": "Sableye",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 1035,
+      "sourceId": 1793757814
     },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 2271,
+      "secondsAgo": 2556,
       "sourceId": 1793756293
     }
   ],
   "alpha": {
-    "monsterId": 435,
-    "pokemon": "Skuntank",
-    "region": "Sinnoh",
-    "location": "Route 212",
-    "sourceId": 1793723520,
-    "despawnTimestamp": 1793740620,
+    "monsterId": 132,
+    "pokemon": "Ditto",
+    "region": "Unova",
+    "location": "Route 9",
+    "sourceId": 1793746048,
+    "despawnTimestamp": 1793763148,
     "hasValuable": false,
-    "timestampUtc": "2026-11-03T16:32:00.000Z",
-    "timestampRaw": "2026-11-03T16:32:00.000Z",
+    "timestampUtc": "2026-11-03T22:47:28.000Z",
+    "timestampRaw": "2026-11-03T22:47:28.000Z",
     "publishedBy": ""
   }
 }
