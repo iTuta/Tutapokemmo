@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-05T20:10:52.671Z",
+  "fetchedAt": "2026-11-05T20:15:51.704Z",
   "swarms": [
+    {
+      "monsterId": 104,
+      "pokemon": "cubone",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1793910565,
+      "despawnTimestamp": 1793910564,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-05T20:29:25.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 104,
       "pokemon": "cubone",
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 197,
-      "pokemon": "Umbreon",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 956,
-      "sourceId": 1793908496
-    },
-    {
       "monsterId": 23,
       "pokemon": "Ekans",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1730,
+      "secondsAgo": 2029,
       "sourceId": 1793907722
     }
   ],
