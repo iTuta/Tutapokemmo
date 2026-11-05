@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-05T00:25:57.075Z",
+  "fetchedAt": "2026-11-05T00:31:06.373Z",
   "swarms": [
     {
       "monsterId": 228,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-05T00:40:40.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1793838544,
-      "despawnTimestamp": 1793838544,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-05T00:29:04.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,7 +30,7 @@
       "pokemon": "Duskull",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1905,
+      "secondsAgo": 2214,
       "sourceId": 1793836452
     },
     {
@@ -49,8 +38,16 @@
       "pokemon": "Skorupi",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1352,
+      "secondsAgo": 1661,
       "sourceId": 1793837005
+    },
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 1021,
+      "sourceId": 1793837645
     }
   ],
   "alpha": {
