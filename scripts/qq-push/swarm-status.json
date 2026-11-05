@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-05T03:05:44.014Z",
+  "fetchedAt": "2026-11-05T03:10:50.819Z",
   "swarms": [
     {
       "monsterId": 41,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1793848770,
       "hasValuable": false,
       "timestampUtc": "2026-11-05T03:19:30.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 167,
+      "pokemon": "Spinarak",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1793848945,
+      "despawnTimestamp": 1793848944,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-05T03:22:25.000Z",
       "publishedBy": ""
     },
     {
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 261,
-      "pokemon": "Poochyena",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 1886,
-      "sourceId": 1793846057
-    },
-    {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 2185,
+      "secondsAgo": 2492,
       "sourceId": 1793845758
     },
     {
@@ -46,7 +49,7 @@
       "pokemon": "Cubone",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 2225,
+      "secondsAgo": 2532,
       "sourceId": 1793845718
     }
   ],
