@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-05T07:40:54.426Z",
+  "fetchedAt": "2026-11-05T07:46:12.224Z",
   "swarms": [
-    {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1793864698,
-      "despawnTimestamp": 1793864698,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-05T07:44:58.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 96,
       "pokemon": "Drowzee",
@@ -41,15 +30,23 @@
       "pokemon": "Drifloon",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1084,
-      "sourceId": 1793863370
+      "secondsAgo": 1401,
+      "sourceId": 1793863371
+    },
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 973,
+      "sourceId": 1793863799
     },
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1210,
+      "secondsAgo": 1528,
       "sourceId": 1793863244
     }
   ],
