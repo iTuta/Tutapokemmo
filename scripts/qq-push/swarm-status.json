@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-05T07:25:46.590Z",
+  "fetchedAt": "2026-11-05T07:31:08.657Z",
   "swarms": [
     {
       "monsterId": 425,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1793864269,
       "hasValuable": false,
       "timestampUtc": "2026-11-05T07:37:50.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1793864698,
+      "despawnTimestamp": 1793864698,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-05T07:44:58.000Z",
       "publishedBy": ""
     },
     {
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 92,
-      "pokemon": "Gastly",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 3517,
-      "sourceId": 1793860029
-    },
-    {
       "monsterId": 163,
       "pokemon": "Hoothoot",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1911,
+      "secondsAgo": 2233,
       "sourceId": 1793861635
     },
     {
@@ -46,7 +49,7 @@
       "pokemon": "ekans",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1762,
+      "secondsAgo": 2084,
       "sourceId": 1793861784
     }
   ],
