@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-11-05T03:15:52.381Z",
+  "fetchedAt": "2026-11-05T03:20:59.614Z",
   "swarms": [
-    {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793848770,
-      "despawnTimestamp": 1793848770,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-05T03:19:30.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 167,
       "pokemon": "Spinarak",
       "region": "Johto",
       "location": "",
       "sourceId": 1793848945,
-      "despawnTimestamp": 1793848945,
+      "despawnTimestamp": 1793848944,
       "hasValuable": false,
       "timestampUtc": "2026-11-05T03:22:25.000Z",
       "publishedBy": ""
@@ -48,11 +37,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 988,
+      "sourceId": 1793847871
+    },
+    {
       "monsterId": 207,
       "pokemon": "gligar",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1082,
+      "secondsAgo": 1389,
       "sourceId": 1793847470
     }
   ],
