@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-11-05T20:05:47.192Z",
+  "fetchedAt": "2026-11-05T20:10:52.671Z",
   "swarms": [
-    {
-      "monsterId": 92,
-      "pokemon": "gastly",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793909475,
-      "despawnTimestamp": 1793909475,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-05T20:11:15.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 197,
-      "pokemon": "Umbreon",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1793909395,
-      "despawnTimestamp": 1793909395,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-05T20:09:55.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 104,
       "pokemon": "cubone",
@@ -33,36 +11,47 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-05T20:18:19.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 451,
+      "pokemon": "Skorupi",
+      "region": "Unova",
+      "location": "",
+      "sourceId": 1793910214,
+      "despawnTimestamp": 1793910214,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-05T20:23:34.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
+    {
+      "monsterId": 197,
+      "pokemon": "Umbreon",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 956,
+      "sourceId": 1793908496
+    },
     {
       "monsterId": 23,
       "pokemon": "Ekans",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1424,
-      "sourceId": 1793907723
-    },
-    {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Unova",
-      "location": "",
-      "secondsAgo": 1742,
-      "sourceId": 1793907405
+      "secondsAgo": 1730,
+      "sourceId": 1793907722
     }
   ],
   "alpha": {
-    "monsterId": 132,
-    "pokemon": "Ditto",
-    "region": "Hoenn",
-    "location": "New Mauville",
-    "sourceId": 1793869519,
-    "despawnTimestamp": 1793886619,
+    "monsterId": 73,
+    "pokemon": "Tentacruel",
+    "region": "Kanto",
+    "location": "Five Island",
+    "sourceId": 1793896646,
+    "despawnTimestamp": 1793913746,
     "hasValuable": false,
-    "timestampUtc": "2026-11-05T09:05:19.000Z",
-    "timestampRaw": "2026-11-05T09:05:19.000Z",
-    "publishedBy": ".bumfluf"
+    "timestampUtc": "2026-11-05T16:37:26.000Z",
+    "timestampRaw": "2026-11-05T16:37:26.000Z",
+    "publishedBy": ""
   }
 }
