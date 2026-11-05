@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-11-05T05:06:18.563Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-05T05:10:52.495Z",
+  "swarms": [
     {
-      "monsterId": 41,
-      "pokemon": "Zubat",
+      "monsterId": 355,
+      "pokemon": "Duskull",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1606,
-      "sourceId": 1793853572
-    },
+      "sourceId": 1793856151,
+      "despawnTimestamp": 1793856150,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-05T05:22:31.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 355,
       "pokemon": "Duskull",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1222,
-      "sourceId": 1793853956
+      "secondsAgo": 1495,
+      "sourceId": 1793853957
     },
     {
       "monsterId": 92,
       "pokemon": "gastly",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1740,
-      "sourceId": 1793853438
+      "secondsAgo": 2013,
+      "sourceId": 1793853439
     },
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 981,
+      "secondsAgo": 1255,
       "sourceId": 1793854197
     }
   ],
