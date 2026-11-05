@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-05T01:01:18.568Z",
+  "fetchedAt": "2026-11-05T01:06:03.521Z",
   "swarms": [
     {
       "monsterId": 425,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-05T01:11:08.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1793840540,
-      "despawnTimestamp": 1793840540,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-05T01:02:20.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,7 +30,7 @@
       "pokemon": "Sableye",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1470,
+      "secondsAgo": 1755,
       "sourceId": 1793839008
     },
     {
@@ -49,8 +38,16 @@
       "pokemon": "Skorupi",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1604,
+      "secondsAgo": 1889,
       "sourceId": 1793838874
+    },
+    {
+      "monsterId": 198,
+      "pokemon": "Murkrow",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 1122,
+      "sourceId": 1793839641
     }
   ],
   "alpha": {
