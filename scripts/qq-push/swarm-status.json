@@ -1,56 +1,50 @@
 {
-  "fetchedAt": "2026-11-05T12:05:47.739Z",
+  "fetchedAt": "2026-11-05T12:10:52.676Z",
   "swarms": [
     {
-      "monsterId": 197,
-      "pokemon": "umbreon",
-      "region": "Kanto",
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Johto",
       "location": "",
-      "sourceId": 1793880539,
-      "despawnTimestamp": 1793880538,
+      "sourceId": 1793881352,
+      "despawnTimestamp": 1793881351,
       "hasValuable": false,
-      "timestampUtc": "2026-11-05T12:08:59.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 92,
-      "pokemon": "gastly",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1793880554,
-      "despawnTimestamp": 1793880553,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-05T12:09:14.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 197,
-      "pokemon": "Umbreon",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1793880457,
-      "despawnTimestamp": 1793880457,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-05T12:07:37.000Z",
+      "timestampUtc": "2026-11-05T12:22:32.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
-      "region": "Johto",
+      "monsterId": 197,
+      "pokemon": "umbreon",
+      "region": "Kanto",
       "location": "",
-      "secondsAgo": 1452,
-      "sourceId": 1793878895
+      "secondsAgo": 1013,
+      "sourceId": 1793879639
     },
     {
       "monsterId": 92,
       "pokemon": "Gastly",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1706,
+      "secondsAgo": 2011,
       "sourceId": 1793878641
+    },
+    {
+      "monsterId": 92,
+      "pokemon": "gastly",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 998,
+      "sourceId": 1793879654
+    },
+    {
+      "monsterId": 197,
+      "pokemon": "Umbreon",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 1094,
+      "sourceId": 1793879558
     }
   ],
   "alpha": {
