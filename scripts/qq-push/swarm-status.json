@@ -1,44 +1,37 @@
 {
-  "fetchedAt": "2026-11-05T04:21:00.269Z",
-  "swarms": [
-    {
-      "monsterId": 96,
-      "pokemon": "Drowzee",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1793852687,
-      "despawnTimestamp": 1793852687,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-05T04:24:47.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1793852600,
-      "despawnTimestamp": 1793852600,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-05T04:23:20.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-11-05T04:25:53.176Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 167,
       "pokemon": "Spinarak",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1100,
+      "secondsAgo": 1393,
       "sourceId": 1793851360
+    },
+    {
+      "monsterId": 96,
+      "pokemon": "Drowzee",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 965,
+      "sourceId": 1793851788
+    },
+    {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 1052,
+      "sourceId": 1793851701
     },
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1493,
+      "secondsAgo": 1786,
       "sourceId": 1793850967
     }
   ],
