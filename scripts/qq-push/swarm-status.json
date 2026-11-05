@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-05T03:45:58.262Z",
+  "fetchedAt": "2026-11-05T03:51:21.947Z",
   "swarms": [
-    {
-      "monsterId": 261,
-      "pokemon": "Poochyena",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793850577,
-      "despawnTimestamp": 1793850577,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-05T03:49:37.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
@@ -21,6 +10,17 @@
       "despawnTimestamp": 1793850931,
       "hasValuable": false,
       "timestampUtc": "2026-11-05T03:55:32.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1793851403,
+      "despawnTimestamp": 1793851403,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-05T04:03:23.000Z",
       "publishedBy": ""
     },
     {
@@ -37,20 +37,20 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Hoenn",
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Kanto",
       "location": "",
-      "secondsAgo": 2013,
-      "sourceId": 1793848345
+      "secondsAgo": 1004,
+      "sourceId": 1793849677
     },
     {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1333,
-      "sourceId": 1793849025
+      "secondsAgo": 1657,
+      "sourceId": 1793849024
     }
   ],
   "alpha": {
