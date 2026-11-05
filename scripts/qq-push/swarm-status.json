@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-05T10:01:11.974Z",
+  "fetchedAt": "2026-11-05T10:05:54.035Z",
   "swarms": [
+    {
+      "monsterId": 197,
+      "pokemon": "Umbreon",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1793873871,
+      "despawnTimestamp": 1793873871,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-05T10:17:51.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 41,
       "pokemon": "Zubat",
       "region": "Johto",
       "location": "",
       "sourceId": 1793873617,
-      "despawnTimestamp": 1793873616,
+      "despawnTimestamp": 1793873617,
       "hasValuable": false,
       "timestampUtc": "2026-11-05T10:13:37.000Z",
       "publishedBy": ""
@@ -18,30 +29,24 @@
       "region": "Hoenn",
       "location": "",
       "sourceId": 1793873175,
-      "despawnTimestamp": 1793873174,
+      "despawnTimestamp": 1793873175,
       "hasValuable": false,
       "timestampUtc": "2026-11-05T10:06:15.000Z",
       "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 207,
-      "pokemon": "Gligar",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 2106,
-      "sourceId": 1793870765
     },
     {
       "monsterId": 96,
-      "pokemon": "drowzee",
+      "pokemon": "Drowzee",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 2473,
-      "sourceId": 1793870398
+      "sourceId": 1793873892,
+      "despawnTimestamp": 1793873892,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-05T10:18:12.000Z",
+      "publishedBy": ""
     }
   ],
+  "lastSeen": [],
   "alpha": {
     "monsterId": 54,
     "pokemon": "Psyduck",
