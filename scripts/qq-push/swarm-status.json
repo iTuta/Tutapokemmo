@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-05T02:35:57.457Z",
+  "fetchedAt": "2026-11-05T02:41:01.369Z",
   "swarms": [
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1793847171,
+      "despawnTimestamp": 1793847171,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-05T02:52:51.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 261,
       "pokemon": "Poochyena",
@@ -18,7 +29,7 @@
       "region": "Hoenn",
       "location": "",
       "sourceId": 1793846658,
-      "despawnTimestamp": 1793846657,
+      "despawnTimestamp": 1793846658,
       "hasValuable": false,
       "timestampUtc": "2026-11-05T02:44:18.000Z",
       "publishedBy": ""
@@ -40,22 +51,13 @@
       "region": "Unova",
       "location": "",
       "sourceId": 1793846773,
-      "despawnTimestamp": 1793846772,
+      "despawnTimestamp": 1793846773,
       "hasValuable": false,
       "timestampUtc": "2026-11-05T02:46:13.000Z",
       "publishedBy": ""
     }
   ],
-  "lastSeen": [
-    {
-      "monsterId": 302,
-      "pokemon": "Sableye",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 1923,
-      "sourceId": 1793844234
-    }
-  ],
+  "lastSeen": [],
   "alpha": {
     "monsterId": 373,
     "pokemon": "Salamence",
