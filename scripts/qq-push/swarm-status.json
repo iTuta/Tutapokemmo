@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-05T03:51:21.947Z",
+  "fetchedAt": "2026-11-05T03:55:54.579Z",
   "swarms": [
-    {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1793850932,
-      "despawnTimestamp": 1793850931,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-05T03:55:32.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 261,
       "pokemon": "Poochyena",
@@ -41,15 +30,23 @@
       "pokemon": "Poochyena",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1004,
+      "secondsAgo": 1277,
       "sourceId": 1793849677
+    },
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 922,
+      "sourceId": 1793850032
     },
     {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1657,
+      "secondsAgo": 1930,
       "sourceId": 1793849024
     }
   ],
