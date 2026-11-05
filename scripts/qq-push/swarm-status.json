@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-05T01:26:00.551Z",
+  "fetchedAt": "2026-11-05T01:31:05.563Z",
   "swarms": [
+    {
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1793843161,
+      "despawnTimestamp": 1793843160,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-05T01:46:01.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 353,
       "pokemon": "Shuppet",
@@ -10,17 +21,6 @@
       "despawnTimestamp": 1793842297,
       "hasValuable": false,
       "timestampUtc": "2026-11-05T01:31:37.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1793842127,
-      "despawnTimestamp": 1793842126,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-05T01:28:47.000Z",
       "publishedBy": ""
     },
     {
@@ -37,19 +37,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 425,
-      "pokemon": "Drifloon",
-      "region": "Kanto",
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1991,
-      "sourceId": 1793839969
+      "secondsAgo": 1038,
+      "sourceId": 1793841227
     },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1002,
+      "secondsAgo": 1307,
       "sourceId": 1793840958
     }
   ],
