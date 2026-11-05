@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-05T10:05:54.035Z",
+  "fetchedAt": "2026-11-05T10:10:54.832Z",
   "swarms": [
     {
       "monsterId": 197,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "",
       "sourceId": 1793873871,
-      "despawnTimestamp": 1793873871,
+      "despawnTimestamp": 1793873870,
       "hasValuable": false,
       "timestampUtc": "2026-11-05T10:17:51.000Z",
       "publishedBy": ""
@@ -18,20 +18,9 @@
       "region": "Johto",
       "location": "",
       "sourceId": 1793873617,
-      "despawnTimestamp": 1793873617,
+      "despawnTimestamp": 1793873616,
       "hasValuable": false,
       "timestampUtc": "2026-11-05T10:13:37.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 92,
-      "pokemon": "Gastly",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1793873175,
-      "despawnTimestamp": 1793873175,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-05T10:06:15.000Z",
       "publishedBy": ""
     },
     {
@@ -46,7 +35,16 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [],
+  "lastSeen": [
+    {
+      "monsterId": 92,
+      "pokemon": "Gastly",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 1179,
+      "sourceId": 1793872275
+    }
+  ],
   "alpha": {
     "monsterId": 54,
     "pokemon": "Psyduck",
