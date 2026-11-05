@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-05T17:15:56.104Z",
+  "fetchedAt": "2026-11-05T17:20:59.492Z",
   "swarms": [
     {
       "monsterId": 355,
@@ -7,31 +7,9 @@
       "region": "Hoenn",
       "location": "",
       "sourceId": 1793899781,
-      "despawnTimestamp": 1793899781,
+      "despawnTimestamp": 1793899780,
       "hasValuable": false,
       "timestampUtc": "2026-11-05T17:29:41.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 163,
-      "pokemon": "Hoothoot",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1793899005,
-      "despawnTimestamp": 1793899005,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-05T17:16:45.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1793899123,
-      "despawnTimestamp": 1793899123,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-05T17:18:43.000Z",
       "publishedBy": ""
     }
   ],
@@ -41,7 +19,7 @@
       "pokemon": "zubat",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 2163,
+      "secondsAgo": 2466,
       "sourceId": 1793896793
     },
     {
@@ -49,8 +27,24 @@
       "pokemon": "Poochyena",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1753,
-      "sourceId": 1793897203
+      "secondsAgo": 2057,
+      "sourceId": 1793897202
+    },
+    {
+      "monsterId": 163,
+      "pokemon": "Hoothoot",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 1154,
+      "sourceId": 1793898105
+    },
+    {
+      "monsterId": 198,
+      "pokemon": "Murkrow",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 1036,
+      "sourceId": 1793898223
     }
   ],
   "alpha": {
