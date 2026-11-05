@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-05T15:10:53.451Z",
+  "fetchedAt": "2026-11-05T15:16:11.789Z",
   "swarms": [
     {
       "monsterId": 207,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "",
       "sourceId": 1793892111,
-      "despawnTimestamp": 1793892111,
+      "despawnTimestamp": 1793892110,
       "hasValuable": false,
       "timestampUtc": "2026-11-05T15:21:51.000Z",
       "publishedBy": ""
@@ -33,26 +33,23 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-05T15:24:58.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 570,
       "pokemon": "zorua",
       "region": "Sinnoh",
       "location": "",
-      "sourceId": 1793891558,
-      "despawnTimestamp": 1793891557,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-05T15:12:38.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1113,
+      "sourceId": 1793890658
+    },
     {
       "monsterId": 207,
       "pokemon": "Gligar",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 2304,
+      "secondsAgo": 2622,
       "sourceId": 1793889149
     }
   ],
