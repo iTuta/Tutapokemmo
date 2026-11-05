@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-05T05:25:38.597Z",
+  "fetchedAt": "2026-11-05T05:31:00.421Z",
   "swarms": [
     {
       "monsterId": 96,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-05T05:39:40.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 302,
-      "pokemon": "Sableye",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1793856577,
-      "despawnTimestamp": 1793856577,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-05T05:29:37.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,7 +30,7 @@
       "pokemon": "Duskull",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1087,
+      "secondsAgo": 1409,
       "sourceId": 1793855251
     },
     {
@@ -49,8 +38,16 @@
       "pokemon": "Misdreavus",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 6306,
+      "secondsAgo": 6628,
       "sourceId": 1793850032
+    },
+    {
+      "monsterId": 302,
+      "pokemon": "Sableye",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 982,
+      "sourceId": 1793855678
     }
   ],
   "alpha": {
