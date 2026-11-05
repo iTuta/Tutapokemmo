@@ -1,15 +1,15 @@
 {
-  "fetchedAt": "2026-11-05T12:30:57.449Z",
+  "fetchedAt": "2026-11-05T12:35:48.534Z",
   "swarms": [
     {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
-      "region": "Hoenn",
+      "monsterId": 353,
+      "pokemon": "Shuppet",
+      "region": "Kanto",
       "location": "",
-      "sourceId": 1793882156,
-      "despawnTimestamp": 1793882155,
+      "sourceId": 1793882998,
+      "despawnTimestamp": 1793882998,
       "hasValuable": false,
-      "timestampUtc": "2026-11-05T12:35:56.000Z",
+      "timestampUtc": "2026-11-05T12:49:58.000Z",
       "publishedBy": ""
     },
     {
@@ -22,44 +22,39 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-05T12:43:21.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 23,
+      "pokemon": "Ekans",
+      "region": "Unova",
+      "location": "",
+      "sourceId": 1793883017,
+      "despawnTimestamp": 1793883017,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-05T12:50:17.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 197,
-      "pokemon": "umbreon",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 2218,
-      "sourceId": 1793879639
-    },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1405,
+      "secondsAgo": 1696,
       "sourceId": 1793880452
-    },
-    {
-      "monsterId": 197,
-      "pokemon": "Umbreon",
-      "region": "Unova",
-      "location": "",
-      "secondsAgo": 2299,
-      "sourceId": 1793879558
     }
   ],
   "alpha": {
-    "monsterId": 54,
-    "pokemon": "Psyduck",
-    "region": "Sinnoh",
-    "location": "Route 208",
-    "sourceId": 1793858114,
-    "despawnTimestamp": 1793875214,
+    "monsterId": 132,
+    "pokemon": "Ditto",
+    "region": "Hoenn",
+    "location": "New Mauville",
+    "sourceId": 1793869519,
+    "despawnTimestamp": 1793886619,
     "hasValuable": false,
-    "timestampUtc": "2026-11-05T05:55:14.000Z",
-    "timestampRaw": "2026-11-05T05:55:14.000Z",
-    "publishedBy": "wewoo"
+    "timestampUtc": "2026-11-05T09:05:19.000Z",
+    "timestampRaw": "2026-11-05T09:05:19.000Z",
+    "publishedBy": ""
   }
 }
