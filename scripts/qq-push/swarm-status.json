@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-05T06:31:05.230Z",
+  "fetchedAt": "2026-11-05T06:35:57.381Z",
   "swarms": [
-    {
-      "monsterId": 197,
-      "pokemon": "Umbreon",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793860543,
-      "despawnTimestamp": 1793860543,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-05T06:35:43.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 92,
       "pokemon": "Gastly",
@@ -48,11 +37,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 197,
+      "pokemon": "Umbreon",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 913,
+      "sourceId": 1793859644
+    },
+    {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1137,
+      "secondsAgo": 1429,
       "sourceId": 1793859128
     }
   ],
