@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-11-05T21:41:08.897Z",
+  "fetchedAt": "2026-11-05T21:45:55.032Z",
   "swarms": [
-    {
-      "monsterId": 302,
-      "pokemon": "Sableye",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1793915053,
-      "despawnTimestamp": 1793915052,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-05T21:44:13.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1793914982,
-      "despawnTimestamp": 1793914982,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-05T21:43:02.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
@@ -41,16 +19,32 @@
       "pokemon": "gastly",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 6292,
-      "sourceId": 1793908576
+      "secondsAgo": 6578,
+      "sourceId": 1793908577
+    },
+    {
+      "monsterId": 302,
+      "pokemon": "Sableye",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 1001,
+      "sourceId": 1793914154
+    },
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 1072,
+      "sourceId": 1793914083
     },
     {
       "monsterId": 96,
       "pokemon": "Drowzee",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1015,
-      "sourceId": 1793913853
+      "secondsAgo": 1301,
+      "sourceId": 1793913854
     }
   ],
   "alpha": {
