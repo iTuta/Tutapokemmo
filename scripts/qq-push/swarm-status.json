@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-06T02:15:53.081Z",
+  "fetchedAt": "2026-11-06T02:20:58.480Z",
   "swarms": [
     {
       "monsterId": 92,
@@ -13,14 +13,14 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 23,
-      "pokemon": "Ekans",
-      "region": "Johto",
+      "monsterId": 197,
+      "pokemon": "Umbreon",
+      "region": "Hoenn",
       "location": "",
-      "sourceId": 1793931393,
-      "despawnTimestamp": 1793931393,
+      "sourceId": 1793932261,
+      "despawnTimestamp": 1793932261,
       "hasValuable": false,
-      "timestampUtc": "2026-11-06T02:16:33.000Z",
+      "timestampUtc": "2026-11-06T02:31:01.000Z",
       "publishedBy": ""
     },
     {
@@ -33,24 +33,27 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-06T02:23:41.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 23,
+      "pokemon": "Ekans",
+      "region": "Unova",
+      "location": "",
+      "sourceId": 1793932335,
+      "despawnTimestamp": 1793932335,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-06T02:32:15.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 425,
-      "pokemon": "Drifloon",
-      "region": "Hoenn",
+      "monsterId": 23,
+      "pokemon": "Ekans",
+      "region": "Johto",
       "location": "",
-      "secondsAgo": 1599,
-      "sourceId": 1793929754
-    },
-    {
-      "monsterId": 355,
-      "pokemon": "Duskull",
-      "region": "Unova",
-      "location": "",
-      "secondsAgo": 1568,
-      "sourceId": 1793929785
+      "secondsAgo": 1164,
+      "sourceId": 1793930494
     }
   ],
   "alpha": {
