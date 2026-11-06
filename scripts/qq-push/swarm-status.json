@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-06T09:55:49.046Z",
+  "fetchedAt": "2026-11-06T10:05:40.174Z",
   "swarms": [
-    {
-      "monsterId": 228,
-      "pokemon": "Houndour",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793958966,
-      "despawnTimestamp": 1793958966,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T09:56:06.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 353,
       "pokemon": "shuppet",
@@ -21,6 +10,17 @@
       "despawnTimestamp": 1793959725,
       "hasValuable": false,
       "timestampUtc": "2026-11-06T10:08:45.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 451,
+      "pokemon": "skorupi",
+      "region": "Sinnoh",
+      "location": "",
+      "sourceId": 1793960368,
+      "despawnTimestamp": 1793960368,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-06T10:19:28.000Z",
       "publishedBy": ""
     },
     {
@@ -37,12 +37,12 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 207,
-      "pokemon": "Gligar",
-      "region": "Sinnoh",
+      "monsterId": 228,
+      "pokemon": "Houndour",
+      "region": "Kanto",
       "location": "",
-      "secondsAgo": 1576,
-      "sourceId": 1793957373
+      "secondsAgo": 1473,
+      "sourceId": 1793958067
     }
   ],
   "alpha": {
