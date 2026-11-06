@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-06T04:20:50.581Z",
+  "fetchedAt": "2026-11-06T04:25:42.425Z",
   "swarms": [
+    {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1793939424,
+      "despawnTimestamp": 1793939424,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-06T04:30:24.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 302,
       "pokemon": "Sableye",
@@ -35,16 +46,7 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [
-    {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 1468,
-      "sourceId": 1793937382
-    }
-  ],
+  "lastSeen": [],
   "alpha": {
     "monsterId": 131,
     "pokemon": "Lapras",
