@@ -1,59 +1,50 @@
 {
-  "fetchedAt": "2026-11-06T17:01:12.686Z",
+  "fetchedAt": "2026-11-06T17:13:57.111Z",
   "swarms": [
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Unova",
+      "location": "",
+      "sourceId": 1793985852,
+      "despawnTimestamp": 1793985853,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-06T17:24:12.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 104,
       "pokemon": "Cubone",
       "region": "Kanto",
       "location": "",
-      "sourceId": 1793985183,
-      "despawnTimestamp": 1793985183,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T17:13:03.000Z",
-      "publishedBy": ""
+      "secondsAgo": 953,
+      "sourceId": 1793984284
     },
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Johto",
       "location": "",
-      "sourceId": 1793984999,
-      "despawnTimestamp": 1793984998,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T17:09:59.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1137,
+      "sourceId": 1793984100
     },
     {
       "monsterId": 23,
       "pokemon": "Ekans",
       "region": "Hoenn",
       "location": "",
-      "sourceId": 1793984778,
-      "despawnTimestamp": 1793984777,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T17:06:18.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1358,
+      "sourceId": 1793983879
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Sinnoh",
       "location": "",
-      "sourceId": 1793984509,
-      "despawnTimestamp": 1793984508,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T17:01:49.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 41,
-      "pokemon": "zubat",
-      "region": "Unova",
-      "location": "",
-      "secondsAgo": 1786,
-      "sourceId": 1793982686
+      "secondsAgo": 1627,
+      "sourceId": 1793983610
     }
   ],
   "alpha": {
