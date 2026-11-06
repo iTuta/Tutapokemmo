@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-06T00:31:05.719Z",
+  "fetchedAt": "2026-11-06T00:35:47.902Z",
   "swarms": [
     {
       "monsterId": 302,
@@ -24,6 +24,17 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 451,
+      "pokemon": "Skorupi",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1793926023,
+      "despawnTimestamp": 1793926022,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-06T00:47:03.000Z",
+      "publishedBy": ""
+    },
+    {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Unova",
@@ -37,19 +48,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 96,
-      "pokemon": "Drowzee",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 1193,
-      "sourceId": 1793923872
-    },
-    {
       "monsterId": 41,
       "pokemon": "Zubat",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1154,
+      "secondsAgo": 1436,
       "sourceId": 1793923911
     }
   ],
