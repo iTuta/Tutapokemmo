@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-06T13:10:47.743Z",
+  "fetchedAt": "2026-11-06T13:15:56.308Z",
   "swarms": [
     {
       "monsterId": 197,
@@ -40,7 +40,7 @@
       "region": "Johto",
       "location": "",
       "sourceId": 1793971027,
-      "despawnTimestamp": 1793971026,
+      "despawnTimestamp": 1793971027,
       "hasValuable": false,
       "timestampUtc": "2026-11-06T13:17:07.000Z",
       "publishedBy": ""
@@ -68,7 +68,16 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [],
+  "lastSeen": [
+    {
+      "monsterId": 167,
+      "pokemon": "Spinarak",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1198,
+      "sourceId": 1793969758
+    }
+  ],
   "alpha": {
     "monsterId": 546,
     "pokemon": "Cottonee",
