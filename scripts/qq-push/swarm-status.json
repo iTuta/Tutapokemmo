@@ -1,15 +1,26 @@
 {
-  "fetchedAt": "2026-11-06T17:35:46.354Z",
+  "fetchedAt": "2026-11-06T17:40:53.782Z",
   "swarms": [
+    {
+      "monsterId": 198,
+      "pokemon": "Murkrow",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1793987650,
+      "despawnTimestamp": 1793987649,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-06T17:54:10.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 570,
       "pokemon": "zorua",
-      "region": "Kanto",
+      "region": "Hoenn",
       "location": "",
-      "sourceId": 1793987217,
-      "despawnTimestamp": 1793987217,
+      "sourceId": 1793987160,
+      "despawnTimestamp": 1793987159,
       "hasValuable": false,
-      "timestampUtc": "2026-11-06T17:46:57.000Z",
+      "timestampUtc": "2026-11-06T17:46:00.000Z",
       "publishedBy": ""
     },
     {
@@ -30,23 +41,15 @@
       "pokemon": "cubone",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 900,
-      "sourceId": 1793985646
-    },
-    {
-      "monsterId": 23,
-      "pokemon": "Ekans",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 2667,
-      "sourceId": 1793983879
+      "secondsAgo": 1208,
+      "sourceId": 1793985645
     },
     {
       "monsterId": 207,
       "pokemon": "Gligar",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1075,
+      "secondsAgo": 1382,
       "sourceId": 1793985471
     }
   ],
