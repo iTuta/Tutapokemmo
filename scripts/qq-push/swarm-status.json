@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-06T13:40:50.405Z",
+  "fetchedAt": "2026-11-06T13:45:50.926Z",
   "swarms": [
     {
       "monsterId": 570,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1793973176,
       "hasValuable": false,
       "timestampUtc": "2026-11-06T13:52:56.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1793972704,
-      "despawnTimestamp": 1793972703,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T13:45:04.000Z",
       "publishedBy": ""
     },
     {
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 946,
+      "sourceId": 1793971804
+    },
+    {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1236,
+      "secondsAgo": 1536,
       "sourceId": 1793971214
     }
   ],
