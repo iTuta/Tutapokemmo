@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-06T05:31:01.910Z",
+  "fetchedAt": "2026-11-06T05:35:55.450Z",
   "swarms": [
+    {
+      "monsterId": 228,
+      "pokemon": "Houndour",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1793944177,
+      "despawnTimestamp": 1793944177,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-06T05:49:37.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 23,
       "pokemon": "Ekans",
@@ -18,7 +29,7 @@
       "region": "Hoenn",
       "location": "",
       "sourceId": 1793943421,
-      "despawnTimestamp": 1793943420,
+      "despawnTimestamp": 1793943421,
       "hasValuable": false,
       "timestampUtc": "2026-11-06T05:37:01.000Z",
       "publishedBy": ""
@@ -29,7 +40,7 @@
       "region": "Sinnoh",
       "location": "",
       "sourceId": 1793943780,
-      "despawnTimestamp": 1793943779,
+      "despawnTimestamp": 1793943780,
       "hasValuable": false,
       "timestampUtc": "2026-11-06T05:43:00.000Z",
       "publishedBy": ""
@@ -37,20 +48,12 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 23,
-      "pokemon": "Ekans",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 1925,
-      "sourceId": 1793941136
-    },
-    {
       "monsterId": 163,
       "pokemon": "Hoothoot",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 2115,
-      "sourceId": 1793940946
+      "secondsAgo": 2408,
+      "sourceId": 1793940947
     }
   ],
   "alpha": {
