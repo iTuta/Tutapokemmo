@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-06T06:10:50.146Z",
+  "fetchedAt": "2026-11-06T06:15:52.534Z",
   "swarms": [
-    {
-      "monsterId": 23,
-      "pokemon": "Ekans",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1793945483,
-      "despawnTimestamp": 1793945483,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T06:11:23.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 23,
       "pokemon": "Ekans",
@@ -40,7 +29,7 @@
       "region": "Unova",
       "location": "",
       "sourceId": 1793946254,
-      "despawnTimestamp": 1793946254,
+      "despawnTimestamp": 1793946253,
       "hasValuable": false,
       "timestampUtc": "2026-11-06T06:24:14.000Z",
       "publishedBy": ""
@@ -52,8 +41,16 @@
       "pokemon": "houndour",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 517,
+      "secondsAgo": 819,
       "sourceId": 1793944933
+    },
+    {
+      "monsterId": 23,
+      "pokemon": "Ekans",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 1168,
+      "sourceId": 1793944584
     }
   ],
   "alpha": {
