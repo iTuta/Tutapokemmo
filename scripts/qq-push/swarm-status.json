@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-06T05:10:57.056Z",
+  "fetchedAt": "2026-11-06T05:15:52.197Z",
   "swarms": [
-    {
-      "monsterId": 23,
-      "pokemon": "Ekans",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793942036,
-      "despawnTimestamp": 1793942036,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T05:13:56.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 163,
       "pokemon": "Hoothoot",
@@ -28,9 +17,17 @@
     {
       "monsterId": 23,
       "pokemon": "Ekans",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1015,
+      "sourceId": 1793941137
+    },
+    {
+      "monsterId": 23,
+      "pokemon": "Ekans",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 2032,
+      "secondsAgo": 2327,
       "sourceId": 1793939825
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Murkrow",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1496,
+      "secondsAgo": 1791,
       "sourceId": 1793940361
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Hoothoot",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 910,
+      "secondsAgo": 1205,
       "sourceId": 1793940947
     }
   ],
