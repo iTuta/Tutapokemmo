@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-06T21:01:10.835Z",
+  "fetchedAt": "2026-11-06T21:05:46.489Z",
   "swarms": [
+    {
+      "monsterId": 355,
+      "pokemon": "Duskull",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1793999987,
+      "despawnTimestamp": 1793999986,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-06T21:19:47.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
@@ -10,17 +21,6 @@
       "despawnTimestamp": 1793999508,
       "hasValuable": false,
       "timestampUtc": "2026-11-06T21:11:49.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 353,
-      "pokemon": "Shuppet",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1793999111,
-      "despawnTimestamp": 1793999110,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T21:05:11.000Z",
       "publishedBy": ""
     },
     {
@@ -37,15 +37,14 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 207,
-      "pokemon": "Gligar",
-      "region": "Kanto",
+      "monsterId": 353,
+      "pokemon": "Shuppet",
+      "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 2373,
-      "sourceId": 1793996497
+      "secondsAgo": 935,
+      "sourceId": 1793998211
     }
   ],
-  "lastSeen": [],
   "alpha": {
     "monsterId": 207,
     "pokemon": "Gligar",
