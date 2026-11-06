@@ -1,56 +1,50 @@
 {
-  "fetchedAt": "2026-11-06T14:35:48.251Z",
+  "fetchedAt": "2026-11-06T14:50:35.895Z",
   "swarms": [
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1793976883,
+      "despawnTimestamp": 1793976882,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-06T14:54:43.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Johto",
       "location": "",
-      "sourceId": 1793976577,
-      "despawnTimestamp": 1793976577,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T14:49:37.000Z",
-      "publishedBy": ""
+      "secondsAgo": 957,
+      "sourceId": 1793975678
     },
     {
       "monsterId": 96,
       "pokemon": "Drowzee",
       "region": "Hoenn",
       "location": "",
-      "sourceId": 1793976341,
-      "despawnTimestamp": 1793976341,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T14:45:41.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 353,
-      "pokemon": "Shuppet",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1793975994,
-      "despawnTimestamp": 1793975994,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T14:39:54.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 1794,
-      "sourceId": 1793973954
+      "secondsAgo": 1194,
+      "sourceId": 1793975441
     },
     {
       "monsterId": 261,
       "pokemon": "Poochyena",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 993,
-      "sourceId": 1793974755
+      "secondsAgo": 1881,
+      "sourceId": 1793974754
+    },
+    {
+      "monsterId": 353,
+      "pokemon": "Shuppet",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 1541,
+      "sourceId": 1793975094
     }
   ],
   "alpha": {
