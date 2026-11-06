@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-06T02:20:58.480Z",
+  "fetchedAt": "2026-11-06T02:25:49.136Z",
   "swarms": [
-    {
-      "monsterId": 92,
-      "pokemon": "Gastly",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793931864,
-      "despawnTimestamp": 1793931864,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T02:24:24.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 197,
       "pokemon": "Umbreon",
@@ -21,17 +10,6 @@
       "despawnTimestamp": 1793932261,
       "hasValuable": false,
       "timestampUtc": "2026-11-06T02:31:01.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1793931821,
-      "despawnTimestamp": 1793931821,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T02:23:41.000Z",
       "publishedBy": ""
     },
     {
@@ -48,12 +26,28 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 92,
+      "pokemon": "Gastly",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1584,
+      "sourceId": 1793930365
+    },
+    {
       "monsterId": 23,
       "pokemon": "Ekans",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1164,
+      "secondsAgo": 1455,
       "sourceId": 1793930494
+    },
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 1027,
+      "sourceId": 1793930922
     }
   ],
   "alpha": {
