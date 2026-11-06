@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-06T17:21:18.285Z",
+  "fetchedAt": "2026-11-06T17:25:49.943Z",
   "swarms": [
     {
       "monsterId": 104,
@@ -7,7 +7,7 @@
       "region": "Johto",
       "location": "",
       "sourceId": 1793986545,
-      "despawnTimestamp": 1793986545,
+      "despawnTimestamp": 1793986544,
       "hasValuable": false,
       "timestampUtc": "2026-11-06T17:35:45.000Z",
       "publishedBy": ""
@@ -22,52 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-06T17:32:50.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1793985852,
-      "despawnTimestamp": 1793985852,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T17:24:12.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 104,
-      "pokemon": "cubone",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1793986545,
-      "despawnTimestamp": 1793986545,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T17:35:45.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 207,
-      "pokemon": "Gligar",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1793986370,
-      "despawnTimestamp": 1793986371,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T17:32:50.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1793985852,
-      "despawnTimestamp": 1793985853,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T17:24:12.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -76,7 +30,7 @@
       "pokemon": "Cubone",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1394,
+      "secondsAgo": 1665,
       "sourceId": 1793984284
     },
     {
@@ -84,8 +38,16 @@
       "pokemon": "Ekans",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1799,
-      "sourceId": 1793983879
+      "secondsAgo": 2071,
+      "sourceId": 1793983878
+    },
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 996,
+      "sourceId": 1793984953
     }
   ],
   "alpha": {
