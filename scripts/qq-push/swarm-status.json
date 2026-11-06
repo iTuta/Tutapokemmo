@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-06T20:35:44.270Z",
+  "fetchedAt": "2026-11-06T20:40:54.273Z",
   "swarms": [
-    {
-      "monsterId": 207,
-      "pokemon": "Gligar",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793997396,
-      "despawnTimestamp": 1793997396,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T20:36:36.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 228,
       "pokemon": "Houndour",
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 207,
+      "pokemon": "Gligar",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1157,
+      "sourceId": 1793996497
+    },
+    {
       "monsterId": 92,
       "pokemon": "Gastly",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1154,
+      "secondsAgo": 1464,
       "sourceId": 1793996190
     }
   ],
