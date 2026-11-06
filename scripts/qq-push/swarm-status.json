@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-06T13:30:59.466Z",
+  "fetchedAt": "2026-11-06T13:40:50.405Z",
   "swarms": [
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1793973176,
+      "despawnTimestamp": 1793973176,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-06T13:52:56.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
@@ -13,33 +24,25 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
-      "region": "Hoenn",
+      "monsterId": 23,
+      "pokemon": "Ekans",
+      "region": "Sinnoh",
       "location": "",
-      "sourceId": 1793972114,
-      "despawnTimestamp": 1793972113,
+      "sourceId": 1793973174,
+      "despawnTimestamp": 1793973173,
       "hasValuable": false,
-      "timestampUtc": "2026-11-06T13:35:14.000Z",
+      "timestampUtc": "2026-11-06T13:52:54.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 167,
-      "pokemon": "Spinarak",
-      "region": "Kanto",
+      "monsterId": 198,
+      "pokemon": "Murkrow",
+      "region": "Hoenn",
       "location": "",
-      "secondsAgo": 2101,
-      "sourceId": 1793969758
-    },
-    {
-      "monsterId": 451,
-      "pokemon": "Skorupi",
-      "region": "Sinnoh",
-      "location": "",
-      "secondsAgo": 1774,
-      "sourceId": 1793970085
+      "secondsAgo": 1236,
+      "sourceId": 1793971214
     }
   ],
   "alpha": {
