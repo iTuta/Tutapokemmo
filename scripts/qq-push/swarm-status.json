@@ -2,15 +2,36 @@
   "fetchedAt": "2026-11-06T08:31:04.003Z",
   "swarms": [
     {
+      "monsterId": 197,
+      "pokemon": "Umbreon",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1793954834,
+      "despawnTimestamp": 1793954834,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-06T08:47:14.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1793954510,
+      "despawnTimestamp": 1793954510,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-06T08:41:50.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
       "monsterId": 355,
       "pokemon": "Duskull",
       "region": "Kanto",
       "location": "",
-      "sourceId": 1793954072,
-      "despawnTimestamp": 1793954071,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T08:34:32.000Z",
-      "publishedBy": ""
+      "secondsAgo": 913,
+      "sourceId": 1793953172
     },
     {
       "monsterId": 336,
