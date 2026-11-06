@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-06T06:05:52.277Z",
+  "fetchedAt": "2026-11-06T06:10:50.146Z",
   "swarms": [
-    {
-      "monsterId": 228,
-      "pokemon": "houndour",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793945232,
-      "despawnTimestamp": 1793945232,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T06:07:12.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 23,
       "pokemon": "Ekans",
@@ -44,16 +33,27 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-06T06:16:51.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 198,
+      "pokemon": "Murkrow",
+      "region": "Unova",
+      "location": "",
+      "sourceId": 1793946254,
+      "despawnTimestamp": 1793946254,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-06T06:24:14.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Unova",
+      "monsterId": 228,
+      "pokemon": "houndour",
+      "region": "Kanto",
       "location": "",
-      "secondsAgo": 1656,
-      "sourceId": 1793943496
+      "secondsAgo": 517,
+      "sourceId": 1793944933
     }
   ],
   "alpha": {
