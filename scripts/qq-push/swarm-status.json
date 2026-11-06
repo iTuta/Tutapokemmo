@@ -1,64 +1,50 @@
 {
-  "fetchedAt": "2026-11-06T23:06:16.528Z",
+  "fetchedAt": "2026-11-06T23:10:52.933Z",
   "swarms": [
+    {
+      "monsterId": 163,
+      "pokemon": "Hoothoot",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1794007492,
+      "despawnTimestamp": 1794007491,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-06T23:24:52.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "",
-      "sourceId": 1794006607,
-      "despawnTimestamp": 1794006607,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T23:10:07.000Z",
-      "publishedBy": ""
+      "secondsAgo": 945,
+      "sourceId": 1794005707
     },
     {
       "monsterId": 302,
       "pokemon": "Sableye",
       "region": "Hoenn",
       "location": "",
-      "sourceId": 1794006607,
-      "despawnTimestamp": 1794006607,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T23:10:07.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1404,
+      "sourceId": 1794005248
     },
     {
       "monsterId": 353,
       "pokemon": "Shuppet",
       "region": "Sinnoh",
       "location": "",
-      "sourceId": 1794006599,
-      "despawnTimestamp": 1794006599,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T23:09:59.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 1976,
-      "sourceId": 1794004400
-    },
-    {
-      "monsterId": 302,
-      "pokemon": "Sableye",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 1128,
-      "sourceId": 1794005248
+      "secondsAgo": 953,
+      "sourceId": 1794005699
     },
     {
       "monsterId": 228,
       "pokemon": "Houndour",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1610,
-      "sourceId": 1794004766
+      "secondsAgo": 1887,
+      "sourceId": 1794004765
     }
   ],
   "alpha": {
