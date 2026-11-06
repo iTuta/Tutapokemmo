@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-11-06T06:50:51.066Z",
+  "fetchedAt": "2026-11-06T06:55:42.142Z",
   "swarms": [
-    {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1793947890,
-      "despawnTimestamp": 1793947890,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T06:51:30.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 23,
-      "pokemon": "Ekans",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1793948050,
-      "despawnTimestamp": 1793948050,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T06:54:10.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
@@ -41,15 +19,31 @@
       "pokemon": "Gastly",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1339,
+      "secondsAgo": 1630,
       "sourceId": 1793946512
+    },
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 1151,
+      "sourceId": 1793946991
+    },
+    {
+      "monsterId": 23,
+      "pokemon": "Ekans",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 991,
+      "sourceId": 1793947151
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1098,
+      "secondsAgo": 1389,
       "sourceId": 1793946753
     }
   ],
