@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-06T06:40:44.127Z",
+  "fetchedAt": "2026-11-06T06:45:54.457Z",
   "swarms": [
-    {
-      "monsterId": 92,
-      "pokemon": "Gastly",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793947411,
-      "despawnTimestamp": 1793947411,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T06:43:31.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
@@ -29,9 +18,20 @@
       "region": "Hoenn",
       "location": "",
       "sourceId": 1793948050,
-      "despawnTimestamp": 1793948050,
+      "despawnTimestamp": 1793948049,
       "hasValuable": false,
       "timestampUtc": "2026-11-06T06:54:10.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 198,
+      "pokemon": "Murkrow",
+      "region": "Sinnoh",
+      "location": "",
+      "sourceId": 1793948271,
+      "despawnTimestamp": 1793948270,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-06T06:57:51.000Z",
       "publishedBy": ""
     },
     {
@@ -48,12 +48,12 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 302,
-      "pokemon": "Sableye",
-      "region": "Sinnoh",
+      "monsterId": 92,
+      "pokemon": "Gastly",
+      "region": "Kanto",
       "location": "",
-      "secondsAgo": 2332,
-      "sourceId": 1793944912
+      "secondsAgo": 1042,
+      "sourceId": 1793946512
     }
   ],
   "alpha": {
