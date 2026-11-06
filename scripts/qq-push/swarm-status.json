@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-06T05:45:52.316Z",
+  "fetchedAt": "2026-11-06T05:50:50.169Z",
   "swarms": [
-    {
-      "monsterId": 228,
-      "pokemon": "Houndour",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793944177,
-      "despawnTimestamp": 1793944177,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T05:49:37.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 228,
+      "pokemon": "Houndour",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 972,
+      "sourceId": 1793943278
+    },
+    {
       "monsterId": 23,
       "pokemon": "Ekans",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1316,
+      "secondsAgo": 1614,
       "sourceId": 1793942636
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Poochyena",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1430,
+      "secondsAgo": 1728,
       "sourceId": 1793942522
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Murkrow",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1071,
+      "secondsAgo": 1369,
       "sourceId": 1793942881
     }
   ],
