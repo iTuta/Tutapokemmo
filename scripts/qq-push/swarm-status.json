@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-11-06T00:35:47.902Z",
+  "fetchedAt": "2026-11-06T00:40:51.898Z",
   "swarms": [
-    {
-      "monsterId": 302,
-      "pokemon": "sableye",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793925641,
-      "despawnTimestamp": 1793925640,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T00:40:41.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 41,
-      "pokemon": "zubat",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1793925453,
-      "despawnTimestamp": 1793925452,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T00:37:33.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
@@ -48,11 +26,27 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 302,
+      "pokemon": "sableye",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 910,
+      "sourceId": 1793924741
+    },
+    {
+      "monsterId": 41,
+      "pokemon": "zubat",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 1098,
+      "sourceId": 1793924553
+    },
+    {
       "monsterId": 41,
       "pokemon": "Zubat",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1436,
+      "secondsAgo": 1740,
       "sourceId": 1793923911
     }
   ],
