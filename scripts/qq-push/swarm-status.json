@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-06T00:15:53.238Z",
+  "fetchedAt": "2026-11-06T00:20:58.402Z",
   "swarms": [
     {
       "monsterId": 96,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-06T00:26:51.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 228,
-      "pokemon": "Houndour",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1793924380,
-      "despawnTimestamp": 1793924380,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T00:19:40.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,7 +30,7 @@
       "pokemon": "Misdreavus",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 976,
+      "secondsAgo": 1281,
       "sourceId": 1793923177
     },
     {
@@ -49,8 +38,16 @@
       "pokemon": "Skorupi",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1925,
+      "secondsAgo": 2230,
       "sourceId": 1793922228
+    },
+    {
+      "monsterId": 228,
+      "pokemon": "Houndour",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 978,
+      "sourceId": 1793923480
     }
   ],
   "alpha": {
