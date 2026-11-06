@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-06T19:55:51.880Z",
+  "fetchedAt": "2026-11-06T20:01:02.996Z",
   "swarms": [
-    {
-      "monsterId": 96,
-      "pokemon": "Drowzee",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1793995017,
-      "despawnTimestamp": 1793995017,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-06T19:56:57.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 197,
       "pokemon": "Umbreon",
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 96,
+      "pokemon": "Drowzee",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1144,
+      "sourceId": 1793994118
+    },
+    {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1530,
+      "secondsAgo": 1841,
       "sourceId": 1793993421
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "skorupi",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1163,
+      "secondsAgo": 1474,
       "sourceId": 1793993788
     }
   ],
