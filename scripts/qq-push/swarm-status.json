@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-06T10:30:55.467Z",
+  "fetchedAt": "2026-11-06T10:35:44.144Z",
   "swarms": [
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1793961989,
+      "despawnTimestamp": 1793961989,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-06T10:46:29.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 355,
       "pokemon": "Duskull",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 451,
-      "pokemon": "Skorupi",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 1217,
-      "sourceId": 1793959838
-    },
-    {
       "monsterId": 261,
       "pokemon": "Poochyena",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 919,
+      "secondsAgo": 1208,
       "sourceId": 1793960136
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 2238,
+      "secondsAgo": 2527,
       "sourceId": 1793958817
     }
   ],
