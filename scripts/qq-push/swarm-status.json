@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-07T02:25:41.720Z",
+  "fetchedAt": "2026-11-07T02:31:00.101Z",
   "swarms": [
+    {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1794019044,
+      "despawnTimestamp": 1794019044,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-07T02:37:24.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
@@ -18,7 +29,7 @@
       "region": "Unova",
       "location": "",
       "sourceId": 1794019135,
-      "despawnTimestamp": 1794019134,
+      "despawnTimestamp": 1794019135,
       "hasValuable": false,
       "timestampUtc": "2026-11-07T02:38:55.000Z",
       "publishedBy": ""
@@ -30,24 +41,16 @@
       "pokemon": "Murkrow",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 929,
-      "sourceId": 1794017412
+      "secondsAgo": 1247,
+      "sourceId": 1794017413
     },
     {
       "monsterId": 104,
       "pokemon": "Cubone",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1791,
+      "secondsAgo": 2110,
       "sourceId": 1794016550
-    },
-    {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 2969,
-      "sourceId": 1794015372
     }
   ],
   "alpha": {
