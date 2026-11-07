@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-07T22:16:05.949Z",
+  "fetchedAt": "2026-11-07T22:21:00.384Z",
   "swarms": [
     {
       "monsterId": 570,
@@ -7,20 +7,9 @@
       "region": "Kanto",
       "location": "",
       "sourceId": 1794090206,
-      "despawnTimestamp": 1794090205,
+      "despawnTimestamp": 1794090206,
       "hasValuable": false,
       "timestampUtc": "2026-11-07T22:23:26.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 228,
-      "pokemon": "Houndour",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1794089926,
-      "despawnTimestamp": 1794089925,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-07T22:18:46.000Z",
       "publishedBy": ""
     },
     {
@@ -29,7 +18,7 @@
       "region": "Hoenn",
       "location": "",
       "sourceId": 1794090475,
-      "despawnTimestamp": 1794090474,
+      "despawnTimestamp": 1794090475,
       "hasValuable": false,
       "timestampUtc": "2026-11-07T22:27:55.000Z",
       "publishedBy": ""
@@ -46,7 +35,16 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [],
+  "lastSeen": [
+    {
+      "monsterId": 228,
+      "pokemon": "Houndour",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 1033,
+      "sourceId": 1794089027
+    }
+  ],
   "alpha": {
     "monsterId": 398,
     "pokemon": "Staraptor",
