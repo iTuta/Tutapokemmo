@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-07T07:05:44.875Z",
+  "fetchedAt": "2026-11-07T07:10:48.939Z",
   "swarms": [
     {
       "monsterId": 200,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1794035622,
       "hasValuable": false,
       "timestampUtc": "2026-11-07T07:13:43.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1794036290,
+      "despawnTimestamp": 1794036289,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-07T07:24:50.000Z",
       "publishedBy": ""
     },
     {
@@ -37,20 +48,12 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 261,
-      "pokemon": "Poochyena",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 2239,
-      "sourceId": 1794032905
-    },
-    {
       "monsterId": 96,
       "pokemon": "Drowzee",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 2129,
-      "sourceId": 1794033015
+      "secondsAgo": 2434,
+      "sourceId": 1794033014
     }
   ],
   "alpha": {
