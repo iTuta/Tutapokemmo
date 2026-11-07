@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-07T00:40:51.681Z",
+  "fetchedAt": "2026-11-07T00:45:50.821Z",
   "swarms": [
     {
       "monsterId": 570,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1794012405,
       "hasValuable": false,
       "timestampUtc": "2026-11-07T00:46:46.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 197,
-      "pokemon": "Umbreon",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1794012144,
-      "despawnTimestamp": 1794012143,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-07T00:42:24.000Z",
       "publishedBy": ""
     },
     {
@@ -37,32 +26,32 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 197,
+      "pokemon": "Umbreon",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 1106,
+      "sourceId": 1794011244
+    },
+    {
       "monsterId": 353,
       "pokemon": "Shuppet",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 2074,
+      "secondsAgo": 2373,
       "sourceId": 1794009977
-    },
-    {
-      "monsterId": 228,
-      "pokemon": "Houndour",
-      "region": "Unova",
-      "location": "",
-      "secondsAgo": 1261,
-      "sourceId": 1794010790
     }
   ],
   "alpha": {
-    "monsterId": 207,
-    "pokemon": "Gligar",
-    "region": "Johto",
-    "location": "Route 46",
-    "sourceId": 1793984544,
-    "despawnTimestamp": 1794001644,
+    "monsterId": 221,
+    "pokemon": "Piloswine",
+    "region": "Unova",
+    "location": "Moor of Icirrus",
+    "sourceId": 1793999512,
+    "despawnTimestamp": 1794016612,
     "hasValuable": false,
-    "timestampUtc": "2026-11-06T17:02:24.000Z",
-    "timestampRaw": "2026-11-06T17:02:24.000Z",
+    "timestampUtc": "2026-11-06T21:11:52.000Z",
+    "timestampRaw": "2026-11-06T21:11:52.000Z",
     "publishedBy": ""
   }
 }
