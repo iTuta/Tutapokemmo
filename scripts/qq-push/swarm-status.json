@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-07T23:45:52.140Z",
+  "fetchedAt": "2026-11-07T23:50:44.710Z",
   "swarms": [
     {
       "monsterId": 197,
@@ -13,17 +13,6 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 451,
-      "pokemon": "Skorupi",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1794095284,
-      "despawnTimestamp": 1794095284,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-07T23:48:04.000Z",
-      "publishedBy": ""
-    },
-    {
       "monsterId": 261,
       "pokemon": "Poochyena",
       "region": "Sinnoh",
@@ -33,6 +22,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-07T23:58:21.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 23,
+      "pokemon": "Ekans",
+      "region": "Unova",
+      "location": "",
+      "sourceId": 1794096108,
+      "despawnTimestamp": 1794096107,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-08T00:01:48.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,16 +41,16 @@
       "pokemon": "Duskull",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1209,
+      "secondsAgo": 1501,
       "sourceId": 1794093943
     },
     {
-      "monsterId": 336,
-      "pokemon": "seviper",
-      "region": "Unova",
+      "monsterId": 451,
+      "pokemon": "Skorupi",
+      "region": "Hoenn",
       "location": "",
-      "secondsAgo": 2193,
-      "sourceId": 1794092959
+      "secondsAgo": 1059,
+      "sourceId": 1794094385
     }
   ],
   "alpha": {
