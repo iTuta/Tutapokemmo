@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-07T22:40:47.658Z",
+  "fetchedAt": "2026-11-07T22:45:52.764Z",
   "swarms": [
     {
       "monsterId": 336,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1794092110,
       "hasValuable": false,
       "timestampUtc": "2026-11-07T22:55:10.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 104,
+      "pokemon": "Cubone",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1794092377,
+      "despawnTimestamp": 1794092376,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-07T22:59:37.000Z",
       "publishedBy": ""
     },
     {
@@ -26,20 +37,12 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 228,
-      "pokemon": "Houndour",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 2221,
-      "sourceId": 1794089026
-    },
-    {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1671,
-      "sourceId": 1794089576
+      "secondsAgo": 1977,
+      "sourceId": 1794089575
     }
   ],
   "alpha": {
