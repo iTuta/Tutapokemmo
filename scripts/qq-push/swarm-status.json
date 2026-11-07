@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-07T13:20:49.666Z",
+  "fetchedAt": "2026-11-07T13:25:39.714Z",
   "swarms": [
+    {
+      "monsterId": 197,
+      "pokemon": "Umbreon",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1794058637,
+      "despawnTimestamp": 1794058636,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-07T13:37:17.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 167,
       "pokemon": "Spinarak",
@@ -10,17 +21,6 @@
       "despawnTimestamp": 1794058538,
       "hasValuable": false,
       "timestampUtc": "2026-11-07T13:35:39.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 167,
-      "pokemon": "Spinarak",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1794057807,
-      "despawnTimestamp": 1794057806,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-07T13:23:27.000Z",
       "publishedBy": ""
     },
     {
@@ -37,19 +37,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 104,
-      "pokemon": "Cubone",
-      "region": "Kanto",
+      "monsterId": 167,
+      "pokemon": "Spinarak",
+      "region": "Hoenn",
       "location": "",
-      "secondsAgo": 2210,
-      "sourceId": 1794055439
+      "secondsAgo": 1032,
+      "sourceId": 1794056907
     },
     {
       "monsterId": 353,
       "pokemon": "Shuppet",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1508,
+      "secondsAgo": 1798,
       "sourceId": 1794056141
     }
   ],
