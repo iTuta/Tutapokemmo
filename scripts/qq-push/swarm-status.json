@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-07T08:30:58.576Z",
+  "fetchedAt": "2026-11-07T08:35:51.721Z",
   "swarms": [
-    {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1794040424,
-      "despawnTimestamp": 1794040424,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-07T08:33:44.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 197,
       "pokemon": "Umbreon",
@@ -52,8 +41,16 @@
       "pokemon": "Misdreavus",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1322,
+      "secondsAgo": 1615,
       "sourceId": 1794038936
+    },
+    {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 1026,
+      "sourceId": 1794039525
     }
   ],
   "alpha": {
