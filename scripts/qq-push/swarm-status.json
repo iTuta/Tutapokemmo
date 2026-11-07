@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-07T01:45:56.557Z",
+  "fetchedAt": "2026-11-07T01:50:51.083Z",
   "swarms": [
-    {
-      "monsterId": 261,
-      "pokemon": "Poochyena",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794016134,
-      "despawnTimestamp": 1794016133,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-07T01:48:54.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 41,
       "pokemon": "Zubat",
@@ -26,20 +15,28 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1016,
+      "sourceId": 1794015235
+    },
+    {
       "monsterId": 163,
       "pokemon": "Hoothoot",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1366,
-      "sourceId": 1794014590
+      "secondsAgo": 1660,
+      "sourceId": 1794014591
     },
     {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1219,
-      "sourceId": 1794014737
+      "secondsAgo": 1513,
+      "sourceId": 1794014738
     }
   ],
   "alpha": {
