@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-11-07T04:25:45.906Z",
+  "fetchedAt": "2026-11-07T04:31:01.807Z",
   "swarms": [
-    {
-      "monsterId": 570,
-      "pokemon": "zorua",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794025620,
-      "despawnTimestamp": 1794025619,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-07T04:27:00.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 41,
       "pokemon": "Zubat",
       "region": "Johto",
       "location": "",
       "sourceId": 1794026385,
-      "despawnTimestamp": 1794026384,
+      "despawnTimestamp": 1794026385,
       "hasValuable": false,
       "timestampUtc": "2026-11-07T04:39:45.000Z",
       "publishedBy": ""
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 570,
+      "pokemon": "zorua",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1140,
+      "sourceId": 1794024721
+    },
+    {
       "monsterId": 41,
       "pokemon": "Zubat",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1603,
+      "secondsAgo": 1919,
       "sourceId": 1794023942
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "duskull",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1880,
+      "secondsAgo": 2196,
       "sourceId": 1794023665
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Drifloon",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1813,
-      "sourceId": 1794023732
+      "secondsAgo": 2128,
+      "sourceId": 1794023733
     }
   ],
   "alpha": {
