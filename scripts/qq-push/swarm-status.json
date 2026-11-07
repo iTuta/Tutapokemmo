@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-07T22:10:52.367Z",
+  "fetchedAt": "2026-11-07T22:16:05.949Z",
   "swarms": [
     {
       "monsterId": 570,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "",
       "sourceId": 1794090206,
-      "despawnTimestamp": 1794090206,
+      "despawnTimestamp": 1794090205,
       "hasValuable": false,
       "timestampUtc": "2026-11-07T22:23:26.000Z",
       "publishedBy": ""
@@ -18,9 +18,20 @@
       "region": "Johto",
       "location": "",
       "sourceId": 1794089926,
-      "despawnTimestamp": 1794089926,
+      "despawnTimestamp": 1794089925,
       "hasValuable": false,
       "timestampUtc": "2026-11-07T22:18:46.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 425,
+      "pokemon": "Drifloon",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1794090475,
+      "despawnTimestamp": 1794090474,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-07T22:27:55.000Z",
       "publishedBy": ""
     },
     {
@@ -35,16 +46,7 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [
-    {
-      "monsterId": 425,
-      "pokemon": "Drifloon",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 1818,
-      "sourceId": 1794087634
-    }
-  ],
+  "lastSeen": [],
   "alpha": {
     "monsterId": 398,
     "pokemon": "Staraptor",
