@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-07T10:05:52.034Z",
+  "fetchedAt": "2026-11-07T10:10:53.479Z",
   "swarms": [
     {
       "monsterId": 163,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-07T10:13:31.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1794046040,
-      "despawnTimestamp": 1794046039,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-07T10:07:20.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,8 +30,24 @@
       "pokemon": "Spinarak",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 951,
+      "secondsAgo": 1253,
       "sourceId": 1794045000
+    },
+    {
+      "monsterId": 197,
+      "pokemon": "Umbreon",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 6029,
+      "sourceId": 1794040224
+    },
+    {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 1113,
+      "sourceId": 1794045140
     }
   ],
   "alpha": {
@@ -55,6 +60,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-11-07T05:24:58.000Z",
     "timestampRaw": "2026-11-07T05:24:58.000Z",
-    "publishedBy": ""
+    "publishedBy": "IronLion"
   }
 }
