@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-07T08:55:47.886Z",
+  "fetchedAt": "2026-11-07T09:01:01.846Z",
   "swarms": [
-    {
-      "monsterId": 104,
-      "pokemon": "Cubone",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794042032,
-      "despawnTimestamp": 1794042031,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-07T09:00:32.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 353,
       "pokemon": "Shuppet",
@@ -39,9 +28,17 @@
     {
       "monsterId": 104,
       "pokemon": "Cubone",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 929,
+      "sourceId": 1794041132
+    },
+    {
+      "monsterId": 104,
+      "pokemon": "Cubone",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 2087,
+      "secondsAgo": 2401,
       "sourceId": 1794039660
     }
   ],
