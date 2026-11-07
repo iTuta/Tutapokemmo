@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-07T16:01:16.179Z",
+  "fetchedAt": "2026-11-07T16:05:44.765Z",
   "swarms": [
     {
       "monsterId": 96,
@@ -7,20 +7,9 @@
       "region": "Hoenn",
       "location": "",
       "sourceId": 1794068100,
-      "despawnTimestamp": 1794068100,
+      "despawnTimestamp": 1794068099,
       "hasValuable": false,
       "timestampUtc": "2026-11-07T16:15:00.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 207,
-      "pokemon": "Gligar",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1794067492,
-      "despawnTimestamp": 1794067492,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-07T16:04:52.000Z",
       "publishedBy": ""
     },
     {
@@ -41,8 +30,16 @@
       "pokemon": "Zorua",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 976,
+      "secondsAgo": 1244,
       "sourceId": 1794066300
+    },
+    {
+      "monsterId": 207,
+      "pokemon": "Gligar",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 951,
+      "sourceId": 1794066593
     }
   ],
   "alpha": {
