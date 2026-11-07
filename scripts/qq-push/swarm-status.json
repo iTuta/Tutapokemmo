@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-07T16:25:45.301Z",
+  "fetchedAt": "2026-11-07T16:30:58.577Z",
   "swarms": [
+    {
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1794069845,
+      "despawnTimestamp": 1794069845,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-07T16:44:05.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 302,
       "pokemon": "Sableye",
@@ -18,7 +29,7 @@
       "region": "Sinnoh",
       "location": "",
       "sourceId": 1794069313,
-      "despawnTimestamp": 1794069313,
+      "despawnTimestamp": 1794069312,
       "hasValuable": false,
       "timestampUtc": "2026-11-07T16:35:13.000Z",
       "publishedBy": ""
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 2445,
-      "sourceId": 1794066300
-    },
-    {
       "monsterId": 96,
       "pokemon": "Drowzee",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1812,
+      "secondsAgo": 2125,
       "sourceId": 1794066933
     }
   ],
