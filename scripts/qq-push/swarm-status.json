@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-07T17:31:02.567Z",
+  "fetchedAt": "2026-11-07T17:35:55.580Z",
   "swarms": [
+    {
+      "monsterId": 23,
+      "pokemon": "ekans",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1794073842,
+      "despawnTimestamp": 1794073841,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-07T17:50:42.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 355,
       "pokemon": "Duskull",
@@ -30,7 +41,7 @@
       "pokemon": "Shuppet",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1707,
+      "secondsAgo": 2000,
       "sourceId": 1794070955
     },
     {
@@ -38,16 +49,8 @@
       "pokemon": "Gligar",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1766,
+      "secondsAgo": 2059,
       "sourceId": 1794070896
-    },
-    {
-      "monsterId": 207,
-      "pokemon": "Gligar",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 2185,
-      "sourceId": 1794070477
     }
   ],
   "alpha": {
