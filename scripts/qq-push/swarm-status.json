@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-07T03:10:53.232Z",
+  "fetchedAt": "2026-11-07T03:15:56.192Z",
   "swarms": [
     {
       "monsterId": 197,
@@ -13,44 +13,41 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 23,
+      "pokemon": "Ekans",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1794021963,
+      "despawnTimestamp": 1794021963,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-07T03:26:03.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 353,
+      "pokemon": "Shuppet",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 1528,
+      "sourceId": 1794019828
+    },
+    {
       "monsterId": 197,
       "pokemon": "Umbreon",
       "region": "Sinnoh",
       "location": "",
-      "sourceId": 1794021154,
-      "despawnTimestamp": 1794021154,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-07T03:12:34.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1101,
+      "sourceId": 1794020255
     },
     {
       "monsterId": 197,
       "pokemon": "Umbreon",
       "region": "Unova",
       "location": "",
-      "sourceId": 1794021152,
-      "despawnTimestamp": 1794021152,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-07T03:12:32.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 1239,
-      "sourceId": 1794019814
-    },
-    {
-      "monsterId": 353,
-      "pokemon": "Shuppet",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 1225,
-      "sourceId": 1794019828
+      "secondsAgo": 1103,
+      "sourceId": 1794020253
     }
   ],
   "alpha": {
