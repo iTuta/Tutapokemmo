@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-07T00:55:49.507Z",
+  "fetchedAt": "2026-11-07T01:01:20.441Z",
   "swarms": [
+    {
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1794013945,
+      "despawnTimestamp": 1794013945,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-07T01:12:25.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 228,
       "pokemon": "Houndour",
@@ -27,18 +38,10 @@
   "lastSeen": [
     {
       "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 1443,
-      "sourceId": 1794011506
-    },
-    {
-      "monsterId": 570,
       "pokemon": "zorua",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1013,
+      "secondsAgo": 1344,
       "sourceId": 1794011936
     }
   ],
