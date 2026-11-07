@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-07T22:50:42.734Z",
+  "fetchedAt": "2026-11-07T22:55:45.909Z",
   "swarms": [
-    {
-      "monsterId": 336,
-      "pokemon": "seviper",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794092110,
-      "despawnTimestamp": 1794092110,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-07T22:55:10.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 104,
       "pokemon": "Cubone",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 336,
+      "pokemon": "seviper",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 934,
+      "sourceId": 1794091211
+    },
+    {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 2267,
+      "secondsAgo": 2570,
       "sourceId": 1794089575
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1112,
+      "secondsAgo": 1415,
       "sourceId": 1794090730
     }
   ],
