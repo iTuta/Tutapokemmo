@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-07T22:45:52.764Z",
+  "fetchedAt": "2026-11-07T22:50:42.734Z",
   "swarms": [
     {
       "monsterId": 336,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-07T22:59:37.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1794091630,
-      "despawnTimestamp": 1794091629,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-07T22:47:10.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,8 +30,16 @@
       "pokemon": "Drifloon",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1977,
+      "secondsAgo": 2267,
       "sourceId": 1794089575
+    },
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 1112,
+      "sourceId": 1794090730
     }
   ],
   "alpha": {
