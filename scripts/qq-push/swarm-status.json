@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-07T05:10:51.871Z",
+  "fetchedAt": "2026-11-07T05:15:50.018Z",
   "swarms": [
+    {
+      "monsterId": 167,
+      "pokemon": "Spinarak",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1794029188,
+      "despawnTimestamp": 1794029187,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-07T05:26:28.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 167,
       "pokemon": "Spinarak",
@@ -10,17 +21,6 @@
       "despawnTimestamp": 1794028896,
       "hasValuable": false,
       "timestampUtc": "2026-11-07T05:21:37.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 302,
-      "pokemon": "Sableye",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1794028501,
-      "despawnTimestamp": 1794028500,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-07T05:15:01.000Z",
       "publishedBy": ""
     },
     {
@@ -37,19 +37,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Kanto",
+      "monsterId": 302,
+      "pokemon": "Sableye",
+      "region": "Hoenn",
       "location": "",
-      "secondsAgo": 2157,
-      "sourceId": 1794026094
+      "secondsAgo": 948,
+      "sourceId": 1794027601
     },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 2145,
+      "secondsAgo": 2443,
       "sourceId": 1794026106
     }
   ],
