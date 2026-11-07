@@ -1,6 +1,39 @@
 {
-  "fetchedAt": "2026-11-07T06:25:52.062Z",
+  "fetchedAt": "2026-11-07T06:31:02.259Z",
   "swarms": [
+    {
+      "monsterId": 355,
+      "pokemon": "Duskull",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1794033802,
+      "despawnTimestamp": 1794033802,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-07T06:43:22.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1794033805,
+      "despawnTimestamp": 1794033805,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-07T06:43:25.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 96,
+      "pokemon": "Drowzee",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1794033914,
+      "despawnTimestamp": 1794033914,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-07T06:45:14.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 167,
       "pokemon": "Spinarak",
@@ -24,32 +57,7 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [
-    {
-      "monsterId": 228,
-      "pokemon": "Houndour",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 2001,
-      "sourceId": 1794030751
-    },
-    {
-      "monsterId": 167,
-      "pokemon": "Spinarak",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 1231,
-      "sourceId": 1794031521
-    },
-    {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 2240,
-      "sourceId": 1794030512
-    }
-  ],
+  "lastSeen": [],
   "alpha": {
     "monsterId": 221,
     "pokemon": "Piloswine",
