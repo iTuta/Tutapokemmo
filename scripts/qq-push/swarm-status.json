@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-07T06:05:41.805Z",
+  "fetchedAt": "2026-11-07T06:10:45.797Z",
   "swarms": [
-    {
-      "monsterId": 228,
-      "pokemon": "Houndour",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794031650,
-      "despawnTimestamp": 1794031650,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-07T06:07:30.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 167,
       "pokemon": "Spinarak",
@@ -22,38 +11,40 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-07T06:20:20.000Z",
       "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 228,
+      "pokemon": "Houndour",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1095,
+      "sourceId": 1794030750
+    },
+    {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 1334,
+      "sourceId": 1794030511
     },
     {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Sinnoh",
       "location": "",
-      "sourceId": 1794031714,
-      "despawnTimestamp": 1794031713,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-07T06:08:34.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1031,
+      "sourceId": 1794030814
     },
     {
       "monsterId": 197,
       "pokemon": "Umbreon",
       "region": "Unova",
       "location": "",
-      "sourceId": 1794031667,
-      "despawnTimestamp": 1794031666,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-07T06:07:47.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 1029,
-      "sourceId": 1794030512
+      "secondsAgo": 1078,
+      "sourceId": 1794030767
     }
   ],
   "alpha": {
