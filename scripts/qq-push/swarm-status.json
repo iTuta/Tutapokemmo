@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-07T01:01:20.441Z",
+  "fetchedAt": "2026-11-07T01:05:54.037Z",
   "swarms": [
     {
       "monsterId": 261,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-07T01:10:33.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1794013477,
-      "despawnTimestamp": 1794013477,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-07T01:04:37.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,8 +30,16 @@
       "pokemon": "zorua",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1344,
+      "secondsAgo": 1618,
       "sourceId": 1794011936
+    },
+    {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 976,
+      "sourceId": 1794012578
     }
   ],
   "alpha": {
