@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-11-07T13:35:44.954Z",
+  "fetchedAt": "2026-11-07T13:40:57.331Z",
   "swarms": [
-    {
-      "monsterId": 197,
-      "pokemon": "Umbreon",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794058637,
-      "despawnTimestamp": 1794058636,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-07T13:37:17.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 23,
       "pokemon": "ekans",
       "region": "Sinnoh",
       "location": "",
       "sourceId": 1794058959,
-      "despawnTimestamp": 1794058958,
+      "despawnTimestamp": 1794058959,
       "hasValuable": false,
       "timestampUtc": "2026-11-07T13:42:39.000Z",
       "publishedBy": ""
@@ -26,19 +15,27 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 197,
+      "pokemon": "Umbreon",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1120,
+      "sourceId": 1794057737
+    },
+    {
       "monsterId": 167,
       "pokemon": "Spinarak",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 905,
-      "sourceId": 1794057639
+      "secondsAgo": 1217,
+      "sourceId": 1794057640
     },
     {
       "monsterId": 167,
       "pokemon": "Spinarak",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1637,
+      "secondsAgo": 1950,
       "sourceId": 1794056907
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Houndour",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1206,
+      "secondsAgo": 1519,
       "sourceId": 1794057338
     }
   ],
