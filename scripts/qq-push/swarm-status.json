@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-07T18:05:50.273Z",
+  "fetchedAt": "2026-11-07T18:10:56.295Z",
   "swarms": [
     {
       "monsterId": 228,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-07T18:17:38.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 355,
-      "pokemon": "Duskull",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1794074953,
-      "despawnTimestamp": 1794074953,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-07T18:09:13.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,7 +30,7 @@
       "pokemon": "Seviper",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1304,
+      "secondsAgo": 1610,
       "sourceId": 1794073446
     },
     {
@@ -49,8 +38,16 @@
       "pokemon": "Seviper",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1354,
+      "secondsAgo": 1660,
       "sourceId": 1794073396
+    },
+    {
+      "monsterId": 355,
+      "pokemon": "Duskull",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 1002,
+      "sourceId": 1794074054
     }
   ],
   "alpha": {
