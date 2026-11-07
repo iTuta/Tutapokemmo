@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-07T14:01:06.806Z",
+  "fetchedAt": "2026-11-07T14:05:45.865Z",
   "swarms": [
+    {
+      "monsterId": 104,
+      "pokemon": "Cubone",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1794061144,
+      "despawnTimestamp": 1794061143,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-07T14:19:04.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
@@ -29,7 +40,7 @@
       "region": "Sinnoh",
       "location": "",
       "sourceId": 1794060826,
-      "despawnTimestamp": 1794060826,
+      "despawnTimestamp": 1794060825,
       "hasValuable": false,
       "timestampUtc": "2026-11-07T14:13:46.000Z",
       "publishedBy": ""
@@ -37,19 +48,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 197,
-      "pokemon": "Umbreon",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 2329,
-      "sourceId": 1794057737
-    },
-    {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1201,
+      "secondsAgo": 1480,
       "sourceId": 1794058865
     }
   ],
