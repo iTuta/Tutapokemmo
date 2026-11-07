@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-07T21:31:03.399Z",
+  "fetchedAt": "2026-11-07T21:35:55.177Z",
   "swarms": [
     {
       "monsterId": 198,
@@ -35,6 +35,17 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 451,
+      "pokemon": "Skorupi",
+      "region": "Sinnoh",
+      "location": "",
+      "sourceId": 1794088103,
+      "despawnTimestamp": 1794088103,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-07T21:48:23.000Z",
+      "publishedBy": ""
+    },
+    {
       "monsterId": 96,
       "pokemon": "Drowzee",
       "region": "Unova",
@@ -46,16 +57,7 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Sinnoh",
-      "location": "",
-      "secondsAgo": 1499,
-      "sourceId": 1794085564
-    }
-  ],
+  "lastSeen": [],
   "alpha": {
     "monsterId": 198,
     "pokemon": "Murkrow",
