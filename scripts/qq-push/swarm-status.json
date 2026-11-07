@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-07T14:05:45.865Z",
+  "fetchedAt": "2026-11-07T14:10:54.137Z",
   "swarms": [
     {
       "monsterId": 104,
@@ -7,31 +7,9 @@
       "region": "Kanto",
       "location": "",
       "sourceId": 1794061144,
-      "despawnTimestamp": 1794061143,
+      "despawnTimestamp": 1794061144,
       "hasValuable": false,
       "timestampUtc": "2026-11-07T14:19:04.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1794060428,
-      "despawnTimestamp": 1794060427,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-07T14:07:08.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1794060492,
-      "despawnTimestamp": 1794060491,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-07T14:08:12.000Z",
       "publishedBy": ""
     },
     {
@@ -40,9 +18,20 @@
       "region": "Sinnoh",
       "location": "",
       "sourceId": 1794060826,
-      "despawnTimestamp": 1794060825,
+      "despawnTimestamp": 1794060826,
       "hasValuable": false,
       "timestampUtc": "2026-11-07T14:13:46.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 425,
+      "pokemon": "Drifloon",
+      "region": "Unova",
+      "location": "",
+      "sourceId": 1794061493,
+      "despawnTimestamp": 1794061493,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-07T14:24:53.000Z",
       "publishedBy": ""
     }
   ],
@@ -50,10 +39,18 @@
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
-      "region": "Unova",
+      "region": "Johto",
       "location": "",
-      "secondsAgo": 1480,
-      "sourceId": 1794058865
+      "secondsAgo": 1125,
+      "sourceId": 1794059529
+    },
+    {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 1061,
+      "sourceId": 1794059593
     }
   ],
   "alpha": {
