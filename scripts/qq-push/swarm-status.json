@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-07T22:05:44.382Z",
+  "fetchedAt": "2026-11-07T22:10:52.367Z",
   "swarms": [
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1794090206,
+      "despawnTimestamp": 1794090206,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-07T22:23:26.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 228,
       "pokemon": "Houndour",
@@ -11,32 +22,27 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-07T22:18:46.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 228,
+      "pokemon": "Houndour",
+      "region": "Unova",
+      "location": "",
+      "sourceId": 1794090186,
+      "despawnTimestamp": 1794090186,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-07T22:23:06.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 2259,
-      "sourceId": 1794086885
-    },
     {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1511,
-      "sourceId": 1794087633
-    },
-    {
-      "monsterId": 96,
-      "pokemon": "Drowzee",
-      "region": "Unova",
-      "location": "",
-      "secondsAgo": 2420,
-      "sourceId": 1794086724
+      "secondsAgo": 1818,
+      "sourceId": 1794087634
     }
   ],
   "alpha": {
