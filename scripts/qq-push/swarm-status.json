@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-08T14:50:48.433Z",
+  "fetchedAt": "2026-11-08T14:55:51.916Z",
   "swarms": [
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1794149543,
-      "despawnTimestamp": 1794149543,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-08T14:52:23.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 92,
       "pokemon": "Gastly",
@@ -22,24 +11,35 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-08T15:01:50.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 167,
+      "pokemon": "Spinarak",
+      "region": "Unova",
+      "location": "",
+      "sourceId": 1794150376,
+      "despawnTimestamp": 1794150375,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-08T15:06:16.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 508,
+      "sourceId": 1794149243
+    },
     {
       "monsterId": 96,
       "pokemon": "Drowzee",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 945,
+      "secondsAgo": 1248,
       "sourceId": 1794148503
-    },
-    {
-      "monsterId": 355,
-      "pokemon": "Duskull",
-      "region": "Unova",
-      "location": "",
-      "secondsAgo": 1736,
-      "sourceId": 1794147712
     }
   ],
   "alpha": {
