@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-08T19:30:59.983Z",
+  "fetchedAt": "2026-11-08T19:35:55.403Z",
   "swarms": [
+    {
+      "monsterId": 451,
+      "pokemon": "Skorupi",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1794167316,
+      "despawnTimestamp": 1794167316,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-08T19:48:36.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 41,
       "pokemon": "Zubat",
@@ -11,35 +22,24 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-08T19:40:37.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 104,
       "pokemon": "cubone",
       "region": "Hoenn",
       "location": "",
-      "sourceId": 1794166388,
-      "despawnTimestamp": 1794166387,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-08T19:33:08.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 96,
-      "pokemon": "Drowzee",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 2429,
-      "sourceId": 1794163830
+      "secondsAgo": 1066,
+      "sourceId": 1794165489
     },
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1264,
-      "sourceId": 1794164995
+      "secondsAgo": 1559,
+      "sourceId": 1794164996
     }
   ],
   "alpha": {
