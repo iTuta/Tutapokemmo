@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-08T03:31:01.916Z",
+  "fetchedAt": "2026-11-08T03:35:54.831Z",
   "swarms": [
     {
       "monsterId": 336,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-08T03:40:30.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 92,
-      "pokemon": "Gastly",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1794108901,
-      "despawnTimestamp": 1794108900,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-08T03:35:01.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,15 +30,23 @@
       "pokemon": "Cubone",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1075,
+      "secondsAgo": 1368,
       "sourceId": 1794107586
+    },
+    {
+      "monsterId": 92,
+      "pokemon": "Gastly",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 953,
+      "sourceId": 1794108001
     },
     {
       "monsterId": 92,
       "pokemon": "Gastly",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1633,
+      "secondsAgo": 1926,
       "sourceId": 1794107028
     }
   ],
