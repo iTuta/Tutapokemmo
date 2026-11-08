@@ -1,6 +1,39 @@
 {
-  "fetchedAt": "2026-11-08T21:15:46.986Z",
+  "fetchedAt": "2026-11-08T21:20:48.182Z",
   "swarms": [
+    {
+      "monsterId": 23,
+      "pokemon": "Ekans",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1794173497,
+      "despawnTimestamp": 1794173497,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-08T21:31:37.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 23,
+      "pokemon": "Ekans",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1794173723,
+      "despawnTimestamp": 1794173723,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-08T21:35:23.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 92,
+      "pokemon": "Gastly",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1794173484,
+      "despawnTimestamp": 1794173484,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-08T21:31:24.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 302,
       "pokemon": "Sableye",
@@ -11,43 +44,16 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-08T21:24:28.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 163,
-      "pokemon": "Hoothoot",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1794172774,
-      "despawnTimestamp": 1794172774,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-08T21:19:34.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
       "monsterId": 163,
       "pokemon": "Hoothoot",
-      "region": "Kanto",
+      "region": "Unova",
       "location": "",
-      "secondsAgo": 1214,
-      "sourceId": 1794171332
-    },
-    {
-      "monsterId": 96,
-      "pokemon": "Drowzee",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 1984,
-      "sourceId": 1794170562
-    },
-    {
-      "monsterId": 355,
-      "pokemon": "Duskull",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 2021,
-      "sourceId": 1794170525
+      "secondsAgo": 973,
+      "sourceId": 1794171875
     }
   ],
   "alpha": {
