@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-08T19:21:03.761Z",
+  "fetchedAt": "2026-11-08T19:25:45.511Z",
   "swarms": [
+    {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1794166837,
+      "despawnTimestamp": 1794166837,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-08T19:40:37.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 104,
       "pokemon": "cubone",
@@ -11,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-08T19:33:08.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1794165895,
-      "despawnTimestamp": 1794165894,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-08T19:24:55.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,36 +30,28 @@
       "pokemon": "Drowzee",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1832,
+      "secondsAgo": 2114,
       "sourceId": 1794163831
     },
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
-      "region": "Johto",
+      "region": "Unova",
       "location": "",
-      "secondsAgo": 1259,
-      "sourceId": 1794164404
-    },
-    {
-      "monsterId": 163,
-      "pokemon": "hoothoot",
-      "region": "Sinnoh",
-      "location": "",
-      "secondsAgo": 1832,
-      "sourceId": 1794163831
+      "secondsAgo": 950,
+      "sourceId": 1794164995
     }
   ],
   "alpha": {
-    "monsterId": 211,
-    "pokemon": "Qwilfish",
-    "region": "Kanto",
-    "location": "Five Island",
-    "sourceId": 1794135312,
-    "despawnTimestamp": 1794152412,
+    "monsterId": 444,
+    "pokemon": "Gabite",
+    "region": "Sinnoh",
+    "location": "Route 206",
+    "sourceId": 1794153304,
+    "despawnTimestamp": 1794170404,
     "hasValuable": false,
-    "timestampUtc": "2026-11-08T10:55:12.000Z",
-    "timestampRaw": "2026-11-08T10:55:12.000Z",
-    "publishedBy": "reiishere"
+    "timestampUtc": "2026-11-08T15:55:04.000Z",
+    "timestampRaw": "2026-11-08T15:55:04.000Z",
+    "publishedBy": ""
   }
 }
