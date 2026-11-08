@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-08T08:10:55.774Z",
+  "fetchedAt": "2026-11-08T08:15:49.002Z",
   "swarms": [
-    {
-      "monsterId": 163,
-      "pokemon": "Hoothoot",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794125507,
-      "despawnTimestamp": 1794125507,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-08T08:11:47.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 167,
       "pokemon": "Spinarak",
@@ -22,27 +11,32 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-08T08:23:35.000Z",
       "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 163,
+      "pokemon": "Hoothoot",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1141,
+      "sourceId": 1794124607
+    },
+    {
+      "monsterId": 96,
+      "pokemon": "Drowzee",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 1583,
+      "sourceId": 1794124165
     },
     {
       "monsterId": 23,
       "pokemon": "Ekans",
       "region": "Unova",
       "location": "",
-      "sourceId": 1794125716,
-      "despawnTimestamp": 1794125715,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-08T08:15:16.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 96,
-      "pokemon": "Drowzee",
-      "region": "Sinnoh",
-      "location": "",
-      "secondsAgo": 1290,
-      "sourceId": 1794124165
+      "secondsAgo": 932,
+      "sourceId": 1794124816
     }
   ],
   "alpha": {
