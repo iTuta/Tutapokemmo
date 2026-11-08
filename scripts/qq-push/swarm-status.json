@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-08T02:16:01.578Z",
+  "fetchedAt": "2026-11-08T02:20:50.899Z",
   "swarms": [
     {
       "monsterId": 23,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "",
       "sourceId": 1794104745,
-      "despawnTimestamp": 1794104745,
+      "despawnTimestamp": 1794104744,
       "hasValuable": false,
       "timestampUtc": "2026-11-08T02:25:45.000Z",
       "publishedBy": ""
@@ -18,20 +18,9 @@
       "region": "Johto",
       "location": "",
       "sourceId": 1794104991,
-      "despawnTimestamp": 1794104991,
+      "despawnTimestamp": 1794104990,
       "hasValuable": false,
       "timestampUtc": "2026-11-08T02:29:51.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 451,
-      "pokemon": "Skorupi",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1794104401,
-      "despawnTimestamp": 1794104400,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-08T02:20:01.000Z",
       "publishedBy": ""
     },
     {
@@ -44,20 +33,26 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-08T02:26:48.000Z",
       "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 451,
+      "pokemon": "Skorupi",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 949,
+      "sourceId": 1794103501
     },
     {
       "monsterId": 355,
       "pokemon": "Duskull",
       "region": "Unova",
       "location": "",
-      "sourceId": 1794104345,
-      "despawnTimestamp": 1794104345,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-08T02:19:05.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1005,
+      "sourceId": 1794103445
     }
   ],
-  "lastSeen": [],
   "alpha": {
     "monsterId": 398,
     "pokemon": "Staraptor",
