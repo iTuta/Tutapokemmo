@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-11-08T03:40:50.546Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-08T03:45:46.748Z",
+  "swarms": [
     {
-      "monsterId": 104,
-      "pokemon": "Cubone",
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1664,
-      "sourceId": 1794107586
-    },
+      "sourceId": 1794110186,
+      "despawnTimestamp": 1794110185,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-08T03:56:26.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1190,
+      "secondsAgo": 1486,
       "sourceId": 1794108060
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Umbreon",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 920,
+      "secondsAgo": 1216,
       "sourceId": 1794108330
     },
     {
@@ -31,8 +35,8 @@
       "pokemon": "Gastly",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1248,
-      "sourceId": 1794108002
+      "secondsAgo": 1545,
+      "sourceId": 1794108001
     }
   ],
   "alpha": {
