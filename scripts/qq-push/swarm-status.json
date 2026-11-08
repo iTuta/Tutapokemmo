@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-08T09:50:45.217Z",
+  "fetchedAt": "2026-11-08T09:55:46.043Z",
   "swarms": [
     {
       "monsterId": 353,
@@ -13,12 +13,23 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 167,
+      "pokemon": "Spinarak",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1794132478,
+      "despawnTimestamp": 1794132478,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-08T10:07:58.000Z",
+      "publishedBy": ""
+    },
+    {
       "monsterId": 23,
       "pokemon": "Ekans",
       "region": "Hoenn",
       "location": "",
       "sourceId": 1794131815,
-      "despawnTimestamp": 1794131815,
+      "despawnTimestamp": 1794131816,
       "hasValuable": false,
       "timestampUtc": "2026-11-08T09:56:55.000Z",
       "publishedBy": ""
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 167,
-      "pokemon": "Spinarak",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 9191,
-      "sourceId": 1794122254
-    },
-    {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1318,
+      "secondsAgo": 1619,
       "sourceId": 1794130127
     },
     {
@@ -46,7 +49,7 @@
       "pokemon": "Drowzee",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1378,
+      "secondsAgo": 1679,
       "sourceId": 1794130067
     }
   ],
