@@ -1,15 +1,26 @@
 {
-  "fetchedAt": "2026-11-08T15:50:48.935Z",
+  "fetchedAt": "2026-11-08T15:55:51.526Z",
   "swarms": [
     {
-      "monsterId": 355,
-      "pokemon": "Duskull",
-      "region": "Unova",
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Johto",
       "location": "",
-      "sourceId": 1794153159,
-      "despawnTimestamp": 1794153159,
+      "sourceId": 1794154086,
+      "despawnTimestamp": 1794154086,
       "hasValuable": false,
-      "timestampUtc": "2026-11-08T15:52:39.000Z",
+      "timestampUtc": "2026-11-08T16:08:06.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1794154213,
+      "despawnTimestamp": 1794154212,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-08T16:10:13.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,32 +30,24 @@
       "pokemon": "Ekans",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 6622,
+      "secondsAgo": 6925,
       "sourceId": 1794146426
-    },
-    {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 2273,
-      "sourceId": 1794150775
-    },
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 1130,
-      "sourceId": 1794151918
     },
     {
       "monsterId": 41,
       "pokemon": "Zubat",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1917,
-      "sourceId": 1794151131
+      "secondsAgo": 2219,
+      "sourceId": 1794151132
+    },
+    {
+      "monsterId": 355,
+      "pokemon": "Duskull",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 1091,
+      "sourceId": 1794152260
     }
   ],
   "alpha": {
