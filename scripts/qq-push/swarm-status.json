@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-08T04:20:48.535Z",
+  "fetchedAt": "2026-11-08T04:25:40.786Z",
   "swarms": [
-    {
-      "monsterId": 355,
-      "pokemon": "Duskull",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794111686,
-      "despawnTimestamp": 1794111686,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-08T04:21:26.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 104,
       "pokemon": "Cubone",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 355,
+      "pokemon": "Duskull",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1153,
+      "sourceId": 1794110787
+    },
+    {
       "monsterId": 96,
       "pokemon": "Drowzee",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1045,
+      "secondsAgo": 1337,
       "sourceId": 1794110603
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Houndour",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1496,
+      "secondsAgo": 1788,
       "sourceId": 1794110152
     }
   ],
