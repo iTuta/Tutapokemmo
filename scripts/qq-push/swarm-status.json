@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-11-08T22:40:54.381Z",
+  "fetchedAt": "2026-11-08T22:45:57.698Z",
   "swarms": [
-    {
-      "monsterId": 425,
-      "pokemon": "Drifloon",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1794177848,
-      "despawnTimestamp": 1794177847,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-08T22:44:08.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 92,
       "pokemon": "Gastly",
       "region": "Sinnoh",
       "location": "",
       "sourceId": 1794178515,
-      "despawnTimestamp": 1794178515,
+      "despawnTimestamp": 1794178514,
       "hasValuable": false,
       "timestampUtc": "2026-11-08T22:55:15.000Z",
       "publishedBy": ""
@@ -41,16 +30,24 @@
       "pokemon": "Skorupi",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 929,
+      "secondsAgo": 1232,
       "sourceId": 1794176725
+    },
+    {
+      "monsterId": 425,
+      "pokemon": "Drifloon",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 1009,
+      "sourceId": 1794176948
     },
     {
       "monsterId": 353,
       "pokemon": "Shuppet",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1151,
-      "sourceId": 1794176503
+      "secondsAgo": 1455,
+      "sourceId": 1794176502
     }
   ],
   "alpha": {
