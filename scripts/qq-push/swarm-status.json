@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-08T03:20:54.472Z",
+  "fetchedAt": "2026-11-08T03:25:44.091Z",
   "swarms": [
     {
       "monsterId": 104,
@@ -10,6 +10,28 @@
       "despawnTimestamp": 1794108485,
       "hasValuable": false,
       "timestampUtc": "2026-11-08T03:28:05.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1794108959,
+      "despawnTimestamp": 1794108959,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-08T03:35:59.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 197,
+      "pokemon": "Umbreon",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1794109230,
+      "despawnTimestamp": 1794109230,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-08T03:40:30.000Z",
       "publishedBy": ""
     },
     {
@@ -26,27 +48,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 197,
-      "pokemon": "Umbreon",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 1755,
-      "sourceId": 1794106299
-    },
-    {
-      "monsterId": 261,
-      "pokemon": "Poochyena",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 910,
-      "sourceId": 1794107144
-    },
-    {
       "monsterId": 92,
       "pokemon": "Gastly",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1025,
+      "secondsAgo": 1315,
       "sourceId": 1794107029
     }
   ],
