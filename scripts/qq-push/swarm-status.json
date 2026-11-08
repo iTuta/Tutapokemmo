@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-08T08:40:43.212Z",
+  "fetchedAt": "2026-11-08T08:45:47.212Z",
   "swarms": [
-    {
-      "monsterId": 96,
-      "pokemon": "Drowzee",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794127348,
-      "despawnTimestamp": 1794127348,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-08T08:42:28.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 207,
       "pokemon": "Gligar",
@@ -22,24 +11,35 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-08T08:52:02.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 163,
+      "pokemon": "Hoothoot",
+      "region": "Unova",
+      "location": "",
+      "sourceId": 1794128303,
+      "despawnTimestamp": 1794128303,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-08T08:58:23.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
+    {
+      "monsterId": 96,
+      "pokemon": "Drowzee",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 738,
+      "sourceId": 1794126809
+    },
     {
       "monsterId": 41,
       "pokemon": "Zubat",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1022,
+      "secondsAgo": 1326,
       "sourceId": 1794126221
-    },
-    {
-      "monsterId": 23,
-      "pokemon": "Ekans",
-      "region": "Unova",
-      "location": "",
-      "secondsAgo": 2426,
-      "sourceId": 1794124817
     }
   ],
   "alpha": {
