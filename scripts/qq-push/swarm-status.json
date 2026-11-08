@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-08T01:35:51.878Z",
+  "fetchedAt": "2026-11-08T01:40:51.244Z",
   "swarms": [
     {
       "monsterId": 163,
@@ -18,9 +18,20 @@
       "region": "Sinnoh",
       "location": "",
       "sourceId": 1794102301,
-      "despawnTimestamp": 1794102300,
+      "despawnTimestamp": 1794102301,
       "hasValuable": false,
       "timestampUtc": "2026-11-08T01:45:01.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 92,
+      "pokemon": "Gastly",
+      "region": "Unova",
+      "location": "",
+      "sourceId": 1794102700,
+      "despawnTimestamp": 1794102700,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-08T01:51:40.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,7 +41,7 @@
       "pokemon": "Seviper",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 2362,
+      "secondsAgo": 2662,
       "sourceId": 1794099389
     },
     {
@@ -38,16 +49,8 @@
       "pokemon": "Drifloon",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1577,
+      "secondsAgo": 1877,
       "sourceId": 1794100174
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Unova",
-      "location": "",
-      "secondsAgo": 1793,
-      "sourceId": 1794099958
     }
   ],
   "alpha": {
