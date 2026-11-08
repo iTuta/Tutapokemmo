@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-11-08T15:25:43.534Z",
+  "fetchedAt": "2026-11-08T15:30:58.804Z",
   "swarms": [
-    {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1794151675,
-      "despawnTimestamp": 1794151675,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-08T15:27:55.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 41,
       "pokemon": "Zubat",
       "region": "Sinnoh",
       "location": "",
       "sourceId": 1794152031,
-      "despawnTimestamp": 1794152031,
+      "despawnTimestamp": 1794152030,
       "hasValuable": false,
       "timestampUtc": "2026-11-08T15:33:51.000Z",
       "publishedBy": ""
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 1083,
+      "sourceId": 1794150775
+    },
+    {
       "monsterId": 92,
       "pokemon": "Gastly",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 2333,
+      "secondsAgo": 2648,
       "sourceId": 1794149210
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Spinarak",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 2067,
+      "secondsAgo": 2382,
       "sourceId": 1794149476
     }
   ],
