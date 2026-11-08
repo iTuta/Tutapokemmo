@@ -1,26 +1,15 @@
 {
-  "fetchedAt": "2026-11-08T07:15:48.924Z",
+  "fetchedAt": "2026-11-08T07:21:06.145Z",
   "swarms": [
     {
-      "monsterId": 207,
-      "pokemon": "Gligar",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794122209,
-      "despawnTimestamp": 1794122208,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-08T07:16:49.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
+      "monsterId": 167,
+      "pokemon": "Spinarak",
       "region": "Johto",
       "location": "",
-      "sourceId": 1794122155,
-      "despawnTimestamp": 1794122154,
+      "sourceId": 1794123154,
+      "despawnTimestamp": 1794123154,
       "hasValuable": false,
-      "timestampUtc": "2026-11-08T07:15:55.000Z",
+      "timestampUtc": "2026-11-08T07:32:34.000Z",
       "publishedBy": ""
     },
     {
@@ -29,7 +18,7 @@
       "region": "Sinnoh",
       "location": "",
       "sourceId": 1794122883,
-      "despawnTimestamp": 1794122882,
+      "despawnTimestamp": 1794122883,
       "hasValuable": false,
       "timestampUtc": "2026-11-08T07:28:03.000Z",
       "publishedBy": ""
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 207,
+      "pokemon": "Gligar",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1156,
+      "sourceId": 1794121310
+    },
+    {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1199,
+      "secondsAgo": 1517,
       "sourceId": 1794120949
     },
     {
@@ -49,8 +46,8 @@
       "pokemon": "gastly",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1275,
-      "sourceId": 1794120873
+      "secondsAgo": 1592,
+      "sourceId": 1794120874
     }
   ],
   "alpha": {
