@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-11-08T15:01:07.381Z",
+  "fetchedAt": "2026-11-08T15:05:48.289Z",
   "swarms": [
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1794150078,
-      "despawnTimestamp": 1794150078,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-08T15:01:18.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 92,
-      "pokemon": "Gastly",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1794150110,
-      "despawnTimestamp": 1794150109,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-08T15:01:50.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 261,
       "pokemon": "Poochyena",
@@ -46,7 +24,24 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [],
+  "lastSeen": [
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 569,
+      "sourceId": 1794149779
+    },
+    {
+      "monsterId": 92,
+      "pokemon": "Gastly",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 1138,
+      "sourceId": 1794149210
+    }
+  ],
   "alpha": {
     "monsterId": 211,
     "pokemon": "Qwilfish",
