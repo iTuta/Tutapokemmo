@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-08T12:20:47.831Z",
+  "fetchedAt": "2026-11-08T12:25:48.565Z",
   "swarms": [
     {
       "monsterId": 167,
@@ -13,12 +13,23 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1794141622,
+      "despawnTimestamp": 1794141622,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-08T12:40:22.000Z",
+      "publishedBy": ""
+    },
+    {
       "monsterId": 23,
       "pokemon": "Ekans",
       "region": "Unova",
       "location": "",
       "sourceId": 1794140765,
-      "despawnTimestamp": 1794140764,
+      "despawnTimestamp": 1794140765,
       "hasValuable": false,
       "timestampUtc": "2026-11-08T12:26:05.000Z",
       "publishedBy": ""
@@ -30,23 +41,15 @@
       "pokemon": "Misdreavus",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1203,
+      "secondsAgo": 1504,
       "sourceId": 1794139244
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "zorua",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 2200,
-      "sourceId": 1794138247
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 2034,
+      "secondsAgo": 2335,
       "sourceId": 1794138413
     }
   ],
