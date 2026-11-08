@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-11-08T03:05:58.031Z",
+  "fetchedAt": "2026-11-08T03:10:48.269Z",
   "swarms": [
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794107244,
-      "despawnTimestamp": 1794107243,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-08T03:07:24.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 197,
-      "pokemon": "Umbreon",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1794107198,
-      "despawnTimestamp": 1794107197,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-08T03:06:38.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 261,
       "pokemon": "Poochyena",
@@ -40,7 +18,7 @@
       "region": "Sinnoh",
       "location": "",
       "sourceId": 1794107827,
-      "despawnTimestamp": 1794107826,
+      "despawnTimestamp": 1794107827,
       "hasValuable": false,
       "timestampUtc": "2026-11-08T03:17:07.000Z",
       "publishedBy": ""
@@ -51,13 +29,30 @@
       "region": "Unova",
       "location": "",
       "sourceId": 1794107928,
-      "despawnTimestamp": 1794107927,
+      "despawnTimestamp": 1794107928,
       "hasValuable": false,
       "timestampUtc": "2026-11-08T03:18:48.000Z",
       "publishedBy": ""
     }
   ],
-  "lastSeen": [],
+  "lastSeen": [
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1103,
+      "sourceId": 1794106345
+    },
+    {
+      "monsterId": 197,
+      "pokemon": "Umbreon",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 1149,
+      "sourceId": 1794106299
+    }
+  ],
   "alpha": {
     "monsterId": 398,
     "pokemon": "Staraptor",
