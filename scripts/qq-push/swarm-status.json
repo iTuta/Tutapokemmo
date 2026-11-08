@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-08T21:55:44.943Z",
+  "fetchedAt": "2026-11-08T22:01:20.460Z",
   "swarms": [
     {
       "monsterId": 198,
@@ -7,9 +7,20 @@
       "region": "Kanto",
       "location": "",
       "sourceId": 1794175481,
-      "despawnTimestamp": 1794175480,
+      "despawnTimestamp": 1794175481,
       "hasValuable": false,
       "timestampUtc": "2026-11-08T22:04:41.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 92,
+      "pokemon": "Gastly",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1794176046,
+      "despawnTimestamp": 1794176046,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-08T22:14:06.000Z",
       "publishedBy": ""
     },
     {
@@ -18,7 +29,7 @@
       "region": "Hoenn",
       "location": "",
       "sourceId": 1794175646,
-      "despawnTimestamp": 1794175645,
+      "despawnTimestamp": 1794175646,
       "hasValuable": false,
       "timestampUtc": "2026-11-08T22:07:26.000Z",
       "publishedBy": ""
@@ -26,28 +37,20 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 23,
-      "pokemon": "Ekans",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 2121,
-      "sourceId": 1794172823
-    },
-    {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1134,
-      "sourceId": 1794173810
+      "secondsAgo": 1469,
+      "sourceId": 1794173811
     },
     {
       "monsterId": 167,
       "pokemon": "Spinarak",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1153,
-      "sourceId": 1794173791
+      "secondsAgo": 1488,
+      "sourceId": 1794173792
     }
   ],
   "alpha": {
