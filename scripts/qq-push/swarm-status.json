@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-08T01:55:48.219Z",
+  "fetchedAt": "2026-11-08T02:01:08.477Z",
   "swarms": [
-    {
-      "monsterId": 261,
-      "pokemon": "Poochyena",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794102957,
-      "despawnTimestamp": 1794102957,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-08T01:55:57.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 228,
       "pokemon": "Houndour",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1210,
+      "sourceId": 1794102058
+    },
+    {
       "monsterId": 163,
       "pokemon": "Hoothoot",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1375,
+      "secondsAgo": 1695,
       "sourceId": 1794101573
     },
     {
@@ -38,15 +35,15 @@
       "pokemon": "Poochyena",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1546,
-      "sourceId": 1794101402
+      "secondsAgo": 1867,
+      "sourceId": 1794101401
     },
     {
       "monsterId": 92,
       "pokemon": "Gastly",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1147,
+      "secondsAgo": 1467,
       "sourceId": 1794101801
     }
   ],
