@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-08T18:35:45.306Z",
+  "fetchedAt": "2026-11-08T18:40:50.836Z",
   "swarms": [
+    {
+      "monsterId": 207,
+      "pokemon": "Gligar",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1794164108,
+      "despawnTimestamp": 1794164108,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-08T18:55:08.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Hoenn",
       "location": "",
       "sourceId": 1794163299,
-      "despawnTimestamp": 1794163299,
+      "despawnTimestamp": 1794163298,
       "hasValuable": false,
       "timestampUtc": "2026-11-08T18:41:39.000Z",
       "publishedBy": ""
@@ -30,24 +41,16 @@
       "pokemon": "Zubat",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1138,
+      "secondsAgo": 1443,
       "sourceId": 1794161807
-    },
-    {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 2269,
-      "sourceId": 1794160676
     },
     {
       "monsterId": 228,
       "pokemon": "Houndour",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1012,
-      "sourceId": 1794161933
+      "secondsAgo": 1318,
+      "sourceId": 1794161932
     }
   ],
   "alpha": {
