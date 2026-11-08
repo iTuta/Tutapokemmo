@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-08T19:45:52.006Z",
+  "fetchedAt": "2026-11-08T19:50:49.504Z",
   "swarms": [
-    {
-      "monsterId": 451,
-      "pokemon": "Skorupi",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794167316,
-      "despawnTimestamp": 1794167316,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-08T19:48:36.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 197,
       "pokemon": "Umbreon",
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 451,
+      "pokemon": "Skorupi",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1032,
+      "sourceId": 1794166417
+    },
+    {
       "monsterId": 41,
       "pokemon": "Zubat",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1213,
+      "secondsAgo": 1511,
       "sourceId": 1794165938
     }
   ],
