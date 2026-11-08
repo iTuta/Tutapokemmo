@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-08T05:55:43.752Z",
+  "fetchedAt": "2026-11-08T06:01:03.590Z",
   "swarms": [
     {
       "monsterId": 200,
@@ -22,26 +22,23 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-08T06:09:14.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 207,
       "pokemon": "Gligar",
       "region": "Hoenn",
       "location": "",
-      "sourceId": 1794117541,
-      "despawnTimestamp": 1794117541,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-08T05:59:01.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1021,
+      "sourceId": 1794116642
+    },
     {
       "monsterId": 228,
       "pokemon": "Houndour",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 952,
+      "secondsAgo": 1272,
       "sourceId": 1794116391
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "Gligar",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1296,
+      "secondsAgo": 1616,
       "sourceId": 1794116047
     }
   ],
