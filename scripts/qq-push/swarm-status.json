@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-08T04:31:02.325Z",
+  "fetchedAt": "2026-11-08T04:35:42.423Z",
   "swarms": [
     {
       "monsterId": 261,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-08T04:45:26.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 104,
-      "pokemon": "Cubone",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1794112288,
-      "despawnTimestamp": 1794112288,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-08T04:31:28.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Duskull",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1475,
+      "secondsAgo": 1755,
       "sourceId": 1794110787
     },
     {
@@ -38,8 +27,16 @@
       "pokemon": "Drowzee",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1659,
+      "secondsAgo": 1939,
       "sourceId": 1794110603
+    },
+    {
+      "monsterId": 104,
+      "pokemon": "Cubone",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 1153,
+      "sourceId": 1794111389
     }
   ],
   "alpha": {
