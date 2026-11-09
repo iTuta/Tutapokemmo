@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-11-09T07:31:02.799Z",
+  "fetchedAt": "2026-11-09T07:35:46.244Z",
   "swarms": [
-    {
-      "monsterId": 197,
-      "pokemon": "umbreon",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794209556,
-      "despawnTimestamp": 1794209555,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-09T07:32:36.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Johto",
       "location": "",
       "sourceId": 1794210322,
-      "despawnTimestamp": 1794210321,
+      "despawnTimestamp": 1794210322,
       "hasValuable": false,
       "timestampUtc": "2026-11-09T07:45:22.000Z",
       "publishedBy": ""
@@ -40,24 +29,30 @@
       "region": "Sinnoh",
       "location": "",
       "sourceId": 1794210164,
-      "despawnTimestamp": 1794210163,
+      "despawnTimestamp": 1794210164,
       "hasValuable": false,
       "timestampUtc": "2026-11-09T07:42:44.000Z",
       "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 197,
+      "pokemon": "umbreon",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1089,
+      "sourceId": 1794208657
     },
     {
       "monsterId": 41,
       "pokemon": "Zubat",
       "region": "Unova",
       "location": "",
-      "sourceId": 1794209616,
-      "despawnTimestamp": 1794209615,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-09T07:33:36.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1030,
+      "sourceId": 1794208716
     }
   ],
-  "lastSeen": [],
   "alpha": {
     "monsterId": 504,
     "pokemon": "Patrat",
