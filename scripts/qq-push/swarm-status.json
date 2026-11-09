@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-09T15:25:58.427Z",
+  "fetchedAt": "2026-11-09T15:31:04.381Z",
   "swarms": [
-    {
-      "monsterId": 261,
-      "pokemon": "Poochyena",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794238049,
-      "despawnTimestamp": 1794238049,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-09T15:27:29.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1114,
+      "sourceId": 1794237150
+    },
+    {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1666,
+      "secondsAgo": 1972,
       "sourceId": 1794236292
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Umbreon",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1943,
+      "secondsAgo": 2249,
       "sourceId": 1794236015
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Murkrow",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 2165,
+      "secondsAgo": 2471,
       "sourceId": 1794235793
     }
   ],
