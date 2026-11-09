@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-09T16:10:54.501Z",
+  "fetchedAt": "2026-11-09T16:15:56.066Z",
   "swarms": [
+    {
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1794241765,
+      "despawnTimestamp": 1794241765,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-09T16:29:25.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 355,
       "pokemon": "Duskull",
@@ -11,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-09T16:18:22.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 167,
-      "pokemon": "Spinarak",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1794240927,
-      "despawnTimestamp": 1794240926,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-09T16:15:27.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,16 +30,16 @@
       "pokemon": "Gligar",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1857,
+      "secondsAgo": 2159,
       "sourceId": 1794238797
     },
     {
-      "monsterId": 96,
-      "pokemon": "Drowzee",
-      "region": "Hoenn",
+      "monsterId": 167,
+      "pokemon": "Spinarak",
+      "region": "Unova",
       "location": "",
-      "secondsAgo": 2255,
-      "sourceId": 1794238399
+      "secondsAgo": 928,
+      "sourceId": 1794240028
     }
   ],
   "alpha": {
