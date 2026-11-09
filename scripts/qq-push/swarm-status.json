@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-09T20:20:55.183Z",
+  "fetchedAt": "2026-11-09T20:25:48.297Z",
   "swarms": [
-    {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794255875,
-      "despawnTimestamp": 1794255875,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-09T20:24:35.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 353,
       "pokemon": "Shuppet",
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 372,
+      "sourceId": 1794255576
+    },
+    {
       "monsterId": 228,
       "pokemon": "Houndour",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 913,
+      "secondsAgo": 1206,
       "sourceId": 1794254742
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "Zubat",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1826,
+      "secondsAgo": 2119,
       "sourceId": 1794253829
     }
   ],
