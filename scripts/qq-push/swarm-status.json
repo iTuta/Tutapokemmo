@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-09T10:45:48.633Z",
+  "fetchedAt": "2026-11-09T10:50:55.963Z",
   "swarms": [
     {
       "monsterId": 41,
@@ -18,27 +18,30 @@
       "region": "Johto",
       "location": "",
       "sourceId": 1794221482,
-      "despawnTimestamp": 1794221482,
+      "despawnTimestamp": 1794221481,
       "hasValuable": false,
       "timestampUtc": "2026-11-09T10:51:22.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 92,
+      "pokemon": "Gastly",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1794222324,
+      "despawnTimestamp": 1794222324,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-09T11:05:24.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 167,
-      "pokemon": "Spinarak",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 2131,
-      "sourceId": 1794219017
-    },
-    {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1414,
+      "secondsAgo": 1721,
       "sourceId": 1794219734
     },
     {
@@ -46,7 +49,7 @@
       "pokemon": "Gastly",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 963,
+      "secondsAgo": 1270,
       "sourceId": 1794220185
     }
   ],
