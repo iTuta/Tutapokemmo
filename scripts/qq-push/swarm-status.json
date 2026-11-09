@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-09T21:55:45.084Z",
+  "fetchedAt": "2026-11-09T22:01:02.486Z",
   "swarms": [
     {
       "monsterId": 302,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1794262107,
       "hasValuable": false,
       "timestampUtc": "2026-11-09T22:08:27.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 197,
-      "pokemon": "Umbreon",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1794261496,
-      "despawnTimestamp": 1794261497,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-09T21:58:16.000Z",
       "publishedBy": ""
     },
     {
@@ -35,25 +24,33 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 104,
-      "pokemon": "Cubone",
-      "region": "Sinnoh",
+      "monsterId": 92,
+      "pokemon": "Gastly",
+      "region": "Unova",
       "location": "",
-      "sourceId": 1794261638,
-      "despawnTimestamp": 1794261638,
+      "sourceId": 1794262483,
+      "despawnTimestamp": 1794262482,
       "hasValuable": false,
-      "timestampUtc": "2026-11-09T22:00:38.000Z",
+      "timestampUtc": "2026-11-09T22:14:43.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 451,
-      "pokemon": "Skorupi",
-      "region": "Unova",
+      "monsterId": 197,
+      "pokemon": "Umbreon",
+      "region": "Johto",
       "location": "",
-      "secondsAgo": 1407,
-      "sourceId": 1794259938
+      "secondsAgo": 1065,
+      "sourceId": 1794260597
+    },
+    {
+      "monsterId": 104,
+      "pokemon": "Cubone",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 924,
+      "sourceId": 1794260738
     }
   ],
   "alpha": {
