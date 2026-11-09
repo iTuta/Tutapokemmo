@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-11-09T03:50:47.953Z",
+  "fetchedAt": "2026-11-09T03:55:46.108Z",
   "swarms": [
-    {
-      "monsterId": 207,
-      "pokemon": "Gligar",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794196362,
-      "despawnTimestamp": 1794196362,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-09T03:52:42.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 163,
       "pokemon": "Hoothoot",
       "region": "Johto",
       "location": "",
       "sourceId": 1794196863,
-      "despawnTimestamp": 1794196862,
+      "despawnTimestamp": 1794196863,
       "hasValuable": false,
       "timestampUtc": "2026-11-09T04:01:03.000Z",
       "publishedBy": ""
@@ -26,40 +15,40 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 207,
+      "pokemon": "Gligar",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1083,
+      "sourceId": 1794195463
+    },
+    {
       "monsterId": 96,
       "pokemon": "Drowzee",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1161,
-      "sourceId": 1794195086
+      "secondsAgo": 1459,
+      "sourceId": 1794195087
     },
     {
       "monsterId": 355,
       "pokemon": "Duskull",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1149,
-      "sourceId": 1794195098
-    },
-    {
-      "monsterId": 228,
-      "pokemon": "Houndour",
-      "region": "Unova",
-      "location": "",
-      "secondsAgo": 1861,
-      "sourceId": 1794194386
+      "secondsAgo": 1447,
+      "sourceId": 1794195099
     }
   ],
   "alpha": {
-    "monsterId": 444,
-    "pokemon": "Gabite",
-    "region": "Sinnoh",
-    "location": "Route 206",
-    "sourceId": 1794153304,
-    "despawnTimestamp": 1794170404,
+    "monsterId": 504,
+    "pokemon": "Patrat",
+    "region": "Unova",
+    "location": "Route 1",
+    "sourceId": 1794183808,
+    "despawnTimestamp": 1794200908,
     "hasValuable": false,
-    "timestampUtc": "2026-11-08T15:55:04.000Z",
-    "timestampRaw": "2026-11-08T15:55:04.000Z",
-    "publishedBy": "Haioku"
+    "timestampUtc": "2026-11-09T00:23:28.000Z",
+    "timestampRaw": "2026-11-09T00:23:28.000Z",
+    "publishedBy": ""
   }
 }
