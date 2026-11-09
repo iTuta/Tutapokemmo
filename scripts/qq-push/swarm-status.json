@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-11-09T11:40:53.733Z",
+  "fetchedAt": "2026-11-09T11:45:52.763Z",
   "swarms": [
-    {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1794224595,
-      "despawnTimestamp": 1794224594,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-09T11:43:15.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1794224627,
-      "despawnTimestamp": 1794224626,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-09T11:43:47.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 353,
       "pokemon": "Shuppet",
@@ -41,7 +19,7 @@
       "pokemon": "Misdreavus",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1795,
+      "secondsAgo": 2094,
       "sourceId": 1794222658
     },
     {
@@ -49,8 +27,24 @@
       "pokemon": "Gligar",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 2317,
+      "secondsAgo": 2616,
       "sourceId": 1794222136
+    },
+    {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 1057,
+      "sourceId": 1794223695
+    },
+    {
+      "monsterId": 198,
+      "pokemon": "Murkrow",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 1025,
+      "sourceId": 1794223727
     }
   ],
   "alpha": {
