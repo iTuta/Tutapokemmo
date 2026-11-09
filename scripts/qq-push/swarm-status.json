@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-09T12:25:47.633Z",
+  "fetchedAt": "2026-11-09T12:31:05.829Z",
   "swarms": [
     {
       "monsterId": 200,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1794227814,
       "hasValuable": false,
       "timestampUtc": "2026-11-09T12:36:54.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 163,
-      "pokemon": "Hoothoot",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1794227291,
-      "despawnTimestamp": 1794227291,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-09T12:28:11.000Z",
       "publishedBy": ""
     },
     {
@@ -41,15 +30,23 @@
       "pokemon": "Drifloon",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 2164,
+      "secondsAgo": 2482,
       "sourceId": 1794224983
+    },
+    {
+      "monsterId": 163,
+      "pokemon": "Hoothoot",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 1073,
+      "sourceId": 1794226392
     },
     {
       "monsterId": 23,
       "pokemon": "Ekans",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1181,
+      "secondsAgo": 1499,
       "sourceId": 1794225966
     }
   ],
