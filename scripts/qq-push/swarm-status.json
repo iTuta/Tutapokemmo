@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-09T23:46:12.172Z",
+  "fetchedAt": "2026-11-09T23:50:54.286Z",
   "swarms": [
     {
       "monsterId": 425,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-09T23:59:43.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 228,
-      "pokemon": "Houndour",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1794268165,
-      "despawnTimestamp": 1794268165,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-09T23:49:25.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,8 +30,16 @@
       "pokemon": "Cubone",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 910,
+      "secondsAgo": 1192,
       "sourceId": 1794267062
+    },
+    {
+      "monsterId": 228,
+      "pokemon": "Houndour",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 988,
+      "sourceId": 1794267266
     }
   ],
   "alpha": {
