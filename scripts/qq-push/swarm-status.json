@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-09T02:35:49.697Z",
+  "fetchedAt": "2026-11-09T02:40:52.813Z",
   "swarms": [
     {
       "monsterId": 302,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-09T02:41:45.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 425,
-      "pokemon": "Drifloon",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1794191942,
-      "despawnTimestamp": 1794191942,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-09T02:39:02.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,7 +30,7 @@
       "pokemon": "Skorupi",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 2083,
+      "secondsAgo": 2386,
       "sourceId": 1794189666
     },
     {
@@ -49,8 +38,16 @@
       "pokemon": "Skorupi",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1314,
+      "secondsAgo": 1617,
       "sourceId": 1794190435
+    },
+    {
+      "monsterId": 425,
+      "pokemon": "Drifloon",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 1009,
+      "sourceId": 1794191043
     }
   ],
   "alpha": {
