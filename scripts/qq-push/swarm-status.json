@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-09T17:20:52.672Z",
+  "fetchedAt": "2026-11-09T17:25:43.501Z",
   "swarms": [
     {
       "monsterId": 104,
@@ -22,27 +22,32 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-09T17:35:24.000Z",
       "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 198,
+      "pokemon": "Murkrow",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 5680,
+      "sourceId": 1794239463
+    },
+    {
+      "monsterId": 228,
+      "pokemon": "Houndour",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 1613,
+      "sourceId": 1794243530
     },
     {
       "monsterId": 167,
       "pokemon": "Spinarak",
       "region": "Unova",
       "location": "",
-      "sourceId": 1794245005,
-      "despawnTimestamp": 1794245004,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-09T17:23:25.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 228,
-      "pokemon": "Houndour",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 1323,
-      "sourceId": 1794243529
+      "secondsAgo": 1038,
+      "sourceId": 1794244105
     }
   ],
   "alpha": {
@@ -55,6 +60,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-11-09T12:37:46.000Z",
     "timestampRaw": "2026-11-09T12:37:46.000Z",
-    "publishedBy": ""
+    "publishedBy": "Juju"
   }
 }
