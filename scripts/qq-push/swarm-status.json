@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-09T16:20:47.627Z",
+  "fetchedAt": "2026-11-09T16:25:49.399Z",
   "swarms": [
+    {
+      "monsterId": 451,
+      "pokemon": "Skorupi",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1794242245,
+      "despawnTimestamp": 1794242245,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-09T16:37:25.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 261,
       "pokemon": "Poochyena",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 207,
-      "pokemon": "Gligar",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 2450,
-      "sourceId": 1794238797
-    },
-    {
       "monsterId": 355,
       "pokemon": "Duskull",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1044,
+      "secondsAgo": 1346,
       "sourceId": 1794240203
     },
     {
@@ -35,8 +38,8 @@
       "pokemon": "Spinarak",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1220,
-      "sourceId": 1794240027
+      "secondsAgo": 1521,
+      "sourceId": 1794240028
     }
   ],
   "alpha": {
