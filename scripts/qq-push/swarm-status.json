@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-09T19:50:56.509Z",
+  "fetchedAt": "2026-11-09T19:56:00.020Z",
   "swarms": [
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1794254848,
+      "despawnTimestamp": 1794254847,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-09T20:07:28.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 96,
       "pokemon": "Drowzee",
@@ -18,7 +29,7 @@
       "region": "Unova",
       "location": "",
       "sourceId": 1794254728,
-      "despawnTimestamp": 1794254728,
+      "despawnTimestamp": 1794254727,
       "hasValuable": false,
       "timestampUtc": "2026-11-09T20:05:28.000Z",
       "publishedBy": ""
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 353,
-      "pokemon": "Shuppet",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 1967,
-      "sourceId": 1794251889
-    },
-    {
       "monsterId": 163,
       "pokemon": "Hoothoot",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1416,
+      "secondsAgo": 1719,
       "sourceId": 1794252440
     },
     {
@@ -46,8 +49,8 @@
       "pokemon": "Drifloon",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1141,
-      "sourceId": 1794252715
+      "secondsAgo": 1445,
+      "sourceId": 1794252714
     }
   ],
   "alpha": {
