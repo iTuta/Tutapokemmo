@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-09T04:35:50.145Z",
+  "fetchedAt": "2026-11-09T04:40:47.521Z",
   "swarms": [
     {
       "monsterId": 92,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-09T04:47:46.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1794199184,
-      "despawnTimestamp": 1794199184,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-09T04:39:44.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,8 +30,16 @@
       "pokemon": "Spinarak",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1001,
+      "secondsAgo": 1298,
       "sourceId": 1794197949
+    },
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 962,
+      "sourceId": 1794198285
     }
   ],
   "alpha": {
