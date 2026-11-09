@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-09T00:10:53.597Z",
+  "fetchedAt": "2026-11-09T00:15:52.395Z",
   "swarms": [
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794183278,
-      "despawnTimestamp": 1794183277,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-09T00:14:38.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 167,
       "pokemon": "Spinarak",
@@ -22,15 +11,34 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-09T00:17:51.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 92,
+      "pokemon": "Gastly",
+      "region": "Unova",
+      "location": "",
+      "sourceId": 1794184181,
+      "despawnTimestamp": 1794184181,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-09T00:29:41.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 974,
+      "sourceId": 1794182378
+    },
     {
       "monsterId": 207,
       "pokemon": "Gligar",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1222,
+      "secondsAgo": 1521,
       "sourceId": 1794181831
     },
     {
@@ -38,16 +46,8 @@
       "pokemon": "Seviper",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1208,
+      "secondsAgo": 1507,
       "sourceId": 1794181845
-    },
-    {
-      "monsterId": 261,
-      "pokemon": "Poochyena",
-      "region": "Unova",
-      "location": "",
-      "secondsAgo": 1501,
-      "sourceId": 1794181552
     }
   ],
   "alpha": {
