@@ -1,13 +1,36 @@
 {
-  "fetchedAt": "2026-11-09T04:55:42.165Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-09T05:01:11.981Z",
+  "swarms": [
+    {
+      "monsterId": 228,
+      "pokemon": "Houndour",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1794201122,
+      "despawnTimestamp": 1794201121,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-09T05:12:02.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 92,
+      "pokemon": "Gastly",
+      "region": "Sinnoh",
+      "location": "",
+      "sourceId": 1794201233,
+      "despawnTimestamp": 1794201232,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-09T05:13:53.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 167,
       "pokemon": "Spinarak",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 2193,
+      "secondsAgo": 2522,
       "sourceId": 1794197949
     },
     {
@@ -15,24 +38,8 @@
       "pokemon": "Gastly",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1316,
-      "sourceId": 1794198826
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 1375,
-      "sourceId": 1794198767
-    },
-    {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Sinnoh",
-      "location": "",
-      "secondsAgo": 1857,
-      "sourceId": 1794198285
+      "secondsAgo": 1646,
+      "sourceId": 1794198825
     }
   ],
   "alpha": {
