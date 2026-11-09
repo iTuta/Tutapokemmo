@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-09T01:40:49.164Z",
+  "fetchedAt": "2026-11-09T01:45:48.367Z",
   "swarms": [
+    {
+      "monsterId": 197,
+      "pokemon": "Umbreon",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1794189524,
+      "despawnTimestamp": 1794189524,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-09T01:58:44.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
@@ -22,17 +33,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-09T01:46:44.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 353,
-      "pokemon": "Shuppet",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1794188478,
-      "despawnTimestamp": 1794188478,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-09T01:41:18.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,16 +41,16 @@
       "pokemon": "Umbreon",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1605,
+      "secondsAgo": 1904,
       "sourceId": 1794186844
     },
     {
-      "monsterId": 207,
-      "pokemon": "Gligar",
-      "region": "Johto",
+      "monsterId": 353,
+      "pokemon": "Shuppet",
+      "region": "Unova",
       "location": "",
-      "secondsAgo": 1437,
-      "sourceId": 1794187012
+      "secondsAgo": 1169,
+      "sourceId": 1794187579
     }
   ],
   "alpha": {
