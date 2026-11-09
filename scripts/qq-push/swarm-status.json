@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-08T23:55:49.501Z",
+  "fetchedAt": "2026-11-09T00:01:11.739Z",
   "swarms": [
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1794183278,
+      "despawnTimestamp": 1794183277,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-09T00:14:38.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 207,
       "pokemon": "Gligar",
@@ -22,35 +33,24 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-09T00:05:44.000Z",
       "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 1222,
+      "sourceId": 1794181249
     },
     {
       "monsterId": 261,
       "pokemon": "Poochyena",
       "region": "Unova",
       "location": "",
-      "sourceId": 1794182452,
-      "despawnTimestamp": 1794182451,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-09T00:00:52.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 207,
-      "pokemon": "Gligar",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 1740,
-      "sourceId": 1794180409
-    },
-    {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Sinnoh",
-      "location": "",
-      "secondsAgo": 900,
-      "sourceId": 1794181249
+      "secondsAgo": 919,
+      "sourceId": 1794181552
     }
   ],
   "alpha": {
