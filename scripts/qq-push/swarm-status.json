@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-09T07:25:47.264Z",
+  "fetchedAt": "2026-11-09T07:31:02.799Z",
   "swarms": [
     {
       "monsterId": 197,
@@ -7,9 +7,42 @@
       "region": "Kanto",
       "location": "",
       "sourceId": 1794209556,
-      "despawnTimestamp": 1794209556,
+      "despawnTimestamp": 1794209555,
       "hasValuable": false,
       "timestampUtc": "2026-11-09T07:32:36.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 425,
+      "pokemon": "Drifloon",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1794210322,
+      "despawnTimestamp": 1794210321,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-09T07:45:22.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 353,
+      "pokemon": "Shuppet",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1794210148,
+      "despawnTimestamp": 1794210148,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-09T07:42:28.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 104,
+      "pokemon": "Cubone",
+      "region": "Sinnoh",
+      "location": "",
+      "sourceId": 1794210164,
+      "despawnTimestamp": 1794210163,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-09T07:42:44.000Z",
       "publishedBy": ""
     },
     {
@@ -18,38 +51,13 @@
       "region": "Unova",
       "location": "",
       "sourceId": 1794209616,
-      "despawnTimestamp": 1794209616,
+      "despawnTimestamp": 1794209615,
       "hasValuable": false,
       "timestampUtc": "2026-11-09T07:33:36.000Z",
       "publishedBy": ""
     }
   ],
-  "lastSeen": [
-    {
-      "monsterId": 104,
-      "pokemon": "Cubone",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 4225,
-      "sourceId": 1794204922
-    },
-    {
-      "monsterId": 425,
-      "pokemon": "drifloon",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 3109,
-      "sourceId": 1794206038
-    },
-    {
-      "monsterId": 96,
-      "pokemon": "Drowzee",
-      "region": "Sinnoh",
-      "location": "",
-      "secondsAgo": 1806,
-      "sourceId": 1794207341
-    }
-  ],
+  "lastSeen": [],
   "alpha": {
     "monsterId": 504,
     "pokemon": "Patrat",
