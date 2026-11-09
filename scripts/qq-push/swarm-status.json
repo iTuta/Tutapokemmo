@@ -1,36 +1,13 @@
 {
-  "fetchedAt": "2026-11-09T22:35:48.974Z",
-  "swarms": [
-    {
-      "monsterId": 92,
-      "pokemon": "Gastly",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1794264329,
-      "despawnTimestamp": 1794264328,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-09T22:45:29.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 261,
-      "pokemon": "Poochyena",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1794263922,
-      "despawnTimestamp": 1794263921,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-09T22:38:42.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-11-09T22:41:05.867Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 355,
       "pokemon": "Duskull",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1200,
+      "secondsAgo": 1517,
       "sourceId": 1794262548
     },
     {
@@ -38,28 +15,36 @@
       "pokemon": "Sableye",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1516,
+      "secondsAgo": 1833,
       "sourceId": 1794262232
+    },
+    {
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 1043,
+      "sourceId": 1794263022
     },
     {
       "monsterId": 92,
       "pokemon": "Gastly",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 2165,
+      "secondsAgo": 2482,
       "sourceId": 1794261583
     }
   ],
   "alpha": {
-    "monsterId": 25,
-    "pokemon": "Pikachu",
-    "region": "Kanto",
-    "location": "Route 19",
-    "sourceId": 1794227866,
-    "despawnTimestamp": 1794244966,
+    "monsterId": 373,
+    "pokemon": "Salamence",
+    "region": "Hoenn",
+    "location": "Sky Pillar",
+    "sourceId": 1794251375,
+    "despawnTimestamp": 1794268475,
     "hasValuable": false,
-    "timestampUtc": "2026-11-09T12:37:46.000Z",
-    "timestampRaw": "2026-11-09T12:37:46.000Z",
-    "publishedBy": "Juju"
+    "timestampUtc": "2026-11-09T19:09:35.000Z",
+    "timestampRaw": "2026-11-09T19:09:35.000Z",
+    "publishedBy": ""
   }
 }
