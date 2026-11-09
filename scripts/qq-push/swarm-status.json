@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-09T02:05:45.121Z",
+  "fetchedAt": "2026-11-09T02:11:12.340Z",
   "swarms": [
-    {
-      "monsterId": 23,
-      "pokemon": "Ekans",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794190256,
-      "despawnTimestamp": 1794190256,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-09T02:10:56.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 23,
+      "pokemon": "Ekans",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 915,
+      "sourceId": 1794189357
+    },
+    {
       "monsterId": 197,
       "pokemon": "Umbreon",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1320,
+      "secondsAgo": 1647,
       "sourceId": 1794188625
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Drifloon",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 2040,
+      "secondsAgo": 2367,
       "sourceId": 1794187905
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Ekans",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1005,
+      "secondsAgo": 1332,
       "sourceId": 1794188940
     }
   ],
