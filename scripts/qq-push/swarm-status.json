@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-10T19:25:46.672Z",
+  "fetchedAt": "2026-11-10T19:31:00.701Z",
   "swarms": [
     {
       "monsterId": 198,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-10T19:37:05.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 355,
-      "pokemon": "Duskull",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1794339014,
-      "despawnTimestamp": 1794339014,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-10T19:30:14.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,15 +19,23 @@
       "pokemon": "Houndour",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1459,
+      "secondsAgo": 1773,
       "sourceId": 1794337287
+    },
+    {
+      "monsterId": 355,
+      "pokemon": "Duskull",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 945,
+      "sourceId": 1794338115
     },
     {
       "monsterId": 23,
       "pokemon": "Ekans",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1311,
+      "secondsAgo": 1625,
       "sourceId": 1794337435
     }
   ],
