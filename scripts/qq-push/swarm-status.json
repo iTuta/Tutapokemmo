@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-10T20:05:47.341Z",
+  "fetchedAt": "2026-11-10T20:10:43.231Z",
   "swarms": [
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1794341258,
-      "despawnTimestamp": 1794341258,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-10T20:07:38.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 1084,
+      "sourceId": 1794340359
+    },
+    {
       "monsterId": 96,
       "pokemon": "Drowzee",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1877,
+      "secondsAgo": 2173,
       "sourceId": 1794339270
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Zubat",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1079,
+      "secondsAgo": 1375,
       "sourceId": 1794340068
     }
   ],
