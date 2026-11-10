@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-10T10:35:48.509Z",
+  "fetchedAt": "2026-11-10T10:41:02.782Z",
   "swarms": [
-    {
-      "monsterId": 355,
-      "pokemon": "Duskull",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794307089,
-      "despawnTimestamp": 1794307088,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-10T10:38:09.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 425,
       "pokemon": "Drifloon",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 355,
+      "pokemon": "Duskull",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1073,
+      "sourceId": 1794306189
+    },
+    {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1271,
+      "secondsAgo": 1585,
       "sourceId": 1794305677
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Duskull",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 905,
+      "secondsAgo": 1219,
       "sourceId": 1794306043
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Spinarak",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 968,
+      "secondsAgo": 1282,
       "sourceId": 1794305980
     }
   ],
