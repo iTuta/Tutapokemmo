@@ -1,15 +1,15 @@
 {
-  "fetchedAt": "2026-11-10T17:40:49.199Z",
+  "fetchedAt": "2026-11-10T17:45:50.283Z",
   "swarms": [
     {
       "monsterId": 41,
       "pokemon": "Zubat",
       "region": "Johto",
       "location": "",
-      "sourceId": 1794332715,
-      "despawnTimestamp": 1794332715,
+      "sourceId": 1794333019,
+      "despawnTimestamp": 1794333019,
       "hasValuable": false,
-      "timestampUtc": "2026-11-10T17:45:15.000Z",
+      "timestampUtc": "2026-11-10T17:50:19.000Z",
       "publishedBy": ""
     },
     {
@@ -33,17 +33,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-10T17:53:54.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 425,
-      "pokemon": "Drifloon",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1794332525,
-      "despawnTimestamp": 1794332525,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-10T17:42:05.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -52,8 +41,16 @@
       "pokemon": "zorua",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1609,
+      "secondsAgo": 1910,
       "sourceId": 1794330840
+    },
+    {
+      "monsterId": 425,
+      "pokemon": "Drifloon",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 1124,
+      "sourceId": 1794331626
     }
   ],
   "alpha": {
