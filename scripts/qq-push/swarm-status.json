@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-10T12:40:50.115Z",
+  "fetchedAt": "2026-11-10T12:45:46.491Z",
   "swarms": [
     {
       "monsterId": 353,
@@ -22,23 +22,26 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-10T12:48:36.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1794315530,
+      "despawnTimestamp": 1794315530,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-10T12:58:50.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 197,
-      "pokemon": "Umbreon",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 1953,
-      "sourceId": 1794312497
-    },
     {
       "monsterId": 23,
       "pokemon": "Ekans",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1230,
+      "secondsAgo": 1526,
       "sourceId": 1794313220
     },
     {
@@ -46,8 +49,8 @@
       "pokemon": "Spinarak",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 909,
-      "sourceId": 1794313541
+      "secondsAgo": 1206,
+      "sourceId": 1794313540
     }
   ],
   "alpha": {
