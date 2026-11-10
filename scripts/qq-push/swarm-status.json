@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-10T02:26:00.758Z",
+  "fetchedAt": "2026-11-10T02:31:02.232Z",
   "swarms": [
     {
       "monsterId": 570,
@@ -7,50 +7,47 @@
       "region": "Kanto",
       "location": "",
       "sourceId": 1794278058,
-      "despawnTimestamp": 1794278057,
+      "despawnTimestamp": 1794278058,
       "hasValuable": false,
       "timestampUtc": "2026-11-10T02:34:18.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 167,
+      "pokemon": "Spinarak",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1794278486,
+      "despawnTimestamp": 1794278486,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-10T02:41:26.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 96,
+      "pokemon": "Drowzee",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 1513,
+      "sourceId": 1794276349
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Sinnoh",
       "location": "",
-      "sourceId": 1794277840,
-      "despawnTimestamp": 1794277839,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-10T02:30:40.000Z",
-      "publishedBy": ""
+      "secondsAgo": 921,
+      "sourceId": 1794276941
     },
     {
       "monsterId": 104,
       "pokemon": "Cubone",
       "region": "Unova",
       "location": "",
-      "sourceId": 1794277853,
-      "despawnTimestamp": 1794277853,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-10T02:30:53.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 2171,
-      "sourceId": 1794275389
-    },
-    {
-      "monsterId": 96,
-      "pokemon": "Drowzee",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 1212,
-      "sourceId": 1794276348
+      "secondsAgo": 908,
+      "sourceId": 1794276954
     }
   ],
   "alpha": {
