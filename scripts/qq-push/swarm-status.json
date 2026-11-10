@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-10T08:10:50.332Z",
+  "fetchedAt": "2026-11-10T08:16:01.807Z",
   "swarms": [
-    {
-      "monsterId": 425,
-      "pokemon": "Drifloon",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1794298251,
-      "despawnTimestamp": 1794298251,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-10T08:10:51.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 228,
       "pokemon": "Houndour",
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 425,
+      "pokemon": "Drifloon",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 1210,
+      "sourceId": 1794297351
+    },
+    {
       "monsterId": 261,
       "pokemon": "Poochyena",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1394,
+      "secondsAgo": 1705,
       "sourceId": 1794296856
     }
   ],
