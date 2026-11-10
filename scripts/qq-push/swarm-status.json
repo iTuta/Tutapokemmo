@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-10T08:31:21.808Z",
+  "fetchedAt": "2026-11-10T08:36:09.935Z",
   "swarms": [
     {
       "monsterId": 163,
@@ -7,9 +7,20 @@
       "region": "Johto",
       "location": "",
       "sourceId": 1794299913,
-      "despawnTimestamp": 1794299913,
+      "despawnTimestamp": 1794299912,
       "hasValuable": false,
       "timestampUtc": "2026-11-10T08:38:33.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 207,
+      "pokemon": "Gligar",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1794300539,
+      "despawnTimestamp": 1794300539,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-10T08:48:59.000Z",
       "publishedBy": ""
     },
     {
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 228,
-      "pokemon": "Houndour",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 1316,
-      "sourceId": 1794298165
-    },
-    {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1391,
+      "secondsAgo": 1679,
       "sourceId": 1794298090
     }
   ],
