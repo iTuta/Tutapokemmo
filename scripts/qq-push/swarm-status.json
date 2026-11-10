@@ -1,45 +1,42 @@
 {
-  "fetchedAt": "2026-11-10T08:22:22.266Z",
+  "fetchedAt": "2026-11-10T08:26:47.988Z",
   "swarms": [
+    {
+      "monsterId": 163,
+      "pokemon": "Hoothoot",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1794299913,
+      "despawnTimestamp": 1794299912,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-10T08:38:33.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 228,
       "pokemon": "Houndour",
       "region": "Hoenn",
       "location": "",
-      "sourceId": 1794299064,
-      "despawnTimestamp": 1794299064,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-10T08:24:24.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1042,
+      "sourceId": 1794298165
     },
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Sinnoh",
       "location": "",
-      "sourceId": 1794298990,
-      "despawnTimestamp": 1794298989,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-10T08:23:10.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 425,
-      "pokemon": "Drifloon",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 1590,
-      "sourceId": 1794297352
+      "secondsAgo": 1117,
+      "sourceId": 1794298090
     },
     {
       "monsterId": 261,
       "pokemon": "Poochyena",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 2086,
-      "sourceId": 1794296856
+      "secondsAgo": 2352,
+      "sourceId": 1794296855
     }
   ],
   "alpha": {
