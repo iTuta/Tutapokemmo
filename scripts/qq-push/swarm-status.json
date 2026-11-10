@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-11-10T19:36:00.755Z",
+  "fetchedAt": "2026-11-10T19:40:50.166Z",
   "swarms": [
-    {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1794339425,
-      "despawnTimestamp": 1794339425,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-10T19:37:05.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 167,
       "pokemon": "Spinarak",
       "region": "Hoenn",
       "location": "",
       "sourceId": 1794340123,
-      "despawnTimestamp": 1794340122,
+      "despawnTimestamp": 1794340123,
       "hasValuable": false,
       "timestampUtc": "2026-11-10T19:48:43.000Z",
       "publishedBy": ""
@@ -37,12 +26,20 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 198,
+      "pokemon": "Murkrow",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 1124,
+      "sourceId": 1794338526
+    },
+    {
       "monsterId": 23,
       "pokemon": "Ekans",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1925,
-      "sourceId": 1794337435
+      "secondsAgo": 2214,
+      "sourceId": 1794337436
     }
   ],
   "alpha": {
