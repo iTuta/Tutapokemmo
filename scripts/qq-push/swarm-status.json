@@ -1,48 +1,15 @@
 {
-  "fetchedAt": "2026-11-10T20:46:11.611Z",
+  "fetchedAt": "2026-11-10T20:50:50.386Z",
   "swarms": [
-    {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1794343832,
-      "despawnTimestamp": 1794343832,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-10T20:50:32.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 355,
-      "pokemon": "Duskull",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1794343646,
-      "despawnTimestamp": 1794343646,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-10T20:47:26.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Sinnoh",
       "location": "",
       "sourceId": 1794344180,
-      "despawnTimestamp": 1794344179,
+      "despawnTimestamp": 1794344180,
       "hasValuable": false,
       "timestampUtc": "2026-11-10T20:56:20.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 23,
-      "pokemon": "Ekans",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1794343598,
-      "despawnTimestamp": 1794343598,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-10T20:46:38.000Z",
       "publishedBy": ""
     }
   ],
@@ -52,8 +19,32 @@
       "pokemon": "Misdreavus",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 5318,
+      "secondsAgo": 5597,
       "sourceId": 1794338253
+    },
+    {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 917,
+      "sourceId": 1794342933
+    },
+    {
+      "monsterId": 355,
+      "pokemon": "Duskull",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 1103,
+      "sourceId": 1794342747
+    },
+    {
+      "monsterId": 23,
+      "pokemon": "Ekans",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 1151,
+      "sourceId": 1794342699
     }
   ],
   "alpha": {
