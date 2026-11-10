@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-10T07:08:15.854Z",
+  "fetchedAt": "2026-11-10T07:12:22.817Z",
   "swarms": [
-    {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794294569,
-      "despawnTimestamp": 1794294568,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-10T07:09:29.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 23,
       "pokemon": "Ekans",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1073,
+      "sourceId": 1794293669
+    },
+    {
       "monsterId": 228,
       "pokemon": "Houndour",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1797,
+      "secondsAgo": 2044,
       "sourceId": 1794292698
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Spinarak",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 936,
+      "secondsAgo": 1183,
       "sourceId": 1794293559
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Poochyena",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1250,
-      "sourceId": 1794293245
+      "secondsAgo": 1496,
+      "sourceId": 1794293246
     }
   ],
   "alpha": {
