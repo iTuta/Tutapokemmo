@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-11-10T12:45:46.491Z",
+  "fetchedAt": "2026-11-10T12:50:46.195Z",
   "swarms": [
-    {
-      "monsterId": 353,
-      "pokemon": "Shuppet",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794315018,
-      "despawnTimestamp": 1794315018,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-10T12:50:18.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 104,
-      "pokemon": "Cubone",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1794314916,
-      "despawnTimestamp": 1794314916,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-10T12:48:36.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 41,
       "pokemon": "Zubat",
@@ -37,11 +15,27 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 353,
+      "pokemon": "Shuppet",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 927,
+      "sourceId": 1794314119
+    },
+    {
+      "monsterId": 104,
+      "pokemon": "Cubone",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 1029,
+      "sourceId": 1794314017
+    },
+    {
       "monsterId": 23,
       "pokemon": "Ekans",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1526,
+      "secondsAgo": 1826,
       "sourceId": 1794313220
     },
     {
@@ -49,8 +43,8 @@
       "pokemon": "Spinarak",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1206,
-      "sourceId": 1794313540
+      "secondsAgo": 1505,
+      "sourceId": 1794313541
     }
   ],
   "alpha": {
