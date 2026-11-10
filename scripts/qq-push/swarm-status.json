@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-10T16:20:48.768Z",
+  "fetchedAt": "2026-11-10T16:25:56.389Z",
   "swarms": [
     {
       "monsterId": 451,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "",
       "sourceId": 1794328289,
-      "despawnTimestamp": 1794328288,
+      "despawnTimestamp": 1794328289,
       "hasValuable": false,
       "timestampUtc": "2026-11-10T16:31:29.000Z",
       "publishedBy": ""
@@ -24,6 +24,17 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 570,
+      "pokemon": "zorua",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1794328587,
+      "despawnTimestamp": 1794328587,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-10T16:36:27.000Z",
+      "publishedBy": ""
+    },
+    {
       "monsterId": 261,
       "pokemon": "Poochyena",
       "region": "Sinnoh",
@@ -37,19 +48,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 197,
-      "pokemon": "Umbreon",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 6862,
-      "sourceId": 1794320786
-    },
-    {
       "monsterId": 353,
       "pokemon": "shuppet",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1613,
+      "secondsAgo": 1921,
       "sourceId": 1794326035
     }
   ],
