@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-10T16:55:53.706Z",
+  "fetchedAt": "2026-11-10T17:01:21.607Z",
   "swarms": [
     {
       "monsterId": 198,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1794330143,
       "hasValuable": false,
       "timestampUtc": "2026-11-10T17:02:24.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1794330817,
+      "despawnTimestamp": 1794330816,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-10T17:13:37.000Z",
       "publishedBy": ""
     },
     {
@@ -37,19 +48,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 2501,
-      "sourceId": 1794327252
-    },
-    {
       "monsterId": 228,
       "pokemon": "Houndour",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1270,
+      "secondsAgo": 1598,
       "sourceId": 1794328483
     }
   ],
