@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-10T04:10:52.325Z",
+  "fetchedAt": "2026-11-10T04:18:02.788Z",
   "swarms": [
     {
       "monsterId": 261,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1794284459,
       "hasValuable": false,
       "timestampUtc": "2026-11-10T04:20:59.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 425,
+      "pokemon": "Drifloon",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1794284848,
+      "despawnTimestamp": 1794284848,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-10T04:27:28.000Z",
       "publishedBy": ""
     },
     {
@@ -26,20 +37,12 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 163,
-      "pokemon": "Hoothoot",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 2415,
-      "sourceId": 1794281437
-    },
-    {
       "monsterId": 197,
       "pokemon": "Umbreon",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1016,
-      "sourceId": 1794282836
+      "secondsAgo": 1447,
+      "sourceId": 1794282835
     }
   ],
   "alpha": {
