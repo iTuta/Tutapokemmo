@@ -1,45 +1,42 @@
 {
-  "fetchedAt": "2026-11-10T15:16:15.634Z",
+  "fetchedAt": "2026-11-10T15:20:52.104Z",
   "swarms": [
+    {
+      "monsterId": 23,
+      "pokemon": "Ekans",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1794324939,
+      "despawnTimestamp": 1794324939,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-10T15:35:39.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 261,
       "pokemon": "Poochyena",
       "region": "Johto",
       "location": "",
-      "sourceId": 1794323985,
-      "despawnTimestamp": 1794323984,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-10T15:19:45.000Z",
-      "publishedBy": ""
+      "secondsAgo": 966,
+      "sourceId": 1794323086
     },
     {
       "monsterId": 23,
       "pokemon": "Ekans",
       "region": "Sinnoh",
       "location": "",
-      "sourceId": 1794323935,
-      "despawnTimestamp": 1794323935,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-10T15:18:55.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 92,
-      "pokemon": "Gastly",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 1413,
-      "sourceId": 1794322362
+      "secondsAgo": 1016,
+      "sourceId": 1794323036
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1575,
-      "sourceId": 1794322200
+      "secondsAgo": 1851,
+      "sourceId": 1794322201
     }
   ],
   "alpha": {
