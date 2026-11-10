@@ -1,53 +1,50 @@
 {
-  "fetchedAt": "2026-11-10T03:15:49.289Z",
+  "fetchedAt": "2026-11-10T03:23:44.647Z",
   "swarms": [
     {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Kanto",
+      "monsterId": 104,
+      "pokemon": "Cubone",
+      "region": "Unova",
       "location": "",
-      "sourceId": 1794280713,
-      "despawnTimestamp": 1794280713,
+      "sourceId": 1794281803,
+      "despawnTimestamp": 1794281803,
       "hasValuable": false,
-      "timestampUtc": "2026-11-10T03:18:33.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 261,
-      "pokemon": "Poochyena",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1794280645,
-      "despawnTimestamp": 1794280645,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-10T03:17:25.000Z",
+      "timestampUtc": "2026-11-10T03:36:43.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1210,
+      "sourceId": 1794279814
+    },
+    {
       "monsterId": 353,
       "pokemon": "Shuppet",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1401,
-      "sourceId": 1794279148
+      "secondsAgo": 1877,
+      "sourceId": 1794279147
     },
     {
       "monsterId": 96,
       "pokemon": "Drowzee",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1159,
+      "secondsAgo": 1634,
       "sourceId": 1794279390
     },
     {
-      "monsterId": 451,
-      "pokemon": "Skorupi",
-      "region": "Unova",
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 2035,
-      "sourceId": 1794278514
+      "secondsAgo": 1279,
+      "sourceId": 1794279745
     }
   ],
   "alpha": {
