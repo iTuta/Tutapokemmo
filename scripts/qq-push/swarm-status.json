@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-10T00:20:46.405Z",
+  "fetchedAt": "2026-11-10T00:25:50.284Z",
   "swarms": [
     {
       "monsterId": 200,
@@ -11,26 +11,23 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-10T00:35:26.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 163,
       "pokemon": "Hoothoot",
       "region": "Johto",
       "location": "",
-      "sourceId": 1794270242,
-      "despawnTimestamp": 1794270242,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-10T00:24:02.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1007,
+      "sourceId": 1794269343
+    },
     {
       "monsterId": 92,
       "pokemon": "Gastly",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 6616,
+      "secondsAgo": 6920,
       "sourceId": 1794263430
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Murkrow",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 2162,
+      "secondsAgo": 2466,
       "sourceId": 1794267884
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1191,
+      "secondsAgo": 1495,
       "sourceId": 1794268855
     }
   ],
