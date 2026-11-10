@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-11-10T01:10:54.160Z",
+  "fetchedAt": "2026-11-10T01:15:53.842Z",
   "swarms": [
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1794273079,
-      "despawnTimestamp": 1794273079,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-10T01:11:19.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1794273204,
-      "despawnTimestamp": 1794273204,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-10T01:13:24.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 197,
       "pokemon": "Umbreon",
@@ -41,15 +19,31 @@
       "pokemon": "Cubone",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1600,
-      "sourceId": 1794271454
+      "secondsAgo": 1900,
+      "sourceId": 1794271453
+    },
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 1174,
+      "sourceId": 1794272179
+    },
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 1049,
+      "sourceId": 1794272304
     },
     {
       "monsterId": 355,
       "pokemon": "Duskull",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 2133,
+      "secondsAgo": 2432,
       "sourceId": 1794270921
     }
   ],
