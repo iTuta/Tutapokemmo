@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-11-11T02:01:03.476Z",
+  "fetchedAt": "2026-11-11T02:05:48.738Z",
   "swarms": [
-    {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794362627,
-      "despawnTimestamp": 1794362626,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-11T02:03:47.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 207,
-      "pokemon": "Gligar",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1794362706,
-      "despawnTimestamp": 1794362705,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-11T02:05:06.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 425,
       "pokemon": "Drifloon",
@@ -33,26 +11,39 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-11T02:15:10.000Z",
       "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1021,
+      "sourceId": 1794361727
+    },
+    {
+      "monsterId": 207,
+      "pokemon": "Gligar",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 942,
+      "sourceId": 1794361806
     },
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Sinnoh",
       "location": "",
-      "sourceId": 1794362550,
-      "despawnTimestamp": 1794362550,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-11T02:02:30.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1098,
+      "sourceId": 1794361650
+    },
     {
       "monsterId": 355,
       "pokemon": "Duskull",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1066,
+      "secondsAgo": 1351,
       "sourceId": 1794361397
     }
   ],
