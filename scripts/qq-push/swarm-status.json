@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-11T09:55:52.902Z",
+  "fetchedAt": "2026-11-11T10:01:16.906Z",
   "swarms": [
     {
       "monsterId": 302,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-11T10:04:34.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1794391125,
-      "despawnTimestamp": 1794391125,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-11T09:58:45.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,15 +19,23 @@
       "pokemon": "Zubat",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 2028,
+      "secondsAgo": 2352,
       "sourceId": 1794388924
+    },
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 1050,
+      "sourceId": 1794390226
     },
     {
       "monsterId": 167,
       "pokemon": "Spinarak",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1582,
+      "secondsAgo": 1906,
       "sourceId": 1794389370
     }
   ],
