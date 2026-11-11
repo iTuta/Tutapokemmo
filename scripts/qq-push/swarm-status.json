@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-11T18:50:49.544Z",
+  "fetchedAt": "2026-11-11T18:55:39.798Z",
   "swarms": [
-    {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794423228,
-      "despawnTimestamp": 1794423228,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-11T18:53:48.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
@@ -24,33 +13,41 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Sinnoh",
+      "monsterId": 96,
+      "pokemon": "Drowzee",
+      "region": "Hoenn",
       "location": "",
-      "sourceId": 1794423226,
-      "despawnTimestamp": 1794423225,
+      "sourceId": 1794424089,
+      "despawnTimestamp": 1794424089,
       "hasValuable": false,
-      "timestampUtc": "2026-11-11T18:53:46.000Z",
+      "timestampUtc": "2026-11-11T19:08:09.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 302,
-      "pokemon": "Sableye",
-      "region": "Hoenn",
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Kanto",
       "location": "",
-      "secondsAgo": 2182,
-      "sourceId": 1794420867
+      "secondsAgo": 1010,
+      "sourceId": 1794422329
+    },
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 1013,
+      "sourceId": 1794422326
     },
     {
       "monsterId": 104,
       "pokemon": "Cubone",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1067,
-      "sourceId": 1794421982
+      "secondsAgo": 1358,
+      "sourceId": 1794421981
     }
   ],
   "alpha": {
