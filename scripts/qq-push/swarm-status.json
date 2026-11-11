@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-11T01:56:12.506Z",
+  "fetchedAt": "2026-11-11T02:01:03.476Z",
   "swarms": [
     {
       "monsterId": 200,
@@ -24,6 +24,17 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 425,
+      "pokemon": "Drifloon",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1794363310,
+      "despawnTimestamp": 1794363310,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-11T02:15:10.000Z",
+      "publishedBy": ""
+    },
+    {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Sinnoh",
@@ -33,27 +44,16 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-11T02:02:30.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 355,
       "pokemon": "Duskull",
       "region": "Unova",
       "location": "",
-      "sourceId": 1794362297,
-      "despawnTimestamp": 1794362296,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-11T01:58:17.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 92,
-      "pokemon": "Gastly",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 2439,
-      "sourceId": 1794359733
+      "secondsAgo": 1066,
+      "sourceId": 1794361397
     }
   ],
   "alpha": {
