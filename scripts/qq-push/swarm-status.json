@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-11T05:25:38.066Z",
+  "fetchedAt": "2026-11-11T05:30:56.644Z",
   "swarms": [
+    {
+      "monsterId": 23,
+      "pokemon": "Ekans",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1794375746,
+      "despawnTimestamp": 1794375746,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-11T05:42:26.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 207,
       "pokemon": "Gligar",
@@ -15,36 +26,28 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 207,
-      "pokemon": "gligar",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 2431,
-      "sourceId": 1794372307
-    },
-    {
       "monsterId": 104,
       "pokemon": "Cubone",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 923,
-      "sourceId": 1794373815
+      "secondsAgo": 1242,
+      "sourceId": 1794373814
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1369,
-      "sourceId": 1794373369
+      "secondsAgo": 1688,
+      "sourceId": 1794373368
     },
     {
       "monsterId": 355,
       "pokemon": "Duskull",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1370,
-      "sourceId": 1794373368
+      "secondsAgo": 1689,
+      "sourceId": 1794373367
     }
   ],
   "alpha": {
