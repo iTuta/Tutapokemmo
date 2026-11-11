@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-11T03:40:57.598Z",
+  "fetchedAt": "2026-11-11T03:45:52.510Z",
   "swarms": [
-    {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794368669,
-      "despawnTimestamp": 1794368669,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-11T03:44:29.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 982,
+      "sourceId": 1794367770
+    },
+    {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1298,
+      "secondsAgo": 1593,
       "sourceId": 1794367159
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "Murkrow",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 6806,
+      "secondsAgo": 7101,
       "sourceId": 1794361651
     }
   ],
