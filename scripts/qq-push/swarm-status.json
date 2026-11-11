@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-11T02:31:06.363Z",
+  "fetchedAt": "2026-11-11T02:35:47.474Z",
   "swarms": [
-    {
-      "monsterId": 261,
-      "pokemon": "Poochyena",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794364339,
-      "despawnTimestamp": 1794364339,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-11T02:32:19.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 23,
       "pokemon": "Ekans",
@@ -46,7 +35,16 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [],
+  "lastSeen": [
+    {
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1107,
+      "sourceId": 1794363440
+    }
+  ],
   "alpha": {
     "monsterId": 164,
     "pokemon": "Noctowl",
