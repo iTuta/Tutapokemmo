@@ -1,44 +1,37 @@
 {
-  "fetchedAt": "2026-11-11T02:40:48.180Z",
-  "swarms": [
-    {
-      "monsterId": 23,
-      "pokemon": "Ekans",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1794364960,
-      "despawnTimestamp": 1794364960,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-11T02:42:40.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1794365145,
-      "despawnTimestamp": 1794365145,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-11T02:45:45.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-11-11T02:45:49.009Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 261,
       "pokemon": "Poochyena",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1408,
-      "sourceId": 1794363440
+      "secondsAgo": 1709,
+      "sourceId": 1794363439
+    },
+    {
+      "monsterId": 23,
+      "pokemon": "Ekans",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 1087,
+      "sourceId": 1794364061
+    },
+    {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 902,
+      "sourceId": 1794364246
     },
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1095,
+      "secondsAgo": 1395,
       "sourceId": 1794363753
     }
   ],
