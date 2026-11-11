@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-11T01:17:27.939Z",
+  "fetchedAt": "2026-11-11T01:21:01.933Z",
   "swarms": [
     {
       "monsterId": 96,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1794360433,
       "hasValuable": false,
       "timestampUtc": "2026-11-11T01:27:13.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 207,
-      "pokemon": "Gligar",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1794360026,
-      "despawnTimestamp": 1794360025,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-11T01:20:26.000Z",
       "publishedBy": ""
     },
     {
@@ -48,11 +37,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 207,
+      "pokemon": "Gligar",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 935,
+      "sourceId": 1794359126
+    },
+    {
       "monsterId": 197,
       "pokemon": "Umbreon",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1502,
+      "secondsAgo": 1716,
       "sourceId": 1794358345
     }
   ],
