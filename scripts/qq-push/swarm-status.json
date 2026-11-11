@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-11T09:20:57.564Z",
+  "fetchedAt": "2026-11-11T09:25:52.490Z",
   "swarms": [
+    {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1794389824,
+      "despawnTimestamp": 1794389823,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-11T09:37:04.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
@@ -11,35 +22,24 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-11T09:30:55.000Z",
       "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 207,
+      "pokemon": "Gligar",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 1490,
+      "sourceId": 1794387662
     },
     {
       "monsterId": 302,
       "pokemon": "Sableye",
       "region": "Unova",
       "location": "",
-      "sourceId": 1794388979,
-      "despawnTimestamp": 1794388978,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-11T09:22:59.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 2097,
-      "sourceId": 1794386760
-    },
-    {
-      "monsterId": 207,
-      "pokemon": "Gligar",
-      "region": "Sinnoh",
-      "location": "",
-      "secondsAgo": 1195,
-      "sourceId": 1794387662
+      "secondsAgo": 1073,
+      "sourceId": 1794388079
     }
   ],
   "alpha": {
