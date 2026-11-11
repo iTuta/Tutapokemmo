@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-11-11T06:51:12.809Z",
+  "fetchedAt": "2026-11-11T06:55:43.116Z",
   "swarms": [
-    {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1794380027,
-      "despawnTimestamp": 1794380026,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-11T06:53:47.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 207,
       "pokemon": "Gligar",
       "region": "Unova",
       "location": "",
       "sourceId": 1794380717,
-      "despawnTimestamp": 1794380716,
+      "despawnTimestamp": 1794380717,
       "hasValuable": false,
       "timestampUtc": "2026-11-11T07:05:17.000Z",
       "publishedBy": ""
@@ -30,23 +19,31 @@
       "pokemon": "Houndour",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1169,
-      "sourceId": 1794378703
+      "secondsAgo": 1439,
+      "sourceId": 1794378704
     },
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1580,
+      "secondsAgo": 1851,
       "sourceId": 1794378292
+    },
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 1015,
+      "sourceId": 1794379128
     },
     {
       "monsterId": 355,
       "pokemon": "Duskull",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 2187,
+      "secondsAgo": 2458,
       "sourceId": 1794377685
     }
   ],
