@@ -1,50 +1,59 @@
 {
-  "fetchedAt": "2026-11-11T01:10:44.179Z",
+  "fetchedAt": "2026-11-11T01:17:27.939Z",
   "swarms": [
+    {
+      "monsterId": 96,
+      "pokemon": "Drowzee",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1794360433,
+      "despawnTimestamp": 1794360433,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-11T01:27:13.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 207,
       "pokemon": "Gligar",
       "region": "Johto",
       "location": "",
       "sourceId": 1794360026,
-      "despawnTimestamp": 1794360026,
+      "despawnTimestamp": 1794360025,
       "hasValuable": false,
       "timestampUtc": "2026-11-11T01:20:26.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 92,
+      "pokemon": "Gastly",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1794360633,
+      "despawnTimestamp": 1794360632,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-11T01:30:33.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 207,
+      "pokemon": "Gligar",
+      "region": "Unova",
+      "location": "",
+      "sourceId": 1794360505,
+      "despawnTimestamp": 1794360504,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-11T01:28:25.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 167,
-      "pokemon": "Spinarak",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 1755,
-      "sourceId": 1794357689
-    },
-    {
-      "monsterId": 261,
-      "pokemon": "Poochyena",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 1028,
-      "sourceId": 1794358416
-    },
-    {
       "monsterId": 197,
       "pokemon": "Umbreon",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1098,
-      "sourceId": 1794358346
-    },
-    {
-      "monsterId": 104,
-      "pokemon": "Cubone",
-      "region": "Unova",
-      "location": "",
-      "secondsAgo": 2058,
-      "sourceId": 1794357386
+      "secondsAgo": 1502,
+      "sourceId": 1794358345
     }
   ],
   "alpha": {
