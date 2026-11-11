@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-11T04:16:52.410Z",
+  "fetchedAt": "2026-11-11T04:20:45.785Z",
   "swarms": [
     {
       "monsterId": 41,
@@ -7,20 +7,9 @@
       "region": "Kanto",
       "location": "",
       "sourceId": 1794371347,
-      "despawnTimestamp": 1794371347,
+      "despawnTimestamp": 1794371346,
       "hasValuable": false,
       "timestampUtc": "2026-11-11T04:29:07.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 207,
-      "pokemon": "Gligar",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1794370715,
-      "despawnTimestamp": 1794370715,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-11T04:18:35.000Z",
       "publishedBy": ""
     },
     {
@@ -41,15 +30,23 @@
       "pokemon": "Cubone",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1504,
+      "secondsAgo": 1737,
       "sourceId": 1794369108
+    },
+    {
+      "monsterId": 207,
+      "pokemon": "Gligar",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 1030,
+      "sourceId": 1794369815
     },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1081,
+      "secondsAgo": 1314,
       "sourceId": 1794369531
     }
   ],
