@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-11T13:40:48.268Z",
+  "fetchedAt": "2026-11-11T13:45:43.464Z",
   "swarms": [
     {
       "monsterId": 355,
@@ -11,34 +11,15 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-11T13:48:36.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1794404491,
-      "despawnTimestamp": 1794404491,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-11T13:41:31.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 207,
-      "pokemon": "Gligar",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 1179,
-      "sourceId": 1794403269
-    },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1754,
+      "secondsAgo": 2049,
       "sourceId": 1794402694
     },
     {
@@ -46,20 +27,28 @@
       "pokemon": "Ekans",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1430,
+      "secondsAgo": 1725,
       "sourceId": 1794403018
+    },
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 1151,
+      "sourceId": 1794403592
     }
   ],
   "alpha": {
-    "monsterId": 306,
-    "pokemon": "Aggron",
-    "region": "Hoenn",
-    "location": "Victory Road",
-    "sourceId": 1794374825,
-    "despawnTimestamp": 1794391925,
+    "monsterId": 131,
+    "pokemon": "Lapras",
+    "region": "Kanto",
+    "location": "Four Island",
+    "sourceId": 1794391974,
+    "despawnTimestamp": 1794409074,
     "hasValuable": false,
-    "timestampUtc": "2026-11-11T05:27:05.000Z",
-    "timestampRaw": "2026-11-11T05:27:05.000Z",
-    "publishedBy": "godrecall"
+    "timestampUtc": "2026-11-11T10:12:54.000Z",
+    "timestampRaw": "2026-11-11T10:12:54.000Z",
+    "publishedBy": ""
   }
 }
