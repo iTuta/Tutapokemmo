@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-11T02:26:06.486Z",
+  "fetchedAt": "2026-11-11T02:31:06.363Z",
   "swarms": [
     {
       "monsterId": 261,
@@ -10,6 +10,28 @@
       "despawnTimestamp": 1794364339,
       "hasValuable": false,
       "timestampUtc": "2026-11-11T02:32:19.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 23,
+      "pokemon": "Ekans",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1794364960,
+      "despawnTimestamp": 1794364960,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-11T02:42:40.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1794365145,
+      "despawnTimestamp": 1794365145,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-11T02:45:45.000Z",
       "publishedBy": ""
     },
     {
@@ -24,24 +46,7 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [
-    {
-      "monsterId": 207,
-      "pokemon": "Gligar",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 2160,
-      "sourceId": 1794361806
-    },
-    {
-      "monsterId": 425,
-      "pokemon": "Drifloon",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 1555,
-      "sourceId": 1794362411
-    }
-  ],
+  "lastSeen": [],
   "alpha": {
     "monsterId": 164,
     "pokemon": "Noctowl",
