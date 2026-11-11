@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-11T12:35:42.005Z",
+  "fetchedAt": "2026-11-11T12:40:42.572Z",
   "swarms": [
-    {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794400721,
-      "despawnTimestamp": 1794400721,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-11T12:38:41.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 92,
       "pokemon": "Gastly",
@@ -22,35 +11,40 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-11T12:44:41.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 451,
-      "pokemon": "Skorupi",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1794400809,
-      "despawnTimestamp": 1794400808,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-11T12:40:09.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1020,
+      "sourceId": 1794399822
+    },
     {
       "monsterId": 92,
       "pokemon": "Gastly",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1374,
-      "sourceId": 1794399167
+      "secondsAgo": 1674,
+      "sourceId": 1794399168
     },
     {
       "monsterId": 197,
       "pokemon": "Umbreon",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1430,
+      "secondsAgo": 1731,
       "sourceId": 1794399111
+    },
+    {
+      "monsterId": 451,
+      "pokemon": "Skorupi",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 813,
+      "sourceId": 1794400029
     }
   ],
   "alpha": {
