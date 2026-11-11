@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-11T13:35:37.762Z",
+  "fetchedAt": "2026-11-11T13:40:48.268Z",
   "swarms": [
-    {
-      "monsterId": 207,
-      "pokemon": "Gligar",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794404168,
-      "despawnTimestamp": 1794404167,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-11T13:36:08.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 355,
       "pokemon": "Duskull",
@@ -37,19 +26,27 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 207,
+      "pokemon": "Gligar",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1179,
+      "sourceId": 1794403269
+    },
+    {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1444,
-      "sourceId": 1794402693
+      "secondsAgo": 1754,
+      "sourceId": 1794402694
     },
     {
       "monsterId": 23,
       "pokemon": "Ekans",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1119,
+      "secondsAgo": 1430,
       "sourceId": 1794403018
     }
   ],
