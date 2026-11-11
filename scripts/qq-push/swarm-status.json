@@ -1,42 +1,56 @@
 {
-  "fetchedAt": "2026-11-11T13:45:43.464Z",
+  "fetchedAt": "2026-11-11T16:55:26.936Z",
   "swarms": [
     {
       "monsterId": 355,
       "pokemon": "Duskull",
-      "region": "Hoenn",
+      "region": "Kanto",
       "location": "",
-      "sourceId": 1794404916,
-      "despawnTimestamp": 1794404916,
+      "sourceId": 1794416161,
+      "despawnTimestamp": 1794416160,
       "hasValuable": false,
-      "timestampUtc": "2026-11-11T13:48:36.000Z",
+      "timestampUtc": "2026-11-11T16:56:01.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 23,
+      "pokemon": "Ekans",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1794416828,
+      "despawnTimestamp": 1794416827,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-11T17:07:08.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 353,
+      "pokemon": "Shuppet",
+      "region": "Sinnoh",
+      "location": "",
+      "sourceId": 1794416153,
+      "despawnTimestamp": 1794416152,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-11T16:55:53.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Johto",
+      "monsterId": 167,
+      "pokemon": "Spinarak",
+      "region": "Hoenn",
       "location": "",
-      "secondsAgo": 2049,
-      "sourceId": 1794402694
+      "secondsAgo": 1238,
+      "sourceId": 1794414888
     },
     {
-      "monsterId": 23,
-      "pokemon": "Ekans",
-      "region": "Sinnoh",
-      "location": "",
-      "secondsAgo": 1725,
-      "sourceId": 1794403018
-    },
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1151,
-      "sourceId": 1794403592
+      "secondsAgo": 957,
+      "sourceId": 1794415169
     }
   ],
   "alpha": {
@@ -49,6 +63,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-11-11T10:12:54.000Z",
     "timestampRaw": "2026-11-11T10:12:54.000Z",
-    "publishedBy": ""
+    "publishedBy": "Galaxy"
   }
 }
