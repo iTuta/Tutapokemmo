@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-12T02:35:47.848Z",
+  "fetchedAt": "2026-11-12T02:40:46.461Z",
   "swarms": [
-    {
-      "monsterId": 207,
-      "pokemon": "Gligar",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1794451216,
-      "despawnTimestamp": 1794451215,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-12T02:40:16.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 425,
       "pokemon": "Drifloon",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 207,
+      "pokemon": "Gligar",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 929,
+      "sourceId": 1794450317
+    },
+    {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1483,
+      "secondsAgo": 1782,
       "sourceId": 1794449464
     },
     {
@@ -38,8 +35,8 @@
       "pokemon": "Poochyena",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1027,
-      "sourceId": 1794449920
+      "secondsAgo": 1325,
+      "sourceId": 1794449921
     }
   ],
   "alpha": {
