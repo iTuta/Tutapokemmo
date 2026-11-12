@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-12T06:46:00.665Z",
+  "fetchedAt": "2026-11-12T06:51:01.619Z",
   "swarms": [
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794466161,
-      "despawnTimestamp": 1794466161,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-12T06:49:21.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 228,
       "pokemon": "Houndour",
@@ -48,11 +37,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 999,
+      "sourceId": 1794465262
+    },
+    {
       "monsterId": 355,
       "pokemon": "Duskull",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1372,
+      "secondsAgo": 1673,
       "sourceId": 1794464588
     }
   ],
