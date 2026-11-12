@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-12T06:30:56.505Z",
+  "fetchedAt": "2026-11-12T06:35:40.804Z",
   "swarms": [
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1794466161,
+      "despawnTimestamp": 1794466160,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-12T06:49:21.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 355,
       "pokemon": "Duskull",
       "region": "Johto",
       "location": "",
       "sourceId": 1794465487,
-      "despawnTimestamp": 1794465487,
+      "despawnTimestamp": 1794465486,
       "hasValuable": false,
       "timestampUtc": "2026-11-12T06:38:07.000Z",
       "publishedBy": ""
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 302,
-      "pokemon": "Sableye",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 2543,
-      "sourceId": 1794462513
-    },
-    {
       "monsterId": 92,
       "pokemon": "Gastly",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1942,
+      "secondsAgo": 2226,
       "sourceId": 1794463114
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Sableye",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1159,
+      "secondsAgo": 1443,
       "sourceId": 1794463897
     },
     {
@@ -43,8 +46,8 @@
       "pokemon": "Cubone",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 2818,
-      "sourceId": 1794462238
+      "secondsAgo": 3103,
+      "sourceId": 1794462237
     }
   ],
   "alpha": {
