@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-12T14:45:50.300Z",
+  "fetchedAt": "2026-11-12T14:50:52.738Z",
   "swarms": [
-    {
-      "monsterId": 163,
-      "pokemon": "Hoothoot",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794494788,
-      "despawnTimestamp": 1794494788,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-12T14:46:28.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 355,
       "pokemon": "Duskull",
@@ -24,29 +13,35 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1794494953,
-      "despawnTimestamp": 1794494953,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-12T14:49:13.000Z",
-      "publishedBy": ""
-    },
-    {
       "monsterId": 355,
       "pokemon": "Duskull",
       "region": "Unova",
       "location": "",
       "sourceId": 1794495410,
-      "despawnTimestamp": 1794495410,
+      "despawnTimestamp": 1794495409,
       "hasValuable": false,
       "timestampUtc": "2026-11-12T14:56:50.000Z",
       "publishedBy": ""
     }
   ],
-  "lastSeen": [],
+  "lastSeen": [
+    {
+      "monsterId": 163,
+      "pokemon": "Hoothoot",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1164,
+      "sourceId": 1794493888
+    },
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 999,
+      "sourceId": 1794494053
+    }
+  ],
   "alpha": {
     "monsterId": 53,
     "pokemon": "Persian",
