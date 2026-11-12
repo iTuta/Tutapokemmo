@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-12T11:20:45.730Z",
+  "fetchedAt": "2026-11-12T11:25:39.727Z",
   "swarms": [
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794482727,
-      "despawnTimestamp": 1794482726,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-12T11:25:27.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 912,
+      "sourceId": 1794481827
+    },
+    {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 5204,
+      "secondsAgo": 5498,
       "sourceId": 1794477241
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Murkrow",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 976,
+      "secondsAgo": 1270,
       "sourceId": 1794481469
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Spinarak",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 2134,
+      "secondsAgo": 2428,
       "sourceId": 1794480311
     }
   ],
