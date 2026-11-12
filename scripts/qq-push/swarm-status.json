@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-12T12:50:48.857Z",
+  "fetchedAt": "2026-11-12T12:55:42.426Z",
   "swarms": [
+    {
+      "monsterId": 198,
+      "pokemon": "Murkrow",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1794488999,
+      "despawnTimestamp": 1794488999,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-12T13:09:59.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 163,
       "pokemon": "Hoothoot",
       "region": "Johto",
       "location": "",
       "sourceId": 1794488716,
-      "despawnTimestamp": 1794488715,
+      "despawnTimestamp": 1794488716,
       "hasValuable": false,
       "timestampUtc": "2026-11-12T13:05:16.000Z",
       "publishedBy": ""
@@ -37,19 +48,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 261,
-      "pokemon": "Poochyena",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 2252,
-      "sourceId": 1794485596
-    },
-    {
       "monsterId": 41,
       "pokemon": "Zubat",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1021,
+      "secondsAgo": 1315,
       "sourceId": 1794486827
     }
   ],
