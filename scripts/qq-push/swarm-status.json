@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-12T20:01:05.889Z",
+  "fetchedAt": "2026-11-12T20:05:48.965Z",
   "swarms": [
-    {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1794513775,
-      "despawnTimestamp": 1794513774,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-12T20:02:55.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 1073,
+      "sourceId": 1794512875
+    },
+    {
       "monsterId": 96,
       "pokemon": "drowzee",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1416,
+      "secondsAgo": 1699,
       "sourceId": 1794512249
     }
   ],
