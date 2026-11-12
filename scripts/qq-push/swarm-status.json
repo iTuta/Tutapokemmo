@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-12T21:06:16.198Z",
+  "fetchedAt": "2026-11-12T21:10:47.993Z",
   "swarms": [
-    {
-      "monsterId": 425,
-      "pokemon": "Drifloon",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1794517788,
-      "despawnTimestamp": 1794517788,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-12T21:09:48.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 167,
       "pokemon": "Spinarak",
@@ -22,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-12T21:18:03.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 167,
-      "pokemon": "Spinarak",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1794517690,
-      "despawnTimestamp": 1794517690,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-12T21:08:10.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,16 +19,32 @@
       "pokemon": "Spinarak",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 6929,
-      "sourceId": 1794510647
+      "secondsAgo": 7201,
+      "sourceId": 1794510646
+    },
+    {
+      "monsterId": 425,
+      "pokemon": "Drifloon",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 959,
+      "sourceId": 1794516888
     },
     {
       "monsterId": 302,
       "pokemon": "Sableye",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1127,
-      "sourceId": 1794516449
+      "secondsAgo": 1399,
+      "sourceId": 1794516448
+    },
+    {
+      "monsterId": 167,
+      "pokemon": "Spinarak",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 1056,
+      "sourceId": 1794516791
     }
   ],
   "alpha": {
