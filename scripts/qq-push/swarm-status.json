@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-12T20:55:43.327Z",
+  "fetchedAt": "2026-11-12T21:01:03.822Z",
   "swarms": [
     {
       "monsterId": 425,
@@ -37,12 +37,20 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 167,
+      "pokemon": "Spinarak",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 6617,
+      "sourceId": 1794510646
+    },
+    {
       "monsterId": 92,
       "pokemon": "Gastly",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1358,
-      "sourceId": 1794515585
+      "secondsAgo": 1679,
+      "sourceId": 1794515584
     }
   ],
   "alpha": {
@@ -55,6 +63,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-11-12T16:13:52.000Z",
     "timestampRaw": "2026-11-12T16:13:52.000Z",
-    "publishedBy": ""
+    "publishedBy": "slayerr"
   }
 }
