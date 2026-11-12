@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-12T00:05:56.974Z",
+  "fetchedAt": "2026-11-12T00:10:53.661Z",
   "swarms": [
     {
       "monsterId": 198,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-12T00:10:59.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 92,
-      "pokemon": "Gastly",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1794442153,
-      "despawnTimestamp": 1794442152,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-12T00:09:13.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Gligar",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1204,
+      "secondsAgo": 1501,
       "sourceId": 1794440752
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Drowzee",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 2280,
+      "secondsAgo": 2577,
       "sourceId": 1794439676
+    },
+    {
+      "monsterId": 92,
+      "pokemon": "Gastly",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 1000,
+      "sourceId": 1794441253
     },
     {
       "monsterId": 197,
       "pokemon": "umbreon",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 2240,
+      "secondsAgo": 2537,
       "sourceId": 1794439716
     }
   ],
