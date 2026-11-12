@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-12T13:30:56.694Z",
+  "fetchedAt": "2026-11-12T13:35:45.585Z",
   "swarms": [
     {
       "monsterId": 570,
@@ -24,6 +24,17 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 228,
+      "pokemon": "Houndour",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1794491439,
+      "despawnTimestamp": 1794491438,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-12T13:50:39.000Z",
+      "publishedBy": ""
+    },
+    {
       "monsterId": 23,
       "pokemon": "Ekans",
       "region": "Sinnoh",
@@ -37,19 +48,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 104,
-      "pokemon": "Cubone",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 1351,
-      "sourceId": 1794488905
-    },
-    {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 904,
+      "secondsAgo": 1193,
       "sourceId": 1794489352
     }
   ],
