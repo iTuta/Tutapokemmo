@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-12T20:20:52.730Z",
+  "fetchedAt": "2026-11-12T20:25:48.004Z",
   "swarms": [
-    {
-      "monsterId": 92,
-      "pokemon": "Gastly",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1794515098,
-      "despawnTimestamp": 1794515097,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-12T20:24:58.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 104,
       "pokemon": "Cubone",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 92,
+      "pokemon": "Gastly",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 949,
+      "sourceId": 1794514198
+    },
+    {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1519,
+      "secondsAgo": 1814,
       "sourceId": 1794513333
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Houndour",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1705,
+      "secondsAgo": 2000,
       "sourceId": 1794513147
     }
   ],
