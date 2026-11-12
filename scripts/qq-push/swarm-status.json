@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-12T14:36:13.133Z",
+  "fetchedAt": "2026-11-12T14:40:53.253Z",
   "swarms": [
     {
       "monsterId": 163,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1794494788,
       "hasValuable": false,
       "timestampUtc": "2026-11-12T14:46:28.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 355,
+      "pokemon": "Duskull",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1794495226,
+      "despawnTimestamp": 1794495226,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-12T14:53:46.000Z",
       "publishedBy": ""
     },
     {
@@ -26,40 +37,24 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 104,
-      "pokemon": "Cubone",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 2016,
-      "sourceId": 1794492157
-    },
-    {
-      "monsterId": 302,
-      "pokemon": "Sableye",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 1753,
-      "sourceId": 1794492420
-    },
-    {
       "monsterId": 353,
       "pokemon": "shuppet",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1079,
+      "secondsAgo": 1359,
       "sourceId": 1794493094
     }
   ],
   "alpha": {
-    "monsterId": 198,
-    "pokemon": "Murkrow",
+    "monsterId": 53,
+    "pokemon": "Persian",
     "region": "Johto",
-    "location": "Route 42",
-    "sourceId": 1794464841,
-    "despawnTimestamp": 1794481941,
+    "location": "Route 38",
+    "sourceId": 1794481710,
+    "despawnTimestamp": 1794498810,
     "hasValuable": false,
-    "timestampUtc": "2026-11-12T06:27:21.000Z",
-    "timestampRaw": "2026-11-12T06:27:21.000Z",
-    "publishedBy": "KiriyaOkazaki"
+    "timestampUtc": "2026-11-12T11:08:30.000Z",
+    "timestampRaw": "2026-11-12T11:08:30.000Z",
+    "publishedBy": ""
   }
 }
