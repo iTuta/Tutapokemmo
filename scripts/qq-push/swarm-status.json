@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-12T16:25:43.167Z",
+  "fetchedAt": "2026-11-12T16:31:20.232Z",
   "swarms": [
     {
       "monsterId": 200,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1794501554,
       "hasValuable": false,
       "timestampUtc": "2026-11-12T16:39:14.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 197,
-      "pokemon": "Umbreon",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1794501074,
-      "despawnTimestamp": 1794501074,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-12T16:31:14.000Z",
       "publishedBy": ""
     },
     {
@@ -41,16 +30,24 @@
       "pokemon": "Zorua",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 2314,
+      "secondsAgo": 2651,
       "sourceId": 1794498429
+    },
+    {
+      "monsterId": 197,
+      "pokemon": "Umbreon",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 905,
+      "sourceId": 1794500175
     },
     {
       "monsterId": 197,
       "pokemon": "Umbreon",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 998,
-      "sourceId": 1794499745
+      "secondsAgo": 1336,
+      "sourceId": 1794499744
     }
   ],
   "alpha": {
