@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-12T10:45:54.025Z",
+  "fetchedAt": "2026-11-12T10:51:02.261Z",
   "swarms": [
-    {
-      "monsterId": 198,
-      "pokemon": "murkrow",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1794480370,
-      "despawnTimestamp": 1794480370,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-12T10:46:10.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 261,
       "pokemon": "Poochyena",
@@ -29,7 +18,7 @@
       "region": "Unova",
       "location": "",
       "sourceId": 1794481210,
-      "despawnTimestamp": 1794481211,
+      "despawnTimestamp": 1794481210,
       "hasValuable": false,
       "timestampUtc": "2026-11-12T11:00:10.000Z",
       "publishedBy": ""
@@ -41,8 +30,16 @@
       "pokemon": "murkrow",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 966,
+      "secondsAgo": 1274,
       "sourceId": 1794479388
+    },
+    {
+      "monsterId": 198,
+      "pokemon": "murkrow",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 1191,
+      "sourceId": 1794479471
     }
   ],
   "alpha": {
