@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-11-12T10:25:49.740Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-12T10:31:09.702Z",
+  "swarms": [
     {
-      "monsterId": 570,
-      "pokemon": "Zorua",
+      "monsterId": 198,
+      "pokemon": "murkrow",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1018,
-      "sourceId": 1794478131
-    },
+      "sourceId": 1794480287,
+      "despawnTimestamp": 1794480286,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-12T10:44:47.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 353,
       "pokemon": "Shuppet",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 2133,
+      "secondsAgo": 2453,
       "sourceId": 1794477016
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Gastly",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1018,
+      "secondsAgo": 1338,
       "sourceId": 1794478131
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Misdreavus",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 908,
+      "secondsAgo": 1228,
       "sourceId": 1794478241
     }
   ],
