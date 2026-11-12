@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-12T02:50:50.635Z",
+  "fetchedAt": "2026-11-12T02:56:02.732Z",
   "swarms": [
     {
       "monsterId": 302,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1794452227,
       "hasValuable": false,
       "timestampUtc": "2026-11-12T02:57:07.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1794452862,
+      "despawnTimestamp": 1794452862,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-12T03:07:42.000Z",
       "publishedBy": ""
     },
     {
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 2386,
-      "sourceId": 1794449464
-    },
-    {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 956,
+      "secondsAgo": 1268,
       "sourceId": 1794450894
     }
   ],
