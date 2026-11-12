@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-12T14:10:46.381Z",
+  "fetchedAt": "2026-11-12T14:16:01.354Z",
   "swarms": [
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1794493639,
+      "despawnTimestamp": 1794493639,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-12T14:27:19.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 104,
       "pokemon": "Cubone",
@@ -33,27 +44,16 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-12T14:17:08.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 353,
       "pokemon": "Shuppet",
       "region": "Unova",
       "location": "",
-      "sourceId": 1794492874,
-      "despawnTimestamp": 1794492874,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-12T14:14:34.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 2392,
-      "sourceId": 1794490254
+      "secondsAgo": 386,
+      "sourceId": 1794492575
     }
   ],
   "alpha": {
