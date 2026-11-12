@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-12T19:45:49.561Z",
+  "fetchedAt": "2026-11-12T19:50:50.120Z",
   "swarms": [
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1794513775,
+      "despawnTimestamp": 1794513775,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-12T20:02:55.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 96,
       "pokemon": "drowzee",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 353,
-      "pokemon": "Shuppet",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 2265,
-      "sourceId": 1794510484
-    },
-    {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1332,
+      "secondsAgo": 1633,
       "sourceId": 1794511417
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Houndour",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1436,
+      "secondsAgo": 1737,
       "sourceId": 1794511313
     }
   ],
