@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-12T08:55:51.112Z",
+  "fetchedAt": "2026-11-12T09:01:01.495Z",
   "swarms": [
-    {
-      "monsterId": 355,
-      "pokemon": "Duskull",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794474053,
-      "despawnTimestamp": 1794474054,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-12T09:00:53.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
@@ -29,7 +18,7 @@
       "region": "Hoenn",
       "location": "",
       "sourceId": 1794474460,
-      "despawnTimestamp": 1794474460,
+      "despawnTimestamp": 1794474459,
       "hasValuable": false,
       "timestampUtc": "2026-11-12T09:07:40.000Z",
       "publishedBy": ""
@@ -40,7 +29,7 @@
       "region": "Sinnoh",
       "location": "",
       "sourceId": 1794474355,
-      "despawnTimestamp": 1794474355,
+      "despawnTimestamp": 1794474354,
       "hasValuable": false,
       "timestampUtc": "2026-11-12T09:05:55.000Z",
       "publishedBy": ""
@@ -57,7 +46,16 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [],
+  "lastSeen": [
+    {
+      "monsterId": 355,
+      "pokemon": "Duskull",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 907,
+      "sourceId": 1794473154
+    }
+  ],
   "alpha": {
     "monsterId": 134,
     "pokemon": "Vaporeon",
