@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-12T02:20:50.563Z",
+  "fetchedAt": "2026-11-12T02:25:47.585Z",
   "swarms": [
+    {
+      "monsterId": 207,
+      "pokemon": "Gligar",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1794451216,
+      "despawnTimestamp": 1794451216,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-12T02:40:16.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
@@ -26,40 +37,24 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 1620,
-      "sourceId": 1794448430
-    },
-    {
-      "monsterId": 167,
-      "pokemon": "Spinarak",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 1544,
-      "sourceId": 1794448506
-    },
-    {
       "monsterId": 92,
       "pokemon": "Gastly",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1313,
-      "sourceId": 1794448737
+      "secondsAgo": 1611,
+      "sourceId": 1794448736
     }
   ],
   "alpha": {
-    "monsterId": 342,
-    "pokemon": "Crawdaunt",
-    "region": "Hoenn",
-    "location": "Abandoned Ship",
-    "sourceId": 1794418588,
-    "despawnTimestamp": 1794435688,
+    "monsterId": 134,
+    "pokemon": "Vaporeon",
+    "region": "Kanto",
+    "location": "Two Island",
+    "sourceId": 1794437578,
+    "despawnTimestamp": 1794454678,
     "hasValuable": false,
-    "timestampUtc": "2026-11-11T17:36:28.000Z",
-    "timestampRaw": "2026-11-11T17:36:28.000Z",
+    "timestampUtc": "2026-11-11T22:52:58.000Z",
+    "timestampRaw": "2026-11-11T22:52:58.000Z",
     "publishedBy": ""
   }
 }
