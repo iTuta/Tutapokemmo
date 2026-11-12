@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-12T07:35:46.453Z",
+  "fetchedAt": "2026-11-12T07:40:47.177Z",
   "swarms": [
     {
       "monsterId": 41,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-12T07:42:52.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 23,
-      "pokemon": "Ekans",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1794468967,
-      "despawnTimestamp": 1794468967,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-12T07:36:07.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,7 +30,7 @@
       "pokemon": "Drowzee",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1415,
+      "secondsAgo": 1716,
       "sourceId": 1794467531
     },
     {
@@ -49,8 +38,16 @@
       "pokemon": "Umbreon",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1866,
+      "secondsAgo": 2167,
       "sourceId": 1794467080
+    },
+    {
+      "monsterId": 23,
+      "pokemon": "Ekans",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 1179,
+      "sourceId": 1794468068
     }
   ],
   "alpha": {
