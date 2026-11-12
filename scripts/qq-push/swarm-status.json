@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-12T17:55:52.743Z",
+  "fetchedAt": "2026-11-12T18:01:06.568Z",
   "swarms": [
-    {
-      "monsterId": 261,
-      "pokemon": "Poochyena",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794506397,
-      "despawnTimestamp": 1794506396,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-12T17:59:57.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 167,
       "pokemon": "Spinarak",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 969,
+      "sourceId": 1794505497
+    },
+    {
       "monsterId": 96,
       "pokemon": "Drowzee",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1203,
+      "secondsAgo": 1517,
       "sourceId": 1794504949
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Drifloon",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1219,
+      "secondsAgo": 1533,
       "sourceId": 1794504933
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Gligar",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 2020,
+      "secondsAgo": 2334,
       "sourceId": 1794504132
     }
   ],
