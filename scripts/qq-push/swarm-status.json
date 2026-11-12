@@ -1,53 +1,50 @@
 {
-  "fetchedAt": "2026-11-12T13:45:49.492Z",
+  "fetchedAt": "2026-11-12T13:50:45.111Z",
   "swarms": [
+    {
+      "monsterId": 353,
+      "pokemon": "Shuppet",
+      "region": "Unova",
+      "location": "",
+      "sourceId": 1794492127,
+      "despawnTimestamp": 1794492127,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-12T14:02:07.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Kanto",
       "location": "",
-      "sourceId": 1794491154,
-      "despawnTimestamp": 1794491153,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-12T13:45:54.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1190,
+      "sourceId": 1794490255
+    },
+    {
+      "monsterId": 425,
+      "pokemon": "Drifloon",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 1478,
+      "sourceId": 1794489967
     },
     {
       "monsterId": 228,
       "pokemon": "Houndour",
       "region": "Hoenn",
       "location": "",
-      "sourceId": 1794491439,
-      "despawnTimestamp": 1794491438,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-12T13:50:39.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 425,
-      "pokemon": "Drifloon",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 1183,
-      "sourceId": 1794489966
+      "secondsAgo": 905,
+      "sourceId": 1794490540
     },
     {
       "monsterId": 23,
       "pokemon": "Ekans",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1467,
+      "secondsAgo": 1763,
       "sourceId": 1794489682
-    },
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Unova",
-      "location": "",
-      "secondsAgo": 1796,
-      "sourceId": 1794489353
     }
   ],
   "alpha": {
