@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-12T09:55:44.910Z",
+  "fetchedAt": "2026-11-12T10:01:12.679Z",
   "swarms": [
-    {
-      "monsterId": 451,
-      "pokemon": "Skorupi",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1794478140,
-      "despawnTimestamp": 1794478140,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-12T10:09:00.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 353,
       "pokemon": "Shuppet",
@@ -22,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-12T10:05:16.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1794477411,
-      "despawnTimestamp": 1794477411,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-12T09:56:51.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,28 +19,36 @@
       "pokemon": "Ekans",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1251,
-      "sourceId": 1794476093
+      "secondsAgo": 1578,
+      "sourceId": 1794476094
     },
     {
       "monsterId": 23,
       "pokemon": "Ekans",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 2330,
+      "secondsAgo": 2658,
       "sourceId": 1794475014
+    },
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 1160,
+      "sourceId": 1794476512
     }
   ],
   "alpha": {
-    "monsterId": 134,
-    "pokemon": "Vaporeon",
-    "region": "Kanto",
-    "location": "Two Island",
-    "sourceId": 1794437578,
-    "despawnTimestamp": 1794454678,
+    "monsterId": 198,
+    "pokemon": "Murkrow",
+    "region": "Johto",
+    "location": "Route 42",
+    "sourceId": 1794464841,
+    "despawnTimestamp": 1794481941,
     "hasValuable": false,
-    "timestampUtc": "2026-11-11T22:52:58.000Z",
-    "timestampRaw": "2026-11-11T22:52:58.000Z",
-    "publishedBy": "AtOhm"
+    "timestampUtc": "2026-11-12T06:27:21.000Z",
+    "timestampRaw": "2026-11-12T06:27:21.000Z",
+    "publishedBy": ""
   }
 }
