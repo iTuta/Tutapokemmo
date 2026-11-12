@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-12T10:40:57.893Z",
+  "fetchedAt": "2026-11-12T10:45:54.025Z",
   "swarms": [
-    {
-      "monsterId": 198,
-      "pokemon": "murkrow",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794480287,
-      "despawnTimestamp": 1794480286,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-12T10:44:47.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 198,
       "pokemon": "murkrow",
@@ -22,24 +11,38 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-12T10:46:10.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Sinnoh",
+      "location": "",
+      "sourceId": 1794480962,
+      "despawnTimestamp": 1794480962,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-12T10:56:02.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 167,
+      "pokemon": "Spinarak",
+      "region": "Unova",
+      "location": "",
+      "sourceId": 1794481210,
+      "despawnTimestamp": 1794481211,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-12T11:00:10.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 92,
-      "pokemon": "Gastly",
-      "region": "Sinnoh",
+      "monsterId": 198,
+      "pokemon": "murkrow",
+      "region": "Kanto",
       "location": "",
-      "secondsAgo": 1926,
-      "sourceId": 1794478131
-    },
-    {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Unova",
-      "location": "",
-      "secondsAgo": 1816,
-      "sourceId": 1794478241
+      "secondsAgo": 966,
+      "sourceId": 1794479388
     }
   ],
   "alpha": {
