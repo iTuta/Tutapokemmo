@@ -1,6 +1,28 @@
 {
-  "fetchedAt": "2026-11-12T11:35:47.472Z",
+  "fetchedAt": "2026-11-12T11:40:49.744Z",
   "swarms": [
+    {
+      "monsterId": 23,
+      "pokemon": "Ekans",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1794484513,
+      "despawnTimestamp": 1794484513,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-12T11:55:13.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 355,
+      "pokemon": "Duskull",
+      "region": "Sinnoh",
+      "location": "",
+      "sourceId": 1794484408,
+      "despawnTimestamp": 1794484408,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-12T11:53:28.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 261,
       "pokemon": "Poochyena",
@@ -15,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 1520,
-      "sourceId": 1794481827
-    },
-    {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 6106,
+      "secondsAgo": 6408,
       "sourceId": 1794477241
     },
     {
@@ -35,16 +49,8 @@
       "pokemon": "Murkrow",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1877,
-      "sourceId": 1794481470
-    },
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Sinnoh",
-      "location": "",
-      "secondsAgo": 1197,
-      "sourceId": 1794482150
+      "secondsAgo": 2180,
+      "sourceId": 1794481469
     }
   ],
   "alpha": {
