@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-12T11:10:48.054Z",
+  "fetchedAt": "2026-11-12T11:15:48.563Z",
   "swarms": [
     {
       "monsterId": 336,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "",
       "sourceId": 1794482727,
-      "despawnTimestamp": 1794482727,
+      "despawnTimestamp": 1794482726,
       "hasValuable": false,
       "timestampUtc": "2026-11-12T11:25:27.000Z",
       "publishedBy": ""
@@ -15,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 451,
+      "pokemon": "Skorupi",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 4907,
+      "sourceId": 1794477241
+    },
+    {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 378,
+      "secondsAgo": 678,
       "sourceId": 1794481470
     },
     {
@@ -27,7 +35,7 @@
       "pokemon": "Poochyena",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1785,
+      "secondsAgo": 2085,
       "sourceId": 1794480063
     },
     {
@@ -35,8 +43,8 @@
       "pokemon": "Spinarak",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1536,
-      "sourceId": 1794480312
+      "secondsAgo": 1837,
+      "sourceId": 1794480311
     }
   ],
   "alpha": {
@@ -49,6 +57,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-11-12T06:27:21.000Z",
     "timestampRaw": "2026-11-12T06:27:21.000Z",
-    "publishedBy": ""
+    "publishedBy": "KiriyaOkazaki"
   }
 }
