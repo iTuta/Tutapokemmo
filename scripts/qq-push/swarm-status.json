@@ -1,15 +1,15 @@
 {
-  "fetchedAt": "2026-11-13T16:40:48.554Z",
+  "fetchedAt": "2026-11-13T16:45:49.562Z",
   "swarms": [
     {
-      "monsterId": 228,
-      "pokemon": "Houndour",
-      "region": "Johto",
+      "monsterId": 23,
+      "pokemon": "Ekans",
+      "region": "Hoenn",
       "location": "",
-      "sourceId": 1794588200,
-      "despawnTimestamp": 1794588199,
+      "sourceId": 1794588780,
+      "despawnTimestamp": 1794588780,
       "hasValuable": false,
-      "timestampUtc": "2026-11-13T16:43:20.000Z",
+      "timestampUtc": "2026-11-13T16:53:00.000Z",
       "publishedBy": ""
     },
     {
@@ -22,6 +22,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-13T16:53:11.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 104,
+      "pokemon": "Cubone",
+      "region": "Unova",
+      "location": "",
+      "sourceId": 1794589052,
+      "despawnTimestamp": 1794589052,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-13T16:57:32.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,24 +41,16 @@
       "pokemon": "Zubat",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1335,
+      "secondsAgo": 1636,
       "sourceId": 1794586713
     },
     {
-      "monsterId": 167,
-      "pokemon": "Spinarak",
-      "region": "Hoenn",
+      "monsterId": 228,
+      "pokemon": "Houndour",
+      "region": "Johto",
       "location": "",
-      "secondsAgo": 1725,
-      "sourceId": 1794586323
-    },
-    {
-      "monsterId": 425,
-      "pokemon": "Drifloon",
-      "region": "Unova",
-      "location": "",
-      "secondsAgo": 2093,
-      "sourceId": 1794585955
+      "secondsAgo": 1049,
+      "sourceId": 1794587300
     }
   ],
   "alpha": {
