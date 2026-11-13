@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-13T18:20:44.839Z",
+  "fetchedAt": "2026-11-13T18:25:41.480Z",
   "swarms": [
+    {
+      "monsterId": 207,
+      "pokemon": "Gligar",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1794595205,
+      "despawnTimestamp": 1794595205,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-13T18:40:05.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
@@ -11,31 +22,26 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-13T18:33:56.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1794594813,
+      "despawnTimestamp": 1794594813,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-13T18:33:33.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 2545,
-      "sourceId": 1794591499
-    },
-    {
-      "monsterId": 197,
-      "pokemon": "Umbreon",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 1504,
-      "sourceId": 1794592540
-    },
     {
       "monsterId": 207,
       "pokemon": "Gligar",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1949,
+      "secondsAgo": 2246,
       "sourceId": 1794592095
     },
     {
@@ -43,7 +49,7 @@
       "pokemon": "Houndour",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1055,
+      "secondsAgo": 1352,
       "sourceId": 1794592989
     }
   ],
