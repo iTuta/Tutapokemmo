@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-13T07:21:07.027Z",
+  "fetchedAt": "2026-11-13T07:25:44.225Z",
   "swarms": [
+    {
+      "monsterId": 167,
+      "pokemon": "Spinarak",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1794555456,
+      "despawnTimestamp": 1794555456,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-13T07:37:36.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 167,
       "pokemon": "Spinarak",
       "region": "Sinnoh",
       "location": "",
       "sourceId": 1794555161,
-      "despawnTimestamp": 1794555160,
+      "despawnTimestamp": 1794555161,
       "hasValuable": false,
       "timestampUtc": "2026-11-13T07:32:41.000Z",
       "publishedBy": ""
@@ -18,7 +29,7 @@
       "region": "Unova",
       "location": "",
       "sourceId": 1794554751,
-      "despawnTimestamp": 1794554750,
+      "despawnTimestamp": 1794554751,
       "hasValuable": false,
       "timestampUtc": "2026-11-13T07:25:51.000Z",
       "publishedBy": ""
@@ -26,27 +37,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 167,
-      "pokemon": "Spinarak",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 2356,
-      "sourceId": 1794552110
-    },
-    {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1554,
-      "sourceId": 1794552912
+      "secondsAgo": 1831,
+      "sourceId": 1794552913
     },
     {
       "monsterId": 302,
       "pokemon": "Sableye",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1913,
+      "secondsAgo": 2191,
       "sourceId": 1794552553
     }
   ],
