@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-13T10:05:47.977Z",
+  "fetchedAt": "2026-11-13T10:11:13.014Z",
   "swarms": [
+    {
+      "monsterId": 207,
+      "pokemon": "Gligar",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1794565468,
+      "despawnTimestamp": 1794565467,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-13T10:24:28.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 197,
       "pokemon": "Umbreon",
@@ -10,6 +21,17 @@
       "despawnTimestamp": 1794565013,
       "hasValuable": false,
       "timestampUtc": "2026-11-13T10:16:53.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 302,
+      "pokemon": "Sableye",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1794565424,
+      "despawnTimestamp": 1794565423,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-13T10:23:44.000Z",
       "publishedBy": ""
     },
     {
@@ -26,27 +48,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 92,
-      "pokemon": "Gastly",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 1568,
-      "sourceId": 1794562779
-    },
-    {
-      "monsterId": 207,
-      "pokemon": "gligar",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 1756,
-      "sourceId": 1794562591
-    },
-    {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 911,
+      "secondsAgo": 1236,
       "sourceId": 1794563436
     }
   ],
