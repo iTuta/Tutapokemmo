@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-13T15:31:08.335Z",
+  "fetchedAt": "2026-11-13T15:35:48.528Z",
   "swarms": [
-    {
-      "monsterId": 355,
-      "pokemon": "Duskull",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794583993,
-      "despawnTimestamp": 1794583993,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-13T15:33:13.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 353,
       "pokemon": "Shuppet",
@@ -40,7 +29,7 @@
       "region": "Unova",
       "location": "",
       "sourceId": 1794584645,
-      "despawnTimestamp": 1794584645,
+      "despawnTimestamp": 1794584644,
       "hasValuable": false,
       "timestampUtc": "2026-11-13T15:44:05.000Z",
       "publishedBy": ""
@@ -48,12 +37,20 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 355,
+      "pokemon": "Duskull",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1054,
+      "sourceId": 1794583094
+    },
+    {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1710,
-      "sourceId": 1794582158
+      "secondsAgo": 1991,
+      "sourceId": 1794582157
     }
   ],
   "alpha": {
