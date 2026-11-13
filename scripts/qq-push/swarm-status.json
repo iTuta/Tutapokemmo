@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-13T17:35:46.222Z",
+  "fetchedAt": "2026-11-13T17:41:24.269Z",
   "swarms": [
+    {
+      "monsterId": 198,
+      "pokemon": "Murkrow",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1794592399,
+      "despawnTimestamp": 1794592398,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-13T17:53:19.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 228,
       "pokemon": "Houndour",
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 92,
-      "pokemon": "gastly",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 2065,
-      "sourceId": 1794589281
-    },
-    {
       "monsterId": 197,
       "pokemon": "Umbreon",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1071,
+      "secondsAgo": 1409,
       "sourceId": 1794590275
     },
     {
@@ -46,7 +49,7 @@
       "pokemon": "Cubone",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1176,
+      "secondsAgo": 1514,
       "sourceId": 1794590170
     }
   ],
