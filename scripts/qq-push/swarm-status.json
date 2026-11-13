@@ -1,38 +1,45 @@
 {
-  "fetchedAt": "2026-11-13T20:11:04.493Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-13T20:15:46.297Z",
+  "swarms": [
+    {
+      "monsterId": 104,
+      "pokemon": "Cubone",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1794601836,
+      "despawnTimestamp": 1794601836,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-13T20:30:36.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Unova",
+      "location": "",
+      "sourceId": 1794601659,
+      "despawnTimestamp": 1794601659,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-13T20:27:39.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1346,
+      "secondsAgo": 1628,
       "sourceId": 1794599318
-    },
-    {
-      "monsterId": 92,
-      "pokemon": "Gastly",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 1868,
-      "sourceId": 1794598796
     },
     {
       "monsterId": 92,
       "pokemon": "Gastly",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1224,
+      "secondsAgo": 1506,
       "sourceId": 1794599440
-    },
-    {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
-      "region": "Unova",
-      "location": "",
-      "secondsAgo": 1676,
-      "sourceId": 1794598988
     }
   ],
   "alpha": {
