@@ -1,65 +1,60 @@
 {
-  "fetchedAt": "2026-11-13T13:35:44.607Z",
+  "fetchedAt": "2026-11-13T13:40:53.532Z",
   "swarms": [
+    {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Kanto",
+      "location": "",
+      "sourceId": 1794578097,
+      "despawnTimestamp": 1794578097,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-13T13:54:57.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 228,
+      "pokemon": "Houndour",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1794577870,
+      "despawnTimestamp": 1794577869,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-13T13:51:10.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Sinnoh",
       "location": "",
       "sourceId": 1794577585,
-      "despawnTimestamp": 1794577584,
+      "despawnTimestamp": 1794577585,
       "hasValuable": false,
       "timestampUtc": "2026-11-13T13:46:25.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1794577203,
-      "despawnTimestamp": 1794577202,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-13T13:40:03.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 1969,
-      "sourceId": 1794574975
-    },
-    {
-      "monsterId": 104,
-      "pokemon": "Cubone",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 1776,
-      "sourceId": 1794575168
-    },
-    {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1852,
+      "secondsAgo": 2161,
       "sourceId": 1794575092
     }
   ],
   "alpha": {
-    "monsterId": 36,
-    "pokemon": "Clefable",
-    "region": "Kanto",
-    "location": "Mt. Moon",
-    "sourceId": 1794544458,
-    "despawnTimestamp": 1794561558,
+    "monsterId": 463,
+    "pokemon": "Lickilicky",
+    "region": "Unova",
+    "location": "Challenger&#x27;s Cave",
+    "sourceId": 1794564488,
+    "despawnTimestamp": 1794581588,
     "hasValuable": false,
-    "timestampUtc": "2026-11-13T04:34:18.000Z",
-    "timestampRaw": "2026-11-13T04:34:18.000Z",
+    "timestampUtc": "2026-11-13T10:08:08.000Z",
+    "timestampRaw": "2026-11-13T10:08:08.000Z",
     "publishedBy": ""
   }
 }
