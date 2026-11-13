@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-13T19:50:54.241Z",
+  "fetchedAt": "2026-11-13T19:55:54.491Z",
   "swarms": [
     {
       "monsterId": 425,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1794600217,
       "hasValuable": false,
       "timestampUtc": "2026-11-13T20:03:37.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 92,
-      "pokemon": "Gastly",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1794599695,
-      "despawnTimestamp": 1794599695,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-13T19:54:55.000Z",
       "publishedBy": ""
     },
     {
@@ -46,7 +35,16 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [],
+  "lastSeen": [
+    {
+      "monsterId": 92,
+      "pokemon": "Gastly",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 958,
+      "sourceId": 1794598796
+    }
+  ],
   "alpha": {
     "monsterId": 184,
     "pokemon": "Azumarill",
