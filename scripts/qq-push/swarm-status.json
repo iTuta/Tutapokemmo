@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-13T12:30:56.460Z",
+  "fetchedAt": "2026-11-13T12:35:46.150Z",
   "swarms": [
     {
       "monsterId": 96,
@@ -33,17 +33,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-13T12:40:45.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 355,
-      "pokemon": "Duskull",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1794573274,
-      "despawnTimestamp": 1794573274,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-13T12:34:34.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -52,8 +41,16 @@
       "pokemon": "Spinarak",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1064,
+      "secondsAgo": 1354,
       "sourceId": 1794571992
+    },
+    {
+      "monsterId": 355,
+      "pokemon": "Duskull",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 971,
+      "sourceId": 1794572375
     }
   ],
   "alpha": {
