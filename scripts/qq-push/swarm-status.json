@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-13T04:30:56.544Z",
+  "fetchedAt": "2026-11-13T04:35:41.539Z",
   "swarms": [
     {
       "monsterId": 336,
@@ -33,17 +33,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-13T04:37:54.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 197,
-      "pokemon": "Umbreon",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1794544450,
-      "despawnTimestamp": 1794544450,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-13T04:34:10.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -52,8 +41,16 @@
       "pokemon": "Sableye",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1073,
+      "secondsAgo": 1358,
       "sourceId": 1794543183
+    },
+    {
+      "monsterId": 197,
+      "pokemon": "Umbreon",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 990,
+      "sourceId": 1794543551
     }
   ],
   "alpha": {
