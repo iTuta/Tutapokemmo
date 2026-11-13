@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-11-13T19:30:56.353Z",
+  "fetchedAt": "2026-11-13T19:35:53.514Z",
   "swarms": [
-    {
-      "monsterId": 163,
-      "pokemon": "Hoothoot",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1794598497,
-      "despawnTimestamp": 1794598497,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-13T19:34:57.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 167,
-      "pokemon": "spinarak",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1794598364,
-      "despawnTimestamp": 1794598364,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-13T19:32:44.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 23,
       "pokemon": "Ekans",
@@ -41,15 +19,31 @@
       "pokemon": "Hoothoot",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 1383,
+      "secondsAgo": 1680,
       "sourceId": 1794596873
+    },
+    {
+      "monsterId": 163,
+      "pokemon": "Hoothoot",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 955,
+      "sourceId": 1794597598
+    },
+    {
+      "monsterId": 167,
+      "pokemon": "spinarak",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 1088,
+      "sourceId": 1794597465
     },
     {
       "monsterId": 92,
       "pokemon": "Gastly",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 951,
+      "secondsAgo": 1248,
       "sourceId": 1794597305
     }
   ],
