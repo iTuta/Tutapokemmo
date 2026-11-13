@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-11-13T18:35:53.525Z",
+  "fetchedAt": "2026-11-13T18:40:49.142Z",
   "swarms": [
-    {
-      "monsterId": 207,
-      "pokemon": "Gligar",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794595205,
-      "despawnTimestamp": 1794595205,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-13T18:40:05.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 104,
       "pokemon": "Cubone",
       "region": "Sinnoh",
       "location": "",
       "sourceId": 1794595407,
-      "despawnTimestamp": 1794595406,
+      "despawnTimestamp": 1794595407,
       "hasValuable": false,
       "timestampUtc": "2026-11-13T18:43:27.000Z",
       "publishedBy": ""
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 207,
+      "pokemon": "Gligar",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 943,
+      "sourceId": 1794594306
+    },
+    {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1016,
+      "secondsAgo": 1312,
       "sourceId": 1794593937
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Poochyena",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 739,
+      "secondsAgo": 1035,
       "sourceId": 1794594214
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Houndour",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1964,
-      "sourceId": 1794592989
+      "secondsAgo": 2259,
+      "sourceId": 1794592990
     }
   ],
   "alpha": {
