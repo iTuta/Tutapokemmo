@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-11-13T19:20:46.824Z",
+  "fetchedAt": "2026-11-13T19:26:12.083Z",
   "swarms": [
-    {
-      "monsterId": 163,
-      "pokemon": "Hoothoot",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794597772,
-      "despawnTimestamp": 1794597772,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-13T19:22:52.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 163,
       "pokemon": "Hoothoot",
       "region": "Johto",
       "location": "",
       "sourceId": 1794598497,
-      "despawnTimestamp": 1794598496,
+      "despawnTimestamp": 1794598497,
       "hasValuable": false,
       "timestampUtc": "2026-11-13T19:34:57.000Z",
       "publishedBy": ""
@@ -29,7 +18,7 @@
       "region": "Hoenn",
       "location": "",
       "sourceId": 1794598364,
-      "despawnTimestamp": 1794598363,
+      "despawnTimestamp": 1794598364,
       "hasValuable": false,
       "timestampUtc": "2026-11-13T19:32:44.000Z",
       "publishedBy": ""
@@ -40,7 +29,7 @@
       "region": "Unova",
       "location": "",
       "sourceId": 1794598205,
-      "despawnTimestamp": 1794598204,
+      "despawnTimestamp": 1794598205,
       "hasValuable": false,
       "timestampUtc": "2026-11-13T19:30:05.000Z",
       "publishedBy": ""
@@ -48,12 +37,20 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 163,
+      "pokemon": "Hoothoot",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1099,
+      "sourceId": 1794596873
+    },
+    {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1385,
-      "sourceId": 1794596261
+      "secondsAgo": 1710,
+      "sourceId": 1794596262
     }
   ],
   "alpha": {
