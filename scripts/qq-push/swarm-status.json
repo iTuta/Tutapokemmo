@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-13T13:05:52.331Z",
+  "fetchedAt": "2026-11-13T13:10:52.255Z",
   "swarms": [
     {
       "monsterId": 200,
@@ -13,6 +13,17 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 104,
+      "pokemon": "Cubone",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1794576068,
+      "despawnTimestamp": 1794576068,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-13T13:21:08.000Z",
+      "publishedBy": ""
+    },
+    {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Hoenn",
@@ -21,17 +32,6 @@
       "despawnTimestamp": 1794575991,
       "hasValuable": false,
       "timestampUtc": "2026-11-13T13:19:51.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 302,
-      "pokemon": "Sableye",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1794575394,
-      "despawnTimestamp": 1794575394,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-13T13:09:54.000Z",
       "publishedBy": ""
     },
     {
@@ -48,12 +48,12 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 167,
-      "pokemon": "Spinarak",
-      "region": "Johto",
+      "monsterId": 302,
+      "pokemon": "Sableye",
+      "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 3160,
-      "sourceId": 1794571992
+      "secondsAgo": 957,
+      "sourceId": 1794574495
     }
   ],
   "alpha": {
