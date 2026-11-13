@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-13T18:25:41.480Z",
+  "fetchedAt": "2026-11-13T18:31:19.465Z",
   "swarms": [
     {
       "monsterId": 207,
@@ -33,23 +33,26 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-13T18:33:33.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 104,
+      "pokemon": "Cubone",
+      "region": "Sinnoh",
+      "location": "",
+      "sourceId": 1794595407,
+      "despawnTimestamp": 1794595407,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-13T18:43:27.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 207,
-      "pokemon": "Gligar",
-      "region": "Sinnoh",
-      "location": "",
-      "secondsAgo": 2246,
-      "sourceId": 1794592095
-    },
     {
       "monsterId": 228,
       "pokemon": "Houndour",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1352,
+      "secondsAgo": 1690,
       "sourceId": 1794592989
     }
   ],
