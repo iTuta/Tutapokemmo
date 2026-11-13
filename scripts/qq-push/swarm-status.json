@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-13T16:01:36.312Z",
+  "fetchedAt": "2026-11-13T16:05:44.549Z",
   "swarms": [
-    {
-      "monsterId": 197,
-      "pokemon": "Umbreon",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794585890,
-      "despawnTimestamp": 1794585890,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-13T16:04:50.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 302,
       "pokemon": "Sableye",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 197,
+      "pokemon": "Umbreon",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 953,
+      "sourceId": 1794584991
+    },
+    {
       "monsterId": 167,
       "pokemon": "Spinarak",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1134,
+      "secondsAgo": 1382,
       "sourceId": 1794584562
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Shuppet",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1975,
+      "secondsAgo": 2223,
       "sourceId": 1794583721
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1951,
+      "secondsAgo": 2199,
       "sourceId": 1794583745
     }
   ],
