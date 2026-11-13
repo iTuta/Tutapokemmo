@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-11-13T13:51:02.944Z",
+  "fetchedAt": "2026-11-13T13:56:12.563Z",
   "swarms": [
-    {
-      "monsterId": 41,
-      "pokemon": "Zubat",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794578097,
-      "despawnTimestamp": 1794578097,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-13T13:54:57.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 228,
-      "pokemon": "Houndour",
-      "region": "Johto",
-      "location": "",
-      "sourceId": 1794577870,
-      "despawnTimestamp": 1794577869,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-13T13:51:10.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 96,
       "pokemon": "Drowzee",
@@ -37,11 +15,27 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 41,
+      "pokemon": "Zubat",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 974,
+      "sourceId": 1794577198
+    },
+    {
+      "monsterId": 228,
+      "pokemon": "Houndour",
+      "region": "Johto",
+      "location": "",
+      "secondsAgo": 1202,
+      "sourceId": 1794576970
+    },
+    {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Sinnoh",
       "location": "",
-      "secondsAgo": 1177,
+      "secondsAgo": 1487,
       "sourceId": 1794576685
     }
   ],
