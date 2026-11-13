@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-13T08:40:55.773Z",
+  "fetchedAt": "2026-11-13T08:46:01.628Z",
   "swarms": [
+    {
+      "monsterId": 198,
+      "pokemon": "Murkrow",
+      "region": "Johto",
+      "location": "",
+      "sourceId": 1794560381,
+      "despawnTimestamp": 1794560380,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-13T08:59:41.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 207,
       "pokemon": "Gligar",
@@ -11,32 +22,27 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-13T08:46:29.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 451,
+      "pokemon": "skorupi",
+      "region": "Unova",
+      "location": "",
+      "sourceId": 1794560429,
+      "despawnTimestamp": 1794560429,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-13T09:00:29.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 355,
-      "pokemon": "Duskull",
-      "region": "Johto",
-      "location": "",
-      "secondsAgo": 1842,
-      "sourceId": 1794557413
-    },
     {
       "monsterId": 261,
       "pokemon": "Poochyena",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 631,
+      "secondsAgo": 937,
       "sourceId": 1794558624
-    },
-    {
-      "monsterId": 197,
-      "pokemon": "Umbreon",
-      "region": "Unova",
-      "location": "",
-      "secondsAgo": 1439,
-      "sourceId": 1794557816
     }
   ],
   "alpha": {
