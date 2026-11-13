@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-13T08:01:30.358Z",
+  "fetchedAt": "2026-11-13T08:05:43.355Z",
   "swarms": [
+    {
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Hoenn",
+      "location": "",
+      "sourceId": 1794558030,
+      "despawnTimestamp": 1794558029,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-13T08:20:30.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 41,
       "pokemon": "Zubat",
@@ -15,48 +26,32 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 353,
-      "pokemon": "Shuppet",
-      "region": "Kanto",
-      "location": "",
-      "secondsAgo": 1005,
-      "sourceId": 1794555885
-    },
-    {
       "monsterId": 167,
       "pokemon": "Spinarak",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 2140,
+      "secondsAgo": 2393,
       "sourceId": 1794554750
-    },
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Hoenn",
-      "location": "",
-      "secondsAgo": 1714,
-      "sourceId": 1794555176
     },
     {
       "monsterId": 92,
       "pokemon": "Gastly",
       "region": "Unova",
       "location": "",
-      "secondsAgo": 1068,
+      "secondsAgo": 1321,
       "sourceId": 1794555822
     }
   ],
   "alpha": {
-    "monsterId": 73,
-    "pokemon": "Tentacruel",
-    "region": "Johto",
-    "location": "Route 47",
-    "sourceId": 1794522206,
-    "despawnTimestamp": 1794539306,
+    "monsterId": 36,
+    "pokemon": "Clefable",
+    "region": "Kanto",
+    "location": "Mt. Moon",
+    "sourceId": 1794544458,
+    "despawnTimestamp": 1794561558,
     "hasValuable": false,
-    "timestampUtc": "2026-11-12T22:23:26.000Z",
-    "timestampRaw": "2026-11-12T22:23:26.000Z",
-    "publishedBy": "Ox"
+    "timestampUtc": "2026-11-13T04:34:18.000Z",
+    "timestampRaw": "2026-11-13T04:34:18.000Z",
+    "publishedBy": ""
   }
 }
