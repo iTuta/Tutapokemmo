@@ -1,56 +1,50 @@
 {
-  "fetchedAt": "2026-11-12T23:55:39.855Z",
+  "fetchedAt": "2026-11-13T00:01:10.000Z",
   "swarms": [
     {
-      "monsterId": 425,
-      "pokemon": "Drifloon",
-      "region": "Kanto",
+      "monsterId": 302,
+      "pokemon": "Sableye",
+      "region": "Johto",
       "location": "",
-      "sourceId": 1794528018,
-      "despawnTimestamp": 1794528017,
+      "sourceId": 1794528720,
+      "despawnTimestamp": 1794528719,
       "hasValuable": false,
-      "timestampUtc": "2026-11-13T00:00:18.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 261,
-      "pokemon": "Poochyena",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1794527965,
-      "despawnTimestamp": 1794527964,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-12T23:59:25.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 228,
-      "pokemon": "Houndour",
-      "region": "Unova",
-      "location": "",
-      "sourceId": 1794527852,
-      "despawnTimestamp": 1794527852,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-12T23:57:32.000Z",
+      "timestampUtc": "2026-11-13T00:12:00.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 96,
-      "pokemon": "Drowzee",
-      "region": "Johto",
+      "monsterId": 425,
+      "pokemon": "Drifloon",
+      "region": "Kanto",
       "location": "",
-      "secondsAgo": 1189,
-      "sourceId": 1794526550
+      "secondsAgo": 951,
+      "sourceId": 1794527118
     },
     {
       "monsterId": 228,
       "pokemon": "Houndour",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1821,
+      "secondsAgo": 2151,
       "sourceId": 1794525918
+    },
+    {
+      "monsterId": 261,
+      "pokemon": "Poochyena",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 1004,
+      "sourceId": 1794527065
+    },
+    {
+      "monsterId": 228,
+      "pokemon": "Houndour",
+      "region": "Unova",
+      "location": "",
+      "secondsAgo": 1116,
+      "sourceId": 1794526953
     }
   ],
   "alpha": {
