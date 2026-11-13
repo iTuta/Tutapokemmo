@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-13T20:26:01.260Z",
+  "fetchedAt": "2026-11-13T20:30:59.501Z",
   "swarms": [
     {
       "monsterId": 200,
@@ -13,40 +13,35 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 104,
-      "pokemon": "Cubone",
-      "region": "Hoenn",
-      "location": "",
-      "sourceId": 1794601836,
-      "despawnTimestamp": 1794601836,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-13T20:30:36.000Z",
-      "publishedBy": ""
-    },
-    {
       "monsterId": 302,
       "pokemon": "Sableye",
       "region": "Sinnoh",
       "location": "",
       "sourceId": 1794601998,
-      "despawnTimestamp": 1794601998,
+      "despawnTimestamp": 1794601997,
       "hasValuable": false,
       "timestampUtc": "2026-11-13T20:33:18.000Z",
       "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 104,
+      "pokemon": "Cubone",
+      "region": "Hoenn",
+      "location": "",
+      "secondsAgo": 923,
+      "sourceId": 1794600936
     },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "",
-      "sourceId": 1794601659,
-      "despawnTimestamp": 1794601659,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-13T20:27:39.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1099,
+      "sourceId": 1794600760
     }
   ],
-  "lastSeen": [],
   "alpha": {
     "monsterId": 184,
     "pokemon": "Azumarill",
