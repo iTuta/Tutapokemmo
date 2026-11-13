@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-13T05:10:47.218Z",
+  "fetchedAt": "2026-11-13T05:15:57.145Z",
   "swarms": [
-    {
-      "monsterId": 23,
-      "pokemon": "Ekans",
-      "region": "Kanto",
-      "location": "",
-      "sourceId": 1794546810,
-      "despawnTimestamp": 1794546809,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-13T05:13:30.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 355,
       "pokemon": "Duskull",
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 23,
+      "pokemon": "Ekans",
+      "region": "Kanto",
+      "location": "",
+      "secondsAgo": 1046,
+      "sourceId": 1794545911
+    },
+    {
       "monsterId": 355,
       "pokemon": "Duskull",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1412,
+      "secondsAgo": 1722,
       "sourceId": 1794545235
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "Gastly",
       "region": "Hoenn",
       "location": "",
-      "secondsAgo": 1022,
+      "secondsAgo": 1332,
       "sourceId": 1794545625
     }
   ],
