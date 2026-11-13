@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-13T14:15:48.887Z",
+  "fetchedAt": "2026-11-13T14:21:22.297Z",
   "swarms": [
     {
       "monsterId": 570,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-13T14:27:59.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 451,
-      "pokemon": "Skorupi",
-      "region": "Sinnoh",
-      "location": "",
-      "sourceId": 1794579489,
-      "despawnTimestamp": 1794579489,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-13T14:18:09.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,16 +19,24 @@
       "pokemon": "Skorupi",
       "region": "Kanto",
       "location": "",
-      "secondsAgo": 677,
-      "sourceId": 1794578671
+      "secondsAgo": 1010,
+      "sourceId": 1794578672
     },
     {
       "monsterId": 261,
       "pokemon": "Poochyena",
       "region": "Johto",
       "location": "",
-      "secondsAgo": 1131,
+      "secondsAgo": 1465,
       "sourceId": 1794578217
+    },
+    {
+      "monsterId": 451,
+      "pokemon": "Skorupi",
+      "region": "Sinnoh",
+      "location": "",
+      "secondsAgo": 1092,
+      "sourceId": 1794578590
     }
   ],
   "alpha": {
