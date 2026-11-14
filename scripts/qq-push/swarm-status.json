@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T17:46:16.664Z",
+  "fetchedAt": "2026-11-14T17:50:50.253Z",
   "swarms": [
     {
       "monsterId": 411,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Tanoby Ruins",
       "sourceId": 1794679292,
-      "despawnTimestamp": 1794679291,
+      "despawnTimestamp": 1794679292,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T18:01:32.000Z",
       "publishedBy": ""
@@ -29,7 +29,7 @@
       "region": "Unova",
       "location": "Wellspring Cave",
       "sourceId": 1794679376,
-      "despawnTimestamp": 1794679375,
+      "despawnTimestamp": 1794679376,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T18:02:56.000Z",
       "publishedBy": ""
@@ -41,8 +41,16 @@
       "pokemon": "Starmie",
       "region": "Johto",
       "location": "Cliff Edge Gate",
-      "secondsAgo": 2647,
+      "secondsAgo": 2921,
       "sourceId": 1794675729
+    },
+    {
+      "monsterId": 107,
+      "pokemon": "Hitmonchan",
+      "region": "Hoenn",
+      "location": "Fiery Path",
+      "secondsAgo": 5764,
+      "sourceId": 1794672886
     }
   ],
   "alpha": {
@@ -55,6 +63,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-11-14T13:01:22.000Z",
     "timestampRaw": "2026-11-14T13:01:22.000Z",
-    "publishedBy": ""
+    "publishedBy": "IronLion"
   }
 }
