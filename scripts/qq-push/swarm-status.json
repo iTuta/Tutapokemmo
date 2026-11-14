@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T00:50:47.185Z",
+  "fetchedAt": "2026-11-14T00:55:49.545Z",
   "swarms": [
     {
       "monsterId": 373,
@@ -7,30 +7,27 @@
       "region": "Kanto",
       "location": "Victory Road",
       "sourceId": 1794618373,
-      "despawnTimestamp": 1794618373,
+      "despawnTimestamp": 1794618372,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T01:06:13.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Johto",
-      "location": "Bell Tower",
-      "sourceId": 1794617747,
-      "despawnTimestamp": 1794617746,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T00:55:47.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Johto",
+      "location": "Bell Tower",
+      "secondsAgo": 1502,
+      "sourceId": 1794616247
+    },
+    {
       "monsterId": 259,
       "pokemon": "Marshtomp",
       "region": "Hoenn",
       "location": "Route 124",
-      "secondsAgo": 1593,
+      "secondsAgo": 1895,
       "sourceId": 1794615854
     },
     {
@@ -38,8 +35,8 @@
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 2751,
-      "sourceId": 1794614696
+      "secondsAgo": 3054,
+      "sourceId": 1794614695
     }
   ],
   "alpha": {
