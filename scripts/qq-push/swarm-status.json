@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-14T14:40:47.039Z",
+  "fetchedAt": "2026-11-14T14:46:03.363Z",
   "swarms": [
+    {
+      "monsterId": 103,
+      "pokemon": "Exeggutor",
+      "region": "Kanto",
+      "location": "Route 23",
+      "sourceId": 1794668956,
+      "despawnTimestamp": 1794668956,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T15:09:16.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 185,
       "pokemon": "Sudowoodo",
@@ -13,41 +24,33 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Unova",
-      "location": "Route 15",
-      "sourceId": 1794667383,
-      "despawnTimestamp": 1794667384,
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Sinnoh",
+      "location": "Iron Island",
+      "sourceId": 1794668984,
+      "despawnTimestamp": 1794668984,
       "hasValuable": false,
-      "timestampUtc": "2026-11-14T14:43:03.000Z",
+      "timestampUtc": "2026-11-14T15:09:44.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 441,
-      "pokemon": "Chatot",
-      "region": "Kanto",
-      "location": "Treasure Beach",
-      "secondsAgo": 2212,
-      "sourceId": 1794665035
-    },
-    {
       "monsterId": 469,
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 2455,
-      "sourceId": 1794664792
+      "secondsAgo": 2772,
+      "sourceId": 1794664791
     },
     {
-      "monsterId": 426,
-      "pokemon": "Drifblim",
-      "region": "Sinnoh",
-      "location": "Route 222",
-      "secondsAgo": 2054,
-      "sourceId": 1794665193
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Unova",
+      "location": "Route 15",
+      "secondsAgo": 1679,
+      "sourceId": 1794665884
     }
   ],
   "alpha": {
