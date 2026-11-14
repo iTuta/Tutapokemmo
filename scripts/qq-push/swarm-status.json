@@ -1,46 +1,53 @@
 {
-  "fetchedAt": "2026-11-14T19:31:01.188Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-14T19:35:41.933Z",
+  "swarms": [
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Johto",
+      "location": "Union Cave",
+      "sourceId": 1794686351,
+      "despawnTimestamp": 1794686350,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T19:59:11.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 106,
+      "pokemon": "Hitmonlee",
+      "region": "Unova",
+      "location": "Victory Road",
+      "sourceId": 1794686246,
+      "despawnTimestamp": 1794686245,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T19:57:26.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 6,
       "pokemon": "Charizard",
       "region": "Kanto",
       "location": "Mt. Ember",
-      "secondsAgo": 3298,
-      "sourceId": 1794681363
-    },
-    {
-      "monsterId": 300,
-      "pokemon": "Skitty",
-      "region": "Johto",
-      "location": "Route 35",
-      "secondsAgo": 1714,
-      "sourceId": 1794682947
+      "secondsAgo": 3579,
+      "sourceId": 1794681362
     },
     {
       "monsterId": 107,
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 11775,
-      "sourceId": 1794672886
+      "secondsAgo": 12056,
+      "sourceId": 1794672885
     },
     {
       "monsterId": 394,
       "pokemon": "Prinplup",
       "region": "Sinnoh",
       "location": "Route 220",
-      "secondsAgo": 3627,
-      "sourceId": 1794681034
-    },
-    {
-      "monsterId": 451,
-      "pokemon": "Skorupi",
-      "region": "Unova",
-      "location": "Desert Resort",
-      "secondsAgo": 5267,
-      "sourceId": 1794679394
+      "secondsAgo": 3908,
+      "sourceId": 1794681033
     }
   ],
   "alpha": {
