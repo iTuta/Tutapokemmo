@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-14T22:05:45.380Z",
+  "fetchedAt": "2026-11-14T22:10:54.589Z",
   "swarms": [
-    {
-      "monsterId": 474,
-      "pokemon": "Porygon-Z",
-      "region": "Johto",
-      "location": "Team Rocket HQ",
-      "sourceId": 1794693979,
-      "despawnTimestamp": 1794693979,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T22:06:19.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
@@ -41,15 +30,23 @@
       "pokemon": "Absol",
       "region": "Kanto",
       "location": "Canyon Entrance",
-      "secondsAgo": 6453,
+      "secondsAgo": 6762,
       "sourceId": 1794687492
+    },
+    {
+      "monsterId": 474,
+      "pokemon": "Porygon-Z",
+      "region": "Johto",
+      "location": "Team Rocket HQ",
+      "secondsAgo": 1774,
+      "sourceId": 1794692480
     },
     {
       "monsterId": 376,
       "pokemon": "Metagross",
       "region": "Hoenn",
       "location": "Meteor Falls",
-      "secondsAgo": 2071,
+      "secondsAgo": 2380,
       "sourceId": 1794691874
     }
   ],
