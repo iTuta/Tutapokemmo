@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T14:05:56.649Z",
+  "fetchedAt": "2026-11-14T14:10:52.155Z",
   "swarms": [
     {
       "monsterId": 441,
@@ -18,7 +18,7 @@
       "region": "Johto",
       "location": "Route 44",
       "sourceId": 1794666291,
-      "despawnTimestamp": 1794666290,
+      "despawnTimestamp": 1794666291,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T14:24:51.000Z",
       "publishedBy": ""
@@ -29,27 +29,30 @@
       "region": "Hoenn",
       "location": "Route 109",
       "sourceId": 1794666587,
-      "despawnTimestamp": 1794666586,
+      "despawnTimestamp": 1794666587,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T14:29:47.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 426,
+      "pokemon": "Drifblim",
+      "region": "Sinnoh",
+      "location": "Route 222",
+      "sourceId": 1794666692,
+      "despawnTimestamp": 1794666692,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T14:31:32.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 442,
-      "pokemon": "Spiritomb",
-      "region": "Sinnoh",
-      "location": "Turnback Cave",
-      "secondsAgo": 2786,
-      "sourceId": 1794662370
-    },
-    {
       "monsterId": 517,
       "pokemon": "Munna",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 1957,
+      "secondsAgo": 2253,
       "sourceId": 1794663199
     }
   ],
