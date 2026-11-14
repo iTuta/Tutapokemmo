@@ -1,25 +1,33 @@
 {
-  "fetchedAt": "2026-11-14T09:01:29.439Z",
+  "fetchedAt": "2026-11-14T09:06:07.469Z",
   "swarms": [
     {
-      "monsterId": 141,
-      "pokemon": "Kabutops",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "sourceId": 1794647079,
-      "despawnTimestamp": 1794647079,
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Unova",
+      "location": "Route 15",
+      "sourceId": 1794648641,
+      "despawnTimestamp": 1794648641,
       "hasValuable": false,
-      "timestampUtc": "2026-11-14T09:04:39.000Z",
+      "timestampUtc": "2026-11-14T09:30:41.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
+      "monsterId": 141,
+      "pokemon": "Kabutops",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "secondsAgo": 1587,
+      "sourceId": 1794645580
+    },
+    {
       "monsterId": 375,
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 1601,
+      "secondsAgo": 1879,
       "sourceId": 1794645288
     },
     {
@@ -27,7 +35,7 @@
       "pokemon": "Grovyle",
       "region": "Hoenn",
       "location": "Route 120",
-      "secondsAgo": 2748,
+      "secondsAgo": 3026,
       "sourceId": 1794644141
     },
     {
@@ -35,16 +43,8 @@
       "pokemon": "Lucario",
       "region": "Sinnoh",
       "location": "Iron Island",
-      "secondsAgo": 2836,
+      "secondsAgo": 3114,
       "sourceId": 1794644053
-    },
-    {
-      "monsterId": 106,
-      "pokemon": "Hitmonlee",
-      "region": "Unova",
-      "location": "Victory Road",
-      "secondsAgo": 2368,
-      "sourceId": 1794644521
     }
   ],
   "alpha": {
