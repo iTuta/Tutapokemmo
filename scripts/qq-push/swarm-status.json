@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-14T07:20:59.164Z",
+  "fetchedAt": "2026-11-14T07:25:51.456Z",
   "swarms": [
+    {
+      "monsterId": 154,
+      "pokemon": "Meganium",
+      "region": "Johto",
+      "location": "Route 48",
+      "sourceId": 1794642382,
+      "despawnTimestamp": 1794642382,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T07:46:22.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 260,
       "pokemon": "Swampert",
@@ -11,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-14T07:29:12.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 126,
-      "pokemon": "Magmar",
-      "region": "Sinnoh",
-      "location": "Fuego Ironworks",
-      "sourceId": 1794641138,
-      "despawnTimestamp": 1794641138,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T07:25:38.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,23 +30,23 @@
       "pokemon": "Drifloon",
       "region": "Kanto",
       "location": "Route 10",
-      "secondsAgo": 3113,
-      "sourceId": 1794637746
+      "secondsAgo": 3406,
+      "sourceId": 1794637745
     },
     {
-      "monsterId": 290,
-      "pokemon": "Nincada",
-      "region": "Johto",
-      "location": "Route 46",
-      "secondsAgo": 8499,
-      "sourceId": 1794632360
+      "monsterId": 126,
+      "pokemon": "Magmar",
+      "region": "Sinnoh",
+      "location": "Fuego Ironworks",
+      "secondsAgo": 1512,
+      "sourceId": 1794639639
     },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 2740,
+      "secondsAgo": 3032,
       "sourceId": 1794638119
     }
   ],
