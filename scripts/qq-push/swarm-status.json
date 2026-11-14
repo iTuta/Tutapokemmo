@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-14T09:20:47.799Z",
+  "fetchedAt": "2026-11-14T09:25:41.066Z",
   "swarms": [
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Kanto",
+      "location": "Pokemon Tower",
+      "sourceId": 1794649639,
+      "despawnTimestamp": 1794649639,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T09:47:19.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Sinnoh",
       "location": "Route 206",
       "sourceId": 1794649142,
-      "despawnTimestamp": 1794649141,
+      "despawnTimestamp": 1794649142,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T09:39:02.000Z",
       "publishedBy": ""
@@ -18,7 +29,7 @@
       "region": "Unova",
       "location": "Route 15",
       "sourceId": 1794648641,
-      "despawnTimestamp": 1794648640,
+      "despawnTimestamp": 1794648641,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T09:30:41.000Z",
       "publishedBy": ""
@@ -26,28 +37,20 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 141,
-      "pokemon": "Kabutops",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 2468,
-      "sourceId": 1794645579
-    },
-    {
       "monsterId": 375,
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 2759,
-      "sourceId": 1794645288
+      "secondsAgo": 3052,
+      "sourceId": 1794645289
     },
     {
       "monsterId": 253,
       "pokemon": "Grovyle",
       "region": "Hoenn",
       "location": "Route 120",
-      "secondsAgo": 3907,
-      "sourceId": 1794644140
+      "secondsAgo": 4200,
+      "sourceId": 1794644141
     }
   ],
   "alpha": {
