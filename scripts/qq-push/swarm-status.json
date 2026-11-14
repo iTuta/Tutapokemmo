@@ -1,29 +1,41 @@
 {
-  "fetchedAt": "2026-11-14T11:25:45.445Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-14T11:31:01.118Z",
+  "swarms": [
+    {
+      "monsterId": 438,
+      "pokemon": "Bonsly",
+      "region": "Johto",
+      "location": "Ilex Forest",
+      "sourceId": 1794657045,
+      "despawnTimestamp": 1794657045,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T11:50:45.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Kanto",
       "location": "Victory Road",
-      "secondsAgo": 2594,
-      "sourceId": 1794652951
+      "secondsAgo": 2909,
+      "sourceId": 1794652952
     },
     {
-      "monsterId": 152,
-      "pokemon": "Chikorita",
-      "region": "Johto",
-      "location": "Route 31",
-      "secondsAgo": 3794,
-      "sourceId": 1794651751
+      "monsterId": 429,
+      "pokemon": "Mismagius",
+      "region": "Hoenn",
+      "location": "Route 122",
+      "secondsAgo": 5474,
+      "sourceId": 1794650387
     },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Sinnoh",
       "location": "Route 206",
-      "secondsAgo": 7902,
+      "secondsAgo": 8218,
       "sourceId": 1794647643
     },
     {
@@ -31,7 +43,7 @@
       "pokemon": "Houndoom",
       "region": "Unova",
       "location": "Route 15",
-      "secondsAgo": 8403,
+      "secondsAgo": 8719,
       "sourceId": 1794647142
     }
   ],
@@ -45,6 +57,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-11-14T06:42:03.000Z",
     "timestampRaw": "2026-11-14T06:42:03.000Z",
-    "publishedBy": ""
+    "publishedBy": "wewoo"
   }
 }
