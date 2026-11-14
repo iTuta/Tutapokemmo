@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T20:40:46.658Z",
+  "fetchedAt": "2026-11-14T20:45:44.875Z",
   "swarms": [
     {
       "monsterId": 237,
@@ -11,32 +11,35 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-14T20:52:54.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 227,
+      "pokemon": "Skarmory",
+      "region": "Hoenn",
+      "location": "Route 113",
+      "sourceId": 1794690449,
+      "despawnTimestamp": 1794690449,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T21:07:29.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Hoenn",
-      "location": "Shoal Cave",
-      "secondsAgo": 3895,
-      "sourceId": 1794684951
-    },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 2888,
-      "sourceId": 1794685958
+      "secondsAgo": 3187,
+      "sourceId": 1794685957
     },
     {
       "monsterId": 106,
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "secondsAgo": 4099,
-      "sourceId": 1794684747
+      "secondsAgo": 4398,
+      "sourceId": 1794684746
     }
   ],
   "alpha": {
