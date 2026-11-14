@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T05:15:50.266Z",
+  "fetchedAt": "2026-11-14T05:20:53.891Z",
   "swarms": [
     {
       "monsterId": 348,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Tanoby Ruins",
       "sourceId": 1794634304,
-      "despawnTimestamp": 1794634304,
+      "despawnTimestamp": 1794634303,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T05:31:44.000Z",
       "publishedBy": ""
@@ -24,17 +24,6 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 185,
-      "pokemon": "Sudowoodo",
-      "region": "Hoenn",
-      "location": "Battle Frontier",
-      "sourceId": 1794633615,
-      "despawnTimestamp": 1794633615,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T05:20:15.000Z",
-      "publishedBy": ""
-    },
-    {
       "monsterId": 420,
       "pokemon": "Cherubi",
       "region": "Unova",
@@ -48,12 +37,20 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 185,
+      "pokemon": "Sudowoodo",
+      "region": "Hoenn",
+      "location": "Battle Frontier",
+      "secondsAgo": 1538,
+      "sourceId": 1794632115
+    },
+    {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 3669,
-      "sourceId": 1794629681
+      "secondsAgo": 3973,
+      "sourceId": 1794629680
     }
   ],
   "alpha": {
