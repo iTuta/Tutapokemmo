@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T15:01:06.957Z",
+  "fetchedAt": "2026-11-14T15:05:59.129Z",
   "swarms": [
     {
       "monsterId": 103,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Route 23",
       "sourceId": 1794668956,
-      "despawnTimestamp": 1794668955,
+      "despawnTimestamp": 1794668956,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T15:09:16.000Z",
       "publishedBy": ""
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-14T15:21:08.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Sinnoh",
-      "location": "Iron Island",
-      "sourceId": 1794668984,
-      "despawnTimestamp": 1794668983,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T15:09:44.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,16 +30,24 @@
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 2026,
+      "secondsAgo": 2319,
       "sourceId": 1794666440
+    },
+    {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Sinnoh",
+      "location": "Iron Island",
+      "secondsAgo": 1274,
+      "sourceId": 1794667485
     },
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Unova",
       "location": "Route 15",
-      "secondsAgo": 2582,
-      "sourceId": 1794665884
+      "secondsAgo": 2874,
+      "sourceId": 1794665885
     }
   ],
   "alpha": {
