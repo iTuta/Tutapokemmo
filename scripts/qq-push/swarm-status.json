@@ -1,45 +1,52 @@
 {
-  "fetchedAt": "2026-11-14T07:55:43.470Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-14T08:01:12.807Z",
+  "swarms": [
     {
-      "monsterId": 425,
-      "pokemon": "Drifloon",
+      "monsterId": 350,
+      "pokemon": "Milotic",
       "region": "Kanto",
-      "location": "Route 10",
-      "secondsAgo": 5198,
-      "sourceId": 1794637745
+      "location": "Resort Gorgeous",
+      "sourceId": 1794644532,
+      "despawnTimestamp": 1794644531,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T08:22:12.000Z",
+      "publishedBy": ""
     },
     {
-      "monsterId": 154,
-      "pokemon": "Meganium",
+      "monsterId": 285,
+      "pokemon": "Shroomish",
       "region": "Johto",
-      "location": "Route 48",
-      "secondsAgo": 2060,
-      "sourceId": 1794640883
-    },
+      "location": "Route 34",
+      "sourceId": 1794644765,
+      "despawnTimestamp": 1794644764,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T08:26:05.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 260,
       "pokemon": "Swampert",
       "region": "Hoenn",
       "location": "Route 109",
-      "secondsAgo": 3090,
-      "sourceId": 1794639853
+      "secondsAgo": 3420,
+      "sourceId": 1794639852
     },
     {
       "monsterId": 126,
       "pokemon": "Magmar",
       "region": "Sinnoh",
       "location": "Fuego Ironworks",
-      "secondsAgo": 3304,
-      "sourceId": 1794639639
+      "secondsAgo": 3634,
+      "sourceId": 1794639638
     },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 4824,
+      "secondsAgo": 5153,
       "sourceId": 1794638119
     }
   ],
