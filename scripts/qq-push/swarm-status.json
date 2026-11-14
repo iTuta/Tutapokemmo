@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-14T03:30:55.292Z",
+  "fetchedAt": "2026-11-14T03:36:09.246Z",
   "swarms": [
-    {
-      "monsterId": 161,
-      "pokemon": "Sentret",
-      "region": "Kanto",
-      "location": "Route 1",
-      "sourceId": 1794627201,
-      "despawnTimestamp": 1794627201,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T03:33:21.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 372,
       "pokemon": "Shelgon",
@@ -22,35 +11,40 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-14T03:44:25.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 83,
-      "pokemon": "Farfetch&#x27;d",
-      "region": "Unova",
-      "location": "Route 1",
-      "sourceId": 1794627291,
-      "despawnTimestamp": 1794627290,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T03:34:51.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
+    {
+      "monsterId": 161,
+      "pokemon": "Sentret",
+      "region": "Kanto",
+      "location": "Route 1",
+      "secondsAgo": 1667,
+      "sourceId": 1794625702
+    },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Hoenn",
       "location": "Scorched Slab",
-      "secondsAgo": 1528,
-      "sourceId": 1794625527
+      "secondsAgo": 1841,
+      "sourceId": 1794625528
     },
     {
       "monsterId": 424,
       "pokemon": "Ambipom",
       "region": "Sinnoh",
       "location": "Route 216",
-      "secondsAgo": 4261,
+      "secondsAgo": 4575,
       "sourceId": 1794622794
+    },
+    {
+      "monsterId": 83,
+      "pokemon": "Farfetch&#x27;d",
+      "region": "Unova",
+      "location": "Route 1",
+      "secondsAgo": 1578,
+      "sourceId": 1794625791
     }
   ],
   "alpha": {
