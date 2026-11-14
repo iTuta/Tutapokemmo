@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T22:35:43.102Z",
+  "fetchedAt": "2026-11-14T22:40:49.033Z",
   "swarms": [
     {
       "monsterId": 102,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-14T22:42:16.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 358,
+      "pokemon": "Chimecho",
+      "region": "Sinnoh",
+      "location": "Acuity Lakefront",
+      "sourceId": 1794697410,
+      "despawnTimestamp": 1794697410,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T23:03:30.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Absol",
       "region": "Kanto",
       "location": "Canyon Entrance",
-      "secondsAgo": 8251,
+      "secondsAgo": 8557,
       "sourceId": 1794687492
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Blaziken",
       "region": "Hoenn",
       "location": "Magma Hideout",
-      "secondsAgo": 1410,
+      "secondsAgo": 1716,
       "sourceId": 1794694333
-    },
-    {
-      "monsterId": 442,
-      "pokemon": "Spiritomb",
-      "region": "Sinnoh",
-      "location": "Turnback Cave",
-      "secondsAgo": 2322,
-      "sourceId": 1794693421
     },
     {
       "monsterId": 224,
       "pokemon": "Octillery",
       "region": "Unova",
       "location": "Route 13",
-      "secondsAgo": 2421,
+      "secondsAgo": 2727,
       "sourceId": 1794693322
     }
   ],
