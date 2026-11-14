@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T17:25:43.176Z",
+  "fetchedAt": "2026-11-14T17:30:55.098Z",
   "swarms": [
     {
       "monsterId": 373,
@@ -11,26 +11,23 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-14T17:35:19.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 121,
       "pokemon": "Starmie",
       "region": "Johto",
       "location": "Cliff Edge Gate",
-      "sourceId": 1794677228,
-      "despawnTimestamp": 1794677228,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T17:27:08.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1726,
+      "sourceId": 1794675729
+    },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Sinnoh",
       "location": "Route 201",
-      "secondsAgo": 2547,
+      "secondsAgo": 2859,
       "sourceId": 1794674596
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 6439,
+      "secondsAgo": 6751,
       "sourceId": 1794670704
     }
   ],
