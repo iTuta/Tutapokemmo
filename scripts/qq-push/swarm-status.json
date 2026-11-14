@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T04:45:47.269Z",
+  "fetchedAt": "2026-11-14T04:50:52.941Z",
   "swarms": [
     {
       "monsterId": 9,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Cape Brink",
       "sourceId": 1794632672,
-      "despawnTimestamp": 1794632672,
+      "despawnTimestamp": 1794632671,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T05:04:32.000Z",
       "publishedBy": ""
@@ -18,20 +18,9 @@
       "region": "Johto",
       "location": "Ice Path",
       "sourceId": 1794632147,
-      "despawnTimestamp": 1794632147,
+      "despawnTimestamp": 1794632146,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T04:55:47.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Hoenn",
-      "location": "Route 125",
-      "sourceId": 1794631634,
-      "despawnTimestamp": 1794631634,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T04:47:14.000Z",
       "publishedBy": ""
     },
     {
@@ -48,12 +37,20 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Hoenn",
+      "location": "Route 125",
+      "secondsAgo": 1118,
+      "sourceId": 1794630734
+    },
+    {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 1866,
-      "sourceId": 1794629681
+      "secondsAgo": 2172,
+      "sourceId": 1794629680
     }
   ],
   "alpha": {
