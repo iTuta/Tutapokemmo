@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T19:55:45.000Z",
+  "fetchedAt": "2026-11-14T20:01:14.474Z",
   "swarms": [
     {
       "monsterId": 121,
@@ -13,51 +13,43 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Sinnoh",
+      "location": "Valor Lakefront",
+      "sourceId": 1794687457,
+      "despawnTimestamp": 1794687457,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T20:17:37.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Johto",
       "location": "Union Cave",
-      "sourceId": 1794686351,
-      "despawnTimestamp": 1794686350,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T19:59:11.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1623,
+      "sourceId": 1794684851
     },
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Hoenn",
       "location": "Shoal Cave",
-      "sourceId": 1794686451,
-      "despawnTimestamp": 1794686450,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T20:00:51.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Sinnoh",
-      "location": "Valor Lakefront",
-      "sourceId": 1794687457,
-      "despawnTimestamp": 1794687456,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T20:17:37.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1523,
+      "sourceId": 1794684951
     },
     {
       "monsterId": 106,
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "sourceId": 1794686246,
-      "despawnTimestamp": 1794686245,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T19:57:26.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1727,
+      "sourceId": 1794684747
     }
   ],
-  "lastSeen": [],
   "alpha": {
     "monsterId": 279,
     "pokemon": "Pelipper",
