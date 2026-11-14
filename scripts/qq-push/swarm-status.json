@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-14T04:20:44.227Z",
+  "fetchedAt": "2026-11-14T04:25:41.325Z",
   "swarms": [
-    {
-      "monsterId": 375,
-      "pokemon": "Metang",
-      "region": "Johto",
-      "location": "Ice Path",
-      "sourceId": 1794630235,
-      "despawnTimestamp": 1794630235,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T04:23:55.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 441,
       "pokemon": "Chatot",
@@ -30,15 +19,23 @@
       "pokemon": "Sentret",
       "region": "Kanto",
       "location": "Route 1",
-      "secondsAgo": 4342,
+      "secondsAgo": 4639,
       "sourceId": 1794625702
+    },
+    {
+      "monsterId": 375,
+      "pokemon": "Metang",
+      "region": "Johto",
+      "location": "Ice Path",
+      "secondsAgo": 1605,
+      "sourceId": 1794628736
     },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
       "region": "Hoenn",
       "location": "Route 133",
-      "secondsAgo": 1949,
+      "secondsAgo": 2246,
       "sourceId": 1794628095
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 4253,
+      "secondsAgo": 4550,
       "sourceId": 1794625791
     }
   ],
