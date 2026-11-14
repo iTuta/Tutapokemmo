@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-14T08:35:50.895Z",
+  "fetchedAt": "2026-11-14T08:40:43.760Z",
   "swarms": [
+    {
+      "monsterId": 141,
+      "pokemon": "Kabutops",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "sourceId": 1794647079,
+      "despawnTimestamp": 1794647079,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T09:04:39.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 375,
       "pokemon": "Metang",
@@ -10,28 +21,6 @@
       "despawnTimestamp": 1794646787,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T08:59:48.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 253,
-      "pokemon": "Grovyle",
-      "region": "Hoenn",
-      "location": "Route 120",
-      "sourceId": 1794645640,
-      "despawnTimestamp": 1794645639,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T08:40:40.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Sinnoh",
-      "location": "Iron Island",
-      "sourceId": 1794645552,
-      "despawnTimestamp": 1794645551,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T08:39:12.000Z",
       "publishedBy": ""
     },
     {
@@ -48,12 +37,20 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 350,
-      "pokemon": "Milotic",
-      "region": "Kanto",
-      "location": "Resort Gorgeous",
-      "secondsAgo": 2318,
-      "sourceId": 1794643032
+      "monsterId": 253,
+      "pokemon": "Grovyle",
+      "region": "Hoenn",
+      "location": "Route 120",
+      "secondsAgo": 1503,
+      "sourceId": 1794644140
+    },
+    {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Sinnoh",
+      "location": "Iron Island",
+      "secondsAgo": 1591,
+      "sourceId": 1794644052
     }
   ],
   "alpha": {
