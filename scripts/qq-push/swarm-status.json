@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T23:10:48.639Z",
+  "fetchedAt": "2026-11-14T23:15:44.531Z",
   "swarms": [
     {
       "monsterId": 142,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1794699093,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T23:31:33.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 121,
-      "pokemon": "Starmie",
-      "region": "Johto",
-      "location": "Cliff Edge Gate",
-      "sourceId": 1794698098,
-      "despawnTimestamp": 1794698098,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T23:14:58.000Z",
       "publishedBy": ""
     },
     {
@@ -48,11 +37,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 121,
+      "pokemon": "Starmie",
+      "region": "Johto",
+      "location": "Cliff Edge Gate",
+      "secondsAgo": 1545,
+      "sourceId": 1794696599
+    },
+    {
       "monsterId": 257,
       "pokemon": "Blaziken",
       "region": "Hoenn",
       "location": "Magma Hideout",
-      "secondsAgo": 3516,
+      "secondsAgo": 3812,
       "sourceId": 1794694332
     }
   ],
