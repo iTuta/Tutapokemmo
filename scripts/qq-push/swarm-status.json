@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T14:20:39.591Z",
+  "fetchedAt": "2026-11-14T14:26:11.602Z",
   "swarms": [
     {
       "monsterId": 441,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1794666533,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T14:28:53.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 469,
-      "pokemon": "Yanmega",
-      "region": "Johto",
-      "location": "Route 44",
-      "sourceId": 1794666291,
-      "despawnTimestamp": 1794666290,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T14:24:51.000Z",
       "publishedBy": ""
     },
     {
@@ -48,11 +37,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 469,
+      "pokemon": "Yanmega",
+      "region": "Johto",
+      "location": "Route 44",
+      "secondsAgo": 1580,
+      "sourceId": 1794664791
+    },
+    {
       "monsterId": 260,
       "pokemon": "Swampert",
       "region": "Hoenn",
       "location": "Route 109",
-      "secondsAgo": 952,
+      "secondsAgo": 1284,
       "sourceId": 1794665087
     }
   ],
