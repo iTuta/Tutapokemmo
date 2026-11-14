@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-14T00:40:43.794Z",
+  "fetchedAt": "2026-11-14T00:45:49.219Z",
   "swarms": [
+    {
+      "monsterId": 373,
+      "pokemon": "Salamence",
+      "region": "Kanto",
+      "location": "Victory Road",
+      "sourceId": 1794618373,
+      "despawnTimestamp": 1794618373,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T01:06:13.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
@@ -13,23 +24,12 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 259,
-      "pokemon": "Marshtomp",
-      "region": "Hoenn",
-      "location": "Route 124",
-      "sourceId": 1794617353,
-      "despawnTimestamp": 1794617352,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T00:49:13.000Z",
-      "publishedBy": ""
-    },
-    {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Unova",
       "location": "Route 12",
       "sourceId": 1794617448,
-      "despawnTimestamp": 1794617447,
+      "despawnTimestamp": 1794617448,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T00:50:48.000Z",
       "publishedBy": ""
@@ -37,20 +37,20 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Kanto",
-      "location": "Icefall Cave",
-      "secondsAgo": 1643,
-      "sourceId": 1794615200
+      "monsterId": 259,
+      "pokemon": "Marshtomp",
+      "region": "Hoenn",
+      "location": "Route 124",
+      "secondsAgo": 1295,
+      "sourceId": 1794615854
     },
     {
       "monsterId": 288,
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 2148,
-      "sourceId": 1794614695
+      "secondsAgo": 2453,
+      "sourceId": 1794614696
     }
   ],
   "alpha": {
