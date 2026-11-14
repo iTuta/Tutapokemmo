@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T09:25:41.066Z",
+  "fetchedAt": "2026-11-14T09:31:06.126Z",
   "swarms": [
     {
       "monsterId": 200,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-14T09:39:02.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Unova",
-      "location": "Route 15",
-      "sourceId": 1794648641,
-      "despawnTimestamp": 1794648641,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T09:30:41.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,7 +30,7 @@
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 3052,
+      "secondsAgo": 3377,
       "sourceId": 1794645289
     },
     {
@@ -49,8 +38,16 @@
       "pokemon": "Grovyle",
       "region": "Hoenn",
       "location": "Route 120",
-      "secondsAgo": 4200,
+      "secondsAgo": 4525,
       "sourceId": 1794644141
+    },
+    {
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Unova",
+      "location": "Route 15",
+      "secondsAgo": 1524,
+      "sourceId": 1794647142
     }
   ],
   "alpha": {
