@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-14T16:20:48.179Z",
+  "fetchedAt": "2026-11-14T16:25:39.232Z",
   "swarms": [
-    {
-      "monsterId": 517,
-      "pokemon": "Munna",
-      "region": "Kanto",
-      "location": "Route 4",
-      "sourceId": 1794673490,
-      "despawnTimestamp": 1794673490,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T16:24:50.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 237,
       "pokemon": "Hitmontop",
@@ -40,7 +29,7 @@
       "region": "Sinnoh",
       "location": "Route 213",
       "sourceId": 1794674576,
-      "despawnTimestamp": 1794674576,
+      "despawnTimestamp": 1794674575,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T16:42:56.000Z",
       "publishedBy": ""
@@ -48,11 +37,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Kanto",
+      "location": "Route 4",
+      "secondsAgo": 1548,
+      "sourceId": 1794671991
+    },
+    {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 2544,
+      "secondsAgo": 2835,
       "sourceId": 1794670704
     }
   ],
