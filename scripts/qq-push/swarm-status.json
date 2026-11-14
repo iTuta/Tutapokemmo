@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-14T22:40:49.033Z",
+  "fetchedAt": "2026-11-14T22:45:52.729Z",
   "swarms": [
-    {
-      "monsterId": 102,
-      "pokemon": "Exeggcute",
-      "region": "Johto",
-      "location": "Route 30",
-      "sourceId": 1794696136,
-      "despawnTimestamp": 1794696136,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T22:42:16.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 358,
       "pokemon": "Chimecho",
@@ -30,24 +19,32 @@
       "pokemon": "Absol",
       "region": "Kanto",
       "location": "Canyon Entrance",
-      "secondsAgo": 8557,
+      "secondsAgo": 8860,
       "sourceId": 1794687492
+    },
+    {
+      "monsterId": 102,
+      "pokemon": "Exeggcute",
+      "region": "Johto",
+      "location": "Route 30",
+      "secondsAgo": 1716,
+      "sourceId": 1794694636
     },
     {
       "monsterId": 257,
       "pokemon": "Blaziken",
       "region": "Hoenn",
       "location": "Magma Hideout",
-      "secondsAgo": 1716,
-      "sourceId": 1794694333
+      "secondsAgo": 2020,
+      "sourceId": 1794694332
     },
     {
       "monsterId": 224,
       "pokemon": "Octillery",
       "region": "Unova",
       "location": "Route 13",
-      "secondsAgo": 2727,
-      "sourceId": 1794693322
+      "secondsAgo": 3031,
+      "sourceId": 1794693321
     }
   ],
   "alpha": {
