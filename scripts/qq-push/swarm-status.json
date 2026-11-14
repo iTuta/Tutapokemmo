@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-11-14T05:20:53.891Z",
+  "fetchedAt": "2026-11-14T05:25:40.323Z",
   "swarms": [
-    {
-      "monsterId": 348,
-      "pokemon": "Armaldo",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "sourceId": 1794634304,
-      "despawnTimestamp": 1794634303,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T05:31:44.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 290,
-      "pokemon": "Nincada",
-      "region": "Johto",
-      "location": "Route 46",
-      "sourceId": 1794633860,
-      "despawnTimestamp": 1794633859,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T05:24:20.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 420,
       "pokemon": "Cherubi",
@@ -37,20 +15,36 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 348,
+      "pokemon": "Armaldo",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "secondsAgo": 1135,
+      "sourceId": 1794632805
+    },
+    {
+      "monsterId": 290,
+      "pokemon": "Nincada",
+      "region": "Johto",
+      "location": "Route 46",
+      "secondsAgo": 1580,
+      "sourceId": 1794632360
+    },
+    {
       "monsterId": 185,
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 1538,
-      "sourceId": 1794632115
+      "secondsAgo": 1824,
+      "sourceId": 1794632116
     },
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 3973,
-      "sourceId": 1794629680
+      "secondsAgo": 4259,
+      "sourceId": 1794629681
     }
   ],
   "alpha": {
