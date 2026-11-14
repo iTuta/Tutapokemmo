@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T01:15:43.380Z",
+  "fetchedAt": "2026-11-14T01:21:00.476Z",
   "swarms": [
     {
       "monsterId": 248,
@@ -11,23 +11,26 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-14T01:32:06.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 237,
+      "pokemon": "Hitmontop",
+      "region": "Johto",
+      "location": "Mt. Mortar",
+      "sourceId": 1794620625,
+      "despawnTimestamp": 1794620625,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T01:43:45.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Johto",
-      "location": "Bell Tower",
-      "secondsAgo": 2696,
-      "sourceId": 1794616247
-    },
     {
       "monsterId": 259,
       "pokemon": "Marshtomp",
       "region": "Hoenn",
       "location": "Route 124",
-      "secondsAgo": 3089,
+      "secondsAgo": 3406,
       "sourceId": 1794615854
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 4248,
+      "secondsAgo": 4565,
       "sourceId": 1794614695
     }
   ],
