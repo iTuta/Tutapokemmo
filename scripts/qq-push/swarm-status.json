@@ -1,53 +1,50 @@
 {
-  "fetchedAt": "2026-11-14T06:25:39.978Z",
+  "fetchedAt": "2026-11-14T06:31:00.176Z",
   "swarms": [
+    {
+      "monsterId": 425,
+      "pokemon": "Drifloon",
+      "region": "Kanto",
+      "location": "Route 10",
+      "sourceId": 1794639245,
+      "despawnTimestamp": 1794639245,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T06:54:05.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 290,
+      "pokemon": "Nincada",
+      "region": "Johto",
+      "location": "Route 46",
+      "secondsAgo": 5500,
+      "sourceId": 1794632360
+    },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Hoenn",
       "location": "Seafloor Cavern",
-      "sourceId": 1794638681,
-      "despawnTimestamp": 1794638680,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T06:44:41.000Z",
-      "publishedBy": ""
+      "secondsAgo": 678,
+      "sourceId": 1794637182
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "sourceId": 1794637674,
-      "despawnTimestamp": 1794637673,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T06:27:54.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 214,
-      "pokemon": "Heracross",
-      "region": "Kanto",
-      "location": "Route 16",
-      "secondsAgo": 2371,
-      "sourceId": 1794635168
-    },
-    {
-      "monsterId": 290,
-      "pokemon": "Nincada",
-      "region": "Johto",
-      "location": "Route 46",
-      "secondsAgo": 5179,
-      "sourceId": 1794632360
+      "secondsAgo": 1685,
+      "sourceId": 1794636175
     },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 1123,
-      "sourceId": 1794636416
+      "secondsAgo": 1443,
+      "sourceId": 1794636417
     }
   ],
   "alpha": {
