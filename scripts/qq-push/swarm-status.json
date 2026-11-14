@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-11-14T15:30:55.294Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-14T15:35:46.042Z",
+  "swarms": [
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Johto",
+      "location": "Dark Cave",
+      "sourceId": 1794671812,
+      "despawnTimestamp": 1794671812,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T15:56:52.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 346,
       "pokemon": "Cradily",
       "region": "Kanto",
       "location": "Weepth Chamber",
-      "secondsAgo": 1795,
-      "sourceId": 1794668460
-    },
-    {
-      "monsterId": 320,
-      "pokemon": "Wailmer",
-      "region": "Johto",
-      "location": "Route 40",
-      "secondsAgo": 2086,
-      "sourceId": 1794668169
+      "secondsAgo": 2085,
+      "sourceId": 1794668461
     },
     {
       "monsterId": 185,
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 3815,
+      "secondsAgo": 4106,
       "sourceId": 1794666440
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Lucario",
       "region": "Sinnoh",
       "location": "Iron Island",
-      "secondsAgo": 2770,
+      "secondsAgo": 3061,
       "sourceId": 1794667485
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Houndoom",
       "region": "Unova",
       "location": "Route 15",
-      "secondsAgo": 4371,
-      "sourceId": 1794665884
+      "secondsAgo": 4661,
+      "sourceId": 1794665885
     }
   ],
   "alpha": {
