@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-14T15:05:59.129Z",
+  "fetchedAt": "2026-11-14T15:10:48.263Z",
   "swarms": [
-    {
-      "monsterId": 103,
-      "pokemon": "Exeggutor",
-      "region": "Kanto",
-      "location": "Route 23",
-      "sourceId": 1794668956,
-      "despawnTimestamp": 1794668956,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T15:09:16.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 320,
       "pokemon": "Wailmer",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 103,
+      "pokemon": "Exeggutor",
+      "region": "Kanto",
+      "location": "Route 23",
+      "secondsAgo": 1591,
+      "sourceId": 1794667457
+    },
+    {
       "monsterId": 185,
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 2319,
+      "secondsAgo": 2608,
       "sourceId": 1794666440
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Lucario",
       "region": "Sinnoh",
       "location": "Iron Island",
-      "secondsAgo": 1274,
+      "secondsAgo": 1563,
       "sourceId": 1794667485
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Houndoom",
       "region": "Unova",
       "location": "Route 15",
-      "secondsAgo": 2874,
-      "sourceId": 1794665885
+      "secondsAgo": 3164,
+      "sourceId": 1794665884
     }
   ],
   "alpha": {
