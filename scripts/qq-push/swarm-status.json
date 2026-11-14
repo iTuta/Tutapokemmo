@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T16:15:51.811Z",
+  "fetchedAt": "2026-11-14T16:20:48.179Z",
   "swarms": [
     {
       "monsterId": 517,
@@ -18,7 +18,7 @@
       "region": "Johto",
       "location": "Mt. Mortar",
       "sourceId": 1794673813,
-      "despawnTimestamp": 1794673812,
+      "despawnTimestamp": 1794673813,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T16:30:13.000Z",
       "publishedBy": ""
@@ -29,28 +29,31 @@
       "region": "Hoenn",
       "location": "Fiery Path",
       "sourceId": 1794674385,
-      "despawnTimestamp": 1794674384,
+      "despawnTimestamp": 1794674385,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T16:39:45.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 452,
+      "pokemon": "Drapion",
+      "region": "Sinnoh",
+      "location": "Route 213",
+      "sourceId": 1794674576,
+      "despawnTimestamp": 1794674576,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T16:42:56.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 193,
-      "pokemon": "Yanma",
-      "region": "Sinnoh",
-      "location": "Route 205",
-      "secondsAgo": 1812,
-      "sourceId": 1794671139
-    },
-    {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 2248,
-      "sourceId": 1794670703
+      "secondsAgo": 2544,
+      "sourceId": 1794670704
     }
   ],
   "alpha": {
