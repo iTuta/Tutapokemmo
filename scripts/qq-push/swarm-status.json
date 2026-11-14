@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T03:25:51.776Z",
+  "fetchedAt": "2026-11-14T03:30:55.292Z",
   "swarms": [
     {
       "monsterId": 161,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Route 1",
       "sourceId": 1794627201,
-      "despawnTimestamp": 1794627200,
+      "despawnTimestamp": 1794627201,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T03:33:21.000Z",
       "publishedBy": ""
@@ -18,20 +18,9 @@
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
       "sourceId": 1794627865,
-      "despawnTimestamp": 1794627864,
+      "despawnTimestamp": 1794627865,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T03:44:25.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Hoenn",
-      "location": "Scorched Slab",
-      "sourceId": 1794627027,
-      "despawnTimestamp": 1794627026,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T03:30:27.000Z",
       "publishedBy": ""
     },
     {
@@ -48,12 +37,20 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Hoenn",
+      "location": "Scorched Slab",
+      "secondsAgo": 1528,
+      "sourceId": 1794625527
+    },
+    {
       "monsterId": 424,
       "pokemon": "Ambipom",
       "region": "Sinnoh",
       "location": "Route 216",
-      "secondsAgo": 3958,
-      "sourceId": 1794622793
+      "secondsAgo": 4261,
+      "sourceId": 1794622794
     }
   ],
   "alpha": {
