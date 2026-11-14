@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T03:10:47.592Z",
+  "fetchedAt": "2026-11-14T03:15:53.915Z",
   "swarms": [
     {
       "monsterId": 161,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1794627200,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T03:33:21.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 319,
-      "pokemon": "Sharpedo",
-      "region": "Johto",
-      "location": "Route 41",
-      "sourceId": 1794625856,
-      "despawnTimestamp": 1794625856,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T03:10:56.000Z",
       "publishedBy": ""
     },
     {
@@ -48,12 +37,20 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 319,
+      "pokemon": "Sharpedo",
+      "region": "Johto",
+      "location": "Route 41",
+      "secondsAgo": 1797,
+      "sourceId": 1794624356
+    },
+    {
       "monsterId": 424,
       "pokemon": "Ambipom",
       "region": "Sinnoh",
       "location": "Route 216",
-      "secondsAgo": 3053,
-      "sourceId": 1794622794
+      "secondsAgo": 3360,
+      "sourceId": 1794622793
     }
   ],
   "alpha": {
