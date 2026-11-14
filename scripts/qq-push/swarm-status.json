@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T12:40:45.808Z",
+  "fetchedAt": "2026-11-14T12:45:53.557Z",
   "swarms": [
     {
       "monsterId": 153,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-14T12:57:22.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 253,
+      "pokemon": "Grovyle",
+      "region": "Hoenn",
+      "location": "Route 118",
+      "sourceId": 1794661592,
+      "despawnTimestamp": 1794661592,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T13:06:32.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,23 +30,15 @@
       "pokemon": "Sentret",
       "region": "Kanto",
       "location": "Route 1",
-      "secondsAgo": 3629,
+      "secondsAgo": 3937,
       "sourceId": 1794656416
-    },
-    {
-      "monsterId": 352,
-      "pokemon": "Kecleon",
-      "region": "Hoenn",
-      "location": "Route 120",
-      "secondsAgo": 1810,
-      "sourceId": 1794658235
     },
     {
       "monsterId": 388,
       "pokemon": "Grotle",
       "region": "Sinnoh",
       "location": "Sendoff Spring",
-      "secondsAgo": 1788,
+      "secondsAgo": 2096,
       "sourceId": 1794658257
     },
     {
@@ -43,8 +46,8 @@
       "pokemon": "Houndoom",
       "region": "Unova",
       "location": "Route 15",
-      "secondsAgo": 12904,
-      "sourceId": 1794647141
+      "secondsAgo": 13211,
+      "sourceId": 1794647142
     }
   ],
   "alpha": {
