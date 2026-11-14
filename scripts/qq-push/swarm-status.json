@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T07:25:51.456Z",
+  "fetchedAt": "2026-11-14T07:31:01.144Z",
   "swarms": [
     {
       "monsterId": 154,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-14T07:46:22.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 260,
-      "pokemon": "Swampert",
-      "region": "Hoenn",
-      "location": "Route 109",
-      "sourceId": 1794641352,
-      "despawnTimestamp": 1794641352,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T07:29:12.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,15 +19,23 @@
       "pokemon": "Drifloon",
       "region": "Kanto",
       "location": "Route 10",
-      "secondsAgo": 3406,
-      "sourceId": 1794637745
+      "secondsAgo": 3715,
+      "sourceId": 1794637746
+    },
+    {
+      "monsterId": 260,
+      "pokemon": "Swampert",
+      "region": "Hoenn",
+      "location": "Route 109",
+      "secondsAgo": 1608,
+      "sourceId": 1794639853
     },
     {
       "monsterId": 126,
       "pokemon": "Magmar",
       "region": "Sinnoh",
       "location": "Fuego Ironworks",
-      "secondsAgo": 1512,
+      "secondsAgo": 1822,
       "sourceId": 1794639639
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 3032,
+      "secondsAgo": 3342,
       "sourceId": 1794638119
     }
   ],
