@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T13:40:52.612Z",
+  "fetchedAt": "2026-11-14T13:45:48.520Z",
   "swarms": [
     {
       "monsterId": 369,
@@ -24,17 +24,6 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 442,
-      "pokemon": "Spiritomb",
-      "region": "Sinnoh",
-      "location": "Turnback Cave",
-      "sourceId": 1794663869,
-      "despawnTimestamp": 1794663869,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T13:44:29.000Z",
-      "publishedBy": ""
-    },
-    {
       "monsterId": 517,
       "pokemon": "Munna",
       "region": "Unova",
@@ -52,8 +41,16 @@
       "pokemon": "Exeggcute",
       "region": "Johto",
       "location": "Route 30",
-      "secondsAgo": 1750,
+      "secondsAgo": 2046,
       "sourceId": 1794661902
+    },
+    {
+      "monsterId": 442,
+      "pokemon": "Spiritomb",
+      "region": "Sinnoh",
+      "location": "Turnback Cave",
+      "secondsAgo": 1578,
+      "sourceId": 1794662370
     }
   ],
   "alpha": {
