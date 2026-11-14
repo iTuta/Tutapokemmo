@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-14T08:20:42.748Z",
+  "fetchedAt": "2026-11-14T08:25:43.720Z",
   "swarms": [
-    {
-      "monsterId": 350,
-      "pokemon": "Milotic",
-      "region": "Kanto",
-      "location": "Resort Gorgeous",
-      "sourceId": 1794644532,
-      "despawnTimestamp": 1794644531,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T08:22:12.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
@@ -44,16 +33,27 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-14T08:39:12.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 106,
+      "pokemon": "Hitmonlee",
+      "region": "Unova",
+      "location": "Victory Road",
+      "sourceId": 1794646020,
+      "despawnTimestamp": 1794646020,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T08:47:00.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Unova",
-      "location": "Guidance Chamber",
-      "secondsAgo": 6323,
-      "sourceId": 1794638119
+      "monsterId": 350,
+      "pokemon": "Milotic",
+      "region": "Kanto",
+      "location": "Resort Gorgeous",
+      "secondsAgo": 1711,
+      "sourceId": 1794643032
     }
   ],
   "alpha": {
