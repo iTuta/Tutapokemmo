@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-14T03:05:48.845Z",
+  "fetchedAt": "2026-11-14T03:10:47.592Z",
   "swarms": [
+    {
+      "monsterId": 161,
+      "pokemon": "Sentret",
+      "region": "Kanto",
+      "location": "Route 1",
+      "sourceId": 1794627201,
+      "despawnTimestamp": 1794627200,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T03:33:21.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Johto",
       "location": "Route 41",
       "sourceId": 1794625856,
-      "despawnTimestamp": 1794625855,
+      "despawnTimestamp": 1794625856,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T03:10:56.000Z",
       "publishedBy": ""
@@ -22,32 +33,27 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-14T03:30:27.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 83,
+      "pokemon": "Farfetch&#x27;d",
+      "region": "Unova",
+      "location": "Route 1",
+      "sourceId": 1794627291,
+      "despawnTimestamp": 1794627290,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T03:34:51.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 359,
-      "pokemon": "Absol",
-      "region": "Kanto",
-      "location": "Canyon Entrance",
-      "secondsAgo": 4872,
-      "sourceId": 1794620676
-    },
     {
       "monsterId": 424,
       "pokemon": "Ambipom",
       "region": "Sinnoh",
       "location": "Route 216",
-      "secondsAgo": 2755,
-      "sourceId": 1794622793
-    },
-    {
-      "monsterId": 224,
-      "pokemon": "Octillery",
-      "region": "Unova",
-      "location": "Route 13",
-      "secondsAgo": 2395,
-      "sourceId": 1794623153
+      "secondsAgo": 3053,
+      "sourceId": 1794622794
     }
   ],
   "alpha": {
