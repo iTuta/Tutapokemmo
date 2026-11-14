@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-14T06:50:40.695Z",
+  "fetchedAt": "2026-11-14T06:56:01.755Z",
   "swarms": [
-    {
-      "monsterId": 425,
-      "pokemon": "Drifloon",
-      "region": "Kanto",
-      "location": "Route 10",
-      "sourceId": 1794639245,
-      "despawnTimestamp": 1794639244,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T06:54:05.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 425,
+      "pokemon": "Drifloon",
+      "region": "Kanto",
+      "location": "Route 10",
+      "secondsAgo": 1616,
+      "sourceId": 1794637745
+    },
+    {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 6680,
+      "secondsAgo": 7001,
       "sourceId": 1794632360
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Shuckle",
       "region": "Hoenn",
       "location": "Seafloor Cavern",
-      "secondsAgo": 1859,
+      "secondsAgo": 2180,
       "sourceId": 1794637181
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 2865,
+      "secondsAgo": 3186,
       "sourceId": 1794636175
     }
   ],
