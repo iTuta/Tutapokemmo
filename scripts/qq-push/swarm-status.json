@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T12:55:46.985Z",
+  "fetchedAt": "2026-11-14T13:01:14.077Z",
   "swarms": [
     {
       "monsterId": 5,
@@ -7,20 +7,9 @@
       "region": "Kanto",
       "location": "Rock Tunnel",
       "sourceId": 1794662080,
-      "despawnTimestamp": 1794662079,
+      "despawnTimestamp": 1794662080,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T13:14:40.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 153,
-      "pokemon": "Bayleef",
-      "region": "Johto",
-      "location": "National Park",
-      "sourceId": 1794661042,
-      "despawnTimestamp": 1794661041,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T12:57:22.000Z",
       "publishedBy": ""
     },
     {
@@ -29,7 +18,7 @@
       "region": "Hoenn",
       "location": "Route 118",
       "sourceId": 1794661592,
-      "despawnTimestamp": 1794661591,
+      "despawnTimestamp": 1794661592,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T13:06:32.000Z",
       "publishedBy": ""
@@ -40,20 +29,31 @@
       "region": "Sinnoh",
       "location": "Route 203",
       "sourceId": 1794662320,
-      "despawnTimestamp": 1794662320,
+      "despawnTimestamp": 1794662321,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T13:18:40.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 311,
+      "pokemon": "Plusle",
+      "region": "Unova",
+      "location": "Route 5",
+      "sourceId": 1794662551,
+      "despawnTimestamp": 1794662551,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T13:22:31.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Unova",
-      "location": "Route 15",
-      "secondsAgo": 13805,
-      "sourceId": 1794647141
+      "monsterId": 153,
+      "pokemon": "Bayleef",
+      "region": "Johto",
+      "location": "National Park",
+      "secondsAgo": 1731,
+      "sourceId": 1794659543
     }
   ],
   "alpha": {
