@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-14T01:06:12.714Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-14T01:10:53.021Z",
+  "swarms": [
+    {
+      "monsterId": 248,
+      "pokemon": "Tyranitar",
+      "region": "Kanto",
+      "location": "Seven Island",
+      "sourceId": 1794619926,
+      "despawnTimestamp": 1794619925,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T01:32:06.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 2125,
+      "secondsAgo": 2405,
       "sourceId": 1794616247
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Marshtomp",
       "region": "Hoenn",
       "location": "Route 124",
-      "secondsAgo": 2519,
+      "secondsAgo": 2799,
       "sourceId": 1794615853
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 3677,
+      "secondsAgo": 3957,
       "sourceId": 1794614695
     }
   ],
