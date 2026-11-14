@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T04:10:55.961Z",
+  "fetchedAt": "2026-11-14T04:15:58.571Z",
   "swarms": [
     {
       "monsterId": 375,
@@ -7,9 +7,20 @@
       "region": "Johto",
       "location": "Ice Path",
       "sourceId": 1794630235,
-      "despawnTimestamp": 1794630234,
+      "despawnTimestamp": 1794630235,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T04:23:55.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 441,
+      "pokemon": "Chatot",
+      "region": "Sinnoh",
+      "location": "Route 218",
+      "sourceId": 1794631180,
+      "despawnTimestamp": 1794631180,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T04:39:40.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,7 +30,7 @@
       "pokemon": "Sentret",
       "region": "Kanto",
       "location": "Route 1",
-      "secondsAgo": 3754,
+      "secondsAgo": 4057,
       "sourceId": 1794625701
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Cloyster",
       "region": "Hoenn",
       "location": "Route 133",
-      "secondsAgo": 1360,
+      "secondsAgo": 1663,
       "sourceId": 1794628095
-    },
-    {
-      "monsterId": 424,
-      "pokemon": "Ambipom",
-      "region": "Sinnoh",
-      "location": "Route 216",
-      "secondsAgo": 6662,
-      "sourceId": 1794622793
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 3664,
+      "secondsAgo": 3967,
       "sourceId": 1794625791
     }
   ],
