@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T13:05:45.584Z",
+  "fetchedAt": "2026-11-14T13:10:48.305Z",
   "swarms": [
     {
       "monsterId": 5,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1794662080,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T13:14:40.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 253,
-      "pokemon": "Grovyle",
-      "region": "Hoenn",
-      "location": "Route 118",
-      "sourceId": 1794661592,
-      "despawnTimestamp": 1794661592,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T13:06:32.000Z",
       "publishedBy": ""
     },
     {
@@ -40,7 +29,7 @@
       "region": "Unova",
       "location": "Route 5",
       "sourceId": 1794662551,
-      "despawnTimestamp": 1794662550,
+      "despawnTimestamp": 1794662551,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T13:22:31.000Z",
       "publishedBy": ""
@@ -52,8 +41,16 @@
       "pokemon": "Bayleef",
       "region": "Johto",
       "location": "National Park",
-      "secondsAgo": 2002,
+      "secondsAgo": 2305,
       "sourceId": 1794659543
+    },
+    {
+      "monsterId": 253,
+      "pokemon": "Grovyle",
+      "region": "Hoenn",
+      "location": "Route 118",
+      "secondsAgo": 1755,
+      "sourceId": 1794660093
     }
   ],
   "alpha": {
