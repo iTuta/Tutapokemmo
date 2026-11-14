@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-14T16:50:55.367Z",
+  "fetchedAt": "2026-11-14T16:55:40.193Z",
   "swarms": [
-    {
-      "monsterId": 2,
-      "pokemon": "Ivysaur",
-      "region": "Kanto",
-      "location": "Route 5",
-      "sourceId": 1794675334,
-      "despawnTimestamp": 1794675334,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T16:55:34.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 438,
       "pokemon": "Bonsly",
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 2,
+      "pokemon": "Ivysaur",
+      "region": "Kanto",
+      "location": "Route 5",
+      "secondsAgo": 1505,
+      "sourceId": 1794673835
+    },
+    {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 4351,
+      "secondsAgo": 4636,
       "sourceId": 1794670704
     }
   ],
