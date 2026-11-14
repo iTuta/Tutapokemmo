@@ -1,53 +1,50 @@
 {
-  "fetchedAt": "2026-11-14T18:55:39.589Z",
+  "fetchedAt": "2026-11-14T19:01:18.397Z",
   "swarms": [
+    {
+      "monsterId": 148,
+      "pokemon": "Dragonair",
+      "region": "Unova",
+      "location": "Dragonspiral Tower",
+      "sourceId": 1794684271,
+      "despawnTimestamp": 1794684270,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T19:24:31.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 6,
       "pokemon": "Charizard",
       "region": "Kanto",
       "location": "Mt. Ember",
-      "sourceId": 1794682862,
-      "despawnTimestamp": 1794682862,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T19:01:02.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1515,
+      "sourceId": 1794681363
     },
     {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "sourceId": 1794682568,
-      "despawnTimestamp": 1794682568,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T18:56:08.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1809,
+      "sourceId": 1794681069
+    },
     {
       "monsterId": 107,
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 9654,
-      "sourceId": 1794672885
+      "secondsAgo": 9992,
+      "sourceId": 1794672886
     },
     {
       "monsterId": 394,
       "pokemon": "Prinplup",
       "region": "Sinnoh",
       "location": "Route 220",
-      "secondsAgo": 1505,
+      "secondsAgo": 1844,
       "sourceId": 1794681034
-    },
-    {
-      "monsterId": 451,
-      "pokemon": "Skorupi",
-      "region": "Unova",
-      "location": "Desert Resort",
-      "secondsAgo": 3145,
-      "sourceId": 1794679394
     }
   ],
   "alpha": {
