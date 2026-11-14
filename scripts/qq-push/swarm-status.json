@@ -1,50 +1,53 @@
 {
-  "fetchedAt": "2026-11-14T23:50:45.756Z",
+  "fetchedAt": "2026-11-14T23:55:45.195Z",
   "swarms": [
     {
-      "monsterId": 335,
-      "pokemon": "Zangoose",
-      "region": "Kanto",
-      "location": "Route 14",
-      "sourceId": 1794700516,
-      "despawnTimestamp": 1794700515,
+      "monsterId": 479,
+      "pokemon": "Rotom",
+      "region": "Hoenn",
+      "location": "New Mauville",
+      "sourceId": 1794701814,
+      "despawnTimestamp": 1794701814,
       "hasValuable": false,
-      "timestampUtc": "2026-11-14T23:55:16.000Z",
+      "timestampUtc": "2026-11-15T00:16:54.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 442,
+      "pokemon": "Spiritomb",
+      "region": "Sinnoh",
+      "location": "Turnback Cave",
+      "sourceId": 1794701848,
+      "despawnTimestamp": 1794701848,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T00:17:28.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
+      "monsterId": 335,
+      "pokemon": "Zangoose",
+      "region": "Kanto",
+      "location": "Route 14",
+      "secondsAgo": 1528,
+      "sourceId": 1794699017
+    },
+    {
       "monsterId": 121,
       "pokemon": "Starmie",
       "region": "Johto",
       "location": "Cliff Edge Gate",
-      "secondsAgo": 3647,
-      "sourceId": 1794696598
-    },
-    {
-      "monsterId": 255,
-      "pokemon": "Torchic",
-      "region": "Hoenn",
-      "location": "Route 112",
-      "secondsAgo": 1627,
-      "sourceId": 1794698618
-    },
-    {
-      "monsterId": 392,
-      "pokemon": "Infernape",
-      "region": "Sinnoh",
-      "location": "Route 221",
-      "secondsAgo": 2687,
-      "sourceId": 1794697558
+      "secondsAgo": 3946,
+      "sourceId": 1794696599
     },
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Unova",
       "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 2408,
-      "sourceId": 1794697837
+      "secondsAgo": 2707,
+      "sourceId": 1794697838
     }
   ],
   "alpha": {
