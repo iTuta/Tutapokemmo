@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T16:05:55.357Z",
+  "fetchedAt": "2026-11-14T16:10:58.131Z",
   "swarms": [
     {
       "monsterId": 517,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-14T16:30:13.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 193,
-      "pokemon": "Yanma",
-      "region": "Sinnoh",
-      "location": "Route 205",
-      "sourceId": 1794672639,
-      "despawnTimestamp": 1794672638,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T16:10:39.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,15 +30,23 @@
       "pokemon": "Finneon",
       "region": "Hoenn",
       "location": "Route 126",
-      "secondsAgo": 1675,
+      "secondsAgo": 1978,
       "sourceId": 1794670680
+    },
+    {
+      "monsterId": 193,
+      "pokemon": "Yanma",
+      "region": "Sinnoh",
+      "location": "Route 205",
+      "secondsAgo": 1518,
+      "sourceId": 1794671140
     },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 1651,
+      "secondsAgo": 1954,
       "sourceId": 1794670704
     }
   ],
