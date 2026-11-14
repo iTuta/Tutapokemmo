@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T23:46:03.176Z",
+  "fetchedAt": "2026-11-14T23:50:45.756Z",
   "swarms": [
     {
       "monsterId": 335,
@@ -7,20 +7,9 @@
       "region": "Kanto",
       "location": "Route 14",
       "sourceId": 1794700516,
-      "despawnTimestamp": 1794700516,
+      "despawnTimestamp": 1794700515,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T23:55:16.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 255,
-      "pokemon": "Torchic",
-      "region": "Hoenn",
-      "location": "Route 112",
-      "sourceId": 1794700118,
-      "despawnTimestamp": 1794700118,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T23:48:38.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,24 +19,32 @@
       "pokemon": "Starmie",
       "region": "Johto",
       "location": "Cliff Edge Gate",
-      "secondsAgo": 3364,
-      "sourceId": 1794696599
+      "secondsAgo": 3647,
+      "sourceId": 1794696598
+    },
+    {
+      "monsterId": 255,
+      "pokemon": "Torchic",
+      "region": "Hoenn",
+      "location": "Route 112",
+      "secondsAgo": 1627,
+      "sourceId": 1794698618
     },
     {
       "monsterId": 392,
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 2404,
-      "sourceId": 1794697559
+      "secondsAgo": 2687,
+      "sourceId": 1794697558
     },
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Unova",
       "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 2125,
-      "sourceId": 1794697838
+      "secondsAgo": 2408,
+      "sourceId": 1794697837
     }
   ],
   "alpha": {
