@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T03:01:18.264Z",
+  "fetchedAt": "2026-11-14T03:05:48.845Z",
   "swarms": [
     {
       "monsterId": 319,
@@ -7,9 +7,20 @@
       "region": "Johto",
       "location": "Route 41",
       "sourceId": 1794625856,
-      "despawnTimestamp": 1794625856,
+      "despawnTimestamp": 1794625855,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T03:10:56.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Hoenn",
+      "location": "Scorched Slab",
+      "sourceId": 1794627027,
+      "despawnTimestamp": 1794627026,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T03:30:27.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,32 +30,24 @@
       "pokemon": "Absol",
       "region": "Kanto",
       "location": "Canyon Entrance",
-      "secondsAgo": 4602,
+      "secondsAgo": 4872,
       "sourceId": 1794620676
-    },
-    {
-      "monsterId": 453,
-      "pokemon": "Croagunk",
-      "region": "Hoenn",
-      "location": "Route 121",
-      "secondsAgo": 2586,
-      "sourceId": 1794622692
     },
     {
       "monsterId": 424,
       "pokemon": "Ambipom",
       "region": "Sinnoh",
       "location": "Route 216",
-      "secondsAgo": 2484,
-      "sourceId": 1794622794
+      "secondsAgo": 2755,
+      "sourceId": 1794622793
     },
     {
       "monsterId": 224,
       "pokemon": "Octillery",
       "region": "Unova",
       "location": "Route 13",
-      "secondsAgo": 2124,
-      "sourceId": 1794623154
+      "secondsAgo": 2395,
+      "sourceId": 1794623153
     }
   ],
   "alpha": {
