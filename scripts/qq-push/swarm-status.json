@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-14T19:50:46.757Z",
+  "fetchedAt": "2026-11-14T19:55:45.000Z",
   "swarms": [
+    {
+      "monsterId": 121,
+      "pokemon": "Starmie",
+      "region": "Kanto",
+      "location": "Seven Island",
+      "sourceId": 1794687348,
+      "despawnTimestamp": 1794687348,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T20:15:48.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 131,
       "pokemon": "Lapras",
@@ -24,35 +35,29 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Sinnoh",
+      "location": "Valor Lakefront",
+      "sourceId": 1794687457,
+      "despawnTimestamp": 1794687456,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T20:17:37.000Z",
+      "publishedBy": ""
+    },
+    {
       "monsterId": 106,
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
       "sourceId": 1794686246,
-      "despawnTimestamp": 1794686246,
+      "despawnTimestamp": 1794686245,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T19:57:26.000Z",
       "publishedBy": ""
     }
   ],
-  "lastSeen": [
-    {
-      "monsterId": 6,
-      "pokemon": "Charizard",
-      "region": "Kanto",
-      "location": "Mt. Ember",
-      "secondsAgo": 4483,
-      "sourceId": 1794681363
-    },
-    {
-      "monsterId": 394,
-      "pokemon": "Prinplup",
-      "region": "Sinnoh",
-      "location": "Route 220",
-      "secondsAgo": 4813,
-      "sourceId": 1794681033
-    }
-  ],
+  "lastSeen": [],
   "alpha": {
     "monsterId": 279,
     "pokemon": "Pelipper",
