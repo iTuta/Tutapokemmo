@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T12:50:49.805Z",
+  "fetchedAt": "2026-11-14T12:55:46.985Z",
   "swarms": [
     {
       "monsterId": 5,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Rock Tunnel",
       "sourceId": 1794662080,
-      "despawnTimestamp": 1794662080,
+      "despawnTimestamp": 1794662079,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T13:14:40.000Z",
       "publishedBy": ""
@@ -18,7 +18,7 @@
       "region": "Johto",
       "location": "National Park",
       "sourceId": 1794661042,
-      "despawnTimestamp": 1794661042,
+      "despawnTimestamp": 1794661041,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T12:57:22.000Z",
       "publishedBy": ""
@@ -29,27 +29,30 @@
       "region": "Hoenn",
       "location": "Route 118",
       "sourceId": 1794661592,
-      "despawnTimestamp": 1794661592,
+      "despawnTimestamp": 1794661591,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T13:06:32.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 387,
+      "pokemon": "Turtwig",
+      "region": "Sinnoh",
+      "location": "Route 203",
+      "sourceId": 1794662320,
+      "despawnTimestamp": 1794662320,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T13:18:40.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 388,
-      "pokemon": "Grotle",
-      "region": "Sinnoh",
-      "location": "Sendoff Spring",
-      "secondsAgo": 2392,
-      "sourceId": 1794658257
-    },
-    {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Unova",
       "location": "Route 15",
-      "secondsAgo": 13508,
+      "secondsAgo": 13805,
       "sourceId": 1794647141
     }
   ],
