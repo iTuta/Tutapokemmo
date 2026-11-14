@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-14T04:50:52.941Z",
+  "fetchedAt": "2026-11-14T04:55:37.827Z",
   "swarms": [
-    {
-      "monsterId": 9,
-      "pokemon": "Blastoise",
-      "region": "Kanto",
-      "location": "Cape Brink",
-      "sourceId": 1794632672,
-      "despawnTimestamp": 1794632671,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T05:04:32.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 375,
       "pokemon": "Metang",
@@ -24,33 +13,41 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Unova",
-      "location": "Guidance Chamber",
-      "sourceId": 1794632502,
-      "despawnTimestamp": 1794632501,
+      "monsterId": 185,
+      "pokemon": "Sudowoodo",
+      "region": "Hoenn",
+      "location": "Battle Frontier",
+      "sourceId": 1794633615,
+      "despawnTimestamp": 1794633614,
       "hasValuable": false,
-      "timestampUtc": "2026-11-14T05:01:42.000Z",
+      "timestampUtc": "2026-11-14T05:20:15.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Hoenn",
-      "location": "Route 125",
-      "secondsAgo": 1118,
-      "sourceId": 1794630734
+      "monsterId": 9,
+      "pokemon": "Blastoise",
+      "region": "Kanto",
+      "location": "Cape Brink",
+      "secondsAgo": 964,
+      "sourceId": 1794631173
     },
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 2172,
-      "sourceId": 1794629680
+      "secondsAgo": 2456,
+      "sourceId": 1794629681
+    },
+    {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Unova",
+      "location": "Guidance Chamber",
+      "secondsAgo": 1135,
+      "sourceId": 1794631002
     }
   ],
   "alpha": {
