@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-11-14T10:20:40.591Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-14T10:25:44.409Z",
+  "swarms": [
+    {
+      "monsterId": 152,
+      "pokemon": "Chikorita",
+      "region": "Johto",
+      "location": "Route 31",
+      "sourceId": 1794653251,
+      "despawnTimestamp": 1794653250,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T10:47:31.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Kanto",
       "location": "Pokemon Tower",
-      "secondsAgo": 3500,
+      "secondsAgo": 3804,
       "sourceId": 1794648140
-    },
-    {
-      "monsterId": 375,
-      "pokemon": "Metang",
-      "region": "Johto",
-      "location": "Ice Path",
-      "secondsAgo": 6352,
-      "sourceId": 1794645288
     },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Sinnoh",
       "location": "Route 206",
-      "secondsAgo": 3997,
+      "secondsAgo": 4301,
       "sourceId": 1794647643
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Houndoom",
       "region": "Unova",
       "location": "Route 15",
-      "secondsAgo": 4498,
+      "secondsAgo": 4802,
       "sourceId": 1794647142
     }
   ],
