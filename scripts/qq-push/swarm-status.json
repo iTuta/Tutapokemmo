@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-14T09:56:08.333Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-14T10:01:22.471Z",
+  "swarms": [
+    {
+      "monsterId": 429,
+      "pokemon": "Mismagius",
+      "region": "Hoenn",
+      "location": "Route 122",
+      "sourceId": 1794651886,
+      "despawnTimestamp": 1794651886,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T10:24:46.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Kanto",
       "location": "Pokemon Tower",
-      "secondsAgo": 2028,
+      "secondsAgo": 2342,
       "sourceId": 1794648140
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 4880,
+      "secondsAgo": 5194,
       "sourceId": 1794645288
-    },
-    {
-      "monsterId": 253,
-      "pokemon": "Grovyle",
-      "region": "Hoenn",
-      "location": "Route 120",
-      "secondsAgo": 6027,
-      "sourceId": 1794644141
     },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Sinnoh",
       "location": "Route 206",
-      "secondsAgo": 2525,
+      "secondsAgo": 2839,
       "sourceId": 1794647643
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Houndoom",
       "region": "Unova",
       "location": "Route 15",
-      "secondsAgo": 3026,
+      "secondsAgo": 3340,
       "sourceId": 1794647142
     }
   ],
