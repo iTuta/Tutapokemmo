@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-14T18:30:55.458Z",
+  "fetchedAt": "2026-11-14T18:35:42.225Z",
   "swarms": [
+    {
+      "monsterId": 290,
+      "pokemon": "Nincada",
+      "region": "Johto",
+      "location": "Route 46",
+      "sourceId": 1794682568,
+      "despawnTimestamp": 1794682568,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T18:56:08.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Hoenn",
       "location": "Route 113",
       "sourceId": 1794682495,
-      "despawnTimestamp": 1794682494,
+      "despawnTimestamp": 1794682495,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T18:54:55.000Z",
       "publishedBy": ""
@@ -30,23 +41,15 @@
       "pokemon": "Seviper",
       "region": "Kanto",
       "location": "Route 15",
-      "secondsAgo": 1699,
+      "secondsAgo": 1986,
       "sourceId": 1794679356
-    },
-    {
-      "monsterId": 154,
-      "pokemon": "Meganium",
-      "region": "Johto",
-      "location": "Route 48",
-      "secondsAgo": 1775,
-      "sourceId": 1794679280
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 1661,
+      "secondsAgo": 1948,
       "sourceId": 1794679394
     }
   ],
