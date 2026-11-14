@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T08:10:48.123Z",
+  "fetchedAt": "2026-11-14T08:15:52.488Z",
   "swarms": [
     {
       "monsterId": 350,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Resort Gorgeous",
       "sourceId": 1794644532,
-      "despawnTimestamp": 1794644532,
+      "despawnTimestamp": 1794644531,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T08:22:12.000Z",
       "publishedBy": ""
@@ -22,31 +22,37 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-14T08:26:05.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 253,
+      "pokemon": "Grovyle",
+      "region": "Hoenn",
+      "location": "Route 120",
+      "sourceId": 1794645640,
+      "despawnTimestamp": 1794645640,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T08:40:40.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Sinnoh",
+      "location": "Iron Island",
+      "sourceId": 1794645552,
+      "despawnTimestamp": 1794645552,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T08:39:12.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 260,
-      "pokemon": "Swampert",
-      "region": "Hoenn",
-      "location": "Route 109",
-      "secondsAgo": 3995,
-      "sourceId": 1794639853
-    },
-    {
-      "monsterId": 126,
-      "pokemon": "Magmar",
-      "region": "Sinnoh",
-      "location": "Fuego Ironworks",
-      "secondsAgo": 4209,
-      "sourceId": 1794639639
-    },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 5729,
+      "secondsAgo": 6033,
       "sourceId": 1794638119
     }
   ],
