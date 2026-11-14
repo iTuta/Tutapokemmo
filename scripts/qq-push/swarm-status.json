@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T05:55:49.617Z",
+  "fetchedAt": "2026-11-14T06:01:07.387Z",
   "swarms": [
     {
       "monsterId": 214,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-14T06:11:08.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 424,
-      "pokemon": "Ambipom",
-      "region": "Sinnoh",
-      "location": "Route 216",
-      "sourceId": 1794635846,
-      "despawnTimestamp": 1794635846,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T05:57:26.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 3389,
+      "secondsAgo": 3707,
       "sourceId": 1794632360
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Sudowoodo",
       "region": "Hoenn",
       "location": "Battle Frontier",
-      "secondsAgo": 3633,
+      "secondsAgo": 3951,
       "sourceId": 1794632116
+    },
+    {
+      "monsterId": 424,
+      "pokemon": "Ambipom",
+      "region": "Sinnoh",
+      "location": "Route 216",
+      "secondsAgo": 1720,
+      "sourceId": 1794634347
     },
     {
       "monsterId": 420,
       "pokemon": "Cherubi",
       "region": "Unova",
       "location": "Route 16",
-      "secondsAgo": 2764,
+      "secondsAgo": 3082,
       "sourceId": 1794632985
     }
   ],
