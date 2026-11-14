@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-14T22:10:54.589Z",
+  "fetchedAt": "2026-11-14T22:15:48.150Z",
   "swarms": [
+    {
+      "monsterId": 257,
+      "pokemon": "Blaziken",
+      "region": "Hoenn",
+      "location": "Magma Hideout",
+      "sourceId": 1794695832,
+      "despawnTimestamp": 1794695832,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T22:37:12.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Sinnoh",
       "location": "Turnback Cave",
       "sourceId": 1794694920,
-      "despawnTimestamp": 1794694919,
+      "despawnTimestamp": 1794694920,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T22:22:00.000Z",
       "publishedBy": ""
@@ -30,7 +41,7 @@
       "pokemon": "Absol",
       "region": "Kanto",
       "location": "Canyon Entrance",
-      "secondsAgo": 6762,
+      "secondsAgo": 7056,
       "sourceId": 1794687492
     },
     {
@@ -38,16 +49,8 @@
       "pokemon": "Porygon-Z",
       "region": "Johto",
       "location": "Team Rocket HQ",
-      "secondsAgo": 1774,
+      "secondsAgo": 2068,
       "sourceId": 1794692480
-    },
-    {
-      "monsterId": 376,
-      "pokemon": "Metagross",
-      "region": "Hoenn",
-      "location": "Meteor Falls",
-      "secondsAgo": 2380,
-      "sourceId": 1794691874
     }
   ],
   "alpha": {
