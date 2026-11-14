@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-14T17:06:11.162Z",
+  "fetchedAt": "2026-11-14T17:10:46.264Z",
   "swarms": [
+    {
+      "monsterId": 373,
+      "pokemon": "Salamence",
+      "region": "Kanto",
+      "location": "Victory Road",
+      "sourceId": 1794677719,
+      "despawnTimestamp": 1794677719,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T17:35:19.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 121,
       "pokemon": "Starmie",
@@ -11,34 +22,23 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-14T17:27:08.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Sinnoh",
       "location": "Route 201",
-      "sourceId": 1794676095,
-      "despawnTimestamp": 1794676095,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T17:08:15.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 2,
-      "pokemon": "Ivysaur",
-      "region": "Kanto",
-      "location": "Route 5",
-      "secondsAgo": 2136,
-      "sourceId": 1794673835
+      "secondsAgo": 1650,
+      "sourceId": 1794674596
     },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 5267,
+      "secondsAgo": 5542,
       "sourceId": 1794670704
     }
   ],
