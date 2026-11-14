@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T13:20:41.539Z",
+  "fetchedAt": "2026-11-14T13:25:45.491Z",
   "swarms": [
     {
       "monsterId": 102,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-14T13:44:29.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 311,
-      "pokemon": "Plusle",
-      "region": "Unova",
-      "location": "Route 5",
-      "sourceId": 1794662551,
-      "despawnTimestamp": 1794662550,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T13:22:31.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,7 +30,7 @@
       "pokemon": "Charmeleon",
       "region": "Kanto",
       "location": "Rock Tunnel",
-      "secondsAgo": 1860,
+      "secondsAgo": 2164,
       "sourceId": 1794660581
     },
     {
@@ -49,8 +38,16 @@
       "pokemon": "Dragonite",
       "region": "Hoenn",
       "location": "Route 131",
-      "secondsAgo": 571,
+      "secondsAgo": 875,
       "sourceId": 1794661870
+    },
+    {
+      "monsterId": 311,
+      "pokemon": "Plusle",
+      "region": "Unova",
+      "location": "Route 5",
+      "secondsAgo": 1694,
+      "sourceId": 1794661051
     }
   ],
   "alpha": {
