@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T22:20:42.265Z",
+  "fetchedAt": "2026-11-14T22:25:36.270Z",
   "swarms": [
     {
       "monsterId": 102,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-14T22:42:16.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 442,
-      "pokemon": "Spiritomb",
-      "region": "Sinnoh",
-      "location": "Turnback Cave",
-      "sourceId": 1794694920,
-      "despawnTimestamp": 1794694920,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T22:22:00.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Absol",
       "region": "Kanto",
       "location": "Canyon Entrance",
-      "secondsAgo": 7350,
+      "secondsAgo": 7644,
       "sourceId": 1794687492
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Blaziken",
       "region": "Hoenn",
       "location": "Magma Hideout",
-      "secondsAgo": 510,
+      "secondsAgo": 804,
       "sourceId": 1794694332
+    },
+    {
+      "monsterId": 442,
+      "pokemon": "Spiritomb",
+      "region": "Sinnoh",
+      "location": "Turnback Cave",
+      "secondsAgo": 1715,
+      "sourceId": 1794693421
     },
     {
       "monsterId": 224,
       "pokemon": "Octillery",
       "region": "Unova",
       "location": "Route 13",
-      "secondsAgo": 1520,
+      "secondsAgo": 1814,
       "sourceId": 1794693322
     }
   ],
