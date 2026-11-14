@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-14T10:40:56.983Z",
+  "fetchedAt": "2026-11-14T10:45:46.958Z",
   "swarms": [
+    {
+      "monsterId": 373,
+      "pokemon": "Salamence",
+      "region": "Kanto",
+      "location": "Victory Road",
+      "sourceId": 1794654450,
+      "despawnTimestamp": 1794654450,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T11:07:30.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 152,
       "pokemon": "Chikorita",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Kanto",
-      "location": "Pokemon Tower",
-      "secondsAgo": 4716,
-      "sourceId": 1794648140
-    },
-    {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Sinnoh",
       "location": "Route 206",
-      "secondsAgo": 5214,
+      "secondsAgo": 5504,
       "sourceId": 1794647642
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Houndoom",
       "region": "Unova",
       "location": "Route 15",
-      "secondsAgo": 5715,
+      "secondsAgo": 6005,
       "sourceId": 1794647141
     }
   ],
