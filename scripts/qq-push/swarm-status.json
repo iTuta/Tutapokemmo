@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T08:56:16.470Z",
+  "fetchedAt": "2026-11-14T09:01:29.439Z",
   "swarms": [
     {
       "monsterId": 141,
@@ -11,26 +11,23 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-14T09:04:39.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 375,
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "sourceId": 1794646788,
-      "despawnTimestamp": 1794646787,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T08:59:48.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1601,
+      "sourceId": 1794645288
+    },
     {
       "monsterId": 253,
       "pokemon": "Grovyle",
       "region": "Hoenn",
       "location": "Route 120",
-      "secondsAgo": 2435,
+      "secondsAgo": 2748,
       "sourceId": 1794644141
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Lucario",
       "region": "Sinnoh",
       "location": "Iron Island",
-      "secondsAgo": 2523,
+      "secondsAgo": 2836,
       "sourceId": 1794644053
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "secondsAgo": 2055,
+      "secondsAgo": 2368,
       "sourceId": 1794644521
     }
   ],
