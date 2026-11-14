@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T11:50:41.242Z",
+  "fetchedAt": "2026-11-14T11:55:40.197Z",
   "swarms": [
     {
       "monsterId": 161,
@@ -11,26 +11,23 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-14T12:05:16.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 438,
       "pokemon": "Bonsly",
       "region": "Johto",
       "location": "Ilex Forest",
-      "sourceId": 1794657045,
-      "despawnTimestamp": 1794657045,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T11:50:45.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1794,
+      "sourceId": 1794655546
+    },
     {
       "monsterId": 429,
       "pokemon": "Mismagius",
       "region": "Hoenn",
       "location": "Route 122",
-      "secondsAgo": 6654,
+      "secondsAgo": 6953,
       "sourceId": 1794650387
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Heracross",
       "region": "Sinnoh",
       "location": "Route 206",
-      "secondsAgo": 9398,
+      "secondsAgo": 9697,
       "sourceId": 1794647643
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Houndoom",
       "region": "Unova",
       "location": "Route 15",
-      "secondsAgo": 9899,
+      "secondsAgo": 10198,
       "sourceId": 1794647142
     }
   ],
