@@ -1,15 +1,15 @@
 {
-  "fetchedAt": "2026-11-14T14:26:11.602Z",
+  "fetchedAt": "2026-11-14T14:30:59.770Z",
   "swarms": [
     {
-      "monsterId": 441,
-      "pokemon": "Chatot",
-      "region": "Kanto",
-      "location": "Treasure Beach",
-      "sourceId": 1794666533,
-      "despawnTimestamp": 1794666533,
+      "monsterId": 185,
+      "pokemon": "Sudowoodo",
+      "region": "Hoenn",
+      "location": "Battle Frontier",
+      "sourceId": 1794667939,
+      "despawnTimestamp": 1794667939,
       "hasValuable": false,
-      "timestampUtc": "2026-11-14T14:28:53.000Z",
+      "timestampUtc": "2026-11-14T14:52:19.000Z",
       "publishedBy": ""
     },
     {
@@ -18,7 +18,7 @@
       "region": "Sinnoh",
       "location": "Route 222",
       "sourceId": 1794666692,
-      "despawnTimestamp": 1794666692,
+      "despawnTimestamp": 1794666691,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T14:31:32.000Z",
       "publishedBy": ""
@@ -37,20 +37,20 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 441,
+      "pokemon": "Chatot",
+      "region": "Kanto",
+      "location": "Treasure Beach",
+      "secondsAgo": 1625,
+      "sourceId": 1794665034
+    },
+    {
       "monsterId": 469,
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 1580,
+      "secondsAgo": 1868,
       "sourceId": 1794664791
-    },
-    {
-      "monsterId": 260,
-      "pokemon": "Swampert",
-      "region": "Hoenn",
-      "location": "Route 109",
-      "secondsAgo": 1284,
-      "sourceId": 1794665087
     }
   ],
   "alpha": {
