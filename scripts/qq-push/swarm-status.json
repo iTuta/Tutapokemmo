@@ -1,38 +1,48 @@
 {
-  "fetchedAt": "2026-11-14T17:35:51.053Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-14T17:41:13.182Z",
+  "swarms": [
     {
-      "monsterId": 373,
-      "pokemon": "Salamence",
+      "monsterId": 411,
+      "pokemon": "Bastiodon",
       "region": "Kanto",
-      "location": "Victory Road",
-      "secondsAgo": 1531,
-      "sourceId": 1794676220
+      "location": "Tanoby Ruins",
+      "sourceId": 1794679292,
+      "despawnTimestamp": 1794679292,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T18:01:32.000Z",
+      "publishedBy": ""
     },
+    {
+      "monsterId": 390,
+      "pokemon": "Chimchar",
+      "region": "Sinnoh",
+      "location": "Route 211",
+      "sourceId": 1794679337,
+      "despawnTimestamp": 1794679337,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T18:02:17.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Unova",
+      "location": "Wellspring Cave",
+      "sourceId": 1794679376,
+      "despawnTimestamp": 1794679376,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T18:02:56.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 121,
       "pokemon": "Starmie",
       "region": "Johto",
       "location": "Cliff Edge Gate",
-      "secondsAgo": 2022,
+      "secondsAgo": 2344,
       "sourceId": 1794675729
-    },
-    {
-      "monsterId": 285,
-      "pokemon": "Shroomish",
-      "region": "Sinnoh",
-      "location": "Route 201",
-      "secondsAgo": 3155,
-      "sourceId": 1794674596
-    },
-    {
-      "monsterId": 214,
-      "pokemon": "Heracross",
-      "region": "Unova",
-      "location": "Route 10",
-      "secondsAgo": 7047,
-      "sourceId": 1794670704
     }
   ],
   "alpha": {
