@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T15:35:46.042Z",
+  "fetchedAt": "2026-11-14T15:40:52.394Z",
   "swarms": [
     {
       "monsterId": 115,
@@ -11,6 +11,28 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-14T15:56:52.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 456,
+      "pokemon": "Finneon",
+      "region": "Hoenn",
+      "location": "Route 126",
+      "sourceId": 1794672179,
+      "despawnTimestamp": 1794672179,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T16:02:59.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 214,
+      "pokemon": "Heracross",
+      "region": "Unova",
+      "location": "Route 10",
+      "sourceId": 1794672203,
+      "despawnTimestamp": 1794672203,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T16:03:23.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,32 +41,16 @@
       "pokemon": "Cradily",
       "region": "Kanto",
       "location": "Weepth Chamber",
-      "secondsAgo": 2085,
-      "sourceId": 1794668461
-    },
-    {
-      "monsterId": 185,
-      "pokemon": "Sudowoodo",
-      "region": "Hoenn",
-      "location": "Battle Frontier",
-      "secondsAgo": 4106,
-      "sourceId": 1794666440
+      "secondsAgo": 2392,
+      "sourceId": 1794668460
     },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Sinnoh",
       "location": "Iron Island",
-      "secondsAgo": 3061,
+      "secondsAgo": 3367,
       "sourceId": 1794667485
-    },
-    {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Unova",
-      "location": "Route 15",
-      "secondsAgo": 4661,
-      "sourceId": 1794665885
     }
   ],
   "alpha": {
