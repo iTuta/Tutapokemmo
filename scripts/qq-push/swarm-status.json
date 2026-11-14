@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-14T08:30:59.551Z",
+  "fetchedAt": "2026-11-14T08:35:50.895Z",
   "swarms": [
+    {
+      "monsterId": 375,
+      "pokemon": "Metang",
+      "region": "Johto",
+      "location": "Ice Path",
+      "sourceId": 1794646788,
+      "despawnTimestamp": 1794646787,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T08:59:48.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 253,
       "pokemon": "Grovyle",
       "region": "Hoenn",
       "location": "Route 120",
       "sourceId": 1794645640,
-      "despawnTimestamp": 1794645640,
+      "despawnTimestamp": 1794645639,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T08:40:40.000Z",
       "publishedBy": ""
@@ -18,7 +29,7 @@
       "region": "Sinnoh",
       "location": "Iron Island",
       "sourceId": 1794645552,
-      "despawnTimestamp": 1794645552,
+      "despawnTimestamp": 1794645551,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T08:39:12.000Z",
       "publishedBy": ""
@@ -41,16 +52,8 @@
       "pokemon": "Milotic",
       "region": "Kanto",
       "location": "Resort Gorgeous",
-      "secondsAgo": 2027,
+      "secondsAgo": 2318,
       "sourceId": 1794643032
-    },
-    {
-      "monsterId": 285,
-      "pokemon": "Shroomish",
-      "region": "Johto",
-      "location": "Route 34",
-      "secondsAgo": 1794,
-      "sourceId": 1794643265
     }
   ],
   "alpha": {
