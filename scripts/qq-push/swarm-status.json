@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-11-14T16:55:40.193Z",
+  "fetchedAt": "2026-11-14T17:01:08.946Z",
   "swarms": [
-    {
-      "monsterId": 438,
-      "pokemon": "Bonsly",
-      "region": "Johto",
-      "location": "Ilex Forest",
-      "sourceId": 1794675419,
-      "despawnTimestamp": 1794675419,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T16:56:59.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Sinnoh",
       "location": "Route 201",
       "sourceId": 1794676095,
-      "despawnTimestamp": 1794676095,
+      "despawnTimestamp": 1794676094,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T17:08:15.000Z",
       "publishedBy": ""
@@ -30,16 +19,24 @@
       "pokemon": "Ivysaur",
       "region": "Kanto",
       "location": "Route 5",
-      "secondsAgo": 1505,
-      "sourceId": 1794673835
+      "secondsAgo": 1834,
+      "sourceId": 1794673834
+    },
+    {
+      "monsterId": 438,
+      "pokemon": "Bonsly",
+      "region": "Johto",
+      "location": "Ilex Forest",
+      "secondsAgo": 1749,
+      "sourceId": 1794673919
     },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 4636,
-      "sourceId": 1794670704
+      "secondsAgo": 4965,
+      "sourceId": 1794670703
     }
   ],
   "alpha": {
