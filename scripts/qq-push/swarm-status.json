@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-14T17:01:08.946Z",
+  "fetchedAt": "2026-11-14T17:06:11.162Z",
   "swarms": [
+    {
+      "monsterId": 121,
+      "pokemon": "Starmie",
+      "region": "Johto",
+      "location": "Cliff Edge Gate",
+      "sourceId": 1794677228,
+      "despawnTimestamp": 1794677228,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T17:27:08.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Sinnoh",
       "location": "Route 201",
       "sourceId": 1794676095,
-      "despawnTimestamp": 1794676094,
+      "despawnTimestamp": 1794676095,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T17:08:15.000Z",
       "publishedBy": ""
@@ -19,24 +30,16 @@
       "pokemon": "Ivysaur",
       "region": "Kanto",
       "location": "Route 5",
-      "secondsAgo": 1834,
-      "sourceId": 1794673834
-    },
-    {
-      "monsterId": 438,
-      "pokemon": "Bonsly",
-      "region": "Johto",
-      "location": "Ilex Forest",
-      "secondsAgo": 1749,
-      "sourceId": 1794673919
+      "secondsAgo": 2136,
+      "sourceId": 1794673835
     },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 4965,
-      "sourceId": 1794670703
+      "secondsAgo": 5267,
+      "sourceId": 1794670704
     }
   ],
   "alpha": {
