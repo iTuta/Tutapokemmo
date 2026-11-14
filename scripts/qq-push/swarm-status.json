@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-14T14:01:07.422Z",
+  "fetchedAt": "2026-11-14T14:05:56.649Z",
   "swarms": [
+    {
+      "monsterId": 441,
+      "pokemon": "Chatot",
+      "region": "Kanto",
+      "location": "Treasure Beach",
+      "sourceId": 1794666533,
+      "despawnTimestamp": 1794666533,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T14:28:53.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 469,
       "pokemon": "Yanmega",
@@ -11,31 +22,26 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-14T14:24:51.000Z",
       "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 369,
-      "pokemon": "Relicanth",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 1509,
-      "sourceId": 1794663358
     },
     {
       "monsterId": 260,
       "pokemon": "Swampert",
       "region": "Hoenn",
       "location": "Route 109",
-      "secondsAgo": 1641,
-      "sourceId": 1794663226
-    },
+      "sourceId": 1794666587,
+      "despawnTimestamp": 1794666586,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T14:29:47.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Sinnoh",
       "location": "Turnback Cave",
-      "secondsAgo": 2497,
+      "secondsAgo": 2786,
       "sourceId": 1794662370
     },
     {
@@ -43,7 +49,7 @@
       "pokemon": "Munna",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 1668,
+      "secondsAgo": 1957,
       "sourceId": 1794663199
     }
   ],
