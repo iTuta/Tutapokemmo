@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T14:50:52.320Z",
+  "fetchedAt": "2026-11-14T14:55:43.035Z",
   "swarms": [
     {
       "monsterId": 103,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1794668956,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T15:09:16.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 185,
-      "pokemon": "Sudowoodo",
-      "region": "Hoenn",
-      "location": "Battle Frontier",
-      "sourceId": 1794667939,
-      "despawnTimestamp": 1794667939,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T14:52:19.000Z",
       "publishedBy": ""
     },
     {
@@ -41,16 +30,24 @@
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 3061,
-      "sourceId": 1794664791
+      "secondsAgo": 3351,
+      "sourceId": 1794664792
+    },
+    {
+      "monsterId": 185,
+      "pokemon": "Sudowoodo",
+      "region": "Hoenn",
+      "location": "Battle Frontier",
+      "secondsAgo": 1703,
+      "sourceId": 1794666440
     },
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Unova",
       "location": "Route 15",
-      "secondsAgo": 1968,
-      "sourceId": 1794665884
+      "secondsAgo": 2258,
+      "sourceId": 1794665885
     }
   ],
   "alpha": {
