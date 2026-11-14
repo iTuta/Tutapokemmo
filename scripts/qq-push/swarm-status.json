@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T18:50:49.087Z",
+  "fetchedAt": "2026-11-14T18:55:39.589Z",
   "swarms": [
     {
       "monsterId": 6,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-14T18:56:08.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 394,
-      "pokemon": "Prinplup",
-      "region": "Sinnoh",
-      "location": "Route 220",
-      "sourceId": 1794682533,
-      "despawnTimestamp": 1794682533,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T18:55:33.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,15 +30,23 @@
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 9363,
-      "sourceId": 1794672886
+      "secondsAgo": 9654,
+      "sourceId": 1794672885
+    },
+    {
+      "monsterId": 394,
+      "pokemon": "Prinplup",
+      "region": "Sinnoh",
+      "location": "Route 220",
+      "secondsAgo": 1505,
+      "sourceId": 1794681034
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 2855,
+      "secondsAgo": 3145,
       "sourceId": 1794679394
     }
   ],
