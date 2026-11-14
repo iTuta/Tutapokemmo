@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T03:15:53.915Z",
+  "fetchedAt": "2026-11-14T03:20:45.498Z",
   "swarms": [
     {
       "monsterId": 161,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1794627200,
       "hasValuable": false,
       "timestampUtc": "2026-11-14T03:33:21.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 372,
+      "pokemon": "Shelgon",
+      "region": "Johto",
+      "location": "Dragon&#x27;s Den",
+      "sourceId": 1794627865,
+      "despawnTimestamp": 1794627865,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T03:44:25.000Z",
       "publishedBy": ""
     },
     {
@@ -37,20 +48,12 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 319,
-      "pokemon": "Sharpedo",
-      "region": "Johto",
-      "location": "Route 41",
-      "secondsAgo": 1797,
-      "sourceId": 1794624356
-    },
-    {
       "monsterId": 424,
       "pokemon": "Ambipom",
       "region": "Sinnoh",
       "location": "Route 216",
-      "secondsAgo": 3360,
-      "sourceId": 1794622793
+      "secondsAgo": 3651,
+      "sourceId": 1794622794
     }
   ],
   "alpha": {
