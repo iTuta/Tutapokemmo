@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-14T21:40:54.712Z",
+  "fetchedAt": "2026-11-14T21:45:51.695Z",
   "swarms": [
+    {
+      "monsterId": 474,
+      "pokemon": "Porygon-Z",
+      "region": "Johto",
+      "location": "Team Rocket HQ",
+      "sourceId": 1794693979,
+      "despawnTimestamp": 1794693978,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T22:06:19.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 376,
       "pokemon": "Metagross",
@@ -15,19 +26,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 288,
-      "pokemon": "Vigoroth",
-      "region": "Johto",
-      "location": "Ruins of Alph",
-      "secondsAgo": 1920,
-      "sourceId": 1794690534
+      "monsterId": 359,
+      "pokemon": "Absol",
+      "region": "Kanto",
+      "location": "Canyon Entrance",
+      "secondsAgo": 5259,
+      "sourceId": 1794687492
     },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 6496,
+      "secondsAgo": 6793,
       "sourceId": 1794685958
     },
     {
@@ -35,7 +46,7 @@
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "secondsAgo": 7707,
+      "secondsAgo": 8004,
       "sourceId": 1794684747
     }
   ],
