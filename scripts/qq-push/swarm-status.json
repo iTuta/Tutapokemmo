@@ -1,56 +1,53 @@
 {
-  "fetchedAt": "2026-11-14T18:25:52.951Z",
+  "fetchedAt": "2026-11-14T18:30:55.458Z",
   "swarms": [
+    {
+      "monsterId": 227,
+      "pokemon": "Skarmory",
+      "region": "Hoenn",
+      "location": "Route 113",
+      "sourceId": 1794682495,
+      "despawnTimestamp": 1794682494,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T18:54:55.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 394,
+      "pokemon": "Prinplup",
+      "region": "Sinnoh",
+      "location": "Route 220",
+      "sourceId": 1794682533,
+      "despawnTimestamp": 1794682533,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-14T18:55:33.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Kanto",
       "location": "Route 15",
-      "sourceId": 1794680855,
-      "despawnTimestamp": 1794680854,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T18:27:35.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1699,
+      "sourceId": 1794679356
     },
     {
       "monsterId": 154,
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "sourceId": 1794680780,
-      "despawnTimestamp": 1794680779,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T18:26:20.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1775,
+      "sourceId": 1794679280
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "sourceId": 1794680893,
-      "despawnTimestamp": 1794680892,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-14T18:28:13.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 107,
-      "pokemon": "Hitmonchan",
-      "region": "Hoenn",
-      "location": "Fiery Path",
-      "secondsAgo": 7867,
-      "sourceId": 1794672885
-    },
-    {
-      "monsterId": 390,
-      "pokemon": "Chimchar",
-      "region": "Sinnoh",
-      "location": "Route 211",
-      "secondsAgo": 2915,
-      "sourceId": 1794677837
+      "secondsAgo": 1661,
+      "sourceId": 1794679394
     }
   ],
   "alpha": {
