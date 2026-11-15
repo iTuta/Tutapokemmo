@@ -1,36 +1,21 @@
 {
-  "fetchedAt": "2026-11-15T16:50:44.744Z",
-  "swarms": [
+  "fetchedAt": "2026-11-15T16:55:41.119Z",
+  "swarms": [],
+  "lastSeen": [
     {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Kanto",
       "location": "Victory Road",
-      "sourceId": 1794761727,
-      "despawnTimestamp": 1794761726,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T16:55:27.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1513,
+      "sourceId": 1794760228
     },
-    {
-      "monsterId": 351,
-      "pokemon": "Castform",
-      "region": "Sinnoh",
-      "location": "Route 210",
-      "sourceId": 1794761460,
-      "despawnTimestamp": 1794761460,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T16:51:00.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Johto",
       "location": "Route 34",
-      "secondsAgo": 5663,
+      "secondsAgo": 5960,
       "sourceId": 1794755781
     },
     {
@@ -38,15 +23,23 @@
       "pokemon": "Dragonite",
       "region": "Hoenn",
       "location": "Route 131",
-      "secondsAgo": 2479,
+      "secondsAgo": 2776,
       "sourceId": 1794758965
+    },
+    {
+      "monsterId": 351,
+      "pokemon": "Castform",
+      "region": "Sinnoh",
+      "location": "Route 210",
+      "secondsAgo": 1780,
+      "sourceId": 1794759961
     },
     {
       "monsterId": 224,
       "pokemon": "Octillery",
       "region": "Unova",
       "location": "Route 13",
-      "secondsAgo": 2507,
+      "secondsAgo": 2804,
       "sourceId": 1794758937
     }
   ],
