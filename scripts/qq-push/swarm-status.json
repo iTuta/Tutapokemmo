@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T03:21:05.074Z",
+  "fetchedAt": "2026-11-15T03:25:39.542Z",
   "swarms": [
     {
       "monsterId": 128,
@@ -33,17 +33,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-15T03:42:06.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 455,
-      "pokemon": "Carnivine",
-      "region": "Unova",
-      "location": "Route 18",
-      "sourceId": 1794713111,
-      "despawnTimestamp": 1794713111,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T03:25:11.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -52,8 +41,16 @@
       "pokemon": "Hitmontop",
       "region": "Johto",
       "location": "Mt. Mortar",
-      "secondsAgo": 2595,
-      "sourceId": 1794710270
+      "secondsAgo": 2870,
+      "sourceId": 1794710269
+    },
+    {
+      "monsterId": 455,
+      "pokemon": "Carnivine",
+      "region": "Unova",
+      "location": "Route 18",
+      "secondsAgo": 1528,
+      "sourceId": 1794711611
     }
   ],
   "alpha": {
