@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T05:55:47.482Z",
+  "fetchedAt": "2026-11-15T06:01:05.306Z",
   "swarms": [
     {
       "monsterId": 288,
@@ -11,15 +11,34 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-15T06:17:59.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 233,
+      "pokemon": "Porygon2",
+      "region": "Unova",
+      "location": "P2 Laboratory",
+      "sourceId": 1794723820,
+      "despawnTimestamp": 1794723820,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T06:23:40.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
+    {
+      "monsterId": 350,
+      "pokemon": "Milotic",
+      "region": "Kanto",
+      "location": "Resort Gorgeous",
+      "secondsAgo": 1817,
+      "sourceId": 1794720648
+    },
     {
       "monsterId": 211,
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 1529,
+      "secondsAgo": 1847,
       "sourceId": 1794720618
     },
     {
@@ -27,16 +46,8 @@
       "pokemon": "Monferno",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 5366,
+      "secondsAgo": 5684,
       "sourceId": 1794716781
-    },
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Unova",
-      "location": "Route 1",
-      "secondsAgo": 4267,
-      "sourceId": 1794717880
     }
   ],
   "alpha": {
