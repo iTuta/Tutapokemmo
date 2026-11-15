@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T01:15:51.972Z",
+  "fetchedAt": "2026-11-15T01:20:53.993Z",
   "swarms": [
     {
       "monsterId": 153,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1794706726,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T01:38:47.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 439,
-      "pokemon": "Mime Jr.",
-      "region": "Hoenn",
-      "location": "Rusturf Tunnel",
-      "sourceId": 1794705604,
-      "despawnTimestamp": 1794705603,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T01:20:04.000Z",
       "publishedBy": ""
     },
     {
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 439,
+      "pokemon": "Mime Jr.",
+      "region": "Hoenn",
+      "location": "Rusturf Tunnel",
+      "secondsAgo": 1549,
+      "sourceId": 1794704104
+    },
+    {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Unova",
       "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 7514,
+      "secondsAgo": 7816,
       "sourceId": 1794697837
     }
   ],
