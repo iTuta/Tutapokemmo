@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T17:20:48.365Z",
+  "fetchedAt": "2026-11-15T17:25:43.608Z",
   "swarms": [
     {
       "monsterId": 290,
@@ -7,7 +7,7 @@
       "region": "Johto",
       "location": "Route 46",
       "sourceId": 1794764491,
-      "despawnTimestamp": 1794764491,
+      "despawnTimestamp": 1794764490,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T17:41:31.000Z",
       "publishedBy": ""
@@ -33,17 +33,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-15T17:41:54.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 369,
-      "pokemon": "Relicanth",
-      "region": "Unova",
-      "location": "Challenger&#x27;s Cave",
-      "sourceId": 1794763540,
-      "despawnTimestamp": 1794763540,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T17:25:40.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -52,8 +41,16 @@
       "pokemon": "Ivysaur",
       "region": "Kanto",
       "location": "Route 5",
-      "secondsAgo": 1503,
+      "secondsAgo": 1798,
       "sourceId": 1794761745
+    },
+    {
+      "monsterId": 369,
+      "pokemon": "Relicanth",
+      "region": "Unova",
+      "location": "Challenger&#x27;s Cave",
+      "secondsAgo": 1502,
+      "sourceId": 1794762041
     }
   ],
   "alpha": {
