@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-11-15T20:55:56.923Z",
+  "fetchedAt": "2026-11-15T21:01:03.046Z",
   "swarms": [
-    {
-      "monsterId": 290,
-      "pokemon": "Nincada",
-      "region": "Johto",
-      "location": "Route 46",
-      "sourceId": 1794776377,
-      "despawnTimestamp": 1794776376,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T20:59:37.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 253,
       "pokemon": "Grovyle",
       "region": "Hoenn",
       "location": "Route 118",
       "sourceId": 1794777319,
-      "despawnTimestamp": 1794777318,
+      "despawnTimestamp": 1794777319,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T21:15:19.000Z",
       "publishedBy": ""
@@ -29,7 +18,7 @@
       "region": "Unova",
       "location": "Relic Castle",
       "sourceId": 1794777534,
-      "despawnTimestamp": 1794777534,
+      "despawnTimestamp": 1794777535,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T21:18:54.000Z",
       "publishedBy": ""
@@ -41,16 +30,24 @@
       "pokemon": "Lumineon",
       "region": "Kanto",
       "location": "Route 12",
-      "secondsAgo": 1505,
+      "secondsAgo": 1812,
       "sourceId": 1794774651
+    },
+    {
+      "monsterId": 290,
+      "pokemon": "Nincada",
+      "region": "Johto",
+      "location": "Route 46",
+      "secondsAgo": 1585,
+      "sourceId": 1794774878
     },
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Sinnoh",
       "location": "Victory Road",
-      "secondsAgo": 1232,
-      "sourceId": 1794774924
+      "secondsAgo": 1538,
+      "sourceId": 1794774925
     }
   ],
   "alpha": {
