@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-15T03:35:53.650Z",
+  "fetchedAt": "2026-11-15T03:40:43.353Z",
   "swarms": [
+    {
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Kanto",
+      "location": "Kindle Road",
+      "sourceId": 1794715488,
+      "despawnTimestamp": 1794715488,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T04:04:48.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 320,
       "pokemon": "Wailmer",
@@ -10,17 +21,6 @@
       "despawnTimestamp": 1794715244,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T04:00:44.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 517,
-      "pokemon": "Munna",
-      "region": "Hoenn",
-      "location": "Route 102",
-      "sourceId": 1794713928,
-      "despawnTimestamp": 1794713928,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T03:38:48.000Z",
       "publishedBy": ""
     },
     {
@@ -37,20 +37,20 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Kanto",
-      "location": "Route 17",
-      "secondsAgo": 2068,
-      "sourceId": 1794711685
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Hoenn",
+      "location": "Route 102",
+      "secondsAgo": 1614,
+      "sourceId": 1794712429
     },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Unova",
       "location": "Route 18",
-      "secondsAgo": 2142,
-      "sourceId": 1794711611
+      "secondsAgo": 2431,
+      "sourceId": 1794711612
     }
   ],
   "alpha": {
