@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T16:05:52.816Z",
+  "fetchedAt": "2026-11-15T16:10:45.902Z",
   "swarms": [
     {
       "monsterId": 103,
@@ -13,6 +13,17 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 149,
+      "pokemon": "Dragonite",
+      "region": "Hoenn",
+      "location": "Route 131",
+      "sourceId": 1794760464,
+      "despawnTimestamp": 1794760463,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T16:34:24.000Z",
+      "publishedBy": ""
+    },
+    {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
       "region": "Sinnoh",
@@ -22,26 +33,20 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-15T16:21:16.000Z",
       "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 254,
-      "pokemon": "Sceptile",
-      "region": "Hoenn",
-      "location": "Route 119",
-      "secondsAgo": 2155,
-      "sourceId": 1794756597
     },
     {
-      "monsterId": 148,
-      "pokemon": "Dragonair",
+      "monsterId": 224,
+      "pokemon": "Octillery",
       "region": "Unova",
-      "location": "Dragonspiral Tower",
-      "secondsAgo": 1585,
-      "sourceId": 1794757167
+      "location": "Route 13",
+      "sourceId": 1794760436,
+      "despawnTimestamp": 1794760436,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T16:33:56.000Z",
+      "publishedBy": ""
     }
   ],
+  "lastSeen": [],
   "alpha": {
     "monsterId": 185,
     "pokemon": "Sudowoodo",
