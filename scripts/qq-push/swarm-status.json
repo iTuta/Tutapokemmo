@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T16:20:48.095Z",
+  "fetchedAt": "2026-11-15T16:25:43.999Z",
   "swarms": [
     {
       "monsterId": 103,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Route 23",
       "sourceId": 1794760226,
-      "despawnTimestamp": 1794760226,
+      "despawnTimestamp": 1794760225,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T16:30:26.000Z",
       "publishedBy": ""
@@ -18,20 +18,9 @@
       "region": "Hoenn",
       "location": "Route 131",
       "sourceId": 1794760464,
-      "despawnTimestamp": 1794760464,
+      "despawnTimestamp": 1794760463,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T16:34:24.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 342,
-      "pokemon": "Crawdaunt",
-      "region": "Sinnoh",
-      "location": "Lake Valor",
-      "sourceId": 1794759676,
-      "despawnTimestamp": 1794759676,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T16:21:16.000Z",
       "publishedBy": ""
     },
     {
@@ -46,7 +35,16 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [],
+  "lastSeen": [
+    {
+      "monsterId": 342,
+      "pokemon": "Crawdaunt",
+      "region": "Sinnoh",
+      "location": "Lake Valor",
+      "secondsAgo": 1767,
+      "sourceId": 1794758176
+    }
+  ],
   "alpha": {
     "monsterId": 185,
     "pokemon": "Sudowoodo",
