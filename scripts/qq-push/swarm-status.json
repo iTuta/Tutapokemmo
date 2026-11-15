@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T03:55:56.817Z",
+  "fetchedAt": "2026-11-15T04:00:55.923Z",
   "swarms": [
     {
       "monsterId": 229,
@@ -13,23 +13,12 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 320,
-      "pokemon": "Wailmer",
-      "region": "Johto",
-      "location": "Route 40",
-      "sourceId": 1794715244,
-      "despawnTimestamp": 1794715244,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T04:00:44.000Z",
-      "publishedBy": ""
-    },
-    {
       "monsterId": 257,
       "pokemon": "Blaziken",
       "region": "Hoenn",
       "location": "Magma Hideout",
       "sourceId": 1794715840,
-      "despawnTimestamp": 1794715840,
+      "despawnTimestamp": 1794715839,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T04:10:40.000Z",
       "publishedBy": ""
@@ -48,11 +37,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 320,
+      "pokemon": "Wailmer",
+      "region": "Johto",
+      "location": "Route 40",
+      "secondsAgo": 1510,
+      "sourceId": 1794713745
+    },
+    {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Unova",
       "location": "Route 18",
-      "secondsAgo": 3345,
+      "secondsAgo": 3644,
       "sourceId": 1794711611
     }
   ],
