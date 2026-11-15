@@ -1,46 +1,59 @@
 {
-  "fetchedAt": "2026-11-15T07:45:50.355Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-15T07:50:54.836Z",
+  "swarms": [
     {
-      "monsterId": 131,
-      "pokemon": "Lapras",
+      "monsterId": 370,
+      "pokemon": "Luvdisc",
       "region": "Kanto",
-      "location": "Icefall Cave",
-      "secondsAgo": 1566,
-      "sourceId": 1794727184
+      "location": "Route 19",
+      "sourceId": 1794730322,
+      "despawnTimestamp": 1794730322,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T08:12:02.000Z",
+      "publishedBy": ""
     },
     {
-      "monsterId": 319,
-      "pokemon": "Sharpedo",
+      "monsterId": 156,
+      "pokemon": "Quilava",
       "region": "Johto",
-      "location": "Route 41",
-      "secondsAgo": 1546,
-      "sourceId": 1794727204
+      "location": "Route 42",
+      "sourceId": 1794730294,
+      "despawnTimestamp": 1794730293,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T08:11:34.000Z",
+      "publishedBy": ""
     },
     {
-      "monsterId": 258,
-      "pokemon": "Mudkip",
+      "monsterId": 300,
+      "pokemon": "Skitty",
       "region": "Hoenn",
-      "location": "Route 104",
-      "secondsAgo": 2438,
-      "sourceId": 1794726312
+      "location": "Route 116",
+      "sourceId": 1794730413,
+      "despawnTimestamp": 1794730412,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T08:13:33.000Z",
+      "publishedBy": ""
     },
+    {
+      "monsterId": 335,
+      "pokemon": "Zangoose",
+      "region": "Unova",
+      "location": "Route 7",
+      "sourceId": 1794730519,
+      "despawnTimestamp": 1794730518,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T08:15:19.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 387,
       "pokemon": "Turtwig",
       "region": "Sinnoh",
       "location": "Route 203",
-      "secondsAgo": 2092,
-      "sourceId": 1794726658
-    },
-    {
-      "monsterId": 233,
-      "pokemon": "Porygon2",
-      "region": "Unova",
-      "location": "P2 Laboratory",
-      "secondsAgo": 6429,
-      "sourceId": 1794722321
+      "secondsAgo": 2397,
+      "sourceId": 1794726657
     }
   ],
   "alpha": {
