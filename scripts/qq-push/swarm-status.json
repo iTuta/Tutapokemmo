@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-15T09:21:13.045Z",
+  "fetchedAt": "2026-11-15T09:25:41.416Z",
   "swarms": [
+    {
+      "monsterId": 442,
+      "pokemon": "Spiritomb",
+      "region": "Kanto",
+      "location": "Lost Cave",
+      "sourceId": 1794736211,
+      "despawnTimestamp": 1794736211,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T09:50:11.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Johto",
       "location": "Route 43",
       "sourceId": 1794735179,
-      "despawnTimestamp": 1794735179,
+      "despawnTimestamp": 1794735178,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T09:32:59.000Z",
       "publishedBy": ""
@@ -15,27 +26,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 314,
-      "pokemon": "Illumise",
-      "region": "Kanto",
-      "location": "Water Path",
-      "secondsAgo": 3393,
-      "sourceId": 1794731080
-    },
-    {
       "monsterId": 479,
       "pokemon": "Rotom",
       "region": "Sinnoh",
       "location": "Old Chateau",
-      "secondsAgo": 2191,
-      "sourceId": 1794732282
+      "secondsAgo": 2460,
+      "sourceId": 1794732281
     },
     {
       "monsterId": 148,
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 1043,
+      "secondsAgo": 1311,
       "sourceId": 1794733430
     }
   ],
