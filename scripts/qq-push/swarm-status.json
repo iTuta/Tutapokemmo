@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-11-15T08:45:47.582Z",
+  "fetchedAt": "2026-11-15T08:51:08.390Z",
   "swarms": [
-    {
-      "monsterId": 314,
-      "pokemon": "Illumise",
-      "region": "Kanto",
-      "location": "Water Path",
-      "sourceId": 1794732579,
-      "despawnTimestamp": 1794732578,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T08:49:39.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 285,
-      "pokemon": "Shroomish",
-      "region": "Johto",
-      "location": "Route 34",
-      "sourceId": 1794732380,
-      "despawnTimestamp": 1794732380,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T08:46:20.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 479,
       "pokemon": "Rotom",
@@ -48,11 +26,27 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 314,
+      "pokemon": "Illumise",
+      "region": "Kanto",
+      "location": "Water Path",
+      "secondsAgo": 1589,
+      "sourceId": 1794731079
+    },
+    {
+      "monsterId": 285,
+      "pokemon": "Shroomish",
+      "region": "Johto",
+      "location": "Route 34",
+      "secondsAgo": 1787,
+      "sourceId": 1794730881
+    },
+    {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Hoenn",
       "location": "Scorched Slab",
-      "secondsAgo": 1667,
+      "secondsAgo": 1988,
       "sourceId": 1794730680
     }
   ],
