@@ -1,15 +1,15 @@
 {
-  "fetchedAt": "2026-11-15T11:25:44.925Z",
+  "fetchedAt": "2026-11-15T11:31:14.947Z",
   "swarms": [
     {
-      "monsterId": 160,
-      "pokemon": "Feraligatr",
-      "region": "Johto",
-      "location": "Tohjo Falls",
-      "sourceId": 1794743248,
-      "despawnTimestamp": 1794743247,
+      "monsterId": 3,
+      "pokemon": "Venusaur",
+      "region": "Kanto",
+      "location": "Berry Forest",
+      "sourceId": 1794743506,
+      "despawnTimestamp": 1794743506,
       "hasValuable": false,
-      "timestampUtc": "2026-11-15T11:47:28.000Z",
+      "timestampUtc": "2026-11-15T11:51:46.000Z",
       "publishedBy": ""
     },
     {
@@ -22,31 +22,34 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-15T11:46:50.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 299,
+      "pokemon": "Nosepass",
+      "region": "Sinnoh",
+      "location": "Oreburgh Gate",
+      "sourceId": 1794743658,
+      "despawnTimestamp": 1794743657,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T11:54:18.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 3,
-      "pokemon": "Venusaur",
-      "region": "Kanto",
-      "location": "Berry Forest",
-      "secondsAgo": 2060,
-      "sourceId": 1794739884
-    },
-    {
-      "monsterId": 193,
-      "pokemon": "Yanma",
-      "region": "Sinnoh",
-      "location": "Route 205",
-      "secondsAgo": 1637,
-      "sourceId": 1794740307
+      "monsterId": 176,
+      "pokemon": "Togetic",
+      "region": "Johto",
+      "location": "Route 27",
+      "secondsAgo": 2032,
+      "sourceId": 1794740242
     },
     {
       "monsterId": 314,
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 2650,
+      "secondsAgo": 2980,
       "sourceId": 1794739294
     }
   ],
