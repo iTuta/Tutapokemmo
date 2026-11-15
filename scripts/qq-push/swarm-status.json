@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T00:55:43.968Z",
+  "fetchedAt": "2026-11-15T01:01:28.361Z",
   "swarms": [
     {
       "monsterId": 128,
@@ -7,20 +7,9 @@
       "region": "Kanto",
       "location": "Route 17",
       "sourceId": 1794705173,
-      "despawnTimestamp": 1794705172,
+      "despawnTimestamp": 1794705173,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T01:12:53.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Johto",
-      "location": "Cliff Cave",
-      "sourceId": 1794704377,
-      "despawnTimestamp": 1794704376,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T00:59:37.000Z",
       "publishedBy": ""
     },
     {
@@ -29,28 +18,39 @@
       "region": "Hoenn",
       "location": "Rusturf Tunnel",
       "sourceId": 1794705604,
-      "despawnTimestamp": 1794705603,
+      "despawnTimestamp": 1794705604,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T01:20:04.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 162,
+      "pokemon": "Furret",
+      "region": "Sinnoh",
+      "location": "Route 208",
+      "sourceId": 1794705894,
+      "despawnTimestamp": 1794705894,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T01:24:54.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 351,
-      "pokemon": "Castform",
-      "region": "Sinnoh",
-      "location": "Route 210",
-      "secondsAgo": 1809,
-      "sourceId": 1794702334
+      "monsterId": 213,
+      "pokemon": "Shuckle",
+      "region": "Johto",
+      "location": "Cliff Cave",
+      "secondsAgo": 1611,
+      "sourceId": 1794702877
     },
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Unova",
       "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 6306,
-      "sourceId": 1794697837
+      "secondsAgo": 6650,
+      "sourceId": 1794697838
     }
   ],
   "alpha": {
