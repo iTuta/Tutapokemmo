@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T16:45:56.032Z",
+  "fetchedAt": "2026-11-15T16:50:44.744Z",
   "swarms": [
     {
       "monsterId": 373,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Victory Road",
       "sourceId": 1794761727,
-      "despawnTimestamp": 1794761727,
+      "despawnTimestamp": 1794761726,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T16:55:27.000Z",
       "publishedBy": ""
@@ -26,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 285,
+      "pokemon": "Shroomish",
+      "region": "Johto",
+      "location": "Route 34",
+      "secondsAgo": 5663,
+      "sourceId": 1794755781
+    },
+    {
       "monsterId": 149,
       "pokemon": "Dragonite",
       "region": "Hoenn",
       "location": "Route 131",
-      "secondsAgo": 2191,
+      "secondsAgo": 2479,
       "sourceId": 1794758965
     },
     {
@@ -38,7 +46,7 @@
       "pokemon": "Octillery",
       "region": "Unova",
       "location": "Route 13",
-      "secondsAgo": 2219,
+      "secondsAgo": 2507,
       "sourceId": 1794758937
     }
   ],
@@ -52,6 +60,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-11-15T12:05:40.000Z",
     "timestampRaw": "2026-11-15T12:05:40.000Z",
-    "publishedBy": ""
+    "publishedBy": "Avionzor"
   }
 }
