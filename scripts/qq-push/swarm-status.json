@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T12:40:44.043Z",
+  "fetchedAt": "2026-11-15T12:46:05.745Z",
   "swarms": [
     {
       "monsterId": 2,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Route 5",
       "sourceId": 1794746868,
-      "despawnTimestamp": 1794746868,
+      "despawnTimestamp": 1794746867,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T12:47:48.000Z",
       "publishedBy": ""
@@ -18,7 +18,7 @@
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
       "sourceId": 1794747022,
-      "despawnTimestamp": 1794747022,
+      "despawnTimestamp": 1794747021,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T12:50:22.000Z",
       "publishedBy": ""
@@ -29,20 +29,9 @@
       "region": "Hoenn",
       "location": "Route 107",
       "sourceId": 1794747164,
-      "despawnTimestamp": 1794747164,
+      "despawnTimestamp": 1794747163,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T12:52:44.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 387,
-      "pokemon": "Turtwig",
-      "region": "Sinnoh",
-      "location": "Route 203",
-      "sourceId": 1794746542,
-      "despawnTimestamp": 1794746542,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T12:42:22.000Z",
       "publishedBy": ""
     },
     {
@@ -51,13 +40,22 @@
       "region": "Unova",
       "location": "Undella Bay",
       "sourceId": 1794747246,
-      "despawnTimestamp": 1794747246,
+      "despawnTimestamp": 1794747245,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T12:54:06.000Z",
       "publishedBy": ""
     }
   ],
-  "lastSeen": [],
+  "lastSeen": [
+    {
+      "monsterId": 387,
+      "pokemon": "Turtwig",
+      "region": "Sinnoh",
+      "location": "Route 203",
+      "secondsAgo": 523,
+      "sourceId": 1794746242
+    }
+  ],
   "alpha": {
     "monsterId": 354,
     "pokemon": "Banette",
