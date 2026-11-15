@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-15T13:01:08.670Z",
+  "fetchedAt": "2026-11-15T13:05:58.076Z",
   "swarms": [
+    {
+      "monsterId": 373,
+      "pokemon": "Salamence",
+      "region": "Kanto",
+      "location": "Victory Road",
+      "sourceId": 1794749321,
+      "despawnTimestamp": 1794749321,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T13:28:41.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 469,
       "pokemon": "Yanmega",
@@ -18,36 +29,31 @@
       "region": "Hoenn",
       "location": "Shoal Cave",
       "sourceId": 1794749005,
-      "despawnTimestamp": 1794749004,
+      "despawnTimestamp": 1794749005,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T13:23:25.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Unova",
+      "location": "Guidance Chamber",
+      "sourceId": 1794749368,
+      "despawnTimestamp": 1794749369,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T13:29:28.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 2,
-      "pokemon": "Ivysaur",
-      "region": "Kanto",
-      "location": "Route 5",
-      "secondsAgo": 2300,
-      "sourceId": 1794745368
-    },
-    {
       "monsterId": 387,
       "pokemon": "Turtwig",
       "region": "Sinnoh",
       "location": "Route 203",
-      "secondsAgo": 1426,
-      "sourceId": 1794746242
-    },
-    {
-      "monsterId": 222,
-      "pokemon": "Corsola",
-      "region": "Unova",
-      "location": "Undella Bay",
-      "secondsAgo": 1922,
-      "sourceId": 1794745746
+      "secondsAgo": 1715,
+      "sourceId": 1794746243
     }
   ],
   "alpha": {
