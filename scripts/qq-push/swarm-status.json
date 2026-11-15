@@ -1,37 +1,15 @@
 {
-  "fetchedAt": "2026-11-15T04:50:41.154Z",
+  "fetchedAt": "2026-11-15T04:55:40.803Z",
   "swarms": [
-    {
-      "monsterId": 160,
-      "pokemon": "Feraligatr",
-      "region": "Johto",
-      "location": "Tohjo Falls",
-      "sourceId": 1794718480,
-      "despawnTimestamp": 1794718480,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T04:54:40.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Hoenn",
       "location": "Jagged Pass",
       "sourceId": 1794719411,
-      "despawnTimestamp": 1794719411,
+      "despawnTimestamp": 1794719410,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T05:10:11.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 391,
-      "pokemon": "Monferno",
-      "region": "Sinnoh",
-      "location": "Route 211",
-      "sourceId": 1794718280,
-      "despawnTimestamp": 1794718280,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T04:51:20.000Z",
       "publishedBy": ""
     },
     {
@@ -40,7 +18,7 @@
       "region": "Unova",
       "location": "Route 1",
       "sourceId": 1794719380,
-      "despawnTimestamp": 1794719380,
+      "despawnTimestamp": 1794719379,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T05:09:40.000Z",
       "publishedBy": ""
@@ -52,8 +30,24 @@
       "pokemon": "Houndoom",
       "region": "Kanto",
       "location": "Kindle Road",
-      "secondsAgo": 4252,
-      "sourceId": 1794713989
+      "secondsAgo": 4552,
+      "sourceId": 1794713988
+    },
+    {
+      "monsterId": 160,
+      "pokemon": "Feraligatr",
+      "region": "Johto",
+      "location": "Tohjo Falls",
+      "secondsAgo": 1559,
+      "sourceId": 1794716981
+    },
+    {
+      "monsterId": 391,
+      "pokemon": "Monferno",
+      "region": "Sinnoh",
+      "location": "Route 211",
+      "secondsAgo": 1760,
+      "sourceId": 1794716780
     }
   ],
   "alpha": {
