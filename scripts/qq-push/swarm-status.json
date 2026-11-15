@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T04:05:42.767Z",
+  "fetchedAt": "2026-11-15T04:10:41.359Z",
   "swarms": [
     {
       "monsterId": 281,
@@ -13,23 +13,12 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 257,
-      "pokemon": "Blaziken",
-      "region": "Hoenn",
-      "location": "Magma Hideout",
-      "sourceId": 1794715840,
-      "despawnTimestamp": 1794715840,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T04:10:40.000Z",
-      "publishedBy": ""
-    },
-    {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Sinnoh",
       "location": "Iron Island",
       "sourceId": 1794715963,
-      "despawnTimestamp": 1794715962,
+      "despawnTimestamp": 1794715963,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T04:12:43.000Z",
       "publishedBy": ""
@@ -41,16 +30,24 @@
       "pokemon": "Houndoom",
       "region": "Kanto",
       "location": "Kindle Road",
-      "secondsAgo": 1554,
-      "sourceId": 1794713988
+      "secondsAgo": 1852,
+      "sourceId": 1794713989
+    },
+    {
+      "monsterId": 257,
+      "pokemon": "Blaziken",
+      "region": "Hoenn",
+      "location": "Magma Hideout",
+      "secondsAgo": 1500,
+      "sourceId": 1794714341
     },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Unova",
       "location": "Route 18",
-      "secondsAgo": 3931,
-      "sourceId": 1794711611
+      "secondsAgo": 4229,
+      "sourceId": 1794711612
     }
   ],
   "alpha": {
