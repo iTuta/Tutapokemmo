@@ -1,15 +1,26 @@
 {
-  "fetchedAt": "2026-11-15T07:15:52.294Z",
+  "fetchedAt": "2026-11-15T07:20:50.445Z",
   "swarms": [
     {
-      "monsterId": 258,
-      "pokemon": "Mudkip",
-      "region": "Hoenn",
-      "location": "Route 104",
-      "sourceId": 1794727811,
-      "despawnTimestamp": 1794727811,
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Kanto",
+      "location": "Icefall Cave",
+      "sourceId": 1794728684,
+      "despawnTimestamp": 1794728683,
       "hasValuable": false,
-      "timestampUtc": "2026-11-15T07:30:11.000Z",
+      "timestampUtc": "2026-11-15T07:44:44.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 319,
+      "pokemon": "Sharpedo",
+      "region": "Johto",
+      "location": "Route 41",
+      "sourceId": 1794728703,
+      "despawnTimestamp": 1794728703,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T07:45:03.000Z",
       "publishedBy": ""
     },
     {
@@ -26,27 +37,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 350,
-      "pokemon": "Milotic",
-      "region": "Kanto",
-      "location": "Resort Gorgeous",
-      "secondsAgo": 6304,
-      "sourceId": 1794720648
-    },
-    {
-      "monsterId": 121,
-      "pokemon": "Starmie",
-      "region": "Johto",
-      "location": "Cliff Edge Gate",
-      "secondsAgo": 3377,
-      "sourceId": 1794723575
+      "monsterId": 258,
+      "pokemon": "Mudkip",
+      "region": "Hoenn",
+      "location": "Route 104",
+      "secondsAgo": 938,
+      "sourceId": 1794726312
     },
     {
       "monsterId": 233,
       "pokemon": "Porygon2",
       "region": "Unova",
       "location": "P2 Laboratory",
-      "secondsAgo": 4631,
+      "secondsAgo": 4929,
       "sourceId": 1794722321
     }
   ],
