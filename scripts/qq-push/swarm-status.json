@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-15T00:45:48.870Z",
+  "fetchedAt": "2026-11-15T00:50:51.896Z",
   "swarms": [
+    {
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Kanto",
+      "location": "Route 17",
+      "sourceId": 1794705173,
+      "despawnTimestamp": 1794705172,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T01:12:53.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
@@ -11,42 +22,31 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-15T00:59:37.000Z",
       "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 479,
+      "pokemon": "Rotom",
+      "region": "Hoenn",
+      "location": "New Mauville",
+      "secondsAgo": 3537,
+      "sourceId": 1794700314
     },
     {
       "monsterId": 351,
       "pokemon": "Castform",
       "region": "Sinnoh",
       "location": "Route 210",
-      "sourceId": 1794703834,
-      "despawnTimestamp": 1794703833,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T00:50:34.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 413,
-      "pokemon": "Wormadam",
-      "region": "Kanto",
-      "location": "Pattern Bush",
-      "secondsAgo": 1207,
-      "sourceId": 1794702341
-    },
-    {
-      "monsterId": 479,
-      "pokemon": "Rotom",
-      "region": "Hoenn",
-      "location": "New Mauville",
-      "secondsAgo": 3234,
-      "sourceId": 1794700314
+      "secondsAgo": 1517,
+      "sourceId": 1794702334
     },
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Unova",
       "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 5711,
+      "secondsAgo": 6014,
       "sourceId": 1794697837
     }
   ],
