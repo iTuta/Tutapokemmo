@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-15T01:10:48.801Z",
+  "fetchedAt": "2026-11-15T01:15:51.972Z",
   "swarms": [
+    {
+      "monsterId": 153,
+      "pokemon": "Bayleef",
+      "region": "Johto",
+      "location": "National Park",
+      "sourceId": 1794706727,
+      "despawnTimestamp": 1794706726,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T01:38:47.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 439,
       "pokemon": "Mime Jr.",
       "region": "Hoenn",
       "location": "Rusturf Tunnel",
       "sourceId": 1794705604,
-      "despawnTimestamp": 1794705604,
+      "despawnTimestamp": 1794705603,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T01:20:04.000Z",
       "publishedBy": ""
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Johto",
-      "location": "Cliff Cave",
-      "secondsAgo": 2171,
-      "sourceId": 1794702877
-    },
-    {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Unova",
       "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 7211,
+      "secondsAgo": 7514,
       "sourceId": 1794697837
     }
   ],
