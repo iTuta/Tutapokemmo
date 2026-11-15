@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-15T20:10:43.454Z",
+  "fetchedAt": "2026-11-15T20:15:44.245Z",
   "swarms": [
-    {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Kanto",
-      "location": "Route 17",
-      "sourceId": 1794773601,
-      "despawnTimestamp": 1794773601,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T20:13:21.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 429,
       "pokemon": "Mismagius",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Kanto",
+      "location": "Route 17",
+      "secondsAgo": 1642,
+      "sourceId": 1794772102
+    },
+    {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 10451,
+      "secondsAgo": 10752,
       "sourceId": 1794762992
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Scyther",
       "region": "Sinnoh",
       "location": "Route 210",
-      "secondsAgo": 6509,
+      "secondsAgo": 6810,
       "sourceId": 1794766934
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 7038,
-      "sourceId": 1794766405
+      "secondsAgo": 7338,
+      "sourceId": 1794766406
     }
   ],
   "alpha": {
