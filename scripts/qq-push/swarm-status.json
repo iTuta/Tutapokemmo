@@ -1,45 +1,55 @@
 {
-  "fetchedAt": "2026-11-15T11:55:48.212Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-15T12:01:04.744Z",
+  "swarms": [
     {
-      "monsterId": 3,
-      "pokemon": "Venusaur",
+      "monsterId": 1,
+      "pokemon": "Bulbasaur",
       "region": "Kanto",
-      "location": "Berry Forest",
-      "secondsAgo": 1741,
-      "sourceId": 1794742007
+      "location": "Viridian Forest",
+      "sourceId": 1794745299,
+      "despawnTimestamp": 1794745298,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T12:21:39.000Z",
+      "publishedBy": ""
     },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 3505,
-      "sourceId": 1794740243
+      "sourceId": 1794745488,
+      "despawnTimestamp": 1794745488,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T12:24:48.000Z",
+      "publishedBy": ""
     },
     {
-      "monsterId": 259,
-      "pokemon": "Marshtomp",
+      "monsterId": 369,
+      "pokemon": "Relicanth",
       "region": "Hoenn",
-      "location": "Route 124",
-      "secondsAgo": 2037,
-      "sourceId": 1794741711
-    },
+      "location": "Route 126",
+      "sourceId": 1794745344,
+      "despawnTimestamp": 1794745343,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T12:22:24.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 299,
       "pokemon": "Nosepass",
       "region": "Sinnoh",
       "location": "Oreburgh Gate",
-      "secondsAgo": 1589,
-      "sourceId": 1794742159
+      "secondsAgo": 1906,
+      "sourceId": 1794742158
     },
     {
       "monsterId": 314,
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 4454,
+      "secondsAgo": 4770,
       "sourceId": 1794739294
     }
   ],
