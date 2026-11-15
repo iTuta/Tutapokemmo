@@ -1,38 +1,45 @@
 {
-  "fetchedAt": "2026-11-15T19:20:49.033Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-15T19:25:52.776Z",
+  "swarms": [
     {
-      "monsterId": 350,
-      "pokemon": "Milotic",
+      "monsterId": 4,
+      "pokemon": "Charmander",
       "region": "Kanto",
-      "location": "Resort Gorgeous",
-      "secondsAgo": 4582,
-      "sourceId": 1794765867
+      "location": "Route 3",
+      "sourceId": 1794771999,
+      "despawnTimestamp": 1794771999,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T19:46:39.000Z",
+      "publishedBy": ""
     },
+    {
+      "monsterId": 441,
+      "pokemon": "Chatot",
+      "region": "Hoenn",
+      "location": "Route 115",
+      "sourceId": 1794772090,
+      "despawnTimestamp": 1794772089,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T19:48:10.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 7457,
-      "sourceId": 1794762992
-    },
-    {
-      "monsterId": 134,
-      "pokemon": "Vaporeon",
-      "region": "Hoenn",
-      "location": "Route 134",
-      "secondsAgo": 3380,
-      "sourceId": 1794767069
+      "secondsAgo": 7761,
+      "sourceId": 1794762991
     },
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 4043,
-      "sourceId": 1794766406
+      "secondsAgo": 4347,
+      "sourceId": 1794766405
     }
   ],
   "alpha": {
