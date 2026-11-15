@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-15T16:01:28.746Z",
+  "fetchedAt": "2026-11-15T16:05:52.816Z",
   "swarms": [
+    {
+      "monsterId": 103,
+      "pokemon": "Exeggutor",
+      "region": "Kanto",
+      "location": "Route 23",
+      "sourceId": 1794760226,
+      "despawnTimestamp": 1794760225,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T16:30:26.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 103,
-      "pokemon": "Exeggutor",
-      "region": "Kanto",
-      "location": "Route 23",
-      "secondsAgo": 2335,
-      "sourceId": 1794756153
-    },
-    {
       "monsterId": 254,
       "pokemon": "Sceptile",
       "region": "Hoenn",
       "location": "Route 119",
-      "secondsAgo": 1891,
+      "secondsAgo": 2155,
       "sourceId": 1794756597
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 1321,
+      "secondsAgo": 1585,
       "sourceId": 1794757167
     }
   ],
