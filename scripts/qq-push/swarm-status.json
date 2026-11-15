@@ -1,37 +1,26 @@
 {
-  "fetchedAt": "2026-11-15T12:20:47.573Z",
+  "fetchedAt": "2026-11-15T12:25:38.022Z",
   "swarms": [
     {
-      "monsterId": 1,
-      "pokemon": "Bulbasaur",
+      "monsterId": 2,
+      "pokemon": "Ivysaur",
       "region": "Kanto",
-      "location": "Viridian Forest",
-      "sourceId": 1794745299,
-      "despawnTimestamp": 1794745298,
+      "location": "Route 5",
+      "sourceId": 1794746868,
+      "despawnTimestamp": 1794746867,
       "hasValuable": false,
-      "timestampUtc": "2026-11-15T12:21:39.000Z",
+      "timestampUtc": "2026-11-15T12:47:48.000Z",
       "publishedBy": ""
     },
     {
-      "monsterId": 176,
-      "pokemon": "Togetic",
+      "monsterId": 372,
+      "pokemon": "Shelgon",
       "region": "Johto",
-      "location": "Route 27",
-      "sourceId": 1794745488,
-      "despawnTimestamp": 1794745488,
+      "location": "Dragon&#x27;s Den",
+      "sourceId": 1794747022,
+      "despawnTimestamp": 1794747021,
       "hasValuable": false,
-      "timestampUtc": "2026-11-15T12:24:48.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 369,
-      "pokemon": "Relicanth",
-      "region": "Hoenn",
-      "location": "Route 126",
-      "sourceId": 1794745344,
-      "despawnTimestamp": 1794745344,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T12:22:24.000Z",
+      "timestampUtc": "2026-11-15T12:50:22.000Z",
       "publishedBy": ""
     },
     {
@@ -40,7 +29,7 @@
       "region": "Sinnoh",
       "location": "Route 203",
       "sourceId": 1794745913,
-      "despawnTimestamp": 1794745913,
+      "despawnTimestamp": 1794745912,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T12:31:53.000Z",
       "publishedBy": ""
@@ -51,13 +40,22 @@
       "region": "Unova",
       "location": "Relic Castle",
       "sourceId": 1794745742,
-      "despawnTimestamp": 1794745742,
+      "despawnTimestamp": 1794745741,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T12:29:02.000Z",
       "publishedBy": ""
     }
   ],
-  "lastSeen": [],
+  "lastSeen": [
+    {
+      "monsterId": 369,
+      "pokemon": "Relicanth",
+      "region": "Hoenn",
+      "location": "Route 126",
+      "secondsAgo": 1693,
+      "sourceId": 1794743844
+    }
+  ],
   "alpha": {
     "monsterId": 354,
     "pokemon": "Banette",
