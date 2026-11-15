@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-15T13:31:14.052Z",
+  "fetchedAt": "2026-11-15T13:35:45.605Z",
   "swarms": [
+    {
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Kanto",
+      "location": "Route 17",
+      "sourceId": 1794751206,
+      "despawnTimestamp": 1794751206,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T14:00:06.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 122,
       "pokemon": "Mr. Mime",
       "region": "Sinnoh",
       "location": "Route 224",
       "sourceId": 1794750505,
-      "despawnTimestamp": 1794750505,
+      "despawnTimestamp": 1794750504,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T13:48:25.000Z",
       "publishedBy": ""
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 373,
-      "pokemon": "Salamence",
-      "region": "Kanto",
-      "location": "Victory Road",
-      "secondsAgo": 1652,
-      "sourceId": 1794747822
-    },
-    {
       "monsterId": 469,
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 1836,
+      "secondsAgo": 2107,
       "sourceId": 1794747638
     },
     {
@@ -35,16 +38,16 @@
       "pokemon": "Lapras",
       "region": "Hoenn",
       "location": "Shoal Cave",
-      "secondsAgo": 1968,
-      "sourceId": 1794747506
+      "secondsAgo": 2240,
+      "sourceId": 1794747505
     },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 1604,
-      "sourceId": 1794747870
+      "secondsAgo": 1876,
+      "sourceId": 1794747869
     }
   ],
   "alpha": {
