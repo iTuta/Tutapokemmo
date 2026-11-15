@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-15T06:40:50.622Z",
+  "fetchedAt": "2026-11-15T06:45:48.788Z",
   "swarms": [
-    {
-      "monsterId": 121,
-      "pokemon": "Starmie",
-      "region": "Johto",
-      "location": "Cliff Edge Gate",
-      "sourceId": 1794725074,
-      "despawnTimestamp": 1794725074,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T06:44:34.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 113,
       "pokemon": "Chansey",
@@ -30,23 +19,31 @@
       "pokemon": "Milotic",
       "region": "Kanto",
       "location": "Resort Gorgeous",
-      "secondsAgo": 4202,
+      "secondsAgo": 4500,
       "sourceId": 1794720648
+    },
+    {
+      "monsterId": 121,
+      "pokemon": "Starmie",
+      "region": "Johto",
+      "location": "Cliff Edge Gate",
+      "secondsAgo": 1573,
+      "sourceId": 1794723575
     },
     {
       "monsterId": 211,
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 4232,
-      "sourceId": 1794720618
+      "secondsAgo": 4531,
+      "sourceId": 1794720617
     },
     {
       "monsterId": 233,
       "pokemon": "Porygon2",
       "region": "Unova",
       "location": "P2 Laboratory",
-      "secondsAgo": 2529,
+      "secondsAgo": 2827,
       "sourceId": 1794722321
     }
   ],
