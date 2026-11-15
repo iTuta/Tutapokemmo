@@ -1,47 +1,33 @@
 {
-  "fetchedAt": "2026-11-15T17:55:41.303Z",
+  "fetchedAt": "2026-11-15T18:01:37.572Z",
   "swarms": [
-    {
-      "monsterId": 313,
-      "pokemon": "Volbeat",
-      "region": "Kanto",
-      "location": "Memorial Pillar",
-      "sourceId": 1794765551,
-      "despawnTimestamp": 1794765551,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T17:59:11.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 388,
       "pokemon": "Grotle",
       "region": "Sinnoh",
       "location": "Sendoff Spring",
       "sourceId": 1794766029,
-      "despawnTimestamp": 1794766029,
+      "despawnTimestamp": 1794766028,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T18:07:09.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 193,
-      "pokemon": "Yanma",
-      "region": "Unova",
-      "location": "Pinwheel Forest",
-      "sourceId": 1794765374,
-      "despawnTimestamp": 1794765374,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T17:56:14.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
+      "monsterId": 313,
+      "pokemon": "Volbeat",
+      "region": "Kanto",
+      "location": "Memorial Pillar",
+      "secondsAgo": 1645,
+      "sourceId": 1794764052
+    },
+    {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 2349,
+      "secondsAgo": 2705,
       "sourceId": 1794762992
     },
     {
@@ -49,8 +35,16 @@
       "pokemon": "Skarmory",
       "region": "Hoenn",
       "location": "Route 113",
-      "secondsAgo": 2374,
-      "sourceId": 1794762967
+      "secondsAgo": 2731,
+      "sourceId": 1794762966
+    },
+    {
+      "monsterId": 193,
+      "pokemon": "Yanma",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "secondsAgo": 1822,
+      "sourceId": 1794763875
     }
   ],
   "alpha": {
