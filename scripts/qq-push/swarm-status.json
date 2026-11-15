@@ -1,46 +1,53 @@
 {
-  "fetchedAt": "2026-11-15T16:55:41.119Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-15T17:01:21.879Z",
+  "swarms": [
     {
-      "monsterId": 373,
-      "pokemon": "Salamence",
+      "monsterId": 2,
+      "pokemon": "Ivysaur",
       "region": "Kanto",
-      "location": "Victory Road",
-      "secondsAgo": 1513,
-      "sourceId": 1794760228
+      "location": "Route 5",
+      "sourceId": 1794763245,
+      "despawnTimestamp": 1794763244,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T17:20:45.000Z",
+      "publishedBy": ""
     },
+    {
+      "monsterId": 369,
+      "pokemon": "Relicanth",
+      "region": "Unova",
+      "location": "Challenger&#x27;s Cave",
+      "sourceId": 1794763540,
+      "despawnTimestamp": 1794763540,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T17:25:40.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Johto",
       "location": "Route 34",
-      "secondsAgo": 5960,
-      "sourceId": 1794755781
+      "secondsAgo": 6301,
+      "sourceId": 1794755780
     },
     {
       "monsterId": 149,
       "pokemon": "Dragonite",
       "region": "Hoenn",
       "location": "Route 131",
-      "secondsAgo": 2776,
-      "sourceId": 1794758965
+      "secondsAgo": 3117,
+      "sourceId": 1794758964
     },
     {
       "monsterId": 351,
       "pokemon": "Castform",
       "region": "Sinnoh",
       "location": "Route 210",
-      "secondsAgo": 1780,
-      "sourceId": 1794759961
-    },
-    {
-      "monsterId": 224,
-      "pokemon": "Octillery",
-      "region": "Unova",
-      "location": "Route 13",
-      "secondsAgo": 2804,
-      "sourceId": 1794758937
+      "secondsAgo": 2121,
+      "sourceId": 1794759960
     }
   ],
   "alpha": {
