@@ -1,35 +1,13 @@
 {
-  "fetchedAt": "2026-11-15T12:46:05.745Z",
+  "fetchedAt": "2026-11-15T12:51:04.435Z",
   "swarms": [
-    {
-      "monsterId": 2,
-      "pokemon": "Ivysaur",
-      "region": "Kanto",
-      "location": "Route 5",
-      "sourceId": 1794746868,
-      "despawnTimestamp": 1794746867,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T12:47:48.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 372,
-      "pokemon": "Shelgon",
-      "region": "Johto",
-      "location": "Dragon&#x27;s Den",
-      "sourceId": 1794747022,
-      "despawnTimestamp": 1794747021,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T12:50:22.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 456,
       "pokemon": "Finneon",
       "region": "Hoenn",
       "location": "Route 107",
       "sourceId": 1794747164,
-      "despawnTimestamp": 1794747163,
+      "despawnTimestamp": 1794747164,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T12:52:44.000Z",
       "publishedBy": ""
@@ -48,11 +26,27 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 2,
+      "pokemon": "Ivysaur",
+      "region": "Kanto",
+      "location": "Route 5",
+      "secondsAgo": 1696,
+      "sourceId": 1794745368
+    },
+    {
+      "monsterId": 372,
+      "pokemon": "Shelgon",
+      "region": "Johto",
+      "location": "Dragon&#x27;s Den",
+      "secondsAgo": 1542,
+      "sourceId": 1794745522
+    },
+    {
       "monsterId": 387,
       "pokemon": "Turtwig",
       "region": "Sinnoh",
       "location": "Route 203",
-      "secondsAgo": 523,
+      "secondsAgo": 822,
       "sourceId": 1794746242
     }
   ],
