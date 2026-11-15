@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T05:20:47.587Z",
+  "fetchedAt": "2026-11-15T05:25:43.523Z",
   "swarms": [
     {
       "monsterId": 479,
@@ -13,35 +13,32 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 359,
-      "pokemon": "Absol",
+      "monsterId": 204,
+      "pokemon": "Pineco",
       "region": "Johto",
-      "location": "Route 28",
-      "sourceId": 1794720148,
-      "despawnTimestamp": 1794720148,
+      "location": "Route 36",
+      "sourceId": 1794721688,
+      "despawnTimestamp": 1794721687,
       "hasValuable": false,
-      "timestampUtc": "2026-11-15T05:22:28.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 134,
-      "pokemon": "Vaporeon",
-      "region": "Hoenn",
-      "location": "Route 134",
-      "sourceId": 1794720923,
-      "despawnTimestamp": 1794720922,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T05:35:23.000Z",
+      "timestampUtc": "2026-11-15T05:48:08.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
+      "monsterId": 134,
+      "pokemon": "Vaporeon",
+      "region": "Hoenn",
+      "location": "Route 134",
+      "secondsAgo": 920,
+      "sourceId": 1794719423
+    },
+    {
       "monsterId": 391,
       "pokemon": "Monferno",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 3267,
+      "secondsAgo": 3563,
       "sourceId": 1794716780
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 2167,
+      "secondsAgo": 2463,
       "sourceId": 1794717880
     }
   ],
