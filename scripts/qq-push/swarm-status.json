@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-15T11:15:47.561Z",
+  "fetchedAt": "2026-11-15T11:21:17.220Z",
   "swarms": [
-    {
-      "monsterId": 3,
-      "pokemon": "Venusaur",
-      "region": "Kanto",
-      "location": "Berry Forest",
-      "sourceId": 1794741384,
-      "despawnTimestamp": 1794741383,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T11:16:24.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 3,
+      "pokemon": "Venusaur",
+      "region": "Kanto",
+      "location": "Berry Forest",
+      "secondsAgo": 1793,
+      "sourceId": 1794739884
+    },
+    {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Hoenn",
       "location": "Route 113",
-      "secondsAgo": 2046,
+      "secondsAgo": 2376,
       "sourceId": 1794739301
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 2053,
+      "secondsAgo": 2383,
       "sourceId": 1794739294
     }
   ],
