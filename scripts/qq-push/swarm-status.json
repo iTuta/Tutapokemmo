@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T07:10:47.202Z",
+  "fetchedAt": "2026-11-15T07:15:52.294Z",
   "swarms": [
     {
       "monsterId": 258,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-15T07:30:11.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 387,
+      "pokemon": "Turtwig",
+      "region": "Sinnoh",
+      "location": "Route 203",
+      "sourceId": 1794728157,
+      "despawnTimestamp": 1794728157,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T07:35:57.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Milotic",
       "region": "Kanto",
       "location": "Resort Gorgeous",
-      "secondsAgo": 5999,
+      "secondsAgo": 6304,
       "sourceId": 1794720648
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Starmie",
       "region": "Johto",
       "location": "Cliff Edge Gate",
-      "secondsAgo": 3072,
+      "secondsAgo": 3377,
       "sourceId": 1794723575
-    },
-    {
-      "monsterId": 389,
-      "pokemon": "Torterra",
-      "region": "Sinnoh",
-      "location": "Route 212",
-      "secondsAgo": 1263,
-      "sourceId": 1794725384
     },
     {
       "monsterId": 233,
       "pokemon": "Porygon2",
       "region": "Unova",
       "location": "P2 Laboratory",
-      "secondsAgo": 4326,
+      "secondsAgo": 4631,
       "sourceId": 1794722321
     }
   ],
