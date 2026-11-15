@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T19:31:05.493Z",
+  "fetchedAt": "2026-11-15T19:35:43.839Z",
   "swarms": [
     {
       "monsterId": 4,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-15T19:46:39.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 441,
-      "pokemon": "Chatot",
-      "region": "Hoenn",
-      "location": "Route 115",
-      "sourceId": 1794772090,
-      "despawnTimestamp": 1794772090,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T19:48:10.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,15 +19,23 @@
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 8073,
-      "sourceId": 1794762992
+      "secondsAgo": 8352,
+      "sourceId": 1794762991
+    },
+    {
+      "monsterId": 441,
+      "pokemon": "Chatot",
+      "region": "Hoenn",
+      "location": "Route 115",
+      "secondsAgo": 753,
+      "sourceId": 1794770590
     },
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 4660,
+      "secondsAgo": 4938,
       "sourceId": 1794766405
     }
   ],
