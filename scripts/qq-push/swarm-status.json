@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T18:05:50.216Z",
+  "fetchedAt": "2026-11-15T18:10:52.124Z",
   "swarms": [
     {
       "monsterId": 350,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-15T18:29:26.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 388,
-      "pokemon": "Grotle",
-      "region": "Sinnoh",
-      "location": "Sendoff Spring",
-      "sourceId": 1794766029,
-      "despawnTimestamp": 1794766029,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T18:07:09.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 2958,
+      "secondsAgo": 3260,
       "sourceId": 1794762992
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Skarmory",
       "region": "Hoenn",
       "location": "Route 113",
-      "secondsAgo": 2983,
+      "secondsAgo": 3285,
       "sourceId": 1794762967
+    },
+    {
+      "monsterId": 388,
+      "pokemon": "Grotle",
+      "region": "Sinnoh",
+      "location": "Sendoff Spring",
+      "secondsAgo": 1722,
+      "sourceId": 1794764530
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 2075,
+      "secondsAgo": 2377,
       "sourceId": 1794763875
     }
   ],
