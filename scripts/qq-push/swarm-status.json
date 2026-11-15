@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T19:50:46.820Z",
+  "fetchedAt": "2026-11-15T19:55:47.729Z",
   "swarms": [
     {
       "monsterId": 128,
@@ -7,9 +7,20 @@
       "region": "Kanto",
       "location": "Route 17",
       "sourceId": 1794773601,
-      "despawnTimestamp": 1794773600,
+      "despawnTimestamp": 1794773601,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T20:13:21.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 429,
+      "pokemon": "Mismagius",
+      "region": "Hoenn",
+      "location": "Route 122",
+      "sourceId": 1794773949,
+      "despawnTimestamp": 1794773948,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T20:19:09.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,23 +30,15 @@
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 9255,
+      "secondsAgo": 9556,
       "sourceId": 1794762991
-    },
-    {
-      "monsterId": 441,
-      "pokemon": "Chatot",
-      "region": "Hoenn",
-      "location": "Route 115",
-      "secondsAgo": 1656,
-      "sourceId": 1794770590
     },
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 5841,
+      "secondsAgo": 6142,
       "sourceId": 1794766405
     }
   ],
