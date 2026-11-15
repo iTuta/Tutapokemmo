@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-11-15T15:46:04.776Z",
+  "fetchedAt": "2026-11-15T15:50:44.498Z",
   "swarms": [
-    {
-      "monsterId": 103,
-      "pokemon": "Exeggutor",
-      "region": "Kanto",
-      "location": "Route 23",
-      "sourceId": 1794757652,
-      "despawnTimestamp": 1794757652,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T15:47:32.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 148,
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
       "sourceId": 1794758667,
-      "despawnTimestamp": 1794758666,
+      "despawnTimestamp": 1794758667,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T16:04:27.000Z",
       "publishedBy": ""
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 103,
+      "pokemon": "Exeggutor",
+      "region": "Kanto",
+      "location": "Route 23",
+      "secondsAgo": 1691,
+      "sourceId": 1794756153
+    },
+    {
       "monsterId": 254,
       "pokemon": "Sceptile",
       "region": "Hoenn",
       "location": "Route 119",
-      "secondsAgo": 967,
+      "secondsAgo": 1247,
       "sourceId": 1794756597
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Rotom",
       "region": "Sinnoh",
       "location": "Old Chateau",
-      "secondsAgo": 1615,
+      "secondsAgo": 1895,
       "sourceId": 1794755949
     }
   ],
