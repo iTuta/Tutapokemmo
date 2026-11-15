@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T11:45:58.703Z",
+  "fetchedAt": "2026-11-15T11:50:44.558Z",
   "swarms": [
     {
       "monsterId": 3,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1794743506,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T11:51:46.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 259,
-      "pokemon": "Marshtomp",
-      "region": "Hoenn",
-      "location": "Route 124",
-      "sourceId": 1794743210,
-      "despawnTimestamp": 1794743210,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T11:46:50.000Z",
       "publishedBy": ""
     },
     {
@@ -41,15 +30,23 @@
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 2916,
-      "sourceId": 1794740242
+      "secondsAgo": 3201,
+      "sourceId": 1794740243
+    },
+    {
+      "monsterId": 259,
+      "pokemon": "Marshtomp",
+      "region": "Hoenn",
+      "location": "Route 124",
+      "secondsAgo": 1733,
+      "sourceId": 1794741711
     },
     {
       "monsterId": 314,
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 3864,
+      "secondsAgo": 4150,
       "sourceId": 1794739294
     }
   ],
