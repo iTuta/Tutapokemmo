@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T15:10:49.774Z",
+  "fetchedAt": "2026-11-15T15:15:53.653Z",
   "swarms": [
     {
       "monsterId": 121,
@@ -11,26 +11,23 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-15T15:18:25.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Johto",
       "location": "Sprout Tower",
-      "sourceId": 1794755554,
-      "despawnTimestamp": 1794755553,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T15:12:34.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1699,
+      "sourceId": 1794754054
+    },
     {
       "monsterId": 223,
       "pokemon": "Remoraid",
       "region": "Hoenn",
       "location": "Route 108",
-      "secondsAgo": 1633,
+      "secondsAgo": 1937,
       "sourceId": 1794753816
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Rotom",
       "region": "Sinnoh",
       "location": "Old Chateau",
-      "secondsAgo": 2422,
+      "secondsAgo": 2726,
       "sourceId": 1794753027
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 1697,
+      "secondsAgo": 2001,
       "sourceId": 1794753752
     }
   ],
