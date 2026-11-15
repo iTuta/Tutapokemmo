@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T15:05:47.995Z",
+  "fetchedAt": "2026-11-15T15:10:49.774Z",
   "swarms": [
     {
       "monsterId": 121,
@@ -22,38 +22,32 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-15T15:12:34.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 223,
       "pokemon": "Remoraid",
       "region": "Hoenn",
       "location": "Route 108",
-      "sourceId": 1794755195,
-      "despawnTimestamp": 1794755195,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T15:06:35.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1633,
+      "sourceId": 1794753816
+    },
+    {
+      "monsterId": 479,
+      "pokemon": "Rotom",
+      "region": "Sinnoh",
+      "location": "Old Chateau",
+      "secondsAgo": 2422,
+      "sourceId": 1794753027
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "sourceId": 1794755251,
-      "despawnTimestamp": 1794755251,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T15:07:31.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 479,
-      "pokemon": "Rotom",
-      "region": "Sinnoh",
-      "location": "Old Chateau",
-      "secondsAgo": 2120,
-      "sourceId": 1794753027
+      "secondsAgo": 1697,
+      "sourceId": 1794753752
     }
   ],
   "alpha": {
