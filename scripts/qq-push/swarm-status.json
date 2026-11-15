@@ -1,37 +1,44 @@
 {
-  "fetchedAt": "2026-11-15T12:55:53.370Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-15T13:01:08.670Z",
+  "swarms": [
+    {
+      "monsterId": 469,
+      "pokemon": "Yanmega",
+      "region": "Johto",
+      "location": "Route 44",
+      "sourceId": 1794749137,
+      "despawnTimestamp": 1794749137,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T13:25:37.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Hoenn",
+      "location": "Shoal Cave",
+      "sourceId": 1794749005,
+      "despawnTimestamp": 1794749004,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T13:23:25.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 2,
       "pokemon": "Ivysaur",
       "region": "Kanto",
       "location": "Route 5",
-      "secondsAgo": 1985,
+      "secondsAgo": 2300,
       "sourceId": 1794745368
-    },
-    {
-      "monsterId": 372,
-      "pokemon": "Shelgon",
-      "region": "Johto",
-      "location": "Dragon&#x27;s Den",
-      "secondsAgo": 1831,
-      "sourceId": 1794745522
-    },
-    {
-      "monsterId": 456,
-      "pokemon": "Finneon",
-      "region": "Hoenn",
-      "location": "Route 107",
-      "secondsAgo": 1688,
-      "sourceId": 1794745665
     },
     {
       "monsterId": 387,
       "pokemon": "Turtwig",
       "region": "Sinnoh",
       "location": "Route 203",
-      "secondsAgo": 1111,
+      "secondsAgo": 1426,
       "sourceId": 1794746242
     },
     {
@@ -39,7 +46,7 @@
       "pokemon": "Corsola",
       "region": "Unova",
       "location": "Undella Bay",
-      "secondsAgo": 1607,
+      "secondsAgo": 1922,
       "sourceId": 1794745746
     }
   ],
