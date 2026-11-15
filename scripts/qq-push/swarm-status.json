@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-15T14:25:42.451Z",
+  "fetchedAt": "2026-11-15T14:30:53.686Z",
   "swarms": [
+    {
+      "monsterId": 5,
+      "pokemon": "Charmeleon",
+      "region": "Kanto",
+      "location": "Rock Tunnel",
+      "sourceId": 1794754140,
+      "despawnTimestamp": 1794754140,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T14:49:00.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 157,
       "pokemon": "Typhlosion",
@@ -24,32 +35,24 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 123,
-      "pokemon": "Scyther",
+      "monsterId": 479,
+      "pokemon": "Rotom",
       "region": "Sinnoh",
-      "location": "Route 210",
-      "sourceId": 1794752859,
-      "despawnTimestamp": 1794752859,
+      "location": "Old Chateau",
+      "sourceId": 1794754527,
+      "despawnTimestamp": 1794754526,
       "hasValuable": false,
-      "timestampUtc": "2026-11-15T14:27:39.000Z",
+      "timestampUtc": "2026-11-15T14:55:27.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 242,
-      "pokemon": "Blissey",
-      "region": "Kanto",
-      "location": "Three Island",
-      "secondsAgo": 1483,
-      "sourceId": 1794751259
-    },
-    {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 4873,
+      "secondsAgo": 5184,
       "sourceId": 1794747869
     }
   ],
