@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T20:30:57.905Z",
+  "fetchedAt": "2026-11-15T20:35:44.642Z",
   "swarms": [
     {
       "monsterId": 457,
@@ -13,40 +13,46 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 290,
+      "pokemon": "Nincada",
+      "region": "Johto",
+      "location": "Route 46",
+      "sourceId": 1794776377,
+      "despawnTimestamp": 1794776376,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T20:59:37.000Z",
+      "publishedBy": ""
+    },
+    {
       "monsterId": 439,
       "pokemon": "Mime Jr.",
       "region": "Hoenn",
       "location": "Rusturf Tunnel",
       "sourceId": 1794775657,
-      "despawnTimestamp": 1794775656,
+      "despawnTimestamp": 1794775657,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T20:47:37.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 143,
+      "pokemon": "Snorlax",
+      "region": "Sinnoh",
+      "location": "Victory Road",
+      "sourceId": 1794776424,
+      "despawnTimestamp": 1794776423,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T21:00:24.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 290,
-      "pokemon": "Nincada",
-      "region": "Johto",
-      "location": "Route 46",
-      "secondsAgo": 11666,
-      "sourceId": 1794762991
-    },
-    {
-      "monsterId": 123,
-      "pokemon": "Scyther",
-      "region": "Sinnoh",
-      "location": "Route 210",
-      "secondsAgo": 7724,
-      "sourceId": 1794766933
-    },
-    {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 8252,
+      "secondsAgo": 8539,
       "sourceId": 1794766405
     }
   ],
