@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T18:35:41.320Z",
+  "fetchedAt": "2026-11-15T18:41:06.450Z",
   "swarms": [
     {
       "monsterId": 123,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-15T18:47:13.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 335,
-      "pokemon": "Zangoose",
-      "region": "Unova",
-      "location": "Route 7",
-      "sourceId": 1794767905,
-      "despawnTimestamp": 1794767905,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T18:38:25.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Milotic",
       "region": "Kanto",
       "location": "Resort Gorgeous",
-      "secondsAgo": 1874,
+      "secondsAgo": 2199,
       "sourceId": 1794765867
     },
     {
@@ -38,7 +27,7 @@
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 4749,
+      "secondsAgo": 5074,
       "sourceId": 1794762992
     },
     {
@@ -46,8 +35,16 @@
       "pokemon": "Vaporeon",
       "region": "Hoenn",
       "location": "Route 134",
-      "secondsAgo": 672,
+      "secondsAgo": 997,
       "sourceId": 1794767069
+    },
+    {
+      "monsterId": 335,
+      "pokemon": "Zangoose",
+      "region": "Unova",
+      "location": "Route 7",
+      "secondsAgo": 1661,
+      "sourceId": 1794766405
     }
   ],
   "alpha": {
