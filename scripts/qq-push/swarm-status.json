@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-15T20:25:49.824Z",
+  "fetchedAt": "2026-11-15T20:30:57.905Z",
   "swarms": [
+    {
+      "monsterId": 457,
+      "pokemon": "Lumineon",
+      "region": "Kanto",
+      "location": "Route 12",
+      "sourceId": 1794776150,
+      "despawnTimestamp": 1794776150,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T20:55:50.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 439,
       "pokemon": "Mime Jr.",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Kanto",
-      "location": "Route 17",
-      "secondsAgo": 2248,
-      "sourceId": 1794772101
-    },
-    {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 11358,
+      "secondsAgo": 11666,
       "sourceId": 1794762991
     },
     {
@@ -35,15 +38,15 @@
       "pokemon": "Scyther",
       "region": "Sinnoh",
       "location": "Route 210",
-      "secondsAgo": 7415,
-      "sourceId": 1794766934
+      "secondsAgo": 7724,
+      "sourceId": 1794766933
     },
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 7944,
+      "secondsAgo": 8252,
       "sourceId": 1794766405
     }
   ],
