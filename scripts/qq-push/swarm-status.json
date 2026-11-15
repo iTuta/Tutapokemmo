@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T16:31:00.672Z",
+  "fetchedAt": "2026-11-15T16:35:52.479Z",
   "swarms": [
     {
       "monsterId": 373,
@@ -7,20 +7,9 @@
       "region": "Kanto",
       "location": "Victory Road",
       "sourceId": 1794761727,
-      "despawnTimestamp": 1794761726,
+      "despawnTimestamp": 1794761727,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T16:55:27.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 149,
-      "pokemon": "Dragonite",
-      "region": "Hoenn",
-      "location": "Route 131",
-      "sourceId": 1794760464,
-      "despawnTimestamp": 1794760464,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T16:34:24.000Z",
       "publishedBy": ""
     },
     {
@@ -33,20 +22,26 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-15T16:51:00.000Z",
       "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 149,
+      "pokemon": "Dragonite",
+      "region": "Hoenn",
+      "location": "Route 131",
+      "secondsAgo": 1587,
+      "sourceId": 1794758965
     },
     {
       "monsterId": 224,
       "pokemon": "Octillery",
       "region": "Unova",
       "location": "Route 13",
-      "sourceId": 1794760436,
-      "despawnTimestamp": 1794760436,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T16:33:56.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1615,
+      "sourceId": 1794758937
     }
   ],
-  "lastSeen": [],
   "alpha": {
     "monsterId": 185,
     "pokemon": "Sudowoodo",
