@@ -1,21 +1,36 @@
 {
-  "fetchedAt": "2026-11-15T00:20:49.274Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-15T00:25:47.434Z",
+  "swarms": [
     {
-      "monsterId": 335,
-      "pokemon": "Zangoose",
+      "monsterId": 413,
+      "pokemon": "Wormadam",
       "region": "Kanto",
-      "location": "Route 14",
-      "secondsAgo": 3032,
-      "sourceId": 1794699017
+      "location": "Pattern Bush",
+      "sourceId": 1794702701,
+      "despawnTimestamp": 1794702701,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T00:31:41.000Z",
+      "publishedBy": ""
     },
+    {
+      "monsterId": 351,
+      "pokemon": "Castform",
+      "region": "Sinnoh",
+      "location": "Route 210",
+      "sourceId": 1794703834,
+      "despawnTimestamp": 1794703833,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T00:50:34.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 121,
       "pokemon": "Starmie",
       "region": "Johto",
       "location": "Cliff Edge Gate",
-      "secondsAgo": 5450,
+      "secondsAgo": 5748,
       "sourceId": 1794696599
     },
     {
@@ -23,23 +38,15 @@
       "pokemon": "Rotom",
       "region": "Hoenn",
       "location": "New Mauville",
-      "secondsAgo": 1735,
+      "secondsAgo": 2033,
       "sourceId": 1794700314
-    },
-    {
-      "monsterId": 442,
-      "pokemon": "Spiritomb",
-      "region": "Sinnoh",
-      "location": "Turnback Cave",
-      "secondsAgo": 1700,
-      "sourceId": 1794700349
     },
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Unova",
       "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 4211,
+      "secondsAgo": 4509,
       "sourceId": 1794697838
     }
   ],
