@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T10:40:41.696Z",
+  "fetchedAt": "2026-11-15T10:45:46.741Z",
   "swarms": [
     {
       "monsterId": 131,
@@ -13,6 +13,17 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 227,
+      "pokemon": "Skarmory",
+      "region": "Hoenn",
+      "location": "Route 113",
+      "sourceId": 1794740800,
+      "despawnTimestamp": 1794740800,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T11:06:40.000Z",
+      "publishedBy": ""
+    },
+    {
       "monsterId": 387,
       "pokemon": "Turtwig",
       "region": "Sinnoh",
@@ -22,6 +33,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-15T10:56:55.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 314,
+      "pokemon": "Illumise",
+      "region": "Unova",
+      "location": "Moor of Icirrus",
+      "sourceId": 1794740793,
+      "despawnTimestamp": 1794740793,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T11:06:33.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,24 +52,8 @@
       "pokemon": "Spiritomb",
       "region": "Kanto",
       "location": "Lost Cave",
-      "secondsAgo": 4529,
+      "secondsAgo": 4834,
       "sourceId": 1794734712
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Hoenn",
-      "location": "Scorched Slab",
-      "secondsAgo": 8561,
-      "sourceId": 1794730680
-    },
-    {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Unova",
-      "location": "Route 15",
-      "secondsAgo": 1847,
-      "sourceId": 1794737394
     }
   ],
   "alpha": {
