@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-15T20:50:45.493Z",
+  "fetchedAt": "2026-11-15T20:55:56.923Z",
   "swarms": [
-    {
-      "monsterId": 457,
-      "pokemon": "Lumineon",
-      "region": "Kanto",
-      "location": "Route 12",
-      "sourceId": 1794776150,
-      "despawnTimestamp": 1794776150,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T20:55:50.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 290,
       "pokemon": "Nincada",
@@ -29,28 +18,39 @@
       "region": "Hoenn",
       "location": "Route 118",
       "sourceId": 1794777319,
-      "despawnTimestamp": 1794777319,
+      "despawnTimestamp": 1794777318,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T21:15:19.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Unova",
+      "location": "Relic Castle",
+      "sourceId": 1794777534,
+      "despawnTimestamp": 1794777534,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T21:18:54.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
+      "monsterId": 457,
+      "pokemon": "Lumineon",
+      "region": "Kanto",
+      "location": "Route 12",
+      "secondsAgo": 1505,
+      "sourceId": 1794774651
+    },
+    {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Sinnoh",
       "location": "Victory Road",
-      "secondsAgo": 920,
-      "sourceId": 1794774925
-    },
-    {
-      "monsterId": 335,
-      "pokemon": "Zangoose",
-      "region": "Unova",
-      "location": "Route 7",
-      "secondsAgo": 9440,
-      "sourceId": 1794766405
+      "secondsAgo": 1232,
+      "sourceId": 1794774924
     }
   ],
   "alpha": {
