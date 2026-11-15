@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T08:35:41.686Z",
+  "fetchedAt": "2026-11-15T08:40:52.130Z",
   "swarms": [
     {
       "monsterId": 314,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Water Path",
       "sourceId": 1794732579,
-      "despawnTimestamp": 1794732578,
+      "despawnTimestamp": 1794732579,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T08:49:39.000Z",
       "publishedBy": ""
@@ -24,23 +24,12 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Hoenn",
-      "location": "Scorched Slab",
-      "sourceId": 1794732180,
-      "despawnTimestamp": 1794732179,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T08:43:00.000Z",
-      "publishedBy": ""
-    },
-    {
       "monsterId": 426,
       "pokemon": "Drifblim",
       "region": "Sinnoh",
       "location": "Route 222",
       "sourceId": 1794732344,
-      "despawnTimestamp": 1794732343,
+      "despawnTimestamp": 1794732344,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T08:45:44.000Z",
       "publishedBy": ""
@@ -48,12 +37,20 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Hoenn",
+      "location": "Scorched Slab",
+      "secondsAgo": 1372,
+      "sourceId": 1794730680
+    },
+    {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 2722,
-      "sourceId": 1794729019
+      "secondsAgo": 3032,
+      "sourceId": 1794729020
     }
   ],
   "alpha": {
