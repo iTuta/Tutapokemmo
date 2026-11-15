@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-15T03:25:39.542Z",
+  "fetchedAt": "2026-11-15T03:30:57.656Z",
   "swarms": [
-    {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Kanto",
-      "location": "Route 17",
-      "sourceId": 1794713184,
-      "despawnTimestamp": 1794713184,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T03:26:24.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 517,
       "pokemon": "Munna",
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Kanto",
+      "location": "Route 17",
+      "secondsAgo": 1772,
+      "sourceId": 1794711685
+    },
+    {
       "monsterId": 237,
       "pokemon": "Hitmontop",
       "region": "Johto",
       "location": "Mt. Mortar",
-      "secondsAgo": 2870,
+      "secondsAgo": 3188,
       "sourceId": 1794710269
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "Carnivine",
       "region": "Unova",
       "location": "Route 18",
-      "secondsAgo": 1528,
+      "secondsAgo": 1846,
       "sourceId": 1794711611
     }
   ],
