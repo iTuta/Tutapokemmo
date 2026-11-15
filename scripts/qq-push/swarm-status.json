@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T15:40:51.606Z",
+  "fetchedAt": "2026-11-15T15:46:04.776Z",
   "swarms": [
     {
       "monsterId": 103,
@@ -10,28 +10,6 @@
       "despawnTimestamp": 1794757652,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T15:47:32.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 254,
-      "pokemon": "Sceptile",
-      "region": "Hoenn",
-      "location": "Route 119",
-      "sourceId": 1794758097,
-      "despawnTimestamp": 1794758096,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T15:54:57.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 479,
-      "pokemon": "Rotom",
-      "region": "Sinnoh",
-      "location": "Old Chateau",
-      "sourceId": 1794757449,
-      "despawnTimestamp": 1794757448,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T15:44:09.000Z",
       "publishedBy": ""
     },
     {
@@ -46,7 +24,24 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [],
+  "lastSeen": [
+    {
+      "monsterId": 254,
+      "pokemon": "Sceptile",
+      "region": "Hoenn",
+      "location": "Route 119",
+      "secondsAgo": 967,
+      "sourceId": 1794756597
+    },
+    {
+      "monsterId": 479,
+      "pokemon": "Rotom",
+      "region": "Sinnoh",
+      "location": "Old Chateau",
+      "secondsAgo": 1615,
+      "sourceId": 1794755949
+    }
+  ],
   "alpha": {
     "monsterId": 185,
     "pokemon": "Sudowoodo",
