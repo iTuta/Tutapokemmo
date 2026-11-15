@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-15T15:20:54.120Z",
+  "fetchedAt": "2026-11-15T15:25:36.932Z",
   "swarms": [
+    {
+      "monsterId": 103,
+      "pokemon": "Exeggutor",
+      "region": "Kanto",
+      "location": "Route 23",
+      "sourceId": 1794757652,
+      "despawnTimestamp": 1794757652,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T15:47:32.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
@@ -18,7 +29,7 @@
       "region": "Sinnoh",
       "location": "Old Chateau",
       "sourceId": 1794757449,
-      "despawnTimestamp": 1794757449,
+      "despawnTimestamp": 1794757448,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T15:44:09.000Z",
       "publishedBy": ""
@@ -29,7 +40,7 @@
       "region": "Unova",
       "location": "Route 1",
       "sourceId": 1794757411,
-      "despawnTimestamp": 1794757411,
+      "despawnTimestamp": 1794757410,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T15:43:31.000Z",
       "publishedBy": ""
@@ -37,19 +48,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 121,
-      "pokemon": "Starmie",
-      "region": "Kanto",
-      "location": "Seven Island",
-      "secondsAgo": 1648,
-      "sourceId": 1794754406
-    },
-    {
       "monsterId": 223,
       "pokemon": "Remoraid",
       "region": "Hoenn",
       "location": "Route 108",
-      "secondsAgo": 2238,
+      "secondsAgo": 2520,
       "sourceId": 1794753816
     }
   ],
