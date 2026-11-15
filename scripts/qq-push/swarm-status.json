@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-11-15T21:40:50.479Z",
+  "fetchedAt": "2026-11-15T21:45:49.485Z",
   "swarms": [
-    {
-      "monsterId": 439,
-      "pokemon": "Mime Jr.",
-      "region": "Hoenn",
-      "location": "Rusturf Tunnel",
-      "sourceId": 1794778983,
-      "despawnTimestamp": 1794778983,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T21:43:03.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 357,
-      "pokemon": "Tropius",
-      "region": "Sinnoh",
-      "location": "Route 226",
-      "sourceId": 1794779069,
-      "despawnTimestamp": 1794779069,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T21:44:29.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 457,
       "pokemon": "Lumineon",
@@ -41,7 +19,7 @@
       "pokemon": "Dragonite",
       "region": "Kanto",
       "location": "Six Island",
-      "secondsAgo": 2281,
+      "secondsAgo": 2580,
       "sourceId": 1794776569
     },
     {
@@ -49,8 +27,24 @@
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 1574,
+      "secondsAgo": 1873,
       "sourceId": 1794777276
+    },
+    {
+      "monsterId": 439,
+      "pokemon": "Mime Jr.",
+      "region": "Hoenn",
+      "location": "Rusturf Tunnel",
+      "secondsAgo": 1665,
+      "sourceId": 1794777484
+    },
+    {
+      "monsterId": 357,
+      "pokemon": "Tropius",
+      "region": "Sinnoh",
+      "location": "Route 226",
+      "secondsAgo": 1579,
+      "sourceId": 1794777570
     }
   ],
   "alpha": {
