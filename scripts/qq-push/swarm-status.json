@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-15T02:55:49.964Z",
+  "fetchedAt": "2026-11-15T03:01:05.940Z",
   "swarms": [
-    {
-      "monsterId": 237,
-      "pokemon": "Hitmontop",
-      "region": "Johto",
-      "location": "Mt. Mortar",
-      "sourceId": 1794711469,
-      "despawnTimestamp": 1794711468,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T02:57:49.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
@@ -22,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-15T03:12:14.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 455,
+      "pokemon": "Carnivine",
+      "region": "Unova",
+      "location": "Route 18",
+      "sourceId": 1794713111,
+      "despawnTimestamp": 1794713110,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T03:25:11.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,24 +30,24 @@
       "pokemon": "Tauros",
       "region": "Kanto",
       "location": "Route 17",
-      "secondsAgo": 7676,
+      "secondsAgo": 7992,
       "sourceId": 1794703673
+    },
+    {
+      "monsterId": 237,
+      "pokemon": "Hitmontop",
+      "region": "Johto",
+      "location": "Mt. Mortar",
+      "secondsAgo": 1396,
+      "sourceId": 1794710269
     },
     {
       "monsterId": 162,
       "pokemon": "Furret",
       "region": "Sinnoh",
       "location": "Route 208",
-      "secondsAgo": 6955,
+      "secondsAgo": 7271,
       "sourceId": 1794704394
-    },
-    {
-      "monsterId": 162,
-      "pokemon": "Furret",
-      "region": "Unova",
-      "location": "Abundant Shrine",
-      "secondsAgo": 2033,
-      "sourceId": 1794709316
     }
   ],
   "alpha": {
