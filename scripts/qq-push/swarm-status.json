@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T14:10:54.090Z",
+  "fetchedAt": "2026-11-15T14:15:46.185Z",
   "swarms": [
     {
       "monsterId": 242,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1794752458,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T14:20:58.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 258,
-      "pokemon": "Mudkip",
-      "region": "Hoenn",
-      "location": "Route 104",
-      "sourceId": 1794751988,
-      "despawnTimestamp": 1794751988,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T14:13:08.000Z",
       "publishedBy": ""
     },
     {
@@ -41,16 +30,24 @@
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 1597,
+      "secondsAgo": 1889,
       "sourceId": 1794750257
+    },
+    {
+      "monsterId": 258,
+      "pokemon": "Mudkip",
+      "region": "Hoenn",
+      "location": "Route 104",
+      "secondsAgo": 1657,
+      "sourceId": 1794750489
     },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 3984,
-      "sourceId": 1794747870
+      "secondsAgo": 4277,
+      "sourceId": 1794747869
     }
   ],
   "alpha": {
