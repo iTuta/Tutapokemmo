@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-15T21:01:03.046Z",
+  "fetchedAt": "2026-11-15T21:05:45.647Z",
   "swarms": [
+    {
+      "monsterId": 149,
+      "pokemon": "Dragonite",
+      "region": "Kanto",
+      "location": "Six Island",
+      "sourceId": 1794778068,
+      "despawnTimestamp": 1794778068,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T21:27:48.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 253,
       "pokemon": "Grovyle",
@@ -18,7 +29,7 @@
       "region": "Unova",
       "location": "Relic Castle",
       "sourceId": 1794777534,
-      "despawnTimestamp": 1794777535,
+      "despawnTimestamp": 1794777534,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T21:18:54.000Z",
       "publishedBy": ""
@@ -26,28 +37,20 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 457,
-      "pokemon": "Lumineon",
-      "region": "Kanto",
-      "location": "Route 12",
-      "secondsAgo": 1812,
-      "sourceId": 1794774651
-    },
-    {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
-      "secondsAgo": 1585,
-      "sourceId": 1794774878
+      "secondsAgo": 1868,
+      "sourceId": 1794774877
     },
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Sinnoh",
       "location": "Victory Road",
-      "secondsAgo": 1538,
-      "sourceId": 1794774925
+      "secondsAgo": 1821,
+      "sourceId": 1794774924
     }
   ],
   "alpha": {
