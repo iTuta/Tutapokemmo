@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-11-15T22:20:47.042Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-15T22:26:02.690Z",
+  "swarms": [
+    {
+      "monsterId": 429,
+      "pokemon": "Mismagius",
+      "region": "Hoenn",
+      "location": "Route 122",
+      "sourceId": 1794782862,
+      "despawnTimestamp": 1794782861,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T22:47:42.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 149,
       "pokemon": "Dragonite",
       "region": "Kanto",
       "location": "Six Island",
-      "secondsAgo": 4678,
-      "sourceId": 1794776568
+      "secondsAgo": 4993,
+      "sourceId": 1794776569
     },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Johto",
       "location": "Route 39",
-      "secondsAgo": 1863,
+      "secondsAgo": 2179,
       "sourceId": 1794779383
-    },
-    {
-      "monsterId": 439,
-      "pokemon": "Mime Jr.",
-      "region": "Hoenn",
-      "location": "Rusturf Tunnel",
-      "secondsAgo": 3763,
-      "sourceId": 1794777483
     },
     {
       "monsterId": 357,
       "pokemon": "Tropius",
       "region": "Sinnoh",
       "location": "Route 226",
-      "secondsAgo": 3677,
+      "secondsAgo": 3993,
       "sourceId": 1794777569
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Lumineon",
       "region": "Unova",
       "location": "Route 17",
-      "secondsAgo": 2963,
+      "secondsAgo": 3279,
       "sourceId": 1794778283
     }
   ],
