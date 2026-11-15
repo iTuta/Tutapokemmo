@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-11-15T21:25:45.936Z",
+  "fetchedAt": "2026-11-15T21:31:00.741Z",
   "swarms": [
-    {
-      "monsterId": 149,
-      "pokemon": "Dragonite",
-      "region": "Kanto",
-      "location": "Six Island",
-      "sourceId": 1794778068,
-      "despawnTimestamp": 1794778067,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T21:27:48.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 176,
-      "pokemon": "Togetic",
-      "region": "Johto",
-      "location": "Route 27",
-      "sourceId": 1794778776,
-      "despawnTimestamp": 1794778775,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-15T21:39:36.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 439,
       "pokemon": "Mime Jr.",
@@ -48,11 +26,27 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 149,
+      "pokemon": "Dragonite",
+      "region": "Kanto",
+      "location": "Six Island",
+      "secondsAgo": 1691,
+      "sourceId": 1794776569
+    },
+    {
+      "monsterId": 176,
+      "pokemon": "Togetic",
+      "region": "Johto",
+      "location": "Route 27",
+      "secondsAgo": 984,
+      "sourceId": 1794777276
+    },
+    {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 1910,
+      "secondsAgo": 2225,
       "sourceId": 1794776035
     }
   ],
