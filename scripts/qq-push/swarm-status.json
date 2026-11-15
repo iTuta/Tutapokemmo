@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T12:25:38.022Z",
+  "fetchedAt": "2026-11-15T12:30:59.912Z",
   "swarms": [
     {
       "monsterId": 2,
@@ -24,6 +24,17 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 456,
+      "pokemon": "Finneon",
+      "region": "Hoenn",
+      "location": "Route 107",
+      "sourceId": 1794747164,
+      "despawnTimestamp": 1794747163,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T12:52:44.000Z",
+      "publishedBy": ""
+    },
+    {
       "monsterId": 387,
       "pokemon": "Turtwig",
       "region": "Sinnoh",
@@ -35,27 +46,18 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
+      "monsterId": 222,
+      "pokemon": "Corsola",
       "region": "Unova",
-      "location": "Relic Castle",
-      "sourceId": 1794745742,
-      "despawnTimestamp": 1794745741,
+      "location": "Undella Bay",
+      "sourceId": 1794747246,
+      "despawnTimestamp": 1794747245,
       "hasValuable": false,
-      "timestampUtc": "2026-11-15T12:29:02.000Z",
+      "timestampUtc": "2026-11-15T12:54:06.000Z",
       "publishedBy": ""
     }
   ],
-  "lastSeen": [
-    {
-      "monsterId": 369,
-      "pokemon": "Relicanth",
-      "region": "Hoenn",
-      "location": "Route 126",
-      "secondsAgo": 1693,
-      "sourceId": 1794743844
-    }
-  ],
+  "lastSeen": [],
   "alpha": {
     "monsterId": 354,
     "pokemon": "Banette",
