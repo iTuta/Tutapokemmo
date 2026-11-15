@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-15T03:01:05.940Z",
+  "fetchedAt": "2026-11-15T03:05:46.664Z",
   "swarms": [
+    {
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Kanto",
+      "location": "Route 17",
+      "sourceId": 1794713184,
+      "despawnTimestamp": 1794713184,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-15T03:26:24.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
       "region": "Hoenn",
       "location": "Route 121",
       "sourceId": 1794712334,
-      "despawnTimestamp": 1794712333,
+      "despawnTimestamp": 1794712334,
       "hasValuable": false,
       "timestampUtc": "2026-11-15T03:12:14.000Z",
       "publishedBy": ""
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Kanto",
-      "location": "Route 17",
-      "secondsAgo": 7992,
-      "sourceId": 1794703673
-    },
-    {
       "monsterId": 237,
       "pokemon": "Hitmontop",
       "region": "Johto",
       "location": "Mt. Mortar",
-      "secondsAgo": 1396,
+      "secondsAgo": 1677,
       "sourceId": 1794710269
     },
     {
@@ -46,8 +49,8 @@
       "pokemon": "Furret",
       "region": "Sinnoh",
       "location": "Route 208",
-      "secondsAgo": 7271,
-      "sourceId": 1794704394
+      "secondsAgo": 7551,
+      "sourceId": 1794704395
     }
   ],
   "alpha": {
