@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T11:06:00.801Z",
+  "fetchedAt": "2026-11-16T11:10:43.486Z",
   "swarms": [
     {
       "monsterId": 128,
@@ -35,6 +35,17 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 412,
+      "pokemon": "Burmy",
+      "region": "Sinnoh",
+      "location": "Route 202",
+      "sourceId": 1794828665,
+      "despawnTimestamp": 1794828665,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T11:31:05.000Z",
+      "publishedBy": ""
+    },
+    {
       "monsterId": 430,
       "pokemon": "Honchkrow",
       "region": "Unova",
@@ -44,16 +55,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-16T11:19:10.000Z",
       "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 122,
-      "pokemon": "Mr. Mime",
-      "region": "Sinnoh",
-      "location": "Route 224",
-      "secondsAgo": 1660,
-      "sourceId": 1794825500
     }
   ],
   "lastSeen": [],
