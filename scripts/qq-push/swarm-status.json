@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T12:40:52.383Z",
+  "fetchedAt": "2026-11-16T12:45:50.369Z",
   "swarms": [
     {
       "monsterId": 211,
@@ -21,6 +21,17 @@
       "despawnTimestamp": 1794834277,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T13:04:37.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 91,
+      "pokemon": "Cloyster",
+      "region": "Hoenn",
+      "location": "Route 133",
+      "sourceId": 1794834420,
+      "despawnTimestamp": 1794834420,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T13:07:00.000Z",
       "publishedBy": ""
     },
     {
@@ -46,16 +57,7 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [
-    {
-      "monsterId": 260,
-      "pokemon": "Swampert",
-      "region": "Hoenn",
-      "location": "Route 109",
-      "secondsAgo": 2373,
-      "sourceId": 1794830479
-    }
-  ],
+  "lastSeen": [],
   "alpha": {
     "monsterId": 242,
     "pokemon": "Blissey",
