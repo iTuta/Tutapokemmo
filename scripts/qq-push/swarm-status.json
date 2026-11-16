@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-16T17:21:50.663Z",
+  "fetchedAt": "2026-11-16T17:25:52.415Z",
   "swarms": [
-    {
-      "monsterId": 317,
-      "pokemon": "Swalot",
-      "region": "Kanto",
-      "location": "Route 18",
-      "sourceId": 1794849851,
-      "despawnTimestamp": 1794849851,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T17:24:11.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 358,
       "pokemon": "Chimecho",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 317,
+      "pokemon": "Swalot",
+      "region": "Kanto",
+      "location": "Route 18",
+      "secondsAgo": 1601,
+      "sourceId": 1794848351
+    },
+    {
       "monsterId": 211,
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 1771,
+      "secondsAgo": 2013,
       "sourceId": 1794847939
     },
     {
@@ -38,15 +35,15 @@
       "pokemon": "Ambipom",
       "region": "Sinnoh",
       "location": "Route 216",
-      "secondsAgo": 1722,
-      "sourceId": 1794847988
+      "secondsAgo": 1965,
+      "sourceId": 1794847987
     },
     {
       "monsterId": 247,
       "pokemon": "Pupitar",
       "region": "Unova",
       "location": "Twist Mountain",
-      "secondsAgo": 5608,
+      "secondsAgo": 5850,
       "sourceId": 1794844102
     }
   ],
