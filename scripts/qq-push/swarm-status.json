@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T21:31:08.789Z",
+  "fetchedAt": "2026-11-16T21:35:44.460Z",
   "swarms": [
     {
       "monsterId": 350,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1794865451,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T21:44:12.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 300,
+      "pokemon": "Skitty",
+      "region": "Johto",
+      "location": "Route 35",
+      "sourceId": 1794865833,
+      "despawnTimestamp": 1794865833,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T21:50:33.000Z",
       "publishedBy": ""
     },
     {
@@ -26,27 +37,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Johto",
-      "location": "Sprout Tower",
-      "secondsAgo": 2395,
-      "sourceId": 1794862273
-    },
-    {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Sinnoh",
       "location": "Route 225",
-      "secondsAgo": 7813,
-      "sourceId": 1794856855
+      "secondsAgo": 8088,
+      "sourceId": 1794856856
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 6175,
+      "secondsAgo": 6451,
       "sourceId": 1794858493
     }
   ],
