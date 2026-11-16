@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T17:31:09.537Z",
+  "fetchedAt": "2026-11-16T17:35:47.782Z",
   "swarms": [
     {
       "monsterId": 358,
@@ -7,9 +7,20 @@
       "region": "Johto",
       "location": "Bellchime Trail",
       "sourceId": 1794850954,
-      "despawnTimestamp": 1794850954,
+      "despawnTimestamp": 1794850953,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T17:42:34.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 257,
+      "pokemon": "Blaziken",
+      "region": "Hoenn",
+      "location": "Magma Hideout",
+      "sourceId": 1794851805,
+      "despawnTimestamp": 1794851805,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T17:56:45.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,23 +30,15 @@
       "pokemon": "Swalot",
       "region": "Kanto",
       "location": "Route 18",
-      "secondsAgo": 1918,
+      "secondsAgo": 2196,
       "sourceId": 1794848351
-    },
-    {
-      "monsterId": 211,
-      "pokemon": "Qwilfish",
-      "region": "Hoenn",
-      "location": "Route 125",
-      "secondsAgo": 2330,
-      "sourceId": 1794847939
     },
     {
       "monsterId": 424,
       "pokemon": "Ambipom",
       "region": "Sinnoh",
       "location": "Route 216",
-      "secondsAgo": 2282,
+      "secondsAgo": 2560,
       "sourceId": 1794847987
     },
     {
@@ -43,8 +46,8 @@
       "pokemon": "Pupitar",
       "region": "Unova",
       "location": "Twist Mountain",
-      "secondsAgo": 6167,
-      "sourceId": 1794844102
+      "secondsAgo": 6446,
+      "sourceId": 1794844101
     }
   ],
   "alpha": {
