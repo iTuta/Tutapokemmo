@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T15:35:45.157Z",
+  "fetchedAt": "2026-11-16T15:40:48.707Z",
   "swarms": [
     {
       "monsterId": 441,
@@ -7,20 +7,9 @@
       "region": "Kanto",
       "location": "Treasure Beach",
       "sourceId": 1794843737,
-      "despawnTimestamp": 1794843737,
+      "despawnTimestamp": 1794843736,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T15:42:17.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 352,
-      "pokemon": "Kecleon",
-      "region": "Hoenn",
-      "location": "Route 120",
-      "sourceId": 1794843445,
-      "despawnTimestamp": 1794843445,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T15:37:25.000Z",
       "publishedBy": ""
     },
     {
@@ -41,16 +30,24 @@
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 2601,
-      "sourceId": 1794840744
+      "secondsAgo": 2905,
+      "sourceId": 1794840743
+    },
+    {
+      "monsterId": 352,
+      "pokemon": "Kecleon",
+      "region": "Hoenn",
+      "location": "Route 120",
+      "secondsAgo": 1703,
+      "sourceId": 1794841945
     },
     {
       "monsterId": 389,
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 829,
-      "sourceId": 1794842516
+      "secondsAgo": 1133,
+      "sourceId": 1794842515
     }
   ],
   "alpha": {
