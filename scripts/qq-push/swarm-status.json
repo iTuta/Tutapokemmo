@@ -1,21 +1,44 @@
 {
-  "fetchedAt": "2026-11-16T23:50:45.290Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-16T23:55:47.064Z",
+  "swarms": [
+    {
+      "monsterId": 91,
+      "pokemon": "Cloyster",
+      "region": "Sinnoh",
+      "location": "Route 223",
+      "sourceId": 1794874646,
+      "despawnTimestamp": 1794874646,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-17T00:17:26.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 457,
+      "pokemon": "Lumineon",
+      "region": "Unova",
+      "location": "Route 17",
+      "sourceId": 1794874688,
+      "despawnTimestamp": 1794874688,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-17T00:18:08.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 350,
       "pokemon": "Milotic",
       "region": "Kanto",
       "location": "Resort Gorgeous",
-      "secondsAgo": 9093,
-      "sourceId": 1794863952
+      "secondsAgo": 9394,
+      "sourceId": 1794863953
     },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 8111,
+      "secondsAgo": 8413,
       "sourceId": 1794864934
     },
     {
@@ -23,24 +46,8 @@
       "pokemon": "Vaporeon",
       "region": "Hoenn",
       "location": "Route 134",
-      "secondsAgo": 3264,
+      "secondsAgo": 3566,
       "sourceId": 1794869781
-    },
-    {
-      "monsterId": 239,
-      "pokemon": "Elekid",
-      "region": "Sinnoh",
-      "location": "Valley Windworks",
-      "secondsAgo": 5186,
-      "sourceId": 1794867859
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Unova",
-      "location": "Lostlorn Forest",
-      "secondsAgo": 3082,
-      "sourceId": 1794869963
     }
   ],
   "alpha": {
