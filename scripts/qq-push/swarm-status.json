@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-16T11:35:50.352Z",
+  "fetchedAt": "2026-11-16T11:46:04.949Z",
   "swarms": [
+    {
+      "monsterId": 9,
+      "pokemon": "Blastoise",
+      "region": "Kanto",
+      "location": "Cape Brink",
+      "sourceId": 1794830266,
+      "despawnTimestamp": 1794830265,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T11:57:46.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
@@ -11,39 +22,34 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-16T11:56:53.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 415,
+      "pokemon": "Combee",
+      "region": "Sinnoh",
+      "location": "Floaroma Meadow",
+      "sourceId": 1794831007,
+      "despawnTimestamp": 1794831006,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T12:10:07.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Kanto",
-      "location": "Route 17",
-      "secondsAgo": 1863,
-      "sourceId": 1794827087
-    },
     {
       "monsterId": 351,
       "pokemon": "Castform",
       "region": "Hoenn",
       "location": "Aqua Hideout",
-      "secondsAgo": 2369,
-      "sourceId": 1794826581
-    },
-    {
-      "monsterId": 412,
-      "pokemon": "Burmy",
-      "region": "Sinnoh",
-      "location": "Route 202",
-      "secondsAgo": 1784,
-      "sourceId": 1794827166
+      "secondsAgo": 2984,
+      "sourceId": 1794826580
     },
     {
       "monsterId": 430,
       "pokemon": "Honchkrow",
       "region": "Unova",
       "location": "Celestial Tower",
-      "secondsAgo": 1900,
+      "secondsAgo": 2514,
       "sourceId": 1794827050
     }
   ],
