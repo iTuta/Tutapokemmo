@@ -1,50 +1,56 @@
 {
-  "fetchedAt": "2026-11-16T18:45:57.590Z",
+  "fetchedAt": "2026-11-16T18:56:16.144Z",
   "swarms": [
     {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Unova",
-      "location": "Route 1",
-      "sourceId": 1794854971,
-      "despawnTimestamp": 1794854970,
+      "monsterId": 9,
+      "pokemon": "Blastoise",
+      "region": "Kanto",
+      "location": "Cape Brink",
+      "sourceId": 1794856439,
+      "despawnTimestamp": 1794856439,
       "hasValuable": false,
-      "timestampUtc": "2026-11-16T18:49:31.000Z",
+      "timestampUtc": "2026-11-16T19:13:59.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 152,
+      "pokemon": "Chikorita",
+      "region": "Johto",
+      "location": "Route 31",
+      "sourceId": 1794856568,
+      "despawnTimestamp": 1794856569,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T19:16:08.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 391,
+      "pokemon": "Monferno",
+      "region": "Sinnoh",
+      "location": "Route 211",
+      "sourceId": 1794856492,
+      "despawnTimestamp": 1794856492,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T19:14:52.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 135,
-      "pokemon": "Jolteon",
-      "region": "Kanto",
-      "location": "Ruin Valley",
-      "secondsAgo": 3661,
-      "sourceId": 1794851096
-    },
-    {
-      "monsterId": 372,
-      "pokemon": "Shelgon",
-      "region": "Johto",
-      "location": "Dragon&#x27;s Den",
-      "secondsAgo": 1915,
-      "sourceId": 1794852842
-    },
-    {
       "monsterId": 316,
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 2332,
-      "sourceId": 1794852425
+      "secondsAgo": 2950,
+      "sourceId": 1794852426
     },
     {
-      "monsterId": 342,
-      "pokemon": "Crawdaunt",
-      "region": "Sinnoh",
-      "location": "Lake Valor",
-      "secondsAgo": 1706,
-      "sourceId": 1794853051
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Unova",
+      "location": "Route 1",
+      "secondsAgo": 1904,
+      "sourceId": 1794853472
     }
   ],
   "alpha": {
