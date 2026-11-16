@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T10:50:47.253Z",
+  "fetchedAt": "2026-11-16T10:55:54.417Z",
   "swarms": [
     {
       "monsterId": 127,
@@ -24,40 +24,35 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 376,
-      "pokemon": "Metagross",
-      "region": "Hoenn",
-      "location": "Meteor Falls",
-      "sourceId": 1794826357,
-      "despawnTimestamp": 1794826357,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T10:52:37.000Z",
-      "publishedBy": ""
-    },
-    {
       "monsterId": 122,
       "pokemon": "Mr. Mime",
       "region": "Sinnoh",
       "location": "Route 224",
       "sourceId": 1794827000,
-      "despawnTimestamp": 1794827000,
+      "despawnTimestamp": 1794826999,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T11:03:20.000Z",
       "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 376,
+      "pokemon": "Metagross",
+      "region": "Hoenn",
+      "location": "Meteor Falls",
+      "secondsAgo": 1697,
+      "sourceId": 1794824857
     },
     {
       "monsterId": 106,
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "sourceId": 1794826500,
-      "despawnTimestamp": 1794826500,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T10:55:00.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1553,
+      "sourceId": 1794825001
     }
   ],
-  "lastSeen": [],
   "alpha": {
     "monsterId": 242,
     "pokemon": "Blissey",
