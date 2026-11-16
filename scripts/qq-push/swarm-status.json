@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T06:05:42.640Z",
+  "fetchedAt": "2026-11-16T06:10:55.865Z",
   "swarms": [
     {
       "monsterId": 373,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-16T06:23:03.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 335,
+      "pokemon": "Zangoose",
+      "region": "Unova",
+      "location": "Route 7",
+      "sourceId": 1794810709,
+      "despawnTimestamp": 1794810708,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T06:31:49.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Sharpedo",
       "region": "Johto",
       "location": "Route 41",
-      "secondsAgo": 2828,
+      "secondsAgo": 3141,
       "sourceId": 1794806314
     },
     {
@@ -27,7 +38,7 @@
       "pokemon": "Torchic",
       "region": "Hoenn",
       "location": "Route 112",
-      "secondsAgo": 8090,
+      "secondsAgo": 8403,
       "sourceId": 1794801052
     },
     {
@@ -35,16 +46,8 @@
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 2639,
+      "secondsAgo": 2952,
       "sourceId": 1794806503
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Unova",
-      "location": "Guidance Chamber",
-      "secondsAgo": 2477,
-      "sourceId": 1794806665
     }
   ],
   "alpha": {
