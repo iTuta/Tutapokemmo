@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T23:55:37.694Z",
+  "fetchedAt": "2026-11-16T00:01:07.511Z",
   "swarms": [
     {
       "monsterId": 141,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1794787313,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T00:01:53.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 176,
+      "pokemon": "Togetic",
+      "region": "Johto",
+      "location": "Route 27",
+      "sourceId": 1794788655,
+      "despawnTimestamp": 1794788654,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T00:24:15.000Z",
       "publishedBy": ""
     },
     {
@@ -26,27 +37,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 290,
-      "pokemon": "Nincada",
-      "region": "Johto",
-      "location": "Route 46",
-      "secondsAgo": 2066,
-      "sourceId": 1794784871
-    },
-    {
       "monsterId": 429,
       "pokemon": "Mismagius",
       "region": "Hoenn",
       "location": "Route 122",
-      "secondsAgo": 5575,
-      "sourceId": 1794781362
+      "secondsAgo": 5904,
+      "sourceId": 1794781363
     },
     {
       "monsterId": 457,
       "pokemon": "Lumineon",
       "region": "Unova",
       "location": "Route 17",
-      "secondsAgo": 8654,
+      "secondsAgo": 8984,
       "sourceId": 1794778283
     }
   ],
