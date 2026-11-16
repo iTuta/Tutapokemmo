@@ -1,42 +1,46 @@
 {
-  "fetchedAt": "2026-11-16T05:01:06.649Z",
-  "swarms": [
-    {
-      "monsterId": 152,
-      "pokemon": "Chikorita",
-      "region": "Johto",
-      "location": "Route 31",
-      "sourceId": 1794805423,
-      "despawnTimestamp": 1794805423,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T05:03:43.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-11-16T05:05:42.907Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 135,
       "pokemon": "Jolteon",
       "region": "Kanto",
       "location": "Ruin Valley",
-      "secondsAgo": 3046,
+      "secondsAgo": 3322,
       "sourceId": 1794802220
+    },
+    {
+      "monsterId": 152,
+      "pokemon": "Chikorita",
+      "region": "Johto",
+      "location": "Route 31",
+      "secondsAgo": 1618,
+      "sourceId": 1794803924
     },
     {
       "monsterId": 255,
       "pokemon": "Torchic",
       "region": "Hoenn",
       "location": "Route 112",
-      "secondsAgo": 4214,
+      "secondsAgo": 4490,
       "sourceId": 1794801052
+    },
+    {
+      "monsterId": 214,
+      "pokemon": "Heracross",
+      "region": "Sinnoh",
+      "location": "Route 206",
+      "secondsAgo": 7516,
+      "sourceId": 1794798026
     },
     {
       "monsterId": 430,
       "pokemon": "Honchkrow",
       "region": "Unova",
       "location": "Celestial Tower",
-      "secondsAgo": 3819,
-      "sourceId": 1794801447
+      "secondsAgo": 4096,
+      "sourceId": 1794801446
     }
   ],
   "alpha": {
