@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-16T06:21:21.625Z",
+  "fetchedAt": "2026-11-16T06:25:45.761Z",
   "swarms": [
-    {
-      "monsterId": 373,
-      "pokemon": "Salamence",
-      "region": "Kanto",
-      "location": "Victory Road",
-      "sourceId": 1794810183,
-      "despawnTimestamp": 1794810182,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T06:23:03.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 227,
       "pokemon": "Skarmory",
@@ -21,6 +10,28 @@
       "despawnTimestamp": 1794811144,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T06:39:04.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 456,
+      "pokemon": "Finneon",
+      "region": "Hoenn",
+      "location": "Route 107",
+      "sourceId": 1794811697,
+      "despawnTimestamp": 1794811696,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T06:48:17.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 394,
+      "pokemon": "Prinplup",
+      "region": "Sinnoh",
+      "location": "Route 220",
+      "sourceId": 1794811827,
+      "despawnTimestamp": 1794811826,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T06:50:27.000Z",
       "publishedBy": ""
     },
     {
@@ -37,20 +48,12 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 255,
-      "pokemon": "Torchic",
-      "region": "Hoenn",
-      "location": "Route 112",
-      "secondsAgo": 9029,
-      "sourceId": 1794801052
-    },
-    {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Sinnoh",
-      "location": "Valor Lakefront",
-      "secondsAgo": 3578,
-      "sourceId": 1794806503
+      "monsterId": 373,
+      "pokemon": "Salamence",
+      "region": "Kanto",
+      "location": "Victory Road",
+      "secondsAgo": 1662,
+      "sourceId": 1794808683
     }
   ],
   "alpha": {
