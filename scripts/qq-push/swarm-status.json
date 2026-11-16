@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-16T15:50:50.664Z",
+  "fetchedAt": "2026-11-16T15:56:06.434Z",
   "swarms": [
+    {
+      "monsterId": 6,
+      "pokemon": "Charizard",
+      "region": "Kanto",
+      "location": "Mt. Ember",
+      "sourceId": 1794845835,
+      "despawnTimestamp": 1794845835,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T16:17:15.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
@@ -18,7 +29,7 @@
       "region": "Hoenn",
       "location": "Route 114",
       "sourceId": 1794845214,
-      "despawnTimestamp": 1794845213,
+      "despawnTimestamp": 1794845214,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T16:06:54.000Z",
       "publishedBy": ""
@@ -29,7 +40,7 @@
       "region": "Unova",
       "location": "Twist Mountain",
       "sourceId": 1794845601,
-      "despawnTimestamp": 1794845600,
+      "despawnTimestamp": 1794845601,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T16:13:21.000Z",
       "publishedBy": ""
@@ -37,20 +48,12 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 441,
-      "pokemon": "Chatot",
-      "region": "Kanto",
-      "location": "Treasure Beach",
-      "secondsAgo": 2013,
-      "sourceId": 1794842237
-    },
-    {
       "monsterId": 389,
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 1735,
-      "sourceId": 1794842515
+      "secondsAgo": 2050,
+      "sourceId": 1794842516
     }
   ],
   "alpha": {
