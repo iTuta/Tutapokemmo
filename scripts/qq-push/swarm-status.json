@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T03:50:40.988Z",
+  "fetchedAt": "2026-11-16T03:55:43.375Z",
   "swarms": [
     {
       "monsterId": 190,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-16T04:14:29.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 255,
+      "pokemon": "Torchic",
+      "region": "Hoenn",
+      "location": "Route 112",
+      "sourceId": 1794802552,
+      "despawnTimestamp": 1794802551,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T04:15:52.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,24 +30,16 @@
       "pokemon": "Mr. Mime",
       "region": "Kanto",
       "location": "Route 21",
-      "secondsAgo": 3056,
-      "sourceId": 1794797984
-    },
-    {
-      "monsterId": 376,
-      "pokemon": "Metagross",
-      "region": "Hoenn",
-      "location": "Meteor Falls",
-      "secondsAgo": 3709,
-      "sourceId": 1794797331
+      "secondsAgo": 3358,
+      "sourceId": 1794797985
     },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Unova",
       "location": "Route 18",
-      "secondsAgo": 4278,
-      "sourceId": 1794796762
+      "secondsAgo": 4580,
+      "sourceId": 1794796763
     }
   ],
   "alpha": {
