@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T00:05:48.183Z",
+  "fetchedAt": "2026-11-16T00:11:06.047Z",
   "swarms": [
     {
       "monsterId": 176,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1794788655,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T00:24:15.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 149,
+      "pokemon": "Dragonite",
+      "region": "Hoenn",
+      "location": "Route 131",
+      "sourceId": 1794789184,
+      "despawnTimestamp": 1794789184,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T00:33:04.000Z",
       "publishedBy": ""
     },
     {
@@ -30,23 +41,15 @@
       "pokemon": "Kabutops",
       "region": "Kanto",
       "location": "Dilford Chamber",
-      "secondsAgo": 1734,
+      "secondsAgo": 2052,
       "sourceId": 1794785814
-    },
-    {
-      "monsterId": 429,
-      "pokemon": "Mismagius",
-      "region": "Hoenn",
-      "location": "Route 122",
-      "secondsAgo": 6185,
-      "sourceId": 1794781363
     },
     {
       "monsterId": 457,
       "pokemon": "Lumineon",
       "region": "Unova",
       "location": "Route 17",
-      "secondsAgo": 9264,
+      "secondsAgo": 9582,
       "sourceId": 1794778284
     }
   ],
