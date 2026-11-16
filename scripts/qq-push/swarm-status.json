@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T09:55:42.703Z",
+  "fetchedAt": "2026-11-16T10:01:07.991Z",
   "swarms": [
     {
       "monsterId": 285,
@@ -7,7 +7,7 @@
       "region": "Johto",
       "location": "Route 34",
       "sourceId": 1794823802,
-      "despawnTimestamp": 1794823802,
+      "despawnTimestamp": 1794823801,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T10:10:02.000Z",
       "publishedBy": ""
@@ -22,6 +22,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-16T10:15:20.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 123,
+      "pokemon": "Scyther",
+      "region": "Sinnoh",
+      "location": "Route 210",
+      "sourceId": 1794824546,
+      "despawnTimestamp": 1794824546,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T10:22:26.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,23 +41,15 @@
       "pokemon": "Lapras",
       "region": "Kanto",
       "location": "Icefall Cave",
-      "secondsAgo": 2254,
+      "secondsAgo": 2579,
       "sourceId": 1794820688
-    },
-    {
-      "monsterId": 113,
-      "pokemon": "Chansey",
-      "region": "Sinnoh",
-      "location": "Trophy Garden",
-      "secondsAgo": 1860,
-      "sourceId": 1794821082
     },
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Unova",
       "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 2282,
+      "secondsAgo": 2607,
       "sourceId": 1794820660
     }
   ],
