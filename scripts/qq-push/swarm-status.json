@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T01:25:41.946Z",
+  "fetchedAt": "2026-11-16T01:31:04.748Z",
   "swarms": [
     {
       "monsterId": 314,
@@ -22,6 +22,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-16T01:38:24.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 451,
+      "pokemon": "Skorupi",
+      "region": "Unova",
+      "location": "Desert Resort",
+      "sourceId": 1794793933,
+      "despawnTimestamp": 1794793933,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T01:52:13.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,24 +41,16 @@
       "pokemon": "Hitmontop",
       "region": "Johto",
       "location": "Mt. Mortar",
-      "secondsAgo": 2727,
-      "sourceId": 1794789614
+      "secondsAgo": 3049,
+      "sourceId": 1794789615
     },
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 2398,
+      "secondsAgo": 2721,
       "sourceId": 1794789943
-    },
-    {
-      "monsterId": 457,
-      "pokemon": "Lumineon",
-      "region": "Unova",
-      "location": "Route 17",
-      "secondsAgo": 14058,
-      "sourceId": 1794778283
     }
   ],
   "alpha": {
