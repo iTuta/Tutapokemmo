@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T03:05:47.308Z",
+  "fetchedAt": "2026-11-16T03:10:46.832Z",
   "swarms": [
     {
       "monsterId": 122,
@@ -24,17 +24,6 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 376,
-      "pokemon": "Metagross",
-      "region": "Hoenn",
-      "location": "Meteor Falls",
-      "sourceId": 1794798831,
-      "despawnTimestamp": 1794798830,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T03:13:51.000Z",
-      "publishedBy": ""
-    },
-    {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Sinnoh",
@@ -48,12 +37,20 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 376,
+      "pokemon": "Metagross",
+      "region": "Hoenn",
+      "location": "Meteor Falls",
+      "secondsAgo": 1315,
+      "sourceId": 1794797331
+    },
+    {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Unova",
       "location": "Route 18",
-      "secondsAgo": 1584,
-      "sourceId": 1794796763
+      "secondsAgo": 1884,
+      "sourceId": 1794796762
     }
   ],
   "alpha": {
