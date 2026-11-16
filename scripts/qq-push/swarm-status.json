@@ -1,15 +1,26 @@
 {
-  "fetchedAt": "2026-11-16T17:40:52.076Z",
+  "fetchedAt": "2026-11-16T17:45:52.317Z",
   "swarms": [
     {
-      "monsterId": 358,
-      "pokemon": "Chimecho",
-      "region": "Johto",
-      "location": "Bellchime Trail",
-      "sourceId": 1794850954,
-      "despawnTimestamp": 1794850954,
+      "monsterId": 135,
+      "pokemon": "Jolteon",
+      "region": "Kanto",
+      "location": "Ruin Valley",
+      "sourceId": 1794852595,
+      "despawnTimestamp": 1794852595,
       "hasValuable": false,
-      "timestampUtc": "2026-11-16T17:42:34.000Z",
+      "timestampUtc": "2026-11-16T18:09:55.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 153,
+      "pokemon": "Bayleef",
+      "region": "Johto",
+      "location": "National Park",
+      "sourceId": 1794852581,
+      "despawnTimestamp": 1794852581,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T18:09:41.000Z",
       "publishedBy": ""
     },
     {
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 317,
-      "pokemon": "Swalot",
-      "region": "Kanto",
-      "location": "Route 18",
-      "secondsAgo": 2500,
-      "sourceId": 1794848352
-    },
-    {
       "monsterId": 424,
       "pokemon": "Ambipom",
       "region": "Sinnoh",
       "location": "Route 216",
-      "secondsAgo": 2865,
+      "secondsAgo": 3165,
       "sourceId": 1794847987
     },
     {
@@ -46,7 +49,7 @@
       "pokemon": "Pupitar",
       "region": "Unova",
       "location": "Twist Mountain",
-      "secondsAgo": 6750,
+      "secondsAgo": 7050,
       "sourceId": 1794844102
     }
   ],
