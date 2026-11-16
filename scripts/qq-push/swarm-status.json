@@ -1,15 +1,26 @@
 {
-  "fetchedAt": "2026-11-16T14:45:46.900Z",
+  "fetchedAt": "2026-11-16T14:55:50.323Z",
   "swarms": [
     {
-      "monsterId": 453,
-      "pokemon": "Croagunk",
+      "monsterId": 346,
+      "pokemon": "Cradily",
       "region": "Kanto",
-      "location": "Route 6",
-      "sourceId": 1794840540,
-      "despawnTimestamp": 1794840539,
+      "location": "Tanoby Ruins",
+      "sourceId": 1794842106,
+      "despawnTimestamp": 1794842106,
       "hasValuable": false,
-      "timestampUtc": "2026-11-16T14:49:00.000Z",
+      "timestampUtc": "2026-11-16T15:15:06.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 300,
+      "pokemon": "Skitty",
+      "region": "Johto",
+      "location": "Route 35",
+      "sourceId": 1794842243,
+      "despawnTimestamp": 1794842243,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T15:17:23.000Z",
       "publishedBy": ""
     },
     {
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Johto",
-      "location": "Mt. Silver Cave",
-      "secondsAgo": 2158,
-      "sourceId": 1794838188
-    },
-    {
       "monsterId": 126,
       "pokemon": "Magmar",
       "region": "Sinnoh",
       "location": "Fuego Ironworks",
-      "secondsAgo": 3100,
+      "secondsAgo": 3704,
       "sourceId": 1794837246
     },
     {
@@ -46,7 +49,7 @@
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 7542,
+      "secondsAgo": 8146,
       "sourceId": 1794832804
     }
   ],
