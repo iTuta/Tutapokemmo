@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T17:55:47.444Z",
+  "fetchedAt": "2026-11-16T18:01:05.968Z",
   "swarms": [
     {
       "monsterId": 135,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Ruin Valley",
       "sourceId": 1794852595,
-      "despawnTimestamp": 1794852595,
+      "despawnTimestamp": 1794852594,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T18:09:55.000Z",
       "publishedBy": ""
@@ -18,20 +18,9 @@
       "region": "Johto",
       "location": "National Park",
       "sourceId": 1794852581,
-      "despawnTimestamp": 1794852581,
+      "despawnTimestamp": 1794852580,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T18:09:41.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 257,
-      "pokemon": "Blaziken",
-      "region": "Hoenn",
-      "location": "Magma Hideout",
-      "sourceId": 1794851805,
-      "despawnTimestamp": 1794851805,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T17:56:45.000Z",
       "publishedBy": ""
     },
     {
@@ -51,13 +40,22 @@
       "region": "Unova",
       "location": "Relic Castle",
       "sourceId": 1794852980,
-      "despawnTimestamp": 1794852980,
+      "despawnTimestamp": 1794852979,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T18:16:20.000Z",
       "publishedBy": ""
     }
   ],
-  "lastSeen": [],
+  "lastSeen": [
+    {
+      "monsterId": 257,
+      "pokemon": "Blaziken",
+      "region": "Hoenn",
+      "location": "Magma Hideout",
+      "secondsAgo": 1760,
+      "sourceId": 1794850305
+    }
+  ],
   "alpha": {
     "monsterId": 504,
     "pokemon": "Patrat",
