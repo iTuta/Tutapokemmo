@@ -1,13 +1,36 @@
 {
-  "fetchedAt": "2026-11-16T22:55:51.002Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-16T23:01:02.991Z",
+  "swarms": [
+    {
+      "monsterId": 134,
+      "pokemon": "Vaporeon",
+      "region": "Hoenn",
+      "location": "Route 134",
+      "sourceId": 1794871280,
+      "despawnTimestamp": 1794871279,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T23:21:20.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Unova",
+      "location": "Lostlorn Forest",
+      "sourceId": 1794871223,
+      "despawnTimestamp": 1794871222,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T23:20:23.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 350,
       "pokemon": "Milotic",
       "region": "Kanto",
       "location": "Resort Gorgeous",
-      "secondsAgo": 5798,
+      "secondsAgo": 6110,
       "sourceId": 1794863952
     },
     {
@@ -15,32 +38,16 @@
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 4817,
+      "secondsAgo": 5129,
       "sourceId": 1794864933
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Hoenn",
-      "location": "Scorched Slab",
-      "secondsAgo": 5354,
-      "sourceId": 1794864396
     },
     {
       "monsterId": 239,
       "pokemon": "Elekid",
       "region": "Sinnoh",
       "location": "Valley Windworks",
-      "secondsAgo": 1891,
+      "secondsAgo": 2203,
       "sourceId": 1794867859
-    },
-    {
-      "monsterId": 369,
-      "pokemon": "Relicanth",
-      "region": "Unova",
-      "location": "Challenger&#x27;s Cave",
-      "secondsAgo": 1759,
-      "sourceId": 1794867991
     }
   ],
   "alpha": {
