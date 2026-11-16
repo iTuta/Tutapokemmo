@@ -1,33 +1,29 @@
 {
-  "fetchedAt": "2026-11-16T13:31:07.410Z",
-  "swarms": [
-    {
-      "monsterId": 339,
-      "pokemon": "Barboach",
-      "region": "Johto",
-      "location": "Slowpoke Well",
-      "sourceId": 1794835878,
-      "despawnTimestamp": 1794835878,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T13:31:18.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-11-16T13:35:49.783Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 211,
       "pokemon": "Qwilfish",
       "region": "Kanto",
       "location": "Route 20",
-      "secondsAgo": 3147,
+      "secondsAgo": 3429,
       "sourceId": 1794832720
+    },
+    {
+      "monsterId": 339,
+      "pokemon": "Barboach",
+      "region": "Johto",
+      "location": "Slowpoke Well",
+      "secondsAgo": 1770,
+      "sourceId": 1794834379
     },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
       "region": "Hoenn",
       "location": "Route 133",
-      "secondsAgo": 2947,
+      "secondsAgo": 3229,
       "sourceId": 1794832920
     },
     {
@@ -35,7 +31,7 @@
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 3539,
+      "secondsAgo": 3821,
       "sourceId": 1794832328
     }
   ],
