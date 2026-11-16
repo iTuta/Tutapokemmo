@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-11-16T16:36:22.526Z",
+  "fetchedAt": "2026-11-16T16:40:53.198Z",
   "swarms": [
-    {
-      "monsterId": 469,
-      "pokemon": "Yanmega",
-      "region": "Johto",
-      "location": "Route 44",
-      "sourceId": 1794846986,
-      "despawnTimestamp": 1794846985,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T16:36:26.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 300,
-      "pokemon": "Skitty",
-      "region": "Hoenn",
-      "location": "Route 116",
-      "sourceId": 1794847004,
-      "despawnTimestamp": 1794847004,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T16:36:44.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
@@ -41,15 +19,31 @@
       "pokemon": "Charizard",
       "region": "Kanto",
       "location": "Mt. Ember",
-      "secondsAgo": 2646,
+      "secondsAgo": 2917,
       "sourceId": 1794844336
+    },
+    {
+      "monsterId": 469,
+      "pokemon": "Yanmega",
+      "region": "Johto",
+      "location": "Route 44",
+      "secondsAgo": 1766,
+      "sourceId": 1794845487
+    },
+    {
+      "monsterId": 300,
+      "pokemon": "Skitty",
+      "region": "Hoenn",
+      "location": "Route 116",
+      "secondsAgo": 1748,
+      "sourceId": 1794845505
     },
     {
       "monsterId": 247,
       "pokemon": "Pupitar",
       "region": "Unova",
       "location": "Twist Mountain",
-      "secondsAgo": 2880,
+      "secondsAgo": 3151,
       "sourceId": 1794844102
     }
   ],
