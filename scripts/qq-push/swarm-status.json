@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-16T16:55:41.002Z",
+  "fetchedAt": "2026-11-16T17:02:37.442Z",
   "swarms": [
+    {
+      "monsterId": 317,
+      "pokemon": "Swalot",
+      "region": "Kanto",
+      "location": "Route 18",
+      "sourceId": 1794849851,
+      "despawnTimestamp": 1794849850,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T17:24:11.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Johto",
       "location": "Route 34",
       "sourceId": 1794849002,
-      "despawnTimestamp": 1794849001,
+      "despawnTimestamp": 1794849002,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T17:10:02.000Z",
       "publishedBy": ""
@@ -18,7 +29,7 @@
       "region": "Hoenn",
       "location": "Route 125",
       "sourceId": 1794849438,
-      "despawnTimestamp": 1794849437,
+      "despawnTimestamp": 1794849438,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T17:17:18.000Z",
       "publishedBy": ""
@@ -37,20 +48,12 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 6,
-      "pokemon": "Charizard",
-      "region": "Kanto",
-      "location": "Mt. Ember",
-      "secondsAgo": 3805,
-      "sourceId": 1794844335
-    },
-    {
       "monsterId": 247,
       "pokemon": "Pupitar",
       "region": "Unova",
       "location": "Twist Mountain",
-      "secondsAgo": 4039,
-      "sourceId": 1794844101
+      "secondsAgo": 4455,
+      "sourceId": 1794844102
     }
   ],
   "alpha": {
