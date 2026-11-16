@@ -1,15 +1,37 @@
 {
-  "fetchedAt": "2026-11-16T09:15:43.472Z",
+  "fetchedAt": "2026-11-16T09:20:51.004Z",
   "swarms": [
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Kanto",
+      "location": "Icefall Cave",
+      "sourceId": 1794822188,
+      "despawnTimestamp": 1794822187,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T09:43:08.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 152,
       "pokemon": "Chikorita",
       "region": "Johto",
       "location": "Route 31",
       "sourceId": 1794821511,
-      "despawnTimestamp": 1794821511,
+      "despawnTimestamp": 1794821510,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T09:31:51.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 316,
+      "pokemon": "Gulpin",
+      "region": "Hoenn",
+      "location": "Route 110",
+      "sourceId": 1794822198,
+      "despawnTimestamp": 1794822197,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T09:43:18.000Z",
       "publishedBy": ""
     },
     {
@@ -18,38 +40,24 @@
       "region": "Sinnoh",
       "location": "Route 220",
       "sourceId": 1794821740,
-      "despawnTimestamp": 1794821740,
+      "despawnTimestamp": 1794821739,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T09:35:40.000Z",
       "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 137,
-      "pokemon": "Porygon",
-      "region": "Kanto",
-      "location": "Pokemon Mansion",
-      "secondsAgo": 2683,
-      "sourceId": 1794817860
     },
     {
-      "monsterId": 255,
-      "pokemon": "Torchic",
-      "region": "Hoenn",
-      "location": "Route 112",
-      "secondsAgo": 3414,
-      "sourceId": 1794817129
-    },
-    {
-      "monsterId": 311,
-      "pokemon": "Plusle",
+      "monsterId": 369,
+      "pokemon": "Relicanth",
       "region": "Unova",
-      "location": "Route 5",
-      "secondsAgo": 1879,
-      "sourceId": 1794818664
+      "location": "Challenger&#x27;s Cave",
+      "sourceId": 1794822160,
+      "despawnTimestamp": 1794822159,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T09:42:40.000Z",
+      "publishedBy": ""
     }
   ],
+  "lastSeen": [],
   "alpha": {
     "monsterId": 242,
     "pokemon": "Blissey",
