@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T04:10:58.514Z",
+  "fetchedAt": "2026-11-16T04:15:47.173Z",
   "swarms": [
     {
       "monsterId": 135,
@@ -7,46 +7,41 @@
       "region": "Kanto",
       "location": "Ruin Valley",
       "sourceId": 1794803720,
-      "despawnTimestamp": 1794803719,
+      "despawnTimestamp": 1794803720,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T04:35:20.000Z",
       "publishedBy": ""
     },
     {
-      "monsterId": 190,
-      "pokemon": "Aipom",
+      "monsterId": 372,
+      "pokemon": "Shelgon",
       "region": "Johto",
-      "location": "Route 29",
-      "sourceId": 1794802469,
-      "despawnTimestamp": 1794802469,
+      "location": "Dragon&#x27;s Den",
+      "sourceId": 1794803420,
+      "despawnTimestamp": 1794803420,
       "hasValuable": false,
-      "timestampUtc": "2026-11-16T04:14:29.000Z",
+      "timestampUtc": "2026-11-16T04:30:20.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 255,
       "pokemon": "Torchic",
       "region": "Hoenn",
       "location": "Route 112",
-      "sourceId": 1794802552,
-      "despawnTimestamp": 1794802551,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T04:15:52.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1494,
+      "sourceId": 1794801053
     },
     {
       "monsterId": 430,
       "pokemon": "Honchkrow",
       "region": "Unova",
       "location": "Celestial Tower",
-      "sourceId": 1794802946,
-      "despawnTimestamp": 1794802946,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T04:22:26.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1100,
+      "sourceId": 1794801447
     }
   ],
-  "lastSeen": [],
   "alpha": {
     "monsterId": 193,
     "pokemon": "Yanma",
