@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T09:30:56.929Z",
+  "fetchedAt": "2026-11-16T09:35:50.966Z",
   "swarms": [
     {
       "monsterId": 131,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1794822187,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T09:43:08.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 152,
-      "pokemon": "Chikorita",
-      "region": "Johto",
-      "location": "Route 31",
-      "sourceId": 1794821511,
-      "despawnTimestamp": 1794821510,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T09:31:51.000Z",
       "publishedBy": ""
     },
     {
@@ -40,7 +29,7 @@
       "region": "Sinnoh",
       "location": "Trophy Garden",
       "sourceId": 1794822581,
-      "despawnTimestamp": 1794822581,
+      "despawnTimestamp": 1794822580,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T09:49:41.000Z",
       "publishedBy": ""
@@ -57,7 +46,16 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [],
+  "lastSeen": [
+    {
+      "monsterId": 152,
+      "pokemon": "Chikorita",
+      "region": "Johto",
+      "location": "Route 31",
+      "secondsAgo": 1739,
+      "sourceId": 1794820011
+    }
+  ],
   "alpha": {
     "monsterId": 242,
     "pokemon": "Blissey",
