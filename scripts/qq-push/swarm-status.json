@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-11-16T00:01:07.511Z",
+  "fetchedAt": "2026-11-16T00:05:48.183Z",
   "swarms": [
-    {
-      "monsterId": 141,
-      "pokemon": "Kabutops",
-      "region": "Kanto",
-      "location": "Dilford Chamber",
-      "sourceId": 1794787313,
-      "despawnTimestamp": 1794787313,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T00:01:53.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
       "sourceId": 1794788655,
-      "despawnTimestamp": 1794788654,
+      "despawnTimestamp": 1794788655,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T00:24:15.000Z",
       "publishedBy": ""
@@ -29,7 +18,7 @@
       "region": "Sinnoh",
       "location": "Sendoff Spring",
       "sourceId": 1794788111,
-      "despawnTimestamp": 1794788110,
+      "despawnTimestamp": 1794788111,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T00:15:11.000Z",
       "publishedBy": ""
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 141,
+      "pokemon": "Kabutops",
+      "region": "Kanto",
+      "location": "Dilford Chamber",
+      "secondsAgo": 1734,
+      "sourceId": 1794785814
+    },
+    {
       "monsterId": 429,
       "pokemon": "Mismagius",
       "region": "Hoenn",
       "location": "Route 122",
-      "secondsAgo": 5904,
+      "secondsAgo": 6185,
       "sourceId": 1794781363
     },
     {
@@ -49,8 +46,8 @@
       "pokemon": "Lumineon",
       "region": "Unova",
       "location": "Route 17",
-      "secondsAgo": 8984,
-      "sourceId": 1794778283
+      "secondsAgo": 9264,
+      "sourceId": 1794778284
     }
   ],
   "alpha": {
