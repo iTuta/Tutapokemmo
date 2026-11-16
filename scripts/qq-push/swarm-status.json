@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-16T12:21:08.840Z",
+  "fetchedAt": "2026-11-16T12:25:48.909Z",
   "swarms": [
-    {
-      "monsterId": 350,
-      "pokemon": "Milotic",
-      "region": "Kanto",
-      "location": "Resort Gorgeous",
-      "sourceId": 1794832324,
-      "despawnTimestamp": 1794832323,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T12:32:04.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 102,
       "pokemon": "Exeggcute",
@@ -22,26 +11,23 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-16T12:34:50.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Unova",
-      "location": "Route 15",
-      "sourceId": 1794831945,
-      "despawnTimestamp": 1794831944,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T12:25:45.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
+    {
+      "monsterId": 350,
+      "pokemon": "Milotic",
+      "region": "Kanto",
+      "location": "Resort Gorgeous",
+      "secondsAgo": 1124,
+      "sourceId": 1794830824
+    },
     {
       "monsterId": 260,
       "pokemon": "Swampert",
       "region": "Hoenn",
       "location": "Route 109",
-      "secondsAgo": 1189,
+      "secondsAgo": 1469,
       "sourceId": 1794830479
     },
     {
@@ -49,8 +35,16 @@
       "pokemon": "Combee",
       "region": "Sinnoh",
       "location": "Floaroma Meadow",
-      "secondsAgo": 2161,
+      "secondsAgo": 2441,
       "sourceId": 1794829507
+    },
+    {
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Unova",
+      "location": "Route 15",
+      "secondsAgo": 1503,
+      "sourceId": 1794830445
     }
   ],
   "alpha": {
