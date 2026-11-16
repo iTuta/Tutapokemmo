@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-16T08:30:58.882Z",
+  "fetchedAt": "2026-11-16T08:35:47.451Z",
   "swarms": [
+    {
+      "monsterId": 137,
+      "pokemon": "Porygon",
+      "region": "Kanto",
+      "location": "Pokemon Mansion",
+      "sourceId": 1794819359,
+      "despawnTimestamp": 1794819359,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T08:55:59.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 255,
       "pokemon": "Torchic",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 2,
-      "pokemon": "Ivysaur",
-      "region": "Kanto",
-      "location": "Route 5",
-      "secondsAgo": 1657,
-      "sourceId": 1794816201
-    },
-    {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Johto",
       "location": "Route 39",
-      "secondsAgo": 1676,
+      "secondsAgo": 1965,
       "sourceId": 1794816182
     },
     {
@@ -35,8 +38,8 @@
       "pokemon": "Shroomish",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 1619,
-      "sourceId": 1794816239
+      "secondsAgo": 1907,
+      "sourceId": 1794816240
     }
   ],
   "alpha": {
