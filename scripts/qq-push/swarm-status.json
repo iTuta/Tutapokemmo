@@ -1,37 +1,44 @@
 {
-  "fetchedAt": "2026-11-16T01:10:52.225Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-16T01:15:56.885Z",
+  "swarms": [
     {
-      "monsterId": 211,
-      "pokemon": "Qwilfish",
+      "monsterId": 314,
+      "pokemon": "Illumise",
       "region": "Kanto",
-      "location": "Route 20",
-      "secondsAgo": 1805,
-      "sourceId": 1794789647
+      "location": "Water Path",
+      "sourceId": 1794793214,
+      "despawnTimestamp": 1794793213,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T01:40:14.000Z",
+      "publishedBy": ""
     },
+    {
+      "monsterId": 316,
+      "pokemon": "Gulpin",
+      "region": "Hoenn",
+      "location": "Route 110",
+      "sourceId": 1794793104,
+      "despawnTimestamp": 1794793104,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T01:38:24.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 237,
       "pokemon": "Hitmontop",
       "region": "Johto",
       "location": "Mt. Mortar",
-      "secondsAgo": 1837,
-      "sourceId": 1794789615
-    },
-    {
-      "monsterId": 149,
-      "pokemon": "Dragonite",
-      "region": "Hoenn",
-      "location": "Route 131",
-      "secondsAgo": 3767,
-      "sourceId": 1794787685
+      "secondsAgo": 2142,
+      "sourceId": 1794789614
     },
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Sinnoh",
       "location": "Route 218",
-      "secondsAgo": 1509,
+      "secondsAgo": 1813,
       "sourceId": 1794789943
     },
     {
@@ -39,7 +46,7 @@
       "pokemon": "Lumineon",
       "region": "Unova",
       "location": "Route 17",
-      "secondsAgo": 13169,
+      "secondsAgo": 13473,
       "sourceId": 1794778283
     }
   ],
