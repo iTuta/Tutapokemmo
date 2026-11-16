@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T07:01:05.181Z",
+  "fetchedAt": "2026-11-16T07:05:42.662Z",
   "swarms": [
     {
       "monsterId": 128,
@@ -18,9 +18,20 @@
       "region": "Sinnoh",
       "location": "Route 202",
       "sourceId": 1794813767,
-      "despawnTimestamp": 1794813767,
+      "despawnTimestamp": 1794813766,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T07:22:47.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 125,
+      "pokemon": "Electabuzz",
+      "region": "Unova",
+      "location": "Chargestone Cave",
+      "sourceId": 1794814218,
+      "despawnTimestamp": 1794814217,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T07:30:18.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,24 +41,16 @@
       "pokemon": "Salamence",
       "region": "Kanto",
       "location": "Victory Road",
-      "secondsAgo": 3781,
-      "sourceId": 1794808684
+      "secondsAgo": 4059,
+      "sourceId": 1794808683
     },
     {
       "monsterId": 456,
       "pokemon": "Finneon",
       "region": "Hoenn",
       "location": "Route 107",
-      "secondsAgo": 2267,
-      "sourceId": 1794810198
-    },
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Unova",
-      "location": "Wellspring Cave",
-      "secondsAgo": 1727,
-      "sourceId": 1794810738
+      "secondsAgo": 2545,
+      "sourceId": 1794810197
     }
   ],
   "alpha": {
