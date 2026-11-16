@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-11-16T05:40:48.700Z",
+  "fetchedAt": "2026-11-16T05:45:53.172Z",
   "swarms": [
-    {
-      "monsterId": 6,
-      "pokemon": "Charizard",
-      "region": "Kanto",
-      "location": "Mt. Ember",
-      "sourceId": 1794807887,
-      "despawnTimestamp": 1794807887,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T05:44:47.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 319,
-      "pokemon": "Sharpedo",
-      "region": "Johto",
-      "location": "Route 41",
-      "sourceId": 1794807814,
-      "despawnTimestamp": 1794807813,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T05:43:34.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
@@ -48,12 +26,28 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 6,
+      "pokemon": "Charizard",
+      "region": "Kanto",
+      "location": "Mt. Ember",
+      "secondsAgo": 1565,
+      "sourceId": 1794806388
+    },
+    {
+      "monsterId": 319,
+      "pokemon": "Sharpedo",
+      "region": "Johto",
+      "location": "Route 41",
+      "secondsAgo": 1638,
+      "sourceId": 1794806315
+    },
+    {
       "monsterId": 255,
       "pokemon": "Torchic",
       "region": "Hoenn",
       "location": "Route 112",
-      "secondsAgo": 6596,
-      "sourceId": 1794801052
+      "secondsAgo": 6900,
+      "sourceId": 1794801053
     }
   ],
   "alpha": {
