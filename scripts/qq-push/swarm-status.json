@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T15:26:00.809Z",
+  "fetchedAt": "2026-11-16T15:31:01.382Z",
   "swarms": [
     {
       "monsterId": 441,
@@ -18,20 +18,9 @@
       "region": "Hoenn",
       "location": "Route 120",
       "sourceId": 1794843445,
-      "despawnTimestamp": 1794843444,
+      "despawnTimestamp": 1794843445,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T15:37:25.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 389,
-      "pokemon": "Torterra",
-      "region": "Sinnoh",
-      "location": "Route 212",
-      "sourceId": 1794844015,
-      "despawnTimestamp": 1794844014,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T15:46:55.000Z",
       "publishedBy": ""
     },
     {
@@ -40,7 +29,7 @@
       "region": "Unova",
       "location": "Route 1",
       "sourceId": 1794843992,
-      "despawnTimestamp": 1794843991,
+      "despawnTimestamp": 1794843992,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T15:46:32.000Z",
       "publishedBy": ""
@@ -52,8 +41,16 @@
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 2017,
-      "sourceId": 1794840743
+      "secondsAgo": 2317,
+      "sourceId": 1794840744
+    },
+    {
+      "monsterId": 389,
+      "pokemon": "Torterra",
+      "region": "Sinnoh",
+      "location": "Route 212",
+      "secondsAgo": 545,
+      "sourceId": 1794842516
     }
   ],
   "alpha": {
