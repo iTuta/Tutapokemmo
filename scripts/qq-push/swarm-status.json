@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-16T16:16:08.484Z",
+  "fetchedAt": "2026-11-16T16:21:21.352Z",
   "swarms": [
-    {
-      "monsterId": 6,
-      "pokemon": "Charizard",
-      "region": "Kanto",
-      "location": "Mt. Ember",
-      "sourceId": 1794845835,
-      "despawnTimestamp": 1794845835,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T16:17:15.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 469,
       "pokemon": "Yanmega",
@@ -33,23 +22,34 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-16T16:36:44.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Sinnoh",
+      "location": "Iron Island",
+      "sourceId": 1794847413,
+      "despawnTimestamp": 1794847413,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T16:43:33.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 389,
-      "pokemon": "Torterra",
-      "region": "Sinnoh",
-      "location": "Route 212",
-      "secondsAgo": 3252,
-      "sourceId": 1794842516
+      "monsterId": 6,
+      "pokemon": "Charizard",
+      "region": "Kanto",
+      "location": "Mt. Ember",
+      "secondsAgo": 1745,
+      "sourceId": 1794844336
     },
     {
       "monsterId": 247,
       "pokemon": "Pupitar",
       "region": "Unova",
       "location": "Twist Mountain",
-      "secondsAgo": 1666,
+      "secondsAgo": 1979,
       "sourceId": 1794844102
     }
   ],
