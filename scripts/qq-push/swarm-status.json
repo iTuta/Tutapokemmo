@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-11-16T21:15:46.069Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-16T21:20:51.078Z",
+  "swarms": [
     {
-      "monsterId": 211,
-      "pokemon": "Qwilfish",
+      "monsterId": 350,
+      "pokemon": "Milotic",
       "region": "Kanto",
-      "location": "Route 20",
-      "secondsAgo": 2452,
-      "sourceId": 1794861294
-    },
+      "location": "Resort Gorgeous",
+      "sourceId": 1794865452,
+      "despawnTimestamp": 1794865452,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T21:44:12.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Johto",
       "location": "Sprout Tower",
-      "secondsAgo": 1472,
+      "secondsAgo": 1777,
       "sourceId": 1794862274
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Spiritomb",
       "region": "Hoenn",
       "location": "Abandoned Ship",
-      "secondsAgo": 2866,
+      "secondsAgo": 3171,
       "sourceId": 1794860880
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Carnivine",
       "region": "Sinnoh",
       "location": "Route 225",
-      "secondsAgo": 6890,
+      "secondsAgo": 7195,
       "sourceId": 1794856856
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 5253,
+      "secondsAgo": 5558,
       "sourceId": 1794858493
     }
   ],
