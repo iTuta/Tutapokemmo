@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-16T07:40:57.088Z",
+  "fetchedAt": "2026-11-16T07:45:53.197Z",
   "swarms": [
-    {
-      "monsterId": 416,
-      "pokemon": "Vespiquen",
-      "region": "Kanto",
-      "location": "Five Isle Meadow",
-      "sourceId": 1794814960,
-      "despawnTimestamp": 1794814960,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T07:42:40.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 416,
+      "pokemon": "Vespiquen",
+      "region": "Kanto",
+      "location": "Five Isle Meadow",
+      "secondsAgo": 1692,
+      "sourceId": 1794813461
+    },
+    {
       "monsterId": 125,
       "pokemon": "Electabuzz",
       "region": "Unova",
       "location": "Chargestone Cave",
-      "secondsAgo": 2138,
+      "secondsAgo": 2434,
       "sourceId": 1794812719
     }
   ],
