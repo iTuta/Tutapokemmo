@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T16:51:02.285Z",
+  "fetchedAt": "2026-11-16T16:55:41.002Z",
   "swarms": [
     {
       "monsterId": 285,
@@ -7,9 +7,31 @@
       "region": "Johto",
       "location": "Route 34",
       "sourceId": 1794849002,
-      "despawnTimestamp": 1794849002,
+      "despawnTimestamp": 1794849001,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T17:10:02.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 211,
+      "pokemon": "Qwilfish",
+      "region": "Hoenn",
+      "location": "Route 125",
+      "sourceId": 1794849438,
+      "despawnTimestamp": 1794849437,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T17:17:18.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 424,
+      "pokemon": "Ambipom",
+      "region": "Sinnoh",
+      "location": "Route 216",
+      "sourceId": 1794849486,
+      "despawnTimestamp": 1794849486,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T17:18:06.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,32 +41,16 @@
       "pokemon": "Charizard",
       "region": "Kanto",
       "location": "Mt. Ember",
-      "secondsAgo": 3526,
-      "sourceId": 1794844336
-    },
-    {
-      "monsterId": 300,
-      "pokemon": "Skitty",
-      "region": "Hoenn",
-      "location": "Route 116",
-      "secondsAgo": 2357,
-      "sourceId": 1794845505
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Sinnoh",
-      "location": "Iron Island",
-      "secondsAgo": 1948,
-      "sourceId": 1794845914
+      "secondsAgo": 3805,
+      "sourceId": 1794844335
     },
     {
       "monsterId": 247,
       "pokemon": "Pupitar",
       "region": "Unova",
       "location": "Twist Mountain",
-      "secondsAgo": 3760,
-      "sourceId": 1794844102
+      "secondsAgo": 4039,
+      "sourceId": 1794844101
     }
   ],
   "alpha": {
