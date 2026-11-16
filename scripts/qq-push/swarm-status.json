@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-16T21:41:35.491Z",
+  "fetchedAt": "2026-11-16T21:45:45.101Z",
   "swarms": [
-    {
-      "monsterId": 350,
-      "pokemon": "Milotic",
-      "region": "Kanto",
-      "location": "Resort Gorgeous",
-      "sourceId": 1794865452,
-      "despawnTimestamp": 1794865451,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T21:44:12.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
@@ -29,7 +18,7 @@
       "region": "Hoenn",
       "location": "Scorched Slab",
       "sourceId": 1794865896,
-      "despawnTimestamp": 1794865895,
+      "despawnTimestamp": 1794865896,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T21:51:36.000Z",
       "publishedBy": ""
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 350,
+      "pokemon": "Milotic",
+      "region": "Kanto",
+      "location": "Resort Gorgeous",
+      "secondsAgo": 1592,
+      "sourceId": 1794863953
+    },
+    {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Sinnoh",
       "location": "Route 225",
-      "secondsAgo": 8439,
+      "secondsAgo": 8689,
       "sourceId": 1794856856
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 6802,
+      "secondsAgo": 7052,
       "sourceId": 1794858493
     }
   ],
