@@ -1,59 +1,56 @@
 {
-  "fetchedAt": "2026-11-16T10:20:47.326Z",
+  "fetchedAt": "2026-11-16T10:31:11.494Z",
   "swarms": [
-    {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Kanto",
-      "location": "Icefall Cave",
-      "sourceId": 1794824886,
-      "despawnTimestamp": 1794824886,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T10:28:06.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 372,
       "pokemon": "Shelgon",
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
       "sourceId": 1794825326,
-      "despawnTimestamp": 1794825326,
+      "despawnTimestamp": 1794825325,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T10:35:26.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 376,
+      "pokemon": "Metagross",
+      "region": "Hoenn",
+      "location": "Meteor Falls",
+      "sourceId": 1794826357,
+      "despawnTimestamp": 1794826356,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T10:52:37.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 106,
+      "pokemon": "Hitmonlee",
+      "region": "Unova",
+      "location": "Victory Road",
+      "sourceId": 1794826500,
+      "despawnTimestamp": 1794826500,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T10:55:00.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Kanto",
+      "location": "Icefall Cave",
+      "secondsAgo": 1684,
+      "sourceId": 1794823387
     },
     {
       "monsterId": 123,
       "pokemon": "Scyther",
       "region": "Sinnoh",
       "location": "Route 210",
-      "sourceId": 1794824546,
-      "despawnTimestamp": 1794824546,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T10:22:26.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Unova",
-      "location": "Lostlorn Forest",
-      "sourceId": 1794824892,
-      "despawnTimestamp": 1794824891,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T10:28:12.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 257,
-      "pokemon": "Blaziken",
-      "region": "Hoenn",
-      "location": "Magma Hideout",
-      "secondsAgo": 1826,
-      "sourceId": 1794822621
+      "secondsAgo": 2024,
+      "sourceId": 1794823047
     }
   ],
   "alpha": {
