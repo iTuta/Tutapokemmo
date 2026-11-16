@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-16T00:11:06.047Z",
+  "fetchedAt": "2026-11-16T00:16:26.229Z",
   "swarms": [
+    {
+      "monsterId": 369,
+      "pokemon": "Relicanth",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "sourceId": 1794789391,
+      "despawnTimestamp": 1794789391,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T00:36:31.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
@@ -22,35 +33,24 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-16T00:33:04.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 388,
       "pokemon": "Grotle",
       "region": "Sinnoh",
       "location": "Sendoff Spring",
-      "sourceId": 1794788111,
-      "despawnTimestamp": 1794788111,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T00:15:11.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 141,
-      "pokemon": "Kabutops",
-      "region": "Kanto",
-      "location": "Dilford Chamber",
-      "secondsAgo": 2052,
-      "sourceId": 1794785814
+      "secondsAgo": 1574,
+      "sourceId": 1794786612
     },
     {
       "monsterId": 457,
       "pokemon": "Lumineon",
       "region": "Unova",
       "location": "Route 17",
-      "secondsAgo": 9582,
-      "sourceId": 1794778284
+      "secondsAgo": 9903,
+      "sourceId": 1794778283
     }
   ],
   "alpha": {
