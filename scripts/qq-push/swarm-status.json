@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T08:15:52.640Z",
+  "fetchedAt": "2026-11-16T08:21:15.083Z",
   "swarms": [
     {
       "monsterId": 2,
@@ -18,9 +18,20 @@
       "region": "Johto",
       "location": "Route 39",
       "sourceId": 1794817682,
-      "despawnTimestamp": 1794817681,
+      "despawnTimestamp": 1794817682,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T08:28:02.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 255,
+      "pokemon": "Torchic",
+      "region": "Hoenn",
+      "location": "Route 112",
+      "sourceId": 1794818629,
+      "despawnTimestamp": 1794818629,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T08:43:49.000Z",
       "publishedBy": ""
     },
     {
@@ -29,22 +40,13 @@
       "region": "Unova",
       "location": "Pinwheel Forest",
       "sourceId": 1794817739,
-      "despawnTimestamp": 1794817738,
+      "despawnTimestamp": 1794817739,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T08:28:59.000Z",
       "publishedBy": ""
     }
   ],
-  "lastSeen": [
-    {
-      "monsterId": 330,
-      "pokemon": "Flygon",
-      "region": "Hoenn",
-      "location": "Desert Underpass",
-      "secondsAgo": 2379,
-      "sourceId": 1794814573
-    }
-  ],
+  "lastSeen": [],
   "alpha": {
     "monsterId": 242,
     "pokemon": "Blissey",
