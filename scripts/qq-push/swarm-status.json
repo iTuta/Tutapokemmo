@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T12:55:41.389Z",
+  "fetchedAt": "2026-11-16T13:01:20.854Z",
   "swarms": [
     {
       "monsterId": 211,
@@ -18,7 +18,7 @@
       "region": "Johto",
       "location": "Route 38",
       "sourceId": 1794834277,
-      "despawnTimestamp": 1794834277,
+      "despawnTimestamp": 1794834276,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T13:04:37.000Z",
       "publishedBy": ""
@@ -29,20 +29,9 @@
       "region": "Hoenn",
       "location": "Route 133",
       "sourceId": 1794834420,
-      "despawnTimestamp": 1794834420,
+      "despawnTimestamp": 1794834419,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T13:07:00.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 392,
-      "pokemon": "Infernape",
-      "region": "Sinnoh",
-      "location": "Route 221",
-      "sourceId": 1794833827,
-      "despawnTimestamp": 1794833827,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T12:57:07.000Z",
       "publishedBy": ""
     },
     {
@@ -57,7 +46,16 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [],
+  "lastSeen": [
+    {
+      "monsterId": 392,
+      "pokemon": "Infernape",
+      "region": "Sinnoh",
+      "location": "Route 221",
+      "secondsAgo": 1752,
+      "sourceId": 1794832328
+    }
+  ],
   "alpha": {
     "monsterId": 242,
     "pokemon": "Blissey",
