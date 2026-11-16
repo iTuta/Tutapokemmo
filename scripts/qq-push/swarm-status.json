@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T05:20:45.374Z",
+  "fetchedAt": "2026-11-16T05:25:50.618Z",
   "swarms": [
     {
       "monsterId": 6,
@@ -18,39 +18,42 @@
       "region": "Johto",
       "location": "Route 41",
       "sourceId": 1794807814,
-      "despawnTimestamp": 1794807814,
+      "despawnTimestamp": 1794807813,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T05:43:34.000Z",
       "publishedBy": ""
     },
     {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Hoenn",
-      "location": "Shoal Cave",
-      "sourceId": 1794807878,
-      "despawnTimestamp": 1794807878,
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Sinnoh",
+      "location": "Valor Lakefront",
+      "sourceId": 1794808002,
+      "despawnTimestamp": 1794808002,
       "hasValuable": false,
-      "timestampUtc": "2026-11-16T05:44:38.000Z",
+      "timestampUtc": "2026-11-16T05:46:42.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Unova",
+      "location": "Guidance Chamber",
+      "sourceId": 1794808164,
+      "despawnTimestamp": 1794808164,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T05:49:24.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 214,
-      "pokemon": "Heracross",
-      "region": "Sinnoh",
-      "location": "Route 206",
-      "secondsAgo": 8419,
-      "sourceId": 1794798026
-    },
-    {
-      "monsterId": 430,
-      "pokemon": "Honchkrow",
-      "region": "Unova",
-      "location": "Celestial Tower",
-      "secondsAgo": 4998,
-      "sourceId": 1794801447
+      "monsterId": 255,
+      "pokemon": "Torchic",
+      "region": "Hoenn",
+      "location": "Route 112",
+      "secondsAgo": 5698,
+      "sourceId": 1794801052
     }
   ],
   "alpha": {
