@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T10:10:44.411Z",
+  "fetchedAt": "2026-11-16T10:15:54.523Z",
   "swarms": [
     {
       "monsterId": 131,
@@ -21,17 +21,6 @@
       "despawnTimestamp": 1794825325,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T10:35:26.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 257,
-      "pokemon": "Blaziken",
-      "region": "Hoenn",
-      "location": "Magma Hideout",
-      "sourceId": 1794824120,
-      "despawnTimestamp": 1794824120,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T10:15:20.000Z",
       "publishedBy": ""
     },
     {
@@ -57,7 +46,16 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [],
+  "lastSeen": [
+    {
+      "monsterId": 257,
+      "pokemon": "Blaziken",
+      "region": "Hoenn",
+      "location": "Magma Hideout",
+      "secondsAgo": 1533,
+      "sourceId": 1794822621
+    }
+  ],
   "alpha": {
     "monsterId": 242,
     "pokemon": "Blissey",
