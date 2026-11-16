@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T02:35:56.286Z",
+  "fetchedAt": "2026-11-16T02:40:50.380Z",
   "swarms": [
     {
       "monsterId": 143,
@@ -13,25 +13,14 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 352,
-      "pokemon": "Kecleon",
-      "region": "Hoenn",
-      "location": "Route 120",
-      "sourceId": 1794796752,
-      "despawnTimestamp": 1794796751,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T02:39:12.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 193,
-      "pokemon": "Yanma",
+      "monsterId": 455,
+      "pokemon": "Carnivine",
       "region": "Unova",
-      "location": "Pinwheel Forest",
-      "sourceId": 1794796736,
-      "despawnTimestamp": 1794796736,
+      "location": "Route 18",
+      "sourceId": 1794798262,
+      "despawnTimestamp": 1794798262,
       "hasValuable": false,
-      "timestampUtc": "2026-11-16T02:38:56.000Z",
+      "timestampUtc": "2026-11-16T03:04:22.000Z",
       "publishedBy": ""
     }
   ],
@@ -41,15 +30,23 @@
       "pokemon": "Porygon",
       "region": "Kanto",
       "location": "Pokemon Mansion",
-      "secondsAgo": 1216,
+      "secondsAgo": 1510,
       "sourceId": 1794795340
+    },
+    {
+      "monsterId": 352,
+      "pokemon": "Kecleon",
+      "region": "Hoenn",
+      "location": "Route 120",
+      "secondsAgo": 1598,
+      "sourceId": 1794795252
     },
     {
       "monsterId": 288,
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 3373,
+      "secondsAgo": 3667,
       "sourceId": 1794793183
     }
   ],
