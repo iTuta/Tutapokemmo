@@ -1,6 +1,28 @@
 {
-  "fetchedAt": "2026-11-16T12:05:40.631Z",
+  "fetchedAt": "2026-11-16T12:10:50.643Z",
   "swarms": [
+    {
+      "monsterId": 350,
+      "pokemon": "Milotic",
+      "region": "Kanto",
+      "location": "Resort Gorgeous",
+      "sourceId": 1794832324,
+      "despawnTimestamp": 1794832324,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T12:32:04.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 102,
+      "pokemon": "Exeggcute",
+      "region": "Johto",
+      "location": "Route 30",
+      "sourceId": 1794832490,
+      "despawnTimestamp": 1794832489,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T12:34:50.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 260,
       "pokemon": "Swampert",
@@ -10,17 +32,6 @@
       "despawnTimestamp": 1794831978,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T12:26:18.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 415,
-      "pokemon": "Combee",
-      "region": "Sinnoh",
-      "location": "Floaroma Meadow",
-      "sourceId": 1794831007,
-      "despawnTimestamp": 1794831006,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T12:10:07.000Z",
       "publishedBy": ""
     },
     {
@@ -37,20 +48,12 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 9,
-      "pokemon": "Blastoise",
-      "region": "Kanto",
-      "location": "Cape Brink",
-      "secondsAgo": 1613,
-      "sourceId": 1794829127
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Johto",
-      "location": "Mt. Silver Cave",
-      "secondsAgo": 2027,
-      "sourceId": 1794828713
+      "monsterId": 415,
+      "pokemon": "Combee",
+      "region": "Sinnoh",
+      "location": "Floaroma Meadow",
+      "secondsAgo": 1543,
+      "sourceId": 1794829507
     }
   ],
   "alpha": {
