@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-16T20:55:43.440Z",
+  "fetchedAt": "2026-11-16T21:01:10.064Z",
   "swarms": [
-    {
-      "monsterId": 211,
-      "pokemon": "Qwilfish",
-      "region": "Kanto",
-      "location": "Route 20",
-      "sourceId": 1794862792,
-      "despawnTimestamp": 1794862792,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T20:59:52.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 211,
+      "pokemon": "Qwilfish",
+      "region": "Kanto",
+      "location": "Route 20",
+      "secondsAgo": 1576,
+      "sourceId": 1794861294
+    },
+    {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Hoenn",
       "location": "Abandoned Ship",
-      "secondsAgo": 1663,
+      "secondsAgo": 1990,
       "sourceId": 1794860880
     },
     {
@@ -38,8 +35,8 @@
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 4050,
-      "sourceId": 1794858493
+      "secondsAgo": 4376,
+      "sourceId": 1794858494
     }
   ],
   "alpha": {
