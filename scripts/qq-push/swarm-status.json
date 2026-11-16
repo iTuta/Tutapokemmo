@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T00:31:22.174Z",
+  "fetchedAt": "2026-11-16T00:35:48.304Z",
   "swarms": [
     {
       "monsterId": 369,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-16T00:36:31.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 149,
-      "pokemon": "Dragonite",
-      "region": "Hoenn",
-      "location": "Route 131",
-      "sourceId": 1794789184,
-      "despawnTimestamp": 1794789184,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T00:33:04.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,15 +19,23 @@
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 1926,
+      "secondsAgo": 2192,
       "sourceId": 1794787156
+    },
+    {
+      "monsterId": 149,
+      "pokemon": "Dragonite",
+      "region": "Hoenn",
+      "location": "Route 131",
+      "secondsAgo": 1663,
+      "sourceId": 1794787685
     },
     {
       "monsterId": 388,
       "pokemon": "Grotle",
       "region": "Sinnoh",
       "location": "Sendoff Spring",
-      "secondsAgo": 2470,
+      "secondsAgo": 2736,
       "sourceId": 1794786612
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Lumineon",
       "region": "Unova",
       "location": "Route 17",
-      "secondsAgo": 10798,
-      "sourceId": 1794778284
+      "secondsAgo": 11065,
+      "sourceId": 1794778283
     }
   ],
   "alpha": {
