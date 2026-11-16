@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-11-16T11:20:53.283Z",
+  "fetchedAt": "2026-11-16T11:26:06.894Z",
   "swarms": [
-    {
-      "monsterId": 351,
-      "pokemon": "Castform",
-      "region": "Hoenn",
-      "location": "Aqua Hideout",
-      "sourceId": 1794828080,
-      "despawnTimestamp": 1794828080,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T11:21:20.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 412,
       "pokemon": "Burmy",
       "region": "Sinnoh",
       "location": "Route 202",
       "sourceId": 1794828665,
-      "despawnTimestamp": 1794828665,
+      "despawnTimestamp": 1794828664,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T11:31:05.000Z",
       "publishedBy": ""
@@ -30,7 +19,7 @@
       "pokemon": "Tauros",
       "region": "Kanto",
       "location": "Route 17",
-      "secondsAgo": 966,
+      "secondsAgo": 1279,
       "sourceId": 1794827087
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Typhlosion",
       "region": "Johto",
       "location": "Route 45",
-      "secondsAgo": 1882,
-      "sourceId": 1794826171
+      "secondsAgo": 2196,
+      "sourceId": 1794826170
+    },
+    {
+      "monsterId": 351,
+      "pokemon": "Castform",
+      "region": "Hoenn",
+      "location": "Aqua Hideout",
+      "secondsAgo": 1786,
+      "sourceId": 1794826580
     },
     {
       "monsterId": 430,
       "pokemon": "Honchkrow",
       "region": "Unova",
       "location": "Celestial Tower",
-      "secondsAgo": 1003,
+      "secondsAgo": 1316,
       "sourceId": 1794827050
     }
   ],
