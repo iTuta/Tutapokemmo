@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T21:25:49.890Z",
+  "fetchedAt": "2026-11-16T21:31:08.789Z",
   "swarms": [
     {
       "monsterId": 350,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-16T21:44:12.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Hoenn",
+      "location": "Scorched Slab",
+      "sourceId": 1794865896,
+      "despawnTimestamp": 1794865895,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T21:51:36.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,23 +30,15 @@
       "pokemon": "Misdreavus",
       "region": "Johto",
       "location": "Sprout Tower",
-      "secondsAgo": 2076,
+      "secondsAgo": 2395,
       "sourceId": 1794862273
-    },
-    {
-      "monsterId": 442,
-      "pokemon": "Spiritomb",
-      "region": "Hoenn",
-      "location": "Abandoned Ship",
-      "secondsAgo": 3470,
-      "sourceId": 1794860879
     },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Sinnoh",
       "location": "Route 225",
-      "secondsAgo": 7494,
+      "secondsAgo": 7813,
       "sourceId": 1794856855
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 5856,
+      "secondsAgo": 6175,
       "sourceId": 1794858493
     }
   ],
