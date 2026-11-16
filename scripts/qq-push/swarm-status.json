@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T16:05:51.868Z",
+  "fetchedAt": "2026-11-16T16:10:57.546Z",
   "swarms": [
     {
       "monsterId": 6,
@@ -13,34 +13,12 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 241,
-      "pokemon": "Miltank",
-      "region": "Johto",
-      "location": "Route 39",
-      "sourceId": 1794845165,
-      "despawnTimestamp": 1794845164,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T16:06:05.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 256,
-      "pokemon": "Combusken",
-      "region": "Hoenn",
-      "location": "Route 114",
-      "sourceId": 1794845214,
-      "despawnTimestamp": 1794845213,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T16:06:54.000Z",
-      "publishedBy": ""
-    },
-    {
       "monsterId": 247,
       "pokemon": "Pupitar",
       "region": "Unova",
       "location": "Twist Mountain",
       "sourceId": 1794845601,
-      "despawnTimestamp": 1794845600,
+      "despawnTimestamp": 1794845601,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T16:13:21.000Z",
       "publishedBy": ""
@@ -48,11 +26,27 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 241,
+      "pokemon": "Miltank",
+      "region": "Johto",
+      "location": "Route 39",
+      "secondsAgo": 1791,
+      "sourceId": 1794843666
+    },
+    {
+      "monsterId": 256,
+      "pokemon": "Combusken",
+      "region": "Hoenn",
+      "location": "Route 114",
+      "secondsAgo": 1743,
+      "sourceId": 1794843714
+    },
+    {
       "monsterId": 389,
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 2636,
+      "secondsAgo": 2942,
       "sourceId": 1794842515
     }
   ],
