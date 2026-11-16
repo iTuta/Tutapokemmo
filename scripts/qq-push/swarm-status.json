@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-16T00:40:40.879Z",
+  "fetchedAt": "2026-11-16T00:46:06.229Z",
   "swarms": [
+    {
+      "monsterId": 211,
+      "pokemon": "Qwilfish",
+      "region": "Kanto",
+      "location": "Route 20",
+      "sourceId": 1794791146,
+      "despawnTimestamp": 1794791146,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T01:05:46.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 237,
       "pokemon": "Hitmontop",
@@ -11,39 +22,34 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-16T01:05:14.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 441,
+      "pokemon": "Chatot",
+      "region": "Sinnoh",
+      "location": "Route 218",
+      "sourceId": 1794791442,
+      "despawnTimestamp": 1794791442,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T01:10:42.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 369,
-      "pokemon": "Relicanth",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 1749,
-      "sourceId": 1794787891
-    },
     {
       "monsterId": 149,
       "pokemon": "Dragonite",
       "region": "Hoenn",
       "location": "Route 131",
-      "secondsAgo": 1956,
-      "sourceId": 1794787684
-    },
-    {
-      "monsterId": 388,
-      "pokemon": "Grotle",
-      "region": "Sinnoh",
-      "location": "Sendoff Spring",
-      "secondsAgo": 3029,
-      "sourceId": 1794786611
+      "secondsAgo": 2281,
+      "sourceId": 1794787685
     },
     {
       "monsterId": 457,
       "pokemon": "Lumineon",
       "region": "Unova",
       "location": "Route 17",
-      "secondsAgo": 11357,
+      "secondsAgo": 11683,
       "sourceId": 1794778283
     }
   ],
