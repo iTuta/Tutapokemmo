@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-11-16T02:01:06.342Z",
+  "fetchedAt": "2026-11-16T02:06:05.797Z",
   "swarms": [
-    {
-      "monsterId": 357,
-      "pokemon": "Tropius",
-      "region": "Kanto",
-      "location": "Bond Bridge",
-      "sourceId": 1794794730,
-      "despawnTimestamp": 1794794730,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T02:05:30.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Johto",
       "location": "Sprout Tower",
       "sourceId": 1794795114,
-      "despawnTimestamp": 1794795114,
+      "despawnTimestamp": 1794795113,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T02:11:54.000Z",
       "publishedBy": ""
@@ -33,26 +22,31 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-16T02:11:16.000Z",
       "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 357,
+      "pokemon": "Tropius",
+      "region": "Kanto",
+      "location": "Bond Bridge",
+      "secondsAgo": 1534,
+      "sourceId": 1794793231
     },
     {
       "monsterId": 288,
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "sourceId": 1794794682,
-      "despawnTimestamp": 1794794682,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T02:04:42.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1583,
+      "sourceId": 1794793182
+    },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 2032,
+      "secondsAgo": 2331,
       "sourceId": 1794792434
     }
   ],
