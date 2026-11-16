@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T17:05:41.823Z",
+  "fetchedAt": "2026-11-16T17:10:43.654Z",
   "swarms": [
     {
       "monsterId": 317,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1794849850,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T17:24:11.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 285,
-      "pokemon": "Shroomish",
-      "region": "Johto",
-      "location": "Route 34",
-      "sourceId": 1794849002,
-      "despawnTimestamp": 1794849002,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T17:10:02.000Z",
       "publishedBy": ""
     },
     {
@@ -48,11 +37,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 285,
+      "pokemon": "Shroomish",
+      "region": "Johto",
+      "location": "Route 34",
+      "secondsAgo": 1540,
+      "sourceId": 1794847503
+    },
+    {
       "monsterId": 247,
       "pokemon": "Pupitar",
       "region": "Unova",
       "location": "Twist Mountain",
-      "secondsAgo": 4640,
+      "secondsAgo": 4942,
       "sourceId": 1794844101
     }
   ],
