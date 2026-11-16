@@ -1,42 +1,48 @@
 {
-  "fetchedAt": "2026-11-16T07:55:58.731Z",
+  "fetchedAt": "2026-11-16T08:05:14.372Z",
   "swarms": [
     {
-      "monsterId": 330,
-      "pokemon": "Flygon",
-      "region": "Hoenn",
-      "location": "Desert Underpass",
-      "sourceId": 1794816072,
-      "despawnTimestamp": 1794816072,
+      "monsterId": 2,
+      "pokemon": "Ivysaur",
+      "region": "Kanto",
+      "location": "Route 5",
+      "sourceId": 1794817701,
+      "despawnTimestamp": 1794817701,
       "hasValuable": false,
-      "timestampUtc": "2026-11-16T08:01:12.000Z",
+      "timestampUtc": "2026-11-16T08:28:21.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 241,
+      "pokemon": "Miltank",
+      "region": "Johto",
+      "location": "Route 39",
+      "sourceId": 1794817682,
+      "despawnTimestamp": 1794817681,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T08:28:02.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 285,
+      "pokemon": "Shroomish",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "sourceId": 1794817739,
+      "despawnTimestamp": 1794817739,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T08:28:59.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 416,
-      "pokemon": "Vespiquen",
-      "region": "Kanto",
-      "location": "Five Isle Meadow",
-      "secondsAgo": 2298,
-      "sourceId": 1794813460
-    },
-    {
-      "monsterId": 176,
-      "pokemon": "Togetic",
-      "region": "Johto",
-      "location": "Route 27",
-      "secondsAgo": 1600,
-      "sourceId": 1794814158
-    },
-    {
-      "monsterId": 125,
-      "pokemon": "Electabuzz",
-      "region": "Unova",
-      "location": "Chargestone Cave",
-      "secondsAgo": 3040,
-      "sourceId": 1794812718
+      "monsterId": 330,
+      "pokemon": "Flygon",
+      "region": "Hoenn",
+      "location": "Desert Underpass",
+      "secondsAgo": 1741,
+      "sourceId": 1794814573
     }
   ],
   "alpha": {
