@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T02:20:46.687Z",
+  "fetchedAt": "2026-11-16T02:25:54.981Z",
   "swarms": [
     {
       "monsterId": 137,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1794796839,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T02:40:39.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 143,
+      "pokemon": "Snorlax",
+      "region": "Johto",
+      "location": "Victory Road",
+      "sourceId": 1794797354,
+      "despawnTimestamp": 1794797353,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T02:49:14.000Z",
       "publishedBy": ""
     },
     {
@@ -29,7 +40,7 @@
       "region": "Unova",
       "location": "Pinwheel Forest",
       "sourceId": 1794796736,
-      "despawnTimestamp": 1794796736,
+      "despawnTimestamp": 1794796735,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T02:38:56.000Z",
       "publishedBy": ""
@@ -37,19 +48,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Johto",
-      "location": "Sprout Tower",
-      "secondsAgo": 2031,
-      "sourceId": 1794793615
-    },
-    {
       "monsterId": 288,
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 2464,
+      "secondsAgo": 2772,
       "sourceId": 1794793182
     }
   ],
