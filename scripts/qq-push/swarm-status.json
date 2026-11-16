@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-16T19:11:16.625Z",
+  "fetchedAt": "2026-11-16T19:15:49.024Z",
   "swarms": [
-    {
-      "monsterId": 9,
-      "pokemon": "Blastoise",
-      "region": "Kanto",
-      "location": "Cape Brink",
-      "sourceId": 1794856439,
-      "despawnTimestamp": 1794856438,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T19:13:59.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 152,
       "pokemon": "Chikorita",
@@ -24,33 +13,41 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 391,
-      "pokemon": "Monferno",
-      "region": "Sinnoh",
-      "location": "Route 211",
-      "sourceId": 1794856492,
-      "despawnTimestamp": 1794856492,
+      "monsterId": 430,
+      "pokemon": "Honchkrow",
+      "region": "Unova",
+      "location": "Celestial Tower",
+      "sourceId": 1794858025,
+      "despawnTimestamp": 1794858024,
       "hasValuable": false,
-      "timestampUtc": "2026-11-16T19:14:52.000Z",
+      "timestampUtc": "2026-11-16T19:40:25.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
+      "monsterId": 9,
+      "pokemon": "Blastoise",
+      "region": "Kanto",
+      "location": "Cape Brink",
+      "secondsAgo": 1609,
+      "sourceId": 1794854939
+    },
+    {
       "monsterId": 316,
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 3851,
+      "secondsAgo": 4123,
       "sourceId": 1794852425
     },
     {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Unova",
-      "location": "Route 1",
-      "secondsAgo": 2805,
-      "sourceId": 1794853471
+      "monsterId": 391,
+      "pokemon": "Monferno",
+      "region": "Sinnoh",
+      "location": "Route 211",
+      "secondsAgo": 1556,
+      "sourceId": 1794854992
     }
   ],
   "alpha": {
