@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-16T18:11:02.670Z",
+  "fetchedAt": "2026-11-16T18:15:48.435Z",
   "swarms": [
+    {
+      "monsterId": 372,
+      "pokemon": "Shelgon",
+      "region": "Johto",
+      "location": "Dragon&#x27;s Den",
+      "sourceId": 1794854221,
+      "despawnTimestamp": 1794854221,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T18:37:01.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 316,
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
       "sourceId": 1794853925,
-      "despawnTimestamp": 1794853924,
+      "despawnTimestamp": 1794853925,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T18:32:05.000Z",
       "publishedBy": ""
@@ -41,16 +52,8 @@
       "pokemon": "Jolteon",
       "region": "Kanto",
       "location": "Ruin Valley",
-      "secondsAgo": 1566,
+      "secondsAgo": 1852,
       "sourceId": 1794851096
-    },
-    {
-      "monsterId": 153,
-      "pokemon": "Bayleef",
-      "region": "Johto",
-      "location": "National Park",
-      "secondsAgo": 1581,
-      "sourceId": 1794851081
     }
   ],
   "alpha": {
