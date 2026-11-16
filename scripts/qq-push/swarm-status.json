@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T13:56:20.784Z",
+  "fetchedAt": "2026-11-16T14:01:10.763Z",
   "swarms": [
     {
       "monsterId": 442,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1794838790,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T14:19:51.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Johto",
-      "location": "Union Cave",
-      "sourceId": 1794837663,
-      "despawnTimestamp": 1794837662,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T14:01:03.000Z",
       "publishedBy": ""
     },
     {
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Johto",
+      "location": "Union Cave",
+      "secondsAgo": 1507,
+      "sourceId": 1794836163
+    },
+    {
       "monsterId": 91,
       "pokemon": "Cloyster",
       "region": "Hoenn",
       "location": "Route 133",
-      "secondsAgo": 4460,
+      "secondsAgo": 4750,
       "sourceId": 1794832920
     }
   ],
