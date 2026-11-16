@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-11-16T08:55:46.202Z",
+  "fetchedAt": "2026-11-16T09:01:41.666Z",
   "swarms": [
-    {
-      "monsterId": 137,
-      "pokemon": "Porygon",
-      "region": "Kanto",
-      "location": "Pokemon Mansion",
-      "sourceId": 1794819359,
-      "despawnTimestamp": 1794819359,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T08:55:59.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Johto",
       "location": "Route 46",
       "sourceId": 1794819969,
-      "despawnTimestamp": 1794819969,
+      "despawnTimestamp": 1794819968,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T09:06:09.000Z",
       "publishedBy": ""
@@ -29,7 +18,7 @@
       "region": "Unova",
       "location": "Route 5",
       "sourceId": 1794820164,
-      "despawnTimestamp": 1794820164,
+      "despawnTimestamp": 1794820163,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T09:09:24.000Z",
       "publishedBy": ""
@@ -37,19 +26,27 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 137,
+      "pokemon": "Porygon",
+      "region": "Kanto",
+      "location": "Pokemon Mansion",
+      "secondsAgo": 1841,
+      "sourceId": 1794817860
+    },
+    {
       "monsterId": 255,
       "pokemon": "Torchic",
       "region": "Hoenn",
       "location": "Route 112",
-      "secondsAgo": 2216,
-      "sourceId": 1794817130
+      "secondsAgo": 2572,
+      "sourceId": 1794817129
     },
     {
       "monsterId": 388,
       "pokemon": "Grotle",
       "region": "Sinnoh",
       "location": "Sendoff Spring",
-      "secondsAgo": 5515,
+      "secondsAgo": 5870,
       "sourceId": 1794813831
     }
   ],
