@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T18:20:44.438Z",
+  "fetchedAt": "2026-11-16T18:25:45.708Z",
   "swarms": [
     {
       "monsterId": 372,
@@ -33,6 +33,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-16T18:42:31.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Unova",
+      "location": "Route 1",
+      "sourceId": 1794854971,
+      "despawnTimestamp": 1794854970,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T18:49:31.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,16 +52,8 @@
       "pokemon": "Jolteon",
       "region": "Kanto",
       "location": "Ruin Valley",
-      "secondsAgo": 2148,
+      "secondsAgo": 2449,
       "sourceId": 1794851096
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Unova",
-      "location": "Relic Castle",
-      "secondsAgo": 1763,
-      "sourceId": 1794851481
     }
   ],
   "alpha": {
