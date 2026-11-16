@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-11-16T08:25:55.567Z",
+  "fetchedAt": "2026-11-16T08:30:58.882Z",
   "swarms": [
-    {
-      "monsterId": 2,
-      "pokemon": "Ivysaur",
-      "region": "Kanto",
-      "location": "Route 5",
-      "sourceId": 1794817701,
-      "despawnTimestamp": 1794817701,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T08:28:21.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 241,
-      "pokemon": "Miltank",
-      "region": "Johto",
-      "location": "Route 39",
-      "sourceId": 1794817682,
-      "despawnTimestamp": 1794817681,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T08:28:02.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 255,
       "pokemon": "Torchic",
@@ -33,20 +11,34 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-16T08:43:49.000Z",
       "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 2,
+      "pokemon": "Ivysaur",
+      "region": "Kanto",
+      "location": "Route 5",
+      "secondsAgo": 1657,
+      "sourceId": 1794816201
+    },
+    {
+      "monsterId": 241,
+      "pokemon": "Miltank",
+      "region": "Johto",
+      "location": "Route 39",
+      "secondsAgo": 1676,
+      "sourceId": 1794816182
     },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "sourceId": 1794817739,
-      "despawnTimestamp": 1794817738,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T08:28:59.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1619,
+      "sourceId": 1794816239
     }
   ],
-  "lastSeen": [],
   "alpha": {
     "monsterId": 242,
     "pokemon": "Blissey",
