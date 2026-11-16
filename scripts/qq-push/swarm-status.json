@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-16T10:55:54.417Z",
+  "fetchedAt": "2026-11-16T11:01:15.773Z",
   "swarms": [
-    {
-      "monsterId": 127,
-      "pokemon": "Pinsir",
-      "region": "Kanto",
-      "location": "Route 11",
-      "sourceId": 1794826685,
-      "despawnTimestamp": 1794826685,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T10:58:05.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 157,
       "pokemon": "Typhlosion",
@@ -21,6 +10,17 @@
       "despawnTimestamp": 1794827670,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T11:14:30.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 351,
+      "pokemon": "Castform",
+      "region": "Hoenn",
+      "location": "Aqua Hideout",
+      "sourceId": 1794828080,
+      "despawnTimestamp": 1794828080,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T11:21:20.000Z",
       "publishedBy": ""
     },
     {
@@ -37,20 +37,20 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 376,
-      "pokemon": "Metagross",
-      "region": "Hoenn",
-      "location": "Meteor Falls",
-      "secondsAgo": 1697,
-      "sourceId": 1794824857
+      "monsterId": 127,
+      "pokemon": "Pinsir",
+      "region": "Kanto",
+      "location": "Route 11",
+      "secondsAgo": 1690,
+      "sourceId": 1794825185
     },
     {
       "monsterId": 106,
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "secondsAgo": 1553,
-      "sourceId": 1794825001
+      "secondsAgo": 1875,
+      "sourceId": 1794825000
     }
   ],
   "alpha": {
