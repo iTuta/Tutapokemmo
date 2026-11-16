@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T10:40:50.118Z",
+  "fetchedAt": "2026-11-16T10:50:47.253Z",
   "swarms": [
     {
       "monsterId": 127,
@@ -10,6 +10,17 @@
       "despawnTimestamp": 1794826685,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T10:58:05.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 157,
+      "pokemon": "Typhlosion",
+      "region": "Johto",
+      "location": "Route 45",
+      "sourceId": 1794827670,
+      "despawnTimestamp": 1794827670,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T11:14:30.000Z",
       "publishedBy": ""
     },
     {
@@ -46,16 +57,7 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [
-    {
-      "monsterId": 372,
-      "pokemon": "Shelgon",
-      "region": "Johto",
-      "location": "Dragon&#x27;s Den",
-      "secondsAgo": 1823,
-      "sourceId": 1794823827
-    }
-  ],
+  "lastSeen": [],
   "alpha": {
     "monsterId": 242,
     "pokemon": "Blissey",
