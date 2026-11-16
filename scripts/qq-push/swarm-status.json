@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-11-16T11:10:43.486Z",
+  "fetchedAt": "2026-11-16T11:20:53.283Z",
   "swarms": [
-    {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Kanto",
-      "location": "Route 17",
-      "sourceId": 1794827927,
-      "despawnTimestamp": 1794827926,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T11:18:47.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 157,
-      "pokemon": "Typhlosion",
-      "region": "Johto",
-      "location": "Route 45",
-      "sourceId": 1794827670,
-      "despawnTimestamp": 1794827670,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T11:14:30.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 351,
       "pokemon": "Castform",
@@ -44,20 +22,34 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-16T11:31:05.000Z",
       "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Kanto",
+      "location": "Route 17",
+      "secondsAgo": 966,
+      "sourceId": 1794827087
+    },
+    {
+      "monsterId": 157,
+      "pokemon": "Typhlosion",
+      "region": "Johto",
+      "location": "Route 45",
+      "secondsAgo": 1882,
+      "sourceId": 1794826171
     },
     {
       "monsterId": 430,
       "pokemon": "Honchkrow",
       "region": "Unova",
       "location": "Celestial Tower",
-      "sourceId": 1794827950,
-      "despawnTimestamp": 1794827949,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T11:19:10.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1003,
+      "sourceId": 1794827050
     }
   ],
-  "lastSeen": [],
   "alpha": {
     "monsterId": 242,
     "pokemon": "Blissey",
