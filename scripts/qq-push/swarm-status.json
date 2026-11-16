@@ -1,41 +1,45 @@
 {
-  "fetchedAt": "2026-11-16T21:06:09.504Z",
-  "swarms": [
-    {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Johto",
-      "location": "Sprout Tower",
-      "sourceId": 1794863173,
-      "despawnTimestamp": 1794863173,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T21:06:13.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-11-16T21:10:45.735Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 211,
       "pokemon": "Qwilfish",
       "region": "Kanto",
       "location": "Route 20",
-      "secondsAgo": 1876,
+      "secondsAgo": 2152,
       "sourceId": 1794861293
+    },
+    {
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
+      "region": "Johto",
+      "location": "Sprout Tower",
+      "secondsAgo": 1172,
+      "sourceId": 1794862273
     },
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Hoenn",
       "location": "Abandoned Ship",
-      "secondsAgo": 2289,
-      "sourceId": 1794860880
+      "secondsAgo": 2566,
+      "sourceId": 1794860879
+    },
+    {
+      "monsterId": 455,
+      "pokemon": "Carnivine",
+      "region": "Sinnoh",
+      "location": "Route 225",
+      "secondsAgo": 6590,
+      "sourceId": 1794856855
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 4676,
+      "secondsAgo": 4952,
       "sourceId": 1794858493
     }
   ],
@@ -49,6 +53,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-11-16T16:24:36.000Z",
     "timestampRaw": "2026-11-16T16:24:36.000Z",
-    "publishedBy": ""
+    "publishedBy": "uwan"
   }
 }
