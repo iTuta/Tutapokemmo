@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T14:31:00.432Z",
+  "fetchedAt": "2026-11-16T14:35:56.021Z",
   "swarms": [
     {
       "monsterId": 453,
@@ -11,26 +11,23 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-16T14:49:00.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Johto",
       "location": "Mt. Silver Cave",
-      "sourceId": 1794839688,
-      "despawnTimestamp": 1794839688,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T14:34:48.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1567,
+      "sourceId": 1794838188
+    },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
       "region": "Hoenn",
       "location": "Route 133",
-      "secondsAgo": 6540,
+      "secondsAgo": 6835,
       "sourceId": 1794832920
     },
     {
@@ -38,8 +35,16 @@
       "pokemon": "Magmar",
       "region": "Sinnoh",
       "location": "Fuego Ironworks",
-      "secondsAgo": 2214,
-      "sourceId": 1794837246
+      "secondsAgo": 2510,
+      "sourceId": 1794837245
+    },
+    {
+      "monsterId": 312,
+      "pokemon": "Minun",
+      "region": "Unova",
+      "location": "Route 6",
+      "secondsAgo": 6952,
+      "sourceId": 1794832803
     }
   ],
   "alpha": {
@@ -52,6 +57,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-11-16T09:48:24.000Z",
     "timestampRaw": "2026-11-16T09:48:24.000Z",
-    "publishedBy": ""
+    "publishedBy": "á´ssá´"
   }
 }
