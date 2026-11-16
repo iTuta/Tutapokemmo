@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T06:10:55.865Z",
+  "fetchedAt": "2026-11-16T06:16:05.186Z",
   "swarms": [
     {
       "monsterId": 373,
@@ -7,9 +7,20 @@
       "region": "Kanto",
       "location": "Victory Road",
       "sourceId": 1794810183,
-      "despawnTimestamp": 1794810182,
+      "despawnTimestamp": 1794810183,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T06:23:03.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 227,
+      "pokemon": "Skarmory",
+      "region": "Johto",
+      "location": "Route 26",
+      "sourceId": 1794811144,
+      "despawnTimestamp": 1794811144,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T06:39:04.000Z",
       "publishedBy": ""
     },
     {
@@ -18,7 +29,7 @@
       "region": "Unova",
       "location": "Route 7",
       "sourceId": 1794810709,
-      "despawnTimestamp": 1794810708,
+      "despawnTimestamp": 1794810709,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T06:31:49.000Z",
       "publishedBy": ""
@@ -26,27 +37,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 319,
-      "pokemon": "Sharpedo",
-      "region": "Johto",
-      "location": "Route 41",
-      "secondsAgo": 3141,
-      "sourceId": 1794806314
-    },
-    {
       "monsterId": 255,
       "pokemon": "Torchic",
       "region": "Hoenn",
       "location": "Route 112",
-      "secondsAgo": 8403,
-      "sourceId": 1794801052
+      "secondsAgo": 8712,
+      "sourceId": 1794801053
     },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 2952,
+      "secondsAgo": 3262,
       "sourceId": 1794806503
     }
   ],
