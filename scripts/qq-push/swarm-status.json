@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T17:15:50.404Z",
+  "fetchedAt": "2026-11-16T17:21:50.663Z",
   "swarms": [
     {
       "monsterId": 317,
@@ -7,49 +7,46 @@
       "region": "Kanto",
       "location": "Route 18",
       "sourceId": 1794849851,
-      "despawnTimestamp": 1794849850,
+      "despawnTimestamp": 1794849851,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T17:24:11.000Z",
       "publishedBy": ""
     },
     {
+      "monsterId": 358,
+      "pokemon": "Chimecho",
+      "region": "Johto",
+      "location": "Bellchime Trail",
+      "sourceId": 1794850954,
+      "despawnTimestamp": 1794850954,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T17:42:34.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
       "monsterId": 211,
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "sourceId": 1794849438,
-      "despawnTimestamp": 1794849438,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T17:17:18.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1771,
+      "sourceId": 1794847939
     },
     {
       "monsterId": 424,
       "pokemon": "Ambipom",
       "region": "Sinnoh",
       "location": "Route 216",
-      "sourceId": 1794849486,
-      "despawnTimestamp": 1794849486,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T17:18:06.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 285,
-      "pokemon": "Shroomish",
-      "region": "Johto",
-      "location": "Route 34",
-      "secondsAgo": 1847,
-      "sourceId": 1794847503
+      "secondsAgo": 1722,
+      "sourceId": 1794847988
     },
     {
       "monsterId": 247,
       "pokemon": "Pupitar",
       "region": "Unova",
       "location": "Twist Mountain",
-      "secondsAgo": 5248,
+      "secondsAgo": 5608,
       "sourceId": 1794844102
     }
   ],
