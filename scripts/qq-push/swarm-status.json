@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-16T20:31:04.452Z",
+  "fetchedAt": "2026-11-16T20:36:04.243Z",
   "swarms": [
+    {
+      "monsterId": 211,
+      "pokemon": "Qwilfish",
+      "region": "Kanto",
+      "location": "Route 20",
+      "sourceId": 1794862792,
+      "despawnTimestamp": 1794862792,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T20:59:52.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 373,
-      "pokemon": "Salamence",
-      "region": "Kanto",
-      "location": "Victory Road",
-      "secondsAgo": 1881,
-      "sourceId": 1794859183
-    },
-    {
       "monsterId": 358,
       "pokemon": "Chimecho",
       "region": "Johto",
       "location": "Bellchime Trail",
-      "secondsAgo": 2420,
+      "secondsAgo": 2720,
       "sourceId": 1794858644
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 2571,
+      "secondsAgo": 2871,
       "sourceId": 1794858493
     }
   ],
