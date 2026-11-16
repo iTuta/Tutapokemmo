@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-16T04:05:45.204Z",
+  "fetchedAt": "2026-11-16T04:10:58.514Z",
   "swarms": [
+    {
+      "monsterId": 135,
+      "pokemon": "Jolteon",
+      "region": "Kanto",
+      "location": "Ruin Valley",
+      "sourceId": 1794803720,
+      "despawnTimestamp": 1794803719,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T04:35:20.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 190,
       "pokemon": "Aipom",
@@ -18,7 +29,7 @@
       "region": "Hoenn",
       "location": "Route 112",
       "sourceId": 1794802552,
-      "despawnTimestamp": 1794802552,
+      "despawnTimestamp": 1794802551,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T04:15:52.000Z",
       "publishedBy": ""
@@ -35,16 +46,7 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [
-    {
-      "monsterId": 122,
-      "pokemon": "Mr. Mime",
-      "region": "Kanto",
-      "location": "Route 21",
-      "secondsAgo": 3960,
-      "sourceId": 1794797985
-    }
-  ],
+  "lastSeen": [],
   "alpha": {
     "monsterId": 193,
     "pokemon": "Yanma",
