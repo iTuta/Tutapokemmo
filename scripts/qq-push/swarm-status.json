@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-11-16T05:55:51.769Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-16T06:01:24.091Z",
+  "swarms": [
     {
-      "monsterId": 6,
-      "pokemon": "Charizard",
+      "monsterId": 373,
+      "pokemon": "Salamence",
       "region": "Kanto",
-      "location": "Mt. Ember",
-      "secondsAgo": 2163,
-      "sourceId": 1794806388
-    },
+      "location": "Victory Road",
+      "sourceId": 1794810183,
+      "despawnTimestamp": 1794810183,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T06:23:03.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Johto",
       "location": "Route 41",
-      "secondsAgo": 2237,
-      "sourceId": 1794806314
+      "secondsAgo": 2569,
+      "sourceId": 1794806315
     },
     {
       "monsterId": 255,
       "pokemon": "Torchic",
       "region": "Hoenn",
       "location": "Route 112",
-      "secondsAgo": 7499,
-      "sourceId": 1794801052
+      "secondsAgo": 7831,
+      "sourceId": 1794801053
     },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Sinnoh",
       "location": "Valor Lakefront",
-      "secondsAgo": 2048,
+      "secondsAgo": 2381,
       "sourceId": 1794806503
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 1887,
-      "sourceId": 1794806664
+      "secondsAgo": 2219,
+      "sourceId": 1794806665
     }
   ],
   "alpha": {
