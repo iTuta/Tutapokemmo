@@ -1,58 +1,54 @@
 {
-  "fetchedAt": "2026-11-16T03:45:45.843Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-16T03:50:40.988Z",
+  "swarms": [
+    {
+      "monsterId": 190,
+      "pokemon": "Aipom",
+      "region": "Johto",
+      "location": "Route 29",
+      "sourceId": 1794802469,
+      "despawnTimestamp": 1794802469,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-16T04:14:29.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 122,
       "pokemon": "Mr. Mime",
       "region": "Kanto",
       "location": "Route 21",
-      "secondsAgo": 2760,
-      "sourceId": 1794797985
-    },
-    {
-      "monsterId": 469,
-      "pokemon": "Yanmega",
-      "region": "Johto",
-      "location": "Route 44",
-      "secondsAgo": 2792,
-      "sourceId": 1794797953
+      "secondsAgo": 3056,
+      "sourceId": 1794797984
     },
     {
       "monsterId": 376,
       "pokemon": "Metagross",
       "region": "Hoenn",
       "location": "Meteor Falls",
-      "secondsAgo": 3414,
+      "secondsAgo": 3709,
       "sourceId": 1794797331
-    },
-    {
-      "monsterId": 214,
-      "pokemon": "Heracross",
-      "region": "Sinnoh",
-      "location": "Route 206",
-      "secondsAgo": 2719,
-      "sourceId": 1794798026
     },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Unova",
       "location": "Route 18",
-      "secondsAgo": 3983,
+      "secondsAgo": 4278,
       "sourceId": 1794796762
     }
   ],
   "alpha": {
-    "monsterId": 75,
-    "pokemon": "Graveler",
+    "monsterId": 193,
+    "pokemon": "Yanma",
     "region": "Sinnoh",
-    "location": "Route 207",
-    "sourceId": 1794755937,
-    "despawnTimestamp": 1794773037,
+    "location": "Route 205",
+    "sourceId": 1794788244,
+    "despawnTimestamp": 1794805344,
     "hasValuable": false,
-    "timestampUtc": "2026-11-15T15:18:57.000Z",
-    "timestampRaw": "2026-11-15T15:18:57.000Z",
+    "timestampUtc": "2026-11-16T00:17:24.000Z",
+    "timestampRaw": "2026-11-16T00:17:24.000Z",
     "publishedBy": ""
   }
 }
