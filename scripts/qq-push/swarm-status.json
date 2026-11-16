@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-16T07:50:53.516Z",
+  "fetchedAt": "2026-11-16T07:55:58.731Z",
   "swarms": [
-    {
-      "monsterId": 176,
-      "pokemon": "Togetic",
-      "region": "Johto",
-      "location": "Route 27",
-      "sourceId": 1794815658,
-      "despawnTimestamp": 1794815657,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T07:54:18.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 330,
       "pokemon": "Flygon",
@@ -30,15 +19,23 @@
       "pokemon": "Vespiquen",
       "region": "Kanto",
       "location": "Five Isle Meadow",
-      "secondsAgo": 1993,
+      "secondsAgo": 2298,
       "sourceId": 1794813460
+    },
+    {
+      "monsterId": 176,
+      "pokemon": "Togetic",
+      "region": "Johto",
+      "location": "Route 27",
+      "secondsAgo": 1600,
+      "sourceId": 1794814158
     },
     {
       "monsterId": 125,
       "pokemon": "Electabuzz",
       "region": "Unova",
       "location": "Chargestone Cave",
-      "secondsAgo": 2735,
+      "secondsAgo": 3040,
       "sourceId": 1794812718
     }
   ],
