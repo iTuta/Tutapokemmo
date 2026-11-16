@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-11-16T06:35:44.216Z",
+  "fetchedAt": "2026-11-16T06:40:38.545Z",
   "swarms": [
-    {
-      "monsterId": 227,
-      "pokemon": "Skarmory",
-      "region": "Johto",
-      "location": "Route 26",
-      "sourceId": 1794811144,
-      "despawnTimestamp": 1794811144,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T06:39:04.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 456,
       "pokemon": "Finneon",
       "region": "Hoenn",
       "location": "Route 107",
       "sourceId": 1794811697,
-      "despawnTimestamp": 1794811697,
+      "despawnTimestamp": 1794811696,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T06:48:17.000Z",
       "publishedBy": ""
@@ -40,7 +29,7 @@
       "region": "Unova",
       "location": "Wellspring Cave",
       "sourceId": 1794812237,
-      "despawnTimestamp": 1794812237,
+      "despawnTimestamp": 1794812236,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T06:57:17.000Z",
       "publishedBy": ""
@@ -52,8 +41,16 @@
       "pokemon": "Salamence",
       "region": "Kanto",
       "location": "Victory Road",
-      "secondsAgo": 2260,
-      "sourceId": 1794808684
+      "secondsAgo": 2555,
+      "sourceId": 1794808683
+    },
+    {
+      "monsterId": 227,
+      "pokemon": "Skarmory",
+      "region": "Johto",
+      "location": "Route 26",
+      "secondsAgo": 1593,
+      "sourceId": 1794809645
     }
   ],
   "alpha": {
