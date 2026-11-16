@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T01:01:08.489Z",
+  "fetchedAt": "2026-11-16T01:05:44.634Z",
   "swarms": [
     {
       "monsterId": 211,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1794791146,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T01:05:46.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 237,
-      "pokemon": "Hitmontop",
-      "region": "Johto",
-      "location": "Mt. Mortar",
-      "sourceId": 1794791114,
-      "despawnTimestamp": 1794791114,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T01:05:14.000Z",
       "publishedBy": ""
     },
     {
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 237,
+      "pokemon": "Hitmontop",
+      "region": "Johto",
+      "location": "Mt. Mortar",
+      "secondsAgo": 1529,
+      "sourceId": 1794789615
+    },
+    {
       "monsterId": 149,
       "pokemon": "Dragonite",
       "region": "Hoenn",
       "location": "Route 131",
-      "secondsAgo": 3183,
+      "secondsAgo": 3459,
       "sourceId": 1794787685
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "Lumineon",
       "region": "Unova",
       "location": "Route 17",
-      "secondsAgo": 12585,
+      "secondsAgo": 12861,
       "sourceId": 1794778283
     }
   ],
