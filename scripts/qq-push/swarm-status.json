@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-11-16T18:41:34.083Z",
+  "fetchedAt": "2026-11-16T18:45:57.590Z",
   "swarms": [
-    {
-      "monsterId": 342,
-      "pokemon": "Crawdaunt",
-      "region": "Sinnoh",
-      "location": "Lake Valor",
-      "sourceId": 1794854551,
-      "despawnTimestamp": 1794854551,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-16T18:42:31.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
       "sourceId": 1794854971,
-      "despawnTimestamp": 1794854971,
+      "despawnTimestamp": 1794854970,
       "hasValuable": false,
       "timestampUtc": "2026-11-16T18:49:31.000Z",
       "publishedBy": ""
@@ -30,7 +19,7 @@
       "pokemon": "Jolteon",
       "region": "Kanto",
       "location": "Ruin Valley",
-      "secondsAgo": 3398,
+      "secondsAgo": 3661,
       "sourceId": 1794851096
     },
     {
@@ -38,7 +27,7 @@
       "pokemon": "Shelgon",
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
-      "secondsAgo": 1652,
+      "secondsAgo": 1915,
       "sourceId": 1794852842
     },
     {
@@ -46,8 +35,16 @@
       "pokemon": "Gulpin",
       "region": "Hoenn",
       "location": "Route 110",
-      "secondsAgo": 2068,
-      "sourceId": 1794852426
+      "secondsAgo": 2332,
+      "sourceId": 1794852425
+    },
+    {
+      "monsterId": 342,
+      "pokemon": "Crawdaunt",
+      "region": "Sinnoh",
+      "location": "Lake Valor",
+      "secondsAgo": 1706,
+      "sourceId": 1794853051
     }
   ],
   "alpha": {
