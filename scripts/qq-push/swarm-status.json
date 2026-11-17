@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-17T08:55:39.133Z",
+  "fetchedAt": "2026-11-17T09:01:12.343Z",
   "swarms": [
     {
       "monsterId": 240,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-17T09:06:37.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 352,
+      "pokemon": "Kecleon",
+      "region": "Sinnoh",
+      "location": "Route 229",
+      "sourceId": 1794907313,
+      "despawnTimestamp": 1794907313,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-17T09:21:53.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Misdreavus",
       "region": "Kanto",
       "location": "Pokemon Tower",
-      "secondsAgo": 15431,
+      "secondsAgo": 15764,
       "sourceId": 1794890308
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Wailmer",
       "region": "Johto",
       "location": "Route 40",
-      "secondsAgo": 7009,
+      "secondsAgo": 7342,
       "sourceId": 1794898730
-    },
-    {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Sinnoh",
-      "location": "Route 219",
-      "secondsAgo": 14651,
-      "sourceId": 1794891088
     },
     {
       "monsterId": 312,
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 21894,
+      "secondsAgo": 22227,
       "sourceId": 1794883845
     }
   ],
