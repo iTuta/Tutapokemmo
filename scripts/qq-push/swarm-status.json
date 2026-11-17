@@ -1,38 +1,42 @@
 {
-  "fetchedAt": "2026-11-17T19:55:53.236Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-17T20:01:12.637Z",
+  "swarms": [
+    {
+      "monsterId": 83,
+      "pokemon": "Farfetch&#x27;d",
+      "region": "Sinnoh",
+      "location": "Route 209",
+      "sourceId": 1794947006,
+      "despawnTimestamp": 1794947006,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-17T20:23:26.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 6,
       "pokemon": "Charizard",
       "region": "Kanto",
       "location": "Mt. Ember",
-      "secondsAgo": 5811,
-      "sourceId": 1794939542
+      "secondsAgo": 6131,
+      "sourceId": 1794939541
     },
     {
       "monsterId": 260,
       "pokemon": "Swampert",
       "region": "Hoenn",
       "location": "Route 109",
-      "secondsAgo": 3392,
+      "secondsAgo": 3711,
       "sourceId": 1794941961
-    },
-    {
-      "monsterId": 103,
-      "pokemon": "Exeggutor",
-      "region": "Sinnoh",
-      "location": "Route 230",
-      "secondsAgo": 5830,
-      "sourceId": 1794939523
     },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Unova",
       "location": "Route 10",
-      "secondsAgo": 4901,
-      "sourceId": 1794940452
+      "secondsAgo": 5221,
+      "sourceId": 1794940451
     }
   ],
   "alpha": {
