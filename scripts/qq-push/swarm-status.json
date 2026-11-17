@@ -1,46 +1,53 @@
 {
-  "fetchedAt": "2026-11-17T18:15:54.836Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-17T18:20:48.002Z",
+  "swarms": [
     {
-      "monsterId": 348,
-      "pokemon": "Armaldo",
+      "monsterId": 6,
+      "pokemon": "Charizard",
       "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 16637,
-      "sourceId": 1794922717
+      "location": "Mt. Ember",
+      "sourceId": 1794941041,
+      "despawnTimestamp": 1794941040,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-17T18:44:01.000Z",
+      "publishedBy": ""
     },
+    {
+      "monsterId": 103,
+      "pokemon": "Exeggutor",
+      "region": "Sinnoh",
+      "location": "Route 230",
+      "sourceId": 1794941022,
+      "despawnTimestamp": 1794941021,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-17T18:43:42.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 474,
       "pokemon": "Porygon-Z",
       "region": "Johto",
       "location": "Team Rocket HQ",
-      "secondsAgo": 10999,
-      "sourceId": 1794928355
+      "secondsAgo": 11293,
+      "sourceId": 1794928354
     },
     {
       "monsterId": 211,
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 22097,
+      "secondsAgo": 22390,
       "sourceId": 1794917257
-    },
-    {
-      "monsterId": 248,
-      "pokemon": "Tyranitar",
-      "region": "Sinnoh",
-      "location": "Stark Mountain",
-      "secondsAgo": 18535,
-      "sourceId": 1794920819
     },
     {
       "monsterId": 233,
       "pokemon": "Porygon2",
       "region": "Unova",
       "location": "P2 Laboratory",
-      "secondsAgo": 10461,
-      "sourceId": 1794928893
+      "secondsAgo": 10755,
+      "sourceId": 1794928892
     }
   ],
   "alpha": {
