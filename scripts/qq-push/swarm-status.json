@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-17T00:45:58.186Z",
+  "fetchedAt": "2026-11-17T00:50:52.310Z",
   "swarms": [
     {
       "monsterId": 83,
@@ -24,28 +24,6 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 349,
-      "pokemon": "Feebas",
-      "region": "Hoenn",
-      "location": "Route 130",
-      "sourceId": 1794876487,
-      "despawnTimestamp": 1794876487,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-17T00:48:07.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 438,
-      "pokemon": "Bonsly",
-      "region": "Sinnoh",
-      "location": "Eterna Forest",
-      "sourceId": 1794876436,
-      "despawnTimestamp": 1794876436,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-17T00:47:16.000Z",
-      "publishedBy": ""
-    },
-    {
       "monsterId": 106,
       "pokemon": "Hitmonlee",
       "region": "Unova",
@@ -57,7 +35,24 @@
       "publishedBy": ""
     }
   ],
-  "lastSeen": [],
+  "lastSeen": [
+    {
+      "monsterId": 349,
+      "pokemon": "Feebas",
+      "region": "Hoenn",
+      "location": "Route 130",
+      "secondsAgo": 1665,
+      "sourceId": 1794874987
+    },
+    {
+      "monsterId": 438,
+      "pokemon": "Bonsly",
+      "region": "Sinnoh",
+      "location": "Eterna Forest",
+      "secondsAgo": 1715,
+      "sourceId": 1794874937
+    }
+  ],
   "alpha": {
     "monsterId": 464,
     "pokemon": "Rhyperior",
