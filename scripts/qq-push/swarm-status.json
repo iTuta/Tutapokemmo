@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-17T20:46:03.550Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-17T20:50:53.033Z",
+  "swarms": [
+    {
+      "monsterId": 285,
+      "pokemon": "Shroomish",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "sourceId": 1794949912,
+      "despawnTimestamp": 1794949911,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-17T21:11:52.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 311,
       "pokemon": "Plusle",
       "region": "Kanto",
       "location": "Route 2",
-      "secondsAgo": 2425,
+      "secondsAgo": 2714,
       "sourceId": 1794945938
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Swampert",
       "region": "Hoenn",
       "location": "Route 109",
-      "secondsAgo": 6402,
+      "secondsAgo": 6691,
       "sourceId": 1794941961
     },
     {
@@ -23,16 +35,8 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 2856,
-      "sourceId": 1794945507
-    },
-    {
-      "monsterId": 214,
-      "pokemon": "Heracross",
-      "region": "Unova",
-      "location": "Route 10",
-      "secondsAgo": 7912,
-      "sourceId": 1794940451
+      "secondsAgo": 3146,
+      "sourceId": 1794945506
     }
   ],
   "alpha": {
