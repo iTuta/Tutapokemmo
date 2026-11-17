@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-11-17T08:41:22.442Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-17T08:45:46.780Z",
+  "swarms": [
+    {
+      "monsterId": 240,
+      "pokemon": "Magby",
+      "region": "Hoenn",
+      "location": "Mt. Chimney",
+      "sourceId": 1794906397,
+      "despawnTimestamp": 1794906397,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-17T09:06:37.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 320,
       "pokemon": "Wailmer",
       "region": "Johto",
       "location": "Route 40",
-      "secondsAgo": 6152,
-      "sourceId": 1794898730
-    },
-    {
-      "monsterId": 149,
-      "pokemon": "Dragonite",
-      "region": "Hoenn",
-      "location": "Route 131",
-      "secondsAgo": 22195,
-      "sourceId": 1794882687
+      "secondsAgo": 6417,
+      "sourceId": 1794898729
     },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Sinnoh",
       "location": "Route 219",
-      "secondsAgo": 13794,
-      "sourceId": 1794891088
+      "secondsAgo": 14059,
+      "sourceId": 1794891087
     },
     {
       "monsterId": 312,
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 21037,
+      "secondsAgo": 21301,
       "sourceId": 1794883845
     }
   ],
