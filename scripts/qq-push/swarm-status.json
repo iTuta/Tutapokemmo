@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-17T12:31:10.866Z",
+  "fetchedAt": "2026-11-17T12:36:26.599Z",
   "swarms": [
     {
       "monsterId": 373,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-17T12:45:19.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 211,
-      "pokemon": "Qwilfish",
-      "region": "Hoenn",
-      "location": "Route 125",
-      "sourceId": 1794918757,
-      "despawnTimestamp": 1794918756,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-17T12:32:37.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,15 +19,23 @@
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 3241,
-      "sourceId": 1794915429
+      "secondsAgo": 3556,
+      "sourceId": 1794915430
+    },
+    {
+      "monsterId": 211,
+      "pokemon": "Qwilfish",
+      "region": "Hoenn",
+      "location": "Route 125",
+      "secondsAgo": 1729,
+      "sourceId": 1794917257
     },
     {
       "monsterId": 352,
       "pokemon": "Kecleon",
       "region": "Sinnoh",
       "location": "Route 229",
-      "secondsAgo": 12857,
+      "secondsAgo": 13173,
       "sourceId": 1794905813
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 34826,
-      "sourceId": 1794883844
+      "secondsAgo": 35141,
+      "sourceId": 1794883845
     }
   ],
   "alpha": {
