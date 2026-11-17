@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-11-17T13:35:44.814Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-17T13:41:01.644Z",
+  "swarms": [
     {
-      "monsterId": 373,
-      "pokemon": "Salamence",
+      "monsterId": 348,
+      "pokemon": "Armaldo",
       "region": "Kanto",
-      "location": "Victory Road",
-      "secondsAgo": 4225,
-      "sourceId": 1794918319
-    },
+      "location": "Tanoby Ruins",
+      "sourceId": 1794924217,
+      "despawnTimestamp": 1794924217,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-17T14:03:37.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 7114,
+      "secondsAgo": 7431,
       "sourceId": 1794915430
     },
     {
@@ -23,15 +27,15 @@
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 5287,
-      "sourceId": 1794917257
+      "secondsAgo": 5603,
+      "sourceId": 1794917258
     },
     {
       "monsterId": 248,
       "pokemon": "Tyranitar",
       "region": "Sinnoh",
       "location": "Stark Mountain",
-      "secondsAgo": 1725,
+      "secondsAgo": 2042,
       "sourceId": 1794920819
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 38699,
+      "secondsAgo": 39016,
       "sourceId": 1794883845
     }
   ],
