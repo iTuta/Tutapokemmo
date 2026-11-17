@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-11-17T21:55:45.666Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-17T22:01:08.345Z",
+  "swarms": [
+    {
+      "monsterId": 375,
+      "pokemon": "Metang",
+      "region": "Johto",
+      "location": "Ice Path",
+      "sourceId": 1794954325,
+      "despawnTimestamp": 1794954325,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-17T22:25:25.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Kanto",
       "location": "Icefall Cave",
-      "secondsAgo": 1949,
-      "sourceId": 1794950596
-    },
-    {
-      "monsterId": 176,
-      "pokemon": "Togetic",
-      "region": "Johto",
-      "location": "Route 27",
-      "secondsAgo": 8373,
-      "sourceId": 1794944172
+      "secondsAgo": 2271,
+      "sourceId": 1794950597
     },
     {
       "monsterId": 330,
       "pokemon": "Flygon",
       "region": "Hoenn",
       "location": "Desert Underpass",
-      "secondsAgo": 2444,
+      "secondsAgo": 2767,
       "sourceId": 1794950101
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 7038,
+      "secondsAgo": 7361,
       "sourceId": 1794945507
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Shroomish",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 4132,
+      "secondsAgo": 4455,
       "sourceId": 1794948413
     }
   ],
