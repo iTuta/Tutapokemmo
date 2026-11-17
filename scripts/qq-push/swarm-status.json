@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-17T14:01:10.820Z",
+  "fetchedAt": "2026-11-17T14:05:46.670Z",
   "swarms": [
-    {
-      "monsterId": 348,
-      "pokemon": "Armaldo",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "sourceId": 1794924217,
-      "despawnTimestamp": 1794924216,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-17T14:03:37.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 348,
+      "pokemon": "Armaldo",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "secondsAgo": 1628,
+      "sourceId": 1794922718
+    },
+    {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 8640,
+      "secondsAgo": 8916,
       "sourceId": 1794915430
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 6813,
+      "secondsAgo": 7089,
       "sourceId": 1794917257
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Tyranitar",
       "region": "Sinnoh",
       "location": "Stark Mountain",
-      "secondsAgo": 3251,
+      "secondsAgo": 3527,
       "sourceId": 1794920819
     }
   ],
