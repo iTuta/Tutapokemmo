@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-17T22:40:48.064Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-17T22:45:48.461Z",
+  "swarms": [
+    {
+      "monsterId": 317,
+      "pokemon": "Swalot",
+      "region": "Unova",
+      "location": "Route 9",
+      "sourceId": 1794956915,
+      "despawnTimestamp": 1794956915,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-17T23:08:35.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Kanto",
       "location": "Icefall Cave",
-      "secondsAgo": 4651,
+      "secondsAgo": 4951,
       "sourceId": 1794950597
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 2422,
+      "secondsAgo": 2722,
       "sourceId": 1794952826
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Flygon",
       "region": "Hoenn",
       "location": "Desert Underpass",
-      "secondsAgo": 5147,
+      "secondsAgo": 5447,
       "sourceId": 1794950101
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Sinnoh",
       "location": "Route 209",
-      "secondsAgo": 9741,
+      "secondsAgo": 10041,
       "sourceId": 1794945507
-    },
-    {
-      "monsterId": 285,
-      "pokemon": "Shroomish",
-      "region": "Unova",
-      "location": "Pinwheel Forest",
-      "secondsAgo": 6835,
-      "sourceId": 1794948413
     }
   ],
   "alpha": {
