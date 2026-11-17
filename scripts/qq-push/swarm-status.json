@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-11-17T02:46:04.737Z",
+  "fetchedAt": "2026-11-17T02:50:44.399Z",
   "swarms": [
-    {
-      "monsterId": 122,
-      "pokemon": "Mr. Mime",
-      "region": "Kanto",
-      "location": "Route 21",
-      "sourceId": 1794883791,
-      "despawnTimestamp": 1794883791,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-17T02:49:51.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 149,
       "pokemon": "Dragonite",
       "region": "Hoenn",
       "location": "Route 131",
       "sourceId": 1794884186,
-      "despawnTimestamp": 1794884185,
+      "despawnTimestamp": 1794884186,
       "hasValuable": false,
       "timestampUtc": "2026-11-17T02:56:26.000Z",
       "publishedBy": ""
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 122,
+      "pokemon": "Mr. Mime",
+      "region": "Kanto",
+      "location": "Route 21",
+      "secondsAgo": 1552,
+      "sourceId": 1794882292
+    },
+    {
       "monsterId": 370,
       "pokemon": "Luvdisc",
       "region": "Johto",
       "location": "Route 47",
-      "secondsAgo": 8103,
+      "secondsAgo": 8383,
       "sourceId": 1794875461
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 2916,
+      "secondsAgo": 3196,
       "sourceId": 1794880648
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "secondsAgo": 7931,
-      "sourceId": 1794875633
+      "secondsAgo": 8210,
+      "sourceId": 1794875634
     }
   ],
   "alpha": {
