@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-11-17T15:11:09.150Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-17T15:15:57.184Z",
+  "swarms": [
+    {
+      "monsterId": 474,
+      "pokemon": "Porygon-Z",
+      "region": "Johto",
+      "location": "Team Rocket HQ",
+      "sourceId": 1794929854,
+      "despawnTimestamp": 1794929854,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-17T15:37:34.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 348,
       "pokemon": "Armaldo",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 5551,
+      "secondsAgo": 5839,
       "sourceId": 1794922718
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Johto",
-      "location": "Bell Tower",
-      "secondsAgo": 3138,
-      "sourceId": 1794925131
     },
     {
       "monsterId": 248,
       "pokemon": "Tyranitar",
       "region": "Sinnoh",
       "location": "Stark Mountain",
-      "secondsAgo": 7450,
+      "secondsAgo": 7738,
       "sourceId": 1794920819
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 5249,
+      "secondsAgo": 5537,
       "sourceId": 1794923020
     }
   ],
