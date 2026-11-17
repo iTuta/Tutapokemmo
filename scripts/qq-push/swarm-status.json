@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-11-17T05:15:52.116Z",
-  "swarms": [
-    {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Sinnoh",
-      "location": "Route 219",
-      "sourceId": 1794892587,
-      "despawnTimestamp": 1794892587,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-17T05:16:27.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-11-17T05:21:20.485Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 200,
       "pokemon": "Misdreavus",
       "region": "Kanto",
       "location": "Pokemon Tower",
-      "secondsAgo": 2244,
+      "secondsAgo": 2572,
       "sourceId": 1794890308
     },
     {
@@ -27,7 +15,7 @@
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 8432,
+      "secondsAgo": 8760,
       "sourceId": 1794884120
     },
     {
@@ -35,15 +23,23 @@
       "pokemon": "Dragonite",
       "region": "Hoenn",
       "location": "Route 131",
-      "secondsAgo": 9865,
+      "secondsAgo": 10193,
       "sourceId": 1794882687
+    },
+    {
+      "monsterId": 213,
+      "pokemon": "Shuckle",
+      "region": "Sinnoh",
+      "location": "Route 219",
+      "secondsAgo": 1792,
+      "sourceId": 1794891088
     },
     {
       "monsterId": 312,
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 8707,
+      "secondsAgo": 9035,
       "sourceId": 1794883845
     }
   ],
