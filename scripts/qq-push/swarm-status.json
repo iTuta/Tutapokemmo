@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-17T15:35:49.448Z",
+  "fetchedAt": "2026-11-17T15:40:47.857Z",
   "swarms": [
-    {
-      "monsterId": 474,
-      "pokemon": "Porygon-Z",
-      "region": "Johto",
-      "location": "Team Rocket HQ",
-      "sourceId": 1794929854,
-      "despawnTimestamp": 1794929854,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-17T15:37:34.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 233,
       "pokemon": "Porygon2",
@@ -30,15 +19,23 @@
       "pokemon": "Armaldo",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 7031,
-      "sourceId": 1794922718
+      "secondsAgo": 7330,
+      "sourceId": 1794922717
+    },
+    {
+      "monsterId": 474,
+      "pokemon": "Porygon-Z",
+      "region": "Johto",
+      "location": "Team Rocket HQ",
+      "secondsAgo": 1693,
+      "sourceId": 1794928354
     },
     {
       "monsterId": 248,
       "pokemon": "Tyranitar",
       "region": "Sinnoh",
       "location": "Stark Mountain",
-      "secondsAgo": 8930,
+      "secondsAgo": 9228,
       "sourceId": 1794920819
     }
   ],
