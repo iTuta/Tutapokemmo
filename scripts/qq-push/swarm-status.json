@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-11-17T04:35:40.330Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-17T04:41:07.498Z",
+  "swarms": [
     {
-      "monsterId": 128,
-      "pokemon": "Tauros",
+      "monsterId": 200,
+      "pokemon": "Misdreavus",
       "region": "Kanto",
-      "location": "Route 15",
-      "secondsAgo": 4979,
-      "sourceId": 1794885161
-    },
+      "location": "Pokemon Tower",
+      "sourceId": 1794891807,
+      "despawnTimestamp": 1794891807,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-17T05:03:27.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 6020,
+      "secondsAgo": 6347,
       "sourceId": 1794884120
     },
     {
@@ -23,15 +27,15 @@
       "pokemon": "Dragonite",
       "region": "Hoenn",
       "location": "Route 131",
-      "secondsAgo": 7453,
-      "sourceId": 1794882687
+      "secondsAgo": 7781,
+      "sourceId": 1794882686
     },
     {
       "monsterId": 389,
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 9492,
+      "secondsAgo": 9819,
       "sourceId": 1794880648
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 6295,
+      "secondsAgo": 6622,
       "sourceId": 1794883845
     }
   ],
