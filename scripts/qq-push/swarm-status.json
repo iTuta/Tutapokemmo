@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-11-17T18:40:57.059Z",
+  "fetchedAt": "2026-11-17T18:45:54.396Z",
   "swarms": [
-    {
-      "monsterId": 6,
-      "pokemon": "Charizard",
-      "region": "Kanto",
-      "location": "Mt. Ember",
-      "sourceId": 1794941041,
-      "despawnTimestamp": 1794941041,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-17T18:44:01.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 103,
-      "pokemon": "Exeggutor",
-      "region": "Sinnoh",
-      "location": "Route 230",
-      "sourceId": 1794941022,
-      "despawnTimestamp": 1794941022,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-17T18:43:42.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 214,
       "pokemon": "Heracross",
@@ -37,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 6,
+      "pokemon": "Charizard",
+      "region": "Kanto",
+      "location": "Mt. Ember",
+      "secondsAgo": 1613,
+      "sourceId": 1794939541
+    },
+    {
       "monsterId": 474,
       "pokemon": "Porygon-Z",
       "region": "Johto",
       "location": "Team Rocket HQ",
-      "secondsAgo": 12502,
+      "secondsAgo": 12799,
       "sourceId": 1794928355
     },
     {
@@ -49,8 +35,16 @@
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 23599,
+      "secondsAgo": 23896,
       "sourceId": 1794917258
+    },
+    {
+      "monsterId": 103,
+      "pokemon": "Exeggutor",
+      "region": "Sinnoh",
+      "location": "Route 230",
+      "secondsAgo": 1631,
+      "sourceId": 1794939523
     }
   ],
   "alpha": {
