@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-17T02:50:44.399Z",
+  "fetchedAt": "2026-11-17T02:56:09.118Z",
   "swarms": [
+    {
+      "monsterId": 570,
+      "pokemon": "Zorua",
+      "region": "Johto",
+      "location": "Route 37",
+      "sourceId": 1794885619,
+      "despawnTimestamp": 1794885619,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-17T03:20:19.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 149,
       "pokemon": "Dragonite",
@@ -11,6 +22,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-17T02:56:26.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 312,
+      "pokemon": "Minun",
+      "region": "Unova",
+      "location": "Route 6",
+      "sourceId": 1794885344,
+      "despawnTimestamp": 1794885344,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-17T03:15:44.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,32 +41,16 @@
       "pokemon": "Mr. Mime",
       "region": "Kanto",
       "location": "Route 21",
-      "secondsAgo": 1552,
+      "secondsAgo": 1877,
       "sourceId": 1794882292
-    },
-    {
-      "monsterId": 370,
-      "pokemon": "Luvdisc",
-      "region": "Johto",
-      "location": "Route 47",
-      "secondsAgo": 8383,
-      "sourceId": 1794875461
     },
     {
       "monsterId": 389,
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 3196,
+      "secondsAgo": 3521,
       "sourceId": 1794880648
-    },
-    {
-      "monsterId": 106,
-      "pokemon": "Hitmonlee",
-      "region": "Unova",
-      "location": "Victory Road",
-      "secondsAgo": 8210,
-      "sourceId": 1794875634
     }
   ],
   "alpha": {
