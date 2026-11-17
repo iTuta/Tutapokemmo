@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-17T01:55:42.200Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-17T02:01:08.957Z",
+  "swarms": [
+    {
+      "monsterId": 389,
+      "pokemon": "Torterra",
+      "region": "Sinnoh",
+      "location": "Route 212",
+      "sourceId": 1794882147,
+      "despawnTimestamp": 1794882147,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-17T02:22:27.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Kanto",
       "location": "Route 13",
-      "secondsAgo": 5154,
+      "secondsAgo": 5480,
       "sourceId": 1794875388
     },
     {
@@ -15,32 +27,24 @@
       "pokemon": "Luvdisc",
       "region": "Johto",
       "location": "Route 47",
-      "secondsAgo": 5081,
-      "sourceId": 1794875461
+      "secondsAgo": 5408,
+      "sourceId": 1794875460
     },
     {
       "monsterId": 349,
       "pokemon": "Feebas",
       "region": "Hoenn",
       "location": "Route 130",
-      "secondsAgo": 5554,
-      "sourceId": 1794874988
-    },
-    {
-      "monsterId": 438,
-      "pokemon": "Bonsly",
-      "region": "Sinnoh",
-      "location": "Eterna Forest",
-      "secondsAgo": 5605,
-      "sourceId": 1794874937
+      "secondsAgo": 5881,
+      "sourceId": 1794874987
     },
     {
       "monsterId": 106,
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "secondsAgo": 4908,
-      "sourceId": 1794875634
+      "secondsAgo": 5235,
+      "sourceId": 1794875633
     }
   ],
   "alpha": {
