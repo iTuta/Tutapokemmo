@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-18T03:25:44.838Z",
+  "fetchedAt": "2026-11-18T03:31:00.985Z",
   "swarms": [
-    {
-      "monsterId": 359,
-      "pokemon": "Absol",
-      "region": "Kanto",
-      "location": "Canyon Entrance",
-      "sourceId": 1794972423,
-      "despawnTimestamp": 1794972422,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-18T03:27:03.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 441,
       "pokemon": "Chatot",
@@ -26,19 +15,27 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 359,
+      "pokemon": "Absol",
+      "region": "Kanto",
+      "location": "Canyon Entrance",
+      "secondsAgo": 1737,
+      "sourceId": 1794970923
+    },
+    {
       "monsterId": 375,
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 19518,
-      "sourceId": 1794952826
+      "secondsAgo": 19835,
+      "sourceId": 1794952825
     },
     {
       "monsterId": 430,
       "pokemon": "Honchkrow",
       "region": "Unova",
       "location": "Celestial Tower",
-      "secondsAgo": 8872,
+      "secondsAgo": 9188,
       "sourceId": 1794963472
     }
   ],
