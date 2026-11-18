@@ -1,45 +1,49 @@
 {
-  "fetchedAt": "2026-11-18T20:05:48.721Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-18T20:10:49.514Z",
+  "swarms": [
+    {
+      "monsterId": 288,
+      "pokemon": "Vigoroth",
+      "region": "Johto",
+      "location": "Ruins of Alph",
+      "sourceId": 1795033963,
+      "despawnTimestamp": 1795033963,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-18T20:32:43.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Kanto",
       "location": "Icefall Cave",
-      "secondsAgo": 3050,
+      "secondsAgo": 3351,
       "sourceId": 1795029298
-    },
-    {
-      "monsterId": 372,
-      "pokemon": "Shelgon",
-      "region": "Johto",
-      "location": "Dragon&#x27;s Den",
-      "secondsAgo": 8447,
-      "sourceId": 1795023901
     },
     {
       "monsterId": 259,
       "pokemon": "Marshtomp",
       "region": "Hoenn",
       "location": "Route 124",
-      "secondsAgo": 7057,
-      "sourceId": 1795025291
+      "secondsAgo": 7357,
+      "sourceId": 1795025292
     },
     {
       "monsterId": 332,
       "pokemon": "Cacturne",
       "region": "Sinnoh",
       "location": "Route 228",
-      "secondsAgo": 1511,
-      "sourceId": 1795030837
+      "secondsAgo": 1811,
+      "sourceId": 1795030838
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 2662,
+      "secondsAgo": 2963,
       "sourceId": 1795029686
     }
   ],
