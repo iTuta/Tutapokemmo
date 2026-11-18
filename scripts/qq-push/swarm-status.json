@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-11-18T00:06:21.603Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-18T00:10:46.108Z",
+  "swarms": [
     {
-      "monsterId": 131,
-      "pokemon": "Lapras",
+      "monsterId": 143,
+      "pokemon": "Snorlax",
       "region": "Kanto",
-      "location": "Icefall Cave",
-      "secondsAgo": 9785,
-      "sourceId": 1794950596
-    },
+      "location": "Cerulean Cave",
+      "sourceId": 1794961919,
+      "despawnTimestamp": 1794961919,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-18T00:31:59.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 375,
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 7555,
+      "secondsAgo": 7820,
       "sourceId": 1794952826
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Flygon",
       "region": "Hoenn",
       "location": "Desert Underpass",
-      "secondsAgo": 10280,
+      "secondsAgo": 10545,
       "sourceId": 1794950101
     },
     {
@@ -31,15 +35,15 @@
       "pokemon": "Spiritomb",
       "region": "Sinnoh",
       "location": "Turnback Cave",
-      "secondsAgo": 3432,
-      "sourceId": 1794956949
+      "secondsAgo": 3696,
+      "sourceId": 1794956950
     },
     {
       "monsterId": 317,
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 4965,
+      "secondsAgo": 5230,
       "sourceId": 1794955416
     }
   ],
