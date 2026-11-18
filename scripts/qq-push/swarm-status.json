@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-18T12:45:54.102Z",
+  "fetchedAt": "2026-11-18T12:50:52.277Z",
   "swarms": [
     {
       "monsterId": 474,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-18T13:06:45.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 450,
+      "pokemon": "Hippowdon",
+      "region": "Hoenn",
+      "location": "Victory Road",
+      "sourceId": 1795007588,
+      "despawnTimestamp": 1795007588,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-18T13:13:08.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,31 +30,23 @@
       "pokemon": "Salamence",
       "region": "Kanto",
       "location": "Victory Road",
-      "secondsAgo": 17761,
+      "secondsAgo": 18059,
       "sourceId": 1794988193
-    },
-    {
-      "monsterId": 185,
-      "pokemon": "Sudowoodo",
-      "region": "Hoenn",
-      "location": "Battle Frontier",
-      "secondsAgo": 2557,
-      "sourceId": 1795003397
     },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Sinnoh",
       "location": "Wayward Cave",
-      "secondsAgo": 4511,
-      "sourceId": 1795001443
+      "secondsAgo": 4810,
+      "sourceId": 1795001442
     },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 2643,
+      "secondsAgo": 2941,
       "sourceId": 1795003311
     }
   ],
