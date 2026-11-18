@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-18T22:40:45.701Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-18T22:52:51.740Z",
+  "swarms": [
+    {
+      "monsterId": 359,
+      "pokemon": "Absol",
+      "region": "Sinnoh",
+      "location": "Mt. Coronet",
+      "sourceId": 1795043819,
+      "despawnTimestamp": 1795043818,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-18T23:16:59.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 248,
       "pokemon": "Tyranitar",
       "region": "Kanto",
       "location": "Sevault Canyon",
-      "secondsAgo": 8469,
+      "secondsAgo": 9195,
       "sourceId": 1795033176
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Vigoroth",
       "region": "Johto",
       "location": "Ruins of Alph",
-      "secondsAgo": 9181,
+      "secondsAgo": 9907,
       "sourceId": 1795032464
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Lapras",
       "region": "Hoenn",
       "location": "Shoal Cave",
-      "secondsAgo": 8195,
+      "secondsAgo": 8921,
       "sourceId": 1795033450
-    },
-    {
-      "monsterId": 332,
-      "pokemon": "Cacturne",
-      "region": "Sinnoh",
-      "location": "Route 228",
-      "secondsAgo": 10808,
-      "sourceId": 1795030837
     },
     {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Unova",
       "location": "Cold Storage",
-      "secondsAgo": 7738,
+      "secondsAgo": 8464,
       "sourceId": 1795033907
     }
   ],
