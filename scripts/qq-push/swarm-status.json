@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-18T05:35:21.711Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-18T05:40:45.713Z",
+  "swarms": [
+    {
+      "monsterId": 241,
+      "pokemon": "Miltank",
+      "region": "Unova",
+      "location": "Village Bridge",
+      "sourceId": 1794981844,
+      "despawnTimestamp": 1794981844,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-18T06:04:04.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 359,
       "pokemon": "Absol",
       "region": "Kanto",
       "location": "Canyon Entrance",
-      "secondsAgo": 9198,
+      "secondsAgo": 9522,
       "sourceId": 1794970923
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 27295,
+      "secondsAgo": 27619,
       "sourceId": 1794952826
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Mismagius",
       "region": "Hoenn",
       "location": "Route 122",
-      "secondsAgo": 18988,
+      "secondsAgo": 19312,
       "sourceId": 1794961133
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Elekid",
       "region": "Sinnoh",
       "location": "Valley Windworks",
-      "secondsAgo": 4546,
+      "secondsAgo": 4870,
       "sourceId": 1794975575
-    },
-    {
-      "monsterId": 430,
-      "pokemon": "Honchkrow",
-      "region": "Unova",
-      "location": "Celestial Tower",
-      "secondsAgo": 16649,
-      "sourceId": 1794963472
     }
   ],
   "alpha": {
