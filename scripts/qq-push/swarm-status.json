@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-18T05:50:45.893Z",
+  "fetchedAt": "2026-11-18T05:55:42.671Z",
   "swarms": [
     {
       "monsterId": 328,
@@ -24,6 +24,17 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 149,
+      "pokemon": "Dragonite",
+      "region": "Hoenn",
+      "location": "Route 131",
+      "sourceId": 1794982571,
+      "despawnTimestamp": 1794982570,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-18T06:16:11.000Z",
+      "publishedBy": ""
+    },
+    {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Unova",
@@ -37,19 +48,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 429,
-      "pokemon": "Mismagius",
-      "region": "Hoenn",
-      "location": "Route 122",
-      "secondsAgo": 19912,
-      "sourceId": 1794961133
-    },
-    {
       "monsterId": 239,
       "pokemon": "Elekid",
       "region": "Sinnoh",
       "location": "Valley Windworks",
-      "secondsAgo": 5470,
+      "secondsAgo": 5767,
       "sourceId": 1794975575
     }
   ],
