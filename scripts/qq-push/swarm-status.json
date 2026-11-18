@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-18T13:05:51.134Z",
+  "fetchedAt": "2026-11-18T13:10:58.278Z",
   "swarms": [
-    {
-      "monsterId": 474,
-      "pokemon": "Porygon-Z",
-      "region": "Johto",
-      "location": "Team Rocket HQ",
-      "sourceId": 1795007205,
-      "despawnTimestamp": 1795007205,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-18T13:06:45.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 450,
       "pokemon": "Hippowdon",
@@ -30,23 +19,31 @@
       "pokemon": "Salamence",
       "region": "Kanto",
       "location": "Victory Road",
-      "secondsAgo": 18958,
+      "secondsAgo": 19265,
       "sourceId": 1794988193
+    },
+    {
+      "monsterId": 474,
+      "pokemon": "Porygon-Z",
+      "region": "Johto",
+      "location": "Team Rocket HQ",
+      "secondsAgo": 1752,
+      "sourceId": 1795005706
     },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Sinnoh",
       "location": "Wayward Cave",
-      "secondsAgo": 5708,
-      "sourceId": 1795001443
+      "secondsAgo": 6016,
+      "sourceId": 1795001442
     },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 3840,
+      "secondsAgo": 4147,
       "sourceId": 1795003311
     }
   ],
