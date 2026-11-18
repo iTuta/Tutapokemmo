@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-18T20:30:28.969Z",
+  "fetchedAt": "2026-11-18T20:35:44.229Z",
   "swarms": [
     {
       "monsterId": 248,
@@ -7,20 +7,9 @@
       "region": "Kanto",
       "location": "Sevault Canyon",
       "sourceId": 1795034676,
-      "despawnTimestamp": 1795034675,
+      "despawnTimestamp": 1795034676,
       "hasValuable": false,
       "timestampUtc": "2026-11-18T20:44:36.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 288,
-      "pokemon": "Vigoroth",
-      "region": "Johto",
-      "location": "Ruins of Alph",
-      "sourceId": 1795033963,
-      "despawnTimestamp": 1795033963,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-18T20:32:43.000Z",
       "publishedBy": ""
     },
     {
@@ -33,24 +22,35 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-18T20:49:09.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 190,
+      "pokemon": "Aipom",
+      "region": "Unova",
+      "location": "Cold Storage",
+      "sourceId": 1795035407,
+      "despawnTimestamp": 1795035407,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-18T20:56:47.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
+    {
+      "monsterId": 288,
+      "pokemon": "Vigoroth",
+      "region": "Johto",
+      "location": "Ruins of Alph",
+      "secondsAgo": 1680,
+      "sourceId": 1795032464
+    },
     {
       "monsterId": 332,
       "pokemon": "Cacturne",
       "region": "Sinnoh",
       "location": "Route 228",
-      "secondsAgo": 2991,
-      "sourceId": 1795030837
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Unova",
-      "location": "Lostlorn Forest",
-      "secondsAgo": 4142,
-      "sourceId": 1795029686
+      "secondsAgo": 3306,
+      "sourceId": 1795030838
     }
   ],
   "alpha": {
