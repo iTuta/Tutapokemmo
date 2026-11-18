@@ -1,44 +1,41 @@
 {
-  "fetchedAt": "2026-11-18T18:05:42.683Z",
+  "fetchedAt": "2026-11-18T18:10:54.626Z",
   "swarms": [
+    {
+      "monsterId": 259,
+      "pokemon": "Marshtomp",
+      "region": "Hoenn",
+      "location": "Route 124",
+      "sourceId": 1795026791,
+      "despawnTimestamp": 1795026791,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-18T18:33:11.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 413,
       "pokemon": "Wormadam",
       "region": "Kanto",
       "location": "Pattern Bush",
-      "sourceId": 1795025349,
-      "despawnTimestamp": 1795025348,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-18T18:09:09.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1605,
+      "sourceId": 1795023849
     },
     {
       "monsterId": 372,
       "pokemon": "Shelgon",
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
-      "sourceId": 1795025400,
-      "despawnTimestamp": 1795025400,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-18T18:10:00.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 352,
-      "pokemon": "Kecleon",
-      "region": "Hoenn",
-      "location": "Route 120",
-      "secondsAgo": 4394,
-      "sourceId": 1795020748
+      "secondsAgo": 1553,
+      "sourceId": 1795023901
     },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Sinnoh",
       "location": "Wayward Cave",
-      "secondsAgo": 2749,
+      "secondsAgo": 3061,
       "sourceId": 1795022393
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 12597,
+      "secondsAgo": 12909,
       "sourceId": 1795012545
     }
   ],
