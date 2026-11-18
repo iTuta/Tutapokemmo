@@ -1,33 +1,25 @@
 {
-  "fetchedAt": "2026-11-18T14:56:02.548Z",
+  "fetchedAt": "2026-11-18T15:01:11.430Z",
   "swarms": [
-    {
-      "monsterId": 451,
-      "pokemon": "Skorupi",
-      "region": "Unova",
-      "location": "Desert Resort",
-      "sourceId": 1795014045,
-      "despawnTimestamp": 1795014044,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-18T15:00:45.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "secondsAgo": 1506,
-      "sourceId": 1795012256
-    },
+      "sourceId": 1795014252,
+      "despawnTimestamp": 1795014251,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-18T15:04:12.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 474,
       "pokemon": "Porygon-Z",
       "region": "Johto",
       "location": "Team Rocket HQ",
-      "secondsAgo": 8056,
+      "secondsAgo": 8365,
       "sourceId": 1795005706
     },
     {
@@ -35,7 +27,7 @@
       "pokemon": "Hippowdon",
       "region": "Hoenn",
       "location": "Victory Road",
-      "secondsAgo": 7673,
+      "secondsAgo": 7982,
       "sourceId": 1795006089
     },
     {
@@ -43,8 +35,16 @@
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 4069,
+      "secondsAgo": 4378,
       "sourceId": 1795009693
+    },
+    {
+      "monsterId": 451,
+      "pokemon": "Skorupi",
+      "region": "Unova",
+      "location": "Desert Resort",
+      "secondsAgo": 1526,
+      "sourceId": 1795012545
     }
   ],
   "alpha": {
