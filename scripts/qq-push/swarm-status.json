@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-11-18T19:10:54.531Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-18T19:15:48.634Z",
+  "swarms": [
     {
-      "monsterId": 413,
-      "pokemon": "Wormadam",
+      "monsterId": 131,
+      "pokemon": "Lapras",
       "region": "Kanto",
-      "location": "Pattern Bush",
-      "secondsAgo": 5205,
-      "sourceId": 1795023849
-    },
+      "location": "Icefall Cave",
+      "sourceId": 1795030798,
+      "despawnTimestamp": 1795030797,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-18T19:39:58.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 372,
       "pokemon": "Shelgon",
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
-      "secondsAgo": 5153,
+      "secondsAgo": 5447,
       "sourceId": 1795023901
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Marshtomp",
       "region": "Hoenn",
       "location": "Route 124",
-      "secondsAgo": 3762,
+      "secondsAgo": 4056,
       "sourceId": 1795025292
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Kangaskhan",
       "region": "Sinnoh",
       "location": "Wayward Cave",
-      "secondsAgo": 6661,
+      "secondsAgo": 6955,
       "sourceId": 1795022393
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 16509,
+      "secondsAgo": 16803,
       "sourceId": 1795012545
     }
   ],
