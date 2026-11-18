@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-18T20:20:51.248Z",
+  "fetchedAt": "2026-11-18T20:30:28.969Z",
   "swarms": [
     {
       "monsterId": 248,
@@ -7,7 +7,7 @@
       "region": "Kanto",
       "location": "Sevault Canyon",
       "sourceId": 1795034676,
-      "despawnTimestamp": 1795034676,
+      "despawnTimestamp": 1795034675,
       "hasValuable": false,
       "timestampUtc": "2026-11-18T20:44:36.000Z",
       "publishedBy": ""
@@ -22,31 +22,34 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-18T20:32:43.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Hoenn",
+      "location": "Shoal Cave",
+      "sourceId": 1795034949,
+      "despawnTimestamp": 1795034949,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-18T20:49:09.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 259,
-      "pokemon": "Marshtomp",
-      "region": "Hoenn",
-      "location": "Route 124",
-      "secondsAgo": 7959,
-      "sourceId": 1795025292
-    },
     {
       "monsterId": 332,
       "pokemon": "Cacturne",
       "region": "Sinnoh",
       "location": "Route 228",
-      "secondsAgo": 2413,
-      "sourceId": 1795030838
+      "secondsAgo": 2991,
+      "sourceId": 1795030837
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 3565,
+      "secondsAgo": 4142,
       "sourceId": 1795029686
     }
   ],
