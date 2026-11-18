@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-18T14:31:06.508Z",
+  "fetchedAt": "2026-11-18T14:35:50.695Z",
   "swarms": [
     {
       "monsterId": 127,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-18T14:53:55.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 451,
+      "pokemon": "Skorupi",
+      "region": "Unova",
+      "location": "Desert Resort",
+      "sourceId": 1795014045,
+      "despawnTimestamp": 1795014044,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-18T15:00:45.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Porygon-Z",
       "region": "Johto",
       "location": "Team Rocket HQ",
-      "secondsAgo": 6560,
+      "secondsAgo": 6844,
       "sourceId": 1795005706
     },
     {
@@ -27,24 +38,16 @@
       "pokemon": "Hippowdon",
       "region": "Hoenn",
       "location": "Victory Road",
-      "secondsAgo": 6177,
-      "sourceId": 1795006089
+      "secondsAgo": 6462,
+      "sourceId": 1795006088
     },
     {
       "monsterId": 392,
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 2573,
+      "secondsAgo": 2857,
       "sourceId": 1795009693
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Unova",
-      "location": "Relic Castle",
-      "secondsAgo": 8955,
-      "sourceId": 1795003311
     }
   ],
   "alpha": {
