@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-18T08:50:43.048Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-18T08:55:55.651Z",
+  "swarms": [
+    {
+      "monsterId": 214,
+      "pokemon": "Heracross",
+      "region": "Sinnoh",
+      "location": "Route 206",
+      "sourceId": 1794993443,
+      "despawnTimestamp": 1794993442,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-18T09:17:23.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Kanto",
       "location": "Victory Road",
-      "secondsAgo": 3650,
+      "secondsAgo": 3962,
       "sourceId": 1794988193
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 11079,
+      "secondsAgo": 11391,
       "sourceId": 1794980764
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Dragonite",
       "region": "Hoenn",
       "location": "Route 131",
-      "secondsAgo": 10771,
-      "sourceId": 1794981072
-    },
-    {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Sinnoh",
-      "location": "Route 219",
-      "secondsAgo": 5148,
-      "sourceId": 1794986695
+      "secondsAgo": 11084,
+      "sourceId": 1794981071
     },
     {
       "monsterId": 106,
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "secondsAgo": 5903,
+      "secondsAgo": 6215,
       "sourceId": 1794985940
     }
   ],
