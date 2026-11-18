@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-18T20:15:48.299Z",
+  "fetchedAt": "2026-11-18T20:20:51.248Z",
   "swarms": [
+    {
+      "monsterId": 248,
+      "pokemon": "Tyranitar",
+      "region": "Kanto",
+      "location": "Sevault Canyon",
+      "sourceId": 1795034676,
+      "despawnTimestamp": 1795034676,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-18T20:44:36.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 288,
       "pokemon": "Vigoroth",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Kanto",
-      "location": "Icefall Cave",
-      "secondsAgo": 3649,
-      "sourceId": 1795029299
-    },
-    {
       "monsterId": 259,
       "pokemon": "Marshtomp",
       "region": "Hoenn",
       "location": "Route 124",
-      "secondsAgo": 7656,
+      "secondsAgo": 7959,
       "sourceId": 1795025292
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Cacturne",
       "region": "Sinnoh",
       "location": "Route 228",
-      "secondsAgo": 2110,
+      "secondsAgo": 2413,
       "sourceId": 1795030838
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 3262,
+      "secondsAgo": 3565,
       "sourceId": 1795029686
     }
   ],
