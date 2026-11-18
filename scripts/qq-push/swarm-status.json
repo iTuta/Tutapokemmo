@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-18T13:45:58.264Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-18T13:50:59.340Z",
+  "swarms": [
+    {
+      "monsterId": 392,
+      "pokemon": "Infernape",
+      "region": "Sinnoh",
+      "location": "Route 221",
+      "sourceId": 1795011192,
+      "despawnTimestamp": 1795011192,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-18T14:13:12.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Kanto",
       "location": "Victory Road",
-      "secondsAgo": 21365,
+      "secondsAgo": 21666,
       "sourceId": 1794988193
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Porygon-Z",
       "region": "Johto",
       "location": "Team Rocket HQ",
-      "secondsAgo": 3852,
+      "secondsAgo": 4153,
       "sourceId": 1795005706
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Hippowdon",
       "region": "Hoenn",
       "location": "Victory Road",
-      "secondsAgo": 3469,
+      "secondsAgo": 3770,
       "sourceId": 1795006089
-    },
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Sinnoh",
-      "location": "Wayward Cave",
-      "secondsAgo": 8116,
-      "sourceId": 1795001442
     },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 6247,
+      "secondsAgo": 6548,
       "sourceId": 1795003311
     }
   ],
