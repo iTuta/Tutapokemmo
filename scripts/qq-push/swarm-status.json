@@ -1,44 +1,37 @@
 {
-  "fetchedAt": "2026-11-18T06:10:46.173Z",
-  "swarms": [
-    {
-      "monsterId": 154,
-      "pokemon": "Meganium",
-      "region": "Johto",
-      "location": "Route 48",
-      "sourceId": 1794982263,
-      "despawnTimestamp": 1794982263,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-18T06:11:03.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 149,
-      "pokemon": "Dragonite",
-      "region": "Hoenn",
-      "location": "Route 131",
-      "sourceId": 1794982571,
-      "despawnTimestamp": 1794982571,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-18T06:16:11.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-11-18T06:17:49.571Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 328,
       "pokemon": "Trapinch",
       "region": "Kanto",
       "location": "Diglett&#x27;s Cave",
-      "secondsAgo": 1500,
-      "sourceId": 1794980746
+      "secondsAgo": 1924,
+      "sourceId": 1794980745
+    },
+    {
+      "monsterId": 154,
+      "pokemon": "Meganium",
+      "region": "Johto",
+      "location": "Route 48",
+      "secondsAgo": 1905,
+      "sourceId": 1794980764
+    },
+    {
+      "monsterId": 149,
+      "pokemon": "Dragonite",
+      "region": "Hoenn",
+      "location": "Route 131",
+      "secondsAgo": 1598,
+      "sourceId": 1794981071
     },
     {
       "monsterId": 239,
       "pokemon": "Elekid",
       "region": "Sinnoh",
       "location": "Valley Windworks",
-      "secondsAgo": 6671,
+      "secondsAgo": 7094,
       "sourceId": 1794975575
     },
     {
@@ -46,7 +39,7 @@
       "pokemon": "Miltank",
       "region": "Unova",
       "location": "Village Bridge",
-      "secondsAgo": 1901,
+      "secondsAgo": 2324,
       "sourceId": 1794980345
     }
   ],
