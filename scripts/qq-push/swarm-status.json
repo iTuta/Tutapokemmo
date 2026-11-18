@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-18T04:19:18.601Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-18T04:20:43.880Z",
+  "swarms": [
+    {
+      "monsterId": 239,
+      "pokemon": "Elekid",
+      "region": "Sinnoh",
+      "location": "Valley Windworks",
+      "sourceId": 1794977074,
+      "despawnTimestamp": 1794977074,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-18T04:44:34.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 359,
       "pokemon": "Absol",
       "region": "Kanto",
       "location": "Canyon Entrance",
-      "secondsAgo": 4635,
+      "secondsAgo": 4720,
       "sourceId": 1794970923
     },
     {
@@ -15,31 +27,23 @@
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 22732,
-      "sourceId": 1794952826
+      "secondsAgo": 22818,
+      "sourceId": 1794952825
     },
     {
       "monsterId": 429,
       "pokemon": "Mismagius",
       "region": "Hoenn",
       "location": "Route 122",
-      "secondsAgo": 14424,
-      "sourceId": 1794961134
-    },
-    {
-      "monsterId": 441,
-      "pokemon": "Chatot",
-      "region": "Sinnoh",
-      "location": "Route 218",
-      "secondsAgo": 4292,
-      "sourceId": 1794971266
+      "secondsAgo": 14510,
+      "sourceId": 1794961133
     },
     {
       "monsterId": 430,
       "pokemon": "Honchkrow",
       "region": "Unova",
       "location": "Celestial Tower",
-      "secondsAgo": 12086,
+      "secondsAgo": 12171,
       "sourceId": 1794963472
     }
   ],
