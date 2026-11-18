@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-18T23:10:56.576Z",
+  "fetchedAt": "2026-11-18T23:20:53.456Z",
   "swarms": [
+    {
+      "monsterId": 122,
+      "pokemon": "Mr. Mime",
+      "region": "Kanto",
+      "location": "Route 21",
+      "sourceId": 1795045139,
+      "despawnTimestamp": 1795045138,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-18T23:38:59.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 331,
       "pokemon": "Cacnea",
@@ -11,42 +22,31 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-18T23:34:59.000Z",
       "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 288,
+      "pokemon": "Vigoroth",
+      "region": "Johto",
+      "location": "Ruins of Alph",
+      "secondsAgo": 11589,
+      "sourceId": 1795032464
     },
     {
       "monsterId": 359,
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "sourceId": 1795043819,
-      "despawnTimestamp": 1795043818,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-18T23:16:59.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 248,
-      "pokemon": "Tyranitar",
-      "region": "Kanto",
-      "location": "Sevault Canyon",
-      "secondsAgo": 10279,
-      "sourceId": 1795033177
-    },
-    {
-      "monsterId": 288,
-      "pokemon": "Vigoroth",
-      "region": "Johto",
-      "location": "Ruins of Alph",
-      "secondsAgo": 10992,
-      "sourceId": 1795032464
+      "secondsAgo": 1734,
+      "sourceId": 1795042319
     },
     {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Unova",
       "location": "Cold Storage",
-      "secondsAgo": 9549,
+      "secondsAgo": 10146,
       "sourceId": 1795033907
     }
   ],
