@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-11-18T20:45:49.040Z",
+  "fetchedAt": "2026-11-18T20:50:54.966Z",
   "swarms": [
-    {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Hoenn",
-      "location": "Shoal Cave",
-      "sourceId": 1795034949,
-      "despawnTimestamp": 1795034949,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-18T20:49:09.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Unova",
       "location": "Cold Storage",
       "sourceId": 1795035407,
-      "despawnTimestamp": 1795035407,
+      "despawnTimestamp": 1795035406,
       "hasValuable": false,
       "timestampUtc": "2026-11-18T20:56:47.000Z",
       "publishedBy": ""
@@ -30,24 +19,32 @@
       "pokemon": "Tyranitar",
       "region": "Kanto",
       "location": "Sevault Canyon",
-      "secondsAgo": 1572,
-      "sourceId": 1795033177
+      "secondsAgo": 1878,
+      "sourceId": 1795033176
     },
     {
       "monsterId": 288,
       "pokemon": "Vigoroth",
       "region": "Johto",
       "location": "Ruins of Alph",
-      "secondsAgo": 2285,
-      "sourceId": 1795032464
+      "secondsAgo": 2591,
+      "sourceId": 1795032463
+    },
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Hoenn",
+      "location": "Shoal Cave",
+      "secondsAgo": 1605,
+      "sourceId": 1795033449
     },
     {
       "monsterId": 332,
       "pokemon": "Cacturne",
       "region": "Sinnoh",
       "location": "Route 228",
-      "secondsAgo": 3911,
-      "sourceId": 1795030838
+      "secondsAgo": 4217,
+      "sourceId": 1795030837
     }
   ],
   "alpha": {
