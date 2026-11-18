@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-18T06:01:18.891Z",
+  "fetchedAt": "2026-11-18T06:05:41.971Z",
   "swarms": [
     {
       "monsterId": 328,
@@ -18,7 +18,7 @@
       "region": "Johto",
       "location": "Route 48",
       "sourceId": 1794982263,
-      "despawnTimestamp": 1794982263,
+      "despawnTimestamp": 1794982262,
       "hasValuable": false,
       "timestampUtc": "2026-11-18T06:11:03.000Z",
       "publishedBy": ""
@@ -33,17 +33,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-18T06:16:11.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 241,
-      "pokemon": "Miltank",
-      "region": "Unova",
-      "location": "Village Bridge",
-      "sourceId": 1794981844,
-      "despawnTimestamp": 1794981844,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-18T06:04:04.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -52,8 +41,16 @@
       "pokemon": "Elekid",
       "region": "Sinnoh",
       "location": "Valley Windworks",
-      "secondsAgo": 6103,
+      "secondsAgo": 6366,
       "sourceId": 1794975575
+    },
+    {
+      "monsterId": 241,
+      "pokemon": "Miltank",
+      "region": "Unova",
+      "location": "Village Bridge",
+      "secondsAgo": 1597,
+      "sourceId": 1794980344
     }
   ],
   "alpha": {
