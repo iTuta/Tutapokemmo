@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-18T11:25:41.521Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-18T11:31:04.357Z",
+  "swarms": [
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Sinnoh",
+      "location": "Wayward Cave",
+      "sourceId": 1795002942,
+      "despawnTimestamp": 1795002941,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-18T11:55:42.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Kanto",
       "location": "Victory Road",
-      "secondsAgo": 12948,
+      "secondsAgo": 13271,
       "sourceId": 1794988193
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Starmie",
       "region": "Johto",
       "location": "Cliff Edge Gate",
-      "secondsAgo": 7532,
+      "secondsAgo": 7855,
       "sourceId": 1794993609
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Blaziken",
       "region": "Hoenn",
       "location": "Magma Hideout",
-      "secondsAgo": 8246,
+      "secondsAgo": 8569,
       "sourceId": 1794992895
-    },
-    {
-      "monsterId": 214,
-      "pokemon": "Heracross",
-      "region": "Sinnoh",
-      "location": "Route 206",
-      "secondsAgo": 9198,
-      "sourceId": 1794991943
     },
     {
       "monsterId": 106,
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "secondsAgo": 15201,
+      "secondsAgo": 15524,
       "sourceId": 1794985940
     }
   ],
