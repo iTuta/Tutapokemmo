@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-18T09:15:57.507Z",
+  "fetchedAt": "2026-11-18T09:20:47.861Z",
   "swarms": [
+    {
+      "monsterId": 121,
+      "pokemon": "Starmie",
+      "region": "Johto",
+      "location": "Cliff Edge Gate",
+      "sourceId": 1794995108,
+      "despawnTimestamp": 1794995107,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-18T09:45:08.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 257,
       "pokemon": "Blaziken",
@@ -11,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-18T09:33:14.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 214,
-      "pokemon": "Heracross",
-      "region": "Sinnoh",
-      "location": "Route 206",
-      "sourceId": 1794993443,
-      "despawnTimestamp": 1794993442,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-18T09:17:23.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,24 +30,24 @@
       "pokemon": "Salamence",
       "region": "Kanto",
       "location": "Victory Road",
-      "secondsAgo": 5164,
+      "secondsAgo": 5454,
       "sourceId": 1794988193
     },
     {
-      "monsterId": 154,
-      "pokemon": "Meganium",
-      "region": "Johto",
-      "location": "Route 48",
-      "secondsAgo": 12593,
-      "sourceId": 1794980764
+      "monsterId": 214,
+      "pokemon": "Heracross",
+      "region": "Sinnoh",
+      "location": "Route 206",
+      "secondsAgo": 1704,
+      "sourceId": 1794991943
     },
     {
       "monsterId": 106,
       "pokemon": "Hitmonlee",
       "region": "Unova",
       "location": "Victory Road",
-      "secondsAgo": 7417,
-      "sourceId": 1794985940
+      "secondsAgo": 7708,
+      "sourceId": 1794985939
     }
   ],
   "alpha": {
