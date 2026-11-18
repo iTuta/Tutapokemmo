@@ -1,26 +1,15 @@
 {
-  "fetchedAt": "2026-11-18T19:35:47.374Z",
+  "fetchedAt": "2026-11-18T19:40:50.328Z",
   "swarms": [
-    {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Kanto",
-      "location": "Icefall Cave",
-      "sourceId": 1795030798,
-      "despawnTimestamp": 1795030798,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-18T19:39:58.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 332,
       "pokemon": "Cacturne",
       "region": "Sinnoh",
       "location": "Route 228",
-      "sourceId": 1795030779,
-      "despawnTimestamp": 1795030779,
+      "sourceId": 1795031137,
+      "despawnTimestamp": 1795031137,
       "hasValuable": false,
-      "timestampUtc": "2026-11-18T19:39:39.000Z",
+      "timestampUtc": "2026-11-18T19:45:37.000Z",
       "publishedBy": ""
     },
     {
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Kanto",
+      "location": "Icefall Cave",
+      "secondsAgo": 1551,
+      "sourceId": 1795029299
+    },
+    {
       "monsterId": 372,
       "pokemon": "Shelgon",
       "region": "Johto",
       "location": "Dragon&#x27;s Den",
-      "secondsAgo": 6646,
+      "secondsAgo": 6949,
       "sourceId": 1795023901
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "Marshtomp",
       "region": "Hoenn",
       "location": "Route 124",
-      "secondsAgo": 5255,
+      "secondsAgo": 5558,
       "sourceId": 1795025292
     }
   ],
