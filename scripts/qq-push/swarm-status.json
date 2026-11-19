@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-19T20:35:53.711Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-19T20:40:58.383Z",
+  "swarms": [
+    {
+      "monsterId": 425,
+      "pokemon": "Drifloon",
+      "region": "Hoenn",
+      "location": "Route 105",
+      "sourceId": 1795122304,
+      "despawnTimestamp": 1795122304,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-19T21:05:04.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 137,
       "pokemon": "Porygon",
       "region": "Kanto",
       "location": "Pokemon Mansion",
-      "secondsAgo": 6180,
+      "secondsAgo": 6485,
       "sourceId": 1795114373
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Miltank",
       "region": "Johto",
       "location": "Route 39",
-      "secondsAgo": 3547,
+      "secondsAgo": 3852,
       "sourceId": 1795117006
-    },
-    {
-      "monsterId": 358,
-      "pokemon": "Chimecho",
-      "region": "Hoenn",
-      "location": "Mt. Pyre",
-      "secondsAgo": 7817,
-      "sourceId": 1795112736
     },
     {
       "monsterId": 332,
       "pokemon": "Cacturne",
       "region": "Sinnoh",
       "location": "Route 228",
-      "secondsAgo": 5199,
+      "secondsAgo": 5504,
       "sourceId": 1795115354
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 6236,
-      "sourceId": 1795114317
+      "secondsAgo": 6540,
+      "sourceId": 1795114318
     }
   ],
   "alpha": {
