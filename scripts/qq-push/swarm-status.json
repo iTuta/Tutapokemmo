@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-11-19T16:15:48.357Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-19T16:20:58.909Z",
+  "swarms": [
+    {
+      "monsterId": 281,
+      "pokemon": "Kirlia",
+      "region": "Johto",
+      "location": "Route 43",
+      "sourceId": 1795106712,
+      "despawnTimestamp": 1795106711,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-19T16:45:12.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 409,
       "pokemon": "Rampardos",
       "region": "Kanto",
       "location": "Scufib Chamber",
-      "secondsAgo": 12457,
-      "sourceId": 1795092491
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Johto",
-      "location": "Mt. Silver Cave",
-      "secondsAgo": 5406,
-      "sourceId": 1795099542
+      "secondsAgo": 12768,
+      "sourceId": 1795092490
     },
     {
       "monsterId": 252,
       "pokemon": "Treecko",
       "region": "Hoenn",
       "location": "Petalburg Woods",
-      "secondsAgo": 12229,
+      "secondsAgo": 12539,
       "sourceId": 1795092719
     },
     {
@@ -31,16 +35,16 @@
       "pokemon": "Crawdaunt",
       "region": "Sinnoh",
       "location": "Lake Valor",
-      "secondsAgo": 27220,
-      "sourceId": 1795077728
+      "secondsAgo": 27531,
+      "sourceId": 1795077727
     },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 4797,
-      "sourceId": 1795100151
+      "secondsAgo": 5108,
+      "sourceId": 1795100150
     }
   ],
   "alpha": {
