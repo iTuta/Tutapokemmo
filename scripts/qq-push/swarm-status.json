@@ -1,56 +1,50 @@
 {
-  "fetchedAt": "2026-11-19T19:15:53.110Z",
+  "fetchedAt": "2026-11-19T19:21:08.892Z",
   "swarms": [
-    {
-      "monsterId": 137,
-      "pokemon": "Porygon",
-      "region": "Kanto",
-      "location": "Pokemon Mansion",
-      "sourceId": 1795115873,
-      "despawnTimestamp": 1795115873,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-19T19:17:53.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 332,
       "pokemon": "Cacturne",
       "region": "Sinnoh",
       "location": "Route 228",
       "sourceId": 1795116853,
-      "despawnTimestamp": 1795116853,
+      "despawnTimestamp": 1795116852,
       "hasValuable": false,
       "timestampUtc": "2026-11-19T19:34:13.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Unova",
-      "location": "Guidance Chamber",
-      "sourceId": 1795115817,
-      "despawnTimestamp": 1795115817,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-19T19:16:57.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
+      "monsterId": 137,
+      "pokemon": "Porygon",
+      "region": "Kanto",
+      "location": "Pokemon Mansion",
+      "secondsAgo": 1695,
+      "sourceId": 1795114373
+    },
+    {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Johto",
       "location": "Route 43",
-      "secondsAgo": 10540,
-      "sourceId": 1795105213
+      "secondsAgo": 10856,
+      "sourceId": 1795105212
     },
     {
       "monsterId": 358,
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
-      "secondsAgo": 3017,
-      "sourceId": 1795112736
+      "secondsAgo": 3333,
+      "sourceId": 1795112735
+    },
+    {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Unova",
+      "location": "Guidance Chamber",
+      "secondsAgo": 1751,
+      "sourceId": 1795114317
     }
   ],
   "alpha": {
