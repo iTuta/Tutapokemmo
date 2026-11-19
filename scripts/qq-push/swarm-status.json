@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-19T21:02:50.149Z",
+  "fetchedAt": "2026-11-19T21:05:42.415Z",
   "swarms": [
     {
       "monsterId": 281,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1795122869,
       "hasValuable": false,
       "timestampUtc": "2026-11-19T21:14:29.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 425,
-      "pokemon": "Drifloon",
-      "region": "Hoenn",
-      "location": "Route 105",
-      "sourceId": 1795122304,
-      "despawnTimestamp": 1795122304,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-19T21:05:04.000Z",
       "publishedBy": ""
     },
     {
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 425,
+      "pokemon": "Drifloon",
+      "region": "Hoenn",
+      "location": "Route 105",
+      "secondsAgo": 1537,
+      "sourceId": 1795120805
+    },
+    {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 7852,
+      "secondsAgo": 8024,
       "sourceId": 1795114318
     }
   ],
