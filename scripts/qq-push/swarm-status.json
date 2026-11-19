@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-19T12:51:18.113Z",
+  "fetchedAt": "2026-11-19T13:01:07.147Z",
   "swarms": [
     {
       "monsterId": 409,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-19T13:08:10.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 252,
+      "pokemon": "Treecko",
+      "region": "Hoenn",
+      "location": "Petalburg Woods",
+      "sourceId": 1795094219,
+      "despawnTimestamp": 1795094219,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-19T13:16:59.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,23 +30,15 @@
       "pokemon": "Luvdisc",
       "region": "Johto",
       "location": "Route 47",
-      "secondsAgo": 5814,
+      "secondsAgo": 6403,
       "sourceId": 1795086864
-    },
-    {
-      "monsterId": 468,
-      "pokemon": "Togekiss",
-      "region": "Hoenn",
-      "location": "Sky Pillar",
-      "secondsAgo": 11038,
-      "sourceId": 1795081640
     },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
       "region": "Sinnoh",
       "location": "Lake Valor",
-      "secondsAgo": 14950,
+      "secondsAgo": 15539,
       "sourceId": 1795077728
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Pinsir",
       "region": "Unova",
       "location": "Route 12",
-      "secondsAgo": 19241,
+      "secondsAgo": 19830,
       "sourceId": 1795073437
     }
   ],
