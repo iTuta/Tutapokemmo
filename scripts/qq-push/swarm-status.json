@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-19T04:55:46.305Z",
+  "fetchedAt": "2026-11-19T05:06:04.135Z",
   "swarms": [
     {
       "monsterId": 468,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-19T05:10:04.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 91,
+      "pokemon": "Cloyster",
+      "region": "Sinnoh",
+      "location": "Route 223",
+      "sourceId": 1795065726,
+      "despawnTimestamp": 1795065726,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-19T05:22:06.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,31 +30,23 @@
       "pokemon": "Mr. Mime",
       "region": "Kanto",
       "location": "Route 21",
-      "secondsAgo": 20507,
-      "sourceId": 1795043639
+      "secondsAgo": 21124,
+      "sourceId": 1795043640
     },
     {
       "monsterId": 121,
       "pokemon": "Starmie",
       "region": "Johto",
       "location": "Cliff Edge Gate",
-      "secondsAgo": 18783,
+      "secondsAgo": 19401,
       "sourceId": 1795045363
-    },
-    {
-      "monsterId": 359,
-      "pokemon": "Absol",
-      "region": "Sinnoh",
-      "location": "Mt. Coronet",
-      "secondsAgo": 21827,
-      "sourceId": 1795042319
     },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 2950,
+      "secondsAgo": 3568,
       "sourceId": 1795061196
     }
   ],
