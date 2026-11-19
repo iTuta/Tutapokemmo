@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-11-19T21:50:49.571Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-19T21:55:53.611Z",
+  "swarms": [
+    {
+      "monsterId": 212,
+      "pokemon": "Scizor",
+      "region": "Unova",
+      "location": "Route 14",
+      "sourceId": 1795126581,
+      "despawnTimestamp": 1795126581,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-19T22:16:21.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Johto",
       "location": "Route 43",
-      "secondsAgo": 3679,
-      "sourceId": 1795121370
+      "secondsAgo": 3984,
+      "sourceId": 1795121369
     },
     {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Hoenn",
       "location": "Route 105",
-      "secondsAgo": 4244,
+      "secondsAgo": 4548,
       "sourceId": 1795120805
     },
     {
@@ -23,16 +35,8 @@
       "pokemon": "Crawdaunt",
       "region": "Sinnoh",
       "location": "Lake Valor",
-      "secondsAgo": 3073,
+      "secondsAgo": 3377,
       "sourceId": 1795121976
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Unova",
-      "location": "Guidance Chamber",
-      "secondsAgo": 10732,
-      "sourceId": 1795114317
     }
   ],
   "alpha": {
