@@ -1,45 +1,52 @@
 {
-  "fetchedAt": "2026-11-19T17:15:56.485Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-19T17:20:48.923Z",
+  "swarms": [
+    {
+      "monsterId": 349,
+      "pokemon": "Feebas",
+      "region": "Hoenn",
+      "location": "Route 130",
+      "sourceId": 1795110238,
+      "despawnTimestamp": 1795110237,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-19T17:43:58.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 390,
+      "pokemon": "Chimchar",
+      "region": "Sinnoh",
+      "location": "Route 211",
+      "sourceId": 1795109441,
+      "despawnTimestamp": 1795109440,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-19T17:30:41.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 409,
       "pokemon": "Rampardos",
       "region": "Kanto",
       "location": "Scufib Chamber",
-      "secondsAgo": 16065,
-      "sourceId": 1795092491
+      "secondsAgo": 16358,
+      "sourceId": 1795092490
     },
     {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Johto",
       "location": "Route 43",
-      "secondsAgo": 3343,
-      "sourceId": 1795105213
-    },
-    {
-      "monsterId": 376,
-      "pokemon": "Metagross",
-      "region": "Hoenn",
-      "location": "Meteor Falls",
-      "secondsAgo": 3113,
-      "sourceId": 1795105443
-    },
-    {
-      "monsterId": 342,
-      "pokemon": "Crawdaunt",
-      "region": "Sinnoh",
-      "location": "Lake Valor",
-      "secondsAgo": 30829,
-      "sourceId": 1795077727
+      "secondsAgo": 3636,
+      "sourceId": 1795105212
     },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 8406,
+      "secondsAgo": 8698,
       "sourceId": 1795100150
     }
   ],
