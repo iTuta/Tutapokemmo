@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-19T16:20:58.909Z",
+  "fetchedAt": "2026-11-19T16:26:21.470Z",
   "swarms": [
     {
       "monsterId": 281,
@@ -7,9 +7,20 @@
       "region": "Johto",
       "location": "Route 43",
       "sourceId": 1795106712,
-      "despawnTimestamp": 1795106711,
+      "despawnTimestamp": 1795106712,
       "hasValuable": false,
       "timestampUtc": "2026-11-19T16:45:12.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 376,
+      "pokemon": "Metagross",
+      "region": "Hoenn",
+      "location": "Meteor Falls",
+      "sourceId": 1795106942,
+      "despawnTimestamp": 1795106942,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-19T16:49:02.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,23 +30,15 @@
       "pokemon": "Rampardos",
       "region": "Kanto",
       "location": "Scufib Chamber",
-      "secondsAgo": 12768,
-      "sourceId": 1795092490
-    },
-    {
-      "monsterId": 252,
-      "pokemon": "Treecko",
-      "region": "Hoenn",
-      "location": "Petalburg Woods",
-      "secondsAgo": 12539,
-      "sourceId": 1795092719
+      "secondsAgo": 13090,
+      "sourceId": 1795092491
     },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
       "region": "Sinnoh",
       "location": "Lake Valor",
-      "secondsAgo": 27531,
+      "secondsAgo": 27854,
       "sourceId": 1795077727
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 5108,
+      "secondsAgo": 5431,
       "sourceId": 1795100150
     }
   ],
