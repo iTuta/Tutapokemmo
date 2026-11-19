@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-19T06:05:49.660Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-19T06:12:30.598Z",
+  "swarms": [
+    {
+      "monsterId": 120,
+      "pokemon": "Staryu",
+      "region": "Hoenn",
+      "location": "Route 106",
+      "sourceId": 1795069882,
+      "despawnTimestamp": 1795069881,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-19T06:31:22.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 122,
       "pokemon": "Mr. Mime",
       "region": "Kanto",
       "location": "Route 21",
-      "secondsAgo": 24710,
+      "secondsAgo": 25111,
       "sourceId": 1795043639
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Bonsly",
       "region": "Johto",
       "location": "Ilex Forest",
-      "secondsAgo": 1345,
+      "secondsAgo": 1746,
       "sourceId": 1795067004
-    },
-    {
-      "monsterId": 468,
-      "pokemon": "Togekiss",
-      "region": "Hoenn",
-      "location": "Sky Pillar",
-      "secondsAgo": 4844,
-      "sourceId": 1795063505
     },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
       "region": "Sinnoh",
       "location": "Route 223",
-      "secondsAgo": 4122,
+      "secondsAgo": 4523,
       "sourceId": 1795064227
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 7153,
+      "secondsAgo": 7554,
       "sourceId": 1795061196
     }
   ],
