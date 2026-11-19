@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-19T17:25:56.075Z",
+  "fetchedAt": "2026-11-19T17:31:05.125Z",
   "swarms": [
     {
       "monsterId": 349,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-19T17:43:58.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 390,
-      "pokemon": "Chimchar",
-      "region": "Sinnoh",
-      "location": "Route 211",
-      "sourceId": 1795109441,
-      "despawnTimestamp": 1795109441,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-19T17:30:41.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Rampardos",
       "region": "Kanto",
       "location": "Scufib Chamber",
-      "secondsAgo": 16665,
+      "secondsAgo": 16974,
       "sourceId": 1795092491
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Kirlia",
       "region": "Johto",
       "location": "Route 43",
-      "secondsAgo": 3943,
+      "secondsAgo": 4252,
       "sourceId": 1795105213
+    },
+    {
+      "monsterId": 390,
+      "pokemon": "Chimchar",
+      "region": "Sinnoh",
+      "location": "Route 211",
+      "secondsAgo": 623,
+      "sourceId": 1795108842
     },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 9005,
+      "secondsAgo": 9314,
       "sourceId": 1795100151
     }
   ],
