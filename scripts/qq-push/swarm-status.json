@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-11-19T07:05:49.649Z",
+  "fetchedAt": "2026-11-19T07:10:57.936Z",
   "swarms": [
-    {
-      "monsterId": 299,
-      "pokemon": "Nosepass",
-      "region": "Kanto",
-      "location": "Mt. Moon",
-      "sourceId": 1795072077,
-      "despawnTimestamp": 1795072076,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-19T07:07:57.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 474,
       "pokemon": "Porygon-Z",
       "region": "Johto",
       "location": "Team Rocket HQ",
       "sourceId": 1795073435,
-      "despawnTimestamp": 1795073435,
+      "despawnTimestamp": 1795073434,
       "hasValuable": false,
       "timestampUtc": "2026-11-19T07:30:35.000Z",
       "publishedBy": ""
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 299,
+      "pokemon": "Nosepass",
+      "region": "Kanto",
+      "location": "Mt. Moon",
+      "secondsAgo": 1680,
+      "sourceId": 1795070577
+    },
+    {
       "monsterId": 120,
       "pokemon": "Staryu",
       "region": "Hoenn",
       "location": "Route 106",
-      "secondsAgo": 3567,
+      "secondsAgo": 3875,
       "sourceId": 1795068382
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Cloyster",
       "region": "Sinnoh",
       "location": "Route 223",
-      "secondsAgo": 7722,
+      "secondsAgo": 8030,
       "sourceId": 1795064227
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 10753,
+      "secondsAgo": 11061,
       "sourceId": 1795061196
     }
   ],
