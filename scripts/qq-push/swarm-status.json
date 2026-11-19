@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-19T08:40:44.421Z",
+  "fetchedAt": "2026-11-19T08:45:54.842Z",
   "swarms": [
     {
       "monsterId": 415,
@@ -7,9 +7,20 @@
       "region": "Hoenn",
       "location": "Route 117",
       "sourceId": 1795078719,
-      "despawnTimestamp": 1795078719,
+      "despawnTimestamp": 1795078718,
       "hasValuable": false,
       "timestampUtc": "2026-11-19T08:58:39.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 342,
+      "pokemon": "Crawdaunt",
+      "region": "Sinnoh",
+      "location": "Lake Valor",
+      "sourceId": 1795079227,
+      "despawnTimestamp": 1795079226,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-19T09:07:07.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,24 +30,16 @@
       "pokemon": "Nosepass",
       "region": "Kanto",
       "location": "Mt. Moon",
-      "secondsAgo": 7066,
-      "sourceId": 1795070578
+      "secondsAgo": 7377,
+      "sourceId": 1795070577
     },
     {
       "monsterId": 349,
       "pokemon": "Feebas",
       "region": "Johto",
       "location": "Lake of Rage",
-      "secondsAgo": 1693,
+      "secondsAgo": 2003,
       "sourceId": 1795075951
-    },
-    {
-      "monsterId": 91,
-      "pokemon": "Cloyster",
-      "region": "Sinnoh",
-      "location": "Route 223",
-      "secondsAgo": 13417,
-      "sourceId": 1795064227
     }
   ],
   "alpha": {
