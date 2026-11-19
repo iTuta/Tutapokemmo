@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-11-19T18:20:53.681Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-19T18:25:43.143Z",
+  "swarms": [
+    {
+      "monsterId": 358,
+      "pokemon": "Chimecho",
+      "region": "Hoenn",
+      "location": "Mt. Pyre",
+      "sourceId": 1795113935,
+      "despawnTimestamp": 1795113935,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-19T18:45:35.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 409,
       "pokemon": "Rampardos",
       "region": "Kanto",
       "location": "Scufib Chamber",
-      "secondsAgo": 19963,
-      "sourceId": 1795092490
+      "secondsAgo": 20252,
+      "sourceId": 1795092491
     },
     {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Johto",
       "location": "Route 43",
-      "secondsAgo": 7241,
-      "sourceId": 1795105212
-    },
-    {
-      "monsterId": 349,
-      "pokemon": "Feebas",
-      "region": "Hoenn",
-      "location": "Route 130",
-      "secondsAgo": 3714,
-      "sourceId": 1795108739
+      "secondsAgo": 7530,
+      "sourceId": 1795105213
     },
     {
       "monsterId": 390,
       "pokemon": "Chimchar",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 3611,
+      "secondsAgo": 3901,
       "sourceId": 1795108842
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Octillery",
       "region": "Unova",
       "location": "Route 13",
-      "secondsAgo": 2295,
-      "sourceId": 1795110158
+      "secondsAgo": 2584,
+      "sourceId": 1795110159
     }
   ],
   "alpha": {
