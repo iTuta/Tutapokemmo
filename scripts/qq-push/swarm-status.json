@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-19T21:10:50.422Z",
+  "fetchedAt": "2026-11-19T21:16:35.347Z",
   "swarms": [
-    {
-      "monsterId": 281,
-      "pokemon": "Kirlia",
-      "region": "Johto",
-      "location": "Route 43",
-      "sourceId": 1795122869,
-      "despawnTimestamp": 1795122869,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-19T21:14:29.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 281,
+      "pokemon": "Kirlia",
+      "region": "Johto",
+      "location": "Route 43",
+      "secondsAgo": 1625,
+      "sourceId": 1795121370
+    },
+    {
       "monsterId": 425,
       "pokemon": "Drifloon",
       "region": "Hoenn",
       "location": "Route 105",
-      "secondsAgo": 1845,
+      "secondsAgo": 2190,
       "sourceId": 1795120805
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 8332,
+      "secondsAgo": 8677,
       "sourceId": 1795114318
     }
   ],
