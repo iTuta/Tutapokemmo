@@ -1,13 +1,33 @@
 {
-  "fetchedAt": "2026-11-19T03:05:38.375Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-19T03:10:52.882Z",
+  "swarms": [
+    {
+      "monsterId": 457,
+      "pokemon": "Lumineon",
+      "region": "Unova",
+      "location": "Route 17",
+      "sourceId": 1795059084,
+      "despawnTimestamp": 1795059083,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-19T03:31:24.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
+    {
+      "monsterId": 122,
+      "pokemon": "Mr. Mime",
+      "region": "Kanto",
+      "location": "Route 21",
+      "secondsAgo": 14213,
+      "sourceId": 1795043639
+    },
     {
       "monsterId": 121,
       "pokemon": "Starmie",
       "region": "Johto",
       "location": "Cliff Edge Gate",
-      "secondsAgo": 12176,
+      "secondsAgo": 12490,
       "sourceId": 1795045362
     },
     {
@@ -15,7 +35,7 @@
       "pokemon": "Combee",
       "region": "Hoenn",
       "location": "Route 117",
-      "secondsAgo": 8275,
+      "secondsAgo": 8589,
       "sourceId": 1795049263
     },
     {
@@ -23,16 +43,8 @@
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "secondsAgo": 15219,
+      "secondsAgo": 15533,
       "sourceId": 1795042319
-    },
-    {
-      "monsterId": 127,
-      "pokemon": "Pinsir",
-      "region": "Unova",
-      "location": "Route 12",
-      "secondsAgo": 8628,
-      "sourceId": 1795048910
     }
   ],
   "alpha": {
