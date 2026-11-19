@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-11-19T15:20:49.376Z",
-  "swarms": [
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Unova",
-      "location": "Route 1",
-      "sourceId": 1795101650,
-      "despawnTimestamp": 1795101650,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-19T15:20:50.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-11-19T15:26:44.112Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Johto",
       "location": "Mt. Silver Cave",
-      "secondsAgo": 2107,
+      "secondsAgo": 2462,
       "sourceId": 1795099542
     },
     {
@@ -27,16 +15,24 @@
       "pokemon": "Treecko",
       "region": "Hoenn",
       "location": "Petalburg Woods",
-      "secondsAgo": 8930,
-      "sourceId": 1795092719
+      "secondsAgo": 9284,
+      "sourceId": 1795092720
     },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
       "region": "Sinnoh",
       "location": "Lake Valor",
-      "secondsAgo": 23921,
+      "secondsAgo": 24276,
       "sourceId": 1795077728
+    },
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Unova",
+      "location": "Route 1",
+      "secondsAgo": 1853,
+      "sourceId": 1795100151
     }
   ],
   "alpha": {
