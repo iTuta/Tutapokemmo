@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-19T08:31:07.121Z",
+  "fetchedAt": "2026-11-19T08:36:33.713Z",
   "swarms": [
     {
       "monsterId": 349,
@@ -7,9 +7,20 @@
       "region": "Johto",
       "location": "Lake of Rage",
       "sourceId": 1795077451,
-      "despawnTimestamp": 1795077451,
+      "despawnTimestamp": 1795077450,
       "hasValuable": false,
       "timestampUtc": "2026-11-19T08:37:31.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 415,
+      "pokemon": "Combee",
+      "region": "Hoenn",
+      "location": "Route 117",
+      "sourceId": 1795078719,
+      "despawnTimestamp": 1795078718,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-19T08:58:39.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,23 +30,15 @@
       "pokemon": "Nosepass",
       "region": "Kanto",
       "location": "Mt. Moon",
-      "secondsAgo": 6489,
-      "sourceId": 1795070578
-    },
-    {
-      "monsterId": 120,
-      "pokemon": "Staryu",
-      "region": "Hoenn",
-      "location": "Route 106",
-      "secondsAgo": 8684,
-      "sourceId": 1795068383
+      "secondsAgo": 6816,
+      "sourceId": 1795070577
     },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
       "region": "Sinnoh",
       "location": "Route 223",
-      "secondsAgo": 12840,
+      "secondsAgo": 13166,
       "sourceId": 1795064227
     }
   ],
