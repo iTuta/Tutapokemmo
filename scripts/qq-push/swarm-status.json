@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-19T20:56:32.562Z",
+  "fetchedAt": "2026-11-19T21:02:50.149Z",
   "swarms": [
     {
       "monsterId": 281,
@@ -22,44 +22,39 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-19T21:05:04.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 342,
+      "pokemon": "Crawdaunt",
+      "region": "Sinnoh",
+      "location": "Lake Valor",
+      "sourceId": 1795123475,
+      "despawnTimestamp": 1795123475,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-19T21:24:35.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 137,
-      "pokemon": "Porygon",
-      "region": "Kanto",
-      "location": "Pokemon Mansion",
-      "secondsAgo": 7419,
-      "sourceId": 1795114373
-    },
-    {
-      "monsterId": 332,
-      "pokemon": "Cacturne",
-      "region": "Sinnoh",
-      "location": "Route 228",
-      "secondsAgo": 6438,
-      "sourceId": 1795115354
-    },
     {
       "monsterId": 448,
       "pokemon": "Lucario",
       "region": "Unova",
       "location": "Guidance Chamber",
-      "secondsAgo": 7475,
-      "sourceId": 1795114317
+      "secondsAgo": 7852,
+      "sourceId": 1795114318
     }
   ],
   "alpha": {
-    "monsterId": 149,
-    "pokemon": "Dragonite",
+    "monsterId": 73,
+    "pokemon": "Tentacruel",
     "region": "Kanto",
-    "location": "Six Island",
-    "sourceId": 1795086049,
-    "despawnTimestamp": 1795103149,
+    "location": "Water Labyrinth",
+    "sourceId": 1795109435,
+    "despawnTimestamp": 1795126535,
     "hasValuable": false,
-    "timestampUtc": "2026-11-19T11:00:49.000Z",
-    "timestampRaw": "2026-11-19T11:00:49.000Z",
-    "publishedBy": "MaxxyRoy"
+    "timestampUtc": "2026-11-19T17:30:35.000Z",
+    "timestampRaw": "2026-11-19T17:30:35.000Z",
+    "publishedBy": ""
   }
 }
