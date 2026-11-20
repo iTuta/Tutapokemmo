@@ -1,38 +1,42 @@
 {
-  "fetchedAt": "2026-11-20T07:36:39.339Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-20T07:40:55.777Z",
+  "swarms": [
+    {
+      "monsterId": 390,
+      "pokemon": "Chimchar",
+      "region": "Sinnoh",
+      "location": "Route 211",
+      "sourceId": 1795161910,
+      "despawnTimestamp": 1795161910,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-20T08:05:10.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Kanto",
       "location": "Route 16",
-      "secondsAgo": 1685,
-      "sourceId": 1795158514
+      "secondsAgo": 1942,
+      "sourceId": 1795158513
     },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 8670,
+      "secondsAgo": 8926,
       "sourceId": 1795151529
-    },
-    {
-      "monsterId": 455,
-      "pokemon": "Carnivine",
-      "region": "Sinnoh",
-      "location": "Route 225",
-      "secondsAgo": 6803,
-      "sourceId": 1795153396
     },
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Unova",
       "location": "Route 15",
-      "secondsAgo": 7647,
-      "sourceId": 1795152552
+      "secondsAgo": 7904,
+      "sourceId": 1795152551
     }
   ],
   "alpha": {
