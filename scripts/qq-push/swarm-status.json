@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-11-20T11:35:49.968Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-20T11:45:46.754Z",
+  "swarms": [
+    {
+      "monsterId": 288,
+      "pokemon": "Vigoroth",
+      "region": "Johto",
+      "location": "Ruins of Alph",
+      "sourceId": 1795176532,
+      "despawnTimestamp": 1795176531,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-20T12:08:52.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 142,
       "pokemon": "Aerodactyl",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 3417,
+      "secondsAgo": 4014,
       "sourceId": 1795171132
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Johto",
-      "location": "Bell Tower",
-      "secondsAgo": 11135,
-      "sourceId": 1795163414
     },
     {
       "monsterId": 370,
       "pokemon": "Luvdisc",
       "region": "Hoenn",
       "location": "Route 132",
-      "secondsAgo": 5560,
+      "secondsAgo": 6157,
       "sourceId": 1795168989
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Chimchar",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 14138,
+      "secondsAgo": 14735,
       "sourceId": 1795160411
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Crawdaunt",
       "region": "Unova",
       "location": "Route 3",
-      "secondsAgo": 2012,
+      "secondsAgo": 2609,
       "sourceId": 1795172537
     }
   ],
