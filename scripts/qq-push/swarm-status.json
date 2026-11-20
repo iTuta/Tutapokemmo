@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-20T15:56:10.681Z",
+  "fetchedAt": "2026-11-20T16:01:22.574Z",
   "swarms": [
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Johto",
-      "location": "Dark Cave",
-      "sourceId": 1795190350,
-      "despawnTimestamp": 1795190350,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-20T15:59:10.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 391,
       "pokemon": "Monferno",
@@ -41,15 +30,23 @@
       "pokemon": "Munna",
       "region": "Kanto",
       "location": "Route 4",
-      "secondsAgo": 11494,
+      "secondsAgo": 11806,
       "sourceId": 1795178676
+    },
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Johto",
+      "location": "Dark Cave",
+      "secondsAgo": 1631,
+      "sourceId": 1795188851
     },
     {
       "monsterId": 370,
       "pokemon": "Luvdisc",
       "region": "Hoenn",
       "location": "Route 132",
-      "secondsAgo": 21181,
+      "secondsAgo": 21493,
       "sourceId": 1795168989
     }
   ],
