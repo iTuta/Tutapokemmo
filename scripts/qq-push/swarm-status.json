@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-11-20T14:35:58.235Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-20T14:41:05.330Z",
+  "swarms": [
+    {
+      "monsterId": 155,
+      "pokemon": "Cyndaquil",
+      "region": "Johto",
+      "location": "Route 33",
+      "sourceId": 1795186876,
+      "despawnTimestamp": 1795186876,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-20T15:01:16.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 517,
       "pokemon": "Munna",
       "region": "Kanto",
       "location": "Route 4",
-      "secondsAgo": 6681,
-      "sourceId": 1795178677
-    },
-    {
-      "monsterId": 288,
-      "pokemon": "Vigoroth",
-      "region": "Johto",
-      "location": "Ruins of Alph",
-      "secondsAgo": 10325,
-      "sourceId": 1795175033
+      "secondsAgo": 6989,
+      "sourceId": 1795178676
     },
     {
       "monsterId": 340,
       "pokemon": "Whiscash",
       "region": "Sinnoh",
       "location": "Ravaged Path",
-      "secondsAgo": 6845,
+      "secondsAgo": 7152,
       "sourceId": 1795178513
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Crawdaunt",
       "region": "Unova",
       "location": "Route 3",
-      "secondsAgo": 12820,
+      "secondsAgo": 13127,
       "sourceId": 1795172538
     }
   ],
