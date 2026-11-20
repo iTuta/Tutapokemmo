@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-20T15:46:07.974Z",
+  "fetchedAt": "2026-11-20T15:51:03.265Z",
   "swarms": [
     {
       "monsterId": 115,
@@ -7,9 +7,20 @@
       "region": "Johto",
       "location": "Dark Cave",
       "sourceId": 1795190350,
-      "despawnTimestamp": 1795190349,
+      "despawnTimestamp": 1795190350,
       "hasValuable": false,
       "timestampUtc": "2026-11-20T15:59:10.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 391,
+      "pokemon": "Monferno",
+      "region": "Sinnoh",
+      "location": "Route 211",
+      "sourceId": 1795191091,
+      "despawnTimestamp": 1795191090,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-20T16:11:31.000Z",
       "publishedBy": ""
     },
     {
@@ -18,7 +29,7 @@
       "region": "Unova",
       "location": "Pinwheel Forest",
       "sourceId": 1795190765,
-      "despawnTimestamp": 1795190764,
+      "despawnTimestamp": 1795190765,
       "hasValuable": false,
       "timestampUtc": "2026-11-20T16:06:05.000Z",
       "publishedBy": ""
@@ -30,16 +41,16 @@
       "pokemon": "Munna",
       "region": "Kanto",
       "location": "Route 4",
-      "secondsAgo": 10891,
-      "sourceId": 1795178676
+      "secondsAgo": 11186,
+      "sourceId": 1795178677
     },
     {
-      "monsterId": 340,
-      "pokemon": "Whiscash",
-      "region": "Sinnoh",
-      "location": "Ravaged Path",
-      "secondsAgo": 11055,
-      "sourceId": 1795178512
+      "monsterId": 370,
+      "pokemon": "Luvdisc",
+      "region": "Hoenn",
+      "location": "Route 132",
+      "secondsAgo": 20873,
+      "sourceId": 1795168990
     }
   ],
   "alpha": {
@@ -52,6 +63,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-11-20T11:01:20.000Z",
     "timestampRaw": "2026-11-20T11:01:20.000Z",
-    "publishedBy": ""
+    "publishedBy": "MaxxyRoy"
   }
 }
