@@ -1,44 +1,21 @@
 {
-  "fetchedAt": "2026-11-20T01:22:20.643Z",
-  "swarms": [
-    {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Sinnoh",
-      "location": "Route 219",
-      "sourceId": 1795137823,
-      "despawnTimestamp": 1795137823,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-20T01:23:43.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 148,
-      "pokemon": "Dragonair",
-      "region": "Unova",
-      "location": "Dragonspiral Tower",
-      "sourceId": 1795137855,
-      "despawnTimestamp": 1795137854,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-20T01:24:15.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-11-20T01:25:46.260Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 4,
       "pokemon": "Charmander",
       "region": "Kanto",
       "location": "Route 3",
-      "secondsAgo": 1955,
-      "sourceId": 1795135785
+      "secondsAgo": 2160,
+      "sourceId": 1795135786
     },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Johto",
       "location": "Route 39",
-      "secondsAgo": 8199,
+      "secondsAgo": 8405,
       "sourceId": 1795129541
     },
     {
@@ -46,8 +23,24 @@
       "pokemon": "Torchic",
       "region": "Hoenn",
       "location": "Route 112",
-      "secondsAgo": 6732,
-      "sourceId": 1795131008
+      "secondsAgo": 6937,
+      "sourceId": 1795131009
+    },
+    {
+      "monsterId": 213,
+      "pokemon": "Shuckle",
+      "region": "Sinnoh",
+      "location": "Route 219",
+      "secondsAgo": 1622,
+      "sourceId": 1795136324
+    },
+    {
+      "monsterId": 148,
+      "pokemon": "Dragonair",
+      "region": "Unova",
+      "location": "Dragonspiral Tower",
+      "secondsAgo": 1590,
+      "sourceId": 1795136356
     }
   ],
   "alpha": {
