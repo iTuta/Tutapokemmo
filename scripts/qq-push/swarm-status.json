@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-20T23:36:02.063Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-20T23:41:32.173Z",
+  "swarms": [
+    {
+      "monsterId": 373,
+      "pokemon": "Salamence",
+      "region": "Unova",
+      "location": "Dragonspiral Tower",
+      "sourceId": 1795219518,
+      "despawnTimestamp": 1795219518,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-21T00:05:18.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 158,
       "pokemon": "Totodile",
       "region": "Johto",
       "location": "Route 32",
-      "secondsAgo": 11106,
+      "secondsAgo": 11436,
       "sourceId": 1795206656
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Lapras",
       "region": "Hoenn",
       "location": "Shoal Cave",
-      "secondsAgo": 5934,
+      "secondsAgo": 6264,
       "sourceId": 1795211828
     },
     {
@@ -23,16 +35,8 @@
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 6665,
+      "secondsAgo": 6995,
       "sourceId": 1795211097
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Unova",
-      "location": "Lostlorn Forest",
-      "secondsAgo": 9688,
-      "sourceId": 1795208074
     }
   ],
   "alpha": {
