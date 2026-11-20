@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-20T05:40:48.560Z",
+  "fetchedAt": "2026-11-20T05:45:52.126Z",
   "swarms": [
+    {
+      "monsterId": 455,
+      "pokemon": "Carnivine",
+      "region": "Sinnoh",
+      "location": "Route 225",
+      "sourceId": 1795154895,
+      "despawnTimestamp": 1795154895,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-20T06:08:15.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Unova",
       "location": "Route 15",
       "sourceId": 1795154051,
-      "despawnTimestamp": 1795154050,
+      "despawnTimestamp": 1795154051,
       "hasValuable": false,
       "timestampUtc": "2026-11-20T05:54:11.000Z",
       "publishedBy": ""
@@ -19,15 +30,15 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Kanto",
       "location": "Route 13",
-      "secondsAgo": 1688,
-      "sourceId": 1795151560
+      "secondsAgo": 1991,
+      "sourceId": 1795151561
     },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 1719,
+      "secondsAgo": 2023,
       "sourceId": 1795151529
     },
     {
@@ -35,16 +46,8 @@
       "pokemon": "Staryu",
       "region": "Hoenn",
       "location": "Route 106",
-      "secondsAgo": 8890,
+      "secondsAgo": 9194,
       "sourceId": 1795144358
-    },
-    {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Sinnoh",
-      "location": "Route 219",
-      "secondsAgo": 16924,
-      "sourceId": 1795136324
     }
   ],
   "alpha": {
