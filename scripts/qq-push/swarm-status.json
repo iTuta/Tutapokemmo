@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-11-20T00:48:19.076Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-20T00:50:56.002Z",
+  "swarms": [
     {
-      "monsterId": 137,
-      "pokemon": "Porygon",
+      "monsterId": 4,
+      "pokemon": "Charmander",
       "region": "Kanto",
-      "location": "Pokemon Mansion",
-      "secondsAgo": 21325,
-      "sourceId": 1795114374
-    },
+      "location": "Route 3",
+      "sourceId": 1795137285,
+      "despawnTimestamp": 1795137284,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-20T01:14:45.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Johto",
       "location": "Route 39",
-      "secondsAgo": 6157,
-      "sourceId": 1795129542
+      "secondsAgo": 6314,
+      "sourceId": 1795129541
     },
     {
       "monsterId": 255,
       "pokemon": "Torchic",
       "region": "Hoenn",
       "location": "Route 112",
-      "secondsAgo": 4690,
-      "sourceId": 1795131009
+      "secondsAgo": 4847,
+      "sourceId": 1795131008
     },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
       "region": "Sinnoh",
       "location": "Lake Valor",
-      "secondsAgo": 13723,
-      "sourceId": 1795121976
+      "secondsAgo": 13880,
+      "sourceId": 1795121975
     },
     {
       "monsterId": 212,
       "pokemon": "Scizor",
       "region": "Unova",
       "location": "Route 14",
-      "secondsAgo": 10617,
-      "sourceId": 1795125082
+      "secondsAgo": 10774,
+      "sourceId": 1795125081
     }
   ],
   "alpha": {
