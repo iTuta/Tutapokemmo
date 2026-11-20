@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-20T17:01:45.503Z",
+  "fetchedAt": "2026-11-20T17:06:37.233Z",
   "swarms": [
+    {
+      "monsterId": 121,
+      "pokemon": "Starmie",
+      "region": "Kanto",
+      "location": "Seven Island",
+      "sourceId": 1795195611,
+      "despawnTimestamp": 1795195611,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-20T17:26:51.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 468,
       "pokemon": "Togekiss",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 517,
-      "pokemon": "Munna",
-      "region": "Kanto",
-      "location": "Route 4",
-      "secondsAgo": 15429,
-      "sourceId": 1795178676
-    },
-    {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 5254,
+      "secondsAgo": 5546,
       "sourceId": 1795188851
     },
     {
@@ -35,15 +38,15 @@
       "pokemon": "Monferno",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 4514,
-      "sourceId": 1795189591
+      "secondsAgo": 4805,
+      "sourceId": 1795189592
     },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 4539,
+      "secondsAgo": 4831,
       "sourceId": 1795189566
     }
   ],
