@@ -1,25 +1,33 @@
 {
-  "fetchedAt": "2026-11-20T10:56:24.205Z",
+  "fetchedAt": "2026-11-20T11:05:51.496Z",
   "swarms": [
     {
-      "monsterId": 142,
-      "pokemon": "Aerodactyl",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "sourceId": 1795172632,
-      "despawnTimestamp": 1795172632,
+      "monsterId": 342,
+      "pokemon": "Crawdaunt",
+      "region": "Unova",
+      "location": "Route 3",
+      "sourceId": 1795173737,
+      "despawnTimestamp": 1795173736,
       "hasValuable": false,
-      "timestampUtc": "2026-11-20T11:03:52.000Z",
+      "timestampUtc": "2026-11-20T11:22:17.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
+      "monsterId": 142,
+      "pokemon": "Aerodactyl",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "secondsAgo": 1618,
+      "sourceId": 1795171133
+    },
+    {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 8769,
+      "secondsAgo": 9336,
       "sourceId": 1795163415
     },
     {
@@ -27,24 +35,16 @@
       "pokemon": "Luvdisc",
       "region": "Hoenn",
       "location": "Route 132",
-      "secondsAgo": 3194,
-      "sourceId": 1795168990
+      "secondsAgo": 3762,
+      "sourceId": 1795168989
     },
     {
       "monsterId": 390,
       "pokemon": "Chimchar",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 11773,
+      "secondsAgo": 12340,
       "sourceId": 1795160411
-    },
-    {
-      "monsterId": 127,
-      "pokemon": "Pinsir",
-      "region": "Unova",
-      "location": "Route 12",
-      "secondsAgo": 7405,
-      "sourceId": 1795164779
     }
   ],
   "alpha": {
