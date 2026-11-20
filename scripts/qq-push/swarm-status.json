@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-20T20:35:49.055Z",
+  "fetchedAt": "2026-11-20T20:41:05.504Z",
   "swarms": [
     {
       "monsterId": 158,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-20T20:55:55.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 439,
+      "pokemon": "Mime Jr.",
+      "region": "Hoenn",
+      "location": "Rusturf Tunnel",
+      "sourceId": 1795208705,
+      "despawnTimestamp": 1795208704,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-20T21:05:05.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,23 +30,15 @@
       "pokemon": "Salamence",
       "region": "Kanto",
       "location": "Victory Road",
-      "secondsAgo": 5225,
-      "sourceId": 1795201724
-    },
-    {
-      "monsterId": 468,
-      "pokemon": "Togekiss",
-      "region": "Hoenn",
-      "location": "Sky Pillar",
-      "secondsAgo": 13980,
-      "sourceId": 1795192969
+      "secondsAgo": 5542,
+      "sourceId": 1795201723
     },
     {
       "monsterId": 415,
       "pokemon": "Combee",
       "region": "Sinnoh",
       "location": "Floaroma Meadow",
-      "secondsAgo": 8222,
+      "secondsAgo": 8538,
       "sourceId": 1795198727
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Shroomish",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 17383,
+      "secondsAgo": 17699,
       "sourceId": 1795189566
     }
   ],
