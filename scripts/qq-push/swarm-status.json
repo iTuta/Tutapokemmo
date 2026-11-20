@@ -1,33 +1,21 @@
 {
-  "fetchedAt": "2026-11-20T02:27:24.533Z",
-  "swarms": [
-    {
-      "monsterId": 430,
-      "pokemon": "Honchkrow",
-      "region": "Unova",
-      "location": "Celestial Tower",
-      "sourceId": 1795141855,
-      "despawnTimestamp": 1795141855,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-20T02:30:55.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-11-20T02:34:29.447Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 4,
       "pokemon": "Charmander",
       "region": "Kanto",
       "location": "Route 3",
-      "secondsAgo": 5859,
-      "sourceId": 1795135785
+      "secondsAgo": 6283,
+      "sourceId": 1795135786
     },
     {
       "monsterId": 255,
       "pokemon": "Torchic",
       "region": "Hoenn",
       "location": "Route 112",
-      "secondsAgo": 10635,
+      "secondsAgo": 11060,
       "sourceId": 1795131009
     },
     {
@@ -35,8 +23,16 @@
       "pokemon": "Shuckle",
       "region": "Sinnoh",
       "location": "Route 219",
-      "secondsAgo": 5320,
+      "secondsAgo": 5745,
       "sourceId": 1795136324
+    },
+    {
+      "monsterId": 430,
+      "pokemon": "Honchkrow",
+      "region": "Unova",
+      "location": "Celestial Tower",
+      "secondsAgo": 1713,
+      "sourceId": 1795140356
     }
   ],
   "alpha": {
