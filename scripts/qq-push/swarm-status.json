@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-20T17:06:37.233Z",
+  "fetchedAt": "2026-11-20T17:11:17.509Z",
   "swarms": [
     {
       "monsterId": 121,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-20T17:26:51.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 468,
-      "pokemon": "Togekiss",
-      "region": "Hoenn",
-      "location": "Sky Pillar",
-      "sourceId": 1795194468,
-      "despawnTimestamp": 1795194468,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-20T17:07:48.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,23 +19,31 @@
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 5546,
+      "secondsAgo": 5826,
       "sourceId": 1795188851
+    },
+    {
+      "monsterId": 468,
+      "pokemon": "Togekiss",
+      "region": "Hoenn",
+      "location": "Sky Pillar",
+      "secondsAgo": 1708,
+      "sourceId": 1795192969
     },
     {
       "monsterId": 391,
       "pokemon": "Monferno",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 4805,
-      "sourceId": 1795189592
+      "secondsAgo": 5086,
+      "sourceId": 1795189591
     },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 4831,
+      "secondsAgo": 5111,
       "sourceId": 1795189566
     }
   ],
