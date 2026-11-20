@@ -1,29 +1,36 @@
 {
-  "fetchedAt": "2026-11-20T05:10:45.898Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-20T05:16:06.951Z",
+  "swarms": [
     {
-      "monsterId": 442,
-      "pokemon": "Spiritomb",
+      "monsterId": 83,
+      "pokemon": "Farfetch&#x27;d",
       "region": "Kanto",
-      "location": "Lost Cave",
-      "secondsAgo": 3967,
-      "sourceId": 1795147478
+      "location": "Route 13",
+      "sourceId": 1795153060,
+      "despawnTimestamp": 1795153059,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-20T05:37:40.000Z",
+      "publishedBy": ""
     },
     {
-      "monsterId": 158,
-      "pokemon": "Totodile",
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
       "region": "Johto",
-      "location": "Route 32",
-      "secondsAgo": 12476,
-      "sourceId": 1795138969
-    },
+      "location": "Dark Cave",
+      "sourceId": 1795153028,
+      "despawnTimestamp": 1795153028,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-20T05:37:08.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 120,
       "pokemon": "Staryu",
       "region": "Hoenn",
       "location": "Route 106",
-      "secondsAgo": 7087,
+      "secondsAgo": 7408,
       "sourceId": 1795144358
     },
     {
@@ -31,7 +38,7 @@
       "pokemon": "Shuckle",
       "region": "Sinnoh",
       "location": "Route 219",
-      "secondsAgo": 15122,
+      "secondsAgo": 15443,
       "sourceId": 1795136323
     },
     {
@@ -39,7 +46,7 @@
       "pokemon": "Honchkrow",
       "region": "Unova",
       "location": "Celestial Tower",
-      "secondsAgo": 11090,
+      "secondsAgo": 11411,
       "sourceId": 1795140355
     }
   ],
