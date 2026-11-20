@@ -1,38 +1,42 @@
 {
-  "fetchedAt": "2026-11-20T03:06:35.749Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-20T03:14:19.460Z",
+  "swarms": [
+    {
+      "monsterId": 120,
+      "pokemon": "Staryu",
+      "region": "Hoenn",
+      "location": "Route 106",
+      "sourceId": 1795145857,
+      "despawnTimestamp": 1795145857,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-20T03:37:37.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 4,
       "pokemon": "Charmander",
       "region": "Kanto",
       "location": "Route 3",
-      "secondsAgo": 8210,
-      "sourceId": 1795135785
-    },
-    {
-      "monsterId": 255,
-      "pokemon": "Torchic",
-      "region": "Hoenn",
-      "location": "Route 112",
-      "secondsAgo": 12987,
-      "sourceId": 1795131008
+      "secondsAgo": 8673,
+      "sourceId": 1795135786
     },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Sinnoh",
       "location": "Route 219",
-      "secondsAgo": 7672,
-      "sourceId": 1795136323
+      "secondsAgo": 8135,
+      "sourceId": 1795136324
     },
     {
       "monsterId": 430,
       "pokemon": "Honchkrow",
       "region": "Unova",
       "location": "Celestial Tower",
-      "secondsAgo": 3640,
-      "sourceId": 1795140355
+      "secondsAgo": 4103,
+      "sourceId": 1795140356
     }
   ],
   "alpha": {
