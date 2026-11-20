@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-20T21:41:23.117Z",
+  "fetchedAt": "2026-11-20T21:46:10.199Z",
   "swarms": [
     {
       "monsterId": 7,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-20T21:49:10.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 288,
+      "pokemon": "Vigoroth",
+      "region": "Sinnoh",
+      "location": "Route 215",
+      "sourceId": 1795212296,
+      "despawnTimestamp": 1795212296,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-20T22:04:56.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Totodile",
       "region": "Johto",
       "location": "Route 32",
-      "secondsAgo": 4227,
+      "secondsAgo": 4514,
       "sourceId": 1795206656
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Mime Jr.",
       "region": "Hoenn",
       "location": "Rusturf Tunnel",
-      "secondsAgo": 3677,
+      "secondsAgo": 3964,
       "sourceId": 1795207206
-    },
-    {
-      "monsterId": 415,
-      "pokemon": "Combee",
-      "region": "Sinnoh",
-      "location": "Floaroma Meadow",
-      "secondsAgo": 12156,
-      "sourceId": 1795198727
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 2810,
+      "secondsAgo": 3097,
       "sourceId": 1795208073
     }
   ],
