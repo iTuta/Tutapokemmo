@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-20T12:55:56.413Z",
+  "fetchedAt": "2026-11-20T13:01:29.966Z",
   "swarms": [
     {
       "monsterId": 517,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-20T13:04:36.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 340,
-      "pokemon": "Whiscash",
-      "region": "Sinnoh",
-      "location": "Ravaged Path",
-      "sourceId": 1795179712,
-      "despawnTimestamp": 1795179712,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-20T13:01:52.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Vigoroth",
       "region": "Johto",
       "location": "Ruins of Alph",
-      "secondsAgo": 4324,
+      "secondsAgo": 4657,
       "sourceId": 1795175032
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Luvdisc",
       "region": "Hoenn",
       "location": "Route 132",
-      "secondsAgo": 10367,
+      "secondsAgo": 10700,
       "sourceId": 1795168989
+    },
+    {
+      "monsterId": 340,
+      "pokemon": "Whiscash",
+      "region": "Sinnoh",
+      "location": "Ravaged Path",
+      "secondsAgo": 1177,
+      "sourceId": 1795178512
     },
     {
       "monsterId": 342,
       "pokemon": "Crawdaunt",
       "region": "Unova",
       "location": "Route 3",
-      "secondsAgo": 6819,
+      "secondsAgo": 7152,
       "sourceId": 1795172537
     }
   ],
