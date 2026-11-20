@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-11-20T22:20:56.015Z",
-  "swarms": [
-    {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Hoenn",
-      "location": "Shoal Cave",
-      "sourceId": 1795213327,
-      "despawnTimestamp": 1795213327,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-20T22:22:07.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-11-20T22:26:00.890Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 7,
       "pokemon": "Squirtle",
       "region": "Kanto",
       "location": "Route 24",
-      "secondsAgo": 3405,
+      "secondsAgo": 3710,
       "sourceId": 1795209850
     },
     {
@@ -27,15 +15,23 @@
       "pokemon": "Totodile",
       "region": "Johto",
       "location": "Route 32",
-      "secondsAgo": 6600,
-      "sourceId": 1795206655
+      "secondsAgo": 6904,
+      "sourceId": 1795206656
+    },
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Hoenn",
+      "location": "Shoal Cave",
+      "secondsAgo": 1732,
+      "sourceId": 1795211828
     },
     {
       "monsterId": 288,
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 2159,
+      "secondsAgo": 2464,
       "sourceId": 1795211096
     },
     {
@@ -43,7 +39,7 @@
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 5182,
+      "secondsAgo": 5487,
       "sourceId": 1795208073
     }
   ],
