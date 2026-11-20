@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-11-20T19:06:14.677Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-20T19:10:50.723Z",
+  "swarms": [
     {
-      "monsterId": 121,
-      "pokemon": "Starmie",
+      "monsterId": 373,
+      "pokemon": "Salamence",
       "region": "Kanto",
-      "location": "Seven Island",
-      "secondsAgo": 7462,
-      "sourceId": 1795194112
-    },
+      "location": "Victory Road",
+      "sourceId": 1795203223,
+      "despawnTimestamp": 1795203222,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-20T19:33:43.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 190,
       "pokemon": "Aipom",
       "region": "Johto",
       "location": "Route 29",
-      "secondsAgo": 6339,
+      "secondsAgo": 6615,
       "sourceId": 1795195235
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Togekiss",
       "region": "Hoenn",
       "location": "Sky Pillar",
-      "secondsAgo": 8605,
+      "secondsAgo": 8881,
       "sourceId": 1795192969
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Combee",
       "region": "Sinnoh",
       "location": "Floaroma Meadow",
-      "secondsAgo": 2848,
+      "secondsAgo": 3124,
       "sourceId": 1795198726
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Shroomish",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 12008,
+      "secondsAgo": 12284,
       "sourceId": 1795189566
     }
   ],
