@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-11-20T10:01:20.460Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-20T10:06:27.255Z",
+  "swarms": [
+    {
+      "monsterId": 370,
+      "pokemon": "Luvdisc",
+      "region": "Hoenn",
+      "location": "Route 132",
+      "sourceId": 1795170489,
+      "despawnTimestamp": 1795170489,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-20T10:28:09.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 214,
       "pokemon": "Heracross",
       "region": "Kanto",
       "location": "Route 16",
-      "secondsAgo": 10367,
-      "sourceId": 1795158513
+      "secondsAgo": 10673,
+      "sourceId": 1795158514
     },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 5465,
+      "secondsAgo": 5772,
       "sourceId": 1795163415
-    },
-    {
-      "monsterId": 316,
-      "pokemon": "Gulpin",
-      "region": "Hoenn",
-      "location": "Route 110",
-      "secondsAgo": 13383,
-      "sourceId": 1795155497
     },
     {
       "monsterId": 390,
       "pokemon": "Chimchar",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 8469,
+      "secondsAgo": 8776,
       "sourceId": 1795160411
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Pinsir",
       "region": "Unova",
       "location": "Route 12",
-      "secondsAgo": 4101,
+      "secondsAgo": 4408,
       "sourceId": 1795164779
     }
   ],
