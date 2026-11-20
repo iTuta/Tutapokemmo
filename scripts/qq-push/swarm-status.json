@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-20T21:56:26.135Z",
+  "fetchedAt": "2026-11-20T22:01:01.037Z",
   "swarms": [
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Hoenn",
+      "location": "Shoal Cave",
+      "sourceId": 1795213327,
+      "despawnTimestamp": 1795213328,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-20T22:22:07.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 288,
       "pokemon": "Vigoroth",
@@ -19,7 +30,7 @@
       "pokemon": "Squirtle",
       "region": "Kanto",
       "location": "Route 24",
-      "secondsAgo": 1935,
+      "secondsAgo": 2210,
       "sourceId": 1795209851
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Totodile",
       "region": "Johto",
       "location": "Route 32",
-      "secondsAgo": 5130,
+      "secondsAgo": 5405,
       "sourceId": 1795206656
-    },
-    {
-      "monsterId": 439,
-      "pokemon": "Mime Jr.",
-      "region": "Hoenn",
-      "location": "Rusturf Tunnel",
-      "secondsAgo": 4580,
-      "sourceId": 1795207206
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 3712,
+      "secondsAgo": 3987,
       "sourceId": 1795208074
     }
   ],
