@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-20T22:01:01.037Z",
+  "fetchedAt": "2026-11-20T22:05:42.060Z",
   "swarms": [
     {
       "monsterId": 131,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-20T22:22:07.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 288,
-      "pokemon": "Vigoroth",
-      "region": "Sinnoh",
-      "location": "Route 215",
-      "sourceId": 1795212296,
-      "despawnTimestamp": 1795212296,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-20T22:04:56.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Squirtle",
       "region": "Kanto",
       "location": "Route 24",
-      "secondsAgo": 2210,
+      "secondsAgo": 2491,
       "sourceId": 1795209851
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Totodile",
       "region": "Johto",
       "location": "Route 32",
-      "secondsAgo": 5405,
-      "sourceId": 1795206656
+      "secondsAgo": 5685,
+      "sourceId": 1795206657
+    },
+    {
+      "monsterId": 288,
+      "pokemon": "Vigoroth",
+      "region": "Sinnoh",
+      "location": "Route 215",
+      "secondsAgo": 1245,
+      "sourceId": 1795211097
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 3987,
+      "secondsAgo": 4268,
       "sourceId": 1795208074
     }
   ],
