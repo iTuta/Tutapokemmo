@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-20T06:16:00.390Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-20T06:20:56.545Z",
+  "swarms": [
+    {
+      "monsterId": 316,
+      "pokemon": "Gulpin",
+      "region": "Hoenn",
+      "location": "Route 110",
+      "sourceId": 1795156997,
+      "despawnTimestamp": 1795156996,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-20T06:43:17.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Kanto",
       "location": "Route 13",
-      "secondsAgo": 3799,
+      "secondsAgo": 4095,
       "sourceId": 1795151561
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 3831,
+      "secondsAgo": 4127,
       "sourceId": 1795151529
-    },
-    {
-      "monsterId": 120,
-      "pokemon": "Staryu",
-      "region": "Hoenn",
-      "location": "Route 106",
-      "secondsAgo": 11002,
-      "sourceId": 1795144358
     },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Sinnoh",
       "location": "Route 225",
-      "secondsAgo": 1965,
+      "secondsAgo": 2261,
       "sourceId": 1795153395
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Houndoom",
       "region": "Unova",
       "location": "Route 15",
-      "secondsAgo": 2808,
-      "sourceId": 1795152552
+      "secondsAgo": 3105,
+      "sourceId": 1795152551
     }
   ],
   "alpha": {
