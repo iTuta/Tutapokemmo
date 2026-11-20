@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-11-20T16:11:20.643Z",
-  "swarms": [
-    {
-      "monsterId": 391,
-      "pokemon": "Monferno",
-      "region": "Sinnoh",
-      "location": "Route 211",
-      "sourceId": 1795191091,
-      "despawnTimestamp": 1795191090,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-20T16:11:31.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-11-20T16:16:15.464Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 517,
       "pokemon": "Munna",
       "region": "Kanto",
       "location": "Route 4",
-      "secondsAgo": 12404,
+      "secondsAgo": 12699,
       "sourceId": 1795178676
     },
     {
@@ -27,7 +15,7 @@
       "pokemon": "Kangaskhan",
       "region": "Johto",
       "location": "Dark Cave",
-      "secondsAgo": 2229,
+      "secondsAgo": 2524,
       "sourceId": 1795188851
     },
     {
@@ -35,15 +23,23 @@
       "pokemon": "Luvdisc",
       "region": "Hoenn",
       "location": "Route 132",
-      "secondsAgo": 22091,
+      "secondsAgo": 22386,
       "sourceId": 1795168989
+    },
+    {
+      "monsterId": 391,
+      "pokemon": "Monferno",
+      "region": "Sinnoh",
+      "location": "Route 211",
+      "secondsAgo": 1784,
+      "sourceId": 1795189591
     },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 1514,
+      "secondsAgo": 1809,
       "sourceId": 1795189566
     }
   ],
