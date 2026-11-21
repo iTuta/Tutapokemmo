@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-11-21T09:16:06.570Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-21T09:21:04.072Z",
+  "swarms": [
+    {
+      "monsterId": 255,
+      "pokemon": "Torchic",
+      "region": "Hoenn",
+      "location": "Route 112",
+      "sourceId": 1795254069,
+      "despawnTimestamp": 1795254070,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-21T09:41:09.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 1,
       "pokemon": "Bulbasaur",
       "region": "Kanto",
       "location": "Viridian Forest",
-      "secondsAgo": 10480,
-      "sourceId": 1795242086
+      "secondsAgo": 10777,
+      "sourceId": 1795242087
     },
     {
       "monsterId": 153,
       "pokemon": "Bayleef",
       "region": "Johto",
       "location": "National Park",
-      "secondsAgo": 7595,
-      "sourceId": 1795244971
-    },
-    {
-      "monsterId": 149,
-      "pokemon": "Dragonite",
-      "region": "Hoenn",
-      "location": "Route 131",
-      "secondsAgo": 10891,
-      "sourceId": 1795241675
+      "secondsAgo": 7892,
+      "sourceId": 1795244972
     },
     {
       "monsterId": 248,
       "pokemon": "Tyranitar",
       "region": "Sinnoh",
       "location": "Stark Mountain",
-      "secondsAgo": 10498,
+      "secondsAgo": 10796,
       "sourceId": 1795242068
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 13354,
-      "sourceId": 1795239212
+      "secondsAgo": 13651,
+      "sourceId": 1795239213
     }
   ],
   "alpha": {
