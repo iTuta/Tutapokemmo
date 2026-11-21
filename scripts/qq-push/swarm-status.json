@@ -1,13 +1,36 @@
 {
-  "fetchedAt": "2026-11-21T01:21:00.437Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-21T01:25:45.761Z",
+  "swarms": [
+    {
+      "monsterId": 442,
+      "pokemon": "Spiritomb",
+      "region": "Hoenn",
+      "location": "Abandoned Ship",
+      "sourceId": 1795225789,
+      "despawnTimestamp": 1795225789,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-21T01:49:49.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 222,
+      "pokemon": "Corsola",
+      "region": "Unova",
+      "location": "Undella Bay",
+      "sourceId": 1795225762,
+      "despawnTimestamp": 1795225761,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-21T01:49:22.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 7,
       "pokemon": "Squirtle",
       "region": "Kanto",
       "location": "Route 24",
-      "secondsAgo": 14210,
+      "secondsAgo": 14495,
       "sourceId": 1795209850
     },
     {
@@ -15,32 +38,16 @@
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 4792,
+      "secondsAgo": 5077,
       "sourceId": 1795219268
-    },
-    {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Hoenn",
-      "location": "Shoal Cave",
-      "secondsAgo": 12232,
-      "sourceId": 1795211828
     },
     {
       "monsterId": 288,
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 12963,
-      "sourceId": 1795211097
-    },
-    {
-      "monsterId": 373,
-      "pokemon": "Salamence",
-      "region": "Unova",
-      "location": "Dragonspiral Tower",
-      "secondsAgo": 6042,
-      "sourceId": 1795218018
+      "secondsAgo": 13249,
+      "sourceId": 1795211096
     }
   ],
   "alpha": {
