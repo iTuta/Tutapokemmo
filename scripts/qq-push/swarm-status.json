@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-21T09:41:14.361Z",
+  "fetchedAt": "2026-11-21T09:45:53.947Z",
   "swarms": [
+    {
+      "monsterId": 453,
+      "pokemon": "Croagunk",
+      "region": "Kanto",
+      "location": "Route 6",
+      "sourceId": 1795255783,
+      "despawnTimestamp": 1795255782,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-21T10:09:43.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 391,
       "pokemon": "Monferno",
       "region": "Sinnoh",
       "location": "Route 211",
       "sourceId": 1795255545,
-      "despawnTimestamp": 1795255545,
+      "despawnTimestamp": 1795255544,
       "hasValuable": false,
       "timestampUtc": "2026-11-21T10:05:45.000Z",
       "publishedBy": ""
@@ -15,48 +26,32 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 1,
-      "pokemon": "Bulbasaur",
-      "region": "Kanto",
-      "location": "Viridian Forest",
-      "secondsAgo": 11987,
-      "sourceId": 1795242087
-    },
-    {
       "monsterId": 153,
       "pokemon": "Bayleef",
       "region": "Johto",
       "location": "National Park",
-      "secondsAgo": 9102,
-      "sourceId": 1795244972
+      "secondsAgo": 9382,
+      "sourceId": 1795244971
     },
     {
       "monsterId": 255,
       "pokemon": "Torchic",
       "region": "Hoenn",
       "location": "Route 112",
-      "secondsAgo": 1504,
+      "secondsAgo": 1783,
       "sourceId": 1795252570
-    },
-    {
-      "monsterId": 335,
-      "pokemon": "Zangoose",
-      "region": "Unova",
-      "location": "Route 7",
-      "secondsAgo": 14861,
-      "sourceId": 1795239213
     }
   ],
   "alpha": {
-    "monsterId": 572,
-    "pokemon": "Minccino",
+    "monsterId": 319,
+    "pokemon": "Sharpedo",
     "region": "Unova",
-    "location": "Route 16",
-    "sourceId": 1795216256,
-    "despawnTimestamp": 1795233356,
+    "location": "Undella Bay",
+    "sourceId": 1795241738,
+    "despawnTimestamp": 1795258838,
     "hasValuable": false,
-    "timestampUtc": "2026-11-20T23:10:56.000Z",
-    "timestampRaw": "2026-11-20T23:10:56.000Z",
+    "timestampUtc": "2026-11-21T06:15:38.000Z",
+    "timestampRaw": "2026-11-21T06:15:38.000Z",
     "publishedBy": ""
   }
 }
