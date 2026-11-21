@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-21T03:25:53.221Z",
+  "fetchedAt": "2026-11-21T03:31:20.695Z",
   "swarms": [
+    {
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Johto",
+      "location": "Route 38",
+      "sourceId": 1795233217,
+      "despawnTimestamp": 1795233216,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-21T03:53:37.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 393,
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
       "sourceId": 1795232137,
-      "despawnTimestamp": 1795232137,
+      "despawnTimestamp": 1795232136,
       "hasValuable": false,
       "timestampUtc": "2026-11-21T03:35:37.000Z",
       "publishedBy": ""
@@ -19,23 +30,15 @@
       "pokemon": "Croagunk",
       "region": "Kanto",
       "location": "Route 6",
-      "secondsAgo": 6215,
-      "sourceId": 1795225338
-    },
-    {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Johto",
-      "location": "Burned Tower",
-      "secondsAgo": 12284,
-      "sourceId": 1795219269
+      "secondsAgo": 6543,
+      "sourceId": 1795225337
     },
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Hoenn",
       "location": "Abandoned Ship",
-      "secondsAgo": 7263,
+      "secondsAgo": 7590,
       "sourceId": 1795224290
     }
   ],
