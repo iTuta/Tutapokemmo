@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-21T15:15:58.058Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-21T15:21:08.454Z",
+  "swarms": [
+    {
+      "monsterId": 285,
+      "pokemon": "Shroomish",
+      "region": "Sinnoh",
+      "location": "Route 201",
+      "sourceId": 1795275745,
+      "despawnTimestamp": 1795275744,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-21T15:42:25.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
       "region": "Kanto",
       "location": "Route 6",
-      "secondsAgo": 19874,
+      "secondsAgo": 20184,
       "sourceId": 1795254284
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Sharpedo",
       "region": "Johto",
       "location": "Route 41",
-      "secondsAgo": 2451,
+      "secondsAgo": 2761,
       "sourceId": 1795271707
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Carnivine",
       "region": "Hoenn",
       "location": "Route 123",
-      "secondsAgo": 6165,
-      "sourceId": 1795267993
-    },
-    {
-      "monsterId": 391,
-      "pokemon": "Monferno",
-      "region": "Sinnoh",
-      "location": "Route 211",
-      "secondsAgo": 20112,
-      "sourceId": 1795254046
+      "secondsAgo": 6476,
+      "sourceId": 1795267992
     },
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Unova",
       "location": "Route 12",
-      "secondsAgo": 3634,
+      "secondsAgo": 3944,
       "sourceId": 1795270524
     }
   ],
