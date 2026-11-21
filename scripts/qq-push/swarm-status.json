@@ -1,53 +1,46 @@
 {
-  "fetchedAt": "2026-11-21T06:45:51.058Z",
-  "swarms": [
+  "fetchedAt": "2026-11-21T06:51:26.706Z",
+  "swarms": [],
+  "lastSeen": [
     {
       "monsterId": 1,
       "pokemon": "Bulbasaur",
       "region": "Kanto",
       "location": "Viridian Forest",
-      "sourceId": 1795243586,
-      "despawnTimestamp": 1795243586,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-21T06:46:26.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1800,
+      "sourceId": 1795242086
     },
-    {
-      "monsterId": 248,
-      "pokemon": "Tyranitar",
-      "region": "Sinnoh",
-      "location": "Stark Mountain",
-      "sourceId": 1795243567,
-      "despawnTimestamp": 1795243567,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-21T06:46:07.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Johto",
       "location": "Route 38",
-      "secondsAgo": 11833,
-      "sourceId": 1795231718
+      "secondsAgo": 12169,
+      "sourceId": 1795231717
     },
     {
       "monsterId": 149,
       "pokemon": "Dragonite",
       "region": "Hoenn",
       "location": "Route 131",
-      "secondsAgo": 1875,
-      "sourceId": 1795241676
+      "secondsAgo": 2211,
+      "sourceId": 1795241675
+    },
+    {
+      "monsterId": 248,
+      "pokemon": "Tyranitar",
+      "region": "Sinnoh",
+      "location": "Stark Mountain",
+      "secondsAgo": 1819,
+      "sourceId": 1795242067
     },
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 4338,
-      "sourceId": 1795239213
+      "secondsAgo": 4674,
+      "sourceId": 1795239212
     }
   ],
   "alpha": {
