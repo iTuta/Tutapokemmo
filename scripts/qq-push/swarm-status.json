@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-21T17:16:18.504Z",
+  "fetchedAt": "2026-11-21T17:20:49.990Z",
   "swarms": [
+    {
+      "monsterId": 299,
+      "pokemon": "Nosepass",
+      "region": "Kanto",
+      "location": "Mt. Moon",
+      "sourceId": 1795283041,
+      "despawnTimestamp": 1795283040,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-21T17:44:01.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 281,
       "pokemon": "Kirlia",
@@ -18,7 +29,7 @@
       "region": "Hoenn",
       "location": "Scorched Slab",
       "sourceId": 1795282197,
-      "despawnTimestamp": 1795282197,
+      "despawnTimestamp": 1795282196,
       "hasValuable": false,
       "timestampUtc": "2026-11-21T17:29:57.000Z",
       "publishedBy": ""
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 453,
-      "pokemon": "Croagunk",
-      "region": "Kanto",
-      "location": "Route 6",
-      "secondsAgo": 27095,
-      "sourceId": 1795254283
-    },
-    {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Sinnoh",
       "location": "Route 201",
-      "secondsAgo": 7133,
+      "secondsAgo": 7404,
       "sourceId": 1795274245
     },
     {
@@ -46,7 +49,7 @@
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 3674,
+      "secondsAgo": 3945,
       "sourceId": 1795277704
     }
   ],
