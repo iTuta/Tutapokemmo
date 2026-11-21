@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-11-21T12:20:48.916Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-21T12:25:53.825Z",
+  "swarms": [
+    {
+      "monsterId": 176,
+      "pokemon": "Togetic",
+      "region": "Johto",
+      "location": "Route 27",
+      "sourceId": 1795265392,
+      "despawnTimestamp": 1795265392,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-21T12:49:52.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
       "region": "Kanto",
       "location": "Route 6",
-      "secondsAgo": 9365,
+      "secondsAgo": 9670,
       "sourceId": 1795254283
-    },
-    {
-      "monsterId": 156,
-      "pokemon": "Quilava",
-      "region": "Johto",
-      "location": "Route 42",
-      "secondsAgo": 7331,
-      "sourceId": 1795256317
     },
     {
       "monsterId": 255,
       "pokemon": "Torchic",
       "region": "Hoenn",
       "location": "Route 112",
-      "secondsAgo": 11078,
+      "secondsAgo": 11383,
       "sourceId": 1795252570
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Monferno",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 9603,
+      "secondsAgo": 9908,
       "sourceId": 1795254045
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 24436,
+      "secondsAgo": 24741,
       "sourceId": 1795239212
     }
   ],
