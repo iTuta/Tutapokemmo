@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-11-21T22:46:18.217Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-21T22:51:08.324Z",
+  "swarms": [
     {
       "monsterId": 328,
       "pokemon": "Trapinch",
       "region": "Kanto",
       "location": "Diglett&#x27;s Cave",
-      "secondsAgo": 10602,
-      "sourceId": 1795290576
-    },
+      "sourceId": 1795302725,
+      "despawnTimestamp": 1795302725,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-21T23:12:05.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 121,
       "pokemon": "Starmie",
       "region": "Johto",
       "location": "Cliff Edge Gate",
-      "secondsAgo": 8813,
+      "secondsAgo": 9103,
       "sourceId": 1795292365
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Combee",
       "region": "Hoenn",
       "location": "Route 117",
-      "secondsAgo": 10571,
+      "secondsAgo": 10861,
       "sourceId": 1795290607
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Pinsir",
       "region": "Unova",
       "location": "Route 12",
-      "secondsAgo": 6275,
+      "secondsAgo": 6565,
       "sourceId": 1795294903
     }
   ],
