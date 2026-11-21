@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-11-21T10:15:49.511Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-21T10:20:46.038Z",
+  "swarms": [
+    {
+      "monsterId": 156,
+      "pokemon": "Quilava",
+      "region": "Johto",
+      "location": "Route 42",
+      "sourceId": 1795257817,
+      "despawnTimestamp": 1795257817,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-21T10:43:37.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
       "region": "Kanto",
       "location": "Route 6",
-      "secondsAgo": 1866,
-      "sourceId": 1795254283
-    },
-    {
-      "monsterId": 153,
-      "pokemon": "Bayleef",
-      "region": "Johto",
-      "location": "National Park",
-      "secondsAgo": 11178,
-      "sourceId": 1795244971
+      "secondsAgo": 2162,
+      "sourceId": 1795254284
     },
     {
       "monsterId": 255,
       "pokemon": "Torchic",
       "region": "Hoenn",
       "location": "Route 112",
-      "secondsAgo": 3579,
-      "sourceId": 1795252570
+      "secondsAgo": 3875,
+      "sourceId": 1795252571
     },
     {
       "monsterId": 391,
       "pokemon": "Monferno",
       "region": "Sinnoh",
       "location": "Route 211",
-      "secondsAgo": 2103,
+      "secondsAgo": 2400,
       "sourceId": 1795254046
     }
   ],
