@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-21T23:20:55.294Z",
+  "fetchedAt": "2026-11-21T23:25:42.658Z",
   "swarms": [
     {
       "monsterId": 154,
@@ -13,23 +13,12 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 260,
-      "pokemon": "Swampert",
-      "region": "Hoenn",
-      "location": "Route 109",
-      "sourceId": 1795303286,
-      "despawnTimestamp": 1795303286,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-21T23:21:26.000Z",
-      "publishedBy": ""
-    },
-    {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
       "sourceId": 1795304242,
-      "despawnTimestamp": 1795304242,
+      "despawnTimestamp": 1795304241,
       "hasValuable": false,
       "timestampUtc": "2026-11-21T23:37:22.000Z",
       "publishedBy": ""
@@ -41,8 +30,24 @@
       "pokemon": "Trapinch",
       "region": "Kanto",
       "location": "Diglett&#x27;s Cave",
-      "secondsAgo": 2029,
-      "sourceId": 1795301226
+      "secondsAgo": 2317,
+      "sourceId": 1795301225
+    },
+    {
+      "monsterId": 260,
+      "pokemon": "Swampert",
+      "region": "Hoenn",
+      "location": "Route 109",
+      "secondsAgo": 1755,
+      "sourceId": 1795301787
+    },
+    {
+      "monsterId": 91,
+      "pokemon": "Cloyster",
+      "region": "Sinnoh",
+      "location": "Route 223",
+      "secondsAgo": 20152,
+      "sourceId": 1795283390
     }
   ],
   "alpha": {
