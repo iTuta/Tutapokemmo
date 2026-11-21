@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-21T06:36:21.729Z",
+  "fetchedAt": "2026-11-21T06:40:49.667Z",
   "swarms": [
     {
       "monsterId": 1,
@@ -7,20 +7,9 @@
       "region": "Kanto",
       "location": "Viridian Forest",
       "sourceId": 1795243586,
-      "despawnTimestamp": 1795243585,
+      "despawnTimestamp": 1795243586,
       "hasValuable": false,
       "timestampUtc": "2026-11-21T06:46:26.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 149,
-      "pokemon": "Dragonite",
-      "region": "Hoenn",
-      "location": "Route 131",
-      "sourceId": 1795243175,
-      "despawnTimestamp": 1795243174,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-21T06:39:35.000Z",
       "publishedBy": ""
     },
     {
@@ -29,7 +18,7 @@
       "region": "Sinnoh",
       "location": "Stark Mountain",
       "sourceId": 1795243567,
-      "despawnTimestamp": 1795243566,
+      "despawnTimestamp": 1795243567,
       "hasValuable": false,
       "timestampUtc": "2026-11-21T06:46:07.000Z",
       "publishedBy": ""
@@ -41,15 +30,23 @@
       "pokemon": "Tauros",
       "region": "Johto",
       "location": "Route 38",
-      "secondsAgo": 11264,
+      "secondsAgo": 11532,
       "sourceId": 1795231717
+    },
+    {
+      "monsterId": 149,
+      "pokemon": "Dragonite",
+      "region": "Hoenn",
+      "location": "Route 131",
+      "secondsAgo": 1574,
+      "sourceId": 1795241675
     },
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 3769,
+      "secondsAgo": 4037,
       "sourceId": 1795239212
     }
   ],
