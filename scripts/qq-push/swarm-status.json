@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-11-21T05:01:08.504Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-21T05:06:09.171Z",
+  "swarms": [
     {
-      "monsterId": 453,
-      "pokemon": "Croagunk",
+      "monsterId": 479,
+      "pokemon": "Rotom",
       "region": "Kanto",
-      "location": "Route 6",
-      "secondsAgo": 11931,
-      "sourceId": 1795225337
-    },
+      "location": "Power Plant",
+      "sourceId": 1795238859,
+      "despawnTimestamp": 1795238859,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-21T05:27:39.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Johto",
       "location": "Route 38",
-      "secondsAgo": 5551,
-      "sourceId": 1795231717
+      "secondsAgo": 5851,
+      "sourceId": 1795231718
     },
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Hoenn",
       "location": "Jagged Pass",
-      "secondsAgo": 2499,
+      "secondsAgo": 2800,
       "sourceId": 1795234769
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Piplup",
       "region": "Sinnoh",
       "location": "Route 204",
-      "secondsAgo": 6630,
+      "secondsAgo": 6931,
       "sourceId": 1795230638
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Corsola",
       "region": "Unova",
       "location": "Undella Bay",
-      "secondsAgo": 13005,
+      "secondsAgo": 13306,
       "sourceId": 1795224263
     }
   ],
