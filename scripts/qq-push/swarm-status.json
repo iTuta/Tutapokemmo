@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-21T01:45:45.076Z",
+  "fetchedAt": "2026-11-21T01:50:53.396Z",
   "swarms": [
     {
       "monsterId": 453,
@@ -11,28 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-21T02:07:17.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 442,
-      "pokemon": "Spiritomb",
-      "region": "Hoenn",
-      "location": "Abandoned Ship",
-      "sourceId": 1795225789,
-      "despawnTimestamp": 1795225790,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-21T01:49:49.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 222,
-      "pokemon": "Corsola",
-      "region": "Unova",
-      "location": "Undella Bay",
-      "sourceId": 1795225762,
-      "despawnTimestamp": 1795225762,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-21T01:49:22.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,16 +19,32 @@
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 6276,
-      "sourceId": 1795219269
+      "secondsAgo": 6585,
+      "sourceId": 1795219268
+    },
+    {
+      "monsterId": 442,
+      "pokemon": "Spiritomb",
+      "region": "Hoenn",
+      "location": "Abandoned Ship",
+      "secondsAgo": 1563,
+      "sourceId": 1795224290
     },
     {
       "monsterId": 288,
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 14448,
+      "secondsAgo": 14756,
       "sourceId": 1795211097
+    },
+    {
+      "monsterId": 222,
+      "pokemon": "Corsola",
+      "region": "Unova",
+      "location": "Undella Bay",
+      "secondsAgo": 1590,
+      "sourceId": 1795224263
     }
   ],
   "alpha": {
