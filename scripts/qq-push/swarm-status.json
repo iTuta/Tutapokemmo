@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-11-21T03:06:35.567Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-21T03:10:56.253Z",
+  "swarms": [
+    {
+      "monsterId": 393,
+      "pokemon": "Piplup",
+      "region": "Sinnoh",
+      "location": "Route 204",
+      "sourceId": 1795232137,
+      "despawnTimestamp": 1795232137,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-21T03:35:37.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
       "region": "Kanto",
       "location": "Route 6",
-      "secondsAgo": 5058,
-      "sourceId": 1795225337
+      "secondsAgo": 5318,
+      "sourceId": 1795225338
     },
     {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 11127,
+      "secondsAgo": 11388,
       "sourceId": 1795219268
     },
     {
@@ -23,16 +35,8 @@
       "pokemon": "Spiritomb",
       "region": "Hoenn",
       "location": "Abandoned Ship",
-      "secondsAgo": 6105,
+      "secondsAgo": 6366,
       "sourceId": 1795224290
-    },
-    {
-      "monsterId": 288,
-      "pokemon": "Vigoroth",
-      "region": "Sinnoh",
-      "location": "Route 215",
-      "secondsAgo": 19298,
-      "sourceId": 1795211097
     }
   ],
   "alpha": {
