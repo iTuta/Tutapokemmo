@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-11-21T19:46:10.038Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-21T19:50:55.577Z",
+  "swarms": [
     {
-      "monsterId": 299,
-      "pokemon": "Nosepass",
+      "monsterId": 328,
+      "pokemon": "Trapinch",
       "region": "Kanto",
-      "location": "Mt. Moon",
-      "secondsAgo": 8828,
-      "sourceId": 1795281542
-    },
+      "location": "Diglett&#x27;s Cave",
+      "sourceId": 1795292075,
+      "despawnTimestamp": 1795292075,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-21T20:14:35.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Johto",
       "location": "Route 43",
-      "secondsAgo": 10088,
-      "sourceId": 1795280282
+      "secondsAgo": 10374,
+      "sourceId": 1795280281
     },
     {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
+      "monsterId": 415,
+      "pokemon": "Combee",
       "region": "Hoenn",
-      "location": "Scorched Slab",
-      "secondsAgo": 9672,
-      "sourceId": 1795280698
+      "location": "Route 117",
+      "secondsAgo": 49,
+      "sourceId": 1795290606
     },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
       "region": "Sinnoh",
       "location": "Route 223",
-      "secondsAgo": 6979,
-      "sourceId": 1795283391
+      "secondsAgo": 7265,
+      "sourceId": 1795283390
     },
     {
       "monsterId": 287,
       "pokemon": "Slakoth",
       "region": "Unova",
       "location": "Route 2",
-      "secondsAgo": 8548,
-      "sourceId": 1795281822
+      "secondsAgo": 8834,
+      "sourceId": 1795281821
     }
   ],
   "alpha": {
