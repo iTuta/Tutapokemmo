@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-11-21T16:55:46.132Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-21T17:01:22.267Z",
+  "swarms": [
+    {
+      "monsterId": 281,
+      "pokemon": "Kirlia",
+      "region": "Johto",
+      "location": "Route 43",
+      "sourceId": 1795281781,
+      "despawnTimestamp": 1795281781,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-21T17:23:01.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 453,
       "pokemon": "Croagunk",
       "region": "Kanto",
       "location": "Route 6",
-      "secondsAgo": 25862,
+      "secondsAgo": 26198,
       "sourceId": 1795254284
-    },
-    {
-      "monsterId": 319,
-      "pokemon": "Sharpedo",
-      "region": "Johto",
-      "location": "Route 41",
-      "secondsAgo": 8439,
-      "sourceId": 1795271707
     },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Hoenn",
       "location": "Route 123",
-      "secondsAgo": 12153,
-      "sourceId": 1795267993
+      "secondsAgo": 12490,
+      "sourceId": 1795267992
     },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Sinnoh",
       "location": "Route 201",
-      "secondsAgo": 5900,
+      "secondsAgo": 6236,
       "sourceId": 1795274246
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Cacnea",
       "region": "Unova",
       "location": "Route 4",
-      "secondsAgo": 2441,
-      "sourceId": 1795277705
+      "secondsAgo": 2778,
+      "sourceId": 1795277704
     }
   ],
   "alpha": {
