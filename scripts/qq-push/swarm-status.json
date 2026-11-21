@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-21T17:20:49.990Z",
+  "fetchedAt": "2026-11-21T17:25:45.666Z",
   "swarms": [
     {
       "monsterId": 299,
@@ -13,17 +13,6 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 281,
-      "pokemon": "Kirlia",
-      "region": "Johto",
-      "location": "Route 43",
-      "sourceId": 1795281781,
-      "despawnTimestamp": 1795281780,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-21T17:23:01.000Z",
-      "publishedBy": ""
-    },
-    {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Hoenn",
@@ -33,24 +22,35 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-21T17:29:57.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 287,
+      "pokemon": "Slakoth",
+      "region": "Unova",
+      "location": "Route 2",
+      "sourceId": 1795283320,
+      "despawnTimestamp": 1795283320,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-21T17:48:40.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
+    {
+      "monsterId": 281,
+      "pokemon": "Kirlia",
+      "region": "Johto",
+      "location": "Route 43",
+      "secondsAgo": 1664,
+      "sourceId": 1795280281
+    },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Sinnoh",
       "location": "Route 201",
-      "secondsAgo": 7404,
+      "secondsAgo": 7700,
       "sourceId": 1795274245
-    },
-    {
-      "monsterId": 331,
-      "pokemon": "Cacnea",
-      "region": "Unova",
-      "location": "Route 4",
-      "secondsAgo": 3945,
-      "sourceId": 1795277704
     }
   ],
   "alpha": {
