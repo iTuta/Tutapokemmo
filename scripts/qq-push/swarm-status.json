@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-21T06:21:00.033Z",
+  "fetchedAt": "2026-11-21T06:25:50.050Z",
   "swarms": [
+    {
+      "monsterId": 1,
+      "pokemon": "Bulbasaur",
+      "region": "Kanto",
+      "location": "Viridian Forest",
+      "sourceId": 1795243586,
+      "despawnTimestamp": 1795243586,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-21T06:46:26.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 149,
       "pokemon": "Dragonite",
@@ -11,39 +22,34 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-21T06:39:35.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 248,
+      "pokemon": "Tyranitar",
+      "region": "Sinnoh",
+      "location": "Stark Mountain",
+      "sourceId": 1795243567,
+      "despawnTimestamp": 1795243567,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-21T06:46:07.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
-    {
-      "monsterId": 479,
-      "pokemon": "Rotom",
-      "region": "Kanto",
-      "location": "Power Plant",
-      "secondsAgo": 4700,
-      "sourceId": 1795237360
-    },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Johto",
       "location": "Route 38",
-      "secondsAgo": 10342,
+      "secondsAgo": 10632,
       "sourceId": 1795231718
-    },
-    {
-      "monsterId": 393,
-      "pokemon": "Piplup",
-      "region": "Sinnoh",
-      "location": "Route 204",
-      "secondsAgo": 11422,
-      "sourceId": 1795230638
     },
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 2847,
+      "secondsAgo": 3137,
       "sourceId": 1795239213
     }
   ],
