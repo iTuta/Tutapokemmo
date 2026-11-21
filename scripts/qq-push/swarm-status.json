@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-21T01:41:25.095Z",
+  "fetchedAt": "2026-11-21T01:45:45.076Z",
   "swarms": [
+    {
+      "monsterId": 453,
+      "pokemon": "Croagunk",
+      "region": "Kanto",
+      "location": "Route 6",
+      "sourceId": 1795226837,
+      "despawnTimestamp": 1795226837,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-21T02:07:17.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 7,
-      "pokemon": "Squirtle",
-      "region": "Kanto",
-      "location": "Route 24",
-      "secondsAgo": 15434,
-      "sourceId": 1795209851
-    },
-    {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 6016,
+      "secondsAgo": 6276,
       "sourceId": 1795219269
     },
     {
@@ -46,7 +49,7 @@
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 14188,
+      "secondsAgo": 14448,
       "sourceId": 1795211097
     }
   ],
