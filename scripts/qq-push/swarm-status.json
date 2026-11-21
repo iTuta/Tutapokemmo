@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-21T17:41:08.872Z",
+  "fetchedAt": "2026-11-21T17:46:06.721Z",
   "swarms": [
-    {
-      "monsterId": 299,
-      "pokemon": "Nosepass",
-      "region": "Kanto",
-      "location": "Mt. Moon",
-      "sourceId": 1795283041,
-      "despawnTimestamp": 1795283040,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-21T17:44:01.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 287,
       "pokemon": "Slakoth",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 299,
+      "pokemon": "Nosepass",
+      "region": "Kanto",
+      "location": "Mt. Moon",
+      "secondsAgo": 1625,
+      "sourceId": 1795281541
+    },
+    {
       "monsterId": 281,
       "pokemon": "Kirlia",
       "region": "Johto",
       "location": "Route 43",
-      "secondsAgo": 2587,
+      "secondsAgo": 2885,
       "sourceId": 1795280281
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Volcarona",
       "region": "Hoenn",
       "location": "Scorched Slab",
-      "secondsAgo": 2171,
+      "secondsAgo": 2469,
       "sourceId": 1795280697
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Shroomish",
       "region": "Sinnoh",
       "location": "Route 201",
-      "secondsAgo": 8623,
+      "secondsAgo": 8921,
       "sourceId": 1795274245
     }
   ],
