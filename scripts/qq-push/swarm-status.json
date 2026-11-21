@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-21T21:01:11.769Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-21T21:05:51.076Z",
+  "swarms": [
+    {
+      "monsterId": 127,
+      "pokemon": "Pinsir",
+      "region": "Unova",
+      "location": "Route 12",
+      "sourceId": 1795296402,
+      "despawnTimestamp": 1795296402,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-21T21:26:42.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 328,
       "pokemon": "Trapinch",
       "region": "Kanto",
       "location": "Diglett&#x27;s Cave",
-      "secondsAgo": 4295,
+      "secondsAgo": 4575,
       "sourceId": 1795290576
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Starmie",
       "region": "Johto",
       "location": "Cliff Edge Gate",
-      "secondsAgo": 2506,
+      "secondsAgo": 2786,
       "sourceId": 1795292365
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Combee",
       "region": "Hoenn",
       "location": "Route 117",
-      "secondsAgo": 4265,
-      "sourceId": 1795290606
+      "secondsAgo": 4544,
+      "sourceId": 1795290607
     },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
       "region": "Sinnoh",
       "location": "Route 223",
-      "secondsAgo": 11481,
-      "sourceId": 1795283390
-    },
-    {
-      "monsterId": 287,
-      "pokemon": "Slakoth",
-      "region": "Unova",
-      "location": "Route 2",
-      "secondsAgo": 13050,
-      "sourceId": 1795281821
+      "secondsAgo": 11760,
+      "sourceId": 1795283391
     }
   ],
   "alpha": {
