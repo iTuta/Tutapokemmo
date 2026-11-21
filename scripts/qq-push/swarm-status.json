@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-21T17:25:45.666Z",
+  "fetchedAt": "2026-11-21T17:30:56.138Z",
   "swarms": [
     {
       "monsterId": 299,
@@ -7,20 +7,9 @@
       "region": "Kanto",
       "location": "Mt. Moon",
       "sourceId": 1795283041,
-      "despawnTimestamp": 1795283040,
+      "despawnTimestamp": 1795283041,
       "hasValuable": false,
       "timestampUtc": "2026-11-21T17:44:01.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Hoenn",
-      "location": "Scorched Slab",
-      "sourceId": 1795282197,
-      "despawnTimestamp": 1795282196,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-21T17:29:57.000Z",
       "publishedBy": ""
     },
     {
@@ -41,16 +30,24 @@
       "pokemon": "Kirlia",
       "region": "Johto",
       "location": "Route 43",
-      "secondsAgo": 1664,
-      "sourceId": 1795280281
+      "secondsAgo": 1974,
+      "sourceId": 1795280282
+    },
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Hoenn",
+      "location": "Scorched Slab",
+      "secondsAgo": 1558,
+      "sourceId": 1795280698
     },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Sinnoh",
       "location": "Route 201",
-      "secondsAgo": 7700,
-      "sourceId": 1795274245
+      "secondsAgo": 8010,
+      "sourceId": 1795274246
     }
   ],
   "alpha": {
