@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-22T22:40:53.192Z",
+  "fetchedAt": "2026-11-22T22:45:53.725Z",
   "swarms": [
     {
       "monsterId": 2,
@@ -7,9 +7,20 @@
       "region": "Kanto",
       "location": "Route 5",
       "sourceId": 1795388742,
-      "despawnTimestamp": 1795388742,
+      "despawnTimestamp": 1795388741,
       "hasValuable": false,
       "timestampUtc": "2026-11-22T23:05:42.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Hoenn",
+      "location": "Scorched Slab",
+      "sourceId": 1795388847,
+      "despawnTimestamp": 1795388847,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-22T23:07:27.000Z",
       "publishedBy": ""
     },
     {
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 351,
-      "pokemon": "Castform",
-      "region": "Hoenn",
-      "location": "Aqua Hideout",
-      "secondsAgo": 5891,
-      "sourceId": 1795381362
-    },
-    {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 12608,
+      "secondsAgo": 12908,
       "sourceId": 1795374645
     }
   ],
