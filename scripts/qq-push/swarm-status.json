@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-22T16:30:57.205Z",
+  "fetchedAt": "2026-11-22T16:35:46.257Z",
   "swarms": [
     {
       "monsterId": 198,
@@ -11,28 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-22T16:42:59.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 335,
-      "pokemon": "Zangoose",
-      "region": "Sinnoh",
-      "location": "Route 205",
-      "sourceId": 1795365252,
-      "despawnTimestamp": 1795365252,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-22T16:34:12.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 285,
-      "pokemon": "Shroomish",
-      "region": "Unova",
-      "location": "Pinwheel Forest",
-      "sourceId": 1795365322,
-      "despawnTimestamp": 1795365322,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-22T16:35:22.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,7 +19,7 @@
       "pokemon": "Feraligatr",
       "region": "Johto",
       "location": "Tohjo Falls",
-      "secondsAgo": 2334,
+      "secondsAgo": 2623,
       "sourceId": 1795362723
     },
     {
@@ -49,8 +27,24 @@
       "pokemon": "Dragonite",
       "region": "Hoenn",
       "location": "Route 131",
-      "secondsAgo": 10784,
+      "secondsAgo": 11073,
       "sourceId": 1795354273
+    },
+    {
+      "monsterId": 335,
+      "pokemon": "Zangoose",
+      "region": "Sinnoh",
+      "location": "Route 205",
+      "secondsAgo": 1594,
+      "sourceId": 1795363752
+    },
+    {
+      "monsterId": 285,
+      "pokemon": "Shroomish",
+      "region": "Unova",
+      "location": "Pinwheel Forest",
+      "secondsAgo": 1523,
+      "sourceId": 1795363823
     }
   ],
   "alpha": {
