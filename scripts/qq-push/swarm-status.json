@@ -1,37 +1,44 @@
 {
-  "fetchedAt": "2026-11-22T22:35:51.864Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-22T22:40:53.192Z",
+  "swarms": [
     {
-      "monsterId": 409,
-      "pokemon": "Rampardos",
+      "monsterId": 2,
+      "pokemon": "Ivysaur",
       "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 9165,
-      "sourceId": 1795377786
+      "location": "Route 5",
+      "sourceId": 1795388742,
+      "despawnTimestamp": 1795388742,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-22T23:05:42.000Z",
+      "publishedBy": ""
     },
+    {
+      "monsterId": 357,
+      "pokemon": "Tropius",
+      "region": "Sinnoh",
+      "location": "Route 226",
+      "sourceId": 1795388519,
+      "despawnTimestamp": 1795388519,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-22T23:01:59.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 351,
       "pokemon": "Castform",
       "region": "Hoenn",
       "location": "Aqua Hideout",
-      "secondsAgo": 5590,
-      "sourceId": 1795381361
-    },
-    {
-      "monsterId": 126,
-      "pokemon": "Magmar",
-      "region": "Sinnoh",
-      "location": "Fuego Ironworks",
-      "secondsAgo": 6075,
-      "sourceId": 1795380876
+      "secondsAgo": 5891,
+      "sourceId": 1795381362
     },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 12306,
+      "secondsAgo": 12608,
       "sourceId": 1795374645
     }
   ],
