@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-22T17:50:51.780Z",
+  "fetchedAt": "2026-11-22T17:55:43.504Z",
   "swarms": [
-    {
-      "monsterId": 479,
-      "pokemon": "Rotom",
-      "region": "Kanto",
-      "location": "Power Plant",
-      "sourceId": 1795370034,
-      "despawnTimestamp": 1795370033,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-22T17:53:54.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 479,
+      "pokemon": "Rotom",
+      "region": "Kanto",
+      "location": "Power Plant",
+      "secondsAgo": 1608,
+      "sourceId": 1795368535
+    },
+    {
       "monsterId": 252,
       "pokemon": "Treecko",
       "region": "Hoenn",
       "location": "Petalburg Woods",
-      "secondsAgo": 3551,
+      "secondsAgo": 3843,
       "sourceId": 1795366300
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Zangoose",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 6099,
+      "secondsAgo": 6391,
       "sourceId": 1795363752
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Shroomish",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 6029,
-      "sourceId": 1795363822
+      "secondsAgo": 6320,
+      "sourceId": 1795363823
     }
   ],
   "alpha": {
