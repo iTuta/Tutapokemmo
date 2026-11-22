@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-11-22T06:15:56.837Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-22T06:20:51.496Z",
+  "swarms": [
     {
-      "monsterId": 4,
-      "pokemon": "Charmander",
+      "monsterId": 242,
+      "pokemon": "Blissey",
       "region": "Kanto",
-      "location": "Route 3",
-      "secondsAgo": 20047,
-      "sourceId": 1795308109
-    },
+      "location": "Three Island",
+      "sourceId": 1795329745,
+      "despawnTimestamp": 1795329745,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-22T06:42:25.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 4264,
-      "sourceId": 1795323892
+      "secondsAgo": 4558,
+      "sourceId": 1795323893
     },
     {
       "monsterId": 429,
       "pokemon": "Mismagius",
       "region": "Hoenn",
       "location": "Route 122",
-      "secondsAgo": 1349,
+      "secondsAgo": 1644,
       "sourceId": 1795326807
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Nosepass",
       "region": "Sinnoh",
       "location": "Oreburgh Gate",
-      "secondsAgo": 5875,
+      "secondsAgo": 6170,
       "sourceId": 1795322281
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 6468,
-      "sourceId": 1795321688
+      "secondsAgo": 6762,
+      "sourceId": 1795321689
     }
   ],
   "alpha": {
