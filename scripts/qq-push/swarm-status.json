@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-22T10:35:45.658Z",
+  "fetchedAt": "2026-11-22T10:40:47.647Z",
   "swarms": [
+    {
+      "monsterId": 159,
+      "pokemon": "Croconaw",
+      "region": "Johto",
+      "location": "Whirl Islands",
+      "sourceId": 1795345416,
+      "despawnTimestamp": 1795345416,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-22T11:03:36.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 252,
       "pokemon": "Treecko",
@@ -19,23 +30,15 @@
       "pokemon": "Salamence",
       "region": "Kanto",
       "location": "Victory Road",
-      "secondsAgo": 2820,
+      "secondsAgo": 3122,
       "sourceId": 1795340925
-    },
-    {
-      "monsterId": 121,
-      "pokemon": "Starmie",
-      "region": "Johto",
-      "location": "Cliff Edge Gate",
-      "secondsAgo": 12292,
-      "sourceId": 1795331453
     },
     {
       "monsterId": 299,
       "pokemon": "Nosepass",
       "region": "Sinnoh",
       "location": "Oreburgh Gate",
-      "secondsAgo": 4626,
+      "secondsAgo": 4928,
       "sourceId": 1795339119
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 3821,
+      "secondsAgo": 4123,
       "sourceId": 1795339924
     }
   ],
