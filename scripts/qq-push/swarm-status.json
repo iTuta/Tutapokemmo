@@ -1,38 +1,42 @@
 {
-  "fetchedAt": "2026-11-22T03:30:59.637Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-22T03:36:00.094Z",
+  "swarms": [
+    {
+      "monsterId": 242,
+      "pokemon": "Blissey",
+      "region": "Hoenn",
+      "location": "Artisan Cave",
+      "sourceId": 1795319943,
+      "despawnTimestamp": 1795319943,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-22T03:59:03.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 159,
       "pokemon": "Croconaw",
       "region": "Johto",
       "location": "Whirl Islands",
-      "secondsAgo": 5437,
+      "secondsAgo": 5738,
       "sourceId": 1795312822
-    },
-    {
-      "monsterId": 316,
-      "pokemon": "Gulpin",
-      "region": "Hoenn",
-      "location": "Route 110",
-      "secondsAgo": 3455,
-      "sourceId": 1795314804
     },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
       "region": "Sinnoh",
       "location": "Route 223",
-      "secondsAgo": 34869,
-      "sourceId": 1795283390
+      "secondsAgo": 35169,
+      "sourceId": 1795283391
     },
     {
       "monsterId": 313,
       "pokemon": "Volbeat",
       "region": "Unova",
       "location": "Route 8",
-      "secondsAgo": 1917,
-      "sourceId": 1795316342
+      "secondsAgo": 2217,
+      "sourceId": 1795316343
     }
   ],
   "alpha": {
