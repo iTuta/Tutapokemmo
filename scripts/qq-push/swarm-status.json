@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-11-22T17:26:10.177Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-22T17:30:58.996Z",
+  "swarms": [
     {
-      "monsterId": 198,
-      "pokemon": "Murkrow",
+      "monsterId": 479,
+      "pokemon": "Rotom",
       "region": "Kanto",
-      "location": "Route 7",
-      "secondsAgo": 4090,
-      "sourceId": 1795364280
-    },
+      "location": "Power Plant",
+      "sourceId": 1795370034,
+      "despawnTimestamp": 1795370033,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-22T17:53:54.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 160,
       "pokemon": "Feraligatr",
       "region": "Johto",
       "location": "Tohjo Falls",
-      "secondsAgo": 5647,
-      "sourceId": 1795362723
+      "secondsAgo": 5936,
+      "sourceId": 1795362722
     },
     {
       "monsterId": 252,
       "pokemon": "Treecko",
       "region": "Hoenn",
       "location": "Petalburg Woods",
-      "secondsAgo": 2069,
-      "sourceId": 1795366301
+      "secondsAgo": 2358,
+      "sourceId": 1795366300
     },
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 4617,
-      "sourceId": 1795363753
+      "secondsAgo": 4906,
+      "sourceId": 1795363752
     },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 4547,
-      "sourceId": 1795363823
+      "secondsAgo": 4836,
+      "sourceId": 1795363822
     }
   ],
   "alpha": {
