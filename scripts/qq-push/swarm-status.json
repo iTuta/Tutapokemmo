@@ -1,47 +1,21 @@
 {
-  "fetchedAt": "2026-11-22T11:26:11.140Z",
-  "swarms": [
+  "fetchedAt": "2026-11-22T11:31:07.144Z",
+  "swarms": [],
+  "lastSeen": [
     {
       "monsterId": 314,
       "pokemon": "Illumise",
       "region": "Kanto",
       "location": "Water Path",
-      "sourceId": 1795347039,
-      "despawnTimestamp": 1795347039,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-22T11:30:39.000Z",
-      "publishedBy": ""
+      "secondsAgo": 927,
+      "sourceId": 1795346140
     },
-    {
-      "monsterId": 426,
-      "pokemon": "Drifblim",
-      "region": "Sinnoh",
-      "location": "Route 222",
-      "sourceId": 1795346992,
-      "despawnTimestamp": 1795346992,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-22T11:29:52.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 176,
-      "pokemon": "Togetic",
-      "region": "Unova",
-      "location": "Dreamyard",
-      "sourceId": 1795346817,
-      "despawnTimestamp": 1795346817,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-22T11:26:57.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
     {
       "monsterId": 159,
       "pokemon": "Croconaw",
       "region": "Johto",
       "location": "Whirl Islands",
-      "secondsAgo": 2854,
+      "secondsAgo": 3150,
       "sourceId": 1795343917
     },
     {
@@ -49,8 +23,24 @@
       "pokemon": "Treecko",
       "region": "Hoenn",
       "location": "Petalburg Woods",
-      "secondsAgo": 3858,
+      "secondsAgo": 4154,
       "sourceId": 1795342913
+    },
+    {
+      "monsterId": 426,
+      "pokemon": "Drifblim",
+      "region": "Sinnoh",
+      "location": "Route 222",
+      "secondsAgo": 974,
+      "sourceId": 1795346093
+    },
+    {
+      "monsterId": 176,
+      "pokemon": "Togetic",
+      "region": "Unova",
+      "location": "Dreamyard",
+      "secondsAgo": 1749,
+      "sourceId": 1795345318
     }
   ],
   "alpha": {
