@@ -1,44 +1,37 @@
 {
-  "fetchedAt": "2026-11-22T07:35:47.224Z",
-  "swarms": [
-    {
-      "monsterId": 121,
-      "pokemon": "Starmie",
-      "region": "Johto",
-      "location": "Cliff Edge Gate",
-      "sourceId": 1795332952,
-      "despawnTimestamp": 1795332952,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-22T07:35:52.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 453,
-      "pokemon": "Croagunk",
-      "region": "Hoenn",
-      "location": "Route 121",
-      "sourceId": 1795332994,
-      "despawnTimestamp": 1795332994,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-22T07:36:34.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-11-22T07:40:57.642Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Kanto",
       "location": "Three Island",
-      "secondsAgo": 4701,
+      "secondsAgo": 5011,
       "sourceId": 1795328246
+    },
+    {
+      "monsterId": 121,
+      "pokemon": "Starmie",
+      "region": "Johto",
+      "location": "Cliff Edge Gate",
+      "secondsAgo": 1804,
+      "sourceId": 1795331453
+    },
+    {
+      "monsterId": 453,
+      "pokemon": "Croagunk",
+      "region": "Hoenn",
+      "location": "Route 121",
+      "secondsAgo": 1762,
+      "sourceId": 1795331495
     },
     {
       "monsterId": 449,
       "pokemon": "Hippopotas",
       "region": "Sinnoh",
       "location": "Maniac Tunnel",
-      "secondsAgo": 2061,
+      "secondsAgo": 2371,
       "sourceId": 1795330886
     }
   ],
