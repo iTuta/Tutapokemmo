@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-22T16:50:49.336Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-22T16:55:44.299Z",
+  "swarms": [
+    {
+      "monsterId": 252,
+      "pokemon": "Treecko",
+      "region": "Hoenn",
+      "location": "Petalburg Woods",
+      "sourceId": 1795367800,
+      "despawnTimestamp": 1795367800,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-22T17:16:40.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Kanto",
       "location": "Route 7",
-      "secondsAgo": 1969,
+      "secondsAgo": 2264,
       "sourceId": 1795364280
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Feraligatr",
       "region": "Johto",
       "location": "Tohjo Falls",
-      "secondsAgo": 3526,
+      "secondsAgo": 3821,
       "sourceId": 1795362723
-    },
-    {
-      "monsterId": 149,
-      "pokemon": "Dragonite",
-      "region": "Hoenn",
-      "location": "Route 131",
-      "secondsAgo": 11976,
-      "sourceId": 1795354273
     },
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 2497,
+      "secondsAgo": 2792,
       "sourceId": 1795363752
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Shroomish",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 2426,
+      "secondsAgo": 2721,
       "sourceId": 1795363823
     }
   ],
