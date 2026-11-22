@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-22T10:46:22.647Z",
+  "fetchedAt": "2026-11-22T10:50:51.195Z",
   "swarms": [
     {
       "monsterId": 159,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-22T11:03:36.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 252,
-      "pokemon": "Treecko",
-      "region": "Hoenn",
-      "location": "Petalburg Woods",
-      "sourceId": 1795344412,
-      "despawnTimestamp": 1795344411,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-22T10:46:52.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,15 +19,23 @@
       "pokemon": "Salamence",
       "region": "Kanto",
       "location": "Victory Road",
-      "secondsAgo": 3457,
+      "secondsAgo": 3726,
       "sourceId": 1795340925
+    },
+    {
+      "monsterId": 252,
+      "pokemon": "Treecko",
+      "region": "Hoenn",
+      "location": "Petalburg Woods",
+      "secondsAgo": 1738,
+      "sourceId": 1795342913
     },
     {
       "monsterId": 299,
       "pokemon": "Nosepass",
       "region": "Sinnoh",
       "location": "Oreburgh Gate",
-      "secondsAgo": 5263,
+      "secondsAgo": 5532,
       "sourceId": 1795339119
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 4458,
+      "secondsAgo": 4727,
       "sourceId": 1795339924
     }
   ],
