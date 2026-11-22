@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-11-22T15:50:47.065Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-22T15:55:48.881Z",
+  "swarms": [
+    {
+      "monsterId": 160,
+      "pokemon": "Feraligatr",
+      "region": "Johto",
+      "location": "Tohjo Falls",
+      "sourceId": 1795364222,
+      "despawnTimestamp": 1795364222,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-22T16:17:02.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 314,
       "pokemon": "Illumise",
       "region": "Kanto",
       "location": "Water Path",
-      "secondsAgo": 16507,
-      "sourceId": 1795346140
-    },
-    {
-      "monsterId": 200,
-      "pokemon": "Misdreavus",
-      "region": "Johto",
-      "location": "Sprout Tower",
-      "secondsAgo": 9992,
-      "sourceId": 1795352655
+      "secondsAgo": 16809,
+      "sourceId": 1795346139
     },
     {
       "monsterId": 149,
       "pokemon": "Dragonite",
       "region": "Hoenn",
       "location": "Route 131",
-      "secondsAgo": 8374,
+      "secondsAgo": 8675,
       "sourceId": 1795354273
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Grotle",
       "region": "Sinnoh",
       "location": "Sendoff Spring",
-      "secondsAgo": 11899,
+      "secondsAgo": 12200,
       "sourceId": 1795350748
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 17329,
-      "sourceId": 1795345318
+      "secondsAgo": 17631,
+      "sourceId": 1795345317
     }
   ],
   "alpha": {
