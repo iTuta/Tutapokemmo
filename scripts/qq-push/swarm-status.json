@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-11-22T19:05:45.819Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-22T19:10:55.431Z",
+  "swarms": [
+    {
+      "monsterId": 176,
+      "pokemon": "Togetic",
+      "region": "Unova",
+      "location": "Dreamyard",
+      "sourceId": 1795376144,
+      "despawnTimestamp": 1795376144,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-22T19:35:44.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 479,
       "pokemon": "Rotom",
       "region": "Kanto",
       "location": "Power Plant",
-      "secondsAgo": 5811,
-      "sourceId": 1795368534
+      "secondsAgo": 6120,
+      "sourceId": 1795368535
     },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 4924,
+      "secondsAgo": 5234,
       "sourceId": 1795369421
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Treecko",
       "region": "Hoenn",
       "location": "Petalburg Woods",
-      "secondsAgo": 8045,
-      "sourceId": 1795366300
+      "secondsAgo": 8354,
+      "sourceId": 1795366301
     },
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 10593,
+      "secondsAgo": 10903,
       "sourceId": 1795363752
-    },
-    {
-      "monsterId": 285,
-      "pokemon": "Shroomish",
-      "region": "Unova",
-      "location": "Pinwheel Forest",
-      "secondsAgo": 10523,
-      "sourceId": 1795363822
     }
   ],
   "alpha": {
