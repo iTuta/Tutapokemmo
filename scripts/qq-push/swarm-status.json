@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-22T09:45:50.448Z",
+  "fetchedAt": "2026-11-22T09:50:48.090Z",
   "swarms": [
+    {
+      "monsterId": 373,
+      "pokemon": "Salamence",
+      "region": "Kanto",
+      "location": "Victory Road",
+      "sourceId": 1795342424,
+      "despawnTimestamp": 1795342424,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-22T10:13:44.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 373,
       "pokemon": "Salamence",
@@ -15,19 +26,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 242,
-      "pokemon": "Blissey",
-      "region": "Kanto",
-      "location": "Three Island",
-      "secondsAgo": 12504,
-      "sourceId": 1795328246
-    },
-    {
       "monsterId": 121,
       "pokemon": "Starmie",
       "region": "Johto",
       "location": "Cliff Edge Gate",
-      "secondsAgo": 9297,
+      "secondsAgo": 9595,
       "sourceId": 1795331453
     },
     {
@@ -35,7 +38,7 @@
       "pokemon": "Croagunk",
       "region": "Hoenn",
       "location": "Route 121",
-      "secondsAgo": 9255,
+      "secondsAgo": 9553,
       "sourceId": 1795331495
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Nosepass",
       "region": "Sinnoh",
       "location": "Oreburgh Gate",
-      "secondsAgo": 1631,
+      "secondsAgo": 1929,
       "sourceId": 1795339119
     }
   ],
