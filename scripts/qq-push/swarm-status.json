@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-22T19:30:53.391Z",
+  "fetchedAt": "2026-11-22T19:35:46.994Z",
   "swarms": [
     {
       "monsterId": 468,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-22T19:51:40.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 176,
-      "pokemon": "Togetic",
-      "region": "Unova",
-      "location": "Dreamyard",
-      "sourceId": 1795376144,
-      "despawnTimestamp": 1795376144,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-22T19:35:44.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,16 +30,24 @@
       "pokemon": "Rotom",
       "region": "Kanto",
       "location": "Power Plant",
-      "secondsAgo": 7318,
-      "sourceId": 1795368535
+      "secondsAgo": 7612,
+      "sourceId": 1795368534
     },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 6432,
-      "sourceId": 1795369421
+      "secondsAgo": 6726,
+      "sourceId": 1795369420
+    },
+    {
+      "monsterId": 176,
+      "pokemon": "Togetic",
+      "region": "Unova",
+      "location": "Dreamyard",
+      "secondsAgo": 1502,
+      "sourceId": 1795374644
     }
   ],
   "alpha": {
