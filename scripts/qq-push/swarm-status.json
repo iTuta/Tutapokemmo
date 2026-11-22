@@ -1,33 +1,29 @@
 {
-  "fetchedAt": "2026-11-22T18:05:46.497Z",
-  "swarms": [
-    {
-      "monsterId": 300,
-      "pokemon": "Skitty",
-      "region": "Johto",
-      "location": "Route 35",
-      "sourceId": 1795370920,
-      "despawnTimestamp": 1795370920,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-22T18:08:40.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-11-22T18:10:54.555Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 479,
       "pokemon": "Rotom",
       "region": "Kanto",
       "location": "Power Plant",
-      "secondsAgo": 2211,
+      "secondsAgo": 2519,
       "sourceId": 1795368535
+    },
+    {
+      "monsterId": 300,
+      "pokemon": "Skitty",
+      "region": "Johto",
+      "location": "Route 35",
+      "secondsAgo": 1633,
+      "sourceId": 1795369421
     },
     {
       "monsterId": 252,
       "pokemon": "Treecko",
       "region": "Hoenn",
       "location": "Petalburg Woods",
-      "secondsAgo": 4446,
+      "secondsAgo": 4754,
       "sourceId": 1795366300
     },
     {
@@ -35,7 +31,7 @@
       "pokemon": "Zangoose",
       "region": "Sinnoh",
       "location": "Route 205",
-      "secondsAgo": 6994,
+      "secondsAgo": 7302,
       "sourceId": 1795363752
     },
     {
@@ -43,7 +39,7 @@
       "pokemon": "Shroomish",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 6923,
+      "secondsAgo": 7231,
       "sourceId": 1795363823
     }
   ],
