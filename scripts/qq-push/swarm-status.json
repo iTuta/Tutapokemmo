@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-11-22T21:05:52.458Z",
+  "fetchedAt": "2026-11-22T21:10:49.816Z",
   "swarms": [
-    {
-      "monsterId": 372,
-      "pokemon": "Shelgon",
-      "region": "Johto",
-      "location": "Dragon&#x27;s Den",
-      "sourceId": 1795381781,
-      "despawnTimestamp": 1795381780,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-22T21:09:41.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 351,
       "pokemon": "Castform",
       "region": "Hoenn",
       "location": "Aqua Hideout",
       "sourceId": 1795382861,
-      "despawnTimestamp": 1795382861,
+      "despawnTimestamp": 1795382860,
       "hasValuable": false,
       "timestampUtc": "2026-11-22T21:27:41.000Z",
       "publishedBy": ""
@@ -29,7 +18,7 @@
       "region": "Sinnoh",
       "location": "Fuego Ironworks",
       "sourceId": 1795382376,
-      "despawnTimestamp": 1795382376,
+      "despawnTimestamp": 1795382375,
       "hasValuable": false,
       "timestampUtc": "2026-11-22T21:19:36.000Z",
       "publishedBy": ""
@@ -41,15 +30,23 @@
       "pokemon": "Rampardos",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 3765,
-      "sourceId": 1795377787
+      "secondsAgo": 4063,
+      "sourceId": 1795377786
+    },
+    {
+      "monsterId": 372,
+      "pokemon": "Shelgon",
+      "region": "Johto",
+      "location": "Dragon&#x27;s Den",
+      "secondsAgo": 1568,
+      "sourceId": 1795380281
     },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 6907,
+      "secondsAgo": 7204,
       "sourceId": 1795374645
     }
   ],
