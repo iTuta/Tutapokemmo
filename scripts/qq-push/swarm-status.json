@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-22T02:31:17.925Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-22T02:35:43.531Z",
+  "swarms": [
+    {
+      "monsterId": 316,
+      "pokemon": "Gulpin",
+      "region": "Hoenn",
+      "location": "Route 110",
+      "sourceId": 1795316303,
+      "despawnTimestamp": 1795316303,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-22T02:58:23.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 4,
       "pokemon": "Charmander",
       "region": "Kanto",
       "location": "Route 3",
-      "secondsAgo": 6568,
+      "secondsAgo": 6834,
       "sourceId": 1795308109
     },
     {
@@ -15,31 +27,23 @@
       "pokemon": "Croconaw",
       "region": "Johto",
       "location": "Whirl Islands",
-      "secondsAgo": 1856,
-      "sourceId": 1795312821
-    },
-    {
-      "monsterId": 260,
-      "pokemon": "Swampert",
-      "region": "Hoenn",
-      "location": "Route 109",
-      "secondsAgo": 12891,
-      "sourceId": 1795301786
+      "secondsAgo": 2121,
+      "sourceId": 1795312822
     },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
       "region": "Sinnoh",
       "location": "Route 223",
-      "secondsAgo": 31287,
-      "sourceId": 1795283390
+      "secondsAgo": 31552,
+      "sourceId": 1795283391
     },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 5830,
+      "secondsAgo": 6096,
       "sourceId": 1795308847
     }
   ],
