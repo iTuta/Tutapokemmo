@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-11-22T20:01:44.841Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-22T20:05:49.244Z",
+  "swarms": [
     {
-      "monsterId": 479,
-      "pokemon": "Rotom",
+      "monsterId": 409,
+      "pokemon": "Rampardos",
       "region": "Kanto",
-      "location": "Power Plant",
-      "secondsAgo": 9170,
-      "sourceId": 1795368534
-    },
+      "location": "Tanoby Ruins",
+      "sourceId": 1795379286,
+      "despawnTimestamp": 1795379286,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-22T20:28:06.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 8283,
+      "secondsAgo": 8528,
       "sourceId": 1795369421
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Togekiss",
       "region": "Hoenn",
       "location": "Sky Pillar",
-      "secondsAgo": 1997,
+      "secondsAgo": 2242,
       "sourceId": 1795375707
     },
     {
@@ -31,15 +35,15 @@
       "pokemon": "Exeggutor",
       "region": "Sinnoh",
       "location": "Route 230",
-      "secondsAgo": 603,
-      "sourceId": 1795377101
+      "secondsAgo": 847,
+      "sourceId": 1795377102
     },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 3059,
+      "secondsAgo": 3304,
       "sourceId": 1795374645
     }
   ],
