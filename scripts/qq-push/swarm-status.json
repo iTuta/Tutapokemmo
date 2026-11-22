@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-22T04:35:52.722Z",
+  "fetchedAt": "2026-11-22T04:41:16.129Z",
   "swarms": [
+    {
+      "monsterId": 299,
+      "pokemon": "Nosepass",
+      "region": "Sinnoh",
+      "location": "Oreburgh Gate",
+      "sourceId": 1795323780,
+      "despawnTimestamp": 1795323781,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-22T05:03:00.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
       "sourceId": 1795323188,
-      "despawnTimestamp": 1795323187,
+      "despawnTimestamp": 1795323188,
       "hasValuable": false,
       "timestampUtc": "2026-11-22T04:53:08.000Z",
       "publishedBy": ""
@@ -19,15 +30,15 @@
       "pokemon": "Charmander",
       "region": "Kanto",
       "location": "Route 3",
-      "secondsAgo": 14043,
-      "sourceId": 1795308109
+      "secondsAgo": 14366,
+      "sourceId": 1795308110
     },
     {
       "monsterId": 159,
       "pokemon": "Croconaw",
       "region": "Johto",
       "location": "Whirl Islands",
-      "secondsAgo": 9330,
+      "secondsAgo": 9654,
       "sourceId": 1795312822
     },
     {
@@ -35,16 +46,8 @@
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 3709,
-      "sourceId": 1795318443
-    },
-    {
-      "monsterId": 91,
-      "pokemon": "Cloyster",
-      "region": "Sinnoh",
-      "location": "Route 223",
-      "secondsAgo": 38762,
-      "sourceId": 1795283390
+      "secondsAgo": 4032,
+      "sourceId": 1795318444
     }
   ],
   "alpha": {
