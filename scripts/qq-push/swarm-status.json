@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-22T01:05:53.174Z",
+  "fetchedAt": "2026-11-22T01:10:58.193Z",
   "swarms": [
-    {
-      "monsterId": 4,
-      "pokemon": "Charmander",
-      "region": "Kanto",
-      "location": "Route 3",
-      "sourceId": 1795309609,
-      "despawnTimestamp": 1795309609,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-22T01:06:49.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 4,
+      "pokemon": "Charmander",
+      "region": "Kanto",
+      "location": "Route 3",
+      "secondsAgo": 1749,
+      "sourceId": 1795308109
+    },
+    {
       "monsterId": 154,
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 6876,
+      "secondsAgo": 7181,
       "sourceId": 1795302677
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Swampert",
       "region": "Hoenn",
       "location": "Route 109",
-      "secondsAgo": 7766,
+      "secondsAgo": 8071,
       "sourceId": 1795301787
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Cloyster",
       "region": "Sinnoh",
       "location": "Route 223",
-      "secondsAgo": 26162,
+      "secondsAgo": 26467,
       "sourceId": 1795283391
     }
   ],
