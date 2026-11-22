@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-22T23:01:08.863Z",
+  "fetchedAt": "2026-11-22T23:05:55.759Z",
   "swarms": [
-    {
-      "monsterId": 2,
-      "pokemon": "Ivysaur",
-      "region": "Kanto",
-      "location": "Route 5",
-      "sourceId": 1795388742,
-      "despawnTimestamp": 1795388741,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-22T23:05:42.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
@@ -22,26 +11,39 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-22T23:07:27.000Z",
       "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 2,
+      "pokemon": "Ivysaur",
+      "region": "Kanto",
+      "location": "Route 5",
+      "secondsAgo": 1513,
+      "sourceId": 1795387242
+    },
+    {
+      "monsterId": 372,
+      "pokemon": "Shelgon",
+      "region": "Johto",
+      "location": "Dragon&#x27;s Den",
+      "secondsAgo": 8474,
+      "sourceId": 1795380281
     },
     {
       "monsterId": 357,
       "pokemon": "Tropius",
       "region": "Sinnoh",
       "location": "Route 226",
-      "sourceId": 1795388519,
-      "despawnTimestamp": 1795388518,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-22T23:01:59.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1736,
+      "sourceId": 1795387019
+    },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 13823,
+      "secondsAgo": 14110,
       "sourceId": 1795374645
     }
   ],
