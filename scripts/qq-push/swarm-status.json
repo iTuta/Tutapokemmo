@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-23T09:46:04.643Z",
+  "fetchedAt": "2026-11-23T09:50:49.809Z",
   "swarms": [
     {
       "monsterId": 139,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-23T10:05:49.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 143,
-      "pokemon": "Snorlax",
-      "region": "Sinnoh",
-      "location": "Victory Road",
-      "sourceId": 1795427351,
-      "despawnTimestamp": 1795427350,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-23T09:49:11.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,15 +30,23 @@
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 10812,
+      "secondsAgo": 11097,
       "sourceId": 1795416352
+    },
+    {
+      "monsterId": 143,
+      "pokemon": "Snorlax",
+      "region": "Sinnoh",
+      "location": "Victory Road",
+      "secondsAgo": 1598,
+      "sourceId": 1795425851
     },
     {
       "monsterId": 317,
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 5583,
+      "secondsAgo": 5868,
       "sourceId": 1795421581
     }
   ],
