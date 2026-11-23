@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-23T22:01:09.233Z",
+  "fetchedAt": "2026-11-23T22:05:49.735Z",
   "swarms": [
     {
       "monsterId": 312,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-23T22:17:37.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Sinnoh",
-      "location": "Wayward Cave",
-      "sourceId": 1795471456,
-      "despawnTimestamp": 1795471456,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-23T22:04:16.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Chimecho",
       "region": "Johto",
       "location": "Bellchime Trail",
-      "secondsAgo": 7095,
+      "secondsAgo": 7375,
       "sourceId": 1795464174
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Wailord",
       "region": "Hoenn",
       "location": "Route 129",
-      "secondsAgo": 1286,
-      "sourceId": 1795469983
+      "secondsAgo": 1567,
+      "sourceId": 1795469982
+    },
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Sinnoh",
+      "location": "Wayward Cave",
+      "secondsAgo": 1593,
+      "sourceId": 1795469956
     },
     {
       "monsterId": 287,
       "pokemon": "Slakoth",
       "region": "Unova",
       "location": "Route 2",
-      "secondsAgo": 2598,
+      "secondsAgo": 2878,
       "sourceId": 1795468671
     }
   ],
