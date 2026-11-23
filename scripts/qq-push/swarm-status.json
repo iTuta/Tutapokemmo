@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-23T16:05:48.585Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-23T16:11:34.693Z",
+  "swarms": [
+    {
+      "monsterId": 241,
+      "pokemon": "Miltank",
+      "region": "Unova",
+      "location": "Village Bridge",
+      "sourceId": 1795451783,
+      "despawnTimestamp": 1795451783,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-23T16:36:23.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 8919,
+      "secondsAgo": 9265,
       "sourceId": 1795441029
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 2122,
+      "secondsAgo": 2468,
       "sourceId": 1795447826
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 2072,
+      "secondsAgo": 2418,
       "sourceId": 1795447876
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Magmar",
       "region": "Sinnoh",
       "location": "Fuego Ironworks",
-      "secondsAgo": 17429,
+      "secondsAgo": 17775,
       "sourceId": 1795432519
-    },
-    {
-      "monsterId": 287,
-      "pokemon": "Slakoth",
-      "region": "Unova",
-      "location": "Route 2",
-      "secondsAgo": 5999,
-      "sourceId": 1795443949
     }
   ],
   "alpha": {
