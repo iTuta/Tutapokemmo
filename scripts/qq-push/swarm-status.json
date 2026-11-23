@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-23T13:30:56.109Z",
+  "fetchedAt": "2026-11-23T13:35:47.934Z",
   "swarms": [
     {
       "monsterId": 300,
@@ -7,20 +7,9 @@
       "region": "Johto",
       "location": "Route 35",
       "sourceId": 1795442007,
-      "despawnTimestamp": 1795442007,
+      "despawnTimestamp": 1795442006,
       "hasValuable": false,
       "timestampUtc": "2026-11-23T13:53:27.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 450,
-      "pokemon": "Hippowdon",
-      "region": "Hoenn",
-      "location": "Victory Road",
-      "sourceId": 1795440927,
-      "despawnTimestamp": 1795440927,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-23T13:35:27.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,23 +19,31 @@
       "pokemon": "Omastar",
       "region": "Kanto",
       "location": "Liptoo Chamber",
-      "secondsAgo": 13756,
-      "sourceId": 1795426900
+      "secondsAgo": 14048,
+      "sourceId": 1795426899
+    },
+    {
+      "monsterId": 450,
+      "pokemon": "Hippowdon",
+      "region": "Hoenn",
+      "location": "Victory Road",
+      "secondsAgo": 1520,
+      "sourceId": 1795439427
     },
     {
       "monsterId": 126,
       "pokemon": "Magmar",
       "region": "Sinnoh",
       "location": "Fuego Ironworks",
-      "secondsAgo": 8136,
-      "sourceId": 1795432520
+      "secondsAgo": 8428,
+      "sourceId": 1795432519
     },
     {
       "monsterId": 212,
       "pokemon": "Scizor",
       "region": "Unova",
       "location": "Route 14",
-      "secondsAgo": 10391,
+      "secondsAgo": 10682,
       "sourceId": 1795430265
     }
   ],
