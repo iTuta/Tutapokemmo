@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-11-23T09:20:52.082Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-23T09:27:13.405Z",
+  "swarms": [
+    {
+      "monsterId": 143,
+      "pokemon": "Snorlax",
+      "region": "Sinnoh",
+      "location": "Victory Road",
+      "sourceId": 1795427351,
+      "despawnTimestamp": 1795427350,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-23T09:49:11.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Kanto",
       "location": "Treasure Beach",
-      "secondsAgo": 8666,
-      "sourceId": 1795416986
+      "secondsAgo": 9048,
+      "sourceId": 1795416985
     },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Johto",
       "location": "Route 38",
-      "secondsAgo": 9347,
+      "secondsAgo": 9728,
       "sourceId": 1795416305
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 9299,
+      "secondsAgo": 9680,
       "sourceId": 1795416353
-    },
-    {
-      "monsterId": 281,
-      "pokemon": "Kirlia",
-      "region": "Sinnoh",
-      "location": "Snowpoint Temple",
-      "secondsAgo": 5674,
-      "sourceId": 1795419978
     },
     {
       "monsterId": 317,
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 4070,
+      "secondsAgo": 4451,
       "sourceId": 1795421582
     }
   ],
