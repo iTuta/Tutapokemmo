@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-23T17:11:56.502Z",
+  "fetchedAt": "2026-11-23T17:16:00.733Z",
   "swarms": [
     {
       "monsterId": 143,
@@ -7,9 +7,20 @@
       "region": "Kanto",
       "location": "Cerulean Cave",
       "sourceId": 1795454926,
-      "despawnTimestamp": 1795454926,
+      "despawnTimestamp": 1795454925,
       "hasValuable": false,
       "timestampUtc": "2026-11-23T17:28:46.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Sinnoh",
+      "location": "Wayward Cave",
+      "sourceId": 1795455430,
+      "despawnTimestamp": 1795455430,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-23T17:37:10.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,7 +30,7 @@
       "pokemon": "Totodile",
       "region": "Johto",
       "location": "Route 32",
-      "secondsAgo": 3420,
+      "secondsAgo": 3664,
       "sourceId": 1795450496
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 6039,
-      "sourceId": 1795447877
-    },
-    {
-      "monsterId": 126,
-      "pokemon": "Magmar",
-      "region": "Sinnoh",
-      "location": "Fuego Ironworks",
-      "secondsAgo": 21397,
-      "sourceId": 1795432519
+      "secondsAgo": 6284,
+      "sourceId": 1795447876
     },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Unova",
       "location": "Village Bridge",
-      "secondsAgo": 3632,
+      "secondsAgo": 3876,
       "sourceId": 1795450284
     }
   ],
