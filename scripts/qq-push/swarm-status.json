@@ -1,44 +1,29 @@
 {
-  "fetchedAt": "2026-11-23T16:35:54.530Z",
-  "swarms": [
-    {
-      "monsterId": 158,
-      "pokemon": "Totodile",
-      "region": "Johto",
-      "location": "Route 32",
-      "sourceId": 1795451996,
-      "despawnTimestamp": 1795451995,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-23T16:39:56.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 241,
-      "pokemon": "Miltank",
-      "region": "Unova",
-      "location": "Village Bridge",
-      "sourceId": 1795451783,
-      "despawnTimestamp": 1795451783,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-23T16:36:23.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-11-23T16:42:00.059Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 10725,
+      "secondsAgo": 11091,
       "sourceId": 1795441029
+    },
+    {
+      "monsterId": 158,
+      "pokemon": "Totodile",
+      "region": "Johto",
+      "location": "Route 32",
+      "secondsAgo": 1623,
+      "sourceId": 1795450497
     },
     {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 3877,
+      "secondsAgo": 4243,
       "sourceId": 1795447877
     },
     {
@@ -46,8 +31,16 @@
       "pokemon": "Magmar",
       "region": "Sinnoh",
       "location": "Fuego Ironworks",
-      "secondsAgo": 19235,
-      "sourceId": 1795432519
+      "secondsAgo": 19600,
+      "sourceId": 1795432520
+    },
+    {
+      "monsterId": 241,
+      "pokemon": "Miltank",
+      "region": "Unova",
+      "location": "Village Bridge",
+      "secondsAgo": 1835,
+      "sourceId": 1795450285
     }
   ],
   "alpha": {
