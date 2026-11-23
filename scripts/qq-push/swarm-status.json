@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-23T18:45:59.546Z",
+  "fetchedAt": "2026-11-23T18:50:57.284Z",
   "swarms": [
+    {
+      "monsterId": 159,
+      "pokemon": "Croconaw",
+      "region": "Johto",
+      "location": "Whirl Islands",
+      "sourceId": 1795461264,
+      "despawnTimestamp": 1795461264,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-23T19:14:24.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 312,
       "pokemon": "Minun",
@@ -19,23 +30,15 @@
       "pokemon": "Snorlax",
       "region": "Kanto",
       "location": "Cerulean Cave",
-      "secondsAgo": 5832,
+      "secondsAgo": 6130,
       "sourceId": 1795453727
-    },
-    {
-      "monsterId": 375,
-      "pokemon": "Metang",
-      "region": "Johto",
-      "location": "Ice Path",
-      "secondsAgo": 2878,
-      "sourceId": 1795456681
     },
     {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 11682,
+      "secondsAgo": 11980,
       "sourceId": 1795447877
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Kangaskhan",
       "region": "Sinnoh",
       "location": "Wayward Cave",
-      "secondsAgo": 5628,
+      "secondsAgo": 5926,
       "sourceId": 1795453931
     }
   ],
