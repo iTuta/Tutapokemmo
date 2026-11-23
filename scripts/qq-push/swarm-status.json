@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-11-23T00:10:49.422Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-23T00:15:46.262Z",
+  "swarms": [
+    {
+      "monsterId": 320,
+      "pokemon": "Wailmer",
+      "region": "Johto",
+      "location": "Route 40",
+      "sourceId": 1795394444,
+      "despawnTimestamp": 1795394444,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-23T00:40:44.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 2,
       "pokemon": "Ivysaur",
       "region": "Kanto",
       "location": "Route 5",
-      "secondsAgo": 5406,
+      "secondsAgo": 5703,
       "sourceId": 1795387243
-    },
-    {
-      "monsterId": 372,
-      "pokemon": "Shelgon",
-      "region": "Johto",
-      "location": "Dragon&#x27;s Den",
-      "secondsAgo": 12368,
-      "sourceId": 1795380281
     },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Hoenn",
       "location": "Scorched Slab",
-      "secondsAgo": 5301,
+      "secondsAgo": 5598,
       "sourceId": 1795387348
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Tropius",
       "region": "Sinnoh",
       "location": "Route 226",
-      "secondsAgo": 5629,
+      "secondsAgo": 5926,
       "sourceId": 1795387020
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 18004,
+      "secondsAgo": 18301,
       "sourceId": 1795374645
     }
   ],
