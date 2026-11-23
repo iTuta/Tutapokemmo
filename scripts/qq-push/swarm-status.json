@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-23T11:35:46.569Z",
+  "fetchedAt": "2026-11-23T11:40:49.844Z",
   "swarms": [
     {
       "monsterId": 237,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-23T11:50:28.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 126,
-      "pokemon": "Magmar",
-      "region": "Sinnoh",
-      "location": "Fuego Ironworks",
-      "sourceId": 1795434019,
-      "despawnTimestamp": 1795434018,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-23T11:40:19.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Omastar",
       "region": "Kanto",
       "location": "Liptoo Chamber",
-      "secondsAgo": 6847,
+      "secondsAgo": 7150,
       "sourceId": 1795426899
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 4904,
+      "secondsAgo": 5207,
       "sourceId": 1795428842
+    },
+    {
+      "monsterId": 126,
+      "pokemon": "Magmar",
+      "region": "Sinnoh",
+      "location": "Fuego Ironworks",
+      "secondsAgo": 1530,
+      "sourceId": 1795432519
     },
     {
       "monsterId": 212,
       "pokemon": "Scizor",
       "region": "Unova",
       "location": "Route 14",
-      "secondsAgo": 3481,
+      "secondsAgo": 3784,
       "sourceId": 1795430265
     }
   ],
