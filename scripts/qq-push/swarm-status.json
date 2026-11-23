@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-23T11:20:51.174Z",
+  "fetchedAt": "2026-11-23T11:25:47.281Z",
   "swarms": [
+    {
+      "monsterId": 237,
+      "pokemon": "Hitmontop",
+      "region": "Johto",
+      "location": "Mt. Mortar",
+      "sourceId": 1795434628,
+      "despawnTimestamp": 1795434628,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-23T11:50:28.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 126,
       "pokemon": "Magmar",
@@ -19,23 +30,15 @@
       "pokemon": "Omastar",
       "region": "Kanto",
       "location": "Liptoo Chamber",
-      "secondsAgo": 5952,
+      "secondsAgo": 6248,
       "sourceId": 1795426899
-    },
-    {
-      "monsterId": 339,
-      "pokemon": "Barboach",
-      "region": "Johto",
-      "location": "Slowpoke Well",
-      "secondsAgo": 6001,
-      "sourceId": 1795426850
     },
     {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 4009,
+      "secondsAgo": 4305,
       "sourceId": 1795428842
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Scizor",
       "region": "Unova",
       "location": "Route 14",
-      "secondsAgo": 2586,
+      "secondsAgo": 2882,
       "sourceId": 1795430265
     }
   ],
