@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-23T09:40:55.965Z",
+  "fetchedAt": "2026-11-23T09:46:04.643Z",
   "swarms": [
+    {
+      "monsterId": 139,
+      "pokemon": "Omastar",
+      "region": "Kanto",
+      "location": "Liptoo Chamber",
+      "sourceId": 1795428099,
+      "despawnTimestamp": 1795428098,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-23T10:01:39.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 339,
       "pokemon": "Barboach",
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 441,
-      "pokemon": "Chatot",
-      "region": "Kanto",
-      "location": "Treasure Beach",
-      "secondsAgo": 9870,
-      "sourceId": 1795416985
-    },
-    {
       "monsterId": 107,
       "pokemon": "Hitmonchan",
       "region": "Hoenn",
       "location": "Fiery Path",
-      "secondsAgo": 10503,
+      "secondsAgo": 10812,
       "sourceId": 1795416352
     },
     {
@@ -46,7 +49,7 @@
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 5274,
+      "secondsAgo": 5583,
       "sourceId": 1795421581
     }
   ],
