@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-23T04:21:06.504Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-23T04:25:49.693Z",
+  "swarms": [
+    {
+      "monsterId": 471,
+      "pokemon": "Glaceon",
+      "region": "Sinnoh",
+      "location": "Route 217",
+      "sourceId": 1795409309,
+      "despawnTimestamp": 1795409309,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-23T04:48:29.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 7518,
+      "secondsAgo": 7801,
       "sourceId": 1795400148
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Wailmer",
       "region": "Johto",
       "location": "Route 40",
-      "secondsAgo": 14721,
+      "secondsAgo": 15004,
       "sourceId": 1795392945
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 13616,
+      "secondsAgo": 13899,
       "sourceId": 1795394050
-    },
-    {
-      "monsterId": 281,
-      "pokemon": "Kirlia",
-      "region": "Sinnoh",
-      "location": "Snowpoint Temple",
-      "secondsAgo": 7501,
-      "sourceId": 1795400165
     },
     {
       "monsterId": 314,
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 9293,
+      "secondsAgo": 9576,
       "sourceId": 1795398373
     }
   ],
