@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-23T13:35:47.934Z",
+  "fetchedAt": "2026-11-23T13:41:21.831Z",
   "swarms": [
+    {
+      "monsterId": 335,
+      "pokemon": "Zangoose",
+      "region": "Kanto",
+      "location": "Route 14",
+      "sourceId": 1795442528,
+      "despawnTimestamp": 1795442527,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-23T14:02:08.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
@@ -15,27 +26,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 139,
-      "pokemon": "Omastar",
-      "region": "Kanto",
-      "location": "Liptoo Chamber",
-      "secondsAgo": 14048,
-      "sourceId": 1795426899
-    },
-    {
       "monsterId": 450,
       "pokemon": "Hippowdon",
       "region": "Hoenn",
       "location": "Victory Road",
-      "secondsAgo": 1520,
-      "sourceId": 1795439427
+      "secondsAgo": 1853,
+      "sourceId": 1795439428
     },
     {
       "monsterId": 126,
       "pokemon": "Magmar",
       "region": "Sinnoh",
       "location": "Fuego Ironworks",
-      "secondsAgo": 8428,
+      "secondsAgo": 8762,
       "sourceId": 1795432519
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Scizor",
       "region": "Unova",
       "location": "Route 14",
-      "secondsAgo": 10682,
+      "secondsAgo": 11016,
       "sourceId": 1795430265
     }
   ],
