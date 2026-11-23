@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-23T19:31:05.734Z",
+  "fetchedAt": "2026-11-23T19:35:45.297Z",
   "swarms": [
     {
       "monsterId": 409,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-23T19:50:23.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 359,
-      "pokemon": "Absol",
-      "region": "Sinnoh",
-      "location": "Mt. Coronet",
-      "sourceId": 1795462287,
-      "despawnTimestamp": 1795462287,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-23T19:31:27.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +19,7 @@
       "pokemon": "Croconaw",
       "region": "Johto",
       "location": "Whirl Islands",
-      "secondsAgo": 2500,
+      "secondsAgo": 2780,
       "sourceId": 1795459765
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Hippowdon",
       "region": "Hoenn",
       "location": "Victory Road",
-      "secondsAgo": 2241,
+      "secondsAgo": 2521,
       "sourceId": 1795460024
+    },
+    {
+      "monsterId": 359,
+      "pokemon": "Absol",
+      "region": "Sinnoh",
+      "location": "Mt. Coronet",
+      "secondsAgo": 1457,
+      "sourceId": 1795461088
     },
     {
       "monsterId": 312,
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 3481,
+      "secondsAgo": 3761,
       "sourceId": 1795458784
     }
   ],
