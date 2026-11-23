@@ -1,33 +1,29 @@
 {
-  "fetchedAt": "2026-11-23T18:20:54.922Z",
-  "swarms": [
-    {
-      "monsterId": 375,
-      "pokemon": "Metang",
-      "region": "Johto",
-      "location": "Ice Path",
-      "sourceId": 1795458180,
-      "despawnTimestamp": 1795458180,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-23T18:23:00.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-11-23T18:25:46.886Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Kanto",
       "location": "Cerulean Cave",
-      "secondsAgo": 4328,
+      "secondsAgo": 4620,
       "sourceId": 1795453726
+    },
+    {
+      "monsterId": 375,
+      "pokemon": "Metang",
+      "region": "Johto",
+      "location": "Ice Path",
+      "secondsAgo": 1665,
+      "sourceId": 1795456681
     },
     {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 10178,
+      "secondsAgo": 10470,
       "sourceId": 1795447876
     },
     {
@@ -35,7 +31,7 @@
       "pokemon": "Kangaskhan",
       "region": "Sinnoh",
       "location": "Wayward Cave",
-      "secondsAgo": 4123,
+      "secondsAgo": 4415,
       "sourceId": 1795453931
     },
     {
@@ -43,7 +39,7 @@
       "pokemon": "Miltank",
       "region": "Unova",
       "location": "Village Bridge",
-      "secondsAgo": 7770,
+      "secondsAgo": 8062,
       "sourceId": 1795450284
     }
   ],
