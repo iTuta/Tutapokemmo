@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-11-23T14:21:02.886Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-23T14:26:11.370Z",
+  "swarms": [
+    {
+      "monsterId": 287,
+      "pokemon": "Slakoth",
+      "region": "Unova",
+      "location": "Route 2",
+      "sourceId": 1795445448,
+      "despawnTimestamp": 1795445448,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-23T14:50:48.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 2634,
-      "sourceId": 1795441028
+      "secondsAgo": 2942,
+      "sourceId": 1795441029
     },
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "secondsAgo": 3155,
+      "secondsAgo": 3464,
       "sourceId": 1795440507
     },
     {
@@ -23,16 +35,8 @@
       "pokemon": "Hippowdon",
       "region": "Hoenn",
       "location": "Victory Road",
-      "secondsAgo": 4234,
+      "secondsAgo": 4543,
       "sourceId": 1795439428
-    },
-    {
-      "monsterId": 212,
-      "pokemon": "Scizor",
-      "region": "Unova",
-      "location": "Route 14",
-      "secondsAgo": 13397,
-      "sourceId": 1795430265
     }
   ],
   "alpha": {
