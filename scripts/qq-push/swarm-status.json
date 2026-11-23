@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-23T21:40:49.589Z",
+  "fetchedAt": "2026-11-23T21:45:50.555Z",
   "swarms": [
     {
       "monsterId": 321,
@@ -22,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-23T22:04:16.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 287,
-      "pokemon": "Slakoth",
-      "region": "Unova",
-      "location": "Route 2",
-      "sourceId": 1795470170,
-      "despawnTimestamp": 1795470170,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-23T21:42:50.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,7 +30,7 @@
       "pokemon": "Rampardos",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 8126,
+      "secondsAgo": 8427,
       "sourceId": 1795461923
     },
     {
@@ -49,8 +38,16 @@
       "pokemon": "Chimecho",
       "region": "Johto",
       "location": "Bellchime Trail",
-      "secondsAgo": 5875,
+      "secondsAgo": 6176,
       "sourceId": 1795464174
+    },
+    {
+      "monsterId": 287,
+      "pokemon": "Slakoth",
+      "region": "Unova",
+      "location": "Route 2",
+      "secondsAgo": 1679,
+      "sourceId": 1795468671
     }
   ],
   "alpha": {
