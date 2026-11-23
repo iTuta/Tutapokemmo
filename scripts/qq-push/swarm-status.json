@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-11-23T20:01:11.890Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-23T20:06:46.870Z",
+  "swarms": [
+    {
+      "monsterId": 358,
+      "pokemon": "Chimecho",
+      "region": "Johto",
+      "location": "Bellchime Trail",
+      "sourceId": 1795465673,
+      "despawnTimestamp": 1795465673,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-23T20:27:53.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 409,
       "pokemon": "Rampardos",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 2148,
+      "secondsAgo": 2483,
       "sourceId": 1795461923
-    },
-    {
-      "monsterId": 159,
-      "pokemon": "Croconaw",
-      "region": "Johto",
-      "location": "Whirl Islands",
-      "secondsAgo": 4307,
-      "sourceId": 1795459764
     },
     {
       "monsterId": 450,
       "pokemon": "Hippowdon",
       "region": "Hoenn",
       "location": "Victory Road",
-      "secondsAgo": 4047,
+      "secondsAgo": 4382,
       "sourceId": 1795460024
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Absol",
       "region": "Sinnoh",
       "location": "Mt. Coronet",
-      "secondsAgo": 2983,
+      "secondsAgo": 3318,
       "sourceId": 1795461088
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 5288,
-      "sourceId": 1795458783
+      "secondsAgo": 5622,
+      "sourceId": 1795458784
     }
   ],
   "alpha": {
