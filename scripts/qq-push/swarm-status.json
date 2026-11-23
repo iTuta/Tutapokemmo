@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-11-23T10:10:49.752Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-23T10:16:01.654Z",
+  "swarms": [
+    {
+      "monsterId": 242,
+      "pokemon": "Blissey",
+      "region": "Hoenn",
+      "location": "Artisan Cave",
+      "sourceId": 1795430341,
+      "despawnTimestamp": 1795430341,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-23T10:39:01.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 339,
       "pokemon": "Barboach",
       "region": "Johto",
       "location": "Slowpoke Well",
-      "secondsAgo": 1799,
+      "secondsAgo": 2111,
       "sourceId": 1795426850
-    },
-    {
-      "monsterId": 107,
-      "pokemon": "Hitmonchan",
-      "region": "Hoenn",
-      "location": "Fiery Path",
-      "secondsAgo": 12297,
-      "sourceId": 1795416352
     },
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Sinnoh",
       "location": "Victory Road",
-      "secondsAgo": 2798,
+      "secondsAgo": 3110,
       "sourceId": 1795425851
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 7068,
+      "secondsAgo": 7380,
       "sourceId": 1795421581
     }
   ],
