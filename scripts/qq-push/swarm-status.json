@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-11-23T02:40:49.586Z",
-  "swarms": [
-    {
-      "monsterId": 281,
-      "pokemon": "Kirlia",
-      "region": "Sinnoh",
-      "location": "Snowpoint Temple",
-      "sourceId": 1795401664,
-      "despawnTimestamp": 1795401664,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-23T02:41:04.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-11-23T02:45:51.998Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 1501,
+      "secondsAgo": 1803,
       "sourceId": 1795400148
     },
     {
@@ -27,16 +15,24 @@
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 7599,
+      "secondsAgo": 7901,
       "sourceId": 1795394050
+    },
+    {
+      "monsterId": 281,
+      "pokemon": "Kirlia",
+      "region": "Sinnoh",
+      "location": "Snowpoint Temple",
+      "secondsAgo": 1787,
+      "sourceId": 1795400164
     },
     {
       "monsterId": 314,
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 3276,
-      "sourceId": 1795398373
+      "secondsAgo": 3579,
+      "sourceId": 1795398372
     }
   ],
   "alpha": {
