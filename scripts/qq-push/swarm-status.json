@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-23T06:55:45.265Z",
+  "fetchedAt": "2026-11-23T07:01:10.655Z",
   "swarms": [
+    {
+      "monsterId": 441,
+      "pokemon": "Chatot",
+      "region": "Kanto",
+      "location": "Treasure Beach",
+      "sourceId": 1795418485,
+      "despawnTimestamp": 1795418484,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-23T07:21:25.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 128,
       "pokemon": "Tauros",
@@ -18,7 +29,7 @@
       "region": "Hoenn",
       "location": "Fiery Path",
       "sourceId": 1795417852,
-      "despawnTimestamp": 1795417852,
+      "despawnTimestamp": 1795417851,
       "hasValuable": false,
       "timestampUtc": "2026-11-23T07:10:52.000Z",
       "publishedBy": ""
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 369,
-      "pokemon": "Relicanth",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "secondsAgo": 16796,
-      "sourceId": 1795400149
-    },
-    {
       "monsterId": 471,
       "pokemon": "Glaceon",
       "region": "Sinnoh",
       "location": "Route 217",
-      "secondsAgo": 9135,
+      "secondsAgo": 9460,
       "sourceId": 1795407810
     },
     {
@@ -46,7 +49,7 @@
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 18572,
+      "secondsAgo": 18897,
       "sourceId": 1795398373
     }
   ],
