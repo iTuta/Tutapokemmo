@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-23T22:25:46.759Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-23T22:30:58.090Z",
+  "swarms": [
+    {
+      "monsterId": 120,
+      "pokemon": "Staryu",
+      "region": "Hoenn",
+      "location": "Route 106",
+      "sourceId": 1795474291,
+      "despawnTimestamp": 1795474291,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-23T22:51:31.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 312,
       "pokemon": "Minun",
       "region": "Kanto",
       "location": "Route 22",
-      "secondsAgo": 1988,
+      "secondsAgo": 2300,
       "sourceId": 1795470758
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Chimecho",
       "region": "Johto",
       "location": "Bellchime Trail",
-      "secondsAgo": 8572,
+      "secondsAgo": 8884,
       "sourceId": 1795464174
-    },
-    {
-      "monsterId": 321,
-      "pokemon": "Wailord",
-      "region": "Hoenn",
-      "location": "Route 129",
-      "secondsAgo": 2764,
-      "sourceId": 1795469982
     },
     {
       "monsterId": 287,
       "pokemon": "Slakoth",
       "region": "Unova",
       "location": "Route 2",
-      "secondsAgo": 4075,
+      "secondsAgo": 4387,
       "sourceId": 1795468671
     }
   ],
