@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-11-23T00:35:45.980Z",
+  "fetchedAt": "2026-11-23T00:40:52.194Z",
   "swarms": [
-    {
-      "monsterId": 320,
-      "pokemon": "Wailmer",
-      "region": "Johto",
-      "location": "Route 40",
-      "sourceId": 1795394444,
-      "despawnTimestamp": 1795394444,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-23T00:40:44.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 258,
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
       "sourceId": 1795395550,
-      "despawnTimestamp": 1795395549,
+      "despawnTimestamp": 1795395550,
       "hasValuable": false,
       "timestampUtc": "2026-11-23T00:59:10.000Z",
       "publishedBy": ""
@@ -30,24 +19,32 @@
       "pokemon": "Ivysaur",
       "region": "Kanto",
       "location": "Route 5",
-      "secondsAgo": 6903,
-      "sourceId": 1795387242
+      "secondsAgo": 7209,
+      "sourceId": 1795387243
+    },
+    {
+      "monsterId": 320,
+      "pokemon": "Wailmer",
+      "region": "Johto",
+      "location": "Route 40",
+      "secondsAgo": 1507,
+      "sourceId": 1795392945
     },
     {
       "monsterId": 357,
       "pokemon": "Tropius",
       "region": "Sinnoh",
       "location": "Route 226",
-      "secondsAgo": 7126,
-      "sourceId": 1795387019
+      "secondsAgo": 7432,
+      "sourceId": 1795387020
     },
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Unova",
       "location": "Dreamyard",
-      "secondsAgo": 19501,
-      "sourceId": 1795374644
+      "secondsAgo": 19807,
+      "sourceId": 1795374645
     }
   ],
   "alpha": {
