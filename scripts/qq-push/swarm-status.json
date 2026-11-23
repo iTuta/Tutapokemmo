@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-11-23T18:31:11.589Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-23T18:35:53.769Z",
+  "swarms": [
+    {
+      "monsterId": 312,
+      "pokemon": "Minun",
+      "region": "Unova",
+      "location": "Route 6",
+      "sourceId": 1795460283,
+      "despawnTimestamp": 1795460283,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-23T18:58:03.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Kanto",
       "location": "Cerulean Cave",
-      "secondsAgo": 4944,
-      "sourceId": 1795453727
+      "secondsAgo": 5227,
+      "sourceId": 1795453726
     },
     {
       "monsterId": 375,
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 1990,
+      "secondsAgo": 2272,
       "sourceId": 1795456681
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 10795,
+      "secondsAgo": 11077,
       "sourceId": 1795447876
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Kangaskhan",
       "region": "Sinnoh",
       "location": "Wayward Cave",
-      "secondsAgo": 4740,
+      "secondsAgo": 5022,
       "sourceId": 1795453931
-    },
-    {
-      "monsterId": 241,
-      "pokemon": "Miltank",
-      "region": "Unova",
-      "location": "Village Bridge",
-      "secondsAgo": 8387,
-      "sourceId": 1795450284
     }
   ],
   "alpha": {
