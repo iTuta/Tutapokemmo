@@ -1,37 +1,44 @@
 {
-  "fetchedAt": "2026-11-23T15:25:56.945Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-23T15:31:30.854Z",
+  "swarms": [
+    {
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Johto",
+      "location": "Burned Tower",
+      "sourceId": 1795449326,
+      "despawnTimestamp": 1795449325,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-23T15:55:26.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 242,
+      "pokemon": "Blissey",
+      "region": "Hoenn",
+      "location": "Artisan Cave",
+      "sourceId": 1795449376,
+      "despawnTimestamp": 1795449375,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-23T15:56:16.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Kanto",
       "location": "Route 14",
-      "secondsAgo": 6528,
+      "secondsAgo": 6862,
       "sourceId": 1795441028
-    },
-    {
-      "monsterId": 300,
-      "pokemon": "Skitty",
-      "region": "Johto",
-      "location": "Route 35",
-      "secondsAgo": 7049,
-      "sourceId": 1795440507
-    },
-    {
-      "monsterId": 450,
-      "pokemon": "Hippowdon",
-      "region": "Hoenn",
-      "location": "Victory Road",
-      "secondsAgo": 8129,
-      "sourceId": 1795439427
     },
     {
       "monsterId": 126,
       "pokemon": "Magmar",
       "region": "Sinnoh",
       "location": "Fuego Ironworks",
-      "secondsAgo": 15037,
+      "secondsAgo": 15371,
       "sourceId": 1795432519
     },
     {
@@ -39,7 +46,7 @@
       "pokemon": "Slakoth",
       "region": "Unova",
       "location": "Route 2",
-      "secondsAgo": 3608,
+      "secondsAgo": 3942,
       "sourceId": 1795443948
     }
   ],
