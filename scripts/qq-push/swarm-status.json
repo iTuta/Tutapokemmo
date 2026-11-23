@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-23T13:50:52.617Z",
+  "fetchedAt": "2026-11-23T13:55:50.344Z",
   "swarms": [
     {
       "monsterId": 335,
@@ -11,55 +11,44 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-23T14:02:08.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 300,
       "pokemon": "Skitty",
       "region": "Johto",
       "location": "Route 35",
-      "sourceId": 1795442007,
-      "despawnTimestamp": 1795442006,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-23T13:53:27.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1642,
+      "sourceId": 1795440508
+    },
     {
       "monsterId": 450,
       "pokemon": "Hippowdon",
       "region": "Hoenn",
       "location": "Victory Road",
-      "secondsAgo": 2424,
+      "secondsAgo": 2722,
       "sourceId": 1795439428
-    },
-    {
-      "monsterId": 126,
-      "pokemon": "Magmar",
-      "region": "Sinnoh",
-      "location": "Fuego Ironworks",
-      "secondsAgo": 9333,
-      "sourceId": 1795432519
     },
     {
       "monsterId": 212,
       "pokemon": "Scizor",
       "region": "Unova",
       "location": "Route 14",
-      "secondsAgo": 11587,
+      "secondsAgo": 11885,
       "sourceId": 1795430265
     }
   ],
   "alpha": {
-    "monsterId": 47,
-    "pokemon": "Parasect",
-    "region": "Kanto",
-    "location": "Mt. Moon",
-    "sourceId": 1795415176,
-    "despawnTimestamp": 1795432276,
+    "monsterId": 467,
+    "pokemon": "Magmortar",
+    "region": "Sinnoh",
+    "location": "Stark Mountain",
+    "sourceId": 1795429269,
+    "despawnTimestamp": 1795446369,
     "hasValuable": false,
-    "timestampUtc": "2026-11-23T06:26:16.000Z",
-    "timestampRaw": "2026-11-23T06:26:16.000Z",
-    "publishedBy": "GazDim"
+    "timestampUtc": "2026-11-23T10:21:09.000Z",
+    "timestampRaw": "2026-11-23T10:21:09.000Z",
+    "publishedBy": ""
   }
 }
