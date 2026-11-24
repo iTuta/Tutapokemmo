@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-24T10:30:58.552Z",
+  "fetchedAt": "2026-11-24T10:35:54.620Z",
   "swarms": [
+    {
+      "monsterId": 351,
+      "pokemon": "Castform",
+      "region": "Hoenn",
+      "location": "Aqua Hideout",
+      "sourceId": 1795518020,
+      "despawnTimestamp": 1795518019,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-24T11:00:20.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 420,
       "pokemon": "Cherubi",
       "region": "Unova",
       "location": "Route 16",
       "sourceId": 1795516956,
-      "despawnTimestamp": 1795516956,
+      "despawnTimestamp": 1795516955,
       "hasValuable": false,
       "timestampUtc": "2026-11-24T10:42:36.000Z",
       "publishedBy": ""
@@ -19,23 +30,15 @@
       "pokemon": "Bulbasaur",
       "region": "Kanto",
       "location": "Viridian Forest",
-      "secondsAgo": 8631,
+      "secondsAgo": 8927,
       "sourceId": 1795507627
-    },
-    {
-      "monsterId": 299,
-      "pokemon": "Nosepass",
-      "region": "Hoenn",
-      "location": "Granite Cave",
-      "secondsAgo": 9362,
-      "sourceId": 1795506896
     },
     {
       "monsterId": 204,
       "pokemon": "Pineco",
       "region": "Sinnoh",
       "location": "Route 207",
-      "secondsAgo": 14778,
+      "secondsAgo": 15074,
       "sourceId": 1795501480
     }
   ],
