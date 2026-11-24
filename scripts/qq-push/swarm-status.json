@@ -1,44 +1,37 @@
 {
-  "fetchedAt": "2026-11-24T00:20:58.649Z",
-  "swarms": [
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Johto",
-      "location": "Dark Cave",
-      "sourceId": 1795479814,
-      "despawnTimestamp": 1795479814,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-24T00:23:34.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 222,
-      "pokemon": "Corsola",
-      "region": "Hoenn",
-      "location": "Route 128",
-      "sourceId": 1795479850,
-      "despawnTimestamp": 1795479849,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-24T00:24:10.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-11-24T00:25:55.778Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 312,
       "pokemon": "Minun",
       "region": "Kanto",
       "location": "Route 22",
-      "secondsAgo": 8900,
+      "secondsAgo": 9197,
       "sourceId": 1795470758
+    },
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Johto",
+      "location": "Dark Cave",
+      "secondsAgo": 1640,
+      "sourceId": 1795478315
+    },
+    {
+      "monsterId": 222,
+      "pokemon": "Corsola",
+      "region": "Hoenn",
+      "location": "Route 128",
+      "secondsAgo": 1605,
+      "sourceId": 1795478350
     },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Sinnoh",
       "location": "Wayward Cave",
-      "secondsAgo": 9702,
+      "secondsAgo": 9999,
       "sourceId": 1795469956
     },
     {
@@ -46,7 +39,7 @@
       "pokemon": "Slakoth",
       "region": "Unova",
       "location": "Route 2",
-      "secondsAgo": 10987,
+      "secondsAgo": 11284,
       "sourceId": 1795468671
     }
   ],
