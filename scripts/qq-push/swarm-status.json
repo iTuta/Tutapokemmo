@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-24T17:25:52.673Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-24T17:30:58.365Z",
+  "swarms": [
+    {
+      "monsterId": 394,
+      "pokemon": "Prinplup",
+      "region": "Sinnoh",
+      "location": "Route 220",
+      "sourceId": 1795542684,
+      "despawnTimestamp": 1795542684,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-24T17:51:24.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 311,
       "pokemon": "Plusle",
       "region": "Kanto",
       "location": "Route 2",
-      "secondsAgo": 24564,
+      "secondsAgo": 24870,
       "sourceId": 1795516588
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Miltank",
       "region": "Johto",
       "location": "Route 39",
-      "secondsAgo": 2201,
+      "secondsAgo": 2507,
       "sourceId": 1795538951
     },
     {
@@ -23,16 +35,8 @@
       "pokemon": "Vaporeon",
       "region": "Hoenn",
       "location": "Route 134",
-      "secondsAgo": 3552,
+      "secondsAgo": 3858,
       "sourceId": 1795537600
-    },
-    {
-      "monsterId": 479,
-      "pokemon": "Rotom",
-      "region": "Sinnoh",
-      "location": "Old Chateau",
-      "secondsAgo": 11406,
-      "sourceId": 1795529746
     }
   ],
   "alpha": {
