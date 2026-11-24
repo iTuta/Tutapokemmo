@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-24T01:15:50.666Z",
+  "fetchedAt": "2026-11-24T01:20:50.067Z",
   "swarms": [
+    {
+      "monsterId": 6,
+      "pokemon": "Charizard",
+      "region": "Kanto",
+      "location": "Mt. Ember",
+      "sourceId": 1795484527,
+      "despawnTimestamp": 1795484528,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-24T01:42:07.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Hoenn",
       "location": "Scorched Slab",
       "sourceId": 1795484332,
-      "despawnTimestamp": 1795484331,
+      "despawnTimestamp": 1795484332,
       "hasValuable": false,
       "timestampUtc": "2026-11-24T01:38:52.000Z",
       "publishedBy": ""
@@ -18,7 +29,7 @@
       "region": "Sinnoh",
       "location": "Route 225",
       "sourceId": 1795484403,
-      "despawnTimestamp": 1795484402,
+      "despawnTimestamp": 1795484403,
       "hasValuable": false,
       "timestampUtc": "2026-11-24T01:40:03.000Z",
       "publishedBy": ""
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 312,
-      "pokemon": "Minun",
-      "region": "Kanto",
-      "location": "Route 22",
-      "secondsAgo": 12192,
-      "sourceId": 1795470758
-    },
-    {
       "monsterId": 155,
       "pokemon": "Cyndaquil",
       "region": "Johto",
       "location": "Route 33",
-      "secondsAgo": 2237,
+      "secondsAgo": 2537,
       "sourceId": 1795480713
     },
     {
@@ -46,8 +49,8 @@
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 2822,
-      "sourceId": 1795480128
+      "secondsAgo": 3121,
+      "sourceId": 1795480129
     }
   ],
   "alpha": {
