@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-24T05:31:13.924Z",
+  "fetchedAt": "2026-11-24T05:35:49.390Z",
   "swarms": [
     {
       "monsterId": 281,
@@ -7,20 +7,9 @@
       "region": "Johto",
       "location": "Route 43",
       "sourceId": 1795498827,
-      "despawnTimestamp": 1795498826,
+      "despawnTimestamp": 1795498827,
       "hasValuable": false,
       "timestampUtc": "2026-11-24T05:40:27.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 370,
-      "pokemon": "Luvdisc",
-      "region": "Hoenn",
-      "location": "Route 132",
-      "sourceId": 1795498527,
-      "despawnTimestamp": 1795498526,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-24T05:35:27.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,24 +19,32 @@
       "pokemon": "Charizard",
       "region": "Kanto",
       "location": "Mt. Ember",
-      "secondsAgo": 15245,
+      "secondsAgo": 15521,
       "sourceId": 1795483028
+    },
+    {
+      "monsterId": 370,
+      "pokemon": "Luvdisc",
+      "region": "Hoenn",
+      "location": "Route 132",
+      "secondsAgo": 1521,
+      "sourceId": 1795497028
     },
     {
       "monsterId": 332,
       "pokemon": "Cacturne",
       "region": "Sinnoh",
       "location": "Route 228",
-      "secondsAgo": 9713,
-      "sourceId": 1795488560
+      "secondsAgo": 9988,
+      "sourceId": 1795488561
     },
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 11400,
-      "sourceId": 1795486873
+      "secondsAgo": 11675,
+      "sourceId": 1795486874
     }
   ],
   "alpha": {
