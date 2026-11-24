@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-24T14:11:34.750Z",
+  "fetchedAt": "2026-11-24T14:15:47.516Z",
   "swarms": [
     {
       "monsterId": 299,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-24T14:22:27.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 479,
+      "pokemon": "Rotom",
+      "region": "Sinnoh",
+      "location": "Old Chateau",
+      "sourceId": 1795530945,
+      "despawnTimestamp": 1795530945,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-24T14:35:45.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Plusle",
       "region": "Kanto",
       "location": "Route 2",
-      "secondsAgo": 12906,
+      "secondsAgo": 13159,
       "sourceId": 1795516588
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 2686,
+      "secondsAgo": 2939,
       "sourceId": 1795526808
-    },
-    {
-      "monsterId": 392,
-      "pokemon": "Infernape",
-      "region": "Sinnoh",
-      "location": "Route 221",
-      "secondsAgo": 6385,
-      "sourceId": 1795523109
     },
     {
       "monsterId": 312,
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 3280,
+      "secondsAgo": 3533,
       "sourceId": 1795526214
     }
   ],
