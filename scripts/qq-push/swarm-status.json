@@ -1,29 +1,25 @@
 {
-  "fetchedAt": "2026-11-24T02:01:08.308Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-24T02:05:47.275Z",
+  "swarms": [
     {
-      "monsterId": 6,
-      "pokemon": "Charizard",
-      "region": "Kanto",
-      "location": "Mt. Ember",
-      "secondsAgo": 2640,
-      "sourceId": 1795483028
-    },
-    {
-      "monsterId": 155,
-      "pokemon": "Cyndaquil",
+      "monsterId": 121,
+      "pokemon": "Starmie",
       "region": "Johto",
-      "location": "Route 33",
-      "secondsAgo": 4955,
-      "sourceId": 1795480713
-    },
+      "location": "Cliff Edge Gate",
+      "sourceId": 1795487373,
+      "despawnTimestamp": 1795487373,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-24T02:29:33.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Hoenn",
       "location": "Scorched Slab",
-      "secondsAgo": 2835,
+      "secondsAgo": 3114,
       "sourceId": 1795482833
     },
     {
@@ -31,7 +27,7 @@
       "pokemon": "Carnivine",
       "region": "Sinnoh",
       "location": "Route 225",
-      "secondsAgo": 2765,
+      "secondsAgo": 3044,
       "sourceId": 1795482903
     },
     {
@@ -39,20 +35,20 @@
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 5540,
+      "secondsAgo": 5819,
       "sourceId": 1795480128
     }
   ],
   "alpha": {
-    "monsterId": 445,
-    "pokemon": "Garchomp",
-    "region": "Sinnoh",
-    "location": "Route 216",
-    "sourceId": 1795459724,
-    "despawnTimestamp": 1795476824,
+    "monsterId": 113,
+    "pokemon": "Chansey",
+    "region": "Kanto",
+    "location": "Three Isle Port",
+    "sourceId": 1795473245,
+    "despawnTimestamp": 1795490345,
     "hasValuable": false,
-    "timestampUtc": "2026-11-23T18:48:44.000Z",
-    "timestampRaw": "2026-11-23T18:48:44.000Z",
+    "timestampUtc": "2026-11-23T22:34:05.000Z",
+    "timestampRaw": "2026-11-23T22:34:05.000Z",
     "publishedBy": ""
   }
 }
