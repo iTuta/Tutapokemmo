@@ -1,45 +1,49 @@
 {
-  "fetchedAt": "2026-11-24T16:25:55.419Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-24T16:30:56.949Z",
+  "swarms": [
+    {
+      "monsterId": 134,
+      "pokemon": "Vaporeon",
+      "region": "Hoenn",
+      "location": "Route 134",
+      "sourceId": 1795539099,
+      "despawnTimestamp": 1795539098,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-24T16:51:39.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 311,
       "pokemon": "Plusle",
       "region": "Kanto",
       "location": "Route 2",
-      "secondsAgo": 20967,
-      "sourceId": 1795516588
+      "secondsAgo": 21269,
+      "sourceId": 1795516587
     },
     {
       "monsterId": 375,
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 10747,
+      "secondsAgo": 11048,
       "sourceId": 1795526808
-    },
-    {
-      "monsterId": 299,
-      "pokemon": "Nosepass",
-      "region": "Hoenn",
-      "location": "Granite Cave",
-      "secondsAgo": 8908,
-      "sourceId": 1795528647
     },
     {
       "monsterId": 479,
       "pokemon": "Rotom",
       "region": "Sinnoh",
       "location": "Old Chateau",
-      "secondsAgo": 7809,
-      "sourceId": 1795529746
+      "secondsAgo": 8111,
+      "sourceId": 1795529745
     },
     {
       "monsterId": 148,
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 5890,
+      "secondsAgo": 6191,
       "sourceId": 1795531665
     }
   ],
