@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-24T13:55:53.283Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-24T14:01:16.058Z",
+  "swarms": [
+    {
+      "monsterId": 299,
+      "pokemon": "Nosepass",
+      "region": "Hoenn",
+      "location": "Granite Cave",
+      "sourceId": 1795530147,
+      "despawnTimestamp": 1795530147,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-24T14:22:27.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 311,
       "pokemon": "Plusle",
       "region": "Kanto",
       "location": "Route 2",
-      "secondsAgo": 11965,
+      "secondsAgo": 12288,
       "sourceId": 1795516588
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 1745,
-      "sourceId": 1795526808
-    },
-    {
-      "monsterId": 351,
-      "pokemon": "Castform",
-      "region": "Hoenn",
-      "location": "Aqua Hideout",
-      "secondsAgo": 12032,
-      "sourceId": 1795516521
+      "secondsAgo": 2067,
+      "sourceId": 1795526809
     },
     {
       "monsterId": 392,
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 5444,
+      "secondsAgo": 5767,
       "sourceId": 1795523109
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 2338,
+      "secondsAgo": 2661,
       "sourceId": 1795526215
     }
   ],
