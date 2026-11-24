@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-11-24T02:25:53.313Z",
+  "fetchedAt": "2026-11-24T02:34:45.848Z",
   "swarms": [
-    {
-      "monsterId": 121,
-      "pokemon": "Starmie",
-      "region": "Johto",
-      "location": "Cliff Edge Gate",
-      "sourceId": 1795487373,
-      "despawnTimestamp": 1795487373,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-24T02:29:33.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 335,
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
       "sourceId": 1795488373,
-      "despawnTimestamp": 1795488373,
+      "despawnTimestamp": 1795488372,
       "hasValuable": false,
       "timestampUtc": "2026-11-24T02:46:13.000Z",
       "publishedBy": ""
@@ -26,19 +15,27 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 121,
+      "pokemon": "Starmie",
+      "region": "Johto",
+      "location": "Cliff Edge Gate",
+      "secondsAgo": 1811,
+      "sourceId": 1795485874
+    },
+    {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Hoenn",
       "location": "Scorched Slab",
-      "secondsAgo": 4320,
-      "sourceId": 1795482833
+      "secondsAgo": 4853,
+      "sourceId": 1795482832
     },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Sinnoh",
       "location": "Route 225",
-      "secondsAgo": 4250,
+      "secondsAgo": 4782,
       "sourceId": 1795482903
     }
   ],
