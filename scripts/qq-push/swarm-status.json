@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-24T12:20:50.265Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-24T12:25:51.350Z",
+  "swarms": [
+    {
+      "monsterId": 392,
+      "pokemon": "Infernape",
+      "region": "Sinnoh",
+      "location": "Route 221",
+      "sourceId": 1795524608,
+      "despawnTimestamp": 1795524608,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-24T12:50:08.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 311,
       "pokemon": "Plusle",
       "region": "Kanto",
       "location": "Route 2",
-      "secondsAgo": 6262,
+      "secondsAgo": 6563,
       "sourceId": 1795516588
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Skarmory",
       "region": "Johto",
       "location": "Route 26",
-      "secondsAgo": 19913,
+      "secondsAgo": 20214,
       "sourceId": 1795502937
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Castform",
       "region": "Hoenn",
       "location": "Aqua Hideout",
-      "secondsAgo": 6329,
+      "secondsAgo": 6630,
       "sourceId": 1795516521
-    },
-    {
-      "monsterId": 204,
-      "pokemon": "Pineco",
-      "region": "Sinnoh",
-      "location": "Route 207",
-      "secondsAgo": 21370,
-      "sourceId": 1795501480
     },
     {
       "monsterId": 420,
       "pokemon": "Cherubi",
       "region": "Unova",
       "location": "Route 16",
-      "secondsAgo": 7393,
+      "secondsAgo": 7694,
       "sourceId": 1795515457
     }
   ],
