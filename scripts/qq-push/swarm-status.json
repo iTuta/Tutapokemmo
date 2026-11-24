@@ -1,28 +1,6 @@
 {
-  "fetchedAt": "2026-11-24T20:25:47.426Z",
+  "fetchedAt": "2026-11-24T20:31:06.290Z",
   "swarms": [
-    {
-      "monsterId": 369,
-      "pokemon": "Relicanth",
-      "region": "Kanto",
-      "location": "Tanoby Ruins",
-      "sourceId": 1795552149,
-      "despawnTimestamp": 1795552149,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-24T20:29:09.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 102,
-      "pokemon": "Exeggcute",
-      "region": "Johto",
-      "location": "Route 30",
-      "sourceId": 1795552238,
-      "despawnTimestamp": 1795552238,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-24T20:30:38.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 412,
       "pokemon": "Burmy",
@@ -37,11 +15,27 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 369,
+      "pokemon": "Relicanth",
+      "region": "Kanto",
+      "location": "Tanoby Ruins",
+      "secondsAgo": 1616,
+      "sourceId": 1795550650
+    },
+    {
+      "monsterId": 102,
+      "pokemon": "Exeggcute",
+      "region": "Johto",
+      "location": "Route 30",
+      "secondsAgo": 1527,
+      "sourceId": 1795550739
+    },
+    {
       "monsterId": 258,
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 8973,
+      "secondsAgo": 9292,
       "sourceId": 1795542974
     },
     {
@@ -49,7 +43,7 @@
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 20282,
+      "secondsAgo": 20601,
       "sourceId": 1795531665
     }
   ],
