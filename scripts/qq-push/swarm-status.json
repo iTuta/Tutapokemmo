@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-24T16:50:54.832Z",
+  "fetchedAt": "2026-11-24T16:56:19.722Z",
   "swarms": [
     {
       "monsterId": 241,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-24T17:14:11.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 134,
-      "pokemon": "Vaporeon",
-      "region": "Hoenn",
-      "location": "Route 134",
-      "sourceId": 1795539099,
-      "despawnTimestamp": 1795539098,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-24T16:51:39.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,15 +19,23 @@
       "pokemon": "Plusle",
       "region": "Kanto",
       "location": "Route 2",
-      "secondsAgo": 22466,
+      "secondsAgo": 22791,
       "sourceId": 1795516588
+    },
+    {
+      "monsterId": 134,
+      "pokemon": "Vaporeon",
+      "region": "Hoenn",
+      "location": "Route 134",
+      "secondsAgo": 1779,
+      "sourceId": 1795537600
     },
     {
       "monsterId": 479,
       "pokemon": "Rotom",
       "region": "Sinnoh",
       "location": "Old Chateau",
-      "secondsAgo": 9309,
+      "secondsAgo": 9634,
       "sourceId": 1795529745
     }
   ],
