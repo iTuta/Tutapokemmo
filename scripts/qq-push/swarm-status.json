@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-24T02:20:49.755Z",
+  "fetchedAt": "2026-11-24T02:25:53.313Z",
   "swarms": [
     {
       "monsterId": 121,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-24T02:29:33.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 335,
+      "pokemon": "Zangoose",
+      "region": "Unova",
+      "location": "Route 7",
+      "sourceId": 1795488373,
+      "despawnTimestamp": 1795488373,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-24T02:46:13.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,24 +30,16 @@
       "pokemon": "Volcarona",
       "region": "Hoenn",
       "location": "Scorched Slab",
-      "secondsAgo": 4017,
-      "sourceId": 1795482832
+      "secondsAgo": 4320,
+      "sourceId": 1795482833
     },
     {
       "monsterId": 455,
       "pokemon": "Carnivine",
       "region": "Sinnoh",
       "location": "Route 225",
-      "secondsAgo": 3946,
+      "secondsAgo": 4250,
       "sourceId": 1795482903
-    },
-    {
-      "monsterId": 570,
-      "pokemon": "Zorua",
-      "region": "Unova",
-      "location": "Lostlorn Forest",
-      "secondsAgo": 6721,
-      "sourceId": 1795480128
     }
   ],
   "alpha": {
