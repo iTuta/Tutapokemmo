@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-24T07:50:50.359Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-24T07:55:47.461Z",
+  "swarms": [
+    {
+      "monsterId": 299,
+      "pokemon": "Nosepass",
+      "region": "Hoenn",
+      "location": "Granite Cave",
+      "sourceId": 1795508395,
+      "despawnTimestamp": 1795508395,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-24T08:19:55.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 6,
       "pokemon": "Charizard",
       "region": "Kanto",
       "location": "Mt. Ember",
-      "secondsAgo": 23622,
+      "secondsAgo": 23919,
       "sourceId": 1795483028
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Skarmory",
       "region": "Johto",
       "location": "Route 26",
-      "secondsAgo": 3713,
+      "secondsAgo": 4010,
       "sourceId": 1795502937
-    },
-    {
-      "monsterId": 370,
-      "pokemon": "Luvdisc",
-      "region": "Hoenn",
-      "location": "Route 132",
-      "secondsAgo": 9622,
-      "sourceId": 1795497028
     },
     {
       "monsterId": 204,
       "pokemon": "Pineco",
       "region": "Sinnoh",
       "location": "Route 207",
-      "secondsAgo": 5170,
+      "secondsAgo": 5467,
       "sourceId": 1795501480
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 6456,
+      "secondsAgo": 6753,
       "sourceId": 1795500194
     }
   ],
