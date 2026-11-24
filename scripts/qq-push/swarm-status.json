@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-24T22:36:02.508Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-24T22:40:47.445Z",
+  "swarms": [
+    {
+      "monsterId": 83,
+      "pokemon": "Farfetch&#x27;d",
+      "region": "Sinnoh",
+      "location": "Route 209",
+      "sourceId": 1795561520,
+      "despawnTimestamp": 1795561520,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-24T23:05:20.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Kanto",
       "location": "Tanoby Ruins",
-      "secondsAgo": 9112,
+      "secondsAgo": 9397,
       "sourceId": 1795550650
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Togekiss",
       "region": "Hoenn",
       "location": "Sky Pillar",
-      "secondsAgo": 6272,
+      "secondsAgo": 6557,
       "sourceId": 1795553490
-    },
-    {
-      "monsterId": 412,
-      "pokemon": "Burmy",
-      "region": "Sinnoh",
-      "location": "Route 202",
-      "secondsAgo": 8976,
-      "sourceId": 1795550786
     },
     {
       "monsterId": 457,
       "pokemon": "Lumineon",
       "region": "Unova",
       "location": "Route 17",
-      "secondsAgo": 4439,
+      "secondsAgo": 4724,
       "sourceId": 1795555323
     }
   ],
