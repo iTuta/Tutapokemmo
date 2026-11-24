@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-24T20:05:58.608Z",
+  "fetchedAt": "2026-11-24T20:10:54.973Z",
   "swarms": [
     {
       "monsterId": 369,
@@ -22,6 +22,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-24T20:30:38.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 412,
+      "pokemon": "Burmy",
+      "region": "Sinnoh",
+      "location": "Route 202",
+      "sourceId": 1795552285,
+      "despawnTimestamp": 1795552285,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-24T20:31:25.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,23 +41,15 @@
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 7784,
-      "sourceId": 1795542974
-    },
-    {
-      "monsterId": 394,
-      "pokemon": "Prinplup",
-      "region": "Sinnoh",
-      "location": "Route 220",
-      "secondsAgo": 9573,
-      "sourceId": 1795541185
+      "secondsAgo": 8081,
+      "sourceId": 1795542973
     },
     {
       "monsterId": 148,
       "pokemon": "Dragonair",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 19093,
+      "secondsAgo": 19389,
       "sourceId": 1795531665
     }
   ],
