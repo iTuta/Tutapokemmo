@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-11-24T13:15:54.165Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-24T13:21:00.967Z",
+  "swarms": [
+    {
+      "monsterId": 312,
+      "pokemon": "Minun",
+      "region": "Unova",
+      "location": "Route 6",
+      "sourceId": 1795527714,
+      "despawnTimestamp": 1795527713,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-24T13:41:54.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 311,
       "pokemon": "Plusle",
       "region": "Kanto",
       "location": "Route 2",
-      "secondsAgo": 9566,
-      "sourceId": 1795516588
+      "secondsAgo": 9873,
+      "sourceId": 1795516587
     },
     {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Johto",
       "location": "Route 26",
-      "secondsAgo": 23217,
-      "sourceId": 1795502937
+      "secondsAgo": 23524,
+      "sourceId": 1795502936
     },
     {
       "monsterId": 351,
       "pokemon": "Castform",
       "region": "Hoenn",
       "location": "Aqua Hideout",
-      "secondsAgo": 9633,
-      "sourceId": 1795516521
+      "secondsAgo": 9940,
+      "sourceId": 1795516520
     },
     {
       "monsterId": 392,
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 3045,
+      "secondsAgo": 3351,
       "sourceId": 1795523109
-    },
-    {
-      "monsterId": 420,
-      "pokemon": "Cherubi",
-      "region": "Unova",
-      "location": "Route 16",
-      "secondsAgo": 10697,
-      "sourceId": 1795515457
     }
   ],
   "alpha": {
