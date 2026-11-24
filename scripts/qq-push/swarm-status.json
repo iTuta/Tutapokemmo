@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-24T10:40:49.347Z",
+  "fetchedAt": "2026-11-24T10:46:00.731Z",
   "swarms": [
     {
       "monsterId": 311,
@@ -18,20 +18,9 @@
       "region": "Hoenn",
       "location": "Aqua Hideout",
       "sourceId": 1795518020,
-      "despawnTimestamp": 1795518020,
+      "despawnTimestamp": 1795518019,
       "hasValuable": false,
       "timestampUtc": "2026-11-24T11:00:20.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 420,
-      "pokemon": "Cherubi",
-      "region": "Unova",
-      "location": "Route 16",
-      "sourceId": 1795516956,
-      "despawnTimestamp": 1795516956,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-24T10:42:36.000Z",
       "publishedBy": ""
     }
   ],
@@ -41,8 +30,16 @@
       "pokemon": "Pineco",
       "region": "Sinnoh",
       "location": "Route 207",
-      "secondsAgo": 15369,
+      "secondsAgo": 15680,
       "sourceId": 1795501480
+    },
+    {
+      "monsterId": 420,
+      "pokemon": "Cherubi",
+      "region": "Unova",
+      "location": "Route 16",
+      "secondsAgo": 1704,
+      "sourceId": 1795515456
     }
   ],
   "alpha": {
