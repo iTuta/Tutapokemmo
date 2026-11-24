@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-24T06:01:04.931Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-24T06:05:47.771Z",
+  "swarms": [
+    {
+      "monsterId": 451,
+      "pokemon": "Skorupi",
+      "region": "Unova",
+      "location": "Desert Resort",
+      "sourceId": 1795501694,
+      "despawnTimestamp": 1795501693,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-24T06:28:14.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 6,
       "pokemon": "Charizard",
       "region": "Kanto",
       "location": "Mt. Ember",
-      "secondsAgo": 17036,
+      "secondsAgo": 17319,
       "sourceId": 1795483028
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Kirlia",
       "region": "Johto",
       "location": "Route 43",
-      "secondsAgo": 2737,
+      "secondsAgo": 3020,
       "sourceId": 1795497327
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Luvdisc",
       "region": "Hoenn",
       "location": "Route 132",
-      "secondsAgo": 3037,
-      "sourceId": 1795497027
+      "secondsAgo": 3319,
+      "sourceId": 1795497028
     },
     {
       "monsterId": 332,
       "pokemon": "Cacturne",
       "region": "Sinnoh",
       "location": "Route 228",
-      "secondsAgo": 11504,
+      "secondsAgo": 11787,
       "sourceId": 1795488560
-    },
-    {
-      "monsterId": 335,
-      "pokemon": "Zangoose",
-      "region": "Unova",
-      "location": "Route 7",
-      "secondsAgo": 13191,
-      "sourceId": 1795486873
     }
   ],
   "alpha": {
