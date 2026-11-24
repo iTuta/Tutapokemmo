@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-24T01:36:00.556Z",
+  "fetchedAt": "2026-11-24T01:40:56.824Z",
   "swarms": [
     {
       "monsterId": 6,
@@ -11,28 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-24T01:42:07.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Hoenn",
-      "location": "Scorched Slab",
-      "sourceId": 1795484332,
-      "despawnTimestamp": 1795484331,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-24T01:38:52.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 455,
-      "pokemon": "Carnivine",
-      "region": "Sinnoh",
-      "location": "Route 225",
-      "sourceId": 1795484403,
-      "despawnTimestamp": 1795484402,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-24T01:40:03.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,15 +19,31 @@
       "pokemon": "Cyndaquil",
       "region": "Johto",
       "location": "Route 33",
-      "secondsAgo": 3447,
+      "secondsAgo": 3743,
       "sourceId": 1795480713
+    },
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Hoenn",
+      "location": "Scorched Slab",
+      "secondsAgo": 1624,
+      "sourceId": 1795482832
+    },
+    {
+      "monsterId": 455,
+      "pokemon": "Carnivine",
+      "region": "Sinnoh",
+      "location": "Route 225",
+      "secondsAgo": 1553,
+      "sourceId": 1795482903
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Unova",
       "location": "Lostlorn Forest",
-      "secondsAgo": 4032,
+      "secondsAgo": 4328,
       "sourceId": 1795480128
     }
   ],
