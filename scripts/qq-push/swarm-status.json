@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-24T16:45:52.073Z",
+  "fetchedAt": "2026-11-24T16:50:54.832Z",
   "swarms": [
+    {
+      "monsterId": 241,
+      "pokemon": "Miltank",
+      "region": "Johto",
+      "location": "Route 39",
+      "sourceId": 1795540451,
+      "despawnTimestamp": 1795540450,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-24T17:14:11.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 134,
       "pokemon": "Vaporeon",
       "region": "Hoenn",
       "location": "Route 134",
       "sourceId": 1795539099,
-      "despawnTimestamp": 1795539099,
+      "despawnTimestamp": 1795539098,
       "hasValuable": false,
       "timestampUtc": "2026-11-24T16:51:39.000Z",
       "publishedBy": ""
@@ -19,24 +30,16 @@
       "pokemon": "Plusle",
       "region": "Kanto",
       "location": "Route 2",
-      "secondsAgo": 22164,
+      "secondsAgo": 22466,
       "sourceId": 1795516588
-    },
-    {
-      "monsterId": 375,
-      "pokemon": "Metang",
-      "region": "Johto",
-      "location": "Ice Path",
-      "secondsAgo": 11944,
-      "sourceId": 1795526808
     },
     {
       "monsterId": 479,
       "pokemon": "Rotom",
       "region": "Sinnoh",
       "location": "Old Chateau",
-      "secondsAgo": 9006,
-      "sourceId": 1795529746
+      "secondsAgo": 9309,
+      "sourceId": 1795529745
     }
   ],
   "alpha": {
