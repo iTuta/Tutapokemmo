@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-24T05:05:42.827Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-24T05:10:59.767Z",
+  "swarms": [
+    {
+      "monsterId": 370,
+      "pokemon": "Luvdisc",
+      "region": "Hoenn",
+      "location": "Route 132",
+      "sourceId": 1795498527,
+      "despawnTimestamp": 1795498527,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-24T05:35:27.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 6,
       "pokemon": "Charizard",
       "region": "Kanto",
       "location": "Mt. Ember",
-      "secondsAgo": 13714,
+      "secondsAgo": 14031,
       "sourceId": 1795483028
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Starmie",
       "region": "Johto",
       "location": "Cliff Edge Gate",
-      "secondsAgo": 10868,
+      "secondsAgo": 11185,
       "sourceId": 1795485874
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Hoenn",
-      "location": "Scorched Slab",
-      "secondsAgo": 13910,
-      "sourceId": 1795482832
     },
     {
       "monsterId": 332,
       "pokemon": "Cacturne",
       "region": "Sinnoh",
       "location": "Route 228",
-      "secondsAgo": 8182,
+      "secondsAgo": 8499,
       "sourceId": 1795488560
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Zangoose",
       "region": "Unova",
       "location": "Route 7",
-      "secondsAgo": 9869,
+      "secondsAgo": 10186,
       "sourceId": 1795486873
     }
   ],
