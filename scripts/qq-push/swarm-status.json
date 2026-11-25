@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-25T06:05:50.244Z",
+  "fetchedAt": "2026-11-25T06:11:11.201Z",
   "swarms": [
     {
       "monsterId": 128,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-25T06:25:00.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 285,
+      "pokemon": "Shroomish",
+      "region": "Sinnoh",
+      "location": "Route 201",
+      "sourceId": 1795588382,
+      "despawnTimestamp": 1795588382,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-25T06:33:02.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Bulbasaur",
       "region": "Kanto",
       "location": "Viridian Forest",
-      "secondsAgo": 6965,
+      "secondsAgo": 7286,
       "sourceId": 1795579785
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 8228,
+      "secondsAgo": 8549,
       "sourceId": 1795578522
-    },
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Sinnoh",
-      "location": "Wayward Cave",
-      "secondsAgo": 3291,
-      "sourceId": 1795583459
     },
     {
       "monsterId": 450,
       "pokemon": "Hippowdon",
       "region": "Unova",
       "location": "Mistralton Cave",
-      "secondsAgo": 15494,
+      "secondsAgo": 15815,
       "sourceId": 1795571256
     }
   ],
