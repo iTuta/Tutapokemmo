@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-25T04:05:40.859Z",
+  "fetchedAt": "2026-11-25T04:10:46.369Z",
   "swarms": [
+    {
+      "monsterId": 1,
+      "pokemon": "Bulbasaur",
+      "region": "Kanto",
+      "location": "Viridian Forest",
+      "sourceId": 1795581285,
+      "despawnTimestamp": 1795581284,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-25T04:34:45.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 517,
       "pokemon": "Munna",
@@ -15,27 +26,19 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 517,
-      "pokemon": "Munna",
-      "region": "Kanto",
-      "location": "Route 4",
-      "secondsAgo": 12306,
-      "sourceId": 1795567234
-    },
-    {
       "monsterId": 229,
       "pokemon": "Houndoom",
       "region": "Johto",
       "location": "Burned Tower",
-      "secondsAgo": 2940,
-      "sourceId": 1795576600
+      "secondsAgo": 3245,
+      "sourceId": 1795576601
     },
     {
       "monsterId": 123,
       "pokemon": "Scyther",
       "region": "Sinnoh",
       "location": "Route 210",
-      "secondsAgo": 8907,
+      "secondsAgo": 9213,
       "sourceId": 1795570633
     },
     {
@@ -43,8 +46,8 @@
       "pokemon": "Hippowdon",
       "region": "Unova",
       "location": "Mistralton Cave",
-      "secondsAgo": 8285,
-      "sourceId": 1795571255
+      "secondsAgo": 8590,
+      "sourceId": 1795571256
     }
   ],
   "alpha": {
