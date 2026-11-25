@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-25T06:20:53.396Z",
+  "fetchedAt": "2026-11-25T06:25:52.321Z",
   "swarms": [
-    {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Johto",
-      "location": "Route 38",
-      "sourceId": 1795587900,
-      "despawnTimestamp": 1795587900,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-25T06:25:00.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
@@ -30,15 +19,23 @@
       "pokemon": "Bulbasaur",
       "region": "Kanto",
       "location": "Viridian Forest",
-      "secondsAgo": 7868,
+      "secondsAgo": 8167,
       "sourceId": 1795579785
+    },
+    {
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Johto",
+      "location": "Route 38",
+      "secondsAgo": 1551,
+      "sourceId": 1795586401
     },
     {
       "monsterId": 517,
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 9131,
+      "secondsAgo": 9430,
       "sourceId": 1795578522
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Hippowdon",
       "region": "Unova",
       "location": "Mistralton Cave",
-      "secondsAgo": 16397,
+      "secondsAgo": 16696,
       "sourceId": 1795571256
     }
   ],
