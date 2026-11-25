@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-25T01:40:56.657Z",
+  "fetchedAt": "2026-11-25T01:45:49.793Z",
   "swarms": [
+    {
+      "monsterId": 352,
+      "pokemon": "Kecleon",
+      "region": "Hoenn",
+      "location": "Route 120",
+      "sourceId": 1795572432,
+      "despawnTimestamp": 1795572431,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-25T02:07:12.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 123,
       "pokemon": "Scyther",
@@ -19,7 +30,7 @@
       "pokemon": "Munna",
       "region": "Kanto",
       "location": "Route 4",
-      "secondsAgo": 3622,
+      "secondsAgo": 3915,
       "sourceId": 1795567234
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 3020,
+      "secondsAgo": 3313,
       "sourceId": 1795567836
-    },
-    {
-      "monsterId": 258,
-      "pokemon": "Mudkip",
-      "region": "Hoenn",
-      "location": "Route 104",
-      "secondsAgo": 10597,
-      "sourceId": 1795560259
     },
     {
       "monsterId": 376,
       "pokemon": "Metagross",
       "region": "Unova",
       "location": "Giant Chasm",
-      "secondsAgo": 10516,
+      "secondsAgo": 10809,
       "sourceId": 1795560340
     }
   ],
