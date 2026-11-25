@@ -1,45 +1,49 @@
 {
-  "fetchedAt": "2026-11-25T21:36:18.098Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-25T21:40:49.797Z",
+  "swarms": [
+    {
+      "monsterId": 253,
+      "pokemon": "Grovyle",
+      "region": "Hoenn",
+      "location": "Route 118",
+      "sourceId": 1795644201,
+      "despawnTimestamp": 1795644200,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-25T22:03:21.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 317,
       "pokemon": "Swalot",
       "region": "Kanto",
       "location": "Route 18",
-      "secondsAgo": 13582,
-      "sourceId": 1795628996
+      "secondsAgo": 13854,
+      "sourceId": 1795628995
     },
     {
       "monsterId": 213,
       "pokemon": "Shuckle",
       "region": "Johto",
       "location": "Cliff Cave",
-      "secondsAgo": 8675,
+      "secondsAgo": 8946,
       "sourceId": 1795633903
-    },
-    {
-      "monsterId": 330,
-      "pokemon": "Flygon",
-      "region": "Hoenn",
-      "location": "Desert Underpass",
-      "secondsAgo": 7279,
-      "sourceId": 1795635299
     },
     {
       "monsterId": 394,
       "pokemon": "Prinplup",
       "region": "Sinnoh",
       "location": "Route 220",
-      "secondsAgo": 9462,
-      "sourceId": 1795633116
+      "secondsAgo": 9734,
+      "sourceId": 1795633115
     },
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 6229,
+      "secondsAgo": 6500,
       "sourceId": 1795636349
     }
   ],
