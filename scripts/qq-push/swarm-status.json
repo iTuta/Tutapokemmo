@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-25T02:01:24.972Z",
+  "fetchedAt": "2026-11-25T02:05:41.540Z",
   "swarms": [
     {
       "monsterId": 352,
@@ -13,23 +13,12 @@
       "publishedBy": ""
     },
     {
-      "monsterId": 123,
-      "pokemon": "Scyther",
-      "region": "Sinnoh",
-      "location": "Route 210",
-      "sourceId": 1795572133,
-      "despawnTimestamp": 1795572132,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-25T02:02:13.000Z",
-      "publishedBy": ""
-    },
-    {
       "monsterId": 450,
       "pokemon": "Hippowdon",
       "region": "Unova",
       "location": "Mistralton Cave",
       "sourceId": 1795572755,
-      "despawnTimestamp": 1795572754,
+      "despawnTimestamp": 1795572755,
       "hasValuable": false,
       "timestampUtc": "2026-11-25T02:12:35.000Z",
       "publishedBy": ""
@@ -41,7 +30,7 @@
       "pokemon": "Munna",
       "region": "Kanto",
       "location": "Route 4",
-      "secondsAgo": 4850,
+      "secondsAgo": 5107,
       "sourceId": 1795567234
     },
     {
@@ -49,8 +38,16 @@
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 4248,
+      "secondsAgo": 4505,
       "sourceId": 1795567836
+    },
+    {
+      "monsterId": 123,
+      "pokemon": "Scyther",
+      "region": "Sinnoh",
+      "location": "Route 210",
+      "secondsAgo": 1708,
+      "sourceId": 1795570633
     }
   ],
   "alpha": {
