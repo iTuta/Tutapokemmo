@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-11-25T19:36:15.977Z",
+  "fetchedAt": "2026-11-25T19:40:50.297Z",
   "swarms": [
-    {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Johto",
-      "location": "Cliff Cave",
-      "sourceId": 1795635402,
-      "despawnTimestamp": 1795635401,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-25T19:36:42.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 330,
       "pokemon": "Flygon",
       "region": "Hoenn",
       "location": "Desert Underpass",
       "sourceId": 1795636798,
-      "despawnTimestamp": 1795636797,
+      "despawnTimestamp": 1795636798,
       "hasValuable": false,
       "timestampUtc": "2026-11-25T19:59:58.000Z",
       "publishedBy": ""
@@ -30,15 +19,23 @@
       "pokemon": "Swalot",
       "region": "Kanto",
       "location": "Route 18",
-      "secondsAgo": 6380,
+      "secondsAgo": 6655,
       "sourceId": 1795628995
+    },
+    {
+      "monsterId": 213,
+      "pokemon": "Shuckle",
+      "region": "Johto",
+      "location": "Cliff Cave",
+      "secondsAgo": 1747,
+      "sourceId": 1795633903
     },
     {
       "monsterId": 394,
       "pokemon": "Prinplup",
       "region": "Sinnoh",
       "location": "Route 220",
-      "secondsAgo": 2260,
+      "secondsAgo": 2535,
       "sourceId": 1795633115
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Ninjask",
       "region": "Unova",
       "location": "Route 11",
-      "secondsAgo": 7710,
-      "sourceId": 1795627665
+      "secondsAgo": 7984,
+      "sourceId": 1795627666
     }
   ],
   "alpha": {
