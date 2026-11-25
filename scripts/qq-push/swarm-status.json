@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-11-25T11:20:55.010Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-25T11:25:48.988Z",
+  "swarms": [
     {
-      "monsterId": 143,
-      "pokemon": "Snorlax",
+      "monsterId": 290,
+      "pokemon": "Nincada",
       "region": "Kanto",
-      "location": "Cerulean Cave",
-      "secondsAgo": 7273,
-      "sourceId": 1795598381
-    },
+      "location": "Route 25",
+      "sourceId": 1795607443,
+      "despawnTimestamp": 1795607442,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-25T11:50:43.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 9509,
+      "secondsAgo": 9803,
       "sourceId": 1795596145
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Drifblim",
       "region": "Sinnoh",
       "location": "Route 222",
-      "secondsAgo": 11443,
+      "secondsAgo": 11737,
       "sourceId": 1795594211
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 13374,
+      "secondsAgo": 13668,
       "sourceId": 1795592280
     }
   ],
