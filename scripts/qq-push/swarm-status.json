@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-25T10:05:54.738Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-25T10:11:01.797Z",
+  "swarms": [
+    {
+      "monsterId": 376,
+      "pokemon": "Metagross",
+      "region": "Hoenn",
+      "location": "Meteor Falls",
+      "sourceId": 1795602699,
+      "despawnTimestamp": 1795602699,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-25T10:31:39.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Kanto",
       "location": "Cerulean Cave",
-      "secondsAgo": 2773,
+      "secondsAgo": 3080,
       "sourceId": 1795598381
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Volcarona",
       "region": "Johto",
       "location": "Bell Tower",
-      "secondsAgo": 5009,
+      "secondsAgo": 5316,
       "sourceId": 1795596145
-    },
-    {
-      "monsterId": 255,
-      "pokemon": "Torchic",
-      "region": "Hoenn",
-      "location": "Route 112",
-      "secondsAgo": 12009,
-      "sourceId": 1795589145
     },
     {
       "monsterId": 426,
       "pokemon": "Drifblim",
       "region": "Sinnoh",
       "location": "Route 222",
-      "secondsAgo": 6942,
+      "secondsAgo": 7249,
       "sourceId": 1795594212
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 8873,
+      "secondsAgo": 9180,
       "sourceId": 1795592281
     }
   ],
