@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-25T07:05:57.930Z",
+  "fetchedAt": "2026-11-25T07:10:52.655Z",
   "swarms": [
     {
       "monsterId": 290,
@@ -11,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-25T07:10:54.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 255,
-      "pokemon": "Torchic",
-      "region": "Hoenn",
-      "location": "Route 112",
-      "sourceId": 1795590645,
-      "despawnTimestamp": 1795590644,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-25T07:10:45.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,15 +19,23 @@
       "pokemon": "Tauros",
       "region": "Johto",
       "location": "Route 38",
-      "secondsAgo": 3957,
-      "sourceId": 1795586400
+      "secondsAgo": 4251,
+      "sourceId": 1795586401
+    },
+    {
+      "monsterId": 255,
+      "pokemon": "Torchic",
+      "region": "Hoenn",
+      "location": "Route 112",
+      "secondsAgo": 1507,
+      "sourceId": 1795589145
     },
     {
       "monsterId": 285,
       "pokemon": "Shroomish",
       "region": "Sinnoh",
       "location": "Route 201",
-      "secondsAgo": 3475,
+      "secondsAgo": 3770,
       "sourceId": 1795586882
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Hippowdon",
       "region": "Unova",
       "location": "Mistralton Cave",
-      "secondsAgo": 19102,
+      "secondsAgo": 19397,
       "sourceId": 1795571255
     }
   ],
