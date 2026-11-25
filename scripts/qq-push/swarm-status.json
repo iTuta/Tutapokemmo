@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-25T14:10:53.946Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-25T14:16:01.748Z",
+  "swarms": [
+    {
+      "monsterId": 351,
+      "pokemon": "Castform",
+      "region": "Sinnoh",
+      "location": "Route 210",
+      "sourceId": 1795617539,
+      "despawnTimestamp": 1795617538,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-25T14:38:59.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Kanto",
       "location": "Route 25",
-      "secondsAgo": 9910,
+      "secondsAgo": 10218,
       "sourceId": 1795605943
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Metagross",
       "region": "Hoenn",
       "location": "Meteor Falls",
-      "secondsAgo": 14653,
+      "secondsAgo": 14961,
       "sourceId": 1795601200
-    },
-    {
-      "monsterId": 426,
-      "pokemon": "Drifblim",
-      "region": "Sinnoh",
-      "location": "Route 222",
-      "secondsAgo": 21642,
-      "sourceId": 1795594211
     },
     {
       "monsterId": 457,
       "pokemon": "Lumineon",
       "region": "Unova",
       "location": "Route 17",
-      "secondsAgo": 1927,
+      "secondsAgo": 2235,
       "sourceId": 1795613926
     }
   ],
