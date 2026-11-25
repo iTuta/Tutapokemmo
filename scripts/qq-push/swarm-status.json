@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-25T18:56:11.085Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-25T19:01:14.367Z",
+  "swarms": [
+    {
+      "monsterId": 394,
+      "pokemon": "Prinplup",
+      "region": "Sinnoh",
+      "location": "Route 220",
+      "sourceId": 1795634615,
+      "despawnTimestamp": 1795634614,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-25T19:23:35.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 317,
       "pokemon": "Swalot",
       "region": "Kanto",
       "location": "Route 18",
-      "secondsAgo": 3975,
+      "secondsAgo": 4279,
       "sourceId": 1795628995
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Pineco",
       "region": "Johto",
       "location": "Route 36",
-      "secondsAgo": 5020,
+      "secondsAgo": 5324,
       "sourceId": 1795627950
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Metagross",
       "region": "Hoenn",
       "location": "Meteor Falls",
-      "secondsAgo": 31770,
+      "secondsAgo": 32074,
       "sourceId": 1795601200
-    },
-    {
-      "monsterId": 389,
-      "pokemon": "Torterra",
-      "region": "Sinnoh",
-      "location": "Route 212",
-      "secondsAgo": 5432,
-      "sourceId": 1795627538
     },
     {
       "monsterId": 291,
       "pokemon": "Ninjask",
       "region": "Unova",
       "location": "Route 11",
-      "secondsAgo": 5305,
-      "sourceId": 1795627665
+      "secondsAgo": 5608,
+      "sourceId": 1795627666
     }
   ],
   "alpha": {
