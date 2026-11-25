@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-11-25T05:55:44.163Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-25T06:01:19.124Z",
+  "swarms": [
+    {
+      "monsterId": 128,
+      "pokemon": "Tauros",
+      "region": "Johto",
+      "location": "Route 38",
+      "sourceId": 1795587900,
+      "despawnTimestamp": 1795587900,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-25T06:25:00.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 1,
       "pokemon": "Bulbasaur",
       "region": "Kanto",
       "location": "Viridian Forest",
-      "secondsAgo": 6358,
+      "secondsAgo": 6693,
       "sourceId": 1795579786
-    },
-    {
-      "monsterId": 474,
-      "pokemon": "Porygon-Z",
-      "region": "Johto",
-      "location": "Team Rocket HQ",
-      "secondsAgo": 4372,
-      "sourceId": 1795581772
     },
     {
       "monsterId": 517,
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 7622,
+      "secondsAgo": 7957,
       "sourceId": 1795578522
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Kangaskhan",
       "region": "Sinnoh",
       "location": "Wayward Cave",
-      "secondsAgo": 2685,
+      "secondsAgo": 3020,
       "sourceId": 1795583459
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Hippowdon",
       "region": "Unova",
       "location": "Mistralton Cave",
-      "secondsAgo": 14888,
+      "secondsAgo": 15223,
       "sourceId": 1795571256
     }
   ],
