@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-25T13:36:06.486Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-25T13:40:53.317Z",
+  "swarms": [
+    {
+      "monsterId": 457,
+      "pokemon": "Lumineon",
+      "region": "Unova",
+      "location": "Route 17",
+      "sourceId": 1795615426,
+      "despawnTimestamp": 1795615425,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-25T14:03:46.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 290,
       "pokemon": "Nincada",
       "region": "Kanto",
       "location": "Route 25",
-      "secondsAgo": 7823,
+      "secondsAgo": 8110,
       "sourceId": 1795605943
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Meganium",
       "region": "Johto",
       "location": "Route 48",
-      "secondsAgo": 5850,
+      "secondsAgo": 6137,
       "sourceId": 1795607916
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Metagross",
       "region": "Hoenn",
       "location": "Meteor Falls",
-      "secondsAgo": 12566,
+      "secondsAgo": 12853,
       "sourceId": 1795601200
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Drifblim",
       "region": "Sinnoh",
       "location": "Route 222",
-      "secondsAgo": 19554,
+      "secondsAgo": 19841,
       "sourceId": 1795594212
-    },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Unova",
-      "location": "Relic Castle",
-      "secondsAgo": 21485,
-      "sourceId": 1795592281
     }
   ],
   "alpha": {
