@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-25T17:55:50.517Z",
+  "fetchedAt": "2026-11-25T18:02:06.921Z",
   "swarms": [
     {
       "monsterId": 317,
@@ -11,26 +11,23 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-25T18:14:54.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 204,
       "pokemon": "Pineco",
       "region": "Johto",
       "location": "Route 36",
-      "sourceId": 1795629449,
-      "despawnTimestamp": 1795629449,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-25T17:57:29.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1776,
+      "sourceId": 1795627950
+    },
     {
       "monsterId": 376,
       "pokemon": "Metagross",
       "region": "Hoenn",
       "location": "Meteor Falls",
-      "secondsAgo": 28150,
+      "secondsAgo": 28526,
       "sourceId": 1795601200
     },
     {
@@ -38,16 +35,16 @@
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 1811,
-      "sourceId": 1795627539
+      "secondsAgo": 2188,
+      "sourceId": 1795627538
     },
     {
       "monsterId": 291,
       "pokemon": "Ninjask",
       "region": "Unova",
       "location": "Route 11",
-      "secondsAgo": 1684,
-      "sourceId": 1795627666
+      "secondsAgo": 2061,
+      "sourceId": 1795627665
     }
   ],
   "alpha": {
