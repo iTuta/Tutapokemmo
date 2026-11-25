@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-25T19:21:02.957Z",
+  "fetchedAt": "2026-11-25T19:25:49.827Z",
   "swarms": [
     {
       "monsterId": 213,
@@ -7,20 +7,9 @@
       "region": "Johto",
       "location": "Cliff Cave",
       "sourceId": 1795635402,
-      "despawnTimestamp": 1795635401,
+      "despawnTimestamp": 1795635402,
       "hasValuable": false,
       "timestampUtc": "2026-11-25T19:36:42.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 394,
-      "pokemon": "Prinplup",
-      "region": "Sinnoh",
-      "location": "Route 220",
-      "sourceId": 1795634615,
-      "despawnTimestamp": 1795634614,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-25T19:23:35.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,7 +19,7 @@
       "pokemon": "Swalot",
       "region": "Kanto",
       "location": "Route 18",
-      "secondsAgo": 5467,
+      "secondsAgo": 5754,
       "sourceId": 1795628995
     },
     {
@@ -38,15 +27,23 @@
       "pokemon": "Metagross",
       "region": "Hoenn",
       "location": "Meteor Falls",
-      "secondsAgo": 33262,
+      "secondsAgo": 33549,
       "sourceId": 1795601200
+    },
+    {
+      "monsterId": 394,
+      "pokemon": "Prinplup",
+      "region": "Sinnoh",
+      "location": "Route 220",
+      "secondsAgo": 1634,
+      "sourceId": 1795633115
     },
     {
       "monsterId": 291,
       "pokemon": "Ninjask",
       "region": "Unova",
       "location": "Route 11",
-      "secondsAgo": 6797,
+      "secondsAgo": 7084,
       "sourceId": 1795627665
     }
   ],
