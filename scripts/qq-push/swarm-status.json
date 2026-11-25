@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-11-25T04:41:07.361Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-25T04:45:51.494Z",
+  "swarms": [
+    {
+      "monsterId": 474,
+      "pokemon": "Porygon-Z",
+      "region": "Johto",
+      "location": "Team Rocket HQ",
+      "sourceId": 1795583271,
+      "despawnTimestamp": 1795583271,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-25T05:07:51.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 1,
       "pokemon": "Bulbasaur",
       "region": "Kanto",
       "location": "Viridian Forest",
-      "secondsAgo": 1882,
+      "secondsAgo": 2166,
       "sourceId": 1795579785
-    },
-    {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Johto",
-      "location": "Burned Tower",
-      "secondsAgo": 5066,
-      "sourceId": 1795576601
     },
     {
       "monsterId": 123,
       "pokemon": "Scyther",
       "region": "Sinnoh",
       "location": "Route 210",
-      "secondsAgo": 11034,
+      "secondsAgo": 11318,
       "sourceId": 1795570633
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Hippowdon",
       "region": "Unova",
       "location": "Mistralton Cave",
-      "secondsAgo": 10411,
+      "secondsAgo": 10695,
       "sourceId": 1795571256
     }
   ],
