@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-11-25T01:36:04.095Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-25T01:40:56.657Z",
+  "swarms": [
+    {
+      "monsterId": 123,
+      "pokemon": "Scyther",
+      "region": "Sinnoh",
+      "location": "Route 210",
+      "sourceId": 1795572133,
+      "despawnTimestamp": 1795572132,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-25T02:02:13.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 517,
       "pokemon": "Munna",
       "region": "Kanto",
       "location": "Route 4",
-      "secondsAgo": 3329,
-      "sourceId": 1795567235
+      "secondsAgo": 3622,
+      "sourceId": 1795567234
     },
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 2727,
-      "sourceId": 1795567837
+      "secondsAgo": 3020,
+      "sourceId": 1795567836
     },
     {
       "monsterId": 258,
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 10304,
-      "sourceId": 1795560260
-    },
-    {
-      "monsterId": 83,
-      "pokemon": "Farfetch&#x27;d",
-      "region": "Sinnoh",
-      "location": "Route 209",
-      "secondsAgo": 10543,
-      "sourceId": 1795560021
+      "secondsAgo": 10597,
+      "sourceId": 1795560259
     },
     {
       "monsterId": 376,
       "pokemon": "Metagross",
       "region": "Unova",
       "location": "Giant Chasm",
-      "secondsAgo": 10223,
-      "sourceId": 1795560341
+      "secondsAgo": 10516,
+      "sourceId": 1795560340
     }
   ],
   "alpha": {
