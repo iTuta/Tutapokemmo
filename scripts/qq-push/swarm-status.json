@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-11-25T08:40:50.249Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-25T08:46:20.767Z",
+  "swarms": [
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Johto",
+      "location": "Bell Tower",
+      "sourceId": 1795597645,
+      "despawnTimestamp": 1795597645,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-25T09:07:25.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 198,
       "pokemon": "Murkrow",
       "region": "Kanto",
       "location": "Route 7",
-      "secondsAgo": 1822,
-      "sourceId": 1795594228
-    },
-    {
-      "monsterId": 128,
-      "pokemon": "Tauros",
-      "region": "Johto",
-      "location": "Route 38",
-      "secondsAgo": 9649,
-      "sourceId": 1795586401
+      "secondsAgo": 2153,
+      "sourceId": 1795594227
     },
     {
       "monsterId": 255,
       "pokemon": "Torchic",
       "region": "Hoenn",
       "location": "Route 112",
-      "secondsAgo": 6904,
-      "sourceId": 1795589146
+      "secondsAgo": 7235,
+      "sourceId": 1795589145
     },
     {
       "monsterId": 426,
       "pokemon": "Drifblim",
       "region": "Sinnoh",
       "location": "Route 222",
-      "secondsAgo": 1838,
+      "secondsAgo": 2168,
       "sourceId": 1795594212
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 3769,
+      "secondsAgo": 4099,
       "sourceId": 1795592281
     }
   ],
