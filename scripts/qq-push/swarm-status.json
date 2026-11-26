@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-26T06:11:01.354Z",
+  "fetchedAt": "2026-11-26T06:15:59.071Z",
   "swarms": [
-    {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
-      "region": "Kanto",
-      "location": "Kindle Road",
-      "sourceId": 1795673551,
-      "despawnTimestamp": 1795673551,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-26T06:12:31.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 190,
       "pokemon": "Aipom",
@@ -24,6 +13,17 @@
       "publishedBy": ""
     },
     {
+      "monsterId": 258,
+      "pokemon": "Mudkip",
+      "region": "Hoenn",
+      "location": "Route 104",
+      "sourceId": 1795675071,
+      "despawnTimestamp": 1795675071,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-26T06:37:51.000Z",
+      "publishedBy": ""
+    },
+    {
       "monsterId": 392,
       "pokemon": "Infernape",
       "region": "Sinnoh",
@@ -33,24 +33,27 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-26T06:32:13.000Z",
       "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
-    {
-      "monsterId": 256,
-      "pokemon": "Combusken",
-      "region": "Hoenn",
-      "location": "Route 114",
-      "secondsAgo": 8306,
-      "sourceId": 1795665155
     },
     {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 4943,
-      "sourceId": 1795668518
+      "sourceId": 1795675143,
+      "despawnTimestamp": 1795675143,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-26T06:39:03.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
+    {
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Kanto",
+      "location": "Kindle Road",
+      "secondsAgo": 1707,
+      "sourceId": 1795672052
     }
   ],
   "alpha": {
