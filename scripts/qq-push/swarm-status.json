@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-26T18:01:01.931Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-26T18:05:41.417Z",
+  "swarms": [
+    {
+      "monsterId": 227,
+      "pokemon": "Skarmory",
+      "region": "Sinnoh",
+      "location": "Route 227",
+      "sourceId": 1795717662,
+      "despawnTimestamp": 1795717662,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-26T18:27:42.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Kanto",
       "location": "Treasure Beach",
-      "secondsAgo": 12989,
+      "secondsAgo": 13269,
       "sourceId": 1795703072
     },
     {
@@ -15,32 +27,24 @@
       "pokemon": "Vigoroth",
       "region": "Johto",
       "location": "Ruins of Alph",
-      "secondsAgo": 7322,
-      "sourceId": 1795708739
+      "secondsAgo": 7601,
+      "sourceId": 1795708740
     },
     {
       "monsterId": 468,
       "pokemon": "Togekiss",
       "region": "Hoenn",
       "location": "Sky Pillar",
-      "secondsAgo": 5610,
-      "sourceId": 1795710451
-    },
-    {
-      "monsterId": 452,
-      "pokemon": "Drapion",
-      "region": "Sinnoh",
-      "location": "Route 213",
-      "secondsAgo": 4067,
-      "sourceId": 1795711994
+      "secondsAgo": 5889,
+      "sourceId": 1795710452
     },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Unova",
       "location": "Village Bridge",
-      "secondsAgo": 6900,
-      "sourceId": 1795709161
+      "secondsAgo": 7179,
+      "sourceId": 1795709162
     }
   ],
   "alpha": {
