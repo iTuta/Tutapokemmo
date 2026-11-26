@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-26T12:20:57.132Z",
+  "fetchedAt": "2026-11-26T12:25:43.912Z",
   "swarms": [
+    {
+      "monsterId": 456,
+      "pokemon": "Finneon",
+      "region": "Hoenn",
+      "location": "Route 107",
+      "sourceId": 1795697298,
+      "despawnTimestamp": 1795697297,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-26T12:48:18.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 247,
       "pokemon": "Pupitar",
       "region": "Unova",
       "location": "Twist Mountain",
       "sourceId": 1795696144,
-      "despawnTimestamp": 1795696144,
+      "despawnTimestamp": 1795696143,
       "hasValuable": false,
       "timestampUtc": "2026-11-26T12:29:04.000Z",
       "publishedBy": ""
@@ -19,32 +30,24 @@
       "pokemon": "Milotic",
       "region": "Kanto",
       "location": "Resort Gorgeous",
-      "secondsAgo": 5310,
-      "sourceId": 1795690347
+      "secondsAgo": 5597,
+      "sourceId": 1795690346
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 8383,
-      "sourceId": 1795687274
-    },
-    {
-      "monsterId": 258,
-      "pokemon": "Mudkip",
-      "region": "Hoenn",
-      "location": "Route 104",
-      "secondsAgo": 22085,
-      "sourceId": 1795673572
+      "secondsAgo": 8670,
+      "sourceId": 1795687273
     },
     {
       "monsterId": 332,
       "pokemon": "Cacturne",
       "region": "Sinnoh",
       "location": "Route 228",
-      "secondsAgo": 10653,
-      "sourceId": 1795685004
+      "secondsAgo": 10940,
+      "sourceId": 1795685003
     }
   ],
   "alpha": {
