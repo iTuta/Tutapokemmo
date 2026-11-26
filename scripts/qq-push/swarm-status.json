@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-11-26T14:20:53.092Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-26T14:25:45.764Z",
+  "swarms": [
     {
-      "monsterId": 350,
-      "pokemon": "Milotic",
+      "monsterId": 441,
+      "pokemon": "Chatot",
       "region": "Kanto",
-      "location": "Resort Gorgeous",
-      "secondsAgo": 12506,
-      "sourceId": 1795690347
-    },
+      "location": "Treasure Beach",
+      "sourceId": 1795704571,
+      "despawnTimestamp": 1795704571,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-26T14:49:31.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 155,
       "pokemon": "Cyndaquil",
       "region": "Johto",
       "location": "Route 33",
-      "secondsAgo": 2536,
-      "sourceId": 1795700317
+      "secondsAgo": 2829,
+      "sourceId": 1795700316
     },
     {
       "monsterId": 456,
       "pokemon": "Finneon",
       "region": "Hoenn",
       "location": "Route 107",
-      "secondsAgo": 7054,
-      "sourceId": 1795695799
+      "secondsAgo": 7347,
+      "sourceId": 1795695798
     },
     {
       "monsterId": 412,
       "pokemon": "Burmy",
       "region": "Sinnoh",
       "location": "Route 202",
-      "secondsAgo": 6618,
-      "sourceId": 1795696235
+      "secondsAgo": 6911,
+      "sourceId": 1795696234
     },
     {
       "monsterId": 247,
       "pokemon": "Pupitar",
       "region": "Unova",
       "location": "Twist Mountain",
-      "secondsAgo": 8208,
-      "sourceId": 1795694645
+      "secondsAgo": 8501,
+      "sourceId": 1795694644
     }
   ],
   "alpha": {
