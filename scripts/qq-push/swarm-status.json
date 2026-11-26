@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-11-26T15:55:49.075Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-26T16:01:10.867Z",
+  "swarms": [
     {
-      "monsterId": 155,
-      "pokemon": "Cyndaquil",
+      "monsterId": 288,
+      "pokemon": "Vigoroth",
       "region": "Johto",
-      "location": "Route 33",
-      "secondsAgo": 8232,
-      "sourceId": 1795700317
-    },
+      "location": "Ruins of Alph",
+      "sourceId": 1795710239,
+      "despawnTimestamp": 1795710238,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-26T16:23:59.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Hoenn",
       "location": "Route 115",
-      "secondsAgo": 5198,
+      "secondsAgo": 5519,
       "sourceId": 1795703351
     },
     {
@@ -23,16 +27,16 @@
       "pokemon": "Glaceon",
       "region": "Sinnoh",
       "location": "Route 217",
-      "secondsAgo": 4171,
-      "sourceId": 1795704378
+      "secondsAgo": 4493,
+      "sourceId": 1795704377
     },
     {
       "monsterId": 115,
       "pokemon": "Kangaskhan",
       "region": "Unova",
       "location": "Wellspring Cave",
-      "secondsAgo": 5110,
-      "sourceId": 1795703439
+      "secondsAgo": 5432,
+      "sourceId": 1795703438
     }
   ],
   "alpha": {
