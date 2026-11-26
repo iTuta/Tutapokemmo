@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-26T04:45:09.582Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-26T04:56:05.415Z",
+  "swarms": [
+    {
+      "monsterId": 373,
+      "pokemon": "Salamence",
+      "region": "Unova",
+      "location": "Dragonspiral Tower",
+      "sourceId": 1795670017,
+      "despawnTimestamp": 1795670017,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-26T05:13:37.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 413,
       "pokemon": "Wormadam",
       "region": "Kanto",
       "location": "Pattern Bush",
-      "secondsAgo": 5754,
+      "secondsAgo": 6410,
       "sourceId": 1795662555
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 7274,
+      "secondsAgo": 7930,
       "sourceId": 1795661035
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Combusken",
       "region": "Hoenn",
       "location": "Route 114",
-      "secondsAgo": 3154,
+      "secondsAgo": 3810,
       "sourceId": 1795665155
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Skarmory",
       "region": "Sinnoh",
       "location": "Route 227",
-      "secondsAgo": 22984,
+      "secondsAgo": 23640,
       "sourceId": 1795645325
-    },
-    {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Unova",
-      "location": "Route 1",
-      "secondsAgo": 6519,
-      "sourceId": 1795661790
     }
   ],
   "alpha": {
