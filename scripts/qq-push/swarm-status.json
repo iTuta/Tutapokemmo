@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-11-26T19:46:20.287Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-26T19:50:49.721Z",
+  "swarms": [
+    {
+      "monsterId": 212,
+      "pokemon": "Scizor",
+      "region": "Unova",
+      "location": "Route 14",
+      "sourceId": 1795724014,
+      "despawnTimestamp": 1795724013,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-26T20:13:34.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 317,
       "pokemon": "Swalot",
       "region": "Kanto",
       "location": "Route 18",
-      "secondsAgo": 2723,
-      "sourceId": 1795719657
+      "secondsAgo": 2993,
+      "sourceId": 1795719656
     },
     {
       "monsterId": 320,
       "pokemon": "Wailmer",
       "region": "Johto",
       "location": "Route 40",
-      "secondsAgo": 4760,
+      "secondsAgo": 5029,
       "sourceId": 1795717620
     },
     {
@@ -23,16 +35,8 @@
       "pokemon": "Skarmory",
       "region": "Sinnoh",
       "location": "Route 227",
-      "secondsAgo": 6217,
+      "secondsAgo": 6486,
       "sourceId": 1795716163
-    },
-    {
-      "monsterId": 222,
-      "pokemon": "Corsola",
-      "region": "Unova",
-      "location": "Undella Bay",
-      "secondsAgo": 6014,
-      "sourceId": 1795716366
     }
   ],
   "alpha": {
