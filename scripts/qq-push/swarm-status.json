@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-26T02:56:12.385Z",
+  "fetchedAt": "2026-11-26T03:01:08.013Z",
   "swarms": [
     {
       "monsterId": 143,
@@ -7,9 +7,20 @@
       "region": "Johto",
       "location": "Victory Road",
       "sourceId": 1795662534,
-      "despawnTimestamp": 1795662534,
+      "despawnTimestamp": 1795662533,
       "hasValuable": false,
       "timestampUtc": "2026-11-26T03:08:54.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 336,
+      "pokemon": "Seviper",
+      "region": "Unova",
+      "location": "Route 1",
+      "sourceId": 1795663289,
+      "despawnTimestamp": 1795663288,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-26T03:21:29.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,7 +30,7 @@
       "pokemon": "Lapras",
       "region": "Kanto",
       "location": "Icefall Cave",
-      "secondsAgo": 6856,
+      "secondsAgo": 7151,
       "sourceId": 1795654916
     },
     {
@@ -27,16 +38,8 @@
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 3788,
-      "sourceId": 1795657984
-    },
-    {
-      "monsterId": 430,
-      "pokemon": "Honchkrow",
-      "region": "Unova",
-      "location": "Celestial Tower",
-      "secondsAgo": 6568,
-      "sourceId": 1795655204
+      "secondsAgo": 4084,
+      "sourceId": 1795657983
     }
   ],
   "alpha": {
