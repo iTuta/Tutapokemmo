@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-26T03:50:46.502Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-26T04:00:38.583Z",
+  "swarms": [
+    {
+      "monsterId": 256,
+      "pokemon": "Combusken",
+      "region": "Hoenn",
+      "location": "Route 114",
+      "sourceId": 1795666654,
+      "despawnTimestamp": 1795666654,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-26T04:17:34.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 413,
       "pokemon": "Wormadam",
       "region": "Kanto",
       "location": "Pattern Bush",
-      "secondsAgo": 2491,
+      "secondsAgo": 3083,
       "sourceId": 1795662555
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Snorlax",
       "region": "Johto",
       "location": "Victory Road",
-      "secondsAgo": 4011,
-      "sourceId": 1795661035
-    },
-    {
-      "monsterId": 258,
-      "pokemon": "Mudkip",
-      "region": "Hoenn",
-      "location": "Route 104",
-      "secondsAgo": 7062,
-      "sourceId": 1795657984
+      "secondsAgo": 4604,
+      "sourceId": 1795661034
     },
     {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Sinnoh",
       "location": "Route 227",
-      "secondsAgo": 19721,
+      "secondsAgo": 20313,
       "sourceId": 1795645325
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 3256,
+      "secondsAgo": 3848,
       "sourceId": 1795661790
     }
   ],
