@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-26T00:20:58.557Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-26T00:25:41.632Z",
+  "swarms": [
+    {
+      "monsterId": 149,
+      "pokemon": "Dragonite",
+      "region": "Hoenn",
+      "location": "Route 131",
+      "sourceId": 1795654090,
+      "despawnTimestamp": 1795654090,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-26T00:48:10.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Kanto",
       "location": "Treasure Beach",
-      "secondsAgo": 7061,
+      "secondsAgo": 7344,
       "sourceId": 1795645397
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Shuckle",
       "region": "Johto",
       "location": "Cliff Cave",
-      "secondsAgo": 18555,
+      "secondsAgo": 18838,
       "sourceId": 1795633903
-    },
-    {
-      "monsterId": 107,
-      "pokemon": "Hitmonchan",
-      "region": "Hoenn",
-      "location": "Fiery Path",
-      "secondsAgo": 6717,
-      "sourceId": 1795645741
     },
     {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Sinnoh",
       "location": "Route 227",
-      "secondsAgo": 7133,
+      "secondsAgo": 7416,
       "sourceId": 1795645325
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Seviper",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 16109,
+      "secondsAgo": 16392,
       "sourceId": 1795636349
     }
   ],
