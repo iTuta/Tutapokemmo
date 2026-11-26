@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-11-26T10:50:57.282Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-26T10:55:58.212Z",
+  "swarms": [
     {
-      "monsterId": 229,
-      "pokemon": "Houndoom",
+      "monsterId": 350,
+      "pokemon": "Milotic",
       "region": "Kanto",
-      "location": "Kindle Road",
-      "secondsAgo": 18205,
-      "sourceId": 1795672052
-    },
+      "location": "Resort Gorgeous",
+      "sourceId": 1795691846,
+      "despawnTimestamp": 1795691846,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-26T11:17:26.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 2983,
+      "secondsAgo": 3284,
       "sourceId": 1795687274
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 16685,
+      "secondsAgo": 16986,
       "sourceId": 1795673572
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Cacturne",
       "region": "Sinnoh",
       "location": "Route 228",
-      "secondsAgo": 5253,
+      "secondsAgo": 5554,
       "sourceId": 1795685004
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 16613,
+      "secondsAgo": 16914,
       "sourceId": 1795673644
     }
   ],
