@@ -1,25 +1,21 @@
 {
-  "fetchedAt": "2026-11-26T09:45:48.944Z",
-  "swarms": [
-    {
-      "monsterId": 332,
-      "pokemon": "Cacturne",
-      "region": "Sinnoh",
-      "location": "Route 228",
-      "sourceId": 1795686503,
-      "despawnTimestamp": 1795686502,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-26T09:48:23.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-11-26T09:50:50.591Z",
+  "swarms": [],
   "lastSeen": [
+    {
+      "monsterId": 229,
+      "pokemon": "Houndoom",
+      "region": "Kanto",
+      "location": "Kindle Road",
+      "secondsAgo": 14598,
+      "sourceId": 1795672052
+    },
     {
       "monsterId": 370,
       "pokemon": "Luvdisc",
       "region": "Johto",
       "location": "Route 47",
-      "secondsAgo": 3366,
+      "secondsAgo": 3668,
       "sourceId": 1795682982
     },
     {
@@ -27,16 +23,24 @@
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 12777,
-      "sourceId": 1795673571
+      "secondsAgo": 13078,
+      "sourceId": 1795673572
+    },
+    {
+      "monsterId": 332,
+      "pokemon": "Cacturne",
+      "region": "Sinnoh",
+      "location": "Route 228",
+      "secondsAgo": 1647,
+      "sourceId": 1795685003
     },
     {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 12705,
-      "sourceId": 1795673643
+      "secondsAgo": 13006,
+      "sourceId": 1795673644
     }
   ],
   "alpha": {
@@ -49,6 +53,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-11-26T05:04:01.000Z",
     "timestampRaw": "2026-11-26T05:04:01.000Z",
-    "publishedBy": ""
+    "publishedBy": "IronLion"
   }
 }
