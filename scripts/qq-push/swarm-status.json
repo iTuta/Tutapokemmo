@@ -1,37 +1,15 @@
 {
-  "fetchedAt": "2026-11-26T06:31:08.128Z",
+  "fetchedAt": "2026-11-26T06:35:49.855Z",
   "swarms": [
-    {
-      "monsterId": 190,
-      "pokemon": "Aipom",
-      "region": "Johto",
-      "location": "Route 29",
-      "sourceId": 1795674697,
-      "despawnTimestamp": 1795674697,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-26T06:31:37.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 258,
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
       "sourceId": 1795675071,
-      "despawnTimestamp": 1795675071,
+      "despawnTimestamp": 1795675070,
       "hasValuable": false,
       "timestampUtc": "2026-11-26T06:37:51.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 392,
-      "pokemon": "Infernape",
-      "region": "Sinnoh",
-      "location": "Route 221",
-      "sourceId": 1795674733,
-      "despawnTimestamp": 1795674733,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-26T06:32:13.000Z",
       "publishedBy": ""
     },
     {
@@ -40,7 +18,7 @@
       "region": "Unova",
       "location": "Dragonspiral Tower",
       "sourceId": 1795675143,
-      "despawnTimestamp": 1795675143,
+      "despawnTimestamp": 1795675142,
       "hasValuable": false,
       "timestampUtc": "2026-11-26T06:39:03.000Z",
       "publishedBy": ""
@@ -52,8 +30,24 @@
       "pokemon": "Houndoom",
       "region": "Kanto",
       "location": "Kindle Road",
-      "secondsAgo": 2616,
+      "secondsAgo": 2897,
       "sourceId": 1795672052
+    },
+    {
+      "monsterId": 190,
+      "pokemon": "Aipom",
+      "region": "Johto",
+      "location": "Route 29",
+      "secondsAgo": 1752,
+      "sourceId": 1795673197
+    },
+    {
+      "monsterId": 392,
+      "pokemon": "Infernape",
+      "region": "Sinnoh",
+      "location": "Route 221",
+      "secondsAgo": 1716,
+      "sourceId": 1795673233
     }
   ],
   "alpha": {
