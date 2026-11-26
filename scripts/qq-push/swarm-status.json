@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-26T09:20:49.493Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-26T09:25:53.073Z",
+  "swarms": [
+    {
+      "monsterId": 332,
+      "pokemon": "Cacturne",
+      "region": "Sinnoh",
+      "location": "Route 228",
+      "sourceId": 1795686503,
+      "despawnTimestamp": 1795686503,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-26T09:48:23.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 370,
       "pokemon": "Luvdisc",
       "region": "Johto",
       "location": "Route 47",
-      "secondsAgo": 1867,
+      "secondsAgo": 2171,
       "sourceId": 1795682982
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 11277,
+      "secondsAgo": 11581,
       "sourceId": 1795673572
-    },
-    {
-      "monsterId": 392,
-      "pokemon": "Infernape",
-      "region": "Sinnoh",
-      "location": "Route 221",
-      "secondsAgo": 11615,
-      "sourceId": 1795673234
     },
     {
       "monsterId": 373,
       "pokemon": "Salamence",
       "region": "Unova",
       "location": "Dragonspiral Tower",
-      "secondsAgo": 11205,
+      "secondsAgo": 11509,
       "sourceId": 1795673644
     }
   ],
