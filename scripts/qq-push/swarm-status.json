@@ -1,26 +1,15 @@
 {
-  "fetchedAt": "2026-11-26T14:46:04.201Z",
+  "fetchedAt": "2026-11-26T14:50:54.441Z",
   "swarms": [
     {
-      "monsterId": 441,
-      "pokemon": "Chatot",
-      "region": "Kanto",
-      "location": "Treasure Beach",
-      "sourceId": 1795704571,
-      "despawnTimestamp": 1795704571,
+      "monsterId": 471,
+      "pokemon": "Glaceon",
+      "region": "Sinnoh",
+      "location": "Route 217",
+      "sourceId": 1795705877,
+      "despawnTimestamp": 1795705877,
       "hasValuable": false,
-      "timestampUtc": "2026-11-26T14:49:31.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 441,
-      "pokemon": "Chatot",
-      "region": "Hoenn",
-      "location": "Route 115",
-      "sourceId": 1795704370,
-      "despawnTimestamp": 1795704370,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-26T14:46:10.000Z",
+      "timestampUtc": "2026-11-26T15:11:17.000Z",
       "publishedBy": ""
     },
     {
@@ -37,20 +26,28 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 441,
+      "pokemon": "Chatot",
+      "region": "Kanto",
+      "location": "Treasure Beach",
+      "secondsAgo": 1582,
+      "sourceId": 1795703072
+    },
+    {
       "monsterId": 155,
       "pokemon": "Cyndaquil",
       "region": "Johto",
       "location": "Route 33",
-      "secondsAgo": 4047,
+      "secondsAgo": 4337,
       "sourceId": 1795700317
     },
     {
-      "monsterId": 412,
-      "pokemon": "Burmy",
-      "region": "Sinnoh",
-      "location": "Route 202",
-      "secondsAgo": 8129,
-      "sourceId": 1795696235
+      "monsterId": 441,
+      "pokemon": "Chatot",
+      "region": "Hoenn",
+      "location": "Route 115",
+      "secondsAgo": 1303,
+      "sourceId": 1795703351
     }
   ],
   "alpha": {
