@@ -1,15 +1,15 @@
 {
-  "fetchedAt": "2026-11-26T03:05:53.033Z",
+  "fetchedAt": "2026-11-26T03:11:08.842Z",
   "swarms": [
     {
-      "monsterId": 143,
-      "pokemon": "Snorlax",
-      "region": "Johto",
-      "location": "Victory Road",
-      "sourceId": 1795662534,
-      "despawnTimestamp": 1795662534,
+      "monsterId": 413,
+      "pokemon": "Wormadam",
+      "region": "Kanto",
+      "location": "Pattern Bush",
+      "sourceId": 1795664054,
+      "despawnTimestamp": 1795664054,
       "hasValuable": false,
-      "timestampUtc": "2026-11-26T03:08:54.000Z",
+      "timestampUtc": "2026-11-26T03:34:14.000Z",
       "publishedBy": ""
     },
     {
@@ -18,7 +18,7 @@
       "region": "Unova",
       "location": "Route 1",
       "sourceId": 1795663289,
-      "despawnTimestamp": 1795663289,
+      "despawnTimestamp": 1795663288,
       "hasValuable": false,
       "timestampUtc": "2026-11-26T03:21:29.000Z",
       "publishedBy": ""
@@ -26,20 +26,28 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Kanto",
-      "location": "Icefall Cave",
-      "secondsAgo": 7436,
-      "sourceId": 1795654917
+      "monsterId": 143,
+      "pokemon": "Snorlax",
+      "region": "Johto",
+      "location": "Victory Road",
+      "secondsAgo": 1634,
+      "sourceId": 1795661034
     },
     {
       "monsterId": 258,
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 4369,
+      "secondsAgo": 4684,
       "sourceId": 1795657984
+    },
+    {
+      "monsterId": 227,
+      "pokemon": "Skarmory",
+      "region": "Sinnoh",
+      "location": "Route 227",
+      "secondsAgo": 17343,
+      "sourceId": 1795645325
     }
   ],
   "alpha": {
@@ -52,6 +60,6 @@
     "hasValuable": false,
     "timestampUtc": "2026-11-25T22:24:31.000Z",
     "timestampRaw": "2026-11-25T22:24:31.000Z",
-    "publishedBy": ""
+    "publishedBy": "tkZombie"
   }
 }
