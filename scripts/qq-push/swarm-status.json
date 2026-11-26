@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-11-26T12:01:59.180Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-26T12:06:40.716Z",
+  "swarms": [
+    {
+      "monsterId": 247,
+      "pokemon": "Pupitar",
+      "region": "Unova",
+      "location": "Twist Mountain",
+      "sourceId": 1795696144,
+      "despawnTimestamp": 1795696143,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-26T12:29:04.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 350,
       "pokemon": "Milotic",
       "region": "Kanto",
       "location": "Resort Gorgeous",
-      "secondsAgo": 4172,
-      "sourceId": 1795690347
+      "secondsAgo": 4454,
+      "sourceId": 1795690346
     },
     {
       "monsterId": 570,
       "pokemon": "Zorua",
       "region": "Johto",
       "location": "Route 37",
-      "secondsAgo": 7245,
-      "sourceId": 1795687274
+      "secondsAgo": 7527,
+      "sourceId": 1795687273
     },
     {
       "monsterId": 258,
       "pokemon": "Mudkip",
       "region": "Hoenn",
       "location": "Route 104",
-      "secondsAgo": 20947,
-      "sourceId": 1795673572
+      "secondsAgo": 21229,
+      "sourceId": 1795673571
     },
     {
       "monsterId": 332,
       "pokemon": "Cacturne",
       "region": "Sinnoh",
       "location": "Route 228",
-      "secondsAgo": 9515,
-      "sourceId": 1795685004
-    },
-    {
-      "monsterId": 373,
-      "pokemon": "Salamence",
-      "region": "Unova",
-      "location": "Dragonspiral Tower",
-      "secondsAgo": 20875,
-      "sourceId": 1795673644
+      "secondsAgo": 9797,
+      "sourceId": 1795685003
     }
   ],
   "alpha": {
