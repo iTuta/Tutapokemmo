@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-26T01:26:08.079Z",
+  "fetchedAt": "2026-11-26T01:31:36.161Z",
   "swarms": [
-    {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Kanto",
-      "location": "Icefall Cave",
-      "sourceId": 1795656416,
-      "despawnTimestamp": 1795656416,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-26T01:26:56.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 430,
       "pokemon": "Honchkrow",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Kanto",
+      "location": "Icefall Cave",
+      "secondsAgo": 1779,
+      "sourceId": 1795654917
+    },
+    {
       "monsterId": 375,
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 2207,
+      "secondsAgo": 2535,
       "sourceId": 1795654161
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Dragonite",
       "region": "Hoenn",
       "location": "Route 131",
-      "secondsAgo": 3777,
+      "secondsAgo": 4105,
       "sourceId": 1795652591
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Skarmory",
       "region": "Sinnoh",
       "location": "Route 227",
-      "secondsAgo": 11043,
+      "secondsAgo": 11371,
       "sourceId": 1795645325
     }
   ],
