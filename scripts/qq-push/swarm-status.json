@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-26T01:51:05.915Z",
+  "fetchedAt": "2026-11-26T01:55:47.384Z",
   "swarms": [
     {
       "monsterId": 143,
@@ -7,9 +7,20 @@
       "region": "Johto",
       "location": "Victory Road",
       "sourceId": 1795658315,
-      "despawnTimestamp": 1795658314,
+      "despawnTimestamp": 1795658315,
       "hasValuable": false,
       "timestampUtc": "2026-11-26T01:58:35.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 258,
+      "pokemon": "Mudkip",
+      "region": "Hoenn",
+      "location": "Route 104",
+      "sourceId": 1795659483,
+      "despawnTimestamp": 1795659483,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-26T02:18:03.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,44 +30,28 @@
       "pokemon": "Lapras",
       "region": "Kanto",
       "location": "Icefall Cave",
-      "secondsAgo": 2949,
+      "secondsAgo": 3231,
       "sourceId": 1795654916
-    },
-    {
-      "monsterId": 149,
-      "pokemon": "Dragonite",
-      "region": "Hoenn",
-      "location": "Route 131",
-      "secondsAgo": 5275,
-      "sourceId": 1795652590
-    },
-    {
-      "monsterId": 227,
-      "pokemon": "Skarmory",
-      "region": "Sinnoh",
-      "location": "Route 227",
-      "secondsAgo": 12541,
-      "sourceId": 1795645324
     },
     {
       "monsterId": 430,
       "pokemon": "Honchkrow",
       "region": "Unova",
       "location": "Celestial Tower",
-      "secondsAgo": 2661,
+      "secondsAgo": 2943,
       "sourceId": 1795655204
     }
   ],
   "alpha": {
-    "monsterId": 22,
-    "pokemon": "Fearow",
-    "region": "Kanto",
-    "location": "One Island",
-    "sourceId": 1795624935,
-    "despawnTimestamp": 1795642035,
+    "monsterId": 398,
+    "pokemon": "Staraptor",
+    "region": "Sinnoh",
+    "location": "Sendoff Spring",
+    "sourceId": 1795645471,
+    "despawnTimestamp": 1795662571,
     "hasValuable": false,
-    "timestampUtc": "2026-11-25T16:42:15.000Z",
-    "timestampRaw": "2026-11-25T16:42:15.000Z",
-    "publishedBy": "reiishere"
+    "timestampUtc": "2026-11-25T22:24:31.000Z",
+    "timestampRaw": "2026-11-25T22:24:31.000Z",
+    "publishedBy": ""
   }
 }
