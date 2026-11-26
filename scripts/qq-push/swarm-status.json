@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-11-26T18:55:47.364Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-26T19:01:08.045Z",
+  "swarms": [
     {
-      "monsterId": 441,
-      "pokemon": "Chatot",
+      "monsterId": 317,
+      "pokemon": "Swalot",
       "region": "Kanto",
-      "location": "Treasure Beach",
-      "secondsAgo": 16275,
-      "sourceId": 1795703072
-    },
+      "location": "Route 18",
+      "sourceId": 1795721156,
+      "despawnTimestamp": 1795721156,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-26T19:25:56.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 320,
       "pokemon": "Wailmer",
       "region": "Johto",
       "location": "Route 40",
-      "secondsAgo": 1727,
+      "secondsAgo": 2048,
       "sourceId": 1795717620
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Togekiss",
       "region": "Hoenn",
       "location": "Sky Pillar",
-      "secondsAgo": 8895,
+      "secondsAgo": 9216,
       "sourceId": 1795710452
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Skarmory",
       "region": "Sinnoh",
       "location": "Route 227",
-      "secondsAgo": 3184,
+      "secondsAgo": 3505,
       "sourceId": 1795716163
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Corsola",
       "region": "Unova",
       "location": "Undella Bay",
-      "secondsAgo": 2981,
-      "sourceId": 1795716366
+      "secondsAgo": 3301,
+      "sourceId": 1795716367
     }
   ],
   "alpha": {
