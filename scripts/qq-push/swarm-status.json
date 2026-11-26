@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-26T16:01:10.867Z",
+  "fetchedAt": "2026-11-26T16:06:12.607Z",
   "swarms": [
     {
       "monsterId": 288,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-26T16:23:59.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 241,
+      "pokemon": "Miltank",
+      "region": "Unova",
+      "location": "Village Bridge",
+      "sourceId": 1795710661,
+      "despawnTimestamp": 1795710661,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-26T16:31:01.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Chatot",
       "region": "Hoenn",
       "location": "Route 115",
-      "secondsAgo": 5519,
+      "secondsAgo": 5821,
       "sourceId": 1795703351
     },
     {
@@ -27,16 +38,8 @@
       "pokemon": "Glaceon",
       "region": "Sinnoh",
       "location": "Route 217",
-      "secondsAgo": 4493,
+      "secondsAgo": 4795,
       "sourceId": 1795704377
-    },
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Unova",
-      "location": "Wellspring Cave",
-      "secondsAgo": 5432,
-      "sourceId": 1795703438
     }
   ],
   "alpha": {
