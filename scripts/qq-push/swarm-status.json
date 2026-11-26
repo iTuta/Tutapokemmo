@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-26T22:31:07.916Z",
+  "fetchedAt": "2026-11-26T22:35:48.480Z",
   "swarms": [
-    {
-      "monsterId": 416,
-      "pokemon": "Vespiquen",
-      "region": "Kanto",
-      "location": "Five Isle Meadow",
-      "sourceId": 1795732452,
-      "despawnTimestamp": 1795732451,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-26T22:34:12.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 389,
       "pokemon": "Torterra",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 416,
+      "pokemon": "Vespiquen",
+      "region": "Kanto",
+      "location": "Five Isle Meadow",
+      "secondsAgo": 1595,
+      "sourceId": 1795730953
+    },
+    {
       "monsterId": 153,
       "pokemon": "Bayleef",
       "region": "Johto",
       "location": "National Park",
-      "secondsAgo": 3043,
+      "secondsAgo": 3324,
       "sourceId": 1795729224
     },
     {
@@ -38,16 +35,16 @@
       "pokemon": "Togekiss",
       "region": "Hoenn",
       "location": "Sky Pillar",
-      "secondsAgo": 21816,
-      "sourceId": 1795710451
+      "secondsAgo": 22096,
+      "sourceId": 1795710452
     },
     {
       "monsterId": 314,
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 3265,
-      "sourceId": 1795729002
+      "secondsAgo": 3545,
+      "sourceId": 1795729003
     }
   ],
   "alpha": {
