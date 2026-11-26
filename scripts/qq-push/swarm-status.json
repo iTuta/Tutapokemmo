@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-26T14:50:54.441Z",
+  "fetchedAt": "2026-11-26T14:55:55.577Z",
   "swarms": [
     {
       "monsterId": 471,
@@ -7,20 +7,9 @@
       "region": "Sinnoh",
       "location": "Route 217",
       "sourceId": 1795705877,
-      "despawnTimestamp": 1795705877,
+      "despawnTimestamp": 1795705876,
       "hasValuable": false,
       "timestampUtc": "2026-11-26T15:11:17.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 115,
-      "pokemon": "Kangaskhan",
-      "region": "Unova",
-      "location": "Wellspring Cave",
-      "sourceId": 1795704938,
-      "despawnTimestamp": 1795704938,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-26T14:55:38.000Z",
       "publishedBy": ""
     }
   ],
@@ -30,7 +19,7 @@
       "pokemon": "Chatot",
       "region": "Kanto",
       "location": "Treasure Beach",
-      "secondsAgo": 1582,
+      "secondsAgo": 1883,
       "sourceId": 1795703072
     },
     {
@@ -38,7 +27,7 @@
       "pokemon": "Cyndaquil",
       "region": "Johto",
       "location": "Route 33",
-      "secondsAgo": 4337,
+      "secondsAgo": 4638,
       "sourceId": 1795700317
     },
     {
@@ -46,8 +35,16 @@
       "pokemon": "Chatot",
       "region": "Hoenn",
       "location": "Route 115",
-      "secondsAgo": 1303,
+      "secondsAgo": 1604,
       "sourceId": 1795703351
+    },
+    {
+      "monsterId": 115,
+      "pokemon": "Kangaskhan",
+      "region": "Unova",
+      "location": "Wellspring Cave",
+      "secondsAgo": 1516,
+      "sourceId": 1795703439
     }
   ],
   "alpha": {
