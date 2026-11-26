@@ -1,44 +1,29 @@
 {
-  "fetchedAt": "2026-11-26T21:55:43.826Z",
-  "swarms": [
-    {
-      "monsterId": 153,
-      "pokemon": "Bayleef",
-      "region": "Johto",
-      "location": "National Park",
-      "sourceId": 1795730364,
-      "despawnTimestamp": 1795730363,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-26T21:59:24.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 314,
-      "pokemon": "Illumise",
-      "region": "Unova",
-      "location": "Moor of Icirrus",
-      "sourceId": 1795730262,
-      "despawnTimestamp": 1795730262,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-26T21:57:42.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-11-26T22:01:11.113Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 317,
       "pokemon": "Swalot",
       "region": "Kanto",
       "location": "Route 18",
-      "secondsAgo": 10487,
-      "sourceId": 1795719656
+      "secondsAgo": 10814,
+      "sourceId": 1795719657
+    },
+    {
+      "monsterId": 153,
+      "pokemon": "Bayleef",
+      "region": "Johto",
+      "location": "National Park",
+      "secondsAgo": 1246,
+      "sourceId": 1795729225
     },
     {
       "monsterId": 468,
       "pokemon": "Togekiss",
       "region": "Hoenn",
       "location": "Sky Pillar",
-      "secondsAgo": 19691,
+      "secondsAgo": 20019,
       "sourceId": 1795710452
     },
     {
@@ -46,8 +31,16 @@
       "pokemon": "Skarmory",
       "region": "Sinnoh",
       "location": "Route 227",
-      "secondsAgo": 13981,
-      "sourceId": 1795716162
+      "secondsAgo": 14308,
+      "sourceId": 1795716163
+    },
+    {
+      "monsterId": 314,
+      "pokemon": "Illumise",
+      "region": "Unova",
+      "location": "Moor of Icirrus",
+      "secondsAgo": 1468,
+      "sourceId": 1795729003
     }
   ],
   "alpha": {
