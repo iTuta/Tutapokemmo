@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-26T01:10:49.898Z",
+  "fetchedAt": "2026-11-26T01:15:46.552Z",
   "swarms": [
     {
       "monsterId": 131,
@@ -10,17 +10,6 @@
       "despawnTimestamp": 1795656415,
       "hasValuable": false,
       "timestampUtc": "2026-11-26T01:26:56.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 375,
-      "pokemon": "Metang",
-      "region": "Johto",
-      "location": "Ice Path",
-      "sourceId": 1795655660,
-      "despawnTimestamp": 1795655659,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-26T01:14:20.000Z",
       "publishedBy": ""
     },
     {
@@ -37,20 +26,28 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 375,
+      "pokemon": "Metang",
+      "region": "Johto",
+      "location": "Ice Path",
+      "secondsAgo": 1585,
+      "sourceId": 1795654161
+    },
+    {
       "monsterId": 149,
       "pokemon": "Dragonite",
       "region": "Hoenn",
       "location": "Route 131",
-      "secondsAgo": 2859,
-      "sourceId": 1795652590
+      "secondsAgo": 3155,
+      "sourceId": 1795652591
     },
     {
       "monsterId": 227,
       "pokemon": "Skarmory",
       "region": "Sinnoh",
       "location": "Route 227",
-      "secondsAgo": 10125,
-      "sourceId": 1795645324
+      "secondsAgo": 10421,
+      "sourceId": 1795645325
     }
   ],
   "alpha": {
