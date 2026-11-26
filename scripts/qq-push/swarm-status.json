@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-26T16:21:25.574Z",
+  "fetchedAt": "2026-11-26T16:25:49.059Z",
   "swarms": [
-    {
-      "monsterId": 288,
-      "pokemon": "Vigoroth",
-      "region": "Johto",
-      "location": "Ruins of Alph",
-      "sourceId": 1795710239,
-      "despawnTimestamp": 1795710238,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-26T16:23:59.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 288,
+      "pokemon": "Vigoroth",
+      "region": "Johto",
+      "location": "Ruins of Alph",
+      "secondsAgo": 1609,
+      "sourceId": 1795708740
+    },
+    {
       "monsterId": 441,
       "pokemon": "Chatot",
       "region": "Hoenn",
       "location": "Route 115",
-      "secondsAgo": 6734,
+      "secondsAgo": 6998,
       "sourceId": 1795703351
     },
     {
@@ -38,8 +35,8 @@
       "pokemon": "Glaceon",
       "region": "Sinnoh",
       "location": "Route 217",
-      "secondsAgo": 5708,
-      "sourceId": 1795704377
+      "secondsAgo": 5971,
+      "sourceId": 1795704378
     }
   ],
   "alpha": {
