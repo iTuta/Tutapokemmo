@@ -1,37 +1,41 @@
 {
-  "fetchedAt": "2026-11-27T16:50:50.871Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-27T16:55:49.303Z",
+  "swarms": [
     {
-      "monsterId": 143,
-      "pokemon": "Snorlax",
+      "monsterId": 336,
+      "pokemon": "Seviper",
       "region": "Kanto",
-      "location": "Cerulean Cave",
-      "secondsAgo": 40718,
-      "sourceId": 1795757532
-    },
+      "location": "Route 15",
+      "sourceId": 1795799933,
+      "despawnTimestamp": 1795799933,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-27T17:18:53.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 176,
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 4916,
-      "sourceId": 1795793334
+      "secondsAgo": 5214,
+      "sourceId": 1795793335
     },
     {
       "monsterId": 255,
       "pokemon": "Torchic",
       "region": "Hoenn",
       "location": "Route 112",
-      "secondsAgo": 3836,
-      "sourceId": 1795794414
+      "secondsAgo": 4134,
+      "sourceId": 1795794415
     },
     {
       "monsterId": 204,
       "pokemon": "Pineco",
       "region": "Sinnoh",
       "location": "Route 207",
-      "secondsAgo": 15573,
+      "secondsAgo": 15872,
       "sourceId": 1795782677
     },
     {
@@ -39,8 +43,8 @@
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 3657,
-      "sourceId": 1795794593
+      "secondsAgo": 3955,
+      "sourceId": 1795794594
     }
   ],
   "alpha": {
