@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-11-27T18:16:25.201Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-27T18:20:53.348Z",
+  "swarms": [
+    {
+      "monsterId": 474,
+      "pokemon": "Porygon-Z",
+      "region": "Johto",
+      "location": "Team Rocket HQ",
+      "sourceId": 1795805039,
+      "despawnTimestamp": 1795805039,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-27T18:43:59.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Kanto",
       "location": "Route 15",
-      "secondsAgo": 4951,
+      "secondsAgo": 5219,
       "sourceId": 1795798434
-    },
-    {
-      "monsterId": 176,
-      "pokemon": "Togetic",
-      "region": "Johto",
-      "location": "Route 27",
-      "secondsAgo": 10050,
-      "sourceId": 1795793335
     },
     {
       "monsterId": 255,
       "pokemon": "Torchic",
       "region": "Hoenn",
       "location": "Route 112",
-      "secondsAgo": 8970,
+      "secondsAgo": 9238,
       "sourceId": 1795794415
     },
     {
@@ -31,15 +35,15 @@
       "pokemon": "Pineco",
       "region": "Sinnoh",
       "location": "Route 207",
-      "secondsAgo": 20707,
-      "sourceId": 1795782678
+      "secondsAgo": 20976,
+      "sourceId": 1795782677
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 8791,
+      "secondsAgo": 9059,
       "sourceId": 1795794594
     }
   ],
