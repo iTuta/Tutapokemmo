@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-27T23:45:45.339Z",
+  "fetchedAt": "2026-11-27T23:50:50.584Z",
   "swarms": [
-    {
-      "monsterId": 127,
-      "pokemon": "Pinsir",
-      "region": "Kanto",
-      "location": "Route 11",
-      "sourceId": 1795823292,
-      "despawnTimestamp": 1795823291,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-27T23:48:12.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 320,
       "pokemon": "Wailmer",
@@ -37,11 +26,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 127,
+      "pokemon": "Pinsir",
+      "region": "Kanto",
+      "location": "Route 11",
+      "secondsAgo": 1658,
+      "sourceId": 1795821792
+    },
+    {
       "monsterId": 415,
       "pokemon": "Combee",
       "region": "Hoenn",
       "location": "Route 117",
-      "secondsAgo": 1958,
+      "secondsAgo": 2263,
       "sourceId": 1795821187
     },
     {
@@ -49,7 +46,7 @@
       "pokemon": "Elekid",
       "region": "Sinnoh",
       "location": "Valley Windworks",
-      "secondsAgo": 2334,
+      "secondsAgo": 2639,
       "sourceId": 1795820811
     }
   ],
