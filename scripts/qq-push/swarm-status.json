@@ -1,58 +1,57 @@
 {
-  "fetchedAt": "2026-11-27T00:56:14.548Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-27T01:01:16.227Z",
+  "swarms": [
     {
-      "monsterId": 319,
-      "pokemon": "Sharpedo",
-      "region": "Kanto",
-      "location": "Water Labyrinth",
-      "secondsAgo": 3900,
-      "sourceId": 1795737074
-    },
-    {
-      "monsterId": 237,
-      "pokemon": "Hitmontop",
+      "monsterId": 375,
+      "pokemon": "Metang",
       "region": "Johto",
-      "location": "Mt. Mortar",
-      "secondsAgo": 6876,
-      "sourceId": 1795734098
+      "location": "Ice Path",
+      "sourceId": 1795742658,
+      "despawnTimestamp": 1795742658,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-27T01:24:18.000Z",
+      "publishedBy": ""
     },
+    {
+      "monsterId": 317,
+      "pokemon": "Swalot",
+      "region": "Unova",
+      "location": "Route 9",
+      "sourceId": 1795742613,
+      "despawnTimestamp": 1795742613,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-27T01:23:33.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 517,
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 2761,
-      "sourceId": 1795738213
+      "secondsAgo": 3062,
+      "sourceId": 1795738214
     },
     {
       "monsterId": 389,
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 9533,
+      "secondsAgo": 9835,
       "sourceId": 1795731441
-    },
-    {
-      "monsterId": 314,
-      "pokemon": "Illumise",
-      "region": "Unova",
-      "location": "Moor of Icirrus",
-      "secondsAgo": 11971,
-      "sourceId": 1795729003
     }
   ],
   "alpha": {
-    "monsterId": 311,
-    "pokemon": "Plusle",
-    "region": "Hoenn",
-    "location": "Route 116",
-    "sourceId": 1795708620,
-    "despawnTimestamp": 1795725720,
+    "monsterId": 132,
+    "pokemon": "Ditto",
+    "region": "Kanto",
+    "location": "Route 14",
+    "sourceId": 1795728572,
+    "despawnTimestamp": 1795745672,
     "hasValuable": false,
-    "timestampUtc": "2026-11-26T15:57:00.000Z",
-    "timestampRaw": "2026-11-26T15:57:00.000Z",
-    "publishedBy": "wewoo"
+    "timestampUtc": "2026-11-26T21:29:32.000Z",
+    "timestampRaw": "2026-11-26T21:29:32.000Z",
+    "publishedBy": ""
   }
 }
