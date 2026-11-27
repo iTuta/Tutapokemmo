@@ -1,35 +1,13 @@
 {
-  "fetchedAt": "2026-11-27T18:40:51.055Z",
+  "fetchedAt": "2026-11-27T18:45:50.933Z",
   "swarms": [
-    {
-      "monsterId": 474,
-      "pokemon": "Porygon-Z",
-      "region": "Johto",
-      "location": "Team Rocket HQ",
-      "sourceId": 1795805039,
-      "despawnTimestamp": 1795805039,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-27T18:43:59.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 358,
-      "pokemon": "Chimecho",
-      "region": "Hoenn",
-      "location": "Mt. Pyre",
-      "sourceId": 1795805102,
-      "despawnTimestamp": 1795805102,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-27T18:45:02.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
       "sourceId": 1795806240,
-      "despawnTimestamp": 1795806240,
+      "despawnTimestamp": 1795806239,
       "hasValuable": false,
       "timestampUtc": "2026-11-27T19:04:00.000Z",
       "publishedBy": ""
@@ -41,16 +19,32 @@
       "pokemon": "Seviper",
       "region": "Kanto",
       "location": "Route 15",
-      "secondsAgo": 6417,
-      "sourceId": 1795798434
+      "secondsAgo": 6717,
+      "sourceId": 1795798433
+    },
+    {
+      "monsterId": 474,
+      "pokemon": "Porygon-Z",
+      "region": "Johto",
+      "location": "Team Rocket HQ",
+      "secondsAgo": 1611,
+      "sourceId": 1795803539
+    },
+    {
+      "monsterId": 358,
+      "pokemon": "Chimecho",
+      "region": "Hoenn",
+      "location": "Mt. Pyre",
+      "secondsAgo": 1248,
+      "sourceId": 1795803902
     },
     {
       "monsterId": 204,
       "pokemon": "Pineco",
       "region": "Sinnoh",
       "location": "Route 207",
-      "secondsAgo": 22173,
-      "sourceId": 1795782678
+      "secondsAgo": 22473,
+      "sourceId": 1795782677
     }
   ],
   "alpha": {
