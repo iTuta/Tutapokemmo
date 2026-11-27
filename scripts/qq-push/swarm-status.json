@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-27T06:15:45.721Z",
+  "fetchedAt": "2026-11-27T06:20:55.884Z",
   "swarms": [
-    {
-      "monsterId": 213,
-      "pokemon": "Shuckle",
-      "region": "Johto",
-      "location": "Cliff Cave",
-      "sourceId": 1795760360,
-      "despawnTimestamp": 1795760359,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-27T06:19:20.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
@@ -22,17 +11,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-27T06:33:15.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 127,
-      "pokemon": "Pinsir",
-      "region": "Unova",
-      "location": "Route 12",
-      "sourceId": 1795760156,
-      "despawnTimestamp": 1795760155,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-27T06:15:56.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,16 +19,32 @@
       "pokemon": "Snorlax",
       "region": "Kanto",
       "location": "Cerulean Cave",
-      "secondsAgo": 2613,
+      "secondsAgo": 2923,
       "sourceId": 1795757532
+    },
+    {
+      "monsterId": 213,
+      "pokemon": "Shuckle",
+      "region": "Johto",
+      "location": "Cliff Cave",
+      "secondsAgo": 1595,
+      "sourceId": 1795758860
     },
     {
       "monsterId": 288,
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 9803,
+      "secondsAgo": 10113,
       "sourceId": 1795750342
+    },
+    {
+      "monsterId": 127,
+      "pokemon": "Pinsir",
+      "region": "Unova",
+      "location": "Route 12",
+      "secondsAgo": 1799,
+      "sourceId": 1795758656
     }
   ],
   "alpha": {
