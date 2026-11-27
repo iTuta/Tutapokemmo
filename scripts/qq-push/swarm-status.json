@@ -1,46 +1,50 @@
 {
-  "fetchedAt": "2026-11-27T13:21:23.199Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-27T13:25:48.728Z",
+  "swarms": [
+    {
+      "monsterId": 237,
+      "pokemon": "Hitmontop",
+      "region": "Johto",
+      "location": "Mt. Mortar",
+      "sourceId": 1795787250,
+      "despawnTimestamp": 1795787249,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-27T13:47:30.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Kanto",
       "location": "Cerulean Cave",
-      "secondsAgo": 28151,
+      "secondsAgo": 28416,
       "sourceId": 1795757532
-    },
-    {
-      "monsterId": 375,
-      "pokemon": "Metang",
-      "region": "Johto",
-      "location": "Ice Path",
-      "secondsAgo": 9120,
-      "sourceId": 1795776563
     },
     {
       "monsterId": 211,
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 2814,
-      "sourceId": 1795782869
+      "secondsAgo": 3080,
+      "sourceId": 1795782868
     },
     {
       "monsterId": 204,
       "pokemon": "Pineco",
       "region": "Sinnoh",
       "location": "Route 207",
-      "secondsAgo": 3005,
-      "sourceId": 1795782678
+      "secondsAgo": 3271,
+      "sourceId": 1795782677
     },
     {
       "monsterId": 313,
       "pokemon": "Volbeat",
       "region": "Unova",
       "location": "Route 8",
-      "secondsAgo": 17298,
-      "sourceId": 1795768385
+      "secondsAgo": 17564,
+      "sourceId": 1795768384
     }
   ],
   "alpha": {
