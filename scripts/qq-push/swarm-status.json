@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-27T18:20:53.348Z",
+  "fetchedAt": "2026-11-27T18:25:53.130Z",
   "swarms": [
     {
       "monsterId": 474,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-27T18:43:59.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 358,
+      "pokemon": "Chimecho",
+      "region": "Hoenn",
+      "location": "Mt. Pyre",
+      "sourceId": 1795805102,
+      "despawnTimestamp": 1795805102,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-27T18:45:02.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,31 +30,23 @@
       "pokemon": "Seviper",
       "region": "Kanto",
       "location": "Route 15",
-      "secondsAgo": 5219,
+      "secondsAgo": 5519,
       "sourceId": 1795798434
-    },
-    {
-      "monsterId": 255,
-      "pokemon": "Torchic",
-      "region": "Hoenn",
-      "location": "Route 112",
-      "secondsAgo": 9238,
-      "sourceId": 1795794415
     },
     {
       "monsterId": 204,
       "pokemon": "Pineco",
       "region": "Sinnoh",
       "location": "Route 207",
-      "secondsAgo": 20976,
-      "sourceId": 1795782677
+      "secondsAgo": 21275,
+      "sourceId": 1795782678
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 9059,
+      "secondsAgo": 9359,
       "sourceId": 1795794594
     }
   ],
