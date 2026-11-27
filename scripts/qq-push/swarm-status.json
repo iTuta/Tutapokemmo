@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-27T23:10:57.474Z",
+  "fetchedAt": "2026-11-27T23:15:52.095Z",
   "swarms": [
+    {
+      "monsterId": 415,
+      "pokemon": "Combee",
+      "region": "Hoenn",
+      "location": "Route 117",
+      "sourceId": 1795822686,
+      "despawnTimestamp": 1795822686,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-27T23:38:06.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 239,
       "pokemon": "Elekid",
@@ -11,17 +22,6 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-27T23:31:50.000Z",
       "publishedBy": ""
-    },
-    {
-      "monsterId": 162,
-      "pokemon": "Furret",
-      "region": "Unova",
-      "location": "Abundant Shrine",
-      "sourceId": 1795821079,
-      "despawnTimestamp": 1795821079,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-27T23:11:19.000Z",
-      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -30,7 +30,7 @@
       "pokemon": "Seviper",
       "region": "Kanto",
       "location": "Route 15",
-      "secondsAgo": 22623,
+      "secondsAgo": 22918,
       "sourceId": 1795798434
     },
     {
@@ -38,16 +38,16 @@
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 9640,
-      "sourceId": 1795811417
+      "secondsAgo": 9934,
+      "sourceId": 1795811418
     },
     {
-      "monsterId": 349,
-      "pokemon": "Feebas",
-      "region": "Hoenn",
-      "location": "Route 130",
-      "secondsAgo": 6555,
-      "sourceId": 1795814502
+      "monsterId": 162,
+      "pokemon": "Furret",
+      "region": "Unova",
+      "location": "Abundant Shrine",
+      "secondsAgo": 1772,
+      "sourceId": 1795819580
     }
   ],
   "alpha": {
