@@ -1,13 +1,36 @@
 {
-  "fetchedAt": "2026-11-27T12:31:00.785Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-27T12:35:45.465Z",
+  "swarms": [
+    {
+      "monsterId": 211,
+      "pokemon": "Qwilfish",
+      "region": "Hoenn",
+      "location": "Route 125",
+      "sourceId": 1795784368,
+      "despawnTimestamp": 1795784368,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-27T12:59:28.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 204,
+      "pokemon": "Pineco",
+      "region": "Sinnoh",
+      "location": "Route 207",
+      "sourceId": 1795784177,
+      "despawnTimestamp": 1795784176,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-27T12:56:17.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Kanto",
       "location": "Cerulean Cave",
-      "secondsAgo": 25128,
+      "secondsAgo": 25413,
       "sourceId": 1795757532
     },
     {
@@ -15,31 +38,15 @@
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 6098,
-      "sourceId": 1795776562
-    },
-    {
-      "monsterId": 429,
-      "pokemon": "Mismagius",
-      "region": "Hoenn",
-      "location": "Route 122",
-      "secondsAgo": 11146,
-      "sourceId": 1795771514
-    },
-    {
-      "monsterId": 91,
-      "pokemon": "Cloyster",
-      "region": "Sinnoh",
-      "location": "Route 223",
-      "secondsAgo": 10053,
-      "sourceId": 1795772607
+      "secondsAgo": 6382,
+      "sourceId": 1795776563
     },
     {
       "monsterId": 313,
       "pokemon": "Volbeat",
       "region": "Unova",
       "location": "Route 8",
-      "secondsAgo": 14276,
+      "secondsAgo": 14561,
       "sourceId": 1795768384
     }
   ],
