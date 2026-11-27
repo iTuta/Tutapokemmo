@@ -1,41 +1,37 @@
 {
-  "fetchedAt": "2026-11-27T11:05:51.056Z",
-  "swarms": [
-    {
-      "monsterId": 375,
-      "pokemon": "Metang",
-      "region": "Johto",
-      "location": "Ice Path",
-      "sourceId": 1795777762,
-      "despawnTimestamp": 1795777762,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-27T11:09:22.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-11-27T11:10:50.389Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Kanto",
       "location": "Cerulean Cave",
-      "secondsAgo": 20019,
+      "secondsAgo": 20318,
       "sourceId": 1795757532
+    },
+    {
+      "monsterId": 375,
+      "pokemon": "Metang",
+      "region": "Johto",
+      "location": "Ice Path",
+      "secondsAgo": 1287,
+      "sourceId": 1795776563
     },
     {
       "monsterId": 429,
       "pokemon": "Mismagius",
       "region": "Hoenn",
       "location": "Route 122",
-      "secondsAgo": 6036,
-      "sourceId": 1795771515
+      "secondsAgo": 6336,
+      "sourceId": 1795771514
     },
     {
       "monsterId": 91,
       "pokemon": "Cloyster",
       "region": "Sinnoh",
       "location": "Route 223",
-      "secondsAgo": 4943,
+      "secondsAgo": 5242,
       "sourceId": 1795772608
     },
     {
@@ -43,7 +39,7 @@
       "pokemon": "Volbeat",
       "region": "Unova",
       "location": "Route 8",
-      "secondsAgo": 9166,
+      "secondsAgo": 9465,
       "sourceId": 1795768385
     }
   ],
