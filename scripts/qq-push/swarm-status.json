@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-27T02:40:51.211Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-27T02:46:10.451Z",
+  "swarms": [
+    {
+      "monsterId": 212,
+      "pokemon": "Scizor",
+      "region": "Unova",
+      "location": "Route 14",
+      "sourceId": 1795748877,
+      "despawnTimestamp": 1795748876,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-27T03:07:57.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Kanto",
       "location": "Water Labyrinth",
-      "secondsAgo": 10177,
+      "secondsAgo": 10496,
       "sourceId": 1795737074
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 6092,
+      "secondsAgo": 6411,
       "sourceId": 1795741159
     },
     {
@@ -23,24 +35,16 @@
       "pokemon": "Dragonite",
       "region": "Hoenn",
       "location": "Route 131",
-      "secondsAgo": 4190,
-      "sourceId": 1795743061
+      "secondsAgo": 4510,
+      "sourceId": 1795743060
     },
     {
       "monsterId": 389,
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 15810,
+      "secondsAgo": 16129,
       "sourceId": 1795731441
-    },
-    {
-      "monsterId": 317,
-      "pokemon": "Swalot",
-      "region": "Unova",
-      "location": "Route 9",
-      "secondsAgo": 6137,
-      "sourceId": 1795741114
     }
   ],
   "alpha": {
