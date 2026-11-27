@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-27T08:35:53.156Z",
+  "fetchedAt": "2026-11-27T08:40:57.505Z",
   "swarms": [
+    {
+      "monsterId": 335,
+      "pokemon": "Zangoose",
+      "region": "Sinnoh",
+      "location": "Route 208",
+      "sourceId": 1795770067,
+      "despawnTimestamp": 1795770066,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-27T09:01:07.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 313,
       "pokemon": "Volbeat",
       "region": "Unova",
       "location": "Route 8",
       "sourceId": 1795769884,
-      "despawnTimestamp": 1795769884,
+      "despawnTimestamp": 1795769883,
       "hasValuable": false,
       "timestampUtc": "2026-11-27T08:58:04.000Z",
       "publishedBy": ""
@@ -19,7 +30,7 @@
       "pokemon": "Snorlax",
       "region": "Kanto",
       "location": "Cerulean Cave",
-      "secondsAgo": 11021,
+      "secondsAgo": 11325,
       "sourceId": 1795757532
     },
     {
@@ -27,16 +38,8 @@
       "pokemon": "Cloyster",
       "region": "Hoenn",
       "location": "Route 133",
-      "secondsAgo": 8857,
+      "secondsAgo": 9161,
       "sourceId": 1795759696
-    },
-    {
-      "monsterId": 412,
-      "pokemon": "Burmy",
-      "region": "Sinnoh",
-      "location": "Route 202",
-      "secondsAgo": 4744,
-      "sourceId": 1795763809
     }
   ],
   "alpha": {
