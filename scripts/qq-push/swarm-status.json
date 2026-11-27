@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-27T00:05:49.348Z",
+  "fetchedAt": "2026-11-27T00:10:55.015Z",
   "swarms": [
     {
       "monsterId": 319,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-27T00:16:13.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Hoenn",
+      "location": "Route 102",
+      "sourceId": 1795739413,
+      "despawnTimestamp": 1795739412,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-27T00:30:13.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,23 +30,15 @@
       "pokemon": "Hitmontop",
       "region": "Johto",
       "location": "Mt. Mortar",
-      "secondsAgo": 3851,
+      "secondsAgo": 4156,
       "sourceId": 1795734098
-    },
-    {
-      "monsterId": 468,
-      "pokemon": "Togekiss",
-      "region": "Hoenn",
-      "location": "Sky Pillar",
-      "secondsAgo": 27497,
-      "sourceId": 1795710452
     },
     {
       "monsterId": 389,
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 6508,
+      "secondsAgo": 6813,
       "sourceId": 1795731441
     },
     {
@@ -43,8 +46,8 @@
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 8946,
-      "sourceId": 1795729003
+      "secondsAgo": 9252,
+      "sourceId": 1795729002
     }
   ],
   "alpha": {
