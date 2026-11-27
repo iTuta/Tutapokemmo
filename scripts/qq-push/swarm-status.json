@@ -1,13 +1,24 @@
 {
-  "fetchedAt": "2026-11-27T23:20:50.993Z",
+  "fetchedAt": "2026-11-27T23:25:49.694Z",
   "swarms": [
+    {
+      "monsterId": 127,
+      "pokemon": "Pinsir",
+      "region": "Kanto",
+      "location": "Route 11",
+      "sourceId": 1795823292,
+      "despawnTimestamp": 1795823291,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-27T23:48:12.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 415,
       "pokemon": "Combee",
       "region": "Hoenn",
       "location": "Route 117",
       "sourceId": 1795822686,
-      "despawnTimestamp": 1795822685,
+      "despawnTimestamp": 1795822686,
       "hasValuable": false,
       "timestampUtc": "2026-11-27T23:38:06.000Z",
       "publishedBy": ""
@@ -18,7 +29,7 @@
       "region": "Sinnoh",
       "location": "Valley Windworks",
       "sourceId": 1795822310,
-      "despawnTimestamp": 1795822309,
+      "despawnTimestamp": 1795822310,
       "hasValuable": false,
       "timestampUtc": "2026-11-27T23:31:50.000Z",
       "publishedBy": ""
@@ -26,19 +37,11 @@
   ],
   "lastSeen": [
     {
-      "monsterId": 336,
-      "pokemon": "Seviper",
-      "region": "Kanto",
-      "location": "Route 15",
-      "secondsAgo": 23217,
-      "sourceId": 1795798433
-    },
-    {
       "monsterId": 469,
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 10233,
+      "secondsAgo": 10532,
       "sourceId": 1795811417
     },
     {
@@ -46,7 +49,7 @@
       "pokemon": "Furret",
       "region": "Unova",
       "location": "Abundant Shrine",
-      "secondsAgo": 2070,
+      "secondsAgo": 2369,
       "sourceId": 1795819580
     }
   ],
