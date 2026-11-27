@@ -1,36 +1,21 @@
 {
-  "fetchedAt": "2026-11-27T01:21:20.456Z",
-  "swarms": [
+  "fetchedAt": "2026-11-27T01:25:47.446Z",
+  "swarms": [],
+  "lastSeen": [
     {
       "monsterId": 375,
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "sourceId": 1795742658,
-      "despawnTimestamp": 1795742658,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-27T01:24:18.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1588,
+      "sourceId": 1795741159
     },
-    {
-      "monsterId": 317,
-      "pokemon": "Swalot",
-      "region": "Unova",
-      "location": "Route 9",
-      "sourceId": 1795742613,
-      "despawnTimestamp": 1795742613,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-27T01:23:33.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
     {
       "monsterId": 517,
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 4267,
+      "secondsAgo": 4534,
       "sourceId": 1795738213
     },
     {
@@ -38,8 +23,16 @@
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 11039,
+      "secondsAgo": 11306,
       "sourceId": 1795731441
+    },
+    {
+      "monsterId": 317,
+      "pokemon": "Swalot",
+      "region": "Unova",
+      "location": "Route 9",
+      "secondsAgo": 1633,
+      "sourceId": 1795741114
     }
   ],
   "alpha": {
