@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-27T21:20:52.161Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-27T21:25:51.270Z",
+  "swarms": [
+    {
+      "monsterId": 349,
+      "pokemon": "Feebas",
+      "region": "Hoenn",
+      "location": "Route 130",
+      "sourceId": 1795816001,
+      "despawnTimestamp": 1795816001,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-27T21:46:41.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 336,
       "pokemon": "Seviper",
       "region": "Kanto",
       "location": "Route 15",
-      "secondsAgo": 16018,
+      "secondsAgo": 16317,
       "sourceId": 1795798434
     },
     {
@@ -15,31 +27,23 @@
       "pokemon": "Yanmega",
       "region": "Johto",
       "location": "Route 44",
-      "secondsAgo": 3035,
+      "secondsAgo": 3334,
       "sourceId": 1795811417
-    },
-    {
-      "monsterId": 358,
-      "pokemon": "Chimecho",
-      "region": "Hoenn",
-      "location": "Mt. Pyre",
-      "secondsAgo": 10549,
-      "sourceId": 1795803903
     },
     {
       "monsterId": 113,
       "pokemon": "Chansey",
       "region": "Sinnoh",
       "location": "Trophy Garden",
-      "secondsAgo": 7615,
-      "sourceId": 1795806837
+      "secondsAgo": 7915,
+      "sourceId": 1795806836
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 9711,
+      "secondsAgo": 10010,
       "sourceId": 1795804741
     }
   ],
