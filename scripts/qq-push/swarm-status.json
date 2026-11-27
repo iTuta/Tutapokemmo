@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-27T03:30:59.708Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-27T03:35:51.439Z",
+  "swarms": [
+    {
+      "monsterId": 288,
+      "pokemon": "Vigoroth",
+      "region": "Sinnoh",
+      "location": "Route 215",
+      "sourceId": 1795751842,
+      "despawnTimestamp": 1795751842,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-27T03:57:22.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Kanto",
       "location": "Water Labyrinth",
-      "secondsAgo": 13185,
+      "secondsAgo": 13477,
       "sourceId": 1795737074
     },
     {
@@ -15,31 +27,23 @@
       "pokemon": "Absol",
       "region": "Johto",
       "location": "Route 28",
-      "secondsAgo": 2385,
-      "sourceId": 1795747874
+      "secondsAgo": 2676,
+      "sourceId": 1795747875
     },
     {
       "monsterId": 149,
       "pokemon": "Dragonite",
       "region": "Hoenn",
       "location": "Route 131",
-      "secondsAgo": 7199,
+      "secondsAgo": 7491,
       "sourceId": 1795743060
-    },
-    {
-      "monsterId": 389,
-      "pokemon": "Torterra",
-      "region": "Sinnoh",
-      "location": "Route 212",
-      "secondsAgo": 18818,
-      "sourceId": 1795731441
     },
     {
       "monsterId": 212,
       "pokemon": "Scizor",
       "region": "Unova",
       "location": "Route 14",
-      "secondsAgo": 2882,
+      "secondsAgo": 3174,
       "sourceId": 1795747377
     }
   ],
