@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-27T19:11:11.568Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-27T19:15:55.388Z",
+  "swarms": [
+    {
+      "monsterId": 113,
+      "pokemon": "Chansey",
+      "region": "Sinnoh",
+      "location": "Trophy Garden",
+      "sourceId": 1795808336,
+      "despawnTimestamp": 1795808335,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-27T19:38:56.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 474,
       "pokemon": "Porygon-Z",
       "region": "Johto",
       "location": "Team Rocket HQ",
-      "secondsAgo": 3131,
+      "secondsAgo": 3415,
       "sourceId": 1795803540
     },
     {
@@ -15,23 +27,15 @@
       "pokemon": "Chimecho",
       "region": "Hoenn",
       "location": "Mt. Pyre",
-      "secondsAgo": 2769,
+      "secondsAgo": 3053,
       "sourceId": 1795803902
-    },
-    {
-      "monsterId": 204,
-      "pokemon": "Pineco",
-      "region": "Sinnoh",
-      "location": "Route 207",
-      "secondsAgo": 23994,
-      "sourceId": 1795782677
     },
     {
       "monsterId": 83,
       "pokemon": "Farfetch&#x27;d",
       "region": "Unova",
       "location": "Route 1",
-      "secondsAgo": 1931,
+      "secondsAgo": 2215,
       "sourceId": 1795804740
     }
   ],
