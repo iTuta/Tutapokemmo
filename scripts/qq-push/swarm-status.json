@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-11-27T15:25:58.252Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-27T15:31:02.087Z",
+  "swarms": [
+    {
+      "monsterId": 176,
+      "pokemon": "Togetic",
+      "region": "Johto",
+      "location": "Route 27",
+      "sourceId": 1795794834,
+      "despawnTimestamp": 1795794834,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-27T15:53:54.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Kanto",
       "location": "Cerulean Cave",
-      "secondsAgo": 35626,
+      "secondsAgo": 35930,
       "sourceId": 1795757532
-    },
-    {
-      "monsterId": 237,
-      "pokemon": "Hitmontop",
-      "region": "Johto",
-      "location": "Mt. Mortar",
-      "secondsAgo": 7408,
-      "sourceId": 1795785750
     },
     {
       "monsterId": 211,
       "pokemon": "Qwilfish",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 10289,
+      "secondsAgo": 10593,
       "sourceId": 1795782869
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Pineco",
       "region": "Sinnoh",
       "location": "Route 207",
-      "secondsAgo": 10480,
+      "secondsAgo": 10784,
       "sourceId": 1795782678
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Volbeat",
       "region": "Unova",
       "location": "Route 8",
-      "secondsAgo": 24773,
+      "secondsAgo": 25077,
       "sourceId": 1795768385
     }
   ],
