@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-27T00:16:06.503Z",
+  "fetchedAt": "2026-11-27T00:20:50.698Z",
   "swarms": [
-    {
-      "monsterId": 319,
-      "pokemon": "Sharpedo",
-      "region": "Kanto",
-      "location": "Water Labyrinth",
-      "sourceId": 1795738573,
-      "despawnTimestamp": 1795738573,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-27T00:16:13.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 517,
       "pokemon": "Munna",
@@ -26,11 +15,19 @@
   ],
   "lastSeen": [
     {
+      "monsterId": 319,
+      "pokemon": "Sharpedo",
+      "region": "Kanto",
+      "location": "Water Labyrinth",
+      "secondsAgo": 1776,
+      "sourceId": 1795737074
+    },
+    {
       "monsterId": 237,
       "pokemon": "Hitmontop",
       "region": "Johto",
       "location": "Mt. Mortar",
-      "secondsAgo": 4468,
+      "secondsAgo": 4752,
       "sourceId": 1795734098
     },
     {
@@ -38,7 +35,7 @@
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 7125,
+      "secondsAgo": 7409,
       "sourceId": 1795731441
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 9563,
+      "secondsAgo": 9847,
       "sourceId": 1795729003
     }
   ],
