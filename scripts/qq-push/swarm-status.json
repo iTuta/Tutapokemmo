@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-11-27T04:25:51.210Z",
-  "swarms": [
-    {
-      "monsterId": 242,
-      "pokemon": "Blissey",
-      "region": "Hoenn",
-      "location": "Artisan Cave",
-      "sourceId": 1795753850,
-      "despawnTimestamp": 1795753850,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-27T04:30:50.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-11-27T04:31:03.255Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 319,
       "pokemon": "Sharpedo",
       "region": "Kanto",
       "location": "Water Labyrinth",
-      "secondsAgo": 16477,
+      "secondsAgo": 16789,
       "sourceId": 1795737074
     },
     {
@@ -27,15 +15,23 @@
       "pokemon": "Absol",
       "region": "Johto",
       "location": "Route 28",
-      "secondsAgo": 5676,
+      "secondsAgo": 5988,
       "sourceId": 1795747875
+    },
+    {
+      "monsterId": 242,
+      "pokemon": "Blissey",
+      "region": "Hoenn",
+      "location": "Artisan Cave",
+      "secondsAgo": 1512,
+      "sourceId": 1795752351
     },
     {
       "monsterId": 288,
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 3208,
+      "secondsAgo": 3520,
       "sourceId": 1795750343
     },
     {
@@ -43,7 +39,7 @@
       "pokemon": "Scizor",
       "region": "Unova",
       "location": "Route 14",
-      "secondsAgo": 6173,
+      "secondsAgo": 6485,
       "sourceId": 1795747378
     }
   ],
