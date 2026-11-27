@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-27T05:50:56.415Z",
+  "fetchedAt": "2026-11-27T05:56:17.047Z",
   "swarms": [
     {
       "monsterId": 143,
@@ -7,27 +7,41 @@
       "region": "Kanto",
       "location": "Cerulean Cave",
       "sourceId": 1795759031,
-      "despawnTimestamp": 1795759031,
+      "despawnTimestamp": 1795759032,
       "hasValuable": false,
       "timestampUtc": "2026-11-27T05:57:11.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 213,
+      "pokemon": "Shuckle",
+      "region": "Johto",
+      "location": "Cliff Cave",
+      "sourceId": 1795760360,
+      "despawnTimestamp": 1795760360,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-27T06:19:20.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 127,
+      "pokemon": "Pinsir",
+      "region": "Unova",
+      "location": "Route 12",
+      "sourceId": 1795760156,
+      "despawnTimestamp": 1795760156,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-27T06:15:56.000Z",
       "publishedBy": ""
     }
   ],
   "lastSeen": [
     {
-      "monsterId": 359,
-      "pokemon": "Absol",
-      "region": "Johto",
-      "location": "Route 28",
-      "secondsAgo": 10781,
-      "sourceId": 1795747875
-    },
-    {
       "monsterId": 242,
       "pokemon": "Blissey",
       "region": "Hoenn",
       "location": "Artisan Cave",
-      "secondsAgo": 6305,
+      "secondsAgo": 6626,
       "sourceId": 1795752351
     },
     {
@@ -35,16 +49,8 @@
       "pokemon": "Vigoroth",
       "region": "Sinnoh",
       "location": "Route 215",
-      "secondsAgo": 8313,
+      "secondsAgo": 8634,
       "sourceId": 1795750343
-    },
-    {
-      "monsterId": 212,
-      "pokemon": "Scizor",
-      "region": "Unova",
-      "location": "Route 14",
-      "secondsAgo": 11279,
-      "sourceId": 1795747377
     }
   ],
   "alpha": {
