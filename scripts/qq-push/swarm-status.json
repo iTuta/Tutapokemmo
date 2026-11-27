@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-11-27T01:30:59.165Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-27T01:35:45.556Z",
+  "swarms": [
+    {
+      "monsterId": 149,
+      "pokemon": "Dragonite",
+      "region": "Hoenn",
+      "location": "Route 131",
+      "sourceId": 1795744560,
+      "despawnTimestamp": 1795744559,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-27T01:56:00.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 375,
       "pokemon": "Metang",
       "region": "Johto",
       "location": "Ice Path",
-      "secondsAgo": 1900,
+      "secondsAgo": 2186,
       "sourceId": 1795741159
-    },
-    {
-      "monsterId": 517,
-      "pokemon": "Munna",
-      "region": "Hoenn",
-      "location": "Route 102",
-      "secondsAgo": 4845,
-      "sourceId": 1795738214
     },
     {
       "monsterId": 389,
       "pokemon": "Torterra",
       "region": "Sinnoh",
       "location": "Route 212",
-      "secondsAgo": 11618,
+      "secondsAgo": 11904,
       "sourceId": 1795731441
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Swalot",
       "region": "Unova",
       "location": "Route 9",
-      "secondsAgo": 1945,
+      "secondsAgo": 2231,
       "sourceId": 1795741114
     }
   ],
