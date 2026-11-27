@@ -1,36 +1,13 @@
 {
-  "fetchedAt": "2026-11-27T16:10:51.696Z",
-  "swarms": [
-    {
-      "monsterId": 255,
-      "pokemon": "Torchic",
-      "region": "Hoenn",
-      "location": "Route 112",
-      "sourceId": 1795795914,
-      "despawnTimestamp": 1795795913,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-27T16:11:54.000Z",
-      "publishedBy": ""
-    },
-    {
-      "monsterId": 83,
-      "pokemon": "Farfetch&#x27;d",
-      "region": "Unova",
-      "location": "Route 1",
-      "sourceId": 1795796093,
-      "despawnTimestamp": 1795796093,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-27T16:14:53.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-11-27T16:15:58.432Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 143,
       "pokemon": "Snorlax",
       "region": "Kanto",
       "location": "Cerulean Cave",
-      "secondsAgo": 38319,
+      "secondsAgo": 38626,
       "sourceId": 1795757532
     },
     {
@@ -38,16 +15,32 @@
       "pokemon": "Togetic",
       "region": "Johto",
       "location": "Route 27",
-      "secondsAgo": 2516,
+      "secondsAgo": 2823,
       "sourceId": 1795793335
+    },
+    {
+      "monsterId": 255,
+      "pokemon": "Torchic",
+      "region": "Hoenn",
+      "location": "Route 112",
+      "secondsAgo": 1743,
+      "sourceId": 1795794415
     },
     {
       "monsterId": 204,
       "pokemon": "Pineco",
       "region": "Sinnoh",
       "location": "Route 207",
-      "secondsAgo": 13174,
+      "secondsAgo": 13481,
       "sourceId": 1795782677
+    },
+    {
+      "monsterId": 83,
+      "pokemon": "Farfetch&#x27;d",
+      "region": "Unova",
+      "location": "Route 1",
+      "secondsAgo": 1564,
+      "sourceId": 1795794594
     }
   ],
   "alpha": {
