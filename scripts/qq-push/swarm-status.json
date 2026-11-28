@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-28T09:25:42.305Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-28T09:31:28.300Z",
+  "swarms": [
+    {
+      "monsterId": 241,
+      "pokemon": "Miltank",
+      "region": "Sinnoh",
+      "location": "Route 214",
+      "sourceId": 1795859494,
+      "despawnTimestamp": 1795859493,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-28T09:51:34.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Kanto",
       "location": "Route 17",
-      "secondsAgo": 9926,
+      "secondsAgo": 10272,
       "sourceId": 1795848016
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Hitmontop",
       "region": "Johto",
       "location": "Mt. Mortar",
-      "secondsAgo": 7187,
+      "secondsAgo": 7533,
       "sourceId": 1795850755
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Relicanth",
       "region": "Hoenn",
       "location": "Route 126",
-      "secondsAgo": 6190,
+      "secondsAgo": 6536,
       "sourceId": 1795851752
-    },
-    {
-      "monsterId": 299,
-      "pokemon": "Nosepass",
-      "region": "Sinnoh",
-      "location": "Oreburgh Gate",
-      "secondsAgo": 12799,
-      "sourceId": 1795845143
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 3478,
+      "secondsAgo": 3824,
       "sourceId": 1795854464
     }
   ],
