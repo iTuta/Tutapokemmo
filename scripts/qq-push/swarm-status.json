@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-11-28T14:20:55.450Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-28T14:25:45.082Z",
+  "swarms": [
     {
-      "monsterId": 128,
-      "pokemon": "Tauros",
+      "monsterId": 328,
+      "pokemon": "Trapinch",
       "region": "Kanto",
-      "location": "Route 17",
-      "secondsAgo": 27639,
-      "sourceId": 1795848016
-    },
+      "location": "Diglett&#x27;s Cave",
+      "sourceId": 1795877228,
+      "despawnTimestamp": 1795877228,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-28T14:47:08.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 237,
       "pokemon": "Hitmontop",
       "region": "Johto",
       "location": "Mt. Mortar",
-      "secondsAgo": 6314,
+      "secondsAgo": 6604,
       "sourceId": 1795869341
     },
     {
@@ -23,15 +27,15 @@
       "pokemon": "Marshtomp",
       "region": "Hoenn",
       "location": "Route 124",
-      "secondsAgo": 10711,
-      "sourceId": 1795864944
+      "secondsAgo": 11000,
+      "sourceId": 1795864945
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 7478,
+      "secondsAgo": 7768,
       "sourceId": 1795868177
     }
   ],
