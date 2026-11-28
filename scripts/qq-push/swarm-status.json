@@ -1,25 +1,13 @@
 {
-  "fetchedAt": "2026-11-28T16:56:02.337Z",
-  "swarms": [
-    {
-      "monsterId": 455,
-      "pokemon": "Carnivine",
-      "region": "Sinnoh",
-      "location": "Route 225",
-      "sourceId": 1795885228,
-      "despawnTimestamp": 1795885228,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-28T17:00:28.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-11-28T17:01:12.283Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 328,
       "pokemon": "Trapinch",
       "region": "Kanto",
       "location": "Diglett&#x27;s Cave",
-      "secondsAgo": 9233,
+      "secondsAgo": 9543,
       "sourceId": 1795875729
     },
     {
@@ -27,7 +15,7 @@
       "pokemon": "Lucario",
       "region": "Johto",
       "location": "Mt. Silver Cave",
-      "secondsAgo": 8253,
+      "secondsAgo": 8563,
       "sourceId": 1795876709
     },
     {
@@ -35,15 +23,23 @@
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 7304,
+      "secondsAgo": 7614,
       "sourceId": 1795877658
+    },
+    {
+      "monsterId": 455,
+      "pokemon": "Carnivine",
+      "region": "Sinnoh",
+      "location": "Route 225",
+      "secondsAgo": 1543,
+      "sourceId": 1795883729
     },
     {
       "monsterId": 312,
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 6996,
+      "secondsAgo": 7306,
       "sourceId": 1795877966
     }
   ],
