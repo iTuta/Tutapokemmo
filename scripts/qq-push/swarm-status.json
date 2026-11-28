@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-28T02:45:59.490Z",
+  "fetchedAt": "2026-11-28T02:50:51.578Z",
   "swarms": [
     {
       "monsterId": 190,
@@ -33,6 +33,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-28T03:10:08.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 420,
+      "pokemon": "Cherubi",
+      "region": "Unova",
+      "location": "Route 16",
+      "sourceId": 1795835609,
+      "despawnTimestamp": 1795835609,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-28T03:13:29.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -41,16 +52,8 @@
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "secondsAgo": 12167,
+      "secondsAgo": 12459,
       "sourceId": 1795821792
-    },
-    {
-      "monsterId": 314,
-      "pokemon": "Illumise",
-      "region": "Unova",
-      "location": "Moor of Icirrus",
-      "secondsAgo": 11115,
-      "sourceId": 1795822844
     }
   ],
   "alpha": {
