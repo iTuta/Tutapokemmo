@@ -72,4 +72,6 @@ curl -X POST https://api.github.com/repos/iTuta/Tutapokemmo/actions/workflows/sw
 - 触发了但没收到微信：去 GitHub Actions 运行日志看 `node scripts/qq-push/index.js --once`
   那一步的输出（环境变量 `WECHAT_WEBHOOK` 来自仓库 Secrets，需在
   Settings → Secrets and variables → Actions 里配置）。
+  注意现在**没有新报点就不发消息**（日志会写「本轮无新报点…不推送。」），
+  所以手动触发一次后什么都没收到是正常现象，不代表坏了。
 - 想换频率：改 cron 表达式即可；GitHub 接口对单仓库 dispatch 有速率限制，5 分钟一次远低于上限。
