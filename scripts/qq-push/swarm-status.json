@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-28T15:01:09.843Z",
+  "fetchedAt": "2026-11-28T15:05:48.178Z",
   "swarms": [
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Johto",
-      "location": "Mt. Silver Cave",
-      "sourceId": 1795878208,
-      "despawnTimestamp": 1795878208,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-28T15:03:28.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 517,
       "pokemon": "Munna",
@@ -29,7 +18,7 @@
       "region": "Unova",
       "location": "Route 6",
       "sourceId": 1795879465,
-      "despawnTimestamp": 1795879464,
+      "despawnTimestamp": 1795879465,
       "hasValuable": false,
       "timestampUtc": "2026-11-28T15:24:25.000Z",
       "publishedBy": ""
@@ -41,16 +30,24 @@
       "pokemon": "Trapinch",
       "region": "Kanto",
       "location": "Diglett&#x27;s Cave",
-      "secondsAgo": 2340,
+      "secondsAgo": 2619,
       "sourceId": 1795875729
+    },
+    {
+      "monsterId": 448,
+      "pokemon": "Lucario",
+      "region": "Johto",
+      "location": "Mt. Silver Cave",
+      "secondsAgo": 1639,
+      "sourceId": 1795876709
     },
     {
       "monsterId": 122,
       "pokemon": "Mr. Mime",
       "region": "Sinnoh",
       "location": "Route 224",
-      "secondsAgo": 12246,
-      "sourceId": 1795865823
+      "secondsAgo": 12524,
+      "sourceId": 1795865824
     }
   ],
   "alpha": {
