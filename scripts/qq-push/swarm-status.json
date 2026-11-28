@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-28T11:35:40.594Z",
+  "fetchedAt": "2026-11-28T11:41:26.412Z",
   "swarms": [
     {
       "monsterId": 259,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-28T11:47:24.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 122,
+      "pokemon": "Mr. Mime",
+      "region": "Sinnoh",
+      "location": "Route 224",
+      "sourceId": 1795867323,
+      "despawnTimestamp": 1795867323,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-28T12:02:03.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,7 +30,7 @@
       "pokemon": "Tauros",
       "region": "Kanto",
       "location": "Route 17",
-      "secondsAgo": 17724,
+      "secondsAgo": 18070,
       "sourceId": 1795848016
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Totodile",
       "region": "Johto",
       "location": "Route 32",
-      "secondsAgo": 5210,
+      "secondsAgo": 5556,
       "sourceId": 1795860530
-    },
-    {
-      "monsterId": 241,
-      "pokemon": "Miltank",
-      "region": "Sinnoh",
-      "location": "Route 214",
-      "secondsAgo": 7746,
-      "sourceId": 1795857994
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 11276,
+      "secondsAgo": 11622,
       "sourceId": 1795854464
     }
   ],
