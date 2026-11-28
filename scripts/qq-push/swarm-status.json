@@ -1,21 +1,33 @@
 {
-  "fetchedAt": "2026-11-28T05:50:49.279Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-28T05:55:47.436Z",
+  "swarms": [
+    {
+      "monsterId": 299,
+      "pokemon": "Nosepass",
+      "region": "Sinnoh",
+      "location": "Oreburgh Gate",
+      "sourceId": 1795846642,
+      "despawnTimestamp": 1795846642,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-28T06:17:22.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 1,
       "pokemon": "Bulbasaur",
       "region": "Kanto",
       "location": "Viridian Forest",
-      "secondsAgo": 6817,
-      "sourceId": 1795838232
+      "secondsAgo": 7116,
+      "sourceId": 1795838231
     },
     {
       "monsterId": 339,
       "pokemon": "Barboach",
       "region": "Johto",
       "location": "Slowpoke Well",
-      "secondsAgo": 2056,
+      "secondsAgo": 2354,
       "sourceId": 1795842993
     },
     {
@@ -23,23 +35,15 @@
       "pokemon": "Lapras",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 11511,
+      "secondsAgo": 11809,
       "sourceId": 1795833538
-    },
-    {
-      "monsterId": 442,
-      "pokemon": "Spiritomb",
-      "region": "Sinnoh",
-      "location": "Turnback Cave",
-      "secondsAgo": 11141,
-      "sourceId": 1795833908
     },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 2054,
+      "secondsAgo": 2352,
       "sourceId": 1795842995
     }
   ],
