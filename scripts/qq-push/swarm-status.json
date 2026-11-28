@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-28T07:40:48.095Z",
+  "fetchedAt": "2026-11-28T07:45:50.384Z",
   "swarms": [
     {
       "monsterId": 237,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-28T07:50:54.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 369,
+      "pokemon": "Relicanth",
+      "region": "Hoenn",
+      "location": "Route 126",
+      "sourceId": 1795853251,
+      "despawnTimestamp": 1795853251,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-28T08:07:31.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,23 +30,15 @@
       "pokemon": "Tauros",
       "region": "Kanto",
       "location": "Route 17",
-      "secondsAgo": 3632,
+      "secondsAgo": 3934,
       "sourceId": 1795848016
-    },
-    {
-      "monsterId": 455,
-      "pokemon": "Carnivine",
-      "region": "Hoenn",
-      "location": "Route 123",
-      "secondsAgo": 5377,
-      "sourceId": 1795846271
     },
     {
       "monsterId": 299,
       "pokemon": "Nosepass",
       "region": "Sinnoh",
       "location": "Oreburgh Gate",
-      "secondsAgo": 6505,
+      "secondsAgo": 6807,
       "sourceId": 1795845143
     },
     {
@@ -43,8 +46,8 @@
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 8652,
-      "sourceId": 1795842996
+      "secondsAgo": 8955,
+      "sourceId": 1795842995
     }
   ],
   "alpha": {
