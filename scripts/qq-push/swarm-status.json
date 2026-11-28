@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-11-28T02:56:15.070Z",
+  "fetchedAt": "2026-11-28T03:01:18.778Z",
   "swarms": [
-    {
-      "monsterId": 190,
-      "pokemon": "Aipom",
-      "region": "Johto",
-      "location": "Route 29",
-      "sourceId": 1795834805,
-      "despawnTimestamp": 1795834805,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-28T03:00:05.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Hoenn",
       "location": "Route 125",
       "sourceId": 1795835037,
-      "despawnTimestamp": 1795835037,
+      "despawnTimestamp": 1795835036,
       "hasValuable": false,
       "timestampUtc": "2026-11-28T03:03:57.000Z",
       "publishedBy": ""
@@ -29,7 +18,7 @@
       "region": "Sinnoh",
       "location": "Turnback Cave",
       "sourceId": 1795835408,
-      "despawnTimestamp": 1795835408,
+      "despawnTimestamp": 1795835407,
       "hasValuable": false,
       "timestampUtc": "2026-11-28T03:10:08.000Z",
       "publishedBy": ""
@@ -52,8 +41,16 @@
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "secondsAgo": 12782,
-      "sourceId": 1795821793
+      "secondsAgo": 13086,
+      "sourceId": 1795821792
+    },
+    {
+      "monsterId": 190,
+      "pokemon": "Aipom",
+      "region": "Johto",
+      "location": "Route 29",
+      "secondsAgo": 1573,
+      "sourceId": 1795833305
     }
   ],
   "alpha": {
