@@ -1,29 +1,33 @@
 {
-  "fetchedAt": "2026-11-28T17:35:45.413Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-28T17:40:51.578Z",
+  "swarms": [
+    {
+      "monsterId": 153,
+      "pokemon": "Bayleef",
+      "region": "Johto",
+      "location": "National Park",
+      "sourceId": 1795888963,
+      "despawnTimestamp": 1795888962,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-28T18:02:43.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 328,
       "pokemon": "Trapinch",
       "region": "Kanto",
       "location": "Diglett&#x27;s Cave",
-      "secondsAgo": 11616,
+      "secondsAgo": 11922,
       "sourceId": 1795875729
-    },
-    {
-      "monsterId": 448,
-      "pokemon": "Lucario",
-      "region": "Johto",
-      "location": "Mt. Silver Cave",
-      "secondsAgo": 10636,
-      "sourceId": 1795876709
     },
     {
       "monsterId": 517,
       "pokemon": "Munna",
       "region": "Hoenn",
       "location": "Route 102",
-      "secondsAgo": 9687,
+      "secondsAgo": 9993,
       "sourceId": 1795877658
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Carnivine",
       "region": "Sinnoh",
       "location": "Route 225",
-      "secondsAgo": 3616,
+      "secondsAgo": 3922,
       "sourceId": 1795883729
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Minun",
       "region": "Unova",
       "location": "Route 6",
-      "secondsAgo": 9379,
+      "secondsAgo": 9685,
       "sourceId": 1795877966
     }
   ],
