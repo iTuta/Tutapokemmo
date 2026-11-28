@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-28T03:01:18.778Z",
+  "fetchedAt": "2026-11-28T03:05:50.440Z",
   "swarms": [
-    {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Hoenn",
-      "location": "Route 125",
-      "sourceId": 1795835037,
-      "despawnTimestamp": 1795835036,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-28T03:03:57.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
@@ -41,7 +30,7 @@
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "secondsAgo": 13086,
+      "secondsAgo": 13358,
       "sourceId": 1795821792
     },
     {
@@ -49,8 +38,16 @@
       "pokemon": "Aipom",
       "region": "Johto",
       "location": "Route 29",
-      "secondsAgo": 1573,
+      "secondsAgo": 1845,
       "sourceId": 1795833305
+    },
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Hoenn",
+      "location": "Route 125",
+      "secondsAgo": 1612,
+      "sourceId": 1795833538
     }
   ],
   "alpha": {
