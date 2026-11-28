@@ -1,13 +1,25 @@
 {
-  "fetchedAt": "2026-11-28T20:56:10.381Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-28T21:01:06.889Z",
+  "swarms": [
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Unova",
+      "location": "Relic Castle",
+      "sourceId": 1795901044,
+      "despawnTimestamp": 1795901043,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-28T21:24:04.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 5,
       "pokemon": "Charmeleon",
       "region": "Kanto",
       "location": "Rock Tunnel",
-      "secondsAgo": 6845,
+      "secondsAgo": 7141,
       "sourceId": 1795892525
     },
     {
@@ -15,7 +27,7 @@
       "pokemon": "Totodile",
       "region": "Johto",
       "location": "Route 32",
-      "secondsAgo": 2360,
+      "secondsAgo": 2656,
       "sourceId": 1795897010
     },
     {
@@ -23,7 +35,7 @@
       "pokemon": "Croagunk",
       "region": "Hoenn",
       "location": "Route 121",
-      "secondsAgo": 4049,
+      "secondsAgo": 4345,
       "sourceId": 1795895321
     },
     {
@@ -31,16 +43,8 @@
       "pokemon": "Magmar",
       "region": "Sinnoh",
       "location": "Fuego Ironworks",
-      "secondsAgo": 4029,
+      "secondsAgo": 4325,
       "sourceId": 1795895341
-    },
-    {
-      "monsterId": 451,
-      "pokemon": "Skorupi",
-      "region": "Unova",
-      "location": "Desert Resort",
-      "secondsAgo": 8611,
-      "sourceId": 1795890759
     }
   ],
   "alpha": {
