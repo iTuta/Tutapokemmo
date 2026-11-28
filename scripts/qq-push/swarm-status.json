@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-28T14:50:53.993Z",
+  "fetchedAt": "2026-11-28T14:55:46.727Z",
   "swarms": [
     {
       "monsterId": 448,
@@ -7,9 +7,20 @@
       "region": "Johto",
       "location": "Mt. Silver Cave",
       "sourceId": 1795878208,
-      "despawnTimestamp": 1795878207,
+      "despawnTimestamp": 1795878208,
       "hasValuable": false,
       "timestampUtc": "2026-11-28T15:03:28.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 517,
+      "pokemon": "Munna",
+      "region": "Hoenn",
+      "location": "Route 102",
+      "sourceId": 1795879158,
+      "despawnTimestamp": 1795879157,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-28T15:19:18.000Z",
       "publishedBy": ""
     }
   ],
@@ -19,24 +30,16 @@
       "pokemon": "Trapinch",
       "region": "Kanto",
       "location": "Diglett&#x27;s Cave",
-      "secondsAgo": 1724,
+      "secondsAgo": 2017,
       "sourceId": 1795875729
-    },
-    {
-      "monsterId": 259,
-      "pokemon": "Marshtomp",
-      "region": "Hoenn",
-      "location": "Route 124",
-      "secondsAgo": 12509,
-      "sourceId": 1795864944
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 9277,
-      "sourceId": 1795868176
+      "secondsAgo": 9569,
+      "sourceId": 1795868177
     }
   ],
   "alpha": {
