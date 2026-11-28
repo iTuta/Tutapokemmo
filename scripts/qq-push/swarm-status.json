@@ -1,6 +1,17 @@
 {
-  "fetchedAt": "2026-11-28T06:10:58.778Z",
+  "fetchedAt": "2026-11-28T06:16:13.976Z",
   "swarms": [
+    {
+      "monsterId": 455,
+      "pokemon": "Carnivine",
+      "region": "Hoenn",
+      "location": "Route 123",
+      "sourceId": 1795847770,
+      "despawnTimestamp": 1795847769,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-28T06:36:10.000Z",
+      "publishedBy": ""
+    },
     {
       "monsterId": 299,
       "pokemon": "Nosepass",
@@ -19,7 +30,7 @@
       "pokemon": "Bulbasaur",
       "region": "Kanto",
       "location": "Viridian Forest",
-      "secondsAgo": 8027,
+      "secondsAgo": 8342,
       "sourceId": 1795838231
     },
     {
@@ -27,23 +38,15 @@
       "pokemon": "Barboach",
       "region": "Johto",
       "location": "Slowpoke Well",
-      "secondsAgo": 3265,
+      "secondsAgo": 3580,
       "sourceId": 1795842993
-    },
-    {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Hoenn",
-      "location": "Route 125",
-      "secondsAgo": 12721,
-      "sourceId": 1795833537
     },
     {
       "monsterId": 637,
       "pokemon": "Volcarona",
       "region": "Unova",
       "location": "Relic Castle",
-      "secondsAgo": 3263,
+      "secondsAgo": 3578,
       "sourceId": 1795842995
     }
   ],
