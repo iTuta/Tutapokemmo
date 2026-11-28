@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-28T02:35:47.434Z",
+  "fetchedAt": "2026-11-28T02:40:55.624Z",
   "swarms": [
     {
       "monsterId": 190,
@@ -11,6 +11,17 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-28T03:00:05.000Z",
       "publishedBy": ""
+    },
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Hoenn",
+      "location": "Route 125",
+      "sourceId": 1795835037,
+      "despawnTimestamp": 1795835036,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-28T03:03:57.000Z",
+      "publishedBy": ""
     }
   ],
   "lastSeen": [
@@ -19,23 +30,15 @@
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "secondsAgo": 11555,
+      "secondsAgo": 11863,
       "sourceId": 1795821792
-    },
-    {
-      "monsterId": 415,
-      "pokemon": "Combee",
-      "region": "Hoenn",
-      "location": "Route 117",
-      "secondsAgo": 12160,
-      "sourceId": 1795821187
     },
     {
       "monsterId": 248,
       "pokemon": "Tyranitar",
       "region": "Sinnoh",
       "location": "Stark Mountain",
-      "secondsAgo": 6123,
+      "secondsAgo": 6431,
       "sourceId": 1795827224
     },
     {
@@ -43,7 +46,7 @@
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 10503,
+      "secondsAgo": 10811,
       "sourceId": 1795822844
     }
   ],
