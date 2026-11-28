@@ -1,21 +1,25 @@
 {
-  "fetchedAt": "2026-11-28T19:01:10.606Z",
-  "swarms": [],
-  "lastSeen": [
+  "fetchedAt": "2026-11-28T19:06:15.498Z",
+  "swarms": [
     {
-      "monsterId": 328,
-      "pokemon": "Trapinch",
+      "monsterId": 5,
+      "pokemon": "Charmeleon",
       "region": "Kanto",
-      "location": "Diglett&#x27;s Cave",
-      "secondsAgo": 16741,
-      "sourceId": 1795875729
-    },
+      "location": "Rock Tunnel",
+      "sourceId": 1795894025,
+      "despawnTimestamp": 1795894024,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-28T19:27:05.000Z",
+      "publishedBy": ""
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Johto",
       "location": "Union Cave",
-      "secondsAgo": 2389,
+      "secondsAgo": 2694,
       "sourceId": 1795890081
     },
     {
@@ -23,7 +27,7 @@
       "pokemon": "Finneon",
       "region": "Hoenn",
       "location": "Route 107",
-      "secondsAgo": 3148,
+      "secondsAgo": 3453,
       "sourceId": 1795889322
     },
     {
@@ -31,7 +35,7 @@
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 4585,
+      "secondsAgo": 4890,
       "sourceId": 1795887885
     },
     {
@@ -39,7 +43,7 @@
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 1711,
+      "secondsAgo": 2016,
       "sourceId": 1795890759
     }
   ],
