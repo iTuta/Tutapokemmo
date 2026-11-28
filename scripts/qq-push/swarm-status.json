@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-28T04:01:01.551Z",
+  "fetchedAt": "2026-11-28T04:05:48.948Z",
   "swarms": [
     {
       "monsterId": 1,
@@ -11,34 +11,31 @@
       "hasValuable": false,
       "timestampUtc": "2026-11-28T04:22:11.000Z",
       "publishedBy": ""
-    },
+    }
+  ],
+  "lastSeen": [
     {
       "monsterId": 157,
       "pokemon": "Typhlosion",
       "region": "Johto",
       "location": "Route 45",
-      "sourceId": 1795838564,
-      "despawnTimestamp": 1795838563,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-28T04:02:44.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
+      "secondsAgo": 1684,
+      "sourceId": 1795837064
+    },
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 4923,
-      "sourceId": 1795833538
+      "secondsAgo": 5211,
+      "sourceId": 1795833537
     },
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Sinnoh",
       "location": "Turnback Cave",
-      "secondsAgo": 4553,
+      "secondsAgo": 4840,
       "sourceId": 1795833908
     },
     {
@@ -46,8 +43,8 @@
       "pokemon": "Cherubi",
       "region": "Unova",
       "location": "Route 16",
-      "secondsAgo": 4351,
-      "sourceId": 1795834110
+      "secondsAgo": 4639,
+      "sourceId": 1795834109
     }
   ],
   "alpha": {
