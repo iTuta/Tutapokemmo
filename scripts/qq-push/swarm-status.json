@@ -1,45 +1,49 @@
 {
-  "fetchedAt": "2026-11-28T10:06:12.278Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-28T10:10:51.860Z",
+  "swarms": [
+    {
+      "monsterId": 158,
+      "pokemon": "Totodile",
+      "region": "Johto",
+      "location": "Route 32",
+      "sourceId": 1795862029,
+      "despawnTimestamp": 1795862028,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-28T10:33:49.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 128,
       "pokemon": "Tauros",
       "region": "Kanto",
       "location": "Route 17",
-      "secondsAgo": 12356,
-      "sourceId": 1795848016
-    },
-    {
-      "monsterId": 237,
-      "pokemon": "Hitmontop",
-      "region": "Johto",
-      "location": "Mt. Mortar",
-      "secondsAgo": 9617,
-      "sourceId": 1795850755
+      "secondsAgo": 12636,
+      "sourceId": 1795848015
     },
     {
       "monsterId": 369,
       "pokemon": "Relicanth",
       "region": "Hoenn",
       "location": "Route 126",
-      "secondsAgo": 8620,
-      "sourceId": 1795851752
+      "secondsAgo": 8900,
+      "sourceId": 1795851751
     },
     {
       "monsterId": 241,
       "pokemon": "Miltank",
       "region": "Sinnoh",
       "location": "Route 214",
-      "secondsAgo": 2377,
-      "sourceId": 1795857995
+      "secondsAgo": 2657,
+      "sourceId": 1795857994
     },
     {
       "monsterId": 193,
       "pokemon": "Yanma",
       "region": "Unova",
       "location": "Pinwheel Forest",
-      "secondsAgo": 5908,
+      "secondsAgo": 6187,
       "sourceId": 1795854464
     }
   ],
