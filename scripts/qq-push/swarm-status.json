@@ -1,45 +1,46 @@
 {
-  "fetchedAt": "2026-11-28T05:40:51.706Z",
-  "swarms": [
+  "fetchedAt": "2026-11-28T05:46:08.059Z",
+  "swarms": [],
+  "lastSeen": [
+    {
+      "monsterId": 1,
+      "pokemon": "Bulbasaur",
+      "region": "Kanto",
+      "location": "Viridian Forest",
+      "secondsAgo": 6536,
+      "sourceId": 1795838232
+    },
     {
       "monsterId": 339,
       "pokemon": "Barboach",
       "region": "Johto",
       "location": "Slowpoke Well",
-      "sourceId": 1795844493,
-      "despawnTimestamp": 1795844492,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-28T05:41:33.000Z",
-      "publishedBy": ""
+      "secondsAgo": 1774,
+      "sourceId": 1795842994
     },
-    {
-      "monsterId": 637,
-      "pokemon": "Volcarona",
-      "region": "Unova",
-      "location": "Relic Castle",
-      "sourceId": 1795844495,
-      "despawnTimestamp": 1795844494,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-28T05:41:35.000Z",
-      "publishedBy": ""
-    }
-  ],
-  "lastSeen": [
     {
       "monsterId": 131,
       "pokemon": "Lapras",
       "region": "Hoenn",
       "location": "Route 125",
-      "secondsAgo": 10914,
-      "sourceId": 1795833537
+      "secondsAgo": 11230,
+      "sourceId": 1795833538
     },
     {
       "monsterId": 442,
       "pokemon": "Spiritomb",
       "region": "Sinnoh",
       "location": "Turnback Cave",
-      "secondsAgo": 10543,
-      "sourceId": 1795833908
+      "secondsAgo": 10859,
+      "sourceId": 1795833909
+    },
+    {
+      "monsterId": 637,
+      "pokemon": "Volcarona",
+      "region": "Unova",
+      "location": "Relic Castle",
+      "secondsAgo": 1772,
+      "sourceId": 1795842996
     }
   ],
   "alpha": {
