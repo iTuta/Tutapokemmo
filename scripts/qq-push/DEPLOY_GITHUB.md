@@ -10,7 +10,8 @@
 ## 工作方式
 
 - 工作流文件：`.github/workflows/swarm-push.yml`（仅 `workflow_dispatch` 触发，由外部 cron 每 5 分钟调用，也可在 GitHub 上手动触发）。
-- 推送脚本：`scripts/qq-push/index.js --once`（定时模式：每轮推送当前活跃明雷，最新报点为主报，附其他活跃清单与头目报点，地点为中文）。
+- 推送脚本：`scripts/qq-push/index.js --once`（定时模式：**有新明雷或有新头目才发消息**；微信照旧报全量，QQ 群只报 `watchlist.json` 里的精灵，同一场头目只报一次，地点为中文）。
+- 关注名单：`scripts/qq-push/watchlist.json`（仓库内文件，改完 commit 就生效，不用碰 GitHub 变量）。
 - 已推送记录：`scripts/qq-push/seen.json` 保存在仓库里，由工作流自动提交回仓库，避免重复推送。
 - Webhook 密钥：存在 GitHub 的加密 Secret 里，不会出现在代码或仓库文件中。
 
@@ -35,10 +36,10 @@
 4. 可选过滤（Settings → Secrets and variables → Actions → Variables 新增）：
    - `SWARM_ONLY_VALUABLE=true`：只推有价值的明雷
    - `SWARM_REGIONS=合众,神奥`：只推指定地区
-   - `SWARM_MONSTER_IDS=176,328`：只推指定宝可梦
+   - 报哪些精灵由仓库里的 `scripts/qq-push/watchlist.json` 决定，**不要**再设 `SWARM_MONSTER_IDS` 变量（设了会盖掉文件名单）。
 5. 回到 Actions 页面，选择「明雷报点推送」工作流 → Run workflow 手动跑一次测试；
    也可以在仓库里直接打开日志确认运行成功。
-6. 去企业微信群确认收到当前明雷后，就全部完成。之后每 5 分钟自动运行，无需任何操作。
+6. 等群里收到第一条报点，就全部完成。之后每 5 分钟自动运行，没有新报点时不会发消息。
 
 ## 排错
 

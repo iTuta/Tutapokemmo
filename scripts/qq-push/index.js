@@ -8,6 +8,8 @@ const CONFIG_PATH = path.join(ROOT, 'config.json');
 const SEEN_PATH = path.join(ROOT, 'seen.json');
 const PENDING_PATH = path.join(ROOT, 'pending.json');
 const BOSS_LAST_PATH = path.join(ROOT, 'boss-last.json');
+// 关注名单：QQ 群只报这些精灵的明雷，其它精灵一律不报点（名单随仓库走，Actions 上也能读到）
+const WATCHLIST_PATH = path.join(ROOT, 'watchlist.json');
 const DATA_FILE = path.join(ROOT, '..', '..', 'web', 'search-data.js');
 const TOKEN_URL = 'https://api.bot.qq.com/app/getAppAccessToken';
 const REGION_NAMES = {
@@ -58,7 +60,9 @@ function saveJson(file, data) {
 }
 
 function saveSeen() {
-  saveJson(SEEN_PATH, { ids: Array.from(seen) });
+  // 只留最近 500 条：明雷和头目都记在里面，长期积累会把仓库里的 seen.json 撑大
+  const ids = Array.from(seen);
+  saveJson(SEEN_PATH, { ids: ids.slice(-500) });
 }
 
 function savePending() {
@@ -330,22 +334,31 @@ async function sendQmsgSafely(content) {
   }
 }
 
-async function sendMessage(content) {
+async function sendMessage(content, qqContent) {
+  // 两个通道两套内容：微信（主通道）看全量；QQ 群只看关注名单。
+  // qqContent 省略时两个通道发同一份；显式传 null / '' 表示这条不发 QQ 群。
+  const qqText = qqContent === undefined ? content : qqContent;
   if (channel === 'wechat') {
-    const res = await fetch(wechatWebhook, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ msgtype: 'text', text: { content } }),
-    });
-    const data = await res.json().catch(() => ({}));
-    if (!res.ok || data.errcode !== 0) {
-      throw new Error('微信推送失败 HTTP ' + res.status + ' ' + JSON.stringify(data));
+    if (content) {
+      const res = await fetch(wechatWebhook, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ msgtype: 'text', text: { content } }),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok || data.errcode !== 0) {
+        throw new Error('微信推送失败 HTTP ' + res.status + ' ' + JSON.stringify(data));
+      }
+      if (qqText) await sendQmsgSafely(qqText);
+      return data;
     }
-    await sendQmsgSafely(content);
-    return data;
+    if (qqText) await sendQmsgSafely(qqText);
+    return {};
   }
-  const result = await sendGroupMessage(config.groupOpenid, content);
-  await sendQmsgSafely(content);
+  // 没有配微信 webhook：官方 QQ 机器人本身就是「QQ 群」，也只报名单内的
+  if (!qqText) return {};
+  const result = await sendGroupMessage(config.groupOpenid, qqText);
+  await sendQmsgSafely(qqText);
   return result;
 }
 
@@ -353,43 +366,78 @@ function formatMessage(item, title) {
   const info = nameById.get(item.monsterId) || {};
   const name = info.name || item.pokemon || ('#' + item.monsterId);
   const region = REGION_NAMES[item.region] || item.region || '未知地区';
-  const remain = Math.max(0, (item.despawnTimestamp || 0) - Math.floor(Date.now() / 1000));
-  const minutes = Math.floor(remain / 60);
-  const seconds = remain % 60;
-  const timeText = minutes > 0 ? minutes + ' 分 ' + seconds + ' 秒' : seconds + ' 秒';
-  const despawnText = item.despawnTimestamp
-    ? new Date(item.despawnTimestamp * 1000).toLocaleTimeString('zh-CN', {
-        hour12: false,
-        timeZone: 'Asia/Shanghai',
-      })
-    : '未知';
+  const now = Math.floor(Date.now() / 1000);
   const valuable = item.hasValuable ? '（有价值）' : '';
   return [
     (title || '【明雷报点】') + name + ' #' + item.monsterId + valuable,
-    '地区：' + region,
-    '地点：' + translateLocation(item.location),
-    '剩余：' + timeText + '（' + despawnText + ' 消失）',
+    '  ' + region + ' · ' + translateLocation(item.location),
+    '  剩 ' + remainText(item, now) + '（' + (clockText(item.despawnTimestamp) || '未知') + ' 消失）',
   ].join('\n');
 }
 
-const BOSS_SEPARATOR = '\n\n\n\n';
+const BOSS_SEPARATOR = '\n\n\n';
 
 // 推送模板：按地区分组展示明雷（合众/城都/关都/丰缘/神奥），无则显示暂无
 const REGION_ORDER = ['Unova', 'Johto', 'Kanto', 'Hoenn', 'Sinnoh'];
 
-// 推送计数：顶部显示 GitHub Actions 运行次数（第 N 次推送）；非 Actions 环境（本地测试）不显示
+// 地区小标题前缀（纯装饰，QQ / 微信都能正常显示）
+const REGION_MARK = '▎';
+
+// 推送头部时间（HH:MM）
+function clockHm(date) {
+  return (date || new Date()).toLocaleTimeString('zh-CN', {
+    hour12: false,
+    hour: '2-digit',
+    minute: '2-digit',
+    timeZone: 'Asia/Shanghai',
+  });
+}
+
+// 剩余时间：秒 -> "X分Y秒" / "Y秒"
+function remainText(item, now) {
+  const remain = Math.max(0, (item.despawnTimestamp || 0) - now);
+  const minutes = Math.floor(remain / 60);
+  const seconds = remain % 60;
+  return minutes > 0 ? minutes + '分' + seconds + '秒' : seconds + '秒';
+}
+
+// 剩余时间（长版）：头目一场 4 小时 45 分，"270分0秒" 读起来太别扭
+function remainLongText(item, now) {
+  const remain = Math.max(0, (item.despawnTimestamp || 0) - now);
+  const hours = Math.floor(remain / 3600);
+  if (!hours) return remainText(item, now);
+  const minutes = Math.floor((remain % 3600) / 60);
+  return hours + '小时' + minutes + '分';
+}
+
+// 消失时刻（HH:MM:SS）
+function clockText(ts) {
+  if (!ts) return '';
+  return new Date(ts * 1000).toLocaleTimeString('zh-CN', {
+    hour12: false,
+    timeZone: 'Asia/Shanghai',
+  });
+}
+
+// 推送头部：顶部显示 GitHub Actions 运行次数（第 N 次检查）；非 Actions 环境（本地测试）不显示
+// 注：现在只在新报点时才发消息，所以这个数字是「检查次数」，不是「发消息次数」
 function nextPushHeader() {
   const runNumber = Number(process.env.GITHUB_RUN_NUMBER);
   if (Number.isFinite(runNumber) && runNumber > 0) {
-    return '【第' + runNumber + '次推送】';
+    return '【第' + runNumber + '次检查】';
   }
   return null;
 }
 
-function buildSwarmMessage(active, lastSeen) {
+// active / lastSeen 由调用方先过滤好；watchOnly 只影响「上次明雷」要不要按名单筛
+// （微信通道全量，watchOnly=false；QQ 群只报名单内的，watchOnly=true）
+function buildSwarmMessage(active, lastSeen, watchOnly) {
   const now = Math.floor(Date.now() / 1000);
+  const onlyWatched = watchOnly !== false;
   const header = nextPushHeader();
-  const lines = header ? [header, '【明雷报点】'] : ['【明雷报点】'];
+  const lines = ['【明雷报点】' + clockHm()];
+  if (header) lines.push(header);
+  lines.push('');
   const byRegion = {};
   (active || []).forEach((item) => {
     const key = item.region || '未知';
@@ -397,50 +445,70 @@ function buildSwarmMessage(active, lastSeen) {
   });
   const lastByRegion = {};
   (lastSeen || []).forEach((item) => {
+    // 只报关注名单时，「上次明雷」也只认名单里的精灵
+    if (onlyWatched && !passesWatchlist(item)) return;
     const key = item.region || '未知';
     if (!lastByRegion[key]) lastByRegion[key] = item;
   });
   const regions = REGION_ORDER.concat(
     Object.keys(byRegion).filter((r) => REGION_ORDER.indexOf(r) === -1)
   );
-  regions.forEach((region, idx) => {
-    const items = byRegion[region] || [];
+  // 每个地区生成一个「块」，块之间空一行；既没活跃明雷、也没有关注精灵上次明雷的地区合并成一行
+  const blocks = [];
+  const emptyRegions = [];
+  regions.forEach((region) => {
+    const zh = REGION_NAMES[region] || region;
+    const items = (byRegion[region] || [])
+      .slice()
+      .sort((a, b) => (a.despawnTimestamp || 0) - (b.despawnTimestamp || 0));
     if (!items.length) {
       // 无活跃明雷：显示该地区上次明雷（精灵名、地点、距离上次出现多久）
       const last = lastByRegion[region];
-      if (last) {
-        const info = nameById.get(last.monsterId) || {};
-        const name = info.name || last.pokemon || ('#' + last.monsterId);
-        lines.push((REGION_NAMES[region] || region) + '——精灵：' + name + '（上次明雷）');
-        lines.push('      地点：' + translateLocation(last.location));
-        lines.push('      上次出现：' + formatAgo(last.secondsAgo) + '前');
-      } else {
-        lines.push((REGION_NAMES[region] || region) + '——精灵：暂无明雷');
-        lines.push('      地点：暂无明雷');
-        lines.push('      剩余：暂无明雷');
+      if (!last) {
+        emptyRegions.push(zh);
+        return;
       }
-    } else {
-      items
-        .slice()
-        .sort((a, b) => (a.despawnTimestamp || 0) - (b.despawnTimestamp || 0))
-        .forEach((item) => {
-          const info = nameById.get(item.monsterId) || {};
-          const name = info.name || item.pokemon || ('#' + item.monsterId);
-          const remain = Math.max(0, (item.despawnTimestamp || 0) - now);
-          const minutes = Math.floor(remain / 60);
-          const seconds = remain % 60;
-          const despawnText = item.despawnTimestamp
-            ? new Date(item.despawnTimestamp * 1000).toLocaleTimeString('zh-CN', {
-                hour12: false,
-                timeZone: 'Asia/Shanghai',
-              })
-            : '';
-          lines.push((REGION_NAMES[region] || region) + '——精灵：' + name + ' #' + item.monsterId);
-          lines.push('      地点：' + translateLocation(item.location));
-          lines.push('      剩余：' + minutes + '分' + seconds + '秒（' + despawnText + '消失）');
-        });
+      const info = nameById.get(last.monsterId) || {};
+      const name = info.name || last.pokemon || ('#' + last.monsterId);
+      const ago = formatAgo(last.secondsAgo);
+      blocks.push([
+        REGION_MARK +
+          zh +
+          ' · 无明雷（上次：' +
+          name +
+          ' #' +
+          last.monsterId +
+          ' · ' +
+          translateLocation(last.location) +
+          (ago ? ' · ' + ago + '前' : '') +
+          '）',
+      ]);
+      return;
     }
-    if (idx < regions.length - 1) lines.push('');
+    const block = [REGION_MARK + zh];
+    items.forEach((item) => {
+      const info = nameById.get(item.monsterId) || {};
+      const name = info.name || item.pokemon || ('#' + item.monsterId);
+      const valuable = item.hasValuable ? '（有价值）' : '';
+      block.push(name + ' #' + item.monsterId + valuable);
+      block.push(
+        '  ' +
+          translateLocation(item.location) +
+          ' · 剩 ' +
+          remainText(item, now) +
+          '（' +
+          (clockText(item.despawnTimestamp) || '未知') +
+          ' 消失）'
+      );
+    });
+    blocks.push(block);
+  });
+  if (emptyRegions.length) {
+    blocks.push([REGION_MARK + emptyRegions.join('、') + ' · 无明雷']);
+  }
+  blocks.forEach((block, idx) => {
+    lines.push(...block);
+    if (idx < blocks.length - 1) lines.push('');
   });
   return lines.join('\n');
 }
@@ -457,17 +525,76 @@ function formatAgo(secondsAgo) {
   return hours + '小时' + (mins ? mins + '分' : '');
 }
 
+// ---------- 明雷关注名单 ----------
+// 顺序：环境变量 SWARM_MONSTER_IDS > config.json 的 monsterIds > watchlist.json（仓库内的正式名单）
+let watchlistCache = null;
+let watchlistBroken = false;
+function watchlist() {
+  if (watchlistCache) return watchlistCache;
+  const parse = (value) =>
+    String(value)
+      .split(',')
+      .map((v) => Number(String(v).trim()))
+      .filter((v) => Number.isFinite(v) && v > 0);
+  let ids = [];
+  let from = '';
+  const envVal = process.env.SWARM_MONSTER_IDS;
+  if (envVal && String(envVal).trim()) {
+    ids = parse(envVal);
+    from = '环境变量 SWARM_MONSTER_IDS';
+  } else if (Array.isArray(config.monsterIds) && config.monsterIds.length) {
+    ids = parse(config.monsterIds.join(','));
+    from = 'config.json 的 monsterIds';
+  } else {
+    const file = loadJson(WATCHLIST_PATH, null);
+    if (file && Array.isArray(file.monsterIds)) {
+      ids = parse(file.monsterIds.join(','));
+      from = 'watchlist.json';
+    } else {
+      // 文件丢了（比如忘了一起提交到仓库）：宁可一条都不报，也不能把全部精灵刷进群
+      watchlistBroken = true;
+      from = 'watchlist.json（缺失或格式不对）';
+    }
+  }
+  watchlistCache = ids;
+  if (watchlistBroken) {
+    fail('关注名单读不到（' + from + '）：本轮不报任何明雷，请检查 watchlist.json 是否已提交');
+  } else if (ids.length) {
+    log('明雷关注名单（' + from + '）：共', ids.length, '种 →', ids.join(','));
+  } else {
+    log('明雷关注名单为空：将推送所有精灵的明雷');
+  }
+  return ids;
+}
+
+// 只看精灵是否在关注名单里（不含「有价值」「地区」这两个额外过滤）
+function passesWatchlist(item) {
+  const ids = watchlist();
+  if (watchlistBroken) return false;
+  if (!ids.length) return true;
+  return ids.includes(Number(item && item.monsterId));
+}
+
+// 同一批活跃明雷里，除它自己以外的其它（不再看关注名单，微信通道要全量）
 function otherActiveItems(item, list) {
+  const now = Math.floor(Date.now() / 1000);
   return (list || []).filter(
     (other) =>
       other &&
       other.sourceId != null &&
       String(other.sourceId) !== String(item.sourceId) &&
-      passesFilter(other)
+      (!other.despawnTimestamp || other.despawnTimestamp > now) &&
+      passesBase(other)
   );
 }
 
 function passesFilter(item) {
+  if (!passesWatchlist(item)) return false;
+  return passesBase(item);
+}
+
+// 只看「有价值」「地区」这两个通用过滤（微信通道全量报点用，不看关注名单）
+function passesBase(item) {
   const onlyValuable = envOrConfig('SWARM_ONLY_VALUABLE', config.onlyValuable);
   if ((onlyValuable === true || onlyValuable === 'true') && !item.hasValuable) {
     return false;
@@ -480,18 +607,6 @@ function passesFilter(item) {
     .map((value) => value.trim())
     .filter((value) => value !== '');
   if (regions.length && !regions.includes(item.region)) return false;
-  const monsterIds = envOrConfig(
-    'SWARM_MONSTER_IDS',
-    Array.isArray(config.monsterIds) ? config.monsterIds.join(',') : ''
-  )
-    .split(',')
-    .map((value) => value.trim())
-    .filter((value) => value !== '')
-    .map(Number)
-    .filter((value) => Number.isFinite(value));
-  if (monsterIds.length && !monsterIds.includes(item.monsterId)) {
-    return false;
-  }
   return true;
 }
 
@@ -984,9 +1099,16 @@ function recordSwarmStatus(status) {
 }
 
 async function pushItem(item, others) {
-  const message = buildSwarmMessage([item].concat(others || []));
+  const list = [item].concat(others || []);
+  const watched = list.filter(passesWatchlist);
   log('推送新明雷：', item.pokemon || item.monsterId, item.region, item.location);
-  await sendMessage(message);
+  // 微信：全量；QQ 群：只有名单内的精灵才发（这条不在名单里就干脆不发 QQ）
+  await sendMessage(
+    buildSwarmMessage(list, null, false),
+    passesWatchlist(item) && watched.length
+      ? buildSwarmMessage(watched, null, true)
+      : null
+  );
 }
 
 async function processPending(list) {
@@ -1011,64 +1133,30 @@ async function processPending(list) {
   savePending();
 }
 
-function buildBossLastBody(item) {
+// ---------- 头目报点：只在「收到头目出现」的那一轮发一次 ----------
+// 一次头目 = 一个 4h45m 时段，只发一条消息；之后不再重复，也不再发「当前无活跃头目」。
+
+// 去重键：用「这场头目的消失时刻」（alpha-list 链接里的 timestamp=，一场 4h45m 内不变），
+// 精确到分钟，既好读又不会因为解析出几秒误差就把同一场头目重复报出去。
+function bossDedupeKey(item) {
+  if (!item) return null;
+  const despawn = Number(item.despawnTimestamp) || 0;
+  if (!despawn) return null;
+  return 'alpha:' + new Date(despawn * 1000).toISOString().slice(0, 16) + 'Z';
+}
+
+function buildBossText(item) {
   const info = nameById.get(item.monsterId) || {};
   const name = info.name || item.pokemon || ('#' + item.monsterId);
   const region = REGION_NAMES[item.region] || item.region || '';
-  const loc = item.location ? translateLocation(item.location) : '';
-  const appear = new Date(item.timestampUtc || item.timestampRaw || 0);
-  const appearText = !isNaN(appear.getTime())
-    ? appear.toLocaleString('zh-CN', { hour12: false, timeZone: 'Asia/Shanghai' })
-    : '未知';
-  const end = item.despawnTimestamp
-    ? new Date(item.despawnTimestamp * 1000).toLocaleTimeString('zh-CN', {
-        hour12: false,
-        timeZone: 'Asia/Shanghai',
-      })
-    : '未知';
-  return (
-    '上次头目：' + name + ' #' + item.monsterId +
-    (region ? ' ' + region : '') + (loc ? ' ' + loc : '') + '\n' +
-    '上次出现：' + appearText + '\n' +
-    '结束时间：' + end
-  );
-}
-
-function buildBossLastLine(item) {
-  return '【头目报点】当前无活跃头目\n' + buildBossLastBody(item);
-}
-
-function buildBossActiveSection(active) {
-  const latest = active
-    .slice()
-    .sort((a, b) => new Date(b.timestampUtc || 0) - new Date(a.timestampUtc || 0))[0];
-  const info = nameById.get(latest.monsterId) || {};
-  const name = info.name || latest.pokemon || ('#' + latest.monsterId);
-  const region = REGION_NAMES[latest.region] || latest.region || '';
-  const loc = latest.location ? translateLocation(latest.location) : '';
-  const remain = Math.max(0, (latest.despawnTimestamp || 0) - Math.floor(Date.now() / 1000));
-  const minutes = Math.floor(remain / 60);
-  const seconds = remain % 60;
-  const timeText = minutes > 0 ? minutes + ' 分 ' + seconds + ' 秒' : seconds + ' 秒';
-  const despawnText = latest.despawnTimestamp
-    ? new Date(latest.despawnTimestamp * 1000).toLocaleTimeString('zh-CN', {
-        hour12: false,
-        timeZone: 'Asia/Shanghai',
-      })
-    : '未知';
-  const lines = [
-    '【头目报点】' + name + ' #' + latest.monsterId +
-      (region ? ' ' + region : '') + (loc ? ' ' + loc : ''),
-    '地区：' + (region || '未知'),
-    '地点：' + (loc || '未知'),
-    '剩余：' + timeText + '（' + despawnText + ' 消失）',
-  ];
-  const saved = loadJson(BOSS_LAST_PATH, null);
-  if (saved) {
-    lines.push('', '', '');
-    lines.push(buildBossLastBody(saved));
-  }
-  return lines.join('\n');
+  const loc = item.location ? translateLocation(item.location) : '未知地点';
+  const now = Math.floor(Date.now() / 1000);
+  return [
+    '【头目报点】' + name + ' #' + item.monsterId + (region ? ' · ' + region : ''),
+    '  ' + loc +
+      ' · 剩 ' + remainLongText(item, now) +
+      '（' + (clockText(item.despawnTimestamp) || '未知') + ' 消失）',
+  ].join('\n');
 }
 
 async function buildBossSection(statusArg) {
@@ -1094,43 +1182,60 @@ async function buildBossSection(statusArg) {
   }
   const savedTime = saved ? Date.parse(saved.timestampUtc || '') || 0 : 0;
   const alphaTime = alpha ? Date.parse(alpha.timestampUtc || '') || 0 : 0;
-  if (alpha && alphaTime > savedTime) {
+  // 本地只留「最新一场头目」的记录（boss-last.json），比现有记录更新就覆盖；
+  // 是否要推送不看这里，只看下面 seen 里有没有这条去重键。
+  const isNew = Boolean(alpha) && alphaTime > savedTime;
+  if (isNew) {
     saveJson(BOSS_LAST_PATH, alpha);
     saved = alpha;
   }
 
-  // 展示以本地记录为准（自己记录上次头目），不用网站 latest_ping
-  let latest = saved || null;
-  let text;
-  if (latest && latest.despawnTimestamp && latest.despawnTimestamp > now) {
-    text = buildBossActiveSection([latest]);
-  } else if (latest) {
-    text = buildBossLastLine(latest);
-  } else {
-    text = '';
+  const latest = saved || null;
+  if (!latest || !latest.despawnTimestamp) {
+    return { text: '', key: '' };
   }
-  // 返回展示文本 + 最新一条记录的时间戳（用于“有新头目才推送”的判定）
-  return { text, latestTs: latest ? String(latest.timestampUtc || '') : '' };
+  const key = bossDedupeKey(latest);
+  const active = latest.despawnTimestamp > now;
+  // 这场已经结束 / 拿不到去重键 / 已经报过 → 本轮不发头目段。
+  // 是否报过只看 seen（发成功才写入），所以发送失败下一轮还能补报。
+  if (!active || !key || seen.has(key)) {
+    return { text: '', key: '' };
+  }
+  return { text: buildBossText(latest), key };
 }
 
 async function pollOnce(pushAllActive) {
   // 数据源统一走 alphapedia：一次请求同时拿到活跃明雷与最新头目
   let status = null;
-  let fetchFailed = false;
   try {
     status = await fetchAlphapediaStatus();
   } catch (err) {
     fail('拉取报点数据失败：', err.message);
-    fetchFailed = true;
   }
   const list = status ? status.swarms : [];
   const now = Math.floor(Date.now() / 1000);
+  // 两套口径：微信看全量（只过「有价值/地区」），QQ 群只看关注名单
+  const activeAll = list.filter(
+    (item) =>
+      item &&
+      item.sourceId != null &&
+      passesBase(item) &&
+      (!item.despawnTimestamp || item.despawnTimestamp > now)
+  );
+  const activeWatched = activeAll.filter(passesWatchlist);
+  // 本轮新出现的才报点：同一条明雷只报一次，之后不再刷屏
+  const freshAll = activeAll.filter((item) => !seen.has(String(item.sourceId)));
+  const freshWatched = freshAll.filter(passesWatchlist);
+  // 头目段复用同一份 alphapedia 状态（避免二次请求）；只有「收到头目出现」的那一轮才有文本
+  const boss = status
+    ? await buildBossSection(status).catch((err) => {
+        fail('头目报点处理失败：', err.message);
+        return { text: '', key: '' };
+      })
+    : { text: '', key: '' };
+
   if (!pushAllActive) {
-    const fresh = list.filter((item) => {
-      if (!item || item.sourceId == null || !passesFilter(item)) return false;
-      return !seen.has(String(item.sourceId));
-    });
-    for (const item of fresh) {
+    for (const item of freshAll) {
       try {
         await pushItem(item, otherActiveItems(item, list));
         seen.add(String(item.sourceId));
@@ -1142,29 +1247,49 @@ async function pollOnce(pushAllActive) {
     saveSeen();
     savePending();
     await processPending(list);
+    if (boss.text) {
+      try {
+        await sendMessage(boss.text);
+        if (boss.key) seen.add(boss.key);
+        saveSeen();
+        log('头目报点已推送。');
+      } catch (err) {
+        fail('头目推送失败：', err.message);
+      }
+    }
     return;
   }
 
-  const active = list.filter(
-    (item) =>
-      item &&
-      item.sourceId != null &&
-      passesFilter(item) &&
-      (!item.despawnTimestamp || item.despawnTimestamp > now)
-  );
-  // 头目段复用同一份 alphapedia 状态（避免二次请求）
-  const boss = await buildBossSection(status).catch((err) => {
-    fail('头目报点处理失败：', err.message);
-    return { text: '', latestTs: '' };
-  });
-
-  // 定时模式：每轮固定推送一次（含全部活跃明雷地区分组 + 上次明雷 + 头目段），不做新增去重
-  let message = buildSwarmMessage(active, status && status.lastSeen);
-  if (fetchFailed) message += '\n（数据源获取异常，以上信息可能不准确）';
-  message += boss.text ? BOSS_SEPARATOR + boss.text : '';
+  // 定时模式（cron / 外部调度）：本轮没有任何「该发的东西」→ 一条消息都不发
+  // （微信全量，所以任何新明雷都算；只有 QQ 通道时，只有名单内的新明雷才算）
+  const hasNews = channel === 'wechat' ? freshAll.length > 0 : freshWatched.length > 0;
+  if (!hasNews && !boss.text) {
+    log(
+      status
+        ? '本轮无新报点（活跃明雷 ' + activeAll.length + ' 条，其中名单内 ' + activeWatched.length + ' 条），不推送。'
+        : '本轮数据源获取失败，不推送。'
+    );
+    return;
+  }
+  // 微信：当前所有活跃明雷（含刚出现的）；QQ 群：只列名单内的，没有就不发这一条
+  const lastSeen = status && status.lastSeen;
+  let primaryMsg = freshAll.length ? buildSwarmMessage(activeAll, lastSeen, false) : '';
+  let qqMsg = freshWatched.length ? buildSwarmMessage(activeWatched, lastSeen, true) : '';
+  if (boss.text) {
+    primaryMsg = primaryMsg ? primaryMsg + BOSS_SEPARATOR + boss.text : boss.text;
+    qqMsg = qqMsg ? qqMsg + BOSS_SEPARATOR + boss.text : boss.text;
+  }
   try {
-    await sendMessage(message);
-    log('推送成功（活跃明雷', active.length, '条）。');
+    await sendMessage(primaryMsg, qqMsg || null);
+    // 微信收到全量；没有微信通道时官方 QQ 机器人只收到名单内的
+    const delivered = channel === 'wechat' ? freshAll : freshWatched;
+    delivered.forEach((item) => seen.add(String(item.sourceId)));
+    if (boss.key) seen.add(boss.key);
+    saveSeen();
+    log(
+      '推送成功（微信新增 ' + freshAll.length + ' 条 / QQ 群新增 ' + freshWatched.length + ' 条，活跃 ' +
+        activeAll.length + ' 条，其中名单内 ' + activeWatched.length + ' 条）。'
+    );
   } catch (err) {
     fail('推送失败：', err.message);
   }
@@ -1292,10 +1417,10 @@ async function runTest() {
       fail('测试推送需要目标群。请把机器人拉进群后 @它发送「' + (config.autoBindCommand || '绑定') + '」，或手动填写 config.json 的 groupOpenid。');
       return 1;
     }
-    const item = (list.find((x) => x && passesFilter(x))) || list[0];
+    const item = list.find((x) => x && passesFilter(x));
     const content = item
       ? formatMessage(item)
-      : '【明雷报点测试】\n当前没有正在报点的明雷，机器人通道工作正常。';
+      : '【明雷报点测试】\n当前关注名单里没有正在报点的明雷，机器人通道工作正常。';
     log('发送测试消息…');
     await sendMessage(content);
     log('测试消息已发送。');
