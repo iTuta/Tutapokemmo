@@ -1,33 +1,21 @@
 {
-  "fetchedAt": "2026-11-28T01:15:45.138Z",
-  "swarms": [
-    {
-      "monsterId": 248,
-      "pokemon": "Tyranitar",
-      "region": "Sinnoh",
-      "location": "Stark Mountain",
-      "sourceId": 1795828724,
-      "despawnTimestamp": 1795828724,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-28T01:18:44.000Z",
-      "publishedBy": ""
-    }
-  ],
+  "fetchedAt": "2026-11-28T01:21:17.253Z",
+  "swarms": [],
   "lastSeen": [
     {
       "monsterId": 127,
       "pokemon": "Pinsir",
       "region": "Kanto",
       "location": "Route 11",
-      "secondsAgo": 6752,
-      "sourceId": 1795821793
+      "secondsAgo": 7085,
+      "sourceId": 1795821792
     },
     {
       "monsterId": 320,
       "pokemon": "Wailmer",
       "region": "Johto",
       "location": "Route 40",
-      "secondsAgo": 5992,
+      "secondsAgo": 6324,
       "sourceId": 1795822553
     },
     {
@@ -35,15 +23,23 @@
       "pokemon": "Combee",
       "region": "Hoenn",
       "location": "Route 117",
-      "secondsAgo": 7358,
+      "secondsAgo": 7690,
       "sourceId": 1795821187
+    },
+    {
+      "monsterId": 248,
+      "pokemon": "Tyranitar",
+      "region": "Sinnoh",
+      "location": "Stark Mountain",
+      "secondsAgo": 1652,
+      "sourceId": 1795827225
     },
     {
       "monsterId": 314,
       "pokemon": "Illumise",
       "region": "Unova",
       "location": "Moor of Icirrus",
-      "secondsAgo": 5701,
+      "secondsAgo": 6033,
       "sourceId": 1795822844
     }
   ],
