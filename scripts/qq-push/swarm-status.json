@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-11-28T18:45:58.104Z",
+  "fetchedAt": "2026-11-28T18:50:44.109Z",
   "swarms": [
-    {
-      "monsterId": 131,
-      "pokemon": "Lapras",
-      "region": "Johto",
-      "location": "Union Cave",
-      "sourceId": 1795891580,
-      "despawnTimestamp": 1795891581,
-      "hasValuable": false,
-      "timestampUtc": "2026-11-28T18:46:20.000Z",
-      "publishedBy": ""
-    },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
@@ -30,15 +19,23 @@
       "pokemon": "Trapinch",
       "region": "Kanto",
       "location": "Diglett&#x27;s Cave",
-      "secondsAgo": 15829,
+      "secondsAgo": 16115,
       "sourceId": 1795875729
+    },
+    {
+      "monsterId": 131,
+      "pokemon": "Lapras",
+      "region": "Johto",
+      "location": "Union Cave",
+      "secondsAgo": 1763,
+      "sourceId": 1795890081
     },
     {
       "monsterId": 456,
       "pokemon": "Finneon",
       "region": "Hoenn",
       "location": "Route 107",
-      "secondsAgo": 2236,
+      "secondsAgo": 2522,
       "sourceId": 1795889322
     },
     {
@@ -46,7 +43,7 @@
       "pokemon": "Infernape",
       "region": "Sinnoh",
       "location": "Route 221",
-      "secondsAgo": 3673,
+      "secondsAgo": 3959,
       "sourceId": 1795887885
     }
   ],
