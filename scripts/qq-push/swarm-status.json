@@ -1,13 +1,36 @@
 {
-  "fetchedAt": "2026-11-28T19:46:22.279Z",
-  "swarms": [],
+  "fetchedAt": "2026-11-28T19:50:55.980Z",
+  "swarms": [
+    {
+      "monsterId": 453,
+      "pokemon": "Croagunk",
+      "region": "Hoenn",
+      "location": "Route 121",
+      "sourceId": 1795896820,
+      "despawnTimestamp": 1795896820,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-28T20:13:40.000Z",
+      "publishedBy": ""
+    },
+    {
+      "monsterId": 126,
+      "pokemon": "Magmar",
+      "region": "Sinnoh",
+      "location": "Fuego Ironworks",
+      "sourceId": 1795896841,
+      "despawnTimestamp": 1795896840,
+      "hasValuable": false,
+      "timestampUtc": "2026-11-28T20:14:01.000Z",
+      "publishedBy": ""
+    }
+  ],
   "lastSeen": [
     {
       "monsterId": 5,
       "pokemon": "Charmeleon",
       "region": "Kanto",
       "location": "Rock Tunnel",
-      "secondsAgo": 2657,
+      "secondsAgo": 2930,
       "sourceId": 1795892525
     },
     {
@@ -15,31 +38,15 @@
       "pokemon": "Lapras",
       "region": "Johto",
       "location": "Union Cave",
-      "secondsAgo": 5101,
+      "secondsAgo": 5374,
       "sourceId": 1795890081
-    },
-    {
-      "monsterId": 456,
-      "pokemon": "Finneon",
-      "region": "Hoenn",
-      "location": "Route 107",
-      "secondsAgo": 5860,
-      "sourceId": 1795889322
-    },
-    {
-      "monsterId": 392,
-      "pokemon": "Infernape",
-      "region": "Sinnoh",
-      "location": "Route 221",
-      "secondsAgo": 7297,
-      "sourceId": 1795887885
     },
     {
       "monsterId": 451,
       "pokemon": "Skorupi",
       "region": "Unova",
       "location": "Desert Resort",
-      "secondsAgo": 4423,
+      "secondsAgo": 4696,
       "sourceId": 1795890759
     }
   ],
